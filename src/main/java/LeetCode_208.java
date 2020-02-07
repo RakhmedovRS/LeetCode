@@ -7,7 +7,7 @@ import java.util.Map;
  */
 public class LeetCode_208
 {
-	static class TrieNode
+	class TrieNode
 	{
 		private Map<Character, TrieNode> children;
 		private boolean isEnd;
@@ -43,7 +43,7 @@ public class LeetCode_208
 		}
 	}
 
-	static public class Trie
+	public class Trie
 	{
 		TrieNode root;
 
