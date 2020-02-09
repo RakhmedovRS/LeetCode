@@ -2,10 +2,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * Implement Trie (Prefix Tree)
+ * LeetCode task 208
+ *
  * @author RakhmedovRS
  * @created 07-Feb-20
  */
-public class LeetCode_208
+public class PrefixTree
 {
 	class TrieNode
 	{

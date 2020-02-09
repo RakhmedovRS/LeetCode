@@ -1,8 +1,11 @@
 /**
+ * Kth Largest Element in an Array
+ * LeetCode 215
+ *
  * @author RakhmedovRS
  * @created 06-Feb-20
  */
-public class LeetCode_215
+public class KthLargestElementInAnArray
 {
 	private void swap(int[] nums, int left, int right)
 	{

@@ -1,10 +1,13 @@
 import java.util.LinkedList;
 
 /**
+ * Kth Smallest Element in a BST
+ * LeetCode 230
+ *
  * @author RakhmedovRS
  * @created 08-Feb-20
  */
-public class LeetCode_230
+public class KthSmallestElementInBST
 {
 	public static class TreeNode
 	{
