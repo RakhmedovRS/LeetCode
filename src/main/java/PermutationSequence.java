@@ -1,13 +1,9 @@
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-
 /**
  * Permutation Sequence
  * LeetCode 60
  *
  * @author RakhmedovRS
- * @created 02-Mar-20
+ * @created 03-Mar-20
  */
 public class PermutationSequence
 {
@@ -19,54 +15,67 @@ public class PermutationSequence
 			values[i] = i + 1;
 		}
 
-		List<List<Integer>> permutations = new ArrayList<>();
-		getPermutation(values, k, permutations, new LinkedList<>());
-
-		return convertArrayToString(permutations.get(permutations.size() - 1));
-	}
-
-	public void getPermutation(int[] values, int k, List<List<Integer>> permutations, LinkedList<Integer> currentPermutation)
-	{
-		if (values.length == 0)
+		if (n == 1)
 		{
-			permutations.add(new ArrayList<>(currentPermutation));
-			return;
+			return "1";
 		}
 
-		for (int i = 0; i < values.length; i++)
+		for (int i = 1; i < k; i++)
 		{
-			if (permutations.size() == k)
+			nextPermutation(values);
+		}
+
+		StringBuilder result = new StringBuilder(values.length);
+		for (int value : values)
+		{
+			result.append(value);
+		}
+		return result.toString();
+	}
+
+	private void nextPermutation(int[] nums)
+	{
+
+		int startIndex = nums.length - 2;
+
+		while (startIndex >= 0 && nums[startIndex] >= nums[startIndex + 1])
+		{
+			startIndex--;
+		}
+
+		if (startIndex >= 0)
+		{
+
+			int endIndex = nums.length - 1;
+			while (endIndex >= 0 && nums[startIndex] >= nums[endIndex])
 			{
-				return;
+				endIndex--;
 			}
-			currentPermutation.addLast(values[i]);
-			getPermutation(getSubArray(values, i), k, permutations, currentPermutation);
-			currentPermutation.removeLast();
+
+			swap(nums, startIndex, endIndex);
+		}
+
+		reverse(nums, startIndex + 1);
+	}
+
+	private void reverse(int[] nums, int start)
+	{
+
+		int left = start;
+		int right = nums.length - 1;
+
+		while (left < right)
+		{
+			swap(nums, left, right);
+			left++;
+			right--;
 		}
 	}
 
-	private String convertArrayToString(List<Integer> values)
+	private void swap(int[] nums, int left, int right)
 	{
-		StringBuilder stringBuilder = new StringBuilder(values.size());
-		for (int val : values)
-		{
-			stringBuilder.append(val);
-		}
-
-		return stringBuilder.toString();
-	}
-
-	private int[] getSubArray(int[] values, int excludedIndex)
-	{
-		int[] subArray = new int[values.length - 1];
-		for (int i = 0, j = 0; i < values.length; i++)
-		{
-			if (i != excludedIndex)
-			{
-				subArray[j++] = values[i];
-			}
-		}
-
-		return subArray;
+		int temp = nums[left];
+		nums[left] = nums[right];
+		nums[right] = temp;
 	}
 }
