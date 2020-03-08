@@ -23,19 +23,6 @@ public class BinaryNumberWithAlternatingBits
 			n = n >> 1;
 		}
 
-		boolean meetFirstBite = false;
-		while (!meetFirstBite)
-		{
-			if (cache.charAt(cache.length() - 1) == '1')
-			{
-				meetFirstBite = true;
-			}
-			else
-			{
-				cache.deleteCharAt(cache.length() - 1);
-			}
-		}
-
 		for (int i = 1; i <= cache.length() - 1; i++)
 		{
 			if (cache.charAt(i) == cache.charAt(i - 1))
