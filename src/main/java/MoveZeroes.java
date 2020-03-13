@@ -1,10 +1,8 @@
 /**
- * Move Zeroes
- * LeetCode 283
- *
  * @author RakhmedovRS
  * @created 03-Mar-20
  */
+@LeetCode(id = 283, name = "Move Zeroes", url = "https://leetcode.com/problems/move-zeroes/")
 public class MoveZeroes
 {
 	public void moveZeroes(int[] nums)
