@@ -28,10 +28,6 @@ public class PlusOne
 			int add = 1;
 			for (int i = digits.length - 1; i >= 0; i--)
 			{
-				if (add == 0)
-				{
-					break;
-				}
 				if (digits[i] + add >= 10)
 				{
 					digits[i] = 0;
@@ -39,7 +35,7 @@ public class PlusOne
 				else
 				{
 					digits[i] += 1;
-					add = 0;
+					break;
 				}
 			}
 
