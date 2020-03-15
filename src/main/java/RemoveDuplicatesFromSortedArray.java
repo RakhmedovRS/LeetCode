@@ -1,3 +1,5 @@
+import common.LeetCode;
+
 /**
  * @author RakhmedovRS
  * @created 11-Mar-20
