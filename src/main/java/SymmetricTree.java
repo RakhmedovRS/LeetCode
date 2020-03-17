@@ -18,8 +18,7 @@ public class SymmetricTree
 
 	public boolean isSymmetric(TreeNode root)
 	{
-		TreeNode secondRoot = cloneTree(root);
-		invertTree(secondRoot);
+		TreeNode secondRoot = cloneAndInvertTree(root);
 		return isSameTree(root, secondRoot);
 	}
 
@@ -41,7 +40,7 @@ public class SymmetricTree
 		return false;
 	}
 
-	private TreeNode cloneTree(TreeNode root)
+	private TreeNode cloneAndInvertTree(TreeNode root)
 	{
 		if (root == null)
 		{
@@ -49,23 +48,8 @@ public class SymmetricTree
 		}
 
 		TreeNode newNode = new TreeNode(root.val);
-		newNode.left = cloneTree(root.left);
-		newNode.right = cloneTree(root.right);
+		newNode.left = cloneAndInvertTree(root.right);
+		newNode.right = cloneAndInvertTree(root.left);
 		return newNode;
-	}
-
-	private void invertTree(TreeNode root)
-	{
-		if (root == null)
-		{
-			return;
-		}
-
-		TreeNode temp = root.left;
-		root.left = root.right;
-		root.right = temp;
-
-		invertTree(root.left);
-		invertTree(root.right);
 	}
 }
