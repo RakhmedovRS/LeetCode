@@ -11,6 +11,46 @@ public class WordSearch
 {
 	public boolean exist(char[][] board, String word)
 	{
+		for (int row = 0; row < board.length; row++)
+		{
+			for (int column = 0; column < board[row].length; column++)
+			{
+				if (exist(board, row, column, word, 0))
+				{
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+
+	private boolean exist(char[][] board, int row, int column, String word, int start)
+	{
+		if (start >= word.length())
+		{
+			return true;
+		}
+		if (row < 0 || row >= board.length || column < 0 || column >= board[0].length)
+		{
+			return false;
+		}
+
+		if (board[row][column] == word.charAt(start++))
+		{
+			char c = board[row][column];
+			board[row][column] = '#';
+			boolean res = exist(board, row + 1, column, word, start)
+				|| exist(board, row - 1, column, word, start)
+				|| exist(board, row, column + 1, word, start)
+				|| exist(board, row, column - 1, word, start);
+			board[row][column] = c;
+			return res;
+		}
+		return false;
+	}
+
+	public boolean exist1(char[][] board, String word)
+	{
 		Map<Character, List<Map.Entry<Integer, Integer>>> memo = new HashMap<>();
 		for (int row = 0; row < board.length; row++)
 		{
@@ -37,7 +77,7 @@ public class WordSearch
 		{
 			if (visited.add(position))
 			{
-				if (exists(memo, visited, position, word.substring(1)))
+				if (exists1(memo, visited, position, word.substring(1)))
 				{
 					return true;
 				}
@@ -48,10 +88,10 @@ public class WordSearch
 		return false;
 	}
 
-	private boolean exists(Map<Character, List<Map.Entry<Integer, Integer>>> memo,
-	                       Set<Map.Entry<Integer, Integer>> visited,
-	                       Map.Entry<Integer, Integer> prevPosition,
-	                       String word)
+	private boolean exists1(Map<Character, List<Map.Entry<Integer, Integer>>> memo,
+	                        Set<Map.Entry<Integer, Integer>> visited,
+	                        Map.Entry<Integer, Integer> prevPosition,
+	                        String word)
 	{
 		if ("".equals(word))
 		{
@@ -63,7 +103,7 @@ public class WordSearch
 		{
 			if (isAdjacent(prevPosition, position) && visited.add(position))
 			{
-				if (exists(memo, visited, position, word.substring(1)))
+				if (exists1(memo, visited, position, word.substring(1)))
 				{
 					return true;
 				}
@@ -83,26 +123,26 @@ public class WordSearch
 
 	public static void main(String[] args)
 	{
-		System.out.println(new WordSearch().exist(
+		System.out.println(new WordSearch().exist1(
 			new char[][]{
 				{'A'},
 			}, "AB"));
 
-		System.out.println(new WordSearch().exist(
+		System.out.println(new WordSearch().exist1(
 			new char[][]{
 				{'A', 'B', 'C', 'E'},
 				{'S', 'F', 'C', 'S'},
 				{'A', 'D', 'E', 'E'}
 			}, "ABCCED"));
 
-		System.out.println(new WordSearch().exist(
+		System.out.println(new WordSearch().exist1(
 			new char[][]{
 				{'A', 'B', 'C', 'E'},
 				{'S', 'F', 'C', 'S'},
 				{'A', 'D', 'E', 'E'}
 			}, "SEE"));
 
-		System.out.println(new WordSearch().exist(
+		System.out.println(new WordSearch().exist1(
 			new char[][]{
 				{'A', 'B', 'C', 'E'},
 				{'S', 'F', 'C', 'S'},
