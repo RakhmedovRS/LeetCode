@@ -38,11 +38,14 @@ public class Collector
 		Path output = Paths.get(Paths.get("").toAbsolutePath().toString() + "\\README.MD");
 		try (OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(output.toFile()));)
 		{
+			osw.write("| LeetCode ID        | Name           |\n");
+			osw.write("| -------------------|:--------------:|\n");
+
 			annotations.forEach(leetCode ->
 			{
 				try
 				{
-					osw.write(String.format("LeetCode %d.  [%s](%s)\n", leetCode.id(), leetCode.name(), leetCode.url()));
+					osw.write(String.format("|%d|[%s](%s)\n", leetCode.id(), leetCode.name(), leetCode.url()));
 				}
 				catch (Exception ignore)
 				{
