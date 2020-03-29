@@ -42,7 +42,7 @@ public class Collector
 			{
 				try
 				{
-					osw.write(String.format("%d.  [%s](%s)\n", leetCode.id(), leetCode.name(), leetCode.url()));
+					osw.write(String.format("LeetCode %d.  [%s](%s)\n", leetCode.id(), leetCode.name(), leetCode.url()));
 				}
 				catch (Exception ignore)
 				{
