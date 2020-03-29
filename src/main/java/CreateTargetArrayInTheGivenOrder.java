@@ -8,8 +8,7 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 29-Mar-20
  */
-@LeetCode(id = 1389, name = "Create Target Array in the Given Order",
-url = "https://leetcode.com/problems/create-target-array-in-the-given-order/")
+@LeetCode(id = 1389, name = "Create Target Array in the Given Order", url = "https://leetcode.com/problems/create-target-array-in-the-given-order/")
 public class CreateTargetArrayInTheGivenOrder
 {
 	public int[] createTargetArray(int[] nums, int[] index)

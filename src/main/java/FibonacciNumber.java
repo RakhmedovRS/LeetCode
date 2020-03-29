@@ -1,10 +1,10 @@
+import common.LeetCode;
+
 /**
- * Fibonacci Number
- * LeetCode 509
- *
  * @author RakhmedovRS
  * @created 13-Feb-20
  */
+@LeetCode(id = 509, name = "Fibonacci Number", url = "https://leetcode.com/problems/fibonacci-number/")
 public class FibonacciNumber
 {
 	static int[] FIB = new int[31];

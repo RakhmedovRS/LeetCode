@@ -1,13 +1,13 @@
+import common.LeetCode;
+
 import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Generate Parentheses
- * LeetCode 22
- *
  * @author RakhmedovRS
  * @created 13-Feb-20
  */
+@LeetCode(id = 22, name = "Generate Parentheses", url = "https://leetcode.com/problems/generate-parentheses/")
 public class GenerateParentheses
 {
 	public void generateParenthesis(List<String> result, String currentState, int left, int right)

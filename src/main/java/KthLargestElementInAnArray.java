@@ -1,10 +1,10 @@
+import common.LeetCode;
+
 /**
- * Kth Largest Element in an Array
- * LeetCode 215
- *
  * @author RakhmedovRS
  * @created 06-Feb-20
  */
+@LeetCode(id = 215, name = "Kth Largest Element in an Array", url = "https://leetcode.com/problems/kth-largest-element-in-an-array/")
 public class KthLargestElementInAnArray
 {
 	private void swap(int[] nums, int left, int right)

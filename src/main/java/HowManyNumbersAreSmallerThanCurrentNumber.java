@@ -8,8 +8,7 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 28-Mar-20
  */
-@LeetCode(id = 1365, name = "How Many Numbers Are Smaller Than the Current Number",
-url = "https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/")
+@LeetCode(id = 1365, name = "How Many Numbers Are Smaller Than the Current Number", url = "https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/")
 public class HowManyNumbersAreSmallerThanCurrentNumber
 {
 	public int[] smallerNumbersThanCurrent(int[] nums)

@@ -4,8 +4,7 @@ import common.LeetCode;
  * @author RakhmedovRS
  * @created 26-Mar-20
  */
-@LeetCode(id = 108, name = "Convert Sorted Array to Binary Search Tree",
-	url = "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/")
+@LeetCode(id = 108, name = "Convert Sorted Array to Binary Search Tree", url = "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/")
 public class ConvertSortedArrayToBinarySearchTree
 {
 	public class TreeNode

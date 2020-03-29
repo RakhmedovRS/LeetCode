@@ -1,10 +1,10 @@
+import common.LeetCode;
+
 /**
- * Climbing Stairs
- * LeetCode 70
- *
  * @author RakhmedovRS
  * @created 13-Feb-20
  */
+@LeetCode(id = 70, name = "Climbing Stairs", url = "https://leetcode.com/problems/climbing-stairs/")
 public class ClimbingStairs
 {
 	public int climbStairs(int n)

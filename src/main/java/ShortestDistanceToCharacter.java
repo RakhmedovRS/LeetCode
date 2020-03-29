@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 24-Mar-20
  */
-@LeetCode(id = 821, name = "Shortest Distance to a Character", url = "")
+@LeetCode(id = 821, name = "Shortest Distance to a Character", url = "https://leetcode.com/problems/shortest-distance-to-a-character/")
 public class ShortestDistanceToCharacter
 {
 	public int[] shortestToChar(String string, char ch)

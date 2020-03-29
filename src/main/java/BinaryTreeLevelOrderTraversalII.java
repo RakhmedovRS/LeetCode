@@ -6,8 +6,7 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 19-Mar-20
  */
-@LeetCode(id = 107, name = "Binary Tree Level Order Traversal II",
-	url = "https://leetcode.com/problems/binary-tree-level-order-traversal-ii/")
+@LeetCode(id = 107, name = "Binary Tree Level Order Traversal II", url = "https://leetcode.com/problems/binary-tree-level-order-traversal-ii/")
 public class BinaryTreeLevelOrderTraversalII
 {
 	public class TreeNode

@@ -1,12 +1,12 @@
+import common.LeetCode;
+
 import java.util.Arrays;
 
 /**
- * Candy
- * LeetCode 135
- *
  * @author RakhmedovRS
  * @created 08-Mar-20
  */
+@LeetCode(id = 135, name = "Candy", url = "https://leetcode.com/problems/candy/")
 public class Candy
 {
 	public int candy(int[] ratings)

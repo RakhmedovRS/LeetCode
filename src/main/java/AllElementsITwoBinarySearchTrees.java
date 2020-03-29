@@ -1,14 +1,14 @@
+import common.LeetCode;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 /**
- * All Elements in Two Binary Search Trees
- * LeetCode 1305
- *
  * @author RakhmedovRS
  * @created 18-Feb-20
  */
+@LeetCode(id = 1305, name = "All Elements in Two Binary Search Trees", url = "https://leetcode.com/problems/all-elements-in-two-binary-search-trees/")
 public class AllElementsITwoBinarySearchTrees
 {
 	public class TreeNode

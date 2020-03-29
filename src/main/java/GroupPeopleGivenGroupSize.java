@@ -1,15 +1,15 @@
+import common.LeetCode;
+
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
 /**
- * Group the People Given the Group Size They Belong To
- * LeetCode 1282
- *
  * @author RakhmedovRS
  * @created 09-Feb-20
  */
+@LeetCode(id = 1282, name = "Group the People Given the Group Size They Belong To", url = "https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/")
 public class GroupPeopleGivenGroupSize
 {
 	public List<List<Integer>> groupThePeople(int[] groupSizes) {

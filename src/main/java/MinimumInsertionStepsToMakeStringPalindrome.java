@@ -6,8 +6,7 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 24-Mar-20
  */
-@LeetCode(id = 1312, name = "Minimum Insertion Steps to Make a String Palindrome",
-	url = "https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/")
+@LeetCode(id = 1312, name = "Minimum Insertion Steps to Make a String Palindrome", url = "https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/")
 public class MinimumInsertionStepsToMakeStringPalindrome
 {
 	public int minInsertions(String s)

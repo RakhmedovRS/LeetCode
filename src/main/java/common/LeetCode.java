@@ -12,7 +12,7 @@ import static java.lang.annotation.ElementType.TYPE;
  * @created 10-Mar-20
  */
 @Documented
-@Retention(RetentionPolicy.SOURCE)
+@Retention(RetentionPolicy.RUNTIME)
 @Target(value = {TYPE})
 public @interface LeetCode
 {

@@ -1,13 +1,13 @@
+import common.LeetCode;
+
 import java.util.Deque;
 import java.util.LinkedList;
 
 /**
- * Largest Rectangle in Histogram
- * LeetCode 84
- *
  * @author RakhmedovRS
  * @created 26-Feb-20
  */
+@LeetCode(id = 82, name = "Largest Rectangle in Histogram", url = "https://leetcode.com/problems/largest-rectangle-in-histogram/")
 public class LargestRectangleInHistogram
 {
 	public int largestRectangleArea(int[] h)

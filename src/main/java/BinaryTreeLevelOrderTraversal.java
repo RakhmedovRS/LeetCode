@@ -1,14 +1,14 @@
+import common.LeetCode;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Binary Tree Level Order Traversal
- * LeetCode 102
- *
  * @author RakhmedovRS
  * @created 09-Mar-20
  */
+@LeetCode(id = 102, name = "Binary Tree Level Order Traversal", url = "https://leetcode.com/problems/binary-tree-level-order-traversal/")
 public class BinaryTreeLevelOrderTraversal
 {
 	public class TreeNode

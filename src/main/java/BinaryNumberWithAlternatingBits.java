@@ -1,10 +1,10 @@
+import common.LeetCode;
+
 /**
- * Binary Number with Alternating Bits
- * LeetCode 693
- *
  * @author RakhmedovRS
  * @created 08-Mar-20
  */
+@LeetCode(id = 693, name = "Binary Number with Alternating Bits", url = "https://leetcode.com/problems/binary-number-with-alternating-bits/")
 public class BinaryNumberWithAlternatingBits
 {
 	public boolean hasAlternatingBits(int n)

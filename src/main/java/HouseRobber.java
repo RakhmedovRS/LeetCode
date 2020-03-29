@@ -1,10 +1,10 @@
+import common.LeetCode;
+
 /**
- * House Robber
- * LeetCode 198
- *
  * @author RakhmedovRS
  * @created 24-Feb-20
  */
+@LeetCode(id = 198, name = "House Robber", url = "https://leetcode.com/problems/house-robber/")
 public class HouseRobber
 {
 	public int rob(int[] nums)
@@ -18,7 +18,6 @@ public class HouseRobber
 
 		memo[0] = 0;
 		memo[1] = nums[0];
-		int max = 0;
 
 		for (int i = 1; i < nums.length; i++)
 		{

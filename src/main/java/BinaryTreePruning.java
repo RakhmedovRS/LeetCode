@@ -1,10 +1,10 @@
+import common.LeetCode;
+
 /**
- * Binary Tree Pruning
- * LeetCode 814
- *
  * @author RakhmedovRS
  * @created 18-Feb-20
  */
+@LeetCode(id = 814, name = "Binary Tree Pruning", url = "https://leetcode.com/problems/binary-tree-pruning/")
 public class BinaryTreePruning
 {
 	public static class TreeNode

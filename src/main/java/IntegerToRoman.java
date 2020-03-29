@@ -1,14 +1,14 @@
+import common.LeetCode;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
 /**
- * Integer to Roman
- * LeetCode 12
- *
  * @author RakhmedovRS
  * @created 24-Feb-20
  */
+@LeetCode(id = 12, name = "Integer to Roman", url = "https://leetcode.com/problems/integer-to-roman/")
 public class IntegerToRoman
 {
 	static List<Map.Entry<Integer, String>> dictionary = new ArrayList<>();

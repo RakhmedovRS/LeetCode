@@ -1,9 +1,10 @@
+import common.LeetCode;
+
 /**
- * Binary Tree Maximum Path Sum LeetCode 124
- *
  * @author RakhmedovRS
  * @created 21-Feb-20
  */
+@LeetCode(id = 124, name = "Binary Tree Maximum Path Sum", url = "https://leetcode.com/problems/binary-tree-maximum-path-sum/")
 public class BinaryTreeMaximumPathSum
 {
 	public class TreeNode

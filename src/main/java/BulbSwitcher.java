@@ -1,10 +1,10 @@
+import common.LeetCode;
+
 /**
- * Bulb Switcher
- * LeetCode 319
- *
  * @author RakhmedovRS
  * @created 29-Feb-20
  */
+@LeetCode(id = 319, name = "Bulb Switcher", url = "https://leetcode.com/problems/bulb-switcher/")
 public class BulbSwitcher
 {
 	public int bulbSwitch(int n)

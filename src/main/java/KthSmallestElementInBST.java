@@ -1,12 +1,12 @@
+import common.LeetCode;
+
 import java.util.LinkedList;
 
 /**
- * Kth Smallest Element in a BST
- * LeetCode 230
- *
  * @author RakhmedovRS
  * @created 08-Feb-20
  */
+@LeetCode(id = 230, name = "Kth Smallest Element in a BST", url = "https://leetcode.com/problems/kth-smallest-element-in-a-bst/")
 public class KthSmallestElementInBST
 {
 	public static class TreeNode
