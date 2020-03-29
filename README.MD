@@ -1,5 +1,5 @@
 | LeetCode ID        | Name           |
-| -------------------|:--------------:|
+| :-----------------:|:--------------:|
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 |8|[String to Integer](https://leetcode.com/problems/string-to-integer-atoi/)
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)

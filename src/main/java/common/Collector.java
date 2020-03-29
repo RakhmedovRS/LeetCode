@@ -39,7 +39,7 @@ public class Collector
 		try (OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(output.toFile()));)
 		{
 			osw.write("| LeetCode ID        | Name           |\n");
-			osw.write("| -------------------|:--------------:|\n");
+			osw.write("| :-----------------:|:--------------:|\n");
 
 			annotations.forEach(leetCode ->
 			{
