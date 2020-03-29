@@ -35,7 +35,7 @@ public class Collector
 				.sorted(Comparator.comparingInt(LeetCode::id))
 				.collect(Collectors.toList());
 
-		Path output = Paths.get(Paths.get("").toAbsolutePath().toString() + "\\src\\README.MD");
+		Path output = Paths.get(Paths.get("").toAbsolutePath().toString() + "\\README.MD");
 		try (OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(output.toFile()));)
 		{
 			annotations.forEach(leetCode ->
