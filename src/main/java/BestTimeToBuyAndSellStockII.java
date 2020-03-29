@@ -1,12 +1,10 @@
-package main.java;
+import common.LeetCode;
 
 /**
- * Best Time to Buy and Sell Stock II
- * LeetCode 122
- *
  * @author RakhmedovRS
  * @created 27-Feb-20
  */
+@LeetCode(id = 122, name = "Best Time to Buy and Sell Stock II", url = "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/")
 public class BestTimeToBuyAndSellStockII
 {
 	public int maxProfit(int[] prices)
