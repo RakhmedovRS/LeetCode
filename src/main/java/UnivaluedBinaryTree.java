@@ -1,10 +1,10 @@
+import common.LeetCode;
+
 /**
- * Univalued Binary Tree
- * LeetCode 965
- *
  * @author RakhmedovRS
  * @created 24-Feb-20
  */
+@LeetCode(id = 965, name = "Univalued Binary Tree", url = "https://leetcode.com/problems/univalued-binary-tree/")
 public class UnivaluedBinaryTree
 {
 	public class TreeNode

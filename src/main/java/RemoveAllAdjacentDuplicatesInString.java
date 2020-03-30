@@ -1,13 +1,13 @@
+import common.LeetCode;
+
 import java.util.Deque;
 import java.util.LinkedList;
 
 /**
- * Remove All Adjacent Duplicates In String
- * LeetCode 1047
- *
  * @author RakhmedovRS
  * @created 26-Feb-20
  */
+@LeetCode(id = 1047, name = "Remove All Adjacent Duplicates In String", url = "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/")
 public class RemoveAllAdjacentDuplicatesInString
 {
 	public String removeDuplicates(String S)

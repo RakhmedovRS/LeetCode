@@ -1,10 +1,10 @@
+import common.LeetCode;
+
 /**
- * Unique Paths II
- * LeetCode 63
- *
  * @author RakhmedovRS
  * @created 24-Feb-20
  */
+@LeetCode(id = 63, name = "Unique Paths II", url = "https://leetcode.com/problems/unique-paths-ii/")
 public class UniquePathsII
 {
 	public int uniquePathsWithObstacles(int[][] obstacleGrid)

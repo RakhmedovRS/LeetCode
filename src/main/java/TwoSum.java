@@ -1,13 +1,13 @@
+import common.LeetCode;
+
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Two Sum
- * LeetCode 1
- *
  * @author RakhmedovRS
  * @created 15-Feb-20
  */
+@LeetCode(id = 1, name = "Two Sum", url = "https://leetcode.com/problems/two-sum/")
 public class TwoSum
 {
 	public int[] twoSum(int[] nums, int target) {

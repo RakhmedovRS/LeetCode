@@ -1,14 +1,14 @@
+import common.LeetCode;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Permutations
- * LeetCode 46
- *
  * @author RakhmedovRS
  * @created 01-Mar-20
  */
+@LeetCode(id = 46, name = "Permutations", url = "https://leetcode.com/problems/permutations/")
 public class Permutations
 {
 	public List<List<Integer>> permute(int[] nums)

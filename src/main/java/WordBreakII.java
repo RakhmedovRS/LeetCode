@@ -1,12 +1,12 @@
+import common.LeetCode;
+
 import java.util.*;
 
 /**
- * Word Break II
- * LeetCode 140
- *
  * @author RakhmedovRS
  * @created 22-Feb-20
  */
+@LeetCode(id = 140, name = "Word Break", url = "https://leetcode.com/problems/word-break-ii/")
 public class WordBreakII
 {
 	public List<String> wordBreak(String s, List<String> wordDict)

@@ -1,10 +1,10 @@
+import common.LeetCode;
+
 /**
- * Permutation Sequence
- * LeetCode 60
- *
  * @author RakhmedovRS
  * @created 03-Mar-20
  */
+@LeetCode(id = 60, name = "Permutation Sequence", url = "https://leetcode.com/problems/permutation-sequence/")
 public class PermutationSequence
 {
 	public String getPermutation(int n, int k)

@@ -1,12 +1,12 @@
+import common.LeetCode;
+
 import java.util.*;
 
 /**
- * Top K Frequent Elements
- * LeetCode 347
- *
  * @author RakhmedovRS
  * @created 08-Mar-20
  */
+@LeetCode(id = 347, name = "Top K Frequent Elements", url = "https://leetcode.com/problems/top-k-frequent-elements/")
 public class TopKFrequentElements
 {
 	public List<Integer> topKFrequent(int[] values, int k)

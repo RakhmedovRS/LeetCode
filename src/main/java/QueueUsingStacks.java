@@ -1,13 +1,13 @@
+import common.LeetCode;
+
 import java.util.Deque;
 import java.util.LinkedList;
 
 /**
- * Implement Queue using Stacks
- * LeetCode 232
- *
  * @author RakhmedovRS
  * @created 05-Mar-20
  */
+@LeetCode(id = 232, name = "Implement Queue using Stacks", url = "https://leetcode.com/problems/implement-queue-using-stacks/")
 public class QueueUsingStacks
 {
 	class MyQueue

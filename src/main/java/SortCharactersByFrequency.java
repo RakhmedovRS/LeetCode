@@ -1,15 +1,15 @@
+import common.LeetCode;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 /**
- * Sort Characters By Frequency
- * LeetCode 451
- *
  * @author RakhmedovRS
  * @created 04-Mar-20
  */
+@LeetCode(id = 451, name = "Sort Characters By Frequency", url = "https://leetcode.com/problems/sort-characters-by-frequency/")
 public class SortCharactersByFrequency
 {
 	public String frequencySort(String s)

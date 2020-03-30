@@ -1,12 +1,12 @@
+import common.LeetCode;
+
 import java.util.Arrays;
 
 /**
- * Spiral Matrix II
- * LeetCode 59
- *
  * @author RakhmedovRS
  * @created 01-Mar-20
  */
+@LeetCode(id = 59, name = "Spiral Matrix II", url = "https://leetcode.com/problems/spiral-matrix-ii/")
 public class SpiralMatrixII
 {
 	enum Direction

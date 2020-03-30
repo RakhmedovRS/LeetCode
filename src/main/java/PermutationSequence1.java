@@ -1,14 +1,14 @@
+import common.LeetCode;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Permutation Sequence
- * LeetCode 60
- *
  * @author RakhmedovRS
  * @created 02-Mar-20
  */
+@LeetCode(id = 60, name = "Permutation Sequence", url = "https://leetcode.com/problems/permutation-sequence/")
 public class PermutationSequence1
 {
 	public String getPermutation(int n, int k)

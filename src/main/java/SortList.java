@@ -1,10 +1,10 @@
+import common.LeetCode;
+
 /**
- * Sort List
- * LeetCode 148
- *
  * @author RakhmedovRS
  * @created 04-Mar-20
  */
+@LeetCode(id = 148, name = "Sort List", url = "https://leetcode.com/problems/sort-list/")
 public class SortList
 {
 	public class ListNode

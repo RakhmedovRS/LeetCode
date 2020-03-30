@@ -1,10 +1,10 @@
+import common.LeetCode;
+
 /**
- * Search in a Binary Search Tree
- * LeetCode 700
- *
  * @author RakhmedovRS
  * @created 10-Feb-20
  */
+@LeetCode(id = 700, name = "Search in a Binary Search Tree", url = "https://leetcode.com/problems/search-in-a-binary-search-tree/")
 public class SearchInBinarySearchTree
 {
 

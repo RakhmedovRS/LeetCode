@@ -1,14 +1,14 @@
+import common.LeetCode;
+
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Queens That Can Attack the King
- * LeetCode 1222
- *
  * @author RakhmedovRS
  * @created 12-Feb-20
  */
+@LeetCode(id = 1222, name = "Queens That Can Attack the King", url = "https://leetcode.com/problems/queens-that-can-attack-the-king/")
 public class QueensThatCanAttackKing
 {
 	public boolean[][] createBoard(int[][] queens)

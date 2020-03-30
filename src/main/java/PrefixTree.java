@@ -1,13 +1,13 @@
+import common.LeetCode;
+
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Implement Trie (Prefix Tree)
- * LeetCode task 208
- *
  * @author RakhmedovRS
  * @created 07-Feb-20
  */
+@LeetCode(id = 208, name = "Implement Trie (Prefix Tree)", url = "https://leetcode.com/problems/implement-trie-prefix-tree/")
 public class PrefixTree
 {
 	class TrieNode

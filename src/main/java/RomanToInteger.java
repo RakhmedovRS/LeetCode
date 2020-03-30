@@ -1,13 +1,13 @@
+import common.LeetCode;
+
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Roman to Integer
- * LeetCode 13
- *
  * @author RakhmedovRS
  * @created 24-Feb-20
  */
+@LeetCode(id = 13, name = "Roman to Integer", url = "https://leetcode.com/problems/roman-to-integer/")
 public class RomanToInteger
 {
 	static Map<String, Integer> dictionary = new HashMap<>();

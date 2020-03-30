@@ -1,13 +1,13 @@
+import common.LeetCode;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Print Words Vertically
- * LeetCode 1324
- *
  * @author RakhmedovRS
  * @created 08-Mar-20
  */
+@LeetCode(id = 1324, name = "Print Words Vertically", url = "https://leetcode.com/problems/print-words-vertically/")
 public class PrintWordsVertically
 {
 	public List<String> printVertically(String s)

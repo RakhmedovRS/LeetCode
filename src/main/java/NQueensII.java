@@ -1,10 +1,10 @@
+import common.LeetCode;
+
 /**
- * N-Queens II
- * LeetCode 52
- *
  * @author RakhmedovRS
  * @created 29-Feb-20
  */
+@LeetCode(id = 52, name = "N-Queens II", url = "https://leetcode.com/problems/n-queens-ii/")
 public class NQueensII
 {
 	public boolean validPlacement(boolean[][] board, int row, int column)
