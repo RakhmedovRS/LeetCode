@@ -5,8 +5,10 @@ import java.io.OutputStreamWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.AbstractMap;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
@@ -17,7 +19,7 @@ public class Collector
 {
 	public static void main(String[] args) throws Exception
 	{
-		List<LeetCode> annotations =
+		List<Map.Entry<LeetCode, String>> annotations =
 			Files.list(Paths.get(Paths.get("").toAbsolutePath().toString() + "\\src\\main\\java"))
 				.map(path ->
 				{
@@ -31,21 +33,23 @@ public class Collector
 					}
 				})
 				.filter(clazz -> clazz != null && clazz.isAnnotationPresent(LeetCode.class))
-				.map(clazz -> clazz.getAnnotation(LeetCode.class))
-				.sorted(Comparator.comparingInt(LeetCode::id))
+				.map(clazz -> new AbstractMap.SimpleEntry<>(clazz.getAnnotation(LeetCode.class), clazz.getName()))
+				.sorted(Comparator.comparingInt(entry -> entry.getKey().id()))
 				.collect(Collectors.toList());
 
 		Path output = Paths.get(Paths.get("").toAbsolutePath().toString() + "\\README.MD");
 		try (OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(output.toFile()));)
 		{
-			osw.write("| LeetCode ID        | Name           |\n");
-			osw.write("| :-----------------:|:--------------:|\n");
+			osw.write("| LeetCode ID        | Name           | Solution       |\n");
+			osw.write("| :-----------------:|:--------------:|:--------------:|\n");
 
-			annotations.forEach(leetCode ->
+			annotations.forEach(entry ->
 			{
 				try
 				{
-					osw.write(String.format("|%d|[%s](%s)\n", leetCode.id(), leetCode.name(), leetCode.url()));
+					String url = String.format("[%s](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/%s.java)", entry.getValue(), entry.getValue());
+					LeetCode leetCode = entry.getKey();
+					osw.write(String.format("|%d|[%s](%s)|%s\n", leetCode.id(), leetCode.name(), leetCode.url(), url));
 				}
 				catch (Exception ignore)
 				{
