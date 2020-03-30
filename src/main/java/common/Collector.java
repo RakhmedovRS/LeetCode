@@ -47,7 +47,7 @@ public class Collector
 			{
 				try
 				{
-					String url = String.format("[%s](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/%s.java)", entry.getValue(), entry.getValue());
+					String url = String.format("[%s.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/%s.java)", entry.getValue(), entry.getValue());
 					LeetCode leetCode = entry.getKey();
 					osw.write(String.format("|%d|[%s](%s)|%s\n", leetCode.id(), leetCode.name(), leetCode.url(), url));
 				}
