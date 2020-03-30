@@ -1,10 +1,10 @@
+import common.LeetCode;
+
 /**
- * Minimum Path Sum
- * LeetCode 64
- *
  * @author RakhmedovRS
  * @created 18-Feb-20
  */
+@LeetCode(id = 64, name = "Minimum Path Sum", url = "https://leetcode.com/problems/minimum-path-sum/")
 public class MinimumPathSum
 {
 	public int minPathSum(int[][] grid)

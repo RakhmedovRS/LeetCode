@@ -1,10 +1,10 @@
+import common.LeetCode;
+
 /**
- * Maximum Product of Three Numbers
- * LeetCode 628
- *
  * @author RakhmedovRS
  * @created 28-Feb-20
  */
+@LeetCode(id = 628, name = "Maximum Product of Three Numbers", url = "https://leetcode.com/problems/maximum-product-of-three-numbers/")
 public class MaximumProductOfThreeNumbers
 {
 	public int maximumProduct(int[] nums)

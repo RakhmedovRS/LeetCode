@@ -1,13 +1,13 @@
+import common.LeetCode;
+
 import java.util.LinkedList;
 import java.util.List;
 
 /**
- * N-ary Tree Postorder Traversal
- * LeetCode 589
- *
  * @author RakhmedovRS
  * @created 10-Feb-20
  */
+@LeetCode(id = 590, name = "N-ary Tree Postorder Traversal", url = "https://leetcode.com/problems/n-ary-tree-postorder-traversal/")
 public class N_aryTreePostorderTraversal
 {
 	class Node

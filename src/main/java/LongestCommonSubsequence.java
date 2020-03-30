@@ -1,10 +1,10 @@
+import common.LeetCode;
+
 /**
- * Longest Common Subsequence
- * LeetCode 1143
- *
  * @author RakhmedovRS
  * @created 16-Feb-20
  */
+@LeetCode(id = 1143, name = "Longest Common Subsequence", url = "https://leetcode.com/problems/longest-common-subsequence/")
 public class LongestCommonSubsequence
 {
 	public int longestCommonSubsequence(String s1, String s2)

@@ -1,10 +1,10 @@
+import common.LeetCode;
+
 /**
- * Merge k Sorted Lists
- * LeetCode 23
- *
  * @author RakhmedovRS
  * @created 11-Feb-20
  */
+@LeetCode(id = 23, name = "Merge k Sorted Lists", url = "https://leetcode.com/problems/merge-k-sorted-lists/")
 public class MergeKSortedLists
 {
 	public class ListNode

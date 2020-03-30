@@ -1,12 +1,12 @@
+import common.LeetCode;
+
 import java.util.Arrays;
 
 /**
- * Longest Increasing Subsequence
- * LeetCode 300
- *
  * @author RakhmedovRS
  * @created 14-Feb-20
  */
+@LeetCode(id = 300, name = "Longest Increasing Subsequence", url = "https://leetcode.com/problems/longest-increasing-subsequence/")
 public class LongestIncreasingSubsequence
 {
 	public int lengthOfLIS(int[] nums)

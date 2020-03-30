@@ -1,10 +1,10 @@
+import common.LeetCode;
+
 /**
- * Middle of the Linked List
- * LeetCode 876
- *
  * @author RakhmedovRS
  * @created 13-Feb-20
  */
+@LeetCode(id = 876, name = "Middle of the Linked List", url = "https://leetcode.com/problems/middle-of-the-linked-list/")
 public class MiddleOfTheLinkedList
 {
 	public class ListNode

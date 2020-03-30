@@ -1,12 +1,12 @@
+import common.LeetCode;
+
 import java.util.HashMap;
 
 /**
- * Longest Arithmetic Sequence
- * LeetCode 1027
- *
  * @author RakhmedovRS
  * @created 17-Feb-20
  */
+@LeetCode(id = 1027, name = "Longest Arithmetic Sequence", url = "https://leetcode.com/problems/longest-arithmetic-sequence/")
 public class LongestArithmeticSequence
 {
 	public int longestArithSeqLength(int[] A)

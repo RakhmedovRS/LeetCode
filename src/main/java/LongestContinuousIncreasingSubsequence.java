@@ -1,10 +1,10 @@
+import common.LeetCode;
+
 /**
- * Longest Continuous Increasing Subsequence
- * LeetCode 674
- *
  * @author RakhmedovRS
  * @created 14-Feb-20
  */
+@LeetCode(id = 674, name = "Longest Continuous Increasing Subsequence", url = "https://leetcode.com/problems/longest-continuous-increasing-subsequence/")
 public class LongestContinuousIncreasingSubsequence
 {
 	public int findLengthOfLCIS(int[] nums)

@@ -1,13 +1,13 @@
+import common.LeetCode;
+
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Majority Element
- * LeetCode 169
- *
  * @author RakhmedovRS
  * @created 03-Mar-20
  */
+@LeetCode(id = 169, name = "Majority Element", url = "https://leetcode.com/problems/majority-element/")
 public class MajorityElement
 {
 	public int majorityElement(int[] nums)

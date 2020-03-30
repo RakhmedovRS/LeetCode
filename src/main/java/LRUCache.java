@@ -1,13 +1,13 @@
+import common.LeetCode;
+
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * LRU Cache
- * LeetCode 146
- *
  * @author RakhmedovRS
  * @created 06-Mar-20
  */
+@LeetCode(id = 146, name = "LRU Cache", url = "https://leetcode.com/problems/lru-cache/")
 public class LRUCache
 {
 	private class Link

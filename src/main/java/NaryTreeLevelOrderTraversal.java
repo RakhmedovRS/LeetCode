@@ -1,15 +1,15 @@
+import common.LeetCode;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
 /**
- * N-ary Tree Level Order Traversal
- * LeetCode 429
- *
  * @author RakhmedovRS
  * @created 09-Mar-20
  */
+@LeetCode(id = 429, name = " N-ary Tree Level Order Traversal", url = "https://leetcode.com/problems/n-ary-tree-level-order-traversal/")
 public class NaryTreeLevelOrderTraversal
 {
 	static class Node
