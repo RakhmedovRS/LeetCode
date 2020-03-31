@@ -119,6 +119,7 @@
 |961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[NRepeatedElementIn2NArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NRepeatedElementIn2NArray.java)
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[UnivaluedBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UnivaluedBinaryTree.java)
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[AddToArrayFormOfInteger.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddToArrayFormOfInteger.java)
+|1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[FindCommonCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCommonCharacters.java)
 |1027|[Longest Arithmetic Sequence](https://leetcode.com/problems/longest-arithmetic-sequence/)|[LongestArithmeticSequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestArithmeticSequence.java)
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[LastStoneWeight.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LastStoneWeight.java)
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[RemoveAllAdjacentDuplicatesInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveAllAdjacentDuplicatesInString.java)
