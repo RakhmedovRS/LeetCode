@@ -41,6 +41,7 @@
 |82|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[LargestRectangleInHistogram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestRectangleInHistogram.java)
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|[MaximalRectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximalRectangle.java)
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[MergeSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeSortedArray.java)
+|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[BinaryTreeInorderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeInorderTraversal.java)
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[ValidateBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidateBinarySearchTree.java)
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[SymmetricTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SymmetricTree.java)
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[BinaryTreeLevelOrderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeLevelOrderTraversal.java)
