@@ -1,3 +1,4 @@
+### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[TwoSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSum.java)

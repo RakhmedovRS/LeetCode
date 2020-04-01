@@ -40,6 +40,8 @@ public class Collector
 		Path output = Paths.get(Paths.get("").toAbsolutePath().toString() + "\\README.MD");
 		try (OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(output.toFile()));)
 		{
+			osw.write(String.format("### This file was created automatically by [%s.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/%s.java)\n",
+				Collector.class.getSimpleName(), Collector.class.getSimpleName()));
 			osw.write("| LeetCode ID        | Name           | Solution       |\n");
 			osw.write("| :-----------------:|:--------------:|:--------------:|\n");
 
