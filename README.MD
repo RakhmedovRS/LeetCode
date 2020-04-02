@@ -74,6 +74,7 @@
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[NumberOf1Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOf1Bits.java)
 |198|[House Robber](https://leetcode.com/problems/house-robber/)|[HouseRobber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HouseRobber.java)
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[NumberOfIslands.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfIslands.java)
+|202|[Happy Number](https://leetcode.com/problems/happy-number/)|[HappyNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HappyNumber.java)
 |204|[Count Primes](https://leetcode.com/problems/count-primes/)|[CountPrimes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountPrimes.java)
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[ReverseLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseLinkedList.java)
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[PrefixTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrefixTree.java)
