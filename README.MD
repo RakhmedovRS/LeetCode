@@ -25,6 +25,7 @@
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[NQueensII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NQueensII.java)
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[MaximumSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarray.java)
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[SpiralMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SpiralMatrix.java)
+|55|[Jump Game](https://leetcode.com/problems/jump-game/)|[JumpGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGame.java)
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[MergeIntervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeIntervals.java)
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval/)|[InsertInterval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsertInterval.java)
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[SpiralMatrixII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SpiralMatrixII.java)
