@@ -12,6 +12,28 @@ public class MajorityElement
 {
 	public int majorityElement(int[] nums)
 	{
+		if (nums == null || nums.length == 0)
+		{
+			return 0;
+		}
+
+		int candidate = nums[0];
+		int count = 1;
+		for (int i = 1; i < nums.length; i++)
+		{
+			if (count == 0)
+			{
+				candidate = nums[i];
+			}
+
+			count += candidate == nums[i] ? 1 : -1;
+		}
+
+		return candidate;
+	}
+
+	public int majorityElement3(int[] nums)
+	{
 		Map<Integer, Integer> cache = new HashMap<>();
 		int max = Integer.MIN_VALUE;
 		int majorityElementIndex = 0;
@@ -52,5 +74,10 @@ public class MajorityElement
 		}
 
 		return majorityElement;
+	}
+
+	public static void main(String[] args)
+	{
+		System.out.println(new MajorityElement().majorityElement(new int[]{10, 9, 9, 9, 10}));
 	}
 }
