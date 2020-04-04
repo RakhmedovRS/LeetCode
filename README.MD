@@ -5,6 +5,7 @@
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[AddTwoNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddTwoNumbers.java)
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[LongestSubstringWithoutRepeatingCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithoutRepeatingCharacters.java)
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[MedianOfTwoSortedArrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MedianOfTwoSortedArrays.java)
+|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[LongestPalindromicSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestPalindromicSubstring.java)
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[ReverseInteger.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseInteger.java)
 |8|[String to Integer](https://leetcode.com/problems/string-to-integer-atoi/)|[StringToInteger.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringToInteger.java)
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[IntegerToRoman.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerToRoman.java)
