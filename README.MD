@@ -117,6 +117,7 @@
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[SortCharactersByFrequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortCharactersByFrequency.java)
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[HammingDistance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HammingDistance.java)
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)|[NumberComplement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberComplement.java)
+|477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|[TotalHammingDistance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TotalHammingDistance.java)
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[FibonacciNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FibonacciNumber.java)
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[FindLargestValueInEachTreeRow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLargestValueInEachTreeRow.java)
 |559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[MaximumDepthOfNaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDepthOfNaryTree.java)
