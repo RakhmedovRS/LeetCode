@@ -41,6 +41,7 @@
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[ClimbingStairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClimbingStairs.java)
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[EditDistance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EditDistance.java)
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[SetMatrixZeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SetMatrixZeroes.java)
+|75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[SortColors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortColors.java)
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[MinimumWindowSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumWindowSubstring.java)
 |79|[Word Search](https://leetcode.com/problems/word-search/)|[WordSearch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordSearch.java)
 |82|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[LargestRectangleInHistogram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestRectangleInHistogram.java)
