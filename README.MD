@@ -78,6 +78,7 @@
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[MinStack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinStack.java)
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[MajorityElement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MajorityElement.java)
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[ExcelSheetColumnNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExcelSheetColumnNumber.java)
+|172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|[FactorialTrailingZeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FactorialTrailingZeroes.java)
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[RotateArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotateArray.java)
 |190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[ReverseBits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseBits.java)
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[NumberOf1Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOf1Bits.java)
