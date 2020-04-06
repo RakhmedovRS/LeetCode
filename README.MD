@@ -77,6 +77,7 @@
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[ReverseWordsInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseWordsInString.java)
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[MaximumProductSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductSubarray.java)
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[MinStack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinStack.java)
+|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[FindPeakElement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindPeakElement.java)
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[MajorityElement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MajorityElement.java)
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[ExcelSheetColumnNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExcelSheetColumnNumber.java)
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|[FactorialTrailingZeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FactorialTrailingZeroes.java)
