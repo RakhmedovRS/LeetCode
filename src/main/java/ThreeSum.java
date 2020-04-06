@@ -19,7 +19,7 @@ public class ThreeSum
 		Arrays.sort(nums);
 		for (int first = 0; first < nums.length - 2; first++)
 		{
-			if (nums[first] >= 0)
+			if (nums[first] > 0)
 			{
 				break;
 			}
