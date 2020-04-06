@@ -108,6 +108,7 @@
 |319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/)|[BulbSwitcher.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BulbSwitcher.java)
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[PowerOfThree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PowerOfThree.java)
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[OddEvenLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OddEvenLinkedList.java)
+|334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[IncreasingTripletSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingTripletSubsequence.java)
 |334|[Reverse String](https://leetcode.com/problems/reverse-string/)|[ReverseString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseString.java)
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[TopKFrequentElements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TopKFrequentElements.java)
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[IntersectionOfTwoArraysII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntersectionOfTwoArraysII.java)
