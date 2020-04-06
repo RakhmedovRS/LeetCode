@@ -25,6 +25,7 @@
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[WildcardMatching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WildcardMatching.java)
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[Permutations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Permutations.java)
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[RotateImage.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotateImage.java)
+|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[GroupAnagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GroupAnagrams.java)
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[NQueensII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NQueensII.java)
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[MaximumSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarray.java)
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[SpiralMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SpiralMatrix.java)
