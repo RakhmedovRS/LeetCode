@@ -11,7 +11,7 @@ public class ThreeSum
 {
 	public List<List<Integer>> threeSum(int[] nums)
 	{
-		Set<List<Integer>> res = new HashSet<>();
+		List<List<Integer>> res = new LinkedList<>();
 		if (nums.length == 0)
 		{
 			return new ArrayList<>(res);
@@ -23,6 +23,12 @@ public class ThreeSum
 			{
 				break;
 			}
+
+			if (first > 0 && nums[first - 1] == nums[first])
+			{
+				continue;
+			}
+
 			int second = first + 1;
 			int third = nums.length - 1;
 			while (second < third)
@@ -30,13 +36,23 @@ public class ThreeSum
 				int sum = nums[first] + nums[second] + nums[third];
 				if (sum == 0)
 				{
-					res.add(Arrays.asList(nums[first], nums[second++], nums[third--]));
+					res.add(Arrays.asList(nums[first], nums[second], nums[third]));
+					while (second + 1 < third && nums[second] == nums[second + 1])
+					{
+						second++;
+					}
+					while (third - 1 > second && nums[third] == nums[third - 1])
+					{
+						third--;
+					}
+					second++;
+					third--;
 				}
 				else if (sum > 0)
 				{
 					third--;
 				}
-				else if (sum < 0)
+				else
 				{
 					second++;
 				}
