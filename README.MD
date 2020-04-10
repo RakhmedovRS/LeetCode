@@ -151,6 +151,7 @@
 |693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[BinaryNumberWithAlternatingBits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryNumberWithAlternatingBits.java)
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[SearchInBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInBinarySearchTree.java)
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[DesignHashMap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignHashMap.java)
+|746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[MinCostClimbingStairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinCostClimbingStairs.java)
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[JewelsAndStones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JewelsAndStones.java)
 |814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|[BinaryTreePruning.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePruning.java)
 |821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[ShortestDistanceToCharacter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestDistanceToCharacter.java)
