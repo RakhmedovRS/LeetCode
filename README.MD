@@ -86,6 +86,7 @@
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[LinkedListCycle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListCycle.java)
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[LRUCache.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LRUCache.java)
 |148|[Sort List](https://leetcode.com/problems/sort-list/)|[SortList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortList.java)
+|150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[EvaluateReversePolishNotation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EvaluateReversePolishNotation.java)
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[ReverseWordsInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseWordsInString.java)
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[MaximumProductSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductSubarray.java)
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[MinStack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinStack.java)
