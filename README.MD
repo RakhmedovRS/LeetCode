@@ -47,6 +47,7 @@
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[UniquePathsII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniquePathsII.java)
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[MinimumPathSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumPathSum.java)
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|[PlusOne.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PlusOne.java)
+|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Sqrt.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Sqrt.java)
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[ClimbingStairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClimbingStairs.java)
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[EditDistance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EditDistance.java)
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[SetMatrixZeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SetMatrixZeroes.java)
