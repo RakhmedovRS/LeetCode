@@ -87,6 +87,7 @@
 |139|[Word Break](https://leetcode.com/problems/word-break/)|[WordBreak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordBreak.java)
 |140|[Word Break](https://leetcode.com/problems/word-break-ii/)|[WordBreakII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordBreakII.java)
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[LinkedListCycle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListCycle.java)
+|144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[BinaryTreePreorderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePreorderTraversal.java)
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[LRUCache.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LRUCache.java)
 |148|[Sort List](https://leetcode.com/problems/sort-list/)|[SortList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortList.java)
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[EvaluateReversePolishNotation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EvaluateReversePolishNotation.java)
