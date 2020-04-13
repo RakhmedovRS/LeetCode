@@ -146,6 +146,7 @@
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|[TotalHammingDistance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TotalHammingDistance.java)
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[FibonacciNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FibonacciNumber.java)
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[FindLargestValueInEachTreeRow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLargestValueInEachTreeRow.java)
+|525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[ContiguousArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContiguousArray.java)
 |532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[KdiffPairsInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KdiffPairsInArray.java)
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[DiameterOfBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiameterOfBinaryTree.java)
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[ReverseWordsInStringIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseWordsInStringIII.java)
