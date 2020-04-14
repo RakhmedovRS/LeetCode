@@ -122,6 +122,7 @@
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[MissingNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumber.java)
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[FirstBadVersion.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstBadVersion.java)
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[MoveZeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MoveZeroes.java)
+|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[FindDuplicateNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindDuplicateNumber.java)
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[FindMedianFromDataStream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindMedianFromDataStream.java)
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[SerializeAndDeserializeBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SerializeAndDeserializeBinaryTree.java)
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[LongestIncreasingSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestIncreasingSubsequence.java)
