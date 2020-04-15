@@ -7,35 +7,35 @@ import common.LeetCode;
 @LeetCode(id = 162, name = "Find Peak Element", url = "https://leetcode.com/problems/find-peak-element/")
 public class FindPeakElement
 {
-
 	public int findPeakElement(int[] nums)
 	{
-		return search(nums, 0, nums.length - 1);
-	}
-
-	public int search(int[] nums, int l, int r)
-	{
-		if (l == r)
+		if (nums == null || nums.length == 0)
 		{
-			return l;
+			return 0;
 		}
-		int mid = (l + r) / 2;
-		if (nums[mid] > nums[mid + 1])
+		int left = 0;
+		int right = nums.length - 1;
+		int middle;
+		while (left < right)
 		{
-			return search(nums, l, mid);
-		}
-		return search(nums, mid + 1, r);
-	}
+			middle = left + (right - left) / 2;
 
-	public int findPeakElement1(int[] nums)
-	{
-		for (int i = 0; i < nums.length; i++)
-		{
-			if ((i == 0 || nums[i] > nums[i - 1]) && (i == nums.length - 1 || nums[i] > nums[i + 1]))
+			if (nums[middle] < nums[middle + 1])
 			{
-				return i;
+				left = middle + 1;
+			}
+			else
+			{
+				right = middle;
 			}
 		}
-		return 0;
+		return left;
+	}
+
+	public static void main(String[] args)
+	{
+		System.out.println(new FindPeakElement().findPeakElement(new int[]{1, 2}));
+		System.out.println(new FindPeakElement().findPeakElement(new int[]{1, 2, 1, 3, 5, 6, 4}));
+		System.out.println(new FindPeakElement().findPeakElement(new int[]{1, 2, 3, 1}));
 	}
 }
