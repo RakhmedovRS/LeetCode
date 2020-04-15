@@ -28,6 +28,7 @@
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[FindFirstAndLastPositionOfElementInSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindFirstAndLastPositionOfElementInSortedArray.java)
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[ValidSudoku.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidSudoku.java)
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/)|[CountAndSay.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountAndSay.java)
+|41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[FirstMissingPositive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstMissingPositive.java)
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[WildcardMatching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WildcardMatching.java)
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[Permutations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Permutations.java)
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[RotateImage.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotateImage.java)
