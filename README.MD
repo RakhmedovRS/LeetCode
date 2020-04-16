@@ -81,6 +81,7 @@
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[ValidPalindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidPalindrome.java)
 |126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|[WordLadderII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordLadderII.java)
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[WordLadder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordLadder.java)
+|128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[LongestConsecutiveSequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestConsecutiveSequence.java)
 |133|[Clone Graph](https://leetcode.com/problems/clone-graph/)|[CloneGraph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CloneGraph.java)
 |134|[Gas Station](https://leetcode.com/problems/gas-station/)|[GasStation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GasStation.java)
 |135|[Candy](https://leetcode.com/problems/candy/)|[Candy.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Candy.java)
