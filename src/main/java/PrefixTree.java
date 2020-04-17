@@ -1,8 +1,5 @@
 import common.LeetCode;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @author RakhmedovRS
  * @created 07-Feb-20
@@ -12,41 +9,36 @@ public class PrefixTree
 {
 	class TrieNode
 	{
-		private Map<Character, TrieNode> children;
+		private TrieNode[] children;
 		private boolean isEnd;
 
 		public TrieNode()
 		{
-			children = new HashMap<>();
+			children = new TrieNode[26];
 		}
 
-		public boolean containsKey(char ch)
+		public TrieNode getChild(char ch)
 		{
-			return children.containsKey(ch);
+			return children[ch - 'a'];
 		}
 
-		public TrieNode get(char ch)
+		public void setChildren(char ch, TrieNode node)
 		{
-			return children.get(ch);
-		}
-
-		public void put(char ch, TrieNode node)
-		{
-			children.put(ch, node);
-		}
-
-		public void setEnd()
-		{
-			isEnd = true;
+			children[ch - 'a'] = node;
 		}
 
 		public boolean isEnd()
 		{
 			return isEnd;
 		}
+
+		public void setEnd()
+		{
+			this.isEnd = true;
+		}
 	}
 
-	public class Trie
+	class Trie
 	{
 		TrieNode root;
 
@@ -57,47 +49,45 @@ public class PrefixTree
 
 		public void insert(String word)
 		{
-			TrieNode node = root;
-			for (int i = 0; i < word.length(); i++)
+			TrieNode current = root;
+			for (char ch : word.toCharArray())
 			{
-				char currentChar = word.charAt(i);
-				if (!node.containsKey(currentChar))
+				if (current.getChild(ch) == null)
 				{
-					node.put(currentChar, new TrieNode());
+					current.setChildren(ch, new TrieNode());
 				}
-				node = node.get(currentChar);
+				current = current.getChild(ch);
 			}
-			node.setEnd();
-		}
-
-		private TrieNode searchPrefix(String word)
-		{
-			TrieNode node = root;
-			for (int i = 0; i < word.length(); i++)
-			{
-				char curLetter = word.charAt(i);
-				if (node.containsKey(curLetter))
-				{
-					node = node.get(curLetter);
-				}
-				else
-				{
-					return null;
-				}
-			}
-			return node;
+			current.setEnd();
 		}
 
 		public boolean search(String word)
 		{
-			TrieNode node = searchPrefix(word);
-			return node != null && node.isEnd();
+			TrieNode current = root;
+			for (char ch : word.toCharArray())
+			{
+				current = current.getChild(ch);
+				if (current == null)
+				{
+					return false;
+				}
+			}
+
+			return current.isEnd();
 		}
 
 		public boolean startsWith(String prefix)
 		{
-			TrieNode node = searchPrefix(prefix);
-			return node != null;
+			TrieNode current = root;
+			for (char ch : prefix.toCharArray())
+			{
+				current = current.getChild(ch);
+				if (current == null)
+				{
+					return false;
+				}
+			}
+			return true;
 		}
 	}
 }
