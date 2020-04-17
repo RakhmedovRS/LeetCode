@@ -10,28 +10,31 @@ import java.util.LinkedList;
 @LeetCode(id = 82, name = "Largest Rectangle in Histogram", url = "https://leetcode.com/problems/largest-rectangle-in-histogram/")
 public class LargestRectangleInHistogram
 {
-	public int largestRectangleArea(int[] h)
+	public int largestRectangleArea(int[] heights)
 	{
-		int n = h.length;
-		int i = 0;
-		int max = 0;
-
-		Deque<Integer> s = new LinkedList<>();
-
-		while (i < n)
+		int maxArea = 0;
+		if (heights == null || heights.length == 0)
 		{
-			while (!s.isEmpty() && h[i] < h[s.peek()])
+			return maxArea;
+		}
+
+		Deque<Integer> stack = new LinkedList<>();
+		for (int i = 0; i <= heights.length; i++)
+		{
+			if (i == heights.length || (!stack.isEmpty() && heights[stack.peek()] > heights[i]))
 			{
-				max = Math.max(max, h[s.pop()] * (i - (s.isEmpty() ? 0 : s.peek() + 1)));
+				while (!stack.isEmpty() && (i == heights.length || heights[stack.peek()] > heights[i]))
+				{
+					int curr = heights[stack.pop()] * (stack.isEmpty() ? i : (i - stack.peek() - 1));
+					if (curr > maxArea)
+					{
+						maxArea = curr;
+					}
+				}
 			}
-			s.push(i++);
+			stack.push(i);
 		}
 
-		while (!s.isEmpty())
-		{
-			max = Math.max(max, h[s.pop()] * (n - (s.isEmpty() ? 0 : s.peek() + 1)));
-		}
-
-		return max;
+		return maxArea;
 	}
 }
