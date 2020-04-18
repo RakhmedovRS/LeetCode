@@ -10,12 +10,61 @@ import java.util.Map;
 @LeetCode(id = 76, name = "Minimum Window Substring", url = "https://leetcode.com/problems/minimum-window-substring/")
 public class MinimumWindowSubstring
 {
-	private boolean checkSatisfy(Map<Character, Integer> example, Map<Character, Integer> window)
+	public String minWindow(String string, String pattern)
 	{
-		for (Map.Entry<Character, Integer> entry : example.entrySet())
+		if (string == null || string.length() == 0 || pattern == null || pattern.length() == 0 || string.length() < pattern.length())
 		{
-			Integer val = window.get(entry.getKey());
-			if (val == null || val < entry.getValue())
+			return "";
+		}
+
+		Map<Character, Integer> window = new HashMap<>();
+		for (char ch : pattern.toCharArray())
+		{
+			window.put(ch, window.getOrDefault(ch, 0) - 1);
+		}
+		int left = 0;
+		int right = -1;
+		int leftMin = 0;
+		int rightMin = string.length();
+		boolean found = false;
+		while (right < string.length())
+		{
+			if (!isMatches(window))
+			{
+				right++;
+				if (right < string.length())
+				{
+					char rightChar = string.charAt(right);
+					if (window.containsKey(rightChar))
+					{
+						window.put(rightChar, window.get(rightChar) + 1);
+					}
+				}
+			}
+			else
+			{
+				found = true;
+				if (rightMin - leftMin > right - left + 1)
+				{
+					leftMin = left;
+					rightMin = right + 1;
+				}
+				char leftChar = string.charAt(left++);
+				if (window.containsKey(leftChar))
+				{
+					window.put(leftChar, window.get(leftChar) - 1);
+				}
+			}
+		}
+
+		return found ? string.substring(leftMin, rightMin) : "";
+	}
+
+	private boolean isMatches(Map<Character, Integer> window)
+	{
+		for (int val : window.values())
+		{
+			if (val < 0)
 			{
 				return false;
 			}
@@ -23,55 +72,10 @@ public class MinimumWindowSubstring
 		return true;
 	}
 
-	public String minWindow(String s, String t)
+	public static void main(String[] args)
 	{
-		int[] ans = new int[]{Integer.MAX_VALUE, 0, 0};
-		if (s == null || t == null || s.length() == 0 || t.length() == 0 || t.length() > s.length())
-		{
-			return "";
-		}
-
-		Map<Character, Integer> example = new HashMap<>();
-		for (char ch : t.toCharArray())
-		{
-			example.put(ch, example.getOrDefault(ch, 0) + 1);
-		}
-
-		Map<Character, Integer> window = new HashMap<>();
-		int left = 0;
-		int right = -1;
-		while (right < s.length())
-		{
-			if (checkSatisfy(example, window))
-			{
-				if (ans[0] == Integer.MAX_VALUE || (right - left + 1) < ans[0])
-				{
-					ans[0] = (right - left + 1);
-					ans[1] = left;
-					ans[2] = right + 1;
-				}
-
-				Integer count = window.get(s.charAt(left));
-				if (count == 1)
-				{
-					window.remove(s.charAt(left));
-				}
-				else
-				{
-					window.computeIfPresent(s.charAt(left), (ch, val) -> --val);
-				}
-				left++;
-			}
-			else
-			{
-				right++;
-				if (right < s.length())
-				{
-					window.put(s.charAt(right), window.getOrDefault(s.charAt(right), 0) + 1);
-				}
-			}
-		}
-
-		return ans[0] == Integer.MAX_VALUE ? "" : s.substring(ans[1], ans[2]);
+		System.out.println(new MinimumWindowSubstring().minWindow("ab", "a"));
+		System.out.println(new MinimumWindowSubstring().minWindow("a", "a"));
+		System.out.println(new MinimumWindowSubstring().minWindow("ADOBECODEBANC", "ABC"));
 	}
 }
