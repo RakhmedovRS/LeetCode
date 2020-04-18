@@ -30,6 +30,7 @@
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/)|[CountAndSay.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountAndSay.java)
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[FirstMissingPositive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstMissingPositive.java)
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[WildcardMatching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WildcardMatching.java)
+|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[JumpGameII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameII.java)
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[Permutations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Permutations.java)
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[RotateImage.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotateImage.java)
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[GroupAnagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GroupAnagrams.java)
