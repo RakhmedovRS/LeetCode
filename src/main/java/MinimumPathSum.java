@@ -14,25 +14,37 @@ public class MinimumPathSum
 			return 0;
 		}
 
-		for (int row = 0; row < grid.length; row++)
+		int rows = grid.length;
+		int columns = grid[0].length;
+
+		for (int column = 1; column < columns; column++)
 		{
-			for (int column = 0; column < grid[row].length; column++)
+			grid[0][column] += grid[0][column - 1];
+		}
+
+		for (int row = 1; row < rows; row++)
+		{
+			grid[row][0] += grid[row - 1][0];
+		}
+
+		for (int row = 1; row < rows; row++)
+		{
+			for (int column = 1; column < columns; column++)
 			{
-				if (row > 0 && column > 0)
-				{
-					grid[row][column] += Math.min(grid[row - 1][column], grid[row][column - 1]);
-				}
-				else if (row > 0)
-				{
-					grid[row][column] += grid[row - 1][column];
-				}
-				else if (column > 0)
-				{
-					grid[row][column] += grid[row][column - 1];
-				}
+				grid[row][column] += Math.min(grid[row - 1][column], grid[row][column - 1]);
 			}
 		}
 
-		return grid[grid.length - 1][grid[0].length - 1];
+		return grid[rows - 1][columns - 1];
+	}
+
+	public static void main(String[] args)
+	{
+		System.out.println(new MinimumPathSum().minPathSum(new int[][]
+			{
+				{1, 3, 1},
+				{1, 5, 1},
+				{4, 2, 1}
+			}));
 	}
 }
