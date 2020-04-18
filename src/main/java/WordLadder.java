@@ -9,44 +9,84 @@ import java.util.*;
 @LeetCode(id = 127, name = "Word Ladder", url = "https://leetcode.com/problems/word-ladder/")
 public class WordLadder
 {
+	private void fillGraph(Map<String, Set<String>> graph, Map<String, Set<String>> dictionary, String word)
+	{
+		char[] pattern = word.toCharArray();
+		for (int i = 0; i < pattern.length; i++)
+		{
+			char temp = pattern[i];
+			pattern[i] = '*';
+			String newWord = new String(pattern);
+			pattern[i] = temp;
+
+			Set<String> set = graph.getOrDefault(newWord, new HashSet<>());
+			set.add(word);
+			graph.put(newWord, set);
+
+			set = dictionary.getOrDefault(word, new HashSet<>());
+			set.add(newWord);
+			dictionary.put(word, set);
+		}
+	}
+
 	public int ladderLength(String beginWord, String endWord, List<String> wordList)
 	{
-		Set<String> dictionary = new HashSet<>(wordList);
-
-		if (!dictionary.contains(endWord))
+		Map<String, Set<String>> graph = new HashMap<>();
+		Map<String, Set<String>> dictionary = new HashMap<>();
+		for (String word : wordList)
 		{
-			return 0;
+			fillGraph(graph, dictionary, word);
+		}
+
+		Set<String> visited = new HashSet<>();
+		visited.add(beginWord);
+
+		Queue<Set<String>> queue = new LinkedList<>();
+		char[] pattern = beginWord.toCharArray();
+		for (int i = 0; i < pattern.length; i++)
+		{
+			char temp = pattern[i];
+			pattern[i] = '*';
+			String next = new String(pattern);
+			pattern[i] = temp;
+			if (graph.containsKey(next))
+			{
+				queue.add(graph.get(next));
+			}
 		}
 
 		int level = 1;
-		Queue<String> queue = new LinkedList<>();
-		queue.offer(beginWord);
-		Set<String> used = new HashSet<>();
+		int size;
 		while (!queue.isEmpty())
 		{
-			int size = queue.size();
-			for (int i = 0; i < size; i++)
+			size = queue.size();
+			while (size-- > 0)
 			{
-				String current = queue.poll();
-				for (String possibleTarget : dictionary)
+				Set<String> curr = queue.remove();
+				if (curr.contains(endWord))
 				{
-					if (canBeTransformed(current, possibleTarget))
-					{
-						if (possibleTarget.equals(endWord))
-						{
-							return level + 1;
-						}
+					return level + 1;
+				}
 
-						if (!used.contains(possibleTarget))
+				for (String string : curr)
+				{
+					if (visited.add(string))
+					{
+						for (String next: dictionary.get(string))
 						{
-							queue.offer(possibleTarget);
-							used.add(possibleTarget);
+							Set<String> nextSet = graph.getOrDefault(next, Collections.emptySet());
+							if (nextSet.contains(endWord))
+							{
+								return level + 2;
+							}
+							if (!nextSet.isEmpty())
+							{
+								queue.add(nextSet);
+							}
 						}
 					}
 				}
-				dictionary.remove(current);
 			}
-
 
 			level++;
 		}
@@ -54,21 +94,9 @@ public class WordLadder
 		return 0;
 	}
 
-	private boolean canBeTransformed(String current, String target)
+	public static void main(String[] args)
 	{
-		int steps = 1;
-		for (int i = 0; i < current.length(); i++)
-		{
-			if (current.charAt(i) != target.charAt(i))
-			{
-				steps--;
-			}
-			if (steps < 0)
-			{
-				return false;
-			}
-		}
-
-		return steps == 0;
+		System.out.println(new WordLadder().ladderLength("hit", "cog", Arrays.asList("hot", "dot", "dog", "lot", "log", "cog")));
+		System.out.println(new WordLadder().ladderLength("hit", "cog", Arrays.asList("hot", "dot", "dog", "lot", "log")));
 	}
 }
