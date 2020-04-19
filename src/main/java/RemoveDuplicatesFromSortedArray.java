@@ -1,5 +1,7 @@
 import common.LeetCode;
 
+import java.util.Arrays;
+
 /**
  * @author RakhmedovRS
  * @created 11-Mar-20
@@ -9,20 +11,22 @@ public class RemoveDuplicatesFromSortedArray
 {
 	public int removeDuplicates(int[] nums)
 	{
-		if (nums == null || nums.length == 0)
-		{
-			return 0;
-		}
-
-		int endSubArray = 0;
+		int pos = 1;
 		for (int i = 1; i < nums.length; i++)
 		{
-			if (nums[endSubArray] != nums[i])
+			if (nums[i] != nums[i - 1])
 			{
-				nums[++endSubArray] = nums[i];
+				nums[pos++] = nums[i];
 			}
 		}
 
-		return endSubArray + 1;
+		return pos;
+	}
+
+	public static void main(String[] args)
+	{
+		int[] arr = new int[]{0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
+		int pos = new RemoveDuplicatesFromSortedArray().removeDuplicates(arr);
+		System.out.println(Arrays.toString(Arrays.copyOf(arr, pos)));
 	}
 }
