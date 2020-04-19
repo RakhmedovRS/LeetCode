@@ -22,6 +22,7 @@
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[MergeKSortedLists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeKSortedLists.java)
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[SwapNodesInPairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SwapNodesInPairs.java)
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[RemoveDuplicatesFromSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveDuplicatesFromSortedArray.java)
+|27|[Remove Element](https://leetcode.com/problems/remove-element/)|[RemoveElement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveElement.java)
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[ImplementStrStr.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImplementStrStr.java)
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[DivideTwoIntegers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DivideTwoIntegers.java)
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[SearchInRotatedSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArray.java)
