@@ -7,50 +7,59 @@ import common.LeetCode;
 @LeetCode(id = 941, name = "Valid Mountain Array", url = "https://leetcode.com/problems/valid-mountain-array/")
 public class ValidMountainArray
 {
-	public boolean validMountainArray(int[] A)
+	public boolean validMountainArray(int[] numbers)
 	{
-		if (A == null || A.length <= 2)
+		if (numbers == null || numbers.length <= 2)
 		{
 			return false;
 		}
 
-		int current = 1;
-		for (; current < A.length - 1; current++)
+		int max = Integer.MIN_VALUE;
+		int maxIndex = 0;
+		for (int i = 0; i < numbers.length; i++)
 		{
-			if (A[current] < A[current + 1] && A[current] > A[current - 1])
+			if (numbers[i] > max)
 			{
-				if (current + 1 == A.length - 1)
-				{
-					return false;
-				}
-				continue;
-			}
-			else if (A[current] == A[current + 1] || A[current] == A[current - 1])
-			{
-				return false;
-			}
-			else
-			{
-				break;
+				max = numbers[i];
+				maxIndex = i;
 			}
 		}
 
-		for (int start = current; start > 0; start--)
+		if (maxIndex == 0 || maxIndex == numbers.length - 1)
 		{
-			if (A[start] <= A[start - 1])
-			{
-				return false;
-			}
+			return false;
 		}
 
-		for (int start = current; start < A.length - 1; start++)
+		int prev = maxIndex;
+		int next = maxIndex + 1;
+		while (next < numbers.length)
 		{
-			if (A[start] <= A[start + 1])
+			if (numbers[prev] <= numbers[next])
 			{
 				return false;
 			}
+			prev++;
+			next++;
+		}
+
+		prev = maxIndex;
+		next = maxIndex - 1;
+		while (next >= 0)
+		{
+			if (numbers[next] >= numbers[prev])
+			{
+				return false;
+			}
+			prev--;
+			next--;
 		}
 
 		return true;
+	}
+
+	public static void main(String[] args)
+	{
+		System.out.println(new ValidMountainArray().validMountainArray(new int[]{0, 3, 2, 1}));
+		System.out.println(new ValidMountainArray().validMountainArray(new int[]{3, 5, 5}));
 	}
 }
