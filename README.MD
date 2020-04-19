@@ -176,6 +176,7 @@
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[DesignHashMap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignHashMap.java)
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[MinCostClimbingStairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinCostClimbingStairs.java)
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[JewelsAndStones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JewelsAndStones.java)
+|783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[MinimumDistanceBetweenBSTNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDistanceBetweenBSTNodes.java)
 |814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|[BinaryTreePruning.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePruning.java)
 |821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[ShortestDistanceToCharacter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestDistanceToCharacter.java)
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[BackspaceStringCompare.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BackspaceStringCompare.java)
