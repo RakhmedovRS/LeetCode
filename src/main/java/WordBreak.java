@@ -9,33 +9,48 @@ import java.util.*;
 @LeetCode(id = 139, name = "Word Break", url = "https://leetcode.com/problems/word-break/")
 public class WordBreak
 {
-	public boolean wordBreak(String s, List<String> wordDict)
+	public boolean wordBreak(String string, List<String> wordDict)
 	{
-		return dsf(s, new HashSet<>(wordDict), new HashMap<>());
+		return wordBreak(string, 0, new HashSet<>(wordDict), new HashMap<>());
 	}
 
-	private boolean dsf(String s, Set<String> dictionary, Map<String, Boolean> cache)
+	private boolean wordBreak(String string, int startPos, Set<String> dictionary, Map<Integer, Map<Integer, Boolean>> cache)
 	{
-		if (s.equals(""))
+		if (startPos >= string.length())
 		{
 			return true;
 		}
 
-		if (cache.containsKey(s))
-		{
-			return cache.get(s);
-		}
+		Map<Integer, Boolean> map = cache.getOrDefault(startPos, new HashMap<>());
 
-		for (int i = 0; i <= s.length(); i++)
+		for (int i = startPos; i <= string.length(); i++)
 		{
-			if (dictionary.contains(s.substring(0, i)) && dsf(s.substring(i), dictionary, cache))
+			if (map.containsKey(i))
 			{
-				cache.put(s.substring(i), true);
-				return true;
+				return map.get(i);
 			}
+
+			if (dictionary.contains(string.substring(startPos, i)))
+			{
+				map.put(i, true);
+				boolean res = wordBreak(string, i, dictionary, cache);
+				if (res)
+				{
+					return res;
+				}
+			}
+			map.put(i, false);
+			cache.put(startPos, map);
 		}
 
-		cache.put(s, false);
 		return false;
+	}
+
+	public static void main(String[] args)
+	{
+		System.out.println(new WordBreak().wordBreak("aaaaaaa", Arrays.asList("aaaa", "aaa")));
+		System.out.println(new WordBreak().wordBreak("leetcode", Arrays.asList("leet", "code")));
+		System.out.println(new WordBreak().wordBreak("applepenapple", Arrays.asList("apple", "pen")));
+		System.out.println(new WordBreak().wordBreak("catsandog", Arrays.asList("cats", "dog", "sand", "and", "cat")));
 	}
 }
