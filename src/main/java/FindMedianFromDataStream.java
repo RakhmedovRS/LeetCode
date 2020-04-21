@@ -1,8 +1,7 @@
 import common.LeetCode;
 
-import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.List;
+import java.util.PriorityQueue;
 
 /**
  * @author RakhmedovRS
@@ -13,34 +12,54 @@ public class FindMedianFromDataStream
 {
 	class MedianFinder
 	{
-		private List<Integer> inner;
+		PriorityQueue<Integer> minHeap;
+		PriorityQueue<Integer> maxHeap;
 
 		public MedianFinder()
 		{
-			inner = new ArrayList<>();
+			minHeap = new PriorityQueue<>(Comparator.naturalOrder());
+			maxHeap = new PriorityQueue<>(Comparator.reverseOrder());
+			minHeap.add(Integer.MAX_VALUE);
+			maxHeap.add(Integer.MIN_VALUE);
 		}
 
 		public void addNum(int num)
 		{
-			inner.add(num);
+			if (num >= maxHeap.peek())
+			{
+				minHeap.add(num);
+			}
+			else
+			{
+				maxHeap.add(num);
+			}
+
+			if (Math.abs(maxHeap.size() - minHeap.size()) >= 2)
+			{
+				if (maxHeap.size() > minHeap.size())
+				{
+					minHeap.add(maxHeap.remove());
+				}
+				else
+				{
+					maxHeap.add(minHeap.remove());
+				}
+			}
 		}
 
 		public double findMedian()
 		{
-			if (inner.isEmpty())
+			if (minHeap.size() == maxHeap.size())
 			{
-				return 0D;
+				return (maxHeap.peek() + minHeap.peek()) / 2D;
 			}
-
-			inner.sort(Comparator.naturalOrder());
-
-			if (inner.size() % 2 != 0)
+			else if (minHeap.size() > maxHeap.size())
 			{
-				return inner.get(inner.size() / 2);
+				return minHeap.peek();
 			}
 			else
 			{
-				return (inner.get(inner.size() / 2 - 1) + inner.get(inner.size() / 2)) / 2D;
+				return maxHeap.peek();
 			}
 		}
 	}
