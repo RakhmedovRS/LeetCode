@@ -12,63 +12,47 @@ import java.util.Set;
 @LeetCode(id = 91, name = "Decode Ways", url = "https://leetcode.com/problems/decode-ways/")
 public class DecodeWays
 {
-	public int numDecodings(String s)
+	public int numDecodings(String string)
 	{
-		if (s == null || s.length() == 0)
+		if (string == null || string.length() == 0)
 		{
 			return 0;
 		}
-
-		Set<String> dictionary = new HashSet<>();
+		Set<String> set = new HashSet<>();
 		for (int i = 1; i <= 26; i++)
 		{
-			dictionary.add(String.valueOf(i));
+			set.add(String.valueOf(i));
 		}
 		Map<Integer, Integer> cache = new HashMap<>();
-		int res = numDecodings(s, 0, dictionary, cache);
-		return res == -1 ? 0 : res;
+
+		return numDecodings(string, 0, set, cache);
 	}
 
-	private int numDecodings(String s, int pos, Set<String> dictionary, Map<Integer, Integer> cache)
+	private int numDecodings(String string, int startPos, Set<String> set, Map<Integer, Integer> cache)
 	{
-		int result = 0;
-		if (pos >= s.length())
+		if (startPos >= string.length())
 		{
 			return 1;
 		}
 
-		if (cache.containsKey(pos))
+		Integer answer = cache.get(startPos);
+		if (answer != null)
 		{
-			return cache.get(pos);
+			return answer;
 		}
 
-		String one = s.substring(pos, pos + 1);
-		if ("0".equals(one))
+		answer = 0;
+		if (set.contains(string.substring(startPos, startPos + 1)))
 		{
-			return -1;
-		}
-		String two = pos == s.length() - 1 ? "" : s.substring(pos, pos + 2);
-
-		int next;
-		if (dictionary.contains(one))
-		{
-			next = numDecodings(s, pos + 1, dictionary, cache);
-			if (next != -1)
-			{
-				result += next;
-			}
+			answer += numDecodings(string, startPos + 1, set, cache);
 		}
 
-		if (dictionary.contains(two))
+		if (startPos + 2 <= string.length() && set.contains(string.substring(startPos, startPos + 2)))
 		{
-			next = numDecodings(s, pos + 2, dictionary, cache);
-			if (next != -1)
-			{
-				result += next;
-			}
+			answer += numDecodings(string, startPos + 2, set, cache);
 		}
 
-		cache.put(pos, result);
-		return result;
+		cache.put(startPos, answer);
+		return answer;
 	}
 }
