@@ -42,6 +42,8 @@ public class Collector
 		{
 			osw.write(String.format("### This file was created automatically by [%s.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/%s.java)\n",
 				Collector.class.getSimpleName(), Collector.class.getSimpleName()));
+			osw.write(String.format("Count of solved tasks: %s\n", annotations.size()));
+			osw.write("\n");
 			osw.write("| LeetCode ID        | Name           | Solution       |\n");
 			osw.write("| :-----------------:|:--------------:|:--------------:|\n");
 
@@ -58,9 +60,6 @@ public class Collector
 
 				}
 			});
-
-			osw.write("|_|_|_|\n");
-			osw.write(String.format("Tasks solved: %s\n", annotations.size()));
 		}
 	}
 }
