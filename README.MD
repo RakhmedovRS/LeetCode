@@ -175,6 +175,7 @@
 |693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[BinaryNumberWithAlternatingBits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryNumberWithAlternatingBits.java)
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[SearchInBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInBinarySearchTree.java)
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[DesignHashMap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignHashMap.java)
+|725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)|[SplitLinkedListInParts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitLinkedListInParts.java)
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[MinCostClimbingStairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinCostClimbingStairs.java)
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[JewelsAndStones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JewelsAndStones.java)
 |783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[MinimumDistanceBetweenBSTNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDistanceBetweenBSTNodes.java)
