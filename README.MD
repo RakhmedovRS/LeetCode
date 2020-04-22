@@ -164,6 +164,7 @@
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[DiameterOfBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiameterOfBinaryTree.java)
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[ReverseWordsInStringIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseWordsInStringIII.java)
 |559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[MaximumDepthOfNaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDepthOfNaryTree.java)
+|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[SubarraySumEqualsK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubarraySumEqualsK.java)
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[ArrayPartitionI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArrayPartitionI.java)
 |583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[DeleteOperationForTwoStrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteOperationForTwoStrings.java)
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N_aryTreePreorderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/N_aryTreePreorderTraversal.java)
