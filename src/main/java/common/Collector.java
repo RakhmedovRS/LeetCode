@@ -58,6 +58,9 @@ public class Collector
 
 				}
 			});
+
+			osw.write("|_|_|_|\n");
+			osw.write(String.format("Tasks solved: %s\n", annotations.size()));
 		}
 	}
 }
