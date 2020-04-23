@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 222
+Count of solved tasks: 223
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -113,6 +113,7 @@ Count of solved tasks: 222
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[NumberOf1Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOf1Bits.java)
 |198|[House Robber](https://leetcode.com/problems/house-robber/)|[HouseRobber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HouseRobber.java)
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[NumberOfIslands.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfIslands.java)
+|201|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|[BitwiseANDOfNumbersRange.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BitwiseANDOfNumbersRange.java)
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|[HappyNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HappyNumber.java)
 |204|[Count Primes](https://leetcode.com/problems/count-primes/)|[CountPrimes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountPrimes.java)
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[ReverseLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseLinkedList.java)
