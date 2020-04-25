@@ -1,5 +1,7 @@
 import common.LeetCode;
 
+import java.util.Arrays;
+
 /**
  * @author RakhmedovRS
  * @created 02-Apr-20
@@ -38,6 +40,40 @@ public class JumpGame
 			if (nums[i] >= currentPos - i)
 			{
 				return canJump(nums, i);
+			}
+		}
+
+		return false;
+	}
+
+	public boolean canJump2(int[] nums)
+	{
+		boolean[] memo = new boolean[nums.length];
+		Arrays.fill(memo, true);
+		return canJump(nums, 0, memo);
+	}
+
+	private boolean canJump(int[] nums, int startPos, boolean[] memo)
+	{
+		if (startPos >= nums.length - 1)
+		{
+			return true;
+		}
+
+		if (!memo[startPos])
+		{
+			return false;
+		}
+
+		for (int i = nums[startPos]; i > 0; i--)
+		{
+			if (!canJump(nums, startPos + i, memo))
+			{
+				memo[startPos] = false;
+			}
+			else
+			{
+				return true;
 			}
 		}
 
