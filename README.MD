@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 229
+Count of solved tasks: 230
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -52,6 +52,7 @@ Count of solved tasks: 229
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[UniquePathsII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniquePathsII.java)
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[MinimumPathSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumPathSum.java)
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|[PlusOne.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PlusOne.java)
+|67|[Add Binary](https://leetcode.com/problems/add-binary/)|[AddBinary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddBinary.java)
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Sqrt.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Sqrt.java)
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[ClimbingStairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClimbingStairs.java)
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[EditDistance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EditDistance.java)
