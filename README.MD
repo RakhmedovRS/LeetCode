@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 231
+Count of solved tasks: 232
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -145,6 +145,7 @@ Count of solved tasks: 231
 |322|[Coin Change](https://leetcode.com/problems/coin-change/)|[CoinChange.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CoinChange.java)
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[PowerOfThree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PowerOfThree.java)
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[OddEvenLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OddEvenLinkedList.java)
+|329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[LongestIncreasingPathInMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestIncreasingPathInMatrix.java)
 |334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[IncreasingTripletSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingTripletSubsequence.java)
 |334|[Reverse String](https://leetcode.com/problems/reverse-string/)|[ReverseString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseString.java)
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[ReverseVowelsOfString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseVowelsOfString.java)
