@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 232
+Count of solved tasks: 233
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -121,6 +121,7 @@ Count of solved tasks: 232
 |204|[Count Primes](https://leetcode.com/problems/count-primes/)|[CountPrimes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountPrimes.java)
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[ReverseLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseLinkedList.java)
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[PrefixTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrefixTree.java)
+|212|[Word Search II](https://leetcode.com/problems/word-search-ii/)|[WordSearchII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordSearchII.java)
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[KthLargestElementInAnArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthLargestElementInAnArray.java)
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[CombinationSumIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CombinationSumIII.java)
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[ContainsDuplicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainsDuplicate.java)
