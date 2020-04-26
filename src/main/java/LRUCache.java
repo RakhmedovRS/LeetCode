@@ -10,91 +10,98 @@ import java.util.Map;
 @LeetCode(id = 146, name = "LRU Cache", url = "https://leetcode.com/problems/lru-cache/")
 public class LRUCache
 {
-	private class Link
+	private class Entry
 	{
-		int key;
-		int value;
-		Link next;
-		Link previous;
+		private Entry prev;
+		private Entry next;
+		private int key;
+		private int value;
 
-		public Link(int key, int value)
+		public Entry(int key, int value)
 		{
 			this.key = key;
 			this.value = value;
 		}
 	}
 
-	private int capacity;
-	private Link head;
-	private Link tail;
-	private Map<Integer, Link> cache;
+	private Entry head;
+	private Entry tail;
+	private Map<Integer, Entry> map;
+	int size;
 
 	public LRUCache(int capacity)
 	{
-		this.capacity = capacity;
-		head = new Link(0, 0);
-		tail = new Link(0, 0);
+		head = new Entry(0, 0);
+		tail = new Entry(0, 0);
+		map = new HashMap<>();
+		size = capacity;
 		head.next = tail;
-		tail.previous = head;
-		cache = new HashMap<>();
+		tail.prev = head;
 	}
 
 	public int get(int key)
 	{
-		Link target = cache.get(key);
-
-		if (target != null)
-		{
-			target.previous.next = target.next;
-			target.next.previous = target.previous;
-
-			target.next = head.next;
-			target.previous = head;
-			head.next = target;
-			target.next.previous = target;
-
-			return target.value;
-		}
-		else
+		Entry entry = map.get(key);
+		if (entry == null)
 		{
 			return -1;
 		}
+
+		entry.prev.next = entry.next;
+		entry.next.prev = entry.prev;
+
+		entry.next = head.next;
+		entry.prev = head;
+		head.next.prev = entry;
+		head.next = entry;
+		return entry.value;
 	}
 
 	public void put(int key, int value)
 	{
-		Link newLink = cache.get(key);
-		if (newLink == null)
+		Entry entry = map.get(key);
+		if (entry == null)
 		{
-			newLink = new Link(key, value);
-			head.next.previous = newLink;
-			newLink.next = head.next;
-			head.next = newLink;
-			newLink.previous = head;
-			if (capacity == 0)
+			entry = new Entry(key, value);
+			head.next.prev = entry;
+			entry.next = head.next;
+			head.next = entry;
+			entry.prev = head;
+			if (size == 0)
 			{
-				Link removedLink = tail.previous;
-				removedLink.previous.next = tail;
-				tail.previous = removedLink.previous;
-				cache.remove(removedLink.key);
+				Entry removedLink = tail.prev;
+				removedLink.prev.next = tail;
+				tail.prev = removedLink.prev;
+				map.remove(removedLink.key);
 			}
 			else
 			{
-				capacity--;
+				size--;
 			}
-			cache.put(key, newLink);
+			map.put(key, entry);
 		}
 		else
 		{
-			newLink.value = value;
+			entry.value = value;
 
-			newLink.previous.next = newLink.next;
-			newLink.next.previous = newLink.previous;
+			entry.prev.next = entry.next;
+			entry.next.prev = entry.prev;
 
-			newLink.next = head.next;
-			newLink.previous = head;
-			head.next = newLink;
-			newLink.next.previous = newLink;
+			entry.next = head.next;
+			entry.prev = head;
+			head.next = entry;
+			entry.next.prev = entry;
 		}
+	}
+
+	public static void main(String[] args)
+	{
+		LRUCache lruCache = new LRUCache(2);
+		lruCache.put(2, 1);
+		lruCache.put(1, 1);
+		lruCache.put(2, 3);
+		lruCache.put(4, 1);
+		System.out.println(lruCache.get(1));
+		System.out.println(lruCache.get(2));
 	}
 }
