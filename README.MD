@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 233
+Count of solved tasks: 234
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -125,6 +125,7 @@ Count of solved tasks: 233
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[KthLargestElementInAnArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthLargestElementInAnArray.java)
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[CombinationSumIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CombinationSumIII.java)
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[ContainsDuplicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainsDuplicate.java)
+|221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[MaximalSquare.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximalSquare.java)
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|[MajorityElementII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MajorityElementII.java)
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[KthSmallestElementInBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthSmallestElementInBST.java)
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[QueueUsingStacks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueueUsingStacks.java)
