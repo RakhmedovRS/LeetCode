@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 238
+Count of solved tasks: 239
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -191,6 +191,7 @@ Count of solved tasks: 238
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[AverageOfLevelsInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AverageOfLevelsInBinaryTree.java)
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|[LongestContinuousIncreasingSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestContinuousIncreasingSubsequence.java)
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[ValidParenthesisString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidParenthesisString.java)
+|692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[TopKFrequentWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TopKFrequentWords.java)
 |693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[BinaryNumberWithAlternatingBits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryNumberWithAlternatingBits.java)
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[SearchInBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInBinarySearchTree.java)
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[DesignHashMap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignHashMap.java)
