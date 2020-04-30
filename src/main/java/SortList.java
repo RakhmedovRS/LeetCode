@@ -22,55 +22,54 @@ public class SortList
 			return head;
 		}
 
-		ListNode temp = head;
 		ListNode slow = head;
-		ListNode fast = head;
+		ListNode fast = head.next.next;
 		while (fast != null && fast.next != null)
 		{
-			temp = slow;
 			slow = slow.next;
 			fast = fast.next.next;
 		}
 
-		temp.next = null;
+		ListNode right = slow.next;
+		slow.next = null;
 
-		ListNode leftPart = sortList(head);
-		ListNode rightPart = sortList(slow);
-
-		return merge(leftPart, rightPart);
+		ListNode first = sortList(head);
+		ListNode second = sortList(right);
+		return merge(first, second);
 	}
 
-	private ListNode merge(ListNode left, ListNode right)
+	private ListNode merge(ListNode head1, ListNode head2)
 	{
-		ListNode dummy = new ListNode(0);
-		ListNode current = dummy;
-		while (left != null && right != null)
+		ListNode dummy = new ListNode(1);
+		ListNode prev = dummy;
+		while (head1 != null && head2 != null)
 		{
-			if (left.val > right.val)
+			if (head1.val > head2.val)
 			{
-				current.next = right;
-				right = right.next;
+				prev.next = head2;
+				prev = head2;
+				head2 = head2.next;
 			}
 			else
 			{
-				current.next = left;
-				left = left.next;
+				prev.next = head1;
+				prev = head1;
+				head1 = head1.next;
 			}
-			current = current.next;
 		}
 
-		while (left != null)
+		while (head1 != null)
 		{
-			current.next = left;
-			left = left.next;
-			current = current.next;
+			prev.next = head1;
+			prev = head1;
+			head1 = head1.next;
 		}
 
-		while (right != null)
+		while (head2 != null)
 		{
-			current.next = right;
-			right = right.next;
-			current = current.next;
+			prev.next = head2;
+			prev = head2;
+			head2 = head2.next;
 		}
 
 		return dummy.next;
