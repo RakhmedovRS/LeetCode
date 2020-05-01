@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 242
+Count of solved tasks: 243
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -76,6 +76,7 @@ Count of solved tasks: 242
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[BinaryTreeZigzagLevelOrderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeZigzagLevelOrderTraversal.java)
 |103|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[MaximumDepthOfBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDepthOfBinaryTree.java)
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[ConstructBinaryTreeFromPreorderAndInorderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)
+|106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[ConstructBinaryTreeFromInorderAndPostorderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructBinaryTreeFromInorderAndPostorderTraversal.java)
 |107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[BinaryTreeLevelOrderTraversalII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeLevelOrderTraversalII.java)
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[ConvertSortedArrayToBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertSortedArrayToBinarySearchTree.java)
 |109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/minimum-window-substring/)|[ConvertSortedListToBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertSortedListToBinarySearchTree.java)
