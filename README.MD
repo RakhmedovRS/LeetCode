@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 241
+Count of solved tasks: 242
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -131,6 +131,7 @@ Count of solved tasks: 241
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[KthSmallestElementInBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthSmallestElementInBST.java)
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[QueueUsingStacks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueueUsingStacks.java)
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[PalindromeLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeLinkedList.java)
+|236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[LowestCommonAncestorOfBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfBinaryTree.java)
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[DeleteNodeInLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteNodeInLinkedList.java)
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[ProductOfArrayExceptSelf.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ProductOfArrayExceptSelf.java)
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[SlidingWindowMaximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SlidingWindowMaximum.java)
