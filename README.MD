@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 244
+Count of solved tasks: 245
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -66,6 +66,7 @@ Count of solved tasks: 244
 |79|[Word Search](https://leetcode.com/problems/word-search/)|[WordSearch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordSearch.java)
 |82|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[LargestRectangleInHistogram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestRectangleInHistogram.java)
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|[MaximalRectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximalRectangle.java)
+|87|[Scramble String](https://leetcode.com/problems/scramble-string/)|[ScrambleString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ScrambleString.java)
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[MergeSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeSortedArray.java)
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[SubsetsII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubsetsII.java)
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[DecodeWays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeWays.java)
