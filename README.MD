@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 245
+Count of solved tasks: 246
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -199,6 +199,7 @@ Count of solved tasks: 245
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[TopKFrequentWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TopKFrequentWords.java)
 |693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[BinaryNumberWithAlternatingBits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryNumberWithAlternatingBits.java)
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[SearchInBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInBinarySearchTree.java)
+|704|[Binary Search](https://leetcode.com/problems/binary-search/)|[BinarySearch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearch.java)
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[DesignHashMap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignHashMap.java)
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[FindPivotIndex.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindPivotIndex.java)
 |725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)|[SplitLinkedListInParts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitLinkedListInParts.java)
