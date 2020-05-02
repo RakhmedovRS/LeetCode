@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 247
+Count of solved tasks: 248
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -111,6 +111,7 @@ Count of solved tasks: 247
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[MinStack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinStack.java)
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[IntersectionOfTwoLinkedLists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntersectionOfTwoLinkedLists.java)
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[FindPeakElement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindPeakElement.java)
+|167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[TwoSumII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumII.java)
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[MajorityElement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MajorityElement.java)
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[ExcelSheetColumnNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExcelSheetColumnNumber.java)
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|[FactorialTrailingZeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FactorialTrailingZeroes.java)
