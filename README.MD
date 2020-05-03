@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 249
+Count of solved tasks: 250
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -165,6 +165,7 @@ Count of solved tasks: 249
 |371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[SumOfTwoIntegers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfTwoIntegers.java)
 |378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[KthSmallestElementInSortedMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthSmallestElementInSortedMatrix.java)
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[InsertDeleteGetRandom.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsertDeleteGetRandom.java)
+|382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|[LinkedListRandomNode.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListRandomNode.java)
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[RansomNote.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RansomNote.java)
 |384|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|[ShuffleAnArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShuffleAnArray.java)
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[FirstUniqueCharacterInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstUniqueCharacterInString.java)
