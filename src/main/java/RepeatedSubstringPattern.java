@@ -16,7 +16,7 @@ public class RepeatedSubstringPattern
 
 		int len = s.length();
 
-		for (int i = len / 2; i >= 1 / 2; i--)
+		for (int i = len / 2; i >= 1; i--)
 		{
 			if (len % i == 0)
 			{
