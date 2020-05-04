@@ -1,9 +1,9 @@
 import common.LeetCode;
 
 import java.util.ArrayList;
-import java.util.Deque;
-import java.util.LinkedList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author RakhmedovRS
@@ -38,33 +38,25 @@ public class BinaryTreeRightSideView
 			return result;
 		}
 
-		Deque<TreeNode> levels = new LinkedList<>();
-		levels.addLast(root);
-		int levelSize;
-		while (!levels.isEmpty())
-		{
-			levelSize = levels.size();
-			while (levelSize-- > 0)
-			{
-				TreeNode node = levels.removeFirst();
-
-				if (node.left != null)
-				{
-					levels.addLast(node.left);
-				}
-
-				if (node.right != null)
-				{
-					levels.addLast(node.right);
-				}
-
-				if (levelSize == 0)
-				{
-					result.add(node.val);
-				}
-			}
-		}
+		Map<Integer, Boolean> visited = new HashMap<>();
+		rightSideView(root, result, visited, 1);
 
 		return result;
+	}
+
+	private void rightSideView(TreeNode root, List<Integer> result, Map<Integer, Boolean> visited, int currentLevel)
+	{
+		if (root == null)
+		{
+			return;
+		}
+
+		if (!visited.getOrDefault(currentLevel, false))
+		{
+			visited.put(currentLevel, true);
+			result.add(root.val);
+		}
+		rightSideView(root.right, result, visited, currentLevel + 1);
+		rightSideView(root.left, result, visited, currentLevel + 1);
 	}
 }
