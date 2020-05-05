@@ -1,5 +1,6 @@
 import common.LeetCode;
 
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -29,6 +30,12 @@ public class N_aryTreePreorderTraversal
 		}
 	}
 
+	public List<Integer> preorder(Node root) {
+		List<Integer> result = new LinkedList<>();
+		preorder(root, result);
+		return result;
+	}
+
 	private void preorder(Node root, List<Integer> result)
 	{
 		if (root == null)
@@ -36,17 +43,26 @@ public class N_aryTreePreorderTraversal
 			return;
 		}
 
-		result.add(root.val);
-		for (Node node : root.children)
+		Deque<Node> deque = new LinkedList<>();
+		deque.addFirst(root);
+		while (!deque.isEmpty())
 		{
-			preorder(node, result);
+			Node node = deque.remove();
+			if (node != null)
+			{
+				result.add(node.val);
+				if (node.children != null)
+				{
+					for (int i = node.children.size() - 1; i >= 0; i--)
+					{
+						Node children = node.children.get(i);
+						if (children != null)
+						{
+							deque.addFirst(children);
+						}
+					}
+				}
+			}
 		}
-	}
-
-	public List<Integer> preorder(Node root)
-	{
-		List<Integer> result = new LinkedList<>();
-		preorder(root, result);
-		return result;
 	}
 }
