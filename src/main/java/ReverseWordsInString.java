@@ -1,5 +1,8 @@
 import common.LeetCode;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author RakhmedovRS
  * @created 04-Apr-20
@@ -14,21 +17,27 @@ public class ReverseWordsInString
 			return s;
 		}
 
-		String[] words = s.split(" ");
-		StringBuilder result = new StringBuilder(words.length);
-		for (int i = words.length - 1; i >= 0; i--)
+		List<String> words = new ArrayList<>();
+		for (String word : s.split(" "))
 		{
-			if (words[i].length() != 0)
+			if (!word.isEmpty())
 			{
-				result.append(words[i]).append(" ");
+				words.add(word);
 			}
 		}
 
-		if (result.length() > 0)
+		int left = 0;
+		int right = words.size() - 1;
+		while (left < right)
 		{
-			result.deleteCharAt(result.length() - 1);
+			String temp = words.get(left);
+			words.set(left, words.get(right));
+			words.set(right, temp);
+			left++;
+			right--;
 		}
-		return result.toString();
+
+		return String.join(" ", words);
 	}
 
 	public static void main(String[] args)
