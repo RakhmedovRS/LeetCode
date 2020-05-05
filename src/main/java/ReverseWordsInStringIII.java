@@ -1,5 +1,8 @@
 import common.LeetCode;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author RakhmedovRS
  * @created 06-Apr-20
@@ -9,34 +12,36 @@ public class ReverseWordsInStringIII
 {
 	public String reverseWords(String s)
 	{
-		if (s == null)
+		if (s == null || s.isEmpty())
 		{
-			return null;
+			return s;
 		}
 
-		char[] chars = s.toCharArray();
-		int zeroPos = 0;
-		int left;
-		int right;
-		char temp;
-		while (zeroPos < chars.length)
+		List<String> words = new ArrayList<>();
+		for (String word : s.split(" "))
 		{
-			left = zeroPos;
-			while (zeroPos < chars.length && chars[zeroPos] != ' ')
+			if (!word.isEmpty())
 			{
-				zeroPos++;
+				words.add(reverseWord(word));
 			}
-			right = zeroPos - 1;
+		}
 
-			while (left < right)
-			{
-				temp = chars[left];
-				chars[left] = chars[right];
-				chars[right] = temp;
-				left++;
-				right--;
-			}
-			zeroPos++;
+		return String.join(" ", words);
+	}
+
+	private String reverseWord(String word)
+	{
+		char[] chars = word.toCharArray();
+		int left = 0;
+		int right = chars.length - 1;
+		while (left < right)
+		{
+			char temp = chars[left];
+			chars[left] = chars[right];
+			chars[right] = temp;
+
+			left++;
+			right--;
 		}
 
 		return String.valueOf(chars);
