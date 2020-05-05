@@ -1,8 +1,5 @@
 import common.LeetCode;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @author RakhmedovRS
  * @created 14-Mar-20
@@ -12,21 +9,31 @@ public class FirstUniqueCharacterInString
 {
 	public int firstUniqChar(String s)
 	{
-		char[] values = s.toCharArray();
-		Map<Character, Integer> cache = new HashMap<>();
-		for (char ch : values)
+		if (s == null || s.isEmpty())
 		{
-			cache.put(ch, cache.getOrDefault(ch, 0) + 1);
+			return -1;
 		}
 
-		for (int i = 0; i < values.length; i++)
+		int[] cache = new int[26];
+		for (char ch : s.toCharArray())
 		{
-			if (cache.get(values[i]) == 1)
+			cache[ch - 'a']++;
+		}
+
+		for (int i = 0; i < s.length(); i++)
+		{
+			if (cache[s.charAt(i) - 'a'] == 1)
 			{
 				return i;
 			}
 		}
 
 		return -1;
+	}
+
+	public static void main(String[] args)
+	{
+		System.out.println(new FirstUniqueCharacterInString().firstUniqChar("leetcode"));
+		System.out.println(new FirstUniqueCharacterInString().firstUniqChar("loveleetcode"));
 	}
 }
