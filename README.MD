@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 254
+Count of solved tasks: 255
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -85,6 +85,7 @@ Count of solved tasks: 254
 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[PopulatingNextRightPointersInEachNode.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PopulatingNextRightPointersInEachNode.java)
 |117|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[PopulatingNextRightPointersInEachNodeII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PopulatingNextRightPointersInEachNodeII.java)
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[PascalTriangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PascalTriangle.java)
+|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[PascalTriangleII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PascalTriangleII.java)
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[Triangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Triangle.java)
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[BestTimeToBuyAndSellStock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BestTimeToBuyAndSellStock.java)
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[BestTimeToBuyAndSellStockII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BestTimeToBuyAndSellStockII.java)
