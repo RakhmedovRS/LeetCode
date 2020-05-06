@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 255
+Count of solved tasks: 256
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -252,6 +252,7 @@ Count of solved tasks: 255
 |1312|[Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)|[MinimumInsertionStepsToMakeStringPalindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumInsertionStepsToMakeStringPalindrome.java)
 |1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)|[ConvertIntegerToTheSumOfTwoNoZeroIntegers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertIntegerToTheSumOfTwoNoZeroIntegers.java)
 |1324|[Print Words Vertically](https://leetcode.com/problems/print-words-vertically/)|[PrintWordsVertically.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintWordsVertically.java)
+|1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)|[MaximumProductOfSplittedBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfSplittedBinaryTree.java)
 |1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[NumberOfStepsToReduceNumberToZero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfStepsToReduceNumberToZero.java)
 |1346|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|[CheckIfNAndItsDoubleExist.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfNAndItsDoubleExist.java)
 |1356|[Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)|[SortIntegersByTheNumberOf1Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortIntegersByTheNumberOf1Bits.java)
