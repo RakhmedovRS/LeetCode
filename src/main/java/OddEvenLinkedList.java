@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.ListNode;
 
 /**
  * @author RakhmedovRS
@@ -7,15 +8,7 @@ import common.LeetCode;
 @LeetCode(id = 328, name = "Odd Even Linked List", url = "https://leetcode.com/problems/odd-even-linked-list/")
 public class OddEvenLinkedList
 {
-	public class ListNode
-	{
-		int val;
-		ListNode next;
-
-		ListNode(int x){ val = x; }
-	}
-
-	public ListNode oddEvenList(ListNode head)
+public ListNode oddEvenList(ListNode head)
 	{
 		if (head == null || head.next == null)
 		{

@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.ListNode;
 
 /**
  * @author RakhmedovRS
@@ -7,14 +8,6 @@ import common.LeetCode;
 @LeetCode(id = 234, name = "Palindrome Linked List", url = "https://leetcode.com/problems/palindrome-linked-list/")
 public class PalindromeLinkedList
 {
-	public static class ListNode
-	{
-		int val;
-		ListNode next;
-
-		ListNode(int x){ val = x; }
-	}
-
 	public boolean isPalindrome(ListNode head)
 	{
 		if (head == null || head.next == null)

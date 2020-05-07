@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.ListNode;
 
 /**
  * @author RakhmedovRS
@@ -7,14 +8,6 @@ import common.LeetCode;
 @LeetCode(id = 206, name = "Reverse Linked List", url ="https://leetcode.com/problems/reverse-linked-list/")
 public class ReverseLinkedList
 {
-	public static class ListNode
-	{
-		int val;
-		ListNode next;
-
-		ListNode(int x){ val = x; }
-	}
-
 	public ListNode reverseList(ListNode head)
 	{
 		if (head == null || head.next == null)

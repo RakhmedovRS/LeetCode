@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.ListNode;
 
 /**
  * @author RakhmedovRS
@@ -7,18 +8,6 @@ import common.LeetCode;
 @LeetCode(id = 141, name = "Linked List Cycle", url = "https://leetcode.com/problems/linked-list-cycle/")
 public class LinkedListCycle
 {
-	class ListNode
-	{
-		int val;
-		ListNode next;
-
-		ListNode(int x)
-		{
-			val = x;
-			next = null;
-		}
-	}
-
 	public boolean hasCycle(ListNode head)
 	{
 		if(head == null || head.next == null || head.next.next == null)

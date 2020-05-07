@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.ListNode;
 
 /**
  * @author RakhmedovRS
@@ -7,15 +8,7 @@ import common.LeetCode;
 @LeetCode(id = 876, name = "Middle of the Linked List", url = "https://leetcode.com/problems/middle-of-the-linked-list/")
 public class MiddleOfTheLinkedList
 {
-	public class ListNode
-	{
-		int val;
-		ListNode next;
-
-		ListNode(int x){ val = x; }
-	}
-
-	public ListNode middleNode(ListNode head)
+public ListNode middleNode(ListNode head)
 	{
 		if (head == null || head.next == null)
 		{

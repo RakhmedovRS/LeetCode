@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.ListNode;
 
 /**
  * @author RakhmedovRS
@@ -7,15 +8,7 @@ import common.LeetCode;
 @LeetCode(id = 237, name = "Delete Node in a Linked List", url = "https://leetcode.com/problems/delete-node-in-a-linked-list/")
 public class DeleteNodeInLinkedList
 {
-	public class ListNode
-	{
-		int val;
-		ListNode next;
-
-		ListNode(int x){ val = x; }
-	}
-
-	public void deleteNode(ListNode node)
+public void deleteNode(ListNode node)
 	{
 		if (node.next == null)
 		{

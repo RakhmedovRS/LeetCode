@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.ListNode;
 
 /**
  * @author RakhmedovRS
@@ -7,14 +8,6 @@ import common.LeetCode;
 @LeetCode(id = 725, name = "Split Linked List in Parts", url = "https://leetcode.com/problems/split-linked-list-in-parts/")
 public class SplitLinkedListInParts
 {
-	public static class ListNode
-	{
-		int val;
-		ListNode next;
-
-		ListNode(int x){ val = x; }
-	}
-
 	public ListNode[] splitListToParts(ListNode root, int k)
 	{
 		if (k == 1)

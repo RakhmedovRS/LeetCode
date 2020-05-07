@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.ListNode;
 
 /**
  * @author RakhmedovRS
@@ -7,14 +8,6 @@ import common.LeetCode;
 @LeetCode(id = 24, name = "Swap Nodes in Pairs", url = "https://leetcode.com/problems/swap-nodes-in-pairs/")
 public class SwapNodesInPairs
 {
-	public static class ListNode
-	{
-		int val;
-		ListNode next;
-
-		ListNode(int x){ val = x; }
-	}
-
 	public ListNode swapPairs(ListNode head)
 	{
 		ListNode dummy = new ListNode(0);

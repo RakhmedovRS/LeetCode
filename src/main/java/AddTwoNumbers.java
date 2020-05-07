@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.ListNode;
 
 /**
  * @author RakhmedovRS
@@ -7,14 +8,6 @@ import common.LeetCode;
 @LeetCode(id = 2, name = "Add Two Numbers", url = "https://leetcode.com/problems/add-two-numbers/")
 public class AddTwoNumbers
 {
-	public class ListNode
-	{
-		int val;
-		ListNode next;
-
-		ListNode(int x){ val = x; }
-	}
-
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2)
 	{
 		ListNode dummy = new ListNode(0);

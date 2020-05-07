@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.ListNode;
 
 /**
  * @author RakhmedovRS
@@ -7,15 +8,7 @@ import common.LeetCode;
 @LeetCode(id = 148, name = "Sort List", url = "https://leetcode.com/problems/sort-list/")
 public class SortList
 {
-	public class ListNode
-	{
-		int val;
-		ListNode next;
-
-		ListNode(int x){ val = x; }
-	}
-
-	public ListNode sortList(ListNode head)
+public ListNode sortList(ListNode head)
 	{
 		if (head == null || head.next == null)
 		{

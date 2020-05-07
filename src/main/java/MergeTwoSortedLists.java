@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.ListNode;
 
 /**
  * @author RakhmedovRS
@@ -7,15 +8,7 @@ import common.LeetCode;
 @LeetCode(id = 21, name = "Merge Two Sorted Lists", url = "https://leetcode.com/problems/merge-two-sorted-lists/")
 public class MergeTwoSortedLists
 {
-	public class ListNode
-	{
-		int val;
-		ListNode next;
-
-		ListNode(int x){ val = x; }
-	}
-
-	public ListNode mergeTwoLists(ListNode l1, ListNode l2)
+public ListNode mergeTwoLists(ListNode l1, ListNode l2)
 	{
 		if (l1 == null && l2 == null)
 		{

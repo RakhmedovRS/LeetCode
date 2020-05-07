@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.ListNode;
 
 /**
  * @author RakhmedovRS
@@ -7,15 +8,7 @@ import common.LeetCode;
 @LeetCode(id = 23, name = "Merge k Sorted Lists", url = "https://leetcode.com/problems/merge-k-sorted-lists/")
 public class MergeKSortedLists
 {
-	public class ListNode
-	{
-		int val;
-		ListNode next;
-
-		ListNode(int x){ val = x; }
-	}
-
-	class BinaryHeap
+class BinaryHeap
 	{
 		ListNode[] heapArray;
 		int elementsNumber;

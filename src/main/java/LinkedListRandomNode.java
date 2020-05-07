@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,22 +12,6 @@ import java.util.Random;
 @LeetCode(id = 382, name = "Linked List Random Node", url = "https://leetcode.com/problems/linked-list-random-node/")
 public class LinkedListRandomNode
 {
-	public class ListNode
-	{
-		int val;
-		ListNode next;
-
-		ListNode(){}
-
-		ListNode(int val){ this.val = val; }
-
-		ListNode(int val, ListNode next)
-		{
-			this.val = val;
-			this.next = next;
-		}
-	}
-
 	class Solution
 	{
 		private ListNode head;
@@ -60,7 +45,7 @@ public class LinkedListRandomNode
 
 	public static void main(String[] args)
 	{
-		Solution solution = new LinkedListRandomNode().new Solution(new LinkedListRandomNode().new ListNode(1));
+		Solution solution = new LinkedListRandomNode().new Solution(new ListNode(1));
 
 		System.out.println(solution.getRandom());
 	}
