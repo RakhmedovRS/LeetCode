@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 import java.util.HashMap;
 
@@ -9,24 +10,6 @@ import java.util.HashMap;
 @LeetCode(id = 1339, name = "Maximum Product of Splitted Binary Tree", url = "https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/")
 public class MaximumProductOfSplittedBinaryTree
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(){}
-
-		TreeNode(int val){ this.val = val; }
-
-		TreeNode(int val, TreeNode left, TreeNode right)
-		{
-			this.val = val;
-			this.left = left;
-			this.right = right;
-		}
-	}
-
 	public int maxProduct(TreeNode root)
 	{
 		HashMap<TreeNode, Integer> nodeToSum = new HashMap<>();

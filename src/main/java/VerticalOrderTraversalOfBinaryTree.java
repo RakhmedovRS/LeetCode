@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -11,15 +12,6 @@ import java.util.List;
 @LeetCode(id = 987, name = "Vertical Order Traversal of a Binary Tree", url = "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/")
 public class VerticalOrderTraversalOfBinaryTree
 {
-	public static class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	private static class Point implements Comparable<Point>
 	{
 		private int x;

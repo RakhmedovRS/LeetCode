@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -11,15 +12,6 @@ import java.util.List;
 @LeetCode(id = 102, name = "Binary Tree Level Order Traversal", url = "https://leetcode.com/problems/binary-tree-level-order-traversal/")
 public class BinaryTreeLevelOrderTraversal
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public List<List<Integer>> levelOrder(TreeNode root)
 	{
 		if (root == null)

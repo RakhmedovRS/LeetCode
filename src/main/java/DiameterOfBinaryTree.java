@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 /**
  * @author RakhmedovRS
@@ -7,15 +8,6 @@ import common.LeetCode;
 @LeetCode(id = 543, name = "Diameter of Binary Tree", url = "https://leetcode.com/problems/diameter-of-binary-tree/")
 public class DiameterOfBinaryTree
 {
-	public static class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public int diameterOfBinaryTree(TreeNode root)
 	{
 		int[] max = new int[]{0};

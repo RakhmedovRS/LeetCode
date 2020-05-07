@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 /**
  * @author RakhmedovRS
@@ -7,15 +8,6 @@ import common.LeetCode;
 @LeetCode(id = 124, name = "Binary Tree Maximum Path Sum", url = "https://leetcode.com/problems/binary-tree-maximum-path-sum/")
 public class BinaryTreeMaximumPathSum
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public int maxPathSum(TreeNode root)
 	{
 		int[] answer = new int[]{Integer.MIN_VALUE};

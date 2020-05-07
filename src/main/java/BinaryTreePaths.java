@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -12,15 +13,6 @@ import java.util.stream.Collectors;
 @LeetCode(id = 257, name = "Binary Tree Paths", url = "https://leetcode.com/problems/binary-tree-paths/")
 public class BinaryTreePaths
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public List<String> binaryTreePaths(TreeNode root)
 	{
 		if (root == null)

@@ -1,5 +1,6 @@
 import common.LeetCode;
 import common.ListNode;
+import common.TreeNode;
 
 /**
  * @author RakhmedovRS
@@ -8,15 +9,6 @@ import common.ListNode;
 @LeetCode(id = 109, name = "Convert Sorted List to Binary Search Tree", url = "https://leetcode.com/problems/minimum-window-substring/")
 public class ConvertSortedListToBinarySearchTree
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	private TreeNode convertListToBST(int left, int right, ListNode[] currentHead)
 	{
 		if (left > right)

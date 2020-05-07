@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,15 +11,6 @@ import java.util.List;
 @LeetCode(id = 783, name = "Minimum Distance Between BST Nodes", url = "https://leetcode.com/problems/minimum-distance-between-bst-nodes/")
 public class MinimumDistanceBetweenBSTNodes
 {
-	public static class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public int minDiffInBST(TreeNode root)
 	{
 		List<Integer> values = new ArrayList<>();

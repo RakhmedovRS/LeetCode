@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 /**
  * @author RakhmedovRS
@@ -7,15 +8,6 @@ import common.LeetCode;
 @LeetCode(id = 98, name = "Validate Binary Search Tree", url = "https://leetcode.com/problems/validate-binary-search-tree/")
 public class ValidateBinarySearchTree
 {
-	public static class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public boolean isValidBST(TreeNode root)
 	{
 		return isValidBST(root, null, null);

@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 import java.util.Deque;
 import java.util.LinkedList;
@@ -10,15 +11,6 @@ import java.util.LinkedList;
 @LeetCode(id = 230, name = "Kth Smallest Element in a BST", url = "https://leetcode.com/problems/kth-smallest-element-in-a-bst/")
 public class KthSmallestElementInBST
 {
-	public static class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public void kthSmallest(TreeNode root, LinkedList<Integer> values, int k)
 	{
 		if (root == null)

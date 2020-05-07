@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 import java.util.Arrays;
 import java.util.Deque;
@@ -11,15 +12,6 @@ import java.util.LinkedList;
 @LeetCode(id = 297, name = "Serialize and Deserialize Binary Tree", url = "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/")
 public class SerializeAndDeserializeBinaryTree
 {
-	public static class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public class Codec
 	{
 		// Encodes a tree to a single string.

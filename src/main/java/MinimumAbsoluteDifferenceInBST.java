@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,24 +11,6 @@ import java.util.List;
 @LeetCode(id = 530, name = "Minimum Absolute Difference in BST", url = "https://leetcode.com/problems/minimum-absolute-difference-in-bst/")
 public class MinimumAbsoluteDifferenceInBST
 {
-	public static class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(){}
-
-		TreeNode(int val){ this.val = val; }
-
-		TreeNode(int val, TreeNode left, TreeNode right)
-		{
-			this.val = val;
-			this.left = left;
-			this.right = right;
-		}
-	}
-
 	public int getMinimumDifference(TreeNode root)
 	{
 		List<Integer> inorder = new ArrayList<>();

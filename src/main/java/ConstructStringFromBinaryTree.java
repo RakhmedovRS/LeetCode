@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 /**
  * @author RakhmedovRS
@@ -7,15 +8,6 @@ import common.LeetCode;
 @LeetCode(id = 606, name = "Construct String from Binary Tree", url = "https://leetcode.com/problems/construct-string-from-binary-tree/")
 public class ConstructStringFromBinaryTree
 {
-	public static class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public String tree2str(TreeNode t)
 	{
 		if (t == null)

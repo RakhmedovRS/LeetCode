@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Deque;
@@ -12,15 +13,6 @@ import java.util.List;
 @LeetCode(id = 144, name = "Binary Tree Preorder Traversal", url = "https://leetcode.com/problems/binary-tree-preorder-traversal/")
 public class BinaryTreePreorderTraversal
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public List<Integer> preorderTraversal(TreeNode root)
 	{
 		List<Integer> result = new ArrayList<>();

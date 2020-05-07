@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 /**
  * @author RakhmedovRS
@@ -7,15 +8,6 @@ import common.LeetCode;
 @LeetCode(id = 103, name = "Maximum Depth of Binary Tree", url = "https://leetcode.com/problems/maximum-depth-of-binary-tree/")
 public class MaximumDepthOfBinaryTree
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public int maxDepth(TreeNode root)
 	{
 		if (root == null)

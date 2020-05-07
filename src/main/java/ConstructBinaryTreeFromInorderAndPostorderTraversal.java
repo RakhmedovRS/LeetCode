@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,15 +11,6 @@ import java.util.Map;
 @LeetCode(id = 106, name = "Construct Binary Tree from Inorder and Postorder Traversal", url = "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/")
 public class ConstructBinaryTreeFromInorderAndPostorderTraversal
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public TreeNode buildTree(int[] inorder, int[] postorder)
 	{
 		if (inorder == null || inorder.length == 0 || postorder == null || postorder.length == 0)

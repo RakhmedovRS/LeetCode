@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 /**
  * @author RakhmedovRS
@@ -7,15 +8,6 @@ import common.LeetCode;
 @LeetCode(id = 101, name = "Symmetric Tree", url = "https://leetcode.com/problems/symmetric-tree/")
 public class SymmetricTree
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public boolean isSymmetric(TreeNode root)
 	{
 		TreeNode secondRoot = cloneAndInvertTree(root);

@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 /**
  * @author RakhmedovRS
@@ -7,15 +8,6 @@ import common.LeetCode;
 @LeetCode(id = 449, name = "Serialize and Deserialize BST", url = "https://leetcode.com/problems/serialize-and-deserialize-bst/")
 public class SerializeAndDeserializeBST
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public String serialize(TreeNode root)
 	{
 		if (root == null)

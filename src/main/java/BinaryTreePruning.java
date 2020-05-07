@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 /**
  * @author RakhmedovRS
@@ -7,15 +8,6 @@ import common.LeetCode;
 @LeetCode(id = 814, name = "Binary Tree Pruning", url = "https://leetcode.com/problems/binary-tree-pruning/")
 public class BinaryTreePruning
 {
-	public static class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public boolean needDeleteNode(TreeNode root)
 	{
 		if (root == null)

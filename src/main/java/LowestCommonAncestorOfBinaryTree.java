@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 /**
  * @author RakhmedovRS
@@ -7,15 +8,6 @@ import common.LeetCode;
 @LeetCode(id = 236, name = "Lowest Common Ancestor of a Binary Tree", url = "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/")
 public class LowestCommonAncestorOfBinaryTree
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
 	{
 		if (root == null)

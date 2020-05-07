@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,15 +11,6 @@ import java.util.Map;
 @LeetCode(id = 105, name = "Construct Binary Tree from Preorder and Inorder Traversal", url = "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/")
 public class ConstructBinaryTreeFromPreorderAndInorderTraversal
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public TreeNode buildTree(int[] preorder, int[] inorder)
 	{
 		Map<Integer, Integer> cache = new HashMap<>();

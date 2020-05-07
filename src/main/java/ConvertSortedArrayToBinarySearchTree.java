@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 /**
  * @author RakhmedovRS
@@ -7,15 +8,6 @@ import common.LeetCode;
 @LeetCode(id = 108, name = "Convert Sorted Array to Binary Search Tree", url = "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/")
 public class ConvertSortedArrayToBinarySearchTree
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	private TreeNode getChild(int[] nums, int left, int right)
 	{
 		if (left > right)

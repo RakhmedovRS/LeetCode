@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -11,15 +12,6 @@ import java.util.List;
 @LeetCode(id = 515, name = "Find Largest Value in Each Tree Row", url = "https://leetcode.com/problems/find-largest-value-in-each-tree-row/")
 public class FindLargestValueInEachTreeRow
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public List<Integer> largestValues(TreeNode root)
 	{
 		if (root == null)

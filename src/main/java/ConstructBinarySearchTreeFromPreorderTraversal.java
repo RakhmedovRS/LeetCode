@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 /**
  * @author RakhmedovRS
@@ -7,15 +8,6 @@ import common.LeetCode;
 @LeetCode(id = 1008, name = "Construct Binary Search Tree from Preorder Traversal", url = "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/")
 public class ConstructBinarySearchTreeFromPreorderTraversal
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public TreeNode bstFromPreorder(int[] preorder)
 	{
 		return bstFromPreorder(preorder, new int[]{0}, Integer.MIN_VALUE, Integer.MAX_VALUE);

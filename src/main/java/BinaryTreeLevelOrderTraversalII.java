@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 import java.util.*;
 
@@ -9,15 +10,6 @@ import java.util.*;
 @LeetCode(id = 107, name = "Binary Tree Level Order Traversal II", url = "https://leetcode.com/problems/binary-tree-level-order-traversal-ii/")
 public class BinaryTreeLevelOrderTraversalII
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public List<List<Integer>> levelOrderBottom(TreeNode root)
 	{
 		Map<Integer, List<Integer>> cache = new HashMap<>();

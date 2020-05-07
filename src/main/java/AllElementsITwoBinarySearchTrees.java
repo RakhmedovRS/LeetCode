@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -11,15 +12,6 @@ import java.util.List;
 @LeetCode(id = 1305, name = "All Elements in Two Binary Search Trees", url = "https://leetcode.com/problems/all-elements-in-two-binary-search-trees/")
 public class AllElementsITwoBinarySearchTrees
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public List<Integer> getAllElements(TreeNode root1, TreeNode root2)
 	{
 		List<Integer> values = new ArrayList<>();

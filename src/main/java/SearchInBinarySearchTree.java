@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 /**
  * @author RakhmedovRS
@@ -7,16 +8,6 @@ import common.LeetCode;
 @LeetCode(id = 700, name = "Search in a Binary Search Tree", url = "https://leetcode.com/problems/search-in-a-binary-search-tree/")
 public class SearchInBinarySearchTree
 {
-
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public TreeNode searchBST(TreeNode root, int val)
 	{
 		if (root == null)

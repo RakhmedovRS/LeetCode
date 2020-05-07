@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 /**
  * @author RakhmedovRS
@@ -7,15 +8,6 @@ import common.LeetCode;
 @LeetCode(id = 965, name = "Univalued Binary Tree", url = "https://leetcode.com/problems/univalued-binary-tree/")
 public class UnivaluedBinaryTree
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public boolean isUnivalTree(TreeNode root)
 	{
 		if (root == null || (root.left == null && root.right == null))

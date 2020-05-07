@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Deque;
@@ -12,15 +13,6 @@ import java.util.List;
 @LeetCode(id = 94, name = "Binary Tree Inorder Traversal", url = "https://leetcode.com/problems/binary-tree-inorder-traversal/")
 public class BinaryTreeInorderTraversal
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public List<Integer> inorderTraversal(TreeNode root)
 	{
 		Deque<TreeNode> deque = new LinkedList<>();

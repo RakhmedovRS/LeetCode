@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -12,15 +13,6 @@ import java.util.Queue;
 @LeetCode(id = 637, name = "Average of Levels in Binary Tree", url = "https://leetcode.com/problems/average-of-levels-in-binary-tree/")
 public class AverageOfLevelsInBinaryTree
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public List<Double> averageOfLevels(TreeNode root)
 	{
 		if (root == null)

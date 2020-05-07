@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,24 +13,6 @@ import java.util.Map;
 @LeetCode(id = 199, name = "Binary Tree Right Side View", url = "https://leetcode.com/problems/binary-tree-right-side-view/")
 public class BinaryTreeRightSideView
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(){}
-
-		TreeNode(int val){ this.val = val; }
-
-		TreeNode(int val, TreeNode left, TreeNode right)
-		{
-			this.val = val;
-			this.left = left;
-			this.right = right;
-		}
-	}
-
 	public List<Integer> rightSideView(TreeNode root)
 	{
 		List<Integer> result = new ArrayList<>();

@@ -1,4 +1,5 @@
 import common.LeetCode;
+import common.TreeNode;
 
 import java.util.Deque;
 import java.util.LinkedList;
@@ -11,15 +12,6 @@ import java.util.List;
 @LeetCode(id = 103, name = "Binary Tree Zigzag Level Order Traversal", url = "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/")
 public class BinaryTreeZigzagLevelOrderTraversal
 {
-	public class TreeNode
-	{
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x){ val = x; }
-	}
-
 	public List<List<Integer>> zigzagLevelOrder(TreeNode root)
 	{
 		List<List<Integer>> result = new LinkedList<>();
