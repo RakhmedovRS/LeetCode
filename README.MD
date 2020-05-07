@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 257
+Count of solved tasks: 258
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -125,6 +125,7 @@ Count of solved tasks: 257
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[NumberOfIslands.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfIslands.java)
 |201|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|[BitwiseANDOfNumbersRange.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BitwiseANDOfNumbersRange.java)
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|[HappyNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HappyNumber.java)
+|203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[RemoveLinkedListElements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveLinkedListElements.java)
 |204|[Count Primes](https://leetcode.com/problems/count-primes/)|[CountPrimes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountPrimes.java)
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[ReverseLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseLinkedList.java)
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[PrefixTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrefixTree.java)
