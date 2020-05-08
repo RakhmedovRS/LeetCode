@@ -8,7 +8,7 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 08-May-20
  */
-@LeetCode(id = 85, name = "Unique Binary Search Trees II", url = "https://leetcode.com/problems/unique-binary-search-trees-ii/")
+@LeetCode(id = 95, name = "Unique Binary Search Trees II", url = "https://leetcode.com/problems/unique-binary-search-trees-ii/")
 public class UniqueBinarySearchTreesII
 {
 	public List<TreeNode> generateTrees(int n)

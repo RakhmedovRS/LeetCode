@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 262
+Count of solved tasks: 263
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -66,13 +66,13 @@ Count of solved tasks: 262
 |79|[Word Search](https://leetcode.com/problems/word-search/)|[WordSearch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordSearch.java)
 |82|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[LargestRectangleInHistogram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestRectangleInHistogram.java)
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|[MaximalRectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximalRectangle.java)
-|85|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|[UniqueBinarySearchTreesII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueBinarySearchTreesII.java)
 |87|[Scramble String](https://leetcode.com/problems/scramble-string/)|[ScrambleString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ScrambleString.java)
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[MergeSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeSortedArray.java)
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[SubsetsII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubsetsII.java)
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[DecodeWays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeWays.java)
 |93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[RestoreIPAddresses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RestoreIPAddresses.java)
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[BinaryTreeInorderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeInorderTraversal.java)
+|95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|[UniqueBinarySearchTreesII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueBinarySearchTreesII.java)
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[ValidateBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidateBinarySearchTree.java)
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[SymmetricTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SymmetricTree.java)
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[BinaryTreeLevelOrderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeLevelOrderTraversal.java)
@@ -146,6 +146,7 @@ Count of solved tasks: 262
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[ProductOfArrayExceptSelf.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ProductOfArrayExceptSelf.java)
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[SlidingWindowMaximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SlidingWindowMaximum.java)
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Search2DMatrixII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Search2DMatrixII.java)
+|241|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|[DifferentWaysToAddParentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DifferentWaysToAddParentheses.java)
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[ValidAnagram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidAnagram.java)
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[BinaryTreePaths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePaths.java)
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[MissingNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumber.java)
