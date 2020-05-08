@@ -36,26 +36,7 @@ public class DifferentWaysToAddParentheses
 				{
 					for (Integer right : rightValues)
 					{
-						int res;
-						switch (expression.charAt(i))
-						{
-							case '+':
-							{
-								res = left + right;
-								break;
-							}
-							case '-':
-							{
-								res = left - right;
-								break;
-							}
-							default:
-							{
-								res = left * right;
-								break;
-							}
-						}
-						result.add(res);
+						result.add(evaluate(left, right, expression.charAt(i)));
 					}
 				}
 			}
@@ -68,5 +49,24 @@ public class DifferentWaysToAddParentheses
 
 		memo.put(expression, result);
 		return result;
+	}
+
+	private int evaluate(int a, int b, char operator)
+	{
+		switch (operator)
+		{
+			case '+':
+			{
+				return a + b;
+			}
+			case '-':
+			{
+				return a - b;
+			}
+			default:
+			{
+				return a * b;
+			}
+		}
 	}
 }
