@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 268
+Count of solved tasks: 269
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -256,6 +256,7 @@ Count of solved tasks: 268
 |1222|[Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/)|[QueensThatCanAttackKing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueensThatCanAttackKing.java)
 |1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[CheckIfItIsStraightLine.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfItIsStraightLine.java)
 |1282|[Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/)|[GroupPeopleGivenGroupSize.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GroupPeopleGivenGroupSize.java)
+|1286|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|[IteratorForCombination.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IteratorForCombination.java)
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[FindNumbersWithEvenNumberOfDigits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNumbersWithEvenNumberOfDigits.java)
 |1296|[Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)|[DivideArrayInSetsOfKConsecutiveNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DivideArrayInSetsOfKConsecutiveNumbers.java)
 |1299|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[ReplaceElementsWithGreatestElementOnRightSide.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceElementsWithGreatestElementOnRightSide.java)
