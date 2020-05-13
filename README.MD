@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 278
+Count of solved tasks: 279
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -184,6 +184,7 @@ Count of solved tasks: 278
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[IsSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IsSubsequence.java)
 |394|[Decode String]()|[DecodeString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)
 |401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[BinaryWatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryWatch.java)
+|402|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[RemoveKDigits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveKDigits.java)
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[FizzBuzz.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FizzBuzz.java)
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[ThirdMaximumNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThirdMaximumNumber.java)
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[AddStrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddStrings.java)
