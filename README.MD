@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 281
+Count of solved tasks: 282
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -135,6 +135,7 @@ Count of solved tasks: 281
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[KthLargestElementInAnArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthLargestElementInAnArray.java)
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[CombinationSumIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CombinationSumIII.java)
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[ContainsDuplicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainsDuplicate.java)
+|219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[ContainsDuplicateII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainsDuplicateII.java)
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[MaximalSquare.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximalSquare.java)
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[ImplementStackUsingQueues.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImplementStackUsingQueues.java)
 |227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[BasicCalculatorII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BasicCalculatorII.java)
