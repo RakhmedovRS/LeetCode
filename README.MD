@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 285
+Count of solved tasks: 286
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -265,6 +265,7 @@ Count of solved tasks: 285
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[LongestCommonSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestCommonSubsequence.java)
 |1146|[Snapshot Array](https://leetcode.com/problems/snapshot-array/)|[SnapshotArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SnapshotArray.java)
 |1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)|[MaximumLevelSumBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLevelSumBinaryTree.java)
+|1184|[Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/)|[DistanceBetweenBusStops.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistanceBetweenBusStops.java)
 |1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[MinimumAbsoluteDifference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumAbsoluteDifference.java)
 |1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[RemoveAllAdjacentDuplicatesInStringII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveAllAdjacentDuplicatesInStringII.java)
 |1219|[Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)|[PathWithMaximumGold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathWithMaximumGold.java)
