@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 287
+Count of solved tasks: 288
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -257,6 +257,7 @@ Count of solved tasks: 287
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[FindCommonCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCommonCharacters.java)
 |1008|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|[ConstructBinarySearchTreeFromPreorderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructBinarySearchTreeFromPreorderTraversal.java)
 |1019|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|[NextGreaterNodeInLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterNodeInLinkedList.java)
+|1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[SumOfRootToLeafBinaryNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfRootToLeafBinaryNumbers.java)
 |1027|[Longest Arithmetic Sequence](https://leetcode.com/problems/longest-arithmetic-sequence/)|[LongestArithmeticSequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestArithmeticSequence.java)
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[LastStoneWeight.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LastStoneWeight.java)
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[RemoveAllAdjacentDuplicatesInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveAllAdjacentDuplicatesInString.java)
