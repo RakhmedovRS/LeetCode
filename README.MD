@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 292
+Count of solved tasks: 293
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -227,6 +227,7 @@ Count of solved tasks: 292
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[TopKFrequentWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TopKFrequentWords.java)
 |693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[BinaryNumberWithAlternatingBits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryNumberWithAlternatingBits.java)
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[SearchInBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInBinarySearchTree.java)
+|701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[InsertIntoBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsertIntoBinarySearchTree.java)
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)|[BinarySearch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearch.java)
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[DesignHashMap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignHashMap.java)
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[DesignLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignLinkedList.java)
