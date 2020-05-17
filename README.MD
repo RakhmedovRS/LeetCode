@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 296
+Count of solved tasks: 297
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -255,6 +255,7 @@ Count of solved tasks: 296
 |942|[DI String Match](https://leetcode.com/problems/di-string-match/)|[DIStringMatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DIStringMatch.java)
 |961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[NRepeatedElementIn2NArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NRepeatedElementIn2NArray.java)
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[UnivaluedBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UnivaluedBinaryTree.java)
+|969|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)|[PancakeSorting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PancakeSorting.java)
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[SquaresOfSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SquaresOfSortedArray.java)
 |987|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|[VerticalOrderTraversalOfBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/VerticalOrderTraversalOfBinaryTree.java)
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[AddToArrayFormOfInteger.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddToArrayFormOfInteger.java)
