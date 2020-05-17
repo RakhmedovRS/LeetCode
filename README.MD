@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 291
+Count of solved tasks: 292
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -191,6 +191,7 @@ Count of solved tasks: 291
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[ThirdMaximumNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThirdMaximumNumber.java)
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[AddStrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddStrings.java)
 |429|[ N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[NaryTreeLevelOrderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NaryTreeLevelOrderTraversal.java)
+|438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[FindAllAnagramsInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAllAnagramsInString.java)
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[FindAllNumbersDisappearedInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAllNumbersDisappearedInArray.java)
 |449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|[SerializeAndDeserializeBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SerializeAndDeserializeBST.java)
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[SortCharactersByFrequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortCharactersByFrequency.java)
