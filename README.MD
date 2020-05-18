@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 298
+Count of solved tasks: 299
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -237,6 +237,7 @@ Count of solved tasks: 298
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[FloodFill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FloodFill.java)
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[MinCostClimbingStairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinCostClimbingStairs.java)
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|[LargestNumberAtLeastTwiceOfOthers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestNumberAtLeastTwiceOfOthers.java)
+|766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[ToeplitzMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ToeplitzMatrix.java)
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[JewelsAndStones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JewelsAndStones.java)
 |783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[MinimumDistanceBetweenBSTNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDistanceBetweenBSTNodes.java)
 |814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|[BinaryTreePruning.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePruning.java)
