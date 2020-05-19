@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 301
+Count of solved tasks: 302
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -248,6 +248,7 @@ Count of solved tasks: 301
 |849|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|[SplitArrayIntoFibonacciSequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitArrayIntoFibonacciSequence.java)
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[PeakIndexInMountainArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PeakIndexInMountainArray.java)
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[LemonadeChange.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LemonadeChange.java)
+|872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[LeafSimilarTrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LeafSimilarTrees.java)
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[MiddleOfTheLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MiddleOfTheLinkedList.java)
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[SortArrayByParity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortArrayByParity.java)
 |915|[Word Subsets](https://leetcode.com/problems/word-subsets/)|[WordSubsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordSubsets.java)
