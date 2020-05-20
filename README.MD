@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 305
+Count of solved tasks: 306
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -306,5 +306,6 @@ Count of solved tasks: 305
 |1385|[Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)|[FindTheDistanceValueBetweenTwoArrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheDistanceValueBetweenTwoArrays.java)
 |1389|[Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)|[CreateTargetArrayInTheGivenOrder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CreateTargetArrayInTheGivenOrder.java)
 |1394|[Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/)|[FindLuckyIntegerInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLuckyIntegerInArray.java)
+|1417|[Reformat The String](https://leetcode.com/problems/reformat-the-string/)|[ReformatTheString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReformatTheString.java)
 |1436|[Destination City](https://leetcode.com/problems/destination-city/)|[DestinationCity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DestinationCity.java)
 |1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|[ConsecutiveCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConsecutiveCharacters.java)
