@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 304
+Count of solved tasks: 305
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -294,6 +294,7 @@ Count of solved tasks: 304
 |1305|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[AllElementsITwoBinarySearchTrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllElementsITwoBinarySearchTrees.java)
 |1306|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|[JumpGameIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameIII.java)
 |1312|[Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)|[MinimumInsertionStepsToMakeStringPalindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumInsertionStepsToMakeStringPalindrome.java)
+|1314|[Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|[MatrixBlockSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MatrixBlockSum.java)
 |1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)|[ConvertIntegerToTheSumOfTwoNoZeroIntegers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertIntegerToTheSumOfTwoNoZeroIntegers.java)
 |1324|[Print Words Vertically](https://leetcode.com/problems/print-words-vertically/)|[PrintWordsVertically.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintWordsVertically.java)
 |1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)|[MaximumProductOfSplittedBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfSplittedBinaryTree.java)
