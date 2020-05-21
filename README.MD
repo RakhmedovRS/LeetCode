@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 311
+Count of solved tasks: 312
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -203,6 +203,7 @@ Count of solved tasks: 311
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)|[NumberComplement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberComplement.java)
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|[TotalHammingDistance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TotalHammingDistance.java)
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[MaxConsecutiveOnes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxConsecutiveOnes.java)
+|494|[Target Sum](https://leetcode.com/problems/target-sum/)|[TargetSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TargetSum.java)
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[NextGreaterElementI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementI.java)
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[DiagonalTraverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverse.java)
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[KeyboardRow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KeyboardRow.java)
