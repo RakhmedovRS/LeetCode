@@ -1,9 +1,8 @@
 import common.LeetCode;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
+import java.util.PriorityQueue;
 
 /**
  * @author RakhmedovRS
@@ -14,30 +13,31 @@ public class SortCharactersByFrequency
 {
 	public String frequencySort(String s)
 	{
-		Map<Character, Integer> cache = new HashMap<>();
-		for (Character ch : s.toCharArray())
+		if (s == null || s.isEmpty())
 		{
-			cache.put(ch, cache.getOrDefault(ch, 0) + 1);
+			return s;
 		}
 
-		List<Map.Entry<Integer, Character>> secondCache = new ArrayList<>();
-		for (Map.Entry<Character, Integer> entry : cache.entrySet())
+		Map<Character, Integer> memo = new HashMap<>();
+		for (char ch : s.toCharArray())
 		{
-			secondCache.add(new java.util.AbstractMap.SimpleEntry<>(entry.getValue(), entry.getKey()));
+			memo.put(ch, memo.getOrDefault(ch, 0) + 1);
 		}
 
-		secondCache.sort((val1, val2) -> val2.getKey().compareTo(val1.getKey()));
-
-		StringBuilder sb = new StringBuilder();
-		for (Map.Entry<Integer, Character> entry : secondCache)
+		PriorityQueue<Character> maxHeap = new PriorityQueue<>((ch1, ch2) -> memo.get(ch2).compareTo(memo.get(ch1)));
+		maxHeap.addAll(memo.keySet());
+		StringBuilder stringBuilder = new StringBuilder();
+		while (!maxHeap.isEmpty())
 		{
-			for (int i = 0; i < entry.getKey(); i++)
+			char ch = maxHeap.remove();
+			int count = memo.get(ch);
+			while (count-- > 0)
 			{
-				sb.append(entry.getValue());
+				stringBuilder.append(ch);
 			}
 		}
 
-		return sb.toString();
+		return stringBuilder.toString();
 	}
 
 	public static void main(String[] args)
