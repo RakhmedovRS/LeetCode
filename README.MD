@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 318
+Count of solved tasks: 319
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -271,6 +271,7 @@ Count of solved tasks: 318
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[UnivaluedBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UnivaluedBinaryTree.java)
 |969|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)|[PancakeSorting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PancakeSorting.java)
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[SquaresOfSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SquaresOfSortedArray.java)
+|986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)|[IntervalListIntersections.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntervalListIntersections.java)
 |987|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|[VerticalOrderTraversalOfBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/VerticalOrderTraversalOfBinaryTree.java)
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[AddToArrayFormOfInteger.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddToArrayFormOfInteger.java)
 |997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[FindTheTownJudge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheTownJudge.java)
