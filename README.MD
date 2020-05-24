@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 325
+Count of solved tasks: 326
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -322,6 +322,7 @@ Count of solved tasks: 325
 |1374|[Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)|[GenerateStringWithCharactersThatHaveOddCounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GenerateStringWithCharactersThatHaveOddCounts.java)
 |1379|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|[FindCorrespondingNodeOfBinaryTreeInCloneOfThatTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCorrespondingNodeOfBinaryTreeInCloneOfThatTree.java)
 |1385|[Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)|[FindTheDistanceValueBetweenTwoArrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheDistanceValueBetweenTwoArrays.java)
+|1387|[Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/)|[SortIntegersByThePowerValue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortIntegersByThePowerValue.java)
 |1389|[Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)|[CreateTargetArrayInTheGivenOrder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CreateTargetArrayInTheGivenOrder.java)
 |1390|[Four Divisors](https://leetcode.com/problems/four-divisors/)|[FourDivisors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FourDivisors.java)
 |1394|[Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/)|[FindLuckyIntegerInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLuckyIntegerInArray.java)
