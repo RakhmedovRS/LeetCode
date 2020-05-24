@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 324
+Count of solved tasks: 325
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -319,6 +319,7 @@ Count of solved tasks: 324
 |1351|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[CountNegativeNumbersInSortedMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountNegativeNumbersInSortedMatrix.java)
 |1356|[Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)|[SortIntegersByTheNumberOf1Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortIntegersByTheNumberOf1Bits.java)
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[HowManyNumbersAreSmallerThanCurrentNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HowManyNumbersAreSmallerThanCurrentNumber.java)
+|1374|[Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)|[GenerateStringWithCharactersThatHaveOddCounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GenerateStringWithCharactersThatHaveOddCounts.java)
 |1379|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|[FindCorrespondingNodeOfBinaryTreeInCloneOfThatTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCorrespondingNodeOfBinaryTreeInCloneOfThatTree.java)
 |1385|[Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)|[FindTheDistanceValueBetweenTwoArrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheDistanceValueBetweenTwoArrays.java)
 |1389|[Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)|[CreateTargetArrayInTheGivenOrder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CreateTargetArrayInTheGivenOrder.java)
