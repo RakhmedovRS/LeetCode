@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 333
+Count of solved tasks: 334
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -215,6 +215,7 @@ Count of solved tasks: 333
 |525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[ContiguousArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContiguousArray.java)
 |530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[MinimumAbsoluteDifferenceInBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumAbsoluteDifferenceInBST.java)
 |532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[KdiffPairsInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KdiffPairsInArray.java)
+|538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[ConvertBSTToGreaterTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertBSTToGreaterTree.java)
 |540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[SingleElementInSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleElementInSortedArray.java)
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/)|[ZeroOneMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ZeroOneMatrix.java)
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[DiameterOfBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiameterOfBinaryTree.java)
