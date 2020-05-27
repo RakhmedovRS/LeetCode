@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 335
+Count of solved tasks: 336
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -338,3 +338,4 @@ Count of solved tasks: 335
 |1417|[Reformat The String](https://leetcode.com/problems/reformat-the-string/)|[ReformatTheString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReformatTheString.java)
 |1436|[Destination City](https://leetcode.com/problems/destination-city/)|[DestinationCity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DestinationCity.java)
 |1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|[ConsecutiveCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConsecutiveCharacters.java)
+|1456|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[MaximumNumberOfVowelsInSubstringOfGivenLength.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfVowelsInSubstringOfGivenLength.java)
