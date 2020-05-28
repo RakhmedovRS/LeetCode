@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 339
+Count of solved tasks: 340
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -244,6 +244,7 @@ Count of solved tasks: 339
 |698|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|[PartitionToKEqualSumSubsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionToKEqualSumSubsets.java)
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[SearchInBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInBinarySearchTree.java)
 |701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[InsertIntoBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsertIntoBinarySearchTree.java)
+|703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[KthLargestElementInStream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthLargestElementInStream.java)
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)|[BinarySearch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearch.java)
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[DesignHashMap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignHashMap.java)
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[DesignLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignLinkedList.java)
