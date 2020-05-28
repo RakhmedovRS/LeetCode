@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 337
+Count of solved tasks: 338
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -171,6 +171,7 @@ Count of solved tasks: 337
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[LongestIncreasingPathInMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestIncreasingPathInMatrix.java)
 |334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[IncreasingTripletSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingTripletSubsequence.java)
 |334|[Reverse String](https://leetcode.com/problems/reverse-string/)|[ReverseString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseString.java)
+|338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[CountingBits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountingBits.java)
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[FlattenNestedListIterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlattenNestedListIterator.java)
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[ReverseVowelsOfString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseVowelsOfString.java)
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[TopKFrequentElements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TopKFrequentElements.java)
