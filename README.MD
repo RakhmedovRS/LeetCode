@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 340
+Count of solved tasks: 341
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -331,6 +331,7 @@ Count of solved tasks: 340
 |1346|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|[CheckIfNAndItsDoubleExist.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfNAndItsDoubleExist.java)
 |1351|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[CountNegativeNumbersInSortedMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountNegativeNumbersInSortedMatrix.java)
 |1356|[Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)|[SortIntegersByTheNumberOf1Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortIntegersByTheNumberOf1Bits.java)
+|1360|[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|[NumberOfDaysBetweenTwoDates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfDaysBetweenTwoDates.java)
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[HowManyNumbersAreSmallerThanCurrentNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HowManyNumbersAreSmallerThanCurrentNumber.java)
 |1374|[Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)|[GenerateStringWithCharactersThatHaveOddCounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GenerateStringWithCharactersThatHaveOddCounts.java)
 |1379|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|[FindCorrespondingNodeOfBinaryTreeInCloneOfThatTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCorrespondingNodeOfBinaryTreeInCloneOfThatTree.java)
