@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 342
+Count of solved tasks: 343
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -129,6 +129,7 @@ Count of solved tasks: 342
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[RemoveLinkedListElements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveLinkedListElements.java)
 |204|[Count Primes](https://leetcode.com/problems/count-primes/)|[CountPrimes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountPrimes.java)
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[ReverseLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseLinkedList.java)
+|207|[Course Schedule](https://leetcode.com/problems/course-schedule/)|[CourseSchedule.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CourseSchedule.java)
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[PrefixTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrefixTree.java)
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[MinimumSizeSubarraySum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSizeSubarraySum.java)
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii/)|[WordSearchII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordSearchII.java)
