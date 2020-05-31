@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 352
+Count of solved tasks: 353
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -114,6 +114,7 @@ Count of solved tasks: 352
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[IntersectionOfTwoLinkedLists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntersectionOfTwoLinkedLists.java)
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[FindPeakElement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindPeakElement.java)
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[TwoSumII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumII.java)
+|168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)|[ExcelSheetColumnTitle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExcelSheetColumnTitle.java)
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[MajorityElement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MajorityElement.java)
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[ExcelSheetColumnNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExcelSheetColumnNumber.java)
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|[FactorialTrailingZeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FactorialTrailingZeroes.java)
