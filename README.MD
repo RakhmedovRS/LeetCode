@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 351
+Count of solved tasks: 352
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -238,6 +238,7 @@ Count of solved tasks: 351
 |621|[Task Scheduler](https://leetcode.com/problems/task-scheduler/)|[TaskScheduler.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TaskScheduler.java)
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[MaximumProductOfThreeNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfThreeNumbers.java)
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[AverageOfLevelsInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AverageOfLevelsInBinaryTree.java)
+|643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|[MaximumAverageSubarrayI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAverageSubarrayI.java)
 |661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|[ImageSmoother.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImageSmoother.java)
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|[LongestContinuousIncreasingSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestContinuousIncreasingSubsequence.java)
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[ValidParenthesisString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidParenthesisString.java)
