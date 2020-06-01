@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 355
+Count of solved tasks: 356
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -214,6 +214,7 @@ Count of solved tasks: 355
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[DiagonalTraverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverse.java)
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[KeyboardRow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KeyboardRow.java)
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[FibonacciNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FibonacciNumber.java)
+|513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|[FindBottomLeftTreeValue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindBottomLeftTreeValue.java)
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[FindLargestValueInEachTreeRow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLargestValueInEachTreeRow.java)
 |520|[Detect Capital]()|[DetectCapital.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetectCapital.java)
 |525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[ContiguousArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContiguousArray.java)
