@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 353
+Count of solved tasks: 354
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -228,6 +228,7 @@ Count of solved tasks: 353
 |559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[MaximumDepthOfNaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDepthOfNaryTree.java)
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[SubarraySumEqualsK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubarraySumEqualsK.java)
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[ArrayPartitionI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArrayPartitionI.java)
+|563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[BinaryTreeTilt.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeTilt.java)
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[PermutationInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PermutationInString.java)
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[SubtreeOfAnotherTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubtreeOfAnotherTree.java)
 |583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[DeleteOperationForTwoStrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteOperationForTwoStrings.java)
