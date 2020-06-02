@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 360
+Count of solved tasks: 361
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -356,6 +356,7 @@ Count of solved tasks: 360
 |1389|[Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)|[CreateTargetArrayInTheGivenOrder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CreateTargetArrayInTheGivenOrder.java)
 |1390|[Four Divisors](https://leetcode.com/problems/four-divisors/)|[FourDivisors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FourDivisors.java)
 |1394|[Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/)|[FindLuckyIntegerInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLuckyIntegerInArray.java)
+|1414|[Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)|[FindTheMinimumNumberOfFibonacciNumbersWhoseSumIsK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheMinimumNumberOfFibonacciNumbersWhoseSumIsK.java)
 |1417|[Reformat The String](https://leetcode.com/problems/reformat-the-string/)|[ReformatTheString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReformatTheString.java)
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[KidsWithTheGreatestNumberOfCandies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KidsWithTheGreatestNumberOfCandies.java)
 |1436|[Destination City](https://leetcode.com/problems/destination-city/)|[DestinationCity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DestinationCity.java)
