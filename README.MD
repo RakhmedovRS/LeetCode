@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 365
+Count of solved tasks: 366
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -332,6 +332,7 @@ Count of solved tasks: 365
 |1222|[Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/)|[QueensThatCanAttackKing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueensThatCanAttackKing.java)
 |1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[CheckIfItIsStraightLine.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfItIsStraightLine.java)
 |1260|[Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)|[Shift2DGrid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Shift2DGrid.java)
+|1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[MinimumTimeVisitingAllPoints.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeVisitingAllPoints.java)
 |1277|[Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)|[CountSquareSubmatricesWithAllOnes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSquareSubmatricesWithAllOnes.java)
 |1282|[Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/)|[GroupPeopleGivenGroupSize.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GroupPeopleGivenGroupSize.java)
 |1286|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|[IteratorForCombination.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IteratorForCombination.java)
