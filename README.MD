@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 366
+Count of solved tasks: 367
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -320,6 +320,7 @@ Count of solved tasks: 366
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[DuplicateZeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DuplicateZeros.java)
 |1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[ShortestPathInBinaryMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathInBinaryMatrix.java)
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[DefangingIPAddress.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefangingIPAddress.java)
+|1114|[Print in Order](https://leetcode.com/problems/print-in-order/)|[PrintInOrder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintInOrder.java)
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[LongestCommonSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestCommonSubsequence.java)
 |1146|[Snapshot Array](https://leetcode.com/problems/snapshot-array/)|[SnapshotArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SnapshotArray.java)
 |1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)|[MaximumLevelSumBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLevelSumBinaryTree.java)
