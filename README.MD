@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 362
+Count of solved tasks: 363
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -309,6 +309,7 @@ Count of solved tasks: 362
 |1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[SumOfRootToLeafBinaryNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfRootToLeafBinaryNumbers.java)
 |1025|[Divisor Game](https://leetcode.com/problems/divisor-game/)|[DivisorGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DivisorGame.java)
 |1027|[Longest Arithmetic Sequence](https://leetcode.com/problems/longest-arithmetic-sequence/)|[LongestArithmeticSequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestArithmeticSequence.java)
+|1029|[Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)|[TwoCityScheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoCityScheduling.java)
 |1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)|[UncrossedLines.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UncrossedLines.java)
 |1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|[BinarySearchTreeToGreaterSumTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearchTreeToGreaterSumTree.java)
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[LastStoneWeight.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LastStoneWeight.java)
