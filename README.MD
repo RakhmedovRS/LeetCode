@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 369
+Count of solved tasks: 370
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -318,6 +318,7 @@ Count of solved tasks: 369
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[LastStoneWeight.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LastStoneWeight.java)
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[RemoveAllAdjacentDuplicatesInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveAllAdjacentDuplicatesInString.java)
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/)|[HeightChecker.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HeightChecker.java)
+|1078|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|[OccurrencesAfterBigram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OccurrencesAfterBigram.java)
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[DuplicateZeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DuplicateZeros.java)
 |1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[ShortestPathInBinaryMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathInBinaryMatrix.java)
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[DefangingIPAddress.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefangingIPAddress.java)
