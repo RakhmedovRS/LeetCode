@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 373
+Count of solved tasks: 374
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -292,6 +292,7 @@ Count of solved tasks: 373
 |917|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)|[ReverseOnlyLetters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseOnlyLetters.java)
 |918|[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)|[MaximumSumCircularSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSumCircularSubarray.java)
 |922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[SortArrayByParityII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortArrayByParityII.java)
+|926|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|[LongPressedName.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongPressedName.java)
 |929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|[UniqueEmailAddresses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueEmailAddresses.java)
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[ValidMountainArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidMountainArray.java)
 |942|[DI String Match](https://leetcode.com/problems/di-string-match/)|[DIStringMatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DIStringMatch.java)
