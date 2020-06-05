@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 371
+Count of solved tasks: 372
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -219,6 +219,7 @@ Count of solved tasks: 371
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[FindLargestValueInEachTreeRow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLargestValueInEachTreeRow.java)
 |520|[Detect Capital]()|[DetectCapital.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetectCapital.java)
 |525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[ContiguousArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContiguousArray.java)
+|528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|[RandomPickWithWeight.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RandomPickWithWeight.java)
 |530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[MinimumAbsoluteDifferenceInBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumAbsoluteDifferenceInBST.java)
 |532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[KdiffPairsInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KdiffPairsInArray.java)
 |535|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|[EncodeAndDecodeTinyURL.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EncodeAndDecodeTinyURL.java)
