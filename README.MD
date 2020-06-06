@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 376
+Count of solved tasks: 377
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -193,6 +193,7 @@ Count of solved tasks: 376
 |398|[Random Pick Index](https://leetcode.com/problems/random-pick-index/)|[RandomPickIndex.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RandomPickIndex.java)
 |401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[BinaryWatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryWatch.java)
 |402|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[RemoveKDigits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveKDigits.java)
+|406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|[QueueReconstructionByHeight.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueueReconstructionByHeight.java)
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[FizzBuzz.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FizzBuzz.java)
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[ThirdMaximumNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThirdMaximumNumber.java)
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[AddStrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddStrings.java)
