@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 377
+Count of solved tasks: 378
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -200,6 +200,7 @@ Count of solved tasks: 377
 |429|[ N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[NaryTreeLevelOrderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NaryTreeLevelOrderTraversal.java)
 |434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|[NumberOfSegmentsInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfSegmentsInString.java)
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[FindAllAnagramsInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAllAnagramsInString.java)
+|441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[ArrangingCoins.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArrangingCoins.java)
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[StringCompression.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringCompression.java)
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[FindAllNumbersDisappearedInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAllNumbersDisappearedInArray.java)
 |449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|[SerializeAndDeserializeBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SerializeAndDeserializeBST.java)
