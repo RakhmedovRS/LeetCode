@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 381
+Count of solved tasks: 382
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -143,6 +143,7 @@ Count of solved tasks: 381
 |227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[BasicCalculatorII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BasicCalculatorII.java)
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|[MajorityElementII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MajorityElementII.java)
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[KthSmallestElementInBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthSmallestElementInBST.java)
+|231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[PowerOfTwo.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PowerOfTwo.java)
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[QueueUsingStacks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueueUsingStacks.java)
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[PalindromeLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeLinkedList.java)
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[LowestCommonAncestorOfBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfBinarySearchTree.java)
