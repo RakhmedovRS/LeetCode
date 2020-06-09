@@ -9,27 +9,17 @@ public class IsSubsequence
 {
 	public boolean isSubsequence(String s, String t)
 	{
-		if (s.isEmpty())
+		int start = -1;
+		for (char ch : s.toCharArray())
 		{
-			return true;
-		}
-
-		int sIndex = 0;
-		int tIndex = 0;
-		while (tIndex < t.length())
-		{
-			if (s.charAt(sIndex) == t.charAt(tIndex))
+			start = t.indexOf(ch, start + 1);
+			if (start == -1)
 			{
-				sIndex++;
-				if (sIndex == s.length())
-				{
-					return true;
-				}
+				return false;
 			}
-			tIndex++;
 		}
 
-		return false;
+		return true;
 	}
 
 	public static void main(String[] args)
