@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 392
+Count of solved tasks: 393
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -157,6 +157,7 @@ Count of solved tasks: 392
 |241|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|[DifferentWaysToAddParentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DifferentWaysToAddParentheses.java)
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[ValidAnagram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidAnagram.java)
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[BinaryTreePaths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePaths.java)
+|258|[Add Digits](https://leetcode.com/problems/add-digits/)|[AddDigits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddDigits.java)
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[MissingNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumber.java)
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[FirstBadVersion.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstBadVersion.java)
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[PerfectSquares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PerfectSquares.java)
