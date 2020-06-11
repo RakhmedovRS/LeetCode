@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 393
+Count of solved tasks: 394
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -282,6 +282,7 @@ Count of solved tasks: 393
 |783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[MinimumDistanceBetweenBSTNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDistanceBetweenBSTNodes.java)
 |784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[LetterCasePermutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LetterCasePermutation.java)
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)|[RotateString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotateString.java)
+|797|[All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)|[AllPathsFromSourceToTarget.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllPathsFromSourceToTarget.java)
 |799|[Champagne Tower](https://leetcode.com/problems/champagne-tower/)|[ChampagneTower.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ChampagneTower.java)
 |806|[Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/)|[NumberOfLinesToWriteString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfLinesToWriteString.java)
 |814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|[BinaryTreePruning.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePruning.java)
