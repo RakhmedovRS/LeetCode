@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 404
+Count of solved tasks: 405
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -203,6 +203,7 @@ Count of solved tasks: 404
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[FizzBuzz.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FizzBuzz.java)
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[ThirdMaximumNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThirdMaximumNumber.java)
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[AddStrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddStrings.java)
+|419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[BattleshipsInBoard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BattleshipsInBoard.java)
 |429|[ N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[NaryTreeLevelOrderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NaryTreeLevelOrderTraversal.java)
 |434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|[NumberOfSegmentsInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfSegmentsInString.java)
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[FindAllAnagramsInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAllAnagramsInString.java)
