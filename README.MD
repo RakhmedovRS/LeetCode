@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 399
+Count of solved tasks: 400
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -184,6 +184,7 @@ Count of solved tasks: 399
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[IntersectionOfTwoArraysII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntersectionOfTwoArraysII.java)
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|[RussianDollEnvelopes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RussianDollEnvelopes.java)
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[ValidPerfectSquare.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidPerfectSquare.java)
+|368|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|[LargestDivisibleSubset.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestDivisibleSubset.java)
 |371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[SumOfTwoIntegers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfTwoIntegers.java)
 |373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|[FindKPairsWithSmallestSums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindKPairsWithSmallestSums.java)
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[GuessNumberHigherOrLower.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GuessNumberHigherOrLower.java)
