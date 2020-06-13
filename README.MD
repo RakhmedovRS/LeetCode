@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 405
+Count of solved tasks: 406
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -307,6 +307,7 @@ Count of solved tasks: 405
 |872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[LeafSimilarTrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LeafSimilarTrees.java)
 |873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)|[LengthOfLongestFibonacciSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LengthOfLongestFibonacciSubsequence.java)
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[MiddleOfTheLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MiddleOfTheLinkedList.java)
+|885|[Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|[SpiralMatrixIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SpiralMatrixIII.java)
 |886|[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)|[PossibleBipartition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PossibleBipartition.java)
 |901|[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[OnlineStockSpan.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OnlineStockSpan.java)
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[SortArrayByParity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortArrayByParity.java)
