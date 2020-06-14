@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 406
+Count of solved tasks: 407
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -409,3 +409,4 @@ Count of solved tasks: 406
 |1457|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|[PseudoPalindromicPathsInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PseudoPalindromicPathsInBinaryTree.java)
 |1464|[Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)|[MaximumProductOfTwoElementsInAnArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfTwoElementsInAnArray.java)
 |1472|[Design Browser History](https://leetcode.com/problems/design-browser-history/)|[DesignBrowserHistory.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignBrowserHistory.java)
+|5453|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[RunningSumOf1dArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RunningSumOf1dArray.java)
