@@ -26,16 +26,11 @@ public class LeastNumberOfUniqueIntegersAfterKRemovals
 			priorityQueue.add(new int[]{entry.getKey(), entry.getValue()});
 		}
 
-		while (!priorityQueue.isEmpty() && k-- > 0)
+		while (!priorityQueue.isEmpty() && k > 0)
 		{
-			int[] a = priorityQueue.remove();
-			a[1]--;
-			if (a[1] > 0)
-			{
-				priorityQueue.add(a);
-			}
+			k -= priorityQueue.remove()[1];
 		}
 
-		return priorityQueue.size();
+		return k < 0 ? priorityQueue.size() + 1 : priorityQueue.size();
 	}
 }
