@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 411
+Count of solved tasks: 412
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -310,6 +310,7 @@ Count of solved tasks: 411
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[MiddleOfTheLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MiddleOfTheLinkedList.java)
 |885|[Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|[SpiralMatrixIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SpiralMatrixIII.java)
 |886|[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)|[PossibleBipartition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PossibleBipartition.java)
+|894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/)|[AllPossibleFullBinaryTrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllPossibleFullBinaryTrees.java)
 |901|[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[OnlineStockSpan.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OnlineStockSpan.java)
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[SortArrayByParity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortArrayByParity.java)
 |915|[Word Subsets](https://leetcode.com/problems/word-subsets/)|[WordSubsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordSubsets.java)
