@@ -12,28 +12,11 @@ public class ToeplitzMatrix
 		int rows = matrix.length;
 		int columns = matrix[0].length;
 
-		for (int row = 0; row < rows; row++)
+		for (int row = 1; row < rows; row++)
 		{
-			int r = row;
-			int c = 0;
-			int value = matrix[r][c];
-			while (r < rows && c < columns)
+			for (int column = 1; column < columns; column++)
 			{
-				if (matrix[r++][c++] != value)
-				{
-					return false;
-				}
-			}
-		}
-
-		for (int column = 1; column < columns; column++)
-		{
-			int r = 0;
-			int c = column;
-			int value = matrix[r][c];
-			while (r < rows && c < columns)
-			{
-				if (matrix[r++][c++] != value)
+				if (matrix[row][column] != matrix[row - 1][column - 1])
 				{
 					return false;
 				}
@@ -41,5 +24,10 @@ public class ToeplitzMatrix
 		}
 
 		return true;
+	}
+
+	public static void main(String[] args)
+	{
+		System.out.println(new ToeplitzMatrix().isToeplitzMatrix(new int[][]{{1, 2}, {2, 2}}));
 	}
 }
