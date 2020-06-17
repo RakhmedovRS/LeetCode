@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 422
+Count of solved tasks: 423
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -420,6 +420,7 @@ Count of solved tasks: 422
 |1456|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[MaximumNumberOfVowelsInSubstringOfGivenLength.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfVowelsInSubstringOfGivenLength.java)
 |1457|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|[PseudoPalindromicPathsInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PseudoPalindromicPathsInBinaryTree.java)
 |1464|[Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)|[MaximumProductOfTwoElementsInAnArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfTwoElementsInAnArray.java)
+|1470|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|[ShuffleTheArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShuffleTheArray.java)
 |1472|[Design Browser History](https://leetcode.com/problems/design-browser-history/)|[DesignBrowserHistory.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignBrowserHistory.java)
 |1475|[Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)|[FinalPricesWithSpecialDiscountInShop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FinalPricesWithSpecialDiscountInShop.java)
 |5453|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[RunningSumOf1dArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RunningSumOf1dArray.java)
