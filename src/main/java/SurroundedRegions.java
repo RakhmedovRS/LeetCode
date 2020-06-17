@@ -18,14 +18,30 @@ public class SurroundedRegions
 
 		int rows = board.length;
 		int columns = board[0].length;
+
+		for (int column = 0; column < columns; column++)
+		{
+			if (board[0][column] == 'O')
+			{
+				fill(board, 0, column, rows, columns);
+			}
+
+			if (board[rows - 1][column] == 'O')
+			{
+				fill(board, rows - 1, column, rows, columns);
+			}
+		}
+
 		for (int row = 0; row < rows; row++)
 		{
-			for (int column = 0; column < columns; column++)
+			if (board[row][0] == 'O')
 			{
-				if (row == 0 || row == rows - 1 || column == 0 || column == columns - 1)
-				{
-					dfs(board, row, column, rows, columns);
-				}
+				fill(board, row, 0, rows, columns);
+			}
+
+			if (board[row][columns - 1] == 'O')
+			{
+				fill(board, row, columns - 1, rows, columns);
 			}
 		}
 
@@ -33,36 +49,31 @@ public class SurroundedRegions
 		{
 			for (int column = 0; column < columns; column++)
 			{
-				if (board[row][column] == 'V')
-				{
-					board[row][column] = 'O';
-				}
-				else
-				{
-					board[row][column] = 'X';
-				}
+				board[row][column] = board[row][column] == 'Z' ? 'O' : 'X';
 			}
 		}
+
 	}
 
-	private void dfs(char[][] board, int row, int column, int rows, int columns)
+	private void fill(char[][] board, int row, int column, int rows, int columns)
 	{
 		if (row < 0
 			|| row == rows
 			|| column < 0
 			|| column == columns
-			|| board[row][column] == 'V'
-			|| board[row][column] == 'X')
+			|| board[row][column] == 'X'
+			|| board[row][column] == 'Z'
+		)
 		{
 			return;
 		}
 
-		board[row][column] = 'V';
+		board[row][column] = 'Z';
 
-		dfs(board, row - 1, column, rows, columns);
-		dfs(board, row + 1, column, rows, columns);
-		dfs(board, row, column - 1, rows, columns);
-		dfs(board, row, column + 1, rows, columns);
+		fill(board, row - 1, column, rows, columns);
+		fill(board, row + 1, column, rows, columns);
+		fill(board, row, column - 1, rows, columns);
+		fill(board, row, column + 1, rows, columns);
 	}
 
 	public static void main(String[] args)
