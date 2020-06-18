@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 423
+Count of solved tasks: 426
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -159,6 +159,7 @@ Count of solved tasks: 423
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[BinaryTreePaths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePaths.java)
 |258|[Add Digits](https://leetcode.com/problems/add-digits/)|[AddDigits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddDigits.java)
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[MissingNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumber.java)
+|275|[H-Index II](https://leetcode.com/problems/h-index-ii/)|[HIndexII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HIndexII.java)
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[FirstBadVersion.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstBadVersion.java)
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[PerfectSquares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PerfectSquares.java)
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[MoveZeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MoveZeroes.java)
@@ -353,6 +354,7 @@ Count of solved tasks: 423
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[RemoveAllAdjacentDuplicatesInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveAllAdjacentDuplicatesInString.java)
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/)|[HeightChecker.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HeightChecker.java)
 |1078|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|[OccurrencesAfterBigram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OccurrencesAfterBigram.java)
+|1079|[Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)|[LetterTilePossibilities.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LetterTilePossibilities.java)
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[DuplicateZeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DuplicateZeros.java)
 |1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[ShortestPathInBinaryMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathInBinaryMatrix.java)
 |1103|[Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)|[DistributeCandiesToPeople.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistributeCandiesToPeople.java)
@@ -423,6 +425,7 @@ Count of solved tasks: 423
 |1470|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|[ShuffleTheArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShuffleTheArray.java)
 |1472|[Design Browser History](https://leetcode.com/problems/design-browser-history/)|[DesignBrowserHistory.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignBrowserHistory.java)
 |1475|[Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)|[FinalPricesWithSpecialDiscountInShop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FinalPricesWithSpecialDiscountInShop.java)
+|1476|[Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/)|[SubrectangleQueries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubrectangleQueries.java)
 |5453|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[RunningSumOf1dArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RunningSumOf1dArray.java)
 |5454|[Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)|[LeastNumberOfUniqueIntegersAfterKRemovals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LeastNumberOfUniqueIntegersAfterKRemovals.java)
 |5456|[Kth Ancestor of a Tree Node](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/)|[KthAncestorOfTreeNode.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthAncestorOfTreeNode.java)
