@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 429
+Count of solved tasks: 430
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -418,6 +418,7 @@ Count of solved tasks: 429
 |1424|[Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/)|[DiagonalTraverseII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverseII.java)
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[KidsWithTheGreatestNumberOfCandies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KidsWithTheGreatestNumberOfCandies.java)
 |1436|[Destination City](https://leetcode.com/problems/destination-city/)|[DestinationCity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DestinationCity.java)
+|1441|[Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)|[BuildArrayWithStackOperations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BuildArrayWithStackOperations.java)
 |1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|[ConsecutiveCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConsecutiveCharacters.java)
 |1448|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|[CountGoodNodesInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountGoodNodesInBinaryTree.java)
 |1450|[Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)|[NumberOfStudentsDoingHomeworkAtGivenTime.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfStudentsDoingHomeworkAtGivenTime.java)
