@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 428
+Count of solved tasks: 429
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -402,6 +402,7 @@ Count of solved tasks: 428
 |1360|[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|[NumberOfDaysBetweenTwoDates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfDaysBetweenTwoDates.java)
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[HowManyNumbersAreSmallerThanCurrentNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HowManyNumbersAreSmallerThanCurrentNumber.java)
 |1367|[Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|[LinkedListInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListInBinaryTree.java)
+|1370|[Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/)|[IncreasingDecreasingString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingDecreasingString.java)
 |1374|[Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)|[GenerateStringWithCharactersThatHaveOddCounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GenerateStringWithCharactersThatHaveOddCounts.java)
 |1379|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|[FindCorrespondingNodeOfBinaryTreeInCloneOfThatTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCorrespondingNodeOfBinaryTreeInCloneOfThatTree.java)
 |1380|[Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/)|[LuckyNumbersInMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LuckyNumbersInMatrix.java)
