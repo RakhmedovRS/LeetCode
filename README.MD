@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 427
+Count of solved tasks: 428
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -350,6 +350,7 @@ Count of solved tasks: 427
 |1029|[Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)|[TwoCityScheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoCityScheduling.java)
 |1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)|[UncrossedLines.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UncrossedLines.java)
 |1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|[BinarySearchTreeToGreaterSumTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearchTreeToGreaterSumTree.java)
+|1044|[Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/)|[LongestDuplicateSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestDuplicateSubstring.java)
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[LastStoneWeight.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LastStoneWeight.java)
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[RemoveAllAdjacentDuplicatesInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveAllAdjacentDuplicatesInString.java)
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/)|[HeightChecker.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HeightChecker.java)
