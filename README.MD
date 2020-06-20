@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 432
+Count of solved tasks: 433
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -362,6 +362,7 @@ Count of solved tasks: 432
 |1103|[Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)|[DistributeCandiesToPeople.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistributeCandiesToPeople.java)
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[DefangingIPAddress.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefangingIPAddress.java)
 |1114|[Print in Order](https://leetcode.com/problems/print-in-order/)|[PrintInOrder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintInOrder.java)
+|1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|[NumberOfEquivalentDominoPairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfEquivalentDominoPairs.java)
 |1138|[Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/)|[AlphabetBoardPath.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AlphabetBoardPath.java)
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[LongestCommonSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestCommonSubsequence.java)
 |1146|[Snapshot Array](https://leetcode.com/problems/snapshot-array/)|[SnapshotArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SnapshotArray.java)
