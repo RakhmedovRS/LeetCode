@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 441
+Count of solved tasks: 442
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -121,6 +121,7 @@ Count of solved tasks: 441
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[MajorityElement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MajorityElement.java)
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[ExcelSheetColumnNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExcelSheetColumnNumber.java)
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|[FactorialTrailingZeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FactorialTrailingZeroes.java)
+|174|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|[DungeonGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DungeonGame.java)
 |179|[Largest Number](https://leetcode.com/problems/largest-number/)|[LargestNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestNumber.java)
 |187|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)|[RepeatedDNASequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RepeatedDNASequences.java)
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[RotateArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotateArray.java)
