@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 442
+Count of solved tasks: 443
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -445,3 +445,4 @@ Count of solved tasks: 442
 |5453|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[RunningSumOf1dArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RunningSumOf1dArray.java)
 |5454|[Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)|[LeastNumberOfUniqueIntegersAfterKRemovals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LeastNumberOfUniqueIntegersAfterKRemovals.java)
 |5456|[Kth Ancestor of a Tree Node](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/)|[KthAncestorOfTreeNode.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthAncestorOfTreeNode.java)
+|11399|[Count Largest Group](https://leetcode.com/problems/count-largest-group/)|[CountLargestGroup.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountLargestGroup.java)
