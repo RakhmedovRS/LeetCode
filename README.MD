@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 447
+Count of solved tasks: 448
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -275,6 +275,7 @@ Count of solved tasks: 447
 |650|[Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)|[TwoKeysKeyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoKeysKeyboard.java)
 |661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|[ImageSmoother.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImageSmoother.java)
 |670|[Maximum Swap](https://leetcode.com/problems/maximum-swap/)|[MaximumSwap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSwap.java)
+|671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[SecondMinimumNodeInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SecondMinimumNodeInBinaryTree.java)
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|[LongestContinuousIncreasingSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestContinuousIncreasingSubsequence.java)
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[ValidParenthesisString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidParenthesisString.java)
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[TopKFrequentWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TopKFrequentWords.java)
