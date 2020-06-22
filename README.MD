@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 448
+Count of solved tasks: 449
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -357,6 +357,7 @@ Count of solved tasks: 448
 |1019|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|[NextGreaterNodeInLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterNodeInLinkedList.java)
 |1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[SumOfRootToLeafBinaryNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfRootToLeafBinaryNumbers.java)
 |1025|[Divisor Game](https://leetcode.com/problems/divisor-game/)|[DivisorGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DivisorGame.java)
+|1026|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|[MaximumDifferenceBetweenNodeAndAncestor.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDifferenceBetweenNodeAndAncestor.java)
 |1027|[Longest Arithmetic Sequence](https://leetcode.com/problems/longest-arithmetic-sequence/)|[LongestArithmeticSequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestArithmeticSequence.java)
 |1029|[Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)|[TwoCityScheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoCityScheduling.java)
 |1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)|[UncrossedLines.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UncrossedLines.java)
