@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 451
+Count of solved tasks: 452
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -298,6 +298,7 @@ Count of solved tasks: 451
 |744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|[FindSmallestLetterGreaterThanTarget.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindSmallestLetterGreaterThanTarget.java)
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[MinCostClimbingStairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinCostClimbingStairs.java)
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|[LargestNumberAtLeastTwiceOfOthers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestNumberAtLeastTwiceOfOthers.java)
+|748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|[ShortestCompletingWord.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestCompletingWord.java)
 |762|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|[PrimeNumberOfSetBitsInBinaryRepresentation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrimeNumberOfSetBitsInBinaryRepresentation.java)
 |766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[ToeplitzMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ToeplitzMatrix.java)
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[JewelsAndStones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JewelsAndStones.java)
