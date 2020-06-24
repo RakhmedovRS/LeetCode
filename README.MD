@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 454
+Count of solved tasks: 455
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -220,6 +220,7 @@ Count of solved tasks: 454
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[FindAllNumbersDisappearedInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAllNumbersDisappearedInArray.java)
 |449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|[SerializeAndDeserializeBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SerializeAndDeserializeBST.java)
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[SortCharactersByFrequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortCharactersByFrequency.java)
+|457|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|[CircularArrayLoop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CircularArrayLoop.java)
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[RepeatedSubstringPattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RepeatedSubstringPattern.java)
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[HammingDistance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HammingDistance.java)
 |463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[IslandPerimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IslandPerimeter.java)
