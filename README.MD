@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 453
+Count of solved tasks: 454
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -432,6 +432,7 @@ Count of solved tasks: 453
 |1394|[Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/)|[FindLuckyIntegerInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLuckyIntegerInArray.java)
 |1396|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|[DesignUndergroundSystem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignUndergroundSystem.java)
 |1408|[String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)|[StringMatchingInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringMatchingInArray.java)
+|1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|[MinimumValueoToGetPositiveStepByStepSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumValueoToGetPositiveStepByStepSum.java)
 |1414|[Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)|[FindTheMinimumNumberOfFibonacciNumbersWhoseSumIsK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheMinimumNumberOfFibonacciNumbersWhoseSumIsK.java)
 |1417|[Reformat The String](https://leetcode.com/problems/reformat-the-string/)|[ReformatTheString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReformatTheString.java)
 |1418|[Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)|[DisplayTableOfFoodOrdersInRestaurant.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DisplayTableOfFoodOrdersInRestaurant.java)
