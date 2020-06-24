@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 456
+Count of solved tasks: 457
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -307,6 +307,7 @@ Count of solved tasks: 456
 |784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[LetterCasePermutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LetterCasePermutation.java)
 |787|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|[CheapestFlightsWithinKStops.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheapestFlightsWithinKStops.java)
 |788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|[RotatedDigits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotatedDigits.java)
+|791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|[CustomSortString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CustomSortString.java)
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)|[RotateString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotateString.java)
 |797|[All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)|[AllPathsFromSourceToTarget.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllPathsFromSourceToTarget.java)
 |799|[Champagne Tower](https://leetcode.com/problems/champagne-tower/)|[ChampagneTower.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ChampagneTower.java)
