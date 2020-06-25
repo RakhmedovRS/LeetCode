@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 462
+Count of solved tasks: 463
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -297,6 +297,7 @@ Count of solved tasks: 462
 |710|[Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/)|[RandomPickWithBlacklist.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RandomPickWithBlacklist.java)
 |717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|[OneBitAndTwoBitCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OneBitAndTwoBitCharacters.java)
 |720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[LongestWordInDictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestWordInDictionary.java)
+|722|[Remove Comments](https://leetcode.com/problems/remove-comments/)|[RemoveComments.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveComments.java)
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[FindPivotIndex.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindPivotIndex.java)
 |725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)|[SplitLinkedListInParts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitLinkedListInParts.java)
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[FloodFill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FloodFill.java)
