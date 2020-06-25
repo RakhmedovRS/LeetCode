@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 459
+Count of solved tasks: 460
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -326,6 +326,7 @@ Count of solved tasks: 459
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[PeakIndexInMountainArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PeakIndexInMountainArray.java)
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[LemonadeChange.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LemonadeChange.java)
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[TransposeMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TransposeMatrix.java)
+|868|[Binary Gap](https://leetcode.com/problems/binary-gap/)|[BinaryGap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryGap.java)
 |872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[LeafSimilarTrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LeafSimilarTrees.java)
 |873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)|[LengthOfLongestFibonacciSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LengthOfLongestFibonacciSubsequence.java)
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[MiddleOfTheLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MiddleOfTheLinkedList.java)
