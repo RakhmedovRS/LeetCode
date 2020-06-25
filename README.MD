@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 460
+Count of solved tasks: 461
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -280,6 +280,7 @@ Count of solved tasks: 460
 |670|[Maximum Swap](https://leetcode.com/problems/maximum-swap/)|[MaximumSwap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSwap.java)
 |671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[SecondMinimumNodeInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SecondMinimumNodeInBinaryTree.java)
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|[LongestContinuousIncreasingSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestContinuousIncreasingSubsequence.java)
+|676|[Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/)|[ImplementMagicDictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImplementMagicDictionary.java)
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[ValidParenthesisString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidParenthesisString.java)
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[TopKFrequentWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TopKFrequentWords.java)
 |693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[BinaryNumberWithAlternatingBits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryNumberWithAlternatingBits.java)
