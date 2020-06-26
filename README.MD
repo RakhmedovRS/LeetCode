@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 464
+Count of solved tasks: 465
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -96,6 +96,7 @@ Count of solved tasks: 464
 |126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|[WordLadderII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordLadderII.java)
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[WordLadder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordLadder.java)
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[LongestConsecutiveSequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestConsecutiveSequence.java)
+|129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[SumRootToLeafNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumRootToLeafNumbers.java)
 |130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|[SurroundedRegions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SurroundedRegions.java)
 |132|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)|[PalindromePartitioningII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromePartitioningII.java)
 |133|[Clone Graph](https://leetcode.com/problems/clone-graph/)|[CloneGraph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CloneGraph.java)
