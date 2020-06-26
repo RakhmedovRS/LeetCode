@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 466
+Count of solved tasks: 467
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -453,6 +453,7 @@ Count of solved tasks: 466
 |1436|[Destination City](https://leetcode.com/problems/destination-city/)|[DestinationCity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DestinationCity.java)
 |1441|[Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)|[BuildArrayWithStackOperations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BuildArrayWithStackOperations.java)
 |1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|[ConsecutiveCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConsecutiveCharacters.java)
+|1447|[Simplified Fractions](https://leetcode.com/problems/simplified-fractions/)|[SimplifiedFractions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SimplifiedFractions.java)
 |1448|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|[CountGoodNodesInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountGoodNodesInBinaryTree.java)
 |1450|[Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)|[NumberOfStudentsDoingHomeworkAtGivenTime.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfStudentsDoingHomeworkAtGivenTime.java)
 |1455|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)|[CheckIfWordOccursAsPrefixOfAnyWordInSentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfWordOccursAsPrefixOfAnyWordInSentence.java)
