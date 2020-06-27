@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 471
+Count of solved tasks: 472
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -470,6 +470,7 @@ Count of solved tasks: 471
 |1486|[XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)|[XOROperationInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/XOROperationInArray.java)
 |1487|[Making File Names Unique](https://leetcode.com/problems/making-file-names-unique/)|[MakingFileNamesUnique.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MakingFileNamesUnique.java)
 |1491|[Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)|[AverageSalaryExcludingTheMinimumAndMaximumSalary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AverageSalaryExcludingTheMinimumAndMaximumSalary.java)
+|1492|[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[TheKthFactorOfN.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKthFactorOfN.java)
 |5453|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[RunningSumOf1dArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RunningSumOf1dArray.java)
 |5454|[Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)|[LeastNumberOfUniqueIntegersAfterKRemovals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LeastNumberOfUniqueIntegersAfterKRemovals.java)
 |5456|[Kth Ancestor of a Tree Node](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/)|[KthAncestorOfTreeNode.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthAncestorOfTreeNode.java)
