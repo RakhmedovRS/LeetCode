@@ -1,9 +1,6 @@
 import common.LeetCode;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author RakhmedovRS
@@ -14,40 +11,18 @@ public class PerfectSquares
 {
 	public int numSquares(int n)
 	{
-		List<Integer> squares = new ArrayList<>();
-		for (int i = 1; i * i <= n; i++)
+		int[] dp = new int[n + 1];
+		Arrays.fill(dp, Integer.MAX_VALUE);
+		dp[0] = 0;
+		for (int i = 1; i < dp.length; i++)
 		{
-			squares.add(i * i);
-		}
-
-		return minSquares(squares, n, new HashMap<>());
-	}
-
-	private int minSquares(List<Integer> squares, int n, Map<Integer, Integer> cache)
-	{
-		if (n <= 0)
-		{
-			return n;
-		}
-
-		if (cache.containsKey(n))
-		{
-			return cache.get(n);
-		}
-
-		int minCount = Integer.MAX_VALUE;
-		int count;
-		for (int i = 0; i < squares.size(); i++)
-		{
-			count = minSquares(squares, n - squares.get(i), cache);
-			if (count >= 0 && count < minCount)
+			for (int val = 1; val * val <= i; val++)
 			{
-				minCount = 1 + count;
+				dp[i] = Math.min(dp[i], 1 + dp[i - val * val]);
 			}
 		}
 
-		cache.put(n, minCount == Integer.MAX_VALUE ? -1 : minCount);
-		return minCount;
+		return dp[n];
 	}
 
 	public static void main(String[] args)
