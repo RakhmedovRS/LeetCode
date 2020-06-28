@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 475
+Count of solved tasks: 476
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -409,6 +409,7 @@ Count of solved tasks: 475
 |1239|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)|[MaximumLengthOfConcatenatedStringWithUniqueCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfConcatenatedStringWithUniqueCharacters.java)
 |1249|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[MinimumRemoveToMakeValidParentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumRemoveToMakeValidParentheses.java)
 |1260|[Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)|[Shift2DGrid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Shift2DGrid.java)
+|1262|[Greatest Sum Divisible by Three](https://leetcode.com/problems/greatest-sum-divisible-by-three/)|[GreatestSumDivisibleByThree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GreatestSumDivisibleByThree.java)
 |1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[MinimumTimeVisitingAllPoints.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeVisitingAllPoints.java)
 |1277|[Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)|[CountSquareSubmatricesWithAllOnes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSquareSubmatricesWithAllOnes.java)
 |1282|[Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/)|[GroupPeopleGivenGroupSize.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GroupPeopleGivenGroupSize.java)
