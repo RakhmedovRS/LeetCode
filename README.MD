@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 473
+Count of solved tasks: 474
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -472,6 +472,7 @@ Count of solved tasks: 473
 |1491|[Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)|[AverageSalaryExcludingTheMinimumAndMaximumSalary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AverageSalaryExcludingTheMinimumAndMaximumSalary.java)
 |1492|[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[TheKthFactorOfN.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKthFactorOfN.java)
 |1493|[Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)|[LongestSubarrayOfOnesAfterDeletingOneElement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubarrayOfOnesAfterDeletingOneElement.java)
+|1496|[Path Crossing](https://leetcode.com/problems/path-crossing/)|[PathCrossing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathCrossing.java)
 |5453|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[RunningSumOf1dArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RunningSumOf1dArray.java)
 |5454|[Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)|[LeastNumberOfUniqueIntegersAfterKRemovals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LeastNumberOfUniqueIntegersAfterKRemovals.java)
 |5456|[Kth Ancestor of a Tree Node](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/)|[KthAncestorOfTreeNode.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthAncestorOfTreeNode.java)
