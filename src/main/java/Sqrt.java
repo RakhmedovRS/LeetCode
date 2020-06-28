@@ -9,52 +9,41 @@ public class Sqrt
 {
 	public int mySqrt(int x)
 	{
-		if (x == 0)
+		if (x < 2)
 		{
-			return 0;
+			return x;
 		}
 
-		if (x <= 3)
+		int left = 2;
+		int right = x / 2;
+		int mid;
+		long pivot;
+		while (left <= right)
 		{
-			return 1;
-		}
-
-		int[] answer = new int[]{1};
-		mySqrt(x, 1, x / 2, answer);
-		return answer[0];
-	}
-
-	private void mySqrt(int x, long left, long right, int[] answer)
-	{
-		if (left > right)
-		{
-			return;
-		}
-
-		long mid = left + (right - left) / 2;
-		long pow2 = mid * mid;
-		if (pow2 == x)
-		{
-			answer[0] = (int)mid;
-		}
-		else if (pow2 > x)
-		{
-			mySqrt(x, left, mid - 1, answer);
-		}
-		else
-		{
-			if (pow2 > answer[0])
+			mid = left + (right - left) / 2;
+			pivot = 1l * mid * mid;
+			if (pivot == x)
 			{
-				answer[0] = (int)mid;
+				return mid;
 			}
-			mySqrt(x, mid + 1, right, answer);
+			else if (pivot > x)
+			{
+				right = mid - 1;
+			}
+			else
+			{
+				left = mid + 1;
+			}
 		}
+
+		return right;
 	}
 
 	public static void main(String[] args)
 	{
+		System.out.println(new Sqrt().mySqrt(9));
 		System.out.println(new Sqrt().mySqrt(2147395599));
-		System.out.println(new Sqrt().mySqrt(7));
+		System.out.println(new Sqrt().mySqrt(4));
 		System.out.println(new Sqrt().mySqrt(10));
 		System.out.println(new Sqrt().mySqrt(9));
 		System.out.println(new Sqrt().mySqrt(16));
