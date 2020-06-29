@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 478
+Count of solved tasks: 479
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -327,6 +327,7 @@ Count of solved tasks: 478
 |824|[Goat Latin](https://leetcode.com/problems/goat-latin/)|[GoatLatin.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GoatLatin.java)
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[FlippingAnImage.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlippingAnImage.java)
 |840|[Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/)|[MagicSquaresInGrid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MagicSquaresInGrid.java)
+|841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[KeysAndRooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KeysAndRooms.java)
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[BackspaceStringCompare.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BackspaceStringCompare.java)
 |848|[Shifting Letters](https://leetcode.com/problems/shifting-letters/)|[ShiftingLetters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShiftingLetters.java)
 |849|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|[SplitArrayIntoFibonacciSequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitArrayIntoFibonacciSequence.java)
