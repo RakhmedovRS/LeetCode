@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 480
+Count of solved tasks: 481
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -378,6 +378,7 @@ Count of solved tasks: 480
 |1026|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|[MaximumDifferenceBetweenNodeAndAncestor.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDifferenceBetweenNodeAndAncestor.java)
 |1027|[Longest Arithmetic Sequence](https://leetcode.com/problems/longest-arithmetic-sequence/)|[LongestArithmeticSequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestArithmeticSequence.java)
 |1029|[Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)|[TwoCityScheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoCityScheduling.java)
+|1030|[Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/)|[MatrixCellsInDistanceOrder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MatrixCellsInDistanceOrder.java)
 |1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)|[UncrossedLines.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UncrossedLines.java)
 |1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|[BinarySearchTreeToGreaterSumTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearchTreeToGreaterSumTree.java)
 |1044|[Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/)|[LongestDuplicateSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestDuplicateSubstring.java)
