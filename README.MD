@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 483
+Count of solved tasks: 484
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -357,6 +357,7 @@ Count of solved tasks: 483
 |933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[NumberOfRecentCalls.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfRecentCalls.java)
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[ValidMountainArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidMountainArray.java)
 |942|[DI String Match](https://leetcode.com/problems/di-string-match/)|[DIStringMatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DIStringMatch.java)
+|945|[Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)|[MinimumIncrementToMakeArrayUnique.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumIncrementToMakeArrayUnique.java)
 |958|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)|[CheckCompletenessOfBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckCompletenessOfBinaryTree.java)
 |961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[NRepeatedElementIn2NArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NRepeatedElementIn2NArray.java)
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[UnivaluedBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UnivaluedBinaryTree.java)
