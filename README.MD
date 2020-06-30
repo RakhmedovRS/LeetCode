@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 484
+Count of solved tasks: 485
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -347,6 +347,7 @@ Count of solved tasks: 484
 |901|[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[OnlineStockSpan.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OnlineStockSpan.java)
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[SortArrayByParity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortArrayByParity.java)
 |908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|[SmallestRangeI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestRangeI.java)
+|914|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)|[XOfKindInDeckOfCards.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/XOfKindInDeckOfCards.java)
 |915|[Word Subsets](https://leetcode.com/problems/word-subsets/)|[WordSubsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordSubsets.java)
 |917|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)|[ReverseOnlyLetters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseOnlyLetters.java)
 |918|[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)|[MaximumSumCircularSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSumCircularSubarray.java)
