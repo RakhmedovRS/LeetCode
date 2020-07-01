@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 490
+Count of solved tasks: 491
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -477,6 +477,7 @@ Count of solved tasks: 490
 |1456|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[MaximumNumberOfVowelsInSubstringOfGivenLength.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfVowelsInSubstringOfGivenLength.java)
 |1457|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|[PseudoPalindromicPathsInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PseudoPalindromicPathsInBinaryTree.java)
 |1460|[Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/)|[MakeTwoArrayEqualByReversingSubArrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MakeTwoArrayEqualByReversingSubArrays.java)
+|1461|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|[CheckIfStringContainsAllBinaryCodesOfSizeK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfStringContainsAllBinaryCodesOfSizeK.java)
 |1464|[Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)|[MaximumProductOfTwoElementsInAnArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfTwoElementsInAnArray.java)
 |1470|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|[ShuffleTheArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShuffleTheArray.java)
 |1472|[Design Browser History](https://leetcode.com/problems/design-browser-history/)|[DesignBrowserHistory.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignBrowserHistory.java)
