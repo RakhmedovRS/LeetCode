@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 489
+Count of solved tasks: 490
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -190,6 +190,7 @@ Count of solved tasks: 489
 |334|[Reverse String](https://leetcode.com/problems/reverse-string/)|[ReverseString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseString.java)
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[CountingBits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountingBits.java)
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[FlattenNestedListIterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlattenNestedListIterator.java)
+|343|[Integer Break](https://leetcode.com/problems/integer-break/)|[IntegerBreak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerBreak.java)
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[ReverseVowelsOfString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseVowelsOfString.java)
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[TopKFrequentElements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TopKFrequentElements.java)
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[IntersectionOfTwoArraysII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntersectionOfTwoArraysII.java)
