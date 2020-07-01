@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 488
+Count of solved tasks: 489
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -358,6 +358,7 @@ Count of solved tasks: 488
 |929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|[UniqueEmailAddresses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueEmailAddresses.java)
 |931|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|[MinimumFallingPathSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumFallingPathSum.java)
 |933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[NumberOfRecentCalls.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfRecentCalls.java)
+|935|[Knight Dialer](https://leetcode.com/problems/knight-dialer/)|[KnightDialer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KnightDialer.java)
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[ValidMountainArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidMountainArray.java)
 |942|[DI String Match](https://leetcode.com/problems/di-string-match/)|[DIStringMatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DIStringMatch.java)
 |945|[Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)|[MinimumIncrementToMakeArrayUnique.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumIncrementToMakeArrayUnique.java)
