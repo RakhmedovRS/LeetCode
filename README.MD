@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 487
+Count of solved tasks: 488
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -84,6 +84,7 @@ Count of solved tasks: 487
 |107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[BinaryTreeLevelOrderTraversalII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeLevelOrderTraversalII.java)
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[ConvertSortedArrayToBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertSortedArrayToBinarySearchTree.java)
 |109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/minimum-window-substring/)|[ConvertSortedListToBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertSortedListToBinarySearchTree.java)
+|115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|[DistinctSubsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistinctSubsequences.java)
 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[PopulatingNextRightPointersInEachNode.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PopulatingNextRightPointersInEachNode.java)
 |117|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[PopulatingNextRightPointersInEachNodeII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PopulatingNextRightPointersInEachNodeII.java)
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[PascalTriangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PascalTriangle.java)
