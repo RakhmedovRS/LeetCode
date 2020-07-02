@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 492
+Count of solved tasks: 493
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -392,6 +392,7 @@ Count of solved tasks: 492
 |1044|[Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/)|[LongestDuplicateSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestDuplicateSubstring.java)
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[LastStoneWeight.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LastStoneWeight.java)
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[RemoveAllAdjacentDuplicatesInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveAllAdjacentDuplicatesInString.java)
+|1048|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|[LongestStringChain.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestStringChain.java)
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/)|[HeightChecker.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HeightChecker.java)
 |1078|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|[OccurrencesAfterBigram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OccurrencesAfterBigram.java)
 |1079|[Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)|[LetterTilePossibilities.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LetterTilePossibilities.java)
