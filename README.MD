@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 495
+Count of solved tasks: 496
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -326,6 +326,7 @@ Count of solved tasks: 495
 |799|[Champagne Tower](https://leetcode.com/problems/champagne-tower/)|[ChampagneTower.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ChampagneTower.java)
 |802|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)|[FindEventualSafeStates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindEventualSafeStates.java)
 |806|[Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/)|[NumberOfLinesToWriteString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfLinesToWriteString.java)
+|809|[Expressive Words](https://leetcode.com/problems/expressive-words/)|[ExpressiveWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExpressiveWords.java)
 |811|[Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)|[SubdomainVisitCount.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubdomainVisitCount.java)
 |814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|[BinaryTreePruning.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePruning.java)
 |819|[Most Common Word](https://leetcode.com/problems/most-common-word/)|[MostCommonWord.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MostCommonWord.java)
