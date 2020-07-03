@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 498
+Count of solved tasks: 499
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -210,6 +210,7 @@ Count of solved tasks: 498
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[IsSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IsSubsequence.java)
 |394|[Decode String]()|[DecodeString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)
 |398|[Random Pick Index](https://leetcode.com/problems/random-pick-index/)|[RandomPickIndex.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RandomPickIndex.java)
+|400|[Nth Digit](https://leetcode.com/problems/nth-digit/)|[NthDigit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NthDigit.java)
 |401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[BinaryWatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryWatch.java)
 |402|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[RemoveKDigits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveKDigits.java)
 |406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|[QueueReconstructionByHeight.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueueReconstructionByHeight.java)
