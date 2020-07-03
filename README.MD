@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 500
+Count of solved tasks: 501
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -150,6 +150,7 @@ Count of solved tasks: 500
 |222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[CountCompleteTreeNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountCompleteTreeNodes.java)
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[ImplementStackUsingQueues.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImplementStackUsingQueues.java)
 |227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[BasicCalculatorII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BasicCalculatorII.java)
+|228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[SummaryRanges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SummaryRanges.java)
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|[MajorityElementII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MajorityElementII.java)
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[KthSmallestElementInBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthSmallestElementInBST.java)
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[PowerOfTwo.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PowerOfTwo.java)
