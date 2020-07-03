@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 499
+Count of solved tasks: 500
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -140,6 +140,7 @@ Count of solved tasks: 499
 |207|[Course Schedule](https://leetcode.com/problems/course-schedule/)|[CourseSchedule.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CourseSchedule.java)
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[PrefixTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrefixTree.java)
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[MinimumSizeSubarraySum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSizeSubarraySum.java)
+|211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|[AddAndSearchWordDataStructureDesign.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddAndSearchWordDataStructureDesign.java)
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii/)|[WordSearchII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordSearchII.java)
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[KthLargestElementInAnArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthLargestElementInAnArray.java)
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[CombinationSumIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CombinationSumIII.java)
