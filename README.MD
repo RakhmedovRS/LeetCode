@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 504
+Count of solved tasks: 505
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -480,6 +480,7 @@ Count of solved tasks: 504
 |1422|[Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)|[MaximumScoreAfterSplittingString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumScoreAfterSplittingString.java)
 |1424|[Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/)|[DiagonalTraverseII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverseII.java)
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[KidsWithTheGreatestNumberOfCandies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KidsWithTheGreatestNumberOfCandies.java)
+|1432|[Max Difference You Can Get From Changing an Integer](https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/)|[MaxDifferenceYouCanGetFromChangingInteger.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxDifferenceYouCanGetFromChangingInteger.java)
 |1436|[Destination City](https://leetcode.com/problems/destination-city/)|[DestinationCity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DestinationCity.java)
 |1441|[Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)|[BuildArrayWithStackOperations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BuildArrayWithStackOperations.java)
 |1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|[ConsecutiveCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConsecutiveCharacters.java)
