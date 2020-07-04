@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 503
+Count of solved tasks: 504
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -167,6 +167,7 @@ Count of solved tasks: 503
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[BinaryTreePaths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePaths.java)
 |258|[Add Digits](https://leetcode.com/problems/add-digits/)|[AddDigits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddDigits.java)
 |260|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[SingleNumberIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleNumberIII.java)
+|263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[UglyNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UglyNumber.java)
 |264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[UglyNumberII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UglyNumberII.java)
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[MissingNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumber.java)
 |275|[H-Index II](https://leetcode.com/problems/h-index-ii/)|[HIndexII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HIndexII.java)
