@@ -7,7 +7,7 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 21-Jun-20
  */
-@LeetCode(id = 11399, name = "Count Largest Group", url = "https://leetcode.com/problems/count-largest-group/")
+@LeetCode(id = 1399, name = "Count Largest Group", url = "https://leetcode.com/problems/count-largest-group/")
 public class CountLargestGroup
 {
 	public int countLargestGroup(int n)

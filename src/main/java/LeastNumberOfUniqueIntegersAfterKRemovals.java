@@ -9,7 +9,7 @@ import java.util.PriorityQueue;
  * @author RakhmedovRS
  * @created 14-Jun-20
  */
-@LeetCode(id = 5454, name = "Least Number of Unique Integers after K Removals", url = "https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/")
+@LeetCode(id = 1481, name = "Least Number of Unique Integers after K Removals", url = "https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/")
 public class LeastNumberOfUniqueIntegersAfterKRemovals
 {
 	public int findLeastNumOfUniqueInts(int[] arr, int k)

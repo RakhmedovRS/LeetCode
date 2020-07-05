@@ -4,7 +4,7 @@ import common.LeetCode;
  * @author RakhmedovRS
  * @created 14-Jun-20
  */
-@LeetCode(id = 5453, name = "Running Sum of 1d Array", url = "https://leetcode.com/problems/running-sum-of-1d-array/")
+@LeetCode(id = 1480, name = "Running Sum of 1d Array", url = "https://leetcode.com/problems/running-sum-of-1d-array/")
 public class RunningSumOf1dArray
 {
 	public int[] runningSum(int[] nums)

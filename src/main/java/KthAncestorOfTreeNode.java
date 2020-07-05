@@ -4,7 +4,7 @@ import common.LeetCode;
  * @author RakhmedovRS
  * @created 14-Jun-20
  */
-@LeetCode(id = 5456, name = "Kth Ancestor of a Tree Node", url = "https://leetcode.com/problems/kth-ancestor-of-a-tree-node/")
+@LeetCode(id = 1483, name = "Kth Ancestor of a Tree Node", url = "https://leetcode.com/problems/kth-ancestor-of-a-tree-node/")
 public class KthAncestorOfTreeNode
 {
 	class TreeAncestor
