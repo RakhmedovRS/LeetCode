@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 509
+Count of solved tasks: 510
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -177,6 +177,7 @@ Count of solved tasks: 509
 |284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[PeekingIterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PeekingIterator.java)
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[FindDuplicateNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindDuplicateNumber.java)
 |289|[Game of Life](https://leetcode.com/problems/game-of-life/)|[GameOfLife.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GameOfLife.java)
+|292|[Nim Game](https://leetcode.com/problems/nim-game/)|[NimGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NimGame.java)
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[FindMedianFromDataStream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindMedianFromDataStream.java)
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[SerializeAndDeserializeBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SerializeAndDeserializeBinaryTree.java)
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[LongestIncreasingSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestIncreasingSubsequence.java)
