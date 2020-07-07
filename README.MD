@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 513
+Count of solved tasks: 514
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -273,6 +273,7 @@ Count of solved tasks: 513
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[SubarraySumEqualsK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubarraySumEqualsK.java)
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[ArrayPartitionI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArrayPartitionI.java)
 |563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[BinaryTreeTilt.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeTilt.java)
+|565|[Array Nesting](https://leetcode.com/problems/array-nesting/)|[ArrayNesting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArrayNesting.java)
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[ReshapeTheMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReshapeTheMatrix.java)
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[PermutationInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PermutationInString.java)
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[SubtreeOfAnotherTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubtreeOfAnotherTree.java)
