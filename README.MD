@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 517
+Count of solved tasks: 518
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -418,6 +418,7 @@ Count of solved tasks: 517
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[DefangingIPAddress.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefangingIPAddress.java)
 |1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/)|[DeleteNodesAndReturnForest.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteNodesAndReturnForest.java)
 |1114|[Print in Order](https://leetcode.com/problems/print-in-order/)|[PrintInOrder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintInOrder.java)
+|1117|[Building H2O](https://leetcode.com/problems/building-h2o/)|[BuildingH2O.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BuildingH2O.java)
 |1122|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[RelativeSortArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RelativeSortArray.java)
 |1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|[NumberOfEquivalentDominoPairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfEquivalentDominoPairs.java)
 |1138|[Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/)|[AlphabetBoardPath.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AlphabetBoardPath.java)
