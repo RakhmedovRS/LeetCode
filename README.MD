@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 518
+Count of solved tasks: 519
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -429,6 +429,7 @@ Count of solved tasks: 518
 |1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)|[MaximumLevelSumBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLevelSumBinaryTree.java)
 |1170|[Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/)|[CompareStringsByFrequencyOfTheSmallestCharacter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CompareStringsByFrequencyOfTheSmallestCharacter.java)
 |1175|[Prime Arrangements](https://leetcode.com/problems/prime-arrangements/)|[PrimeArrangements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrimeArrangements.java)
+|1177|[Can Make Palindrome from Substring](https://leetcode.com/problems/can-make-palindrome-from-substring/)|[CanMakePalindromeFromSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanMakePalindromeFromSubstring.java)
 |1184|[Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/)|[DistanceBetweenBusStops.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistanceBetweenBusStops.java)
 |1185|[Day of the Week](https://leetcode.com/problems/day-of-the-week/)|[DayOfTheWeek.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DayOfTheWeek.java)
 |1189|[Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)|[MaximumNumberOfBalloons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfBalloons.java)
