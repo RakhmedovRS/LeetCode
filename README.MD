@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 522
+Count of solved tasks: 523
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -430,6 +430,7 @@ Count of solved tasks: 522
 |1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|[FindWordsThatCanBeFormedByCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindWordsThatCanBeFormedByCharacters.java)
 |1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)|[MaximumLevelSumBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLevelSumBinaryTree.java)
 |1170|[Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/)|[CompareStringsByFrequencyOfTheSmallestCharacter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CompareStringsByFrequencyOfTheSmallestCharacter.java)
+|1171|[Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)|[RemoveZeroSumConsecutiveNodesFromLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveZeroSumConsecutiveNodesFromLinkedList.java)
 |1175|[Prime Arrangements](https://leetcode.com/problems/prime-arrangements/)|[PrimeArrangements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrimeArrangements.java)
 |1177|[Can Make Palindrome from Substring](https://leetcode.com/problems/can-make-palindrome-from-substring/)|[CanMakePalindromeFromSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanMakePalindromeFromSubstring.java)
 |1184|[Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/)|[DistanceBetweenBusStops.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistanceBetweenBusStops.java)
