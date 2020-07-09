@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 520
+Count of solved tasks: 521
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -297,6 +297,7 @@ Count of solved tasks: 520
 |650|[Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)|[TwoKeysKeyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoKeysKeyboard.java)
 |661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|[ImageSmoother.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImageSmoother.java)
 |662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[MaximumWidthOfBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumWidthOfBinaryTree.java)
+|665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[NonDecreasingArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NonDecreasingArray.java)
 |670|[Maximum Swap](https://leetcode.com/problems/maximum-swap/)|[MaximumSwap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSwap.java)
 |671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[SecondMinimumNodeInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SecondMinimumNodeInBinaryTree.java)
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|[LongestContinuousIncreasingSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestContinuousIncreasingSubsequence.java)
