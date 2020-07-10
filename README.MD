@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 525
+Count of solved tasks: 526
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -296,6 +296,7 @@ Count of solved tasks: 525
 |643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|[MaximumAverageSubarrayI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAverageSubarrayI.java)
 |645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[SetMismatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SetMismatch.java)
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[PalindromicSubstrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromicSubstrings.java)
+|648|[Replace Words](https://leetcode.com/problems/replace-words/)|[ReplaceWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceWords.java)
 |650|[Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)|[TwoKeysKeyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoKeysKeyboard.java)
 |661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|[ImageSmoother.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImageSmoother.java)
 |662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[MaximumWidthOfBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumWidthOfBinaryTree.java)
