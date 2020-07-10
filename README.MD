@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 523
+Count of solved tasks: 524
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -173,6 +173,7 @@ Count of solved tasks: 523
 |275|[H-Index II](https://leetcode.com/problems/h-index-ii/)|[HIndexII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HIndexII.java)
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[FirstBadVersion.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstBadVersion.java)
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[PerfectSquares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PerfectSquares.java)
+|282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[ExpressionAddOperators.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExpressionAddOperators.java)
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[MoveZeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MoveZeroes.java)
 |284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[PeekingIterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PeekingIterator.java)
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[FindDuplicateNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindDuplicateNumber.java)
