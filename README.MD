@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 527
+Count of solved tasks: 528
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -401,6 +401,7 @@ Count of solved tasks: 527
 |1008|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|[ConstructBinarySearchTreeFromPreorderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructBinarySearchTreeFromPreorderTraversal.java)
 |1010|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[PairsOfSongsWithTotalDurationsDivisibleBy60.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PairsOfSongsWithTotalDurationsDivisibleBy60.java)
 |1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|[PartitionArrayIntoThreePartsWithEqualSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionArrayIntoThreePartsWithEqualSum.java)
+|1018|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|[BinaryPrefixDivisibleBy5.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryPrefixDivisibleBy5.java)
 |1019|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|[NextGreaterNodeInLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterNodeInLinkedList.java)
 |1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[SumOfRootToLeafBinaryNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfRootToLeafBinaryNumbers.java)
 |1025|[Divisor Game](https://leetcode.com/problems/divisor-game/)|[DivisorGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DivisorGame.java)
