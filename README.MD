@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 532
+Count of solved tasks: 533
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -535,3 +535,4 @@ Count of solved tasks: 532
 |1504|[Count Submatrices With All Ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)|[CountSubmatricesWithAllOnes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSubmatricesWithAllOnes.java)
 |1507|[Reformat Date](https://leetcode.com/problems/reformat-date/)|[ReformatDate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReformatDate.java)
 |1508|[Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)|[RangeSumOfSortedSubarraySums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfSortedSubarraySums.java)
+|1509|[Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)|[MinimumDifferenceBetweenLargestAndSmallestValueInThreeMoves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDifferenceBetweenLargestAndSmallestValueInThreeMoves.java)
