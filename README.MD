@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 530
+Count of solved tasks: 531
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -533,3 +533,4 @@ Count of solved tasks: 530
 |1502|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[CanMakeArithmeticProgressionFromSequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanMakeArithmeticProgressionFromSequence.java)
 |1503|[Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/)|[LastMomentBeforeAllAntsFallOutOfPlank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LastMomentBeforeAllAntsFallOutOfPlank.java)
 |1504|[Count Submatrices With All Ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)|[CountSubmatricesWithAllOnes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSubmatricesWithAllOnes.java)
+|1507|[Reformat Date](https://leetcode.com/problems/reformat-date/)|[ReformatDate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReformatDate.java)
