@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 529
+Count of solved tasks: 530
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -136,6 +136,7 @@ Count of solved tasks: 529
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|[HappyNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HappyNumber.java)
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[RemoveLinkedListElements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveLinkedListElements.java)
 |204|[Count Primes](https://leetcode.com/problems/count-primes/)|[CountPrimes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountPrimes.java)
+|205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[IsomorphicStrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IsomorphicStrings.java)
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[ReverseLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseLinkedList.java)
 |207|[Course Schedule](https://leetcode.com/problems/course-schedule/)|[CourseSchedule.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CourseSchedule.java)
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[PrefixTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrefixTree.java)
