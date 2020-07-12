@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 533
+Count of solved tasks: 534
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -536,3 +536,4 @@ Count of solved tasks: 533
 |1507|[Reformat Date](https://leetcode.com/problems/reformat-date/)|[ReformatDate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReformatDate.java)
 |1508|[Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)|[RangeSumOfSortedSubarraySums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfSortedSubarraySums.java)
 |1509|[Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)|[MinimumDifferenceBetweenLargestAndSmallestValueInThreeMoves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDifferenceBetweenLargestAndSmallestValueInThreeMoves.java)
+|1512|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|[NumberOfGoodPairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfGoodPairs.java)
