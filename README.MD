@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 536
+Count of solved tasks: 537
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -311,6 +311,7 @@ Count of solved tasks: 536
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[TopKFrequentWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TopKFrequentWords.java)
 |693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[BinaryNumberWithAlternatingBits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryNumberWithAlternatingBits.java)
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[MaxAreaOfIsland.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxAreaOfIsland.java)
+|696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|[CountBinarySubstrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountBinarySubstrings.java)
 |697|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[DegreeOfArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DegreeOfArray.java)
 |698|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|[PartitionToKEqualSumSubsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionToKEqualSumSubsets.java)
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[SearchInBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInBinarySearchTree.java)
