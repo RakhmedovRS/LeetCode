@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 549
+Count of solved tasks: 550
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -244,6 +244,7 @@ Count of solved tasks: 549
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[RepeatedSubstringPattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RepeatedSubstringPattern.java)
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[HammingDistance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HammingDistance.java)
 |463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[IslandPerimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IslandPerimeter.java)
+|467|[Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)|[UniqueSubstringsInWraparoundString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueSubstringsInWraparoundString.java)
 |468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[ValidateIPAddress.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidateIPAddress.java)
 |470|[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)|[ImplementRand10UsingRand7.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImplementRand10UsingRand7.java)
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)|[NumberComplement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberComplement.java)
