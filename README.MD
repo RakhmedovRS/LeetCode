@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 547
+Count of solved tasks: 548
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -251,6 +251,7 @@ Count of solved tasks: 547
 |480|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)|[FlattenMultilevelDoublyLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlattenMultilevelDoublyLinkedList.java)
 |482|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|[LicenseKeyFormatting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LicenseKeyFormatting.java)
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[MaxConsecutiveOnes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxConsecutiveOnes.java)
+|491|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)|[IncreasingSubsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingSubsequences.java)
 |494|[Target Sum](https://leetcode.com/problems/target-sum/)|[TargetSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TargetSum.java)
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[NextGreaterElementI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementI.java)
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[DiagonalTraverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverse.java)
