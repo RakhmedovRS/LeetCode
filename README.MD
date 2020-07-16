@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 553
+Count of solved tasks: 554
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -369,6 +369,7 @@ Count of solved tasks: 553
 |848|[Shifting Letters](https://leetcode.com/problems/shifting-letters/)|[ShiftingLetters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShiftingLetters.java)
 |849|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|[SplitArrayIntoFibonacciSequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitArrayIntoFibonacciSequence.java)
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[PeakIndexInMountainArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PeakIndexInMountainArray.java)
+|856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|[ScoreOfParentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ScoreOfParentheses.java)
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[LemonadeChange.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LemonadeChange.java)
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[TransposeMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TransposeMatrix.java)
 |868|[Binary Gap](https://leetcode.com/problems/binary-gap/)|[BinaryGap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryGap.java)
