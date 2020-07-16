@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 552
+Count of solved tasks: 553
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -457,6 +457,7 @@ Count of solved tasks: 552
 |1185|[Day of the Week](https://leetcode.com/problems/day-of-the-week/)|[DayOfTheWeek.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DayOfTheWeek.java)
 |1189|[Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)|[MaximumNumberOfBalloons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfBalloons.java)
 |1190|[Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/)|[ReverseSubstringsBetweenEachPairOfParentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseSubstringsBetweenEachPairOfParentheses.java)
+|1191|[K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/)|[KConcatenationMaximumSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KConcatenationMaximumSum.java)
 |1195|[Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/)|[FizzBuzzMultithreaded.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FizzBuzzMultithreaded.java)
 |1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[MinimumAbsoluteDifference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumAbsoluteDifference.java)
 |1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[RemoveAllAdjacentDuplicatesInStringII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveAllAdjacentDuplicatesInStringII.java)
