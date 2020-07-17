@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 556
+Count of solved tasks: 557
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -435,6 +435,7 @@ Count of solved tasks: 556
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/)|[HeightChecker.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HeightChecker.java)
 |1078|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|[OccurrencesAfterBigram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OccurrencesAfterBigram.java)
 |1079|[Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)|[LetterTilePossibilities.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LetterTilePossibilities.java)
+|1081|[Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)|[SmallestSubsequenceOfDistinctCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestSubsequenceOfDistinctCharacters.java)
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[DuplicateZeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DuplicateZeros.java)
 |1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[ShortestPathInBinaryMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathInBinaryMatrix.java)
 |1103|[Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)|[DistributeCandiesToPeople.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistributeCandiesToPeople.java)
