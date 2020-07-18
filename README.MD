@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 566
+Count of solved tasks: 567
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -253,6 +253,7 @@ Count of solved tasks: 566
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)|[NumberComplement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberComplement.java)
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|[TotalHammingDistance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TotalHammingDistance.java)
 |480|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)|[FlattenMultilevelDoublyLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlattenMultilevelDoublyLinkedList.java)
+|480|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)|[SlidingWindowMedian.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SlidingWindowMedian.java)
 |482|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|[LicenseKeyFormatting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LicenseKeyFormatting.java)
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[MaxConsecutiveOnes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxConsecutiveOnes.java)
 |491|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)|[IncreasingSubsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingSubsequences.java)
