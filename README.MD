@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 565
+Count of solved tasks: 566
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -281,6 +281,7 @@ Count of solved tasks: 565
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/)|[ZeroOneMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ZeroOneMatrix.java)
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[DiameterOfBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiameterOfBinaryTree.java)
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[StudentAttendanceRecordI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StudentAttendanceRecordI.java)
+|556|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/)|[NextGreaterElementIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementIII.java)
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[ReverseWordsInStringIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseWordsInStringIII.java)
 |559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[MaximumDepthOfNaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDepthOfNaryTree.java)
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[SubarraySumEqualsK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubarraySumEqualsK.java)
