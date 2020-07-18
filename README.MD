@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 562
+Count of solved tasks: 563
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -233,6 +233,7 @@ Count of solved tasks: 562
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[BattleshipsInBoard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BattleshipsInBoard.java)
 |423|[Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/)|[ReconstructOriginalDigitsFromEnglish.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReconstructOriginalDigitsFromEnglish.java)
 |429|[ N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[NaryTreeLevelOrderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NaryTreeLevelOrderTraversal.java)
+|433|[Minimum Genetic Mutation](Minimum Genetic Mutation)|[MinimumGeneticMutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumGeneticMutation.java)
 |434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|[NumberOfSegmentsInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfSegmentsInString.java)
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[FindAllAnagramsInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAllAnagramsInString.java)
 |441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[ArrangingCoins.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArrangingCoins.java)
