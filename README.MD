@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 571
+Count of solved tasks: 572
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -510,6 +510,7 @@ Count of solved tasks: 571
 |1351|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[CountNegativeNumbersInSortedMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountNegativeNumbersInSortedMatrix.java)
 |1356|[Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)|[SortIntegersByTheNumberOf1Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortIntegersByTheNumberOf1Bits.java)
 |1360|[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|[NumberOfDaysBetweenTwoDates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfDaysBetweenTwoDates.java)
+|1361|[Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)|[ValidateBinaryTreeNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidateBinaryTreeNodes.java)
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[HowManyNumbersAreSmallerThanCurrentNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HowManyNumbersAreSmallerThanCurrentNumber.java)
 |1367|[Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|[LinkedListInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListInBinaryTree.java)
 |1370|[Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/)|[IncreasingDecreasingString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingDecreasingString.java)

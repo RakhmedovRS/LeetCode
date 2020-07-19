@@ -91,7 +91,7 @@ public class NumberOfNodesInTheSubTreeWithTheSameLabel
 			{2, 6}
 		}, "abaedcd")));
 
-		System.out.println(Arrays.toString(new Contest().countSubTrees(5, new int[][]{
+		System.out.println(Arrays.toString(new NumberOfNodesInTheSubTreeWithTheSameLabel().countSubTrees(5, new int[][]{
 			{0, 1},
 			{0, 2},
 			{1, 3},
