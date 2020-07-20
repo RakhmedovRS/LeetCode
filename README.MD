@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 575
+Count of solved tasks: 576
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -66,6 +66,7 @@ Count of solved tasks: 575
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[MinimumWindowSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumWindowSubstring.java)
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Subsets.java)
 |79|[Word Search](https://leetcode.com/problems/word-search/)|[WordSearch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordSearch.java)
+|81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[SearchInRotatedSortedArrayII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArrayII.java)
 |82|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[LargestRectangleInHistogram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestRectangleInHistogram.java)
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|[MaximalRectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximalRectangle.java)
 |87|[Scramble String](https://leetcode.com/problems/scramble-string/)|[ScrambleString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ScrambleString.java)
