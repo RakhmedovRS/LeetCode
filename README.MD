@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 580
+Count of solved tasks: 581
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -412,6 +412,7 @@ Count of solved tasks: 580
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[ValidMountainArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidMountainArray.java)
 |942|[DI String Match](https://leetcode.com/problems/di-string-match/)|[DIStringMatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DIStringMatch.java)
 |945|[Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)|[MinimumIncrementToMakeArrayUnique.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumIncrementToMakeArrayUnique.java)
+|953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|[VerifyingAlienDictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/VerifyingAlienDictionary.java)
 |957|[Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/)|[PrisonCellsAfterNDays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrisonCellsAfterNDays.java)
 |958|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)|[CheckCompletenessOfBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckCompletenessOfBinaryTree.java)
 |961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[NRepeatedElementIn2NArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NRepeatedElementIn2NArray.java)
