@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 583
+Count of solved tasks: 584
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -511,6 +511,7 @@ Count of solved tasks: 583
 |1324|[Print Words Vertically](https://leetcode.com/problems/print-words-vertically/)|[PrintWordsVertically.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintWordsVertically.java)
 |1329|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[SortMatrixDiagonally.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortMatrixDiagonally.java)
 |1331|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/)|[RankTransformOfArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RankTransformOfArray.java)
+|1332|[Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|[RemovePalindromicSubsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemovePalindromicSubsequences.java)
 |1337|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[TheKWeakestRowsInMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKWeakestRowsInMatrix.java)
 |1338|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|[ReduceArraySizeToTheHalf.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReduceArraySizeToTheHalf.java)
 |1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)|[MaximumProductOfSplittedBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfSplittedBinaryTree.java)
