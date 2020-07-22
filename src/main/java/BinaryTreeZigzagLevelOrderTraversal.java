@@ -1,9 +1,7 @@
 import common.LeetCode;
 import common.TreeNode;
 
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author RakhmedovRS
@@ -12,56 +10,34 @@ import java.util.List;
 @LeetCode(id = 103, name = "Binary Tree Zigzag Level Order Traversal", url = "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/")
 public class BinaryTreeZigzagLevelOrderTraversal
 {
-	public List<List<Integer>> zigzagLevelOrder(TreeNode root)
-	{
-		List<List<Integer>> result = new LinkedList<>();
-		if (root == null)
-		{
-			return result;
+	public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+		Map<Integer, LinkedList<Integer>> zigzag = new HashMap<>();
+		int level = 1;
+		traverse(root, level, zigzag);
+		List<List<Integer>> answer = new ArrayList<>();
+		while (zigzag.containsKey(level)) {
+			answer.add(zigzag.get(level++));
 		}
-		Deque<TreeNode> nodes = new LinkedList<>();
-		nodes.addFirst(root);
-		int nodesCount;
-		boolean directOrder = true;
-		TreeNode tempNode;
-		while (!nodes.isEmpty())
-		{
-			List<Integer> leafs = new LinkedList<>();
-			nodesCount = nodes.size();
-			for (int i = 0; i < nodesCount; i++)
-			{
-				if (directOrder)
-				{
-					tempNode = nodes.removeFirst();
-					leafs.add(tempNode.val);
-					if (tempNode.left != null)
-					{
-						nodes.addLast(tempNode.left);
-					}
+		return answer;
+	}
 
-					if (tempNode.right != null)
-					{
-						nodes.addLast(tempNode.right);
-					}
-				}
-				else
-				{
-					tempNode = nodes.removeLast();
-					leafs.add(tempNode.val);
-					if (tempNode.right != null)
-					{
-						nodes.addFirst(tempNode.right);
-					}
-					if (tempNode.left != null)
-					{
-						nodes.addFirst(tempNode.left);
-					}
-				}
-			}
-			directOrder = !directOrder;
-			result.add(leafs);
+	private void traverse(TreeNode root, int level, Map<Integer, LinkedList<Integer>> zigzag) {
+		if (root == null) {
+			return;
 		}
 
-		return result;
+		LinkedList<Integer> currentLevel = zigzag.getOrDefault(level, new LinkedList<>());
+
+		if (level % 2 == 0) {
+			currentLevel.addFirst(root.val);
+		}
+		else {
+			currentLevel.addLast(root.val);
+		}
+
+		zigzag.put(level, currentLevel);
+
+		traverse(root.left, level + 1, zigzag);
+		traverse(root.right, level + 1, zigzag);
 	}
 }
