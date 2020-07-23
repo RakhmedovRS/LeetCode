@@ -1,8 +1,5 @@
 import common.LeetCode;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @author RakhmedovRS
  * @created 25-Jun-20
@@ -12,23 +9,23 @@ public class SingleNumberIII
 {
 	public int[] singleNumber(int[] nums)
 	{
-		Map<Integer, Integer> memo = new HashMap<>();
+		int diff = 0;
 		for (int num : nums)
 		{
-			memo.put(num, memo.getOrDefault(num, 0) + 1);
+			diff ^= num;
 		}
 
-		int[] answer = new int[2];
-		int pos = 0;
-		for (Map.Entry<Integer, Integer> entry : memo.entrySet())
+		diff &= -diff;
+		int[] answer = new int[]{0, 0};
+		for (int num : nums)
 		{
-			if (entry.getValue() == 1)
+			if ((diff & num) == 0)
 			{
-				answer[pos++] = entry.getKey();
-				if (pos > 1)
-				{
-					break;
-				}
+				answer[0] ^= num;
+			}
+			else
+			{
+				answer[1] ^= num;
 			}
 		}
 
