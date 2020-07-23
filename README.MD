@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 589
+Count of solved tasks: 590
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -484,6 +484,7 @@ Count of solved tasks: 589
 |1177|[Can Make Palindrome from Substring](https://leetcode.com/problems/can-make-palindrome-from-substring/)|[CanMakePalindromeFromSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanMakePalindromeFromSubstring.java)
 |1184|[Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/)|[DistanceBetweenBusStops.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistanceBetweenBusStops.java)
 |1185|[Day of the Week](https://leetcode.com/problems/day-of-the-week/)|[DayOfTheWeek.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DayOfTheWeek.java)
+|1186|[Maximum Subarray Sum with One Deletion](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/)|[MaximumSubarraySumWithOneDeletion.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarraySumWithOneDeletion.java)
 |1189|[Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)|[MaximumNumberOfBalloons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfBalloons.java)
 |1190|[Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/)|[ReverseSubstringsBetweenEachPairOfParentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseSubstringsBetweenEachPairOfParentheses.java)
 |1191|[K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/)|[KConcatenationMaximumSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KConcatenationMaximumSum.java)
