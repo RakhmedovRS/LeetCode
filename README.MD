@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 586
+Count of solved tasks: 587
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -228,6 +228,7 @@ Count of solved tasks: 586
 |400|[Nth Digit](https://leetcode.com/problems/nth-digit/)|[NthDigit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NthDigit.java)
 |401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[BinaryWatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryWatch.java)
 |402|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[RemoveKDigits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveKDigits.java)
+|405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|[ConvertNumberToHexadecimal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertNumberToHexadecimal.java)
 |406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|[QueueReconstructionByHeight.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueueReconstructionByHeight.java)
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[LongestPalindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestPalindrome.java)
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[FizzBuzz.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FizzBuzz.java)
