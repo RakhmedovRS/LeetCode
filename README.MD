@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 592
+Count of solved tasks: 593
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -427,6 +427,7 @@ Count of solved tasks: 592
 |969|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)|[PancakeSorting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PancakeSorting.java)
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|[KClosestPointToOrigin.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KClosestPointToOrigin.java)
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[SquaresOfSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SquaresOfSortedArray.java)
+|984|[String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/)|[StringWithoutAAAOrBBB.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringWithoutAAAOrBBB.java)
 |985|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)|[SumOfEvenNumbersAfterQueries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfEvenNumbersAfterQueries.java)
 |986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)|[IntervalListIntersections.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntervalListIntersections.java)
 |987|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|[VerticalOrderTraversalOfBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/VerticalOrderTraversalOfBinaryTree.java)
