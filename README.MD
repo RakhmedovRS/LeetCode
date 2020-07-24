@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 590
+Count of solved tasks: 591
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -477,6 +477,7 @@ Count of solved tasks: 590
 |1154|[Day of the Year](https://leetcode.com/problems/day-of-the-year/submissions/)|[DayOfTheYear.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DayOfTheYear.java)
 |1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|[FindWordsThatCanBeFormedByCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindWordsThatCanBeFormedByCharacters.java)
 |1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)|[MaximumLevelSumBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLevelSumBinaryTree.java)
+|1162|[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|[AsFarFromLandAsPossible.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AsFarFromLandAsPossible.java)
 |1169|[Invalid Transactions](https://leetcode.com/problems/invalid-transactions/)|[InvalidTransactions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InvalidTransactions.java)
 |1170|[Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/)|[CompareStringsByFrequencyOfTheSmallestCharacter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CompareStringsByFrequencyOfTheSmallestCharacter.java)
 |1171|[Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)|[RemoveZeroSumConsecutiveNodesFromLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveZeroSumConsecutiveNodesFromLinkedList.java)
