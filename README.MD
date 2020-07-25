@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 594
+Count of solved tasks: 595
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -116,6 +116,7 @@ Count of solved tasks: 594
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[EvaluateReversePolishNotation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EvaluateReversePolishNotation.java)
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[ReverseWordsInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseWordsInString.java)
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[MaximumProductSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductSubarray.java)
+|154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[FindMinimumInRotatedSortedArrayII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindMinimumInRotatedSortedArrayII.java)
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[MinStack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinStack.java)
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[IntersectionOfTwoLinkedLists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntersectionOfTwoLinkedLists.java)
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[FindPeakElement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindPeakElement.java)
