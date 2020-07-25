@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 595
+Count of solved tasks: 596
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -596,5 +596,6 @@ Count of solved tasks: 595
 |1513|[Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)|[NumberOfSubstringsWithOnly1s.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfSubstringsWithOnly1s.java)
 |1514|[Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)|[PathWithMaximumProbability.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathWithMaximumProbability.java)
 |1519|[Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)|[NumberOfNodesInTheSubTreeWithTheSameLabel.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfNodesInTheSubTreeWithTheSameLabel.java)
+|1523|[Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)|[CountOddNumbersInIntervalRange.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountOddNumbersInIntervalRange.java)
 |1789|[Number of Valid Words for Each Puzzle](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)|[NumberOfValidWordsForEachPuzzle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfValidWordsForEachPuzzle.java)
 |1818|[Water Bottles](https://leetcode.com/problems/water-bottles/)|[WaterBottles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WaterBottles.java)
