@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 600
+Count of solved tasks: 601
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -599,6 +599,7 @@ Count of solved tasks: 600
 |1523|[Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)|[CountOddNumbersInIntervalRange.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountOddNumbersInIntervalRange.java)
 |1524|[Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)|[NumberOfSubArraysWithOddSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfSubArraysWithOddSum.java)
 |1525|[Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/)|[NumberOfGoodWaysToSplitString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfGoodWaysToSplitString.java)
+|1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/)|[ShuffleString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShuffleString.java)
 |1529|[Bulb Switcher IV](https://leetcode.com/problems/bulb-switcher-iv/)|[BulbSwitcherIV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BulbSwitcherIV.java)
 |1530|[Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)|[NumberOfGoodLeafNodesPairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfGoodLeafNodesPairs.java)
 |1789|[Number of Valid Words for Each Puzzle](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)|[NumberOfValidWordsForEachPuzzle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfValidWordsForEachPuzzle.java)
