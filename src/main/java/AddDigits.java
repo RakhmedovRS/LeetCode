@@ -9,14 +9,16 @@ public class AddDigits
 {
 	public int addDigits(int num)
 	{
-		int rest;
-		while (num >= 10)
+		if (num == 0)
 		{
-			rest = num % 10;
-			num /= 10;
-			num += rest;
+			return 0;
 		}
 
-		return num;
+		if (num % 9 == 0)
+		{
+			return 9;
+		}
+
+		return num % 9;
 	}
 }
