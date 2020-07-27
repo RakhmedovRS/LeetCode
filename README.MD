@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 601
+Count of solved tasks: 602
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -529,6 +529,7 @@ Count of solved tasks: 601
 |1344|[Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/)|[AngleBetweenHandsOfClock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AngleBetweenHandsOfClock.java)
 |1346|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|[CheckIfNAndItsDoubleExist.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfNAndItsDoubleExist.java)
 |1351|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[CountNegativeNumbersInSortedMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountNegativeNumbersInSortedMatrix.java)
+|1353|[Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)|[MaximumNumberOfEventsThatCanBeAttended.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfEventsThatCanBeAttended.java)
 |1356|[Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)|[SortIntegersByTheNumberOf1Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortIntegersByTheNumberOf1Bits.java)
 |1357|[Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/)|[ApplyDiscountEveryNOrders.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ApplyDiscountEveryNOrders.java)
 |1360|[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|[NumberOfDaysBetweenTwoDates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfDaysBetweenTwoDates.java)
