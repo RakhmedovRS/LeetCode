@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 604
+Count of solved tasks: 605
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -275,6 +275,7 @@ Count of solved tasks: 604
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[FibonacciNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FibonacciNumber.java)
 |513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|[FindBottomLeftTreeValue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindBottomLeftTreeValue.java)
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[FindLargestValueInEachTreeRow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLargestValueInEachTreeRow.java)
+|516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|[LongestPalindromicSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestPalindromicSubsequence.java)
 |518|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)|[CoinChange2.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CoinChange2.java)
 |519|[Random Flip Matrix](https://leetcode.com/problems/random-flip-matrix/)|[RandomFlipMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RandomFlipMatrix.java)
 |520|[Detect Capital]()|[DetectCapital.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetectCapital.java)
