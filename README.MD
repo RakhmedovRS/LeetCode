@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 603
+Count of solved tasks: 604
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -472,6 +472,7 @@ Count of solved tasks: 603
 |1109|[Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/)|[CorporateFlightBookings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CorporateFlightBookings.java)
 |1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/)|[DeleteNodesAndReturnForest.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteNodesAndReturnForest.java)
 |1114|[Print in Order](https://leetcode.com/problems/print-in-order/)|[PrintInOrder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintInOrder.java)
+|1115|[Print FooBar Alternately](https://leetcode.com/problems/print-foobar-alternately/)|[PrintFooBarAlternately.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintFooBarAlternately.java)
 |1117|[Building H2O](https://leetcode.com/problems/building-h2o/)|[BuildingH2O.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BuildingH2O.java)
 |1122|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[RelativeSortArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RelativeSortArray.java)
 |1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|[NumberOfEquivalentDominoPairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfEquivalentDominoPairs.java)
