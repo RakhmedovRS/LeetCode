@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 605
+Count of solved tasks: 606
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -376,6 +376,7 @@ Count of solved tasks: 605
 |806|[Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/)|[NumberOfLinesToWriteString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfLinesToWriteString.java)
 |809|[Expressive Words](https://leetcode.com/problems/expressive-words/)|[ExpressiveWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExpressiveWords.java)
 |811|[Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)|[SubdomainVisitCount.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubdomainVisitCount.java)
+|812|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/)|[LargestTriangleArea.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestTriangleArea.java)
 |814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|[BinaryTreePruning.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePruning.java)
 |819|[Most Common Word](https://leetcode.com/problems/most-common-word/)|[MostCommonWord.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MostCommonWord.java)
 |821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[ShortestDistanceToCharacter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestDistanceToCharacter.java)
