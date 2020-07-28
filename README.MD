@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 607
+Count of solved tasks: 608
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -224,6 +224,7 @@ Count of solved tasks: 607
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[FirstUniqueCharacterInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstUniqueCharacterInString.java)
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[IsSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IsSubsequence.java)
 |394|[Decode String]()|[DecodeString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)
+|396|[Rotate Function](https://leetcode.com/problems/rotate-function/)|[RotateFunction.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotateFunction.java)
 |397|[Integer Replacement](https://leetcode.com/problems/integer-replacement/)|[IntegerReplacement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerReplacement.java)
 |398|[Random Pick Index](https://leetcode.com/problems/random-pick-index/)|[RandomPickIndex.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RandomPickIndex.java)
 |400|[Nth Digit](https://leetcode.com/problems/nth-digit/)|[NthDigit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NthDigit.java)
