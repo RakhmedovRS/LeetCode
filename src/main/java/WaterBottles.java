@@ -4,7 +4,7 @@ import common.LeetCode;
  * @author RakhmedovRS
  * @created 19-Jul-20
  */
-@LeetCode(id = 1818, name = "Water Bottles", url = "https://leetcode.com/problems/water-bottles/")
+@LeetCode(id = 1518, name = "Water Bottles", url = "https://leetcode.com/problems/water-bottles/")
 public class WaterBottles
 {
 	public int numWaterBottles(int numBottles, int numExchange)
