@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 609
+Count of solved tasks: 610
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -190,6 +190,7 @@ Count of solved tasks: 609
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[LongestIncreasingSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestIncreasingSubsequence.java)
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[RangeSumQueryImmutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQueryImmutable.java)
 |306|[Additive Number](https://leetcode.com/problems/additive-number/)|[AdditiveNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AdditiveNumber.java)
+|309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[BestTimeToBuyAndSellStockWithCooldown.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BestTimeToBuyAndSellStockWithCooldown.java)
 |312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[BurstBalloons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BurstBalloons.java)
 |316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[RemoveDuplicateLetters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveDuplicateLetters.java)
 |318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[MaximumProductOfWordLengths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfWordLengths.java)
