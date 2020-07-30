@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 613
+Count of solved tasks: 614
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -290,6 +290,7 @@ Count of solved tasks: 613
 |532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[KdiffPairsInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KdiffPairsInArray.java)
 |535|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|[EncodeAndDecodeTinyURL.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EncodeAndDecodeTinyURL.java)
 |538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[ConvertBSTToGreaterTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertBSTToGreaterTree.java)
+|539|[Minimum Time Difference](Minimum Time Difference)|[MinimumTimeDifference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeDifference.java)
 |540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[SingleElementInSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleElementInSortedArray.java)
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[ReverseStringII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseStringII.java)
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/)|[ZeroOneMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ZeroOneMatrix.java)
