@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 614
+Count of solved tasks: 615
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -474,6 +474,7 @@ Count of solved tasks: 614
 |1054|[Distant Barcodes](https://leetcode.com/problems/distant-barcodes/)|[DistantBarcodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistantBarcodes.java)
 |1078|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|[OccurrencesAfterBigram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OccurrencesAfterBigram.java)
 |1079|[Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)|[LetterTilePossibilities.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LetterTilePossibilities.java)
+|1080|[Insufficient Nodes in Root to Leaf Paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/)|[InsufficientNodesInRootToLeafPaths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsufficientNodesInRootToLeafPaths.java)
 |1081|[Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)|[SmallestSubsequenceOfDistinctCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestSubsequenceOfDistinctCharacters.java)
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[DuplicateZeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DuplicateZeros.java)
 |1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[ShortestPathInBinaryMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathInBinaryMatrix.java)
