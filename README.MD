@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 617
+Count of solved tasks: 618
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -249,6 +249,7 @@ Count of solved tasks: 617
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[StringCompression.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringCompression.java)
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[FindAllNumbersDisappearedInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAllNumbersDisappearedInArray.java)
 |449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|[SerializeAndDeserializeBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SerializeAndDeserializeBST.java)
+|450|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|[DeleteNodeInBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteNodeInBST.java)
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[SortCharactersByFrequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortCharactersByFrequency.java)
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[MinimumNumberOfArrowsToBurstBalloons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfArrowsToBurstBalloons.java)
 |456|[132 Pattern](https://leetcode.com/problems/132-pattern/)|[OneTwoThreePattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OneTwoThreePattern.java)

@@ -10,7 +10,7 @@ import java.util.LinkedList;
  */
 public class TreeBuilder
 {
-	public TreeNode deserializeBinaryTree(Integer[] nodes)
+	public static TreeNode deserializeBinaryTree(Integer[] nodes)
 	{
 		TreeNode[] madenodes = new TreeNode[nodes.length];
 		Deque<TreeNode> stack = new LinkedList<>();
@@ -38,7 +38,7 @@ public class TreeBuilder
 		return root;
 	}
 
-	public TreeNode deserializeBinaryTree(String nodes)
+	public static TreeNode deserializeBinaryTree(String nodes)
 	{
 		return deserializeBinaryTree(Arrays.stream(nodes.split(","))
 			.map(val -> "null".equals(val) ? null : Integer.parseInt(val)).toArray(Integer[]::new));
