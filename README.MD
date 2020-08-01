@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 619
+Count of solved tasks: 620
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -153,6 +153,7 @@ Count of solved tasks: 619
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[ContainsDuplicateII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainsDuplicateII.java)
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[MaximalSquare.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximalSquare.java)
 |222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[CountCompleteTreeNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountCompleteTreeNodes.java)
+|224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|[BasicCalculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BasicCalculator.java)
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[ImplementStackUsingQueues.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImplementStackUsingQueues.java)
 |227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[BasicCalculatorII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BasicCalculatorII.java)
 |228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[SummaryRanges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SummaryRanges.java)
