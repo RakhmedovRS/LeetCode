@@ -283,7 +283,7 @@ Count of solved tasks: 617
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|[LongestPalindromicSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestPalindromicSubsequence.java)
 |518|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)|[CoinChange2.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CoinChange2.java)
 |519|[Random Flip Matrix](https://leetcode.com/problems/random-flip-matrix/)|[RandomFlipMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RandomFlipMatrix.java)
-|520|[Detect Capital]()|[DetectCapital.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetectCapital.java)
+|520|[Detect Capital](https://leetcode.com/problems/detect-capital/submissions/)|[DetectCapital.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetectCapital.java)
 |521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/)|[LongestUncommonSubsequenceI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestUncommonSubsequenceI.java)
 |525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[ContiguousArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContiguousArray.java)
 |528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|[RandomPickWithWeight.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RandomPickWithWeight.java)

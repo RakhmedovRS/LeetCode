@@ -4,22 +4,23 @@ import common.LeetCode;
  * @author RakhmedovRS
  * @created 27-May-20
  */
-@LeetCode(id = 520, name = "Detect Capital", url = "")
+@LeetCode(id = 520, name = "Detect Capital", url = "https://leetcode.com/problems/detect-capital/submissions/")
 public class DetectCapital
 {
-	public boolean detectCapitalUse(String word)
-	{
-		int capitalsCount = 0;
-		for (int i = 0; i < word.length(); i++)
-		{
-			if (Character.isUpperCase(word.charAt(i)))
-			{
-				capitalsCount++;
+	public boolean detectCapitalUse(String word) {
+		boolean allCapital = Character.isUpperCase(word.charAt(0));
+		boolean fistCapital = Character.isUpperCase(word.charAt(0));
+		boolean allSmall = Character.isLowerCase(word.charAt(0));
+		for (int i = 1; i < word.length(); i++) {
+			if (Character.isUpperCase(word.charAt(i))) {
+				allSmall = false;
+				fistCapital = false;
+			}
+			else {
+				allCapital = false;
 			}
 		}
 
-		return capitalsCount == word.length()
-			|| capitalsCount == 0
-			|| (capitalsCount == 1 && Character.isUpperCase(word.charAt(0)));
+		return allCapital || fistCapital || allSmall;
 	}
 }
