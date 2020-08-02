@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 623
+Count of solved tasks: 624
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -626,3 +626,4 @@ Count of solved tasks: 623
 |1530|[Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)|[NumberOfGoodLeafNodesPairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfGoodLeafNodesPairs.java)
 |1534|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|[CountGoodTriplets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountGoodTriplets.java)
 |1535|[Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game/)|[FindTheWinnerOfArrayGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheWinnerOfArrayGame.java)
+|1537|[Get the Maximum Score](https://leetcode.com/problems/get-the-maximum-score/)|[GetTheMaximumScore.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GetTheMaximumScore.java)
