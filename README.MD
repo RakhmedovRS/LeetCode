@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 621
+Count of solved tasks: 622
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -624,3 +624,4 @@ Count of solved tasks: 621
 |1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/)|[ShuffleString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShuffleString.java)
 |1529|[Bulb Switcher IV](https://leetcode.com/problems/bulb-switcher-iv/)|[BulbSwitcherIV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BulbSwitcherIV.java)
 |1530|[Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)|[NumberOfGoodLeafNodesPairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfGoodLeafNodesPairs.java)
+|1534|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|[CountGoodTriplets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountGoodTriplets.java)
