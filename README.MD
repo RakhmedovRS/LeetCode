@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 625
+Count of solved tasks: 626
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -238,6 +238,7 @@ Count of solved tasks: 625
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[FizzBuzz.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FizzBuzz.java)
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[ThirdMaximumNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThirdMaximumNumber.java)
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[AddStrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddStrings.java)
+|416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[PartitionEqualSubsetSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionEqualSubsetSum.java)
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[BattleshipsInBoard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BattleshipsInBoard.java)
 |421|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|[MaximumXOROfTwoNumbersInAnArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumXOROfTwoNumbersInAnArray.java)
 |423|[Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/)|[ReconstructOriginalDigitsFromEnglish.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReconstructOriginalDigitsFromEnglish.java)
