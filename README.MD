@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 629
+Count of solved tasks: 630
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -265,6 +265,7 @@ Count of solved tasks: 629
 |468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[ValidateIPAddress.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidateIPAddress.java)
 |470|[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)|[ImplementRand10UsingRand7.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImplementRand10UsingRand7.java)
 |472|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|[ConcatenatedWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConcatenatedWords.java)
+|475|[Heaters](https://leetcode.com/problems/heaters/)|[Heaters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Heaters.java)
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)|[NumberComplement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberComplement.java)
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|[TotalHammingDistance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TotalHammingDistance.java)
 |479|[Largest Palindrome Product](https://leetcode.com/problems/largest-palindrome-product/)|[LargestPalindromeProduct.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestPalindromeProduct.java)
