@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 630
+Count of solved tasks: 631
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -466,6 +466,7 @@ Count of solved tasks: 630
 |1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|[PartitionArrayIntoThreePartsWithEqualSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionArrayIntoThreePartsWithEqualSum.java)
 |1018|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|[BinaryPrefixDivisibleBy5.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryPrefixDivisibleBy5.java)
 |1019|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|[NextGreaterNodeInLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterNodeInLinkedList.java)
+|1020|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|[NumberOfEnclaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfEnclaves.java)
 |1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[SumOfRootToLeafBinaryNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfRootToLeafBinaryNumbers.java)
 |1025|[Divisor Game](https://leetcode.com/problems/divisor-game/)|[DivisorGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DivisorGame.java)
 |1026|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|[MaximumDifferenceBetweenNodeAndAncestor.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDifferenceBetweenNodeAndAncestor.java)
