@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 631
+Count of solved tasks: 632
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -395,6 +395,7 @@ Count of solved tasks: 631
 |819|[Most Common Word](https://leetcode.com/problems/most-common-word/)|[MostCommonWord.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MostCommonWord.java)
 |821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[ShortestDistanceToCharacter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestDistanceToCharacter.java)
 |824|[Goat Latin](https://leetcode.com/problems/goat-latin/)|[GoatLatin.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GoatLatin.java)
+|826|[Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/)|[MostProfitAssigningWork.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MostProfitAssigningWork.java)
 |830|[Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/)|[PositionsOfLargeGroups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PositionsOfLargeGroups.java)
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[FlippingAnImage.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlippingAnImage.java)
 |840|[Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/)|[MagicSquaresInGrid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MagicSquaresInGrid.java)
