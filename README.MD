@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 632
+Count of solved tasks: 633
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -562,6 +562,7 @@ Count of solved tasks: 632
 |1360|[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|[NumberOfDaysBetweenTwoDates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfDaysBetweenTwoDates.java)
 |1361|[Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)|[ValidateBinaryTreeNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidateBinaryTreeNodes.java)
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[HowManyNumbersAreSmallerThanCurrentNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HowManyNumbersAreSmallerThanCurrentNumber.java)
+|1366|[Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/)|[RankTeamsByVotes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RankTeamsByVotes.java)
 |1367|[Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|[LinkedListInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListInBinaryTree.java)
 |1370|[Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/)|[IncreasingDecreasingString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingDecreasingString.java)
 |1372|[Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)|[LongestZigZagPathInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestZigZagPathInBinaryTree.java)
