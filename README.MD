@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 638
+Count of solved tasks: 639
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -295,6 +295,7 @@ Count of solved tasks: 638
 |519|[Random Flip Matrix](https://leetcode.com/problems/random-flip-matrix/)|[RandomFlipMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RandomFlipMatrix.java)
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital/submissions/)|[DetectCapital.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetectCapital.java)
 |521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/)|[LongestUncommonSubsequenceI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestUncommonSubsequenceI.java)
+|523|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)|[ContinuousSubarraySum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContinuousSubarraySum.java)
 |525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[ContiguousArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContiguousArray.java)
 |528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|[RandomPickWithWeight.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RandomPickWithWeight.java)
 |530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[MinimumAbsoluteDifferenceInBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumAbsoluteDifferenceInBST.java)
