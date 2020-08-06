@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 636
+Count of solved tasks: 637
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -409,6 +409,7 @@ Count of solved tasks: 636
 |856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|[ScoreOfParentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ScoreOfParentheses.java)
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[LemonadeChange.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LemonadeChange.java)
 |861|[Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/)|[ScoreAfterFlippingMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ScoreAfterFlippingMatrix.java)
+|863|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|[AllNodesDistanceKInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllNodesDistanceKInBinaryTree.java)
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[TransposeMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TransposeMatrix.java)
 |868|[Binary Gap](https://leetcode.com/problems/binary-gap/)|[BinaryGap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryGap.java)
 |872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[LeafSimilarTrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LeafSimilarTrees.java)
