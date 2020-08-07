@@ -1,9 +1,7 @@
 import common.LeetCode;
 import common.TreeNode;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author RakhmedovRS
@@ -12,96 +10,50 @@ import java.util.List;
 @LeetCode(id = 987, name = "Vertical Order Traversal of a Binary Tree", url = "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/")
 public class VerticalOrderTraversalOfBinaryTree
 {
-	private static class Point implements Comparable<Point>
-	{
-		private int x;
-		private int y;
-		private int value;
-
-		public Point(int x, int y, int value)
-		{
-			this.x = x;
-			this.y = y;
-			this.value = value;
-		}
-
-		@Override
-		public int compareTo(Point point)
-		{
-			if (this.x != point.x)
-			{
-				return this.x - point.x;
-			}
-			else if (this.y != point.y)
-			{
-				return this.y - point.y;
-			}
-			else
-			{
-				return this.value - point.value;
-			}
-		}
-	}
-
 	public List<List<Integer>> verticalTraversal(TreeNode root)
 	{
+		int[] minMax = new int[]{0, 0, 0};
+		Map<Integer, Map<Integer, List<Integer>>> mapMap = new HashMap<>();
+		dfs(root, minMax, 0, 1, mapMap);
+
 		List<List<Integer>> answer = new ArrayList<>();
-		if (root == null)
+		for (int pos = minMax[0]; pos <= minMax[1]; pos++)
 		{
-			return answer;
-		}
-
-		List<Point> points = new ArrayList<>();
-		verticalTraversal(root, 0, 0, points);
-		Collections.sort(points);
-
-		int prevX = Integer.MIN_VALUE;
-		List<Integer> lines = new ArrayList<>();
-		for (int i = 0; i < points.size(); i++)
-		{
-			if (points.get(i).x != prevX)
+			List<Integer> column = new ArrayList<>();
+			for (int level = 1; level <= minMax[2]; level++)
 			{
-				if (!lines.isEmpty())
+				if (mapMap.containsKey(level) && mapMap.get(level).containsKey(pos))
 				{
-					answer.add(lines);
-					lines = new ArrayList<>();
+					mapMap.get(level).get(pos).sort(null);
+					column.addAll(mapMap.get(level).get(pos));
 				}
 			}
 
-			prevX = points.get(i).x;
-			lines.add(points.get(i).value);
-
-			if (i == points.size() - 1)
+			if (!column.isEmpty())
 			{
-				answer.add(lines);
+				answer.add(column);
 			}
 		}
 
 		return answer;
 	}
 
-	public void verticalTraversal(TreeNode root, int x, int y, List<Point> points)
+	private void dfs(TreeNode root, int[] minMax, int pos, int level, Map<Integer, Map<Integer, List<Integer>>> mapMap)
 	{
 		if (root == null)
 		{
 			return;
 		}
 
-		points.add(new Point(x, y, root.val));
-		verticalTraversal(root.left, x - 1, y + 1, points);
-		verticalTraversal(root.right, x + 1, y + 1, points);
-	}
+		minMax[0] = Math.min(minMax[0], pos);
+		minMax[1] = Math.max(minMax[1], pos);
+		minMax[2] = Math.max(minMax[2], level);
 
-	public static void main(String[] args)
-	{
-		TreeNode root = new TreeNode(1);
-		root.left = new TreeNode(2);
-		root.right = new TreeNode(3);
-		root.left.left = new TreeNode(4);
-		root.left.right = new TreeNode(5);
-		root.right.left = new TreeNode(6);
-		root.right.right = new TreeNode(7);
+		mapMap.putIfAbsent(level, new HashMap<>());
+		mapMap.get(level).putIfAbsent(pos, new ArrayList<>());
+		mapMap.get(level).get(pos).add(root.val);
 
-		System.out.println(new VerticalOrderTraversalOfBinaryTree().verticalTraversal(root));
+		dfs(root.left, minMax, pos - 1, level + 1, mapMap);
+		dfs(root.right, minMax, pos + 1, level + 1, mapMap);
 	}
 }
