@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 640
+Count of solved tasks: 641
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -201,6 +201,7 @@ Count of solved tasks: 640
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[PowerOfThree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PowerOfThree.java)
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[OddEvenLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OddEvenLinkedList.java)
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[LongestIncreasingPathInMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestIncreasingPathInMatrix.java)
+|331|[Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)|[VerifyPreorderSerializationOfBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/VerifyPreorderSerializationOfBinaryTree.java)
 |332|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)|[ReconstructItinerary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReconstructItinerary.java)
 |334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[IncreasingTripletSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingTripletSubsequence.java)
 |334|[Reverse String](https://leetcode.com/problems/reverse-string/)|[ReverseString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseString.java)
