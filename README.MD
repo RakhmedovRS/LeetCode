@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 642
+Count of solved tasks: 643
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -351,6 +351,7 @@ Count of solved tasks: 642
 |676|[Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/)|[ImplementMagicDictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImplementMagicDictionary.java)
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[ValidParenthesisString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidParenthesisString.java)
 |682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|[BaseballGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BaseballGame.java)
+|687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[LongestUnivaluePath.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestUnivaluePath.java)
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[TopKFrequentWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TopKFrequentWords.java)
 |693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[BinaryNumberWithAlternatingBits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryNumberWithAlternatingBits.java)
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[MaxAreaOfIsland.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxAreaOfIsland.java)
