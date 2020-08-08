@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 646
+Count of solved tasks: 647
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -647,5 +647,6 @@ Count of solved tasks: 646
 |1534|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|[CountGoodTriplets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountGoodTriplets.java)
 |1535|[Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game/)|[FindTheWinnerOfArrayGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheWinnerOfArrayGame.java)
 |1537|[Get the Maximum Score](https://leetcode.com/problems/get-the-maximum-score/)|[GetTheMaximumScore.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GetTheMaximumScore.java)
+|1539|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|[KthMissingPositiveNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthMissingPositiveNumber.java)
 |1540|[Can Convert String in K Moves](https://leetcode.com/problems/can-convert-string-in-k-moves/)|[CanConvertStringInKMoves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanConvertStringInKMoves.java)
 |1541|[Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/)|[MinimumInsertionsToBalanceParenthesesString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumInsertionsToBalanceParenthesesString.java)
