@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 643
+Count of solved tasks: 644
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -320,6 +320,7 @@ Count of solved tasks: 643
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[ReshapeTheMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReshapeTheMatrix.java)
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[PermutationInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PermutationInString.java)
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[SubtreeOfAnotherTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubtreeOfAnotherTree.java)
+|576|[Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)|[OutOfBoundaryPaths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OutOfBoundaryPaths.java)
 |583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[DeleteOperationForTwoStrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteOperationForTwoStrings.java)
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N_aryTreePreorderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/N_aryTreePreorderTraversal.java)
 |590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[N_aryTreePostorderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/N_aryTreePostorderTraversal.java)
