@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 648
+Count of solved tasks: 649
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -650,4 +650,5 @@ Count of solved tasks: 648
 |1539|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|[KthMissingPositiveNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthMissingPositiveNumber.java)
 |1540|[Can Convert String in K Moves](https://leetcode.com/problems/can-convert-string-in-k-moves/)|[CanConvertStringInKMoves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanConvertStringInKMoves.java)
 |1541|[Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/)|[MinimumInsertionsToBalanceParenthesesString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumInsertionsToBalanceParenthesesString.java)
+|1545|[Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)|[FindKthBitInNthBinaryString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindKthBitInNthBinaryString.java)
 |1546|[Maximum Number of Non-Overlapping Subarrays With Sum Equals Target](https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/)|[MaximumNumberOfNonOverlappingSubarraysWithSumEqualsTarget.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfNonOverlappingSubarraysWithSumEqualsTarget.java)
