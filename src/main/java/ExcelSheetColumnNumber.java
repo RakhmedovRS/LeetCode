@@ -7,21 +7,10 @@ import common.LeetCode;
 @LeetCode(id = 171, name = "Excel Sheet Column Number", url = "https://leetcode.com/problems/excel-sheet-column-number/")
 public class ExcelSheetColumnNumber
 {
-	public int titleToNumber(String s)
-	{
-		if (s == null || s.length() == 0)
-		{
-			return 0;
-		}
-
-		char[] chars = s.toCharArray();
-		int pos = 0;
+	public int titleToNumber(String s) {
 		int result = 0;
-		for (int i = chars.length - 1; i >= 0; i--)
-		{
-			int val = (int)Math.pow(26, pos) * (chars[i] - 64);
-			result += val;
-			pos++;
+		for (int i = s.length() - 1; i >= 0; i--) {
+			result += Math.pow(26, s.length() - 1 - i) * (s.charAt(i) - ('A' - 1));
 		}
 
 		return result;
