@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 650
+Count of solved tasks: 651
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -563,6 +563,7 @@ Count of solved tasks: 650
 |1338|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|[ReduceArraySizeToTheHalf.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReduceArraySizeToTheHalf.java)
 |1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)|[MaximumProductOfSplittedBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfSplittedBinaryTree.java)
 |1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[NumberOfStepsToReduceNumberToZero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfStepsToReduceNumberToZero.java)
+|1343|[Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)|[NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java)
 |1344|[Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/)|[AngleBetweenHandsOfClock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AngleBetweenHandsOfClock.java)
 |1346|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|[CheckIfNAndItsDoubleExist.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfNAndItsDoubleExist.java)
 |1351|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[CountNegativeNumbersInSortedMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountNegativeNumbersInSortedMatrix.java)
