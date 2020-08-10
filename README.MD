@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 651
+Count of solved tasks: 652
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -219,6 +219,7 @@ Count of solved tasks: 651
 |373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|[FindKPairsWithSmallestSums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindKPairsWithSmallestSums.java)
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[GuessNumberHigherOrLower.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GuessNumberHigherOrLower.java)
 |375|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)|[GuessNumberHigherOrLowerII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GuessNumberHigherOrLowerII.java)
+|376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[WiggleSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WiggleSubsequence.java)
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|[CombinationSumIV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CombinationSumIV.java)
 |378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[KthSmallestElementInSortedMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthSmallestElementInSortedMatrix.java)
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[InsertDeleteGetRandom.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsertDeleteGetRandom.java)
