@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 658
+Count of solved tasks: 659
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -376,6 +376,7 @@ Count of solved tasks: 658
 |722|[Remove Comments](https://leetcode.com/problems/remove-comments/)|[RemoveComments.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveComments.java)
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[FindPivotIndex.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindPivotIndex.java)
 |725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)|[SplitLinkedListInParts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitLinkedListInParts.java)
+|729|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[MyCalendarI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MyCalendarI.java)
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[FloodFill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FloodFill.java)
 |735|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[AsteroidCollision.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AsteroidCollision.java)
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[DailyTemperatures.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DailyTemperatures.java)
