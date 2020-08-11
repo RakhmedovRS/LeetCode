@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 656
+Count of solved tasks: 657
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -281,6 +281,7 @@ Count of solved tasks: 656
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[MaxConsecutiveOnes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxConsecutiveOnes.java)
 |491|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)|[IncreasingSubsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingSubsequences.java)
 |492|[Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)|[ConstructTheRectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTheRectangle.java)
+|493|[Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)|[ReversePairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReversePairs.java)
 |494|[Target Sum](https://leetcode.com/problems/target-sum/)|[TargetSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TargetSum.java)
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[NextGreaterElementI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementI.java)
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[DiagonalTraverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverse.java)
