@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 655
+Count of solved tasks: 656
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -176,6 +176,7 @@ Count of solved tasks: 655
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[UglyNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UglyNumber.java)
 |264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[UglyNumberII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UglyNumberII.java)
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[MissingNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumber.java)
+|274|[H-Index](https://leetcode.com/problems/h-index/)|[HIndex.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HIndex.java)
 |275|[H-Index II](https://leetcode.com/problems/h-index-ii/)|[HIndexII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HIndexII.java)
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[FirstBadVersion.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstBadVersion.java)
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[PerfectSquares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PerfectSquares.java)
