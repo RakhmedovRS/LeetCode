@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 659
+Count of solved tasks: 660
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -462,6 +462,7 @@ Count of solved tasks: 659
 |961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[NRepeatedElementIn2NArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NRepeatedElementIn2NArray.java)
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[UnivaluedBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UnivaluedBinaryTree.java)
 |967|[Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)|[NumbersWithSameConsecutiveDifferences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumbersWithSameConsecutiveDifferences.java)
+|968|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|[BinaryTreeCameras.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeCameras.java)
 |969|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)|[PancakeSorting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PancakeSorting.java)
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|[KClosestPointToOrigin.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KClosestPointToOrigin.java)
 |976|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|[LargestPerimeterTriangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestPerimeterTriangle.java)
