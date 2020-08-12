@@ -1,6 +1,6 @@
 import common.LeetCode;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -12,23 +12,19 @@ public class PascalTriangleII
 {
 	public List<Integer> getRow(int rowIndex)
 	{
-		List<Integer> prevRow = new ArrayList<>();
-		prevRow.add(1);
+		Integer[] row = new Integer[rowIndex + 1];
+		Arrays.fill(row, 0);
+		row[0] = 1;
 
-		List<Integer> currentRow = new ArrayList<>(prevRow);
-		while (rowIndex-- >= 0)
+		for (int i = 1; i <= rowIndex; i++)
 		{
-			prevRow = new ArrayList<>(currentRow);
-			currentRow = new ArrayList<>();
-			for (int i = 0; i <= prevRow.size(); i++)
+			for (int j = i; j > 0; j--)
 			{
-				int left = i == 0 ? 0 : prevRow.get(i - 1);
-				int right = i == prevRow.size() ? 0 : prevRow.get(i);
-				currentRow.add(left + right);
+				row[j] += row[j - 1];
 			}
 		}
 
-		return prevRow;
+		return Arrays.asList(row);
 	}
 
 	public static void main(String[] args)
