@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 660
+Count of solved tasks: 661
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -602,6 +602,7 @@ Count of solved tasks: 660
 |1408|[String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)|[StringMatchingInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringMatchingInArray.java)
 |1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|[MinimumValueoToGetPositiveStepByStepSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumValueoToGetPositiveStepByStepSum.java)
 |1414|[Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)|[FindTheMinimumNumberOfFibonacciNumbersWhoseSumIsK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheMinimumNumberOfFibonacciNumbersWhoseSumIsK.java)
+|1416|[Restore The Array](https://leetcode.com/problems/restore-the-array/)|[RestoreTheArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RestoreTheArray.java)
 |1417|[Reformat The String](https://leetcode.com/problems/reformat-the-string/)|[ReformatTheString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReformatTheString.java)
 |1418|[Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)|[DisplayTableOfFoodOrdersInRestaurant.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DisplayTableOfFoodOrdersInRestaurant.java)
 |1419|[Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/)|[MinimumNumberOfFrogsCroaking.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfFrogsCroaking.java)
