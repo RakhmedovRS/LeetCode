@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 661
+Count of solved tasks: 662
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -10,6 +10,7 @@ Count of solved tasks: 661
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[LongestPalindromicSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestPalindromicSubstring.java)
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[ReverseInteger.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseInteger.java)
 |8|[String to Integer](https://leetcode.com/problems/string-to-integer-atoi/)|[StringToInteger.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringToInteger.java)
+|10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|[RegularExpressionMatching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RegularExpressionMatching.java)
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[ContainerWithMostWater.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainerWithMostWater.java)
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[IntegerToRoman.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerToRoman.java)
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[RomanToInteger.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RomanToInteger.java)
