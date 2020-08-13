@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 662
+Count of solved tasks: 663
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -561,6 +561,7 @@ Count of solved tasks: 662
 |1305|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[AllElementsITwoBinarySearchTrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllElementsITwoBinarySearchTrees.java)
 |1306|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|[JumpGameIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameIII.java)
 |1310|[XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/)|[XORQueriesOfSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/XORQueriesOfSubarray.java)
+|1311|[Get Watched Videos by Your Friends](https://leetcode.com/problems/get-watched-videos-by-your-friends/)|[GetWatchedVideosByYourFriends.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GetWatchedVideosByYourFriends.java)
 |1312|[Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)|[MinimumInsertionStepsToMakeStringPalindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumInsertionStepsToMakeStringPalindrome.java)
 |1314|[Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|[MatrixBlockSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MatrixBlockSum.java)
 |1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)|[ConvertIntegerToTheSumOfTwoNoZeroIntegers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertIntegerToTheSumOfTwoNoZeroIntegers.java)
