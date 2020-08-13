@@ -10,40 +10,41 @@ import java.util.List;
 @LeetCode(id = 1286, name = "Iterator for Combination", url = "https://leetcode.com/problems/iterator-for-combination/")
 public class IteratorForCombination
 {
-	class CombinationIterator
-	{
+	class CombinationIterator {
+
 		List<String> permutations;
-		int currentPos;
+		int pos;
 
-		public CombinationIterator(String characters, int combinationLength)
-		{
+		public CombinationIterator(String characters, int combinationLength) {
 			permutations = new ArrayList<>();
-			generatePermutations(characters, 0, combinationLength, new StringBuilder(), permutations);
+			generatePermutations(characters.toCharArray(), 0, new char[combinationLength], 0, permutations);
+			pos = 0;
 		}
 
-		public String next()
-		{
-			return permutations.get(currentPos++);
+		public String next() {
+			return permutations.get(pos++);
 		}
 
-		public boolean hasNext()
-		{
-			return currentPos < permutations.size();
+		public boolean hasNext() {
+			return pos < permutations.size();
 		}
 
-		private void generatePermutations(String source, int startPost, int steps, StringBuilder builder, List<String> permutations)
-		{
-			if (steps == 0)
+		private void generatePermutations(char[] chars, int charsPos, char[] current, int currentPos, List<String> answer) {
+			if (currentPos == current.length)
 			{
-				permutations.add(builder.toString());
+				answer.add(String.valueOf(current));
 				return;
 			}
 
-			for (int i = startPost; i < source.length(); i++)
+			if (charsPos == chars.length)
 			{
-				builder.append(source.charAt(i));
-				generatePermutations(source, i + 1, steps - 1, builder, permutations);
-				builder.deleteCharAt(builder.length() - 1);
+				return;
+			}
+
+			for (int i = charsPos; i < chars.length; i++)
+			{
+				current[currentPos] = chars[i];
+				generatePermutations(chars, i + 1, current, currentPos + 1, answer);
 			}
 		}
 	}
