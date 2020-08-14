@@ -9,24 +9,18 @@ public class LongestPalindrome
 {
 	public int longestPalindrome(String s)
 	{
-		int[] map = new int[256];
-		int total = 0;
+		int[] memo = new int[256];
+		int longest = 0;
 		for (char ch : s.toCharArray())
 		{
-			map[ch]++;
-			if (map[ch] == 2)
+			memo[ch]++;
+			if (memo[ch] == 2)
 			{
-				map[ch] = 0;
-				total+=2;
+				longest += 2;
+				memo[ch] = 0;
 			}
 		}
 
-		int max = 0;
-		for (int count : map)
-		{
-			max = Math.max(max, count);
-		}
-
-		return total + max;
+		return longest == s.length() ? longest : longest + 1;
 	}
 }
