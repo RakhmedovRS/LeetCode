@@ -1,8 +1,5 @@
 import common.LeetCode;
 
-import java.util.HashSet;
-import java.util.Set;
-
 /**
  * @author RakhmedovRS
  * @created 23-May-20
@@ -10,54 +7,52 @@ import java.util.Set;
 @LeetCode(id = 840, name = "Magic Squares In Grid", url = "https://leetcode.com/problems/magic-squares-in-grid/")
 public class MagicSquaresInGrid
 {
-	private int[][] directions = new int[][]{{-1, -1}, {0, -1}, {-1, 0}, {0, 0}, {1, 0}, {0, 1}, {-1, 1}, {1, -1}, {1, 1}};
+	public int numMagicSquaresInside(int[][] grid) {
+		if (grid.length < 3 || grid[0].length < 3) {
+			return 0;
+		}
 
-	public int numMagicSquaresInside(int[][] grid)
-	{
 		int answer = 0;
-
-		Set<Integer> set = new HashSet<>();
-		for (int row = 1; row < grid.length - 1; row++)
-		{
-			set.clear();
-			for (int column = 1; column < grid[row].length - 1; column++)
-			{
-				boolean valid = grid[row][column] == 5;
-				if (valid)
-				{
-					for (int[] direction : directions)
-					{
-						if (grid[row + direction[0]][column + direction[1]] <= 0
-							|| grid[row + direction[0]][column + direction[1]] > 10
-							|| !set.add(grid[row + direction[0]][column + direction[1]]))
-						{
-							valid = false;
-							break;
-						}
-					}
+		for (int row = 1; row < grid.length - 1; row++) {
+			for (int column = 1; column < grid[row].length - 1; column++) {
+				if (grid[row][column] == 5 && isMagicGrid(grid, row, column)) {
+					answer++;
 				}
-
-				if (!valid)
-				{
-					set.clear();
-					continue;
-				}
-
-				int r1 = grid[row - 1][column - 1] + grid[row - 1][column] + grid[row - 1][column + 1];
-				int r2 = grid[row][column - 1] + grid[row][column] + grid[row][column + 1];
-				int r3 = grid[row + 1][column - 1] + grid[row + 1][column] + grid[row + 1][column + 1];
-				int ld = grid[row - 1][column - 1] + grid[row][column] + grid[row + 1][column + 1];
-				int rd = grid[row - 1][column + 1] + grid[row][column] + grid[row + 1][column - 1];
-				int c1 = grid[row - 1][column - 1] + grid[row][column - 1] + grid[row + 1][column - 1];
-				int c2 = grid[row - 1][column] + grid[row][column] + grid[row + 1][column];
-				int c3 = grid[row - 1][column + 1] + grid[row][column + 1] + grid[row + 1][column + 1];
-
-				valid = (r1 == r2 && r2 == r3 && c1 == c2 && c2 == c3 && c3 == ld && ld == rd);
-
-				answer += valid ? 1 : 0;
 			}
 		}
+
 		return answer;
+	}
+
+
+	private boolean isMagicGrid(int[][] grid, int row, int column) {
+		int[] memo = new int[16];
+		for (int r = row - 1; r < row + 2; r++) {
+			for (int c = column - 1; c < column + 2; c++) {
+				memo[grid[r][c]]++;
+				if (memo[grid[r][c]] > 1 || grid[r][c] > 9 || grid[r][c] == 0) {
+					return false;
+				}
+			}
+		}
+
+
+		int row1 = grid[row - 1][column - 1] + grid[row - 1][column] + grid[row - 1][column + 1];
+		int row2 = grid[row][column - 1] + grid[row][column] + grid[row][column + 1];
+		int row3 = grid[row + 1][column - 1] + grid[row + 1][column] + grid[row + 1][column + 1];
+		int column1 = grid[row - 1][column - 1] + grid[row][column - 1] + grid[row + 1][column - 1];
+		int column2 = grid[row - 1][column] + grid[row][column] + grid[row + 1][column];
+		int column3 = grid[row - 1][column + 1] + grid[row][column + 1] + grid[row + 1][column + 1];
+		int diagonal1 = grid[row - 1][column - 1] + grid[row][column] + grid[row + 1][column + 1];
+		int diagonal2 = grid[row + 1][column - 1] + grid[row][column] + grid[row - 1][column + 1];
+
+		return row1 == row2
+			&& row2 == row3
+			&& row3 == column1
+			&& column1 == column2
+			&& column2 == column3
+			&& column3 == diagonal1
+			&& diagonal1 == diagonal2;
 	}
 
 	public static void main(String[] args)
