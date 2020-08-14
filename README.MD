@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 666
+Count of solved tasks: 667
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -602,6 +602,7 @@ Count of solved tasks: 666
 |1389|[Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)|[CreateTargetArrayInTheGivenOrder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CreateTargetArrayInTheGivenOrder.java)
 |1390|[Four Divisors](https://leetcode.com/problems/four-divisors/)|[FourDivisors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FourDivisors.java)
 |1394|[Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/)|[FindLuckyIntegerInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLuckyIntegerInArray.java)
+|1395|[Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)|[CountNumberOfTeams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountNumberOfTeams.java)
 |1396|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|[DesignUndergroundSystem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignUndergroundSystem.java)
 |1399|[Count Largest Group](https://leetcode.com/problems/count-largest-group/)|[CountLargestGroup.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountLargestGroup.java)
 |1408|[String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)|[StringMatchingInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringMatchingInArray.java)
