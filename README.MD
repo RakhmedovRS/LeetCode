@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 670
+Count of solved tasks: 671
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -627,6 +627,7 @@ Count of solved tasks: 670
 |1448|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|[CountGoodNodesInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountGoodNodesInBinaryTree.java)
 |1450|[Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)|[NumberOfStudentsDoingHomeworkAtGivenTime.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfStudentsDoingHomeworkAtGivenTime.java)
 |1451|[Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/)|[RearrangeWordsInSentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RearrangeWordsInSentence.java)
+|1452|[People Whose List of Favorite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)|[PeopleWhoseListOfFavoriteCompaniesIsNotSubsetOfAnotherList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PeopleWhoseListOfFavoriteCompaniesIsNotSubsetOfAnotherList.java)
 |1455|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)|[CheckIfWordOccursAsPrefixOfAnyWordInSentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfWordOccursAsPrefixOfAnyWordInSentence.java)
 |1456|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[MaximumNumberOfVowelsInSubstringOfGivenLength.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfVowelsInSubstringOfGivenLength.java)
 |1457|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|[PseudoPalindromicPathsInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PseudoPalindromicPathsInBinaryTree.java)
