@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 674
+Count of solved tasks: 675
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -95,6 +95,7 @@ Count of solved tasks: 674
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[Triangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Triangle.java)
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[BestTimeToBuyAndSellStock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BestTimeToBuyAndSellStock.java)
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[BestTimeToBuyAndSellStockII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BestTimeToBuyAndSellStockII.java)
+|123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/submissions/)|[BestTimeToBuyAndSellStockIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BestTimeToBuyAndSellStockIII.java)
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[BinaryTreeMaximumPathSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeMaximumPathSum.java)
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[ValidPalindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidPalindrome.java)
 |126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|[WordLadderII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordLadderII.java)
