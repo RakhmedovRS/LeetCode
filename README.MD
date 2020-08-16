@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 673
+Count of solved tasks: 674
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -675,4 +675,5 @@ Count of solved tasks: 673
 |1545|[Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)|[FindKthBitInNthBinaryString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindKthBitInNthBinaryString.java)
 |1546|[Maximum Number of Non-Overlapping Subarrays With Sum Equals Target](https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/)|[MaximumNumberOfNonOverlappingSubarraysWithSumEqualsTarget.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfNonOverlappingSubarraysWithSumEqualsTarget.java)
 |1550|[Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)|[ThreeConsecutiveOdds.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThreeConsecutiveOdds.java)
+|1551|[Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|[MinimumOperationsToMakeArrayEqual.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToMakeArrayEqual.java)
 |1553|[Minimum Number of Days to Eat N Oranges](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)|[MinimumNumberOfDaysToEatNOranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfDaysToEatNOranges.java)
