@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 676
+Count of solved tasks: 677
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -554,6 +554,7 @@ Count of solved tasks: 676
 |1247|[Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/)|[MinimumSwapsToMakeStringsEqual.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSwapsToMakeStringsEqual.java)
 |1249|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[MinimumRemoveToMakeValidParentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumRemoveToMakeValidParentheses.java)
 |1260|[Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)|[Shift2DGrid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Shift2DGrid.java)
+|1261|[Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/)|[FindElementsInContaminatedBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindElementsInContaminatedBinaryTree.java)
 |1262|[Greatest Sum Divisible by Three](https://leetcode.com/problems/greatest-sum-divisible-by-three/)|[GreatestSumDivisibleByThree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GreatestSumDivisibleByThree.java)
 |1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[MinimumTimeVisitingAllPoints.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeVisitingAllPoints.java)
 |1277|[Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)|[CountSquareSubmatricesWithAllOnes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSquareSubmatricesWithAllOnes.java)
