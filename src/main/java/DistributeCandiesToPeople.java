@@ -7,20 +7,18 @@ import common.LeetCode;
 @LeetCode(id = 1103, name = "Distribute Candies to People", url = "https://leetcode.com/problems/distribute-candies-to-people/")
 public class DistributeCandiesToPeople
 {
-	public int[] distributeCandies(int candies, int num_people)
+	class Solution
 	{
-		int[] answer = new int[num_people];
-		int currPos = 0;
-		int currCandies = 1;
-		while (candies > 0)
+		public int[] distributeCandies(int candies, int num_people)
 		{
-			answer[currPos] += Math.min(candies, currCandies);
-			candies -= currCandies;
-			currCandies++;
-			currPos++;
-			currPos %= num_people;
-		}
+			int[] result = new int[num_people];
+			for (int i = 0; candies > 0; i++)
+			{
+				result[i % num_people] += Math.min(candies, i + 1);
+				candies -= i + 1;
+			}
 
-		return answer;
+			return result;
+		}
 	}
 }
