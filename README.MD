@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 678
+Count of solved tasks: 679
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -283,6 +283,7 @@ Count of solved tasks: 678
 |480|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)|[SlidingWindowMedian.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SlidingWindowMedian.java)
 |482|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|[LicenseKeyFormatting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LicenseKeyFormatting.java)
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[MaxConsecutiveOnes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxConsecutiveOnes.java)
+|486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/)|[PredictTheWinner.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PredictTheWinner.java)
 |491|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)|[IncreasingSubsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingSubsequences.java)
 |492|[Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)|[ConstructTheRectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTheRectangle.java)
 |493|[Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)|[ReversePairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReversePairs.java)
