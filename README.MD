@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 677
+Count of solved tasks: 678
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -505,6 +505,7 @@ Count of solved tasks: 677
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[LastStoneWeight.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LastStoneWeight.java)
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[RemoveAllAdjacentDuplicatesInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveAllAdjacentDuplicatesInString.java)
 |1048|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|[LongestStringChain.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestStringChain.java)
+|1049|[Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)|[LastStoneWeightII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LastStoneWeightII.java)
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/)|[HeightChecker.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HeightChecker.java)
 |1053|[Previous Permutation With One Swap](https://leetcode.com/problems/previous-permutation-with-one-swap/)|[PreviousPermutationWithOneSwap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PreviousPermutationWithOneSwap.java)
 |1054|[Distant Barcodes](https://leetcode.com/problems/distant-barcodes/)|[DistantBarcodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistantBarcodes.java)
