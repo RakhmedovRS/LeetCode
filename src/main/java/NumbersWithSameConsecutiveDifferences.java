@@ -1,7 +1,7 @@
 import common.LeetCode;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * @author RakhmedovRS
@@ -12,43 +12,43 @@ public class NumbersWithSameConsecutiveDifferences
 {
 	public int[] numsSameConsecDiff(int N, int K)
 	{
-		List<Integer> integerList = new ArrayList<>();
+		Set<Integer> set = new HashSet<>();
 		for (int i = 0; i < 10; i++)
 		{
-			dfs(i, 1, N, K, integerList);
+			backtrack(N - 1, K, set, i);
 		}
 
-		int[] answer = new int[integerList.size()];
-		for (int i = 0; i < integerList.size(); i++)
+		int i = 0;
+		int[] answer = new int[set.size()];
+		for (int val : set)
 		{
-			answer[i] = integerList.get(i);
+			answer[i++] = val;
 		}
-
 		return answer;
 	}
 
-	private void dfs(int current, int step, int N, int diff, List<Integer> integerList)
+	private void backtrack(int N, int K, Set<Integer> set, int number)
 	{
-		if (N == step)
+		if (N == 0)
 		{
-			integerList.add(current);
+			set.add(number);
 			return;
 		}
 
-		if ((int) Math.pow(10, step) > current * 10)
+		if (number == number * 10)
 		{
 			return;
 		}
 
-		int last = current % 10;
-		if (last + diff < 10)
+		int prevDigit = number % 10;
+		if (prevDigit + K < 10)
 		{
-			dfs(current * 10 + last + diff, step + 1, N, diff, integerList);
+			backtrack(N - 1, K, set, number * 10 + (prevDigit + K));
 		}
 
-		if (last - diff >= 0 && diff != 0)
+		if (prevDigit - K >= 0)
 		{
-			dfs(current * 10 + last - diff, step + 1, N, diff, integerList);
+			backtrack(N - 1, K, set, number * 10 + (prevDigit - K));
 		}
 	}
 }
