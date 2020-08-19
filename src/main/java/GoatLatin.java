@@ -1,9 +1,5 @@
 import common.LeetCode;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
-
 /**
  * @author RakhmedovRS
  * @created 09-Jun-20
@@ -13,34 +9,41 @@ public class GoatLatin
 {
 	public String toGoatLatin(String S)
 	{
-		Set<Character> vowels = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'));
-
-		StringBuilder result = new StringBuilder();
-		StringBuilder a = new StringBuilder("a");
-		for (String string : S.split(" "))
+		StringBuilder stringBuilder = new StringBuilder();
+		StringBuilder a = new StringBuilder().append("a");
+		int left = 0;
+		for (int right = 0; right < S.length(); right++)
 		{
+			if (S.charAt(right) == ' ' || right == S.length() - 1)
+			{
+				char firstLetter = Character.toLowerCase(S.charAt(left));
+				int end = right == S.length() - 1 ? right + 1 : right;
+				if (firstLetter == 'a'
+					|| firstLetter == 'e'
+					|| firstLetter == 'i'
+					|| firstLetter == 'o'
+					|| firstLetter == 'u')
+				{
+					stringBuilder.append(S, left, end);
+				}
+				else
+				{
+					stringBuilder.append(S, left + 1, end);
+					stringBuilder.append(S.charAt(left));
+				}
 
-			if (vowels.contains(string.charAt(0)))
-			{
-				result.append(string);
+				stringBuilder.append("ma");
+				stringBuilder.append(a);
+				if (right != S.length() - 1)
+				{
+					stringBuilder.append(" ");
+				}
+				a.append("a");
+				left = right + 1;
 			}
-			else
-			{
-				result.append(string.substring(1));
-				result.append(string, 0, 1);
-			}
-			result.append("ma");
-			result.append(a);
-			result.append(" ");
-			a.append("a");
 		}
 
-		if (result.length() != 0)
-		{
-			result.deleteCharAt(result.length() - 1);
-		}
-
-		return result.toString();
+		return stringBuilder.toString();
 	}
 
 	public static void main(String[] args)
