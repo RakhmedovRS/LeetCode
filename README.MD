@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 680
+Count of solved tasks: 681
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -578,6 +578,7 @@ Count of solved tasks: 680
 |1314|[Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|[MatrixBlockSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MatrixBlockSum.java)
 |1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)|[ConvertIntegerToTheSumOfTwoNoZeroIntegers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertIntegerToTheSumOfTwoNoZeroIntegers.java)
 |1324|[Print Words Vertically](https://leetcode.com/problems/print-words-vertically/)|[PrintWordsVertically.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintWordsVertically.java)
+|1328|[Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/)|[BreakPalindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BreakPalindrome.java)
 |1329|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[SortMatrixDiagonally.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortMatrixDiagonally.java)
 |1331|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/)|[RankTransformOfArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RankTransformOfArray.java)
 |1332|[Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|[RemovePalindromicSubsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemovePalindromicSubsequences.java)
