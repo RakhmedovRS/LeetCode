@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 683
+Count of solved tasks: 684
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -218,6 +218,7 @@ Count of solved tasks: 683
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[IntersectionOfTwoArraysII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntersectionOfTwoArraysII.java)
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|[RussianDollEnvelopes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RussianDollEnvelopes.java)
 |357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)|[CountNumbersWithUniqueDigits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountNumbersWithUniqueDigits.java)
+|365|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)|[WaterAndJugProblem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WaterAndJugProblem.java)
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[ValidPerfectSquare.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidPerfectSquare.java)
 |368|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|[LargestDivisibleSubset.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestDivisibleSubset.java)
 |371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[SumOfTwoIntegers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfTwoIntegers.java)
