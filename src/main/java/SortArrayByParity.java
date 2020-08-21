@@ -9,26 +9,19 @@ public class SortArrayByParity
 {
 	public int[] sortArrayByParity(int[] A)
 	{
-		int left = 0;
 		int right = A.length - 1;
-		while (left < right)
+		for (int left = 0 ; left < right; left++)
 		{
-			if (A[left] % 2 != 0 && A[right] % 2 == 0)
+			if (A[left] % 2 != 0)
 			{
-				int temp = A[right];
-				A[right] = A[left];
-				A[left] = temp;
+				while (right > left && A[right] % 2 != 0)
+				{
+					right--;
+				}
 
-				left++;
-				right--;
-			}
-			else if (A[left] % 2 == 0 && A[right] % 2 == 0)
-			{
-				left++;
-			}
-			else
-			{
-				right--;
+				int temp = A[left];
+				A[left] = A[right];
+				A[right] = temp;
 			}
 		}
 
