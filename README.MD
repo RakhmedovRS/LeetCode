@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 684
+Count of solved tasks: 685
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -210,6 +210,7 @@ Count of solved tasks: 684
 |332|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)|[ReconstructItinerary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReconstructItinerary.java)
 |334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[IncreasingTripletSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingTripletSubsequence.java)
 |334|[Reverse String](https://leetcode.com/problems/reverse-string/)|[ReverseString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseString.java)
+|336|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)|[PalindromePairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromePairs.java)
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[CountingBits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountingBits.java)
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[FlattenNestedListIterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlattenNestedListIterator.java)
 |343|[Integer Break](https://leetcode.com/problems/integer-break/)|[IntegerBreak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerBreak.java)
