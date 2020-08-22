@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 686
+Count of solved tasks: 687
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -293,6 +293,7 @@ Count of solved tasks: 686
 |493|[Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)|[ReversePairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReversePairs.java)
 |494|[Target Sum](https://leetcode.com/problems/target-sum/)|[TargetSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TargetSum.java)
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[NextGreaterElementI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementI.java)
+|497|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/)|[RandomPointInNonOverlappingRectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RandomPointInNonOverlappingRectangles.java)
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[DiagonalTraverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverse.java)
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[KeyboardRow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KeyboardRow.java)
 |501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[FindModeInBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindModeInBinarySearchTree.java)
