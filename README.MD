@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 688
+Count of solved tasks: 689
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -691,3 +691,4 @@ Count of solved tasks: 688
 |1551|[Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|[MinimumOperationsToMakeArrayEqual.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToMakeArrayEqual.java)
 |1553|[Minimum Number of Days to Eat N Oranges](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)|[MinimumNumberOfDaysToEatNOranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfDaysToEatNOranges.java)
 |1556|[Thousand Separator](https://leetcode.com/problems/thousand-separator/)|[ThousandSeparator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThousandSeparator.java)
+|1557|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|[MinimumNumberOfVerticesToReachAllNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfVerticesToReachAllNodes.java)
