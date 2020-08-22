@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 690
+Count of solved tasks: 691
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -692,4 +692,5 @@ Count of solved tasks: 690
 |1553|[Minimum Number of Days to Eat N Oranges](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)|[MinimumNumberOfDaysToEatNOranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfDaysToEatNOranges.java)
 |1556|[Thousand Separator](https://leetcode.com/problems/thousand-separator/)|[ThousandSeparator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThousandSeparator.java)
 |1557|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|[MinimumNumberOfVerticesToReachAllNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfVerticesToReachAllNodes.java)
+|1558|[Minimum Numbers of Function Calls to Make Target Array](https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/)|[MinimumNumbersOfFunctionCallsToMakeTargetArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumbersOfFunctionCallsToMakeTargetArray.java)
 |1559|[Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/)|[DetectCyclesIn2DGrid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetectCyclesIn2DGrid.java)
