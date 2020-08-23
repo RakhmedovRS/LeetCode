@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 692
+Count of solved tasks: 693
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -695,3 +695,4 @@ Count of solved tasks: 692
 |1558|[Minimum Numbers of Function Calls to Make Target Array](https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/)|[MinimumNumbersOfFunctionCallsToMakeTargetArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumbersOfFunctionCallsToMakeTargetArray.java)
 |1559|[Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/)|[DetectCyclesIn2DGrid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetectCyclesIn2DGrid.java)
 |1560|[Most Visited Sector in a Circular Track](https://leetcode.com/problems/most-visited-sector-in-a-circular-track/)|[MostVisitedSectorInCircularTrack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MostVisitedSectorInCircularTrack.java)
+|1561|[Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)|[MaximumNumberOfCoinsYouCanGet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfCoinsYouCanGet.java)
