@@ -1,7 +1,5 @@
 import common.LeetCode;
 
-import java.util.LinkedList;
-
 /**
  * @author RakhmedovRS
  * @created 23-Aug-20
@@ -17,61 +15,50 @@ public class StreamOfCharacters
 			boolean end = false;
 		}
 
-		private void addWord(TrieNode root, String word)
+		private TrieNode buildTrie(String[] words)
 		{
-			TrieNode current = root;
-			for (char ch : word.toCharArray())
+			TrieNode root = new TrieNode();
+			for (String word : words)
 			{
-				if (current.child[ch - 'a'] == null)
+				TrieNode current = root;
+				for (int i = word.length() - 1; i>= 0; i--)
 				{
-					current.child[ch - 'a'] = new TrieNode();
+					char ch = word.charAt(i);
+					if (current.child[ch - 'a'] == null)
+					{
+						current.child[ch - 'a'] = new TrieNode();
+					}
+					current = current.child[ch - 'a'];
 				}
-				current = current.child[ch - 'a'];
+				current.end = true;
 			}
-			current.end = true;
+			return root;
 		}
 
 		TrieNode root;
-		LinkedList<TrieNode> pointers;
+		StringBuilder sb;
 
 		public StreamChecker(String[] words)
 		{
-			root = new TrieNode();
-			pointers = new LinkedList<>();
-			for (String word : words)
-			{
-				addWord(root, word);
-			}
+			root = buildTrie(words);
+			sb = new StringBuilder();
 		}
 
 		public boolean query(char letter)
 		{
-			boolean contains = false;
-			int size = pointers.size();
-			while (size-- > 0)
+			sb.append(letter);
+			TrieNode current = root;
+			for (int i = sb.length() - 1; i >= 0 && current != null; i--)
 			{
-				TrieNode temp = pointers.removeFirst();
-				temp = temp.child[letter - 'a'];
-				if (temp != null)
+				char ch = sb.charAt(i);
+				current = current.child[ch - 'a'];
+				if (current != null && current.end)
 				{
-					pointers.addLast(temp);
-					if (temp.end)
-					{
-						contains = true;
-					}
+					return true;
 				}
 			}
 
-			if (root.child[letter - 'a'] != null)
-			{
-				pointers.addLast(root.child[letter - 'a']);
-				if (root.child[letter - 'a'].end)
-				{
-					contains = true;
-				}
-			}
-
-			return contains;
+			return false;
 		}
 	}
 }
