@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 696
+Count of solved tasks: 697
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -489,6 +489,7 @@ Count of solved tasks: 696
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[AddToArrayFormOfInteger.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddToArrayFormOfInteger.java)
 |994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[RottingOranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RottingOranges.java)
 |997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[FindTheTownJudge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheTownJudge.java)
+|998|[Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/)|[MaximumBinaryTreeII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumBinaryTreeII.java)
 |999|[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/)|[AvailableCapturesForRook.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AvailableCapturesForRook.java)
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[FindCommonCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCommonCharacters.java)
 |1006|[Clumsy Factorial](Clumsy Factorial)|[ClumsyFactorial.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClumsyFactorial.java)
