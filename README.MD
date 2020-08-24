@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 695
+Count of solved tasks: 696
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -322,6 +322,7 @@ Count of solved tasks: 695
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[ReverseStringII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseStringII.java)
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/)|[ZeroOneMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ZeroOneMatrix.java)
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[DiameterOfBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiameterOfBinaryTree.java)
+|547|[Friend Circles](https://leetcode.com/problems/friend-circles/)|[FriendCircles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FriendCircles.java)
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[StudentAttendanceRecordI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StudentAttendanceRecordI.java)
 |556|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/)|[NextGreaterElementIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementIII.java)
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[ReverseWordsInStringIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseWordsInStringIII.java)
