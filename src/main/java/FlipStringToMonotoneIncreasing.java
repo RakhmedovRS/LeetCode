@@ -9,43 +9,29 @@ public class FlipStringToMonotoneIncreasing
 {
 	public int minFlipsMonoIncr(String S)
 	{
-		Integer[] memo = new Integer[S.length()];
-		int[] prefix = new int[S.length()];
-		int sum = 0;
-		for (int i = 0; i < prefix.length; i++)
+		int ones = S.charAt(0) == '1' ? 1 : 0;
+		int[] memo = new int[S.length()];
+		for (int i = 1; i < S.length(); i++)
 		{
 			if (S.charAt(i) == '1')
 			{
-				sum++;
+				memo[i] = memo[i - 1];
+				ones++;
 			}
-
-			prefix[i] = sum;
+			else
+			{
+				memo[i] = Math.min(1 + memo[i - 1], ones);
+			}
 		}
 
-		return dfs(S.toCharArray(), S.length() - 1, memo, prefix);
+		return memo[memo.length - 1];
 	}
 
-	private int dfs(char[] s, int index, Integer[] memo, int[] prefix)
+	public static void main(String[] args)
 	{
-		if (index < 0)
-		{
-			return 0;
-		}
-
-		if (memo[index] != null)
-		{
-			return memo[index];
-		}
-
-		if (s[index] == '1')
-		{
-			memo[index] = dfs(s, index - 1, memo, prefix);
-		}
-		else
-		{
-			memo[index] = Math.min(1 + dfs(s, index - 1, memo, prefix), prefix[index]);
-		}
-
-		return memo[index];
+		System.out.println(new FlipStringToMonotoneIncreasing().minFlipsMonoIncr("100000001010000"));
+		System.out.println(new FlipStringToMonotoneIncreasing().minFlipsMonoIncr("00011000"));
+		System.out.println(new FlipStringToMonotoneIncreasing().minFlipsMonoIncr("010110"));
+		System.out.println(new FlipStringToMonotoneIncreasing().minFlipsMonoIncr("00110"));
 	}
 }
