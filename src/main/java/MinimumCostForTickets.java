@@ -1,8 +1,5 @@
 import common.LeetCode;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 /**
  * @author RakhmedovRS
  * @created 25-Aug-20
@@ -12,29 +9,45 @@ public class MinimumCostForTickets
 {
 	public int mincostTickets(int[] days, int[] costs)
 	{
-		Queue<int[]> sevenDays = new LinkedList<>();
-		Queue<int[]> thirtyDays = new LinkedList<>();
+		Integer[] memo = new Integer[days.length];
+		return minCostTickets(days, costs, 0, memo);
+	}
 
-		int totalCost = 0;
-		for (int day : days)
+	private int minCostTickets(int[] days, int[] cost, int index, Integer[] memo)
+	{
+		if (index >= days.length)
 		{
-			while (!sevenDays.isEmpty() && sevenDays.peek()[0] <= day)
-			{
-				sevenDays.poll();
-			}
-
-			sevenDays.offer(new int[]{day + 7, totalCost + costs[1]});
-
-			while (!thirtyDays.isEmpty() && thirtyDays.peek()[0] <= day)
-			{
-				thirtyDays.poll();
-			}
-
-			thirtyDays.offer(new int[]{day + 30, totalCost + costs[2]});
-
-			totalCost = Math.min(totalCost + costs[0], Math.min(sevenDays.peek()[1], thirtyDays.peek()[1]));
+			return 0;
 		}
 
-		return totalCost;
+		if (memo[index] != null)
+		{
+			return memo[index];
+		}
+
+		int index7 = index + 1;
+		int index30 = index + 1;
+		while (index7 < days.length && days[index] + 7 > days[index7])
+		{
+			index7++;
+		}
+
+		while (index30 < days.length && days[index] + 30 > days[index30])
+		{
+			index30++;
+		}
+
+		int oneDay = cost[0] + minCostTickets(days, cost, index + 1, memo);
+		int sevenDays = cost[1] + minCostTickets(days, cost, index7, memo);
+		int thirtyDays = cost[2] + minCostTickets(days, cost, index30, memo);
+
+		memo[index] = Math.min(oneDay, Math.min(sevenDays, thirtyDays));
+		return memo[index];
+	}
+
+	public static void main(String[] args)
+	{
+		System.out.println(new MinimumCostForTickets().mincostTickets(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 30, 31}, new int[]{2, 7, 15}));
+		System.out.println(new MinimumCostForTickets().mincostTickets(new int[]{1, 4, 6, 7, 8, 20}, new int[]{2, 7, 15}));
 	}
 }
