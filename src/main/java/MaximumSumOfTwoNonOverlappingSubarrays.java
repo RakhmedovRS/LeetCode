@@ -19,16 +19,22 @@ public class MaximumSumOfTwoNonOverlappingSubarrays
 		{
 			prefix[i] = prefix[i - 1] + A[i - 1];
 		}
-		return Math.max(dfs(prefix, L, M), dfs(prefix, M, L));
-	}
 
-	public int dfs(int[] prefix, int L, int M)
-	{
 		int max = 0;
 		for (int lL = 1, lR = L; lR <= prefix.length - M; lL++, lR++)
 		{
 			int leftSum = prefix[lR] - prefix[lL - 1];
 			for (int rL = lR + 1, rR = rL + M - 1; rR < prefix.length; rL++, rR++)
+			{
+				int rightSum = prefix[rR] - prefix[rL - 1];
+				max = Math.max(max, leftSum + rightSum);
+			}
+		}
+
+		for (int lL = 1, lR = M; lR <= prefix.length - L; lL++, lR++)
+		{
+			int leftSum = prefix[lR] - prefix[lL - 1];
+			for (int rL = lR + 1, rR = rL + L - 1; rR < prefix.length; rL++, rR++)
 			{
 				int rightSum = prefix[rR] - prefix[rL - 1];
 				max = Math.max(max, leftSum + rightSum);
