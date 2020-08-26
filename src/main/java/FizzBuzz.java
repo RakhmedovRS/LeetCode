@@ -1,6 +1,6 @@
 import common.LeetCode;
 
-import java.util.LinkedList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -12,27 +12,41 @@ public class FizzBuzz
 {
 	public List<String> fizzBuzz(int n)
 	{
-		List<String> result = new LinkedList<>();
-		for (int i = 1; i <= n; i++)
+		if (n < 1)
 		{
-			if (i % 15 == 0)
-			{
-				result.add("FizzBuzz");
-			}
-			else if (i % 5 == 0)
-			{
-				result.add("Buzz");
-			}
-			else if (i % 3 == 0)
-			{
-				result.add("Fizz");
-			}
-			else
-			{
-				result.add(String.valueOf(i));
-			}
+			return Collections.emptyList();
 		}
 
-		return result;
+		return new java.util.AbstractList<String>()
+		{
+			@Override
+			public String get(int i)
+			{
+				i++;
+				if (i % 3 == 0 && i % 5 == 0)
+				{
+					return "FizzBuzz";
+				}
+				else if (i % 3 == 0)
+				{
+					return "Fizz";
+				}
+				else if (i % 5 == 0)
+				{
+					return "Buzz";
+				}
+				else
+				{
+					return String.valueOf(i);
+				}
+			}
+
+			@Override
+			public int size()
+			{
+				return n;
+			}
+		};
+
 	}
 }
