@@ -20,7 +20,7 @@ public class Collector
 {
 	public static void main(String[] args) throws Exception
 	{
-		try (Stream<Path> pathStream = Files.list(Paths.get(Paths.get("").toAbsolutePath().toString() + "\\src\\main\\java")))
+		try (Stream<Path> pathStream = Files.list(Paths.get(Paths.get("").toAbsolutePath().toString() + "/src/main/java")))
 		{
 			List<Map.Entry<LeetCode, String>> annotations =
 				pathStream.map(path ->
