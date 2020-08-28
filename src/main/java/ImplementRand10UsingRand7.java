@@ -1,5 +1,6 @@
 import common.LeetCode;
 
+import java.util.Arrays;
 import java.util.Random;
 
 /**
@@ -9,26 +10,33 @@ import java.util.Random;
 @LeetCode(id = 470, name = "Implement Rand10() Using Rand7()", url = "https://leetcode.com/problems/implement-rand10-using-rand7/")
 public class ImplementRand10UsingRand7
 {
-	private abstract class SolBase
-	{
-		int rand7()
-		{
-			return new Random().nextInt(7);
-		}
-	}
+    private abstract class SolBase
+    {
+        int rand7()
+        {
+            return new Random().nextInt(7) + 1;
+        }
+    }
 
-	class Solution extends SolBase
-	{
-		public int rand10()
-		{
-			while (true)
-			{
-				int num = (rand7() - 1) * 7 + (rand7() - 1);
-				if (num < 40)
-				{
-					return num % 10 + 1;
-				}
-			}
-		}
-	}
+    public class Solution extends SolBase
+    {
+        int num = 0;
+        public int rand10()
+        {
+            num += rand7();
+            return num % 10 + 1;
+        }
+    }
+
+    public static void main(String[] args)
+    {
+        int[] count = new int[10];
+        Solution solution = new ImplementRand10UsingRand7().new Solution();
+        for (int i = 0; i < 10000; i++)
+        {
+            count[solution.rand10() - 1]++;
+        }
+
+        System.out.println(Arrays.toString(count));
+    }
 }
