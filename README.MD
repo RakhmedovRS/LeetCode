@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 704
+Count of solved tasks: 705
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -154,6 +154,7 @@ Count of solved tasks: 704
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[CombinationSumIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CombinationSumIII.java)
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[ContainsDuplicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainsDuplicate.java)
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[ContainsDuplicateII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainsDuplicateII.java)
+|220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|[ContainsDuplicateIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainsDuplicateIII.java)
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[MaximalSquare.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximalSquare.java)
 |222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[CountCompleteTreeNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountCompleteTreeNodes.java)
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|[BasicCalculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BasicCalculator.java)
