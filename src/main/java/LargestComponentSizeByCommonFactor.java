@@ -52,7 +52,7 @@ public class LargestComponentSizeByCommonFactor
 
             if (rank[rootA] < rank[rootB])
             {
-                rank[nodeB] += rank[rootA];
+                rank[rootB] += rank[rootA];
                 parent[rootA] = rootB;
             }
             else
