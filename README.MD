@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 707
+Count of solved tasks: 708
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -473,6 +473,7 @@ Count of solved tasks: 707
 |945|[Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)|[MinimumIncrementToMakeArrayUnique.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumIncrementToMakeArrayUnique.java)
 |949|[Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/)|[LargestTimeForGivenDigits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestTimeForGivenDigits.java)
 |950|[Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/)|[RevealCardsInIncreasingOrder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RevealCardsInIncreasingOrder.java)
+|952|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)|[LargestComponentSizeByCommonFactor.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestComponentSizeByCommonFactor.java)
 |953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|[VerifyingAlienDictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/VerifyingAlienDictionary.java)
 |954|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/)|[ArrayOfDoubledPairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArrayOfDoubledPairs.java)
 |957|[Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/)|[PrisonCellsAfterNDays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrisonCellsAfterNDays.java)
