@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 706
+Count of solved tasks: 707
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -709,3 +709,4 @@ Count of solved tasks: 706
 |1560|[Most Visited Sector in a Circular Track](https://leetcode.com/problems/most-visited-sector-in-a-circular-track/)|[MostVisitedSectorInCircularTrack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MostVisitedSectorInCircularTrack.java)
 |1561|[Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)|[MaximumNumberOfCoinsYouCanGet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfCoinsYouCanGet.java)
 |1563|[Stone Game V](https://leetcode.com/problems/stone-game-v/)|[StoneGameV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StoneGameV.java)
+|1566|[Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)|[DetectPatternOfLengthMRepeatedKOrMoreTimes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetectPatternOfLengthMRepeatedKOrMoreTimes.java)
