@@ -22,45 +22,38 @@ public class DeleteNodeInBST
 			{
 				return null;
 			}
-			else if (root.left == null)
-			{
-				return root.right;
-			}
 			else if (root.right == null)
 			{
 				return root.left;
 			}
+			else if (root.left == null)
+			{
+				return root.right;
+			}
 			else
 			{
-				int[] min = new int[1];
-				root.right = findAndDeleteMinimum(root.right, min);
-				root.val = min[0];
-				return root;
+				TreeNode min = findMin(root.right);
+				root.val = min.val;
+				root.right = deleteNode(root.right, root.val);
 			}
 		}
-
-		if (root.val > key)
+		else if (key > root.val)
 		{
-			root.left = deleteNode(root.left, key);
+			root.right = deleteNode(root.right, key);
 		}
 		else
 		{
-			root.right = deleteNode(root.right, key);
+			root.left = deleteNode(root.left, key);
 		}
 
 		return root;
 	}
 
-	private TreeNode findAndDeleteMinimum(TreeNode treeNode, int[] min)
+	private TreeNode findMin(TreeNode treeNode)
 	{
-		if (treeNode.left != null)
+		while (treeNode.left != null)
 		{
-			treeNode.left = findAndDeleteMinimum(treeNode.left, min);
-		}
-		else
-		{
-			min[0] = treeNode.val;
-			return treeNode.right;
+			treeNode = treeNode.left;
 		}
 		return treeNode;
 	}
