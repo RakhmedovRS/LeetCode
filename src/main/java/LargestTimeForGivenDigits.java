@@ -9,57 +9,58 @@ public class LargestTimeForGivenDigits
 {
 	public String largestTimeFromDigits(int[] A)
 	{
-		int[] memo = new int[10];
+		int[] numbers = new int[10];
 		for (int num : A)
 		{
-			memo[num]++;
+			numbers[num]++;
 		}
 
-		for (int i = 2; i >= 0; i--)
+		for (int h1 = 2; h1 >= 0; h1--)
 		{
-			int h1 = findMaxWithBound(memo, i);
-			int h2 = findMaxWithBound(memo, h1 == 2 ? 3 : 9);
-			int m1 = findMaxWithBound(memo, 5);
-			int m2 = findMaxWithBound(memo, 9);
-			if (h1 != -1 && h2 != -1 && m1 != -1 && m2 != -1)
+			if (numbers[h1] == 0)
 			{
-				return h1 + "" + h2 + ":" + m1 + m2;
+				continue;
 			}
 
-			if (h1 != -1)
+			numbers[h1]--;
+
+			for (int h2 = h1 == 2 ? 3 : 9; h2 >= 0; h2--)
 			{
-				memo[h1]++;
+				if (numbers[h2] == 0)
+				{
+					continue;
+				}
+
+				numbers[h2]--;
+
+				for (int m1 = 5; m1 >= 0; m1--)
+				{
+					if (numbers[m1] == 0)
+					{
+						continue;
+					}
+
+					numbers[m1]--;
+
+					for (int m2 = 9; m2 >= 0; m2--)
+					{
+						if (numbers[m2] == 0)
+						{
+							continue;
+						}
+
+						return "" + h1 + h2 + ":" + m1 + m2;
+					}
+
+					numbers[m1]++;
+				}
+
+				numbers[h2]++;
 			}
-			if (h2 != -1)
-			{
-				memo[h2]++;
-			}
-			if (m1 != -1)
-			{
-				memo[m1]++;
-			}
-			if (m2 != -1)
-			{
-				memo[m2]++;
-			}
+
+			numbers[h1]++;
 		}
 
 		return "";
-	}
-
-	private int findMaxWithBound(int[] memo, int start)
-	{
-		while (start >= 0 && memo[start] == 0)
-		{
-			start--;
-		}
-
-		if (start >= 0)
-		{
-			memo[start]--;
-			return start;
-		}
-
-		return start;
 	}
 }
