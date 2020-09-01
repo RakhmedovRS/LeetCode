@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 711
+Count of solved tasks: 712
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -523,6 +523,7 @@ Count of solved tasks: 711
 |1036|[Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/)|[EscapeLargeMaze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EscapeLargeMaze.java)
 |1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|[BinarySearchTreeToGreaterSumTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearchTreeToGreaterSumTree.java)
 |1041|[Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[RobotBoundedInCircle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RobotBoundedInCircle.java)
+|1042|[Flower Planting With No Adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent/)|[FlowerPlantingWithNoAdjacent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlowerPlantingWithNoAdjacent.java)
 |1044|[Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/)|[LongestDuplicateSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestDuplicateSubstring.java)
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[LastStoneWeight.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LastStoneWeight.java)
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[RemoveAllAdjacentDuplicatesInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveAllAdjacentDuplicatesInString.java)
