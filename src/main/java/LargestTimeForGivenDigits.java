@@ -9,58 +9,47 @@ public class LargestTimeForGivenDigits
 {
 	public String largestTimeFromDigits(int[] A)
 	{
-		int[] numbers = new int[10];
-		for (int num : A)
+		Integer currentMax = null;
+		int[] currentPos = new int[0];
+		for (int h1 = 0; h1 < 4; h1++)
 		{
-			numbers[num]++;
-		}
-
-		for (int h1 = 2; h1 >= 0; h1--)
-		{
-			if (numbers[h1] == 0)
+			for (int h2 = 0; h2 < 4; h2++)
 			{
-				continue;
-			}
-
-			numbers[h1]--;
-
-			for (int h2 = h1 == 2 ? 3 : 9; h2 >= 0; h2--)
-			{
-				if (numbers[h2] == 0)
+				if (h1 == h2 || A[h1] * 10 + A[h2] > 23)
 				{
 					continue;
 				}
 
-				numbers[h2]--;
-
-				for (int m1 = 5; m1 >= 0; m1--)
+				for (int m1 = 0; m1 < 4; m1++)
 				{
-					if (numbers[m1] == 0)
+					if (h1 == m1 || h2 == m1)
 					{
 						continue;
 					}
 
-					numbers[m1]--;
-
-					for (int m2 = 9; m2 >= 0; m2--)
+					for (int m2 = 0; m2 < 4; m2++)
 					{
-						if (numbers[m2] == 0)
+						if (h1 == m2 || h2 == m2 || m1 == m2 || A[m1] * 10 + A[m2] > 59)
 						{
 							continue;
 						}
 
-						return "" + h1 + h2 + ":" + m1 + m2;
+						int temp = ((A[h1] * 10 + A[h2]) * 60 + A[m1] * 10 + A[m2]) * 60;
+						if (currentMax == null || temp > currentMax)
+						{
+							currentMax = temp;
+							currentPos = new int[]{A[h1], A[h2], A[m1], A[m2]};
+						}
 					}
-
-					numbers[m1]++;
 				}
-
-				numbers[h2]++;
 			}
-
-			numbers[h1]++;
 		}
 
-		return "";
+		return currentMax == null ? "" : "" + currentPos[0] + currentPos[1] + ":" + currentPos[2] + currentPos[3];
+	}
+
+	public static void main(String[] args)
+	{
+		System.out.println(new LargestTimeForGivenDigits().largestTimeFromDigits(new int[]{1,2,3,4}));
 	}
 }
