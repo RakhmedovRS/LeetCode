@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 714
+Count of solved tasks: 715
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -386,6 +386,7 @@ Count of solved tasks: 714
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[DesignHashMap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignHashMap.java)
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[DesignLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignLinkedList.java)
 |710|[Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/)|[RandomPickWithBlacklist.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RandomPickWithBlacklist.java)
+|714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[BestTimeToBuyAndSellStockWithTransactionFee.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BestTimeToBuyAndSellStockWithTransactionFee.java)
 |717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|[OneBitAndTwoBitCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OneBitAndTwoBitCharacters.java)
 |720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[LongestWordInDictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestWordInDictionary.java)
 |722|[Remove Comments](https://leetcode.com/problems/remove-comments/)|[RemoveComments.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveComments.java)
