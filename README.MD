@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 717
+Count of solved tasks: 718
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -555,6 +555,7 @@ Count of solved tasks: 717
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[LongestCommonSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestCommonSubsequence.java)
 |1146|[Snapshot Array](https://leetcode.com/problems/snapshot-array/)|[SnapshotArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SnapshotArray.java)
 |1154|[Day of the Year](https://leetcode.com/problems/day-of-the-year/submissions/)|[DayOfTheYear.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DayOfTheYear.java)
+|1156|[Swap For Longest Repeated Character Substring](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)|[SwapForLongestRepeatedCharacterSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SwapForLongestRepeatedCharacterSubstring.java)
 |1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|[FindWordsThatCanBeFormedByCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindWordsThatCanBeFormedByCharacters.java)
 |1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)|[MaximumLevelSumBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLevelSumBinaryTree.java)
 |1162|[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|[AsFarFromLandAsPossible.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AsFarFromLandAsPossible.java)
