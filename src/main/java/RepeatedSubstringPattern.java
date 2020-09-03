@@ -9,32 +9,39 @@ public class RepeatedSubstringPattern
 {
 	public boolean repeatedSubstringPattern(String s)
 	{
-		if (s == null || s.isEmpty())
+		String pattern;
+		for (int i = 1; i <= s.length() / 2; i++)
 		{
-			return false;
-		}
-
-		int len = s.length();
-
-		for (int i = len / 2; i >= 1; i--)
-		{
-			if (len % i == 0)
+			pattern = s.substring(0, i);
+			if (s.length() % pattern.length() == 0 && dfs(pattern, s, i))
 			{
-				int repeat = len / i;
-				String substring = s.substring(0, i);
-				StringBuilder stringBuilder = new StringBuilder();
-				for (int j = 0; j < repeat; j++)
-				{
-					stringBuilder.append(substring);
-				}
-
-				if (stringBuilder.toString().equals(s))
-				{
-					return true;
-				}
+				return true;
 			}
 		}
 
 		return false;
+	}
+
+	private boolean dfs(String pattern, String s, int startPos)
+	{
+		if (startPos == s.length())
+		{
+			return true;
+		}
+
+		if (startPos > s.length())
+		{
+			return false;
+		}
+
+		for (int i = 0; i < pattern.length(); i++)
+		{
+			if (s.charAt(startPos + i) != pattern.charAt(i))
+			{
+				return false;
+			}
+		}
+
+		return dfs(pattern, s, startPos + pattern.length());
 	}
 }
