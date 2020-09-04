@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 720
+Count of solved tasks: 721
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -403,6 +403,7 @@ Count of solved tasks: 720
 |748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|[ShortestCompletingWord.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestCompletingWord.java)
 |752|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|[OpenTheLock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OpenTheLock.java)
 |762|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|[PrimeNumberOfSetBitsInBinaryRepresentation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrimeNumberOfSetBitsInBinaryRepresentation.java)
+|763|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[PartitionLabels.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionLabels.java)
 |764|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/)|[LargestPlusSign.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestPlusSign.java)
 |766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[ToeplitzMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ToeplitzMatrix.java)
 |767|[Reorganize String](https://leetcode.com/problems/reorganize-string/)|[ReorganizeString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReorganizeString.java)
