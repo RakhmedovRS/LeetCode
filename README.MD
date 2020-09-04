@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 718
+Count of solved tasks: 719
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -456,6 +456,7 @@ Count of solved tasks: 718
 |892|[Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/)|[SurfaceAreaOf3DShapes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SurfaceAreaOf3DShapes.java)
 |894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/)|[AllPossibleFullBinaryTrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllPossibleFullBinaryTrees.java)
 |897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[IncreasingOrderSearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingOrderSearchTree.java)
+|899|[Orderly Queue](https://leetcode.com/problems/orderly-queue/)|[OrderlyQueue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OrderlyQueue.java)
 |901|[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[OnlineStockSpan.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OnlineStockSpan.java)
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[SortArrayByParity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortArrayByParity.java)
 |908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|[SmallestRangeI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestRangeI.java)
