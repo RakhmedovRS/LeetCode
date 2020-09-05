@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 723
+Count of solved tasks: 724
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -726,3 +726,4 @@ Count of solved tasks: 723
 |1566|[Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)|[DetectPatternOfLengthMRepeatedKOrMoreTimes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetectPatternOfLengthMRepeatedKOrMoreTimes.java)
 |1567|[Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|[MaximumLengthOfSubarrayWithPositiveProduct.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfSubarrayWithPositiveProduct.java)
 |1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[MatrixDiagonalSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MatrixDiagonalSum.java)
+|1573|[Number of Ways to Split a String](https://leetcode.com/problems/number-of-ways-to-split-a-string/)|[NumberOfWaysToSplitString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfWaysToSplitString.java)
