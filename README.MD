@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 721
+Count of solved tasks: 722
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -600,6 +600,7 @@ Count of solved tasks: 721
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[FindNumbersWithEvenNumberOfDigits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNumbersWithEvenNumberOfDigits.java)
 |1296|[Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)|[DivideArrayInSetsOfKConsecutiveNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DivideArrayInSetsOfKConsecutiveNumbers.java)
 |1299|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[ReplaceElementsWithGreatestElementOnRightSide.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceElementsWithGreatestElementOnRightSide.java)
+|1305|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[AllElementInTwoBinarySearchTrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllElementInTwoBinarySearchTrees.java)
 |1305|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[AllElementsITwoBinarySearchTrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllElementsITwoBinarySearchTrees.java)
 |1306|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|[JumpGameIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameIII.java)
 |1310|[XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/)|[XORQueriesOfSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/XORQueriesOfSubarray.java)
