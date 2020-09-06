@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 724
+Count of solved tasks: 725
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -727,3 +727,4 @@ Count of solved tasks: 724
 |1567|[Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|[MaximumLengthOfSubarrayWithPositiveProduct.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfSubarrayWithPositiveProduct.java)
 |1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[MatrixDiagonalSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MatrixDiagonalSum.java)
 |1573|[Number of Ways to Split a String](https://leetcode.com/problems/number-of-ways-to-split-a-string/)|[NumberOfWaysToSplitString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfWaysToSplitString.java)
+|1576|[Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)|[ReplaceAllQuestionsToAvoidConsecutiveRepeatingCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceAllQuestionsToAvoidConsecutiveRepeatingCharacters.java)
