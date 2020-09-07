@@ -12,28 +12,19 @@ public class WordPattern
 {
 	public boolean wordPattern(String pattern, String str)
 	{
-		Map<Character, String> charToWord = new HashMap<>();
-		Map<String, Character> wordToChar = new HashMap<>();
-		char[] p = pattern.toCharArray();
-		String[] words = str.split(" ");
-		if (p.length != words.length)
+		String[] parts = str.split(" ");
+		if (parts.length != pattern.length())
 		{
 			return false;
 		}
-
-		for (int i = 0; i < p.length; i++)
+		Map<String, Character> wordToCharacter = new HashMap<>();
+		Map<Character, String> characterToWord = new HashMap<>();
+		for (int i = 0; i < parts.length; i++)
 		{
-			String word = charToWord.getOrDefault(p[i], null);
-			if (word == null)
-			{
-				if (p[i] != wordToChar.getOrDefault(words[i], p[i]))
-				{
-					return false;
-				}
-				charToWord.put(p[i], words[i]);
-				wordToChar.put(words[i], p[i]);
-			}
-			else if (!words[i].equals(word))
+			wordToCharacter.putIfAbsent(parts[i], pattern.charAt(i));
+			characterToWord.putIfAbsent(pattern.charAt(i), parts[i]);
+
+			if (wordToCharacter.get(parts[i]) != pattern.charAt(i) || !characterToWord.get(pattern.charAt(i)).equals(parts[i]))
 			{
 				return false;
 			}
