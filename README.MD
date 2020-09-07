@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 728
+Count of solved tasks: 729
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -582,6 +582,7 @@ Count of solved tasks: 728
 |1222|[Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/)|[QueensThatCanAttackKing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueensThatCanAttackKing.java)
 |1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[CheckIfItIsStraightLine.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfItIsStraightLine.java)
 |1234|[Replace the Substring for Balanced String](Replace the Substring for Balanced String)|[ReplaceTheSubstringForBalancedString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceTheSubstringForBalancedString.java)
+|1237|[Find Positive Integer Solution for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/)|[FindPositiveIntegerSolutionForGivenEquation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindPositiveIntegerSolutionForGivenEquation.java)
 |1239|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)|[MaximumLengthOfConcatenatedStringWithUniqueCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfConcatenatedStringWithUniqueCharacters.java)
 |1247|[Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/)|[MinimumSwapsToMakeStringsEqual.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSwapsToMakeStringsEqual.java)
 |1249|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[MinimumRemoveToMakeValidParentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumRemoveToMakeValidParentheses.java)
