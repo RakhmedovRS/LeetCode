@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 729
+Count of solved tasks: 730
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -346,6 +346,7 @@ Count of solved tasks: 729
 |592|[Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/)|[FractionAdditionAndSubtraction.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FractionAdditionAndSubtraction.java)
 |594|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[LongestHarmoniousSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestHarmoniousSubsequence.java)
 |599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)|[MinimumIndexSumOfTwoLists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumIndexSumOfTwoLists.java)
+|605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[CanPlaceFlowers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanPlaceFlowers.java)
 |606|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[ConstructStringFromBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructStringFromBinaryTree.java)
 |609|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|[FindDuplicateFileInSystem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindDuplicateFileInSystem.java)
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[MergeTwoBinaryTrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeTwoBinaryTrees.java)
