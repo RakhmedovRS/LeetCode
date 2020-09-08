@@ -10,35 +10,24 @@ public class SumOfRootToLeafBinaryNumbers
 {
 	public int sumRootToLeaf(TreeNode root)
 	{
-		int[] answer = new int[]{0};
-		sumRootToLeaf(root, new StringBuilder(), answer);
-		return answer[0];
+		return sumRootToLeaf(root, 0);
 	}
 
-	public void sumRootToLeaf(TreeNode root, StringBuilder prefix, int[] answer)
+	private int sumRootToLeaf(TreeNode root, int num)
 	{
 		if (root == null)
 		{
-			return;
+			return 0;
 		}
 
-		prefix.append(root.val);
+		num <<= 1;
+		num ^= root.val;
 
 		if (root.left == null && root.right == null)
 		{
-			answer[0] += Integer.parseInt(prefix.toString(), 2);
+			return num;
 		}
 
-		if (root.left != null)
-		{
-			sumRootToLeaf(root.left, prefix, answer);
-		}
-
-		if (root.right != null)
-		{
-			sumRootToLeaf(root.right, prefix, answer);
-		}
-
-		prefix.deleteCharAt(prefix.length() - 1);
+		return sumRootToLeaf(root.left, num) + sumRootToLeaf(root.right, num);
 	}
 }
