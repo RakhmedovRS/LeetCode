@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 730
+Count of solved tasks: 731
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -657,6 +657,7 @@ Count of solved tasks: 730
 |1417|[Reformat The String](https://leetcode.com/problems/reformat-the-string/)|[ReformatTheString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReformatTheString.java)
 |1418|[Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)|[DisplayTableOfFoodOrdersInRestaurant.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DisplayTableOfFoodOrdersInRestaurant.java)
 |1419|[Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/)|[MinimumNumberOfFrogsCroaking.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfFrogsCroaking.java)
+|1422|[Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)|[CountTripletsThatCanFormTwoArraysOfEqualXOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountTripletsThatCanFormTwoArraysOfEqualXOR.java)
 |1422|[Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)|[MaximumScoreAfterSplittingString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumScoreAfterSplittingString.java)
 |1424|[Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/)|[DiagonalTraverseII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverseII.java)
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[KidsWithTheGreatestNumberOfCandies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KidsWithTheGreatestNumberOfCandies.java)
