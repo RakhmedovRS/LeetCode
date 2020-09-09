@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 733
+Count of solved tasks: 734
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -302,6 +302,7 @@ Count of solved tasks: 733
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[DiagonalTraverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverse.java)
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[KeyboardRow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KeyboardRow.java)
 |501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[FindModeInBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindModeInBinarySearchTree.java)
+|503|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[NextGreaterElementII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementII.java)
 |504|[Base 7](https://leetcode.com/problems/base-7/)|[Base7.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Base7.java)
 |506|[Relative Ranks](https://leetcode.com/problems/relative-ranks/)|[RelativeRanks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RelativeRanks.java)
 |507|[Perfect Number](https://leetcode.com/problems/perfect-number/)|[PerfectNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PerfectNumber.java)
