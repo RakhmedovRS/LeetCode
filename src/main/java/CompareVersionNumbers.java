@@ -9,23 +9,31 @@ public class CompareVersionNumbers
 {
 	public int compareVersion(String version1, String version2)
 	{
-		String[] v1 = version1.split("\\.");
-		String[] v2 = version2.split("\\.");
-		int v1Index = 0;
-		int v2Index = 0;
-		int ver1;
-		int ver2;
-		while (v1Index < v1.length || v2Index < v2.length)
+		int v1;
+		int v2;
+		int v1Pos = 0;
+		int v2Pos = 0;
+		while (v1Pos < version1.length() || v2Pos < version2.length())
 		{
-			ver1 = v1Index < v1.length ? Integer.parseInt(v1[v1Index++]) : 0;
-			ver2 = v2Index < v2.length ? Integer.parseInt(v2[v2Index++]) : 0;
-			if (ver1 > ver2)
+			v1 = 0;
+			while (v1Pos < version1.length() && version1.charAt(v1Pos) != '.')
 			{
-				return 1;
+				v1 *= 10;
+				v1 += version1.charAt(v1Pos++) - '0';
 			}
-			else if (ver1 < ver2)
+			v1Pos++;
+
+			v2 = 0;
+			while (v2Pos < version2.length() && version2.charAt(v2Pos) != '.')
 			{
-				return -1;
+				v2 *= 10;
+				v2 += version2.charAt(v2Pos++) - '0';
+			}
+			v2Pos++;
+
+			if (v1 != v2)
+			{
+				return Integer.compare(v1, v2);
 			}
 		}
 
