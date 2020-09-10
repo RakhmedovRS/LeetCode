@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 735
+Count of solved tasks: 736
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -404,6 +404,7 @@ Count of solved tasks: 735
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[MinCostClimbingStairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinCostClimbingStairs.java)
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|[LargestNumberAtLeastTwiceOfOthers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestNumberAtLeastTwiceOfOthers.java)
 |748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|[ShortestCompletingWord.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestCompletingWord.java)
+|749|[Contain Virus](https://leetcode.com/problems/contain-virus/)|[ContainVirus.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainVirus.java)
 |752|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|[OpenTheLock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OpenTheLock.java)
 |762|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|[PrimeNumberOfSetBitsInBinaryRepresentation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrimeNumberOfSetBitsInBinaryRepresentation.java)
 |763|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[PartitionLabels.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionLabels.java)
