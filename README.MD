@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 734
+Count of solved tasks: 735
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -194,6 +194,7 @@ Count of solved tasks: 734
 |292|[Nim Game](https://leetcode.com/problems/nim-game/)|[NimGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NimGame.java)
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[FindMedianFromDataStream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindMedianFromDataStream.java)
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[SerializeAndDeserializeBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SerializeAndDeserializeBinaryTree.java)
+|299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[BullsAndCows.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BullsAndCows.java)
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[LongestIncreasingSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestIncreasingSubsequence.java)
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[RangeSumQueryImmutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQueryImmutable.java)
 |306|[Additive Number](https://leetcode.com/problems/additive-number/)|[AdditiveNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AdditiveNumber.java)
