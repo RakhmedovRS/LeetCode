@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 740
+Count of solved tasks: 741
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -501,6 +501,7 @@ Count of solved tasks: 740
 |976|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|[LargestPerimeterTriangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestPerimeterTriangle.java)
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[SquaresOfSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SquaresOfSortedArray.java)
 |978|[Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/)|[LongestTurbulentSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestTurbulentSubarray.java)
+|979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|[DistributeCoinsInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistributeCoinsInBinaryTree.java)
 |981|[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)|[TimeBasedKeyValueStore.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TimeBasedKeyValueStore.java)
 |982|[Triples with Bitwise AND Equal To Zero](https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/)|[TriplesWithBitwiseANDEqualToZero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TriplesWithBitwiseANDEqualToZero.java)
 |983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|[MinimumCostForTickets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostForTickets.java)
