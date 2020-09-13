@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 743
+Count of solved tasks: 744
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -746,3 +746,4 @@ Count of solved tasks: 743
 |1578|[Minimum Deletion Cost to Avoid Repeating Letters](https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/)|[MinimumDeletionCostToAvoidRepeatingLetters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionCostToAvoidRepeatingLetters.java)
 |1582|[Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)|[SpecialPositionsInBinaryMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SpecialPositionsInBinaryMatrix.java)
 |1583|[Count Unhappy Friends](https://leetcode.com/problems/count-unhappy-friends/)|[CountUnhappyFriends.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountUnhappyFriends.java)
+|1584|[Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|[MinCostToConnectAllPoints.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinCostToConnectAllPoints.java)
