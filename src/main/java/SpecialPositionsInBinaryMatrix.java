@@ -12,11 +12,22 @@ public class SpecialPositionsInBinaryMatrix
 		int count = 0;
 		int rows = mat.length;
 		int columns = mat[0].length;
+		int[] rowMemo = new int[rows];
+		int[] columnMemo = new int[columns];
 		for (int row = 0; row < rows; row++)
 		{
 			for (int column = 0; column < columns; column++)
 			{
-				if (mat[row][column] == 1 && onlyOne(mat, row, column))
+				rowMemo[row] += mat[row][column];
+				columnMemo[column] += mat[row][column];
+			}
+		}
+
+		for (int row = 0; row < rows; row++)
+		{
+			for (int column = 0; column < columns; column++)
+			{
+				if (mat[row][column] == 1 && rowMemo[row] == 1 && columnMemo[column] == 1)
 				{
 					count++;
 				}
@@ -26,33 +37,14 @@ public class SpecialPositionsInBinaryMatrix
 		return count;
 	}
 
-	private boolean onlyOne(int[][] mat, int row, int column)
+	public static void main(String[] args)
 	{
-		int ones = 0;
-		for (int num : mat[row])
-		{
-			if (num == 1)
+		System.out.println(new SpecialPositionsInBinaryMatrix().numSpecial(new int[][]
 			{
-				if (ones > 1)
-				{
-					return false;
-				}
-				ones++;
+				{1, 0, 0},
+				{0, 0, 1},
+				{1, 0, 0}
 			}
-		}
-
-		for (int[] aRow : mat)
-		{
-			if (aRow[column] == 1)
-			{
-				if (ones > 1)
-				{
-					return false;
-				}
-				ones++;
-			}
-		}
-
-		return ones == 2;
+		));
 	}
 }
