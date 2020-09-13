@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 741
+Count of solved tasks: 742
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -744,3 +744,4 @@ Count of solved tasks: 741
 |1576|[Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)|[ReplaceAllQuestionsToAvoidConsecutiveRepeatingCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceAllQuestionsToAvoidConsecutiveRepeatingCharacters.java)
 |1577|[Number of Ways Where Square of Number Is Equal to Product of Two Numbers](https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/)|[NumberOfWaysWhereSquareOfNumberIsEqualToProductOfTwoNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfWaysWhereSquareOfNumberIsEqualToProductOfTwoNumbers.java)
 |1578|[Minimum Deletion Cost to Avoid Repeating Letters](https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/)|[MinimumDeletionCostToAvoidRepeatingLetters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionCostToAvoidRepeatingLetters.java)
+|1583|[Count Unhappy Friends](https://leetcode.com/problems/count-unhappy-friends/)|[CountUnhappyFriends.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountUnhappyFriends.java)
