@@ -13,39 +13,48 @@ public class InsertInterval
 {
 	public int[][] insert(int[][] intervals, int[] newInterval)
 	{
-		List<int[]> answer = new ArrayList<>();
-
+		List<int[]> list = new ArrayList<>();
+		boolean inserted = false;
 		for (int[] interval : intervals)
 		{
-			if (newInterval[1] < interval[0])
+			if ((newInterval[0] >= interval[0] && newInterval[0] <= interval[1])
+				|| (interval[0] >= newInterval[0] && interval[0] <= newInterval[1]))
 			{
-				answer.add(newInterval);
-				newInterval = interval;
+				newInterval[0] = Math.min(newInterval[0], interval[0]);
+				newInterval[1] = Math.max(newInterval[1], interval[1]);
 			}
-			else if (newInterval[0] <= interval[1])
+			else if (interval[0] > newInterval[1])
 			{
-				newInterval = new int[]{
-					Math.min(interval[0], newInterval[0]),
-					Math.max(interval[1], newInterval[1])};
+				if (!inserted)
+				{
+					list.add(newInterval);
+					inserted = true;
+				}
+				list.add(interval);
 			}
 			else
 			{
-				answer.add(interval);
+				list.add(interval);
 			}
 		}
-		answer.add(newInterval);
-		return answer.toArray(new int[answer.size()][2]);
+
+		if (!inserted)
+		{
+			list.add(newInterval);
+		}
+
+		int[][] answer = new int[list.size()][];
+		for (int i = 0; i < list.size(); i++)
+		{
+			answer[i] = list.get(i);
+		}
+
+		return answer;
 	}
 
 	public static void main(String[] args)
 	{
-		System.out.println(Arrays.deepToString(
-			new InsertInterval()
-				.insert(
-					new int[][]{{1, 2}, {3, 5}, {6, 7}, {8, 10}, {12, 16}},
-					new int[]{4, 8}
-				)
-			)
-		);
+		System.out.println(Arrays.deepToString(new InsertInterval().insert(new int[][]{{1, 2}, {3, 5}, {6, 7}, {8, 10}, {12, 16}}, new int[]{4, 8})));
+		System.out.println(Arrays.deepToString(new InsertInterval().insert(new int[][]{{1, 3}, {6, 9}}, new int[]{2, 5})));
 	}
 }
