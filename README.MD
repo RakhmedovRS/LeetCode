@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 744
+Count of solved tasks: 745
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -236,6 +236,7 @@ Count of solved tasks: 744
 |382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|[LinkedListRandomNode.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListRandomNode.java)
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[RansomNote.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RansomNote.java)
 |384|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|[ShuffleAnArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShuffleAnArray.java)
+|385|[Mini Parser](https://leetcode.com/problems/mini-parser/)|[MiniParser.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MiniParser.java)
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[FirstUniqueCharacterInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstUniqueCharacterInString.java)
 |390|[Elimination Game](https://leetcode.com/problems/elimination-game/)|[EliminationGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EliminationGame.java)
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[IsSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IsSubsequence.java)
