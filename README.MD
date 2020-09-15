@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 749
+Count of solved tasks: 750
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -49,6 +49,7 @@ Count of solved tasks: 749
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[JumpGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGame.java)
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[MergeIntervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeIntervals.java)
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval/)|[InsertInterval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsertInterval.java)
+|58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[LengthOfLastWord.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LengthOfLastWord.java)
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[SpiralMatrixII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SpiralMatrixII.java)
 |60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|[PermutationSequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PermutationSequence.java)
 |60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|[PermutationSequence1.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PermutationSequence1.java)
