@@ -18,7 +18,10 @@ public class MaxConsecutiveOnesIII
 				K--;
 				while (K < 0)
 				{
-					K += A[left] == 0 ? 1 : 0;
+					if (A[left] == 0)
+					{
+						K++;
+					}
 					left++;
 				}
 			}
