@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 746
+Count of solved tasks: 747
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -512,6 +512,7 @@ Count of solved tasks: 746
 |987|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|[VerticalOrderTraversalOfBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/VerticalOrderTraversalOfBinaryTree.java)
 |988|[Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/)|[SmallestStringStartingFromLeaf.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringStartingFromLeaf.java)
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[AddToArrayFormOfInteger.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddToArrayFormOfInteger.java)
+|991|[Broken Calculator](https://leetcode.com/problems/broken-calculator/)|[BrokenCalculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BrokenCalculator.java)
 |994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[RottingOranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RottingOranges.java)
 |997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[FindTheTownJudge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheTownJudge.java)
 |998|[Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/)|[MaximumBinaryTreeII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumBinaryTreeII.java)
