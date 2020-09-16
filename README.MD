@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 751
+Count of solved tasks: 752
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -222,6 +222,7 @@ Count of solved tasks: 751
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[ReverseVowelsOfString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseVowelsOfString.java)
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[TopKFrequentElements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TopKFrequentElements.java)
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[IntersectionOfTwoArraysII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntersectionOfTwoArraysII.java)
+|352|[Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)|[DataStreamAsDisjointIntervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DataStreamAsDisjointIntervals.java)
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|[RussianDollEnvelopes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RussianDollEnvelopes.java)
 |357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)|[CountNumbersWithUniqueDigits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountNumbersWithUniqueDigits.java)
 |365|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)|[WaterAndJugProblem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WaterAndJugProblem.java)
