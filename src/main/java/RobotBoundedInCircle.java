@@ -7,30 +7,115 @@ import common.LeetCode;
 @LeetCode(id = 1041, name = "Robot Bounded In Circle", url = "https://leetcode.com/problems/robot-bounded-in-circle/")
 public class RobotBoundedInCircle
 {
+	enum Direction
+	{
+		UP,
+		DOWN,
+		LEFT,
+		RIGHT
+	}
+
+	class Position
+	{
+		int x;
+		int y;
+		Direction direction;
+
+		public Position(int x, int y, Direction direction)
+		{
+			this.x = x;
+			this.y = y;
+			this.direction = direction;
+		}
+	}
+
 	public boolean isRobotBounded(String instructions)
 	{
-		int x = 0;
-		int y = 0;
-		int[][] directions = new int[][]{{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
-		int direction = 0;
-		for (char instruction : instructions.toCharArray())
+		char[] chars = instructions.toCharArray();
+		Position position = new Position(0, 0, Direction.UP);
+		for (int i = 0; i < chars.length * 5; i++)
 		{
-			if (instruction == 'R')
+			if (chars[i % chars.length] == 'G')
 			{
-				direction = direction + 1 == 4 ? 0 : direction + 1;
+				switch (position.direction)
+				{
+					case UP:
+					{
+						position.y++;
+						break;
+					}
+					case DOWN:
+					{
+						position.y--;
+						break;
+					}
+					case LEFT:
+					{
+						position.x--;
+						break;
+					}
+					case RIGHT:
+					{
+						position.x++;
+						break;
+					}
+				}
 			}
-			else if (instruction == 'L')
+			else if (chars[i % chars.length] == 'L')
 			{
-				direction = direction - 1 < 0 ? 3 : direction - 1;
+				switch (position.direction)
+				{
+					case UP:
+					{
+						position.direction = Direction.LEFT;
+						break;
+					}
+					case DOWN:
+					{
+						position.direction = Direction.RIGHT;
+						break;
+					}
+					case LEFT:
+					{
+						position.direction = Direction.DOWN;
+						break;
+					}
+					case RIGHT:
+					{
+						position.direction = Direction.UP;
+						break;
+					}
+				}
 			}
 			else
 			{
-				x += directions[direction][0];
-				y += directions[direction][1];
+				switch (position.direction)
+				{
+					case UP:
+					{
+						position.direction = Direction.RIGHT;
+						break;
+					}
+					case DOWN:
+					{
+						position.direction = Direction.LEFT;
+						break;
+					}
+					case LEFT:
+					{
+						position.direction = Direction.UP;
+						break;
+					}
+					case RIGHT:
+					{
+						position.direction = Direction.DOWN;
+						break;
+					}
+				}
 			}
 		}
 
-		return x == 0 && y == 0 || direction != 0;
+		return position.direction != Direction.UP || (position.x == 0 && position.y == 0);
 	}
 
 	public static void main(String[] args)
