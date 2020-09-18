@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 754
+Count of solved tasks: 755
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -433,6 +433,7 @@ Count of solved tasks: 754
 |811|[Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)|[SubdomainVisitCount.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubdomainVisitCount.java)
 |812|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/)|[LargestTriangleArea.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestTriangleArea.java)
 |814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|[BinaryTreePruning.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePruning.java)
+|817|[Linked List Components](https://leetcode.com/problems/linked-list-components/)|[LinkedListComponents.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListComponents.java)
 |819|[Most Common Word](https://leetcode.com/problems/most-common-word/)|[MostCommonWord.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MostCommonWord.java)
 |821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[ShortestDistanceToCharacter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestDistanceToCharacter.java)
 |823|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[BinaryTreesWithFactors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreesWithFactors.java)
