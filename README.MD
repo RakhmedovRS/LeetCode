@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 755
+Count of solved tasks: 756
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -542,6 +542,7 @@ Count of solved tasks: 755
 |1031|[Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/)|[MaximumSumOfTwoNonOverlappingSubarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSumOfTwoNonOverlappingSubarrays.java)
 |1032|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|[StreamOfCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StreamOfCharacters.java)
 |1033|[Moving Stones Until Consecutive](https://leetcode.com/problems/moving-stones-until-consecutive/)|[MovingStonesUntilConsecutive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MovingStonesUntilConsecutive.java)
+|1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|[ColoringBorder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ColoringBorder.java)
 |1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)|[UncrossedLines.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UncrossedLines.java)
 |1036|[Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/)|[EscapeLargeMaze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EscapeLargeMaze.java)
 |1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|[BinarySearchTreeToGreaterSumTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearchTreeToGreaterSumTree.java)
