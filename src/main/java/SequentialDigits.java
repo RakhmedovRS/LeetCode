@@ -12,37 +12,45 @@ public class SequentialDigits
 {
 	public List<Integer> sequentialDigits(int low, int high)
 	{
-		List<Integer> result = new ArrayList<>();
-		int[] seq = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
-		int window = ("" + low).length();
-		while (window < 10)
+		List<Integer> answer = new ArrayList<>();
+		int lowLength = getLength(low);
+		int highLength = getLength(high);
+		while (lowLength <= highLength)
 		{
-			int left = 0;
-			int right = left + window;
-			while (right <= seq.length)
+			int factor = (int) Math.pow(10, lowLength - 1);
+			int value = 0;
+			for (int i = 1; i <= lowLength; i++)
 			{
-				int val = 0;
-				for (int i = left; i < right; i++)
-				{
-					val *= 10;
-					val += seq[i];
-				}
-
-				if (val >= low && val <= high)
-				{
-					result.add(val);
-				}
-				if (val > high)
-				{
-					break;
-				}
-				left++;
-				right++;
+				value *= 10;
+				value += i;
 			}
 
-			window++;
+			for (int i = lowLength + 1; i <= 10; i++)
+			{
+				if (value >= low && value <= high)
+				{
+					answer.add(value);
+				}
+				value *= 10;
+				value += i;
+				value %= (factor * 10);
+			}
+
+			lowLength++;
 		}
 
-		return result;
+		return answer;
+	}
+
+	private int getLength(int num)
+	{
+		int length = 0;
+		while (num > 0)
+		{
+			length++;
+			num /= 10;
+		}
+
+		return length;
 	}
 }
