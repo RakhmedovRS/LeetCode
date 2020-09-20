@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 760
+Count of solved tasks: 761
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -761,5 +761,6 @@ Count of solved tasks: 760
 |1584|[Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|[MinCostToConnectAllPoints.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinCostToConnectAllPoints.java)
 |1588|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[SumOfAllOddLengthSubarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfAllOddLengthSubarrays.java)
 |1589|[Maximum Sum Obtained of Any Permutation](https://leetcode.com/problems/maximum-sum-obtained-of-any-permutation/)|[MaximumSumObtainedOfAnyPermutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSumObtainedOfAnyPermutation.java)
+|1592|[Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|[RearrangeSpacesBetweenWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RearrangeSpacesBetweenWords.java)
 |1593|[Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/)|[SplitStringIntoTheMaxNumberOfUniqueSubstrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitStringIntoTheMaxNumberOfUniqueSubstrings.java)
 |1594|[Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/)|[MaximumNonNegativeProductInMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNonNegativeProductInMatrix.java)
