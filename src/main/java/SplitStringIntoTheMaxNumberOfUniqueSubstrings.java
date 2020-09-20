@@ -12,29 +12,27 @@ public class SplitStringIntoTheMaxNumberOfUniqueSubstrings
 {
 	public int maxUniqueSplit(String s)
 	{
-		Set<String> set = new HashSet<>();
-		int[] max = new int[]{0};
-		dfs(s, 0, new HashSet<>(), max);
-		return max[0];
+		return dfs(s, 0, new HashSet<>());
 	}
 
-	private void dfs(String s, int start, Set<String> set, int[] max)
+	private int dfs(String s, int start, Set<String> set)
 	{
 		if (start >= s.length())
 		{
-			max[0] = Math.max(max[0], set.size());
-			return;
+			return set.size();
 		}
 
 		String sub;
+		int max = 0;
 		for (int i = start + 1; i <= s.length(); i++)
 		{
 			sub = s.substring(start, i);
 			if (set.add(sub))
 			{
-				dfs(s, i, set, max);
+				max = Math.max(max, dfs(s, i, set));
 				set.remove(sub);
 			}
 		}
+		return max;
 	}
 }
