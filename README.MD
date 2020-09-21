@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 762
+Count of solved tasks: 763
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -577,6 +577,7 @@ Count of solved tasks: 762
 |1130|[Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)|[MinimumCostTreeFromLeafValues.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostTreeFromLeafValues.java)
 |1138|[Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/)|[AlphabetBoardPath.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AlphabetBoardPath.java)
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[LongestCommonSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestCommonSubsequence.java)
+|1144|[Decrease Elements To Make Array Zigzag](https://leetcode.com/problems/decrease-elements-to-make-array-zigzag/)|[DecreaseElementsToMakeArrayZigzag.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecreaseElementsToMakeArrayZigzag.java)
 |1146|[Snapshot Array](https://leetcode.com/problems/snapshot-array/)|[SnapshotArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SnapshotArray.java)
 |1154|[Day of the Year](https://leetcode.com/problems/day-of-the-year/submissions/)|[DayOfTheYear.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DayOfTheYear.java)
 |1156|[Swap For Longest Repeated Character Substring](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)|[SwapForLongestRepeatedCharacterSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SwapForLongestRepeatedCharacterSubstring.java)
