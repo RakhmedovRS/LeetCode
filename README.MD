@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 765
+Count of solved tasks: 766
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -379,6 +379,7 @@ Count of solved tasks: 765
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|[LongestContinuousIncreasingSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestContinuousIncreasingSubsequence.java)
 |676|[Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/)|[ImplementMagicDictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImplementMagicDictionary.java)
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[ValidParenthesisString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidParenthesisString.java)
+|679|[24 Game](https://leetcode.com/problems/24-game/)|[Game24.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Game24.java)
 |682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|[BaseballGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BaseballGame.java)
 |687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[LongestUnivaluePath.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestUnivaluePath.java)
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[TopKFrequentWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TopKFrequentWords.java)
