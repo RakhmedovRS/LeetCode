@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 767
+Count of solved tasks: 768
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -376,6 +376,7 @@ Count of solved tasks: 767
 |669|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[TrimBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TrimBinarySearchTree.java)
 |670|[Maximum Swap](https://leetcode.com/problems/maximum-swap/)|[MaximumSwap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSwap.java)
 |671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[SecondMinimumNodeInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SecondMinimumNodeInBinaryTree.java)
+|673|[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|[NumberOfLongestIncreasingSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfLongestIncreasingSubsequence.java)
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|[LongestContinuousIncreasingSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestContinuousIncreasingSubsequence.java)
 |676|[Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/)|[ImplementMagicDictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImplementMagicDictionary.java)
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[ValidParenthesisString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidParenthesisString.java)
