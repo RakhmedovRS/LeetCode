@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 770
+Count of solved tasks: 771
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -551,6 +551,7 @@ Count of solved tasks: 770
 |1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|[ColoringBorder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ColoringBorder.java)
 |1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)|[UncrossedLines.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UncrossedLines.java)
 |1036|[Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/)|[EscapeLargeMaze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EscapeLargeMaze.java)
+|1037|[Valid Boomerang](https://leetcode.com/problems/valid-boomerang/)|[ValidBoomerang.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidBoomerang.java)
 |1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|[BinarySearchTreeToGreaterSumTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearchTreeToGreaterSumTree.java)
 |1041|[Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[RobotBoundedInCircle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RobotBoundedInCircle.java)
 |1042|[Flower Planting With No Adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent/)|[FlowerPlantingWithNoAdjacent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlowerPlantingWithNoAdjacent.java)
