@@ -27,7 +27,6 @@ public class FindTheDifference
 				return (char) (i + 'a');
 			}
 		}
-
 		return ' ';
 	}
 }
