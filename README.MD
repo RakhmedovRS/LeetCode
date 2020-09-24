@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 773
+Count of solved tasks: 770
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -241,7 +241,6 @@ Count of solved tasks: 773
 |384|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|[ShuffleAnArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShuffleAnArray.java)
 |385|[Mini Parser](https://leetcode.com/problems/mini-parser/)|[MiniParser.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MiniParser.java)
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[FirstUniqueCharacterInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstUniqueCharacterInString.java)
-|389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[FindTheDifference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheDifference.java)
 |390|[Elimination Game](https://leetcode.com/problems/elimination-game/)|[EliminationGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EliminationGame.java)
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[IsSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IsSubsequence.java)
 |394|[Decode String]()|[DecodeString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)
@@ -400,7 +399,6 @@ Count of solved tasks: 773
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[DesignHashMap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignHashMap.java)
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[DesignLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignLinkedList.java)
 |710|[Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/)|[RandomPickWithBlacklist.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RandomPickWithBlacklist.java)
-|712|[Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)|[MinimumASCIIDeleteSumForTwoStrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumASCIIDeleteSumForTwoStrings.java)
 |714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[BestTimeToBuyAndSellStockWithTransactionFee.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BestTimeToBuyAndSellStockWithTransactionFee.java)
 |717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|[OneBitAndTwoBitCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OneBitAndTwoBitCharacters.java)
 |720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[LongestWordInDictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestWordInDictionary.java)
@@ -553,7 +551,6 @@ Count of solved tasks: 773
 |1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|[ColoringBorder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ColoringBorder.java)
 |1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)|[UncrossedLines.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UncrossedLines.java)
 |1036|[Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/)|[EscapeLargeMaze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EscapeLargeMaze.java)
-|1037|[Valid Boomerang](https://leetcode.com/problems/valid-boomerang/)|[ValidBoomerang.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidBoomerang.java)
 |1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|[BinarySearchTreeToGreaterSumTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearchTreeToGreaterSumTree.java)
 |1041|[Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[RobotBoundedInCircle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RobotBoundedInCircle.java)
 |1042|[Flower Planting With No Adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent/)|[FlowerPlantingWithNoAdjacent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlowerPlantingWithNoAdjacent.java)
