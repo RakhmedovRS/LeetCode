@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 769
+Count of solved tasks: 770
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -284,6 +284,7 @@ Count of solved tasks: 769
 |458|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[PoorPigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[RepeatedSubstringPattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RepeatedSubstringPattern.java)
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[HammingDistance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HammingDistance.java)
+|462|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|[MinimumMovesToEqualArrayElementsII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumMovesToEqualArrayElementsII.java)
 |463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[IslandPerimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IslandPerimeter.java)
 |467|[Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)|[UniqueSubstringsInWraparoundString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueSubstringsInWraparoundString.java)
 |468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[ValidateIPAddress.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidateIPAddress.java)
