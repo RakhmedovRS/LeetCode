@@ -18,7 +18,6 @@ public class MinimumMovesToEqualArrayElementsII
 		{
 			moves += Math.abs(num - nums[middle]);
 		}
-
 		return moves;
 	}
 }
