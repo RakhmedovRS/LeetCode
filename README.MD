@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 774
+Count of solved tasks: 775
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -532,6 +532,7 @@ Count of solved tasks: 774
 |998|[Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/)|[MaximumBinaryTreeII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumBinaryTreeII.java)
 |999|[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/)|[AvailableCapturesForRook.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AvailableCapturesForRook.java)
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[FindCommonCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCommonCharacters.java)
+|1003|[Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)|[CheckIfWordIsValidAfterSubstitutions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfWordIsValidAfterSubstitutions.java)
 |1004|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[MaxConsecutiveOnesIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxConsecutiveOnesIII.java)
 |1006|[Clumsy Factorial](Clumsy Factorial)|[ClumsyFactorial.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClumsyFactorial.java)
 |1008|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|[ConstructBinarySearchTreeFromPreorderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructBinarySearchTreeFromPreorderTraversal.java)
