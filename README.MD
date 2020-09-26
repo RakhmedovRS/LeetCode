@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 776
+Count of solved tasks: 777
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -460,6 +460,7 @@ Count of solved tasks: 776
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[PeakIndexInMountainArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PeakIndexInMountainArray.java)
 |855|[Exam Room](https://leetcode.com/problems/exam-room/)|[ExamRoom.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExamRoom.java)
 |856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|[ScoreOfParentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ScoreOfParentheses.java)
+|859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|[BuddyStrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BuddyStrings.java)
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[LemonadeChange.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LemonadeChange.java)
 |861|[Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/)|[ScoreAfterFlippingMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ScoreAfterFlippingMatrix.java)
 |863|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|[AllNodesDistanceKInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllNodesDistanceKInBinaryTree.java)
