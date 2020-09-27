@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 778
+Count of solved tasks: 779
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -781,3 +781,4 @@ Count of solved tasks: 778
 |1592|[Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|[RearrangeSpacesBetweenWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RearrangeSpacesBetweenWords.java)
 |1593|[Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/)|[SplitStringIntoTheMaxNumberOfUniqueSubstrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitStringIntoTheMaxNumberOfUniqueSubstrings.java)
 |1594|[Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/)|[MaximumNonNegativeProductInMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNonNegativeProductInMatrix.java)
+|1598|[Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/)|[CrawlerLogFolder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CrawlerLogFolder.java)
