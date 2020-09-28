@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 782
+Count of solved tasks: 783
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -404,6 +404,7 @@ Count of solved tasks: 782
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[DesignLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignLinkedList.java)
 |710|[Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/)|[RandomPickWithBlacklist.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RandomPickWithBlacklist.java)
 |712|[Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)|[MinimumASCIIDeleteSumForTwoStrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumASCIIDeleteSumForTwoStrings.java)
+|713|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[SubarrayProductLessThanK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubarrayProductLessThanK.java)
 |714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[BestTimeToBuyAndSellStockWithTransactionFee.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BestTimeToBuyAndSellStockWithTransactionFee.java)
 |717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|[OneBitAndTwoBitCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OneBitAndTwoBitCharacters.java)
 |720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[LongestWordInDictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestWordInDictionary.java)
