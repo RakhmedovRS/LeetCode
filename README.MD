@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 783
+Count of solved tasks: 784
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -366,6 +366,7 @@ Count of solved tasks: 783
 |623|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[AddOneRowToTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddOneRowToTree.java)
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[MaximumProductOfThreeNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfThreeNumbers.java)
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[AverageOfLevelsInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AverageOfLevelsInBinaryTree.java)
+|638|[Shopping Offers](https://leetcode.com/problems/shopping-offers/)|[ShoppingOffers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShoppingOffers.java)
 |641|[Design Circular Deque](https://leetcode.com/problems/design-circular-deque/)|[DesignCircularDeque.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignCircularDeque.java)
 |643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|[MaximumAverageSubarrayI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAverageSubarrayI.java)
 |645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[SetMismatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SetMismatch.java)
