@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 784
+Count of solved tasks: 785
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -503,6 +503,7 @@ Count of solved tasks: 784
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[ValidMountainArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidMountainArray.java)
 |942|[DI String Match](https://leetcode.com/problems/di-string-match/)|[DIStringMatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DIStringMatch.java)
 |945|[Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)|[MinimumIncrementToMakeArrayUnique.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumIncrementToMakeArrayUnique.java)
+|947|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)|[MostStonesRemovedWithSameRowOrColumn.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MostStonesRemovedWithSameRowOrColumn.java)
 |949|[Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/)|[LargestTimeForGivenDigits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestTimeForGivenDigits.java)
 |950|[Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/)|[RevealCardsInIncreasingOrder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RevealCardsInIncreasingOrder.java)
 |952|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)|[LargestComponentSizeByCommonFactor.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestComponentSizeByCommonFactor.java)
