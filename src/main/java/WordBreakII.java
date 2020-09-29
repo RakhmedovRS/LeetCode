@@ -9,41 +9,66 @@ import java.util.*;
 @LeetCode(id = 140, name = "Word Break", url = "https://leetcode.com/problems/word-break-ii/")
 public class WordBreakII
 {
-	public List<String> wordBreak(String s, List<String> wordDict)
+	class TrieNode
 	{
-		return wordBreakHelper(s, 0, new HashSet<>(wordDict), new HashMap<>());
+		TrieNode[] children = new TrieNode[26];
+		boolean isEnd;
 	}
 
-	private List<String> wordBreakHelper(String s, int start, Set<String> dictionary, Map<Integer, List<String>> memo)
+	private TrieNode fillInTheTrie(List<String> wordDict)
 	{
-		if (memo.containsKey(start))
+		TrieNode root = new TrieNode();
+		for (String word : wordDict)
 		{
-			return memo.get(start);
-		}
-
-		List<String> validSubstring = new ArrayList<>();
-
-		if (start == s.length())
-		{
-			validSubstring.add("");
-		}
-
-		for (int end = start + 1; end <= s.length(); end++)
-		{
-			String prefix = s.substring(start, end);
-
-			if (dictionary.contains(prefix))
+			TrieNode node = root;
+			for (char ch : word.toCharArray())
 			{
-				List<String> suffixes = wordBreakHelper(s, end, dictionary, memo);
-
-				for (String suffix : suffixes)
+				if (node.children[ch - 'a'] == null)
 				{
-					validSubstring.add(prefix + (suffix.equals("") ? "" : " ") + suffix);
+					node.children[ch - 'a'] = new TrieNode();
 				}
+				node = node.children[ch - 'a'];
+			}
+			node.isEnd = true;
+		}
+
+		return root;
+	}
+
+	public boolean wordBreak(String s, List<String> wordDict)
+	{
+		TrieNode root = fillInTheTrie(wordDict);
+		return dfs(root, s, 0, new Boolean[s.length() + 1]);
+	}
+
+	private boolean dfs(TrieNode root, String word, int pos, Boolean[] memo)
+	{
+		if (pos == word.length())
+		{
+			return true;
+		}
+
+		if (memo[pos] != null)
+		{
+			return memo[pos];
+		}
+
+		TrieNode node = root;
+		for (int i = pos; i < word.length(); i++)
+		{
+			node = node.children[word.charAt(i) - 'a'];
+			if (node == null)
+			{
+				break;
+			}
+
+			if (node.isEnd && dfs(root, word, i + 1, memo))
+			{
+				return memo[pos] = true;
 			}
 		}
-		memo.put(start, validSubstring);
-		return memo.get(start);
+
+		return memo[pos] = false;
 	}
 
 	public static void main(String[] args)
