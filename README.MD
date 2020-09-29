@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 785
+Count of solved tasks: 786
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -547,6 +547,7 @@ Count of solved tasks: 785
 |1010|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[PairsOfSongsWithTotalDurationsDivisibleBy60.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PairsOfSongsWithTotalDurationsDivisibleBy60.java)
 |1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|[PartitionArrayIntoThreePartsWithEqualSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionArrayIntoThreePartsWithEqualSum.java)
 |1014|[Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)|[BestSightseeingPair.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BestSightseeingPair.java)
+|1015|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[SmallestIntegerDivisibleByK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestIntegerDivisibleByK.java)
 |1018|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|[BinaryPrefixDivisibleBy5.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryPrefixDivisibleBy5.java)
 |1019|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|[NextGreaterNodeInLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterNodeInLinkedList.java)
 |1020|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|[NumberOfEnclaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfEnclaves.java)
