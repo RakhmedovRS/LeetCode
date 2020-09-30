@@ -9,16 +9,21 @@ public class FirstMissingPositive
 {
 	public int firstMissingPositive(int[] nums)
 	{
+		int pos;
+		int temp;
 		for (int i = 0; i < nums.length; i++)
 		{
-			int num = nums[i];
-			int pos = num - 1;
-
-			if (pos >= 0 && pos < nums.length && nums[pos] != num)
+			while (nums[i] != i + 1 && nums[i] >= 1 && nums[i] <= nums.length)
 			{
+				pos = nums[i] - 1;
+				if (nums[pos] == pos + 1)
+				{
+					break;
+				}
+
+				temp = nums[i];
 				nums[i] = nums[pos];
-				nums[pos] = num;
-				i--;
+				nums[pos] = temp;
 			}
 		}
 
@@ -29,7 +34,6 @@ public class FirstMissingPositive
 				return i + 1;
 			}
 		}
-
 		return nums.length + 1;
 	}
 }
