@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 787
+Count of solved tasks: 788
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -782,6 +782,7 @@ Count of solved tasks: 787
 |1582|[Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)|[SpecialPositionsInBinaryMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SpecialPositionsInBinaryMatrix.java)
 |1583|[Count Unhappy Friends](https://leetcode.com/problems/count-unhappy-friends/)|[CountUnhappyFriends.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountUnhappyFriends.java)
 |1584|[Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|[MinCostToConnectAllPoints.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinCostToConnectAllPoints.java)
+|1585|[Check If String Is Transformable With Substring Sort Operations](https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations/)|[CheckIfStringIsTransformableWithSubstringSortOperations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfStringIsTransformableWithSubstringSortOperations.java)
 |1588|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[SumOfAllOddLengthSubarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfAllOddLengthSubarrays.java)
 |1589|[Maximum Sum Obtained of Any Permutation](https://leetcode.com/problems/maximum-sum-obtained-of-any-permutation/)|[MaximumSumObtainedOfAnyPermutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSumObtainedOfAnyPermutation.java)
 |1592|[Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|[RearrangeSpacesBetweenWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RearrangeSpacesBetweenWords.java)
