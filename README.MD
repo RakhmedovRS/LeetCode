@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 789
+Count of solved tasks: 790
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -281,6 +281,7 @@ Count of solved tasks: 789
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[SortCharactersByFrequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortCharactersByFrequency.java)
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[MinimumNumberOfArrowsToBurstBalloons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfArrowsToBurstBalloons.java)
 |454|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[FourSumII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FourSumII.java)
+|455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|[AssignCookies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AssignCookies.java)
 |456|[132 Pattern](https://leetcode.com/problems/132-pattern/)|[OneTwoThreePattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OneTwoThreePattern.java)
 |457|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|[CircularArrayLoop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CircularArrayLoop.java)
 |458|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[PoorPigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)
