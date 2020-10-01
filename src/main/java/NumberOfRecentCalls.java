@@ -1,6 +1,8 @@
 import common.LeetCode;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 /**
  * @author RakhmedovRS
@@ -12,21 +14,24 @@ public class NumberOfRecentCalls
 	class RecentCounter
 	{
 
-		LinkedList<Integer> list;
+		List<Integer> calls;
+		int pos;
+
 		public RecentCounter()
 		{
-			list = new LinkedList<>();
+			pos = 0;
+			calls = new ArrayList<>();
 		}
 
 		public int ping(int t)
 		{
-			list.addLast(t);
-			while (list.getFirst() < t - 3000)
+			calls.add(t);
+			while (pos < calls.size() && calls.get(pos) < t - 3000)
 			{
-				list.removeFirst();
+				pos++;
 			}
 
-			return list.size();
+			return calls.size() - pos;
 		}
 	}
 }
