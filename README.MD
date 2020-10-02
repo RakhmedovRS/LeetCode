@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 791
+Count of solved tasks: 792
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -35,6 +35,7 @@ Count of solved tasks: 791
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[ValidSudoku.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidSudoku.java)
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|[SudokuSolver.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SudokuSolver.java)
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/)|[CountAndSay.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountAndSay.java)
+|39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[CombinationSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CombinationSum.java)
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[FirstMissingPositive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstMissingPositive.java)
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[TrappingRainWater.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TrappingRainWater.java)
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[WildcardMatching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WildcardMatching.java)
