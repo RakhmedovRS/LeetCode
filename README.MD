@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 793
+Count of solved tasks: 794
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -491,6 +491,7 @@ Count of solved tasks: 793
 |900|[RLE Iterator](https://leetcode.com/problems/rle-iterator/)|[RLEIterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RLEIterator.java)
 |901|[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[OnlineStockSpan.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OnlineStockSpan.java)
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[SortArrayByParity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortArrayByParity.java)
+|907|[Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|[SumOfSubarrayMinimums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfSubarrayMinimums.java)
 |908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|[SmallestRangeI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestRangeI.java)
 |914|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)|[XOfKindInDeckOfCards.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/XOfKindInDeckOfCards.java)
 |915|[Word Subsets](https://leetcode.com/problems/word-subsets/)|[WordSubsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordSubsets.java)
