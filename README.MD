@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 794
+Count of solved tasks: 795
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -797,3 +797,4 @@ Count of solved tasks: 794
 |1598|[Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/)|[CrawlerLogFolder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CrawlerLogFolder.java)
 |1599|[Maximum Profit of Operating a Centennial Wheel](https://leetcode.com/problems/maximum-profit-of-operating-a-centennial-wheel/)|[MaximumProfitOfOperatingCentennialWheel.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProfitOfOperatingCentennialWheel.java)
 |1600|[Throne Inheritance](https://leetcode.com/problems/throne-inheritance/)|[ThroneInheritance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThroneInheritance.java)
+|1606|[Find Servers That Handled Most Number of Requests](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/)|[FindServersThatHandledMostNumberOfRequests.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindServersThatHandledMostNumberOfRequests.java)
