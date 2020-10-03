@@ -1,7 +1,6 @@
 import common.LeetCode;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author RakhmedovRS
@@ -12,39 +11,26 @@ public class KdiffPairsInArray
 {
 	public int findPairs(int[] nums, int k)
 	{
-		if (nums == null || nums.length <= 1 || k < 0)
-		{
-			return 0;
-		}
-
 		int pairs = 0;
-		Map<Long, Integer> memo = new HashMap<>();
-		for (int i = 0; i < nums.length; i++)
+		Arrays.sort(nums);
+		Map<Integer, Set<Integer>> used = new HashMap<>();
+		Set<Integer> numbers = new HashSet<>();
+		int searchValue;
+		for (int num : nums)
 		{
-			memo.put((long) nums[i], memo.getOrDefault((long) nums[i], 0) + 1);
-		}
+			searchValue = num - k;
+			if (numbers.contains(searchValue))
+			{
+				if (used.containsKey(searchValue) && used.get(searchValue).contains(num))
+				{
+					continue;
+				}
+				pairs++;
+				used.putIfAbsent(searchValue, new HashSet<>());
+				used.get(searchValue).add(num);
+			}
 
-		if (k == 0)
-		{
-			for (Integer value : memo.values())
-			{
-				if (value >= 2)
-				{
-					pairs++;
-				}
-			}
-		}
-		else
-		{
-			for (int i = nums.length - 1; i >= 0; i--)
-			{
-				Long target = ((long) nums[i]) + k;
-				if (memo.containsKey(target))
-				{
-					pairs++;
-					memo.remove(target);
-				}
-			}
+			numbers.add(num);
 		}
 
 		return pairs;
