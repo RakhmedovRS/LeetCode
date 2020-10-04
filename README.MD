@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 799
+Count of solved tasks: 800
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -801,4 +801,5 @@ Count of solved tasks: 799
 |1604|[Alert Using Same Key-Card Three or More Times in a One Hour Period](https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)|[AlertUsingSameKeyCardThreeOrMoreTimesInOneHourPeriod.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AlertUsingSameKeyCardThreeOrMoreTimesInOneHourPeriod.java)
 |1606|[Find Servers That Handled Most Number of Requests](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/)|[FindServersThatHandledMostNumberOfRequests.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindServersThatHandledMostNumberOfRequests.java)
 |1608|[Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)|[SpecialArrayWithXElementsGreaterThanOrEqualX.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SpecialArrayWithXElementsGreaterThanOrEqualX.java)
+|1609|[Even Odd Tree](https://leetcode.com/problems/even-odd-tree/)|[EvenOddTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EvenOddTree.java)
 |1611|[Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/)|[MinimumOneBitOperationsToMakeIntegersZero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOneBitOperationsToMakeIntegersZero.java)
