@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 797
+Count of solved tasks: 798
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -800,3 +800,4 @@ Count of solved tasks: 797
 |1603|[Design Parking System](https://leetcode.com/problems/design-parking-system/)|[DesignParkingSystem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignParkingSystem.java)
 |1604|[Alert Using Same Key-Card Three or More Times in a One Hour Period](https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)|[AlertUsingSameKeyCardThreeOrMoreTimesInOneHourPeriod.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AlertUsingSameKeyCardThreeOrMoreTimesInOneHourPeriod.java)
 |1606|[Find Servers That Handled Most Number of Requests](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/)|[FindServersThatHandledMostNumberOfRequests.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindServersThatHandledMostNumberOfRequests.java)
+|1611|[Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/)|[MinimumOneBitOperationsToMakeIntegersZero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOneBitOperationsToMakeIntegersZero.java)
