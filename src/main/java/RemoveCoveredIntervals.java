@@ -1,6 +1,8 @@
 import common.LeetCode;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author RakhmedovRS
@@ -11,32 +13,29 @@ public class RemoveCoveredIntervals
 {
 	public int removeCoveredIntervals(int[][] intervals)
 	{
-		if (intervals == null || intervals.length == 0)
+		Arrays.sort(intervals, (i1, i2) -> i1[0] == i2[0] ? i2[1] - i1[1] : i1[0] - i2[0]);
+		List<int[]> intervalsList = new ArrayList<>();
+		int[] prev;
+		for (int[] interval : intervals)
 		{
-			return 0;
-		}
-
-		Arrays.sort(intervals, (arr1, arr2) ->
-		{
-			if (arr1[0] == arr2[0])
+			if (intervalsList.isEmpty())
 			{
-				return arr2[1] - arr1[1];
+				intervalsList.add(interval);
+				continue;
 			}
-			return arr1[0] - arr2[0];
-		});
 
-		int[] previous = intervals[0];
-		int uncovered = 1;
-		for (int i = 1; i < intervals.length; i++)
-		{
-			int[] current = intervals[i];
-			if (previous[1] < current[1])
+			prev = intervalsList.get(intervalsList.size() - 1);
+			if (prev[0] <= interval[0] && interval[1] <= prev[1])
 			{
-				previous = current;
-				uncovered++;
+				prev[0] = Math.min(prev[0], interval[0]);
+				prev[1] = Math.max(prev[1], interval[1]);
+			}
+			else
+			{
+				intervalsList.add(interval);
 			}
 		}
 
-		return uncovered;
+		return intervalsList.size();
 	}
 }
