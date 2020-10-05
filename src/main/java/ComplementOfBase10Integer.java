@@ -13,16 +13,19 @@ public class ComplementOfBase10Integer
 		{
 			return 1;
 		}
+
+		boolean seen = false;
 		int complement = 0;
-		int pos = 0;
-		int bit;
-		while (N > 0)
+		for (int i = 31; i >= 0; i--)
 		{
-			bit = N & 1;
-			bit = Math.abs(bit - 1);
-			complement = (complement ^ (bit << pos));
-			N >>= 1;
-			pos++;
+			if (seen || (N & (N & 1 << i)) != 0)
+			{
+				if ((N & (1 << i)) == 0)
+				{
+					complement ^= 1 << i;
+				}
+				seen = true;
+			}
 		}
 
 		return complement;
