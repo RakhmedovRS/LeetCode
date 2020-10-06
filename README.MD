@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 803
+Count of solved tasks: 804
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -600,6 +600,7 @@ Count of solved tasks: 803
 |1115|[Print FooBar Alternately](https://leetcode.com/problems/print-foobar-alternately/)|[PrintFooBarAlternately.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintFooBarAlternately.java)
 |1117|[Building H2O](https://leetcode.com/problems/building-h2o/)|[BuildingH2O.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BuildingH2O.java)
 |1122|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[RelativeSortArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RelativeSortArray.java)
+|1124|[Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|[LongestWellPerformingInterval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestWellPerformingInterval.java)
 |1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|[NumberOfEquivalentDominoPairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfEquivalentDominoPairs.java)
 |1130|[Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)|[MinimumCostTreeFromLeafValues.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostTreeFromLeafValues.java)
 |1138|[Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/)|[AlphabetBoardPath.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AlphabetBoardPath.java)
