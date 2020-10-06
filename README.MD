@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 802
+Count of solved tasks: 803
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -487,6 +487,7 @@ Count of solved tasks: 802
 |890|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)|[FindAndReplacePattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAndReplacePattern.java)
 |892|[Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/)|[SurfaceAreaOf3DShapes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SurfaceAreaOf3DShapes.java)
 |894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/)|[AllPossibleFullBinaryTrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllPossibleFullBinaryTrees.java)
+|895|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|[MaximumFrequencyStack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumFrequencyStack.java)
 |897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[IncreasingOrderSearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingOrderSearchTree.java)
 |899|[Orderly Queue](https://leetcode.com/problems/orderly-queue/)|[OrderlyQueue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OrderlyQueue.java)
 |900|[RLE Iterator](https://leetcode.com/problems/rle-iterator/)|[RLEIterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RLEIterator.java)
