@@ -18,22 +18,17 @@ public class DeleteNodeInBST
 
 		if (root.val == key)
 		{
-			if (root.left == null && root.right == null)
+			if (root.left == null)
 			{
-				return null;
+				return root.right;
 			}
 			else if (root.right == null)
 			{
 				return root.left;
 			}
-			else if (root.left == null)
-			{
-				return root.right;
-			}
 			else
 			{
-				TreeNode min = findMin(root.right);
-				root.val = min.val;
+				root.val = findMin(root.right);
 				root.right = deleteNode(root.right, root.val);
 			}
 		}
@@ -49,13 +44,14 @@ public class DeleteNodeInBST
 		return root;
 	}
 
-	private TreeNode findMin(TreeNode treeNode)
+	private int findMin(TreeNode treeNode)
 	{
 		while (treeNode.left != null)
 		{
 			treeNode = treeNode.left;
 		}
-		return treeNode;
+
+		return treeNode.val;
 	}
 
 	public static void main(String[] args)
