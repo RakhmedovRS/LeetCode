@@ -15,13 +15,13 @@ public class InsertIntoBinarySearchTree
 			return new TreeNode(val);
 		}
 
-		if (root.val > val)
-		{
-			root.left = insertIntoBST(root.left, val);
-		}
-		else
+		if (val > root.val)
 		{
 			root.right = insertIntoBST(root.right, val);
+		}
+		else if (val < root.val)
+		{
+			root.left = insertIntoBST(root.left, val);
 		}
 
 		return root;
