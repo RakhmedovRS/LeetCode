@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 806
+Count of solved tasks: 807
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -54,6 +54,7 @@ Count of solved tasks: 806
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[SpiralMatrixII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SpiralMatrixII.java)
 |60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|[PermutationSequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PermutationSequence.java)
 |60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|[PermutationSequence1.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PermutationSequence1.java)
+|61|[Rotate List](https://leetcode.com/problems/rotate-list/)|[RotateList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotateList.java)
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[GridUniquePaths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GridUniquePaths.java)
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[UniquePaths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniquePaths.java)
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[UniquePathsII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniquePathsII.java)
