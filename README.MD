@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 805
+Count of solved tasks: 806
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -503,6 +503,7 @@ Count of solved tasks: 805
 |926|[Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/)|[FlipStringToMonotoneIncreasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlipStringToMonotoneIncreasing.java)
 |926|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|[LongPressedName.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongPressedName.java)
 |929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|[UniqueEmailAddresses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueEmailAddresses.java)
+|930|[Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)|[BinarySubarraysWithSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySubarraysWithSum.java)
 |931|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|[MinimumFallingPathSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumFallingPathSum.java)
 |933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[NumberOfRecentCalls.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfRecentCalls.java)
 |934|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)|[ShortestBridge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestBridge.java)
