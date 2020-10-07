@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 804
+Count of solved tasks: 805
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -680,6 +680,7 @@ Count of solved tasks: 804
 |1353|[Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)|[MaximumNumberOfEventsThatCanBeAttended.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfEventsThatCanBeAttended.java)
 |1356|[Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)|[SortIntegersByTheNumberOf1Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortIntegersByTheNumberOf1Bits.java)
 |1357|[Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/)|[ApplyDiscountEveryNOrders.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ApplyDiscountEveryNOrders.java)
+|1358|[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)|[NumberOfSubstringsContainingAllThreeCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfSubstringsContainingAllThreeCharacters.java)
 |1360|[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|[NumberOfDaysBetweenTwoDates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfDaysBetweenTwoDates.java)
 |1361|[Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)|[ValidateBinaryTreeNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidateBinaryTreeNodes.java)
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[HowManyNumbersAreSmallerThanCurrentNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HowManyNumbersAreSmallerThanCurrentNumber.java)
