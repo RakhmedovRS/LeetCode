@@ -9,28 +9,23 @@ public class BinarySearch
 {
 	public int search(int[] nums, int target)
 	{
-		if (nums == null || nums.length == 0)
-		{
-			return -1;
-		}
-
 		int left = 0;
+		int mid;
 		int right = nums.length - 1;
-		int middle;
 		while (left <= right)
 		{
-			middle = left + (right - left) / 2;
-			if (nums[middle] == target)
+			mid = left + (right - left) / 2;
+			if (nums[mid] == target)
 			{
-				return middle;
+				return mid;
 			}
-			else if (nums[middle] > target)
+			else if (nums[mid] > target)
 			{
-				right = middle - 1;
+				right = mid - 1;
 			}
 			else
 			{
-				left = middle + 1;
+				left = mid + 1;
 			}
 		}
 
