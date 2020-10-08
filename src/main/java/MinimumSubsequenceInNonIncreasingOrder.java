@@ -1,9 +1,6 @@
 import common.LeetCode;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.PriorityQueue;
+import java.util.*;
 
 /**
  * @author RakhmedovRS
@@ -14,24 +11,24 @@ public class MinimumSubsequenceInNonIncreasingOrder
 {
 	public List<Integer> minSubsequence(int[] nums)
 	{
-		PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Comparator.reverseOrder());
 		int sum = 0;
 		for (int num : nums)
 		{
 			if (num > 0)
 			{
 				sum += num;
-				maxHeap.add(num);
 			}
 		}
 
+		Arrays.sort(nums);
+
 		List<Integer> answer = new ArrayList<>();
 		int currentSum = 0;
-		while (!maxHeap.isEmpty())
+		for (int i = nums.length - 1; i >= 0; i--)
 		{
-			answer.add(maxHeap.peek());
-			currentSum += maxHeap.peek();
-			sum -= maxHeap.remove();
+			currentSum += nums[i];
+			sum -= nums[i];
+			answer.add(nums[i]);
 			if (currentSum > sum)
 			{
 				break;
