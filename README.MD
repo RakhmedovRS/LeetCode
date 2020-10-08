@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 808
+Count of solved tasks: 809
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -706,6 +706,7 @@ Count of solved tasks: 808
 |1395|[Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)|[CountNumberOfTeams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountNumberOfTeams.java)
 |1396|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|[DesignUndergroundSystem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignUndergroundSystem.java)
 |1399|[Count Largest Group](https://leetcode.com/problems/count-largest-group/)|[CountLargestGroup.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountLargestGroup.java)
+|1403|[Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/)|[MinimumSubsequenceInNonIncreasingOrder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSubsequenceInNonIncreasingOrder.java)
 |1405|[Longest Happy String](https://leetcode.com/problems/longest-happy-string/)|[LongestHappyString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestHappyString.java)
 |1408|[String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)|[StringMatchingInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringMatchingInArray.java)
 |1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|[MinimumValueoToGetPositiveStepByStepSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumValueoToGetPositiveStepByStepSum.java)
