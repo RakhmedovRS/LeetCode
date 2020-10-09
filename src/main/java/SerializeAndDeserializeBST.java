@@ -8,50 +8,64 @@ import common.TreeNode;
 @LeetCode(id = 449, name = "Serialize and Deserialize BST", url = "https://leetcode.com/problems/serialize-and-deserialize-bst/")
 public class SerializeAndDeserializeBST
 {
-	public String serialize(TreeNode root)
+	public class Codec
 	{
-		if (root == null)
+		private final String NULL = "n";
+
+		// Encodes a tree to a single string.
+		public String serialize(TreeNode root)
 		{
-			return "null";
+			StringBuilder sb = new StringBuilder();
+			preorder(root, sb);
+			return sb.toString();
 		}
 
-		StringBuilder stringBuilder = new StringBuilder();
-		serialize(root, stringBuilder);
-		return stringBuilder.toString();
-	}
-
-	public void serialize(TreeNode root, StringBuilder stringBuilder)
-	{
-		if (root == null)
+		// Decodes your encoded data to tree.
+		public TreeNode deserialize(String data)
 		{
-			stringBuilder.append("null");
-			return;
+			String[] nodes = data.split(",");
+			return buildTree(nodes, new int[]{0});
 		}
 
-		stringBuilder.append(root.val);
-		stringBuilder.append(",");
-		serialize(root.left, stringBuilder);
-		stringBuilder.append(",");
-		serialize(root.right, stringBuilder);
-	}
-
-	public TreeNode deserialize(String data)
-	{
-		String[] nodes = data.split(",");
-		return buildTree(nodes, new int[]{0});
-	}
-
-	private TreeNode buildTree(String[] nodes, int[] index)
-	{
-		if ("null".equals(nodes[index[0]]))
+		private void preorder(TreeNode root, StringBuilder sb)
 		{
-			index[0]++;
-			return null;
+			if (root == null)
+			{
+				if (sb.length() > 0)
+				{
+					sb.append(",");
+				}
+
+				sb.append(NULL);
+				return;
+			}
+
+			if (sb.length() > 0)
+			{
+				sb.append(",");
+			}
+			sb.append(root.val);
+			preorder(root.left, sb);
+			preorder(root.right, sb);
 		}
 
-		TreeNode treeNode = new TreeNode(Integer.parseInt(nodes[index[0]++]));
-		treeNode.left = buildTree(nodes, index);
-		treeNode.right = buildTree(nodes, index);
-		return treeNode;
+		private TreeNode buildTree(String[] nodes, int[] pos)
+		{
+			if (pos[0] == nodes.length)
+			{
+				return null;
+			}
+
+			if (NULL.equals(nodes[pos[0]]))
+			{
+				pos[0]++;
+				return null;
+			}
+
+			TreeNode node = new TreeNode(Integer.parseInt(nodes[pos[0]++]));
+			node.left = buildTree(nodes, pos);
+			node.right = buildTree(nodes, pos);
+			return node;
+		}
 	}
 }
