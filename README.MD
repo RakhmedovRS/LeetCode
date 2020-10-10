@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 812
+Count of solved tasks: 813
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -367,6 +367,7 @@ Count of solved tasks: 812
 |609|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|[FindDuplicateFileInSystem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindDuplicateFileInSystem.java)
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[MergeTwoBinaryTrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeTwoBinaryTrees.java)
 |621|[Task Scheduler](https://leetcode.com/problems/task-scheduler/)|[TaskScheduler.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TaskScheduler.java)
+|622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|[DesignCircularQueue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignCircularQueue.java)
 |623|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[AddOneRowToTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddOneRowToTree.java)
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[MaximumProductOfThreeNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfThreeNumbers.java)
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[AverageOfLevelsInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AverageOfLevelsInBinaryTree.java)
