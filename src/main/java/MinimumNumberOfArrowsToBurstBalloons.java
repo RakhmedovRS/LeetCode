@@ -16,33 +16,60 @@ public class MinimumNumberOfArrowsToBurstBalloons
 			return 0;
 		}
 
-		Arrays.sort(points, (a1, a2) ->
+		Arrays.sort(points, (p1, p2) ->
 		{
-			if (a1[0] == a2[0])
+			if (p1[1] == p2[1])
 			{
-				return a1[1] - a2[1];
+				return Long.compare(p1[0], p2[0]);
 			}
-			return a1[0] - a2[0];
+
+			return Long.compare(p1[1], p2[1]);
 		});
 
-		int pos = 0;
-		int maxEnd = points[pos][1];
-		int arrows = 1;
-		while (pos < points.length)
+		int count = 1;
+		int prev = 0;
+		for (int i = 1; i < points.length; i++)
 		{
-			while (pos < points.length && points[pos][0] <= maxEnd)
+			if (points[i][0] <= points[prev][1])
 			{
-				maxEnd = Math.min(maxEnd, points[pos][1]);
-				pos++;
+				continue;
 			}
-
-			if (pos < points.length)
+			else
 			{
-				maxEnd = points[pos][1];
-				arrows++;
+				count++;
+				prev = i;
 			}
 		}
 
-		return arrows;
+		return count;
+	}
+
+	public static void main(String[] args)
+	{
+		System.out.println(new MinimumNumberOfArrowsToBurstBalloons().findMinArrowShots(new int[][]{
+			{Integer.MIN_VALUE,Integer.MIN_VALUE},
+			{Integer.MAX_VALUE,Integer.MAX_VALUE},
+		}));
+
+		System.out.println(new MinimumNumberOfArrowsToBurstBalloons().findMinArrowShots(new int[][]{
+			{1,2},
+			{2,3},
+			{3,4},
+			{4,5}
+		}));
+
+		System.out.println(new MinimumNumberOfArrowsToBurstBalloons().findMinArrowShots(new int[][]{
+			{1,2},
+			{3,4},
+			{5,6},
+			{7,8}
+		}));
+
+		System.out.println(new MinimumNumberOfArrowsToBurstBalloons().findMinArrowShots(new int[][]{
+			{10,16},
+			{2,8},
+			{1,6},
+			{7,12}
+		}));
 	}
 }
