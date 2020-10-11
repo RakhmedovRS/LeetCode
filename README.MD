@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 815
+Count of solved tasks: 816
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -817,4 +817,5 @@ Count of solved tasks: 815
 |1609|[Even Odd Tree](https://leetcode.com/problems/even-odd-tree/)|[EvenOddTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EvenOddTree.java)
 |1611|[Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/)|[MinimumOneBitOperationsToMakeIntegersZero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOneBitOperationsToMakeIntegersZero.java)
 |1614|[Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)|[MaximumNestingDepthOfTheParentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNestingDepthOfTheParentheses.java)
+|1615|[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|[MaximalNetworkRank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximalNetworkRank.java)
 |1616|[Split Two Strings to Make Palindrome](https://leetcode.com/problems/split-two-strings-to-make-palindrome/)|[SplitTwoStringsToMakePalindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitTwoStringsToMakePalindrome.java)
