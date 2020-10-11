@@ -19,31 +19,30 @@ public class RemoveDuplicateLetters
 			memo[ch - 'a']++;
 		}
 
-		boolean[] seen = new boolean[26];
-		Deque<Character> deque = new LinkedList<>();
+		LinkedList<Character> deque = new LinkedList<>();
+		boolean[] used = new boolean[26];
 		for (char ch : chars)
 		{
 			memo[ch - 'a']--;
-			if (seen[ch - 'a'])
+			if (used[ch - 'a'])
 			{
 				continue;
 			}
 
-			while (!deque.isEmpty() && deque.peek() > ch && memo[deque.peek() - 'a'] > 0)
+			while (!deque.isEmpty() && ch < deque.peek() && memo[deque.getFirst() - 'a'] > 0)
 			{
-				seen[deque.pop() - 'a'] = false;
+				used[deque.removeFirst() - 'a'] = false;
 			}
 
-			deque.push(ch);
-			seen[ch - 'a'] = true;
+			deque.addFirst(ch);
+			used[ch - 'a'] = true;
 		}
 
-		StringBuilder sb = new StringBuilder();
-		while (!deque.isEmpty())
+		StringBuilder sb = new StringBuilder(26);
+		for (Character ch : deque)
 		{
-			sb.append(deque.removeLast());
+			sb.append(ch);
 		}
-
-		return sb.toString();
+		return sb.reverse().toString();
 	}
 }
