@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 816
+Count of solved tasks: 817
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -379,6 +379,7 @@ Count of solved tasks: 816
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[PalindromicSubstrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromicSubstrings.java)
 |648|[Replace Words](https://leetcode.com/problems/replace-words/)|[ReplaceWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceWords.java)
 |650|[Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)|[TwoKeysKeyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoKeysKeyboard.java)
+|652|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/)|[FindDuplicateSubtrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindDuplicateSubtrees.java)
 |654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|[MaximumBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumBinaryTree.java)
 |655|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|[PrintBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintBinaryTree.java)
 |661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|[ImageSmoother.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImageSmoother.java)
