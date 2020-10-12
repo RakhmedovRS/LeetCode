@@ -1,7 +1,5 @@
 import common.LeetCode;
 
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author RakhmedovRS
@@ -12,45 +10,70 @@ public class BuddyStrings
 {
 	public boolean buddyStrings(String A, String B)
 	{
-		if (A.length() != B.length())
+		if (A.length() != B.length() || A.length() < 2)
 		{
 			return false;
 		}
 
-		if (A.equals(B))
+		char[] charsA = A.toCharArray();
+		char[] charsB = B.toCharArray();
+		int[] memo = new int[26];
+		for (char ch : charsA)
 		{
-			int[] memo = new int[26];
-			for (char ch : A.toCharArray())
+			memo[ch - 'a']++;
+		}
+
+		for (char ch : charsB)
+		{
+			memo[ch - 'a']--;
+		}
+
+		for (int i = 0; i < 26; i++)
+		{
+			if (memo[i] != 0)
 			{
-				if (memo[ch - 'a'] >= 1)
+				return false;
+			}
+		}
+
+		int mismatches = 0;
+		memo = new int[26];
+		for (int i = 0; i < charsA.length; i++)
+		{
+			if (charsA[i] != charsB[i])
+			{
+				mismatches++;
+				memo[charsA[i] - 'a']++;
+				memo[charsB[i] - 'a']--;
+			}
+		}
+
+		if (mismatches == 0)
+		{
+			memo = new int[26];
+			for (char ch : charsA)
+			{
+				if (++memo[ch - 'a'] == 2)
 				{
 					return true;
 				}
-				memo[ch - 'a']++;
 			}
-
+		}
+		else if (mismatches != 2)
+		{
 			return false;
 		}
-		else
-		{
-			List<Character> aList = new ArrayList<>();
-			List<Character> bList = new ArrayList<>();
-			for (int i = 0; i < A.length(); i++)
-			{
-				char aChar = A.charAt(i);
-				char bChar = B.charAt(i);
-				if (aChar != bChar)
-				{
-					aList.add(aChar);
-					bList.add(bChar);
-				}
-			}
 
-			return aList.size() == bList.size()
-				&& aList.size() == 2
-				&& aList.get(0).equals(bList.get(1))
-				&& bList.get(0).equals(aList.get(1));
+		for (int i = 0; i < 26; i++)
+		{
+			if (memo[i] != 0)
+			{
+				return false;
+			}
 		}
+
+
+		return true;
 	}
 
 	public static void main(String[] args)
