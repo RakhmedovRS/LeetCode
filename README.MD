@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 817
+Count of solved tasks: 818
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -447,6 +447,7 @@ Count of solved tasks: 817
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)|[RotateString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotateString.java)
 |797|[All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)|[AllPathsFromSourceToTarget.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllPathsFromSourceToTarget.java)
 |799|[Champagne Tower](https://leetcode.com/problems/champagne-tower/)|[ChampagneTower.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ChampagneTower.java)
+|801|[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/)|[MinimumSwapsToMakeSequencesIncreasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSwapsToMakeSequencesIncreasing.java)
 |802|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)|[FindEventualSafeStates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindEventualSafeStates.java)
 |806|[Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/)|[NumberOfLinesToWriteString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfLinesToWriteString.java)
 |809|[Expressive Words](https://leetcode.com/problems/expressive-words/)|[ExpressiveWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExpressiveWords.java)
