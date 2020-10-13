@@ -8,62 +8,93 @@ import common.ListNode;
 @LeetCode(id = 148, name = "Sort List", url = "https://leetcode.com/problems/sort-list/")
 public class SortList
 {
-public ListNode sortList(ListNode head)
+	public ListNode sortList(ListNode head)
 	{
-		if (head == null || head.next == null)
+		int size = 0;
+		ListNode temp = head;
+		while (temp != null)
+		{
+			size++;
+			temp = temp.next;
+		}
+
+		return sortList(head, 0, size - 1);
+	}
+
+	private ListNode sortList(ListNode head, int left, int right)
+	{
+		if (left >= right)
 		{
 			return head;
 		}
 
-		ListNode slow = head;
-		ListNode fast = head.next.next;
-		while (fast != null && fast.next != null)
+		ListNode nodeA = head;
+		ListNode currentA = head;
+		ListNode nodeB = null;
+		int middle = left + (right - left) / 2;
+
+		for (int i = left; i < middle; i++)
 		{
-			slow = slow.next;
-			fast = fast.next.next;
+			currentA = currentA.next;
 		}
 
-		ListNode right = slow.next;
-		slow.next = null;
+		if (currentA != null)
+		{
+			nodeB = currentA.next;
+			currentA.next = null;
+		}
 
-		ListNode first = sortList(head);
-		ListNode second = sortList(right);
-		return merge(first, second);
+		nodeA = sortList(nodeA, left, middle);
+		nodeB = sortList(nodeB, middle + 1, right);
+
+		return merge(nodeA, nodeB);
 	}
 
-	private ListNode merge(ListNode head1, ListNode head2)
+	private ListNode merge(ListNode nodeA, ListNode nodeB)
 	{
-		ListNode dummy = new ListNode(1);
-		ListNode prev = dummy;
-		while (head1 != null && head2 != null)
+		if (nodeA == null)
 		{
-			if (head1.val > head2.val)
+			return nodeB;
+		}
+
+		if (nodeB == null)
+		{
+			return nodeA;
+		}
+
+		ListNode dummy = new ListNode();
+		ListNode current = dummy;
+		while (nodeA != null && nodeB != null)
+		{
+			if (nodeA.val < nodeB.val)
 			{
-				prev.next = head2;
-				prev = head2;
-				head2 = head2.next;
+				current.next = nodeA;
+				current = current.next;
+				nodeA = nodeA.next;
 			}
 			else
 			{
-				prev.next = head1;
-				prev = head1;
-				head1 = head1.next;
+				current.next = nodeB;
+				current = current.next;
+				nodeB = nodeB.next;
 			}
 		}
 
-		while (head1 != null)
+		while (nodeA != null)
 		{
-			prev.next = head1;
-			prev = head1;
-			head1 = head1.next;
+			current.next = nodeA;
+			current = current.next;
+			nodeA = nodeA.next;
 		}
 
-		while (head2 != null)
+		while (nodeB != null)
 		{
-			prev.next = head2;
-			prev = head2;
-			head2 = head2.next;
+			current.next = nodeB;
+			current = current.next;
+			nodeB = nodeB.next;
 		}
+
+		current.next = null;
 
 		return dummy.next;
 	}
