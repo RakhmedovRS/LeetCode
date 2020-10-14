@@ -9,7 +9,7 @@ public class HouseRobber
 {
 	public int rob(int[] nums)
 	{
-		if (nums.length == 0)
+		if (nums == null || nums.length == 0)
 		{
 			return 0;
 		}
@@ -17,21 +17,23 @@ public class HouseRobber
 		{
 			return nums[0];
 		}
-
-		int max = Math.max(nums[0], nums[1]);
-		int[] memo = new int[nums.length];
-		memo[0] = nums[0];
-		memo[1] = nums[1];
-		for (int i = 2; i < nums.length; i++)
+		else if (nums.length == 2)
 		{
-			for (int j = 0; j < i - 1; j++)
-			{
-				memo[i] = Math.max(memo[i], memo[j] + nums[i]);
-				max = Math.max(max, memo[i]);
-			}
+			return Math.max(nums[0], nums[1]);
 		}
+		else
+		{
+			int[] skip = new int[nums.length];
+			int[] take = new int[nums.length];
+			take[0] = nums[0];
+			for (int i = 1; i < nums.length; i++)
+			{
+				take[i] = nums[i] + skip[i - 1];
+				skip[i] = Math.max(take[i - 1], skip[i - 1]);
+			}
 
-		return max;
+			return Math.max(skip[nums.length - 1], take[nums.length - 1]);
+		}
 	}
 
 	public static void main(String[] args)
