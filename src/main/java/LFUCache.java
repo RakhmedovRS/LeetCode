@@ -36,8 +36,8 @@ public class LFUCache
 		public Level(int level)
 		{
 			this.level = level;
-			head = new Link(Integer.MIN_VALUE, Integer.MIN_VALUE);
-			tail = new Link(Integer.MAX_VALUE, Integer.MAX_VALUE);
+			head = new Link(Integer.MIN_VALUE, Integer.MIN_VALUE); // I use this value as a marker of the head
+			tail = new Link(Integer.MAX_VALUE, Integer.MAX_VALUE); // I use this value as a marker of the tail
 
 			head.next = tail;
 			tail.prev = head;
@@ -70,6 +70,10 @@ public class LFUCache
 
 		Link prev = link.prev;
 		Link next = link.next;
+		/**
+		 * this section checks whether we need to delete entire level
+		 * here is possible bug
+		 */
 		if (prev.value == Integer.MIN_VALUE && next.value == Integer.MAX_VALUE)
 		{
 			minHeap.remove(link.rank - 1);
@@ -132,6 +136,10 @@ public class LFUCache
 
 				prev.next = next;
 				next.prev = prev;
+				/**
+				 * this section checks whether we need to delete entire level
+				 * here is possible bug
+				 */
 				if (prev.value == Integer.MIN_VALUE && next.value == Integer.MAX_VALUE)
 				{
 					levelMap.remove(level.level);
@@ -176,5 +184,28 @@ public class LFUCache
 
 			put(key, value);
 		}
+	}
+
+	public static void main(String[] args)
+	{
+		LFUCache lfuCache = new LFUCache(10);
+		lfuCache.put(1, 1);
+		lfuCache.put(2, 2);
+		lfuCache.put(3, 3);
+		lfuCache.put(4, 4);
+		lfuCache.put(5, 5);
+		lfuCache.put(Integer.MAX_VALUE, Integer.MAX_VALUE); // trying to imitate the tail
+		lfuCache.put(7, 7);
+		lfuCache.put(Integer.MIN_VALUE, Integer.MIN_VALUE); // trying to imitate the head
+		lfuCache.put(9, 9);
+		System.out.println("must 7 and returns: "  + lfuCache.get(7)); //trying to reproduce the bug
+		lfuCache.put(10, 10);
+		lfuCache.put(11, 11); // in normal program it must evict (1,1) pair
+		lfuCache.put(12, 12); // in normal program it must evict (2,2) pair
+		lfuCache.put(13, 13); // in normal program it must evict (3,3) pair
+		System.out.println("must return -1 but actually returns: " + lfuCache.get(1)); // must return -1
+		System.out.println("must return -1 but actually returns: " + lfuCache.get(2)); // must return -1
+		System.out.println("must return -1 but actually returns: " + lfuCache.get(3)); // must return -1
+		System.out.println("must 4 and returns: " + lfuCache.get(4)); // works well
 	}
 }
