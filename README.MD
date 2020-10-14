@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 822
+Count of solved tasks: 823
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -155,6 +155,7 @@ Count of solved tasks: 822
 |210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|[CourseScheduleII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CourseScheduleII.java)
 |211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|[AddAndSearchWordDataStructureDesign.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddAndSearchWordDataStructureDesign.java)
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii/)|[WordSearchII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordSearchII.java)
+|213|[House Robber II](https://leetcode.com/problems/house-robber-ii/)|[HouseRobberII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HouseRobberII.java)
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[KthLargestElementInAnArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthLargestElementInAnArray.java)
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[CombinationSumIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CombinationSumIII.java)
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[ContainsDuplicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainsDuplicate.java)
