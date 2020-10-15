@@ -11,22 +11,27 @@ public class RotateArray
 {
 	public void rotate(int[] nums, int k)
 	{
-		if (nums == null || nums.length == 0 || k <= 0)
+		if (k == 0)
 		{
 			return;
 		}
 
-		int sampleCounter = 0;
-		int[] sample = Arrays.copyOf(nums, nums.length);
-		k = k % nums.length;
-		for (int i = k; i < sample.length; i++)
-		{
-			nums[i] = sample[sampleCounter++];
-		}
+		k %= nums.length;
+		reverseInRange(nums, 0, nums.length - 1);
+		reverseInRange(nums, 0, k - 1);
+		reverseInRange(nums, k, nums.length - 1);
+	}
 
-		for (int i = 0; i < k; i++)
+	private void reverseInRange(int[] nums, int start, int end)
+	{
+		int temp;
+		while (start < end)
 		{
-			nums[i] = sample[sampleCounter++];
+			temp = nums[start];
+			nums[start] = nums[end];
+			nums[end] = temp;
+			start++;
+			end--;
 		}
 	}
 
