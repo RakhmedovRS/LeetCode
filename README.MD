@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 825
+Count of solved tasks: 826
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -470,6 +470,7 @@ Count of solved tasks: 825
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[FlippingAnImage.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlippingAnImage.java)
 |835|[Image Overlap](https://leetcode.com/problems/image-overlap/)|[ImageOverlap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImageOverlap.java)
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)|[RectangleOverlap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RectangleOverlap.java)
+|837|[New 21 Game](https://leetcode.com/problems/new-21-game/)|[New21Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/New21Game.java)
 |838|[Push Dominoes](https://leetcode.com/problems/push-dominoes/)|[PushDominoes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PushDominoes.java)
 |840|[Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/)|[MagicSquaresInGrid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MagicSquaresInGrid.java)
 |841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[KeysAndRooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KeysAndRooms.java)
