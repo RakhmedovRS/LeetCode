@@ -14,30 +14,29 @@ public class Search2DMatrix
 			return false;
 		}
 
-		int rowCount = matrix.length;
-		int columnCount = matrix[0].length;
-		int left = 0;
-		int right = rowCount * columnCount - 1;
-
+		int rows = matrix.length;
+		int columns = matrix[0].length;
 		int row;
 		int column;
-		int middle;
+		int left = 0;
+		int mid;
+		int right = rows * columns - 1;
 		while (left <= right)
 		{
-			middle = left + (right - left) / 2;
-			row = middle / columnCount;
-			column = middle % columnCount;
+			mid = left + (right - left) / 2;
+			row = mid / columns;
+			column = mid % columns;
 			if (matrix[row][column] == target)
 			{
 				return true;
 			}
-			else if (matrix[row][column] < target)
+			else if (matrix[row][column] > target)
 			{
-				left = middle + 1;
+				right = mid - 1;
 			}
 			else
 			{
-				right = middle - 1;
+				left = mid + 1;
 			}
 		}
 
