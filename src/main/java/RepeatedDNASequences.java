@@ -11,17 +11,21 @@ public class RepeatedDNASequences
 {
 	public List<String> findRepeatedDnaSequences(String s)
 	{
-		Set<String> set = new HashSet<>();
-		Set<String> result = new HashSet<>();
-		for (int i = 0; i <= s.length() - 10; i++)
+		List<String> answer = new ArrayList<>();
+		Map<String, Integer> map = new HashMap<>();
+		String sub;
+		for (int i = 10; i <= s.length(); i++)
 		{
-			String str = s.substring(i, i + 10);
-			if (!set.add(str))
+			sub = s.substring(i - 10, i);
+			if (map.getOrDefault(sub, 0) == 1)
 			{
-				result.add(str);
+				answer.add(sub);
 			}
+
+			map.put(sub, map.getOrDefault(sub, 0) + 1);
 		}
-		return new ArrayList<>(result);
+
+		return answer;
 	}
 
 	public static void main(String[] args)
