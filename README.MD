@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 827
+Count of solved tasks: 828
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -830,3 +830,4 @@ Count of solved tasks: 827
 |1614|[Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)|[MaximumNestingDepthOfTheParentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNestingDepthOfTheParentheses.java)
 |1615|[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|[MaximalNetworkRank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximalNetworkRank.java)
 |1616|[Split Two Strings to Make Palindrome](https://leetcode.com/problems/split-two-strings-to-make-palindrome/)|[SplitTwoStringsToMakePalindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitTwoStringsToMakePalindrome.java)
+|1619|[Mean of Array After Removing Some Elements](https://leetcode.com/problems/mean-of-array-after-removing-some-elements/)|[MeanIOfArrayAfterRemovingSomeElements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeanIOfArrayAfterRemovingSomeElements.java)
