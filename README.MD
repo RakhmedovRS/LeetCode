@@ -1,4 +1,4 @@
-### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
+### This file has been created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
 Count of solved tasks: 829
 
 | LeetCode ID        | Name           | Solution       |
