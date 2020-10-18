@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 832
+Count of solved tasks: 833
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -137,6 +137,7 @@ Count of solved tasks: 832
 |174|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|[DungeonGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DungeonGame.java)
 |179|[Largest Number](https://leetcode.com/problems/largest-number/)|[LargestNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestNumber.java)
 |187|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)|[RepeatedDNASequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RepeatedDNASequences.java)
+|188|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|[BestTimeToBuyAndSellStockIV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BestTimeToBuyAndSellStockIV.java)
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[RotateArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotateArray.java)
 |190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[ReverseBits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseBits.java)
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[NumberOf1Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOf1Bits.java)
