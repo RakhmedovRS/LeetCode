@@ -1,5 +1,5 @@
-### This file has been created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 829
+### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
+Count of solved tasks: 830
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -832,3 +832,4 @@ Count of solved tasks: 829
 |1616|[Split Two Strings to Make Palindrome](https://leetcode.com/problems/split-two-strings-to-make-palindrome/)|[SplitTwoStringsToMakePalindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitTwoStringsToMakePalindrome.java)
 |1619|[Mean of Array After Removing Some Elements](https://leetcode.com/problems/mean-of-array-after-removing-some-elements/)|[MeanIOfArrayAfterRemovingSomeElements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeanIOfArrayAfterRemovingSomeElements.java)
 |1620|[Coordinate With Maximum Network Quality](https://leetcode.com/problems/coordinate-with-maximum-network-quality/)|[CoordinateWithMaximumNetworkQuality.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CoordinateWithMaximumNetworkQuality.java)
+|1624|[Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/)|[LargestSubstringBetweenTwoEqualCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestSubstringBetweenTwoEqualCharacters.java)
