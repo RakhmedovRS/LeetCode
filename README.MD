@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 833
+Count of solved tasks: 834
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -737,6 +737,7 @@ Count of solved tasks: 833
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[KidsWithTheGreatestNumberOfCandies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KidsWithTheGreatestNumberOfCandies.java)
 |1432|[Max Difference You Can Get From Changing an Integer](https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/)|[MaxDifferenceYouCanGetFromChangingInteger.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxDifferenceYouCanGetFromChangingInteger.java)
 |1436|[Destination City](https://leetcode.com/problems/destination-city/)|[DestinationCity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DestinationCity.java)
+|1437|[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)|[CheckIfAll1sAreAtLeastLengthKPlacesAway.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfAll1sAreAtLeastLengthKPlacesAway.java)
 |1438|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|[LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java)
 |1441|[Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)|[BuildArrayWithStackOperations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BuildArrayWithStackOperations.java)
 |1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|[ConsecutiveCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConsecutiveCharacters.java)
