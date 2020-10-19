@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 835
+Count of solved tasks: 836
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -566,6 +566,7 @@ Count of solved tasks: 835
 |1003|[Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)|[CheckIfWordIsValidAfterSubstitutions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfWordIsValidAfterSubstitutions.java)
 |1004|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[MaxConsecutiveOnesIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxConsecutiveOnesIII.java)
 |1006|[Clumsy Factorial](Clumsy Factorial)|[ClumsyFactorial.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClumsyFactorial.java)
+|1007|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[MinimumDominoRotationsForEqualRow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDominoRotationsForEqualRow.java)
 |1008|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|[ConstructBinarySearchTreeFromPreorderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructBinarySearchTreeFromPreorderTraversal.java)
 |1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|[ComplementOfBase10Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ComplementOfBase10Integer.java)
 |1010|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[PairsOfSongsWithTotalDurationsDivisibleBy60.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PairsOfSongsWithTotalDurationsDivisibleBy60.java)
