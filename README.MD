@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 834
+Count of solved tasks: 835
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -645,6 +645,7 @@ Count of solved tasks: 834
 |1195|[Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/)|[FizzBuzzMultithreaded.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FizzBuzzMultithreaded.java)
 |1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[MinimumAbsoluteDifference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumAbsoluteDifference.java)
 |1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[RemoveAllAdjacentDuplicatesInStringII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveAllAdjacentDuplicatesInStringII.java)
+|1217|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|[MinimumCostToMoveChipsToTheSamePosition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToMoveChipsToTheSamePosition.java)
 |1218|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)|[LongestArithmeticSubsequenceOfGivenDifference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestArithmeticSubsequenceOfGivenDifference.java)
 |1219|[Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)|[PathWithMaximumGold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathWithMaximumGold.java)
 |1222|[Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/)|[QueensThatCanAttackKing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueensThatCanAttackKing.java)
