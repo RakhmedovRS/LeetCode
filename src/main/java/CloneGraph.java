@@ -1,8 +1,7 @@
 import common.LeetCode;
 import common.Node;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author RakhmedovRS
@@ -13,29 +12,62 @@ public class CloneGraph
 {
 	public Node cloneGraph(Node node)
 	{
-		Map<Node, Node> map = new HashMap<>();
-		return cloneGraph(node, map);
-	}
-
-	private Node cloneGraph(Node node, Map<Node, Node> map)
-	{
 		if (node == null)
 		{
 			return null;
 		}
 
-		if (map.containsKey(node))
+		Map<Node, Node> nodes = createCopies(node);
+		createEdges(node, nodes);
+		return nodes.get(node);
+	}
+
+	private Map<Node, Node> createCopies(Node node)
+	{
+		Map<Node, Node> nodes = new HashMap<>();
+		Set<Node> visited = new HashSet<>();
+		Queue<Node> queue = new LinkedList<>();
+		queue.add(node);
+		Node current;
+		while (!queue.isEmpty())
 		{
-			return map.get(node);
+			current = queue.remove();
+			if (!visited.add(current))
+			{
+				continue;
+			}
+
+			Node newNode = new Node();
+			newNode.val = current.val;
+			nodes.put(current, newNode);
+			queue.addAll(current.neighbors);
 		}
 
-		Node copy = new Node(node.val);
-		map.put(node, copy);
-		for (Node neighbor : node.neighbors)
-		{
-			copy.neighbors.add(cloneGraph(neighbor, map));
-		}
+		return nodes;
+	}
 
-		return copy;
+	private void createEdges(Node node, Map<Node, Node> nodes)
+	{
+		Set<Node> visited = new HashSet<>();
+		Queue<Node> queue = new LinkedList<>();
+		queue.add(node);
+		Node current;
+		Node clone;
+		while (!queue.isEmpty())
+		{
+			current = queue.remove();
+			if (!visited.add(current))
+			{
+				continue;
+			}
+
+			clone = nodes.get(current);
+			for (Node neighbor : current.neighbors)
+			{
+				clone.neighbors.add(nodes.get(neighbor));
+			}
+
+			queue.addAll(current.neighbors);
+		}
 	}
 }
