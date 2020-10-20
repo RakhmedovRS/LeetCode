@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 836
+Count of solved tasks: 837
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -468,6 +468,7 @@ Count of solved tasks: 836
 |823|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[BinaryTreesWithFactors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreesWithFactors.java)
 |824|[Goat Latin](https://leetcode.com/problems/goat-latin/)|[GoatLatin.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GoatLatin.java)
 |826|[Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/)|[MostProfitAssigningWork.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MostProfitAssigningWork.java)
+|827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/)|[MakingLargeIsland.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MakingLargeIsland.java)
 |830|[Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/)|[PositionsOfLargeGroups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PositionsOfLargeGroups.java)
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[FlippingAnImage.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlippingAnImage.java)
 |835|[Image Overlap](https://leetcode.com/problems/image-overlap/)|[ImageOverlap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImageOverlap.java)
