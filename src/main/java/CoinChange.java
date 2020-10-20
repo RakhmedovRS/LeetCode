@@ -1,5 +1,6 @@
 import common.LeetCode;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -12,39 +13,21 @@ public class CoinChange
 {
 	public int coinChange(int[] coins, int amount)
 	{
-		if (coins == null || coins.length == 0 || amount <= 0)
+		int[] memo = new int[amount + 1];
+		Arrays.fill(memo, Integer.MAX_VALUE);
+		memo[0] = 0;
+		for (int i = 1; i <= amount; i++)
 		{
-			return 0;
-		}
-
-		Map<Integer, Integer> cache = new HashMap<>();
-		return coinChange(coins, amount, cache);
-	}
-
-	private int coinChange(int[] coins, int amount, Map<Integer, Integer> cache)
-	{
-		if (amount <= 0)
-		{
-			return amount;
-		}
-
-		if (cache.containsKey(amount))
-		{
-			return cache.get(amount);
-		}
-
-		int min = Integer.MAX_VALUE;
-		for (int coin : coins)
-		{
-			int result = coinChange(coins, amount - coin, cache);
-			if (result >= 0 && result < min)
+			for (int coin : coins)
 			{
-				min = 1 + result;
+				if (i - coin >= 0 && memo[i - coin] != Integer.MAX_VALUE)
+				{
+					memo[i] = Math.min(memo[i], 1 + memo[i - coin]);
+				}
 			}
 		}
 
-		cache.put(amount, (min == Integer.MAX_VALUE) ? -1 : min);
-		return cache.get(amount);
+		return memo[amount] == Integer.MAX_VALUE ? -1 : memo[amount];
 	}
 
 	public static void main(String[] args)
