@@ -384,7 +384,7 @@ Count of solved tasks: 838
 |646|[Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)|[MaximumLengthOfPairChain.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfPairChain.java)
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[PalindromicSubstrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromicSubstrings.java)
 |648|[Replace Words](https://leetcode.com/problems/replace-words/)|[ReplaceWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceWords.java)
-|650|[Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)|[TwoKeysKeyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoKeysKeyboard.java)
+|650|[2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)|[TwoKeysKeyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoKeysKeyboard.java)
 |652|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/)|[FindDuplicateSubtrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindDuplicateSubtrees.java)
 |654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|[MaximumBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumBinaryTree.java)
 |655|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|[PrintBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintBinaryTree.java)
