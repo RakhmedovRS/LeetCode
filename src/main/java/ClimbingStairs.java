@@ -9,21 +9,25 @@ public class ClimbingStairs
 {
 	public int climbStairs(int n)
 	{
-		if (n <= 2)
+		if (n == 1)
 		{
-			return n;
+			return 1;
 		}
-		else
+		if (n == 2)
 		{
-			int[] steps = new int[n + 1];
-			steps[0] = 1;
-			steps[1] = 1;
-			for (int i = 2; i < steps.length; i++)
-			{
-				steps[i] = steps[i - 2] + steps[i - 1];
-			}
+			return 2;
+		}
 
-			return steps[n];
+		int prevPrev = 1;
+		int prev = 2;
+		int curr = 0;
+		for (int i = 3; i <= n; i++)
+		{
+			curr = prevPrev + prev;
+			prevPrev = prev;
+			prev = curr;
 		}
+
+		return curr;
 	}
 }
