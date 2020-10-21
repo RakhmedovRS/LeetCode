@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 840
+Count of solved tasks: 841
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -489,6 +489,7 @@ Count of solved tasks: 840
 |863|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|[AllNodesDistanceKInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllNodesDistanceKInBinaryTree.java)
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[TransposeMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TransposeMatrix.java)
 |868|[Binary Gap](https://leetcode.com/problems/binary-gap/)|[BinaryGap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryGap.java)
+|869|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[ReorderedPowerOf2.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReorderedPowerOf2.java)
 |870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/)|[AdvantageShuffle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AdvantageShuffle.java)
 |872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[LeafSimilarTrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LeafSimilarTrees.java)
 |873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)|[LengthOfLongestFibonacciSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LengthOfLongestFibonacciSubsequence.java)
