@@ -12,49 +12,42 @@ public class AsteroidCollision
 {
 	public int[] asteroidCollision(int[] asteroids)
 	{
-		Deque<Integer> stack = new LinkedList<>();
-		outer:
+		Deque<Integer> deque = new LinkedList<>();
+		int prev;
 		for (int asteroid : asteroids)
 		{
-			if (stack.isEmpty() || asteroid > 0 || stack.peek() < 0)
+			if (asteroid < 0)
 			{
-				stack.push(asteroid);
+				while (!deque.isEmpty() && deque.getLast() > 0 && asteroid < 0)
+				{
+					prev = deque.removeLast();
+					if (prev + asteroid > 0)
+					{
+						deque.addLast(prev);
+						asteroid = 0;
+					}
+					else if (prev + asteroid == 0)
+					{
+						asteroid = 0;
+					}
+				}
+
+				if (asteroid != 0)
+				{
+					deque.addLast(asteroid);
+				}
 			}
 			else
 			{
-				boolean rest = false;
-				while (!stack.isEmpty() && stack.peek() > 0)
-				{
-					rest = false;
-					int temp = stack.remove();
-					if (temp + asteroid == 0)
-					{
-						continue outer;
-					}
-
-					if (Math.abs(asteroid) < temp)
-					{
-						stack.push(temp);
-						continue outer;
-					}
-					else
-					{
-						rest = true;
-					}
-				}
-
-				if (rest)
-				{
-					stack.push(asteroid);
-				}
+				deque.addLast(asteroid);
 			}
 		}
 
-		int[] answer = new int[stack.size()];
-		int pos = stack.size() - 1;
-		while (!stack.isEmpty())
+		int i = 0;
+		int[] answer = new int[deque.size()];
+		while (!deque.isEmpty())
 		{
-			answer[pos--] = stack.pop();
+			answer[i++] = deque.removeFirst();
 		}
 
 		return answer;
