@@ -9,40 +9,32 @@ public class MinimumCostForTickets
 {
 	public int mincostTickets(int[] days, int[] costs)
 	{
-		Integer[] memo = new Integer[days.length];
-		return minCostTickets(days, costs, 0, memo);
+		return dfs(0, days[0], days, costs, new Integer[396][396]);
 	}
 
-	private int minCostTickets(int[] days, int[] cost, int index, Integer[] memo)
+	private int dfs(int pos, int currentTicket, int[] days, int[] costs, Integer[][] memo)
 	{
-		if (index >= days.length)
+		if (pos == days.length)
 		{
 			return 0;
 		}
 
-		if (memo[index] != null)
+		if (memo[pos][currentTicket] != null)
 		{
-			return memo[index];
+			return memo[pos][currentTicket];
 		}
 
-		int index7 = index + 1;
-		int index30 = index + 1;
-		while (index7 < days.length && days[index] + 7 > days[index7])
+		if (currentTicket > days[pos])
 		{
-			index7++;
+			return memo[pos][currentTicket] = dfs(pos + 1, currentTicket, days, costs, memo);
 		}
-
-		while (index30 < days.length && days[index] + 30 > days[index30])
+		else
 		{
-			index30++;
+			int oneDay = costs[0] + dfs(pos, days[pos] + 1, days, costs, memo);
+			int sevenDays = costs[1] + dfs(pos, days[pos] + 7, days, costs, memo);
+			int thirtyDays = costs[2] + dfs(pos, days[pos] + 30, days, costs, memo);
+			return memo[pos][currentTicket] = Math.min(oneDay, Math.min(sevenDays, thirtyDays));
 		}
-
-		int oneDay = cost[0] + minCostTickets(days, cost, index + 1, memo);
-		int sevenDays = cost[1] + minCostTickets(days, cost, index7, memo);
-		int thirtyDays = cost[2] + minCostTickets(days, cost, index30, memo);
-
-		memo[index] = Math.min(oneDay, Math.min(sevenDays, thirtyDays));
-		return memo[index];
 	}
 
 	public static void main(String[] args)
