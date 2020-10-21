@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 838
+Count of solved tasks: 839
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -566,6 +566,7 @@ Count of solved tasks: 838
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[FindCommonCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCommonCharacters.java)
 |1003|[Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)|[CheckIfWordIsValidAfterSubstitutions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfWordIsValidAfterSubstitutions.java)
 |1004|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[MaxConsecutiveOnesIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxConsecutiveOnesIII.java)
+|1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)|[MaximizeSumOfArrayAfterKNegations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximizeSumOfArrayAfterKNegations.java)
 |1006|[Clumsy Factorial](Clumsy Factorial)|[ClumsyFactorial.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClumsyFactorial.java)
 |1007|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[MinimumDominoRotationsForEqualRow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDominoRotationsForEqualRow.java)
 |1008|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|[ConstructBinarySearchTreeFromPreorderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructBinarySearchTreeFromPreorderTraversal.java)
