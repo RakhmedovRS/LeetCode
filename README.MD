@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 841
+Count of solved tasks: 842
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -500,6 +500,7 @@ Count of solved tasks: 841
 |884|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|[UncommonWordsFromTwoSentences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UncommonWordsFromTwoSentences.java)
 |885|[Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|[SpiralMatrixIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SpiralMatrixIII.java)
 |886|[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)|[PossibleBipartition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PossibleBipartition.java)
+|888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|[FairCandySwap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FairCandySwap.java)
 |889|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|[ConstructBinaryTreeFromPreorderAndPostorderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructBinaryTreeFromPreorderAndPostorderTraversal.java)
 |890|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)|[FindAndReplacePattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAndReplacePattern.java)
 |892|[Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/)|[SurfaceAreaOf3DShapes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SurfaceAreaOf3DShapes.java)
