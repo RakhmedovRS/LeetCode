@@ -10,35 +10,35 @@ import java.util.Map;
 @LeetCode(id = 494, name = "Target Sum", url = "https://leetcode.com/problems/target-sum/")
 public class TargetSum
 {
-	public int findTargetSumWays(int[] nums, int S)
+	public int findTargetSumWays(int[] nums, int sum)
 	{
-		Map<Integer, Map<Integer, Integer>> memo = new HashMap<>();
-		return findTargetSumWays(nums, 0, S, memo);
-	}
-
-	private int findTargetSumWays(int[] nums, int pos, int S, Map<Integer, Map<Integer, Integer>> memo)
-	{
-		if (pos == nums.length && S == 0)
-		{
-			return 1;
-		}
-		else if (pos == nums.length)
+		if (nums == null)
 		{
 			return 0;
 		}
 
-		Map<Integer, Integer> map = memo.getOrDefault(pos, new HashMap<>());
-		Integer res = map.get(S);
-		if (res != null)
+		Map<Integer, Integer>[] memo = new HashMap[nums.length + 1];
+		return dfs(0, nums, sum, memo);
+	}
+
+	private int dfs(int pos, int[] nums, int sum, Map<Integer, Integer>[] memo)
+	{
+		if (pos == nums.length)
 		{
-			return res;
+			return sum == 0 ? 1 : 0;
 		}
 
-		int minus = findTargetSumWays(nums, pos + 1, S - nums[pos], memo);
-		int plus = findTargetSumWays(nums, pos + 1, S + nums[pos], memo);
-		res = minus + plus;
-		map.put(S, res);
-		memo.put(pos, map);
-		return res;
+		if (memo[pos] != null && memo[pos].containsKey(sum))
+		{
+			return memo[pos].get(sum);
+		}
+
+		if (memo[pos] == null)
+		{
+			memo[pos] = new HashMap<>();
+		}
+
+		memo[pos].put(sum, dfs(pos + 1, nums, sum - nums[pos], memo) + dfs(pos + 1, nums, sum + nums[pos], memo));
+		return memo[pos].get(sum);
 	}
 }
