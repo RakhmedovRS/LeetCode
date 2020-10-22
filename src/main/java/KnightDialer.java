@@ -9,64 +9,81 @@ import java.util.Arrays;
 @LeetCode(id = 935, name = "Knight Dialer", url = "https://leetcode.com/problems/knight-dialer/")
 public class KnightDialer
 {
-	static int MOD = (int) (Math.pow(10, 9) + 7);
-
 	public int knightDialer(int N)
 	{
-		int[][] moves = new int[10][];
-		moves[0] = new int[]{4, 6};
-		moves[1] = new int[]{6, 8};
-		moves[2] = new int[]{7, 9};
-		moves[3] = new int[]{4, 8};
-		moves[4] = new int[]{0, 3, 9};
-		moves[5] = new int[0];
-		moves[6] = new int[]{0, 1, 7};
-		moves[7] = new int[]{2, 6};
-		moves[8] = new int[]{1, 3};
-		moves[9] = new int[]{2, 4};
-
-		long count = 0;
-		int[][] memo = new int[10][N];
-		for (int[] row : memo)
-		{
-			Arrays.fill(row, -1);
-		}
-		for (int num = 0; num < 10; num++)
-		{
-			count += traverse(moves, num, memo, N - 1);
-			count %= MOD;
-		}
-
-		return (int) (count % MOD);
-	}
-
-	private int traverse(int[][] moves, int currentDigit, int[][] memo, int stepsLeft)
-	{
-		if (stepsLeft == 0)
-		{
-			return 1;
-		}
-
-		if (currentDigit == 5)
+		if (N == 0)
 		{
 			return 0;
 		}
 
-		if (memo[currentDigit][stepsLeft] != -1)
+		int MOD = 1_000_000_007;
+		int[][] numPad =
+			{
+				{1, 2, 3},
+				{4, 5, 6},
+				{7, 8, 9},
+				{10, 0, 11}
+			};
+		Integer[][] memo = new Integer[N + 1][12];
+		for (int i = 0; i < 10; i++)
 		{
-			return memo[currentDigit][stepsLeft];
+			memo[0][i] = 1;
+		}
+		int[][] steps = new int[][]{{-2, -1}, {-2, 1}, {-1, -2}, {-1, 2}, {1, -2}, {1, 2}, {2, -1}, {2, 1}};
+		int prevRow;
+		int prevColumn;
+		for (int n = 1; n <= N; n++)
+		{
+			Arrays.fill(memo[n], 0);
+			for (int row = 0; row < numPad.length; row++)
+			{
+				for (int column = 0; column < numPad[0].length; column++)
+				{
+					if (numPad[row][column] == 10 || numPad[row][column] == 11)
+					{
+						continue;
+					}
+
+					for (int[] step : steps)
+					{
+						prevRow = row + step[0];
+						prevColumn = column + step[1];
+						if (isValidMove(prevRow, prevColumn, numPad))
+						{
+							memo[n][numPad[row][column]] += memo[n - 1][numPad[prevRow][prevColumn]] % MOD;
+							memo[n][numPad[row][column]] %= MOD;
+						}
+					}
+				}
+			}
 		}
 
-		int count = 0;
-		for (int nextNum : moves[currentDigit])
+		long result = 0;
+		for (int row = 0; row < numPad.length; row++)
 		{
-			count += traverse(moves, nextNum, memo, stepsLeft - 1);
-			count %= MOD;
+			for (int column = 0; column < numPad[0].length; column++)
+			{
+				if (numPad[row][column] == 10 || numPad[row][column] == 11)
+				{
+					continue;
+				}
+
+				result += memo[N - 1][numPad[row][column]] % MOD;
+				result %= MOD;
+			}
 		}
 
-		memo[currentDigit][stepsLeft] = count;
+		return (int) (result % MOD);
+	}
 
-		return count;
+	private boolean isValidMove(int row, int column, int[][] numPad)
+	{
+		return row >= 0
+			&& row < numPad.length
+			&& column >= 0
+			&& column < numPad[row].length
+			&& numPad[row][column] != 10
+			&& numPad[row][column] != 11;
 	}
 
 	public static void main(String[] args)
