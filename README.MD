@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 844
+Count of solved tasks: 845
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -567,6 +567,7 @@ Count of solved tasks: 844
 |997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[FindTheTownJudge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheTownJudge.java)
 |998|[Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/)|[MaximumBinaryTreeII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumBinaryTreeII.java)
 |999|[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/)|[AvailableCapturesForRook.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AvailableCapturesForRook.java)
+|1000|[Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)|[MinimumCostToMergeStones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToMergeStones.java)
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[FindCommonCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCommonCharacters.java)
 |1003|[Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)|[CheckIfWordIsValidAfterSubstitutions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfWordIsValidAfterSubstitutions.java)
 |1004|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[MaxConsecutiveOnesIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxConsecutiveOnesIII.java)
