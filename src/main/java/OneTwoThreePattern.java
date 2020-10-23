@@ -1,7 +1,6 @@
 import common.LeetCode;
 
-import java.util.Deque;
-import java.util.LinkedList;
+import java.util.TreeMap;
 
 /**
  * @author RakhmedovRS
@@ -12,34 +11,47 @@ public class OneTwoThreePattern
 {
 	public boolean find132pattern(int[] nums)
 	{
-		if (nums == null || nums.length < 3)
+		int[] minimums = new int[nums.length];
+		int prev = Integer.MAX_VALUE;
+		for (int i = 0; i < nums.length; i++)
 		{
-			return false;
+			prev = Math.min(prev, nums[i]);
+			minimums[i] = prev;
 		}
 
-		int[] min = new int[nums.length];
-		min[0] = nums[0];
+		TreeMap<Integer, Integer> right = new TreeMap<>();
 		for (int i = 1; i < nums.length; i++)
 		{
-			min[i] = Math.min(min[i - 1], nums[i]);
+			right.put(nums[i], right.getOrDefault(nums[i], 0) + 1);
 		}
 
-		Deque<Integer> stack = new LinkedList<>();
-		for (int i = nums.length - 1; i >= 0; i--)
+		int count;
+		Integer floor;
+		for (int i = 1; i < nums.length; i++)
 		{
-			if (nums[i] > min[i])
+			if (minimums[i - 1] < nums[i])
 			{
-				while (!stack.isEmpty() && stack.peek() <= min[i])
-				{
-					stack.pop();
-				}
-
-				if (!stack.isEmpty() && stack.peek() < nums[i])
+				floor = right.floorKey(nums[i] - 1);
+				if (floor != null && minimums[i - 1] < floor)
 				{
 					return true;
 				}
-
-				stack.push(nums[i]);
+				else
+				{
+					count = right.remove(nums[i]) - 1;
+					if (count > 0)
+					{
+						right.put(nums[i], count);
+					}
+				}
+			}
+			else
+			{
+				count = right.remove(nums[i]) - 1;
+				if (count > 0)
+				{
+					right.put(nums[i], count);
+				}
 			}
 		}
 
