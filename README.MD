@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 849
+Count of solved tasks: 850
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -851,4 +851,5 @@ Count of solved tasks: 849
 |1624|[Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/)|[LargestSubstringBetweenTwoEqualCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestSubstringBetweenTwoEqualCharacters.java)
 |1625|[Lexicographically Smallest String After Applying Operations](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/)|[LexicographicallySmallestStringAfterApplyingOperations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LexicographicallySmallestStringAfterApplyingOperations.java)
 |1626|[Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/)|[BestTeamWithNoConflicts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BestTeamWithNoConflicts.java)
+|1630|[Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)|[ArithmeticSubarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArithmeticSubarrays.java)
 |1631|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|[PathWithMinimumEffort.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathWithMinimumEffort.java)
