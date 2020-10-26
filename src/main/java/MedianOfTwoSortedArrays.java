@@ -7,57 +7,67 @@ import common.LeetCode;
 @LeetCode(id = 4, name = "Median of Two Sorted Arrays", url = "https://leetcode.com/problems/median-of-two-sorted-arrays/")
 public class MedianOfTwoSortedArrays
 {
-	public double findMedianSortedArrays(int[] X, int[] Y)
+	public double findMedianSortedArrays(int[] nums1, int[] nums2)
 	{
-		//if X length is greater than switch them so that X is smaller than Y.
-		if (X.length > Y.length)
+		if (nums1.length > nums2.length)
 		{
-			return findMedianSortedArrays(Y, X);
+			return findMedianSortedArrays(nums2, nums1);
 		}
 
-		int x = X.length;
-		int y = Y.length;
-
 		int low = 0;
-		int high = x;
+		int high = nums1.length;
+		int totalLength = nums1.length + nums2.length;
 		while (low <= high)
 		{
-			int partitionX = (low + high) / 2;
-			int partitionY = (x + y + 1) / 2 - partitionX;
+			int partX = low + (high - low) / 2;
+			int partY = (totalLength + 1) / 2 - partX;
 
-			//if partitionX is 0 it means nothing is there on left side. Use -INF for maxLeftX
-			//if partitionX is length of input then there is nothing on right side. Use +INF for minRightX
-			int maxLeftX = (partitionX == 0) ? Integer.MIN_VALUE : X[partitionX - 1];
-			int minRightX = (partitionX == x) ? Integer.MAX_VALUE : X[partitionX];
+			int leftX = getMax(nums1, partX);
+			int rightX = getMin(nums1, partX);
+			int leftY = getMax(nums2, partY);
+			int rightY = getMin(nums2, partY);
 
-			int maxLeftY = (partitionY == 0) ? Integer.MIN_VALUE : Y[partitionY - 1];
-			int minRightY = (partitionY == y) ? Integer.MAX_VALUE : Y[partitionY];
-
-			if (maxLeftX <= minRightY && maxLeftY <= minRightX)
+			if (leftX <= rightY && leftY <= rightX)
 			{
-				//We have partitioned array at correct place
-				// Now get max of left elements and min of right elements to get the median in case of even length combined array size
-				// or get max of left for odd length combined array size.
-				if ((x + y) % 2 == 0)
+				if (totalLength % 2 == 0)
 				{
-					return ((double) Math.max(maxLeftX, maxLeftY) + Math.min(minRightX, minRightY)) / 2;
+					return (Math.max(leftX, leftY) + Math.min(rightX, rightY)) / 2D;
 				}
 				else
 				{
-					return Math.max(maxLeftX, maxLeftY);
+					return Math.max(leftX, leftY);
 				}
 			}
-			else if (maxLeftX > minRightY)
-			{ //we are too far on right side for partitionX. Go on left side.
-				high = partitionX - 1;
+
+			if (leftX > rightY)
+			{
+				high = partX - 1;
 			}
 			else
-			{ //we are too far on left side for partitionX. Go on right side.
-				low = partitionX + 1;
+			{
+				low = partX + 1;
 			}
 		}
 
 		return -1;
+	}
+
+	private int getMax(int[] nums, int partition)
+	{
+		if (partition == 0)
+		{
+			return Integer.MIN_VALUE;
+		}
+		return nums[partition - 1];
+	}
+
+	private int getMin(int[] nums, int partition)
+	{
+		if (partition == nums.length)
+		{
+			return Integer.MAX_VALUE;
+		}
+		return nums[partition];
 	}
 
 	public static void main(String[] args)
