@@ -9,11 +9,6 @@ public class PartitionEqualSubsetSum
 {
 	public boolean canPartition(int[] nums)
 	{
-		if (nums.length < 2)
-		{
-			return false;
-		}
-
 		int sum = 0;
 		for (int num : nums)
 		{
@@ -26,29 +21,30 @@ public class PartitionEqualSubsetSum
 		}
 
 		sum /= 2;
-		Boolean[][] memo = new Boolean[nums.length][sum + 1];
-		return dfs(nums, 0, sum, memo);
+
+		return canPartitionReq(0, nums, sum, new Boolean[nums.length][sum + 1]);
 	}
 
-	private boolean dfs(int[] nums, int pos, int target, Boolean[][] memo)
+	private boolean canPartitionReq(int pos, int[] nums, int totalSum, Boolean[][] memo)
 	{
-		if (target == 0)
+		if (totalSum == 0)
 		{
 			return true;
 		}
 
-		if (pos == nums.length || target < 0)
+		if (pos == nums.length || totalSum < 0)
 		{
 			return false;
 		}
 
-		if (memo[pos][target] != null)
+		if (memo[pos][totalSum] != null)
 		{
-			return memo[pos][target];
+			return memo[pos][totalSum];
 		}
 
-		memo[pos][target] = dfs(nums, pos + 1, target - nums[pos], memo) || dfs(nums, pos + 1, target, memo);
+		memo[pos][totalSum] = canPartitionReq(pos + 1, nums, totalSum, memo) ||
+			canPartitionReq(pos + 1, nums, totalSum - nums[pos], memo);
 
-		return memo[pos][target];
+		return memo[pos][totalSum];
 	}
 }
