@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 852
+Count of solved tasks: 853
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -28,6 +28,7 @@ Count of solved tasks: 852
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[RemoveElement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveElement.java)
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[ImplementStrStr.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImplementStrStr.java)
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[DivideTwoIntegers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DivideTwoIntegers.java)
+|30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|[SubstringWithConcatenationOfAllWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubstringWithConcatenationOfAllWords.java)
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[LongestValidParentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestValidParentheses.java)
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[SearchInRotatedSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArray.java)
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[FindFirstAndLastPositionOfElementInSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindFirstAndLastPositionOfElementInSortedArray.java)
