@@ -9,35 +9,40 @@ public class RegularExpressionMatching
 {
 	public boolean isMatch(String s, String p)
 	{
-		Boolean[][] memo = new Boolean[s.length() + 1][p.length() + 1];
-		return isMatch(s.toCharArray(), 0, p.toCharArray(), 0, memo);
+		char[] string = s.toCharArray();
+		char[] pattern = p.toCharArray();
+		Boolean[][] memo = new Boolean[string.length + 1][pattern.length + 1];
+		return isMatch(0, 0, string, pattern, memo);
 	}
 
-	private boolean isMatch(char[] string, int stringPos, char[] pattern, int patternPos, Boolean[][] memo)
+	private boolean isMatch(int stringPos, int patternPos, char[] string, char[] pattern, Boolean[][] memo)
 	{
-		if (patternPos == pattern.length)
-		{
-			return stringPos == string.length;
-		}
-
 		if (memo[stringPos][patternPos] != null)
 		{
 			return memo[stringPos][patternPos];
 		}
 
-		memo[stringPos][patternPos] = stringPos < string.length && (string[stringPos] == pattern[patternPos] || pattern[patternPos] == '.');
-
-		if (patternPos + 1 < pattern.length && pattern[patternPos + 1] == '*')
+		boolean match;
+		if (patternPos == pattern.length)
 		{
-			memo[stringPos][patternPos] = isMatch(string, stringPos, pattern, patternPos + 2, memo)
-				|| (memo[stringPos][patternPos] && isMatch(string, stringPos + 1, pattern, patternPos, memo));
+			match = stringPos == string.length;
 		}
 		else
 		{
-			memo[stringPos][patternPos] = memo[stringPos][patternPos] && isMatch(string, stringPos + 1, pattern, patternPos + 1, memo);
+			match = stringPos < string.length && (string[stringPos] == pattern[patternPos] || pattern[patternPos] == '.');
+			if (patternPos + 1 < pattern.length && pattern[patternPos + 1] == '*')
+			{
+				match = isMatch(stringPos, patternPos + 2, string, pattern, memo)
+					|| (match && isMatch(stringPos + 1, patternPos, string, pattern, memo));
+			}
+			else
+			{
+				match = match && isMatch(stringPos + 1, patternPos + 1, string, pattern, memo);
+			}
 		}
 
-		return memo[stringPos][patternPos];
+		memo[stringPos][patternPos] = match;
+		return match;
 	}
 
 	public static void main(String[] args)
