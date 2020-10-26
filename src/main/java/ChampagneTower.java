@@ -9,27 +9,24 @@ public class ChampagneTower
 {
 	public double champagneTower(int poured, int query_row, int query_glass)
 	{
-		double[][] tower = new double[102][];
-		for (int i = 0; i < 102; i++)
+		double[][] tower = new double[query_row + 2][];
+		for (int row = 0, columns = 1; row <= query_row + 1; row++, columns++)
 		{
-			tower[i] = new double[i + 1];
+			tower[row] = new double[columns];
 		}
 
 		tower[0][0] = poured;
-
-		for (int row = 0; row < 100; row++)
+		double rest;
+		for (int row = 0; row <= query_row; row++)
 		{
-			for (int column = 0; column <= row; column++)
+			for (int column = 0; column < tower[row].length; column++)
 			{
-				if (tower[row][column] >= 1)
+				if (tower[row][column] > 1)
 				{
-					tower[row + 1][column] += (tower[row][column] - 1) / 2;
-					tower[row + 1][column + 1] += (tower[row][column] - 1) / 2;
+					rest = tower[row][column] - 1;
+					tower[row + 1][column] += rest / 2;
+					tower[row + 1][column + 1] += rest / 2;
 					tower[row][column] = 1;
-				}
-				else
-				{
-					break;
 				}
 			}
 		}
