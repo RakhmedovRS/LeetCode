@@ -12,33 +12,32 @@ public class LastStoneWeightII
 {
 	public int lastStoneWeightII(int[] stones)
 	{
-		Map<Integer, Map<Integer, Integer>> memo = new HashMap<>();
-		int totalWeight = 0;
+		int sum = 0;
 		for (int stone : stones)
 		{
-			totalWeight += stone;
+			sum += stone;
 		}
 
-		return calcWeight(stones, 0, 0, totalWeight, memo);
+		Integer[][] memo = new Integer[sum + 1][sum + 1];
+		return dfs(0, stones, 0, sum, memo);
 	}
 
-	private int calcWeight(int[] stones, int pos, int currentWeight, int totalWeight, Map<Integer, Map<Integer, Integer>> memo)
+	private int dfs(int pos, int[] stones, int leftSum, int rightSum, Integer[][] memo)
 	{
 		if (pos == stones.length)
 		{
-			return Math.abs(totalWeight - currentWeight);
+			return Math.abs(leftSum - rightSum);
 		}
 
-		if (memo.containsKey(currentWeight) && memo.get(currentWeight).containsKey(totalWeight))
+		if (memo[leftSum][rightSum] != null)
 		{
-			return memo.get(currentWeight).get(totalWeight);
+			return memo[leftSum][rightSum];
 		}
 
-		int min = Math.min(calcWeight(stones, pos + 1, currentWeight + stones[pos], totalWeight - stones[pos], memo),
-			calcWeight(stones, pos + 1, currentWeight, totalWeight, memo));
+		memo[leftSum][rightSum] = Math.min(dfs(pos + 1, stones, leftSum + stones[pos], rightSum - stones[pos], memo),
+			dfs(pos + 1, stones, leftSum, rightSum, memo)
+		);
 
-		memo.putIfAbsent(currentWeight, new HashMap<>());
-		memo.get(currentWeight).put(totalWeight, min);
-		return min;
+		return memo[leftSum][rightSum];
 	}
 }
