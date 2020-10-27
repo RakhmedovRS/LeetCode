@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 854
+Count of solved tasks: 855
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -406,6 +406,7 @@ Count of solved tasks: 854
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[ValidPalindromeII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidPalindromeII.java)
 |682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|[BaseballGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BaseballGame.java)
 |684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|[RedundantConnection.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RedundantConnection.java)
+|686|[Repeated String Match](https://leetcode.com/problems/repeated-string-match/)|[RepeatedStringMatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RepeatedStringMatch.java)
 |687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[LongestUnivaluePath.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestUnivaluePath.java)
 |688|[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/)|[KnightProbabilityInChessboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KnightProbabilityInChessboard.java)
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[TopKFrequentWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TopKFrequentWords.java)
