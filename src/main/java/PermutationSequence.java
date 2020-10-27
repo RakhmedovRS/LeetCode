@@ -1,5 +1,7 @@
 import common.LeetCode;
 
+import java.util.LinkedList;
+
 /**
  * @author RakhmedovRS
  * @created 03-Mar-20
@@ -9,73 +11,53 @@ public class PermutationSequence
 {
 	public String getPermutation(int n, int k)
 	{
-		int[] values = new int[n];
-		for (int i = 0; i < n; i++)
+		LinkedList<Integer> numbers = new LinkedList<>();
+		for (int i = 1; i <= n; i++)
 		{
-			values[i] = i + 1;
+			numbers.addLast(i);
 		}
 
-		if (n == 1)
-		{
-			return "1";
-		}
-
-		for (int i = 1; i < k; i++)
-		{
-			nextPermutation(values);
-		}
-
-		StringBuilder result = new StringBuilder(values.length);
-		for (int value : values)
-		{
-			result.append(value);
-		}
-		return result.toString();
+		return dfs(new LinkedList<>(), new int[]{k}, n, new boolean[n + 1]);
 	}
 
-	private void nextPermutation(int[] nums)
+	private String dfs(LinkedList<Integer> permutation, int[] counter, int n, boolean[] memo)
 	{
-
-		int startIndex = nums.length - 2;
-
-		while (startIndex >= 0 && nums[startIndex] >= nums[startIndex + 1])
+		if (permutation.size() == n)
 		{
-			startIndex--;
-		}
-
-		if (startIndex >= 0)
-		{
-
-			int endIndex = nums.length - 1;
-			while (endIndex >= 0 && nums[startIndex] >= nums[endIndex])
+			if (--counter[0] == 0)
 			{
-				endIndex--;
+				StringBuilder sb = new StringBuilder(permutation.size());
+				for (int num : permutation)
+				{
+					sb.append(num);
+				}
+				return sb.toString();
 			}
-
-			swap(nums, startIndex, endIndex);
+			return null;
 		}
 
-		reverse(nums, startIndex + 1);
-	}
-
-	private void reverse(int[] nums, int start)
-	{
-
-		int left = start;
-		int right = nums.length - 1;
-
-		while (left < right)
+		String res;
+		for (int i = 1; i <= n; i++)
 		{
-			swap(nums, left, right);
-			left++;
-			right--;
+			if (!memo[i])
+			{
+				permutation.addLast(i);
+				memo[i] = true;
+				res = dfs(permutation, counter, n, memo);
+				if (res != null)
+				{
+					return res;
+				}
+				permutation.removeLast();
+				memo[i] = false;
+			}
 		}
+
+		return null;
 	}
 
-	private void swap(int[] nums, int left, int right)
+	public static void main(String[] args)
 	{
-		int temp = nums[left];
-		nums[left] = nums[right];
-		nums[right] = temp;
+		System.out.println(new PermutationSequence().getPermutation(4, 9));
 	}
 }
