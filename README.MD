@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 853
+Count of solved tasks: 854
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -118,6 +118,7 @@ Count of solved tasks: 853
 |139|[Word Break](https://leetcode.com/problems/word-break/)|[WordBreak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordBreak.java)
 |140|[Word Break](https://leetcode.com/problems/word-break-ii/)|[WordBreakII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordBreakII.java)
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[LinkedListCycle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListCycle.java)
+|142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[LinkedListCycleII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListCycleII.java)
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/)|[ReorderList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReorderList.java)
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[BinaryTreePreorderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePreorderTraversal.java)
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[LRUCache.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LRUCache.java)
