@@ -11,12 +11,6 @@ public class PermutationSequence
 {
 	public String getPermutation(int n, int k)
 	{
-		LinkedList<Integer> numbers = new LinkedList<>();
-		for (int i = 1; i <= n; i++)
-		{
-			numbers.addLast(i);
-		}
-
 		return dfs(new LinkedList<>(), new int[]{k}, n, new boolean[n + 1]);
 	}
 
