@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 855
+Count of solved tasks: 856
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -474,6 +474,7 @@ Count of solved tasks: 855
 |824|[Goat Latin](https://leetcode.com/problems/goat-latin/)|[GoatLatin.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GoatLatin.java)
 |826|[Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/)|[MostProfitAssigningWork.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MostProfitAssigningWork.java)
 |827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/)|[MakingLargeIsland.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MakingLargeIsland.java)
+|828|[Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)|[CountUniqueCharactersOfAllSubstringsOfGivenString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountUniqueCharactersOfAllSubstringsOfGivenString.java)
 |830|[Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/)|[PositionsOfLargeGroups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PositionsOfLargeGroups.java)
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[FlippingAnImage.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlippingAnImage.java)
 |835|[Image Overlap](https://leetcode.com/problems/image-overlap/)|[ImageOverlap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImageOverlap.java)
