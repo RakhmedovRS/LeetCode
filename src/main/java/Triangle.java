@@ -13,49 +13,37 @@ public class Triangle
 {
 	public int minimumTotal(List<List<Integer>> triangle)
 	{
-		if (triangle == null || triangle.size() == 0)
-		{
-			return 0;
-		}
-
-		int[][] memo = new int[triangle.size()][];
-		for (int row = 0; row < triangle.size(); row++)
-		{
-			memo[row] = new int[triangle.get(row).size()];
-		}
-
-		memo[0][0] = triangle.get(0).get(0);
+		List<Integer> level;
 		for (int row = 1; row < triangle.size(); row++)
 		{
-			for (int column = 0; column < triangle.get(row).size(); column++)
+			level = triangle.get(row);
+			for (int column = 0; column < level.size(); column++)
 			{
-				if (column == 0)
-				{
-					memo[row][column] = memo[row - 1][column];
-				}
-				else if (column == triangle.get(row).size() - 1)
-				{
-					memo[row][column] = memo[row - 1][column - 1];
-				}
-				else
-				{
-					memo[row][column] = Math.min(memo[row - 1][column - 1], memo[row - 1][column]);
-				}
-
-				memo[row][column] += triangle.get(row).get(column);
+				level.set(column, getMin(triangle.get(row - 1), column) + level.get(column));
 			}
 		}
 
 		int min = Integer.MAX_VALUE;
-		for (int value : memo[memo.length - 1])
+		for (int total : triangle.get(triangle.size() - 1))
 		{
-			if (min > value)
-			{
-				min = value;
-			}
+			min = Math.min(min, total);
 		}
 
 		return min;
+	}
+
+	private int getMin(List<Integer> level, int pos)
+	{
+		if (pos == 0)
+		{
+			return level.get(pos);
+		}
+		else if (pos == level.size())
+		{
+			return level.get(pos - 1);
+		}
+
+		return Math.min(level.get(pos - 1), level.get(pos));
 	}
 
 	public static void main(String[] args)
