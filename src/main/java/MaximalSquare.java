@@ -9,32 +9,32 @@ public class MaximalSquare
 {
 	public int maximalSquare(char[][] matrix)
 	{
-		if (matrix.length == 0 || matrix[0].length == 0)
+		int rows = matrix.length;
+		if(rows == 0)
 		{
 			return 0;
 		}
-
-		int rows = matrix.length;
 		int columns = matrix[0].length;
-		int[][] memo = new int[rows][columns];
+
 		int max = 0;
-		for (int row = rows - 1; row >= 0; row--)
+		for (int row = 0; row < rows; row++)
 		{
-			for (int column = columns - 1; column >= 0; column--)
+			for (int column = 0; column < columns; column++)
 			{
 				if (matrix[row][column] == '1')
 				{
-					memo[row][column]++;
-					if (row <= rows - 2 && column <= columns - 2)
+					if (row > 0 && column > 0)
 					{
-						memo[row][column] += Math.min(memo[row + 1][column + 1], Math.min(memo[row + 1][column], memo[row][column + 1]));
+						matrix[row][column] = (char) ('1' + Math.min(matrix[row - 1][column - 1] - '0',
+							Math.min(matrix[row - 1][column] - '0',
+								matrix[row][column - 1] - '0')));
 					}
 
-					max = Math.max(max, memo[row][column]);
+					max = Math.max(max, matrix[row][column] - '0');
 				}
 			}
 		}
 
-		return (int) Math.pow(max, 2);
+		return max * max;
 	}
 }
