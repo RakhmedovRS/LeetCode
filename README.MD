@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 856
+Count of solved tasks: 857
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -273,6 +273,7 @@ Count of solved tasks: 856
 |421|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|[MaximumXOROfTwoNumbersInAnArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumXOROfTwoNumbersInAnArray.java)
 |423|[Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/)|[ReconstructOriginalDigitsFromEnglish.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReconstructOriginalDigitsFromEnglish.java)
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[LongestRepeatingCharacterReplacement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestRepeatingCharacterReplacement.java)
+|427|[Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/)|[ConstructQuadTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructQuadTree.java)
 |429|[ N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[NaryTreeLevelOrderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NaryTreeLevelOrderTraversal.java)
 |432|[All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)|[AllOoneDataStructure.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllOoneDataStructure.java)
 |433|[Minimum Genetic Mutation](Minimum Genetic Mutation)|[MinimumGeneticMutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumGeneticMutation.java)
