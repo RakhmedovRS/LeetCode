@@ -7,42 +7,42 @@ import common.LeetCode;
 @LeetCode(id = 474, name = "Ones and Zeroes", url = "https://leetcode.com/problems/ones-and-zeroes/")
 public class OnesAndZeroes
 {
-	public int findMaxForm(String[] strings, int zeroes, int ones)
+	public int findMaxForm(String[] strs, int zeroes, int ones)
 	{
-
-		int[][] counts = new int[strings.length][2];
-		for (int i = 0; i < strings.length; i++)
+		int[][] ints = new int[strs.length][2];
+		for (int i = 0; i < strs.length; i++)
 		{
-			for (char ch : strings[i].toCharArray())
+			for (char ch : strs[i].toCharArray())
 			{
-				counts[i][ch - '0']++;
+				ints[i][ch - '0']++;
 			}
 		}
 
-		int[][][] memo = new int[zeroes + 1][ones + 1][counts.length];
-
-		return findMaxForm(counts, 0, memo, zeroes, ones);
+		return findMax(0, ints, zeroes, ones, new Integer[strs.length][zeroes + 1][ones + 1]);
 	}
 
-	private int findMaxForm(int[][] counts, int pos, int[][][] memo, int zeroes, int ones)
+	private int findMax(int pos, int[][] ints, int zeroes, int ones, Integer[][][] memo)
 	{
-		if (pos == counts.length)
+		if (zeroes < 0 || ones < 0)
+		{
+			return Integer.MIN_VALUE;
+		}
+
+		if (pos == ints.length)
 		{
 			return 0;
 		}
 
-		if (memo[zeroes][ones][pos] > 0)
+		if (memo[pos][zeroes][ones] != null)
 		{
-			return memo[zeroes][ones][pos];
+			return memo[pos][zeroes][ones];
 		}
 
-		if (zeroes - counts[pos][0] >= 0 && ones - counts[pos][1] >= 0)
-		{
-			memo[zeroes][ones][pos] = 1 + findMaxForm(counts, pos + 1, memo, zeroes - counts[pos][0], ones - counts[pos][1]);
-		}
+		int exclude = findMax(pos + 1, ints, zeroes, ones, memo);
+		int include = findMax(pos + 1, ints, zeroes - ints[pos][0], ones - ints[pos][1], memo);
+		include = include == Integer.MIN_VALUE ? Integer.MIN_VALUE : 1 + include;
 
-		memo[zeroes][ones][pos] = Math.max(memo[zeroes][ones][pos], findMaxForm(counts, pos + 1, memo, zeroes, ones));
-
-		return memo[zeroes][ones][pos];
+		memo[pos][zeroes][ones] = Math.max(exclude, include);
+		return memo[pos][zeroes][ones];
 	}
 }
