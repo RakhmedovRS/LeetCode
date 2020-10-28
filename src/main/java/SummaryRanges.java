@@ -1,6 +1,8 @@
 import common.LeetCode;
 
 import java.util.ArrayList;
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -12,34 +14,43 @@ public class SummaryRanges
 {
 	public List<String> summaryRanges(int[] nums)
 	{
-		List<String> ranges = new ArrayList<>();
-		Integer prev = null;
-		Integer curr = null;
+		List<String> answer = new ArrayList<>();
+		if (nums == null || nums.length == 0)
+		{
+			return answer;
+		}
+
+		Deque<Integer> deque = new LinkedList<>();
 		for (int num : nums)
 		{
-			if (prev == null)
+			if (!deque.isEmpty())
 			{
-				prev = num;
-				curr = num;
+				if (deque.getLast() + 1 != num)
+				{
+					if (deque.size() == 1)
+					{
+						answer.add(String.valueOf(deque.removeLast()));
+					}
+					else
+					{
+						answer.add(String.format("%d->%d", deque.removeFirst(), deque.removeLast()));
+						deque.clear();
+					}
+				}
 			}
-			else if (curr + 1 == num)
-			{
-				curr = num;
-			}
-			else
-			{
-				ranges.add(prev.equals(curr) ? String.valueOf(prev) : prev + "->" + curr);
-				prev = num;
-				curr = num;
-			}
+			deque.addLast(num);
 		}
 
-		if (prev != null)
+		if (deque.size() == 1)
 		{
-			ranges.add(prev.equals(curr) ? String.valueOf(prev) : prev + "->" + curr);
+			answer.add(String.valueOf(deque.removeLast()));
+		}
+		else
+		{
+			answer.add(String.format("%d->%d", deque.removeFirst(), deque.removeLast()));
 		}
 
-		return ranges;
+		return answer;
 	}
 
 	public static void main(String[] args)
