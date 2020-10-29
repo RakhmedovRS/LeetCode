@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 857
+Count of solved tasks: 858
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -486,6 +486,7 @@ Count of solved tasks: 857
 |841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[KeysAndRooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KeysAndRooms.java)
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[BackspaceStringCompare.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BackspaceStringCompare.java)
 |848|[Shifting Letters](https://leetcode.com/problems/shifting-letters/)|[ShiftingLetters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShiftingLetters.java)
+|849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[MaximizeDistanceToClosestPerson.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximizeDistanceToClosestPerson.java)
 |849|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|[SplitArrayIntoFibonacciSequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitArrayIntoFibonacciSequence.java)
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[PeakIndexInMountainArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PeakIndexInMountainArray.java)
 |855|[Exam Room](https://leetcode.com/problems/exam-room/)|[ExamRoom.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExamRoom.java)
