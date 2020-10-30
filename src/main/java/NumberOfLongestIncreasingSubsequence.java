@@ -1,5 +1,7 @@
 import common.LeetCode;
 
+import java.util.Arrays;
+
 /**
  * @author RakhmedovRS
  * @created 23-Sep-20
@@ -9,42 +11,42 @@ public class NumberOfLongestIncreasingSubsequence
 {
 	public int findNumberOfLIS(int[] nums)
 	{
-		int[] lengths = new int[nums.length];
-		int[] counts = new int[nums.length];
-
 		int maxLength = 1;
-		int count = 0;
+		int maxCount = 0;
+		int[] length = new int[nums.length];
+		int[] count = new int[nums.length];
+		Arrays.fill(length, 1);
+		Arrays.fill(count, 1);
 		for (int i = 0; i < nums.length; i++)
 		{
-			lengths[i] = 1;
-			counts[i] = 1;
 			for (int j = 0; j < i; j++)
 			{
-				if (nums[i] > nums[j])
+				if (nums[j] < nums[i])
 				{
-					if (lengths[i] == lengths[j] + 1)
+					if (length[j] + 1 == length[i])
 					{
-						counts[i] += counts[j];
+						count[i] += count[j];
 					}
-					else if (lengths[i] < lengths[j] + 1)
+					else if (length[j] + 1 > length[i])
 					{
-						lengths[i] = lengths[j] + 1;
-						counts[i] = counts[j];
+						length[i] = length[j] + 1;
+						count[i] = count[j];
 					}
 				}
 			}
 
-			if (maxLength == lengths[i])
+			if (length[i] > maxLength)
 			{
-				count += counts[i];
+				maxLength = length[i];
+				maxCount = count[i];
 			}
-			else if (maxLength < lengths[i])
+			else if (length[i] == maxLength)
 			{
-				maxLength = lengths[i];
-				count = counts[i];
+				maxCount += count[i];
 			}
+
 		}
 
-		return count;
+		return maxCount;
 	}
 }
