@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 859
+Count of solved tasks: 860
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -628,6 +628,7 @@ Count of solved tasks: 859
 |1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[ShortestPathInBinaryMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathInBinaryMatrix.java)
 |1094|[Car Pooling](https://leetcode.com/problems/car-pooling/)|[CarPooling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CarPooling.java)
 |1103|[Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)|[DistributeCandiesToPeople.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistributeCandiesToPeople.java)
+|1105|[Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves/)|[FillingBookcaseShelves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FillingBookcaseShelves.java)
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[DefangingIPAddress.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefangingIPAddress.java)
 |1109|[Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/)|[CorporateFlightBookings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CorporateFlightBookings.java)
 |1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/)|[DeleteNodesAndReturnForest.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteNodesAndReturnForest.java)
