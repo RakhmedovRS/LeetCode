@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 862
+Count of solved tasks: 863
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -864,4 +864,5 @@ Count of solved tasks: 862
 |1629|[Slowest Key](https://leetcode.com/problems/slowest-key/)|[SlowestKey.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SlowestKey.java)
 |1630|[Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)|[ArithmeticSubarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArithmeticSubarrays.java)
 |1631|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|[PathWithMinimumEffort.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathWithMinimumEffort.java)
+|1638|[Count Substrings That Differ by One Character](https://leetcode.com/problems/count-substrings-that-differ-by-one-character/)|[CountSubstringsThatDifferByOneCharacter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSubstringsThatDifferByOneCharacter.java)
 |1639|[Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/)|[NumberOfWaysToFormTargetStringGivenDictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfWaysToFormTargetStringGivenDictionary.java)
