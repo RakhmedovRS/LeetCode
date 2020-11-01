@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 866
+Count of solved tasks: 867
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -691,6 +691,7 @@ Count of solved tasks: 866
 |1287|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/)|[ElementAppearingMoreThan25PercentInSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ElementAppearingMoreThan25PercentInSortedArray.java)
 |1288|[Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)|[RemoveCoveredIntervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveCoveredIntervals.java)
 |1289|[Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/)|[MinimumFallingPathSumII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumFallingPathSumII.java)
+|1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[ConvertBinaryNumberInLinkedListtoInteger.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertBinaryNumberInLinkedListtoInteger.java)
 |1291|[Sequential Digits](https://leetcode.com/problems/sequential-digits/)|[SequentialDigits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SequentialDigits.java)
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[FindNumbersWithEvenNumberOfDigits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNumbersWithEvenNumberOfDigits.java)
 |1296|[Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)|[DivideArrayInSetsOfKConsecutiveNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DivideArrayInSetsOfKConsecutiveNumbers.java)
