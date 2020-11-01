@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 868
+Count of solved tasks: 869
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -870,4 +870,5 @@ Count of solved tasks: 868
 |1637|[Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/)|[WidestVerticaAreaBetweenTwoPointsContainingNoPoints.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WidestVerticaAreaBetweenTwoPointsContainingNoPoints.java)
 |1638|[Count Substrings That Differ by One Character](https://leetcode.com/problems/count-substrings-that-differ-by-one-character/)|[CountSubstringsThatDifferByOneCharacter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSubstringsThatDifferByOneCharacter.java)
 |1639|[Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/)|[NumberOfWaysToFormTargetStringGivenDictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfWaysToFormTargetStringGivenDictionary.java)
+|1641|[Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|[CountSortedVowelStrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSortedVowelStrings.java)
 |1642|[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|[FurthestBuildingYouCanReach.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FurthestBuildingYouCanReach.java)
