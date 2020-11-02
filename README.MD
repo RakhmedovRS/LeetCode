@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 870
+Count of solved tasks: 871
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -670,6 +670,7 @@ Count of solved tasks: 870
 |1218|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)|[LongestArithmeticSubsequenceOfGivenDifference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestArithmeticSubsequenceOfGivenDifference.java)
 |1219|[Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)|[PathWithMaximumGold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathWithMaximumGold.java)
 |1222|[Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/)|[QueensThatCanAttackKing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueensThatCanAttackKing.java)
+|1223|[Dice Roll Simulation](https://leetcode.com/problems/dice-roll-simulation/)|[DiceRollSimulation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiceRollSimulation.java)
 |1227|[Airplane Seat Assignment Probability](https://leetcode.com/problems/airplane-seat-assignment-probability/)|[AirplaneSeatAssignmentProbability.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AirplaneSeatAssignmentProbability.java)
 |1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[CheckIfItIsStraightLine.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfItIsStraightLine.java)
 |1234|[Replace the Substring for Balanced String](Replace the Substring for Balanced String)|[ReplaceTheSubstringForBalancedString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceTheSubstringForBalancedString.java)
