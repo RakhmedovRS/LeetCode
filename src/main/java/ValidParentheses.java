@@ -12,32 +12,42 @@ import java.util.Map;
 @LeetCode(id = 20, name = "Valid Parentheses", url = "https://leetcode.com/problems/valid-parentheses/")
 public class ValidParentheses
 {
-	static Map<Character, Character> parentheses;
-
-	static
+	public boolean isValid(String s)
 	{
-		parentheses = new HashMap<>();
-		parentheses.put(')', '(');
-		parentheses.put(']', '[');
-		parentheses.put('}', '{');
-	}
-
-	public boolean isValid(String A)
-	{
-		Deque<Character> stack = new LinkedList<>();
-		for (char ch : A.toCharArray())
+		LinkedList<Character> deque = new LinkedList<>();
+		for (char ch : s.toCharArray())
 		{
-			if (!parentheses.containsKey(ch))
+			if (ch == '(' || ch == '[' || ch == '{')
 			{
-				stack.push(ch);
+				deque.addLast(ch);
 			}
-			else if (stack.poll() != parentheses.get(ch))
+			else if (ch == ')')
 			{
-				return false;
+				if (deque.isEmpty() || deque.getLast() != '(')
+				{
+					return false;
+				}
+				deque.removeLast();
+			}
+			else if (ch == ']')
+			{
+				if (deque.isEmpty() || deque.getLast() != '[')
+				{
+					return false;
+				}
+				deque.removeLast();
+			}
+			else if (ch == '}')
+			{
+				if (deque.isEmpty() || deque.getLast() != '{')
+				{
+					return false;
+				}
+				deque.removeLast();
 			}
 		}
 
-		return stack.isEmpty();
+		return deque.isEmpty();
 	}
 
 	public static void main(String[] args)
