@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 872
+Count of solved tasks: 873
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -122,6 +122,7 @@ Count of solved tasks: 872
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/)|[ReorderList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReorderList.java)
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[BinaryTreePreorderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePreorderTraversal.java)
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[LRUCache.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LRUCache.java)
+|147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[InsertionSortList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsertionSortList.java)
 |148|[Sort List](https://leetcode.com/problems/sort-list/)|[SortList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortList.java)
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[EvaluateReversePolishNotation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EvaluateReversePolishNotation.java)
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[ReverseWordsInString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseWordsInString.java)
