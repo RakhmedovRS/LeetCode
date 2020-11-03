@@ -9,25 +9,42 @@ public class MinimumSizeSubarraySum
 {
 	public int minSubArrayLen(int s, int[] nums)
 	{
-		if (nums == null || nums.length == 0)
+		int minLen = nums.length;
+		int left = 0;
+		int right = 0;
+		int sum = 0;
+		for (int num : nums)
+		{
+			sum += num;
+		}
+
+		if (sum < s)
 		{
 			return 0;
 		}
 
-		int left = 0;
-		int totalSum = 0;
-		int minSize = Integer.MAX_VALUE;
-		for (int i = 0; i < nums.length; i++)
+		sum = 0;
+		while (right < nums.length || sum >= s)
 		{
-			totalSum += nums[i];
-			while (totalSum >= s)
+			if (sum >= s)
 			{
-				minSize = Math.min(minSize, 1 + i - left);
-				totalSum -= nums[left++];
+				minLen = Math.min(minLen, right - left);
+				sum -= nums[left++];
+			}
+			else
+			{
+				if (right < nums.length)
+				{
+					sum += nums[right++];
+				}
+				else
+				{
+					break;
+				}
 			}
 		}
 
-		return minSize == Integer.MAX_VALUE ? 0 : minSize;
+		return minLen;
 	}
 
 	public static void main(String[] args)
