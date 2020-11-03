@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 874
+Count of solved tasks: 875
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -80,6 +80,7 @@ Count of solved tasks: 874
 |93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[RestoreIPAddresses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RestoreIPAddresses.java)
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[BinaryTreeInorderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeInorderTraversal.java)
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|[UniqueBinarySearchTreesII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueBinarySearchTreesII.java)
+|96|[Unique Binary Search Trees]()|[UniqueBinarySearchTrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueBinarySearchTrees.java)
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[ValidateBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidateBinarySearchTree.java)
 |99|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)|[RecoverBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RecoverBinarySearchTree.java)
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[SymmetricTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SymmetricTree.java)
