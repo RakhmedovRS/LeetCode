@@ -9,29 +9,24 @@ public class ConsecutiveCharacters
 {
 	public int maxPower(String s)
 	{
-		if (s == null || s.isEmpty())
-		{
-			return 0;
-		}
-
-		int max = 1;
-		int current = 0;
+		char prev = s.charAt(0);
+		int power = 1;
+		int maxPower = 1;
 		for (int i = 1; i < s.length(); i++)
 		{
-			if (s.charAt(i) == s.charAt(i - 1))
+			if (s.charAt(i) == prev)
 			{
-				current++;
+				power++;
 			}
 			else
 			{
-				if (current > max)
-				{
-					max = current;
-				}
-				current = 0;
+				prev = s.charAt(i);
+				power = 1;
 			}
+
+			maxPower = Math.max(maxPower, power);
 		}
 
-		return max;
+		return maxPower;
 	}
 }
