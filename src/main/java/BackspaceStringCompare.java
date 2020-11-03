@@ -9,63 +9,29 @@ import java.util.LinkedList;
 @LeetCode(id = 844, name = "Backspace String Compare", url = "https://leetcode.com/problems/backspace-string-compare/")
 public class BackspaceStringCompare
 {
-	public boolean backspaceCompare(String first, String second)
+	public boolean backspaceCompare(String S, String T)
 	{
-		if (first == null && second == null)
-		{
-			return true;
-		}
-		else if (first == null || second == null)
-		{
-			return false;
-		}
+		return processString(S).equals(processString(T));
+	}
 
-		LinkedList<Character> firstChars = new LinkedList<>();
-		LinkedList<Character> secondChars = new LinkedList<>();
-
-		for (int i = 0; i < first.length(); i++)
+	private String processString(String string)
+	{
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < string.length(); i++)
 		{
-			if (first.charAt(i) == '#')
+			if (string.charAt(i) == '#')
 			{
-				if (!firstChars.isEmpty())
+				if (sb.length() != 0)
 				{
-					firstChars.removeLast();
+					sb.deleteCharAt(sb.length() - 1);
 				}
 			}
 			else
 			{
-				firstChars.addLast(first.charAt(i));
+				sb.append(string.charAt(i));
 			}
 		}
 
-		for (int i = 0; i < second.length(); i++)
-		{
-			if (second.charAt(i) == '#')
-			{
-				if (!secondChars.isEmpty())
-				{
-					secondChars.removeLast();
-				}
-			}
-			else
-			{
-				secondChars.addLast(second.charAt(i));
-			}
-		}
-
-		if (firstChars.size() != secondChars.size())
-		{
-			return false;
-		}
-
-		while (!firstChars.isEmpty())
-		{
-			if (firstChars.removeLast() != secondChars.removeLast())
-			{
-				return false;
-			}
-		}
-
-		return true;
+		return sb.toString();
 	}
 }
