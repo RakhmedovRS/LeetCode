@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 877
+Count of solved tasks: 878
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -598,6 +598,7 @@ Count of solved tasks: 877
 |1019|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|[NextGreaterNodeInLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterNodeInLinkedList.java)
 |1020|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|[NumberOfEnclaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfEnclaves.java)
 |1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[SumOfRootToLeafBinaryNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfRootToLeafBinaryNumbers.java)
+|1023|[Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)|[CamelcaseMatching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CamelcaseMatching.java)
 |1024|[Video Stitching](https://leetcode.com/problems/video-stitching/)|[VideoStitching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/VideoStitching.java)
 |1025|[Divisor Game](https://leetcode.com/problems/divisor-game/)|[DivisorGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DivisorGame.java)
 |1026|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|[MaximumDifferenceBetweenNodeAndAncestor.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDifferenceBetweenNodeAndAncestor.java)
