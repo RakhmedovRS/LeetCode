@@ -1,5 +1,7 @@
 import common.LeetCode;
 
+import java.util.PriorityQueue;
+
 /**
  * @author RakhmedovRS
  * @created 11/1/2020
@@ -9,62 +11,33 @@ public class FurthestBuildingYouCanReach
 {
 	public int furthestBuilding(int[] heights, int bricks, int ladders)
 	{
-		int[][][] memo = new int[heights.length][2][2];
-		memo[0][0] = new int[]{bricks, ladders};
-		memo[0][1] = new int[]{bricks, ladders};
-
+		PriorityQueue<Integer> pq = new PriorityQueue<>();
 		int diff;
-		int max = 0;
-		boolean stepped;
-		for (int i = 1; i < heights.length; i++)
+		for (int i = 0; i < heights.length - 1; i++)
 		{
-			stepped = false;
-			if (heights[i - 1] >= heights[i])
+			diff = heights[i + 1] - heights[i];
+			if (diff > 0)
 			{
-				memo[i][0] = memo[i - 1][0];
-				memo[i][1] = memo[i - 1][1];
-				max = i;
+				pq.add(diff);
 			}
-			else
+
+			if (pq.size() > ladders)
 			{
-				diff = heights[i] - heights[i - 1];
-				if (memo[i - 1][0][0] >= diff)
-				{
-					memo[i][0][0] = memo[i - 1][0][0] - diff;
-					memo[i][0][1] = memo[i - 1][0][1];
-					max = i;
-					stepped = true;
-				}
-				else if (memo[i - 1][0][1] > 0)
-				{
-					memo[i][0][0] = memo[i - 1][0][0];
-					memo[i][0][1] = memo[i - 1][0][1] - 1;
-					max = i;
-					stepped = true;
-				}
+				bricks -= pq.remove();
+			}
 
-				if (memo[i - 1][1][1] > 0)
-				{
-					memo[i][1][0] = memo[i - 1][1][0];
-					memo[i][1][1] = memo[i - 1][1][1] - 1;
-					max = i;
-					stepped = true;
-				}
-				else if (memo[i - 1][1][0] >= diff)
-				{
-					memo[i][1][0] = memo[i - 1][1][0] - diff;
-					memo[i][1][1] = memo[i - 1][1][1];
-					max = i;
-					stepped = true;
-				}
-
-				if (!stepped)
-				{
-					break;
-				}
+			if (bricks < 0)
+			{
+				return i;
 			}
 		}
 
-		return max;
+		return heights.length - 1;
+	}
+
+	public static void main(String[] args)
+	{
+		System.out.println(new FurthestBuildingYouCanReach().furthestBuilding(new int[]{4, 12, 2, 7, 3, 18, 20, 3, 19}, 4, 2));//7
+		System.out.println(new FurthestBuildingYouCanReach().furthestBuilding(new int[]{4, 2, 7, 6, 9, 14, 12}, 5, 1)); //4
 	}
 }
