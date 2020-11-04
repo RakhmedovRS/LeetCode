@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 875
+Count of solved tasks: 876
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -211,6 +211,7 @@ Count of solved tasks: 875
 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[RangeSumQuery2DImmutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQuery2DImmutable.java)
 |306|[Additive Number](https://leetcode.com/problems/additive-number/)|[AdditiveNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AdditiveNumber.java)
 |309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[BestTimeToBuyAndSellStockWithCooldown.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BestTimeToBuyAndSellStockWithCooldown.java)
+|310|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|[MinimumHeightTrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumHeightTrees.java)
 |312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[BurstBalloons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BurstBalloons.java)
 |313|[Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)|[SuperUglyNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SuperUglyNumber.java)
 |315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)|[CountOfSmallerNumbersAfterSelf.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountOfSmallerNumbersAfterSelf.java)
