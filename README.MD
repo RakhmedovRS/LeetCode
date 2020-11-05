@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 879
+Count of solved tasks: 880
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -304,6 +304,7 @@ Count of solved tasks: 879
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[HammingDistance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HammingDistance.java)
 |462|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|[MinimumMovesToEqualArrayElementsII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumMovesToEqualArrayElementsII.java)
 |463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[IslandPerimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IslandPerimeter.java)
+|464|[Can I Win](https://leetcode.com/problems/can-i-win/)|[CanIWin.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanIWin.java)
 |467|[Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)|[UniqueSubstringsInWraparoundString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueSubstringsInWraparoundString.java)
 |468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[ValidateIPAddress.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidateIPAddress.java)
 |470|[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)|[ImplementRand10UsingRand7.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImplementRand10UsingRand7.java)
