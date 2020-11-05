@@ -1,7 +1,8 @@
 import common.LeetCode;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 
 /**
  * @author RakhmedovRS
@@ -10,34 +11,52 @@ import java.util.List;
 @LeetCode(id = 22, name = "Generate Parentheses", url = "https://leetcode.com/problems/generate-parentheses/")
 public class GenerateParentheses
 {
-	public void generateParenthesis(List<String> result, String currentState, int left, int right)
+	public List<String> generateParenthesis(int n)
 	{
-		if (left == -1 || right == -1)
-		{
-			return;
-		}
+		List<String> answer = new ArrayList<>();
+		dfs(n,n, new StringBuilder(), answer::add);
+		return answer;
+	}
 
+	private void dfs(int left, int right, StringBuilder sb, Consumer<String> consumer)
+	{
 		if (left == 0 && right == 0)
 		{
-			result.add(currentState);
+			consumer.accept(sb.toString());
+			return;
+		}
+		else if (left == 0)
+		{
+			sb.append(')');
+			dfs(left, right - 1, sb, consumer);
+			sb.deleteCharAt(sb.length() - 1);
 			return;
 		}
 
-		if (left > 0)
+		if (left == right)
 		{
-			generateParenthesis(result, currentState + "(", left - 1, right);
+			sb.append('(');
+			dfs(left - 1, right, sb, consumer);
+			sb.deleteCharAt(sb.length() - 1);
 		}
-
-		if (right > 0 && right > left)
+		else
 		{
-			generateParenthesis(result, currentState + ")", left, right - 1);
+			sb.append(')');
+			dfs(left, right - 1, sb, consumer);
+			sb.deleteCharAt(sb.length() - 1);
+
+			sb.append('(');
+			dfs(left - 1, right, sb, consumer);
+			sb.deleteCharAt(sb.length() - 1);
 		}
 	}
 
-	public List<String> generateParenthesis(int n)
+	public static void main(String[] args)
 	{
-		List<String> result = new LinkedList<>();
-		generateParenthesis(result, "", n, n);
-		return result;
+		System.out.println(new GenerateParentheses().generateParenthesis(1));
+		System.out.println(new GenerateParentheses().generateParenthesis(2));
+		System.out.println(new GenerateParentheses().generateParenthesis(3));
+		System.out.println(new GenerateParentheses().generateParenthesis(4));
+		System.out.println(new GenerateParentheses().generateParenthesis(5));
 	}
 }
