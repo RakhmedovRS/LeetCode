@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 878
+Count of solved tasks: 879
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -442,6 +442,7 @@ Count of solved tasks: 878
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[DailyTemperatures.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DailyTemperatures.java)
 |740|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[DeleteAndEarn.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteAndEarn.java)
 |744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|[FindSmallestLetterGreaterThanTarget.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindSmallestLetterGreaterThanTarget.java)
+|745|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/)|[PrefixAndSuffixSearch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrefixAndSuffixSearch.java)
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[MinCostClimbingStairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinCostClimbingStairs.java)
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|[LargestNumberAtLeastTwiceOfOthers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestNumberAtLeastTwiceOfOthers.java)
 |748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|[ShortestCompletingWord.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestCompletingWord.java)
