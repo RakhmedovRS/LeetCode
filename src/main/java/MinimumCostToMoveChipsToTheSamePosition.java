@@ -7,19 +7,19 @@ import common.LeetCode;
 @LeetCode(id = 1217, name = "Minimum Cost to Move Chips to The Same Position", url = "https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/")
 public class MinimumCostToMoveChipsToTheSamePosition
 {
-	public int minCostToMoveChips(int[] chips)
+	public int minCostToMoveChips(int[] position)
 	{
 		int even = 0;
 		int odd = 0;
-		for (int chip : chips)
+		for (int i = 0; i < position.length; i++)
 		{
-			if (chip % 2 == 0)
+			if (position[i] % 2==  0)
 			{
-				even += 1;
+				even++;
 			}
 			else
 			{
-				odd += 1;
+				odd++;
 			}
 		}
 
