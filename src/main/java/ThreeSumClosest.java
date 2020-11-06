@@ -1,5 +1,7 @@
 import common.LeetCode;
 
+import java.util.Arrays;
+
 /**
  * @author RakhmedovRS
  * @created 25-Mar-20
@@ -9,36 +11,42 @@ public class ThreeSumClosest
 {
 	public int threeSumClosest(int[] nums, int target)
 	{
-		if (nums.length == 0)
-		{
-			return 0;
-		}
-
+		Arrays.sort(nums);
 		int diff = Integer.MAX_VALUE;
-		int closest = 0;
-		int sumOfThree;
-		for (int first = 0; first < nums.length - 2; first++)
+		int closest = -1;
+		int sum;
+		int currentDiff;
+		for (int left = 0; left < nums.length - 2; left++)
 		{
-			for (int second = first + 1; second < nums.length - 1; second++)
+			int middle = left + 1;
+			int right = nums.length - 1;
+			while (middle != right)
 			{
-				for (int third = second + 1; third < nums.length; third++)
+				sum = nums[left] + nums[middle] + nums[right];
+				currentDiff = Math.abs(target - sum);
+				if (currentDiff < diff)
 				{
-					sumOfThree = nums[first] + nums[second] + nums[third];
-					if (sumOfThree == target)
-					{
-						return target;
-					}
+					closest = sum;
+					diff = currentDiff;
+				}
 
-					int currentDiff = Math.abs(sumOfThree - target);
-					if (currentDiff < diff)
-					{
-						diff = currentDiff;
-						closest = sumOfThree;
-					}
+				if (sum > target)
+				{
+					right--;
+				}
+				else
+				{
+					middle++;
 				}
 			}
 		}
 
 		return closest;
+	}
+
+	public static void main(String[] args)
+	{
+		System.out.println(new ThreeSumClosest().threeSumClosest(new int[]{1,2,4,8,16,32,64,128}, 82)); //82
+		System.out.println(new ThreeSumClosest().threeSumClosest(new int[]{-1, 2, 1, -4}, 1)); //2
 	}
 }
