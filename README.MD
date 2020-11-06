@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 881
+Count of solved tasks: 882
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -269,6 +269,7 @@ Count of solved tasks: 881
 |405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|[ConvertNumberToHexadecimal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertNumberToHexadecimal.java)
 |406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|[QueueReconstructionByHeight.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueueReconstructionByHeight.java)
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[LongestPalindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestPalindrome.java)
+|410|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)|[SplitArrayLargestSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitArrayLargestSum.java)
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[FizzBuzz.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FizzBuzz.java)
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[ThirdMaximumNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThirdMaximumNumber.java)
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[AddStrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddStrings.java)
