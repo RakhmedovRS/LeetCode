@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 880
+Count of solved tasks: 881
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -460,6 +460,7 @@ Count of solved tasks: 880
 |784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[LetterCasePermutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LetterCasePermutation.java)
 |787|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|[CheapestFlightsWithinKStops.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheapestFlightsWithinKStops.java)
 |788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|[RotatedDigits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotatedDigits.java)
+|789|[Escape The Ghosts](https://leetcode.com/problems/escape-the-ghosts/)|[EscapeTheGhosts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EscapeTheGhosts.java)
 |791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|[CustomSortString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CustomSortString.java)
 |792|[Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)|[NumberOfMatchingSubsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfMatchingSubsequences.java)
 |794|[Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state/)|[ValidTicTacToeState.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidTicTacToeState.java)
