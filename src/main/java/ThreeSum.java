@@ -14,54 +14,64 @@ public class ThreeSum
 {
 	public List<List<Integer>> threeSum(int[] nums)
 	{
-		List<List<Integer>> res = new LinkedList<>();
-		if (nums.length == 0)
+		List<List<Integer>> answer = new ArrayList<>();
+		if (nums.length < 3)
 		{
-			return new ArrayList<>(res);
+			return answer;
 		}
-		Arrays.sort(nums);
-		for (int first = 0; first < nums.length - 2; first++)
-		{
-			if (nums[first] > 0)
-			{
-				break;
-			}
 
-			if (first > 0 && nums[first - 1] == nums[first])
+		Arrays.sort(nums);
+		int val;
+		int right;
+		for (int left = 0; left < nums.length - 2 && nums[left] <= 0; left++)
+		{
+			if (left != 0 && nums[left - 1] == nums[left])
 			{
 				continue;
 			}
 
-			int second = first + 1;
-			int third = nums.length - 1;
-			while (second < third)
+			for (int middle = left + 1; middle < nums.length - 1; middle++)
 			{
-				int sum = nums[first] + nums[second] + nums[third];
-				if (sum == 0)
+				val = 0 - nums[left] - nums[middle];
+				right = binarySearch(nums, middle + 1, nums.length - 1, val);
+				if (right != -1)
 				{
-					res.add(Arrays.asList(nums[first], nums[second], nums[third]));
-					while (second + 1 < third && nums[second] == nums[second + 1])
+					if (answer.isEmpty() ||
+						(answer.get(answer.size() - 1).get(0) != nums[left]
+							|| answer.get(answer.size() - 1).get(1) != nums[middle]
+							|| answer.get(answer.size() - 1).get(2) != nums[right]
+						)
+					)
 					{
-						second++;
+						answer.add(Arrays.asList(nums[left], nums[middle], nums[right]));
 					}
-					while (third - 1 > second && nums[third] == nums[third - 1])
-					{
-						third--;
-					}
-					second++;
-					third--;
-				}
-				else if (sum > 0)
-				{
-					third--;
-				}
-				else
-				{
-					second++;
 				}
 			}
 		}
-		return new ArrayList<>(res);
+
+		return answer;
+	}
+
+	private int binarySearch(int[] nums, int left, int right, int searchValue)
+	{
+		int middle;
+		while (left <= right)
+		{
+			middle = (left + right) / 2;
+			if (nums[middle] == searchValue)
+			{
+				return middle;
+			}
+			else if (nums[middle] > searchValue)
+			{
+				right = middle - 1;
+			}
+			else
+			{
+				left = middle + 1;
+			}
+		}
+		return -1;
 	}
 
 	public static void main(String[] args)
