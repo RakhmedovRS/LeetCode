@@ -4,47 +4,44 @@ import common.LeetCode;
  * @author RakhmedovRS
  * @created 10/30/2020
  */
-@LeetCode(id = 1283, name = "Find the Smallest Divisor Given a Threshold", url = "")
+@LeetCode(id = 1283, name = "Find the Smallest Divisor Given a Threshold", url = "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/")
 public class FindTheSmallestDivisorGivenThreshold
 {
 	public int smallestDivisor(int[] nums, int threshold)
 	{
-		int divisor = 0;
-		int smallest = 1;
-		int highest = Integer.MAX_VALUE;
+		int left = 1;
+		int right = Integer.MAX_VALUE - 1;
 		int middle;
-		int sum;
-
-		while (smallest <= highest)
+		int answer = 0;
+		while (left <= right)
 		{
-			middle = smallest + (highest - smallest) / 2;
-			sum = calSum(nums, middle);
-			if (sum > threshold)
+			middle = (left + right) / 2;
+			if (sumOfRest(nums, middle) > threshold)
 			{
-				smallest = middle + 1;
+				left = middle + 1;
 			}
 			else
 			{
-				highest = middle - 1;
-				divisor = middle;
+				answer = middle;
+				right = middle - 1;
 			}
 		}
 
-		return divisor;
+		return answer;
 	}
 
-	private int calSum(int[] nums, int divisor)
+	private int sumOfRest(int[] nums, int div)
 	{
 		int sum = 0;
 		for (int num : nums)
 		{
-			if (num % divisor == 0)
+			if (num % div == 0)
 			{
-				sum += num / divisor;
+				sum += num / div;
 			}
 			else
 			{
-				sum += num / divisor + 1;
+				sum += 1 + num / div;
 			}
 		}
 
