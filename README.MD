@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 882
+Count of solved tasks: 883
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -290,6 +290,7 @@ Count of solved tasks: 882
 |441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[ArrangingCoins.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArrangingCoins.java)
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[FindAllDuplicatesInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAllDuplicatesInArray.java)
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[StringCompression.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringCompression.java)
+|445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|[AddTwoNumbersII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddTwoNumbersII.java)
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[FindAllNumbersDisappearedInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAllNumbersDisappearedInArray.java)
 |449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|[SerializeAndDeserializeBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SerializeAndDeserializeBST.java)
 |450|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|[DeleteNodeInBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteNodeInBST.java)
