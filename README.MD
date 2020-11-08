@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 888
+Count of solved tasks: 889
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -764,6 +764,7 @@ Count of solved tasks: 888
 |1401|[Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/)|[CircleAndRectangleOverlapping.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CircleAndRectangleOverlapping.java)
 |1402|[Reducing Dishes](https://leetcode.com/problems/reducing-dishes/)|[ReducingDishes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReducingDishes.java)
 |1403|[Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/)|[MinimumSubsequenceInNonIncreasingOrder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSubsequenceInNonIncreasingOrder.java)
+|1404|[Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)|[NumberOfStepsToReduceNumberInBinaryRepresentationToOne.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfStepsToReduceNumberInBinaryRepresentationToOne.java)
 |1405|[Longest Happy String](https://leetcode.com/problems/longest-happy-string/)|[LongestHappyString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestHappyString.java)
 |1408|[String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)|[StringMatchingInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringMatchingInArray.java)
 |1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|[MinimumValueoToGetPositiveStepByStepSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumValueoToGetPositiveStepByStepSum.java)
