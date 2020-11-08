@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 886
+Count of solved tasks: 887
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -889,3 +889,4 @@ Count of solved tasks: 886
 |1640|[Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/)|[CheckArrayFormationThroughConcatenation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckArrayFormationThroughConcatenation.java)
 |1641|[Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|[CountSortedVowelStrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSortedVowelStrings.java)
 |1642|[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|[FurthestBuildingYouCanReach.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FurthestBuildingYouCanReach.java)
+|1647|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)|[MinimumDeletionsToMakeCharacterFrequenciesUnique.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeCharacterFrequenciesUnique.java)
