@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 889
+Count of solved tasks: 890
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -467,6 +467,7 @@ Count of solved tasks: 889
 |791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|[CustomSortString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CustomSortString.java)
 |792|[Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)|[NumberOfMatchingSubsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfMatchingSubsequences.java)
 |794|[Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state/)|[ValidTicTacToeState.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidTicTacToeState.java)
+|795|[Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/)|[NumberOfSubarraysWithBoundedMaximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfSubarraysWithBoundedMaximum.java)
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)|[RotateString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotateString.java)
 |797|[All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)|[AllPathsFromSourceToTarget.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllPathsFromSourceToTarget.java)
 |799|[Champagne Tower](https://leetcode.com/problems/champagne-tower/)|[ChampagneTower.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ChampagneTower.java)
