@@ -10,20 +10,48 @@ public class MaximumDifferenceBetweenNodeAndAncestor
 {
 	public int maxAncestorDiff(TreeNode root)
 	{
-		int[] ans = new int[]{Integer.MIN_VALUE};
-		maxAncestorDiff(root, root.val, root.val, ans);
-		return ans[0];
+		long[] diff = new long[]{0};
+		dfs(root, diff);
+		return (int) diff[0];
 	}
 
-	private void maxAncestorDiff(TreeNode root, int max, int min, int[] ans)
+	private long[] dfs(TreeNode root, long[] diff)
 	{
 		if (root == null)
 		{
-			return;
+			return new long[0];
 		}
 
-		ans[0] = Math.max(ans[0], Math.max(Math.abs(max - root.val), Math.abs(root.val - min)));
-		maxAncestorDiff(root.left, Math.max(root.val, max), Math.min(root.val, min), ans);
-		maxAncestorDiff(root.right, Math.max(root.val, max), Math.min(root.val, min), ans);
+		long[] minMax;
+		if (root.left == null && root.right == null)
+		{
+			return new long[]{Math.abs(root.val), Math.abs(root.val)};
+		}
+		else if (root.right == null)
+		{
+			minMax = dfs(root.left, diff);
+			minMax[0] = Math.min(minMax[0], Math.abs(root.val));
+			minMax[1] = Math.max(minMax[1], Math.abs(root.val));
+		}
+		else if (root.left == null)
+		{
+			minMax = dfs(root.right, diff);
+			minMax[0] = Math.min(minMax[0], Math.abs(root.val));
+			minMax[1] = Math.max(minMax[1], Math.abs(root.val));
+		}
+		else
+		{
+			long[] lMinMax = dfs(root.left, diff);
+			long[] rMinMax = dfs(root.right, diff);
+
+			minMax = new long[]{Math.min(lMinMax[0], rMinMax[0]), Math.max(lMinMax[1], rMinMax[1])};
+		}
+
+		diff[0] = Math.max(diff[0], Math.abs(root.val - minMax[0]));
+		diff[0] = Math.max(diff[0], Math.abs(root.val - minMax[1]));
+
+		minMax[0] = Math.min(minMax[0], Math.abs(root.val));
+		minMax[1] = Math.max(minMax[1], Math.abs(root.val));
+		return minMax;
 	}
 }
