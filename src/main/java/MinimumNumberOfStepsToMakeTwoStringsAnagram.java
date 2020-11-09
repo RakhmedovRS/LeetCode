@@ -10,14 +10,12 @@ public class MinimumNumberOfStepsToMakeTwoStringsAnagram
 	public int minSteps(String s, String t)
 	{
 		int[] memo = new int[26];
-		for (char ch : s.toCharArray())
+		char[] sChars = s.toCharArray();
+		char[] tChars = t.toCharArray();
+		for (int i = 0; i < sChars.length; i++)
 		{
-			memo[ch - 'a']++;
-		}
-
-		for (char ch : t.toCharArray())
-		{
-			memo[ch - 'a']--;
+			memo[sChars[i] - 'a']++;
+			memo[tChars[i] - 'a']--;
 		}
 
 		int steps = 0;
