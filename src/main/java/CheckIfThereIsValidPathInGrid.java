@@ -116,4 +116,49 @@ public class CheckIfThereIsValidPathInGrid
 		return dfs(row + routes[grid[row][column]].exit.x, column + routes[grid[row][column]].exit.y, rows, columns, grid, routes[grid[row][column]].exit, routes, visited)
 			|| dfs(row + routes[grid[row][column]].enter.x, column + routes[grid[row][column]].enter.y, rows, columns, grid, routes[grid[row][column]].enter, routes, visited);
 	}
+
+	public static void main(String[] args)
+	{
+		System.out.println(new CheckIfThereIsValidPathInGrid().hasValidPath(new int[][]
+			{
+				{3, 4, 3, 4},
+				{2, 2, 2, 2},
+				{6, 5, 6, 5},
+			}));
+
+		System.out.println(new CheckIfThereIsValidPathInGrid().hasValidPath(new int[][]
+			{
+				{1, 2, 1},
+				{1, 2, 1}
+			}));
+
+		System.out.println(new CheckIfThereIsValidPathInGrid().hasValidPath(new int[][]
+			{
+				{6, 1, 3},
+				{4, 1, 5}
+			}));
+
+		System.out.println(new CheckIfThereIsValidPathInGrid().hasValidPath(new int[][]
+			{
+				{1, 1},
+			}));
+
+		System.out.println(new CheckIfThereIsValidPathInGrid().hasValidPath(new int[][]
+			{
+				{2},
+				{2},
+			}));
+
+		System.out.println(new CheckIfThereIsValidPathInGrid().hasValidPath(new int[][]
+			{
+				{2, 4, 3},
+				{6, 5, 2}
+			}));
+
+		System.out.println(new CheckIfThereIsValidPathInGrid().hasValidPath(new int[][]
+			{
+				{4, 1},
+				{6, 1}
+			}));
+	}
 }
