@@ -9,22 +9,26 @@ public class FlippingAnImage
 {
 	public int[][] flipAndInvertImage(int[][] A)
 	{
+		int left;
+		int right;
+		int temp;
 		for (int[] row : A)
 		{
-			int left = 0;
-			int right = A.length - 1;
-			while (left < right)
+			left = 0;
+			right = row.length - 1;
+			while (left <= right)
 			{
-				int temp = row[left];
-				row[left] = Math.abs(row[right] - 1);
-				row[right] = Math.abs(temp - 1);
+				temp = row[left];
+				row[left] = row[right];
+				row[right] = temp;
+
+				row[left] = (row[left] + 1) % 2;
+				if(left != right)
+				{
+					row[right] = (row[right] + 1) % 2;
+				}
 				left++;
 				right--;
-			}
-
-			if (left == right)
-			{
-				row[right] = Math.abs(row[right] - 1);
 			}
 		}
 
