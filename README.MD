@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 895
+Count of solved tasks: 896
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -378,6 +378,7 @@ Count of solved tasks: 895
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N_aryTreePreorderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/N_aryTreePreorderTraversal.java)
 |590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[N_aryTreePostorderTraversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/N_aryTreePostorderTraversal.java)
 |592|[Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/)|[FractionAdditionAndSubtraction.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FractionAdditionAndSubtraction.java)
+|593|[Valid Square](https://leetcode.com/problems/valid-square/)|[ValidSquare.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidSquare.java)
 |594|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[LongestHarmoniousSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestHarmoniousSubsequence.java)
 |599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)|[MinimumIndexSumOfTwoLists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumIndexSumOfTwoLists.java)
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[CanPlaceFlowers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanPlaceFlowers.java)
