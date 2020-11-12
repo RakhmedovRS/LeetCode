@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 896
+Count of solved tasks: 897
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -42,6 +42,7 @@ Count of solved tasks: 896
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[WildcardMatching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WildcardMatching.java)
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[JumpGameII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameII.java)
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[Permutations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Permutations.java)
+|47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[PermutationsII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PermutationsII.java)
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[RotateImage.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotateImage.java)
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[GroupAnagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GroupAnagrams.java)
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Pow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Pow.java)
