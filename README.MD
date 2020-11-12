@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 897
+Count of solved tasks: 898
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -783,6 +783,7 @@ Count of solved tasks: 897
 |1419|[Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/)|[MinimumNumberOfFrogsCroaking.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfFrogsCroaking.java)
 |1422|[Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)|[CountTripletsThatCanFormTwoArraysOfEqualXOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountTripletsThatCanFormTwoArraysOfEqualXOR.java)
 |1422|[Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)|[MaximumScoreAfterSplittingString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumScoreAfterSplittingString.java)
+|1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|[MaximumPointsYouCanObtainFromCards.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumPointsYouCanObtainFromCards.java)
 |1424|[Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/)|[DiagonalTraverseII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverseII.java)
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[KidsWithTheGreatestNumberOfCandies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KidsWithTheGreatestNumberOfCandies.java)
 |1432|[Max Difference You Can Get From Changing an Integer](https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/)|[MaxDifferenceYouCanGetFromChangingInteger.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxDifferenceYouCanGetFromChangingInteger.java)
