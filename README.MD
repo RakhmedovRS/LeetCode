@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 900
+Count of solved tasks: 901
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -725,6 +725,7 @@ Count of solved tasks: 900
 |1314|[Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|[MatrixBlockSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MatrixBlockSum.java)
 |1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)|[ConvertIntegerToTheSumOfTwoNoZeroIntegers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertIntegerToTheSumOfTwoNoZeroIntegers.java)
 |1318|[Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)|[MinimumFlipsToMakeORbEqualToc.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumFlipsToMakeORbEqualToc.java)
+|1319|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|[NumberOfOperationsToMakeNetworkConnected.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfOperationsToMakeNetworkConnected.java)
 |1324|[Print Words Vertically](https://leetcode.com/problems/print-words-vertically/)|[PrintWordsVertically.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintWordsVertically.java)
 |1328|[Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/)|[BreakPalindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BreakPalindrome.java)
 |1329|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[SortMatrixDiagonally.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortMatrixDiagonally.java)
