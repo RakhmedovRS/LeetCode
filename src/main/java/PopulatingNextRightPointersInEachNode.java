@@ -2,6 +2,7 @@ import common.LeetCode;
 
 import java.util.Deque;
 import java.util.LinkedList;
+import java.util.Queue;
 
 /**
  * @author RakhmedovRS
@@ -35,53 +36,35 @@ public class PopulatingNextRightPointersInEachNode
 
 	public Node connect(Node root)
 	{
-		Node startLevel = root;
-		while (startLevel != null)
+		if (root == null)
 		{
-			Node current = startLevel;
-			while (current != null)
-			{
-				if (current.left != null)
-				{
-					current.left.next = current.right;
-				}
-
-				if (current.right != null && current.next != null)
-				{
-					current.right.next = current.next.left;
-				}
-
-				current = current.next;
-			}
-
-			startLevel = startLevel.left;
+			return null;
 		}
 
-		return root;
-	}
-
-	public Node connect1(Node root)
-	{
-		Deque<Node> level = new LinkedList<>();
-		level.addLast(root);
-		while (!level.isEmpty())
+		Queue<Node> queue = new LinkedList<>();
+		queue.add(root);
+		int size;
+		Node current;
+		while (!queue.isEmpty())
 		{
-			int levelSize = level.size();
-			while (levelSize > 0)
+			size = queue.size();
+			while (size-- > 0)
 			{
-				Node node = level.removeFirst();
-				if (node != null)
+				current = queue.remove();
+				if (size > 0)
 				{
-					if (levelSize - 1 > 0)
-					{
-						node.next = level.getFirst();
-					}
-
-					level.addLast(node.left);
-					level.addLast(node.right);
+					current.next = queue.peek();
 				}
 
-				levelSize--;
+				if (current.left != null)
+				{
+					queue.add(current.left);
+				}
+
+				if (current.right != null)
+				{
+					queue.add(current.right);
+				}
 			}
 		}
 
