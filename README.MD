@@ -1,5 +1,5 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 899
+Count of solved tasks: 900
 
 | LeetCode ID        | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|
@@ -737,6 +737,7 @@ Count of solved tasks: 899
 |1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[NumberOfStepsToReduceNumberToZero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfStepsToReduceNumberToZero.java)
 |1343|[Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)|[NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java)
 |1344|[Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/)|[AngleBetweenHandsOfClock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AngleBetweenHandsOfClock.java)
+|1345|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|[JumpGameIV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameIV.java)
 |1346|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|[CheckIfNAndItsDoubleExist.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfNAndItsDoubleExist.java)
 |1347|[Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)|[MinimumNumberOfStepsToMakeTwoStringsAnagram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfStepsToMakeTwoStringsAnagram.java)
 |1348|[Tweet Counts Per Frequency](https://leetcode.com/problems/tweet-counts-per-frequency/)|[TweetCountsPerFrequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TweetCountsPerFrequency.java)
