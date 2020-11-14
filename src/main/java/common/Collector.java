@@ -48,7 +48,7 @@ public class Collector
 			Path output = Paths.get(Paths.get("").toAbsolutePath().toString() + "\\README.MD");
 			try (OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(output.toFile()));)
 			{
-				osw.write(preprocess("![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png"));
+				osw.write(preprocess("![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)"));
 				osw.write(preprocess(String.format(GENERAL_INFO_PATTERN, Collector.class.getSimpleName(), Collector.class.getSimpleName())));
 				osw.write(preprocess(String.format("Count of solved tasks: %s", annotations.size())));
 				osw.write(preprocess("<details>"));
