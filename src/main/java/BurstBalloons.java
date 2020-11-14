@@ -1,7 +1,5 @@
 import common.LeetCode;
 
-import java.util.Arrays;
-
 /**
  * @author RakhmedovRS
  * @created 23-May-20
@@ -9,52 +7,42 @@ import java.util.Arrays;
 @LeetCode(id = 312, name = "Burst Balloons", url = "https://leetcode.com/problems/burst-balloons/")
 public class BurstBalloons
 {
-	public int maxCoins(int[] nums)
+	public int maxCoins(int[] numbers)
 	{
-		int[][] memo = new int[nums.length][nums.length];
-		for (int[] row : memo)
-		{
-			Arrays.fill(row, -1);
-		}
-		return maxCoins(nums, memo, 0, nums.length - 1);
+		return dfs(numbers, 0, numbers.length - 1, new Integer[numbers.length][numbers.length]);
 	}
 
-	public int maxCoins(int[] nums, int[][] memo, int start, int end)
+	private int dfs(int[] numbers, int left, int right, Integer[][] memo)
 	{
-		if (start > end)
+		if (left > right)
 		{
 			return 0;
 		}
 
-		if (memo[start][end] != -1)
+		if (memo[left][right] != null)
 		{
-			return memo[start][end];
+			return memo[left][right];
 		}
 
-		int max = 0;
-		int curr;
-		for (int i = start; i <= end; i++)
+		memo[left][right] = 0;
+		for (int middle = left; middle <= right; middle++)
 		{
-			curr = maxCoins(nums, memo, start, i - 1)
-				+ (get(nums, i) * get(nums, start - 1) * get(nums, end + 1))
-				+ maxCoins(nums, memo, i + 1, end);
-			if (curr > max)
-			{
-				max = curr;
-			}
+			memo[left][right] = Math.max(memo[left][right], dfs(numbers, left, middle - 1, memo)
+				+ getNeighbor(numbers, left - 1) * numbers[middle] * getNeighbor(numbers, right + 1)
+				+ dfs(numbers, middle + 1, right, memo));
 		}
 
-		memo[start][end] = max;
-		return max;
+		return memo[left][right];
 	}
 
-	public int get(int[] nums, int i)
+	private int getNeighbor(int[] numbers, int index)
 	{
-		if (i == -1 || i == nums.length)
+		if (index < 0 || index == numbers.length)
 		{
 			return 1;
 		}
-		return nums[i];
+
+		return numbers[index];
 	}
 
 	public static void main(String[] args)
