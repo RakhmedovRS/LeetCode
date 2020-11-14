@@ -9,13 +9,12 @@ import java.util.stream.Collectors;
  * @author RakhmedovRS
  * @created 9/27/2020
  */
-public class Contests
+public class Contest
 {
 
 
 	public static void main(String[] args) throws Exception
 	{
-		System.out.println(readBigTestCase());
 	}
 
 	private static String readBigTestCase() throws FileNotFoundException
