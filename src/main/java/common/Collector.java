@@ -51,33 +51,32 @@ public class Collector
 				osw.write(preprocess("![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)"));
 				osw.write(preprocess(String.format(GENERAL_INFO_PATTERN, Collector.class.getSimpleName(), Collector.class.getSimpleName())));
 				osw.write(preprocess(String.format("Count of solved tasks: %s", annotations.size())));
+
+				//All tasks table
 				osw.write(preprocess("<details>"));
 				osw.write(preprocess("<summary>Table of all solved tasks</summary>"));
 				osw.write(preprocess("<p>"));
 				osw.write(System.lineSeparator());
 				osw.write(preprocess(HEADER));
 				osw.write(preprocess(LINE));
-
-				String table = annotations
-					.stream()
-					.map(entry ->
-					{
-						try
-						{
-							String url = String.format(URL_PATTERN, entry.getValue(), entry.getValue());
-							LeetCode leetCode = entry.getKey();
-							return String.format(GENERAL_PATTERN, leetCode.id(), leetCode.difficulty().name, leetCode.name(), leetCode.url(), url);
-						}
-						catch (Exception ignore)
-						{
-							return "";
-						}
-					})
-					.collect(Collectors.joining(System.lineSeparator()));
-
-				osw.write(table);
+				osw.write(buildAllTasksTable(annotations));
 				osw.write(preprocess("</p>"));
 				osw.write(preprocess("</details>"));
+				osw.write(System.lineSeparator());
+
+				for (Difficulty difficulty : Difficulty.values())
+				{
+					osw.write(preprocess("<details>"));
+					osw.write(preprocess(String.format("<summary>Table of %s solved tasks</summary>", difficulty.name)));
+					osw.write(preprocess("<p>"));
+					osw.write(System.lineSeparator());
+					osw.write(preprocess(HEADER));
+					osw.write(preprocess(LINE));
+					osw.write(buildTasksTable(annotations, difficulty));
+					osw.write(preprocess("</p>"));
+					osw.write(preprocess("</details>"));
+					osw.write(System.lineSeparator());
+				}
 			}
 		}
 	}
@@ -85,5 +84,46 @@ public class Collector
 	private static String preprocess(String string)
 	{
 		return string + System.lineSeparator();
+	}
+
+	private static String buildAllTasksTable(List<Map.Entry<LeetCode, String>> annotations)
+	{
+		return annotations
+			.stream()
+			.map(entry ->
+			{
+				try
+				{
+					String url = String.format(URL_PATTERN, entry.getValue(), entry.getValue());
+					LeetCode leetCode = entry.getKey();
+					return String.format(GENERAL_PATTERN, leetCode.id(), leetCode.difficulty().name, leetCode.name(), leetCode.url(), url);
+				}
+				catch (Exception ignore)
+				{
+					return "";
+				}
+			})
+			.collect(Collectors.joining(System.lineSeparator()));
+	}
+
+	private static String buildTasksTable(List<Map.Entry<LeetCode, String>> annotations, Difficulty difficulty)
+	{
+		return annotations
+			.stream()
+			.filter(entry -> entry.getKey().difficulty() == difficulty)
+			.map(entry ->
+			{
+				try
+				{
+					String url = String.format(URL_PATTERN, entry.getValue(), entry.getValue());
+					LeetCode leetCode = entry.getKey();
+					return String.format(GENERAL_PATTERN, leetCode.id(), leetCode.difficulty().name, leetCode.name(), leetCode.url(), url);
+				}
+				catch (Exception ignore)
+				{
+					return "";
+				}
+			})
+			.collect(Collectors.joining(System.lineSeparator()));
 	}
 }
