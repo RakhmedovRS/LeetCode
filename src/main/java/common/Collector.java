@@ -66,6 +66,10 @@ public class Collector
 
 				for (Difficulty difficulty : Difficulty.values())
 				{
+					if (difficulty == Difficulty.UNDEFINED)
+					{
+						continue;
+					}
 					osw.write(preprocess("<details>"));
 					osw.write(preprocess(String.format("<summary>Table of %s solved tasks</summary>", difficulty.name)));
 					osw.write(preprocess("<p>"));
