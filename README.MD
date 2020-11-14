@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 901
+Count of solved tasks: 902
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -365,6 +365,7 @@ Count of solved tasks: 901
 |541|Undefined|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[ReverseStringII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseStringII.java)
 |542|Undefined|[01 Matrix](https://leetcode.com/problems/01-matrix/)|[ZeroOneMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ZeroOneMatrix.java)
 |543|Undefined|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[DiameterOfBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiameterOfBinaryTree.java)
+|546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[RemoveBoxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)
 |547|Undefined|[Friend Circles](https://leetcode.com/problems/friend-circles/)|[FriendCircles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FriendCircles.java)
 |551|Undefined|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[StudentAttendanceRecordI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StudentAttendanceRecordI.java)
 |552|Undefined|[Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/)|[StudentAttendanceRecordII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StudentAttendanceRecordII.java)
