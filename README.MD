@@ -306,7 +306,7 @@ Count of solved tasks: 907
 |455|Undefined|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|[AssignCookies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AssignCookies.java)
 |456|Undefined|[132 Pattern](https://leetcode.com/problems/132-pattern/)|[OneTwoThreePattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OneTwoThreePattern.java)
 |457|Undefined|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|[CircularArrayLoop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CircularArrayLoop.java)
-|458|Undefined|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[PoorPigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)
+|458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[PoorPigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)
 |459|Undefined|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[RepeatedSubstringPattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RepeatedSubstringPattern.java)
 |460|Undefined|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|[LFUCache.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LFUCache.java)
 |461|Undefined|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[HammingDistance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HammingDistance.java)
@@ -943,6 +943,7 @@ Count of solved tasks: 907
 
 | LeetCode ID        | Difficulty     | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|:--------------:|
+|458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[PoorPigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[RemoveBoxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)</p>
 </details>
 
