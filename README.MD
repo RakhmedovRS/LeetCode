@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 907
+Count of solved tasks: 908
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -557,6 +557,7 @@ Count of solved tasks: 907
 |933|Undefined|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[NumberOfRecentCalls.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfRecentCalls.java)
 |934|Undefined|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)|[ShortestBridge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestBridge.java)
 |935|Undefined|[Knight Dialer](https://leetcode.com/problems/knight-dialer/)|[KnightDialer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KnightDialer.java)
+|938|Easy|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[RangeSumOfBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfBST.java)
 |941|Undefined|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[ValidMountainArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidMountainArray.java)
 |942|Undefined|[DI String Match](https://leetcode.com/problems/di-string-match/)|[DIStringMatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DIStringMatch.java)
 |945|Undefined|[Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)|[MinimumIncrementToMakeArrayUnique.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumIncrementToMakeArrayUnique.java)
@@ -922,6 +923,7 @@ Count of solved tasks: 907
 
 | LeetCode ID        | Difficulty     | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|:--------------:|
+|938|Easy|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[RangeSumOfBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfBST.java)
 |1652|Easy|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[DefuseTheBomb.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefuseTheBomb.java)
 |1656|Easy|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|[DesignAnOrderedStream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAnOrderedStream.java)</p>
 </details>
