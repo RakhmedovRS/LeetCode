@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 904
+Count of solved tasks: 905
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -910,7 +910,8 @@ Count of solved tasks: 904
 |1646|Undefined|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|[GetMaximumInGeneratedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GetMaximumInGeneratedArray.java)
 |1647|Undefined|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)|[MinimumDeletionsToMakeCharacterFrequenciesUnique.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeCharacterFrequenciesUnique.java)
 |1652|Easy|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[DefuseTheBomb.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefuseTheBomb.java)
-|1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[MinimumDeletionsToMakeStringBalanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)</p>
+|1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[MinimumDeletionsToMakeStringBalanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)
+|1658|Medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[MinimumOperationsToReduceXToZero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToReduceXToZero.java)</p>
 </details>
 
 <details>
@@ -928,7 +929,8 @@ Count of solved tasks: 904
 
 | LeetCode ID        | Difficulty     | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|:--------------:|
-|1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[MinimumDeletionsToMakeStringBalanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)</p>
+|1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[MinimumDeletionsToMakeStringBalanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)
+|1658|Medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[MinimumOperationsToReduceXToZero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToReduceXToZero.java)</p>
 </details>
 
 <details>
