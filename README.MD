@@ -51,7 +51,7 @@ Count of solved tasks: 910
 |49|Undefined|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[GroupAnagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GroupAnagrams.java)
 |50|Undefined|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Pow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Pow.java)
 |52|Undefined|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[NQueensII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NQueensII.java)
-|53|Undefined|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[MaximumSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarray.java)
+|53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[MaximumSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarray.java)
 |54|Undefined|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[SpiralMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SpiralMatrix.java)
 |55|Undefined|[Jump Game](https://leetcode.com/problems/jump-game/)|[JumpGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGame.java)
 |56|Undefined|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[MergeIntervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeIntervals.java)
@@ -925,6 +925,7 @@ Count of solved tasks: 910
 
 | LeetCode ID        | Difficulty     | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|:--------------:|
+|53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[MaximumSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarray.java)
 |938|Easy|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[RangeSumOfBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfBST.java)
 |1652|Easy|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[DefuseTheBomb.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefuseTheBomb.java)
 |1656|Easy|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|[DesignAnOrderedStream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAnOrderedStream.java)</p>
