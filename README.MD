@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 908
+Count of solved tasks: 909
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -505,6 +505,7 @@ Count of solved tasks: 908
 |840|Undefined|[Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/)|[MagicSquaresInGrid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MagicSquaresInGrid.java)
 |841|Undefined|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[KeysAndRooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KeysAndRooms.java)
 |844|Undefined|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[BackspaceStringCompare.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BackspaceStringCompare.java)
+|845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[LongestMountainInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)
 |848|Undefined|[Shifting Letters](https://leetcode.com/problems/shifting-letters/)|[ShiftingLetters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShiftingLetters.java)
 |849|Undefined|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[MaximizeDistanceToClosestPerson.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximizeDistanceToClosestPerson.java)
 |849|Undefined|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|[SplitArrayIntoFibonacciSequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitArrayIntoFibonacciSequence.java)
@@ -934,6 +935,7 @@ Count of solved tasks: 908
 
 | LeetCode ID        | Difficulty     | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|:--------------:|
+|845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[LongestMountainInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[MinimumDeletionsToMakeStringBalanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)
 |1657|Medium|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[DetermineIfTwoStringsAreClose.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfTwoStringsAreClose.java)
 |1658|Medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[MinimumOperationsToReduceXToZero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToReduceXToZero.java)</p>
