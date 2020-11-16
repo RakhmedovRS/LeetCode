@@ -41,7 +41,7 @@ Count of solved tasks: 910
 |37|Undefined|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|[SudokuSolver.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SudokuSolver.java)
 |38|Undefined|[Count and Say](https://leetcode.com/problems/count-and-say/)|[CountAndSay.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountAndSay.java)
 |39|Undefined|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[CombinationSum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CombinationSum.java)
-|41|Undefined|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[FirstMissingPositive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstMissingPositive.java)
+|41|Hard|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[FirstMissingPositive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstMissingPositive.java)
 |42|Undefined|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[TrappingRainWater.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TrappingRainWater.java)
 |44|Undefined|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[WildcardMatching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WildcardMatching.java)
 |45|Undefined|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[JumpGameII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameII.java)
@@ -949,6 +949,7 @@ Count of solved tasks: 910
 
 | LeetCode ID        | Difficulty     | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|:--------------:|
+|41|Hard|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[FirstMissingPositive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstMissingPositive.java)
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[PoorPigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[RemoveBoxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)
 |1354|Hard|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[ConstructTargetArrayWithMultipleSums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTargetArrayWithMultipleSums.java)</p>
