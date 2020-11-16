@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 909
+Count of solved tasks: 910
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -751,6 +751,7 @@ Count of solved tasks: 909
 |1348|Undefined|[Tweet Counts Per Frequency](https://leetcode.com/problems/tweet-counts-per-frequency/)|[TweetCountsPerFrequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TweetCountsPerFrequency.java)
 |1351|Undefined|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[CountNegativeNumbersInSortedMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountNegativeNumbersInSortedMatrix.java)
 |1353|Undefined|[Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)|[MaximumNumberOfEventsThatCanBeAttended.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfEventsThatCanBeAttended.java)
+|1354|Hard|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[ConstructTargetArrayWithMultipleSums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTargetArrayWithMultipleSums.java)
 |1356|Undefined|[Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)|[SortIntegersByTheNumberOf1Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortIntegersByTheNumberOf1Bits.java)
 |1357|Undefined|[Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/)|[ApplyDiscountEveryNOrders.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ApplyDiscountEveryNOrders.java)
 |1358|Undefined|[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)|[NumberOfSubstringsContainingAllThreeCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfSubstringsContainingAllThreeCharacters.java)
@@ -948,6 +949,7 @@ Count of solved tasks: 909
 | LeetCode ID        | Difficulty     | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|:--------------:|
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[PoorPigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)
-|546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[RemoveBoxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)</p>
+|546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[RemoveBoxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)
+|1354|Hard|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[ConstructTargetArrayWithMultipleSums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTargetArrayWithMultipleSums.java)</p>
 </details>
 
