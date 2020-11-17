@@ -1,3 +1,4 @@
+import common.Difficulty;
 import common.LeetCode;
 import common.ListNode;
 
@@ -5,7 +6,12 @@ import common.ListNode;
  * @author RakhmedovRS
  * @created 15-Mar-20
  */
-@LeetCode(id = 234, name = "Palindrome Linked List", url = "https://leetcode.com/problems/palindrome-linked-list/")
+@LeetCode(
+	id = 234,
+	name = "Palindrome Linked List",
+	url = "https://leetcode.com/problems/palindrome-linked-list/",
+	difficulty = Difficulty.EASY
+)
 public class PalindromeLinkedList
 {
 	public boolean isPalindrome(ListNode head)
@@ -15,76 +21,73 @@ public class PalindromeLinkedList
 			return true;
 		}
 
-		ListNode dummy = new ListNode(0);
-		dummy.next = head;
-
-		int count = 0;
-		while (head != null)
+		int size = 0;
+		ListNode temp = head;
+		while (temp != null)
 		{
-			head = head.next;
-			count++;
+			size++;
+			temp = temp.next;
 		}
 
-		if (count == 2)
+		temp = head;
+		ListNode prev = head;
+		for (int i = 0; i < size / 2; i++)
 		{
-			return dummy.next.val == dummy.next.next.val;
+			prev = temp;
+			temp = temp.next;
 		}
 
-		head = dummy.next;
-		ListNode slow = head;
-		ListNode fast = head.next.next;
-		while (fast != null && fast.next != null)
+		ListNode middle = null;
+		ListNode head2;
+		if (size % 2 == 0)
 		{
-			slow = slow.next;
-			fast = fast.next.next;
-		}
-
-		ListNode secondHead;
-		if (count % 2 != 0)
-		{
-			secondHead = reverseList(slow.next.next);
-			slow.next = null;
+			head2 = reverse(temp);
 		}
 		else
 		{
-			secondHead = reverseList(slow.next);
-			slow.next = null;
+			middle = prev.next;
+			head2 = reverse(middle.next);
+			middle.next = null;
 		}
+		prev.next = null;
 
-		while (true)
+		ListNode a = head;
+		ListNode b = head2;
+
+		while (a != null && b != null)
 		{
-			if (head == null && secondHead == null)
+			if (a.val != b.val)
 			{
 				break;
 			}
 
-			if (head == null || secondHead == null)
-			{
-				return false;
-			}
-
-			if (head.val != secondHead.val)
-			{
-				return false;
-			}
-
-			head = head.next;
-			secondHead = secondHead.next;
+			a = a.next;
+			b = b.next;
 		}
 
-		return true;
+		if (size % 2 == 0)
+		{
+			prev.next = reverse(head2);
+		}
+		else
+		{
+			prev.next = middle;
+			middle.next = reverse(head2);
+		}
+
+		return a == null && b == null;
 	}
 
-	private ListNode reverseList(ListNode current)
+	private ListNode reverse(ListNode head)
 	{
 		ListNode prev = null;
 		ListNode next;
-		while (current != null)
+		while (head != null)
 		{
-			next = current.next;
-			current.next = prev;
-			prev = current;
-			current = next;
+			next = head.next;
+			head.next = prev;
+			prev = head;
+			head = next;
 		}
 
 		return prev;

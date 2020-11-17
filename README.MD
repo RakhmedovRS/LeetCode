@@ -182,7 +182,7 @@ Count of solved tasks: 910
 |230|Undefined|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[KthSmallestElementInBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthSmallestElementInBST.java)
 |231|Undefined|[Power of Two](https://leetcode.com/problems/power-of-two/)|[PowerOfTwo.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PowerOfTwo.java)
 |232|Undefined|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[QueueUsingStacks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueueUsingStacks.java)
-|234|Undefined|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[PalindromeLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeLinkedList.java)
+|234|Easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[PalindromeLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeLinkedList.java)
 |235|Undefined|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[LowestCommonAncestorOfBinarySearchTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfBinarySearchTree.java)
 |236|Undefined|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[LowestCommonAncestorOfBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfBinaryTree.java)
 |237|Undefined|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[DeleteNodeInLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteNodeInLinkedList.java)
@@ -926,6 +926,7 @@ Count of solved tasks: 910
 | LeetCode ID        | Difficulty     | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|:--------------:|
 |53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[MaximumSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarray.java)
+|234|Easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[PalindromeLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeLinkedList.java)
 |938|Easy|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[RangeSumOfBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfBST.java)
 |1652|Easy|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[DefuseTheBomb.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefuseTheBomb.java)
 |1656|Easy|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|[DesignAnOrderedStream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAnOrderedStream.java)</p>
