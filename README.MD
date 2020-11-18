@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 910
+Count of solved tasks: 911
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -386,6 +386,7 @@ Count of solved tasks: 910
 |592|Undefined|[Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/)|[FractionAdditionAndSubtraction.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FractionAdditionAndSubtraction.java)
 |593|Undefined|[Valid Square](https://leetcode.com/problems/valid-square/)|[ValidSquare.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidSquare.java)
 |594|Undefined|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[LongestHarmoniousSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestHarmoniousSubsequence.java)
+|598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[RangeAdditionII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)
 |599|Undefined|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)|[MinimumIndexSumOfTwoLists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumIndexSumOfTwoLists.java)
 |605|Undefined|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[CanPlaceFlowers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanPlaceFlowers.java)
 |606|Undefined|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[ConstructStringFromBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructStringFromBinaryTree.java)
@@ -927,6 +928,7 @@ Count of solved tasks: 910
 | :-----------------:|:--------------:|:--------------:|:--------------:|
 |53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[MaximumSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarray.java)
 |234|Easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[PalindromeLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeLinkedList.java)
+|598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[RangeAdditionII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)
 |938|Easy|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[RangeSumOfBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfBST.java)
 |1652|Easy|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[DefuseTheBomb.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefuseTheBomb.java)
 |1656|Easy|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|[DesignAnOrderedStream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAnOrderedStream.java)</p>
