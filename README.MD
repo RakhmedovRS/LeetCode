@@ -54,7 +54,7 @@ Count of solved tasks: 910
 |53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[MaximumSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarray.java)
 |54|Undefined|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[SpiralMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SpiralMatrix.java)
 |55|Undefined|[Jump Game](https://leetcode.com/problems/jump-game/)|[JumpGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGame.java)
-|56|Undefined|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[MergeIntervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeIntervals.java)
+|56|Medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[MergeIntervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeIntervals.java)
 |57|Undefined|[Insert Interval](https://leetcode.com/problems/insert-interval/)|[InsertInterval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsertInterval.java)
 |58|Undefined|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[LengthOfLastWord.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LengthOfLastWord.java)
 |59|Undefined|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[SpiralMatrixII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SpiralMatrixII.java)
@@ -938,6 +938,7 @@ Count of solved tasks: 910
 
 | LeetCode ID        | Difficulty     | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|:--------------:|
+|56|Medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[MergeIntervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeIntervals.java)
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[LongestMountainInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[MinimumDeletionsToMakeStringBalanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)
 |1657|Medium|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[DetermineIfTwoStringsAreClose.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfTwoStringsAreClose.java)

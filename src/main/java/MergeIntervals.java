@@ -1,63 +1,58 @@
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.LinkedList;
 
 /**
  * @author RakhmedovRS
  * @created 21-Mar-20
  */
-@LeetCode(id = 56, name = "Merge Intervals", url = "https://leetcode.com/problems/merge-intervals/")
+@LeetCode(
+	id = 56,
+	name = "Merge Intervals",
+	url = "https://leetcode.com/problems/merge-intervals/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MergeIntervals
 {
 	public int[][] merge(int[][] intervals)
 	{
-		if (intervals == null || intervals.length == 0)
+		Arrays.sort(intervals, (a, b) ->
 		{
-			return new int[0][0];
-		}
+			if (a[1] == b[1])
+			{
+				return a[0] - b[0];
+			}
 
-		LinkedList<int[]> unmerged = new LinkedList<>();
+			return a[1] - b[1];
+		});
+
+		LinkedList<int[]> list = new LinkedList<>();
 		for (int[] interval : intervals)
 		{
-			unmerged.addLast(interval);
+			if (!list.isEmpty() && list.getLast()[1] >= interval[0])
+			{
+
+				while (!list.isEmpty() && list.getLast()[1] >= interval[0])
+				{
+					interval[0] = Math.min(list.getLast()[0], interval[0]);
+					interval[1] = Math.max(list.getLast()[1], interval[1]);
+					list.removeLast();
+				}
+			}
+
+			list.addLast(interval);
 		}
 
-		unmerged.sort(Comparator.comparingInt(anInt -> anInt[0]));
-
-		int[] currentInterval;
-		LinkedList<int[]> merged = new LinkedList<>();
-		while (true)
-		{
-			currentInterval = unmerged.removeFirst();
-			if (unmerged.isEmpty())
-			{
-				merged.addLast(currentInterval);
-				break;
-			}
-
-			int[] nextInterval = unmerged.removeFirst();
-			if (currentInterval[1] >= nextInterval[0])
-			{
-				currentInterval[1] = Math.max(currentInterval[1], nextInterval[1]);
-				unmerged.addFirst(currentInterval);
-			}
-			else
-			{
-				merged.addLast(currentInterval);
-				unmerged.addFirst(nextInterval);
-			}
-		}
-
-		int[][] res = new int[merged.size()][];
 		int pos = 0;
-		for (int[] interval : merged)
+		int[][] answer = new int[list.size()][];
+		for (int[] inteval : list)
 		{
-			res[pos++] = interval;
+			answer[pos++] = inteval;
 		}
 
-		return res;
+		return answer;
 	}
 
 	public static void main(String[] args)
