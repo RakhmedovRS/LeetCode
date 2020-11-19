@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 912
+Count of solved tasks: 913
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -216,6 +216,7 @@ Count of solved tasks: 912
 |303|Undefined|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[RangeSumQueryImmutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQueryImmutable.java)
 |304|Undefined|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[RangeSumQuery2DImmutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQuery2DImmutable.java)
 |306|Undefined|[Additive Number](https://leetcode.com/problems/additive-number/)|[AdditiveNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AdditiveNumber.java)
+|307|Medium|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[RangeSumQueryMutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQueryMutable.java)
 |309|Undefined|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[BestTimeToBuyAndSellStockWithCooldown.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BestTimeToBuyAndSellStockWithCooldown.java)
 |310|Undefined|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|[MinimumHeightTrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumHeightTrees.java)
 |312|Undefined|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[BurstBalloons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BurstBalloons.java)
@@ -942,6 +943,7 @@ Count of solved tasks: 912
 | LeetCode ID        | Difficulty     | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|:--------------:|
 |56|Medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[MergeIntervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeIntervals.java)
+|307|Medium|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[RangeSumQueryMutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQueryMutable.java)
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[LongestMountainInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)
 |846|Medium|[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)|[HandOfStraights.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HandOfStraights.java)
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[MinimumDeletionsToMakeStringBalanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)
