@@ -264,7 +264,7 @@ Count of solved tasks: 913
 |389|Undefined|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[FindTheDifference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheDifference.java)
 |390|Undefined|[Elimination Game](https://leetcode.com/problems/elimination-game/)|[EliminationGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EliminationGame.java)
 |392|Undefined|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[IsSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IsSubsequence.java)
-|394|Undefined|[Decode String]()|[DecodeString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)
+|394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[DecodeString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)
 |396|Undefined|[Rotate Function](https://leetcode.com/problems/rotate-function/)|[RotateFunction.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotateFunction.java)
 |397|Undefined|[Integer Replacement](https://leetcode.com/problems/integer-replacement/)|[IntegerReplacement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerReplacement.java)
 |398|Undefined|[Random Pick Index](https://leetcode.com/problems/random-pick-index/)|[RandomPickIndex.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RandomPickIndex.java)
@@ -944,6 +944,7 @@ Count of solved tasks: 913
 | :-----------------:|:--------------:|:--------------:|:--------------:|
 |56|Medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[MergeIntervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeIntervals.java)
 |307|Medium|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[RangeSumQueryMutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQueryMutable.java)
+|394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[DecodeString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[LongestMountainInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)
 |846|Medium|[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)|[HandOfStraights.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HandOfStraights.java)
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[MinimumDeletionsToMakeStringBalanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)

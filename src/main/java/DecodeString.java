@@ -1,3 +1,4 @@
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Deque;
@@ -7,61 +8,55 @@ import java.util.LinkedList;
  * @author RakhmedovRS
  * @created 13-Apr-20
  */
-@LeetCode(id = 394, name = "Decode String", url = "")
+@LeetCode(
+	id = 394,
+	name = "Decode String",
+	url = "https://leetcode.com/problems/decode-string/",
+	difficulty = Difficulty.MEDIUM
+)
 public class DecodeString
 {
 	public String decodeString(String encodedString)
 	{
-		if (encodedString == null || encodedString.length() == 0)
-		{
-			return "";
-		}
-
-		Deque<String> values = new LinkedList<>();
-		Deque<Integer> count = new LinkedList<>();
+		LinkedList<Integer> repeats = new LinkedList<>();
+		LinkedList<StringBuilder> builders = new LinkedList<>();
+		StringBuilder sb = new StringBuilder();
+		char ch;
+		int repeat = 0;
 		for (int i = 0; i < encodedString.length(); i++)
 		{
-			char ch = encodedString.charAt(i);
-			if (ch == ']')
+			ch = encodedString.charAt(i);
+			if (Character.isDigit(ch))
 			{
-				StringBuilder value = new StringBuilder();
-				while (!values.isEmpty() && !"[".equals(values.getFirst()))
-				{
-					value.insert(0, values.removeFirst());
-				}
-				values.removeFirst();
-
-				int number = count.removeFirst();
-				StringBuilder newValue = new StringBuilder();
-				while (number-- > 0)
-				{
-					newValue.append(value);
-				}
-				values.addFirst(newValue.toString());
+				repeat *= 10;
+				repeat += ch - '0';
 			}
-			else if (ch >= '0' && ch <= '9')
+			else if (ch == '[')
 			{
-				int number = 0;
-				while (encodedString.charAt(i) >= '0' && encodedString.charAt(i) <= '9')
+				repeats.addLast(repeat);
+				builders.addLast(sb);
+				repeat = 0;
+				sb = new StringBuilder();
+			}
+			else if (ch == ']')
+			{
+				StringBuilder temp = sb;
+				sb = builders.removeLast();
+				repeat = repeats.removeLast();
+				while (repeat-- > 0)
 				{
-					number = number == 0 ? 0 : number * 10;
-					number += (encodedString.charAt(i++) - '0');
+					sb.append(temp);
 				}
-				i--;
-				count.addFirst(number);
+
+				repeat = 0;
 			}
 			else
 			{
-				values.addFirst(String.valueOf(ch));
+				sb.append(ch);
 			}
 		}
 
-		StringBuilder result = new StringBuilder();
-		while (!values.isEmpty())
-		{
-			result.append(values.removeLast());
-		}
-		return result.toString();
+		return sb.toString();
 	}
 
 	public static void main(String[] args)
