@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 915
+Count of solved tasks: 916
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -445,6 +445,7 @@ Count of solved tasks: 915
 |713|Undefined|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[SubarrayProductLessThanK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubarrayProductLessThanK.java)
 |714|Undefined|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[BestTimeToBuyAndSellStockWithTransactionFee.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BestTimeToBuyAndSellStockWithTransactionFee.java)
 |717|Undefined|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|[OneBitAndTwoBitCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OneBitAndTwoBitCharacters.java)
+|718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[MaximumLengthOfRepeatedSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfRepeatedSubarray.java)
 |720|Undefined|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[LongestWordInDictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestWordInDictionary.java)
 |722|Undefined|[Remove Comments](https://leetcode.com/problems/remove-comments/)|[RemoveComments.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveComments.java)
 |724|Undefined|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[FindPivotIndex.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindPivotIndex.java)
@@ -948,6 +949,7 @@ Count of solved tasks: 915
 |56|Medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[MergeIntervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeIntervals.java)
 |307|Medium|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[RangeSumQueryMutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQueryMutable.java)
 |394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[DecodeString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)
+|718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[MaximumLengthOfRepeatedSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfRepeatedSubarray.java)
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[LongestMountainInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)
 |846|Medium|[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)|[HandOfStraights.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HandOfStraights.java)
 |865|Medium|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|[SmallestSubtreeWithAllTheDeepestNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestSubtreeWithAllTheDeepestNodes.java)
