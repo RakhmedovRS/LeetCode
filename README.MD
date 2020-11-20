@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 914
+Count of solved tasks: 915
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -519,6 +519,7 @@ Count of solved tasks: 914
 |860|Undefined|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[LemonadeChange.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LemonadeChange.java)
 |861|Undefined|[Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/)|[ScoreAfterFlippingMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ScoreAfterFlippingMatrix.java)
 |863|Undefined|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|[AllNodesDistanceKInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllNodesDistanceKInBinaryTree.java)
+|865|Medium|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|[SmallestSubtreeWithAllTheDeepestNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestSubtreeWithAllTheDeepestNodes.java)
 |867|Undefined|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[TransposeMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TransposeMatrix.java)
 |868|Undefined|[Binary Gap](https://leetcode.com/problems/binary-gap/)|[BinaryGap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryGap.java)
 |869|Undefined|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[ReorderedPowerOf2.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReorderedPowerOf2.java)
@@ -948,6 +949,7 @@ Count of solved tasks: 914
 |394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[DecodeString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[LongestMountainInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)
 |846|Medium|[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)|[HandOfStraights.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HandOfStraights.java)
+|865|Medium|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|[SmallestSubtreeWithAllTheDeepestNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestSubtreeWithAllTheDeepestNodes.java)
 |1123|Medium|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[LowestCommonAncestorOfDeepestLeaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfDeepestLeaves.java)
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[MinimumDeletionsToMakeStringBalanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)
 |1657|Medium|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[DetermineIfTwoStringsAreClose.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfTwoStringsAreClose.java)
