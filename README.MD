@@ -75,7 +75,7 @@ Count of solved tasks: 916
 |76|Undefined|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[MinimumWindowSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumWindowSubstring.java)
 |78|Undefined|[Subsets](https://leetcode.com/problems/subsets/)|[Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Subsets.java)
 |79|Undefined|[Word Search](https://leetcode.com/problems/word-search/)|[WordSearch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordSearch.java)
-|81|Undefined|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[SearchInRotatedSortedArrayII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArrayII.java)
+|81|Medium|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[SearchInRotatedSortedArrayII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArrayII.java)
 |82|Undefined|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[LargestRectangleInHistogram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestRectangleInHistogram.java)
 |85|Undefined|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|[MaximalRectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximalRectangle.java)
 |87|Undefined|[Scramble String](https://leetcode.com/problems/scramble-string/)|[ScrambleString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ScrambleString.java)
@@ -947,6 +947,7 @@ Count of solved tasks: 916
 | :-----------------:|:--------------:|:--------------:|:--------------:|
 |33|Medium|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[SearchInRotatedSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArray.java)
 |56|Medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[MergeIntervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeIntervals.java)
+|81|Medium|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[SearchInRotatedSortedArrayII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArrayII.java)
 |307|Medium|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[RangeSumQueryMutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQueryMutable.java)
 |394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[DecodeString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)
 |718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[MaximumLengthOfRepeatedSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfRepeatedSubarray.java)
