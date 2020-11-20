@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 913
+Count of solved tasks: 914
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -666,6 +666,7 @@ Count of solved tasks: 913
 |1115|Undefined|[Print FooBar Alternately](https://leetcode.com/problems/print-foobar-alternately/)|[PrintFooBarAlternately.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintFooBarAlternately.java)
 |1117|Undefined|[Building H2O](https://leetcode.com/problems/building-h2o/)|[BuildingH2O.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BuildingH2O.java)
 |1122|Undefined|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[RelativeSortArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RelativeSortArray.java)
+|1123|Medium|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[LowestCommonAncestorOfDeepestLeaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfDeepestLeaves.java)
 |1124|Undefined|[Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|[LongestWellPerformingInterval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestWellPerformingInterval.java)
 |1128|Undefined|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|[NumberOfEquivalentDominoPairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfEquivalentDominoPairs.java)
 |1130|Undefined|[Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)|[MinimumCostTreeFromLeafValues.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostTreeFromLeafValues.java)
@@ -947,6 +948,7 @@ Count of solved tasks: 913
 |394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[DecodeString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[LongestMountainInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)
 |846|Medium|[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)|[HandOfStraights.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HandOfStraights.java)
+|1123|Medium|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[LowestCommonAncestorOfDeepestLeaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfDeepestLeaves.java)
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[MinimumDeletionsToMakeStringBalanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)
 |1657|Medium|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[DetermineIfTwoStringsAreClose.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfTwoStringsAreClose.java)
 |1658|Medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[MinimumOperationsToReduceXToZero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToReduceXToZero.java)</p>
