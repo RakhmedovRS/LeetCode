@@ -34,7 +34,7 @@ Count of solved tasks: 915
 |29|Undefined|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[DivideTwoIntegers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DivideTwoIntegers.java)
 |30|Undefined|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|[SubstringWithConcatenationOfAllWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubstringWithConcatenationOfAllWords.java)
 |32|Undefined|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[LongestValidParentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestValidParentheses.java)
-|33|Undefined|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[SearchInRotatedSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArray.java)
+|33|Medium|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[SearchInRotatedSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArray.java)
 |34|Undefined|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[FindFirstAndLastPositionOfElementInSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindFirstAndLastPositionOfElementInSortedArray.java)
 |35|Undefined|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[SearchInsertPosition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInsertPosition.java)
 |36|Undefined|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[ValidSudoku.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidSudoku.java)
@@ -944,6 +944,7 @@ Count of solved tasks: 915
 
 | LeetCode ID        | Difficulty     | Name           | Solution       |
 | :-----------------:|:--------------:|:--------------:|:--------------:|
+|33|Medium|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[SearchInRotatedSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArray.java)
 |56|Medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[MergeIntervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeIntervals.java)
 |307|Medium|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[RangeSumQueryMutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQueryMutable.java)
 |394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[DecodeString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)
