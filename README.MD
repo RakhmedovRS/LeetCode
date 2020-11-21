@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 916
+Count of solved tasks: 917
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -767,6 +767,7 @@ Count of solved tasks: 916
 |1366|Undefined|[Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/)|[RankTeamsByVotes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RankTeamsByVotes.java)
 |1367|Undefined|[Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|[LinkedListInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListInBinaryTree.java)
 |1367|Undefined|[Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|[TimeNeededToInformAllEmployees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TimeNeededToInformAllEmployees.java)
+|1368|Hard|[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|[MinimumCostToMakeAtLeastOneValidPathInGrid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToMakeAtLeastOneValidPathInGrid.java)
 |1370|Undefined|[Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/)|[IncreasingDecreasingString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingDecreasingString.java)
 |1372|Undefined|[Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)|[LongestZigZagPathInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestZigZagPathInBinaryTree.java)
 |1374|Undefined|[Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)|[GenerateStringWithCharactersThatHaveOddCounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GenerateStringWithCharactersThatHaveOddCounts.java)
@@ -969,6 +970,7 @@ Count of solved tasks: 916
 |41|Hard|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[FirstMissingPositive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstMissingPositive.java)
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[PoorPigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[RemoveBoxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)
-|1354|Hard|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[ConstructTargetArrayWithMultipleSums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTargetArrayWithMultipleSums.java)</p>
+|1354|Hard|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[ConstructTargetArrayWithMultipleSums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTargetArrayWithMultipleSums.java)
+|1368|Hard|[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|[MinimumCostToMakeAtLeastOneValidPathInGrid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToMakeAtLeastOneValidPathInGrid.java)</p>
 </details>
 
