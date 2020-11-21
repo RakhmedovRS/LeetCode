@@ -20,16 +20,13 @@ public class SmallestStringWithSwaps
 	class DSU
 	{
 		int[] parent;
-		int[] rank;
 
 		public DSU(int n)
 		{
 			parent = new int[n];
-			rank = new int[n];
 			for (int i = 0; i < n; i++)
 			{
 				parent[i] = i;
-				rank[i] = 1;
 			}
 		}
 
@@ -62,31 +59,13 @@ public class SmallestStringWithSwaps
 				return;
 			}
 
-			if (rank[parentA] == rank[parentB])
+			if (parentA < parentB)
 			{
-				if (parentA < parentB)
-				{
-					parent[parentB] = parentA;
-					rank[parentA] += rank[parentB];
-				}
-				else
-				{
-					parent[parentA] = parentB;
-					rank[parentB] += rank[parentA];
-				}
+				parent[parentB] = parentA;
 			}
 			else
 			{
-				if (rank[parentA] > rank[parentB])
-				{
-					parent[parentB] = parentA;
-					rank[parentA] += rank[parentB];
-				}
-				else
-				{
-					parent[parentA] = parentB;
-					rank[parentB] += rank[parentA];
-				}
+				parent[parentA] = parentB;
 			}
 		}
 
