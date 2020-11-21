@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 917
+Count of solved tasks: 918
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -546,6 +546,7 @@ Count of solved tasks: 917
 |899|Undefined|[Orderly Queue](https://leetcode.com/problems/orderly-queue/)|[OrderlyQueue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OrderlyQueue.java)
 |900|Undefined|[RLE Iterator](https://leetcode.com/problems/rle-iterator/)|[RLEIterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RLEIterator.java)
 |901|Undefined|[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[OnlineStockSpan.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OnlineStockSpan.java)
+|902|Hard|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[NumbersAtMostNGivenDigitSet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumbersAtMostNGivenDigitSet.java)
 |905|Undefined|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[SortArrayByParity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortArrayByParity.java)
 |907|Undefined|[Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|[SumOfSubarrayMinimums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfSubarrayMinimums.java)
 |908|Undefined|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|[SmallestRangeI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestRangeI.java)
@@ -970,6 +971,7 @@ Count of solved tasks: 917
 |41|Hard|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[FirstMissingPositive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstMissingPositive.java)
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[PoorPigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[RemoveBoxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)
+|902|Hard|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[NumbersAtMostNGivenDigitSet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumbersAtMostNGivenDigitSet.java)
 |1354|Hard|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[ConstructTargetArrayWithMultipleSums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTargetArrayWithMultipleSums.java)
 |1368|Hard|[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|[MinimumCostToMakeAtLeastOneValidPathInGrid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToMakeAtLeastOneValidPathInGrid.java)</p>
 </details>
