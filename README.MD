@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 923
+Count of solved tasks: 924
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -174,6 +174,7 @@ Count of solved tasks: 923
 |220|Undefined|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|[ContainsDuplicateIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainsDuplicateIII.java)
 |221|Undefined|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[MaximalSquare.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximalSquare.java)
 |222|Undefined|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[CountCompleteTreeNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountCompleteTreeNodes.java)
+|223|Medium|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[RectangleArea.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RectangleArea.java)
 |224|Undefined|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|[BasicCalculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BasicCalculator.java)
 |225|Undefined|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[ImplementStackUsingQueues.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImplementStackUsingQueues.java)
 |227|Undefined|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[BasicCalculatorII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BasicCalculatorII.java)
@@ -957,6 +958,7 @@ Count of solved tasks: 923
 |33|Medium|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[SearchInRotatedSortedArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArray.java)
 |56|Medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[MergeIntervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeIntervals.java)
 |81|Medium|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[SearchInRotatedSortedArrayII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArrayII.java)
+|223|Medium|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[RectangleArea.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RectangleArea.java)
 |307|Medium|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[RangeSumQueryMutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQueryMutable.java)
 |394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[DecodeString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)
 |718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[MaximumLengthOfRepeatedSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfRepeatedSubarray.java)
