@@ -1,3 +1,4 @@
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -8,46 +9,44 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 10/14/2020
  */
-@LeetCode(id = 337, name = "House Robber III", url = "https://leetcode.com/problems/house-robber-iii/")
+@LeetCode(
+	id = 337,
+	name = "House Robber III",
+	url = "https://leetcode.com/problems/house-robber-iii/",
+	difficulty = Difficulty.MEDIUM
+)
 public class HouseRobberIII
 {
-	enum State
-	{
-		CAN_BE_ROBBER,
-		CANT_BE_ROBBED
-	}
-
 	public int rob(TreeNode root)
 	{
-		Map<TreeNode, Map<State, Integer>> memo = new HashMap<>();
-		return dfs(root, State.CAN_BE_ROBBER, memo);
+		Map<TreeNode, Integer[]> memo = new HashMap<>();
+		return Math.max(dfs(root, 0, memo), dfs(root, 1, memo));
 	}
 
-	private int dfs(TreeNode root, State state, Map<TreeNode, Map<State, Integer>> memo)
+	private int dfs(TreeNode root, int canRob, Map<TreeNode, Integer[]> memo)
 	{
 		if (root == null)
 		{
 			return 0;
 		}
 
-		if (memo.containsKey(root) && memo.get(root).containsKey(state))
+		if (memo.containsKey(root) && memo.get(root)[canRob] != null)
 		{
-			return memo.get(root).get(state);
+			return memo.get(root)[canRob];
 		}
 
-		int max = 0;
-		if (state == State.CAN_BE_ROBBER)
+		memo.putIfAbsent(root, new Integer[2]);
+
+		if (canRob == 1)
 		{
-			max = Math.max(root.val + dfs(root.left, State.CANT_BE_ROBBED, memo) + dfs(root.right, State.CANT_BE_ROBBED, memo),
-				dfs(root.left, State.CAN_BE_ROBBER, memo) + dfs(root.right, State.CAN_BE_ROBBER, memo));
+			memo.get(root)[canRob] = Math.max(root.val + dfs(root.left, 0, memo) + dfs(root.right, 0, memo),
+				dfs(root.left, 1, memo) + dfs(root.right, 1, memo));
 		}
 		else
 		{
-			max = dfs(root.left, State.CAN_BE_ROBBER, memo) + dfs(root.right, State.CAN_BE_ROBBER, memo);
+			memo.get(root)[canRob] = dfs(root.left, 1, memo) + dfs(root.right, 1, memo);
 		}
 
-		memo.putIfAbsent(root, new HashMap<>());
-		memo.get(root).put(state, max);
-		return max;
+		return memo.get(root)[canRob];
 	}
 }
