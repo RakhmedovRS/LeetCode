@@ -1,3 +1,4 @@
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Deque;
@@ -7,106 +8,88 @@ import java.util.LinkedList;
  * @author RakhmedovRS
  * @created 03-May-20
  */
-@LeetCode(id = 227, name = "Basic Calculator II", url = "https://leetcode.com/problems/basic-calculator-ii/")
+@LeetCode(
+	id = 227,
+	name = "Basic Calculator II",
+	url = "https://leetcode.com/problems/basic-calculator-ii/",
+	difficulty = Difficulty.MEDIUM
+)
 public class BasicCalculatorII
 {
-	public int calculate(String string)
+	public int calculate(String s)
 	{
-		if (string == null)
+		StringBuilder sb = new StringBuilder();
+		for (char ch : s.toCharArray())
 		{
-			return 0;
+			if (Character.isDigit(ch) || ch == '*' || ch == '+' || ch == '-' || ch == '/')
+			{
+				sb.append(ch);
+			}
 		}
 
-		string = string.replaceAll(" ", "");
-		if (string.isEmpty())
-		{
-			return 0;
-		}
+		s = sb.toString();
 
-		Deque<Integer> values = new LinkedList<>();
-		Deque<Character> operators = new LinkedList<>();
-		int value = 0;
-		boolean isNumber = false;
-		for (int i = 0; i < string.length(); i++)
+		LinkedList<Integer> numbers = new LinkedList<>();
+		LinkedList<Character> operations = new LinkedList<>();
+		int number = 0;
+		char ch;
+		for (int i = 0; i < s.length(); i++)
 		{
-			char ch = string.charAt(i);
+			ch = s.charAt(i);
 			if (Character.isDigit(ch))
 			{
-				if (isNumber)
-				{
-					value *= 10;
-					value += ch - '0';
-				}
-				else
-				{
-					isNumber = true;
-					value = ch - '0';
-				}
-
-				if (i == string.length() - 1)
-				{
-					values.addLast(value);
-				}
+				number *= 10;
+				number += s.charAt(i) - '0';
 			}
 			else if (ch == '+' || ch == '-')
 			{
-				if (isNumber)
-				{
-					values.addLast(value);
-				}
-				isNumber = false;
-				operators.addLast(ch);
+				numbers.addLast(number);
+				number = 0;
+				operations.addLast(ch);
 			}
 			else
 			{
-				if (isNumber)
+				int j = i;
+				int secondNumber = 0;
+				while (j + 1 < s.length() && Character.isDigit(s.charAt(j + 1)))
 				{
-					values.addLast(value);
-				}
-				isNumber = false;
-				int leftOperand = values.removeLast();
-				int rightOperand = 0;
-				i++;
-				while (i < string.length() && Character.isDigit(string.charAt(i)))
-				{
-					rightOperand *= 10;
-					rightOperand += string.charAt(i) - '0';
-					i++;
+					secondNumber *= 10;
+					secondNumber += s.charAt(j + 1) - '0';
+					j++;
 				}
 
 				if (ch == '*')
 				{
-					values.addLast(leftOperand * rightOperand);
+					number *= secondNumber;
 				}
 				else
 				{
-					values.addLast(leftOperand / rightOperand);
+					number /= secondNumber;
 				}
 
-				if (i != string.length())
-				{
-					i--;
-				}
+				i = j;
+			}
+
+			if (i == s.length() - 1)
+			{
+				numbers.addLast(number);
 			}
 		}
 
-		while (!operators.isEmpty())
+		while (numbers.size() != 1)
 		{
-			Character operator = operators.removeFirst();
-			int leftOperand = values.removeFirst();
-			int rightOperand = values.removeFirst();
-
-			if (operator == '+')
+			char op = operations.removeFirst();
+			if (op == '+')
 			{
-				values.addFirst(leftOperand + rightOperand);
+				numbers.addFirst(numbers.removeFirst() + numbers.removeFirst());
 			}
 			else
 			{
-				values.addFirst(leftOperand - rightOperand);
+				numbers.addFirst(numbers.removeFirst() - numbers.removeFirst());
 			}
 		}
 
-		return values.peek();
+		return numbers.getFirst();
 	}
 
 	public static void main(String[] args)
