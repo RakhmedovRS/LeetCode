@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 926
+Count of solved tasks: 927
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -828,6 +828,7 @@ Count of solved tasks: 926
 |1461|Undefined|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|[CheckIfStringContainsAllBinaryCodesOfSizeK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfStringContainsAllBinaryCodesOfSizeK.java)
 |1464|Undefined|[Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)|[MaximumProductOfTwoElementsInAnArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfTwoElementsInAnArray.java)
 |1470|Undefined|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|[ShuffleTheArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShuffleTheArray.java)
+|1471|Medium|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|[TheKStrongestValuesInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKStrongestValuesInArray.java)
 |1472|Undefined|[Design Browser History](https://leetcode.com/problems/design-browser-history/)|[DesignBrowserHistory.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignBrowserHistory.java)
 |1475|Undefined|[Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)|[FinalPricesWithSpecialDiscountInShop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FinalPricesWithSpecialDiscountInShop.java)
 |1476|Undefined|[Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/)|[SubrectangleQueries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubrectangleQueries.java)
@@ -971,6 +972,7 @@ Count of solved tasks: 926
 |1123|Medium|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[LowestCommonAncestorOfDeepestLeaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfDeepestLeaves.java)
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[SmallestStringWithSwaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithSwaps.java)
 |1267|Medium|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|[CountServersThatCommunicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountServersThatCommunicate.java)
+|1471|Medium|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|[TheKStrongestValuesInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKStrongestValuesInArray.java)
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[MinimumDeletionsToMakeStringBalanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)
 |1657|Medium|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[DetermineIfTwoStringsAreClose.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfTwoStringsAreClose.java)
 |1658|Medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[MinimumOperationsToReduceXToZero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToReduceXToZero.java)
