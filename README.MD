@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 925
+Count of solved tasks: 926
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -710,6 +710,7 @@ Count of solved tasks: 925
 |1227|Undefined|[Airplane Seat Assignment Probability](https://leetcode.com/problems/airplane-seat-assignment-probability/)|[AirplaneSeatAssignmentProbability.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AirplaneSeatAssignmentProbability.java)
 |1232|Undefined|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[CheckIfItIsStraightLine.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfItIsStraightLine.java)
 |1234|Undefined|[Replace the Substring for Balanced String](Replace the Substring for Balanced String)|[ReplaceTheSubstringForBalancedString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceTheSubstringForBalancedString.java)
+|1235|Hard|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[MaximumProfitInJobScheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProfitInJobScheduling.java)
 |1237|Undefined|[Find Positive Integer Solution for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/)|[FindPositiveIntegerSolutionForGivenEquation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindPositiveIntegerSolutionForGivenEquation.java)
 |1239|Undefined|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)|[MaximumLengthOfConcatenatedStringWithUniqueCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfConcatenatedStringWithUniqueCharacters.java)
 |1247|Undefined|[Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/)|[MinimumSwapsToMakeStringsEqual.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSwapsToMakeStringsEqual.java)
@@ -987,6 +988,7 @@ Count of solved tasks: 925
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[PoorPigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[RemoveBoxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)
 |902|Hard|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[NumbersAtMostNGivenDigitSet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumbersAtMostNGivenDigitSet.java)
+|1235|Hard|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[MaximumProfitInJobScheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProfitInJobScheduling.java)
 |1354|Hard|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[ConstructTargetArrayWithMultipleSums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTargetArrayWithMultipleSums.java)
 |1368|Hard|[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|[MinimumCostToMakeAtLeastOneValidPathInGrid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToMakeAtLeastOneValidPathInGrid.java)</p>
 </details>
