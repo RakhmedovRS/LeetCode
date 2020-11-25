@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 928
+Count of solved tasks: 929
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -470,6 +470,7 @@ Count of solved tasks: 928
 |764|Undefined|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/)|[LargestPlusSign.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestPlusSign.java)
 |766|Undefined|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[ToeplitzMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ToeplitzMatrix.java)
 |767|Undefined|[Reorganize String](https://leetcode.com/problems/reorganize-string/)|[ReorganizeString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReorganizeString.java)
+|769|Medium|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[MaxChunksToMakeSorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxChunksToMakeSorted.java)
 |771|Undefined|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[JewelsAndStones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JewelsAndStones.java)
 |783|Undefined|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[MinimumDistanceBetweenBSTNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDistanceBetweenBSTNodes.java)
 |784|Undefined|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[LetterCasePermutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LetterCasePermutation.java)
@@ -969,6 +970,7 @@ Count of solved tasks: 928
 |337|Medium|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[HouseRobberIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HouseRobberIII.java)
 |394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[DecodeString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)
 |718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[MaximumLengthOfRepeatedSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfRepeatedSubarray.java)
+|769|Medium|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[MaxChunksToMakeSorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxChunksToMakeSorted.java)
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[LongestMountainInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)
 |846|Medium|[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)|[HandOfStraights.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HandOfStraights.java)
 |865|Medium|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|[SmallestSubtreeWithAllTheDeepestNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestSubtreeWithAllTheDeepestNodes.java)
