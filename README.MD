@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 927
+Count of solved tasks: 928
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -887,6 +887,7 @@ Count of solved tasks: 927
 |1576|Undefined|[Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)|[ReplaceAllQuestionsToAvoidConsecutiveRepeatingCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceAllQuestionsToAvoidConsecutiveRepeatingCharacters.java)
 |1577|Undefined|[Number of Ways Where Square of Number Is Equal to Product of Two Numbers](https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/)|[NumberOfWaysWhereSquareOfNumberIsEqualToProductOfTwoNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfWaysWhereSquareOfNumberIsEqualToProductOfTwoNumbers.java)
 |1578|Undefined|[Minimum Deletion Cost to Avoid Repeating Letters](https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/)|[MinimumDeletionCostToAvoidRepeatingLetters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionCostToAvoidRepeatingLetters.java)
+|1579|Hard|[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|[RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable.java)
 |1582|Undefined|[Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)|[SpecialPositionsInBinaryMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SpecialPositionsInBinaryMatrix.java)
 |1583|Undefined|[Count Unhappy Friends](https://leetcode.com/problems/count-unhappy-friends/)|[CountUnhappyFriends.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountUnhappyFriends.java)
 |1584|Undefined|[Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|[MinCostToConnectAllPoints.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinCostToConnectAllPoints.java)
@@ -995,6 +996,7 @@ Count of solved tasks: 927
 |902|Hard|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[NumbersAtMostNGivenDigitSet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumbersAtMostNGivenDigitSet.java)
 |1235|Hard|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[MaximumProfitInJobScheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProfitInJobScheduling.java)
 |1354|Hard|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[ConstructTargetArrayWithMultipleSums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTargetArrayWithMultipleSums.java)
-|1368|Hard|[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|[MinimumCostToMakeAtLeastOneValidPathInGrid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToMakeAtLeastOneValidPathInGrid.java)</p>
+|1368|Hard|[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|[MinimumCostToMakeAtLeastOneValidPathInGrid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToMakeAtLeastOneValidPathInGrid.java)
+|1579|Hard|[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|[RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable.java)</p>
 </details>
 
