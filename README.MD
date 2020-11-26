@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 929
+Count of solved tasks: 930
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -706,6 +706,7 @@ Count of solved tasks: 929
 |1217|Undefined|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|[MinimumCostToMoveChipsToTheSamePosition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToMoveChipsToTheSamePosition.java)
 |1218|Undefined|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)|[LongestArithmeticSubsequenceOfGivenDifference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestArithmeticSubsequenceOfGivenDifference.java)
 |1219|Undefined|[Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)|[PathWithMaximumGold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathWithMaximumGold.java)
+|1220|Hard|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[CountVowelsPermutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountVowelsPermutation.java)
 |1222|Undefined|[Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/)|[QueensThatCanAttackKing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueensThatCanAttackKing.java)
 |1223|Undefined|[Dice Roll Simulation](https://leetcode.com/problems/dice-roll-simulation/)|[DiceRollSimulation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiceRollSimulation.java)
 |1227|Undefined|[Airplane Seat Assignment Probability](https://leetcode.com/problems/airplane-seat-assignment-probability/)|[AirplaneSeatAssignmentProbability.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AirplaneSeatAssignmentProbability.java)
@@ -996,6 +997,7 @@ Count of solved tasks: 929
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[PoorPigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[RemoveBoxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)
 |902|Hard|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[NumbersAtMostNGivenDigitSet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumbersAtMostNGivenDigitSet.java)
+|1220|Hard|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[CountVowelsPermutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountVowelsPermutation.java)
 |1235|Hard|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[MaximumProfitInJobScheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProfitInJobScheduling.java)
 |1354|Hard|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[ConstructTargetArrayWithMultipleSums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTargetArrayWithMultipleSums.java)
 |1368|Hard|[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|[MinimumCostToMakeAtLeastOneValidPathInGrid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToMakeAtLeastOneValidPathInGrid.java)
