@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 930
+Count of solved tasks: 931
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -607,6 +607,7 @@ Count of solved tasks: 930
 |989|Undefined|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[AddToArrayFormOfInteger.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddToArrayFormOfInteger.java)
 |991|Undefined|[Broken Calculator](https://leetcode.com/problems/broken-calculator/)|[BrokenCalculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BrokenCalculator.java)
 |994|Undefined|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[RottingOranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RottingOranges.java)
+|995|Hard|[Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)|[MinimumNumberOfKConsecutiveBitFlips.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java)
 |997|Undefined|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[FindTheTownJudge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheTownJudge.java)
 |998|Undefined|[Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/)|[MaximumBinaryTreeII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumBinaryTreeII.java)
 |999|Undefined|[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/)|[AvailableCapturesForRook.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AvailableCapturesForRook.java)
@@ -997,6 +998,7 @@ Count of solved tasks: 930
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[PoorPigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[RemoveBoxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)
 |902|Hard|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[NumbersAtMostNGivenDigitSet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumbersAtMostNGivenDigitSet.java)
+|995|Hard|[Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)|[MinimumNumberOfKConsecutiveBitFlips.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java)
 |1220|Hard|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[CountVowelsPermutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountVowelsPermutation.java)
 |1235|Hard|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[MaximumProfitInJobScheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProfitInJobScheduling.java)
 |1354|Hard|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[ConstructTargetArrayWithMultipleSums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTargetArrayWithMultipleSums.java)
