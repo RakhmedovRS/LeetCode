@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 931
+Count of solved tasks: 932
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -266,6 +266,7 @@ Count of solved tasks: 931
 |390|Undefined|[Elimination Game](https://leetcode.com/problems/elimination-game/)|[EliminationGame.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EliminationGame.java)
 |392|Undefined|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[IsSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IsSubsequence.java)
 |394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[DecodeString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)
+|395|Medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|[LongestSubstringWithAtLeastKRepeatingCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtLeastKRepeatingCharacters.java)
 |396|Undefined|[Rotate Function](https://leetcode.com/problems/rotate-function/)|[RotateFunction.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotateFunction.java)
 |397|Undefined|[Integer Replacement](https://leetcode.com/problems/integer-replacement/)|[IntegerReplacement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerReplacement.java)
 |398|Undefined|[Random Pick Index](https://leetcode.com/problems/random-pick-index/)|[RandomPickIndex.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RandomPickIndex.java)
@@ -971,6 +972,7 @@ Count of solved tasks: 931
 |307|Medium|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[RangeSumQueryMutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQueryMutable.java)
 |337|Medium|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[HouseRobberIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HouseRobberIII.java)
 |394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[DecodeString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)
+|395|Medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|[LongestSubstringWithAtLeastKRepeatingCharacters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtLeastKRepeatingCharacters.java)
 |718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[MaximumLengthOfRepeatedSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfRepeatedSubarray.java)
 |769|Medium|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[MaxChunksToMakeSorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxChunksToMakeSorted.java)
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[LongestMountainInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)
