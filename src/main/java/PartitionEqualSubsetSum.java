@@ -1,15 +1,24 @@
+import common.Difficulty;
 import common.LeetCode;
+
+import java.util.Arrays;
 
 /**
  * @author RakhmedovRS
  * @created 03-Aug-20
  */
-@LeetCode(id = 416, name = "Partition Equal Subset Sum", url = "https://leetcode.com/problems/partition-equal-subset-sum/")
+@LeetCode(
+	id = 416,
+	name = "Partition Equal Subset Sum",
+	url = "https://leetcode.com/problems/partition-equal-subset-sum/",
+	difficulty = Difficulty.MEDIUM
+)
 public class PartitionEqualSubsetSum
 {
 	public boolean canPartition(int[] nums)
 	{
 		int sum = 0;
+		Arrays.sort(nums);
 		for (int num : nums)
 		{
 			sum += num;
@@ -20,31 +29,28 @@ public class PartitionEqualSubsetSum
 			return false;
 		}
 
-		sum /= 2;
-
-		return canPartitionReq(0, nums, sum, new Boolean[nums.length][sum + 1]);
+		return dfs(0, sum / 2, nums, new Boolean[201][10001]);
 	}
 
-	private boolean canPartitionReq(int pos, int[] nums, int totalSum, Boolean[][] memo)
+	private boolean dfs(int pos, int sum, int[] nums, Boolean[][] memo)
 	{
-		if (totalSum == 0)
+		if (sum == 0)
 		{
 			return true;
 		}
 
-		if (pos == nums.length || totalSum < 0)
+		if (pos == nums.length || sum < 0)
 		{
 			return false;
 		}
 
-		if (memo[pos][totalSum] != null)
+		if (memo[pos][sum] != null)
 		{
-			return memo[pos][totalSum];
+			return memo[pos][sum];
 		}
 
-		memo[pos][totalSum] = canPartitionReq(pos + 1, nums, totalSum, memo) ||
-			canPartitionReq(pos + 1, nums, totalSum - nums[pos], memo);
+		memo[pos][sum] = dfs(pos + 1, sum - nums[pos], nums, memo) || dfs(pos + 1, sum, nums, memo);
 
-		return memo[pos][totalSum];
+		return memo[pos][sum];
 	}
 }
