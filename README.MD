@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 934
+Count of solved tasks: 935
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -781,6 +781,7 @@ Count of solved tasks: 934
 |1367|Undefined|[Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|[TimeNeededToInformAllEmployees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TimeNeededToInformAllEmployees.java)
 |1368|Hard|[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|[MinimumCostToMakeAtLeastOneValidPathInGrid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToMakeAtLeastOneValidPathInGrid.java)
 |1370|Undefined|[Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/)|[IncreasingDecreasingString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingDecreasingString.java)
+|1371|Medium|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|[FindtheLongestSubstringContainingVowelsInEvenCounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindtheLongestSubstringContainingVowelsInEvenCounts.java)
 |1372|Undefined|[Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)|[LongestZigZagPathInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestZigZagPathInBinaryTree.java)
 |1374|Undefined|[Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)|[GenerateStringWithCharactersThatHaveOddCounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GenerateStringWithCharactersThatHaveOddCounts.java)
 |1375|Undefined|[Bulb Switcher III](https://leetcode.com/problems/bulb-switcher-iii/)|[BulbSwitcherIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BulbSwitcherIII.java)
@@ -986,6 +987,7 @@ Count of solved tasks: 934
 |1123|Medium|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[LowestCommonAncestorOfDeepestLeaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfDeepestLeaves.java)
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[SmallestStringWithSwaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithSwaps.java)
 |1267|Medium|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|[CountServersThatCommunicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountServersThatCommunicate.java)
+|1371|Medium|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|[FindtheLongestSubstringContainingVowelsInEvenCounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindtheLongestSubstringContainingVowelsInEvenCounts.java)
 |1471|Medium|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|[TheKStrongestValuesInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKStrongestValuesInArray.java)
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[MinimumDeletionsToMakeStringBalanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)
 |1657|Medium|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[DetermineIfTwoStringsAreClose.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfTwoStringsAreClose.java)
