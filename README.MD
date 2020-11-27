@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 933
+Count of solved tasks: 934
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -667,6 +667,7 @@ Count of solved tasks: 933
 |1091|Undefined|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[ShortestPathInBinaryMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathInBinaryMatrix.java)
 |1094|Undefined|[Car Pooling](https://leetcode.com/problems/car-pooling/)|[CarPooling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CarPooling.java)
 |1103|Undefined|[Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)|[DistributeCandiesToPeople.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistributeCandiesToPeople.java)
+|1104|Medium|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[PathInZigzagLabelledBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathInZigzagLabelledBinaryTree.java)
 |1105|Undefined|[Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves/)|[FillingBookcaseShelves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FillingBookcaseShelves.java)
 |1108|Undefined|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[DefangingIPAddress.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefangingIPAddress.java)
 |1109|Undefined|[Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/)|[CorporateFlightBookings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CorporateFlightBookings.java)
@@ -981,6 +982,7 @@ Count of solved tasks: 933
 |846|Medium|[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)|[HandOfStraights.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HandOfStraights.java)
 |865|Medium|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|[SmallestSubtreeWithAllTheDeepestNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestSubtreeWithAllTheDeepestNodes.java)
 |1015|Medium|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[SmallestIntegerDivisibleByK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestIntegerDivisibleByK.java)
+|1104|Medium|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[PathInZigzagLabelledBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathInZigzagLabelledBinaryTree.java)
 |1123|Medium|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[LowestCommonAncestorOfDeepestLeaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfDeepestLeaves.java)
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[SmallestStringWithSwaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithSwaps.java)
 |1267|Medium|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|[CountServersThatCommunicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountServersThatCommunicate.java)
