@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 932
+Count of solved tasks: 933
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -401,6 +401,7 @@ Count of solved tasks: 932
 |628|Undefined|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[MaximumProductOfThreeNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfThreeNumbers.java)
 |637|Undefined|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[AverageOfLevelsInBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AverageOfLevelsInBinaryTree.java)
 |638|Undefined|[Shopping Offers](https://leetcode.com/problems/shopping-offers/)|[ShoppingOffers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShoppingOffers.java)
+|639|Hard|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|[DecodeWaysII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeWaysII.java)
 |641|Undefined|[Design Circular Deque](https://leetcode.com/problems/design-circular-deque/)|[DesignCircularDeque.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignCircularDeque.java)
 |643|Undefined|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|[MaximumAverageSubarrayI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAverageSubarrayI.java)
 |645|Undefined|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[SetMismatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SetMismatch.java)
@@ -1000,6 +1001,7 @@ Count of solved tasks: 932
 |41|Hard|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[FirstMissingPositive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstMissingPositive.java)
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[PoorPigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[RemoveBoxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)
+|639|Hard|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|[DecodeWaysII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeWaysII.java)
 |902|Hard|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[NumbersAtMostNGivenDigitSet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumbersAtMostNGivenDigitSet.java)
 |995|Hard|[Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)|[MinimumNumberOfKConsecutiveBitFlips.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java)
 |1220|Hard|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[CountVowelsPermutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountVowelsPermutation.java)
