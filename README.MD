@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 935
+Count of solved tasks: 936
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -555,6 +555,7 @@ Count of solved tasks: 935
 |905|Undefined|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[SortArrayByParity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortArrayByParity.java)
 |907|Undefined|[Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|[SumOfSubarrayMinimums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfSubarrayMinimums.java)
 |908|Undefined|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|[SmallestRangeI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestRangeI.java)
+|910|Medium|[Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|[SmallestRangeII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestRangeII.java)
 |914|Undefined|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)|[XOfKindInDeckOfCards.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/XOfKindInDeckOfCards.java)
 |915|Undefined|[Word Subsets](https://leetcode.com/problems/word-subsets/)|[WordSubsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordSubsets.java)
 |917|Undefined|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)|[ReverseOnlyLetters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseOnlyLetters.java)
@@ -982,6 +983,7 @@ Count of solved tasks: 935
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[LongestMountainInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)
 |846|Medium|[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)|[HandOfStraights.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HandOfStraights.java)
 |865|Medium|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|[SmallestSubtreeWithAllTheDeepestNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestSubtreeWithAllTheDeepestNodes.java)
+|910|Medium|[Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|[SmallestRangeII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestRangeII.java)
 |1015|Medium|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[SmallestIntegerDivisibleByK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestIntegerDivisibleByK.java)
 |1104|Medium|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[PathInZigzagLabelledBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathInZigzagLabelledBinaryTree.java)
 |1123|Medium|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[LowestCommonAncestorOfDeepestLeaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfDeepestLeaves.java)
