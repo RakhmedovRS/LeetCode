@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 937
+Count of solved tasks: 938
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -943,7 +943,8 @@ Count of solved tasks: 937
 |1662|Easy|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[CheckIfTwoStringArraysAreEquivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTwoStringArraysAreEquivalent.java)
 |1663|Medium|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|[SmallestStringWithGivenNumericValue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithGivenNumericValue.java)
 |1664|Medium|[Ways to Make a Fair Array](https://leetcode.com/problems/ways-to-make-a-fair-array/)|[WaysToMakeFairArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WaysToMakeFairArray.java)
-|1668|Easy|[Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|[MaximumRepeatingSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumRepeatingSubstring.java)</p>
+|1668|Easy|[Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|[MaximumRepeatingSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumRepeatingSubstring.java)
+|1669|Medium|[Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|[MergeInBetweenLinkedLists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeInBetweenLinkedLists.java)</p>
 </details>
 
 <details>
@@ -997,7 +998,8 @@ Count of solved tasks: 937
 |1657|Medium|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[DetermineIfTwoStringsAreClose.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfTwoStringsAreClose.java)
 |1658|Medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[MinimumOperationsToReduceXToZero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToReduceXToZero.java)
 |1663|Medium|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|[SmallestStringWithGivenNumericValue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithGivenNumericValue.java)
-|1664|Medium|[Ways to Make a Fair Array](https://leetcode.com/problems/ways-to-make-a-fair-array/)|[WaysToMakeFairArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WaysToMakeFairArray.java)</p>
+|1664|Medium|[Ways to Make a Fair Array](https://leetcode.com/problems/ways-to-make-a-fair-array/)|[WaysToMakeFairArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WaysToMakeFairArray.java)
+|1669|Medium|[Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|[MergeInBetweenLinkedLists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeInBetweenLinkedLists.java)</p>
 </details>
 
 <details>
