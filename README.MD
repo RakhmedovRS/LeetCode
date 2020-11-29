@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 947
+Count of solved tasks: 948
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -702,6 +702,7 @@ Count of solved tasks: 947
 |1175|Undefined|[Prime Arrangements](https://leetcode.com/problems/prime-arrangements/)|[PrimeArrangements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrimeArrangements.java)|false
 |1177|Undefined|[Can Make Palindrome from Substring](https://leetcode.com/problems/can-make-palindrome-from-substring/)|[CanMakePalindromeFromSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanMakePalindromeFromSubstring.java)|false
 |1178|Undefined|[Number of Valid Words for Each Puzzle](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)|[NumberOfValidWordsForEachPuzzle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfValidWordsForEachPuzzle.java)|false
+|1180|Easy|[Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/)|[CountSubstringsWithOnlyOneDistinctLetter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSubstringsWithOnlyOneDistinctLetter.java)|true
 |1184|Undefined|[Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/)|[DistanceBetweenBusStops.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistanceBetweenBusStops.java)|false
 |1185|Undefined|[Day of the Week](https://leetcode.com/problems/day-of-the-week/)|[DayOfTheWeek.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DayOfTheWeek.java)|false
 |1186|Undefined|[Maximum Subarray Sum with One Deletion](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/)|[MaximumSubarraySumWithOneDeletion.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarraySumWithOneDeletion.java)|false
@@ -970,6 +971,7 @@ Count of solved tasks: 947
 |938|Easy|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[RangeSumOfBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfBST.java)|false
 |1099|Easy|[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[TwoSumLessThanK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumLessThanK.java)|true
 |1134|Easy|[Armstrong Number](https://leetcode.com/problems/armstrong-number/)|[ArmstrongNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArmstrongNumber.java)|true
+|1180|Easy|[Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/)|[CountSubstringsWithOnlyOneDistinctLetter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSubstringsWithOnlyOneDistinctLetter.java)|true
 |1652|Easy|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[DefuseTheBomb.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefuseTheBomb.java)|false
 |1656|Easy|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|[DesignAnOrderedStream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAnOrderedStream.java)|false
 |1662|Easy|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[CheckIfTwoStringArraysAreEquivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTwoStringArraysAreEquivalent.java)|false
