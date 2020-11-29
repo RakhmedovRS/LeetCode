@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 945
+Count of solved tasks: 946
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -733,6 +733,7 @@ Count of solved tasks: 945
 |1266|Undefined|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[MinimumTimeVisitingAllPoints.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeVisitingAllPoints.java)|false
 |1267|Medium|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|[CountServersThatCommunicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountServersThatCommunicate.java)|false
 |1269|Undefined|[Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)|[NumberOfWaysToStayInTheSamePlaceAfterSomeSteps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfWaysToStayInTheSamePlaceAfterSomeSteps.java)|false
+|1272|Medium|[Remove Interval](https://leetcode.com/problems/remove-interval/)|[RemoveInterval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveInterval.java)|true
 |1277|Undefined|[Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)|[CountSquareSubmatricesWithAllOnes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSquareSubmatricesWithAllOnes.java)|false
 |1282|Undefined|[Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/)|[GroupPeopleGivenGroupSize.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GroupPeopleGivenGroupSize.java)|false
 |1283|Undefined|[Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)|[FindTheSmallestDivisorGivenThreshold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheSmallestDivisorGivenThreshold.java)|false
@@ -1003,6 +1004,7 @@ Count of solved tasks: 945
 |1123|Medium|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[LowestCommonAncestorOfDeepestLeaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfDeepestLeaves.java)|false
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[SmallestStringWithSwaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithSwaps.java)|false
 |1267|Medium|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|[CountServersThatCommunicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountServersThatCommunicate.java)|false
+|1272|Medium|[Remove Interval](https://leetcode.com/problems/remove-interval/)|[RemoveInterval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveInterval.java)|true
 |1371|Medium|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|[FindtheLongestSubstringContainingVowelsInEvenCounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindtheLongestSubstringContainingVowelsInEvenCounts.java)|false
 |1471|Medium|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|[TheKStrongestValuesInArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKStrongestValuesInArray.java)|false
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[MinimumDeletionsToMakeStringBalanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)|false
