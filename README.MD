@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 940
+Count of solved tasks: 941
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -946,6 +946,7 @@ Count of solved tasks: 940
 |1668|Easy|[Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|[MaximumRepeatingSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumRepeatingSubstring.java)
 |1669|Medium|[Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|[MergeInBetweenLinkedLists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeInBetweenLinkedLists.java)
 |1670|Medium|[Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/)|[DesignFrontMiddleBackQueue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignFrontMiddleBackQueue.java)
+|1672|Easy|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[RichestCustomerWealth.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RichestCustomerWealth.java)
 |1674|Medium|[Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/)|[MinimumMovesToMakeArrayComplementary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumMovesToMakeArrayComplementary.java)</p>
 </details>
 
@@ -963,7 +964,8 @@ Count of solved tasks: 940
 |1652|Easy|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[DefuseTheBomb.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefuseTheBomb.java)
 |1656|Easy|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|[DesignAnOrderedStream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAnOrderedStream.java)
 |1662|Easy|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[CheckIfTwoStringArraysAreEquivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTwoStringArraysAreEquivalent.java)
-|1668|Easy|[Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|[MaximumRepeatingSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumRepeatingSubstring.java)</p>
+|1668|Easy|[Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|[MaximumRepeatingSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumRepeatingSubstring.java)
+|1672|Easy|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[RichestCustomerWealth.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RichestCustomerWealth.java)</p>
 </details>
 
 <details>
