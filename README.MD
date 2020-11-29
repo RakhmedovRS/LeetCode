@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 948
+Count of solved tasks: 949
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -660,6 +660,7 @@ Count of solved tasks: 948
 |1052|Undefined|[Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|[GrumpyBookstoreOwner.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GrumpyBookstoreOwner.java)|false
 |1053|Undefined|[Previous Permutation With One Swap](https://leetcode.com/problems/previous-permutation-with-one-swap/)|[PreviousPermutationWithOneSwap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PreviousPermutationWithOneSwap.java)|false
 |1054|Undefined|[Distant Barcodes](https://leetcode.com/problems/distant-barcodes/)|[DistantBarcodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistantBarcodes.java)|false
+|1056|Easy|[Confusing Number](https://leetcode.com/problems/confusing-number/)|[ConfusingNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConfusingNumber.java)|true
 |1071|Undefined|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|[GreatestCommonDivisorOfStrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GreatestCommonDivisorOfStrings.java)|false
 |1073|Undefined|[Adding Two Negabinary Numbers](https://leetcode.com/problems/adding-two-negabinary-numbers/)|[AddingTwoNegabinaryNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddingTwoNegabinaryNumbers.java)|false
 |1078|Undefined|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|[OccurrencesAfterBigram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OccurrencesAfterBigram.java)|false
@@ -969,6 +970,7 @@ Count of solved tasks: 948
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[RangeAdditionII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)|false
 |804|Easy|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[UniqueMorseCodeWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueMorseCodeWords.java)|false
 |938|Easy|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[RangeSumOfBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfBST.java)|false
+|1056|Easy|[Confusing Number](https://leetcode.com/problems/confusing-number/)|[ConfusingNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConfusingNumber.java)|true
 |1099|Easy|[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[TwoSumLessThanK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumLessThanK.java)|true
 |1134|Easy|[Armstrong Number](https://leetcode.com/problems/armstrong-number/)|[ArmstrongNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArmstrongNumber.java)|true
 |1180|Easy|[Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/)|[CountSubstringsWithOnlyOneDistinctLetter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSubstringsWithOnlyOneDistinctLetter.java)|true
