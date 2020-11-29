@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 946
+Count of solved tasks: 947
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -684,6 +684,7 @@ Count of solved tasks: 946
 |1124|Undefined|[Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|[LongestWellPerformingInterval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestWellPerformingInterval.java)|false
 |1128|Undefined|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|[NumberOfEquivalentDominoPairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfEquivalentDominoPairs.java)|false
 |1130|Undefined|[Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)|[MinimumCostTreeFromLeafValues.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostTreeFromLeafValues.java)|false
+|1134|Easy|[Armstrong Number](https://leetcode.com/problems/armstrong-number/)|[ArmstrongNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArmstrongNumber.java)|true
 |1138|Undefined|[Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/)|[AlphabetBoardPath.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AlphabetBoardPath.java)|false
 |1143|Undefined|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[LongestCommonSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestCommonSubsequence.java)|false
 |1144|Undefined|[Decrease Elements To Make Array Zigzag](https://leetcode.com/problems/decrease-elements-to-make-array-zigzag/)|[DecreaseElementsToMakeArrayZigzag.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecreaseElementsToMakeArrayZigzag.java)|false
@@ -968,6 +969,7 @@ Count of solved tasks: 946
 |804|Easy|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[UniqueMorseCodeWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueMorseCodeWords.java)|false
 |938|Easy|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[RangeSumOfBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfBST.java)|false
 |1099|Easy|[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[TwoSumLessThanK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumLessThanK.java)|true
+|1134|Easy|[Armstrong Number](https://leetcode.com/problems/armstrong-number/)|[ArmstrongNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArmstrongNumber.java)|true
 |1652|Easy|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[DefuseTheBomb.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefuseTheBomb.java)|false
 |1656|Easy|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|[DesignAnOrderedStream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAnOrderedStream.java)|false
 |1662|Easy|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[CheckIfTwoStringArraysAreEquivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTwoStringArraysAreEquivalent.java)|false
