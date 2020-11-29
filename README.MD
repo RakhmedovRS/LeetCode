@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 939
+Count of solved tasks: 940
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -945,7 +945,8 @@ Count of solved tasks: 939
 |1664|Medium|[Ways to Make a Fair Array](https://leetcode.com/problems/ways-to-make-a-fair-array/)|[WaysToMakeFairArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WaysToMakeFairArray.java)
 |1668|Easy|[Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|[MaximumRepeatingSubstring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumRepeatingSubstring.java)
 |1669|Medium|[Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|[MergeInBetweenLinkedLists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeInBetweenLinkedLists.java)
-|1670|Medium|[Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/)|[DesignFrontMiddleBackQueue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignFrontMiddleBackQueue.java)</p>
+|1670|Medium|[Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/)|[DesignFrontMiddleBackQueue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignFrontMiddleBackQueue.java)
+|1674|Medium|[Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/)|[MinimumMovesToMakeArrayComplementary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumMovesToMakeArrayComplementary.java)</p>
 </details>
 
 <details>
@@ -1001,7 +1002,8 @@ Count of solved tasks: 939
 |1663|Medium|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|[SmallestStringWithGivenNumericValue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithGivenNumericValue.java)
 |1664|Medium|[Ways to Make a Fair Array](https://leetcode.com/problems/ways-to-make-a-fair-array/)|[WaysToMakeFairArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WaysToMakeFairArray.java)
 |1669|Medium|[Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|[MergeInBetweenLinkedLists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeInBetweenLinkedLists.java)
-|1670|Medium|[Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/)|[DesignFrontMiddleBackQueue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignFrontMiddleBackQueue.java)</p>
+|1670|Medium|[Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/)|[DesignFrontMiddleBackQueue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignFrontMiddleBackQueue.java)
+|1674|Medium|[Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/)|[MinimumMovesToMakeArrayComplementary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumMovesToMakeArrayComplementary.java)</p>
 </details>
 
 <details>
