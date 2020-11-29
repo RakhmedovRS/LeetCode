@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 943
+Count of solved tasks: 944
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -193,6 +193,7 @@ Count of solved tasks: 943
 |240|Undefined|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Search2DMatrixII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Search2DMatrixII.java)|false
 |241|Undefined|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|[DifferentWaysToAddParentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DifferentWaysToAddParentheses.java)|false
 |242|Undefined|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[ValidAnagram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidAnagram.java)|false
+|252|Easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[MeetingRooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeetingRooms.java)|true
 |257|Undefined|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[BinaryTreePaths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePaths.java)|false
 |258|Undefined|[Add Digits](https://leetcode.com/problems/add-digits/)|[AddDigits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddDigits.java)|false
 |260|Undefined|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[SingleNumberIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleNumberIII.java)|false
@@ -960,6 +961,7 @@ Count of solved tasks: 943
 | :-----------------:|:--------------:|:--------------:|:--------------:|:--------------:|
 |53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[MaximumSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarray.java)|false
 |234|Easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[PalindromeLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeLinkedList.java)|false
+|252|Easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[MeetingRooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeetingRooms.java)|true
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[RangeAdditionII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)|false
 |804|Easy|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[UniqueMorseCodeWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueMorseCodeWords.java)|false
 |938|Easy|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[RangeSumOfBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfBST.java)|false
