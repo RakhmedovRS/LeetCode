@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 941
+Count of solved tasks: 942
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -947,6 +947,7 @@ Count of solved tasks: 941
 |1669|Medium|[Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|[MergeInBetweenLinkedLists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeInBetweenLinkedLists.java)
 |1670|Medium|[Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/)|[DesignFrontMiddleBackQueue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignFrontMiddleBackQueue.java)
 |1672|Easy|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[RichestCustomerWealth.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RichestCustomerWealth.java)
+|1673|Medium|[Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)|[FindTheMostCompetitiveSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheMostCompetitiveSubsequence.java)
 |1674|Medium|[Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/)|[MinimumMovesToMakeArrayComplementary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumMovesToMakeArrayComplementary.java)</p>
 </details>
 
@@ -1005,6 +1006,7 @@ Count of solved tasks: 941
 |1664|Medium|[Ways to Make a Fair Array](https://leetcode.com/problems/ways-to-make-a-fair-array/)|[WaysToMakeFairArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WaysToMakeFairArray.java)
 |1669|Medium|[Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|[MergeInBetweenLinkedLists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeInBetweenLinkedLists.java)
 |1670|Medium|[Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/)|[DesignFrontMiddleBackQueue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignFrontMiddleBackQueue.java)
+|1673|Medium|[Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)|[FindTheMostCompetitiveSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheMostCompetitiveSubsequence.java)
 |1674|Medium|[Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/)|[MinimumMovesToMakeArrayComplementary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumMovesToMakeArrayComplementary.java)</p>
 </details>
 
