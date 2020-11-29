@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 944
+Count of solved tasks: 945
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -669,6 +669,7 @@ Count of solved tasks: 944
 |1089|Undefined|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[DuplicateZeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DuplicateZeros.java)|false
 |1091|Undefined|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[ShortestPathInBinaryMatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathInBinaryMatrix.java)|false
 |1094|Undefined|[Car Pooling](https://leetcode.com/problems/car-pooling/)|[CarPooling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CarPooling.java)|false
+|1099|Easy|[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[TwoSumLessThanK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumLessThanK.java)|true
 |1103|Undefined|[Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)|[DistributeCandiesToPeople.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistributeCandiesToPeople.java)|false
 |1104|Medium|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[PathInZigzagLabelledBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathInZigzagLabelledBinaryTree.java)|false
 |1105|Undefined|[Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves/)|[FillingBookcaseShelves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FillingBookcaseShelves.java)|false
@@ -965,6 +966,7 @@ Count of solved tasks: 944
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[RangeAdditionII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)|false
 |804|Easy|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[UniqueMorseCodeWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueMorseCodeWords.java)|false
 |938|Easy|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[RangeSumOfBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfBST.java)|false
+|1099|Easy|[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[TwoSumLessThanK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumLessThanK.java)|true
 |1652|Easy|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[DefuseTheBomb.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefuseTheBomb.java)|false
 |1656|Easy|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|[DesignAnOrderedStream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAnOrderedStream.java)|false
 |1662|Easy|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[CheckIfTwoStringArraysAreEquivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTwoStringArraysAreEquivalent.java)|false
