@@ -23,4 +23,6 @@ public @interface LeetCode
 	String url() default "https://leetcode.com/problemset/all/";
 
 	Difficulty difficulty() default Difficulty.UNDEFINED;
+
+	boolean premium() default false;
 }
