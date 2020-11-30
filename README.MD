@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 949
+Count of solved tasks: 950
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -685,6 +685,7 @@ Count of solved tasks: 949
 |1124|Undefined|[Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|[LongestWellPerformingInterval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestWellPerformingInterval.java)|false
 |1128|Undefined|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|[NumberOfEquivalentDominoPairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfEquivalentDominoPairs.java)|false
 |1130|Undefined|[Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)|[MinimumCostTreeFromLeafValues.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostTreeFromLeafValues.java)|false
+|1133|Easy|[Largest Unique Number](https://leetcode.com/problems/largest-unique-number/)|[LargestUniqueNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestUniqueNumber.java)|true
 |1134|Easy|[Armstrong Number](https://leetcode.com/problems/armstrong-number/)|[ArmstrongNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArmstrongNumber.java)|true
 |1138|Undefined|[Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/)|[AlphabetBoardPath.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AlphabetBoardPath.java)|false
 |1143|Undefined|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[LongestCommonSubsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestCommonSubsequence.java)|false
@@ -972,6 +973,7 @@ Count of solved tasks: 949
 |938|Easy|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[RangeSumOfBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfBST.java)|false
 |1056|Easy|[Confusing Number](https://leetcode.com/problems/confusing-number/)|[ConfusingNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConfusingNumber.java)|true
 |1099|Easy|[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[TwoSumLessThanK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumLessThanK.java)|true
+|1133|Easy|[Largest Unique Number](https://leetcode.com/problems/largest-unique-number/)|[LargestUniqueNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestUniqueNumber.java)|true
 |1134|Easy|[Armstrong Number](https://leetcode.com/problems/armstrong-number/)|[ArmstrongNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArmstrongNumber.java)|true
 |1180|Easy|[Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/)|[CountSubstringsWithOnlyOneDistinctLetter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSubstringsWithOnlyOneDistinctLetter.java)|true
 |1652|Easy|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[DefuseTheBomb.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefuseTheBomb.java)|false
