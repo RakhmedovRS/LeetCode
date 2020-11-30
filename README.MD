@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 950
+Count of solved tasks: 951
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -242,6 +242,7 @@ Count of solved tasks: 950
 |341|Undefined|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[FlattenNestedListIterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlattenNestedListIterator.java)|false
 |343|Undefined|[Integer Break](https://leetcode.com/problems/integer-break/)|[IntegerBreak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerBreak.java)|false
 |345|Undefined|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[ReverseVowelsOfString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseVowelsOfString.java)|false
+|346|Easy|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[MovingAverageFromDataStream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MovingAverageFromDataStream.java)|true
 |347|Undefined|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[TopKFrequentElements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TopKFrequentElements.java)|false
 |350|Undefined|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[IntersectionOfTwoArraysII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntersectionOfTwoArraysII.java)|false
 |352|Undefined|[Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)|[DataStreamAsDisjointIntervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DataStreamAsDisjointIntervals.java)|false
@@ -968,6 +969,7 @@ Count of solved tasks: 950
 |53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[MaximumSubarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarray.java)|false
 |234|Easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[PalindromeLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeLinkedList.java)|false
 |252|Easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[MeetingRooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeetingRooms.java)|true
+|346|Easy|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[MovingAverageFromDataStream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MovingAverageFromDataStream.java)|true
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[RangeAdditionII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)|false
 |804|Easy|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[UniqueMorseCodeWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueMorseCodeWords.java)|false
 |938|Easy|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[RangeSumOfBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfBST.java)|false
