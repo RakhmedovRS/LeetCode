@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 952
+Count of solved tasks: 953
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -171,6 +171,7 @@ Count of solved tasks: 952
 |215|Undefined|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[KthLargestElementInAnArray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthLargestElementInAnArray.java)|false
 |216|Undefined|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[CombinationSumIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CombinationSumIII.java)|false
 |217|Undefined|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[ContainsDuplicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainsDuplicate.java)|false
+|218|Hard|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[TheSkylineProblem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheSkylineProblem.java)|false
 |219|Undefined|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[ContainsDuplicateII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainsDuplicateII.java)|false
 |220|Undefined|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|[ContainsDuplicateIII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainsDuplicateIII.java)|false
 |221|Undefined|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[MaximalSquare.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximalSquare.java)|false
@@ -1037,6 +1038,7 @@ Count of solved tasks: 952
 | LeetCode ID        | Difficulty     | Name           | Solution       | Premium       |
 | :-----------------:|:--------------:|:--------------:|:--------------:|:--------------:|
 |41|Hard|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[FirstMissingPositive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstMissingPositive.java)|false
+|218|Hard|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[TheSkylineProblem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheSkylineProblem.java)|false
 |239|Hard|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[SlidingWindowMaximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SlidingWindowMaximum.java)|false
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[PoorPigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)|false
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[RemoveBoxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)|false
