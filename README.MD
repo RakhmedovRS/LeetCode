@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 953
+Count of solved tasks: 954
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -634,6 +634,7 @@ Count of solved tasks: 953
 |1018|Undefined|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|[BinaryPrefixDivisibleBy5.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryPrefixDivisibleBy5.java)|false
 |1019|Undefined|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|[NextGreaterNodeInLinkedList.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterNodeInLinkedList.java)|false
 |1020|Undefined|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|[NumberOfEnclaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfEnclaves.java)|false
+|1021|Easy|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)|[RemoveOutermostParentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveOutermostParentheses.java)|false
 |1022|Undefined|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[SumOfRootToLeafBinaryNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfRootToLeafBinaryNumbers.java)|false
 |1023|Undefined|[Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)|[CamelcaseMatching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CamelcaseMatching.java)|false
 |1024|Undefined|[Video Stitching](https://leetcode.com/problems/video-stitching/)|[VideoStitching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/VideoStitching.java)|false
@@ -975,6 +976,7 @@ Count of solved tasks: 953
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[RangeAdditionII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)|false
 |804|Easy|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[UniqueMorseCodeWords.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueMorseCodeWords.java)|false
 |938|Easy|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[RangeSumOfBST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfBST.java)|false
+|1021|Easy|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)|[RemoveOutermostParentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveOutermostParentheses.java)|false
 |1056|Easy|[Confusing Number](https://leetcode.com/problems/confusing-number/)|[ConfusingNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConfusingNumber.java)|true
 |1085|Easy|[Sum of Digits in the Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/)|[SumOfDigitsInTheMinimumNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfDigitsInTheMinimumNumber.java)|true
 |1099|Easy|[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[TwoSumLessThanK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumLessThanK.java)|true
