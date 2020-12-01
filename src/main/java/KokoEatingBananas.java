@@ -1,10 +1,16 @@
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 24-Jul-20
  */
-@LeetCode(id = 875, name = "Koko Eating Bananas", url = "Koko Eating Bananas")
+@LeetCode(
+	id = 875,
+	name = "Koko Eating Bananas",
+	url = "https://leetcode.com/problems/koko-eating-bananas/",
+	difficulty = Difficulty.MEDIUM
+)
 public class KokoEatingBananas
 {
 	public int minEatingSpeed(int[] piles, int H)
