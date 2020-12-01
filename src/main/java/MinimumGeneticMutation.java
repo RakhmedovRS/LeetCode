@@ -1,3 +1,4 @@
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -6,7 +7,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 17-Jul-20
  */
-@LeetCode(id = 433, name = "Minimum Genetic Mutation", url = "Minimum Genetic Mutation")
+@LeetCode(
+	id = 433,
+	name = "Minimum Genetic Mutation",
+	url = "https://leetcode.com/problems/minimum-genetic-mutation/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MinimumGeneticMutation
 {
 	public int minMutation(String start, String end, String[] bank)
