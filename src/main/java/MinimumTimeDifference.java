@@ -1,3 +1,4 @@
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -7,7 +8,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 30-Jul-20
  */
-@LeetCode(id = 539, name = "Minimum Time Difference", url = "Minimum Time Difference")
+@LeetCode(
+	id = 539,
+	name = "Minimum Time Difference",
+	url = "https://leetcode.com/problems/minimum-time-difference/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MinimumTimeDifference
 {
 	public int findMinDifference(List<String> timePoints)
