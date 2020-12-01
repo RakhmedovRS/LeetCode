@@ -1,10 +1,16 @@
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 01-Aug-20
  */
-@LeetCode(id = 1234, name = "Replace the Substring for Balanced String", url = "Replace the Substring for Balanced String")
+@LeetCode(
+	id = 1234,
+	name = "Replace the Substring for Balanced String",
+	url = "https://leetcode.com/problems/replace-the-substring-for-balanced-string/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ReplaceTheSubstringForBalancedString
 {
 	public int balancedString(String s)
