@@ -1,10 +1,16 @@
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 18-Jul-20
  */
-@LeetCode(id = 1006, name = "Clumsy Factorial", url = "Clumsy Factorial")
+@LeetCode(
+	id = 1006,
+	name = "Clumsy Factorial",
+	url = "https://leetcode.com/problems/clumsy-factorial/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ClumsyFactorial
 {
 	public int clumsy(int N)
