@@ -1,20 +1,52 @@
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
+
+import java.util.LinkedList;
 
 /**
  * @author RakhmedovRS
  * @created 15-Mar-20
  */
-@LeetCode(id = 103, name = "Maximum Depth of Binary Tree", url = "https://leetcode.com/problems/maximum-depth-of-binary-tree/")
+@LeetCode(
+	id = 103,
+	name = "Maximum Depth of Binary Tree",
+	url = "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+	difficulty = Difficulty.EASY
+)
 public class MaximumDepthOfBinaryTree
 {
 	public int maxDepth(TreeNode root)
 	{
-		if (root == null)
+		int depth = 0;
+		LinkedList<TreeNode> nodes = new LinkedList<>();
+		if (root != null)
 		{
-			return 0;
+			nodes.addLast(root);
 		}
 
-		return Math.max(maxDepth(root.left) + 1, maxDepth(root.right) + 1);
+		int size;
+		TreeNode node;
+		while (!nodes.isEmpty())
+		{
+			size = nodes.size();
+			while (size-- > 0)
+			{
+				node = nodes.removeFirst();
+				if (node.left != null)
+				{
+					nodes.addLast(node.left);
+				}
+
+				if (node.right != null)
+				{
+					nodes.addLast(node.right);
+				}
+			}
+
+			depth++;
+		}
+
+		return depth;
 	}
 }
