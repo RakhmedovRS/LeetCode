@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 956
+Count of solved tasks: 957
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -409,6 +409,7 @@ Count of solved tasks: 956
 |639|Hard|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|[DecodeWaysII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeWaysII.java)|false|
 |641|Undefined|[Design Circular Deque](https://leetcode.com/problems/design-circular-deque/)|[DesignCircularDeque.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignCircularDeque.java)|false|
 |643|Undefined|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|[MaximumAverageSubarrayI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAverageSubarrayI.java)|false|
+|644|Hard|[Maximum Average Subarray II](https://leetcode.com/problems/maximum-average-subarray-ii/)|[MaximumAverageSubarrayII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAverageSubarrayII.java)|true|
 |645|Undefined|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[SetMismatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SetMismatch.java)|false|
 |646|Undefined|[Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)|[MaximumLengthOfPairChain.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfPairChain.java)|false|
 |647|Undefined|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[PalindromicSubstrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromicSubstrings.java)|false|
@@ -1050,6 +1051,7 @@ Count of solved tasks: 956
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[PoorPigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)|false|
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[RemoveBoxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)|false|
 |639|Hard|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|[DecodeWaysII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeWaysII.java)|false|
+|644|Hard|[Maximum Average Subarray II](https://leetcode.com/problems/maximum-average-subarray-ii/)|[MaximumAverageSubarrayII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAverageSubarrayII.java)|true|
 |902|Hard|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[NumbersAtMostNGivenDigitSet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumbersAtMostNGivenDigitSet.java)|false|
 |995|Hard|[Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)|[MinimumNumberOfKConsecutiveBitFlips.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java)|false|
 |1220|Hard|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[CountVowelsPermutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountVowelsPermutation.java)|false|
