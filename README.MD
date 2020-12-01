@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 954
+Count of solved tasks: 955
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -663,6 +663,7 @@ Count of solved tasks: 954
 |1052|Undefined|[Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|[GrumpyBookstoreOwner.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GrumpyBookstoreOwner.java)|false|
 |1053|Undefined|[Previous Permutation With One Swap](https://leetcode.com/problems/previous-permutation-with-one-swap/)|[PreviousPermutationWithOneSwap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PreviousPermutationWithOneSwap.java)|false|
 |1054|Undefined|[Distant Barcodes](https://leetcode.com/problems/distant-barcodes/)|[DistantBarcodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistantBarcodes.java)|false|
+|1055|Medium|[Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|[ShortestWayToFormString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestWayToFormString.java)|true|
 |1056|Easy|[Confusing Number](https://leetcode.com/problems/confusing-number/)|[ConfusingNumber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConfusingNumber.java)|true|
 |1071|Undefined|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|[GreatestCommonDivisorOfStrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GreatestCommonDivisorOfStrings.java)|false|
 |1073|Undefined|[Adding Two Negabinary Numbers](https://leetcode.com/problems/adding-two-negabinary-numbers/)|[AddingTwoNegabinaryNumbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddingTwoNegabinaryNumbers.java)|false|
@@ -1015,6 +1016,7 @@ Count of solved tasks: 954
 |865|Medium|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|[SmallestSubtreeWithAllTheDeepestNodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestSubtreeWithAllTheDeepestNodes.java)|false|
 |910|Medium|[Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|[SmallestRangeII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestRangeII.java)|false|
 |1015|Medium|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[SmallestIntegerDivisibleByK.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestIntegerDivisibleByK.java)|false|
+|1055|Medium|[Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|[ShortestWayToFormString.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestWayToFormString.java)|true|
 |1104|Medium|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[PathInZigzagLabelledBinaryTree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathInZigzagLabelledBinaryTree.java)|false|
 |1123|Medium|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[LowestCommonAncestorOfDeepestLeaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfDeepestLeaves.java)|false|
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[SmallestStringWithSwaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithSwaps.java)|false|
