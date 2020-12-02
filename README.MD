@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 959
+Count of solved tasks: 960
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -399,6 +399,7 @@ Count of solved tasks: 959
 |605|Undefined|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Can Place Flowers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanPlaceFlowers.java)|false|
 |606|Undefined|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[Construct String from Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructStringFromBinaryTree.java)|false|
 |609|Undefined|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|[Find Duplicate File in System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindDuplicateFileInSystem.java)|false|
+|616|Medium|[Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string/)|[Add Bold Tag in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddBoldTagInString.java)|true|
 |617|Undefined|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Merge Two Binary Trees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeTwoBinaryTrees.java)|false|
 |621|Undefined|[Task Scheduler](https://leetcode.com/problems/task-scheduler/)|[Task Scheduler.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TaskScheduler.java)|false|
 |622|Undefined|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|[Design Circular Queue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignCircularQueue.java)|false|
@@ -1019,6 +1020,7 @@ Count of solved tasks: 959
 |416|Medium|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[Partition Equal Subset Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionEqualSubsetSum.java)|false|
 |433|Medium|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[Minimum Genetic Mutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumGeneticMutation.java)|false|
 |539|Medium|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|[Minimum Time Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeDifference.java)|false|
+|616|Medium|[Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string/)|[Add Bold Tag in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddBoldTagInString.java)|true|
 |718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Maximum Length of Repeated Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfRepeatedSubarray.java)|false|
 |769|Medium|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[Max Chunks To Make Sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxChunksToMakeSorted.java)|false|
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[Longest Mountain in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)|false|
