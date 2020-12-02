@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 957
+Count of solved tasks: 958
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -838,6 +838,7 @@ Count of solved tasks: 957
 |1437|Undefined|[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)|[Check If All 1's Are at Least Length K Places Away.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfAll1sAreAtLeastLengthKPlacesAway.java)|false|
 |1438|Undefined|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java)|false|
 |1441|Undefined|[Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)|[Build an Array With Stack Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BuildArrayWithStackOperations.java)|false|
+|1443|Medium|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|[Minimum Time to Collect All Apples in a Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeToCollectAllApplesInTree.java)|false|
 |1446|Undefined|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|[Consecutive Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConsecutiveCharacters.java)|false|
 |1447|Undefined|[Simplified Fractions](https://leetcode.com/problems/simplified-fractions/)|[Simplified Fractions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SimplifiedFractions.java)|false|
 |1448|Undefined|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|[Count Good Nodes in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountGoodNodesInBinaryTree.java)|false|
@@ -1032,6 +1033,7 @@ Count of solved tasks: 957
 |1267|Medium|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|[Count Servers that Communicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountServersThatCommunicate.java)|false|
 |1272|Medium|[Remove Interval](https://leetcode.com/problems/remove-interval/)|[Remove Interval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveInterval.java)|true|
 |1371|Medium|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|[Find the Longest Substring Containing Vowels in Even Counts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindtheLongestSubstringContainingVowelsInEvenCounts.java)|false|
+|1443|Medium|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|[Minimum Time to Collect All Apples in a Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeToCollectAllApplesInTree.java)|false|
 |1471|Medium|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|[The k Strongest Values in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKStrongestValuesInArray.java)|false|
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[Minimum Deletions to Make String Balanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)|false|
 |1657|Medium|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[Determine if Two Strings Are Close.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfTwoStringsAreClose.java)|false|
