@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 958
+Count of solved tasks: 959
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -705,6 +705,7 @@ Count of solved tasks: 958
 |1160|Undefined|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|[Find Words That Can Be Formed by Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindWordsThatCanBeFormedByCharacters.java)|false|
 |1161|Undefined|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)|[Maximum Level Sum of a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLevelSumBinaryTree.java)|false|
 |1162|Undefined|[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|[As Far from Land as Possible.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AsFarFromLandAsPossible.java)|false|
+|1165|Easy|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)|[Single-Row Keyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleRowKeyboard.java)|true|
 |1169|Undefined|[Invalid Transactions](https://leetcode.com/problems/invalid-transactions/)|[Invalid Transactions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InvalidTransactions.java)|false|
 |1170|Undefined|[Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/)|[Compare Strings by Frequency of the Smallest Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CompareStringsByFrequencyOfTheSmallestCharacter.java)|false|
 |1171|Undefined|[Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)|[Remove Zero Sum Consecutive Nodes from Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveZeroSumConsecutiveNodesFromLinkedList.java)|false|
@@ -988,6 +989,7 @@ Count of solved tasks: 958
 |1099|Easy|[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[Two Sum Less Than K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumLessThanK.java)|true|
 |1133|Easy|[Largest Unique Number](https://leetcode.com/problems/largest-unique-number/)|[Largest Unique Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestUniqueNumber.java)|true|
 |1134|Easy|[Armstrong Number](https://leetcode.com/problems/armstrong-number/)|[Armstrong Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArmstrongNumber.java)|true|
+|1165|Easy|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)|[Single-Row Keyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleRowKeyboard.java)|true|
 |1180|Easy|[Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/)|[Count Substrings with Only One Distinct Letter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSubstringsWithOnlyOneDistinctLetter.java)|true|
 |1652|Easy|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[Defuse the Bomb.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefuseTheBomb.java)|false|
 |1656|Easy|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|[Design an Ordered Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAnOrderedStream.java)|false|
