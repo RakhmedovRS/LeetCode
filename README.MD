@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 960
+Count of solved tasks: 961
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -474,6 +474,7 @@ Count of solved tasks: 960
 |749|Undefined|[Contain Virus](https://leetcode.com/problems/contain-virus/)|[Contain Virus.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainVirus.java)|false|
 |752|Undefined|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|[Open the Lock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OpenTheLock.java)|false|
 |753|Undefined|[Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/)|[Cracking the Safe.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CrackingTheSafe.java)|false|
+|758|Easy|[Bold Words in String](https://leetcode.com/problems/bold-words-in-string/)|[Bold Words in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BoldWordsInString.java)|true|
 |762|Undefined|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|[Prime Number of Set Bits in Binary Representation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrimeNumberOfSetBitsInBinaryRepresentation.java)|false|
 |763|Undefined|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Partition Labels.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionLabels.java)|false|
 |764|Undefined|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/)|[Largest Plus Sign.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestPlusSign.java)|false|
@@ -982,6 +983,7 @@ Count of solved tasks: 960
 |252|Easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Meeting Rooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeetingRooms.java)|true|
 |346|Easy|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[Moving Average from Data Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MovingAverageFromDataStream.java)|true|
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[Range Addition II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)|false|
+|758|Easy|[Bold Words in String](https://leetcode.com/problems/bold-words-in-string/)|[Bold Words in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BoldWordsInString.java)|true|
 |804|Easy|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Unique Morse Code Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueMorseCodeWords.java)|false|
 |938|Easy|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Range Sum of BST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfBST.java)|false|
 |1021|Easy|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)|[Remove Outermost Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveOutermostParentheses.java)|false|
