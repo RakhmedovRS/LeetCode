@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 963
+Count of solved tasks: 964
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -464,6 +464,7 @@ Count of solved tasks: 963
 |725|Undefined|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)|[Split Linked List in Parts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitLinkedListInParts.java)|false|
 |729|Undefined|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[My Calendar I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MyCalendarI.java)|false|
 |733|Undefined|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Flood Fill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FloodFill.java)|false|
+|734|Easy|[Sentence Similarity](https://leetcode.com/problems/sentence-similarity/)|[Sentence Similarity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SentenceSimilarity.java)|true|
 |735|Undefined|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Asteroid Collision.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AsteroidCollision.java)|false|
 |738|Undefined|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/)|[Monotone Increasing Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MonotoneIncreasingDigits.java)|false|
 |739|Undefined|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Daily Temperatures.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DailyTemperatures.java)|false|
@@ -987,6 +988,7 @@ Count of solved tasks: 963
 |346|Easy|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[Moving Average from Data Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MovingAverageFromDataStream.java)|true|
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[Range Addition II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)|false|
 |716|Easy|[Max Stack](https://leetcode.com/problems/max-stack/)|[Max Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxStack.java)|true|
+|734|Easy|[Sentence Similarity](https://leetcode.com/problems/sentence-similarity/)|[Sentence Similarity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SentenceSimilarity.java)|true|
 |758|Easy|[Bold Words in String](https://leetcode.com/problems/bold-words-in-string/)|[Bold Words in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BoldWordsInString.java)|true|
 |804|Easy|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Unique Morse Code Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueMorseCodeWords.java)|false|
 |938|Easy|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Range Sum of BST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfBST.java)|false|
