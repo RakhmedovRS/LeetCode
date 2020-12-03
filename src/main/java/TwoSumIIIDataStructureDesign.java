@@ -15,7 +15,7 @@ import java.util.Map;
 	difficulty = Difficulty.EASY,
 	premium = true
 )
-public class TwoSumIIIDatastructureDesign
+public class TwoSumIIIDataStructureDesign
 {
 	class TwoSum
 	{
