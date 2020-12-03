@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 964
+Count of solved tasks: 965
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -196,6 +196,7 @@ Count of solved tasks: 964
 |241|Undefined|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|[Different Ways to Add Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DifferentWaysToAddParentheses.java)|false|
 |242|Undefined|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Valid Anagram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidAnagram.java)|false|
 |243|Easy|[Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)|[Shortest Word Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestWordDistance.java)|true|
+|246|Easy|[Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/)|[Strobogrammatic Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StrobogrammaticNumber.java)|true|
 |252|Easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Meeting Rooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeetingRooms.java)|true|
 |257|Undefined|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Binary Tree Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePaths.java)|false|
 |258|Undefined|[Add Digits](https://leetcode.com/problems/add-digits/)|[Add Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddDigits.java)|false|
@@ -984,6 +985,7 @@ Count of solved tasks: 964
 |170|Easy|[Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/)|[Two Sum III - Data structure design.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumIIIDataStructureDesign.java)|true|
 |234|Easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeLinkedList.java)|false|
 |243|Easy|[Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)|[Shortest Word Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestWordDistance.java)|true|
+|246|Easy|[Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/)|[Strobogrammatic Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StrobogrammaticNumber.java)|true|
 |252|Easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Meeting Rooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeetingRooms.java)|true|
 |346|Easy|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[Moving Average from Data Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MovingAverageFromDataStream.java)|true|
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[Range Addition II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)|false|
