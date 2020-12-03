@@ -1,11 +1,20 @@
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author RakhmedovRS
  * @created 27-Jun-20
  */
-@LeetCode(id = 897, name = "Increasing Order Search Tree", url = "https://leetcode.com/problems/increasing-order-search-tree/")
+@LeetCode(
+	id = 897,
+	name = "Increasing Order Search Tree",
+	url = "https://leetcode.com/problems/increasing-order-search-tree/",
+	difficulty = Difficulty.EASY
+)
 public class IncreasingOrderSearchTree
 {
 	public TreeNode increasingBST(TreeNode root)
@@ -15,25 +24,36 @@ public class IncreasingOrderSearchTree
 			return null;
 		}
 
-		TreeNode ans = new TreeNode(0);
-		TreeNode[] prev = new TreeNode[]{ans};
-		traverse(root, prev);
+		List<TreeNode> queue = new ArrayList<>();
+		inorder(root, queue);
+		TreeNode prev;
+		TreeNode curr;
+		for (int i = 1; i < queue.size(); i++)
+		{
+			prev = queue.get(i - 1);
+			curr = queue.get(i);
 
-		return ans.right;
+			prev.left = null;
+			curr.left = null;
+			curr.right = null;
+
+			prev.right = curr;
+		}
+
+
+		return queue.get(0);
 	}
 
-	private void traverse(TreeNode root, TreeNode[] prev)
+	private void inorder(TreeNode root, List<TreeNode> queue)
 	{
 		if (root == null)
 		{
 			return;
 		}
 
-		traverse(root.left, prev);
-		prev[0].left = null;
-		prev[0].right = root;
-		prev[0] = root;
-		traverse(root.right, prev);
+		inorder(root.left, queue);
+		queue.add(root);
+		inorder(root.right, queue);
 	}
 
 	public static void main(String[] args)
