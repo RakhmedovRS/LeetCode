@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 968
+Count of solved tasks: 969
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -138,6 +138,7 @@ Count of solved tasks: 968
 |159|Medium|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[Longest Substring with At Most Two Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtMostTwoDistinctCharacters.java)|true|
 |160|Undefined|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Intersection of Two Linked Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntersectionOfTwoLinkedLists.java)|false|
 |162|Undefined|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Find Peak Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindPeakElement.java)|false|
+|163|Easy|[Missing Ranges](https://leetcode.com/problems/missing-ranges/)|[Missing Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingRanges.java)|true|
 |164|Undefined|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[Maximum Gap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumGap.java)|false|
 |165|Undefined|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Compare Version Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CompareVersionNumbers.java)|false|
 |167|Undefined|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Two Sum II - Input array is sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumII.java)|false|
@@ -985,6 +986,7 @@ Count of solved tasks: 968
 |:-----------:|:-----------:|:--------------:|:--------------:|:--------:|
 |53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarray.java)|false|
 |103|Easy|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Maximum Depth of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDepthOfBinaryTree.java)|false|
+|163|Easy|[Missing Ranges](https://leetcode.com/problems/missing-ranges/)|[Missing Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingRanges.java)|true|
 |170|Easy|[Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/)|[Two Sum III - Data structure design.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumIIIDataStructureDesign.java)|true|
 |234|Easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeLinkedList.java)|false|
 |243|Easy|[Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)|[Shortest Word Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestWordDistance.java)|true|
