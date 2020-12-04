@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 966
+Count of solved tasks: 967
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -877,6 +877,7 @@ Count of solved tasks: 966
 |1502|Undefined|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[Can Make Arithmetic Progression From Sequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanMakeArithmeticProgressionFromSequence.java)|false|
 |1503|Undefined|[Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/)|[Last Moment Before All Ants Fall Out of a Plank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LastMomentBeforeAllAntsFallOutOfPlank.java)|false|
 |1504|Undefined|[Count Submatrices With All Ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)|[Count Submatrices With All Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSubmatricesWithAllOnes.java)|false|
+|1506|Medium|[Find Root of N-Ary Tree](https://leetcode.com/problems/find-root-of-n-ary-tree/)|[Find Root of N-Ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindRootOfNAryTree.java)|true|
 |1507|Undefined|[Reformat Date](https://leetcode.com/problems/reformat-date/)|[Reformat Date.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReformatDate.java)|false|
 |1508|Undefined|[Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)|[Range Sum of Sorted Subarray Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfSortedSubarraySums.java)|false|
 |1509|Undefined|[Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)|[Minimum Difference Between Largest and Smallest Value in Three Moves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDifferenceBetweenLargestAndSmallestValueInThreeMoves.java)|false|
@@ -1053,6 +1054,7 @@ Count of solved tasks: 966
 |1371|Medium|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|[Find the Longest Substring Containing Vowels in Even Counts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindtheLongestSubstringContainingVowelsInEvenCounts.java)|false|
 |1443|Medium|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|[Minimum Time to Collect All Apples in a Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeToCollectAllApplesInTree.java)|false|
 |1471|Medium|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|[The k Strongest Values in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKStrongestValuesInArray.java)|false|
+|1506|Medium|[Find Root of N-Ary Tree](https://leetcode.com/problems/find-root-of-n-ary-tree/)|[Find Root of N-Ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindRootOfNAryTree.java)|true|
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[Minimum Deletions to Make String Balanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)|false|
 |1657|Medium|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[Determine if Two Strings Are Close.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfTwoStringsAreClose.java)|false|
 |1658|Medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Minimum Operations to Reduce X to Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToReduceXToZero.java)|false|
