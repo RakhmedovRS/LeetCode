@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 967
+Count of solved tasks: 968
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -869,6 +869,7 @@ Count of solved tasks: 967
 |1483|Undefined|[Kth Ancestor of a Tree Node](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/)|[Kth Ancestor of a Tree Node.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthAncestorOfTreeNode.java)|false|
 |1486|Undefined|[XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)|[XOR Operation in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/XOROperationInArray.java)|false|
 |1487|Undefined|[Making File Names Unique](https://leetcode.com/problems/making-file-names-unique/)|[Making File Names Unique.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MakingFileNamesUnique.java)|false|
+|1490|Medium|[Clone N-ary Tree](https://leetcode.com/problems/clone-n-ary-tree/)|[Clone N-ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CloneNAryTree.java)|true|
 |1491|Undefined|[Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)|[Average Salary Excluding the Minimum and Maximum Salary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AverageSalaryExcludingTheMinimumAndMaximumSalary.java)|false|
 |1492|Undefined|[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[The kth Factor of n.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKthFactorOfN.java)|false|
 |1493|Undefined|[Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)|[Longest Subarray of 1's After Deleting One Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubarrayOfOnesAfterDeletingOneElement.java)|false|
@@ -1054,6 +1055,7 @@ Count of solved tasks: 967
 |1371|Medium|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|[Find the Longest Substring Containing Vowels in Even Counts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindtheLongestSubstringContainingVowelsInEvenCounts.java)|false|
 |1443|Medium|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|[Minimum Time to Collect All Apples in a Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeToCollectAllApplesInTree.java)|false|
 |1471|Medium|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|[The k Strongest Values in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKStrongestValuesInArray.java)|false|
+|1490|Medium|[Clone N-ary Tree](https://leetcode.com/problems/clone-n-ary-tree/)|[Clone N-ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CloneNAryTree.java)|true|
 |1506|Medium|[Find Root of N-Ary Tree](https://leetcode.com/problems/find-root-of-n-ary-tree/)|[Find Root of N-Ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindRootOfNAryTree.java)|true|
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[Minimum Deletions to Make String Balanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)|false|
 |1657|Medium|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[Determine if Two Strings Are Close.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfTwoStringsAreClose.java)|false|
