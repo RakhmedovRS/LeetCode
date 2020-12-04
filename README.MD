@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 965
+Count of solved tasks: 966
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -680,6 +680,7 @@ Count of solved tasks: 965
 |1080|Undefined|[Insufficient Nodes in Root to Leaf Paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/)|[Insufficient Nodes in Root to Leaf Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsufficientNodesInRootToLeafPaths.java)|false|
 |1081|Undefined|[Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)|[Smallest Subsequence of Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestSubsequenceOfDistinctCharacters.java)|false|
 |1085|Easy|[Sum of Digits in the Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/)|[Sum of Digits in the Minimum Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfDigitsInTheMinimumNumber.java)|true|
+|1086|Easy|[High Five](https://leetcode.com/problems/high-five/)|[High Five.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HighFive.java)|true|
 |1089|Undefined|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[Duplicate Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DuplicateZeros.java)|false|
 |1091|Undefined|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Shortest Path in Binary Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathInBinaryMatrix.java)|false|
 |1094|Undefined|[Car Pooling](https://leetcode.com/problems/car-pooling/)|[Car Pooling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CarPooling.java)|false|
@@ -998,6 +999,7 @@ Count of solved tasks: 965
 |1021|Easy|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)|[Remove Outermost Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveOutermostParentheses.java)|false|
 |1056|Easy|[Confusing Number](https://leetcode.com/problems/confusing-number/)|[Confusing Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConfusingNumber.java)|true|
 |1085|Easy|[Sum of Digits in the Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/)|[Sum of Digits in the Minimum Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfDigitsInTheMinimumNumber.java)|true|
+|1086|Easy|[High Five](https://leetcode.com/problems/high-five/)|[High Five.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HighFive.java)|true|
 |1099|Easy|[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[Two Sum Less Than K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumLessThanK.java)|true|
 |1133|Easy|[Largest Unique Number](https://leetcode.com/problems/largest-unique-number/)|[Largest Unique Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestUniqueNumber.java)|true|
 |1134|Easy|[Armstrong Number](https://leetcode.com/problems/armstrong-number/)|[Armstrong Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArmstrongNumber.java)|true|
