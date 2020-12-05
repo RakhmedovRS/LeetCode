@@ -1,43 +1,38 @@
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 07-Sep-20
  */
-@LeetCode(id = 605, name = "Can Place Flowers", url = "https://leetcode.com/problems/can-place-flowers/")
+@LeetCode(
+	id = 605,
+	name = "Can Place Flowers",
+	url = "https://leetcode.com/problems/can-place-flowers/",
+	difficulty = Difficulty.EASY
+)
 public class CanPlaceFlowers
 {
 	public boolean canPlaceFlowers(int[] flowerbed, int n)
 	{
 		for (int i = 0; i < flowerbed.length; i++)
 		{
-			if (n == 0)
+			if (canBeUsed(flowerbed, i))
 			{
-				break;
-			}
-
-			if (flowerbed[i] == 0 && canBePlaced(flowerbed, i))
-			{
-				flowerbed[i] = 1;
 				n--;
+				flowerbed[i] = 1;
 			}
 		}
 
-		return n == 0;
+		return n <= 0;
 	}
 
-	private boolean canBePlaced(int[] flowerbed, int index)
+	boolean canBeUsed(int[] flowerbed, int pos)
 	{
-		if (index - 1 >= 0 && flowerbed[index - 1] == 1)
-		{
-			return false;
-		}
+		boolean prev = pos == 0 || flowerbed[pos - 1] == 0;
+		boolean curr = flowerbed[pos] == 0;
+		boolean next = pos == flowerbed.length - 1 || flowerbed[pos + 1] == 0;
 
-		if (index + 1 < flowerbed.length && flowerbed[index + 1] == 1)
-		{
-			return false;
-		}
-
-		return true;
+		return prev && curr && next;
 	}
 }
