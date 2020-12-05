@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 974
+Count of solved tasks: 975
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -135,6 +135,7 @@ Count of solved tasks: 974
 |152|Undefined|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum Product Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductSubarray.java)|false|
 |154|Undefined|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[Find Minimum in Rotated Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindMinimumInRotatedSortedArrayII.java)|false|
 |155|Undefined|[Min Stack](https://leetcode.com/problems/min-stack/)|[Min Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinStack.java)|false|
+|157|Easy|[Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/)|[Read N Characters Given Read4.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReadNCharactersGivenRead4.java)|true|
 |159|Medium|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[Longest Substring with At Most Two Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtMostTwoDistinctCharacters.java)|true|
 |160|Undefined|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Intersection of Two Linked Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntersectionOfTwoLinkedLists.java)|false|
 |162|Undefined|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Find Peak Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindPeakElement.java)|false|
@@ -991,6 +992,7 @@ Count of solved tasks: 974
 |:-----------:|:-----------:|:--------------:|:--------------:|:--------:|
 |53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarray.java)|false|
 |103|Easy|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Maximum Depth of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDepthOfBinaryTree.java)|false|
+|157|Easy|[Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/)|[Read N Characters Given Read4.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReadNCharactersGivenRead4.java)|true|
 |163|Easy|[Missing Ranges](https://leetcode.com/problems/missing-ranges/)|[Missing Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingRanges.java)|true|
 |170|Easy|[Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/)|[Two Sum III - Data structure design.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumIIIDataStructureDesign.java)|true|
 |234|Easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeLinkedList.java)|false|
