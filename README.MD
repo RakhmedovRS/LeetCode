@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 971
+Count of solved tasks: 972
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -392,6 +392,7 @@ Count of solved tasks: 971
 |572|Undefined|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Subtree of Another Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubtreeOfAnotherTree.java)|false|
 |576|Undefined|[Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)|[Out of Boundary Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OutOfBoundaryPaths.java)|false|
 |583|Undefined|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Delete Operation for Two Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteOperationForTwoStrings.java)|false|
+|588|Hard|[Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/)|[Design In-Memory File System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignInMemoryFileSystem.java)|true|
 |589|Undefined|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary Tree Preorder Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/N_aryTreePreorderTraversal.java)|false|
 |590|Undefined|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[N-ary Tree Postorder Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/N_aryTreePostorderTraversal.java)|false|
 |592|Undefined|[Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/)|[Fraction Addition and Subtraction.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FractionAdditionAndSubtraction.java)|false|
@@ -1087,6 +1088,7 @@ Count of solved tasks: 971
 |239|Hard|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Sliding Window Maximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SlidingWindowMaximum.java)|false|
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[Poor Pigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)|false|
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[Remove Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)|false|
+|588|Hard|[Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/)|[Design In-Memory File System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignInMemoryFileSystem.java)|true|
 |639|Hard|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|[Decode Ways II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeWaysII.java)|false|
 |644|Hard|[Maximum Average Subarray II](https://leetcode.com/problems/maximum-average-subarray-ii/)|[Maximum Average Subarray II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAverageSubarrayII.java)|true|
 |902|Hard|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[Numbers At Most N Given Digit Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumbersAtMostNGivenDigitSet.java)|false|
