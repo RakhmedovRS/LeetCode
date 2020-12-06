@@ -1,10 +1,19 @@
+import common.Difficulty;
 import common.LeetCode;
+
+import java.util.LinkedList;
+import java.util.Queue;
 
 /**
  * @author RakhmedovRS
  * @created 04-Apr-20
  */
-@LeetCode(id = 117, name = "Populating Next Right Pointers in Each Node II", url = "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/")
+@LeetCode(
+	id = 117, 
+	name = "Populating Next Right Pointers in Each Node II", 
+	url = "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/",
+	difficulty = Difficulty.MEDIUM
+)
 public class PopulatingNextRightPointersInEachNodeII
 {
 	static class Node
@@ -32,41 +41,40 @@ public class PopulatingNextRightPointersInEachNodeII
 
 	public Node connect(Node root)
 	{
-		Node startLevel = root;
-		while (startLevel != null)
+		if (root == null)
 		{
-			Node current = startLevel;
-			Node prev = null;
-			Node nextStart = null;
-			while (current != null)
+			return null;
+		}
+
+		Queue<Node> queue = new LinkedList<>();
+		queue.add(root);
+		Node prev = null;
+		Node curr;
+		int size;
+		while (!queue.isEmpty())
+		{
+			size = queue.size();
+			while (size-- > 0)
 			{
-				if (nextStart == null)
+				curr = queue.remove();
+				if (prev != null)
 				{
-					nextStart = current.left == null ? current.right : current.left;
+					prev.next = curr;
 				}
 
-				if (current.left != null)
+				if (curr.left != null)
 				{
-					if (prev != null)
-					{
-						prev.next = current.left;
-					}
-					prev = current.left;
+					queue.add(curr.left);
 				}
 
-				if (current.right != null)
+				if (curr.right != null)
 				{
-					if (prev != null)
-					{
-						prev.next = current.right;
-					}
-					prev = current.right;
+					queue.add(curr.right);
 				}
 
-				current = current.next;
+				prev = curr;
 			}
-
-			startLevel = nextStart;
+			prev = null;
 		}
 
 		return root;
