@@ -1,8 +1,6 @@
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.LinkedList;
-import java.util.Queue;
 
 /**
  * @author RakhmedovRS
@@ -41,40 +39,43 @@ public class PopulatingNextRightPointersInEachNodeII
 
 	public Node connect(Node root)
 	{
-		if (root == null)
-		{
-			return null;
-		}
-
-		Queue<Node> queue = new LinkedList<>();
-		queue.add(root);
-		Node prev = null;
+		Node prev;
 		Node curr;
-		int size;
-		while (!queue.isEmpty())
+		Node next = root;
+		while (next != null)
 		{
-			size = queue.size();
-			while (size-- > 0)
+			prev = null;
+			curr = next;
+			next = null;
+			while (curr != null)
 			{
-				curr = queue.remove();
-				if (prev != null)
+				if (next == null)
 				{
-					prev.next = curr;
+					next = curr.left == null ? curr.right : curr.left;
 				}
 
 				if (curr.left != null)
 				{
-					queue.add(curr.left);
+					if (prev != null)
+					{
+						prev.next = curr.left;
+					}
+
+					prev = curr.left;
 				}
 
 				if (curr.right != null)
 				{
-					queue.add(curr.right);
+					if (prev != null)
+					{
+						prev.next = curr.right;
+					}
+
+					prev = curr.right;
 				}
 
-				prev = curr;
+				curr = curr.next;
 			}
-			prev = null;
 		}
 
 		return root;
