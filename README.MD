@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 983
+Count of solved tasks: 984
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -245,6 +245,7 @@ Count of solved tasks: 983
 |336|Undefined|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)|[Palindrome Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromePairs.java)|false|
 |337|Medium|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[House Robber III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HouseRobberIII.java)|false|
 |338|Undefined|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Counting Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountingBits.java)|false|
+|340|Hard|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|[Longest Substring with At Most K Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtMostKDistinctCharacters.java)|true|
 |341|Undefined|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[Flatten Nested List Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlattenNestedListIterator.java)|false|
 |343|Undefined|[Integer Break](https://leetcode.com/problems/integer-break/)|[Integer Break.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerBreak.java)|false|
 |345|Undefined|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Reverse Vowels of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseVowelsOfString.java)|false|
@@ -1110,6 +1111,7 @@ Count of solved tasks: 983
 |41|Hard|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[First Missing Positive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstMissingPositive.java)|false|
 |218|Hard|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[The Skyline Problem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheSkylineProblem.java)|false|
 |239|Hard|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Sliding Window Maximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SlidingWindowMaximum.java)|false|
+|340|Hard|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|[Longest Substring with At Most K Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtMostKDistinctCharacters.java)|true|
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[Poor Pigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)|false|
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[Remove Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)|false|
 |588|Hard|[Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/)|[Design In-Memory File System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignInMemoryFileSystem.java)|true|
