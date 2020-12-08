@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 982
+Count of solved tasks: 983
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -678,6 +678,7 @@ Count of solved tasks: 982
 |1054|Undefined|[Distant Barcodes](https://leetcode.com/problems/distant-barcodes/)|[Distant Barcodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistantBarcodes.java)|false|
 |1055|Medium|[Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|[Shortest Way to Form String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestWayToFormString.java)|true|
 |1056|Easy|[Confusing Number](https://leetcode.com/problems/confusing-number/)|[Confusing Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConfusingNumber.java)|true|
+|1060|Medium|[Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/)|[Missing Element in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingElementInSortedArray.java)|true|
 |1065|Easy|[Index Pairs of a String](https://leetcode.com/problems/index-pairs-of-a-string/)|[Index Pairs of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IndexPairsOfString.java)|true|
 |1071|Undefined|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|[Greatest Common Divisor of Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GreatestCommonDivisorOfStrings.java)|false|
 |1073|Undefined|[Adding Two Negabinary Numbers](https://leetcode.com/problems/adding-two-negabinary-numbers/)|[Adding Two Negabinary Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddingTwoNegabinaryNumbers.java)|false|
@@ -1070,6 +1071,7 @@ Count of solved tasks: 982
 |1006|Medium|[Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/)|[Clumsy Factorial.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClumsyFactorial.java)|false|
 |1015|Medium|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[Smallest Integer Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestIntegerDivisibleByK.java)|false|
 |1055|Medium|[Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|[Shortest Way to Form String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestWayToFormString.java)|true|
+|1060|Medium|[Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/)|[Missing Element in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingElementInSortedArray.java)|true|
 |1104|Medium|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[Path In Zigzag Labelled Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathInZigzagLabelledBinaryTree.java)|false|
 |1123|Medium|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[Lowest Common Ancestor of Deepest Leaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfDeepestLeaves.java)|false|
 |1166|Medium|[Design File System](https://leetcode.com/problems/design-file-system/)|[Design File System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignFileSystem.java)|true|
