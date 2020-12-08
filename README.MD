@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 984
+Count of solved tasks: 985
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -256,6 +256,7 @@ Count of solved tasks: 984
 |354|Undefined|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|[Russian Doll Envelopes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RussianDollEnvelopes.java)|false|
 |355|Undefined|[Design Twitter](https://leetcode.com/problems/design-twitter/)|[Design Twitter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignTwitter.java)|false|
 |357|Undefined|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)|[Count Numbers with Unique Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountNumbersWithUniqueDigits.java)|false|
+|359|Easy|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)|[Logger Rate Limiter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LoggerRateLimiter.java)|true|
 |365|Undefined|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)|[Water and Jug Problem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WaterAndJugProblem.java)|false|
 |367|Undefined|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Valid Perfect Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidPerfectSquare.java)|false|
 |368|Undefined|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|[Largest Divisible Subset.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestDivisibleSubset.java)|false|
@@ -1009,6 +1010,7 @@ Count of solved tasks: 984
 |246|Easy|[Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/)|[Strobogrammatic Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StrobogrammaticNumber.java)|true|
 |252|Easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Meeting Rooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeetingRooms.java)|true|
 |346|Easy|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[Moving Average from Data Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MovingAverageFromDataStream.java)|true|
+|359|Easy|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)|[Logger Rate Limiter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LoggerRateLimiter.java)|true|
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[Range Addition II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)|false|
 |605|Easy|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Can Place Flowers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanPlaceFlowers.java)|false|
 |716|Easy|[Max Stack](https://leetcode.com/problems/max-stack/)|[Max Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxStack.java)|true|
