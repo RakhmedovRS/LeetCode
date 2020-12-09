@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 988
+Count of solved tasks: 989
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -809,6 +809,7 @@ Count of solved tasks: 988
 |1347|Undefined|[Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)|[Minimum Number of Steps to Make Two Strings Anagram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfStepsToMakeTwoStringsAnagram.java)|false|
 |1348|Undefined|[Tweet Counts Per Frequency](https://leetcode.com/problems/tweet-counts-per-frequency/)|[Tweet Counts Per Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TweetCountsPerFrequency.java)|false|
 |1351|Undefined|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[Count Negative Numbers in a Sorted Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountNegativeNumbersInSortedMatrix.java)|false|
+|1352|Medium|[Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/)|[Product of the Last K Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ProductOfTheLastKNumbers.java)|false|
 |1353|Undefined|[Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)|[Maximum Number of Events That Can Be Attended.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfEventsThatCanBeAttended.java)|false|
 |1354|Hard|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[Construct Target Array With Multiple Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTargetArrayWithMultipleSums.java)|false|
 |1356|Undefined|[Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)|[Sort Integers by The Number of 1 Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortIntegersByTheNumberOf1Bits.java)|false|
@@ -1091,6 +1092,7 @@ Count of solved tasks: 988
 |1265|Medium|[Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/)|[Print Immutable Linked List in Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintImmutableLinkedListInReverse.java)|true|
 |1267|Medium|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|[Count Servers that Communicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountServersThatCommunicate.java)|false|
 |1272|Medium|[Remove Interval](https://leetcode.com/problems/remove-interval/)|[Remove Interval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveInterval.java)|true|
+|1352|Medium|[Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/)|[Product of the Last K Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ProductOfTheLastKNumbers.java)|false|
 |1371|Medium|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|[Find the Longest Substring Containing Vowels in Even Counts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindtheLongestSubstringContainingVowelsInEvenCounts.java)|false|
 |1443|Medium|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|[Minimum Time to Collect All Apples in a Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeToCollectAllApplesInTree.java)|false|
 |1471|Medium|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|[The k Strongest Values in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKStrongestValuesInArray.java)|false|
