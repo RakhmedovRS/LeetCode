@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 986
+Count of solved tasks: 987
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -149,6 +149,7 @@ Count of solved tasks: 986
 |170|Easy|[Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/)|[Two Sum III - Data structure design.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumIIIDataStructureDesign.java)|true|
 |171|Undefined|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[Excel Sheet Column Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExcelSheetColumnNumber.java)|false|
 |172|Undefined|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|[Factorial Trailing Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FactorialTrailingZeroes.java)|false|
+|173|Medium|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Binary Search Tree Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearchTreeIterator.java)|false|
 |174|Undefined|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|[Dungeon Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DungeonGame.java)|false|
 |179|Undefined|[Largest Number](https://leetcode.com/problems/largest-number/)|[Largest Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestNumber.java)|false|
 |187|Undefined|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)|[Repeated DNA Sequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RepeatedDNASequences.java)|false|
@@ -1051,6 +1052,7 @@ Count of solved tasks: 986
 |81|Medium|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Search in Rotated Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArrayII.java)|false|
 |117|Medium|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Populating Next Right Pointers in Each Node II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PopulatingNextRightPointersInEachNodeII.java)|false|
 |159|Medium|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[Longest Substring with At Most Two Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtMostTwoDistinctCharacters.java)|true|
+|173|Medium|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Binary Search Tree Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearchTreeIterator.java)|false|
 |223|Medium|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[Rectangle Area.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RectangleArea.java)|false|
 |227|Medium|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Basic Calculator II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BasicCalculatorII.java)|false|
 |304|Medium|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Range Sum Query 2D - Immutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQuery2DImmutable.java)|false|
