@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 987
+Count of solved tasks: 988
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -717,6 +717,7 @@ Count of solved tasks: 987
 |1144|Undefined|[Decrease Elements To Make Array Zigzag](https://leetcode.com/problems/decrease-elements-to-make-array-zigzag/)|[Decrease Elements To Make Array Zigzag.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecreaseElementsToMakeArrayZigzag.java)|false|
 |1145|Undefined|[Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game/)|[Binary Tree Coloring Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeColoringGame.java)|false|
 |1146|Undefined|[Snapshot Array](https://leetcode.com/problems/snapshot-array/)|[Snapshot Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SnapshotArray.java)|false|
+|1150|Easy|[Check If a Number Is Majority Element in a Sorted Array](https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/)|[Check If a Number Is Majority Element in a Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfNumberIsMajorityElementInSortedArray.java)|true|
 |1154|Undefined|[Day of the Year](https://leetcode.com/problems/day-of-the-year/submissions/)|[Day of the Year.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DayOfTheYear.java)|false|
 |1155|Undefined|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|[Number of Dice Rolls With Target Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfDiceRollsWithTargetSum.java)|false|
 |1156|Undefined|[Swap For Longest Repeated Character Substring](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)|[Swap For Longest Repeated Character Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SwapForLongestRepeatedCharacterSubstring.java)|false|
@@ -1029,6 +1030,7 @@ Count of solved tasks: 987
 |1099|Easy|[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[Two Sum Less Than K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumLessThanK.java)|true|
 |1133|Easy|[Largest Unique Number](https://leetcode.com/problems/largest-unique-number/)|[Largest Unique Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestUniqueNumber.java)|true|
 |1134|Easy|[Armstrong Number](https://leetcode.com/problems/armstrong-number/)|[Armstrong Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArmstrongNumber.java)|true|
+|1150|Easy|[Check If a Number Is Majority Element in a Sorted Array](https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/)|[Check If a Number Is Majority Element in a Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfNumberIsMajorityElementInSortedArray.java)|true|
 |1165|Easy|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)|[Single-Row Keyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleRowKeyboard.java)|true|
 |1180|Easy|[Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/)|[Count Substrings with Only One Distinct Letter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSubstringsWithOnlyOneDistinctLetter.java)|true|
 |1275|Easy|[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)|[Find Winner on a Tic Tac Toe Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindWinnerOnTicTacToeGame.java)|true|
