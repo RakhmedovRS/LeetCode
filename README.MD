@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 989
+Count of solved tasks: 990
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -210,6 +210,7 @@ Count of solved tasks: 989
 |268|Undefined|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumber.java)|false|
 |274|Undefined|[H-Index](https://leetcode.com/problems/h-index/)|[H-Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HIndex.java)|false|
 |275|Undefined|[H-Index II](https://leetcode.com/problems/h-index-ii/)|[H-Index II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HIndexII.java)|false|
+|277|Medium|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/)|[Find the Celebrity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheCelebrity.java)|true|
 |278|Undefined|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[First Bad Version.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstBadVersion.java)|false|
 |279|Undefined|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Perfect Squares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PerfectSquares.java)|false|
 |282|Undefined|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[Expression Add Operators.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExpressionAddOperators.java)|false|
@@ -1058,6 +1059,7 @@ Count of solved tasks: 989
 |173|Medium|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Binary Search Tree Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearchTreeIterator.java)|false|
 |223|Medium|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[Rectangle Area.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RectangleArea.java)|false|
 |227|Medium|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Basic Calculator II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BasicCalculatorII.java)|false|
+|277|Medium|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/)|[Find the Celebrity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheCelebrity.java)|true|
 |304|Medium|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Range Sum Query 2D - Immutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQuery2DImmutable.java)|false|
 |307|Medium|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[Range Sum Query - Mutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQueryMutable.java)|false|
 |337|Medium|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[House Robber III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HouseRobberIII.java)|false|
