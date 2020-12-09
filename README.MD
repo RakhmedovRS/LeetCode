@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 990
+Count of solved tasks: 991
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -208,6 +208,7 @@ Count of solved tasks: 990
 |263|Undefined|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Ugly Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UglyNumber.java)|false|
 |264|Undefined|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Ugly Number II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UglyNumberII.java)|false|
 |268|Undefined|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumber.java)|false|
+|270|Medium|[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)|[Closest Binary Search Tree Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestBinarySearchTreeValue.java)|true|
 |274|Undefined|[H-Index](https://leetcode.com/problems/h-index/)|[H-Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HIndex.java)|false|
 |275|Undefined|[H-Index II](https://leetcode.com/problems/h-index-ii/)|[H-Index II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HIndexII.java)|false|
 |277|Medium|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/)|[Find the Celebrity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheCelebrity.java)|true|
@@ -1059,6 +1060,7 @@ Count of solved tasks: 990
 |173|Medium|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Binary Search Tree Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearchTreeIterator.java)|false|
 |223|Medium|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[Rectangle Area.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RectangleArea.java)|false|
 |227|Medium|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Basic Calculator II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BasicCalculatorII.java)|false|
+|270|Medium|[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)|[Closest Binary Search Tree Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestBinarySearchTreeValue.java)|true|
 |277|Medium|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/)|[Find the Celebrity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheCelebrity.java)|true|
 |304|Medium|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Range Sum Query 2D - Immutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQuery2DImmutable.java)|false|
 |307|Medium|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[Range Sum Query - Mutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQueryMutable.java)|false|
