@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 994
+Count of solved tasks: 995
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -759,6 +759,7 @@ Count of solved tasks: 994
 |1232|Undefined|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Check If It Is a Straight Line.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfItIsStraightLine.java)|false|
 |1234|Medium|[Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)|[Replace the Substring for Balanced String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceTheSubstringForBalancedString.java)|false|
 |1235|Hard|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[Maximum Profit in Job Scheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProfitInJobScheduling.java)|false|
+|1236|Medium|[Web Crawler](https://leetcode.com/problems/web-crawler/)|[Web Crawler.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WebCrawler.java)|true|
 |1237|Undefined|[Find Positive Integer Solution for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/)|[Find Positive Integer Solution for a Given Equation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindPositiveIntegerSolutionForGivenEquation.java)|false|
 |1239|Undefined|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)|[Maximum Length of a Concatenated String with Unique Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfConcatenatedStringWithUniqueCharacters.java)|false|
 |1244|Medium|[Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/)|[Design A Leaderboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignLeaderboard.java)|true|
@@ -1098,6 +1099,7 @@ Count of solved tasks: 994
 |1197|Medium|[Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)|[Minimum Knight Moves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumKnightMoves.java)|true|
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[Smallest String With Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithSwaps.java)|false|
 |1234|Medium|[Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)|[Replace the Substring for Balanced String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceTheSubstringForBalancedString.java)|false|
+|1236|Medium|[Web Crawler](https://leetcode.com/problems/web-crawler/)|[Web Crawler.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WebCrawler.java)|true|
 |1244|Medium|[Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/)|[Design A Leaderboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignLeaderboard.java)|true|
 |1265|Medium|[Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/)|[Print Immutable Linked List in Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintImmutableLinkedListInReverse.java)|true|
 |1267|Medium|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|[Count Servers that Communicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountServersThatCommunicate.java)|false|
