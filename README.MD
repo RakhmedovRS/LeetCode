@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 991
+Count of solved tasks: 992
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -346,6 +346,7 @@ Count of solved tasks: 991
 |485|Undefined|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max Consecutive Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxConsecutiveOnes.java)|false|
 |486|Undefined|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/)|[Predict the Winner.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PredictTheWinner.java)|false|
 |488|Undefined|[Zuma Game](https://leetcode.com/problems/zuma-game/)|[Zuma Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ZumaGame.java)|false|
+|490|Medium|[The Maze](https://leetcode.com/problems/the-maze/)|[The Maze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheMaze.java)|true|
 |491|Undefined|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)|[Increasing Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingSubsequences.java)|false|
 |492|Undefined|[Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)|[Construct the Rectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTheRectangle.java)|false|
 |493|Undefined|[Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)|[Reverse Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReversePairs.java)|false|
@@ -1070,6 +1071,7 @@ Count of solved tasks: 991
 |395|Medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|[Longest Substring with At Least K Repeating Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtLeastKRepeatingCharacters.java)|false|
 |416|Medium|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[Partition Equal Subset Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionEqualSubsetSum.java)|false|
 |433|Medium|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[Minimum Genetic Mutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumGeneticMutation.java)|false|
+|490|Medium|[The Maze](https://leetcode.com/problems/the-maze/)|[The Maze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheMaze.java)|true|
 |531|Medium|[Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/)|[Lonely Pixel I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LonelyPixelI.java)|true|
 |539|Medium|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|[Minimum Time Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeDifference.java)|false|
 |616|Medium|[Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string/)|[Add Bold Tag in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddBoldTagInString.java)|true|
