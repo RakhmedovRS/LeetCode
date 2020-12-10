@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 993
+Count of solved tasks: 994
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -483,6 +483,7 @@ Count of solved tasks: 993
 |738|Undefined|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/)|[Monotone Increasing Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MonotoneIncreasingDigits.java)|false|
 |739|Undefined|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Daily Temperatures.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DailyTemperatures.java)|false|
 |740|Undefined|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[Delete and Earn.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteAndEarn.java)|false|
+|742|Medium|[Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/)|[Closest Leaf in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestLeafInBinaryTree.java)|true|
 |744|Undefined|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|[Find Smallest Letter Greater Than Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindSmallestLetterGreaterThanTarget.java)|false|
 |745|Undefined|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/)|[Prefix and Suffix Search.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrefixAndSuffixSearch.java)|false|
 |746|Undefined|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Min Cost Climbing Stairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinCostClimbingStairs.java)|false|
@@ -1079,6 +1080,7 @@ Count of solved tasks: 993
 |616|Medium|[Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string/)|[Add Bold Tag in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddBoldTagInString.java)|true|
 |624|Medium|[Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/)|[Maximum Distance in Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDistanceInArrays.java)|true|
 |718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Maximum Length of Repeated Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfRepeatedSubarray.java)|false|
+|742|Medium|[Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/)|[Closest Leaf in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestLeafInBinaryTree.java)|true|
 |769|Medium|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[Max Chunks To Make Sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxChunksToMakeSorted.java)|false|
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[Longest Mountain in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)|false|
 |846|Medium|[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)|[Hand of Straights.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HandOfStraights.java)|false|
