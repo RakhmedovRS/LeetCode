@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 997
+Count of solved tasks: 998
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -75,6 +75,7 @@ Count of solved tasks: 997
 |76|Undefined|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[Minimum Window Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumWindowSubstring.java)|false|
 |78|Undefined|[Subsets](https://leetcode.com/problems/subsets/)|[Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Subsets.java)|false|
 |79|Undefined|[Word Search](https://leetcode.com/problems/word-search/)|[Word Search.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordSearch.java)|false|
+|80|Medium|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Remove Duplicates from Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveDuplicatesFromSortedArrayII.java)|false|
 |81|Medium|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Search in Rotated Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArrayII.java)|false|
 |82|Undefined|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[Largest Rectangle in Histogram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestRectangleInHistogram.java)|false|
 |85|Undefined|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|[Maximal Rectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximalRectangle.java)|false|
@@ -1062,6 +1063,7 @@ Count of solved tasks: 997
 |33|Medium|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search in Rotated Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArray.java)|false|
 |56|Medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge Intervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeIntervals.java)|false|
 |59|Medium|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Spiral Matrix II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SpiralMatrixII.java)|false|
+|80|Medium|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Remove Duplicates from Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveDuplicatesFromSortedArrayII.java)|false|
 |81|Medium|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Search in Rotated Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArrayII.java)|false|
 |117|Medium|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Populating Next Right Pointers in Each Node II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PopulatingNextRightPointersInEachNodeII.java)|false|
 |159|Medium|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[Longest Substring with At Most Two Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtMostTwoDistinctCharacters.java)|true|
