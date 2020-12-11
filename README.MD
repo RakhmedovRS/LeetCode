@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 999
+Count of solved tasks: 1000
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -734,6 +734,7 @@ Count of solved tasks: 999
 |1162|Undefined|[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|[As Far from Land as Possible.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AsFarFromLandAsPossible.java)|false|
 |1165|Easy|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)|[Single-Row Keyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleRowKeyboard.java)|true|
 |1166|Medium|[Design File System](https://leetcode.com/problems/design-file-system/)|[Design File System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignFileSystem.java)|true|
+|1167|Medium|[Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)|[Minimum Cost to Connect Sticks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToConnectSticks.java)|true|
 |1169|Undefined|[Invalid Transactions](https://leetcode.com/problems/invalid-transactions/)|[Invalid Transactions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InvalidTransactions.java)|false|
 |1170|Undefined|[Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/)|[Compare Strings by Frequency of the Smallest Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CompareStringsByFrequencyOfTheSmallestCharacter.java)|false|
 |1171|Undefined|[Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)|[Remove Zero Sum Consecutive Nodes from Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveZeroSumConsecutiveNodesFromLinkedList.java)|false|
@@ -1105,6 +1106,7 @@ Count of solved tasks: 999
 |1104|Medium|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[Path In Zigzag Labelled Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathInZigzagLabelledBinaryTree.java)|false|
 |1123|Medium|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[Lowest Common Ancestor of Deepest Leaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfDeepestLeaves.java)|false|
 |1166|Medium|[Design File System](https://leetcode.com/problems/design-file-system/)|[Design File System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignFileSystem.java)|true|
+|1167|Medium|[Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)|[Minimum Cost to Connect Sticks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToConnectSticks.java)|true|
 |1197|Medium|[Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)|[Minimum Knight Moves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumKnightMoves.java)|true|
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[Smallest String With Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithSwaps.java)|false|
 |1234|Medium|[Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)|[Replace the Substring for Balanced String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceTheSubstringForBalancedString.java)|false|
