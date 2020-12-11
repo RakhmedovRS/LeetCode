@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 996
+Count of solved tasks: 997
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -746,6 +746,7 @@ Count of solved tasks: 996
 |1190|Undefined|[Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/)|[Reverse Substrings Between Each Pair of Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseSubstringsBetweenEachPairOfParentheses.java)|false|
 |1191|Undefined|[K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/)|[K-Concatenation Maximum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KConcatenationMaximumSum.java)|false|
 |1195|Undefined|[Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/)|[Fizz Buzz Multithreaded.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FizzBuzzMultithreaded.java)|false|
+|1196|Easy|[How Many Apples Can You Put into the Basket](https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket/)|[How Many Apples Can You Put into the Basket.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HowManyApplesCanYouPutIntoTheBasket.java)|true|
 |1197|Medium|[Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)|[Minimum Knight Moves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumKnightMoves.java)|true|
 |1200|Undefined|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[Minimum Absolute Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumAbsoluteDifference.java)|false|
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[Smallest String With Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithSwaps.java)|false|
@@ -1042,6 +1043,7 @@ Count of solved tasks: 996
 |1150|Easy|[Check If a Number Is Majority Element in a Sorted Array](https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/)|[Check If a Number Is Majority Element in a Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfNumberIsMajorityElementInSortedArray.java)|true|
 |1165|Easy|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)|[Single-Row Keyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleRowKeyboard.java)|true|
 |1180|Easy|[Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/)|[Count Substrings with Only One Distinct Letter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSubstringsWithOnlyOneDistinctLetter.java)|true|
+|1196|Easy|[How Many Apples Can You Put into the Basket](https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket/)|[How Many Apples Can You Put into the Basket.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HowManyApplesCanYouPutIntoTheBasket.java)|true|
 |1275|Easy|[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)|[Find Winner on a Tic Tac Toe Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindWinnerOnTicTacToeGame.java)|true|
 |1652|Easy|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[Defuse the Bomb.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefuseTheBomb.java)|false|
 |1656|Easy|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|[Design an Ordered Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAnOrderedStream.java)|false|
