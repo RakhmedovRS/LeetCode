@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1004
+Count of solved tasks: 1005
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -535,6 +535,7 @@ Count of solved tasks: 1004
 |828|Undefined|[Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)|[Count Unique Characters of All Substrings of a Given String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountUniqueCharactersOfAllSubstringsOfGivenString.java)|false|
 |830|Undefined|[Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/)|[Positions of Large Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PositionsOfLargeGroups.java)|false|
 |832|Undefined|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[Flipping an Image.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlippingAnImage.java)|false|
+|833|Medium|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|[Find And Replace in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAndReplaceInString.java)|false|
 |835|Undefined|[Image Overlap](https://leetcode.com/problems/image-overlap/)|[Image Overlap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImageOverlap.java)|false|
 |836|Undefined|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)|[Rectangle Overlap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RectangleOverlap.java)|false|
 |837|Undefined|[New 21 Game](https://leetcode.com/problems/new-21-game/)|[New 21 Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/New21Game.java)|false|
@@ -1100,6 +1101,7 @@ Count of solved tasks: 1004
 |718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Maximum Length of Repeated Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfRepeatedSubarray.java)|false|
 |742|Medium|[Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/)|[Closest Leaf in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestLeafInBinaryTree.java)|true|
 |769|Medium|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[Max Chunks To Make Sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxChunksToMakeSorted.java)|false|
+|833|Medium|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|[Find And Replace in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAndReplaceInString.java)|false|
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[Longest Mountain in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)|false|
 |846|Medium|[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)|[Hand of Straights.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HandOfStraights.java)|false|
 |865|Medium|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|[Smallest Subtree with all the Deepest Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestSubtreeWithAllTheDeepestNodes.java)|false|
