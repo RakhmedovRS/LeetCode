@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1002
+Count of solved tasks: 1003
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1008,7 +1008,8 @@ Count of solved tasks: 1002
 |1674|Medium|[Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/)|[Minimum Moves to Make Array Complementary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumMovesToMakeArrayComplementary.java)|false|
 |1678|Easy|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|[Goal Parser Interpretation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GoalParserInterpretation.java)|false|
 |1679|Medium|[Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)|[Max Number of K-Sum Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxNumberOfKSumPairs.java)|false|
-|1680|Medium|[Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)|[Concatenation of Consecutive Binary Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConcatenationOfConsecutiveBinaryNumbers.java)|false|</p>
+|1680|Medium|[Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)|[Concatenation of Consecutive Binary Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConcatenationOfConsecutiveBinaryNumbers.java)|false|
+|1684|Easy|[Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/)|[Count the Number of Consistent Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountTheNumberOfConsistentStrings.java)|false|</p>
 </details>
 
 <details>
@@ -1057,7 +1058,8 @@ Count of solved tasks: 1002
 |1662|Easy|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[Check If Two String Arrays are Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTwoStringArraysAreEquivalent.java)|false|
 |1668|Easy|[Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|[Maximum Repeating Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumRepeatingSubstring.java)|false|
 |1672|Easy|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[Richest Customer Wealth.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RichestCustomerWealth.java)|false|
-|1678|Easy|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|[Goal Parser Interpretation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GoalParserInterpretation.java)|false|</p>
+|1678|Easy|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|[Goal Parser Interpretation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GoalParserInterpretation.java)|false|
+|1684|Easy|[Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/)|[Count the Number of Consistent Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountTheNumberOfConsistentStrings.java)|false|</p>
 </details>
 
 <details>
