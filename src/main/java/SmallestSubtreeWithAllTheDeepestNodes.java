@@ -2,10 +2,7 @@ import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @author RakhmedovRS
@@ -21,52 +18,59 @@ public class SmallestSubtreeWithAllTheDeepestNodes
 {
 	public TreeNode subtreeWithAllDeepest(TreeNode root)
 	{
-		TreeNode[] parents = new TreeNode[501];
-		int[] max = new int[1];
-		LinkedList<TreeNode> deepestLeafs = new LinkedList<>();
-		dfs(null, root, 0, parents, max, deepestLeafs);
-		TreeNode node;
-		while (deepestLeafs.size() > 1)
+		if (root == null)
 		{
-			Set<TreeNode> p = new HashSet<>();
-			while (!deepestLeafs.isEmpty())
-			{
-				node = deepestLeafs.removeFirst();
-				p.add(parents[node.val]);
-			}
-
-			deepestLeafs.addAll(p);
+			return null;
 		}
 
-		return deepestLeafs.getFirst();
+		Map<TreeNode, TreeNode> parents = new HashMap<>();
+		List<TreeNode> leaves = new ArrayList<>();
+		int[] level = new int[]{-1};
+		dfs(root, root, parents, leaves, 0, level);
+
+		Queue<TreeNode> queue = new LinkedList<>(leaves);
+		Set<TreeNode> seen = new HashSet<>();
+		TreeNode current;
+		TreeNode parent;
+		int size;
+		while (queue.size() != 1)
+		{
+			size = queue.size();
+			while (size-- > 0)
+			{
+				current = queue.remove();
+				parent = parents.get(current);
+				if (seen.add(parent))
+				{
+					queue.add(parent);
+				}
+			}
+		}
+
+		return queue.peek();
 	}
 
-	private void dfs(TreeNode prev, TreeNode node, int currentDepth, TreeNode[] parents, int[] max, List<TreeNode> deepestLeafs)
+	private void dfs(TreeNode parent, TreeNode root, Map<TreeNode, TreeNode> parents, List<TreeNode> leaves, int current, int[] level)
 	{
-		if (node == null)
+		if (root == null)
 		{
 			return;
 		}
 
-		parents[node.val] = prev;
-
-		if (node.left == null && node.right == null)
+		if (current >= level[0])
 		{
-			if (currentDepth > max[0])
+			if (current > level[0])
 			{
-				max[0] = currentDepth;
-				deepestLeafs.clear();
-				deepestLeafs.add(node);
+				leaves.clear();
 			}
-			else if (currentDepth == max[0])
-			{
-				deepestLeafs.add(node);
-			}
-			return;
+			leaves.add(root);
+			level[0] = current;
 		}
 
-		dfs(node, node.left, currentDepth + 1, parents, max, deepestLeafs);
-		dfs(node, node.right, currentDepth + 1, parents, max, deepestLeafs);
+		parents.put(root, parent);
+
+		dfs(root, root.left, parents, leaves, current + 1, level);
+		dfs(root, root.right, parents, leaves, current + 1, level);
 	}
 
 	public static void main(String[] args)
