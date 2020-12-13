@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1008
+Count of solved tasks: 1009
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -714,6 +714,7 @@ Count of solved tasks: 1008
 |1114|Undefined|[Print in Order](https://leetcode.com/problems/print-in-order/)|[Print in Order.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintInOrder.java)|false|
 |1115|Undefined|[Print FooBar Alternately](https://leetcode.com/problems/print-foobar-alternately/)|[Print FooBar Alternately.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintFooBarAlternately.java)|false|
 |1117|Undefined|[Building H2O](https://leetcode.com/problems/building-h2o/)|[Building H2O.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BuildingH2O.java)|false|
+|1118|Easy|[Number of Days in a Month](https://leetcode.com/problems/number-of-days-in-a-month/)|[Number of Days in a Month.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfDaysInMonth.java)|true|
 |1119|Easy|[Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/)|[Remove Vowels from a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveVowelsFromString.java)|true|
 |1122|Undefined|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[Relative Sort Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RelativeSortArray.java)|false|
 |1123|Medium|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[Lowest Common Ancestor of Deepest Leaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfDeepestLeaves.java)|false|
@@ -1049,6 +1050,7 @@ Count of solved tasks: 1008
 |1085|Easy|[Sum of Digits in the Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/)|[Sum of Digits in the Minimum Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfDigitsInTheMinimumNumber.java)|true|
 |1086|Easy|[High Five](https://leetcode.com/problems/high-five/)|[High Five.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HighFive.java)|true|
 |1099|Easy|[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[Two Sum Less Than K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumLessThanK.java)|true|
+|1118|Easy|[Number of Days in a Month](https://leetcode.com/problems/number-of-days-in-a-month/)|[Number of Days in a Month.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfDaysInMonth.java)|true|
 |1119|Easy|[Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/)|[Remove Vowels from a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveVowelsFromString.java)|true|
 |1133|Easy|[Largest Unique Number](https://leetcode.com/problems/largest-unique-number/)|[Largest Unique Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestUniqueNumber.java)|true|
 |1134|Easy|[Armstrong Number](https://leetcode.com/problems/armstrong-number/)|[Armstrong Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArmstrongNumber.java)|true|
