@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1006
+Count of solved tasks: 1007
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1012,6 +1012,7 @@ Count of solved tasks: 1006
 |1680|Medium|[Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)|[Concatenation of Consecutive Binary Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConcatenationOfConsecutiveBinaryNumbers.java)|false|
 |1684|Easy|[Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/)|[Count the Number of Consistent Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountTheNumberOfConsistentStrings.java)|false|
 |1685|Medium|[Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/)|[Sum of Absolute Differences in a Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfAbsoluteDifferencesInSortedArray.java)|false|
+|1688|Easy|[Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|[Count of Matches in Tournament.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountOfMatchesInTournament.java)|false|
 |1690|Medium|[Stone Game VII](https://leetcode.com/problems/stone-game-vii/)|[Stone Game VII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StoneGameVII.java)|false|</p>
 </details>
 
@@ -1062,7 +1063,8 @@ Count of solved tasks: 1006
 |1668|Easy|[Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|[Maximum Repeating Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumRepeatingSubstring.java)|false|
 |1672|Easy|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[Richest Customer Wealth.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RichestCustomerWealth.java)|false|
 |1678|Easy|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|[Goal Parser Interpretation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GoalParserInterpretation.java)|false|
-|1684|Easy|[Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/)|[Count the Number of Consistent Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountTheNumberOfConsistentStrings.java)|false|</p>
+|1684|Easy|[Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/)|[Count the Number of Consistent Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountTheNumberOfConsistentStrings.java)|false|
+|1688|Easy|[Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|[Count of Matches in Tournament.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountOfMatchesInTournament.java)|false|</p>
 </details>
 
 <details>
