@@ -1,20 +1,33 @@
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 23-May-20
  */
-@LeetCode(id = 312, name = "Burst Balloons", url = "https://leetcode.com/problems/burst-balloons/")
+@LeetCode(
+	id = 312,
+	name = "Burst Balloons",
+	url = "https://leetcode.com/problems/burst-balloons/",
+	difficulty = Difficulty.MEDIUM)
 public class BurstBalloons
 {
-	public int maxCoins(int[] numbers)
+	public int maxCoins(int[] nums)
 	{
-		return dfs(numbers, 0, numbers.length - 1, new Integer[numbers.length][numbers.length]);
+		int[] copy = new int[nums.length + 2];
+		copy[0] = 1;
+		copy[copy.length - 1] = 1;
+		for (int i = 0; i < nums.length; i++)
+		{
+			copy[i + 1] = nums[i];
+		}
+
+		return dfs(copy, 0, copy.length - 1, new Integer[copy.length][copy.length]);
 	}
 
-	private int dfs(int[] numbers, int left, int right, Integer[][] memo)
+	private int dfs(int[] nums, int left, int right, Integer[][] memo)
 	{
-		if (left > right)
+		if (left >= right)
 		{
 			return 0;
 		}
@@ -25,24 +38,13 @@ public class BurstBalloons
 		}
 
 		memo[left][right] = 0;
-		for (int middle = left; middle <= right; middle++)
+		for (int i = left + 1; i < right; i++)
 		{
-			memo[left][right] = Math.max(memo[left][right], dfs(numbers, left, middle - 1, memo)
-				+ getNeighbor(numbers, left - 1) * numbers[middle] * getNeighbor(numbers, right + 1)
-				+ dfs(numbers, middle + 1, right, memo));
+			memo[left][right] = Math.max(memo[left][right],
+				nums[left] * nums[i] * nums[right] + dfs(nums, left, i, memo) + dfs(nums, i, right, memo));
 		}
 
 		return memo[left][right];
-	}
-
-	private int getNeighbor(int[] numbers, int index)
-	{
-		if (index < 0 || index == numbers.length)
-		{
-			return 1;
-		}
-
-		return numbers[index];
 	}
 
 	public static void main(String[] args)
