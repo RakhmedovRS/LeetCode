@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1011
+Count of solved tasks: 1012
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -140,6 +140,7 @@ Count of solved tasks: 1011
 |158|Hard|[Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)|[Read N Characters Given Read4 II - Call multiple times.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReadNCharactersGivenRead4IICallMultipleTimes.java)|true|
 |159|Medium|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[Longest Substring with At Most Two Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtMostTwoDistinctCharacters.java)|true|
 |160|Undefined|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Intersection of Two Linked Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntersectionOfTwoLinkedLists.java)|false|
+|161|Medium|[One Edit Distance](https://leetcode.com/problems/one-edit-distance/)|[One Edit Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OneEditDistance.java)|true|
 |162|Undefined|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Find Peak Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindPeakElement.java)|false|
 |163|Easy|[Missing Ranges](https://leetcode.com/problems/missing-ranges/)|[Missing Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingRanges.java)|true|
 |164|Undefined|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[Maximum Gap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumGap.java)|false|
@@ -1085,6 +1086,7 @@ Count of solved tasks: 1011
 |81|Medium|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Search in Rotated Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArrayII.java)|false|
 |117|Medium|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Populating Next Right Pointers in Each Node II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PopulatingNextRightPointersInEachNodeII.java)|false|
 |159|Medium|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[Longest Substring with At Most Two Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtMostTwoDistinctCharacters.java)|true|
+|161|Medium|[One Edit Distance](https://leetcode.com/problems/one-edit-distance/)|[One Edit Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OneEditDistance.java)|true|
 |173|Medium|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Binary Search Tree Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearchTreeIterator.java)|false|
 |223|Medium|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[Rectangle Area.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RectangleArea.java)|false|
 |227|Medium|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Basic Calculator II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BasicCalculatorII.java)|false|
