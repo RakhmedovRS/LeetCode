@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1009
+Count of solved tasks: 1010
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -729,6 +729,7 @@ Count of solved tasks: 1009
 |1145|Undefined|[Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game/)|[Binary Tree Coloring Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeColoringGame.java)|false|
 |1146|Undefined|[Snapshot Array](https://leetcode.com/problems/snapshot-array/)|[Snapshot Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SnapshotArray.java)|false|
 |1150|Easy|[Check If a Number Is Majority Element in a Sorted Array](https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/)|[Check If a Number Is Majority Element in a Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfNumberIsMajorityElementInSortedArray.java)|true|
+|1151|Medium|[Minimum Swaps to Group All 1's Together](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/)|[Minimum Swaps to Group All 1's Together.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSwapsToGroupAllOnesTogether.java)|true|
 |1154|Undefined|[Day of the Year](https://leetcode.com/problems/day-of-the-year/submissions/)|[Day of the Year.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DayOfTheYear.java)|false|
 |1155|Undefined|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|[Number of Dice Rolls With Target Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfDiceRollsWithTargetSum.java)|false|
 |1156|Undefined|[Swap For Longest Repeated Character Substring](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)|[Swap For Longest Repeated Character Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SwapForLongestRepeatedCharacterSubstring.java)|false|
@@ -1121,6 +1122,7 @@ Count of solved tasks: 1009
 |1060|Medium|[Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/)|[Missing Element in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingElementInSortedArray.java)|true|
 |1104|Medium|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[Path In Zigzag Labelled Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathInZigzagLabelledBinaryTree.java)|false|
 |1123|Medium|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[Lowest Common Ancestor of Deepest Leaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfDeepestLeaves.java)|false|
+|1151|Medium|[Minimum Swaps to Group All 1's Together](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/)|[Minimum Swaps to Group All 1's Together.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSwapsToGroupAllOnesTogether.java)|true|
 |1166|Medium|[Design File System](https://leetcode.com/problems/design-file-system/)|[Design File System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignFileSystem.java)|true|
 |1167|Medium|[Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)|[Minimum Cost to Connect Sticks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToConnectSticks.java)|true|
 |1197|Medium|[Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)|[Minimum Knight Moves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumKnightMoves.java)|true|
