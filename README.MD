@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1016
+Count of solved tasks: 1017
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -270,6 +270,7 @@ Count of solved tasks: 1016
 |366|Medium|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)|[Find Leaves of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLeavesOfBinaryTree.java)|true|
 |367|Undefined|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Valid Perfect Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidPerfectSquare.java)|false|
 |368|Undefined|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|[Largest Divisible Subset.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestDivisibleSubset.java)|false|
+|369|Medium|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)|[Plus One Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PlusOneLinkedList.java)|true|
 |371|Undefined|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[Sum of Two Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfTwoIntegers.java)|false|
 |373|Undefined|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|[Find K Pairs with Smallest Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindKPairsWithSmallestSums.java)|false|
 |374|Undefined|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Guess Number Higher or Lower.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GuessNumberHigherOrLower.java)|false|
@@ -1105,6 +1106,7 @@ Count of solved tasks: 1016
 |312|Medium|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[Burst Balloons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BurstBalloons.java)|false|
 |337|Medium|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[House Robber III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HouseRobberIII.java)|false|
 |366|Medium|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)|[Find Leaves of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLeavesOfBinaryTree.java)|true|
+|369|Medium|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)|[Plus One Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PlusOneLinkedList.java)|true|
 |382|Medium|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|[Linked List Random Node.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListRandomNode.java)|false|
 |394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[Decode String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)|false|
 |395|Medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|[Longest Substring with At Least K Repeating Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtLeastKRepeatingCharacters.java)|false|
