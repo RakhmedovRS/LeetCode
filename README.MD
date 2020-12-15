@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1015
+Count of solved tasks: 1016
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -210,6 +210,7 @@ Count of solved tasks: 1015
 |260|Undefined|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[Single Number III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleNumberIII.java)|false|
 |263|Undefined|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Ugly Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UglyNumber.java)|false|
 |264|Undefined|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Ugly Number II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UglyNumberII.java)|false|
+|266|Easy|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|[Palindrome Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromePermutation.java)|true|
 |268|Undefined|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumber.java)|false|
 |270|Medium|[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)|[Closest Binary Search Tree Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestBinarySearchTreeValue.java)|true|
 |274|Undefined|[H-Index](https://leetcode.com/problems/h-index/)|[H-Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HIndex.java)|false|
@@ -1039,6 +1040,7 @@ Count of solved tasks: 1015
 |243|Easy|[Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)|[Shortest Word Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestWordDistance.java)|true|
 |246|Easy|[Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/)|[Strobogrammatic Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StrobogrammaticNumber.java)|true|
 |252|Easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Meeting Rooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeetingRooms.java)|true|
+|266|Easy|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|[Palindrome Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromePermutation.java)|true|
 |346|Easy|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[Moving Average from Data Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MovingAverageFromDataStream.java)|true|
 |359|Easy|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)|[Logger Rate Limiter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LoggerRateLimiter.java)|true|
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[Range Addition II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)|false|
