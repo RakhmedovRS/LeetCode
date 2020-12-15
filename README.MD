@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1014
+Count of solved tasks: 1015
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -720,6 +720,7 @@ Count of solved tasks: 1014
 |1117|Undefined|[Building H2O](https://leetcode.com/problems/building-h2o/)|[Building H2O.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BuildingH2O.java)|false|
 |1118|Easy|[Number of Days in a Month](https://leetcode.com/problems/number-of-days-in-a-month/)|[Number of Days in a Month.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfDaysInMonth.java)|true|
 |1119|Easy|[Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/)|[Remove Vowels from a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveVowelsFromString.java)|true|
+|1120|Medium|[Maximum Average Subtree](https://leetcode.com/problems/maximum-average-subtree/)|[Maximum Average Subtree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAverageSubtree.java)|true|
 |1122|Undefined|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[Relative Sort Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RelativeSortArray.java)|false|
 |1123|Medium|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[Lowest Common Ancestor of Deepest Leaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfDeepestLeaves.java)|false|
 |1124|Undefined|[Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|[Longest Well-Performing Interval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestWellPerformingInterval.java)|false|
@@ -1130,6 +1131,7 @@ Count of solved tasks: 1014
 |1055|Medium|[Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|[Shortest Way to Form String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestWayToFormString.java)|true|
 |1060|Medium|[Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/)|[Missing Element in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingElementInSortedArray.java)|true|
 |1104|Medium|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[Path In Zigzag Labelled Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathInZigzagLabelledBinaryTree.java)|false|
+|1120|Medium|[Maximum Average Subtree](https://leetcode.com/problems/maximum-average-subtree/)|[Maximum Average Subtree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAverageSubtree.java)|true|
 |1123|Medium|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[Lowest Common Ancestor of Deepest Leaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfDeepestLeaves.java)|false|
 |1151|Medium|[Minimum Swaps to Group All 1's Together](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/)|[Minimum Swaps to Group All 1's Together.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSwapsToGroupAllOnesTogether.java)|true|
 |1166|Medium|[Design File System](https://leetcode.com/problems/design-file-system/)|[Design File System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignFileSystem.java)|true|
