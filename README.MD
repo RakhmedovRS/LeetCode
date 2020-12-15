@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1013
+Count of solved tasks: 1014
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -401,6 +401,7 @@ Count of solved tasks: 1013
 |559|Undefined|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[Maximum Depth of N-ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDepthOfNaryTree.java)|false|
 |560|Undefined|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Subarray Sum Equals K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubarraySumEqualsK.java)|false|
 |561|Undefined|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Array Partition I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArrayPartitionI.java)|false|
+|562|Medium|[Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/)|[Longest Line of Consecutive One in Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestLineOfConsecutiveOneInMatrix.java)|true|
 |563|Undefined|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[Binary Tree Tilt.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeTilt.java)|false|
 |565|Undefined|[Array Nesting](https://leetcode.com/problems/array-nesting/)|[Array Nesting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArrayNesting.java)|false|
 |566|Undefined|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Reshape the Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReshapeTheMatrix.java)|false|
@@ -1111,6 +1112,7 @@ Count of solved tasks: 1013
 |531|Medium|[Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/)|[Lonely Pixel I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LonelyPixelI.java)|true|
 |536|Medium|[Construct Binary Tree from String](https://leetcode.com/problems/construct-binary-tree-from-string/)|[Construct Binary Tree from String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructBinaryTreeFromString.java)|true|
 |539|Medium|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|[Minimum Time Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeDifference.java)|false|
+|562|Medium|[Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/)|[Longest Line of Consecutive One in Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestLineOfConsecutiveOneInMatrix.java)|true|
 |616|Medium|[Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string/)|[Add Bold Tag in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddBoldTagInString.java)|true|
 |624|Medium|[Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/)|[Maximum Distance in Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDistanceInArrays.java)|true|
 |718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Maximum Length of Repeated Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfRepeatedSubarray.java)|false|
