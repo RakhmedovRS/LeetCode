@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1017
+Count of solved tasks: 1018
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -645,6 +645,7 @@ Count of solved tasks: 1017
 |988|Undefined|[Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/)|[Smallest String Starting From Leaf.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringStartingFromLeaf.java)|false|
 |989|Undefined|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[Add to Array-Form of Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddToArrayFormOfInteger.java)|false|
 |991|Undefined|[Broken Calculator](https://leetcode.com/problems/broken-calculator/)|[Broken Calculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BrokenCalculator.java)|false|
+|992|Hard|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)|[Subarrays with K Different Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubarraysWithKDifferentIntegers.java)|false|
 |994|Undefined|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Rotting Oranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RottingOranges.java)|false|
 |995|Hard|[Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)|[Minimum Number of K Consecutive Bit Flips.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java)|false|
 |997|Undefined|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[Find the Town Judge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheTownJudge.java)|false|
@@ -1188,6 +1189,7 @@ Count of solved tasks: 1017
 |639|Hard|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|[Decode Ways II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeWaysII.java)|false|
 |644|Hard|[Maximum Average Subarray II](https://leetcode.com/problems/maximum-average-subarray-ii/)|[Maximum Average Subarray II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAverageSubarrayII.java)|true|
 |902|Hard|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[Numbers At Most N Given Digit Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumbersAtMostNGivenDigitSet.java)|false|
+|992|Hard|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)|[Subarrays with K Different Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubarraysWithKDifferentIntegers.java)|false|
 |995|Hard|[Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)|[Minimum Number of K Consecutive Bit Flips.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java)|false|
 |1220|Hard|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[Count Vowels Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountVowelsPermutation.java)|false|
 |1235|Hard|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[Maximum Profit in Job Scheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProfitInJobScheduling.java)|false|
