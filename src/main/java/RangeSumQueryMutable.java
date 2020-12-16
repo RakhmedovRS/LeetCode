@@ -15,71 +15,66 @@ public class RangeSumQueryMutable
 {
 	class NumArray
 	{
+		int[] original;
 		int[] table;
-		int[] origin;
 
 		public NumArray(int[] nums)
 		{
-			origin = nums;
+			original = new int[nums.length + 1];
 			table = new int[nums.length + 1];
-			System.arraycopy(nums, 0, table, 1, nums.length);
+			System.arraycopy(nums, 0, original, 1, nums.length);
+
+			int nextPos;
 			for (int i = 1; i < table.length; i++)
 			{
-				int j = i + leastSignificantBit(i);
-				if (j < table.length)
+				table[i] += nums[i - 1];
+				nextPos = i + (1 << getLeastSignificantBit(i));
+				if (nextPos < table.length)
 				{
-					table[j] += table[i];
+					table[nextPos] += table[i];
 				}
 			}
 		}
 
-		public void update(int i, int val)
+		public void update(int pos, int value)
 		{
-			int prev = origin[i];
-			origin[i] = val;
-			int pos = i + 1;
+			int prev = original[pos + 1];
+			original[pos + 1] = value;
+			pos++;
 			while (pos < table.length)
 			{
 				table[pos] -= prev;
-				table[pos] += val;
-
-				pos += leastSignificantBit(pos);
+				table[pos] += value;
+				pos += 1 << getLeastSignificantBit(pos);
 			}
-
 		}
 
 		public int sumRange(int i, int j)
 		{
-			int leftSum = 0;
-			while (i > 0)
-			{
-				leftSum += table[i];
-				i -= leastSignificantBit(i);
-			}
-
-			int rightSum = 0;
-			j++;
-			while (j > 0)
-			{
-				rightSum += table[j];
-				j -= leastSignificantBit(j);
-			}
-
-			return rightSum - leftSum;
+			return calcSum(j + 1) - calcSum(i);
 		}
 
-		private int leastSignificantBit(int number)
+		private int calcSum(int pos)
 		{
-			int i = 0;
-			for (; i < 31; i++)
+			int sum = 0;
+			while (pos != 0)
 			{
-				if ((number & (1 << i)) != 0)
-				{
-					break;
-				}
+				sum += table[pos];
+				pos -= 1 << getLeastSignificantBit(pos);
 			}
 
-			return 1 << i;
+			return sum;
+		}
+
+		private int getLeastSignificantBit(int number)
+		{
+			int i = 0;
+			while ((number & (1 << i)) == 0)
+			{
+				i++;
+			}
+
+			return i;
 		}
 	}
 
