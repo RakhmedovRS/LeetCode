@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1020
+Count of solved tasks: 1021
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -247,6 +247,7 @@ Count of solved tasks: 1020
 |319|Undefined|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/)|[Bulb Switcher.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BulbSwitcher.java)|false|
 |322|Undefined|[Coin Change](https://leetcode.com/problems/coin-change/)|[Coin Change.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CoinChange.java)|false|
 |326|Undefined|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Power of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PowerOfThree.java)|false|
+|327|Hard|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)|[Count of Range Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountOfRangeSum.java)|false|
 |328|Undefined|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[Odd Even Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OddEvenLinkedList.java)|false|
 |329|Undefined|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[Longest Increasing Path in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestIncreasingPathInMatrix.java)|false|
 |331|Undefined|[Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)|[Verify Preorder Serialization of a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/VerifyPreorderSerializationOfBinaryTree.java)|false|
@@ -1187,6 +1188,7 @@ Count of solved tasks: 1020
 |158|Hard|[Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)|[Read N Characters Given Read4 II - Call multiple times.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReadNCharactersGivenRead4IICallMultipleTimes.java)|true|
 |218|Hard|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[The Skyline Problem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheSkylineProblem.java)|false|
 |239|Hard|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Sliding Window Maximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SlidingWindowMaximum.java)|false|
+|327|Hard|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)|[Count of Range Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountOfRangeSum.java)|false|
 |340|Hard|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|[Longest Substring with At Most K Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtMostKDistinctCharacters.java)|true|
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[Poor Pigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)|false|
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[Remove Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)|false|
