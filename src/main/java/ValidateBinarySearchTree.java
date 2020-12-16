@@ -1,3 +1,4 @@
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -5,26 +6,30 @@ import common.TreeNode;
  * @author RakhmedovRS
  * @created 20-Mar-20
  */
-@LeetCode(id = 98, name = "Validate Binary Search Tree", url = "https://leetcode.com/problems/validate-binary-search-tree/")
+@LeetCode(
+	id = 98,
+	name = "Validate Binary Search Tree",
+	url = "https://leetcode.com/problems/validate-binary-search-tree/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ValidateBinarySearchTree
 {
 	public boolean isValidBST(TreeNode root)
 	{
-		return isValidBST(root, null, null);
+		return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
 	}
 
-	public boolean isValidBST(TreeNode root, Integer left, Integer right)
+	private boolean isValidBST(TreeNode root, long min, long max)
 	{
 		if (root == null)
 		{
 			return true;
 		}
 
-		if ((left == null || root.val > left) && (right == null || root.val < right))
+		if (min < root.val && root.val < max)
 		{
-			return isValidBST(root.left, left, root.val) && isValidBST(root.right, root.val, right);
+			return isValidBST(root.left, min, root.val) && isValidBST(root.right, root.val, max);
 		}
-
 		return false;
 	}
 
