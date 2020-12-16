@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1022
+Count of solved tasks: 1023
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -287,6 +287,7 @@ Count of solved tasks: 1022
 |383|Undefined|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Ransom Note.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RansomNote.java)|false|
 |384|Undefined|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|[Shuffle an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShuffleAnArray.java)|false|
 |385|Undefined|[Mini Parser](https://leetcode.com/problems/mini-parser/)|[Mini Parser.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MiniParser.java)|false|
+|386|Medium|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)|[Lexicographical Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LexicographicalNumbers.java)|false|
 |387|Undefined|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[First Unique Character in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstUniqueCharacterInString.java)|false|
 |389|Undefined|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Find the Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheDifference.java)|false|
 |390|Undefined|[Elimination Game](https://leetcode.com/problems/elimination-game/)|[Elimination Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EliminationGame.java)|false|
@@ -1117,6 +1118,7 @@ Count of solved tasks: 1022
 |366|Medium|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)|[Find Leaves of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLeavesOfBinaryTree.java)|true|
 |369|Medium|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)|[Plus One Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PlusOneLinkedList.java)|true|
 |382|Medium|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|[Linked List Random Node.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListRandomNode.java)|false|
+|386|Medium|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)|[Lexicographical Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LexicographicalNumbers.java)|false|
 |394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[Decode String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)|false|
 |395|Medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|[Longest Substring with At Least K Repeating Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtLeastKRepeatingCharacters.java)|false|
 |416|Medium|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[Partition Equal Subset Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionEqualSubsetSum.java)|false|
