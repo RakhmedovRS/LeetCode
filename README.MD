@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1021
+Count of solved tasks: 1022
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -237,6 +237,7 @@ Count of solved tasks: 1021
 |304|Medium|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Range Sum Query 2D - Immutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQuery2DImmutable.java)|false|
 |306|Undefined|[Additive Number](https://leetcode.com/problems/additive-number/)|[Additive Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AdditiveNumber.java)|false|
 |307|Medium|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[Range Sum Query - Mutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQueryMutable.java)|false|
+|308|Hard|[Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)|[Range Sum Query 2D - Mutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQuery2DMutable.java)|true|
 |309|Undefined|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[Best Time to Buy and Sell Stock with Cooldown.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BestTimeToBuyAndSellStockWithCooldown.java)|false|
 |310|Undefined|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|[Minimum Height Trees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumHeightTrees.java)|false|
 |312|Medium|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[Burst Balloons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BurstBalloons.java)|false|
@@ -1189,6 +1190,7 @@ Count of solved tasks: 1021
 |158|Hard|[Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)|[Read N Characters Given Read4 II - Call multiple times.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReadNCharactersGivenRead4IICallMultipleTimes.java)|true|
 |218|Hard|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[The Skyline Problem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheSkylineProblem.java)|false|
 |239|Hard|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Sliding Window Maximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SlidingWindowMaximum.java)|false|
+|308|Hard|[Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)|[Range Sum Query 2D - Mutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQuery2DMutable.java)|true|
 |327|Hard|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)|[Count of Range Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountOfRangeSum.java)|false|
 |340|Hard|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|[Longest Substring with At Most K Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtMostKDistinctCharacters.java)|true|
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[Poor Pigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)|false|
