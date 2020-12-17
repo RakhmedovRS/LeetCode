@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1026
+Count of solved tasks: 1027
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -917,6 +917,7 @@ Count of solved tasks: 1026
 |1480|Undefined|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Running Sum of 1d Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RunningSumOf1dArray.java)|false|
 |1481|Undefined|[Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)|[Least Number of Unique Integers after K Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LeastNumberOfUniqueIntegersAfterKRemovals.java)|false|
 |1483|Undefined|[Kth Ancestor of a Tree Node](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/)|[Kth Ancestor of a Tree Node.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthAncestorOfTreeNode.java)|false|
+|1485|Medium|[Clone Binary Tree With Random Pointer](https://leetcode.com/problems/clone-binary-tree-with-random-pointer/)|[Clone Binary Tree With Random Pointer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CloneBinaryTreeWithRandomPointer.java)|true|
 |1486|Undefined|[XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)|[XOR Operation in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/XOROperationInArray.java)|false|
 |1487|Undefined|[Making File Names Unique](https://leetcode.com/problems/making-file-names-unique/)|[Making File Names Unique.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MakingFileNamesUnique.java)|false|
 |1490|Medium|[Clone N-ary Tree](https://leetcode.com/problems/clone-n-ary-tree/)|[Clone N-ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CloneNAryTree.java)|true|
@@ -1170,6 +1171,7 @@ Count of solved tasks: 1026
 |1371|Medium|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|[Find the Longest Substring Containing Vowels in Even Counts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindtheLongestSubstringContainingVowelsInEvenCounts.java)|false|
 |1443|Medium|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|[Minimum Time to Collect All Apples in a Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeToCollectAllApplesInTree.java)|false|
 |1471|Medium|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|[The k Strongest Values in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKStrongestValuesInArray.java)|false|
+|1485|Medium|[Clone Binary Tree With Random Pointer](https://leetcode.com/problems/clone-binary-tree-with-random-pointer/)|[Clone Binary Tree With Random Pointer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CloneBinaryTreeWithRandomPointer.java)|true|
 |1490|Medium|[Clone N-ary Tree](https://leetcode.com/problems/clone-n-ary-tree/)|[Clone N-ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CloneNAryTree.java)|true|
 |1492|Medium|[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[The kth Factor of n.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKthFactorOfN.java)|false|
 |1506|Medium|[Find Root of N-Ary Tree](https://leetcode.com/problems/find-root-of-n-ary-tree/)|[Find Root of N-Ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindRootOfNAryTree.java)|true|
