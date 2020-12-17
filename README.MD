@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1027
+Count of solved tasks: 1028
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -705,6 +705,7 @@ Count of solved tasks: 1027
 |1055|Medium|[Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|[Shortest Way to Form String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestWayToFormString.java)|true|
 |1056|Easy|[Confusing Number](https://leetcode.com/problems/confusing-number/)|[Confusing Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConfusingNumber.java)|true|
 |1057|Medium|[Campus Bikes](https://leetcode.com/problems/campus-bikes/)|[Campus Bikes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CampusBikes.java)|true|
+|1059|Medium|[All Paths from Source Lead to Destination](https://leetcode.com/problems/all-paths-from-source-lead-to-destination/)|[All Paths from Source Lead to Destination.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllPathsFromSourceLeadToDestination.java)|true|
 |1060|Medium|[Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/)|[Missing Element in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingElementInSortedArray.java)|true|
 |1065|Easy|[Index Pairs of a String](https://leetcode.com/problems/index-pairs-of-a-string/)|[Index Pairs of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IndexPairsOfString.java)|true|
 |1071|Undefined|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|[Greatest Common Divisor of Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GreatestCommonDivisorOfStrings.java)|false|
@@ -1152,6 +1153,7 @@ Count of solved tasks: 1027
 |1015|Medium|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[Smallest Integer Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestIntegerDivisibleByK.java)|false|
 |1055|Medium|[Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|[Shortest Way to Form String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestWayToFormString.java)|true|
 |1057|Medium|[Campus Bikes](https://leetcode.com/problems/campus-bikes/)|[Campus Bikes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CampusBikes.java)|true|
+|1059|Medium|[All Paths from Source Lead to Destination](https://leetcode.com/problems/all-paths-from-source-lead-to-destination/)|[All Paths from Source Lead to Destination.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllPathsFromSourceLeadToDestination.java)|true|
 |1060|Medium|[Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/)|[Missing Element in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingElementInSortedArray.java)|true|
 |1104|Medium|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[Path In Zigzag Labelled Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathInZigzagLabelledBinaryTree.java)|false|
 |1120|Medium|[Maximum Average Subtree](https://leetcode.com/problems/maximum-average-subtree/)|[Maximum Average Subtree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAverageSubtree.java)|true|
