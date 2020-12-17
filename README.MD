@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1023
+Count of solved tasks: 1024
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -771,6 +771,7 @@ Count of solved tasks: 1023
 |1200|Undefined|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[Minimum Absolute Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumAbsoluteDifference.java)|false|
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[Smallest String With Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithSwaps.java)|false|
 |1209|Undefined|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[Remove All Adjacent Duplicates in String II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveAllAdjacentDuplicatesInStringII.java)|false|
+|1213|Easy|[Intersection of Three Sorted Arrays](https://leetcode.com/problems/intersection-of-three-sorted-arrays/)|[Intersection of Three Sorted Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntersectionOfThreeSortedArrays.java)|true|
 |1217|Undefined|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|[Minimum Cost to Move Chips to The Same Position.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToMoveChipsToTheSamePosition.java)|false|
 |1218|Undefined|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)|[Longest Arithmetic Subsequence of Given Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestArithmeticSubsequenceOfGivenDifference.java)|false|
 |1219|Undefined|[Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)|[Path with Maximum Gold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathWithMaximumGold.java)|false|
@@ -1074,6 +1075,7 @@ Count of solved tasks: 1023
 |1165|Easy|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)|[Single-Row Keyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleRowKeyboard.java)|true|
 |1180|Easy|[Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/)|[Count Substrings with Only One Distinct Letter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSubstringsWithOnlyOneDistinctLetter.java)|true|
 |1196|Easy|[How Many Apples Can You Put into the Basket](https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket/)|[How Many Apples Can You Put into the Basket.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HowManyApplesCanYouPutIntoTheBasket.java)|true|
+|1213|Easy|[Intersection of Three Sorted Arrays](https://leetcode.com/problems/intersection-of-three-sorted-arrays/)|[Intersection of Three Sorted Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntersectionOfThreeSortedArrays.java)|true|
 |1275|Easy|[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)|[Find Winner on a Tic Tac Toe Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindWinnerOnTicTacToeGame.java)|true|
 |1469|Easy|[Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)|[Find All The Lonely Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAllTheLonelyNodes.java)|true|
 |1652|Easy|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[Defuse the Bomb.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefuseTheBomb.java)|false|
