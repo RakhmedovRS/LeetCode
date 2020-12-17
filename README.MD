@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1024
+Count of solved tasks: 1025
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -282,6 +282,7 @@ Count of solved tasks: 1024
 |376|Undefined|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[Wiggle Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WiggleSubsequence.java)|false|
 |377|Undefined|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|[Combination Sum IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CombinationSumIV.java)|false|
 |378|Undefined|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[Kth Smallest Element in a Sorted Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthSmallestElementInSortedMatrix.java)|false|
+|379|Medium|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|[Design Phone Directory.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignPhoneDirectory.java)|true|
 |380|Undefined|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Insert Delete GetRandom O(1).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsertDeleteGetRandom.java)|false|
 |382|Medium|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|[Linked List Random Node.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListRandomNode.java)|false|
 |383|Undefined|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Ransom Note.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RansomNote.java)|false|
@@ -1119,6 +1120,7 @@ Count of solved tasks: 1024
 |337|Medium|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[House Robber III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HouseRobberIII.java)|false|
 |366|Medium|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)|[Find Leaves of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLeavesOfBinaryTree.java)|true|
 |369|Medium|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)|[Plus One Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PlusOneLinkedList.java)|true|
+|379|Medium|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|[Design Phone Directory.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignPhoneDirectory.java)|true|
 |382|Medium|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|[Linked List Random Node.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListRandomNode.java)|false|
 |386|Medium|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)|[Lexicographical Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LexicographicalNumbers.java)|false|
 |394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[Decode String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)|false|
