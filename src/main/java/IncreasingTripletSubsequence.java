@@ -1,10 +1,15 @@
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 06-Apr-20
  */
-@LeetCode(id = 334, name = "Increasing Triplet Subsequence", url = "https://leetcode.com/problems/increasing-triplet-subsequence/")
+@LeetCode(
+	id = 334,
+	name = "Increasing Triplet Subsequence",
+	url = "https://leetcode.com/problems/increasing-triplet-subsequence/",
+	difficulty = Difficulty.MEDIUM)
 public class IncreasingTripletSubsequence
 {
 	public boolean increasingTriplet(int[] nums)
@@ -32,8 +37,8 @@ public class IncreasingTripletSubsequence
 
 	public static void main(String[] args)
 	{
-		System.out.println(new IncreasingTripletSubsequence().increasingTriplet(new int[]{1,1,-2,6}));
-		System.out.println(new IncreasingTripletSubsequence().increasingTriplet(new int[]{1,2,3,4,5}));
-		System.out.println(new IncreasingTripletSubsequence().increasingTriplet(new int[]{5,4,3,2,1}));
+		System.out.println(new IncreasingTripletSubsequence().increasingTriplet(new int[]{1, 1, -2, 6}));
+		System.out.println(new IncreasingTripletSubsequence().increasingTriplet(new int[]{1, 2, 3, 4, 5}));
+		System.out.println(new IncreasingTripletSubsequence().increasingTriplet(new int[]{5, 4, 3, 2, 1}));
 	}
 }
