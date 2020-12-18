@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1028
+Count of solved tasks: 1029
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -266,6 +266,7 @@ Count of solved tasks: 1028
 |347|Undefined|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Top K Frequent Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TopKFrequentElements.java)|false|
 |350|Undefined|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Intersection of Two Arrays II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntersectionOfTwoArraysII.java)|false|
 |352|Undefined|[Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)|[Data Stream as Disjoint Intervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DataStreamAsDisjointIntervals.java)|false|
+|353|Medium|[Design Snake Game](https://leetcode.com/problems/design-snake-game/)|[Design Snake Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignSnakeGame.java)|true|
 |354|Undefined|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|[Russian Doll Envelopes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RussianDollEnvelopes.java)|false|
 |355|Undefined|[Design Twitter](https://leetcode.com/problems/design-twitter/)|[Design Twitter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignTwitter.java)|false|
 |357|Undefined|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)|[Count Numbers with Unique Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountNumbersWithUniqueDigits.java)|false|
@@ -1122,6 +1123,7 @@ Count of solved tasks: 1028
 |312|Medium|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[Burst Balloons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BurstBalloons.java)|false|
 |334|Medium|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[Increasing Triplet Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingTripletSubsequence.java)|false|
 |337|Medium|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[House Robber III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HouseRobberIII.java)|false|
+|353|Medium|[Design Snake Game](https://leetcode.com/problems/design-snake-game/)|[Design Snake Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignSnakeGame.java)|true|
 |366|Medium|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)|[Find Leaves of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLeavesOfBinaryTree.java)|true|
 |369|Medium|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)|[Plus One Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PlusOneLinkedList.java)|true|
 |379|Medium|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|[Design Phone Directory.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignPhoneDirectory.java)|true|
