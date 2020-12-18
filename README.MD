@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1029
+Count of solved tasks: 1030
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -802,6 +802,7 @@ Count of solved tasks: 1029
 |1267|Medium|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|[Count Servers that Communicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountServersThatCommunicate.java)|false|
 |1269|Undefined|[Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)|[Number of Ways to Stay in the Same Place After Some Steps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfWaysToStayInTheSamePlaceAfterSomeSteps.java)|false|
 |1272|Medium|[Remove Interval](https://leetcode.com/problems/remove-interval/)|[Remove Interval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveInterval.java)|true|
+|1273|Medium|[Delete Tree Nodes](https://leetcode.com/problems/delete-tree-nodes/)|[Delete Tree Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteTreeNodes.java)|true|
 |1275|Easy|[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)|[Find Winner on a Tic Tac Toe Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindWinnerOnTicTacToeGame.java)|true|
 |1277|Undefined|[Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)|[Count Square Submatrices with All Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSquareSubmatricesWithAllOnes.java)|false|
 |1282|Undefined|[Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/)|[Group the People Given the Group Size They Belong To.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GroupPeopleGivenGroupSize.java)|false|
@@ -1172,6 +1173,7 @@ Count of solved tasks: 1029
 |1265|Medium|[Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/)|[Print Immutable Linked List in Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintImmutableLinkedListInReverse.java)|true|
 |1267|Medium|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|[Count Servers that Communicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountServersThatCommunicate.java)|false|
 |1272|Medium|[Remove Interval](https://leetcode.com/problems/remove-interval/)|[Remove Interval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveInterval.java)|true|
+|1273|Medium|[Delete Tree Nodes](https://leetcode.com/problems/delete-tree-nodes/)|[Delete Tree Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteTreeNodes.java)|true|
 |1352|Medium|[Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/)|[Product of the Last K Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ProductOfTheLastKNumbers.java)|false|
 |1371|Medium|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|[Find the Longest Substring Containing Vowels in Even Counts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindtheLongestSubstringContainingVowelsInEvenCounts.java)|false|
 |1443|Medium|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|[Minimum Time to Collect All Apples in a Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeToCollectAllApplesInTree.java)|false|
