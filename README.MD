@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1034
+Count of solved tasks: 1035
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -964,6 +964,7 @@ Count of solved tasks: 1034
 |1550|Undefined|[Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)|[Three Consecutive Odds.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThreeConsecutiveOdds.java)|false|
 |1551|Undefined|[Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|[Minimum Operations to Make Array Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToMakeArrayEqual.java)|false|
 |1553|Undefined|[Minimum Number of Days to Eat N Oranges](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)|[Minimum Number of Days to Eat N Oranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfDaysToEatNOranges.java)|false|
+|1554|Medium|[Strings Differ by One Character](https://leetcode.com/problems/strings-differ-by-one-character/)|[Strings Differ by One Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringsDifferByOneCharacter.java)|true|
 |1556|Undefined|[Thousand Separator](https://leetcode.com/problems/thousand-separator/)|[Thousand Separator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThousandSeparator.java)|false|
 |1557|Undefined|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|[Minimum Number of Vertices to Reach All Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfVerticesToReachAllNodes.java)|false|
 |1558|Undefined|[Minimum Numbers of Function Calls to Make Target Array](https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/)|[Minimum Numbers of Function Calls to Make Target Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumbersOfFunctionCallsToMakeTargetArray.java)|false|
@@ -1188,6 +1189,7 @@ Count of solved tasks: 1034
 |1490|Medium|[Clone N-ary Tree](https://leetcode.com/problems/clone-n-ary-tree/)|[Clone N-ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CloneNAryTree.java)|true|
 |1492|Medium|[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[The kth Factor of n.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKthFactorOfN.java)|false|
 |1506|Medium|[Find Root of N-Ary Tree](https://leetcode.com/problems/find-root-of-n-ary-tree/)|[Find Root of N-Ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindRootOfNAryTree.java)|true|
+|1554|Medium|[Strings Differ by One Character](https://leetcode.com/problems/strings-differ-by-one-character/)|[Strings Differ by One Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringsDifferByOneCharacter.java)|true|
 |1612|Medium|[Check If Two Expression Trees are Equivalent](https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/)|[Check If Two Expression Trees are Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTwoExpressionTreesAreEquivalent.java)|true|
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[Minimum Deletions to Make String Balanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)|false|
 |1657|Medium|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[Determine if Two Strings Are Close.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfTwoStringsAreClose.java)|false|
