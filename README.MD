@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1032
+Count of solved tasks: 1033
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -997,6 +997,7 @@ Count of solved tasks: 1032
 |1608|Undefined|[Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)|[Special Array With X Elements Greater Than or Equal X.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SpecialArrayWithXElementsGreaterThanOrEqualX.java)|false|
 |1609|Undefined|[Even Odd Tree](https://leetcode.com/problems/even-odd-tree/)|[Even Odd Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EvenOddTree.java)|false|
 |1611|Undefined|[Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/)|[Minimum One Bit Operations to Make Integers Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOneBitOperationsToMakeIntegersZero.java)|false|
+|1612|Medium|[Check If Two Expression Trees are Equivalent](https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/)|[Check If Two Expression Trees are Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTwoExpressionTreesAreEquivalent.java)|true|
 |1614|Undefined|[Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)|[Maximum Nesting Depth of the Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNestingDepthOfTheParentheses.java)|false|
 |1615|Undefined|[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|[Maximal Network Rank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximalNetworkRank.java)|false|
 |1616|Undefined|[Split Two Strings to Make Palindrome](https://leetcode.com/problems/split-two-strings-to-make-palindrome/)|[Split Two Strings to Make Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitTwoStringsToMakePalindrome.java)|false|
@@ -1186,6 +1187,7 @@ Count of solved tasks: 1032
 |1490|Medium|[Clone N-ary Tree](https://leetcode.com/problems/clone-n-ary-tree/)|[Clone N-ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CloneNAryTree.java)|true|
 |1492|Medium|[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[The kth Factor of n.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKthFactorOfN.java)|false|
 |1506|Medium|[Find Root of N-Ary Tree](https://leetcode.com/problems/find-root-of-n-ary-tree/)|[Find Root of N-Ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindRootOfNAryTree.java)|true|
+|1612|Medium|[Check If Two Expression Trees are Equivalent](https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/)|[Check If Two Expression Trees are Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTwoExpressionTreesAreEquivalent.java)|true|
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[Minimum Deletions to Make String Balanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)|false|
 |1657|Medium|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[Determine if Two Strings Are Close.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfTwoStringsAreClose.java)|false|
 |1658|Medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Minimum Operations to Reduce X to Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToReduceXToZero.java)|false|
