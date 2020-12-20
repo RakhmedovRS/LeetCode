@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1039
+Count of solved tasks: 1040
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1045,7 +1045,8 @@ Count of solved tasks: 1039
 |1689|Medium|[Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|[Partitioning Into Minimum Number Of Deci-Binary Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java)|false|
 |1690|Medium|[Stone Game VII](https://leetcode.com/problems/stone-game-vii/)|[Stone Game VII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StoneGameVII.java)|false|
 |1694|Easy|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|[Reformat Phone Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReformatPhoneNumber.java)|false|
-|1695|Medium|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[Maximum Erasure Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumErasureValue.java)|false|</p>
+|1695|Medium|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[Maximum Erasure Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumErasureValue.java)|false|
+|1696|Medium|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[Jump Game VI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameVI.java)|false|</p>
 </details>
 
 <details>
@@ -1212,7 +1213,8 @@ Count of solved tasks: 1039
 |1685|Medium|[Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/)|[Sum of Absolute Differences in a Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfAbsoluteDifferencesInSortedArray.java)|false|
 |1689|Medium|[Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|[Partitioning Into Minimum Number Of Deci-Binary Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java)|false|
 |1690|Medium|[Stone Game VII](https://leetcode.com/problems/stone-game-vii/)|[Stone Game VII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StoneGameVII.java)|false|
-|1695|Medium|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[Maximum Erasure Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumErasureValue.java)|false|</p>
+|1695|Medium|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[Maximum Erasure Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumErasureValue.java)|false|
+|1696|Medium|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[Jump Game VI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameVI.java)|false|</p>
 </details>
 
 <details>
