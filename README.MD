@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1041
+Count of solved tasks: 1042
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -766,6 +766,7 @@ Count of solved tasks: 1041
 |1177|Undefined|[Can Make Palindrome from Substring](https://leetcode.com/problems/can-make-palindrome-from-substring/)|[Can Make Palindrome from Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanMakePalindromeFromSubstring.java)|false|
 |1178|Undefined|[Number of Valid Words for Each Puzzle](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)|[Number of Valid Words for Each Puzzle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfValidWordsForEachPuzzle.java)|false|
 |1180|Easy|[Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/)|[Count Substrings with Only One Distinct Letter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSubstringsWithOnlyOneDistinctLetter.java)|true|
+|1181|Medium|[Before and After Puzzle](https://leetcode.com/problems/before-and-after-puzzle/)|[Before and After Puzzle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BeforeAndAfterPuzzle.java)|true|
 |1184|Undefined|[Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/)|[Distance Between Bus Stops.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistanceBetweenBusStops.java)|false|
 |1185|Undefined|[Day of the Week](https://leetcode.com/problems/day-of-the-week/)|[Day of the Week.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DayOfTheWeek.java)|false|
 |1186|Undefined|[Maximum Subarray Sum with One Deletion](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/)|[Maximum Subarray Sum with One Deletion.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarraySumWithOneDeletion.java)|false|
@@ -1181,6 +1182,7 @@ Count of solved tasks: 1041
 |1151|Medium|[Minimum Swaps to Group All 1's Together](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/)|[Minimum Swaps to Group All 1's Together.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSwapsToGroupAllOnesTogether.java)|true|
 |1166|Medium|[Design File System](https://leetcode.com/problems/design-file-system/)|[Design File System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignFileSystem.java)|true|
 |1167|Medium|[Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)|[Minimum Cost to Connect Sticks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToConnectSticks.java)|true|
+|1181|Medium|[Before and After Puzzle](https://leetcode.com/problems/before-and-after-puzzle/)|[Before and After Puzzle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BeforeAndAfterPuzzle.java)|true|
 |1197|Medium|[Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)|[Minimum Knight Moves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumKnightMoves.java)|true|
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[Smallest String With Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithSwaps.java)|false|
 |1234|Medium|[Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)|[Replace the Substring for Balanced String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceTheSubstringForBalancedString.java)|false|
