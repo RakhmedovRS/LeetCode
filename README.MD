@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1043
+Count of solved tasks: 1044
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -997,6 +997,7 @@ Count of solved tasks: 1043
 |1598|Undefined|[Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/)|[Crawler Log Folder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CrawlerLogFolder.java)|false|
 |1599|Undefined|[Maximum Profit of Operating a Centennial Wheel](https://leetcode.com/problems/maximum-profit-of-operating-a-centennial-wheel/)|[Maximum Profit of Operating a Centennial Wheel.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProfitOfOperatingCentennialWheel.java)|false|
 |1600|Undefined|[Throne Inheritance](https://leetcode.com/problems/throne-inheritance/)|[Throne Inheritance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThroneInheritance.java)|false|
+|1602|Medium|[Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)|[Find Nearest Right Node in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNearestRightNodeInBinaryTree.java)|true|
 |1603|Undefined|[Design Parking System](https://leetcode.com/problems/design-parking-system/)|[Design Parking System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignParkingSystem.java)|false|
 |1604|Undefined|[Alert Using Same Key-Card Three or More Times in a One Hour Period](https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)|[Alert Using Same Key-Card Three or More Times in a One Hour Period.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AlertUsingSameKeyCardThreeOrMoreTimesInOneHourPeriod.java)|false|
 |1605|Undefined|[Find Valid Matrix Given Row and Column Sums](https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/)|[Find Valid Matrix Given Row and Column Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindValidMatrixGivenRowAndColumnSums.java)|false|
@@ -1204,6 +1205,7 @@ Count of solved tasks: 1043
 |1492|Medium|[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[The kth Factor of n.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKthFactorOfN.java)|false|
 |1506|Medium|[Find Root of N-Ary Tree](https://leetcode.com/problems/find-root-of-n-ary-tree/)|[Find Root of N-Ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindRootOfNAryTree.java)|true|
 |1554|Medium|[Strings Differ by One Character](https://leetcode.com/problems/strings-differ-by-one-character/)|[Strings Differ by One Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringsDifferByOneCharacter.java)|true|
+|1602|Medium|[Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)|[Find Nearest Right Node in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNearestRightNodeInBinaryTree.java)|true|
 |1612|Medium|[Check If Two Expression Trees are Equivalent](https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/)|[Check If Two Expression Trees are Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTwoExpressionTreesAreEquivalent.java)|true|
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[Minimum Deletions to Make String Balanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)|false|
 |1657|Medium|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[Determine if Two Strings Are Close.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfTwoStringsAreClose.java)|false|
