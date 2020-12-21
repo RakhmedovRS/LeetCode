@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1046
+Count of solved tasks: 1047
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -710,6 +710,7 @@ Count of solved tasks: 1046
 |1057|Medium|[Campus Bikes](https://leetcode.com/problems/campus-bikes/)|[Campus Bikes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CampusBikes.java)|true|
 |1059|Medium|[All Paths from Source Lead to Destination](https://leetcode.com/problems/all-paths-from-source-lead-to-destination/)|[All Paths from Source Lead to Destination.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllPathsFromSourceLeadToDestination.java)|true|
 |1060|Medium|[Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/)|[Missing Element in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingElementInSortedArray.java)|true|
+|1064|Easy|[Fixed Point](https://leetcode.com/problems/fixed-point/)|[Fixed Point.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FixedPoint.java)|true|
 |1065|Easy|[Index Pairs of a String](https://leetcode.com/problems/index-pairs-of-a-string/)|[Index Pairs of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IndexPairsOfString.java)|true|
 |1071|Undefined|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|[Greatest Common Divisor of Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GreatestCommonDivisorOfStrings.java)|false|
 |1073|Undefined|[Adding Two Negabinary Numbers](https://leetcode.com/problems/adding-two-negabinary-numbers/)|[Adding Two Negabinary Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddingTwoNegabinaryNumbers.java)|false|
@@ -1085,6 +1086,7 @@ Count of solved tasks: 1046
 |977|Easy|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Squares of a Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SquaresOfSortedArray.java)|false|
 |1021|Easy|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)|[Remove Outermost Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveOutermostParentheses.java)|false|
 |1056|Easy|[Confusing Number](https://leetcode.com/problems/confusing-number/)|[Confusing Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConfusingNumber.java)|true|
+|1064|Easy|[Fixed Point](https://leetcode.com/problems/fixed-point/)|[Fixed Point.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FixedPoint.java)|true|
 |1065|Easy|[Index Pairs of a String](https://leetcode.com/problems/index-pairs-of-a-string/)|[Index Pairs of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IndexPairsOfString.java)|true|
 |1085|Easy|[Sum of Digits in the Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/)|[Sum of Digits in the Minimum Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfDigitsInTheMinimumNumber.java)|true|
 |1086|Easy|[High Five](https://leetcode.com/problems/high-five/)|[High Five.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HighFive.java)|true|
