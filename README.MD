@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1042
+Count of solved tasks: 1043
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -900,6 +900,7 @@ Count of solved tasks: 1042
 |1424|Undefined|[Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/)|[Diagonal Traverse II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverseII.java)|false|
 |1431|Undefined|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[Kids With the Greatest Number of Candies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KidsWithTheGreatestNumberOfCandies.java)|false|
 |1432|Undefined|[Max Difference You Can Get From Changing an Integer](https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/)|[Max Difference You Can Get From Changing an Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxDifferenceYouCanGetFromChangingInteger.java)|false|
+|1433|Medium|[Check If a String Can Break Another String](https://leetcode.com/problems/check-if-a-string-can-break-another-string/)|[Check If a String Can Break Another String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfStringCanBreakAnotherString.java)|false|
 |1436|Undefined|[Destination City](https://leetcode.com/problems/destination-city/)|[Destination City.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DestinationCity.java)|false|
 |1437|Undefined|[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)|[Check If All 1's Are at Least Length K Places Away.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfAll1sAreAtLeastLengthKPlacesAway.java)|false|
 |1438|Undefined|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java)|false|
@@ -1195,6 +1196,7 @@ Count of solved tasks: 1042
 |1273|Medium|[Delete Tree Nodes](https://leetcode.com/problems/delete-tree-nodes/)|[Delete Tree Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteTreeNodes.java)|true|
 |1352|Medium|[Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/)|[Product of the Last K Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ProductOfTheLastKNumbers.java)|false|
 |1371|Medium|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|[Find the Longest Substring Containing Vowels in Even Counts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindtheLongestSubstringContainingVowelsInEvenCounts.java)|false|
+|1433|Medium|[Check If a String Can Break Another String](https://leetcode.com/problems/check-if-a-string-can-break-another-string/)|[Check If a String Can Break Another String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfStringCanBreakAnotherString.java)|false|
 |1443|Medium|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|[Minimum Time to Collect All Apples in a Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeToCollectAllApplesInTree.java)|false|
 |1471|Medium|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|[The k Strongest Values in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKStrongestValuesInArray.java)|false|
 |1485|Medium|[Clone Binary Tree With Random Pointer](https://leetcode.com/problems/clone-binary-tree-with-random-pointer/)|[Clone Binary Tree With Random Pointer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CloneBinaryTreeWithRandomPointer.java)|true|
