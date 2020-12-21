@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1045
+Count of solved tasks: 1046
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -787,6 +787,7 @@ Count of solved tasks: 1045
 |1222|Undefined|[Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/)|[Queens That Can Attack the King.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueensThatCanAttackKing.java)|false|
 |1223|Undefined|[Dice Roll Simulation](https://leetcode.com/problems/dice-roll-simulation/)|[Dice Roll Simulation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiceRollSimulation.java)|false|
 |1227|Undefined|[Airplane Seat Assignment Probability](https://leetcode.com/problems/airplane-seat-assignment-probability/)|[Airplane Seat Assignment Probability.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AirplaneSeatAssignmentProbability.java)|false|
+|1228|Easy|[Missing Number In Arithmetic Progression](https://leetcode.com/problems/missing-number-in-arithmetic-progression/)|[Missing Number In Arithmetic Progression.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumberInArithmeticProgression.java)|true|
 |1232|Undefined|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Check If It Is a Straight Line.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfItIsStraightLine.java)|false|
 |1234|Medium|[Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)|[Replace the Substring for Balanced String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceTheSubstringForBalancedString.java)|false|
 |1235|Hard|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[Maximum Profit in Job Scheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProfitInJobScheduling.java)|false|
@@ -1097,6 +1098,7 @@ Count of solved tasks: 1045
 |1180|Easy|[Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/)|[Count Substrings with Only One Distinct Letter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSubstringsWithOnlyOneDistinctLetter.java)|true|
 |1196|Easy|[How Many Apples Can You Put into the Basket](https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket/)|[How Many Apples Can You Put into the Basket.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HowManyApplesCanYouPutIntoTheBasket.java)|true|
 |1213|Easy|[Intersection of Three Sorted Arrays](https://leetcode.com/problems/intersection-of-three-sorted-arrays/)|[Intersection of Three Sorted Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntersectionOfThreeSortedArrays.java)|true|
+|1228|Easy|[Missing Number In Arithmetic Progression](https://leetcode.com/problems/missing-number-in-arithmetic-progression/)|[Missing Number In Arithmetic Progression.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumberInArithmeticProgression.java)|true|
 |1271|Easy|[Hexspeak](https://leetcode.com/problems/hexspeak/)|[Hexspeak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HexSpeak.java)|true|
 |1275|Easy|[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)|[Find Winner on a Tic Tac Toe Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindWinnerOnTicTacToeGame.java)|true|
 |1469|Easy|[Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)|[Find All The Lonely Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAllTheLonelyNodes.java)|true|
