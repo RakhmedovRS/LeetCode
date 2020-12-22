@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1051
+Count of solved tasks: 1052
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -963,6 +963,7 @@ Count of solved tasks: 1051
 |1528|Undefined|[Shuffle String](https://leetcode.com/problems/shuffle-string/)|[Shuffle String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShuffleString.java)|false|
 |1529|Undefined|[Bulb Switcher IV](https://leetcode.com/problems/bulb-switcher-iv/)|[Bulb Switcher IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BulbSwitcherIV.java)|false|
 |1530|Undefined|[Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)|[Number of Good Leaf Nodes Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfGoodLeafNodesPairs.java)|false|
+|1533|Medium|[Find the Index of the Large Integer](https://leetcode.com/problems/find-the-index-of-the-large-integer/)|[Find the Index of the Large Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheIndexOfTheLargeInteger.java)|true|
 |1534|Undefined|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|[Count Good Triplets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountGoodTriplets.java)|false|
 |1535|Undefined|[Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game/)|[Find the Winner of an Array Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheWinnerOfArrayGame.java)|false|
 |1537|Undefined|[Get the Maximum Score](https://leetcode.com/problems/get-the-maximum-score/)|[Get the Maximum Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GetTheMaximumScore.java)|false|
@@ -1218,6 +1219,7 @@ Count of solved tasks: 1051
 |1490|Medium|[Clone N-ary Tree](https://leetcode.com/problems/clone-n-ary-tree/)|[Clone N-ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CloneNAryTree.java)|true|
 |1492|Medium|[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[The kth Factor of n.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKthFactorOfN.java)|false|
 |1506|Medium|[Find Root of N-Ary Tree](https://leetcode.com/problems/find-root-of-n-ary-tree/)|[Find Root of N-Ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindRootOfNAryTree.java)|true|
+|1533|Medium|[Find the Index of the Large Integer](https://leetcode.com/problems/find-the-index-of-the-large-integer/)|[Find the Index of the Large Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheIndexOfTheLargeInteger.java)|true|
 |1554|Medium|[Strings Differ by One Character](https://leetcode.com/problems/strings-differ-by-one-character/)|[Strings Differ by One Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringsDifferByOneCharacter.java)|true|
 |1602|Medium|[Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)|[Find Nearest Right Node in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNearestRightNodeInBinaryTree.java)|true|
 |1612|Medium|[Check If Two Expression Trees are Equivalent](https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/)|[Check If Two Expression Trees are Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTwoExpressionTreesAreEquivalent.java)|true|
