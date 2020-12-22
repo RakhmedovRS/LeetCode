@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1049
+Count of solved tasks: 1050
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -98,6 +98,7 @@ Count of solved tasks: 1049
 |107|Undefined|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Binary Tree Level Order Traversal II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeLevelOrderTraversalII.java)|false|
 |108|Undefined|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Convert Sorted Array to Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertSortedArrayToBinarySearchTree.java)|false|
 |109|Undefined|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/minimum-window-substring/)|[Convert Sorted List to Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertSortedListToBinarySearchTree.java)|false|
+|110|Easy|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Balanced Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BalancedBinaryTree.java)|false|
 |111|Undefined|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Minimum Depth of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDepthOfBinaryTree.java)|false|
 |115|Undefined|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|[Distinct Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistinctSubsequences.java)|false|
 |116|Undefined|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Populating Next Right Pointers in Each Node.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PopulatingNextRightPointersInEachNode.java)|false|
@@ -1066,6 +1067,7 @@ Count of solved tasks: 1049
 |:-----------:|:-----------:|:--------------:|:--------------:|:--------:|
 |53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarray.java)|false|
 |103|Easy|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Maximum Depth of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDepthOfBinaryTree.java)|false|
+|110|Easy|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Balanced Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BalancedBinaryTree.java)|false|
 |157|Easy|[Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/)|[Read N Characters Given Read4.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReadNCharactersGivenRead4.java)|true|
 |163|Easy|[Missing Ranges](https://leetcode.com/problems/missing-ranges/)|[Missing Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingRanges.java)|true|
 |170|Easy|[Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/)|[Two Sum III - Data structure design.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumIIIDataStructureDesign.java)|true|
