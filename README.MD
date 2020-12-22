@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1048
+Count of solved tasks: 1049
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -314,6 +314,7 @@ Count of solved tasks: 1048
 |416|Medium|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[Partition Equal Subset Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionEqualSubsetSum.java)|false|
 |419|Undefined|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[Battleships in a Board.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BattleshipsInBoard.java)|false|
 |421|Undefined|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|[Maximum XOR of Two Numbers in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumXOROfTwoNumbersInAnArray.java)|false|
+|422|Easy|[Valid Word Square](https://leetcode.com/problems/valid-word-square/)|[Valid Word Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidWordSquare.java)|true|
 |423|Undefined|[Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/)|[Reconstruct Original Digits from English.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReconstructOriginalDigitsFromEnglish.java)|false|
 |424|Undefined|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Longest Repeating Character Replacement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestRepeatingCharacterReplacement.java)|false|
 |427|Undefined|[Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/)|[Construct Quad Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructQuadTree.java)|false|
@@ -1075,6 +1076,7 @@ Count of solved tasks: 1048
 |266|Easy|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|[Palindrome Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromePermutation.java)|true|
 |346|Easy|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[Moving Average from Data Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MovingAverageFromDataStream.java)|true|
 |359|Easy|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)|[Logger Rate Limiter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LoggerRateLimiter.java)|true|
+|422|Easy|[Valid Word Square](https://leetcode.com/problems/valid-word-square/)|[Valid Word Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidWordSquare.java)|true|
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[Range Addition II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)|false|
 |605|Easy|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Can Place Flowers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanPlaceFlowers.java)|false|
 |716|Easy|[Max Stack](https://leetcode.com/problems/max-stack/)|[Max Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxStack.java)|true|
