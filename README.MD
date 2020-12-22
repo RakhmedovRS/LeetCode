@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1050
+Count of solved tasks: 1051
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -229,6 +229,7 @@ Count of solved tasks: 1050
 |289|Undefined|[Game of Life](https://leetcode.com/problems/game-of-life/)|[Game of Life.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GameOfLife.java)|false|
 |290|Undefined|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Word Pattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordPattern.java)|false|
 |292|Undefined|[Nim Game](https://leetcode.com/problems/nim-game/)|[Nim Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NimGame.java)|false|
+|293|Easy|[Flip Game](https://leetcode.com/problems/flip-game/)|[Flip Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlipGame.java)|true|
 |295|Undefined|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[Find Median from Data Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindMedianFromDataStream.java)|false|
 |297|Undefined|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[Serialize and Deserialize Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SerializeAndDeserializeBinaryTree.java)|false|
 |299|Undefined|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[Bulls and Cows.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BullsAndCows.java)|false|
@@ -1076,6 +1077,7 @@ Count of solved tasks: 1050
 |246|Easy|[Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/)|[Strobogrammatic Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StrobogrammaticNumber.java)|true|
 |252|Easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Meeting Rooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeetingRooms.java)|true|
 |266|Easy|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|[Palindrome Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromePermutation.java)|true|
+|293|Easy|[Flip Game](https://leetcode.com/problems/flip-game/)|[Flip Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlipGame.java)|true|
 |346|Easy|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[Moving Average from Data Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MovingAverageFromDataStream.java)|true|
 |359|Easy|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)|[Logger Rate Limiter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LoggerRateLimiter.java)|true|
 |422|Easy|[Valid Word Square](https://leetcode.com/problems/valid-word-square/)|[Valid Word Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidWordSquare.java)|true|
