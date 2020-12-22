@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1047
+Count of solved tasks: 1048
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -451,6 +451,7 @@ Count of solved tasks: 1047
 |652|Undefined|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/)|[Find Duplicate Subtrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindDuplicateSubtrees.java)|false|
 |654|Undefined|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|[Maximum Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumBinaryTree.java)|false|
 |655|Undefined|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|[Print Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintBinaryTree.java)|false|
+|660|Medium|[Remove 9](https://leetcode.com/problems/remove-9/)|[Remove 9.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Remove9.java)|true|
 |661|Undefined|[Image Smoother](https://leetcode.com/problems/image-smoother/)|[Image Smoother.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImageSmoother.java)|false|
 |662|Undefined|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[Maximum Width of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumWidthOfBinaryTree.java)|false|
 |665|Undefined|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Non-decreasing Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NonDecreasingArray.java)|false|
@@ -1165,6 +1166,7 @@ Count of solved tasks: 1047
 |562|Medium|[Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/)|[Longest Line of Consecutive One in Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestLineOfConsecutiveOneInMatrix.java)|true|
 |616|Medium|[Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string/)|[Add Bold Tag in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddBoldTagInString.java)|true|
 |624|Medium|[Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/)|[Maximum Distance in Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDistanceInArrays.java)|true|
+|660|Medium|[Remove 9](https://leetcode.com/problems/remove-9/)|[Remove 9.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Remove9.java)|true|
 |718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Maximum Length of Repeated Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfRepeatedSubarray.java)|false|
 |742|Medium|[Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/)|[Closest Leaf in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestLeafInBinaryTree.java)|true|
 |769|Medium|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[Max Chunks To Make Sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxChunksToMakeSorted.java)|false|
