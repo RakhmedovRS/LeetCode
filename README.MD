@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1053
+Count of solved tasks: 1054
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -260,6 +260,7 @@ Count of solved tasks: 1053
 |336|Undefined|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)|[Palindrome Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromePairs.java)|false|
 |337|Medium|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[House Robber III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HouseRobberIII.java)|false|
 |338|Undefined|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Counting Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountingBits.java)|false|
+|339|Easy|[Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)|[Nested List Weight Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NestedListWeightSum.java)|true|
 |340|Hard|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|[Longest Substring with At Most K Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtMostKDistinctCharacters.java)|true|
 |341|Undefined|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[Flatten Nested List Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlattenNestedListIterator.java)|false|
 |343|Undefined|[Integer Break](https://leetcode.com/problems/integer-break/)|[Integer Break.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerBreak.java)|false|
@@ -1080,6 +1081,7 @@ Count of solved tasks: 1053
 |252|Easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Meeting Rooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeetingRooms.java)|true|
 |266|Easy|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|[Palindrome Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromePermutation.java)|true|
 |293|Easy|[Flip Game](https://leetcode.com/problems/flip-game/)|[Flip Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlipGame.java)|true|
+|339|Easy|[Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)|[Nested List Weight Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NestedListWeightSum.java)|true|
 |346|Easy|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[Moving Average from Data Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MovingAverageFromDataStream.java)|true|
 |359|Easy|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)|[Logger Rate Limiter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LoggerRateLimiter.java)|true|
 |422|Easy|[Valid Word Square](https://leetcode.com/problems/valid-word-square/)|[Valid Word Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidWordSquare.java)|true|
