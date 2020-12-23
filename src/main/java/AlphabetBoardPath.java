@@ -7,55 +7,70 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 12-Jun-20
  */
-@LeetCode(id = 1138, name = "Alphabet Board Path", url = "https://leetcode.com/problems/alphabet-board-path/")
+@LeetCode(
+	id = 1138,
+	name = "Alphabet Board Path",
+	url = "https://leetcode.com/problems/alphabet-board-path/")
 public class AlphabetBoardPath
 {
 	public String alphabetBoardPath(String target)
 	{
-		Map<Character, int[]> board = new HashMap<>();
+		int[][] charToPos = new int[26][2];
 		int row = 0;
 		int column = 0;
-		for (char ch : "abcdefghijklmnopqrstuvwxyz".toCharArray())
+		for (char ch = 'a'; ch <= 'z'; ch++)
 		{
-			board.putIfAbsent(ch, new int[]{row, column});
-			column++;
 			if (column == 5)
 			{
-				column = 0;
 				row++;
+				column = 0;
 			}
+
+			charToPos[ch - 'a'][0] = row;
+			charToPos[ch - 'a'][1] = column;
+
+			column++;
 		}
 
 		StringBuilder path = new StringBuilder();
-		int[] currentPos = new int[]{0, 0};
-		int[] targetPos;
+		row = 0;
+		column = 0;
+		int targetRow;
+		int targetColumn;
 		for (char ch : target.toCharArray())
 		{
-			targetPos = board.get(ch);
-			while (currentPos[0] > targetPos[0])
+			targetRow = charToPos[ch - 'a'][0];
+			targetColumn = charToPos[ch - 'a'][1];
+
+			while (row != targetRow || column != targetColumn)
 			{
-				currentPos[0]--;
-				path.append('U');
+				while (row > targetRow)
+				{
+					row--;
+					path.append("U");
+				}
+
+				while (column > targetColumn)
+				{
+					column--;
+					path.append("L");
+				}
+
+				while (row < targetRow)
+				{
+					row++;
+					path.append("D");
+				}
+
+				while (column < targetColumn)
+				{
+					column++;
+					path.append("R");
+				}
+
 			}
 
-			while (currentPos[1] > targetPos[1])
-			{
-				currentPos[1]--;
-				path.append('L');
-			}
-
-			while (currentPos[0] < targetPos[0])
-			{
-				currentPos[0]++;
-				path.append('D');
-			}
-
-			while (currentPos[1] < targetPos[1])
-			{
-				currentPos[1]++;
-				path.append('R');
-			}
-			path.append('!');
+			path.append("!");
 		}
 
 		return path.toString();
