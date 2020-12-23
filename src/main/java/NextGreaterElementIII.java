@@ -6,36 +6,80 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 18-Jul-20
  */
-@LeetCode(id = 556, name = "Next Greater Element III", url = "https://leetcode.com/problems/next-greater-element-iii/")
+@LeetCode(
+	id = 556,
+	name = "Next Greater Element III",
+	url = "https://leetcode.com/problems/next-greater-element-iii/",
+	premium = true
+)
 public class NextGreaterElementIII
 {
 	public int nextGreaterElement(int n)
 	{
-		char[] origin = String.valueOf(n).toCharArray();
-		int right = origin.length - 2;
-		while (right >= 0 && origin[right] >= origin[right + 1])
+		char[] digits = getDigits(n);
+		for (int i = digits.length - 1; i > 0; i--)
 		{
-			right--;
+			if (digits[i] > digits[i - 1])
+			{
+				int pos = i;
+				for (int j = i; j < digits.length; j++)
+				{
+					if (digits[i - 1] < digits[j] && digits[pos] > digits[j])
+					{
+						pos = j;
+					}
+				}
+
+				char temp = digits[i - 1];
+				digits[i - 1] = digits[pos];
+				digits[pos] = temp;
+
+				sort(digits, i);
+				long candidate = Long.parseLong(String.valueOf(digits));
+				if (candidate < Integer.MAX_VALUE)
+				{
+					return (int) candidate;
+				}
+				else
+				{
+					return -1;
+				}
+			}
 		}
 
-		if (right < 0)
+		return -1;
+	}
+
+	private void sort(char[] digits, int startPos)
+	{
+		int[] table = new int[10];
+		for (int i = startPos; i < digits.length; i++)
 		{
-			return -1;
+			table[digits[i] - '0']++;
 		}
 
-		int left = origin.length - 1;
-		while (origin[left] <= origin[right])
+		for (int i = startPos, j = 0; i < digits.length; i++)
 		{
-			left--;
+			while (table[j] == 0)
+			{
+				j++;
+			}
+
+			digits[i] = (char) ('0' + j);
+			table[j]--;
+		}
+	}
+
+	private char[] getDigits(int n)
+	{
+		StringBuilder sb = new StringBuilder();
+		while (n > 0)
+		{
+			sb.append(n % 10);
+			n /= 10;
 		}
 
-		char tmp = origin[left];
-		origin[left] = origin[right];
-		origin[right] = tmp;
-		Arrays.sort(origin, left + 1, origin.length);
-		long res = Long.parseLong(String.valueOf(origin));
-
-		return res > Integer.MAX_VALUE ? -1 : (int) res;
+		return sb.reverse().toString().toCharArray();
 	}
 
 	public static void main(String[] args)
