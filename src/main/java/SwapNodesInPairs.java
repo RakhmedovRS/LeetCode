@@ -1,3 +1,4 @@
+import common.Difficulty;
 import common.LeetCode;
 import common.ListNode;
 
@@ -5,24 +6,27 @@ import common.ListNode;
  * @author RakhmedovRS
  * @created 10-Apr-20
  */
-@LeetCode(id = 24, name = "Swap Nodes in Pairs", url = "https://leetcode.com/problems/swap-nodes-in-pairs/")
+@LeetCode(
+	id = 24,
+	name = "Swap Nodes in Pairs",
+	url = "https://leetcode.com/problems/swap-nodes-in-pairs/",
+	difficulty = Difficulty.MEDIUM
+)
 public class SwapNodesInPairs
 {
 	public ListNode swapPairs(ListNode head)
 	{
-		ListNode dummy = new ListNode(0);
-		dummy.next = head;
-		ListNode current = dummy;
-		while (current.next != null && current.next.next != null)
+		if (head == null || head.next == null)
 		{
-			ListNode first = current.next;
-			ListNode second = current.next.next;
-			first.next = second.next;
-			current.next = second;
-			current.next.next = first;
-			current = current.next.next;
+			return head;
 		}
-		return dummy.next;
+
+		ListNode next = head.next;
+		ListNode nextNext = head.next.next;
+
+		head.next = swapPairs(nextNext);
+		next.next = head;
+		return next;
 	}
 
 	public static void main(String[] args)
