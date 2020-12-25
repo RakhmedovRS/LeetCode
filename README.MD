@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1061
+Count of solved tasks: 1062
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -176,6 +176,7 @@ Count of solved tasks: 1061
 |211|Undefined|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|[Add and Search Word - Data structure design.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddAndSearchWordDataStructureDesign.java)|false|
 |212|Undefined|[Word Search II](https://leetcode.com/problems/word-search-ii/)|[Word Search II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordSearchII.java)|false|
 |213|Undefined|[House Robber II](https://leetcode.com/problems/house-robber-ii/)|[House Robber II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HouseRobberII.java)|false|
+|214|Hard|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|[Shortest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPalindrome.java)|false|
 |215|Undefined|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Kth Largest Element in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthLargestElementInAnArray.java)|false|
 |216|Undefined|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Combination Sum III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CombinationSumIII.java)|false|
 |217|Undefined|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Contains Duplicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainsDuplicate.java)|false|
@@ -1268,6 +1269,7 @@ Count of solved tasks: 1061
 |:-----------:|:-----------:|:--------------:|:--------------:|:--------:|
 |41|Hard|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[First Missing Positive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstMissingPositive.java)|false|
 |158|Hard|[Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)|[Read N Characters Given Read4 II - Call multiple times.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReadNCharactersGivenRead4IICallMultipleTimes.java)|true|
+|214|Hard|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|[Shortest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPalindrome.java)|false|
 |218|Hard|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[The Skyline Problem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheSkylineProblem.java)|false|
 |239|Hard|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Sliding Window Maximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SlidingWindowMaximum.java)|false|
 |308|Hard|[Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)|[Range Sum Query 2D - Mutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQuery2DMutable.java)|true|
