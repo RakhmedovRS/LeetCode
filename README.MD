@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1059
+Count of solved tasks: 1060
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -203,6 +203,7 @@ Count of solved tasks: 1059
 |241|Undefined|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|[Different Ways to Add Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DifferentWaysToAddParentheses.java)|false|
 |242|Undefined|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Valid Anagram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidAnagram.java)|false|
 |243|Easy|[Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)|[Shortest Word Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestWordDistance.java)|true|
+|245|Medium|[Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/)|[Shortest Word Distance III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestWordDistanceIII.java)|true|
 |246|Easy|[Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/)|[Strobogrammatic Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StrobogrammaticNumber.java)|true|
 |250|Medium|[Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/)|[Count Univalue Subtrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountUnivalueSubtrees.java)|true|
 |251|Medium|[Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/)|[Flatten 2D Vector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Flatten2DVector.java)|true|
@@ -1153,6 +1154,7 @@ Count of solved tasks: 1059
 |173|Medium|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Binary Search Tree Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearchTreeIterator.java)|false|
 |223|Medium|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[Rectangle Area.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RectangleArea.java)|false|
 |227|Medium|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Basic Calculator II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BasicCalculatorII.java)|false|
+|245|Medium|[Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/)|[Shortest Word Distance III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestWordDistanceIII.java)|true|
 |250|Medium|[Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/)|[Count Univalue Subtrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountUnivalueSubtrees.java)|true|
 |251|Medium|[Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/)|[Flatten 2D Vector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Flatten2DVector.java)|true|
 |270|Medium|[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)|[Closest Binary Search Tree Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestBinarySearchTreeValue.java)|true|
