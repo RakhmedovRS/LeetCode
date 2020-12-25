@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1058
+Count of solved tasks: 1059
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -598,6 +598,7 @@ Count of solved tasks: 1058
 |889|Undefined|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|[Construct Binary Tree from Preorder and Postorder Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructBinaryTreeFromPreorderAndPostorderTraversal.java)|false|
 |890|Undefined|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)|[Find and Replace Pattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAndReplacePattern.java)|false|
 |892|Undefined|[Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/)|[Surface Area of 3D Shapes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SurfaceAreaOf3DShapes.java)|false|
+|893|Easy|[Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/)|[Groups of Special-Equivalent Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GroupsOfSpecialEquivalentStrings.java)|false|
 |894|Undefined|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/)|[All Possible Full Binary Trees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllPossibleFullBinaryTrees.java)|false|
 |895|Undefined|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|[Maximum Frequency Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumFrequencyStack.java)|false|
 |897|Easy|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[Increasing Order Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingOrderSearchTree.java)|false|
@@ -1095,6 +1096,7 @@ Count of solved tasks: 1058
 |734|Easy|[Sentence Similarity](https://leetcode.com/problems/sentence-similarity/)|[Sentence Similarity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SentenceSimilarity.java)|true|
 |758|Easy|[Bold Words in String](https://leetcode.com/problems/bold-words-in-string/)|[Bold Words in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BoldWordsInString.java)|true|
 |804|Easy|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Unique Morse Code Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueMorseCodeWords.java)|false|
+|893|Easy|[Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/)|[Groups of Special-Equivalent Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GroupsOfSpecialEquivalentStrings.java)|false|
 |897|Easy|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[Increasing Order Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingOrderSearchTree.java)|false|
 |938|Easy|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Range Sum of BST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfBST.java)|false|
 |941|Easy|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Valid Mountain Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidMountainArray.java)|false|
