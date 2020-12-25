@@ -377,7 +377,7 @@ Count of solved tasks: 1062
 |495|Undefined|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|[Teemo Attacking.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TeemoAttacking.java)|false|
 |496|Undefined|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Next Greater Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementI.java)|false|
 |497|Undefined|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/)|[Random Point in Non-overlapping Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RandomPointInNonOverlappingRectangles.java)|false|
-|498|Undefined|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Diagonal Traverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverse.java)|false|
+|498|Medium|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Diagonal Traverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverse.java)|false|
 |500|Undefined|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[Keyboard Row.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KeyboardRow.java)|false|
 |501|Undefined|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[Find Mode in Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindModeInBinarySearchTree.java)|false|
 |503|Undefined|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[Next Greater Element II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementII.java)|false|
@@ -1183,6 +1183,7 @@ Count of solved tasks: 1062
 |454|Medium|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[4Sum II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FourSumII.java)|false|
 |487|Medium|[Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|[Max Consecutive Ones II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxConsecutiveOnesII.java)|true|
 |490|Medium|[The Maze](https://leetcode.com/problems/the-maze/)|[The Maze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheMaze.java)|true|
+|498|Medium|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Diagonal Traverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverse.java)|false|
 |524|Medium|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/)|[Longest Word in Dictionary through Deleting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestWordInDictionaryThroughDeleting.java)|false|
 |526|Medium|[Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)|[Beautiful Arrangement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BeautifulArrangement.java)|false|
 |531|Medium|[Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/)|[Lonely Pixel I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LonelyPixelI.java)|true|

@@ -1,73 +1,73 @@
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 24-Apr-20
  */
-@LeetCode(id = 498, name = "Diagonal Traverse", url = "https://leetcode.com/problems/diagonal-traverse/")
+@LeetCode(
+	id = 498,
+	name = "Diagonal Traverse",
+	url = "https://leetcode.com/problems/diagonal-traverse/",
+	difficulty = Difficulty.MEDIUM
+)
 public class DiagonalTraverse
 {
 	public int[] findDiagonalOrder(int[][] matrix)
 	{
-		if (matrix == null || matrix.length == 0)
-		{
-			return new int[]{};
-		}
-
-		int rows = matrix.length - 1;
-		int columns = matrix[0].length - 1;
-
 		int pos = 0;
+		int rows = matrix.length;
+		if (rows == 0)
+		{
+			return new int[0];
+		}
+		int columns = matrix[0].length;
+		int[] answer = new int[rows * columns];
 		int row = 0;
 		int column = 0;
-		int[] res = new int[matrix.length * matrix[0].length];
-		boolean down = false;
-		while (row != rows || column != columns)
+		boolean goingUp = true;
+		while (pos < answer.length)
 		{
-			if (down)
+			answer[pos++] = matrix[row][column];
+
+			if (goingUp)
 			{
-				while (row <= rows && column >= 0)
-				{
-					res[pos++] = matrix[row++][column--];
-				}
-
-				row--;
-				column++;
-
-				if (row < rows)
+				if (column == columns - 1)
 				{
 					row++;
+					goingUp = false;
+				}
+				else if (row == 0)
+				{
+					column++;
+					goingUp = false;
 				}
 				else
 				{
+					row--;
 					column++;
 				}
 			}
 			else
 			{
-				while (row >= 0 && column <= columns)
-				{
-					res[pos++] = matrix[row--][column++];
-				}
-
-				row++;
-				column--;
-
-				if (column < columns)
+				if (row == rows - 1)
 				{
 					column++;
+					goingUp = true;
+				}
+				else if (column == 0)
+				{
+					row++;
+					goingUp = true;
 				}
 				else
 				{
 					row++;
+					column--;
 				}
 			}
-
-			down = !down;
 		}
 
-		res[pos] = matrix[row][column];
-
-		return res;
+		return answer;
 	}
 }
