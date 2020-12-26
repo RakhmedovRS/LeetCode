@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1063
+Count of solved tasks: 1064
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1069,7 +1069,8 @@ Count of solved tasks: 1063
 |1694|Easy|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|[Reformat Phone Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReformatPhoneNumber.java)|false|
 |1695|Medium|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[Maximum Erasure Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumErasureValue.java)|false|
 |1696|Medium|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[Jump Game VI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameVI.java)|false|
-|1700|Easy|[Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)|[Number of Students Unable to Eat Lunch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfStudentsUnableToEatLunch.java)|false|</p>
+|1700|Easy|[Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)|[Number of Students Unable to Eat Lunch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfStudentsUnableToEatLunch.java)|false|
+|1701|Medium|[Average Waiting Time](https://leetcode.com/problems/average-waiting-time/)|[Average Waiting Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AverageWaitingTime.java)|false|</p>
 </details>
 
 <details>
@@ -1262,7 +1263,8 @@ Count of solved tasks: 1063
 |1689|Medium|[Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|[Partitioning Into Minimum Number Of Deci-Binary Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java)|false|
 |1690|Medium|[Stone Game VII](https://leetcode.com/problems/stone-game-vii/)|[Stone Game VII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StoneGameVII.java)|false|
 |1695|Medium|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[Maximum Erasure Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumErasureValue.java)|false|
-|1696|Medium|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[Jump Game VI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameVI.java)|false|</p>
+|1696|Medium|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[Jump Game VI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameVI.java)|false|
+|1701|Medium|[Average Waiting Time](https://leetcode.com/problems/average-waiting-time/)|[Average Waiting Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AverageWaitingTime.java)|false|</p>
 </details>
 
 <details>
