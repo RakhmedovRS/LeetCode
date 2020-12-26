@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1064
+Count of solved tasks: 1065
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -685,6 +685,7 @@ Count of solved tasks: 1064
 |1013|Undefined|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|[Partition Array Into Three Parts With Equal Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionArrayIntoThreePartsWithEqualSum.java)|false|
 |1014|Undefined|[Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)|[Best Sightseeing Pair.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BestSightseeingPair.java)|false|
 |1015|Medium|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[Smallest Integer Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestIntegerDivisibleByK.java)|false|
+|1016|Medium|[Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)|[Binary String With Substrings Representing 1 To N.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryStringWithSubstringsRepresentingOneToN.java)|false|
 |1018|Undefined|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|[Binary Prefix Divisible By 5.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryPrefixDivisibleBy5.java)|false|
 |1019|Undefined|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|[Next Greater Node In Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterNodeInLinkedList.java)|false|
 |1020|Undefined|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|[Number of Enclaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfEnclaves.java)|false|
@@ -1211,6 +1212,7 @@ Count of solved tasks: 1064
 |1006|Medium|[Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/)|[Clumsy Factorial.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClumsyFactorial.java)|false|
 |1010|Medium|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[Pairs of Songs With Total Durations Divisible by 60.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PairsOfSongsWithTotalDurationsDivisibleBy60.java)|false|
 |1015|Medium|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[Smallest Integer Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestIntegerDivisibleByK.java)|false|
+|1016|Medium|[Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)|[Binary String With Substrings Representing 1 To N.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryStringWithSubstringsRepresentingOneToN.java)|false|
 |1055|Medium|[Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|[Shortest Way to Form String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestWayToFormString.java)|true|
 |1057|Medium|[Campus Bikes](https://leetcode.com/problems/campus-bikes/)|[Campus Bikes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CampusBikes.java)|true|
 |1059|Medium|[All Paths from Source Lead to Destination](https://leetcode.com/problems/all-paths-from-source-lead-to-destination/)|[All Paths from Source Lead to Destination.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllPathsFromSourceLeadToDestination.java)|true|
