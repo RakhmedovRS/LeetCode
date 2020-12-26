@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1062
+Count of solved tasks: 1063
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1068,7 +1068,8 @@ Count of solved tasks: 1062
 |1690|Medium|[Stone Game VII](https://leetcode.com/problems/stone-game-vii/)|[Stone Game VII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StoneGameVII.java)|false|
 |1694|Easy|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|[Reformat Phone Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReformatPhoneNumber.java)|false|
 |1695|Medium|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[Maximum Erasure Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumErasureValue.java)|false|
-|1696|Medium|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[Jump Game VI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameVI.java)|false|</p>
+|1696|Medium|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[Jump Game VI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameVI.java)|false|
+|1700|Easy|[Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)|[Number of Students Unable to Eat Lunch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfStudentsUnableToEatLunch.java)|false|</p>
 </details>
 
 <details>
@@ -1133,7 +1134,8 @@ Count of solved tasks: 1062
 |1678|Easy|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|[Goal Parser Interpretation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GoalParserInterpretation.java)|false|
 |1684|Easy|[Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/)|[Count the Number of Consistent Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountTheNumberOfConsistentStrings.java)|false|
 |1688|Easy|[Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|[Count of Matches in Tournament.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountOfMatchesInTournament.java)|false|
-|1694|Easy|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|[Reformat Phone Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReformatPhoneNumber.java)|false|</p>
+|1694|Easy|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|[Reformat Phone Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReformatPhoneNumber.java)|false|
+|1700|Easy|[Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)|[Number of Students Unable to Eat Lunch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfStudentsUnableToEatLunch.java)|false|</p>
 </details>
 
 <details>
