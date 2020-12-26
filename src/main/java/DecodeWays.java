@@ -1,58 +1,51 @@
+import common.Difficulty;
 import common.LeetCode;
-
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
 
 /**
  * @author RakhmedovRS
  * @created 08-Apr-20
  */
-@LeetCode(id = 91, name = "Decode Ways", url = "https://leetcode.com/problems/decode-ways/")
+@LeetCode(
+	id = 91,
+	name = "Decode Ways",
+	url = "https://leetcode.com/problems/decode-ways/",
+	difficulty = Difficulty.MEDIUM
+)
 public class DecodeWays
 {
-	public int numDecodings(String string)
+	public int numDecodings(String s)
 	{
-		if (string == null || string.length() == 0)
-		{
-			return 0;
-		}
-		Set<String> set = new HashSet<>();
-		for (int i = 1; i <= 26; i++)
-		{
-			set.add(String.valueOf(i));
-		}
-		Map<Integer, Integer> cache = new HashMap<>();
-
-		return numDecodings(string, 0, set, cache);
+		int[] memo = new int[s.length()];
+		return dfs(0, s.toCharArray(), memo);
 	}
 
-	private int numDecodings(String string, int startPos, Set<String> set, Map<Integer, Integer> cache)
+	private int dfs(int pos, char[] chars, int[] memo)
 	{
-		if (startPos >= string.length())
+		if (pos >= chars.length)
 		{
 			return 1;
 		}
 
-		Integer answer = cache.get(startPos);
-		if (answer != null)
+		if (memo[pos] != 0)
 		{
-			return answer;
+			return memo[pos];
 		}
 
-		answer = 0;
-		if (set.contains(string.substring(startPos, startPos + 1)))
+		if (chars[pos] == '0')
 		{
-			answer += numDecodings(string, startPos + 1, set, cache);
+			return 0;
 		}
 
-		if (startPos + 2 <= string.length() && set.contains(string.substring(startPos, startPos + 2)))
+		memo[pos] += dfs(pos + 1, chars, memo);
+		if (pos + 1 < chars.length)
 		{
-			answer += numDecodings(string, startPos + 2, set, cache);
+			int num = (chars[pos] - '0') * 10 + (chars[pos + 1] - '0');
+			if (num <= 26)
+			{
+				memo[pos] += dfs(pos + 2, chars, memo);
+			}
 		}
 
-		cache.put(startPos, answer);
-		return answer;
+		return memo[pos];
 	}
 }
