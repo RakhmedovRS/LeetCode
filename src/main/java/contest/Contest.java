@@ -13,8 +13,10 @@ public class Contest
 {
 
 
+
 	public static void main(String[] args) throws Exception
 	{
+		Contest clazz = new Contest();
 	}
 
 	private static String readBigTestCase() throws FileNotFoundException
