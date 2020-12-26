@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1065
+Count of solved tasks: 1066
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1071,7 +1071,8 @@ Count of solved tasks: 1065
 |1695|Medium|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[Maximum Erasure Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumErasureValue.java)|false|
 |1696|Medium|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[Jump Game VI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameVI.java)|false|
 |1700|Easy|[Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)|[Number of Students Unable to Eat Lunch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfStudentsUnableToEatLunch.java)|false|
-|1701|Medium|[Average Waiting Time](https://leetcode.com/problems/average-waiting-time/)|[Average Waiting Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AverageWaitingTime.java)|false|</p>
+|1701|Medium|[Average Waiting Time](https://leetcode.com/problems/average-waiting-time/)|[Average Waiting Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AverageWaitingTime.java)|false|
+|1702|Medium|[Maximum Binary String After Change](https://leetcode.com/problems/maximum-binary-string-after-change/)|[Maximum Binary String After Change.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumBinaryStringAfterChange.java)|false|</p>
 </details>
 
 <details>
@@ -1266,7 +1267,8 @@ Count of solved tasks: 1065
 |1690|Medium|[Stone Game VII](https://leetcode.com/problems/stone-game-vii/)|[Stone Game VII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StoneGameVII.java)|false|
 |1695|Medium|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[Maximum Erasure Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumErasureValue.java)|false|
 |1696|Medium|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[Jump Game VI.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameVI.java)|false|
-|1701|Medium|[Average Waiting Time](https://leetcode.com/problems/average-waiting-time/)|[Average Waiting Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AverageWaitingTime.java)|false|</p>
+|1701|Medium|[Average Waiting Time](https://leetcode.com/problems/average-waiting-time/)|[Average Waiting Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AverageWaitingTime.java)|false|
+|1702|Medium|[Maximum Binary String After Change](https://leetcode.com/problems/maximum-binary-string-after-change/)|[Maximum Binary String After Change.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumBinaryStringAfterChange.java)|false|</p>
 </details>
 
 <details>
