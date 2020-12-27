@@ -35,6 +35,12 @@ public class MaximumNumberOfEatenApples
 			if (!minHeap.isEmpty())
 			{
 				current = minHeap.remove();
+				if (i >= apples.length && minHeap.isEmpty())
+				{
+					eaten += Math.min(current[0], Math.abs(i - current[1]));
+					continue;
+				}
+
 				current[0]--;
 				if (current[0] > 0)
 				{
@@ -52,7 +58,7 @@ public class MaximumNumberOfEatenApples
 	{
 		MaximumNumberOfEatenApples clazz = new MaximumNumberOfEatenApples();
 		System.out.println(clazz.eatenApples(new int[]{1, 2, 3, 5, 2}, new int[]{3, 2, 1, 4, 2}));
-		System.out.println(clazz.eatenApples(new int[]{0}, new int[]{0}));
+		System.out.println(clazz.eatenApples(new int[]{10_000}, new int[]{10_000}));
 		System.out.println(clazz.eatenApples(new int[]{0}, new int[]{0}));
 		System.out.println(clazz.eatenApples(new int[]{10}, new int[]{10}));
 		System.out.println(clazz.eatenApples(new int[]{3, 0, 0, 0, 0, 2}, new int[]{3, 0, 0, 0, 0, 2}));
