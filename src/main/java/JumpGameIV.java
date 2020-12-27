@@ -1,3 +1,4 @@
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -6,64 +7,89 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 11/13/2020
  */
-@LeetCode(id = 1345, name = "Jump Game IV", url = "https://leetcode.com/problems/jump-game-iv/")
+@LeetCode(
+	id = 1345,
+	name = "Jump Game IV",
+	url = "https://leetcode.com/problems/jump-game-iv/",
+	difficulty = Difficulty.HARD
+)
 public class JumpGameIV
 {
 	public int minJumps(int[] arr)
 	{
-		if (arr.length <= 1)
+		int n = arr.length;
+		Map<Integer, List<Integer>> positions = new HashMap<>();
+		for (int i = 0; i < n; i++)
 		{
-			return 0;
+			positions.putIfAbsent(arr[i], new ArrayList<>());
+			positions.get(arr[i]).add(i);
 		}
 
-		Map<Integer, List<Integer>> numberToPositions = new HashMap<>();
-		for (int i = 0; i < arr.length; i++)
-		{
-			numberToPositions.putIfAbsent(arr[i], new ArrayList<>());
-			numberToPositions.get(arr[i]).add(i);
-		}
-
-		boolean[] visited = new boolean[arr.length];
-		int steps = 0;
+		boolean[] visited = new boolean[n];
 		Queue<Integer> queue = new LinkedList<>();
 		queue.add(0);
-		visited[0] = true;
 		int size;
-		int currentPos;
+		int steps = 0;
+		int current;
+		int id;
 		while (!queue.isEmpty())
 		{
 			size = queue.size();
 			while (size-- > 0)
 			{
-				currentPos = queue.remove();
-				if (currentPos == arr.length - 1)
+				current = queue.remove();
+				if (visited[current])
+				{
+					continue;
+				}
+
+				visited[current] = true;
+
+				if (current == n - 1)
 				{
 					return steps;
 				}
 
-				List<Integer> nexts = numberToPositions.get(arr[currentPos]);
-				if (currentPos - 1 >= 0)
+				if (current + 1 < n)
 				{
-					nexts.add(currentPos - 1);
+					if (current + 1 == n - 1)
+					{
+						return steps + 1;
+					}
+
+					queue.add(current + 1);
 				}
 
-				nexts.add(currentPos + 1);
-
-				for (int next : nexts)
+				if (current - 1 >= 0)
 				{
-					if (next != currentPos && !visited[next])
+					queue.add(current - 1);
+				}
+
+				List<Integer> ids = positions.get(arr[current]);
+				for (int i = ids.size() - 1; i >= 0; i--)
+				{
+					id = ids.get(i);
+					if (id != current)
 					{
-						visited[next] = true;
-						queue.add(next);
+						if (id == n - 1)
+						{
+							return steps + 1;
+						}
+						queue.add(id);
 					}
 				}
-
-				nexts.clear();
 			}
-
 			steps++;
 		}
 
-		return steps;
+		return n;
+	}
+
+	public static void main(String[] args)
+	{
+		JumpGameIV clazz = new JumpGameIV();
+		System.out.println(clazz.minJumps(new int[]{6, 1, 9}));
+		System.out.println(clazz.minJumps(new int[]{11, 22, 7, 7, 7, 7, 7, 7, 7, 22, 13}));
+		System.out.println(clazz.minJumps(new int[]{100, -23, -23, 404, 100, 23, 23, 23, 3, 404}));
 	}
 }
