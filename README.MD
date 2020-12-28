@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1069
+Count of solved tasks: 1070
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -520,6 +520,7 @@ Count of solved tasks: 1069
 |749|Undefined|[Contain Virus](https://leetcode.com/problems/contain-virus/)|[Contain Virus.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainVirus.java)|false|
 |752|Undefined|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|[Open the Lock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OpenTheLock.java)|false|
 |753|Undefined|[Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/)|[Cracking the Safe.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CrackingTheSafe.java)|false|
+|754|Medium|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|[Reach a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReachNumber.java)|false|
 |758|Easy|[Bold Words in String](https://leetcode.com/problems/bold-words-in-string/)|[Bold Words in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BoldWordsInString.java)|true|
 |762|Undefined|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|[Prime Number of Set Bits in Binary Representation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrimeNumberOfSetBitsInBinaryRepresentation.java)|false|
 |763|Undefined|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Partition Labels.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionLabels.java)|false|
@@ -1206,6 +1207,7 @@ Count of solved tasks: 1069
 |681|Medium|[Next Closest Time](https://leetcode.com/problems/next-closest-time/)|[Next Closest Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextClosestTime.java)|true|
 |718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Maximum Length of Repeated Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfRepeatedSubarray.java)|false|
 |742|Medium|[Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/)|[Closest Leaf in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestLeafInBinaryTree.java)|true|
+|754|Medium|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|[Reach a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReachNumber.java)|false|
 |769|Medium|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[Max Chunks To Make Sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxChunksToMakeSorted.java)|false|
 |833|Medium|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|[Find And Replace in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAndReplaceInString.java)|false|
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[Longest Mountain in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)|false|
