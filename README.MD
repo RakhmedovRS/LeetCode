@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1070
+Count of solved tasks: 1071
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -736,6 +736,7 @@ Count of solved tasks: 1070
 |1086|Easy|[High Five](https://leetcode.com/problems/high-five/)|[High Five.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HighFive.java)|true|
 |1089|Undefined|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[Duplicate Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DuplicateZeros.java)|false|
 |1091|Undefined|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Shortest Path in Binary Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathInBinaryMatrix.java)|false|
+|1093|Medium|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|[Statistics from a Large Sample.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StatisticsFromLargeSample.java)|false|
 |1094|Undefined|[Car Pooling](https://leetcode.com/problems/car-pooling/)|[Car Pooling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CarPooling.java)|false|
 |1099|Easy|[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[Two Sum Less Than K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumLessThanK.java)|true|
 |1100|Medium|[Find K-Length Substrings With No Repeated Characters](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/)|[Find K-Length Substrings With No Repeated Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindKLengthSubstringsWithNoRepeatedCharacters.java)|true|
@@ -1224,6 +1225,7 @@ Count of solved tasks: 1070
 |1057|Medium|[Campus Bikes](https://leetcode.com/problems/campus-bikes/)|[Campus Bikes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CampusBikes.java)|true|
 |1059|Medium|[All Paths from Source Lead to Destination](https://leetcode.com/problems/all-paths-from-source-lead-to-destination/)|[All Paths from Source Lead to Destination.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllPathsFromSourceLeadToDestination.java)|true|
 |1060|Medium|[Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/)|[Missing Element in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingElementInSortedArray.java)|true|
+|1093|Medium|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|[Statistics from a Large Sample.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StatisticsFromLargeSample.java)|false|
 |1100|Medium|[Find K-Length Substrings With No Repeated Characters](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/)|[Find K-Length Substrings With No Repeated Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindKLengthSubstringsWithNoRepeatedCharacters.java)|true|
 |1104|Medium|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[Path In Zigzag Labelled Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathInZigzagLabelledBinaryTree.java)|false|
 |1120|Medium|[Maximum Average Subtree](https://leetcode.com/problems/maximum-average-subtree/)|[Maximum Average Subtree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAverageSubtree.java)|true|
