@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1073
+Count of solved tasks: 1074
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -313,6 +313,7 @@ Count of solved tasks: 1073
 |404|Undefined|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Sum of Left Leaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfLeftLeaves.java)|false|
 |405|Undefined|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|[Convert a Number to Hexadecimal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertNumberToHexadecimal.java)|false|
 |406|Undefined|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|[Queue Reconstruction by Height.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueueReconstructionByHeight.java)|false|
+|408|Easy|[Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)|[Valid Word Abbreviation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidWordAbbreviation.java)|true|
 |409|Undefined|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Longest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestPalindrome.java)|false|
 |410|Undefined|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)|[Split Array Largest Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitArrayLargestSum.java)|false|
 |412|Undefined|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Fizz Buzz.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FizzBuzz.java)|false|
@@ -1103,6 +1104,7 @@ Count of solved tasks: 1073
 |339|Easy|[Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)|[Nested List Weight Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NestedListWeightSum.java)|true|
 |346|Easy|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[Moving Average from Data Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MovingAverageFromDataStream.java)|true|
 |359|Easy|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)|[Logger Rate Limiter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LoggerRateLimiter.java)|true|
+|408|Easy|[Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)|[Valid Word Abbreviation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidWordAbbreviation.java)|true|
 |422|Easy|[Valid Word Square](https://leetcode.com/problems/valid-word-square/)|[Valid Word Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidWordSquare.java)|true|
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[Range Addition II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)|false|
 |605|Easy|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Can Place Flowers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanPlaceFlowers.java)|false|
