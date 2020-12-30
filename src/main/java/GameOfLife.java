@@ -1,27 +1,41 @@
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 29-Apr-20
  */
-@LeetCode(id = 289, name = "Game of Life", url = "https://leetcode.com/problems/game-of-life/")
+@LeetCode(
+	id = 289,
+	name = "Game of Life",
+	url = "https://leetcode.com/problems/game-of-life/",
+	difficulty = Difficulty.MEDIUM
+)
 public class GameOfLife
 {
 	public void gameOfLife(int[][] board)
 	{
-		if (board == null || board.length == 0)
+		int rows = board.length;
+		if (rows == 0)
 		{
 			return;
 		}
-
-		int rows = board.length;
 		int columns = board[0].length;
-		int[][] copy = new int[rows][columns];
+
+		boolean result;
 		for (int row = 0; row < rows; row++)
 		{
 			for (int column = 0; column < columns; column++)
 			{
-				copy[row][column] = board[row][column];
+				result = survivedOrNewCell(row, column, rows, columns, board);
+				if (board[row][column] == 1)
+				{
+					board[row][column] = result ? 1 : -1;
+				}
+				else if (board[row][column] == 0)
+				{
+					board[row][column] = result ? 2 : 0;
+				}
 			}
 		}
 
@@ -29,27 +43,42 @@ public class GameOfLife
 		{
 			for (int column = 0; column < columns; column++)
 			{
-				board[row][column] = isAlive(copy, row, column, rows, columns) ? 1 : 0;
+				if (board[row][column] > 0)
+				{
+					board[row][column] = 1;
+				}
+				else
+				{
+					board[row][column] = 0;
+				}
 			}
 		}
 	}
 
-	private boolean isAlive(int[][] board, int row, int column, int rows, int columns)
+	private boolean survivedOrNewCell(int row, int column, int rows, int columns, int[][] board)
 	{
 		int neighbors = 0;
+		for (int r = -1; r <= 1; r++)
+		{
+			for (int c = -1; c <= 1; c++)
+			{
+				if (r + row == row && c + column == column)
+				{
+					continue;
+				}
 
-		neighbors += (row - 1 >= 0 && column - 1 >= 0) ? board[row - 1][column - 1] : 0;
-		neighbors += (row - 1 >= 0) ? board[row - 1][column] : 0;
-		neighbors += (row - 1 >= 0 && column + 1 < columns) ? board[row - 1][column + 1] : 0;
-		neighbors += (column + 1 < columns) ? board[row][column + 1] : 0;
-		neighbors += (row + 1 < rows && column + 1 < columns) ? board[row + 1][column + 1] : 0;
-		neighbors += (row + 1 < rows) ? board[row + 1][column] : 0;
-		neighbors += (row + 1 < rows && column - 1 >= 0) ? board[row + 1][column - 1] : 0;
-		neighbors += (column - 1 >= 0) ? board[row][column - 1] : 0;
+				if (r + row < 0 || r + row == rows || c + column < 0 || c + column == columns)
+				{
+					continue;
+				}
+
+				neighbors += Math.abs(board[r + row][c + column]) == 1 ? 1 : 0;
+			}
+		}
 
 		if (board[row][column] == 1)
 		{
-			return neighbors >= 2 && neighbors <= 3;
+			return neighbors == 2 || neighbors == 3;
 		}
 		else
 		{

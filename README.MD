@@ -229,7 +229,7 @@ Count of solved tasks: 1076
 |284|Undefined|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Peeking Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PeekingIterator.java)|false|
 |286|Medium|[Walls and Gates](https://leetcode.com/problems/walls-and-gates/)|[Walls and Gates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WallsAndGates.java)|true|
 |287|Undefined|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Find the Duplicate Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindDuplicateNumber.java)|false|
-|289|Undefined|[Game of Life](https://leetcode.com/problems/game-of-life/)|[Game of Life.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GameOfLife.java)|false|
+|289|Medium|[Game of Life](https://leetcode.com/problems/game-of-life/)|[Game of Life.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GameOfLife.java)|false|
 |290|Undefined|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Word Pattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordPattern.java)|false|
 |292|Undefined|[Nim Game](https://leetcode.com/problems/nim-game/)|[Nim Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NimGame.java)|false|
 |293|Easy|[Flip Game](https://leetcode.com/problems/flip-game/)|[Flip Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlipGame.java)|true|
@@ -1182,6 +1182,7 @@ Count of solved tasks: 1076
 |277|Medium|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/)|[Find the Celebrity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheCelebrity.java)|true|
 |281|Medium|[Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/)|[Zigzag Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ZigzagIterator.java)|true|
 |286|Medium|[Walls and Gates](https://leetcode.com/problems/walls-and-gates/)|[Walls and Gates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WallsAndGates.java)|true|
+|289|Medium|[Game of Life](https://leetcode.com/problems/game-of-life/)|[Game of Life.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GameOfLife.java)|false|
 |294|Medium|[Flip Game II](https://leetcode.com/problems/flip-game-ii/)|[Flip Game II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlipGameII.java)|true|
 |298|Medium|[Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)|[Binary Tree Longest Consecutive Sequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeLongestConsecutiveSequence.java)|true|
 |304|Medium|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Range Sum Query 2D - Immutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQuery2DImmutable.java)|false|
