@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1075
+Count of solved tasks: 1076
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -233,6 +233,7 @@ Count of solved tasks: 1075
 |290|Undefined|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Word Pattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordPattern.java)|false|
 |292|Undefined|[Nim Game](https://leetcode.com/problems/nim-game/)|[Nim Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NimGame.java)|false|
 |293|Easy|[Flip Game](https://leetcode.com/problems/flip-game/)|[Flip Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlipGame.java)|true|
+|294|Medium|[Flip Game II](https://leetcode.com/problems/flip-game-ii/)|[Flip Game II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlipGameII.java)|true|
 |295|Undefined|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[Find Median from Data Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindMedianFromDataStream.java)|false|
 |297|Undefined|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[Serialize and Deserialize Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SerializeAndDeserializeBinaryTree.java)|false|
 |298|Medium|[Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)|[Binary Tree Longest Consecutive Sequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeLongestConsecutiveSequence.java)|true|
@@ -1181,6 +1182,7 @@ Count of solved tasks: 1075
 |277|Medium|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/)|[Find the Celebrity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheCelebrity.java)|true|
 |281|Medium|[Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/)|[Zigzag Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ZigzagIterator.java)|true|
 |286|Medium|[Walls and Gates](https://leetcode.com/problems/walls-and-gates/)|[Walls and Gates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WallsAndGates.java)|true|
+|294|Medium|[Flip Game II](https://leetcode.com/problems/flip-game-ii/)|[Flip Game II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlipGameII.java)|true|
 |298|Medium|[Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)|[Binary Tree Longest Consecutive Sequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeLongestConsecutiveSequence.java)|true|
 |304|Medium|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Range Sum Query 2D - Immutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQuery2DImmutable.java)|false|
 |307|Medium|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[Range Sum Query - Mutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQueryMutable.java)|false|
