@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1077
+Count of solved tasks: 1078
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -439,6 +439,7 @@ Count of solved tasks: 1077
 |594|Undefined|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Longest Harmonious Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestHarmoniousSubsequence.java)|false|
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[Range Addition II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)|false|
 |599|Undefined|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)|[Minimum Index Sum of Two Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumIndexSumOfTwoLists.java)|false|
+|604|Easy|[Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator/)|[Design Compressed String Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignCompressedStringIterator.java)|true|
 |605|Easy|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Can Place Flowers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanPlaceFlowers.java)|false|
 |606|Undefined|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[Construct String from Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructStringFromBinaryTree.java)|false|
 |609|Undefined|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|[Find Duplicate File in System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindDuplicateFileInSystem.java)|false|
@@ -1110,6 +1111,7 @@ Count of solved tasks: 1077
 |408|Easy|[Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)|[Valid Word Abbreviation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidWordAbbreviation.java)|true|
 |422|Easy|[Valid Word Square](https://leetcode.com/problems/valid-word-square/)|[Valid Word Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidWordSquare.java)|true|
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[Range Addition II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)|false|
+|604|Easy|[Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator/)|[Design Compressed String Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignCompressedStringIterator.java)|true|
 |605|Easy|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Can Place Flowers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanPlaceFlowers.java)|false|
 |716|Easy|[Max Stack](https://leetcode.com/problems/max-stack/)|[Max Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxStack.java)|true|
 |734|Easy|[Sentence Similarity](https://leetcode.com/problems/sentence-similarity/)|[Sentence Similarity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SentenceSimilarity.java)|true|
