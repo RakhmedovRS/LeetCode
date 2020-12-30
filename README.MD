@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1076
+Count of solved tasks: 1077
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1056,6 +1056,7 @@ Count of solved tasks: 1076
 |1656|Easy|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|[Design an Ordered Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAnOrderedStream.java)|false|
 |1657|Medium|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[Determine if Two Strings Are Close.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfTwoStringsAreClose.java)|false|
 |1658|Medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Minimum Operations to Reduce X to Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToReduceXToZero.java)|false|
+|1660|Medium|[Correct a Binary Tree](https://leetcode.com/problems/correct-a-binary-tree/)|[Correct a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CorrectBinaryTree.java)|true|
 |1662|Easy|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[Check If Two String Arrays are Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTwoStringArraysAreEquivalent.java)|false|
 |1663|Medium|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|[Smallest String With A Given Numeric Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithGivenNumericValue.java)|false|
 |1664|Medium|[Ways to Make a Fair Array](https://leetcode.com/problems/ways-to-make-a-fair-array/)|[Ways to Make a Fair Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WaysToMakeFairArray.java)|false|
@@ -1273,6 +1274,7 @@ Count of solved tasks: 1076
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[Minimum Deletions to Make String Balanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)|false|
 |1657|Medium|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[Determine if Two Strings Are Close.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfTwoStringsAreClose.java)|false|
 |1658|Medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Minimum Operations to Reduce X to Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToReduceXToZero.java)|false|
+|1660|Medium|[Correct a Binary Tree](https://leetcode.com/problems/correct-a-binary-tree/)|[Correct a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CorrectBinaryTree.java)|true|
 |1663|Medium|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|[Smallest String With A Given Numeric Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithGivenNumericValue.java)|false|
 |1664|Medium|[Ways to Make a Fair Array](https://leetcode.com/problems/ways-to-make-a-fair-array/)|[Ways to Make a Fair Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WaysToMakeFairArray.java)|false|
 |1669|Medium|[Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|[Merge In Between Linked Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeInBetweenLinkedLists.java)|false|
