@@ -77,7 +77,7 @@ Count of solved tasks: 1078
 |79|Undefined|[Word Search](https://leetcode.com/problems/word-search/)|[Word Search.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordSearch.java)|false|
 |80|Medium|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Remove Duplicates from Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveDuplicatesFromSortedArrayII.java)|false|
 |81|Medium|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Search in Rotated Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArrayII.java)|false|
-|82|Undefined|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[Largest Rectangle in Histogram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestRectangleInHistogram.java)|false|
+|82|Hard|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[Largest Rectangle in Histogram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestRectangleInHistogram.java)|false|
 |85|Undefined|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|[Maximal Rectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximalRectangle.java)|false|
 |87|Undefined|[Scramble String](https://leetcode.com/problems/scramble-string/)|[Scramble String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ScrambleString.java)|false|
 |88|Undefined|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Merge Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeSortedArray.java)|false|
@@ -1304,6 +1304,7 @@ Count of solved tasks: 1078
 | LeetCode ID | Difficulty  | Name           | Solution       | Premium  |
 |:-----------:|:-----------:|:--------------:|:--------------:|:--------:|
 |41|Hard|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[First Missing Positive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstMissingPositive.java)|false|
+|82|Hard|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[Largest Rectangle in Histogram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestRectangleInHistogram.java)|false|
 |158|Hard|[Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)|[Read N Characters Given Read4 II - Call multiple times.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReadNCharactersGivenRead4IICallMultipleTimes.java)|true|
 |214|Hard|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|[Shortest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPalindrome.java)|false|
 |218|Hard|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[The Skyline Problem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheSkylineProblem.java)|false|
