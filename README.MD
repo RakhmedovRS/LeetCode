@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1078
+Count of solved tasks: 1079
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -210,6 +210,7 @@ Count of solved tasks: 1078
 |250|Medium|[Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/)|[Count Univalue Subtrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountUnivalueSubtrees.java)|true|
 |251|Medium|[Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/)|[Flatten 2D Vector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Flatten2DVector.java)|true|
 |252|Easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Meeting Rooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeetingRooms.java)|true|
+|253|Medium|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|[Meeting Rooms II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeetingRoomsII.java)|true|
 |257|Undefined|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Binary Tree Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePaths.java)|false|
 |258|Undefined|[Add Digits](https://leetcode.com/problems/add-digits/)|[Add Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddDigits.java)|false|
 |260|Undefined|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[Single Number III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleNumberIII.java)|false|
@@ -1181,6 +1182,7 @@ Count of solved tasks: 1078
 |245|Medium|[Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/)|[Shortest Word Distance III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestWordDistanceIII.java)|true|
 |250|Medium|[Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/)|[Count Univalue Subtrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountUnivalueSubtrees.java)|true|
 |251|Medium|[Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/)|[Flatten 2D Vector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Flatten2DVector.java)|true|
+|253|Medium|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|[Meeting Rooms II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeetingRoomsII.java)|true|
 |270|Medium|[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)|[Closest Binary Search Tree Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestBinarySearchTreeValue.java)|true|
 |277|Medium|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/)|[Find the Celebrity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheCelebrity.java)|true|
 |281|Medium|[Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/)|[Zigzag Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ZigzagIterator.java)|true|
