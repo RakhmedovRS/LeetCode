@@ -16,22 +16,28 @@ public class PalindromePermutation
 {
 	public boolean canPermutePalindrome(String s)
 	{
-		int[] table = new int[Character.MAX_VALUE];
+		int[] table = new int[Character.MAX_VALUE + 1];
 		for (char ch : s.toCharArray())
 		{
 			table[ch]++;
 		}
 
-		boolean unpaired = false;
-		for (int c : table)
+		return canPermutePalindrome(table);
+	}
+
+	private boolean canPermutePalindrome(int[] table)
+	{
+		boolean seenOdd = false;
+		for (int count : table)
 		{
-			if (c % 2 != 0)
+			if (count % 2 == 1)
 			{
-				if (unpaired)
+				if (seenOdd)
 				{
 					return false;
 				}
-				unpaired = true;
+
+				seenOdd = true;
 			}
 		}
 
