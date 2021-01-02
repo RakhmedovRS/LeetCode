@@ -17,17 +17,32 @@ import java.util.Set;
 )
 public class NumberOfDistinctSubstringsInString
 {
+	class Trie
+	{
+		Trie[] children = new Trie[26];
+	}
+
 	public int countDistinct(String s)
 	{
-		Set<String> set = new HashSet<>();
+		Trie root = new Trie();
+		Trie current;
+		int count = 0;
 		for (int i = 0; i < s.length(); i++)
 		{
+			current = root;
 			for (int j = i; j < s.length(); j++)
 			{
-				set.add(s.substring(i, j + 1));
+
+				if (current.children[s.charAt(j) - 'a'] == null)
+				{
+					current.children[s.charAt(j) - 'a'] = new Trie();
+					count++;
+				}
+
+				current = current.children[s.charAt(j) - 'a'];
 			}
 		}
 
-		return set.size();
+		return count;
 	}
 }
