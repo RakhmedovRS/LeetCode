@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1081
+Count of solved tasks: 1082
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1053,6 +1053,7 @@ Count of solved tasks: 1081
 |1642|Undefined|[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|[Furthest Building You Can Reach.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FurthestBuildingYouCanReach.java)|false|
 |1646|Undefined|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|[Get Maximum in Generated Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GetMaximumInGeneratedArray.java)|false|
 |1647|Undefined|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)|[Minimum Deletions to Make Character Frequencies Unique.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeCharacterFrequenciesUnique.java)|false|
+|1650|Medium|[Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)|[Lowest Common Ancestor of a Binary Tree III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfBinaryTreeIII.java)|true|
 |1652|Easy|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[Defuse the Bomb.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefuseTheBomb.java)|false|
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[Minimum Deletions to Make String Balanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)|false|
 |1656|Easy|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|[Design an Ordered Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAnOrderedStream.java)|false|
@@ -1279,6 +1280,7 @@ Count of solved tasks: 1081
 |1554|Medium|[Strings Differ by One Character](https://leetcode.com/problems/strings-differ-by-one-character/)|[Strings Differ by One Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringsDifferByOneCharacter.java)|true|
 |1602|Medium|[Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)|[Find Nearest Right Node in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNearestRightNodeInBinaryTree.java)|true|
 |1612|Medium|[Check If Two Expression Trees are Equivalent](https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/)|[Check If Two Expression Trees are Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTwoExpressionTreesAreEquivalent.java)|true|
+|1650|Medium|[Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)|[Lowest Common Ancestor of a Binary Tree III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfBinaryTreeIII.java)|true|
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[Minimum Deletions to Make String Balanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)|false|
 |1657|Medium|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[Determine if Two Strings Are Close.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfTwoStringsAreClose.java)|false|
 |1658|Medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Minimum Operations to Reduce X to Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToReduceXToZero.java)|false|
