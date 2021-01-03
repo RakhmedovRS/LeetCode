@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1086
+Count of solved tasks: 1087
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -819,6 +819,7 @@ Count of solved tasks: 1086
 |1237|Undefined|[Find Positive Integer Solution for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/)|[Find Positive Integer Solution for a Given Equation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindPositiveIntegerSolutionForGivenEquation.java)|false|
 |1239|Undefined|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)|[Maximum Length of a Concatenated String with Unique Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfConcatenatedStringWithUniqueCharacters.java)|false|
 |1242|Medium|[Web Crawler Multithreaded](https://leetcode.com/problems/web-crawler-multithreaded/)|[Web Crawler Multithreaded.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WebCrawlerMultithreaded.java)|true|
+|1243|Easy|[Array Transformation](https://leetcode.com/problems/array-transformation/)|[Array Transformation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArrayTransformation.java)|true|
 |1244|Medium|[Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/)|[Design A Leaderboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignLeaderboard.java)|true|
 |1247|Undefined|[Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/)|[Minimum Swaps to Make Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSwapsToMakeStringsEqual.java)|false|
 |1249|Undefined|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Minimum Remove to Make Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumRemoveToMakeValidParentheses.java)|false|
@@ -1148,6 +1149,7 @@ Count of solved tasks: 1086
 |1196|Easy|[How Many Apples Can You Put into the Basket](https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket/)|[How Many Apples Can You Put into the Basket.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HowManyApplesCanYouPutIntoTheBasket.java)|true|
 |1213|Easy|[Intersection of Three Sorted Arrays](https://leetcode.com/problems/intersection-of-three-sorted-arrays/)|[Intersection of Three Sorted Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntersectionOfThreeSortedArrays.java)|true|
 |1228|Easy|[Missing Number In Arithmetic Progression](https://leetcode.com/problems/missing-number-in-arithmetic-progression/)|[Missing Number In Arithmetic Progression.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumberInArithmeticProgression.java)|true|
+|1243|Easy|[Array Transformation](https://leetcode.com/problems/array-transformation/)|[Array Transformation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArrayTransformation.java)|true|
 |1271|Easy|[Hexspeak](https://leetcode.com/problems/hexspeak/)|[Hexspeak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HexSpeak.java)|true|
 |1275|Easy|[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)|[Find Winner on a Tic Tac Toe Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindWinnerOnTicTacToeGame.java)|true|
 |1469|Easy|[Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)|[Find All The Lonely Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAllTheLonelyNodes.java)|true|
