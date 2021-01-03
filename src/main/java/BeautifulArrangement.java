@@ -13,30 +13,29 @@ import common.LeetCode;
 )
 public class BeautifulArrangement
 {
-	public int countArrangement(int N)
+	public int countArrangement(int n)
 	{
-		int[] count = {0};
-		boolean[] used = new boolean[N + 1];
-		dfs(1, used, N, count);
-		return count[0];
+		boolean[] used = new boolean[16];
+		return dfs(1, used, n);
 	}
 
-	private void dfs(int pos, boolean[] used, int N, int[] count)
+	private int dfs(int pos, boolean[] used, int n)
 	{
-		if (pos > N)
+		if (pos > n)
 		{
-			count[0]++;
-			return;
+			return 1;
 		}
 
-		for (int val = 1; val <= N; val++)
+		int count = 0;
+		for (int i = 1; i <= n; i++)
 		{
-			if (!used[val] && (val % pos == 0 || pos % val == 0))
+			if (!used[i] && (i % pos  ==0 || pos % i ==0))
 			{
-				used[val] = true;
-				dfs(pos + 1, used, N, count);
-				used[val] = false;
+				used[i] = true;
+				count += dfs(pos + 1, used, n);
+				used[i] = false;
 			}
 		}
+		return count;
 	}
 }
