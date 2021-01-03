@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1083
+Count of solved tasks: 1084
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1089,7 +1089,8 @@ Count of solved tasks: 1083
 |1704|Easy|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|[Determine if String Halves Are Alike.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfStringHalvesAreAlike.java)|false|
 |1705|Medium|[Maximum Number of Eaten Apples](https://leetcode.com/problems/maximum-number-of-eaten-apples/)|[Maximum Number of Eaten Apples.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfEatenApples.java)|false|
 |1706|Medium|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|[Where Will the Ball Fall.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WhereWillTheBallFall.java)|false|
-|1708|Medium|[Largest Subarray Length K](https://leetcode.com/problems/largest-subarray-length-k/)|[Largest Subarray Length K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestSubarrayLengthK.java)|true|</p>
+|1708|Medium|[Largest Subarray Length K](https://leetcode.com/problems/largest-subarray-length-k/)|[Largest Subarray Length K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestSubarrayLengthK.java)|true|
+|1710|Easy|[Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|[Maximum Units on a Truck.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumUnitsOnTruck.java)|false|</p>
 </details>
 
 <details>
@@ -1159,7 +1160,8 @@ Count of solved tasks: 1083
 |1688|Easy|[Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|[Count of Matches in Tournament.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountOfMatchesInTournament.java)|false|
 |1694|Easy|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|[Reformat Phone Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReformatPhoneNumber.java)|false|
 |1700|Easy|[Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)|[Number of Students Unable to Eat Lunch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfStudentsUnableToEatLunch.java)|false|
-|1704|Easy|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|[Determine if String Halves Are Alike.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfStringHalvesAreAlike.java)|false|</p>
+|1704|Easy|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|[Determine if String Halves Are Alike.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfStringHalvesAreAlike.java)|false|
+|1710|Easy|[Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|[Maximum Units on a Truck.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumUnitsOnTruck.java)|false|</p>
 </details>
 
 <details>
