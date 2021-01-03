@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1085
+Count of solved tasks: 1086
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1036,6 +1036,7 @@ Count of solved tasks: 1085
 |1614|Undefined|[Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)|[Maximum Nesting Depth of the Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNestingDepthOfTheParentheses.java)|false|
 |1615|Undefined|[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|[Maximal Network Rank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximalNetworkRank.java)|false|
 |1616|Undefined|[Split Two Strings to Make Palindrome](https://leetcode.com/problems/split-two-strings-to-make-palindrome/)|[Split Two Strings to Make Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitTwoStringsToMakePalindrome.java)|false|
+|1618|Medium|[Maximum Font to Fit a Sentence in a Screen](https://leetcode.com/problems/maximum-font-to-fit-a-sentence-in-a-screen/)|[Maximum Font to Fit a Sentence in a Screen.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumFontToFitSentenceInScreen.java)|true|
 |1619|Undefined|[Mean of Array After Removing Some Elements](https://leetcode.com/problems/mean-of-array-after-removing-some-elements/)|[Mean of Array After Removing Some Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeanIOfArrayAfterRemovingSomeElements.java)|false|
 |1620|Undefined|[Coordinate With Maximum Network Quality](https://leetcode.com/problems/coordinate-with-maximum-network-quality/)|[Coordinate With Maximum Network Quality.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CoordinateWithMaximumNetworkQuality.java)|false|
 |1624|Undefined|[Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/)|[Largest Substring Between Two Equal Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestSubstringBetweenTwoEqualCharacters.java)|false|
@@ -1284,6 +1285,7 @@ Count of solved tasks: 1085
 |1554|Medium|[Strings Differ by One Character](https://leetcode.com/problems/strings-differ-by-one-character/)|[Strings Differ by One Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringsDifferByOneCharacter.java)|true|
 |1602|Medium|[Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)|[Find Nearest Right Node in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNearestRightNodeInBinaryTree.java)|true|
 |1612|Medium|[Check If Two Expression Trees are Equivalent](https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/)|[Check If Two Expression Trees are Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTwoExpressionTreesAreEquivalent.java)|true|
+|1618|Medium|[Maximum Font to Fit a Sentence in a Screen](https://leetcode.com/problems/maximum-font-to-fit-a-sentence-in-a-screen/)|[Maximum Font to Fit a Sentence in a Screen.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumFontToFitSentenceInScreen.java)|true|
 |1644|Medium|[Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)|[Lowest Common Ancestor of a Binary Tree II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfBinaryTreeII.java)|true|
 |1650|Medium|[Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)|[Lowest Common Ancestor of a Binary Tree III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfBinaryTreeIII.java)|true|
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[Minimum Deletions to Make String Balanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)|false|
