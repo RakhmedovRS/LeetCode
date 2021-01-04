@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1088
+Count of solved tasks: 1089
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -915,6 +915,7 @@ Count of solved tasks: 1088
 |1404|Undefined|[Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)|[Number of Steps to Reduce a Number in Binary Representation to One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfStepsToReduceNumberInBinaryRepresentationToOne.java)|false|
 |1405|Undefined|[Longest Happy String](https://leetcode.com/problems/longest-happy-string/)|[Longest Happy String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestHappyString.java)|false|
 |1408|Undefined|[String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)|[String Matching in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringMatchingInArray.java)|false|
+|1409|Medium|[Queries on a Permutation With Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/)|[Queries on a Permutation With Key.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueriesOnPermutationWithKey.java)|false|
 |1413|Undefined|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|[Minimum Value to Get Positive Step by Step Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumValueoToGetPositiveStepByStepSum.java)|false|
 |1414|Undefined|[Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)|[Find the Minimum Number of Fibonacci Numbers Whose Sum Is K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheMinimumNumberOfFibonacciNumbersWhoseSumIsK.java)|false|
 |1416|Undefined|[Restore The Array](https://leetcode.com/problems/restore-the-array/)|[Restore The Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RestoreTheArray.java)|false|
@@ -1277,6 +1278,7 @@ Count of solved tasks: 1088
 |1352|Medium|[Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/)|[Product of the Last K Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ProductOfTheLastKNumbers.java)|false|
 |1371|Medium|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|[Find the Longest Substring Containing Vowels in Even Counts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindtheLongestSubstringContainingVowelsInEvenCounts.java)|false|
 |1379|Medium|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCorrespondingNodeOfBinaryTreeInCloneOfThatTree.java)|false|
+|1409|Medium|[Queries on a Permutation With Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/)|[Queries on a Permutation With Key.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueriesOnPermutationWithKey.java)|false|
 |1433|Medium|[Check If a String Can Break Another String](https://leetcode.com/problems/check-if-a-string-can-break-another-string/)|[Check If a String Can Break Another String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfStringCanBreakAnotherString.java)|false|
 |1443|Medium|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|[Minimum Time to Collect All Apples in a Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeToCollectAllApplesInTree.java)|false|
 |1457|Medium|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|[Pseudo-Palindromic Paths in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PseudoPalindromicPathsInBinaryTree.java)|false|
