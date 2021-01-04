@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1090
+Count of solved tasks: 1091
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -527,6 +527,7 @@ Count of solved tasks: 1090
 |753|Undefined|[Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/)|[Cracking the Safe.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CrackingTheSafe.java)|false|
 |754|Medium|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|[Reach a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReachNumber.java)|false|
 |758|Easy|[Bold Words in String](https://leetcode.com/problems/bold-words-in-string/)|[Bold Words in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BoldWordsInString.java)|true|
+|760|Easy|[Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/)|[Find Anagram Mappings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAnagramMappings.java)|true|
 |762|Undefined|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|[Prime Number of Set Bits in Binary Representation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrimeNumberOfSetBitsInBinaryRepresentation.java)|false|
 |763|Undefined|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Partition Labels.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionLabels.java)|false|
 |764|Undefined|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/)|[Largest Plus Sign.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestPlusSign.java)|false|
@@ -1129,6 +1130,7 @@ Count of solved tasks: 1090
 |716|Easy|[Max Stack](https://leetcode.com/problems/max-stack/)|[Max Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxStack.java)|true|
 |734|Easy|[Sentence Similarity](https://leetcode.com/problems/sentence-similarity/)|[Sentence Similarity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SentenceSimilarity.java)|true|
 |758|Easy|[Bold Words in String](https://leetcode.com/problems/bold-words-in-string/)|[Bold Words in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BoldWordsInString.java)|true|
+|760|Easy|[Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/)|[Find Anagram Mappings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAnagramMappings.java)|true|
 |804|Easy|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Unique Morse Code Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueMorseCodeWords.java)|false|
 |893|Easy|[Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/)|[Groups of Special-Equivalent Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GroupsOfSpecialEquivalentStrings.java)|false|
 |897|Easy|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[Increasing Order Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingOrderSearchTree.java)|false|
