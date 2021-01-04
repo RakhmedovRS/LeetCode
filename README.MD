@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1087
+Count of solved tasks: 1088
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1007,6 +1007,7 @@ Count of solved tasks: 1087
 |1563|Undefined|[Stone Game V](https://leetcode.com/problems/stone-game-v/)|[Stone Game V.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StoneGameV.java)|false|
 |1566|Undefined|[Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)|[Detect Pattern of Length M Repeated K or More Times.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetectPatternOfLengthMRepeatedKOrMoreTimes.java)|false|
 |1567|Undefined|[Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|[Maximum Length of Subarray With Positive Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfSubarrayWithPositiveProduct.java)|false|
+|1570|Medium|[Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)|[Dot Product of Two Sparse Vectors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DotProductOfTwoSparseVectors.java)|false|
 |1572|Undefined|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[Matrix Diagonal Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MatrixDiagonalSum.java)|false|
 |1573|Undefined|[Number of Ways to Split a String](https://leetcode.com/problems/number-of-ways-to-split-a-string/)|[Number of Ways to Split a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfWaysToSplitString.java)|false|
 |1576|Undefined|[Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)|[Replace All ?'s to Avoid Consecutive Repeating Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceAllQuestionsToAvoidConsecutiveRepeatingCharacters.java)|false|
@@ -1286,6 +1287,7 @@ Count of solved tasks: 1087
 |1506|Medium|[Find Root of N-Ary Tree](https://leetcode.com/problems/find-root-of-n-ary-tree/)|[Find Root of N-Ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindRootOfNAryTree.java)|true|
 |1533|Medium|[Find the Index of the Large Integer](https://leetcode.com/problems/find-the-index-of-the-large-integer/)|[Find the Index of the Large Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheIndexOfTheLargeInteger.java)|true|
 |1554|Medium|[Strings Differ by One Character](https://leetcode.com/problems/strings-differ-by-one-character/)|[Strings Differ by One Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringsDifferByOneCharacter.java)|true|
+|1570|Medium|[Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)|[Dot Product of Two Sparse Vectors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DotProductOfTwoSparseVectors.java)|false|
 |1602|Medium|[Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)|[Find Nearest Right Node in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNearestRightNodeInBinaryTree.java)|true|
 |1612|Medium|[Check If Two Expression Trees are Equivalent](https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/)|[Check If Two Expression Trees are Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTwoExpressionTreesAreEquivalent.java)|true|
 |1618|Medium|[Maximum Font to Fit a Sentence in a Screen](https://leetcode.com/problems/maximum-font-to-fit-a-sentence-in-a-screen/)|[Maximum Font to Fit a Sentence in a Screen.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumFontToFitSentenceInScreen.java)|true|
