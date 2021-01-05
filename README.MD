@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1093
+Count of solved tasks: 1094
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1052,6 +1052,7 @@ Count of solved tasks: 1093
 |1629|Undefined|[Slowest Key](https://leetcode.com/problems/slowest-key/)|[Slowest Key.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SlowestKey.java)|false|
 |1630|Undefined|[Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)|[Arithmetic Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArithmeticSubarrays.java)|false|
 |1631|Undefined|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|[Path With Minimum Effort.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathWithMinimumEffort.java)|false|
+|1634|Medium|[Add Two Polynomials Represented as Linked Lists](https://leetcode.com/problems/add-two-polynomials-represented-as-linked-lists/)|[Add Two Polynomials Represented as Linked Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddTwoPolynomialsRepresentedAsLinkedLists.java)|true|
 |1636|Undefined|[Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)|[Sort Array by Increasing Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortArrayByIncreasingFrequency.java)|false|
 |1637|Undefined|[Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/)|[Widest Vertical Area Between Two Points Containing No Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WidestVerticaAreaBetweenTwoPointsContainingNoPoints.java)|false|
 |1638|Undefined|[Count Substrings That Differ by One Character](https://leetcode.com/problems/count-substrings-that-differ-by-one-character/)|[Count Substrings That Differ by One Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSubstringsThatDifferByOneCharacter.java)|false|
@@ -1301,6 +1302,7 @@ Count of solved tasks: 1093
 |1602|Medium|[Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)|[Find Nearest Right Node in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNearestRightNodeInBinaryTree.java)|true|
 |1612|Medium|[Check If Two Expression Trees are Equivalent](https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/)|[Check If Two Expression Trees are Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTwoExpressionTreesAreEquivalent.java)|true|
 |1618|Medium|[Maximum Font to Fit a Sentence in a Screen](https://leetcode.com/problems/maximum-font-to-fit-a-sentence-in-a-screen/)|[Maximum Font to Fit a Sentence in a Screen.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumFontToFitSentenceInScreen.java)|true|
+|1634|Medium|[Add Two Polynomials Represented as Linked Lists](https://leetcode.com/problems/add-two-polynomials-represented-as-linked-lists/)|[Add Two Polynomials Represented as Linked Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddTwoPolynomialsRepresentedAsLinkedLists.java)|true|
 |1644|Medium|[Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)|[Lowest Common Ancestor of a Binary Tree II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfBinaryTreeII.java)|true|
 |1650|Medium|[Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)|[Lowest Common Ancestor of a Binary Tree III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfBinaryTreeIII.java)|true|
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[Minimum Deletions to Make String Balanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)|false|
