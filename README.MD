@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1095
+Count of solved tasks: 1096
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -431,6 +431,7 @@ Count of solved tasks: 1095
 |566|Undefined|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Reshape the Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReshapeTheMatrix.java)|false|
 |567|Undefined|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Permutation in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PermutationInString.java)|false|
 |572|Undefined|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Subtree of Another Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubtreeOfAnotherTree.java)|false|
+|575|Easy|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Distribute Candies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistributeCandies.java)|true|
 |576|Undefined|[Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)|[Out of Boundary Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OutOfBoundaryPaths.java)|false|
 |583|Undefined|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Delete Operation for Two Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteOperationForTwoStrings.java)|false|
 |588|Hard|[Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/)|[Design In-Memory File System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignInMemoryFileSystem.java)|true|
@@ -1128,6 +1129,7 @@ Count of solved tasks: 1095
 |359|Easy|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)|[Logger Rate Limiter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LoggerRateLimiter.java)|true|
 |408|Easy|[Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)|[Valid Word Abbreviation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidWordAbbreviation.java)|true|
 |422|Easy|[Valid Word Square](https://leetcode.com/problems/valid-word-square/)|[Valid Word Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidWordSquare.java)|true|
+|575|Easy|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Distribute Candies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistributeCandies.java)|true|
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[Range Addition II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)|false|
 |604|Easy|[Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator/)|[Design Compressed String Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignCompressedStringIterator.java)|true|
 |605|Easy|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Can Place Flowers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanPlaceFlowers.java)|false|
