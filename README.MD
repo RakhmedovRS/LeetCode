@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1092
+Count of solved tasks: 1093
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -954,6 +954,7 @@ Count of solved tasks: 1092
 |1470|Undefined|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|[Shuffle the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShuffleTheArray.java)|false|
 |1471|Medium|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|[The k Strongest Values in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKStrongestValuesInArray.java)|false|
 |1472|Undefined|[Design Browser History](https://leetcode.com/problems/design-browser-history/)|[Design Browser History.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignBrowserHistory.java)|false|
+|1474|Easy|[Delete N Nodes After M Nodes of a Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/)|[Delete N Nodes After M Nodes of a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteNNodesAfterMNodesOfLinkedList.java)|true|
 |1475|Undefined|[Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)|[Final Prices With a Special Discount in a Shop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FinalPricesWithSpecialDiscountInShop.java)|false|
 |1476|Undefined|[Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/)|[Subrectangle Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubrectangleQueries.java)|false|
 |1480|Undefined|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Running Sum of 1d Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RunningSumOf1dArray.java)|false|
@@ -1160,6 +1161,7 @@ Count of solved tasks: 1092
 |1271|Easy|[Hexspeak](https://leetcode.com/problems/hexspeak/)|[Hexspeak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HexSpeak.java)|true|
 |1275|Easy|[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)|[Find Winner on a Tic Tac Toe Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindWinnerOnTicTacToeGame.java)|true|
 |1469|Easy|[Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)|[Find All The Lonely Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAllTheLonelyNodes.java)|true|
+|1474|Easy|[Delete N Nodes After M Nodes of a Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/)|[Delete N Nodes After M Nodes of a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteNNodesAfterMNodesOfLinkedList.java)|true|
 |1640|Easy|[Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/)|[Check Array Formation Through Concatenation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckArrayFormationThroughConcatenation.java)|false|
 |1652|Easy|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[Defuse the Bomb.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefuseTheBomb.java)|false|
 |1656|Easy|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|[Design an Ordered Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAnOrderedStream.java)|false|
