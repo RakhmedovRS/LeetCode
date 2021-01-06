@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1097
+Count of solved tasks: 1098
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -831,6 +831,7 @@ Count of solved tasks: 1097
 |1249|Undefined|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Minimum Remove to Make Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumRemoveToMakeValidParentheses.java)|false|
 |1253|Undefined|[Reconstruct a 2-Row Binary Matrix](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/)|[Reconstruct a 2-Row Binary Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Reconstruct2RowBinaryMatrix.java)|false|
 |1255|Undefined|[Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/)|[Maximum Score Words Formed by Letters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumScoreWordsFormedByLetters.java)|false|
+|1256|Medium|[Encode Number](https://leetcode.com/problems/encode-number/)|[Encode Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EncodeNumber.java)|true|
 |1260|Undefined|[Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)|[Shift 2D Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Shift2DGrid.java)|false|
 |1261|Undefined|[Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/)|[Find Elements in a Contaminated Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindElementsInContaminatedBinaryTree.java)|false|
 |1262|Undefined|[Greatest Sum Divisible by Three](https://leetcode.com/problems/greatest-sum-divisible-by-three/)|[Greatest Sum Divisible by Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GreatestSumDivisibleByThree.java)|false|
@@ -1284,6 +1285,7 @@ Count of solved tasks: 1097
 |1236|Medium|[Web Crawler](https://leetcode.com/problems/web-crawler/)|[Web Crawler.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WebCrawler.java)|true|
 |1242|Medium|[Web Crawler Multithreaded](https://leetcode.com/problems/web-crawler-multithreaded/)|[Web Crawler Multithreaded.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WebCrawlerMultithreaded.java)|true|
 |1244|Medium|[Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/)|[Design A Leaderboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignLeaderboard.java)|true|
+|1256|Medium|[Encode Number](https://leetcode.com/problems/encode-number/)|[Encode Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EncodeNumber.java)|true|
 |1265|Medium|[Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/)|[Print Immutable Linked List in Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintImmutableLinkedListInReverse.java)|true|
 |1267|Medium|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|[Count Servers that Communicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountServersThatCommunicate.java)|false|
 |1272|Medium|[Remove Interval](https://leetcode.com/problems/remove-interval/)|[Remove Interval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveInterval.java)|true|
