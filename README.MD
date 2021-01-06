@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1096
+Count of solved tasks: 1097
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -809,6 +809,7 @@ Count of solved tasks: 1096
 |1209|Undefined|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[Remove All Adjacent Duplicates in String II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveAllAdjacentDuplicatesInStringII.java)|false|
 |1213|Easy|[Intersection of Three Sorted Arrays](https://leetcode.com/problems/intersection-of-three-sorted-arrays/)|[Intersection of Three Sorted Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntersectionOfThreeSortedArrays.java)|true|
 |1214|Medium|[Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|[Two Sum BSTs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumBSTs.java)|true|
+|1216|Hard|[Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii/)|[Valid Palindrome III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidPalindromeIII.java)|true|
 |1217|Undefined|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|[Minimum Cost to Move Chips to The Same Position.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToMoveChipsToTheSamePosition.java)|false|
 |1218|Undefined|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)|[Longest Arithmetic Subsequence of Given Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestArithmeticSubsequenceOfGivenDifference.java)|false|
 |1219|Undefined|[Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)|[Path with Maximum Gold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathWithMaximumGold.java)|false|
@@ -1359,6 +1360,7 @@ Count of solved tasks: 1096
 |902|Hard|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[Numbers At Most N Given Digit Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumbersAtMostNGivenDigitSet.java)|false|
 |992|Hard|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)|[Subarrays with K Different Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubarraysWithKDifferentIntegers.java)|false|
 |995|Hard|[Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)|[Minimum Number of K Consecutive Bit Flips.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java)|false|
+|1216|Hard|[Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii/)|[Valid Palindrome III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidPalindromeIII.java)|true|
 |1220|Hard|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[Count Vowels Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountVowelsPermutation.java)|false|
 |1235|Hard|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[Maximum Profit in Job Scheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProfitInJobScheduling.java)|false|
 |1345|Hard|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|[Jump Game IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameIV.java)|false|
