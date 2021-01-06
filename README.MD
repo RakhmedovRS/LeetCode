@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1099
+Count of solved tasks: 1100
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1084,6 +1084,7 @@ Count of solved tasks: 1099
 |1672|Easy|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[Richest Customer Wealth.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RichestCustomerWealth.java)|false|
 |1673|Medium|[Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)|[Find the Most Competitive Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheMostCompetitiveSubsequence.java)|false|
 |1674|Medium|[Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/)|[Minimum Moves to Make Array Complementary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumMovesToMakeArrayComplementary.java)|false|
+|1676|Medium|[Lowest Common Ancestor of a Binary Tree IV](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/)|[Lowest Common Ancestor of a Binary Tree IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfBinaryTreeIV.java)|true|
 |1678|Easy|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|[Goal Parser Interpretation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GoalParserInterpretation.java)|false|
 |1679|Medium|[Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)|[Max Number of K-Sum Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxNumberOfKSumPairs.java)|false|
 |1680|Medium|[Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)|[Concatenation of Consecutive Binary Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConcatenationOfConsecutiveBinaryNumbers.java)|false|
@@ -1325,6 +1326,7 @@ Count of solved tasks: 1099
 |1670|Medium|[Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/)|[Design Front Middle Back Queue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignFrontMiddleBackQueue.java)|false|
 |1673|Medium|[Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)|[Find the Most Competitive Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheMostCompetitiveSubsequence.java)|false|
 |1674|Medium|[Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/)|[Minimum Moves to Make Array Complementary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumMovesToMakeArrayComplementary.java)|false|
+|1676|Medium|[Lowest Common Ancestor of a Binary Tree IV](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/)|[Lowest Common Ancestor of a Binary Tree IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfBinaryTreeIV.java)|true|
 |1679|Medium|[Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)|[Max Number of K-Sum Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxNumberOfKSumPairs.java)|false|
 |1680|Medium|[Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)|[Concatenation of Consecutive Binary Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConcatenationOfConsecutiveBinaryNumbers.java)|false|
 |1682|Medium|[Longest Palindromic Subsequence II](https://leetcode.com/problems/longest-palindromic-subsequence-ii/)|[Longest Palindromic Subsequence II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestPalindromicSubsequenceII.java)|true|
