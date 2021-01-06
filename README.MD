@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1098
+Count of solved tasks: 1099
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -560,6 +560,7 @@ Count of solved tasks: 1098
 |814|Undefined|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|[Binary Tree Pruning.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePruning.java)|false|
 |817|Undefined|[Linked List Components](https://leetcode.com/problems/linked-list-components/)|[Linked List Components.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListComponents.java)|false|
 |819|Undefined|[Most Common Word](https://leetcode.com/problems/most-common-word/)|[Most Common Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MostCommonWord.java)|false|
+|820|Medium|[Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)|[Short Encoding of Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortEncodingOfWords.java)|false|
 |821|Undefined|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[Shortest Distance to a Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestDistanceToCharacter.java)|false|
 |822|Undefined|[Card Flipping Game](https://leetcode.com/problems/card-flipping-game/)|[Card Flipping Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CardFlippingGame.java)|false|
 |823|Undefined|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[Binary Trees With Factors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreesWithFactors.java)|false|
@@ -1252,6 +1253,7 @@ Count of solved tasks: 1098
 |742|Medium|[Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/)|[Closest Leaf in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestLeafInBinaryTree.java)|true|
 |754|Medium|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|[Reach a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReachNumber.java)|false|
 |769|Medium|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[Max Chunks To Make Sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxChunksToMakeSorted.java)|false|
+|820|Medium|[Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)|[Short Encoding of Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortEncodingOfWords.java)|false|
 |833|Medium|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|[Find And Replace in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAndReplaceInString.java)|false|
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[Longest Mountain in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)|false|
 |846|Medium|[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)|[Hand of Straights.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HandOfStraights.java)|false|
