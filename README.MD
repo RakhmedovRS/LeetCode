@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1102
+Count of solved tasks: 1103
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -858,6 +858,7 @@ Count of solved tasks: 1102
 |1291|Undefined|[Sequential Digits](https://leetcode.com/problems/sequential-digits/)|[Sequential Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SequentialDigits.java)|false|
 |1295|Undefined|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[Find Numbers with Even Number of Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNumbersWithEvenNumberOfDigits.java)|false|
 |1296|Undefined|[Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)|[Divide Array in Sets of K Consecutive Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DivideArrayInSetsOfKConsecutiveNumbers.java)|false|
+|1297|Medium|[Maximum Number of Occurrences of a Substring](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/)|[Maximum Number of Occurrences of a Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfOccurrencesOfSubstring.java)|false|
 |1299|Undefined|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[Replace Elements with Greatest Element on Right Side.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceElementsWithGreatestElementOnRightSide.java)|false|
 |1305|Undefined|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[All Elements in Two Binary Search Trees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllElementInTwoBinarySearchTrees.java)|false|
 |1305|Undefined|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[All Elements in Two Binary Search Trees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllElementsITwoBinarySearchTrees.java)|false|
@@ -1300,6 +1301,7 @@ Count of solved tasks: 1102
 |1272|Medium|[Remove Interval](https://leetcode.com/problems/remove-interval/)|[Remove Interval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveInterval.java)|true|
 |1273|Medium|[Delete Tree Nodes](https://leetcode.com/problems/delete-tree-nodes/)|[Delete Tree Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteTreeNodes.java)|true|
 |1276|Medium|[Number of Burgers with No Waste of Ingredients](https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/)|[Number of Burgers with No Waste of Ingredients.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfBurgersWithNoWasteOfIngredients.java)|false|
+|1297|Medium|[Maximum Number of Occurrences of a Substring](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/)|[Maximum Number of Occurrences of a Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfOccurrencesOfSubstring.java)|false|
 |1352|Medium|[Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/)|[Product of the Last K Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ProductOfTheLastKNumbers.java)|false|
 |1371|Medium|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|[Find the Longest Substring Containing Vowels in Even Counts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindtheLongestSubstringContainingVowelsInEvenCounts.java)|false|
 |1379|Medium|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCorrespondingNodeOfBinaryTreeInCloneOfThatTree.java)|false|
