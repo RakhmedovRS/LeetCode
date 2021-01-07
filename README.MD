@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1101
+Count of solved tasks: 1102
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -638,6 +638,7 @@ Count of solved tasks: 1101
 |933|Undefined|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[Number of Recent Calls.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfRecentCalls.java)|false|
 |934|Undefined|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)|[Shortest Bridge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestBridge.java)|false|
 |935|Undefined|[Knight Dialer](https://leetcode.com/problems/knight-dialer/)|[Knight Dialer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KnightDialer.java)|false|
+|937|Easy|[Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|[Reorder Data in Log Files.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReorderDataInLogFiles.java)|false|
 |938|Easy|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Range Sum of BST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfBST.java)|false|
 |941|Easy|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Valid Mountain Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidMountainArray.java)|false|
 |942|Undefined|[DI String Match](https://leetcode.com/problems/di-string-match/)|[DI String Match.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DIStringMatch.java)|false|
@@ -1145,6 +1146,7 @@ Count of solved tasks: 1101
 |804|Easy|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Unique Morse Code Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueMorseCodeWords.java)|false|
 |893|Easy|[Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/)|[Groups of Special-Equivalent Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GroupsOfSpecialEquivalentStrings.java)|false|
 |897|Easy|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[Increasing Order Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingOrderSearchTree.java)|false|
+|937|Easy|[Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|[Reorder Data in Log Files.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReorderDataInLogFiles.java)|false|
 |938|Easy|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Range Sum of BST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumOfBST.java)|false|
 |941|Easy|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Valid Mountain Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidMountainArray.java)|false|
 |944|Easy|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|[Delete Columns to Make Sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteColumnsToMakeSorted.java)|true|
