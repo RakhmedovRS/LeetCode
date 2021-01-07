@@ -1,9 +1,6 @@
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @author RakhmedovRS
  * @created 1/7/2021
@@ -16,18 +13,23 @@ import java.util.Map;
 )
 public class MaximumNumberOfOccurrencesOfSubstring
 {
+	class Trie
+	{
+		Trie[] children = new Trie[26];
+		int count;
+	}
+
 	public int maxFreq(String s, int maxLetters, int minSize, int maxSize)
 	{
-		String sub;
 		int count;
 		int[] table;
 		int maxFreq = 0;
-		Map<String, Integer> subToCount;
+		Trie root;
 		char[] chars = s.toCharArray();
 		for (int size = minSize; size <= maxSize; size++)
 		{
 			table = new int[26];
-			subToCount = new HashMap<>();
+			root = new Trie();
 			if (size > chars.length)
 			{
 				break;
@@ -47,10 +49,8 @@ public class MaximumNumberOfOccurrencesOfSubstring
 
 					if (isValidSub(table, maxLetters))
 					{
-						sub = s.substring(left, right + 1);
-						count = subToCount.getOrDefault(sub, 0) + 1;
+						count = addToTrie(root, left,right, chars);
 						maxFreq = Math.max(maxFreq, count);
-						subToCount.put(sub, count);
 					}
 				}
 				right++;
@@ -70,6 +70,24 @@ public class MaximumNumberOfOccurrencesOfSubstring
 			}
 		}
 		return maxLetters >= 0;
+	}
+
+	private int addToTrie(Trie root, int startPos, int endPos, char[] chars)
+	{
+		char ch;
+		while (startPos <= endPos)
+		{
+			ch = chars[startPos++];
+			if (root.children[ch - 'a'] == null)
+			{
+				root.children[ch - 'a'] = new Trie();
+			}
+			root = root.children[ch - 'a'];
+		}
+
+		root.count++;
+
+		return root.count;
 	}
 
 	public static void main(String[] args)
