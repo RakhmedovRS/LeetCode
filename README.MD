@@ -9,7 +9,7 @@ Count of solved tasks: 1100
 |:-----------:|:-----------:|:--------------:|:--------------:|:--------:|
 |1|Undefined|[Two Sum](https://leetcode.com/problems/two-sum/)|[Two Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSum.java)|false|
 |2|Undefined|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Add Two Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddTwoNumbers.java)|false|
-|3|Undefined|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest Substring Without Repeating Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithoutRepeatingCharacters.java)|false|
+|3|Medium|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest Substring Without Repeating Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithoutRepeatingCharacters.java)|false|
 |4|Undefined|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Median of Two Sorted Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MedianOfTwoSortedArrays.java)|false|
 |5|Undefined|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest Palindromic Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestPalindromicSubstring.java)|false|
 |7|Undefined|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Reverse Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseInteger.java)|false|
@@ -1193,6 +1193,7 @@ Count of solved tasks: 1100
 
 | LeetCode ID | Difficulty  | Name           | Solution       | Premium  |
 |:-----------:|:-----------:|:--------------:|:--------------:|:--------:|
+|3|Medium|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest Substring Without Repeating Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithoutRepeatingCharacters.java)|false|
 |24|Medium|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Swap Nodes in Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SwapNodesInPairs.java)|false|
 |33|Medium|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search in Rotated Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArray.java)|false|
 |56|Medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge Intervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeIntervals.java)|false|

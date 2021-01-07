@@ -1,35 +1,57 @@
+import common.Difficulty;
 import common.LeetCode;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 /**
  * @author RakhmedovRS
  * @created 04-Apr-20
  */
-@LeetCode(id = 3, name = "Longest Substring Without Repeating Characters", url = "https://leetcode.com/problems/longest-substring-without-repeating-characters/")
+@LeetCode(
+	id = 3,
+	name = "Longest Substring Without Repeating Characters",
+	url = "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+	difficulty = Difficulty.MEDIUM
+)
 public class LongestSubstringWithoutRepeatingCharacters
 {
 	public int lengthOfLongestSubstring(String s)
 	{
-		if (s == null || s.length() == 0)
-		{
-			return 0;
-		}
-
-		char[] chars = s.toCharArray();
 		int max = 0;
-		Set<Character> set = new HashSet<>();
-		int end = 0;
-		for (int start = 0; start < chars.length; start++)
+		Map<Character, Integer> map = new HashMap<>();
+		int left = 0;
+		int right = 0;
+		int count;
+		char ch;
+		while (right < s.length())
 		{
-			while (end < chars.length && set.add(chars[end]))
+			ch = s.charAt(right);
+			while (right < s.length())
 			{
-				end++;
-				max = Math.max(max, set.size());
+				ch = s.charAt(right++);
+				max = Math.max(max, map.size());
+				count = map.getOrDefault(ch, 0) + 1;
+				map.put(ch, count);
+				if (count > 1)
+				{
+					break;
+				}
 			}
 
-			set.remove(chars[start]);
+			while (map.get(ch) > 1)
+			{
+				count = map.remove(s.charAt(left));
+				if (count > 1)
+				{
+					map.put(s.charAt(left), count - 1);
+				}
+				left++;
+			}
+
+			max = Math.max(max, map.size());
 		}
 
 		return max;
@@ -37,8 +59,10 @@ public class LongestSubstringWithoutRepeatingCharacters
 
 	public static void main(String[] args)
 	{
-		System.out.println(new LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("abcabcbb"));
-		System.out.println(new LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("bbbbb"));
-		System.out.println(new LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("pwwkew"));
+		LongestSubstringWithoutRepeatingCharacters clazz = new LongestSubstringWithoutRepeatingCharacters();
+
+		System.out.println(clazz.lengthOfLongestSubstring("abcabcbb"));
+		System.out.println(clazz.lengthOfLongestSubstring("bbbbb"));
+		System.out.println(clazz.lengthOfLongestSubstring("pwwkew"));
 	}
 }
