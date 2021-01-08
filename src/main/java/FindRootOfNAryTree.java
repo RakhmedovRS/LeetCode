@@ -44,23 +44,23 @@ public class FindRootOfNAryTree
 
 	public Node findRoot(List<Node> tree)
 	{
-		Map<Node, Node> map = new HashMap<>();
+		boolean[] children = new boolean[5 * (int) Math.pow(10, 4) + 1];
 		for (Node node : tree)
 		{
 			for (Node child : node.children)
 			{
-				map.put(child, node);
+				children[child.val] = true;
 			}
 		}
 
-		Node root = tree.get(0);
-		Node parent = root;
-		while (parent != null)
+		for (Node node : tree)
 		{
-			root = parent;
-			parent = map.get(root);
+			if (!children[node.val])
+			{
+				return node;
+			}
 		}
 
-		return root;
+		return null;
 	}
 }
