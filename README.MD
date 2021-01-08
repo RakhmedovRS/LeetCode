@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1105
+Count of solved tasks: 1106
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -14,6 +14,7 @@ Count of solved tasks: 1105
 |5|Undefined|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest Palindromic Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestPalindromicSubstring.java)|false|
 |7|Undefined|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Reverse Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseInteger.java)|false|
 |8|Undefined|[String to Integer](https://leetcode.com/problems/string-to-integer-atoi/)|[String to Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringToInteger.java)|false|
+|9|Easy|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Palindrome Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeNumber.java)|false|
 |10|Undefined|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|[Regular Expression Matching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RegularExpressionMatching.java)|false|
 |11|Undefined|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Container With Most Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainerWithMostWater.java)|false|
 |12|Undefined|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Integer to Roman.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerToRoman.java)|false|
@@ -1120,6 +1121,7 @@ Count of solved tasks: 1105
 
 | LeetCode ID | Difficulty  | Name           | Solution       | Premium  |
 |:-----------:|:-----------:|:--------------:|:--------------:|:--------:|
+|9|Easy|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Palindrome Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeNumber.java)|false|
 |21|Easy|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeTwoSortedLists.java)|false|
 |53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarray.java)|false|
 |103|Easy|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Maximum Depth of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDepthOfBinaryTree.java)|false|
