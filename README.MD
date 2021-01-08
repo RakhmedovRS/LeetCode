@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1106
+Count of solved tasks: 1107
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -29,6 +29,7 @@ Count of solved tasks: 1106
 |22|Undefined|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Generate Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GenerateParentheses.java)|false|
 |23|Undefined|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[Merge k Sorted Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeKSortedLists.java)|false|
 |24|Medium|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Swap Nodes in Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SwapNodesInPairs.java)|false|
+|25|Hard|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[Reverse Nodes in k-Group.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseNodesInKGroup.java)|false|
 |26|Undefined|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Remove Duplicates from Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveDuplicatesFromSortedArray.java)|false|
 |27|Undefined|[Remove Element](https://leetcode.com/problems/remove-element/)|[Remove Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveElement.java)|false|
 |28|Undefined|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Implement strStr().java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImplementStrStr.java)|false|
@@ -1363,6 +1364,7 @@ Count of solved tasks: 1106
 
 | LeetCode ID | Difficulty  | Name           | Solution       | Premium  |
 |:-----------:|:-----------:|:--------------:|:--------------:|:--------:|
+|25|Hard|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[Reverse Nodes in k-Group.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseNodesInKGroup.java)|false|
 |41|Hard|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[First Missing Positive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstMissingPositive.java)|false|
 |82|Hard|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[Largest Rectangle in Histogram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestRectangleInHistogram.java)|false|
 |158|Hard|[Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)|[Read N Characters Given Read4 II - Call multiple times.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReadNCharactersGivenRead4IICallMultipleTimes.java)|true|
