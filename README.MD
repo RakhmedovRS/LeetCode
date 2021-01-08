@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1103
+Count of solved tasks: 1104
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -181,6 +181,7 @@ Count of solved tasks: 1103
 |215|Undefined|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Kth Largest Element in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthLargestElementInAnArray.java)|false|
 |216|Undefined|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Combination Sum III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CombinationSumIII.java)|false|
 |217|Undefined|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Contains Duplicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainsDuplicate.java)|false|
+|217|Medium|[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)|[Encode and Decode Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EncodeAndDecodeStrings.java)|true|
 |218|Hard|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[The Skyline Problem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheSkylineProblem.java)|false|
 |219|Undefined|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Contains Duplicate II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainsDuplicateII.java)|false|
 |220|Undefined|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|[Contains Duplicate III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainsDuplicateIII.java)|false|
@@ -1212,6 +1213,7 @@ Count of solved tasks: 1103
 |159|Medium|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[Longest Substring with At Most Two Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtMostTwoDistinctCharacters.java)|true|
 |161|Medium|[One Edit Distance](https://leetcode.com/problems/one-edit-distance/)|[One Edit Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OneEditDistance.java)|true|
 |173|Medium|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Binary Search Tree Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearchTreeIterator.java)|false|
+|217|Medium|[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)|[Encode and Decode Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EncodeAndDecodeStrings.java)|true|
 |223|Medium|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[Rectangle Area.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RectangleArea.java)|false|
 |227|Medium|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Basic Calculator II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BasicCalculatorII.java)|false|
 |244|Medium|[Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/)|[Shortest Word Distance II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestWordDistanceII.java)|true|
