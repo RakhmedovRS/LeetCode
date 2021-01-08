@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1107
+Count of solved tasks: 1108
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -35,6 +35,7 @@ Count of solved tasks: 1107
 |28|Undefined|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Implement strStr().java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImplementStrStr.java)|false|
 |29|Undefined|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[Divide Two Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DivideTwoIntegers.java)|false|
 |30|Undefined|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|[Substring with Concatenation of All Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubstringWithConcatenationOfAllWords.java)|false|
+|31|Medium|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[Next Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextPermutation.java)|false|
 |32|Undefined|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Longest Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestValidParentheses.java)|false|
 |33|Medium|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search in Rotated Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArray.java)|false|
 |34|Undefined|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Find First and Last Position of Element in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindFirstAndLastPositionOfElementInSortedArray.java)|false|
@@ -1204,6 +1205,7 @@ Count of solved tasks: 1107
 |:-----------:|:-----------:|:--------------:|:--------------:|:--------:|
 |3|Medium|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest Substring Without Repeating Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithoutRepeatingCharacters.java)|false|
 |24|Medium|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Swap Nodes in Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SwapNodesInPairs.java)|false|
+|31|Medium|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[Next Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextPermutation.java)|false|
 |33|Medium|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search in Rotated Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArray.java)|false|
 |56|Medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge Intervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeIntervals.java)|false|
 |59|Medium|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Spiral Matrix II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SpiralMatrixII.java)|false|
