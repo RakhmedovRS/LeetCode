@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1104
+Count of solved tasks: 1105
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1034,6 +1034,7 @@ Count of solved tasks: 1104
 |1585|Undefined|[Check If String Is Transformable With Substring Sort Operations](https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations/)|[Check If String Is Transformable With Substring Sort Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfStringIsTransformableWithSubstringSortOperations.java)|false|
 |1588|Undefined|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[Sum of All Odd Length Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfAllOddLengthSubarrays.java)|false|
 |1589|Undefined|[Maximum Sum Obtained of Any Permutation](https://leetcode.com/problems/maximum-sum-obtained-of-any-permutation/)|[Maximum Sum Obtained of Any Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSumObtainedOfAnyPermutation.java)|false|
+|1590|Medium|[Make Sum Divisible by P](https://leetcode.com/problems/make-sum-divisible-by-p/)|[Make Sum Divisible by P.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MakeSumDivisibleByP.java)|false|
 |1592|Undefined|[Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|[Rearrange Spaces Between Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RearrangeSpacesBetweenWords.java)|false|
 |1593|Undefined|[Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/)|[Split a String Into the Max Number of Unique Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitStringIntoTheMaxNumberOfUniqueSubstrings.java)|false|
 |1594|Undefined|[Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/)|[Maximum Non Negative Product in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNonNegativeProductInMatrix.java)|false|
@@ -1319,6 +1320,7 @@ Count of solved tasks: 1104
 |1533|Medium|[Find the Index of the Large Integer](https://leetcode.com/problems/find-the-index-of-the-large-integer/)|[Find the Index of the Large Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheIndexOfTheLargeInteger.java)|true|
 |1554|Medium|[Strings Differ by One Character](https://leetcode.com/problems/strings-differ-by-one-character/)|[Strings Differ by One Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringsDifferByOneCharacter.java)|true|
 |1570|Medium|[Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)|[Dot Product of Two Sparse Vectors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DotProductOfTwoSparseVectors.java)|false|
+|1590|Medium|[Make Sum Divisible by P](https://leetcode.com/problems/make-sum-divisible-by-p/)|[Make Sum Divisible by P.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MakeSumDivisibleByP.java)|false|
 |1602|Medium|[Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)|[Find Nearest Right Node in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNearestRightNodeInBinaryTree.java)|true|
 |1612|Medium|[Check If Two Expression Trees are Equivalent](https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/)|[Check If Two Expression Trees are Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTwoExpressionTreesAreEquivalent.java)|true|
 |1618|Medium|[Maximum Font to Fit a Sentence in a Screen](https://leetcode.com/problems/maximum-font-to-fit-a-sentence-in-a-screen/)|[Maximum Font to Fit a Sentence in a Screen.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumFontToFitSentenceInScreen.java)|true|
