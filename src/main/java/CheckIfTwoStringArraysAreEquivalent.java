@@ -15,18 +15,16 @@ public class CheckIfTwoStringArraysAreEquivalent
 {
 	public boolean arrayStringsAreEqual(String[] word1, String[] word2)
 	{
-		StringBuilder a = new StringBuilder();
-		for (String word : word1)
-		{
-			a.append(word);
-		}
+		return convertToString(word1).equals(convertToString(word2));
+	}
 
-		StringBuilder b = new StringBuilder();
-		for (String word : word2)
+	private String convertToString(String[] words)
+	{
+		StringBuilder sb = new StringBuilder();
+		for (String word : words)
 		{
-			b.append(word);
+			sb.append(word);
 		}
-
-		return a.toString().equals(b.toString());
+		return sb.toString();
 	}
 }
