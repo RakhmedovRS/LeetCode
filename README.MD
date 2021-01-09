@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1110
+Count of solved tasks: 1111
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1116,6 +1116,7 @@ Count of solved tasks: 1110
 |1708|Medium|[Largest Subarray Length K](https://leetcode.com/problems/largest-subarray-length-k/)|[Largest Subarray Length K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestSubarrayLengthK.java)|true|
 |1710|Easy|[Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|[Maximum Units on a Truck.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumUnitsOnTruck.java)|false|
 |1711|Medium|[Count Good Meals](https://leetcode.com/problems/count-good-meals/)|[Count Good Meals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountGoodMeals.java)|false|
+|1716|Easy|[Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)|[Calculate Money in Leetcode Bank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CalculateMoneyInLeetcodeBank.java)|false|
 |1718|Medium|[Construct the Lexicographically Largest Valid Sequence](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/)|[Construct the Lexicographically Largest Valid Sequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTheLexicographicallyLargestValidSequence.java)|false|</p>
 </details>
 
@@ -1196,7 +1197,8 @@ Count of solved tasks: 1110
 |1694|Easy|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|[Reformat Phone Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReformatPhoneNumber.java)|false|
 |1700|Easy|[Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)|[Number of Students Unable to Eat Lunch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfStudentsUnableToEatLunch.java)|false|
 |1704|Easy|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|[Determine if String Halves Are Alike.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfStringHalvesAreAlike.java)|false|
-|1710|Easy|[Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|[Maximum Units on a Truck.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumUnitsOnTruck.java)|false|</p>
+|1710|Easy|[Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|[Maximum Units on a Truck.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumUnitsOnTruck.java)|false|
+|1716|Easy|[Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)|[Calculate Money in Leetcode Bank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CalculateMoneyInLeetcodeBank.java)|false|</p>
 </details>
 
 <details>
