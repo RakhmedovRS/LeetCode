@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1108
+Count of solved tasks: 1109
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1021,6 +1021,7 @@ Count of solved tasks: 1108
 |1559|Undefined|[Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/)|[Detect Cycles in 2D Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetectCyclesIn2DGrid.java)|false|
 |1560|Undefined|[Most Visited Sector in a Circular Track](https://leetcode.com/problems/most-visited-sector-in-a-circular-track/)|[Most Visited Sector in a Circular Track.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MostVisitedSectorInCircularTrack.java)|false|
 |1561|Undefined|[Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)|[Maximum Number of Coins You Can Get.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfCoinsYouCanGet.java)|false|
+|1562|Medium|[Find Latest Group of Size M](https://leetcode.com/problems/find-latest-group-of-size-m/)|[Find Latest Group of Size M.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLatestGroupOfSizeM.java)|false|
 |1563|Undefined|[Stone Game V](https://leetcode.com/problems/stone-game-v/)|[Stone Game V.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StoneGameV.java)|false|
 |1566|Undefined|[Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)|[Detect Pattern of Length M Repeated K or More Times.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetectPatternOfLengthMRepeatedKOrMoreTimes.java)|false|
 |1567|Undefined|[Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|[Maximum Length of Subarray With Positive Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfSubarrayWithPositiveProduct.java)|false|
@@ -1324,6 +1325,7 @@ Count of solved tasks: 1108
 |1506|Medium|[Find Root of N-Ary Tree](https://leetcode.com/problems/find-root-of-n-ary-tree/)|[Find Root of N-Ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindRootOfNAryTree.java)|true|
 |1533|Medium|[Find the Index of the Large Integer](https://leetcode.com/problems/find-the-index-of-the-large-integer/)|[Find the Index of the Large Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheIndexOfTheLargeInteger.java)|true|
 |1554|Medium|[Strings Differ by One Character](https://leetcode.com/problems/strings-differ-by-one-character/)|[Strings Differ by One Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringsDifferByOneCharacter.java)|true|
+|1562|Medium|[Find Latest Group of Size M](https://leetcode.com/problems/find-latest-group-of-size-m/)|[Find Latest Group of Size M.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLatestGroupOfSizeM.java)|false|
 |1570|Medium|[Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)|[Dot Product of Two Sparse Vectors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DotProductOfTwoSparseVectors.java)|false|
 |1590|Medium|[Make Sum Divisible by P](https://leetcode.com/problems/make-sum-divisible-by-p/)|[Make Sum Divisible by P.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MakeSumDivisibleByP.java)|false|
 |1602|Medium|[Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)|[Find Nearest Right Node in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNearestRightNodeInBinaryTree.java)|true|
