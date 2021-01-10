@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1115
+Count of solved tasks: 1116
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1077,6 +1077,7 @@ Count of solved tasks: 1115
 |1644|Medium|[Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)|[Lowest Common Ancestor of a Binary Tree II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfBinaryTreeII.java)|true|
 |1646|Undefined|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|[Get Maximum in Generated Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GetMaximumInGeneratedArray.java)|false|
 |1647|Undefined|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)|[Minimum Deletions to Make Character Frequencies Unique.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeCharacterFrequenciesUnique.java)|false|
+|1649|Hard|[Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)|[Create Sorted Array through Instructions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CreateSortedArrayThroughInstructions.java)|false|
 |1650|Medium|[Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)|[Lowest Common Ancestor of a Binary Tree III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfBinaryTreeIII.java)|true|
 |1652|Easy|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[Defuse the Bomb.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefuseTheBomb.java)|false|
 |1653|Medium|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[Minimum Deletions to Make String Balanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDeletionsToMakeStringBalanced.java)|false|
@@ -1406,6 +1407,7 @@ Count of solved tasks: 1115
 |1354|Hard|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[Construct Target Array With Multiple Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTargetArrayWithMultipleSums.java)|false|
 |1368|Hard|[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|[Minimum Cost to Make at Least One Valid Path in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToMakeAtLeastOneValidPathInGrid.java)|false|
 |1463|Hard|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|[Cherry Pickup II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CherryPickupII.java)|false|
-|1579|Hard|[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|[Remove Max Number of Edges to Keep Graph Fully Traversable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable.java)|false|</p>
+|1579|Hard|[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|[Remove Max Number of Edges to Keep Graph Fully Traversable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable.java)|false|
+|1649|Hard|[Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)|[Create Sorted Array through Instructions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CreateSortedArrayThroughInstructions.java)|false|</p>
 </details>
 
