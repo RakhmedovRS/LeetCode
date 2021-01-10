@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1114
+Count of solved tasks: 1115
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1120,7 +1120,8 @@ Count of solved tasks: 1114
 |1717|Medium|[Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/)|[Maximum Score From Removing Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumScoreFromRemovingSubstrings.java)|false|
 |1718|Medium|[Construct the Lexicographically Largest Valid Sequence](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/)|[Construct the Lexicographically Largest Valid Sequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTheLexicographicallyLargestValidSequence.java)|false|
 |1720|Easy|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|[Decode XORed Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeXORedArray.java)|false|
-|1721|Medium|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[Swapping Nodes in a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SwappingNodesInLinkedList.java)|false|</p>
+|1721|Medium|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[Swapping Nodes in a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SwappingNodesInLinkedList.java)|false|
+|1722|Medium|[Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)|[Minimize Hamming Distance After Swap Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimizeHammingDistanceAfterSwapOperations.java)|false|</p>
 </details>
 
 <details>
@@ -1369,7 +1370,8 @@ Count of solved tasks: 1114
 |1711|Medium|[Count Good Meals](https://leetcode.com/problems/count-good-meals/)|[Count Good Meals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountGoodMeals.java)|false|
 |1717|Medium|[Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/)|[Maximum Score From Removing Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumScoreFromRemovingSubstrings.java)|false|
 |1718|Medium|[Construct the Lexicographically Largest Valid Sequence](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/)|[Construct the Lexicographically Largest Valid Sequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTheLexicographicallyLargestValidSequence.java)|false|
-|1721|Medium|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[Swapping Nodes in a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SwappingNodesInLinkedList.java)|false|</p>
+|1721|Medium|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[Swapping Nodes in a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SwappingNodesInLinkedList.java)|false|
+|1722|Medium|[Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)|[Minimize Hamming Distance After Swap Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimizeHammingDistanceAfterSwapOperations.java)|false|</p>
 </details>
 
 <details>
