@@ -1,41 +1,61 @@
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 26-Mar-20
  */
-@LeetCode(id = 88, name = "Merge Sorted Array", url = "https://leetcode.com/problems/merge-sorted-array/")
+@LeetCode(
+	id = 88,
+	name = "Merge Sorted Array",
+	url = "https://leetcode.com/problems/merge-sorted-array/",
+	difficulty = Difficulty.EASY
+)
 public class MergeSortedArray
 {
-	public void merge(int[] nums1, int m, int[] nums2, int n)
+	public void merge(int[] numsA, int m, int[] numsB, int n)
 	{
-		int[] temp = new int[m];
-		for (int i = 0; i < m; i++)
+		int posA = 0;
+		int posB = 0;
+		while (posA < m && posB < n)
 		{
-			temp[i] = nums1[i];
-		}
-
-		int i = 0, j = 0, idx = 0;
-		while (i < m && j < n)
-		{
-			if (temp[i] > nums2[j])
+			if (numsA[posA] >= numsB[posB])
 			{
-				nums1[idx++] = nums2[j++];
+				int temp = numsA[posA];
+				numsA[posA] = numsB[posB];
+				numsB[posB] = temp;
+				push(numsB, posB);
+				posA++;
+			}
+			else if (numsA[posA] < numsB[posB])
+			{
+				posA++;
 			}
 			else
 			{
-				nums1[idx++] = temp[i++];
+				posB++;
 			}
 		}
 
-		while (i < m)
+		while (posB < n)
 		{
-			nums1[idx++] = temp[i++];
+			numsA[posA++] = numsB[posB++];
 		}
+	}
 
-		while (j < n)
+	private void push(int[] nums, int pos)
+	{
+		while (pos < nums.length - 1 && nums[pos] > nums[pos + 1])
 		{
-			nums1[idx++] = nums2[j++];
+			swap(nums, pos, pos + 1);
+			pos++;
 		}
+	}
+
+	private void swap(int[] nums, int a, int b)
+	{
+		int temp = nums[a];
+		nums[a] = nums[b];
+		nums[b] = temp;
 	}
 }

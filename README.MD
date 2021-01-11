@@ -84,7 +84,7 @@ Count of solved tasks: 1120
 |82|Medium|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Remove Duplicates from Sorted List II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveDuplicatesFromSortedListII.java)|false|
 |85|Undefined|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|[Maximal Rectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximalRectangle.java)|false|
 |87|Undefined|[Scramble String](https://leetcode.com/problems/scramble-string/)|[Scramble String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ScrambleString.java)|false|
-|88|Undefined|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Merge Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeSortedArray.java)|false|
+|88|Easy|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Merge Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeSortedArray.java)|false|
 |90|Undefined|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Subsets II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubsetsII.java)|false|
 |91|Medium|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[Decode Ways.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeWays.java)|false|
 |93|Undefined|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[Restore IP Addresses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RestoreIPAddresses.java)|false|
@@ -1138,6 +1138,7 @@ Count of solved tasks: 1120
 |9|Easy|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Palindrome Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeNumber.java)|false|
 |21|Easy|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeTwoSortedLists.java)|false|
 |53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarray.java)|false|
+|88|Easy|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Merge Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeSortedArray.java)|false|
 |103|Easy|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Maximum Depth of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDepthOfBinaryTree.java)|false|
 |110|Easy|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Balanced Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BalancedBinaryTree.java)|false|
 |157|Easy|[Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/)|[Read N Characters Given Read4.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReadNCharactersGivenRead4.java)|true|
