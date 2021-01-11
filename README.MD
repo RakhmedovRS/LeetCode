@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1116
+Count of solved tasks: 1117
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -811,6 +811,7 @@ Count of solved tasks: 1116
 |1195|Undefined|[Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/)|[Fizz Buzz Multithreaded.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FizzBuzzMultithreaded.java)|false|
 |1196|Easy|[How Many Apples Can You Put into the Basket](https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket/)|[How Many Apples Can You Put into the Basket.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HowManyApplesCanYouPutIntoTheBasket.java)|true|
 |1197|Medium|[Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)|[Minimum Knight Moves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumKnightMoves.java)|true|
+|1198|Medium|[Find Smallest Common Element in All Rows](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/)|[Find Smallest Common Element in All Rows.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindSmallestCommonElementInAllRows.java)|true|
 |1200|Undefined|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[Minimum Absolute Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumAbsoluteDifference.java)|false|
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[Smallest String With Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithSwaps.java)|false|
 |1209|Undefined|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[Remove All Adjacent Duplicates in String II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveAllAdjacentDuplicatesInStringII.java)|false|
@@ -1307,6 +1308,7 @@ Count of solved tasks: 1116
 |1181|Medium|[Before and After Puzzle](https://leetcode.com/problems/before-and-after-puzzle/)|[Before and After Puzzle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BeforeAndAfterPuzzle.java)|true|
 |1188|Medium|[Design Bounded Blocking Queue](https://leetcode.com/problems/design-bounded-blocking-queue/)|[Design Bounded Blocking Queue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignBoundedBlockingQueue.java)|true|
 |1197|Medium|[Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)|[Minimum Knight Moves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumKnightMoves.java)|true|
+|1198|Medium|[Find Smallest Common Element in All Rows](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/)|[Find Smallest Common Element in All Rows.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindSmallestCommonElementInAllRows.java)|true|
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[Smallest String With Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithSwaps.java)|false|
 |1214|Medium|[Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|[Two Sum BSTs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumBSTs.java)|true|
 |1234|Medium|[Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)|[Replace the Substring for Balanced String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceTheSubstringForBalancedString.java)|false|
