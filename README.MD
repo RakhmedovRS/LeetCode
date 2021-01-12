@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1121
+Count of solved tasks: 1122
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -395,6 +395,7 @@ Count of solved tasks: 1121
 |501|Undefined|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[Find Mode in Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindModeInBinarySearchTree.java)|false|
 |503|Undefined|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[Next Greater Element II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementII.java)|false|
 |504|Undefined|[Base 7](https://leetcode.com/problems/base-7/)|[Base 7.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Base7.java)|false|
+|505|Medium|[The Maze II](https://leetcode.com/problems/the-maze-ii/)|[The Maze II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheMazeII.java)|true|
 |506|Undefined|[Relative Ranks](https://leetcode.com/problems/relative-ranks/)|[Relative Ranks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RelativeRanks.java)|false|
 |507|Undefined|[Perfect Number](https://leetcode.com/problems/perfect-number/)|[Perfect Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PerfectNumber.java)|false|
 |508|Undefined|[Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/)|[Most Frequent Subtree Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MostFrequentSubtreeSum.java)|false|
@@ -1274,6 +1275,7 @@ Count of solved tasks: 1121
 |487|Medium|[Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|[Max Consecutive Ones II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxConsecutiveOnesII.java)|true|
 |490|Medium|[The Maze](https://leetcode.com/problems/the-maze/)|[The Maze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheMaze.java)|true|
 |498|Medium|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Diagonal Traverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverse.java)|false|
+|505|Medium|[The Maze II](https://leetcode.com/problems/the-maze-ii/)|[The Maze II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheMazeII.java)|true|
 |524|Medium|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/)|[Longest Word in Dictionary through Deleting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestWordInDictionaryThroughDeleting.java)|false|
 |526|Medium|[Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)|[Beautiful Arrangement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BeautifulArrangement.java)|false|
 |531|Medium|[Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/)|[Lonely Pixel I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LonelyPixelI.java)|true|
