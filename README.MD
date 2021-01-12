@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1123
+Count of solved tasks: 1124
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -221,6 +221,7 @@ Count of solved tasks: 1123
 |257|Undefined|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Binary Tree Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePaths.java)|false|
 |258|Undefined|[Add Digits](https://leetcode.com/problems/add-digits/)|[Add Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddDigits.java)|false|
 |260|Undefined|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[Single Number III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleNumberIII.java)|false|
+|261|Medium|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)|[Graph Valid Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GraphValidTree.java)|true|
 |263|Undefined|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Ugly Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UglyNumber.java)|false|
 |264|Undefined|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Ugly Number II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UglyNumberII.java)|false|
 |266|Easy|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|[Palindrome Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromePermutation.java)|true|
@@ -1248,6 +1249,7 @@ Count of solved tasks: 1123
 |251|Medium|[Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/)|[Flatten 2D Vector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Flatten2DVector.java)|true|
 |253|Medium|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|[Meeting Rooms II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeetingRoomsII.java)|true|
 |254|Medium|[Factor Combinations](https://leetcode.com/problems/factor-combinations/)|[Factor Combinations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FactorCombinations.java)|true|
+|261|Medium|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)|[Graph Valid Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GraphValidTree.java)|true|
 |267|Medium|[Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/)|[Palindrome Permutation II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromePermutationII.java)|true|
 |270|Medium|[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)|[Closest Binary Search Tree Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestBinarySearchTreeValue.java)|true|
 |277|Medium|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/)|[Find the Celebrity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheCelebrity.java)|true|
