@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1122
+Count of solved tasks: 1123
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -391,6 +391,7 @@ Count of solved tasks: 1122
 |496|Undefined|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Next Greater Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementI.java)|false|
 |497|Undefined|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/)|[Random Point in Non-overlapping Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RandomPointInNonOverlappingRectangles.java)|false|
 |498|Medium|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Diagonal Traverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverse.java)|false|
+|499|Hard|[The Maze III](https://leetcode.com/problems/the-maze-iii/)|[The Maze III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheMazeIII.java)|true|
 |500|Undefined|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[Keyboard Row.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KeyboardRow.java)|false|
 |501|Undefined|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[Find Mode in Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindModeInBinarySearchTree.java)|false|
 |503|Undefined|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[Next Greater Element II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementII.java)|false|
@@ -1406,6 +1407,7 @@ Count of solved tasks: 1122
 |327|Hard|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)|[Count of Range Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountOfRangeSum.java)|false|
 |340|Hard|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|[Longest Substring with At Most K Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtMostKDistinctCharacters.java)|true|
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[Poor Pigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)|false|
+|499|Hard|[The Maze III](https://leetcode.com/problems/the-maze-iii/)|[The Maze III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheMazeIII.java)|true|
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[Remove Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)|false|
 |588|Hard|[Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/)|[Design In-Memory File System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignInMemoryFileSystem.java)|true|
 |639|Hard|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|[Decode Ways II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeWaysII.java)|false|
