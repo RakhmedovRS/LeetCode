@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1126
+Count of solved tasks: 1127
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -403,6 +403,7 @@ Count of solved tasks: 1126
 |507|Undefined|[Perfect Number](https://leetcode.com/problems/perfect-number/)|[Perfect Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PerfectNumber.java)|false|
 |508|Undefined|[Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/)|[Most Frequent Subtree Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MostFrequentSubtreeSum.java)|false|
 |509|Undefined|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FibonacciNumber.java)|false|
+|510|Medium|[Inorder Successor in BST II](https://leetcode.com/problems/inorder-successor-in-bst-ii/)|[Inorder Successor in BST II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InorderSuccessorInBSTII.java)|true|
 |513|Undefined|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|[Find Bottom Left Tree Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindBottomLeftTreeValue.java)|false|
 |514|Undefined|[Freedom Trail](https://leetcode.com/problems/freedom-trail/)|[Freedom Trail.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FreedomTrail.java)|false|
 |515|Undefined|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[Find Largest Value in Each Tree Row.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLargestValueInEachTreeRow.java)|false|
@@ -1283,6 +1284,7 @@ Count of solved tasks: 1126
 |490|Medium|[The Maze](https://leetcode.com/problems/the-maze/)|[The Maze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheMaze.java)|true|
 |498|Medium|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Diagonal Traverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverse.java)|false|
 |505|Medium|[The Maze II](https://leetcode.com/problems/the-maze-ii/)|[The Maze II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheMazeII.java)|true|
+|510|Medium|[Inorder Successor in BST II](https://leetcode.com/problems/inorder-successor-in-bst-ii/)|[Inorder Successor in BST II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InorderSuccessorInBSTII.java)|true|
 |524|Medium|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/)|[Longest Word in Dictionary through Deleting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestWordInDictionaryThroughDeleting.java)|false|
 |526|Medium|[Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)|[Beautiful Arrangement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BeautifulArrangement.java)|false|
 |531|Medium|[Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/)|[Lonely Pixel I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LonelyPixelI.java)|true|
