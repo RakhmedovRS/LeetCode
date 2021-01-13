@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1124
+Count of solved tasks: 1125
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -442,6 +442,7 @@ Count of solved tasks: 1124
 |566|Undefined|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Reshape the Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReshapeTheMatrix.java)|false|
 |567|Undefined|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Permutation in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PermutationInString.java)|false|
 |572|Undefined|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Subtree of Another Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubtreeOfAnotherTree.java)|false|
+|573|Medium|[Squirrel Simulation](https://leetcode.com/problems/squirrel-simulation/)|[Squirrel Simulation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SquirrelSimulation.java)|true|
 |575|Easy|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Distribute Candies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistributeCandies.java)|true|
 |576|Undefined|[Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)|[Out of Boundary Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OutOfBoundaryPaths.java)|false|
 |583|Undefined|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Delete Operation for Two Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteOperationForTwoStrings.java)|false|
@@ -1286,6 +1287,7 @@ Count of solved tasks: 1124
 |536|Medium|[Construct Binary Tree from String](https://leetcode.com/problems/construct-binary-tree-from-string/)|[Construct Binary Tree from String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructBinaryTreeFromString.java)|true|
 |539|Medium|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|[Minimum Time Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeDifference.java)|false|
 |562|Medium|[Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/)|[Longest Line of Consecutive One in Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestLineOfConsecutiveOneInMatrix.java)|true|
+|573|Medium|[Squirrel Simulation](https://leetcode.com/problems/squirrel-simulation/)|[Squirrel Simulation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SquirrelSimulation.java)|true|
 |616|Medium|[Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string/)|[Add Bold Tag in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddBoldTagInString.java)|true|
 |624|Medium|[Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/)|[Maximum Distance in Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDistanceInArrays.java)|true|
 |660|Medium|[Remove 9](https://leetcode.com/problems/remove-9/)|[Remove 9.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Remove9.java)|true|
