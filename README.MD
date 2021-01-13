@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1125
+Count of solved tasks: 1126
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -237,6 +237,7 @@ Count of solved tasks: 1125
 |282|Undefined|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[Expression Add Operators.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExpressionAddOperators.java)|false|
 |283|Undefined|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Move Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MoveZeroes.java)|false|
 |284|Undefined|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Peeking Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PeekingIterator.java)|false|
+|285|Medium|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)|[Inorder Successor in BST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InorderSuccessorInBST.java)|true|
 |286|Medium|[Walls and Gates](https://leetcode.com/problems/walls-and-gates/)|[Walls and Gates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WallsAndGates.java)|true|
 |287|Undefined|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Find the Duplicate Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindDuplicateNumber.java)|false|
 |289|Medium|[Game of Life](https://leetcode.com/problems/game-of-life/)|[Game of Life.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GameOfLife.java)|false|
@@ -1255,6 +1256,7 @@ Count of solved tasks: 1125
 |270|Medium|[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)|[Closest Binary Search Tree Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestBinarySearchTreeValue.java)|true|
 |277|Medium|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/)|[Find the Celebrity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheCelebrity.java)|true|
 |281|Medium|[Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/)|[Zigzag Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ZigzagIterator.java)|true|
+|285|Medium|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)|[Inorder Successor in BST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InorderSuccessorInBST.java)|true|
 |286|Medium|[Walls and Gates](https://leetcode.com/problems/walls-and-gates/)|[Walls and Gates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WallsAndGates.java)|true|
 |289|Medium|[Game of Life](https://leetcode.com/problems/game-of-life/)|[Game of Life.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GameOfLife.java)|false|
 |294|Medium|[Flip Game II](https://leetcode.com/problems/flip-game-ii/)|[Flip Game II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlipGameII.java)|true|
