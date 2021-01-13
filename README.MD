@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1128
+Count of solved tasks: 1129
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -919,6 +919,7 @@ Count of solved tasks: 1128
 |1370|Undefined|[Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/)|[Increasing Decreasing String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingDecreasingString.java)|false|
 |1371|Medium|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|[Find the Longest Substring Containing Vowels in Even Counts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindtheLongestSubstringContainingVowelsInEvenCounts.java)|false|
 |1372|Undefined|[Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)|[Longest ZigZag Path in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestZigZagPathInBinaryTree.java)|false|
+|1373|Hard|[Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/)|[Maximum Sum BST in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSumBSTInBinaryTree.java)|false|
 |1374|Undefined|[Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)|[Generate a String With Characters That Have Odd Counts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GenerateStringWithCharactersThatHaveOddCounts.java)|false|
 |1375|Undefined|[Bulb Switcher III](https://leetcode.com/problems/bulb-switcher-iii/)|[Bulb Switcher III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BulbSwitcherIII.java)|false|
 |1377|Undefined|[Frog Position After T Seconds](https://leetcode.com/problems/frog-position-after-t-seconds/)|[Frog Position After T Seconds.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FrogPositionAfterTSeconds.java)|false|
@@ -1432,6 +1433,7 @@ Count of solved tasks: 1128
 |1345|Hard|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|[Jump Game IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameIV.java)|false|
 |1354|Hard|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[Construct Target Array With Multiple Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTargetArrayWithMultipleSums.java)|false|
 |1368|Hard|[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|[Minimum Cost to Make at Least One Valid Path in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToMakeAtLeastOneValidPathInGrid.java)|false|
+|1373|Hard|[Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/)|[Maximum Sum BST in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSumBSTInBinaryTree.java)|false|
 |1463|Hard|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|[Cherry Pickup II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CherryPickupII.java)|false|
 |1579|Hard|[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|[Remove Max Number of Edges to Keep Graph Fully Traversable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable.java)|false|
 |1649|Hard|[Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)|[Create Sorted Array through Instructions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CreateSortedArrayThroughInstructions.java)|false|</p>
