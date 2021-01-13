@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1127
+Count of solved tasks: 1128
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -618,6 +618,7 @@ Count of solved tasks: 1127
 |876|Undefined|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle of the Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MiddleOfTheLinkedList.java)|false|
 |877|Undefined|[Stone Game](https://leetcode.com/problems/stone-game/)|[Stone Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StoneGame.java)|false|
 |880|Medium|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/)|[Decoded String at Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodedStringAtIndex.java)|false|
+|881|Medium|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[Boats to Save People.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BoatsToSavePeople.java)|false|
 |883|Undefined|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|[Projection Area of 3D Shapes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ProjectionAreaOf3DShapes.java)|false|
 |884|Undefined|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|[Uncommon Words from Two Sentences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UncommonWordsFromTwoSentences.java)|false|
 |885|Undefined|[Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|[Spiral Matrix III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SpiralMatrixIII.java)|false|
@@ -1308,6 +1309,7 @@ Count of solved tasks: 1127
 |865|Medium|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|[Smallest Subtree with all the Deepest Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestSubtreeWithAllTheDeepestNodes.java)|false|
 |875|Medium|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|[Koko Eating Bananas.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KokoEatingBananas.java)|false|
 |880|Medium|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/)|[Decoded String at Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodedStringAtIndex.java)|false|
+|881|Medium|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[Boats to Save People.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BoatsToSavePeople.java)|false|
 |910|Medium|[Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|[Smallest Range II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestRangeII.java)|false|
 |1006|Medium|[Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/)|[Clumsy Factorial.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClumsyFactorial.java)|false|
 |1010|Medium|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[Pairs of Songs With Total Durations Divisible by 60.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PairsOfSongsWithTotalDurationsDivisibleBy60.java)|false|
