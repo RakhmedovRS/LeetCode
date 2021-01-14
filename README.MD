@@ -31,7 +31,7 @@ Count of solved tasks: 1132
 |24|Medium|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Swap Nodes in Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SwapNodesInPairs.java)|false|
 |25|Hard|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[Reverse Nodes in k-Group.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseNodesInKGroup.java)|false|
 |26|Undefined|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Remove Duplicates from Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveDuplicatesFromSortedArray.java)|false|
-|27|Undefined|[Remove Element](https://leetcode.com/problems/remove-element/)|[Remove Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveElement.java)|false|
+|27|Easy|[Remove Element](https://leetcode.com/problems/remove-element/)|[Remove Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveElement.java)|false|
 |28|Undefined|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Implement strStr().java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImplementStrStr.java)|false|
 |29|Undefined|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[Divide Two Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DivideTwoIntegers.java)|false|
 |30|Undefined|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|[Substring with Concatenation of All Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubstringWithConcatenationOfAllWords.java)|false|
@@ -1149,6 +1149,7 @@ Count of solved tasks: 1132
 |:-----------:|:-----------:|:--------------:|:--------------:|:--------:|
 |9|Easy|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Palindrome Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeNumber.java)|false|
 |21|Easy|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeTwoSortedLists.java)|false|
+|27|Easy|[Remove Element](https://leetcode.com/problems/remove-element/)|[Remove Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveElement.java)|false|
 |53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarray.java)|false|
 |88|Easy|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Merge Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeSortedArray.java)|false|
 |103|Easy|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Maximum Depth of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDepthOfBinaryTree.java)|false|

@@ -1,3 +1,4 @@
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -6,21 +7,26 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 19-Apr-20
  */
-@LeetCode(id = 27, name = "Remove Element", url = "https://leetcode.com/problems/remove-element/")
+@LeetCode(
+	id = 27,
+	name = "Remove Element",
+	url = "https://leetcode.com/problems/remove-element/",
+	difficulty = Difficulty.EASY
+)
 public class RemoveElement
 {
 	public int removeElement(int[] nums, int val)
 	{
-		int pos = 0;
-		for (int i = 0; i < nums.length; i++)
+		int i = 0;
+		for (int j = 0; j < nums.length; j++)
 		{
-			if (nums[i] != val)
+			if (nums[j] != val)
 			{
-				nums[pos++] = nums[i];
+				nums[i++] = nums[j];
 			}
 		}
 
-		return pos;
+		return i;
 	}
 
 	public static void main(String[] args)
