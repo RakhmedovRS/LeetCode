@@ -15,43 +15,51 @@ public class MinimumOperationsToReduceXToZero
 {
 	public int minOperations(int[] nums, int x)
 	{
-		int sum = 0;
+		int n = nums.length;
+		boolean[] used = new boolean[n];
 		int i = 0;
-		int minSteps = Integer.MAX_VALUE;
+		int j = 0;
+
+		int totalSum = 0;
+		for (int num : nums)
+		{
+			totalSum += num;
+		}
+
+		if (totalSum < x)
+		{
+			return -1;
+		}
+		else if (totalSum == x)
+		{
+			return n;
+		}
+
 		int steps = 0;
-		while (i < nums.length && sum + nums[i] <= x)
+		int minSteps = Integer.MAX_VALUE;
+		int sum = 0;
+		while (j < n * 2)
 		{
-			sum += nums[i++];
-			steps++;
-		}
-
-		if (sum == x)
-		{
-			minSteps = steps;
-		}
-
-		i = i == 0 ? nums.length - 1 : i - 1;
-
-		int j = nums.length - 1;
-		while (j > i)
-		{
-			while (sum < x && j > i)
+			while (sum <= x && !used[j % n])
 			{
-				sum += nums[j--];
+				sum += nums[j % n];
+				used[j++ % n] = true;
 				steps++;
-			}
 
-			while (sum >= x)
-			{
-				if (sum == x)
+				if (sum == x && (used[0] || used[n - 1]))
 				{
 					minSteps = Math.min(minSteps, steps);
 				}
-				sum -= nums[i--];
+			}
+
+			while (sum > x)
+			{
+				sum -= nums[i % n];
+				used[i++ % n] = false;
 				steps--;
-				if (i == -1)
+				if (sum == x && (used[0] || used[n - 1]))
 				{
-					i = nums.length - 1;
+					minSteps = Math.min(minSteps, steps);
 				}
 			}
 		}
