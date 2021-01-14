@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1129
+Count of solved tasks: 1130
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -306,6 +306,7 @@ Count of solved tasks: 1129
 |378|Undefined|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[Kth Smallest Element in a Sorted Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthSmallestElementInSortedMatrix.java)|false|
 |379|Medium|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|[Design Phone Directory.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignPhoneDirectory.java)|true|
 |380|Undefined|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Insert Delete GetRandom O(1).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsertDeleteGetRandom.java)|false|
+|381|Hard|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|[Insert Delete GetRandom O(1) - Duplicates allowed.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsertDeleteGetRandomO1DuplicatesAllowed.java)|false|
 |382|Medium|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|[Linked List Random Node.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListRandomNode.java)|false|
 |383|Undefined|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Ransom Note.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RansomNote.java)|false|
 |384|Undefined|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|[Shuffle an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShuffleAnArray.java)|false|
@@ -1418,6 +1419,7 @@ Count of solved tasks: 1129
 |308|Hard|[Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)|[Range Sum Query 2D - Mutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQuery2DMutable.java)|true|
 |327|Hard|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)|[Count of Range Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountOfRangeSum.java)|false|
 |340|Hard|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|[Longest Substring with At Most K Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtMostKDistinctCharacters.java)|true|
+|381|Hard|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|[Insert Delete GetRandom O(1) - Duplicates allowed.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsertDeleteGetRandomO1DuplicatesAllowed.java)|false|
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[Poor Pigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)|false|
 |499|Hard|[The Maze III](https://leetcode.com/problems/the-maze-iii/)|[The Maze III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheMazeIII.java)|true|
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[Remove Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)|false|
