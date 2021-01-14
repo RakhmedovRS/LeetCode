@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1130
+Count of solved tasks: 1131
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -297,6 +297,7 @@ Count of solved tasks: 1130
 |367|Undefined|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Valid Perfect Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidPerfectSquare.java)|false|
 |368|Undefined|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|[Largest Divisible Subset.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestDivisibleSubset.java)|false|
 |369|Medium|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)|[Plus One Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PlusOneLinkedList.java)|true|
+|370|Medium|[Range Addition](https://leetcode.com/problems/range-addition/)|[Range Addition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAddition.java)|true|
 |371|Undefined|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[Sum of Two Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfTwoIntegers.java)|false|
 |373|Undefined|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|[Find K Pairs with Smallest Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindKPairsWithSmallestSums.java)|false|
 |374|Undefined|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Guess Number Higher or Lower.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GuessNumberHigherOrLower.java)|false|
@@ -1275,6 +1276,7 @@ Count of solved tasks: 1130
 |364|Medium|[Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/)|[Nested List Weight Sum II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NestedListWeightSumII.java)|true|
 |366|Medium|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)|[Find Leaves of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLeavesOfBinaryTree.java)|true|
 |369|Medium|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)|[Plus One Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PlusOneLinkedList.java)|true|
+|370|Medium|[Range Addition](https://leetcode.com/problems/range-addition/)|[Range Addition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAddition.java)|true|
 |379|Medium|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|[Design Phone Directory.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignPhoneDirectory.java)|true|
 |382|Medium|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|[Linked List Random Node.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListRandomNode.java)|false|
 |386|Medium|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)|[Lexicographical Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LexicographicalNumbers.java)|false|
