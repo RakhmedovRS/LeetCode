@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1133
+Count of solved tasks: 1134
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -504,6 +504,7 @@ Count of solved tasks: 1133
 |686|Undefined|[Repeated String Match](https://leetcode.com/problems/repeated-string-match/)|[Repeated String Match.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RepeatedStringMatch.java)|false|
 |687|Undefined|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[Longest Univalue Path.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestUnivaluePath.java)|false|
 |688|Undefined|[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/)|[Knight Probability in Chessboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KnightProbabilityInChessboard.java)|false|
+|690|Medium|[Employee Importance](https://leetcode.com/problems/employee-importance/)|[Employee Importance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EmployeeImportance.java)|true|
 |692|Undefined|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[Top K Frequent Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TopKFrequentWords.java)|false|
 |693|Undefined|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[Binary Number with Alternating Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryNumberWithAlternatingBits.java)|false|
 |695|Undefined|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Max Area of Island.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxAreaOfIsland.java)|false|
@@ -1305,6 +1306,7 @@ Count of solved tasks: 1133
 |624|Medium|[Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/)|[Maximum Distance in Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDistanceInArrays.java)|true|
 |660|Medium|[Remove 9](https://leetcode.com/problems/remove-9/)|[Remove 9.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Remove9.java)|true|
 |681|Medium|[Next Closest Time](https://leetcode.com/problems/next-closest-time/)|[Next Closest Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextClosestTime.java)|true|
+|690|Medium|[Employee Importance](https://leetcode.com/problems/employee-importance/)|[Employee Importance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EmployeeImportance.java)|true|
 |702|Medium|[Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)|[Search in a Sorted Array of Unknown Size.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInSortedArrayOfUnknownSize.java)|true|
 |718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Maximum Length of Repeated Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfRepeatedSubarray.java)|false|
 |721|Medium|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[Accounts Merge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AccountsMerge.java)|false|
