@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1132
+Count of solved tasks: 1133
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -512,6 +512,7 @@ Count of solved tasks: 1132
 |698|Undefined|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|[Partition to K Equal Sum Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionToKEqualSumSubsets.java)|false|
 |700|Undefined|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Search in a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInBinarySearchTree.java)|false|
 |701|Undefined|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Insert into a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsertIntoBinarySearchTree.java)|false|
+|702|Medium|[Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)|[Search in a Sorted Array of Unknown Size.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInSortedArrayOfUnknownSize.java)|true|
 |703|Undefined|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Kth Largest Element in a Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthLargestElementInStream.java)|false|
 |704|Undefined|[Binary Search](https://leetcode.com/problems/binary-search/)|[Binary Search.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearch.java)|false|
 |705|Undefined|[Design HashSet](https://leetcode.com/problems/design-hashset/)|[Design HashSet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignHashSet.java)|false|
@@ -1304,6 +1305,7 @@ Count of solved tasks: 1132
 |624|Medium|[Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/)|[Maximum Distance in Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDistanceInArrays.java)|true|
 |660|Medium|[Remove 9](https://leetcode.com/problems/remove-9/)|[Remove 9.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Remove9.java)|true|
 |681|Medium|[Next Closest Time](https://leetcode.com/problems/next-closest-time/)|[Next Closest Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextClosestTime.java)|true|
+|702|Medium|[Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)|[Search in a Sorted Array of Unknown Size.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInSortedArrayOfUnknownSize.java)|true|
 |718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Maximum Length of Repeated Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfRepeatedSubarray.java)|false|
 |721|Medium|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[Accounts Merge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AccountsMerge.java)|false|
 |742|Medium|[Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/)|[Closest Leaf in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestLeafInBinaryTree.java)|true|
