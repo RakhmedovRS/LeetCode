@@ -36,45 +36,26 @@ public class NestedListWeightSumII
 		List<NestedInteger> getList();
 	}
 
-	public int depthSumInverse(List<NestedInteger> nestedList)
+	public int depthSum(List<NestedInteger> nestedList)
 	{
-		Integer[] levels = new Integer[5_000];
-		depthSumInverse(nestedList, 1, levels);
-
-		int level = 1;
-		int sum = 0;
-		for (int i = levels.length - 1; i >= 0; i--)
-		{
-			if (levels[i] != null)
-			{
-				sum += level * levels[i];
-				level++;
-			}
-		}
-
-		return sum;
+		return depthSum(nestedList, 1);
 	}
 
-	private void depthSumInverse(List<NestedInteger> nestedList, int level, Integer[] levels)
+	private int depthSum(List<NestedInteger> nestedList, int level)
 	{
 		int sum = 0;
 		for (NestedInteger nestedInteger : nestedList)
 		{
 			if (nestedInteger.isInteger())
 			{
-				sum += nestedInteger.getInteger();
+				sum += nestedInteger.getInteger() * level;
 			}
 			else
 			{
-				depthSumInverse(nestedInteger.getList(), level + 1, levels);
+				sum += depthSum(nestedInteger.getList(), level + 1);
 			}
 		}
 
-		if (levels[level] == null)
-		{
-			levels[level] = 0;
-		}
-
-		levels[level] += sum;
+		return sum;
 	}
 }
