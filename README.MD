@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1136
+Count of solved tasks: 1137
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -571,6 +571,7 @@ Count of solved tasks: 1136
 |796|Undefined|[Rotate String](https://leetcode.com/problems/rotate-string/)|[Rotate String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotateString.java)|false|
 |797|Undefined|[All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)|[All Paths From Source to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllPathsFromSourceToTarget.java)|false|
 |799|Undefined|[Champagne Tower](https://leetcode.com/problems/champagne-tower/)|[Champagne Tower.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ChampagneTower.java)|false|
+|800|Easy|[Similar RGB Color](https://leetcode.com/problems/similar-rgb-color/)|[Similar RGB Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SimilarRGBColor.java)|true|
 |801|Undefined|[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/)|[Minimum Swaps To Make Sequences Increasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSwapsToMakeSequencesIncreasing.java)|false|
 |802|Undefined|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)|[Find Eventual Safe States.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindEventualSafeStates.java)|false|
 |804|Easy|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Unique Morse Code Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueMorseCodeWords.java)|false|
@@ -1181,6 +1182,7 @@ Count of solved tasks: 1136
 |734|Easy|[Sentence Similarity](https://leetcode.com/problems/sentence-similarity/)|[Sentence Similarity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SentenceSimilarity.java)|true|
 |758|Easy|[Bold Words in String](https://leetcode.com/problems/bold-words-in-string/)|[Bold Words in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BoldWordsInString.java)|true|
 |760|Easy|[Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/)|[Find Anagram Mappings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAnagramMappings.java)|true|
+|800|Easy|[Similar RGB Color](https://leetcode.com/problems/similar-rgb-color/)|[Similar RGB Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SimilarRGBColor.java)|true|
 |804|Easy|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Unique Morse Code Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueMorseCodeWords.java)|false|
 |893|Easy|[Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/)|[Groups of Special-Equivalent Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GroupsOfSpecialEquivalentStrings.java)|false|
 |897|Easy|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[Increasing Order Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingOrderSearchTree.java)|false|
