@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1139
+Count of solved tasks: 1140
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -778,6 +778,7 @@ Count of solved tasks: 1139
 |1094|Undefined|[Car Pooling](https://leetcode.com/problems/car-pooling/)|[Car Pooling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CarPooling.java)|false|
 |1099|Easy|[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[Two Sum Less Than K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumLessThanK.java)|true|
 |1100|Medium|[Find K-Length Substrings With No Repeated Characters](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/)|[Find K-Length Substrings With No Repeated Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindKLengthSubstringsWithNoRepeatedCharacters.java)|true|
+|1101|Medium|[The Earliest Moment When Everyone Become Friends](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/)|[The Earliest Moment When Everyone Become Friends.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheEarliestMomentWhenEveryoneBecomeFriends.java)|true|
 |1103|Undefined|[Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)|[Distribute Candies to People.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistributeCandiesToPeople.java)|false|
 |1104|Medium|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[Path In Zigzag Labelled Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathInZigzagLabelledBinaryTree.java)|false|
 |1105|Undefined|[Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves/)|[Filling Bookcase Shelves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FillingBookcaseShelves.java)|false|
@@ -1345,6 +1346,7 @@ Count of solved tasks: 1139
 |1087|Medium|[Brace Expansion](https://leetcode.com/problems/brace-expansion/)|[Brace Expansion.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BraceExpansion.java)|true|
 |1093|Medium|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|[Statistics from a Large Sample.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StatisticsFromLargeSample.java)|false|
 |1100|Medium|[Find K-Length Substrings With No Repeated Characters](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/)|[Find K-Length Substrings With No Repeated Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindKLengthSubstringsWithNoRepeatedCharacters.java)|true|
+|1101|Medium|[The Earliest Moment When Everyone Become Friends](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/)|[The Earliest Moment When Everyone Become Friends.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheEarliestMomentWhenEveryoneBecomeFriends.java)|true|
 |1104|Medium|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[Path In Zigzag Labelled Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathInZigzagLabelledBinaryTree.java)|false|
 |1120|Medium|[Maximum Average Subtree](https://leetcode.com/problems/maximum-average-subtree/)|[Maximum Average Subtree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAverageSubtree.java)|true|
 |1123|Medium|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[Lowest Common Ancestor of Deepest Leaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfDeepestLeaves.java)|false|
