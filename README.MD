@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1135
+Count of solved tasks: 1136
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -375,6 +375,7 @@ Count of solved tasks: 1135
 |468|Undefined|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[Validate IP Address.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidateIPAddress.java)|false|
 |470|Undefined|[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)|[Implement Rand10() Using Rand7().java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImplementRand10UsingRand7.java)|false|
 |472|Undefined|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|[Concatenated Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConcatenatedWords.java)|false|
+|473|Medium|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[Matchsticks to Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MatchsticksToSquare.java)|false|
 |474|Undefined|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|[Ones and Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OnesAndZeroes.java)|false|
 |475|Undefined|[Heaters](https://leetcode.com/problems/heaters/)|[Heaters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Heaters.java)|false|
 |476|Undefined|[Number Complement](https://leetcode.com/problems/number-complement/)|[Number Complement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberComplement.java)|false|
@@ -1292,6 +1293,7 @@ Count of solved tasks: 1135
 |416|Medium|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[Partition Equal Subset Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionEqualSubsetSum.java)|false|
 |433|Medium|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[Minimum Genetic Mutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumGeneticMutation.java)|false|
 |454|Medium|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[4Sum II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FourSumII.java)|false|
+|473|Medium|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[Matchsticks to Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MatchsticksToSquare.java)|false|
 |487|Medium|[Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|[Max Consecutive Ones II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxConsecutiveOnesII.java)|true|
 |490|Medium|[The Maze](https://leetcode.com/problems/the-maze/)|[The Maze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheMaze.java)|true|
 |498|Medium|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Diagonal Traverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverse.java)|false|
