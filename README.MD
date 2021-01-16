@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1137
+Count of solved tasks: 1138
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -651,6 +651,7 @@ Count of solved tasks: 1137
 |915|Undefined|[Word Subsets](https://leetcode.com/problems/word-subsets/)|[Word Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordSubsets.java)|false|
 |917|Undefined|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)|[Reverse Only Letters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseOnlyLetters.java)|false|
 |918|Undefined|[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)|[Maximum Sum Circular Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSumCircularSubarray.java)|false|
+|919|Medium|[Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/)|[Complete Binary Tree Inserter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CompleteBinaryTreeInserter.java)|false|
 |922|Undefined|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Sort Array By Parity II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortArrayByParityII.java)|false|
 |923|Undefined|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|[3Sum With Multiplicity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThreeSumWithMultiplicity.java)|false|
 |926|Undefined|[Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/)|[Flip String to Monotone Increasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlipStringToMonotoneIncreasing.java)|false|
@@ -1330,6 +1331,7 @@ Count of solved tasks: 1137
 |880|Medium|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/)|[Decoded String at Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodedStringAtIndex.java)|false|
 |881|Medium|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[Boats to Save People.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BoatsToSavePeople.java)|false|
 |910|Medium|[Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|[Smallest Range II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestRangeII.java)|false|
+|919|Medium|[Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/)|[Complete Binary Tree Inserter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CompleteBinaryTreeInserter.java)|false|
 |1006|Medium|[Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/)|[Clumsy Factorial.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClumsyFactorial.java)|false|
 |1010|Medium|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[Pairs of Songs With Total Durations Divisible by 60.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PairsOfSongsWithTotalDurationsDivisibleBy60.java)|false|
 |1015|Medium|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[Smallest Integer Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestIntegerDivisibleByK.java)|false|
