@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1143
+Count of solved tasks: 1144
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -614,6 +614,7 @@ Count of solved tasks: 1143
 |861|Undefined|[Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/)|[Score After Flipping Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ScoreAfterFlippingMatrix.java)|false|
 |863|Undefined|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|[All Nodes Distance K in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllNodesDistanceKInBinaryTree.java)|false|
 |865|Medium|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|[Smallest Subtree with all the Deepest Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestSubtreeWithAllTheDeepestNodes.java)|false|
+|866|Medium|[Prime Palindrome](https://leetcode.com/problems/prime-palindrome/)|[Prime Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrimePalindrome.java)|false|
 |867|Undefined|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Transpose Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TransposeMatrix.java)|false|
 |868|Undefined|[Binary Gap](https://leetcode.com/problems/binary-gap/)|[Binary Gap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryGap.java)|false|
 |869|Undefined|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[Reordered Power of 2.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReorderedPowerOf2.java)|false|
@@ -1333,6 +1334,7 @@ Count of solved tasks: 1143
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[Longest Mountain in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)|false|
 |846|Medium|[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)|[Hand of Straights.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HandOfStraights.java)|false|
 |865|Medium|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|[Smallest Subtree with all the Deepest Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestSubtreeWithAllTheDeepestNodes.java)|false|
+|866|Medium|[Prime Palindrome](https://leetcode.com/problems/prime-palindrome/)|[Prime Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrimePalindrome.java)|false|
 |875|Medium|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|[Koko Eating Bananas.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KokoEatingBananas.java)|false|
 |880|Medium|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/)|[Decoded String at Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodedStringAtIndex.java)|false|
 |881|Medium|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[Boats to Save People.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BoatsToSavePeople.java)|false|
