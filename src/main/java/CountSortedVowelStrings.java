@@ -1,32 +1,42 @@
+import common.Difficulty;
 import common.LeetCode;
+
+import java.util.Arrays;
 
 /**
  * @author RakhmedovRS
  * @created 11/1/2020
  */
-@LeetCode(id = 1641, name = "Count Sorted Vowel Strings", url = "https://leetcode.com/problems/count-sorted-vowel-strings/")
+@LeetCode(
+	id = 1641,
+	name = "Count Sorted Vowel Strings",
+	url = "https://leetcode.com/problems/count-sorted-vowel-strings/",
+	difficulty = Difficulty.MEDIUM
+)
 public class CountSortedVowelStrings
 {
 	public int countVowelStrings(int n)
 	{
-		char[] dict = new char[]{'a', 'e', 'i', 'o', 'u'};
-		return dfs(0, new char[n], n, dict, 0);
-	}
-
-	private int dfs(int pos, char[] curr, int n, char[] dict, int i)
-	{
-		if (n == 0)
+		int[][] memo = new int[5][n];
+		Arrays.fill(memo[0], 1);
+		for (int i = 0; i < 5; i++)
 		{
-			return 1;
+			memo[i][0] = 1;
+		}
+
+		for (int column = 1; column < n; column++)
+		{
+			for (int row = 1; row < 5; row++)
+			{
+				memo[row][column] = memo[row][column - 1] + memo[row - 1][column];
+			}
 		}
 
 		int count = 0;
-		for (int j = i; j < dict.length; j++)
+		for (int[] row : memo)
 		{
-			curr[pos] = dict[j];
-			count += dfs(pos + 1, curr, n - 1, dict, j);
+			count += row[n - 1];
 		}
-
 		return count;
 	}
 }
