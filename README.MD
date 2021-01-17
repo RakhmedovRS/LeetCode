@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1140
+Count of solved tasks: 1141
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1146,7 +1146,8 @@ Count of solved tasks: 1140
 |1718|Medium|[Construct the Lexicographically Largest Valid Sequence](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/)|[Construct the Lexicographically Largest Valid Sequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTheLexicographicallyLargestValidSequence.java)|false|
 |1720|Easy|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|[Decode XORed Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeXORedArray.java)|false|
 |1721|Medium|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[Swapping Nodes in a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SwappingNodesInLinkedList.java)|false|
-|1722|Medium|[Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)|[Minimize Hamming Distance After Swap Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimizeHammingDistanceAfterSwapOperations.java)|false|</p>
+|1722|Medium|[Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)|[Minimize Hamming Distance After Swap Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimizeHammingDistanceAfterSwapOperations.java)|false|
+|1725|Easy|[Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/)|[Number Of Rectangles That Can Form The Largest Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfRectanglesThatCanFormTheLargestSquare.java)|false|</p>
 </details>
 
 <details>
@@ -1233,7 +1234,8 @@ Count of solved tasks: 1140
 |1704|Easy|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|[Determine if String Halves Are Alike.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineIfStringHalvesAreAlike.java)|false|
 |1710|Easy|[Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|[Maximum Units on a Truck.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumUnitsOnTruck.java)|false|
 |1716|Easy|[Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)|[Calculate Money in Leetcode Bank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CalculateMoneyInLeetcodeBank.java)|false|
-|1720|Easy|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|[Decode XORed Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeXORedArray.java)|false|</p>
+|1720|Easy|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|[Decode XORed Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeXORedArray.java)|false|
+|1725|Easy|[Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/)|[Number Of Rectangles That Can Form The Largest Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfRectanglesThatCanFormTheLargestSquare.java)|false|</p>
 </details>
 
 <details>
