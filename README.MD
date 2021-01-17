@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1142
+Count of solved tasks: 1143
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1148,7 +1148,8 @@ Count of solved tasks: 1142
 |1721|Medium|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[Swapping Nodes in a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SwappingNodesInLinkedList.java)|false|
 |1722|Medium|[Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)|[Minimize Hamming Distance After Swap Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimizeHammingDistanceAfterSwapOperations.java)|false|
 |1725|Easy|[Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/)|[Number Of Rectangles That Can Form The Largest Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfRectanglesThatCanFormTheLargestSquare.java)|false|
-|1726|Medium|[Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/)|[Tuple with Same Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TupleWithSameProduct.java)|false|</p>
+|1726|Medium|[Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/)|[Tuple with Same Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TupleWithSameProduct.java)|false|
+|1727|Medium|[Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)|[Largest Submatrix With Rearrangements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestSubmatrixWithRearrangements.java)|false|</p>
 </details>
 
 <details>
@@ -1426,7 +1427,8 @@ Count of solved tasks: 1142
 |1718|Medium|[Construct the Lexicographically Largest Valid Sequence](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/)|[Construct the Lexicographically Largest Valid Sequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTheLexicographicallyLargestValidSequence.java)|false|
 |1721|Medium|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[Swapping Nodes in a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SwappingNodesInLinkedList.java)|false|
 |1722|Medium|[Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)|[Minimize Hamming Distance After Swap Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimizeHammingDistanceAfterSwapOperations.java)|false|
-|1726|Medium|[Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/)|[Tuple with Same Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TupleWithSameProduct.java)|false|</p>
+|1726|Medium|[Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/)|[Tuple with Same Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TupleWithSameProduct.java)|false|
+|1727|Medium|[Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)|[Largest Submatrix With Rearrangements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestSubmatrixWithRearrangements.java)|false|</p>
 </details>
 
 <details>
