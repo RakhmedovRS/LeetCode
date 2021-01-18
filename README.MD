@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1147
+Count of solved tasks: 1148
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -230,6 +230,7 @@ Count of solved tasks: 1147
 |270|Medium|[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)|[Closest Binary Search Tree Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestBinarySearchTreeValue.java)|true|
 |274|Undefined|[H-Index](https://leetcode.com/problems/h-index/)|[H-Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HIndex.java)|false|
 |275|Undefined|[H-Index II](https://leetcode.com/problems/h-index-ii/)|[H-Index II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HIndexII.java)|false|
+|276|Easy|[Paint Fence](https://leetcode.com/problems/paint-fence/)|[Paint Fence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PaintFence.java)|true|
 |277|Medium|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/)|[Find the Celebrity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheCelebrity.java)|true|
 |278|Undefined|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[First Bad Version.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstBadVersion.java)|false|
 |279|Undefined|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Perfect Squares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PerfectSquares.java)|false|
@@ -1178,6 +1179,7 @@ Count of solved tasks: 1147
 |246|Easy|[Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/)|[Strobogrammatic Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StrobogrammaticNumber.java)|true|
 |252|Easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Meeting Rooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeetingRooms.java)|true|
 |266|Easy|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|[Palindrome Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromePermutation.java)|true|
+|276|Easy|[Paint Fence](https://leetcode.com/problems/paint-fence/)|[Paint Fence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PaintFence.java)|true|
 |293|Easy|[Flip Game](https://leetcode.com/problems/flip-game/)|[Flip Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlipGame.java)|true|
 |339|Easy|[Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)|[Nested List Weight Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NestedListWeightSum.java)|true|
 |346|Easy|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[Moving Average from Data Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MovingAverageFromDataStream.java)|true|
