@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1144
+Count of solved tasks: 1145
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -452,6 +452,7 @@ Count of solved tasks: 1144
 |573|Medium|[Squirrel Simulation](https://leetcode.com/problems/squirrel-simulation/)|[Squirrel Simulation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SquirrelSimulation.java)|true|
 |575|Easy|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Distribute Candies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistributeCandies.java)|true|
 |576|Undefined|[Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)|[Out of Boundary Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OutOfBoundaryPaths.java)|false|
+|582|Medium|[Kill Process](https://leetcode.com/problems/kill-process/)|[Kill Process.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KillProcess.java)|true|
 |583|Undefined|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Delete Operation for Two Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteOperationForTwoStrings.java)|false|
 |588|Hard|[Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/)|[Design In-Memory File System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignInMemoryFileSystem.java)|true|
 |589|Undefined|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary Tree Preorder Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/N_aryTreePreorderTraversal.java)|false|
@@ -1318,6 +1319,7 @@ Count of solved tasks: 1144
 |549|Medium|[Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)|[Binary Tree Longest Consecutive Sequence II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeLongestConsecutiveSequenceII.java)|true|
 |562|Medium|[Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/)|[Longest Line of Consecutive One in Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestLineOfConsecutiveOneInMatrix.java)|true|
 |573|Medium|[Squirrel Simulation](https://leetcode.com/problems/squirrel-simulation/)|[Squirrel Simulation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SquirrelSimulation.java)|true|
+|582|Medium|[Kill Process](https://leetcode.com/problems/kill-process/)|[Kill Process.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KillProcess.java)|true|
 |616|Medium|[Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string/)|[Add Bold Tag in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddBoldTagInString.java)|true|
 |624|Medium|[Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/)|[Maximum Distance in Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDistanceInArrays.java)|true|
 |660|Medium|[Remove 9](https://leetcode.com/problems/remove-9/)|[Remove 9.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Remove9.java)|true|
