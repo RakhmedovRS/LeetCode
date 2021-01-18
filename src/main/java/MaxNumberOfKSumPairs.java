@@ -18,39 +18,36 @@ public class MaxNumberOfKSumPairs
 {
 	public int maxOperations(int[] nums, int k)
 	{
-		Map<Integer, Integer> map = new HashMap<>();
+		Map<Integer, Integer> memo = new HashMap<>();
 		for (int num : nums)
 		{
-			map.put(num, map.getOrDefault(num, 0) + 1);
+			memo.put(num, memo.getOrDefault(num, 0) + 1);
 		}
 
-		int ops = 0;
-		int c1;
-		int c2;
+		int operations = 0;
+		int searchValue;
+		int count;
 		for (int num : nums)
 		{
-			c1 = map.get(num);
-			c2 = map.getOrDefault(k - num, 0);
-			if (k - num == num)
+			searchValue = k - num;
+			if (memo.containsKey(num) && memo.containsKey(searchValue) && (num != searchValue || (memo.get(searchValue) > 1)))
 			{
-				if (c1 > 1)
-				{
-					ops += c1 / 2;
-					map.put(num, c1 % 2);
-				}
-			}
-			else
-			{
-				if (c1 > 0 && c2 > 0)
-				{
-					ops++;
+				operations++;
 
-					map.put(num, c1 - 1);
-					map.put(k - num, c2 - 1);
+				count = memo.remove(num) - 1;
+				if (count > 0)
+				{
+					memo.put(num, count);
+				}
+
+				count = memo.remove(searchValue) - 1;
+				if (count > 0)
+				{
+					memo.put(searchValue, count);
 				}
 			}
 		}
 
-		return ops;
+		return operations;
 	}
 }
