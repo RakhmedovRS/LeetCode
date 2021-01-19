@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1149
+Count of solved tasks: 1150
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -266,6 +266,7 @@ Count of solved tasks: 1149
 |316|Undefined|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[Remove Duplicate Letters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveDuplicateLetters.java)|false|
 |318|Undefined|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[Maximum Product of Word Lengths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfWordLengths.java)|false|
 |319|Undefined|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/)|[Bulb Switcher.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BulbSwitcher.java)|false|
+|320|Medium|[Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/)|[Generalized Abbreviation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GeneralizedAbbreviation.java)|true|
 |322|Undefined|[Coin Change](https://leetcode.com/problems/coin-change/)|[Coin Change.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CoinChange.java)|false|
 |323|Medium|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|[Number of Connected Components in an Undirected Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfConnectedComponentsInUndirectedGraph.java)|true|
 |326|Undefined|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Power of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PowerOfThree.java)|false|
@@ -1294,6 +1295,7 @@ Count of solved tasks: 1149
 |304|Medium|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Range Sum Query 2D - Immutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQuery2DImmutable.java)|false|
 |307|Medium|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[Range Sum Query - Mutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQueryMutable.java)|false|
 |312|Medium|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[Burst Balloons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BurstBalloons.java)|false|
+|320|Medium|[Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/)|[Generalized Abbreviation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GeneralizedAbbreviation.java)|true|
 |323|Medium|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|[Number of Connected Components in an Undirected Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfConnectedComponentsInUndirectedGraph.java)|true|
 |334|Medium|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[Increasing Triplet Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingTripletSubsequence.java)|false|
 |337|Medium|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[House Robber III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HouseRobberIII.java)|false|
