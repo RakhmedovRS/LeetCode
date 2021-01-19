@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1151
+Count of solved tasks: 1152
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -854,6 +854,7 @@ Count of solved tasks: 1151
 |1227|Undefined|[Airplane Seat Assignment Probability](https://leetcode.com/problems/airplane-seat-assignment-probability/)|[Airplane Seat Assignment Probability.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AirplaneSeatAssignmentProbability.java)|false|
 |1228|Easy|[Missing Number In Arithmetic Progression](https://leetcode.com/problems/missing-number-in-arithmetic-progression/)|[Missing Number In Arithmetic Progression.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumberInArithmeticProgression.java)|true|
 |1232|Undefined|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Check If It Is a Straight Line.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfItIsStraightLine.java)|false|
+|1233|Medium|[Remove Sub-Folders from the Filesystem](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/)|[Remove Sub-Folders from the Filesystem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveSubFoldersFromTheFilesystem.java)|false|
 |1234|Medium|[Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)|[Replace the Substring for Balanced String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceTheSubstringForBalancedString.java)|false|
 |1235|Hard|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[Maximum Profit in Job Scheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProfitInJobScheduling.java)|false|
 |1236|Medium|[Web Crawler](https://leetcode.com/problems/web-crawler/)|[Web Crawler.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WebCrawler.java)|true|
@@ -1377,6 +1378,7 @@ Count of solved tasks: 1151
 |1198|Medium|[Find Smallest Common Element in All Rows](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/)|[Find Smallest Common Element in All Rows.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindSmallestCommonElementInAllRows.java)|true|
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[Smallest String With Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithSwaps.java)|false|
 |1214|Medium|[Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|[Two Sum BSTs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumBSTs.java)|true|
+|1233|Medium|[Remove Sub-Folders from the Filesystem](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/)|[Remove Sub-Folders from the Filesystem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveSubFoldersFromTheFilesystem.java)|false|
 |1234|Medium|[Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)|[Replace the Substring for Balanced String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceTheSubstringForBalancedString.java)|false|
 |1236|Medium|[Web Crawler](https://leetcode.com/problems/web-crawler/)|[Web Crawler.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WebCrawler.java)|true|
 |1242|Medium|[Web Crawler Multithreaded](https://leetcode.com/problems/web-crawler-multithreaded/)|[Web Crawler Multithreaded.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WebCrawlerMultithreaded.java)|true|
