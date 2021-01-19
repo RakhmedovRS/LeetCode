@@ -1,47 +1,56 @@
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 04-Apr-20
  */
-@LeetCode(id = 5, name = "Longest Palindromic Substring", url = "https://leetcode.com/problems/longest-palindromic-substring/")
+@LeetCode(
+	id = 5,
+	name = "Longest Palindromic Substring",
+	url = "https://leetcode.com/problems/longest-palindromic-substring/",
+	difficulty = Difficulty.MEDIUM
+)
 public class LongestPalindromicSubstring
 {
 	public String longestPalindrome(String s)
 	{
-		if (s == null || s.length() == 0)
-		{
-			return "";
-		}
-
+		int left = 0;
+		int right = 0;
 		char[] chars = s.toCharArray();
-		int start = 0;
-		int end = 0;
-		int maxLength;
-		for (int center = 0; center < s.length(); center++)
+		int max;
+		for (int i = 0; i < s.length(); i++)
 		{
-			int odd = checkAroundTheCenter(chars, center, center);
-			int even = checkAroundTheCenter(chars, center, center + 1);
-			maxLength = Math.max(odd, even);
-			if (maxLength > end - start)
+			int a = longestPalindrome(i, i, chars);
+			int b = longestPalindrome(i, i + 1, chars);
+			max = Math.max(a, b);
+			if (1 + right - left < max)
 			{
-				start = center - (maxLength - 1) / 2;
-				end = center + maxLength / 2;
+				left = i - (max - 1) / 2;
+				right = i + max / 2;
 			}
 		}
 
-		return s.substring(start, end + 1);
+		return s.substring(left, right + 1);
 	}
 
-	private int checkAroundTheCenter(char[] chars, int left, int right)
+	private int longestPalindrome(int left, int right, char[] chars)
 	{
-		while (left >= 0 && right < chars.length && chars[left] == chars[right])
+		int max = 0;
+		while (left >= 0 && right < chars.length)
 		{
-			left--;
-			right++;
+			if (chars[left] == chars[right])
+			{
+				max = Math.max(max, 1 + right - left);
+				left--;
+				right++;
+			}
+			else
+			{
+				break;
+			}
 		}
-
-		return right - left - 1;
+		return max;
 	}
 
 	public static void main(String[] args)
