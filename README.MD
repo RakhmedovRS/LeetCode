@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1155
+Count of solved tasks: 1156
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -263,6 +263,7 @@ Count of solved tasks: 1155
 |310|Undefined|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|[Minimum Height Trees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumHeightTrees.java)|false|
 |312|Medium|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[Burst Balloons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BurstBalloons.java)|false|
 |313|Undefined|[Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)|[Super Ugly Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SuperUglyNumber.java)|false|
+|314|Medium|[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)|[Binary Tree Vertical Order Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeVerticalOrderTraversal.java)|true|
 |315|Undefined|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)|[Count of Smaller Numbers After Self.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountOfSmallerNumbersAfterSelf.java)|false|
 |316|Undefined|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[Remove Duplicate Letters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveDuplicateLetters.java)|false|
 |318|Undefined|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[Maximum Product of Word Lengths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfWordLengths.java)|false|
@@ -1303,6 +1304,7 @@ Count of solved tasks: 1155
 |304|Medium|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Range Sum Query 2D - Immutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQuery2DImmutable.java)|false|
 |307|Medium|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[Range Sum Query - Mutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQueryMutable.java)|false|
 |312|Medium|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[Burst Balloons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BurstBalloons.java)|false|
+|314|Medium|[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)|[Binary Tree Vertical Order Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeVerticalOrderTraversal.java)|true|
 |320|Medium|[Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/)|[Generalized Abbreviation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GeneralizedAbbreviation.java)|true|
 |323|Medium|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|[Number of Connected Components in an Undirected Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfConnectedComponentsInUndirectedGraph.java)|true|
 |334|Medium|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[Increasing Triplet Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingTripletSubsequence.java)|false|
