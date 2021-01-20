@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1153
+Count of solved tasks: 1154
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -867,6 +867,7 @@ Count of solved tasks: 1153
 |1247|Undefined|[Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/)|[Minimum Swaps to Make Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSwapsToMakeStringsEqual.java)|false|
 |1249|Undefined|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Minimum Remove to Make Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumRemoveToMakeValidParentheses.java)|false|
 |1253|Undefined|[Reconstruct a 2-Row Binary Matrix](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/)|[Reconstruct a 2-Row Binary Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Reconstruct2RowBinaryMatrix.java)|false|
+|1254|Medium|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|[Number of Closed Islands.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfClosedIslands.java)|false|
 |1255|Undefined|[Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/)|[Maximum Score Words Formed by Letters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumScoreWordsFormedByLetters.java)|false|
 |1256|Medium|[Encode Number](https://leetcode.com/problems/encode-number/)|[Encode Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EncodeNumber.java)|true|
 |1258|Medium|[Synonymous Sentences](https://leetcode.com/problems/synonymous-sentences/)|[Synonymous Sentences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SynonymousSentences.java)|true|
@@ -1385,6 +1386,7 @@ Count of solved tasks: 1153
 |1236|Medium|[Web Crawler](https://leetcode.com/problems/web-crawler/)|[Web Crawler.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WebCrawler.java)|true|
 |1242|Medium|[Web Crawler Multithreaded](https://leetcode.com/problems/web-crawler-multithreaded/)|[Web Crawler Multithreaded.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WebCrawlerMultithreaded.java)|true|
 |1244|Medium|[Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/)|[Design A Leaderboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignLeaderboard.java)|true|
+|1254|Medium|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|[Number of Closed Islands.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfClosedIslands.java)|false|
 |1256|Medium|[Encode Number](https://leetcode.com/problems/encode-number/)|[Encode Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EncodeNumber.java)|true|
 |1258|Medium|[Synonymous Sentences](https://leetcode.com/problems/synonymous-sentences/)|[Synonymous Sentences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SynonymousSentences.java)|true|
 |1265|Medium|[Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/)|[Print Immutable Linked List in Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintImmutableLinkedListInReverse.java)|true|
