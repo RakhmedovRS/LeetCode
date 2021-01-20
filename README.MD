@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1152
+Count of solved tasks: 1153
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -541,6 +541,7 @@ Count of solved tasks: 1152
 |733|Undefined|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Flood Fill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FloodFill.java)|false|
 |734|Easy|[Sentence Similarity](https://leetcode.com/problems/sentence-similarity/)|[Sentence Similarity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SentenceSimilarity.java)|true|
 |735|Undefined|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Asteroid Collision.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AsteroidCollision.java)|false|
+|737|Medium|[Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)|[Sentence Similarity II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SentenceSimilarityII.java)|true|
 |738|Undefined|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/)|[Monotone Increasing Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MonotoneIncreasingDigits.java)|false|
 |739|Undefined|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Daily Temperatures.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DailyTemperatures.java)|false|
 |740|Undefined|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[Delete and Earn.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteAndEarn.java)|false|
@@ -1339,6 +1340,7 @@ Count of solved tasks: 1152
 |702|Medium|[Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)|[Search in a Sorted Array of Unknown Size.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInSortedArrayOfUnknownSize.java)|true|
 |718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Maximum Length of Repeated Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfRepeatedSubarray.java)|false|
 |721|Medium|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[Accounts Merge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AccountsMerge.java)|false|
+|737|Medium|[Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)|[Sentence Similarity II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SentenceSimilarityII.java)|true|
 |742|Medium|[Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/)|[Closest Leaf in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestLeafInBinaryTree.java)|true|
 |754|Medium|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|[Reach a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReachNumber.java)|false|
 |769|Medium|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[Max Chunks To Make Sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxChunksToMakeSorted.java)|false|
