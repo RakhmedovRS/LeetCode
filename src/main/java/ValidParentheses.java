@@ -1,53 +1,58 @@
+import common.Difficulty;
 import common.LeetCode;
 
-import java.util.Deque;
-import java.util.HashMap;
 import java.util.LinkedList;
-import java.util.Map;
 
 /**
  * @author RakhmedovRS
  * @created 20-Mar-20
  */
-@LeetCode(id = 20, name = "Valid Parentheses", url = "https://leetcode.com/problems/valid-parentheses/")
+@LeetCode(
+	id = 20,
+	name = "Valid Parentheses",
+	url = "https://leetcode.com/problems/valid-parentheses/",
+	difficulty = Difficulty.EASY
+)
 public class ValidParentheses
 {
 	public boolean isValid(String s)
 	{
-		LinkedList<Character> deque = new LinkedList<>();
+		LinkedList<Character> stack = new LinkedList<>();
 		for (char ch : s.toCharArray())
 		{
-			if (ch == '(' || ch == '[' || ch == '{')
+			if (ch == '(' || ch == '{' || ch == '[')
 			{
-				deque.addLast(ch);
+				stack.push(ch);
 			}
 			else if (ch == ')')
 			{
-				if (deque.isEmpty() || deque.getLast() != '(')
+				if (stack.isEmpty() || stack.peek() != '(')
 				{
 					return false;
 				}
-				deque.removeLast();
+
+				stack.pop();
 			}
 			else if (ch == ']')
 			{
-				if (deque.isEmpty() || deque.getLast() != '[')
+				if (stack.isEmpty() || stack.peek() != '[')
 				{
 					return false;
 				}
-				deque.removeLast();
+
+				stack.pop();
 			}
 			else if (ch == '}')
 			{
-				if (deque.isEmpty() || deque.getLast() != '{')
+				if (stack.isEmpty() || stack.peek() != '{')
 				{
 					return false;
 				}
-				deque.removeLast();
+
+				stack.pop();
 			}
 		}
-
-		return deque.isEmpty();
+		return stack.isEmpty();
 	}
 
 	public static void main(String[] args)

@@ -24,7 +24,7 @@ Count of solved tasks: 1154
 |16|Undefined|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[3Sum Closest.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThreeSumClosest.java)|false|
 |17|Undefined|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Letter Combinations of a Phone Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LetterCombinationsOfPhoneNumber.java)|false|
 |19|Undefined|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove Nth Node From End of List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveNthNodeFromEndOfList.java)|false|
-|20|Undefined|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidParentheses.java)|false|
+|20|Easy|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidParentheses.java)|false|
 |21|Easy|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeTwoSortedLists.java)|false|
 |22|Undefined|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Generate Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GenerateParentheses.java)|false|
 |23|Undefined|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[Merge k Sorted Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeKSortedLists.java)|false|
@@ -1170,6 +1170,7 @@ Count of solved tasks: 1154
 | LeetCode ID | Difficulty  | Name           | Solution       | Premium  |
 |:-----------:|:-----------:|:--------------:|:--------------:|:--------:|
 |9|Easy|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Palindrome Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeNumber.java)|false|
+|20|Easy|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidParentheses.java)|false|
 |21|Easy|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeTwoSortedLists.java)|false|
 |27|Easy|[Remove Element](https://leetcode.com/problems/remove-element/)|[Remove Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveElement.java)|false|
 |53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarray.java)|false|
