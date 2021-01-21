@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1156
+Count of solved tasks: 1157
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -768,6 +768,7 @@ Count of solved tasks: 1156
 |1057|Medium|[Campus Bikes](https://leetcode.com/problems/campus-bikes/)|[Campus Bikes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CampusBikes.java)|true|
 |1059|Medium|[All Paths from Source Lead to Destination](https://leetcode.com/problems/all-paths-from-source-lead-to-destination/)|[All Paths from Source Lead to Destination.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllPathsFromSourceLeadToDestination.java)|true|
 |1060|Medium|[Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/)|[Missing Element in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingElementInSortedArray.java)|true|
+|1061|Medium|[Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/)|[Lexicographically Smallest Equivalent String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LexicographicallySmallestEquivalentString.java)|true|
 |1062|Medium|[Longest Repeating Substring](https://leetcode.com/problems/longest-repeating-substring/)|[Longest Repeating Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestRepeatingSubstring.java)|true|
 |1064|Easy|[Fixed Point](https://leetcode.com/problems/fixed-point/)|[Fixed Point.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FixedPoint.java)|true|
 |1065|Easy|[Index Pairs of a String](https://leetcode.com/problems/index-pairs-of-a-string/)|[Index Pairs of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IndexPairsOfString.java)|true|
@@ -1369,6 +1370,7 @@ Count of solved tasks: 1156
 |1057|Medium|[Campus Bikes](https://leetcode.com/problems/campus-bikes/)|[Campus Bikes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CampusBikes.java)|true|
 |1059|Medium|[All Paths from Source Lead to Destination](https://leetcode.com/problems/all-paths-from-source-lead-to-destination/)|[All Paths from Source Lead to Destination.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllPathsFromSourceLeadToDestination.java)|true|
 |1060|Medium|[Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/)|[Missing Element in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingElementInSortedArray.java)|true|
+|1061|Medium|[Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/)|[Lexicographically Smallest Equivalent String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LexicographicallySmallestEquivalentString.java)|true|
 |1062|Medium|[Longest Repeating Substring](https://leetcode.com/problems/longest-repeating-substring/)|[Longest Repeating Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestRepeatingSubstring.java)|true|
 |1087|Medium|[Brace Expansion](https://leetcode.com/problems/brace-expansion/)|[Brace Expansion.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BraceExpansion.java)|true|
 |1093|Medium|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|[Statistics from a Large Sample.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StatisticsFromLargeSample.java)|false|
