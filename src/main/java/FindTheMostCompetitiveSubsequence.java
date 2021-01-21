@@ -22,23 +22,23 @@ public class FindTheMostCompetitiveSubsequence
 			return nums;
 		}
 
-		LinkedList<Integer> linkedList = new LinkedList<>();
+		LinkedList<Integer> candidate = new LinkedList<>();
 		for (int i = 0; i < nums.length; i++)
 		{
-			while (!linkedList.isEmpty() && linkedList.getLast() > nums[i] && linkedList.size() + nums.length - i > k)
+			while (!candidate.isEmpty() && candidate.getLast() > nums[i] && candidate.size() + (nums.length - i) > k)
 			{
-				linkedList.removeLast();
+				candidate.removeLast();
 			}
 
-			linkedList.addLast(nums[i]);
+			candidate.addLast(nums[i]);
 		}
 
 		int[] answer = new int[k];
-		for (int i = 0; i < k; i++)
+		int pos = 0;
+		while (k-- > 0)
 		{
-			answer[i] = linkedList.removeFirst();
+			answer[pos++] = candidate.removeFirst();
 		}
-
 		return answer;
 	}
 }
