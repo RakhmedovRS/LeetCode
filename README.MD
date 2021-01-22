@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1160
+Count of solved tasks: 1161
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -584,6 +584,7 @@ Count of solved tasks: 1160
 |802|Undefined|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)|[Find Eventual Safe States.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindEventualSafeStates.java)|false|
 |804|Easy|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Unique Morse Code Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UniqueMorseCodeWords.java)|false|
 |806|Undefined|[Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/)|[Number of Lines To Write String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfLinesToWriteString.java)|false|
+|807|Medium|[Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|[Max Increase to Keep City Skyline.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxIncreaseToKeepCitySkyline.java)|false|
 |809|Undefined|[Expressive Words](https://leetcode.com/problems/expressive-words/)|[Expressive Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExpressiveWords.java)|false|
 |811|Undefined|[Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)|[Subdomain Visit Count.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubdomainVisitCount.java)|false|
 |812|Undefined|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/)|[Largest Triangle Area.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestTriangleArea.java)|false|
@@ -1355,6 +1356,7 @@ Count of solved tasks: 1160
 |742|Medium|[Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/)|[Closest Leaf in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestLeafInBinaryTree.java)|true|
 |754|Medium|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|[Reach a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReachNumber.java)|false|
 |769|Medium|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[Max Chunks To Make Sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxChunksToMakeSorted.java)|false|
+|807|Medium|[Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|[Max Increase to Keep City Skyline.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxIncreaseToKeepCitySkyline.java)|false|
 |820|Medium|[Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)|[Short Encoding of Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortEncodingOfWords.java)|false|
 |833|Medium|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|[Find And Replace in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAndReplaceInString.java)|false|
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[Longest Mountain in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)|false|
