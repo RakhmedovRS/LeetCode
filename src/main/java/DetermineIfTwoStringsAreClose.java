@@ -22,33 +22,32 @@ public class DetermineIfTwoStringsAreClose
 			return false;
 		}
 
-		char[] w1Chars = word1.toCharArray();
-		int[] w1Memo = new int[26];
-		for (char ch : w1Chars)
+		int[] tableA = new int[26];
+		for (char ch : word1.toCharArray())
 		{
-			w1Memo[ch - 'a']++;
+			tableA[ch - 'a']++;
 		}
 
-		char[] w2Chars = word2.toCharArray();
-		int[] w2Memo = new int[26];
-		for (char ch : w2Chars)
+		int[] tableB = new int[26];
+		for (char ch : word2.toCharArray())
 		{
-			w2Memo[ch - 'a']++;
+			tableB[ch - 'a']++;
 		}
 
 		for (int i = 0; i < 26; i++)
 		{
-			if ((w1Memo[i] == 0 && w2Memo[i] != 0) || (w1Memo[i] != 0 && w2Memo[i] == 0))
+			if ((tableA[i] == 0 && tableB[i] != 0) || (tableB[i] == 0 && tableA[i] != 0))
 			{
 				return false;
 			}
 		}
 
-		Arrays.sort(w1Memo);
-		Arrays.sort(w2Memo);
+		Arrays.sort(tableA);
+		Arrays.sort(tableB);
+
 		for (int i = 0; i < 26; i++)
 		{
-			if (w1Memo[i] != w2Memo[i])
+			if (tableA[i] != tableB[i])
 			{
 				return false;
 			}
