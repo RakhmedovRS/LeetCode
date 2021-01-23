@@ -26,7 +26,7 @@ public class Collector
 
 	public static void main(String[] args) throws Exception
 	{
-		try (Stream<Path> pathStream = Files.list(Paths.get(Paths.get("").toAbsolutePath().toString() + "\\src\\main\\java")))
+		try (Stream<Path> pathStream = Files.list(Paths.get("").toAbsolutePath().resolve("src").resolve("main").resolve("java")))
 		{
 			List<Map.Entry<LeetCode, String>> annotations =
 				pathStream.map(path ->
@@ -45,7 +45,7 @@ public class Collector
 					.sorted(Comparator.comparingInt(entry -> entry.getKey().id()))
 					.collect(Collectors.toList());
 
-			Path output = Paths.get(Paths.get("").toAbsolutePath().toString() + "\\README.MD");
+			Path output = Paths.get("").resolve("README.MD");
 			try (OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(output.toFile()));)
 			{
 				osw.write(preprocess("![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)"));
