@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1163
+Count of solved tasks: 1164
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1169,7 +1169,8 @@ Count of solved tasks: 1163
 |1725|Easy|[Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/)|[Number Of Rectangles That Can Form The Largest Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfRectanglesThatCanFormTheLargestSquare.java)|false|
 |1726|Medium|[Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/)|[Tuple with Same Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TupleWithSameProduct.java)|false|
 |1727|Medium|[Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)|[Largest Submatrix With Rearrangements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestSubmatrixWithRearrangements.java)|false|
-|1730|Medium|[Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food/)|[Shortest Path to Get Food.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathToGetFood.java)|true|</p>
+|1730|Medium|[Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food/)|[Shortest Path to Get Food.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathToGetFood.java)|true|
+|1733|Medium|[Minimum Number of People to Teach](https://leetcode.com/problems/minimum-number-of-people-to-teach/)|[Minimum Number of People to Teach.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfPeopleToTeach.java)|false|</p>
 </details>
 
 <details>
@@ -1472,7 +1473,8 @@ Count of solved tasks: 1163
 |1722|Medium|[Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)|[Minimize Hamming Distance After Swap Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimizeHammingDistanceAfterSwapOperations.java)|false|
 |1726|Medium|[Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/)|[Tuple with Same Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TupleWithSameProduct.java)|false|
 |1727|Medium|[Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)|[Largest Submatrix With Rearrangements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestSubmatrixWithRearrangements.java)|false|
-|1730|Medium|[Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food/)|[Shortest Path to Get Food.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathToGetFood.java)|true|</p>
+|1730|Medium|[Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food/)|[Shortest Path to Get Food.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathToGetFood.java)|true|
+|1733|Medium|[Minimum Number of People to Teach](https://leetcode.com/problems/minimum-number-of-people-to-teach/)|[Minimum Number of People to Teach.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfPeopleToTeach.java)|false|</p>
 </details>
 
 <details>
