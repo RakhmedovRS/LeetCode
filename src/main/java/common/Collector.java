@@ -59,11 +59,12 @@ public class Collector
 				osw.write(System.lineSeparator());
 				osw.write(preprocess(HEADER));
 				osw.write(preprocess(LINE));
-				osw.write(buildTasksTable(annotations, Difficulty.UNDEFINED, false));
+				osw.write(buildTasksTable(annotations, Difficulty.UNDEFINED, false, false));
 				osw.write(preprocess("</p>"));
 				osw.write(preprocess("</details>"));
 				osw.write(System.lineSeparator());
 
+				//Table for each difficulty
 				for (Difficulty difficulty : Difficulty.values())
 				{
 					if (difficulty == Difficulty.UNDEFINED)
@@ -76,20 +77,37 @@ public class Collector
 					osw.write(System.lineSeparator());
 					osw.write(preprocess(HEADER));
 					osw.write(preprocess(LINE));
-					osw.write(buildTasksTable(annotations, difficulty, true));
+					osw.write(buildTasksTable(annotations, difficulty, true, false));
 					osw.write(preprocess("</p>"));
 					osw.write(preprocess("</details>"));
 					osw.write(System.lineSeparator());
 				}
+
+				//Premium tasks table
+				osw.write(preprocess("<details>"));
+				osw.write(preprocess("<summary>Table of Premium solved tasks</summary>"));
+				osw.write(preprocess("<p>"));
+				osw.write(System.lineSeparator());
+				osw.write(preprocess(HEADER));
+				osw.write(preprocess(LINE));
+				osw.write(buildTasksTable(annotations, Difficulty.UNDEFINED, false, true));
+				osw.write(preprocess("</p>"));
+				osw.write(preprocess("</details>"));
+				osw.write(System.lineSeparator());
 			}
 		}
 	}
 
-	private static String buildTasksTable(List<Map.Entry<LeetCode, String>> annotations, Difficulty difficulty, boolean needToCheckDifficulty)
+	private static String buildTasksTable(List<Map.Entry<LeetCode, String>> annotations,
+	                                      Difficulty difficulty,
+	                                      boolean needToCheckDifficulty,
+	                                      boolean isPremium
+	)
 	{
 		return annotations
 			.stream()
 			.filter(entry -> !needToCheckDifficulty || entry.getKey().difficulty() == difficulty)
+			.filter(entry -> entry.getKey().premium() == isPremium)
 			.map(entry ->
 			{
 				try
