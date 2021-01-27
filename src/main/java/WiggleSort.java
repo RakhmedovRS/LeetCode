@@ -9,7 +9,8 @@ import common.LeetCode;
         id = 280,
         name = "Wiggle Sort",
         url = "https://leetcode.com/problems/wiggle-sort/",
-        difficulty = Difficulty.MEDIUM
+        difficulty = Difficulty.MEDIUM,
+        premium = true
 )
 public class WiggleSort
 {
