@@ -16,18 +16,17 @@ public class ConcatenationOfConsecutiveBinaryNumbers
 	public int concatenatedBinary(int n)
 	{
 		int mod = 1_000_000_007;
-		long result = 0;
-		String binary;
+		int result = 0;
 		for (int i = 1; i <= n; i++)
 		{
-			binary = Integer.toBinaryString(i);
-			for (int j = 0; j < binary.length(); j++)
+			for(char bit : Integer.toBinaryString(i).toCharArray())
 			{
-				result = (result * 2 + (binary.charAt(j) - '0')) % mod;
+				result = (result * 2 + (bit - '0')) % mod;
 			}
+
 		}
 
-		return (int) result;
+		return result;
 	}
 
 	public static void main(String[] args)
