@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1168
+Count of solved tasks: 1169
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1026,7 +1026,8 @@ Count of solved tasks: 1168
 |1732|Easy|[Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)|[Find the Highest Altitude.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheHighestAltitude.java)|false|
 |1733|Medium|[Minimum Number of People to Teach](https://leetcode.com/problems/minimum-number-of-people-to-teach/)|[Minimum Number of People to Teach.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfPeopleToTeach.java)|false|
 |1736|Easy|[Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/)|[Latest Time by Replacing Hidden Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LatestTimeByReplacingHiddenDigits.java)|false|
-|1737|Medium|[Change Minimum Characters to Satisfy One of Three Conditions](https://leetcode.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/)|[Change Minimum Characters to Satisfy One of Three Conditions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ChangeMinimumCharactersToSatisfyOneOfThreeConditions.java)|false|</p>
+|1737|Medium|[Change Minimum Characters to Satisfy One of Three Conditions](https://leetcode.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/)|[Change Minimum Characters to Satisfy One of Three Conditions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ChangeMinimumCharactersToSatisfyOneOfThreeConditions.java)|false|
+|1740|Easy|[Find Distance in a Binary Tree](https://leetcode.com/problems/find-distance-in-a-binary-tree/)|[Find Distance in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindDistanceInBinaryTree.java)|false|</p>
 </details>
 
 <details>
@@ -1075,7 +1076,8 @@ Count of solved tasks: 1168
 |1720|Easy|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|[Decode XORed Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeXORedArray.java)|false|
 |1725|Easy|[Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/)|[Number Of Rectangles That Can Form The Largest Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfRectanglesThatCanFormTheLargestSquare.java)|false|
 |1732|Easy|[Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)|[Find the Highest Altitude.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheHighestAltitude.java)|false|
-|1736|Easy|[Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/)|[Latest Time by Replacing Hidden Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LatestTimeByReplacingHiddenDigits.java)|false|</p>
+|1736|Easy|[Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/)|[Latest Time by Replacing Hidden Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LatestTimeByReplacingHiddenDigits.java)|false|
+|1740|Easy|[Find Distance in a Binary Tree](https://leetcode.com/problems/find-distance-in-a-binary-tree/)|[Find Distance in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindDistanceInBinaryTree.java)|false|</p>
 </details>
 
 <details>
