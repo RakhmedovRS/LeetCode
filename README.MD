@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1169
+Count of solved tasks: 1170
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -480,6 +480,7 @@ Count of solved tasks: 1169
 |747|Undefined|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|[Largest Number At Least Twice of Others.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestNumberAtLeastTwiceOfOthers.java)|false|
 |748|Undefined|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|[Shortest Completing Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestCompletingWord.java)|false|
 |749|Undefined|[Contain Virus](https://leetcode.com/problems/contain-virus/)|[Contain Virus.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainVirus.java)|false|
+|750|Medium|[Number Of Corner Rectangles](https://leetcode.com/problems/number-of-corner-rectangles/)|[Number Of Corner Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfCornerRectangles.java)|false|
 |752|Undefined|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|[Open the Lock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OpenTheLock.java)|false|
 |753|Undefined|[Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/)|[Cracking the Safe.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CrackingTheSafe.java)|false|
 |754|Medium|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|[Reach a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReachNumber.java)|false|
@@ -1124,6 +1125,7 @@ Count of solved tasks: 1169
 |539|Medium|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|[Minimum Time Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeDifference.java)|false|
 |718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Maximum Length of Repeated Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfRepeatedSubarray.java)|false|
 |721|Medium|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[Accounts Merge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AccountsMerge.java)|false|
+|750|Medium|[Number Of Corner Rectangles](https://leetcode.com/problems/number-of-corner-rectangles/)|[Number Of Corner Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfCornerRectangles.java)|false|
 |754|Medium|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|[Reach a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReachNumber.java)|false|
 |769|Medium|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[Max Chunks To Make Sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxChunksToMakeSorted.java)|false|
 |807|Medium|[Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|[Max Increase to Keep City Skyline.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxIncreaseToKeepCitySkyline.java)|false|
