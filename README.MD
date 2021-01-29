@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1170
+Count of solved tasks: 1171
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1375,6 +1375,7 @@ Count of solved tasks: 1170
 |1485|Medium|[Clone Binary Tree With Random Pointer](https://leetcode.com/problems/clone-binary-tree-with-random-pointer/)|[Clone Binary Tree With Random Pointer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CloneBinaryTreeWithRandomPointer.java)|true|
 |1490|Medium|[Clone N-ary Tree](https://leetcode.com/problems/clone-n-ary-tree/)|[Clone N-ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CloneNAryTree.java)|true|
 |1506|Medium|[Find Root of N-Ary Tree](https://leetcode.com/problems/find-root-of-n-ary-tree/)|[Find Root of N-Ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindRootOfNAryTree.java)|true|
+|1522|Medium|[Diameter of N-Ary Tree](https://leetcode.com/problems/diameter-of-n-ary-tree/)|[Diameter of N-Ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiameterOfNAryTree.java)|true|
 |1533|Medium|[Find the Index of the Large Integer](https://leetcode.com/problems/find-the-index-of-the-large-integer/)|[Find the Index of the Large Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheIndexOfTheLargeInteger.java)|true|
 |1554|Medium|[Strings Differ by One Character](https://leetcode.com/problems/strings-differ-by-one-character/)|[Strings Differ by One Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringsDifferByOneCharacter.java)|true|
 |1564|Medium|[Put Boxes Into the Warehouse I](https://leetcode.com/problems/put-boxes-into-the-warehouse-i/)|[Put Boxes Into the Warehouse I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PutBoxesIntoTheWarehouseI.java)|true|
