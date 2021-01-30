@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1171
+Count of solved tasks: 1172
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1282,6 +1282,7 @@ Count of solved tasks: 1171
 |339|Easy|[Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)|[Nested List Weight Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NestedListWeightSum.java)|true|
 |340|Hard|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|[Longest Substring with At Most K Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtMostKDistinctCharacters.java)|true|
 |346|Easy|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[Moving Average from Data Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MovingAverageFromDataStream.java)|true|
+|348|Medium|[Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/)|[Design Tic-Tac-Toe.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignTicTacToe.java)|true|
 |353|Medium|[Design Snake Game](https://leetcode.com/problems/design-snake-game/)|[Design Snake Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignSnakeGame.java)|true|
 |359|Easy|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)|[Logger Rate Limiter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LoggerRateLimiter.java)|true|
 |361|Medium|[Bomb Enemy](https://leetcode.com/problems/bomb-enemy/)|[Bomb Enemy.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BombEnemy.java)|true|
