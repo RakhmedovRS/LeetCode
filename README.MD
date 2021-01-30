@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1172
+Count of solved tasks: 1173
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -996,6 +996,7 @@ Count of solved tasks: 1172
 |1672|Easy|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[Richest Customer Wealth.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RichestCustomerWealth.java)|false|
 |1673|Medium|[Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)|[Find the Most Competitive Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheMostCompetitiveSubsequence.java)|false|
 |1674|Medium|[Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/)|[Minimum Moves to Make Array Complementary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumMovesToMakeArrayComplementary.java)|false|
+|1675|Hard|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|[Minimize Deviation in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimizeDeviationInArray.java)|false|
 |1678|Easy|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|[Goal Parser Interpretation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GoalParserInterpretation.java)|false|
 |1679|Medium|[Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)|[Max Number of K-Sum Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxNumberOfKSumPairs.java)|false|
 |1680|Medium|[Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)|[Concatenation of Consecutive Binary Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConcatenationOfConsecutiveBinaryNumbers.java)|false|
@@ -1234,7 +1235,8 @@ Count of solved tasks: 1172
 |1373|Hard|[Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/)|[Maximum Sum BST in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSumBSTInBinaryTree.java)|false|
 |1463|Hard|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|[Cherry Pickup II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CherryPickupII.java)|false|
 |1579|Hard|[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|[Remove Max Number of Edges to Keep Graph Fully Traversable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable.java)|false|
-|1649|Hard|[Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)|[Create Sorted Array through Instructions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CreateSortedArrayThroughInstructions.java)|false|</p>
+|1649|Hard|[Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)|[Create Sorted Array through Instructions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CreateSortedArrayThroughInstructions.java)|false|
+|1675|Hard|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|[Minimize Deviation in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimizeDeviationInArray.java)|false|</p>
 </details>
 
 <details>
