@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1177
+Count of solved tasks: 1178
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -699,6 +699,7 @@ Count of solved tasks: 1177
 |1091|Undefined|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Shortest Path in Binary Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathInBinaryMatrix.java)|false|
 |1093|Medium|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|[Statistics from a Large Sample.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StatisticsFromLargeSample.java)|false|
 |1094|Undefined|[Car Pooling](https://leetcode.com/problems/car-pooling/)|[Car Pooling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CarPooling.java)|false|
+|1102|Medium|[Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value/)|[Path With Maximum Minimum Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathWithMaximumMinimumValue.java)|false|
 |1103|Undefined|[Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)|[Distribute Candies to People.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistributeCandiesToPeople.java)|false|
 |1104|Medium|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[Path In Zigzag Labelled Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathInZigzagLabelledBinaryTree.java)|false|
 |1105|Undefined|[Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves/)|[Filling Bookcase Shelves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FillingBookcaseShelves.java)|false|
@@ -1152,6 +1153,7 @@ Count of solved tasks: 1177
 |1015|Medium|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[Smallest Integer Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestIntegerDivisibleByK.java)|false|
 |1016|Medium|[Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)|[Binary String With Substrings Representing 1 To N.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryStringWithSubstringsRepresentingOneToN.java)|false|
 |1093|Medium|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|[Statistics from a Large Sample.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StatisticsFromLargeSample.java)|false|
+|1102|Medium|[Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value/)|[Path With Maximum Minimum Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathWithMaximumMinimumValue.java)|false|
 |1104|Medium|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[Path In Zigzag Labelled Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathInZigzagLabelledBinaryTree.java)|false|
 |1123|Medium|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[Lowest Common Ancestor of Deepest Leaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfDeepestLeaves.java)|false|
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[Smallest String With Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithSwaps.java)|false|
