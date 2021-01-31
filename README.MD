@@ -1030,7 +1030,7 @@ Count of solved tasks: 1176
 |1736|Easy|[Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/)|[Latest Time by Replacing Hidden Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LatestTimeByReplacingHiddenDigits.java)|false|
 |1737|Medium|[Change Minimum Characters to Satisfy One of Three Conditions](https://leetcode.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/)|[Change Minimum Characters to Satisfy One of Three Conditions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ChangeMinimumCharactersToSatisfyOneOfThreeConditions.java)|false|
 |1740|Easy|[Find Distance in a Binary Tree](https://leetcode.com/problems/find-distance-in-a-binary-tree/)|[Find Distance in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindDistanceInBinaryTree.java)|false|
-|1742|Easy|[Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box//)|[Maximum Number of Balls in a Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfBallsInBox.java)|false|
+|1742|Easy|[Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/)|[Maximum Number of Balls in a Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfBallsInBox.java)|false|
 |1743|Medium|[Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/)|[Restore the Array From Adjacent Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RestoreTheArrayFromAdjacentPairs.java)|false|</p>
 </details>
 
@@ -1082,7 +1082,7 @@ Count of solved tasks: 1176
 |1732|Easy|[Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)|[Find the Highest Altitude.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheHighestAltitude.java)|false|
 |1736|Easy|[Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/)|[Latest Time by Replacing Hidden Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LatestTimeByReplacingHiddenDigits.java)|false|
 |1740|Easy|[Find Distance in a Binary Tree](https://leetcode.com/problems/find-distance-in-a-binary-tree/)|[Find Distance in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindDistanceInBinaryTree.java)|false|
-|1742|Easy|[Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box//)|[Maximum Number of Balls in a Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfBallsInBox.java)|false|</p>
+|1742|Easy|[Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/)|[Maximum Number of Balls in a Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfBallsInBox.java)|false|</p>
 </details>
 
 <details>

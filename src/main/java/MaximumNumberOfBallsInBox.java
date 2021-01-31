@@ -11,7 +11,7 @@ import java.util.Map;
 @LeetCode(
         id = 1742,
         name = "Maximum Number of Balls in a Box",
-        url = "https://leetcode.com/problems/maximum-number-of-balls-in-a-box//",
+        url = "https://leetcode.com/problems/maximum-number-of-balls-in-a-box/",
         difficulty = Difficulty.EASY
 )
 public class MaximumNumberOfBallsInBox
