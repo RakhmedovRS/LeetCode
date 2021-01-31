@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1176
+Count of solved tasks: 1177
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -945,6 +945,7 @@ Count of solved tasks: 1176
 |1583|Undefined|[Count Unhappy Friends](https://leetcode.com/problems/count-unhappy-friends/)|[Count Unhappy Friends.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountUnhappyFriends.java)|false|
 |1584|Undefined|[Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|[Min Cost to Connect All Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinCostToConnectAllPoints.java)|false|
 |1585|Undefined|[Check If String Is Transformable With Substring Sort Operations](https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations/)|[Check If String Is Transformable With Substring Sort Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfStringIsTransformableWithSubstringSortOperations.java)|false|
+|1586|Medium|[Binary Search Tree Iterator II](https://leetcode.com/problems/binary-search-tree-iterator-ii/)|[Binary Search Tree Iterator II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearchTreeIteratorII.java)|false|
 |1588|Undefined|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[Sum of All Odd Length Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfAllOddLengthSubarrays.java)|false|
 |1589|Undefined|[Maximum Sum Obtained of Any Permutation](https://leetcode.com/problems/maximum-sum-obtained-of-any-permutation/)|[Maximum Sum Obtained of Any Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSumObtainedOfAnyPermutation.java)|false|
 |1590|Medium|[Make Sum Divisible by P](https://leetcode.com/problems/make-sum-divisible-by-p/)|[Make Sum Divisible by P.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MakeSumDivisibleByP.java)|false|
@@ -1173,6 +1174,7 @@ Count of solved tasks: 1176
 |1492|Medium|[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[The kth Factor of n.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKthFactorOfN.java)|false|
 |1562|Medium|[Find Latest Group of Size M](https://leetcode.com/problems/find-latest-group-of-size-m/)|[Find Latest Group of Size M.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLatestGroupOfSizeM.java)|false|
 |1570|Medium|[Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)|[Dot Product of Two Sparse Vectors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DotProductOfTwoSparseVectors.java)|false|
+|1586|Medium|[Binary Search Tree Iterator II](https://leetcode.com/problems/binary-search-tree-iterator-ii/)|[Binary Search Tree Iterator II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearchTreeIteratorII.java)|false|
 |1590|Medium|[Make Sum Divisible by P](https://leetcode.com/problems/make-sum-divisible-by-p/)|[Make Sum Divisible by P.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MakeSumDivisibleByP.java)|false|
 |1631|Medium|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|[Path With Minimum Effort.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathWithMinimumEffort.java)|false|
 |1641|Medium|[Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|[Count Sorted Vowel Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSortedVowelStrings.java)|false|
