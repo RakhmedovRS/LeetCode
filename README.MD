@@ -157,7 +157,7 @@ Count of solved tasks: 1178
 |188|Undefined|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|[Best Time to Buy and Sell Stock IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BestTimeToBuyAndSellStockIV.java)|false|
 |189|Undefined|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Rotate Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotateArray.java)|false|
 |190|Undefined|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[Reverse Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseBits.java)|false|
-|191|Undefined|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOf1Bits.java)|false|
+|191|Easy|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOf1Bits.java)|false|
 |198|Undefined|[House Robber](https://leetcode.com/problems/house-robber/)|[House Robber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HouseRobber.java)|false|
 |199|Undefined|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Binary Tree Right Side View.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeRightSideView.java)|false|
 |200|Undefined|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Number of Islands.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfIslands.java)|false|
@@ -1050,6 +1050,7 @@ Count of solved tasks: 1178
 |88|Easy|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Merge Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeSortedArray.java)|false|
 |103|Easy|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Maximum Depth of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDepthOfBinaryTree.java)|false|
 |110|Easy|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Balanced Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BalancedBinaryTree.java)|false|
+|191|Easy|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOf1Bits.java)|false|
 |215|Easy|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Kth Largest Element in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthLargestElementInAnArray.java)|false|
 |234|Easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeLinkedList.java)|false|
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[Range Addition II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)|false|
