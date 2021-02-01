@@ -1,9 +1,7 @@
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * @author RakhmedovRS
@@ -17,53 +15,96 @@ import java.util.Queue;
 )
 public class PathWithMaximumMinimumValue
 {
+    class UnionFind
+    {
+        int[] parents;
+
+        public UnionFind(int n)
+        {
+            parents = new int[n];
+            for (int i = 0; i < n; i++)
+            {
+                parents[i] = i;
+            }
+        }
+
+        public int findParent(int node)
+        {
+            int parent = node;
+            while (parent != parents[parent])
+            {
+                parent = parents[parent];
+            }
+
+            int temp;
+            while (node != parents[node])
+            {
+                temp = parents[node];
+                parents[node] = parent;
+                node = temp;
+            }
+
+            return parent;
+        }
+
+
+        public void union(int nodeA, int nodeB)
+        {
+            int parentA = findParent(nodeA);
+            int parentB = findParent(nodeB);
+
+            if (parentA != parentB)
+            {
+                parents[parentB] = parentA;
+            }
+        }
+    }
+
+
     public int maximumMinimumPath(int[][] A)
     {
         int rows = A.length;
         int columns = A[0].length;
-        int[][] memo = new int[rows][columns];
-        for (int[] row : memo)
+        int[][] steps = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+        List<int[]> coordinates = new ArrayList<>(rows * columns);
+        for (int row = 0; row < rows; row++)
         {
-            Arrays.fill(row, -1);
+            for (int column = 0; column < columns; column++)
+            {
+                coordinates.add(new int[]{row, column});
+            }
         }
 
-        Queue<int[]> queue = new LinkedList<>();
-        queue.add(new int[]{0, 0, A[0][0]});
+        coordinates.sort((a, b) -> A[b[0]][b[1]] - A[a[0]][a[1]]);
 
-        int[] current;
+        boolean[][] visited = new boolean[rows][columns];
         int row;
         int column;
         int nextRow;
         int nextColumn;
-        int minMax;
-        int[][] steps = new int[][]{{-1, 0}, {0, -1}, {1, 0}, {0, 1}};
-        while (!queue.isEmpty())
+        UnionFind uf = new UnionFind(rows * columns);
+        for (int[] coordinate : coordinates)
         {
-            current = queue.remove();
-            row = current[0];
-            column = current[1];
-            minMax = Math.min(current[2], A[row][column]);
-
-            if (minMax <= memo[row][column])
-            {
-                continue;
-            }
-            memo[row][column] = minMax;
-
+            row = coordinate[0];
+            column = coordinate[1];
+            visited[row][column] = true;
             for (int[] step : steps)
             {
                 nextRow = row + step[0];
                 nextColumn = column + step[1];
-                if (nextRow < 0 || nextRow == rows || nextColumn < 0 || nextColumn == columns)
+                if (nextRow >= 0 && nextRow < rows && nextColumn >= 0 && nextColumn < columns && visited[nextRow][nextColumn])
                 {
-                    continue;
+                    uf.union(row * columns + column, nextRow * columns + nextColumn);
                 }
 
-                queue.add(new int[]{nextRow, nextColumn, minMax});
+                if (uf.findParent(0) == uf.findParent(rows * columns - 1))
+                {
+                    return A[row][column];
+                }
             }
         }
 
-        return memo[rows - 1][columns - 1];
+        return -1;
     }
 
     public static void main(String[] args)
