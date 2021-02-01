@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1178
+Count of solved tasks: 1179
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -301,6 +301,7 @@ Count of solved tasks: 1178
 |424|Undefined|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Longest Repeating Character Replacement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestRepeatingCharacterReplacement.java)|false|
 |427|Undefined|[Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/)|[Construct Quad Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructQuadTree.java)|false|
 |429|Undefined|[ N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[ N-ary Tree Level Order Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NaryTreeLevelOrderTraversal.java)|false|
+|431|Hard|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/)|[Encode N-ary Tree to Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EncodeNaryTreeToBinaryTree.java)|false|
 |432|Undefined|[All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)|[All O`one Data Structure.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllOoneDataStructure.java)|false|
 |433|Medium|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[Minimum Genetic Mutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumGeneticMutation.java)|false|
 |434|Undefined|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|[Number of Segments in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfSegmentsInString.java)|false|
@@ -1229,6 +1230,7 @@ Count of solved tasks: 1178
 |239|Hard|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Sliding Window Maximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SlidingWindowMaximum.java)|false|
 |327|Hard|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)|[Count of Range Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountOfRangeSum.java)|false|
 |381|Hard|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|[Insert Delete GetRandom O(1) - Duplicates allowed.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsertDeleteGetRandomO1DuplicatesAllowed.java)|false|
+|431|Hard|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/)|[Encode N-ary Tree to Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EncodeNaryTreeToBinaryTree.java)|false|
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[Poor Pigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)|false|
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[Remove Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)|false|
 |639|Hard|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|[Decode Ways II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeWaysII.java)|false|
