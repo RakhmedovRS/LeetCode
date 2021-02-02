@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1179
+Count of solved tasks: 1180
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1403,6 +1403,7 @@ Count of solved tasks: 1179
 |1644|Medium|[Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)|[Lowest Common Ancestor of a Binary Tree II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfBinaryTreeII.java)|true|
 |1650|Medium|[Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)|[Lowest Common Ancestor of a Binary Tree III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfBinaryTreeIII.java)|true|
 |1660|Medium|[Correct a Binary Tree](https://leetcode.com/problems/correct-a-binary-tree/)|[Correct a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CorrectBinaryTree.java)|true|
+|1666|Medium|[Change the Root of a Binary Tree](https://leetcode.com/problems/change-the-root-of-a-binary-tree/)|[Change the Root of a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ChangeTheRootOfBinaryTree.java)|true|
 |1676|Medium|[Lowest Common Ancestor of a Binary Tree IV](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/)|[Lowest Common Ancestor of a Binary Tree IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfBinaryTreeIV.java)|true|
 |1682|Medium|[Longest Palindromic Subsequence II](https://leetcode.com/problems/longest-palindromic-subsequence-ii/)|[Longest Palindromic Subsequence II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestPalindromicSubsequenceII.java)|true|
 |1698|Medium|[Number of Distinct Substrings in a String](https://leetcode.com/problems/number-of-distinct-substrings-in-a-string/)|[Number of Distinct Substrings in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfDistinctSubstringsInString.java)|true|
