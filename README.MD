@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1180
+Count of solved tasks: 1181
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -603,6 +603,7 @@ Count of solved tasks: 1180
 |941|Easy|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Valid Mountain Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidMountainArray.java)|false|
 |942|Undefined|[DI String Match](https://leetcode.com/problems/di-string-match/)|[DI String Match.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DIStringMatch.java)|false|
 |945|Undefined|[Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)|[Minimum Increment to Make Array Unique.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumIncrementToMakeArrayUnique.java)|false|
+|946|Medium|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[Validate Stack Sequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidateStackSequences.java)|false|
 |947|Undefined|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)|[Most Stones Removed with Same Row or Column.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MostStonesRemovedWithSameRowOrColumn.java)|false|
 |948|Undefined|[Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)|[Bag of Tokens.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BagOfTokens.java)|false|
 |949|Undefined|[Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/)|[Largest Time for Given Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestTimeForGivenDigits.java)|false|
@@ -1151,6 +1152,7 @@ Count of solved tasks: 1180
 |915|Medium|[Partition Array into Disjoint Intervals](https://leetcode.com/problems/partition-array-into-disjoint-intervals/)|[Partition Array into Disjoint Intervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionArrayIntoDisjointIntervals.java)|false|
 |919|Medium|[Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/)|[Complete Binary Tree Inserter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CompleteBinaryTreeInserter.java)|false|
 |921|Medium|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)|[Minimum Add to Make Parentheses Valid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumAddToMakeParenthesesValid.java)|false|
+|946|Medium|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[Validate Stack Sequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidateStackSequences.java)|false|
 |1006|Medium|[Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/)|[Clumsy Factorial.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClumsyFactorial.java)|false|
 |1010|Medium|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[Pairs of Songs With Total Durations Divisible by 60.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PairsOfSongsWithTotalDurationsDivisibleBy60.java)|false|
 |1015|Medium|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[Smallest Integer Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestIntegerDivisibleByK.java)|false|
