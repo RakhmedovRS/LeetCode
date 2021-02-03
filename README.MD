@@ -129,7 +129,7 @@ Count of solved tasks: 1181
 |138|Undefined|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Copy List with Random Pointer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CopyListWithRandomPointer.java)|false|
 |139|Undefined|[Word Break](https://leetcode.com/problems/word-break/)|[Word Break.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordBreak.java)|false|
 |140|Undefined|[Word Break](https://leetcode.com/problems/word-break-ii/)|[Word Break.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordBreakII.java)|false|
-|141|Undefined|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListCycle.java)|false|
+|141|Easy|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListCycle.java)|false|
 |142|Undefined|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked List Cycle II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListCycleII.java)|false|
 |143|Undefined|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Reorder List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReorderList.java)|false|
 |144|Undefined|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Binary Tree Preorder Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreePreorderTraversal.java)|false|
@@ -1052,6 +1052,7 @@ Count of solved tasks: 1181
 |88|Easy|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Merge Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeSortedArray.java)|false|
 |103|Easy|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Maximum Depth of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDepthOfBinaryTree.java)|false|
 |110|Easy|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Balanced Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BalancedBinaryTree.java)|false|
+|141|Easy|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListCycle.java)|false|
 |191|Easy|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOf1Bits.java)|false|
 |215|Easy|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Kth Largest Element in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthLargestElementInAnArray.java)|false|
 |234|Easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeLinkedList.java)|false|
