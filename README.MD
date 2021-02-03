@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1181
+Count of solved tasks: 1182
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1378,6 +1378,7 @@ Count of solved tasks: 1181
 |1214|Medium|[Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|[Two Sum BSTs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumBSTs.java)|true|
 |1216|Hard|[Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii/)|[Valid Palindrome III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidPalindromeIII.java)|true|
 |1228|Easy|[Missing Number In Arithmetic Progression](https://leetcode.com/problems/missing-number-in-arithmetic-progression/)|[Missing Number In Arithmetic Progression.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumberInArithmeticProgression.java)|true|
+|1229|Medium|[Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/)|[Meeting Scheduler.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeetingScheduler.java)|true|
 |1236|Medium|[Web Crawler](https://leetcode.com/problems/web-crawler/)|[Web Crawler.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WebCrawler.java)|true|
 |1242|Medium|[Web Crawler Multithreaded](https://leetcode.com/problems/web-crawler-multithreaded/)|[Web Crawler Multithreaded.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WebCrawlerMultithreaded.java)|true|
 |1243|Easy|[Array Transformation](https://leetcode.com/problems/array-transformation/)|[Array Transformation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArrayTransformation.java)|true|
