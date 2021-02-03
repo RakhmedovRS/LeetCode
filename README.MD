@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1182
+Count of solved tasks: 1183
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -708,6 +708,7 @@ Count of solved tasks: 1182
 |1108|Undefined|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Defanging an IP Address.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DefangingIPAddress.java)|false|
 |1109|Undefined|[Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/)|[Corporate Flight Bookings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CorporateFlightBookings.java)|false|
 |1110|Undefined|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/)|[Delete Nodes And Return Forest.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteNodesAndReturnForest.java)|false|
+|1111|Medium|[Maximum Nesting Depth of Two Valid Parentheses Strings](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/)|[Maximum Nesting Depth of Two Valid Parentheses Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNestingDepthOfTwoValidParenthesesStrings.java)|false|
 |1114|Undefined|[Print in Order](https://leetcode.com/problems/print-in-order/)|[Print in Order.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintInOrder.java)|false|
 |1115|Undefined|[Print FooBar Alternately](https://leetcode.com/problems/print-foobar-alternately/)|[Print FooBar Alternately.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintFooBarAlternately.java)|false|
 |1117|Undefined|[Building H2O](https://leetcode.com/problems/building-h2o/)|[Building H2O.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BuildingH2O.java)|false|
@@ -1161,6 +1162,7 @@ Count of solved tasks: 1182
 |1093|Medium|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|[Statistics from a Large Sample.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StatisticsFromLargeSample.java)|false|
 |1102|Medium|[Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value/)|[Path With Maximum Minimum Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathWithMaximumMinimumValue.java)|false|
 |1104|Medium|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[Path In Zigzag Labelled Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathInZigzagLabelledBinaryTree.java)|false|
+|1111|Medium|[Maximum Nesting Depth of Two Valid Parentheses Strings](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/)|[Maximum Nesting Depth of Two Valid Parentheses Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNestingDepthOfTwoValidParenthesesStrings.java)|false|
 |1123|Medium|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[Lowest Common Ancestor of Deepest Leaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfDeepestLeaves.java)|false|
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[Smallest String With Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithSwaps.java)|false|
 |1233|Medium|[Remove Sub-Folders from the Filesystem](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/)|[Remove Sub-Folders from the Filesystem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveSubFoldersFromTheFilesystem.java)|false|
