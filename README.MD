@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1183
+Count of solved tasks: 1184
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1313,6 +1313,7 @@ Count of solved tasks: 1183
 |379|Medium|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|[Design Phone Directory.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignPhoneDirectory.java)|true|
 |408|Easy|[Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)|[Valid Word Abbreviation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidWordAbbreviation.java)|true|
 |422|Easy|[Valid Word Square](https://leetcode.com/problems/valid-word-square/)|[Valid Word Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidWordSquare.java)|true|
+|426|Medium|[Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)|[Convert Binary Search Tree to Sorted Doubly Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertBinarySearchTreeToSortedDoublyLinkedList.java)|true|
 |487|Medium|[Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|[Max Consecutive Ones II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxConsecutiveOnesII.java)|true|
 |490|Medium|[The Maze](https://leetcode.com/problems/the-maze/)|[The Maze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheMaze.java)|true|
 |499|Hard|[The Maze III](https://leetcode.com/problems/the-maze-iii/)|[The Maze III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheMazeIII.java)|true|
