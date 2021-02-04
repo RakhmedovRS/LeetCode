@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1184
+Count of solved tasks: 1185
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1337,6 +1337,7 @@ Count of solved tasks: 1184
 |681|Medium|[Next Closest Time](https://leetcode.com/problems/next-closest-time/)|[Next Closest Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextClosestTime.java)|true|
 |690|Medium|[Employee Importance](https://leetcode.com/problems/employee-importance/)|[Employee Importance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EmployeeImportance.java)|true|
 |702|Medium|[Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)|[Search in a Sorted Array of Unknown Size.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInSortedArrayOfUnknownSize.java)|true|
+|708|Medium|[Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/)|[Insert into a Sorted Circular Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsertIntoSortedCircularLinkedList.java)|true|
 |716|Easy|[Max Stack](https://leetcode.com/problems/max-stack/)|[Max Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxStack.java)|true|
 |734|Easy|[Sentence Similarity](https://leetcode.com/problems/sentence-similarity/)|[Sentence Similarity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SentenceSimilarity.java)|true|
 |737|Medium|[Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)|[Sentence Similarity II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SentenceSimilarityII.java)|true|
