@@ -55,6 +55,8 @@ public class PacificAtlanticWaterFlow
                         && canReachOcean(matrix[row][column], row, column, rows, columns, pacific, matrix, new boolean[rows][columns]))
                 {
                     answer.add(Arrays.asList(row, column));
+                    atlantic[row][column] = true;
+                    pacific[row][column] = true;
                 }
             }
         }
