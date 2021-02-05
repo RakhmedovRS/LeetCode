@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1187
+Count of solved tasks: 1188
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -296,6 +296,7 @@ Count of solved tasks: 1187
 |414|Undefined|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Third Maximum Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThirdMaximumNumber.java)|false|
 |415|Undefined|[Add Strings](https://leetcode.com/problems/add-strings/)|[Add Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddStrings.java)|false|
 |416|Medium|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[Partition Equal Subset Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionEqualSubsetSum.java)|false|
+|417|Medium|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[Pacific Atlantic Water Flow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PacificAtlanticWaterFlow.java)|false|
 |419|Undefined|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[Battleships in a Board.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BattleshipsInBoard.java)|false|
 |421|Undefined|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|[Maximum XOR of Two Numbers in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumXOROfTwoNumbersInAnArray.java)|false|
 |423|Undefined|[Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/)|[Reconstruct Original Digits from English.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReconstructOriginalDigitsFromEnglish.java)|false|
@@ -1130,6 +1131,7 @@ Count of solved tasks: 1187
 |394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[Decode String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)|false|
 |395|Medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|[Longest Substring with At Least K Repeating Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtLeastKRepeatingCharacters.java)|false|
 |416|Medium|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[Partition Equal Subset Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionEqualSubsetSum.java)|false|
+|417|Medium|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[Pacific Atlantic Water Flow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PacificAtlanticWaterFlow.java)|false|
 |433|Medium|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[Minimum Genetic Mutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumGeneticMutation.java)|false|
 |454|Medium|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[4Sum II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FourSumII.java)|false|
 |473|Medium|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[Matchsticks to Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MatchsticksToSquare.java)|false|
