@@ -20,14 +20,14 @@ public class SquirrelSimulation
 		int maxDistance = Integer.MIN_VALUE;
 		for (int[] nut : nuts)
 		{
-			distance += distance(tree, nut) * 2;
-			maxDistance = Math.max(maxDistance, distance(tree, nut) - distance(squirrel, nut));
+			distance += manhattanDistance(tree, nut) * 2;
+			maxDistance = Math.max(maxDistance, manhattanDistance(tree, nut) - manhattanDistance(nut, squirrel));
 		}
 
 		return distance - maxDistance;
 	}
 
-	private int distance(int[] a, int[] b)
+	private int manhattanDistance(int[] a, int[] b)
 	{
 		return Math.abs(a[0] - b[0]) + Math.abs(a[1] - b[1]);
 	}
