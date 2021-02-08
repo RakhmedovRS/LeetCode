@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1192
+Count of solved tasks: 1193
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1041,7 +1041,8 @@ Count of solved tasks: 1192
 |1743|Medium|[Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/)|[Restore the Array From Adjacent Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RestoreTheArrayFromAdjacentPairs.java)|false|
 |1748|Easy|[Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)|[Sum of Unique Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfUniqueElements.java)|false|
 |1750|Medium|[Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/)|[Minimum Length of String After Deleting Similar Ends.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumLengthOfStringAfterDeletingSimilarEnds.java)|false|
-|1752|Easy|[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)|[Check if Array Is Sorted and Rotated.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfArrayIsSortedAndRotated.java)|false|</p>
+|1752|Easy|[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)|[Check if Array Is Sorted and Rotated.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfArrayIsSortedAndRotated.java)|false|
+|1753|Medium|[Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/)|[Maximum Score From Removing Stones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumScoreFromRemovingStones.java)|false|</p>
 </details>
 
 <details>
@@ -1230,7 +1231,8 @@ Count of solved tasks: 1192
 |1733|Medium|[Minimum Number of People to Teach](https://leetcode.com/problems/minimum-number-of-people-to-teach/)|[Minimum Number of People to Teach.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfPeopleToTeach.java)|false|
 |1737|Medium|[Change Minimum Characters to Satisfy One of Three Conditions](https://leetcode.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/)|[Change Minimum Characters to Satisfy One of Three Conditions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ChangeMinimumCharactersToSatisfyOneOfThreeConditions.java)|false|
 |1743|Medium|[Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/)|[Restore the Array From Adjacent Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RestoreTheArrayFromAdjacentPairs.java)|false|
-|1750|Medium|[Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/)|[Minimum Length of String After Deleting Similar Ends.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumLengthOfStringAfterDeletingSimilarEnds.java)|false|</p>
+|1750|Medium|[Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/)|[Minimum Length of String After Deleting Similar Ends.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumLengthOfStringAfterDeletingSimilarEnds.java)|false|
+|1753|Medium|[Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/)|[Maximum Score From Removing Stones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumScoreFromRemovingStones.java)|false|</p>
 </details>
 
 <details>
