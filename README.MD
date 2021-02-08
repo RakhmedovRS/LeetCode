@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1191
+Count of solved tasks: 1192
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1430,6 +1430,7 @@ Count of solved tasks: 1191
 |1682|Medium|[Longest Palindromic Subsequence II](https://leetcode.com/problems/longest-palindromic-subsequence-ii/)|[Longest Palindromic Subsequence II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestPalindromicSubsequenceII.java)|true|
 |1698|Medium|[Number of Distinct Substrings in a String](https://leetcode.com/problems/number-of-distinct-substrings-in-a-string/)|[Number of Distinct Substrings in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfDistinctSubstringsInString.java)|true|
 |1708|Medium|[Largest Subarray Length K](https://leetcode.com/problems/largest-subarray-length-k/)|[Largest Subarray Length K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestSubarrayLengthK.java)|true|
-|1730|Medium|[Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food/)|[Shortest Path to Get Food.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathToGetFood.java)|true|</p>
+|1730|Medium|[Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food/)|[Shortest Path to Get Food.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathToGetFood.java)|true|
+|1749|Medium|[Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/)|[Maximum Absolute Sum of Any Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAbsoluteSumOfAnySubarray.java)|true|</p>
 </details>
 
