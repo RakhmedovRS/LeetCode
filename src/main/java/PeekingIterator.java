@@ -1,29 +1,34 @@
 import common.LeetCode;
 
 import java.util.Iterator;
-import java.util.LinkedList;
 
 /**
  * @author RakhmedovRS
  * @created 26-May-20
  */
-@LeetCode(id = 284, name = "Peeking Iterator", url = "https://leetcode.com/problems/peeking-iterator/")
+@LeetCode(
+	id = 284,
+	name = "Peeking Iterator",
+	url = "https://leetcode.com/problems/peeking-iterator/"
+)
 class PeekingIterator implements Iterator<Integer>
 {
-	LinkedList<Integer> prev;
+	Integer current;
+	Iterator<Integer> iterator;
+
 	public PeekingIterator(Iterator<Integer> iterator)
 	{
-		this.prev = new LinkedList<>();
-		while (iterator.hasNext())
-		{
-			prev.addLast(iterator.next());
-		}
+		this.iterator = iterator;
 	}
 
 	// Returns the next element in the iteration without advancing the iterator.
 	public Integer peek()
 	{
-		return prev.getFirst();
+		if (current == null)
+		{
+			current = iterator.next();
+		}
+		return current;
 	}
 
 	// hasNext() and next() should behave the same as in the Iterator interface.
@@ -31,12 +36,21 @@ class PeekingIterator implements Iterator<Integer>
 	@Override
 	public Integer next()
 	{
-		return prev.removeFirst();
+		if (current == null)
+		{
+			return iterator.next();
+		}
+		else
+		{
+			Integer ret = current;
+			current = null;
+			return ret;
+		}
 	}
 
 	@Override
 	public boolean hasNext()
 	{
-		return !prev.isEmpty();
+		return current != null || iterator.hasNext();
 	}
 }
