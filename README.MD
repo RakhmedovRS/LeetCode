@@ -214,7 +214,7 @@ Count of solved tasks: 1191
 |279|Undefined|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Perfect Squares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PerfectSquares.java)|false|
 |282|Undefined|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[Expression Add Operators.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExpressionAddOperators.java)|false|
 |283|Undefined|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Move Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MoveZeroes.java)|false|
-|284|Undefined|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Peeking Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PeekingIterator.java)|false|
+|284|Medium|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Peeking Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PeekingIterator.java)|false|
 |287|Undefined|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Find the Duplicate Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindDuplicateNumber.java)|false|
 |289|Medium|[Game of Life](https://leetcode.com/problems/game-of-life/)|[Game of Life.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GameOfLife.java)|false|
 |290|Undefined|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Word Pattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordPattern.java)|false|
@@ -1126,6 +1126,7 @@ Count of solved tasks: 1191
 |173|Medium|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Binary Search Tree Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinarySearchTreeIterator.java)|false|
 |223|Medium|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[Rectangle Area.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RectangleArea.java)|false|
 |227|Medium|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Basic Calculator II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BasicCalculatorII.java)|false|
+|284|Medium|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Peeking Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PeekingIterator.java)|false|
 |289|Medium|[Game of Life](https://leetcode.com/problems/game-of-life/)|[Game of Life.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GameOfLife.java)|false|
 |304|Medium|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Range Sum Query 2D - Immutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQuery2DImmutable.java)|false|
 |307|Medium|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[Range Sum Query - Mutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQueryMutable.java)|false|

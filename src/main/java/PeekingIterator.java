@@ -1,3 +1,4 @@
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Iterator;
@@ -9,7 +10,8 @@ import java.util.Iterator;
 @LeetCode(
 	id = 284,
 	name = "Peeking Iterator",
-	url = "https://leetcode.com/problems/peeking-iterator/"
+	url = "https://leetcode.com/problems/peeking-iterator/",
+	difficulty = Difficulty.MEDIUM
 )
 class PeekingIterator implements Iterator<Integer>
 {
