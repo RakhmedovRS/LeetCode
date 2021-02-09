@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1196
+Count of solved tasks: 1197
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1324,6 +1324,7 @@ Count of solved tasks: 1196
 |348|Medium|[Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/)|[Design Tic-Tac-Toe.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignTicTacToe.java)|true|
 |353|Medium|[Design Snake Game](https://leetcode.com/problems/design-snake-game/)|[Design Snake Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignSnakeGame.java)|true|
 |359|Easy|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)|[Logger Rate Limiter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LoggerRateLimiter.java)|true|
+|360|Medium|[Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array/)|[Sort Transformed Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortTransformedArray.java)|true|
 |361|Medium|[Bomb Enemy](https://leetcode.com/problems/bomb-enemy/)|[Bomb Enemy.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BombEnemy.java)|true|
 |362|Medium|[Design Hit Counter](https://leetcode.com/problems/design-hit-counter/)|[Design Hit Counter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignHitCounter.java)|true|
 |364|Medium|[Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/)|[Nested List Weight Sum II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NestedListWeightSumII.java)|true|
