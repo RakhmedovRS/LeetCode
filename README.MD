@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1194
+Count of solved tasks: 1195
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1043,7 +1043,8 @@ Count of solved tasks: 1194
 |1748|Easy|[Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)|[Sum of Unique Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfUniqueElements.java)|false|
 |1750|Medium|[Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/)|[Minimum Length of String After Deleting Similar Ends.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumLengthOfStringAfterDeletingSimilarEnds.java)|false|
 |1752|Easy|[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)|[Check if Array Is Sorted and Rotated.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfArrayIsSortedAndRotated.java)|false|
-|1753|Medium|[Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/)|[Maximum Score From Removing Stones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumScoreFromRemovingStones.java)|false|</p>
+|1753|Medium|[Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/)|[Maximum Score From Removing Stones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumScoreFromRemovingStones.java)|false|
+|1754|Medium|[Largest Merge Of Two Strings](https://leetcode.com/problems/largest-merge-of-two-strings/)|[Largest Merge Of Two Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestMergeOfTwoStrings.java)|false|</p>
 </details>
 
 <details>
@@ -1234,7 +1235,8 @@ Count of solved tasks: 1194
 |1743|Medium|[Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/)|[Restore the Array From Adjacent Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RestoreTheArrayFromAdjacentPairs.java)|false|
 |1746|Medium|[Maximum Subarray Sum After One Operation](https://leetcode.com/problems/maximum-subarray-sum-after-one-operation/)|[Maximum Subarray Sum After One Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSubarraySumAfterOneOperation.java)|false|
 |1750|Medium|[Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/)|[Minimum Length of String After Deleting Similar Ends.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumLengthOfStringAfterDeletingSimilarEnds.java)|false|
-|1753|Medium|[Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/)|[Maximum Score From Removing Stones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumScoreFromRemovingStones.java)|false|</p>
+|1753|Medium|[Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/)|[Maximum Score From Removing Stones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumScoreFromRemovingStones.java)|false|
+|1754|Medium|[Largest Merge Of Two Strings](https://leetcode.com/problems/largest-merge-of-two-strings/)|[Largest Merge Of Two Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestMergeOfTwoStrings.java)|false|</p>
 </details>
 
 <details>
