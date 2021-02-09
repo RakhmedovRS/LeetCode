@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1195
+Count of solved tasks: 1196
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1356,6 +1356,7 @@ Count of solved tasks: 1195
 |660|Medium|[Remove 9](https://leetcode.com/problems/remove-9/)|[Remove 9.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Remove9.java)|true|
 |681|Medium|[Next Closest Time](https://leetcode.com/problems/next-closest-time/)|[Next Closest Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextClosestTime.java)|true|
 |690|Medium|[Employee Importance](https://leetcode.com/problems/employee-importance/)|[Employee Importance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EmployeeImportance.java)|true|
+|694|Medium|[Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/)|[Number of Distinct Islands.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfDistinctIslands.java)|true|
 |702|Medium|[Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)|[Search in a Sorted Array of Unknown Size.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInSortedArrayOfUnknownSize.java)|true|
 |708|Medium|[Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/)|[Insert into a Sorted Circular Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsertIntoSortedCircularLinkedList.java)|true|
 |716|Easy|[Max Stack](https://leetcode.com/problems/max-stack/)|[Max Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxStack.java)|true|
