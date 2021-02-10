@@ -2,6 +2,7 @@ import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
+import java.util.function.IntUnaryOperator;
 
 /**
  * @author RakhmedovRS
@@ -19,19 +20,49 @@ public class SortTransformedArray
 	public int[] sortTransformedArray(int[] nums, int a, int b, int c)
 	{
 		int[] answer = new int[nums.length];
-		for (int i = 0; i < nums.length; i++)
+		int left = 0;
+		int right = nums.length - 1;
+		int x;
+		int y;
+		IntUnaryOperator function = z -> a * z * z + z * b  + c;
+		if (a > 0)
 		{
-			answer[i] = calc(nums[i], a, b, c);
+			for (int i = answer.length - 1; i>=0; i--)
+			{
+				x = function.applyAsInt(nums[left]);
+				y = function.applyAsInt(nums[right]);
+				if (x >= y)
+				{
+					answer[i] = x;
+					left++;
+				}
+				else
+				{
+					answer[i] = y;
+					right--;
+				}
+			}
+		}
+		else
+		{
+			for (int i = 0; i < answer.length; i++)
+			{
+				x = function.applyAsInt(nums[left]);
+				y = function.applyAsInt(nums[right]);
+				if (x <= y)
+				{
+					answer[i] = x;
+					left++;
+				}
+				else
+				{
+					answer[i] = y;
+					right--;
+				}
+			}
 		}
 
-		Arrays.sort(answer);
-
 		return answer;
-	}
-
-	private int calc(int x, int a, int b, int c)
-	{
-		return a * (x * x) + b * x + c;
 	}
 
 	public static void main(String[] args)
