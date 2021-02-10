@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1198
+Count of solved tasks: 1199
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1369,6 +1369,7 @@ Count of solved tasks: 1198
 |737|Medium|[Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)|[Sentence Similarity II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SentenceSimilarityII.java)|true|
 |742|Medium|[Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/)|[Closest Leaf in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestLeafInBinaryTree.java)|true|
 |758|Easy|[Bold Words in String](https://leetcode.com/problems/bold-words-in-string/)|[Bold Words in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BoldWordsInString.java)|true|
+|759|Hard|[Employee Free Time](https://leetcode.com/problems/employee-free-time/)|[Employee Free Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EmployeeFreeTime.java)|true|
 |760|Easy|[Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/)|[Find Anagram Mappings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAnagramMappings.java)|true|
 |800|Easy|[Similar RGB Color](https://leetcode.com/problems/similar-rgb-color/)|[Similar RGB Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SimilarRGBColor.java)|true|
 |944|Easy|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|[Delete Columns to Make Sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteColumnsToMakeSorted.java)|true|
