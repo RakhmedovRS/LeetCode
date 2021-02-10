@@ -1,3 +1,4 @@
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashMap;
@@ -7,7 +8,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 14-Apr-20
  */
-@LeetCode(id = 138, name = "Copy List with Random Pointer", url = "https://leetcode.com/problems/copy-list-with-random-pointer/")
+@LeetCode(
+	id = 138,
+	name = "Copy List with Random Pointer",
+	url = "https://leetcode.com/problems/copy-list-with-random-pointer/",
+	difficulty = Difficulty.MEDIUM
+)
 public class CopyListWithRandomPointer
 {
 	static class Node
@@ -26,42 +32,39 @@ public class CopyListWithRandomPointer
 
 	public Node copyRandomList(Node head)
 	{
-		if (head == null)
+		Map<Node, Node> map = new HashMap<>();
+		Node original = head;
+		Node copy;
+		Node random;
+		Node next;
+		while (original != null)
 		{
-			return null;
+			if (!map.containsKey(original))
+			{
+				map.put(original, new Node(original.val));
+			}
+
+			if (original.random != null && !map.containsKey(original.random))
+			{
+				map.put(original.random, new Node(original.random.val));
+			}
+
+			if (original.next != null && !map.containsKey(original.next))
+			{
+				map.put(original.next, new Node(original.next.val));
+			}
+
+			copy = map.get(original);
+			random = map.get(original.random);
+			next = map.get(original.next);
+
+			copy.random = random;
+			copy.next = next;
+
+			original = original.next;
 		}
 
-		Node current = head;
-		Map<Node, Node> original = new HashMap<>();
-		while (current != null)
-		{
-			original.put(current, current.random);
-			current = current.next;
-		}
-
-		Node dummy = new Node(0);
-		Map<Node, Node> copied = new HashMap<>();
-		Node prev = dummy;
-		current = head;
-		while (current != null)
-		{
-			Node newN = new Node(current.val);
-			copied.put(current, newN);
-			prev.next = newN;
-			prev = prev.next;
-			current = current.next;
-		}
-
-		current = head;
-		while (current != null)
-		{
-			Node newN = copied.get(current);
-			newN.random = copied.get(current.random);
-
-			current = current.next;
-		}
-
-		return dummy.next;
+		return map.get(head);
 	}
 
 	public static void main(String[] args)
