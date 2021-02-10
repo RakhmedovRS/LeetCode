@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1197
+Count of solved tasks: 1198
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -769,6 +769,7 @@ Count of solved tasks: 1197
 |1262|Undefined|[Greatest Sum Divisible by Three](https://leetcode.com/problems/greatest-sum-divisible-by-three/)|[Greatest Sum Divisible by Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GreatestSumDivisibleByThree.java)|false|
 |1266|Undefined|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[Minimum Time Visiting All Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeVisitingAllPoints.java)|false|
 |1267|Medium|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|[Count Servers that Communicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountServersThatCommunicate.java)|false|
+|1268|Medium|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|[Search Suggestions System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchSuggestionsSystem.java)|false|
 |1269|Undefined|[Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)|[Number of Ways to Stay in the Same Place After Some Steps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfWaysToStayInTheSamePlaceAfterSomeSteps.java)|false|
 |1276|Medium|[Number of Burgers with No Waste of Ingredients](https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/)|[Number of Burgers with No Waste of Ingredients.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfBurgersWithNoWasteOfIngredients.java)|false|
 |1277|Undefined|[Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)|[Count Square Submatrices with All Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSquareSubmatricesWithAllOnes.java)|false|
@@ -1186,6 +1187,7 @@ Count of solved tasks: 1197
 |1234|Medium|[Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)|[Replace the Substring for Balanced String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceTheSubstringForBalancedString.java)|false|
 |1254|Medium|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|[Number of Closed Islands.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfClosedIslands.java)|false|
 |1267|Medium|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|[Count Servers that Communicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountServersThatCommunicate.java)|false|
+|1268|Medium|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|[Search Suggestions System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchSuggestionsSystem.java)|false|
 |1276|Medium|[Number of Burgers with No Waste of Ingredients](https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/)|[Number of Burgers with No Waste of Ingredients.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfBurgersWithNoWasteOfIngredients.java)|false|
 |1297|Medium|[Maximum Number of Occurrences of a Substring](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/)|[Maximum Number of Occurrences of a Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfOccurrencesOfSubstring.java)|false|
 |1329|Medium|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[Sort the Matrix Diagonally.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortMatrixDiagonally.java)|false|
