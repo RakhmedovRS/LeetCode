@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1188
+Count of solved tasks: 1189
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -997,6 +997,7 @@ Count of solved tasks: 1188
 |1662|Easy|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[Check If Two String Arrays are Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTwoStringArraysAreEquivalent.java)|false|
 |1663|Medium|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|[Smallest String With A Given Numeric Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithGivenNumericValue.java)|false|
 |1664|Medium|[Ways to Make a Fair Array](https://leetcode.com/problems/ways-to-make-a-fair-array/)|[Ways to Make a Fair Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WaysToMakeFairArray.java)|false|
+|1665|Hard|[Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks//)|[Minimum Initial Energy to Finish Tasks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumInitialEnergyToFinishTasks.java)|false|
 |1668|Easy|[Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|[Maximum Repeating Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumRepeatingSubstring.java)|false|
 |1669|Medium|[Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|[Merge In Between Linked Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeInBetweenLinkedLists.java)|false|
 |1670|Medium|[Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/)|[Design Front Middle Back Queue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignFrontMiddleBackQueue.java)|false|
@@ -1258,6 +1259,7 @@ Count of solved tasks: 1188
 |1463|Hard|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|[Cherry Pickup II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CherryPickupII.java)|false|
 |1579|Hard|[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|[Remove Max Number of Edges to Keep Graph Fully Traversable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable.java)|false|
 |1649|Hard|[Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)|[Create Sorted Array through Instructions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CreateSortedArrayThroughInstructions.java)|false|
+|1665|Hard|[Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks//)|[Minimum Initial Energy to Finish Tasks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumInitialEnergyToFinishTasks.java)|false|
 |1675|Hard|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|[Minimize Deviation in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimizeDeviationInArray.java)|false|</p>
 </details>
 
