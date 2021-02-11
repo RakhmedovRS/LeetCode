@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1201
+Count of solved tasks: 1202
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -583,6 +583,7 @@ Count of solved tasks: 1201
 |907|Undefined|[Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|[Sum of Subarray Minimums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfSubarrayMinimums.java)|false|
 |908|Undefined|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|[Smallest Range I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestRangeI.java)|false|
 |910|Medium|[Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|[Smallest Range II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestRangeII.java)|false|
+|911|Medium|[Online Election](https://leetcode.com/problems/online-election/)|[Online Election.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OnlineElection.java)|false|
 |914|Undefined|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)|[X of a Kind in a Deck of Cards.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/XOfKindInDeckOfCards.java)|false|
 |915|Medium|[Partition Array into Disjoint Intervals](https://leetcode.com/problems/partition-array-into-disjoint-intervals/)|[Partition Array into Disjoint Intervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionArrayIntoDisjointIntervals.java)|false|
 |915|Undefined|[Word Subsets](https://leetcode.com/problems/word-subsets/)|[Word Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordSubsets.java)|false|
@@ -1170,6 +1171,7 @@ Count of solved tasks: 1201
 |880|Medium|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/)|[Decoded String at Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodedStringAtIndex.java)|false|
 |881|Medium|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[Boats to Save People.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BoatsToSavePeople.java)|false|
 |910|Medium|[Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|[Smallest Range II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestRangeII.java)|false|
+|911|Medium|[Online Election](https://leetcode.com/problems/online-election/)|[Online Election.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OnlineElection.java)|false|
 |915|Medium|[Partition Array into Disjoint Intervals](https://leetcode.com/problems/partition-array-into-disjoint-intervals/)|[Partition Array into Disjoint Intervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionArrayIntoDisjointIntervals.java)|false|
 |919|Medium|[Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/)|[Complete Binary Tree Inserter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CompleteBinaryTreeInserter.java)|false|
 |921|Medium|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)|[Minimum Add to Make Parentheses Valid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumAddToMakeParenthesesValid.java)|false|
