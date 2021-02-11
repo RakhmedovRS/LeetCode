@@ -5,12 +5,12 @@ import java.util.Arrays;
 
 /**
  * @author RakhmedovRS
- * @created 05-Feb-21
+ * @created 11-Feb-21
  */
 @LeetCode(
         id = 1665,
         name = "Minimum Initial Energy to Finish Tasks",
-        url = "https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks//",
+        url = "https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/",
         difficulty = Difficulty.HARD
 )
 public class MinimumInitialEnergyToFinishTasks
