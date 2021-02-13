@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1205
+Count of solved tasks: 1206
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -721,6 +721,7 @@ Count of solved tasks: 1205
 |1128|Undefined|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|[Number of Equivalent Domino Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfEquivalentDominoPairs.java)|false|
 |1130|Undefined|[Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)|[Minimum Cost Tree From Leaf Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostTreeFromLeafValues.java)|false|
 |1138|Undefined|[Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/)|[Alphabet Board Path.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AlphabetBoardPath.java)|false|
+|1140|Medium|[Stone Game II](https://leetcode.com/problems/stone-game-ii/)|[Stone Game II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StoneGameII.java)|false|
 |1143|Undefined|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Longest Common Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestCommonSubsequence.java)|false|
 |1144|Undefined|[Decrease Elements To Make Array Zigzag](https://leetcode.com/problems/decrease-elements-to-make-array-zigzag/)|[Decrease Elements To Make Array Zigzag.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecreaseElementsToMakeArrayZigzag.java)|false|
 |1145|Undefined|[Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game/)|[Binary Tree Coloring Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeColoringGame.java)|false|
@@ -1188,6 +1189,7 @@ Count of solved tasks: 1205
 |1104|Medium|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[Path In Zigzag Labelled Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathInZigzagLabelledBinaryTree.java)|false|
 |1111|Medium|[Maximum Nesting Depth of Two Valid Parentheses Strings](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/)|[Maximum Nesting Depth of Two Valid Parentheses Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNestingDepthOfTwoValidParenthesesStrings.java)|false|
 |1123|Medium|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[Lowest Common Ancestor of Deepest Leaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LowestCommonAncestorOfDeepestLeaves.java)|false|
+|1140|Medium|[Stone Game II](https://leetcode.com/problems/stone-game-ii/)|[Stone Game II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StoneGameII.java)|false|
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[Smallest String With Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithSwaps.java)|false|
 |1233|Medium|[Remove Sub-Folders from the Filesystem](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/)|[Remove Sub-Folders from the Filesystem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveSubFoldersFromTheFilesystem.java)|false|
 |1234|Medium|[Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)|[Replace the Substring for Balanced String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceTheSubstringForBalancedString.java)|false|
