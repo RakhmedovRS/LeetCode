@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1204
+Count of solved tasks: 1205
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1439,6 +1439,7 @@ Count of solved tasks: 1204
 |1533|Medium|[Find the Index of the Large Integer](https://leetcode.com/problems/find-the-index-of-the-large-integer/)|[Find the Index of the Large Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheIndexOfTheLargeInteger.java)|true|
 |1554|Medium|[Strings Differ by One Character](https://leetcode.com/problems/strings-differ-by-one-character/)|[Strings Differ by One Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringsDifferByOneCharacter.java)|true|
 |1564|Medium|[Put Boxes Into the Warehouse I](https://leetcode.com/problems/put-boxes-into-the-warehouse-i/)|[Put Boxes Into the Warehouse I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PutBoxesIntoTheWarehouseI.java)|true|
+|1580|Medium|[Put Boxes Into the Warehouse II](https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/)|[Put Boxes Into the Warehouse II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PutBoxesIntoTheWarehouseII.java)|true|
 |1602|Medium|[Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)|[Find Nearest Right Node in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNearestRightNodeInBinaryTree.java)|true|
 |1612|Medium|[Check If Two Expression Trees are Equivalent](https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/)|[Check If Two Expression Trees are Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTwoExpressionTreesAreEquivalent.java)|true|
 |1618|Medium|[Maximum Font to Fit a Sentence in a Screen](https://leetcode.com/problems/maximum-font-to-fit-a-sentence-in-a-screen/)|[Maximum Font to Fit a Sentence in a Screen.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumFontToFitSentenceInScreen.java)|true|
