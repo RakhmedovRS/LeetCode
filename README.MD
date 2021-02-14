@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1209
+Count of solved tasks: 1210
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -496,6 +496,7 @@ Count of solved tasks: 1209
 |771|Undefined|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Jewels and Stones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JewelsAndStones.java)|false|
 |783|Undefined|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[Minimum Distance Between BST Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDistanceBetweenBSTNodes.java)|false|
 |784|Undefined|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Letter Case Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LetterCasePermutation.java)|false|
+|785|Medium|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[Is Graph Bipartite?.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IsGraphBipartite.java)|false|
 |787|Undefined|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|[Cheapest Flights Within K Stops.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheapestFlightsWithinKStops.java)|false|
 |788|Undefined|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|[Rotated Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RotatedDigits.java)|false|
 |789|Undefined|[Escape The Ghosts](https://leetcode.com/problems/escape-the-ghosts/)|[Escape The Ghosts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EscapeTheGhosts.java)|false|
@@ -1167,6 +1168,7 @@ Count of solved tasks: 1209
 |750|Medium|[Number Of Corner Rectangles](https://leetcode.com/problems/number-of-corner-rectangles/)|[Number Of Corner Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfCornerRectangles.java)|false|
 |754|Medium|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|[Reach a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReachNumber.java)|false|
 |769|Medium|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[Max Chunks To Make Sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxChunksToMakeSorted.java)|false|
+|785|Medium|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[Is Graph Bipartite?.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IsGraphBipartite.java)|false|
 |807|Medium|[Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|[Max Increase to Keep City Skyline.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxIncreaseToKeepCitySkyline.java)|false|
 |820|Medium|[Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)|[Short Encoding of Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortEncodingOfWords.java)|false|
 |833|Medium|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|[Find And Replace in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAndReplaceInString.java)|false|
