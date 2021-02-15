@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1210
+Count of solved tasks: 1211
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -761,6 +761,7 @@ Count of solved tasks: 1210
 |1234|Medium|[Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)|[Replace the Substring for Balanced String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceTheSubstringForBalancedString.java)|false|
 |1235|Hard|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[Maximum Profit in Job Scheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProfitInJobScheduling.java)|false|
 |1237|Undefined|[Find Positive Integer Solution for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/)|[Find Positive Integer Solution for a Given Equation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindPositiveIntegerSolutionForGivenEquation.java)|false|
+|1238|Medium|[Circular Permutation in Binary Representation](https://leetcode.com/problems/circular-permutation-in-binary-representation/)|[Circular Permutation in Binary Representation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CircularPermutationInBinaryRepresentation.java)|false|
 |1239|Undefined|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)|[Maximum Length of a Concatenated String with Unique Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfConcatenatedStringWithUniqueCharacters.java)|false|
 |1247|Undefined|[Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/)|[Minimum Swaps to Make Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSwapsToMakeStringsEqual.java)|false|
 |1249|Undefined|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Minimum Remove to Make Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumRemoveToMakeValidParentheses.java)|false|
@@ -1199,6 +1200,7 @@ Count of solved tasks: 1210
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[Smallest String With Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestStringWithSwaps.java)|false|
 |1233|Medium|[Remove Sub-Folders from the Filesystem](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/)|[Remove Sub-Folders from the Filesystem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveSubFoldersFromTheFilesystem.java)|false|
 |1234|Medium|[Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)|[Replace the Substring for Balanced String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceTheSubstringForBalancedString.java)|false|
+|1238|Medium|[Circular Permutation in Binary Representation](https://leetcode.com/problems/circular-permutation-in-binary-representation/)|[Circular Permutation in Binary Representation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CircularPermutationInBinaryRepresentation.java)|false|
 |1254|Medium|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|[Number of Closed Islands.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfClosedIslands.java)|false|
 |1267|Medium|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|[Count Servers that Communicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountServersThatCommunicate.java)|false|
 |1268|Medium|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|[Search Suggestions System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchSuggestionsSystem.java)|false|
