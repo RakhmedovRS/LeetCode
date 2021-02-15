@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1211
+Count of solved tasks: 1212
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1358,6 +1358,7 @@ Count of solved tasks: 1211
 |422|Easy|[Valid Word Square](https://leetcode.com/problems/valid-word-square/)|[Valid Word Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidWordSquare.java)|true|
 |426|Medium|[Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)|[Convert Binary Search Tree to Sorted Doubly Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertBinarySearchTreeToSortedDoublyLinkedList.java)|true|
 |428|Hard|[Serialize and Deserialize N-ary Tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/)|[Serialize and Deserialize N-ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SerializeAndDeserializeNaryTree.java)|true|
+|484|Medium|[Find Permutation](https://leetcode.com/problems/find-permutation/)|[Find Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindPermutation.java)|true|
 |487|Medium|[Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|[Max Consecutive Ones II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxConsecutiveOnesII.java)|true|
 |489|Hard|[Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/)|[Robot Room Cleaner.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RobotRoomCleaner.java)|true|
 |490|Medium|[The Maze](https://leetcode.com/problems/the-maze/)|[The Maze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheMaze.java)|true|
