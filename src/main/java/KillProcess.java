@@ -18,30 +18,32 @@ public class KillProcess
 {
 	public List<Integer> killProcess(List<Integer> pid, List<Integer> ppid, int kill)
 	{
-		List<Integer> answer = new ArrayList<>();
-		Map<Integer, List<Integer>> map = new HashMap<>();
-		int parentId;
-		int id;
+		Set<Integer> killed = new HashSet<>();
+		Map<Integer, List<Integer>> parents = new HashMap<>();
 		for (int i = 0; i < pid.size(); i++)
 		{
-			parentId = ppid.get(i);
-			id = pid.get(i);
-
-			map.putIfAbsent(parentId, new ArrayList<>());
-			map.get(parentId).add(id);
+			parents.putIfAbsent(pid.get(i), new ArrayList<>());
+			if (ppid.get(i) != 0)
+			{
+				parents.putIfAbsent(ppid.get(i), new ArrayList<>());
+				parents.get(ppid.get(i)).add(pid.get(i));
+			}
 		}
 
-		killProcess(kill, map, answer);
-
-		return answer;
-	}
-
-	private void killProcess(int pid, Map<Integer, List<Integer>> map, List<Integer> answer)
-	{
-		answer.add(pid);
-		for (int childPid : map.getOrDefault(pid, Collections.emptyList()))
+		Queue<Integer> queue = new LinkedList<>();
+		queue.add(kill);
+		int current;
+		while (!queue.isEmpty())
 		{
-			killProcess(childPid, map, answer);
+			current = queue.remove();
+			if (!killed.add(current))
+			{
+				continue;
+			}
+
+			queue.addAll(parents.get(current));
 		}
+
+		return new ArrayList<>(killed);
 	}
 }
