@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1213
+Count of solved tasks: 1214
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -779,6 +779,7 @@ Count of solved tasks: 1213
 |1277|Undefined|[Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)|[Count Square Submatrices with All Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountSquareSubmatricesWithAllOnes.java)|false|
 |1282|Undefined|[Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/)|[Group the People Given the Group Size They Belong To.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GroupPeopleGivenGroupSize.java)|false|
 |1283|Undefined|[Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)|[Find the Smallest Divisor Given a Threshold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheSmallestDivisorGivenThreshold.java)|false|
+|1284|Hard|[Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)|[Minimum Number of Flips to Convert Binary Matrix to Zero Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfFlipsToConvertBinaryMatrixToZeroMatrix.java)|false|
 |1286|Undefined|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|[Iterator for Combination.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IteratorForCombination.java)|false|
 |1287|Undefined|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/)|[Element Appearing More Than 25% In Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ElementAppearingMoreThan25PercentInSortedArray.java)|false|
 |1288|Undefined|[Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)|[Remove Covered Intervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveCoveredIntervals.java)|false|
@@ -1288,6 +1289,7 @@ Count of solved tasks: 1213
 |995|Hard|[Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)|[Minimum Number of K Consecutive Bit Flips.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java)|false|
 |1220|Hard|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[Count Vowels Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountVowelsPermutation.java)|false|
 |1235|Hard|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[Maximum Profit in Job Scheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProfitInJobScheduling.java)|false|
+|1284|Hard|[Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)|[Minimum Number of Flips to Convert Binary Matrix to Zero Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfFlipsToConvertBinaryMatrixToZeroMatrix.java)|false|
 |1345|Hard|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|[Jump Game IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameIV.java)|false|
 |1354|Hard|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[Construct Target Array With Multiple Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTargetArrayWithMultipleSums.java)|false|
 |1368|Hard|[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|[Minimum Cost to Make at Least One Valid Path in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToMakeAtLeastOneValidPathInGrid.java)|false|
