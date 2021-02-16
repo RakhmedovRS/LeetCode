@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1212
+Count of solved tasks: 1213
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1327,6 +1327,7 @@ Count of solved tasks: 1212
 |266|Easy|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|[Palindrome Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromePermutation.java)|true|
 |267|Medium|[Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/)|[Palindrome Permutation II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromePermutationII.java)|true|
 |270|Medium|[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)|[Closest Binary Search Tree Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestBinarySearchTreeValue.java)|true|
+|272|Hard|[Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii/)|[Closest Binary Search Tree Value II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestBinarySearchTreeValueII.java)|true|
 |276|Easy|[Paint Fence](https://leetcode.com/problems/paint-fence/)|[Paint Fence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PaintFence.java)|true|
 |277|Medium|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/)|[Find the Celebrity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheCelebrity.java)|true|
 |280|Medium|[Wiggle Sort](https://leetcode.com/problems/wiggle-sort/)|[Wiggle Sort.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WiggleSort.java)|true|
