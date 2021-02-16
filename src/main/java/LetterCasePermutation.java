@@ -1,44 +1,53 @@
+import common.Difficulty;
 import common.LeetCode;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author RakhmedovRS
  * @created 30-May-20
  */
-@LeetCode(id = 784, name = "Letter Case Permutation", url = "https://leetcode.com/problems/letter-case-permutation/")
+@LeetCode(
+	id = 784,
+	name = "Letter Case Permutation",
+	url = "https://leetcode.com/problems/letter-case-permutation/",
+	difficulty = Difficulty.MEDIUM
+)
 public class LetterCasePermutation
 {
 	public List<String> letterCasePermutation(String S)
 	{
-		LinkedList<String> permutations = new LinkedList<>();
-		if (S == null || S.isEmpty())
-		{
-			return permutations;
-		}
-		permutations.add("");
+		StringBuilder sb = new StringBuilder();
+		List<String> answer = new ArrayList<>();
+		dfs(0, S.toCharArray(), sb, answer);
+		return answer;
+	}
 
-		char[] chars = S.toCharArray();
-		for (char ch : chars)
+	private void dfs(int pos, char[] chars, StringBuilder sb, List<String> answer)
+	{
+		if (pos == chars.length)
 		{
-			int size = permutations.size();
-			while (size-- > 0)
-			{
-				String s = permutations.removeLast();
-				if (Character.isDigit(ch))
-				{
-					permutations.addFirst(s + ch);
-				}
-				else
-				{
-					permutations.addFirst(s + Character.toLowerCase(ch));
-					permutations.addFirst(s + Character.toUpperCase(ch));
-				}
-			}
+			answer.add(sb.toString());
+			return;
 		}
 
-		return permutations;
+		if (Character.isDigit(chars[pos]))
+		{
+			sb.append(chars[pos]);
+			dfs(pos + 1, chars, sb, answer);
+			sb.deleteCharAt(sb.length() - 1);
+		}
+		else
+		{
+			sb.append(Character.toUpperCase(chars[pos]));
+			dfs(pos + 1, chars, sb, answer);
+			sb.deleteCharAt(sb.length() - 1);
+
+			sb.append(Character.toLowerCase(chars[pos]));
+			dfs(pos + 1, chars, sb, answer);
+			sb.deleteCharAt(sb.length() - 1);
+		}
 	}
 
 	public static void main(String[] args)
