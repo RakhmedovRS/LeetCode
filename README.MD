@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1216
+Count of solved tasks: 1217
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1344,6 +1344,7 @@ Count of solved tasks: 1216
 |294|Medium|[Flip Game II](https://leetcode.com/problems/flip-game-ii/)|[Flip Game II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlipGameII.java)|true|
 |298|Medium|[Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)|[Binary Tree Longest Consecutive Sequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeLongestConsecutiveSequence.java)|true|
 |308|Hard|[Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)|[Range Sum Query 2D - Mutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQuery2DMutable.java)|true|
+|311|Medium|[Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/)|[Sparse Matrix Multiplication.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SparseMatrixMultiplication.java)|true|
 |314|Medium|[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)|[Binary Tree Vertical Order Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeVerticalOrderTraversal.java)|true|
 |320|Medium|[Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/)|[Generalized Abbreviation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GeneralizedAbbreviation.java)|true|
 |323|Medium|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|[Number of Connected Components in an Undirected Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfConnectedComponentsInUndirectedGraph.java)|true|
