@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1215
+Count of solved tasks: 1216
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1422,6 +1422,7 @@ Count of solved tasks: 1215
 |1120|Medium|[Maximum Average Subtree](https://leetcode.com/problems/maximum-average-subtree/)|[Maximum Average Subtree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAverageSubtree.java)|true|
 |1133|Easy|[Largest Unique Number](https://leetcode.com/problems/largest-unique-number/)|[Largest Unique Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestUniqueNumber.java)|true|
 |1134|Easy|[Armstrong Number](https://leetcode.com/problems/armstrong-number/)|[Armstrong Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArmstrongNumber.java)|true|
+|1135|Medium|[Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/)|[Connecting Cities With Minimum Cost.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConnectingCitiesWithMinimumCost.java)|true|
 |1150|Easy|[Check If a Number Is Majority Element in a Sorted Array](https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/)|[Check If a Number Is Majority Element in a Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfNumberIsMajorityElementInSortedArray.java)|true|
 |1151|Medium|[Minimum Swaps to Group All 1's Together](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/)|[Minimum Swaps to Group All 1's Together.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSwapsToGroupAllOnesTogether.java)|true|
 |1165|Easy|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)|[Single-Row Keyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleRowKeyboard.java)|true|
