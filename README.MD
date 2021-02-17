@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1217
+Count of solved tasks: 1218
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1411,6 +1411,7 @@ Count of solved tasks: 1217
 |1060|Medium|[Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/)|[Missing Element in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingElementInSortedArray.java)|true|
 |1061|Medium|[Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/)|[Lexicographically Smallest Equivalent String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LexicographicallySmallestEquivalentString.java)|true|
 |1062|Medium|[Longest Repeating Substring](https://leetcode.com/problems/longest-repeating-substring/)|[Longest Repeating Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestRepeatingSubstring.java)|true|
+|1063|Hard|[Number of Valid Subarrays](https://leetcode.com/problems/number-of-valid-subarrays/)|[Number of Valid Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfValidSubarrays.java)|true|
 |1064|Easy|[Fixed Point](https://leetcode.com/problems/fixed-point/)|[Fixed Point.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FixedPoint.java)|true|
 |1065|Easy|[Index Pairs of a String](https://leetcode.com/problems/index-pairs-of-a-string/)|[Index Pairs of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IndexPairsOfString.java)|true|
 |1085|Easy|[Sum of Digits in the Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/)|[Sum of Digits in the Minimum Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfDigitsInTheMinimumNumber.java)|true|
