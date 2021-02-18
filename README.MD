@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1219
+Count of solved tasks: 1220
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1481,6 +1481,7 @@ Count of solved tasks: 1219
 |1708|Medium|[Largest Subarray Length K](https://leetcode.com/problems/largest-subarray-length-k/)|[Largest Subarray Length K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestSubarrayLengthK.java)|true|
 |1730|Medium|[Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food/)|[Shortest Path to Get Food.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathToGetFood.java)|true|
 |1749|Medium|[Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/)|[Maximum Absolute Sum of Any Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAbsoluteSumOfAnySubarray.java)|true|
-|1756|Medium|[Design Most Recently Used Queue](https://leetcode.com/problems/design-most-recently-used-queue/)|[Design Most Recently Used Queue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignMostRecentlyUsedQueue.java)|true|</p>
+|1756|Medium|[Design Most Recently Used Queue](https://leetcode.com/problems/design-most-recently-used-queue/)|[Design Most Recently Used Queue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignMostRecentlyUsedQueue.java)|true|
+|1762|Medium|[Buildings With an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/)|[Buildings With an Ocean View.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BuildingsWithAnOceanView.java)|true|</p>
 </details>
 

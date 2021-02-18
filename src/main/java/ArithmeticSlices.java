@@ -2,8 +2,6 @@ import common.Difficulty;
 import common.LeetCode;
 
 /**
- * TODO RakhmedovRS: описание
- *
  * @author RakhmedovRS
  * @version 1.0
  * @since 18.02.2021
