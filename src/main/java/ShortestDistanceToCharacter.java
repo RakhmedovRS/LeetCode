@@ -1,51 +1,53 @@
+import common.Difficulty;
 import common.LeetCode;
 
-import java.util.Arrays;
+import java.util.TreeSet;
 
 /**
  * @author RakhmedovRS
  * @created 24-Mar-20
  */
-@LeetCode(id = 821, name = "Shortest Distance to a Character", url = "https://leetcode.com/problems/shortest-distance-to-a-character/")
+@LeetCode(
+	id = 821,
+	name = "Shortest Distance to a Character",
+	url = "https://leetcode.com/problems/shortest-distance-to-a-character/",
+	difficulty = Difficulty.EASY
+)
 public class ShortestDistanceToCharacter
 {
-	public int[] shortestToChar(String string, char ch)
+	public int[] shortestToChar(String s, char c)
 	{
-		if ("".equals(string) || string.length() == 0)
+		TreeSet<Integer> set = new TreeSet<>();
+		for (int i = 0; i < s.length(); i++)
 		{
-			return new int[0];
-		}
-
-		int[] result = new int[string.length()];
-		Arrays.fill(result, Integer.MAX_VALUE);
-
-		for (int pos = 0; pos < string.length(); pos++)
-		{
-			if (string.charAt(pos) == ch)
+			if (s.charAt(i) == c)
 			{
-				result[pos] = 0;
-				//going to the left
-				for (int p = pos - 1; p >= 0; p--)
-				{
-					if (string.charAt(p) == ch)
-					{
-						break;
-					}
-					result[p] = Math.min(result[p], pos - p);
-				}
-
-				//going to the right
-				for (int p = pos + 1; p < result.length; p++)
-				{
-					if (string.charAt(p) == ch)
-					{
-						break;
-					}
-					result[p] = Math.min(result[p], p - pos);
-				}
+				set.add(i);
 			}
 		}
 
-		return result;
+		int[] answer = new int[s.length()];
+		Integer left;
+		Integer right;
+		for (int i = 0; i < s.length(); i++)
+		{
+			left = set.floor(i);
+			right = set.ceiling(i);
+
+			if (left != null && right != null)
+			{
+				answer[i] = Math.min(Math.abs(i - left), Math.abs(i - right));
+			}
+			else if (left != null)
+			{
+				answer[i] = i - left;
+			}
+			else
+			{
+				answer[i] = right - i;
+			}
+		}
+
+		return answer;
 	}
 }

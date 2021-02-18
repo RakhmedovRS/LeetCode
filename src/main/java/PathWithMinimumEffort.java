@@ -1,6 +1,6 @@
+import common.Difficulty;
 import common.LeetCode;
 
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -8,63 +8,57 @@ import java.util.Queue;
  * @author RakhmedovRS
  * @created 10/25/2020
  */
-@LeetCode(id = 1631, name = "Path With Minimum Effort", url = "https://leetcode.com/problems/path-with-minimum-effort/")
+@LeetCode(
+		id = 1631,
+		name = "Path With Minimum Effort",
+		url = "https://leetcode.com/problems/path-with-minimum-effort/",
+		difficulty = Difficulty.MEDIUM
+)
 public class PathWithMinimumEffort
 {
 	public int minimumEffortPath(int[][] heights)
 	{
 		int rows = heights.length;
 		int columns = heights[0].length;
-		int[][] memo = new int[rows][columns];
-		for (int[] row : memo)
-		{
-			Arrays.fill(row, Integer.MAX_VALUE);
-		}
 
+		Integer[][] matrix = new Integer[rows][columns];
 		Queue<int[]> queue = new LinkedList<>();
-		queue.add(new int[]{0, 0, heights[0][0], 0});
+		queue.add(new int[]{0, 0, 0});
+
 		int[] current;
 		int row;
 		int column;
-		int prev;
-		int max;
+		int diff;
+		int[][] ways = new int[][]{{-1, 0}, {0, -1}, {1, 0}, {0, 1}};
+		int nextRow;
+		int nextColumn;
 		while (!queue.isEmpty())
 		{
 			current = queue.remove();
 			row = current[0];
 			column = current[1];
-			prev = current[2];
-			max = current[3];
-			max = Math.max(max, Math.abs(prev - heights[row][column]));
-
-			if (max >= memo[row][column])
+			diff = current[2];
+			if (matrix[row][column] != null && diff >= matrix[row][column])
 			{
 				continue;
 			}
 
-			memo[row][column] = max;
+			matrix[row][column] = diff;
 
-			if (row - 1 >= 0)
+			for (int[] way : ways)
 			{
-				queue.add(new int[]{row - 1, column, heights[row][column], max});
-			}
+				nextRow = row + way[0];
+				nextColumn = column + way[1];
+				if (nextRow < 0 || nextRow == rows || nextColumn < 0 || nextColumn == columns)
+				{
+					continue;
+				}
 
-			if (row + 1 < rows)
-			{
-				queue.add(new int[]{row + 1, column, heights[row][column], max});
-			}
-
-			if (column - 1 >= 0)
-			{
-				queue.add(new int[]{row, column - 1, heights[row][column], max});
-			}
-
-			if (column + 1 < columns)
-			{
-				queue.add(new int[]{row, column + 1, heights[row][column], max});
+				queue.add(new int[]{nextRow, nextColumn,
+						Math.max(diff, Math.abs(heights[row][column] - heights[nextRow][nextColumn]))});
 			}
 		}
 
-		return memo[rows - 1][columns - 1];
+		return matrix[rows - 1][columns - 1];
 	}
 }

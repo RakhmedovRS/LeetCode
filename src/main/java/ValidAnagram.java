@@ -1,41 +1,39 @@
+import common.Difficulty;
 import common.LeetCode;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * @author RakhmedovRS
  * @created 13-Mar-20
  */
-@LeetCode(id = 242, name = "Valid Anagram", url = "https://leetcode.com/problems/valid-anagram/")
+@LeetCode(
+        id = 242,
+        name = "Valid Anagram",
+        url = "https://leetcode.com/problems/valid-anagram/",
+        difficulty = Difficulty.EASY
+)
 public class ValidAnagram
 {
-	public boolean isAnagram(String s, String t)
-	{
-		if (s == null || t == null || s.length() != t.length())
-		{
-			return false;
-		}
+    public boolean isAnagram(String s, String t)
+    {
+        int[] table = new int[26];
+        for (char ch : s.toCharArray())
+        {
+            table[ch - 'a']++;
+        }
 
-		Map<Character, Integer> sCache = new HashMap<>();
-		for (Character ch : s.toCharArray())
-		{
-			sCache.put(ch, sCache.getOrDefault(ch, 0) + 1);
-		}
+        for (char ch : t.toCharArray())
+        {
+            table[ch - 'a']--;
+        }
 
-		Map<Character, Integer> tCache = new HashMap<>();
-		for (Character ch : t.toCharArray())
-		{
-			tCache.put(ch, tCache.getOrDefault(ch, 0) + 1);
-		}
+        for (int value : table)
+        {
+            if (value != 0)
+            {
+                return false;
+            }
+        }
 
-		for (Map.Entry<Character, Integer> entry : sCache.entrySet())
-		{
-			if (!entry.getValue().equals(tCache.get(entry.getKey())))
-			{
-				return false;
-			}
-		}
-		return true;
-	}
+        return true;
+    }
 }
