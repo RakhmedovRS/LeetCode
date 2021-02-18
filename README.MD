@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1166
+Count of solved tasks: 1167
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -292,6 +292,7 @@ Count of solved tasks: 1166
 |409|Undefined|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Longest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestPalindrome.java)|false|
 |410|Undefined|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)|[Split Array Largest Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitArrayLargestSum.java)|false|
 |412|Undefined|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Fizz Buzz.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FizzBuzz.java)|false|
+|413|Medium|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[Arithmetic Slices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArithmeticSlices.java)|false|
 |414|Undefined|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Third Maximum Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThirdMaximumNumber.java)|false|
 |415|Undefined|[Add Strings](https://leetcode.com/problems/add-strings/)|[Add Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddStrings.java)|false|
 |416|Medium|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[Partition Equal Subset Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionEqualSubsetSum.java)|false|
@@ -1110,6 +1111,7 @@ Count of solved tasks: 1166
 |386|Medium|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)|[Lexicographical Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LexicographicalNumbers.java)|false|
 |394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[Decode String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)|false|
 |395|Medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|[Longest Substring with At Least K Repeating Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtLeastKRepeatingCharacters.java)|false|
+|413|Medium|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[Arithmetic Slices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArithmeticSlices.java)|false|
 |416|Medium|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[Partition Equal Subset Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionEqualSubsetSum.java)|false|
 |433|Medium|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[Minimum Genetic Mutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumGeneticMutation.java)|false|
 |454|Medium|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[4Sum II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FourSumII.java)|false|
