@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1223
+Count of solved tasks: 1224
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1462,6 +1462,7 @@ Count of solved tasks: 1223
 |1271|Easy|[Hexspeak](https://leetcode.com/problems/hexspeak/)|[Hexspeak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HexSpeak.java)|true|
 |1272|Medium|[Remove Interval](https://leetcode.com/problems/remove-interval/)|[Remove Interval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveInterval.java)|true|
 |1273|Medium|[Delete Tree Nodes](https://leetcode.com/problems/delete-tree-nodes/)|[Delete Tree Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteTreeNodes.java)|true|
+|1274|Hard|[Number of Ships in a Rectangle](https://leetcode.com/problems/number-of-ships-in-a-rectangle/)|[Number of Ships in a Rectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfShipsInRectangle.java)|true|
 |1275|Easy|[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)|[Find Winner on a Tic Tac Toe Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindWinnerOnTicTacToeGame.java)|true|
 |1469|Easy|[Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)|[Find All The Lonely Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAllTheLonelyNodes.java)|true|
 |1474|Easy|[Delete N Nodes After M Nodes of a Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/)|[Delete N Nodes After M Nodes of a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteNNodesAfterMNodesOfLinkedList.java)|true|
