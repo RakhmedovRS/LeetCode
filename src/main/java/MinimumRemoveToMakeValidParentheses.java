@@ -1,55 +1,61 @@
+import common.Difficulty;
 import common.LeetCode;
+
+import java.util.LinkedList;
 
 /**
  * @author RakhmedovRS
  * @created 10-Jun-20
  */
-@LeetCode(id = 1249, name = "Minimum Remove to Make Valid Parentheses", url = "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/")
+@LeetCode(
+		id = 1249,
+		name = "Minimum Remove to Make Valid Parentheses",
+		url = "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+		difficulty = Difficulty.MEDIUM
+)
 public class MinimumRemoveToMakeValidParentheses
 {
 	public String minRemoveToMakeValid(String s)
 	{
-		StringBuilder stringBuilder = new StringBuilder();
-		int open = 0;
-		for (int i = 0; i < s.length(); i++)
+		boolean[] used = new boolean[s.length()];
+		char[] chars = s.toCharArray();
+		LinkedList<Integer> list = new LinkedList<>();
+		for (int i = 0; i < chars.length; i++)
 		{
-			char ch = s.charAt(i);
-			if (ch == '(')
+			if (Character.isLetter(chars[i]))
 			{
-				open++;
+				used[i] = true;
 			}
-			else if (ch == ')')
+			else if (chars[i] == '(')
 			{
-				if (open <= 0)
+				list.addLast(i);
+			}
+			else
+			{
+				if (list.isEmpty())
 				{
-					continue;
+					used[i] = false;
 				}
-				open--;
+				else
+				{
+					if (chars[list.getLast()] == '(')
+					{
+						used[list.removeLast()] = true;
+						used[i] = true;
+					}
+				}
 			}
-			stringBuilder.append(ch);
 		}
 
-		s = stringBuilder.toString();
-		stringBuilder = new StringBuilder();
-		int close = 0;
-		for (int i = s.length() - 1; i >= 0; i--)
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < used.length; i++)
 		{
-			char ch = s.charAt(i);
-			if (ch == ')')
+			if (used[i])
 			{
-				close++;
+				sb.append(chars[i]);
 			}
-			else if (ch == '(')
-			{
-				if (close <= 0)
-				{
-					continue;
-				}
-				close--;
-			}
-			stringBuilder.append(ch);
 		}
 
-		return stringBuilder.reverse().toString();
+		return sb.toString();
 	}
 }
