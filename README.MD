@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1222
+Count of solved tasks: 1223
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -473,6 +473,7 @@ Count of solved tasks: 1222
 |724|Undefined|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Find Pivot Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindPivotIndex.java)|false|
 |725|Undefined|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)|[Split Linked List in Parts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitLinkedListInParts.java)|false|
 |729|Undefined|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[My Calendar I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MyCalendarI.java)|false|
+|731|Medium|[My Calendar II](https://leetcode.com/problems/my-calendar-ii/)|[My Calendar II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MyCalendarII.java)|false|
 |732|Hard|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[My Calendar III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MyCalendarIII.java)|false|
 |733|Undefined|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Flood Fill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FloodFill.java)|false|
 |735|Undefined|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Asteroid Collision.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AsteroidCollision.java)|false|
@@ -1174,6 +1175,7 @@ Count of solved tasks: 1222
 |669|Medium|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Trim a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TrimBinarySearchTree.java)|false|
 |718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Maximum Length of Repeated Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfRepeatedSubarray.java)|false|
 |721|Medium|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[Accounts Merge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AccountsMerge.java)|false|
+|731|Medium|[My Calendar II](https://leetcode.com/problems/my-calendar-ii/)|[My Calendar II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MyCalendarII.java)|false|
 |750|Medium|[Number Of Corner Rectangles](https://leetcode.com/problems/number-of-corner-rectangles/)|[Number Of Corner Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfCornerRectangles.java)|false|
 |754|Medium|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|[Reach a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReachNumber.java)|false|
 |769|Medium|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[Max Chunks To Make Sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxChunksToMakeSorted.java)|false|
