@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1224
+Count of solved tasks: 1225
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -497,6 +497,7 @@ Count of solved tasks: 1224
 |767|Undefined|[Reorganize String](https://leetcode.com/problems/reorganize-string/)|[Reorganize String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReorganizeString.java)|false|
 |769|Medium|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[Max Chunks To Make Sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxChunksToMakeSorted.java)|false|
 |771|Undefined|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Jewels and Stones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JewelsAndStones.java)|false|
+|773|Hard|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/)|[Sliding Puzzle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SlidingPuzzle.java)|false|
 |783|Undefined|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[Minimum Distance Between BST Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDistanceBetweenBSTNodes.java)|false|
 |784|Medium|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Letter Case Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LetterCasePermutation.java)|false|
 |785|Medium|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[Is Graph Bipartite?.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IsGraphBipartite.java)|false|
@@ -1296,6 +1297,7 @@ Count of solved tasks: 1224
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[Remove Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)|false|
 |639|Hard|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|[Decode Ways II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeWaysII.java)|false|
 |732|Hard|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[My Calendar III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MyCalendarIII.java)|false|
+|773|Hard|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/)|[Sliding Puzzle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SlidingPuzzle.java)|false|
 |902|Hard|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[Numbers At Most N Given Digit Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumbersAtMostNGivenDigitSet.java)|false|
 |987|Hard|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|[Vertical Order Traversal of a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/VerticalOrderTraversalOfBinaryTree.java)|false|
 |992|Hard|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)|[Subarrays with K Different Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubarraysWithKDifferentIntegers.java)|false|
