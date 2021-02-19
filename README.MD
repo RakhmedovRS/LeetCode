@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1221
+Count of solved tasks: 1222
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -473,6 +473,7 @@ Count of solved tasks: 1221
 |724|Undefined|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Find Pivot Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindPivotIndex.java)|false|
 |725|Undefined|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)|[Split Linked List in Parts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitLinkedListInParts.java)|false|
 |729|Undefined|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[My Calendar I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MyCalendarI.java)|false|
+|732|Hard|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[My Calendar III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MyCalendarIII.java)|false|
 |733|Undefined|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Flood Fill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FloodFill.java)|false|
 |735|Undefined|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Asteroid Collision.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AsteroidCollision.java)|false|
 |738|Undefined|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/)|[Monotone Increasing Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MonotoneIncreasingDigits.java)|false|
@@ -1291,6 +1292,7 @@ Count of solved tasks: 1221
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[Poor Pigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PoorPigs.java)|false|
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[Remove Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveBoxes.java)|false|
 |639|Hard|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|[Decode Ways II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeWaysII.java)|false|
+|732|Hard|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[My Calendar III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MyCalendarIII.java)|false|
 |902|Hard|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[Numbers At Most N Given Digit Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumbersAtMostNGivenDigitSet.java)|false|
 |987|Hard|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|[Vertical Order Traversal of a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/VerticalOrderTraversalOfBinaryTree.java)|false|
 |992|Hard|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)|[Subarrays with K Different Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubarraysWithKDifferentIntegers.java)|false|
