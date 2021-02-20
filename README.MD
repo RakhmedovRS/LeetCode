@@ -18,7 +18,7 @@ Count of solved tasks: 1226
 |10|Undefined|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|[Regular Expression Matching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RegularExpressionMatching.java)|false|
 |11|Medium|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Container With Most Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainerWithMostWater.java)|false|
 |12|Undefined|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Integer to Roman.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerToRoman.java)|false|
-|13|Undefined|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Roman to Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RomanToInteger.java)|false|
+|13|Easy|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Roman to Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RomanToInteger.java)|false|
 |14|Undefined|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Longest Common Prefix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestCommonPrefix.java)|false|
 |15|Undefined|[3Sum](https://leetcode.com/problems/3sum/)|[3Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThreeSum.java)|false|
 |16|Undefined|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[3Sum Closest.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThreeSumClosest.java)|false|
@@ -1070,6 +1070,7 @@ Count of solved tasks: 1226
 | LeetCode ID | Difficulty  | Name           | Solution       | Premium  |
 |:-----------:|:-----------:|:--------------:|:--------------:|:--------:|
 |9|Easy|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Palindrome Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeNumber.java)|false|
+|13|Easy|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Roman to Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RomanToInteger.java)|false|
 |20|Easy|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidParentheses.java)|false|
 |21|Easy|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeTwoSortedLists.java)|false|
 |27|Easy|[Remove Element](https://leetcode.com/problems/remove-element/)|[Remove Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveElement.java)|false|
