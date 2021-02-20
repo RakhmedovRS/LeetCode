@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1228
+Count of solved tasks: 1229
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1061,6 +1061,7 @@ Count of solved tasks: 1228
 |1758|Easy|[Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/)|[Minimum Changes To Make Alternating Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumChangesToMakeAlternatingBinaryString.java)|false|
 |1759|Medium|[Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/)|[Count Number of Homogenous Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountNumberOfHomogenousSubstrings.java)|false|
 |1760|Medium|[Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/)|[Minimum Limit of Balls in a Bag.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumLimitOfBallsInBag.java)|false|
+|1763|Easy|[Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/)|[Longest Nice Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestNiceSubstring.java)|false|
 |1764|Medium|[Form Array by Concatenating Subarrays of Another Array](https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array/)|[Form Array by Concatenating Subarrays of Another Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FormArrayByConcatenatingSubarraysOfAnotherArray.java)|false|
 |1765|Medium|[Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/)|[Map of Highest Peak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MapOfHighestPeak.java)|false|</p>
 </details>
@@ -1124,7 +1125,8 @@ Count of solved tasks: 1228
 |1742|Easy|[Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/)|[Maximum Number of Balls in a Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfBallsInBox.java)|false|
 |1748|Easy|[Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)|[Sum of Unique Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfUniqueElements.java)|false|
 |1752|Easy|[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)|[Check if Array Is Sorted and Rotated.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfArrayIsSortedAndRotated.java)|false|
-|1758|Easy|[Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/)|[Minimum Changes To Make Alternating Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumChangesToMakeAlternatingBinaryString.java)|false|</p>
+|1758|Easy|[Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/)|[Minimum Changes To Make Alternating Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumChangesToMakeAlternatingBinaryString.java)|false|
+|1763|Easy|[Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/)|[Longest Nice Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestNiceSubstring.java)|false|</p>
 </details>
 
 <details>
