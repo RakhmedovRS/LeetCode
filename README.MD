@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1225
+Count of solved tasks: 1226
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1459,6 +1459,7 @@ Count of solved tasks: 1225
 |1243|Easy|[Array Transformation](https://leetcode.com/problems/array-transformation/)|[Array Transformation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArrayTransformation.java)|true|
 |1244|Medium|[Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/)|[Design A Leaderboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignLeaderboard.java)|true|
 |1256|Medium|[Encode Number](https://leetcode.com/problems/encode-number/)|[Encode Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EncodeNumber.java)|true|
+|1257|Medium|[Smallest Common Region](https://leetcode.com/problems/smallest-common-region/)|[Smallest Common Region.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestCommonRegion.java)|true|
 |1258|Medium|[Synonymous Sentences](https://leetcode.com/problems/synonymous-sentences/)|[Synonymous Sentences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SynonymousSentences.java)|true|
 |1265|Medium|[Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/)|[Print Immutable Linked List in Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintImmutableLinkedListInReverse.java)|true|
 |1271|Easy|[Hexspeak](https://leetcode.com/problems/hexspeak/)|[Hexspeak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HexSpeak.java)|true|
