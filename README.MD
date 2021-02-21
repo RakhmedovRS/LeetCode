@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1230
+Count of solved tasks: 1231
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1064,7 +1064,8 @@ Count of solved tasks: 1230
 |1763|Easy|[Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/)|[Longest Nice Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestNiceSubstring.java)|false|
 |1764|Medium|[Form Array by Concatenating Subarrays of Another Array](https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array/)|[Form Array by Concatenating Subarrays of Another Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FormArrayByConcatenatingSubarraysOfAnotherArray.java)|false|
 |1765|Medium|[Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/)|[Map of Highest Peak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MapOfHighestPeak.java)|false|
-|1768|Easy|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[Merge Strings Alternately.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeStringsAlternately.java)|false|</p>
+|1768|Easy|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[Merge Strings Alternately.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeStringsAlternately.java)|false|
+|1769|Medium|[Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)|[Minimum Number of Operations to Move All Balls to Each Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfOperationsToMoveAllBallsToEachBox.java)|false|</p>
 </details>
 
 <details>
@@ -1282,7 +1283,8 @@ Count of solved tasks: 1230
 |1759|Medium|[Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/)|[Count Number of Homogenous Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountNumberOfHomogenousSubstrings.java)|false|
 |1760|Medium|[Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/)|[Minimum Limit of Balls in a Bag.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumLimitOfBallsInBag.java)|false|
 |1764|Medium|[Form Array by Concatenating Subarrays of Another Array](https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array/)|[Form Array by Concatenating Subarrays of Another Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FormArrayByConcatenatingSubarraysOfAnotherArray.java)|false|
-|1765|Medium|[Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/)|[Map of Highest Peak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MapOfHighestPeak.java)|false|</p>
+|1765|Medium|[Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/)|[Map of Highest Peak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MapOfHighestPeak.java)|false|
+|1769|Medium|[Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)|[Minimum Number of Operations to Move All Balls to Each Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfOperationsToMoveAllBallsToEachBox.java)|false|</p>
 </details>
 
 <details>
