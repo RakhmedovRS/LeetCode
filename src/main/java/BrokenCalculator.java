@@ -1,19 +1,25 @@
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 15-Sep-20
  */
-@LeetCode(id = 991, name = "Broken Calculator", url = "https://leetcode.com/problems/broken-calculator/")
+@LeetCode(
+	id = 991,
+	name = "Broken Calculator",
+	url = "https://leetcode.com/problems/broken-calculator/",
+	difficulty = Difficulty.MEDIUM
+)
 public class BrokenCalculator
 {
-	public int brokenCalc(int current, int target)
+	public int brokenCalc(int source, int target)
 	{
-		int ops = 0;
-		while (target > current)
+		int operations = 0;
+		while (target > source)
 		{
-			ops++;
-			if (target % 2 == 1)
+			operations++;
+			if (target % 2 != 0)
 			{
 				target++;
 			}
@@ -22,6 +28,7 @@ public class BrokenCalculator
 				target /= 2;
 			}
 		}
-		return ops + current - target;
+
+		return operations + source - target;
 	}
 }
