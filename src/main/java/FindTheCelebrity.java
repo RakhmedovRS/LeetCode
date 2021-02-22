@@ -26,34 +26,27 @@ public class FindTheCelebrity
 	{
 		public int findCelebrity(int n)
 		{
-			int candidate = 0;
-			for (int i = 0; i < n; i++)
+			for (int candidate = 0; candidate < n; candidate++)
 			{
-				if (knows(candidate, i))
+				if (isCelebrity(candidate, n))
 				{
-					candidate = i;
+					return candidate;
 				}
 			}
 
-			if (isCelebrity(candidate, n))
-			{
-				return candidate;
-			}
 			return -1;
 		}
 
-		private boolean isCelebrity(int i, int n)
+		private boolean isCelebrity(int candidate, int n)
 		{
-			for (int j = 0; j < n; j++)
+			for (int i = 0; i < n; i++)
 			{
-				if (i == j)
+				if (candidate != i)
 				{
-					continue;
-				}
-
-				if (knows(i, j) || !knows(j, i))
-				{
-					return false;
+					if (knows(candidate, i) || !knows(i, candidate))
+					{
+						return false;
+					}
 				}
 			}
 
