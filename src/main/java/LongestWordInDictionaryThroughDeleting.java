@@ -17,34 +17,33 @@ public class LongestWordInDictionaryThroughDeleting
 {
 	public String findLongestWord(String s, List<String> d)
 	{
-		String answer = "";
-		for (String string : d)
+		d.sort((a, b) ->
 		{
-			if (canBeCreated(s, string))
+			if (a.length() == b.length())
 			{
-				if (string.length() > answer.length())
-				{
-					answer = string;
-				}
-				else if (string.length() == answer.length())
-				{
-					if (string.compareTo(answer) < 0)
-					{
-						answer = string;
-					}
-				}
+				return a.compareTo(b);
+			}
+
+			return b.length() - a.length();
+		});
+
+		for (String word : d)
+		{
+			if (canCreate(s, word))
+			{
+				return word;
 			}
 		}
 
-		return answer;
+		return "";
 	}
 
-	private boolean canBeCreated(String origin, String target)
+	private boolean canCreate(String current, String target)
 	{
 		int tPos = 0;
-		for (int i = 0; i < origin.length() && tPos < target.length(); i++)
+		for (int cPos = 0; cPos < current.length() && tPos < target.length(); cPos++)
 		{
-			if (origin.charAt(i) == target.charAt(tPos))
+			if (current.charAt(cPos) == target.charAt(tPos))
 			{
 				tPos++;
 			}
