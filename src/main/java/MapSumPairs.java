@@ -1,3 +1,4 @@
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.LinkedList;
@@ -7,7 +8,12 @@ import java.util.Queue;
  * @author RakhmedovRS
  * @created 10/13/2020
  */
-@LeetCode(id = 677, name = "Map Sum Pairs", url = "https://leetcode.com/problems/map-sum-pairs/")
+@LeetCode(
+		id = 677,
+		name = "Map Sum Pairs",
+		url = "https://leetcode.com/problems/map-sum-pairs/",
+		difficulty = Difficulty.MEDIUM
+)
 public class MapSumPairs
 {
 	class Trie
@@ -21,6 +27,9 @@ public class MapSumPairs
 
 		Trie root;
 
+		/**
+		 * Initialize your data structure here.
+		 */
 		public MapSum()
 		{
 			root = new Trie();
@@ -29,15 +38,14 @@ public class MapSumPairs
 		public void insert(String key, int val)
 		{
 			Trie current = root;
-			int index;
-			for (int i = 0; i < key.length(); i++)
+			for (char ch : key.toCharArray())
 			{
-				index = key.charAt(i) - 'a';
-				if (current.children[index] == null)
+				if (current.children[ch - 'a'] == null)
 				{
-					current.children[index] = new Trie();
+					current.children[ch - 'a'] = new Trie();
 				}
-				current = current.children[index];
+
+				current = current.children[ch - 'a'];
 			}
 
 			current.value = val;
@@ -45,35 +53,29 @@ public class MapSumPairs
 
 		public int sum(String prefix)
 		{
-			Trie current = root;
-			int index;
 			int sum = 0;
-			for (int i = 0; i < prefix.length(); i++)
+			Trie current = root;
+			for (char ch : prefix.toCharArray())
 			{
-				index = prefix.charAt(i) - 'a';
-				if (current.children[index] == null)
+				if (current.children[ch - 'a'] == null)
 				{
-					return 0;
+					return sum;
 				}
-				current = current.children[index];
+
+				current = current.children[ch - 'a'];
 			}
 
-			if (current != null)
+			Queue<Trie> queue = new LinkedList<>();
+			queue.add(current);
+			while (!queue.isEmpty())
 			{
-				Queue<Trie> tries = new LinkedList<>();
-				tries.add(current);
-				Trie curr;
-				while (!tries.isEmpty())
+				current = queue.remove();
+				sum += current.value;
+				for (Trie child : current.children)
 				{
-					curr = tries.remove();
-					sum += curr.value;
-
-					for (int i = 0; i < 26; i++)
+					if (child != null)
 					{
-						if (curr.children[i] != null)
-						{
-							tries.add(curr.children[i]);
-						}
+						queue.add(child);
 					}
 				}
 			}
