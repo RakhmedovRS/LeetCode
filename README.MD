@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1234
+Count of solved tasks: 1235
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -811,6 +811,7 @@ Count of solved tasks: 1234
 |1331|Undefined|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/)|[Rank Transform of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RankTransformOfArray.java)|false|
 |1332|Undefined|[Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|[Remove Palindromic Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemovePalindromicSubsequences.java)|false|
 |1334|Undefined|[Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)|[Find the City With the Smallest Number of Neighbors at a Threshold Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheCityWithTheSmallestNumberOfNeighborsAtThresholdDistance.java)|false|
+|1335|Hard|[Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)|[Minimum Difficulty of a Job Schedule.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDifficultyOfJobSchedule.java)|false|
 |1337|Easy|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[The K Weakest Rows in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKWeakestRowsInMatrix.java)|false|
 |1338|Undefined|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|[Reduce Array Size to The Half.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReduceArraySizeToTheHalf.java)|false|
 |1339|Undefined|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)|[Maximum Product of Splitted Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfSplittedBinaryTree.java)|false|
@@ -1324,6 +1325,7 @@ Count of solved tasks: 1234
 |1220|Hard|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[Count Vowels Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountVowelsPermutation.java)|false|
 |1235|Hard|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[Maximum Profit in Job Scheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProfitInJobScheduling.java)|false|
 |1284|Hard|[Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)|[Minimum Number of Flips to Convert Binary Matrix to Zero Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfFlipsToConvertBinaryMatrixToZeroMatrix.java)|false|
+|1335|Hard|[Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)|[Minimum Difficulty of a Job Schedule.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDifficultyOfJobSchedule.java)|false|
 |1345|Hard|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|[Jump Game IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameIV.java)|false|
 |1354|Hard|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[Construct Target Array With Multiple Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTargetArrayWithMultipleSums.java)|false|
 |1368|Hard|[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|[Minimum Cost to Make at Least One Valid Path in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToMakeAtLeastOneValidPathInGrid.java)|false|
