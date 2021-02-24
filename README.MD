@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1235
+Count of solved tasks: 1236
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1461,6 +1461,7 @@ Count of solved tasks: 1235
 |1135|Medium|[Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/)|[Connecting Cities With Minimum Cost.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConnectingCitiesWithMinimumCost.java)|true|
 |1150|Easy|[Check If a Number Is Majority Element in a Sorted Array](https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/)|[Check If a Number Is Majority Element in a Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfNumberIsMajorityElementInSortedArray.java)|true|
 |1151|Medium|[Minimum Swaps to Group All 1's Together](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/)|[Minimum Swaps to Group All 1's Together.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSwapsToGroupAllOnesTogether.java)|true|
+|1152|Medium|[Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern/)|[Analyze User Website Visit Pattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AnalyzeUserWebsiteVisitPattern.java)|true|
 |1165|Easy|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)|[Single-Row Keyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleRowKeyboard.java)|true|
 |1166|Medium|[Design File System](https://leetcode.com/problems/design-file-system/)|[Design File System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignFileSystem.java)|true|
 |1167|Medium|[Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)|[Minimum Cost to Connect Sticks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToConnectSticks.java)|true|
