@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1233
+Count of solved tasks: 1234
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -391,6 +391,7 @@ Count of solved tasks: 1233
 |547|Undefined|[Friend Circles](https://leetcode.com/problems/friend-circles/)|[Friend Circles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FriendCircles.java)|false|
 |551|Undefined|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[Student Attendance Record I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StudentAttendanceRecordI.java)|false|
 |552|Undefined|[Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/)|[Student Attendance Record II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StudentAttendanceRecordII.java)|false|
+|554|Medium|[Brick Wall](https://leetcode.com/problems/brick-wall/)|[Brick Wall.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BrickWall.java)|false|
 |557|Undefined|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Reverse Words in a String III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseWordsInStringIII.java)|false|
 |559|Undefined|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[Maximum Depth of N-ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumDepthOfNaryTree.java)|false|
 |560|Undefined|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Subarray Sum Equals K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubarraySumEqualsK.java)|false|
@@ -1184,6 +1185,7 @@ Count of solved tasks: 1233
 |526|Medium|[Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)|[Beautiful Arrangement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BeautifulArrangement.java)|false|
 |538|Medium|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Convert BST to Greater Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertBSTToGreaterTree.java)|false|
 |539|Medium|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|[Minimum Time Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeDifference.java)|false|
+|554|Medium|[Brick Wall](https://leetcode.com/problems/brick-wall/)|[Brick Wall.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BrickWall.java)|false|
 |669|Medium|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Trim a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TrimBinarySearchTree.java)|false|
 |677|Medium|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)|[Map Sum Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MapSumPairs.java)|false|
 |718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Maximum Length of Repeated Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfRepeatedSubarray.java)|false|
