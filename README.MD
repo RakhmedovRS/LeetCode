@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1237
+Count of solved tasks: 1238
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -806,6 +806,7 @@ Count of solved tasks: 1237
 |1317|Undefined|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)|[Convert Integer to the Sum of Two No-Zero Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertIntegerToTheSumOfTwoNoZeroIntegers.java)|false|
 |1318|Undefined|[Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)|[Minimum Flips to Make a OR b Equal to c.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumFlipsToMakeORbEqualToc.java)|false|
 |1319|Undefined|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|[Number of Operations to Make Network Connected.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfOperationsToMakeNetworkConnected.java)|false|
+|1320|Hard|[Minimum Distance to Type a Word Using Two Fingers](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/)|[Minimum Distance to Type a Word Using Two Fingers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDistanceToTypeWordUsingTwoFingers.java)|false|
 |1324|Undefined|[Print Words Vertically](https://leetcode.com/problems/print-words-vertically/)|[Print Words Vertically.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrintWordsVertically.java)|false|
 |1328|Undefined|[Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/)|[Break a Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BreakPalindrome.java)|false|
 |1329|Medium|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[Sort the Matrix Diagonally.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortMatrixDiagonally.java)|false|
@@ -1328,6 +1329,7 @@ Count of solved tasks: 1237
 |1220|Hard|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[Count Vowels Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountVowelsPermutation.java)|false|
 |1235|Hard|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[Maximum Profit in Job Scheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProfitInJobScheduling.java)|false|
 |1284|Hard|[Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)|[Minimum Number of Flips to Convert Binary Matrix to Zero Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfFlipsToConvertBinaryMatrixToZeroMatrix.java)|false|
+|1320|Hard|[Minimum Distance to Type a Word Using Two Fingers](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/)|[Minimum Distance to Type a Word Using Two Fingers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDistanceToTypeWordUsingTwoFingers.java)|false|
 |1335|Hard|[Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)|[Minimum Difficulty of a Job Schedule.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumDifficultyOfJobSchedule.java)|false|
 |1345|Hard|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|[Jump Game IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameIV.java)|false|
 |1354|Hard|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[Construct Target Array With Multiple Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTargetArrayWithMultipleSums.java)|false|
