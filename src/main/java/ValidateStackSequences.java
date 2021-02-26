@@ -8,38 +8,42 @@ import java.util.LinkedList;
  * @created 02-Feb-21
  */
 @LeetCode(
-        id = 946,
-        name = "Validate Stack Sequences",
-        url = "https://leetcode.com/problems/validate-stack-sequences/",
-        difficulty = Difficulty.MEDIUM
+	id = 946,
+	name = "Validate Stack Sequences",
+	url = "https://leetcode.com/problems/validate-stack-sequences/",
+	difficulty = Difficulty.MEDIUM
 )
 public class ValidateStackSequences
 {
-    public boolean validateStackSequences(int[] pushed, int[] popped)
-    {
-        int pushedPos = 0;
-        int poppedPos = 0;
-        LinkedList<Integer> stack = new LinkedList<>();
-        for (int i = 0; i < pushed.length + popped.length; i++)
-        {
-            while (!stack.isEmpty() && poppedPos < popped.length && stack.peek() == popped[poppedPos])
-            {
-                poppedPos++;
-                stack.pop();
-            }
-            if (pushedPos < pushed.length)
-            {
-                stack.push(pushed[pushedPos++]);
-            }
-        }
+	public boolean validateStackSequences(int[] pushed, int[] popped)
+	{
+		LinkedList<Integer> list = new LinkedList<>();
+		int pushedIndex = 0;
+		int poppedIndex = 0;
+		while (pushedIndex < pushed.length)
+		{
+			while (!list.isEmpty() && poppedIndex < popped.length && list.getLast() == popped[poppedIndex])
+			{
+				list.removeLast();
+				poppedIndex++;
+			}
 
-        return stack.isEmpty() && pushedPos == pushed.length && poppedPos == popped.length;
-    }
+			list.addLast(pushed[pushedIndex++]);
+		}
 
-    public static void main(String[] args)
-    {
-        ValidateStackSequences clazz = new ValidateStackSequences();
-        System.out.println(clazz.validateStackSequences(new int[]{0}, new int[]{0}));
-        System.out.println(clazz.validateStackSequences(new int[]{1, 2, 3, 4, 5}, new int[]{4, 5, 3, 2, 1}));
-    }
+		while (!list.isEmpty() && poppedIndex < popped.length && list.getLast() == popped[poppedIndex])
+		{
+			list.removeLast();
+			poppedIndex++;
+		}
+
+		return list.isEmpty();
+	}
+
+	public static void main(String[] args)
+	{
+		ValidateStackSequences clazz = new ValidateStackSequences();
+		System.out.println(clazz.validateStackSequences(new int[]{0}, new int[]{0}));
+		System.out.println(clazz.validateStackSequences(new int[]{1, 2, 3, 4, 5}, new int[]{4, 5, 3, 2, 1}));
+	}
 }
