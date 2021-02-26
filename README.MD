@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1240
+Count of solved tasks: 1241
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -884,6 +884,7 @@ Count of solved tasks: 1240
 |1436|Undefined|[Destination City](https://leetcode.com/problems/destination-city/)|[Destination City.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DestinationCity.java)|false|
 |1437|Easy|[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)|[Check If All 1's Are at Least Length K Places Away.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfAll1sAreAtLeastLengthKPlacesAway.java)|false|
 |1438|Undefined|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java)|false|
+|1439|Hard|[Find the Kth Smallest Sum of a Matrix With Sorted Rows](https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)|[Find the Kth Smallest Sum of a Matrix With Sorted Rows.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheKthSmallestSumOfMatrixWithSortedRows.java)|false|
 |1441|Undefined|[Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)|[Build an Array With Stack Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BuildArrayWithStackOperations.java)|false|
 |1443|Medium|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|[Minimum Time to Collect All Apples in a Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeToCollectAllApplesInTree.java)|false|
 |1446|Undefined|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|[Consecutive Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConsecutiveCharacters.java)|false|
@@ -1337,6 +1338,7 @@ Count of solved tasks: 1240
 |1354|Hard|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[Construct Target Array With Multiple Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructTargetArrayWithMultipleSums.java)|false|
 |1368|Hard|[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|[Minimum Cost to Make at Least One Valid Path in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumCostToMakeAtLeastOneValidPathInGrid.java)|false|
 |1373|Hard|[Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/)|[Maximum Sum BST in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSumBSTInBinaryTree.java)|false|
+|1439|Hard|[Find the Kth Smallest Sum of a Matrix With Sorted Rows](https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)|[Find the Kth Smallest Sum of a Matrix With Sorted Rows.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheKthSmallestSumOfMatrixWithSortedRows.java)|false|
 |1463|Hard|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|[Cherry Pickup II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CherryPickupII.java)|false|
 |1579|Hard|[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|[Remove Max Number of Edges to Keep Graph Fully Traversable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable.java)|false|
 |1649|Hard|[Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)|[Create Sorted Array through Instructions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CreateSortedArrayThroughInstructions.java)|false|
