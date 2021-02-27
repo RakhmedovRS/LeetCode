@@ -1,13 +1,16 @@
+import common.Difficulty;
 import common.LeetCode;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * @author RakhmedovRS
  * @created 11-Apr-20
  */
-@LeetCode(id = 29, name = "Divide Two Integers", url = "https://leetcode.com/problems/divide-two-integers/")
+@LeetCode(
+	id = 29,
+	name = "Divide Two Integers",
+	url = "https://leetcode.com/problems/divide-two-integers/",
+	difficulty = Difficulty.MEDIUM
+)
 public class DivideTwoIntegers
 {
 	public int divide(int dividend, int divisor)
@@ -17,9 +20,7 @@ public class DivideTwoIntegers
 			return Integer.MAX_VALUE;
 		}
 
-		Map<Long, Long> cache = new HashMap<>();
-
-		return (int)divideL(dividend, divisor);
+		return (int) divideL(dividend, divisor);
 	}
 
 	public long divideL(long dividend, long divisor)
@@ -27,13 +28,13 @@ public class DivideTwoIntegers
 		boolean negative = false;
 		if (dividend < 0)
 		{
-			dividend *= -1;
+			dividend = -dividend;
 			negative = true;
 		}
 
 		if (divisor < 0)
 		{
-			divisor *= -1;
+			divisor = -divisor;
 			negative = !negative;
 		}
 
@@ -45,10 +46,10 @@ public class DivideTwoIntegers
 		int count = 1;
 		long div = divisor;
 
-		while (div + div <= dividend)
+		while (div << 1 <= dividend)
 		{
-			count += count;
-			div += div;
+			count <<= 1;
+			div <<= 1;
 		}
 
 		long res = count + divideL(dividend - div, divisor);
