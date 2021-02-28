@@ -1,81 +1,97 @@
+import common.Difficulty;
 import common.LeetCode;
 
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.PriorityQueue;
+import java.util.*;
 
 /**
  * @author RakhmedovRS
  * @created 10/6/2020
  */
-@LeetCode(id = 895, name = "Maximum Frequency Stack", url = "https://leetcode.com/problems/maximum-frequency-stack/")
+@LeetCode(
+	id = 895,
+	name = "Maximum Frequency Stack",
+	url = "https://leetcode.com/problems/maximum-frequency-stack/",
+	difficulty = Difficulty.HARD
+)
 public class MaximumFrequencyStack
 {
-	class Entry
-	{
-		int count;
-		LinkedList<Integer> freqList = new LinkedList<>();
-	}
-
 	class FreqStack
 	{
-		Map<Integer, Entry> map;
-		PriorityQueue<Integer> maxHeap;
 		int counter;
+		TreeSet<Integer> treeSet;
+		Map<Integer, List<Integer>> map;
 
 		public FreqStack()
 		{
-			counter = 0;
-			map = new HashMap<>();
-			maxHeap = new PriorityQueue<>((a, b) ->
+			treeSet = new TreeSet<>((a, b) ->
 			{
-				if (map.get(a).count == map.get(b).count)
+				List<Integer> listA = map.get(a);
+				List<Integer> listB = map.get(b);
+				if (listA == null && listB == null)
 				{
-					return map.get(b).freqList.getFirst() - map.get(a).freqList.getFirst();
+					return 0;
+				}
+				else if (listA == null)
+				{
+					return 1;
+				}
+				else if (listB == null)
+				{
+					return -1;
 				}
 
-				return map.get(b).count - map.get(a).count;
+				if (listA.size() == listB.size())
+				{
+					if (!listA.isEmpty())
+					{
+						return listB.get(listB.size() - 1) - listA.get(listA.size() - 1);
+					}
+					return 0;
+				}
+
+				return listB.size() - listA.size();
 			});
+
+			map = new HashMap<>();
 		}
 
 		public void push(int x)
 		{
-			Entry entry;
-			if (map.containsKey(x))
-			{
-				maxHeap.remove(x);
-				entry = map.get(x);
-				entry.count++;
-				entry.freqList.addFirst(counter);
-				maxHeap.add(x);
-			}
-			else
-			{
-				entry = new Entry();
-				entry.count = 1;
-				entry.freqList.addFirst(counter);
-				map.put(x, entry);
-				maxHeap.add(x);
-			}
-
-			counter++;
+			treeSet.remove(x);
+			List<Integer> list = map.getOrDefault(x, new ArrayList<>());
+			list.add(counter++);
+			map.put(x, list);
+			treeSet.add(x);
 		}
 
 		public int pop()
 		{
-			int val = maxHeap.remove();
-			Entry entry = map.remove(val);
-			entry.count--;
-			entry.freqList.removeFirst();
-
-			if (!entry.freqList.isEmpty())
-			{
-				map.put(val, entry);
-				maxHeap.add(val);
-			}
-
-			return val;
+			int first = treeSet.first();
+			treeSet.remove(first);
+			List<Integer> list = map.remove(first);
+			list.remove(list.size() - 1);
+			map.put(first, list);
+			treeSet.add(first);
+			return first;
 		}
+	}
+
+	public static void main(String[] args)
+	{
+		MaximumFrequencyStack clazz = new MaximumFrequencyStack();
+		FreqStack freqStack = clazz.new FreqStack();
+		freqStack.push(5);
+		freqStack.push(7);
+		freqStack.push(5);
+		freqStack.push(7);
+		freqStack.push(4);
+		freqStack.push(5);
+
+		System.out.println(freqStack.pop());
+		System.out.println(freqStack.pop());
+		System.out.println(freqStack.pop());
+		System.out.println(freqStack.pop());
+		System.out.println(freqStack.pop());
+		System.out.println(freqStack.pop());
 	}
 }
