@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1243
+Count of solved tasks: 1244
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1074,6 +1074,7 @@ Count of solved tasks: 1243
 |1768|Easy|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[Merge Strings Alternately.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeStringsAlternately.java)|false|
 |1769|Medium|[Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)|[Minimum Number of Operations to Move All Balls to Each Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfOperationsToMoveAllBallsToEachBox.java)|false|
 |1770|Medium|[Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/)|[Maximum Score from Performing Multiplication Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumScoreFromPerformingMultiplicationOperations.java)|false|
+|1773|Medium|[Closest Dessert Cost](https://leetcode.com/problems/closest-dessert-cost/)|[Closest Dessert Cost.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestDessertCost.java)|false|
 |1773|Easy|[Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)|[Count Items Matching a Rule.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountItemsMatchingRule.java)|false|</p>
 </details>
 
@@ -1305,7 +1306,8 @@ Count of solved tasks: 1243
 |1764|Medium|[Form Array by Concatenating Subarrays of Another Array](https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array/)|[Form Array by Concatenating Subarrays of Another Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FormArrayByConcatenatingSubarraysOfAnotherArray.java)|false|
 |1765|Medium|[Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/)|[Map of Highest Peak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MapOfHighestPeak.java)|false|
 |1769|Medium|[Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)|[Minimum Number of Operations to Move All Balls to Each Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfOperationsToMoveAllBallsToEachBox.java)|false|
-|1770|Medium|[Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/)|[Maximum Score from Performing Multiplication Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumScoreFromPerformingMultiplicationOperations.java)|false|</p>
+|1770|Medium|[Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/)|[Maximum Score from Performing Multiplication Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumScoreFromPerformingMultiplicationOperations.java)|false|
+|1773|Medium|[Closest Dessert Cost](https://leetcode.com/problems/closest-dessert-cost/)|[Closest Dessert Cost.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestDessertCost.java)|false|</p>
 </details>
 
 <details>
