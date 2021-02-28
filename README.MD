@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1242
+Count of solved tasks: 1243
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1073,7 +1073,8 @@ Count of solved tasks: 1242
 |1765|Medium|[Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/)|[Map of Highest Peak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MapOfHighestPeak.java)|false|
 |1768|Easy|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[Merge Strings Alternately.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeStringsAlternately.java)|false|
 |1769|Medium|[Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)|[Minimum Number of Operations to Move All Balls to Each Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfOperationsToMoveAllBallsToEachBox.java)|false|
-|1770|Medium|[Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/)|[Maximum Score from Performing Multiplication Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumScoreFromPerformingMultiplicationOperations.java)|false|</p>
+|1770|Medium|[Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/)|[Maximum Score from Performing Multiplication Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumScoreFromPerformingMultiplicationOperations.java)|false|
+|1773|Easy|[Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)|[Count Items Matching a Rule.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountItemsMatchingRule.java)|false|</p>
 </details>
 
 <details>
@@ -1138,7 +1139,8 @@ Count of solved tasks: 1242
 |1752|Easy|[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)|[Check if Array Is Sorted and Rotated.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfArrayIsSortedAndRotated.java)|false|
 |1758|Easy|[Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/)|[Minimum Changes To Make Alternating Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumChangesToMakeAlternatingBinaryString.java)|false|
 |1763|Easy|[Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/)|[Longest Nice Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestNiceSubstring.java)|false|
-|1768|Easy|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[Merge Strings Alternately.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeStringsAlternately.java)|false|</p>
+|1768|Easy|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[Merge Strings Alternately.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeStringsAlternately.java)|false|
+|1773|Easy|[Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)|[Count Items Matching a Rule.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountItemsMatchingRule.java)|false|</p>
 </details>
 
 <details>
