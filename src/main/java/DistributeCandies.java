@@ -17,14 +17,14 @@ import java.util.Set;
 )
 public class DistributeCandies
 {
-	public int distributeCandies(int[] candyType)
+	public int distributeCandies(int[] candyTypes)
 	{
-		Set<Integer> set = new HashSet<>();
-		for (int candy : candyType)
+		Set<Integer> set = new HashSet<>(candyTypes.length * 3);
+		for (int candyType : candyTypes)
 		{
-			set.add(candy);
+			set.add(candyType);
 		}
 
-		return Math.min(set.size(), candyType.length / 2);
+		return Math.min(candyTypes.length / 2, set.size());
 	}
 }
