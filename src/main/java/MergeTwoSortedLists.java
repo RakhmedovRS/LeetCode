@@ -23,29 +23,29 @@ public class MergeTwoSortedLists
 			if (l1.val <= l2.val)
 			{
 				current.next = l1;
-				current = current.next;
 				l1 = l1.next;
 			}
 			else
 			{
 				current.next = l2;
-				current = current.next;
 				l2 = l2.next;
 			}
+
+			current = current.next;
 		}
 
 		while (l1 != null)
 		{
 			current.next = l1;
-			current = current.next;
 			l1 = l1.next;
+			current = current.next;
 		}
 
 		while (l2 != null)
 		{
 			current.next = l2;
-			current = current.next;
 			l2 = l2.next;
+			current = current.next;
 		}
 
 		return dummy.next;
