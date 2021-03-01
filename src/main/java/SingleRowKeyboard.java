@@ -1,9 +1,6 @@
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @author RakhmedovRS
  * @created 12/2/2020
