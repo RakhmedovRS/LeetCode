@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1245
+Count of solved tasks: 1246
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1374,6 +1374,7 @@ Count of solved tasks: 1245
 |244|Medium|[Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/)|[Shortest Word Distance II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestWordDistanceII.java)|true|
 |245|Medium|[Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/)|[Shortest Word Distance III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestWordDistanceIII.java)|true|
 |246|Easy|[Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/)|[Strobogrammatic Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StrobogrammaticNumber.java)|true|
+|247|Medium|[Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii/)|[Strobogrammatic Number II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StrobogrammaticNumberII.java)|true|
 |249|Medium|[Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/)|[Group Shifted Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GroupShiftedStrings.java)|true|
 |250|Medium|[Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/)|[Count Univalue Subtrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountUnivalueSubtrees.java)|true|
 |251|Medium|[Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/)|[Flatten 2D Vector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Flatten2DVector.java)|true|
