@@ -19,22 +19,20 @@ public class SingleRowKeyboard
 {
 	public int calculateTime(String keyboard, String word)
 	{
-		Map<Character, Integer> map = new HashMap<>();
-		for (int i = 0; i < keyboard.length(); i++)
+		int[] keyBoardPositions = new int[26];
+		for (int i = 0; i < 26; i++)
 		{
-			map.put(keyboard.charAt(i), i);
+			keyBoardPositions[keyboard.charAt(i) - 'a'] = i;
 		}
 
-		int prevPos = 0;
-		int currPos;
-		int sum = 0;
+		int pos = 0;
+		int cost = 0;
 		for (char ch : word.toCharArray())
 		{
-			currPos = map.get(ch);
-			sum += Math.abs(prevPos - currPos);
-			prevPos = currPos;
+			cost += Math.abs(pos - keyBoardPositions[ch - 'a']);
+			pos = keyBoardPositions[ch - 'a'];
 		}
 
-		return sum;
+		return cost;
 	}
 }
