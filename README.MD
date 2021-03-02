@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1246
+Count of solved tasks: 1247
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -744,6 +744,7 @@ Count of solved tasks: 1246
 |1169|Undefined|[Invalid Transactions](https://leetcode.com/problems/invalid-transactions/)|[Invalid Transactions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InvalidTransactions.java)|false|
 |1170|Undefined|[Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/)|[Compare Strings by Frequency of the Smallest Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CompareStringsByFrequencyOfTheSmallestCharacter.java)|false|
 |1171|Undefined|[Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)|[Remove Zero Sum Consecutive Nodes from Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveZeroSumConsecutiveNodesFromLinkedList.java)|false|
+|1172|Hard|[Dinner Plate Stacks](https://leetcode.com/problems/dinner-plate-stacks/)|[Dinner Plate Stacks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DinnerPlateStacks.java)|false|
 |1175|Undefined|[Prime Arrangements](https://leetcode.com/problems/prime-arrangements/)|[Prime Arrangements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrimeArrangements.java)|false|
 |1177|Undefined|[Can Make Palindrome from Substring](https://leetcode.com/problems/can-make-palindrome-from-substring/)|[Can Make Palindrome from Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanMakePalindromeFromSubstring.java)|false|
 |1178|Undefined|[Number of Valid Words for Each Puzzle](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)|[Number of Valid Words for Each Puzzle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfValidWordsForEachPuzzle.java)|false|
@@ -1341,6 +1342,7 @@ Count of solved tasks: 1246
 |987|Hard|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|[Vertical Order Traversal of a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/VerticalOrderTraversalOfBinaryTree.java)|false|
 |992|Hard|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)|[Subarrays with K Different Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubarraysWithKDifferentIntegers.java)|false|
 |995|Hard|[Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)|[Minimum Number of K Consecutive Bit Flips.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java)|false|
+|1172|Hard|[Dinner Plate Stacks](https://leetcode.com/problems/dinner-plate-stacks/)|[Dinner Plate Stacks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DinnerPlateStacks.java)|false|
 |1220|Hard|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[Count Vowels Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountVowelsPermutation.java)|false|
 |1235|Hard|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[Maximum Profit in Job Scheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProfitInJobScheduling.java)|false|
 |1284|Hard|[Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)|[Minimum Number of Flips to Convert Binary Matrix to Zero Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfFlipsToConvertBinaryMatrixToZeroMatrix.java)|false|
