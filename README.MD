@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1247
+Count of solved tasks: 1248
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1409,6 +1409,7 @@ Count of solved tasks: 1247
 |340|Hard|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|[Longest Substring with At Most K Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithAtMostKDistinctCharacters.java)|true|
 |346|Easy|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[Moving Average from Data Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MovingAverageFromDataStream.java)|true|
 |348|Medium|[Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/)|[Design Tic-Tac-Toe.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignTicTacToe.java)|true|
+|351|Medium|[Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/)|[Android Unlock Patterns.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AndroidUnlockPatterns.java)|true|
 |353|Medium|[Design Snake Game](https://leetcode.com/problems/design-snake-game/)|[Design Snake Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignSnakeGame.java)|true|
 |359|Easy|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)|[Logger Rate Limiter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LoggerRateLimiter.java)|true|
 |360|Medium|[Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array/)|[Sort Transformed Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortTransformedArray.java)|true|
