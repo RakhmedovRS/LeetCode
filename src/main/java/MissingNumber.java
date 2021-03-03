@@ -1,31 +1,39 @@
+import common.Difficulty;
 import common.LeetCode;
-
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * @author RakhmedovRS
  * @created 30-Mar-20
  */
-@LeetCode(id = 268, name = "Missing Number", url = "https://leetcode.com/problems/missing-number/")
+@LeetCode(
+	id = 268,
+	name = "Missing Number",
+	url = "https://leetcode.com/problems/missing-number/",
+	difficulty = Difficulty.EASY
+)
 public class MissingNumber
 {
 	public int missingNumber(int[] nums)
 	{
-		Set<Integer> memo = new HashSet<>();
-		for (int value: nums)
+		int temp;
+		for (int i = 0; i < nums.length; i++)
 		{
-			memo.add(value);
+			while (nums[i] != i && nums[i] < nums.length && nums[nums[i]] != nums[i])
+			{
+				temp = nums[nums[i]];
+				nums[nums[i]] = nums[i];
+				nums[i] = temp;
+			}
 		}
 
-		for (int i = 1; i <= nums.length; i++)
+		for (int i = 0; i < nums.length; i++)
 		{
-			if (!memo.contains(i))
+			if (nums[i] != i)
 			{
 				return i;
 			}
 		}
 
-		return 0;
+		return nums.length;
 	}
 }

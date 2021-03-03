@@ -207,7 +207,7 @@ Count of solved tasks: 1248
 |260|Undefined|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[Single Number III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleNumberIII.java)|false|
 |263|Undefined|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Ugly Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UglyNumber.java)|false|
 |264|Undefined|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Ugly Number II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UglyNumberII.java)|false|
-|268|Undefined|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumber.java)|false|
+|268|Easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumber.java)|false|
 |274|Undefined|[H-Index](https://leetcode.com/problems/h-index/)|[H-Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HIndex.java)|false|
 |275|Undefined|[H-Index II](https://leetcode.com/problems/h-index-ii/)|[H-Index II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HIndexII.java)|false|
 |278|Undefined|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[First Bad Version.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstBadVersion.java)|false|
@@ -1101,6 +1101,7 @@ Count of solved tasks: 1248
 |215|Easy|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Kth Largest Element in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthLargestElementInAnArray.java)|false|
 |234|Easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeLinkedList.java)|false|
 |242|Easy|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Valid Anagram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidAnagram.java)|false|
+|268|Easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumber.java)|false|
 |594|Easy|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Longest Harmonious Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestHarmoniousSubsequence.java)|false|
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[Range Addition II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)|false|
 |605|Easy|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Can Place Flowers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanPlaceFlowers.java)|false|
