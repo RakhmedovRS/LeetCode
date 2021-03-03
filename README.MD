@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1248
+Count of solved tasks: 1249
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -435,6 +435,7 @@ Count of solved tasks: 1248
 |661|Undefined|[Image Smoother](https://leetcode.com/problems/image-smoother/)|[Image Smoother.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImageSmoother.java)|false|
 |662|Undefined|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[Maximum Width of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumWidthOfBinaryTree.java)|false|
 |665|Undefined|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Non-decreasing Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NonDecreasingArray.java)|false|
+|667|Medium|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|[Beautiful Arrangement II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BeautifulArrangementII.java)|false|
 |669|Medium|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Trim a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TrimBinarySearchTree.java)|false|
 |670|Undefined|[Maximum Swap](https://leetcode.com/problems/maximum-swap/)|[Maximum Swap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumSwap.java)|false|
 |671|Undefined|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[Second Minimum Node In a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SecondMinimumNodeInBinaryTree.java)|false|
@@ -1202,6 +1203,7 @@ Count of solved tasks: 1248
 |539|Medium|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|[Minimum Time Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeDifference.java)|false|
 |554|Medium|[Brick Wall](https://leetcode.com/problems/brick-wall/)|[Brick Wall.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BrickWall.java)|false|
 |581|Medium|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Shortest Unsorted Continuous Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestUnsortedContinuousSubarray.java)|false|
+|667|Medium|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|[Beautiful Arrangement II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BeautifulArrangementII.java)|false|
 |669|Medium|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Trim a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TrimBinarySearchTree.java)|false|
 |677|Medium|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)|[Map Sum Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MapSumPairs.java)|false|
 |718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Maximum Length of Repeated Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfRepeatedSubarray.java)|false|
