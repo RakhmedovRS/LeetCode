@@ -1,3 +1,4 @@
+import common.Difficulty;
 import common.LeetCode;
 import common.ListNode;
 
@@ -5,7 +6,12 @@ import common.ListNode;
  * @author RakhmedovRS
  * @created 07-Apr-20
  */
-@LeetCode(id = 160, name = "Intersection of Two Linked Lists", url = "https://leetcode.com/problems/intersection-of-two-linked-lists/")
+@LeetCode(
+	id = 160,
+	name = "Intersection of Two Linked Lists",
+	url = "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+	difficulty = Difficulty.EASY
+)
 public class IntersectionOfTwoLinkedLists
 {
 	public ListNode getIntersectionNode(ListNode headA, ListNode headB)
@@ -15,29 +21,47 @@ public class IntersectionOfTwoLinkedLists
 			return null;
 		}
 
-		ListNode first = headA;
-		ListNode second = headB;
-		boolean headASwiched = false;
-		boolean headBSwiched = false;
-		while (headA != null && headB != null)
+		ListNode currentA = headA;
+		ListNode currentB = headB;
+		boolean currentAJumped = false;
+		boolean currentBJumped = false;
+		while (true)
 		{
-			if (headA == headB)
+			if (currentA == currentB)
 			{
-				return headA;
+				return currentA;
 			}
-			headA = headA.next;
-			headB = headB.next;
-			if (headA == null && !headASwiched)
+
+			if (currentA.next == null)
 			{
-				headA = second;
-				headASwiched = true;
+				if (currentAJumped)
+				{
+					break;
+				}
+				currentA = headB;
+				currentAJumped = true;
 			}
-			if (headB == null && !headBSwiched)
+			else
 			{
-				headB = first;
-				headBSwiched = true;
+				currentA = currentA.next;
+			}
+
+			if (currentB.next == null)
+			{
+				if (currentBJumped)
+				{
+					break;
+				}
+
+				currentBJumped = true;
+				currentB = headA;
+			}
+			else
+			{
+				currentB = currentB.next;
 			}
 		}
+
 		return null;
 	}
 }
