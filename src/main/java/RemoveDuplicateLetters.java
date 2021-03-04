@@ -1,48 +1,54 @@
+import common.Difficulty;
 import common.LeetCode;
-
-import java.util.Deque;
-import java.util.LinkedList;
 
 /**
  * @author RakhmedovRS
  * @created 17-Jul-20
  */
-@LeetCode(id = 316, name = "Remove Duplicate Letters", url = "https://leetcode.com/problems/remove-duplicate-letters/")
+@LeetCode(
+	id = 316,
+	name = "Remove Duplicate Letters",
+	url = "https://leetcode.com/problems/remove-duplicate-letters/",
+	difficulty = Difficulty.MEDIUM
+)
 public class RemoveDuplicateLetters
 {
 	public String removeDuplicateLetters(String s)
 	{
-		int[] memo = new int[26];
+		int[] table = new int[26];
 		char[] chars = s.toCharArray();
 		for (char ch : chars)
 		{
-			memo[ch - 'a']++;
+			table[ch - 'a']++;
 		}
 
-		LinkedList<Character> deque = new LinkedList<>();
-		boolean[] used = new boolean[26];
+		StringBuilder sb = new StringBuilder();
+		boolean found;
 		for (char ch : chars)
 		{
-			memo[ch - 'a']--;
-			if (used[ch - 'a'])
+			if (table[ch - 'a'] == 0)
 			{
 				continue;
 			}
 
-			while (!deque.isEmpty() && ch < deque.peek() && memo[deque.getFirst() - 'a'] > 0)
+			if (table[ch - 'a'] == 1)
 			{
-				used[deque.removeFirst() - 'a'] = false;
+				for (int i = 0; i < ch - 'a'; i++)
+				{
+					if (table[i] != 0)
+					{
+						sb.append((char) (i + 'a'));
+						table[i] = 0;
+					}
+				}
+
+				sb.append(ch);
+				table[ch - 'a'] = 0;
+				continue;
 			}
-
-			deque.addFirst(ch);
-			used[ch - 'a'] = true;
+			table[ch - 'a']--;
 		}
 
-		StringBuilder sb = new StringBuilder(26);
-		for (Character ch : deque)
-		{
-			sb.append(ch);
-		}
-		return sb.reverse().toString();
+		return sb.toString();
 	}
 }
