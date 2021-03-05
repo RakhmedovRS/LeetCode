@@ -1,53 +1,50 @@
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * @author RakhmedovRS
  * @created 19-Mar-20
  */
-@LeetCode(id = 637, name = "Average of Levels in Binary Tree", url = "https://leetcode.com/problems/average-of-levels-in-binary-tree/")
+@LeetCode(
+	id = 637,
+	name = "Average of Levels in Binary Tree",
+	url = "https://leetcode.com/problems/average-of-levels-in-binary-tree/",
+	difficulty = Difficulty.EASY
+)
 public class AverageOfLevelsInBinaryTree
 {
 	public List<Double> averageOfLevels(TreeNode root)
 	{
-		if (root == null)
+		List<Double> answer = new ArrayList<>();
+		Map<Integer, long[]> map = new HashMap<>();
+		dfs(0, root, map);
+
+		long[] current;
+		for (int i = 0; i < map.size(); i++)
 		{
-			return new ArrayList<>();
+			current = map.get(i);
+			answer.add((current[0] * 1d) / current[1]);
+		}
+		return answer;
+	}
+
+	private void dfs(int level, TreeNode node, Map<Integer, long[]> map)
+	{
+		if (node == null)
+		{
+			return;
 		}
 
-		Queue<TreeNode> queue = new LinkedList<>();
-		queue.add(root);
-		List<Double> values = new LinkedList<>();
-		int size;
-		TreeNode temp;
-		double sum;
-		while (!queue.isEmpty())
-		{
-			size = queue.size();
-			sum = 0D;
-			for (int i = 0; i < size; i++)
-			{
-				temp = queue.poll();
-				sum += temp.val;
+		long[] arr = map.getOrDefault(level, new long[2]);
+		arr[0] += node.val;
+		arr[1]++;
 
-				if (temp.left != null)
-				{
-					queue.offer(temp.left);
-				}
+		map.put(level, arr);
 
-				if (temp.right != null)
-				{
-					queue.offer(temp.right);
-				}
-			}
-			values.add(sum / size);
-		}
-
-		return values;
+		dfs(level + 1, node.left, map);
+		dfs(level + 1, node.right, map);
 	}
 }
