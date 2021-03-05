@@ -353,7 +353,7 @@ Count of solved tasks: 1250
 |493|Undefined|[Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)|[Reverse Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReversePairs.java)|false|
 |494|Undefined|[Target Sum](https://leetcode.com/problems/target-sum/)|[Target Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TargetSum.java)|false|
 |495|Undefined|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|[Teemo Attacking.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TeemoAttacking.java)|false|
-|496|Undefined|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Next Greater Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementI.java)|false|
+|496|Easy|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Next Greater Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementI.java)|false|
 |497|Undefined|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/)|[Random Point in Non-overlapping Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RandomPointInNonOverlappingRectangles.java)|false|
 |498|Medium|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Diagonal Traverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverse.java)|false|
 |500|Undefined|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[Keyboard Row.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KeyboardRow.java)|false|
@@ -1104,6 +1104,7 @@ Count of solved tasks: 1250
 |234|Easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeLinkedList.java)|false|
 |242|Easy|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Valid Anagram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidAnagram.java)|false|
 |268|Easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumber.java)|false|
+|496|Easy|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Next Greater Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementI.java)|false|
 |594|Easy|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Longest Harmonious Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestHarmoniousSubsequence.java)|false|
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[Range Addition II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)|false|
 |605|Easy|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Can Place Flowers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanPlaceFlowers.java)|false|
