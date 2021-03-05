@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1249
+Count of solved tasks: 1250
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1391,6 +1391,7 @@ Count of solved tasks: 1249
 |252|Easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Meeting Rooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeetingRooms.java)|true|
 |253|Medium|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|[Meeting Rooms II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MeetingRoomsII.java)|true|
 |254|Medium|[Factor Combinations](https://leetcode.com/problems/factor-combinations/)|[Factor Combinations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FactorCombinations.java)|true|
+|259|Medium|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller/)|[3Sum Smaller.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThreeSumSmaller.java)|true|
 |261|Medium|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)|[Graph Valid Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GraphValidTree.java)|true|
 |266|Easy|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|[Palindrome Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromePermutation.java)|true|
 |267|Medium|[Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/)|[Palindrome Permutation II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromePermutationII.java)|true|
