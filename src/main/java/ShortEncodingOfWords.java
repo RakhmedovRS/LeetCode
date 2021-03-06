@@ -2,6 +2,7 @@ import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 /**
  * @author RakhmedovRS
@@ -23,54 +24,34 @@ public class ShortEncodingOfWords
 
 	public int minimumLengthEncoding(String[] words)
 	{
-		Trie[] roots = new Trie[8];
-		for (int i = 0; i < 8; i++)
+		Arrays.sort(words, Comparator.comparingInt(String::length));
+		Trie root = new Trie();
+		int len = 0;
+		for (int i = words.length - 1; i >= 0; i--)
 		{
-			roots[i] = new Trie();
+			len += addToTrie(root, words[i]) ? words[i].length() + 1 : 0;
 		}
 
-		Arrays.sort(words, (a, b) ->
-		{
-			if (a.length() == b.length())
-			{
-				return b.compareTo(a);
-			}
-			return b.length() - a.length();
-		});
-
-		int length = 0;
-		for (String word : words)
-		{
-			if (!contains(roots[word.length()], word, 0))
-			{
-				length += word.length() + 1;
-			}
-
-			for (int i = 1; i < word.length(); i++)
-			{
-				contains(roots[word.length() - i], word, i);
-			}
-		}
-
-		return length;
+		return len;
 	}
 
-	public boolean contains(Trie root, String word, int pos)
+	private boolean addToTrie(Trie root, String word)
 	{
-		boolean foundMismatch = false;
-		char ch;
-		while (pos < word.length())
+		boolean added = false;
+		Trie current = root;
+		int pos;
+		for (int i = word.length() - 1; i >= 0; i--)
 		{
-			ch = word.charAt(pos++);
-			if (root.children[ch - 'a'] == null)
+			pos = word.charAt(i) - 'a';
+			if (current.children[pos] == null)
 			{
-				root.children[ch - 'a'] = new Trie();
-				foundMismatch = true;
+				added = true;
+				current.children[pos] = new Trie();
 			}
-			root = root.children[ch - 'a'];
-		}
 
-		return !foundMismatch;
+			current = current.children[pos];
+		}
+		return added;
 	}
 
 	public static void main(String[] args)
