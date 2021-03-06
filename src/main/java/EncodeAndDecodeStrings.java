@@ -10,7 +10,7 @@ import java.util.List;
  * @created 1/8/2021
  */
 @LeetCode(
-	id = 217,
+	id = 271,
 	name = "Encode and Decode Strings",
 	url = "https://leetcode.com/problems/encode-and-decode-strings/",
 	difficulty = Difficulty.MEDIUM,

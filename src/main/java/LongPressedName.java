@@ -8,7 +8,7 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 05-Jun-20
  */
-@LeetCode(id = 926, name = "Long Pressed Name", url = "https://leetcode.com/problems/long-pressed-name/")
+@LeetCode(id = 925, name = "Long Pressed Name", url = "https://leetcode.com/problems/long-pressed-name/")
 public class LongPressedName
 {
 	public boolean isLongPressedName(String name, String typed)

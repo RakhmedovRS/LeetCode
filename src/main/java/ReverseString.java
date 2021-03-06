@@ -4,7 +4,7 @@ import common.LeetCode;
  * @author RakhmedovRS
  * @created 12-Mar-20
  */
-@LeetCode(id = 334, name = "Reverse String", url = "https://leetcode.com/problems/reverse-string/")
+@LeetCode(id = 344, name = "Reverse String", url = "https://leetcode.com/problems/reverse-string/")
 public class ReverseString
 {
 	public void reverseString(char[] s)

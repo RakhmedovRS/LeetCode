@@ -5,7 +5,7 @@ import common.Node;
  * @author RakhmedovRS
  * @created 10-Jul-20
  */
-@LeetCode(id = 480, name = "Flatten a Multilevel Doubly Linked List", url = "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/")
+@LeetCode(id = 430, name = "Flatten a Multilevel Doubly Linked List", url = "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/")
 public class FlattenMultilevelDoublyLinkedList
 {
 	public Node flatten(Node head)

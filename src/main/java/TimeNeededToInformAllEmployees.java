@@ -6,7 +6,7 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 21-Sep-20
  */
-@LeetCode(id = 1367, name = "Time Needed to Inform All Employees", url = "https://leetcode.com/problems/time-needed-to-inform-all-employees/")
+@LeetCode(id = 1376, name = "Time Needed to Inform All Employees", url = "https://leetcode.com/problems/time-needed-to-inform-all-employees/")
 public class TimeNeededToInformAllEmployees
 {
 	public int numOfMinutes(int n, int headID, int[] manager, int[] informTime)

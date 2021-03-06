@@ -4,7 +4,7 @@ import common.LeetCode;
  * @author RakhmedovRS
  * @created 08-Sep-20
  */
-@LeetCode(id = 1422, name = "Count Triplets That Can Form Two Arrays of Equal XOR", url = "https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/")
+@LeetCode(id = 1442, name = "Count Triplets That Can Form Two Arrays of Equal XOR", url = "https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/")
 public class CountTripletsThatCanFormTwoArraysOfEqualXOR
 {
 	public int countTriplets(int[] A)

@@ -4,7 +4,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 import java.util.function.IntConsumer;
 
-@LeetCode(id = 116, name = "Print Zero Even Odd", url = "https://leetcode.com/problems/print-zero-even-odd/")
+@LeetCode(id = 1116, name = "Print Zero Even Odd", url = "https://leetcode.com/problems/print-zero-even-odd/")
 public class PrintZeroEvenOdd
 {
     class ZeroEvenOdd

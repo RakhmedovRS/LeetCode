@@ -7,7 +7,7 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 10-May-20
  */
-@LeetCode(id = 915, name = "Word Subsets", url = "https://leetcode.com/problems/word-subsets/")
+@LeetCode(id = 916, name = "Word Subsets", url = "https://leetcode.com/problems/word-subsets/")
 public class WordSubsets
 {
 	public List<String> wordSubsets(String[] A, String[] B)

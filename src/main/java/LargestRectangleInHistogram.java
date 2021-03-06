@@ -9,7 +9,7 @@ import java.util.LinkedList;
  * @created 26-Feb-20
  */
 @LeetCode(
-	id = 82,
+	id = 84,
 	name = "Largest Rectangle in Histogram",
 	url = "https://leetcode.com/problems/largest-rectangle-in-histogram/",
 	difficulty = Difficulty.HARD
