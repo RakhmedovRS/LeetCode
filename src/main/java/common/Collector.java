@@ -5,10 +5,7 @@ import java.io.OutputStreamWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.AbstractMap;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -26,6 +23,7 @@ public class Collector
 
 	public static void main(String[] args) throws Exception
 	{
+		Set<Integer> seenIds = new HashSet<>();
 		try (Stream<Path> pathStream = Files.list(Paths.get("").toAbsolutePath().resolve("src").resolve("main").resolve("java")))
 		{
 			List<Map.Entry<LeetCode, String>> annotations =
@@ -43,6 +41,12 @@ public class Collector
 					.filter(clazz -> clazz != null && clazz.isAnnotationPresent(LeetCode.class))
 					.map(clazz -> new AbstractMap.SimpleEntry<>(clazz.getAnnotation(LeetCode.class), clazz.getName()))
 					.sorted(Comparator.comparingInt(entry -> entry.getKey().id()))
+					.peek(entry -> {
+						if (!seenIds.add(entry.getKey().id()))
+						{
+							System.out.println("Found duplicated ID - " + entry.getKey().id());
+						}
+					})
 					.collect(Collectors.toList());
 
 			Path output = Paths.get("").resolve("README.MD");
