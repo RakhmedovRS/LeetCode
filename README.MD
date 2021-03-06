@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1250
+Count of solved tasks: 1251
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1078,7 +1078,8 @@ Count of solved tasks: 1250
 |1770|Medium|[Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/)|[Maximum Score from Performing Multiplication Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumScoreFromPerformingMultiplicationOperations.java)|false|
 |1773|Medium|[Closest Dessert Cost](https://leetcode.com/problems/closest-dessert-cost/)|[Closest Dessert Cost.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClosestDessertCost.java)|false|
 |1773|Easy|[Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)|[Count Items Matching a Rule.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountItemsMatchingRule.java)|false|
-|1775|Medium|[Equal Sum Arrays With Minimum Number of Operations](https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/)|[Equal Sum Arrays With Minimum Number of Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EqualSumArraysWithMinimumNumberOfOperations.java)|false|</p>
+|1775|Medium|[Equal Sum Arrays With Minimum Number of Operations](https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/)|[Equal Sum Arrays With Minimum Number of Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EqualSumArraysWithMinimumNumberOfOperations.java)|false|
+|1779|Easy|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|[Find Nearest Point That Has the Same X or Y Coordinate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNearestPointThatHasTheSameXorYCoordinate.java)|false|</p>
 </details>
 
 <details>
@@ -1150,7 +1151,8 @@ Count of solved tasks: 1250
 |1758|Easy|[Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/)|[Minimum Changes To Make Alternating Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumChangesToMakeAlternatingBinaryString.java)|false|
 |1763|Easy|[Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/)|[Longest Nice Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestNiceSubstring.java)|false|
 |1768|Easy|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[Merge Strings Alternately.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeStringsAlternately.java)|false|
-|1773|Easy|[Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)|[Count Items Matching a Rule.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountItemsMatchingRule.java)|false|</p>
+|1773|Easy|[Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)|[Count Items Matching a Rule.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountItemsMatchingRule.java)|false|
+|1779|Easy|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|[Find Nearest Point That Has the Same X or Y Coordinate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNearestPointThatHasTheSameXorYCoordinate.java)|false|</p>
 </details>
 
 <details>
