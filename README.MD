@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1251
+Count of solved tasks: 1252
 <details>
 <summary>Table of all solved tasks</summary>
 <p>
@@ -1079,7 +1079,8 @@ Count of solved tasks: 1251
 |1775|Medium|[Equal Sum Arrays With Minimum Number of Operations](https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/)|[Equal Sum Arrays With Minimum Number of Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EqualSumArraysWithMinimumNumberOfOperations.java)|false|
 |1779|Easy|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|[Find Nearest Point That Has the Same X or Y Coordinate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNearestPointThatHasTheSameXorYCoordinate.java)|false|
 |1780|Medium|[Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)|[Check if Number is a Sum of Powers of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfNumberIsSumOfPowersOfThree.java)|false|
-|1781|Medium|[Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/)|[Sum of Beauty of All Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfBeautyOfAllSubstrings.java)|false|</p>
+|1781|Medium|[Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/)|[Sum of Beauty of All Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfBeautyOfAllSubstrings.java)|false|
+|1784|Easy|[Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)|[Check if Binary String Has at Most One Segment of Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfBinaryStringHasAtMostOneSegmentOfOnes.java)|false|</p>
 </details>
 
 <details>
@@ -1153,7 +1154,8 @@ Count of solved tasks: 1251
 |1763|Easy|[Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/)|[Longest Nice Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestNiceSubstring.java)|false|
 |1768|Easy|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[Merge Strings Alternately.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeStringsAlternately.java)|false|
 |1773|Easy|[Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)|[Count Items Matching a Rule.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountItemsMatchingRule.java)|false|
-|1779|Easy|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|[Find Nearest Point That Has the Same X or Y Coordinate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNearestPointThatHasTheSameXorYCoordinate.java)|false|</p>
+|1779|Easy|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|[Find Nearest Point That Has the Same X or Y Coordinate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNearestPointThatHasTheSameXorYCoordinate.java)|false|
+|1784|Easy|[Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)|[Check if Binary String Has at Most One Segment of Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfBinaryStringHasAtMostOneSegmentOfOnes.java)|false|</p>
 </details>
 
 <details>
