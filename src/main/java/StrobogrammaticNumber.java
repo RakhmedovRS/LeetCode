@@ -14,31 +14,63 @@ import common.LeetCode;
 )
 public class StrobogrammaticNumber
 {
-	public boolean isStrobogrammatic(String origin)
+	public boolean isStrobogrammatic(String num)
 	{
-		StringBuilder rotated = new StringBuilder(origin.length());
-		char digit;
-		for (int i = origin.length() - 1; i >= 0; i--)
+		int left = 0;
+		int right = num.length() - 1;
+		char leftChar;
+		char rightChar;
+		boolean[] invalid = new boolean[10];
+		invalid[2] = true;
+		invalid[3] = true;
+		invalid[4] = true;
+		invalid[5] = true;
+		invalid[7] = true;
+
+		while (left <= right)
 		{
-			digit = origin.charAt(i);
-			if (digit == '0' || digit == '1' || digit == '8')
+			if (left == right)
 			{
-				rotated.append(digit);
+				leftChar = num.charAt(left++);
+				if (leftChar == '6' || leftChar == '9' || invalid[leftChar - '0'])
+				{
+					return false;
+				}
+				continue;
 			}
-			else if (digit == '6')
+
+			leftChar = num.charAt(left++);
+			rightChar = num.charAt(right--);
+
+			if (invalid[leftChar - '0'] || invalid[rightChar - '0'])
 			{
-				rotated.append('9');
+				return false;
 			}
-			else if (digit == '9')
+
+			if (leftChar == '6')
 			{
-				rotated.append('6');
+				if (rightChar != '9')
+				{
+					return false;
+				}
+				continue;
 			}
-			else
+
+			if (leftChar == '9')
+			{
+				if (rightChar != '6')
+				{
+					return false;
+				}
+				continue;
+			}
+
+			if (leftChar != rightChar)
 			{
 				return false;
 			}
 		}
 
-		return origin.equals(rotated.toString());
+		return true;
 	}
 }
