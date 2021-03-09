@@ -58,7 +58,7 @@ public class Collector
 
 				//All tasks table
 				osw.write(preprocess("<details>"));
-				osw.write(preprocess("<summary>Table of all solved tasks</summary>"));
+				osw.write(preprocess("<summary>Table of all solved non-premium tasks</summary>"));
 				osw.write(preprocess("<p>"));
 				osw.write(System.lineSeparator());
 				osw.write(preprocess(HEADER));
@@ -76,7 +76,7 @@ public class Collector
 						continue;
 					}
 					osw.write(preprocess("<details>"));
-					osw.write(preprocess(String.format("<summary>Table of %s solved tasks</summary>", difficulty.name)));
+					osw.write(preprocess(String.format("<summary>Table of %s solved non-premium tasks</summary>", difficulty.name)));
 					osw.write(preprocess("<p>"));
 					osw.write(System.lineSeparator());
 					osw.write(preprocess(HEADER));
@@ -89,7 +89,7 @@ public class Collector
 
 				//Premium tasks table
 				osw.write(preprocess("<details>"));
-				osw.write(preprocess("<summary>Table of Premium solved tasks</summary>"));
+				osw.write(preprocess("<summary>Table of Premium solved premium tasks</summary>"));
 				osw.write(preprocess("<p>"));
 				osw.write(System.lineSeparator());
 				osw.write(preprocess(HEADER));

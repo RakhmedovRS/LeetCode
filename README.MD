@@ -2,7 +2,7 @@
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
 Count of solved tasks: 1253
 <details>
-<summary>Table of all solved tasks</summary>
+<summary>Table of all solved non-premium tasks</summary>
 <p>
 
 | LeetCode ID | Difficulty  | Name           | Solution       | Premium  |
@@ -1085,7 +1085,7 @@ Count of solved tasks: 1253
 </details>
 
 <details>
-<summary>Table of Easy solved tasks</summary>
+<summary>Table of Easy solved non-premium tasks</summary>
 <p>
 
 | LeetCode ID | Difficulty  | Name           | Solution       | Premium  |
@@ -1161,7 +1161,7 @@ Count of solved tasks: 1253
 </details>
 
 <details>
-<summary>Table of Medium solved tasks</summary>
+<summary>Table of Medium solved non-premium tasks</summary>
 <p>
 
 | LeetCode ID | Difficulty  | Name           | Solution       | Premium  |
@@ -1335,7 +1335,7 @@ Count of solved tasks: 1253
 </details>
 
 <details>
-<summary>Table of Hard solved tasks</summary>
+<summary>Table of Hard solved non-premium tasks</summary>
 <p>
 
 | LeetCode ID | Difficulty  | Name           | Solution       | Premium  |
@@ -1380,7 +1380,7 @@ Count of solved tasks: 1253
 </details>
 
 <details>
-<summary>Table of Premium solved tasks</summary>
+<summary>Table of Premium solved premium tasks</summary>
 <p>
 
 | LeetCode ID | Difficulty  | Name           | Solution       | Premium  |
