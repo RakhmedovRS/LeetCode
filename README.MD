@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1254
+Count of solved tasks: 1255
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -902,6 +902,7 @@ Count of solved tasks: 1254
 |1461|Undefined|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|[Check If a String Contains All Binary Codes of Size K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfStringContainsAllBinaryCodesOfSizeK.java)|false|
 |1463|Hard|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|[Cherry Pickup II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CherryPickupII.java)|false|
 |1464|Undefined|[Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)|[Maximum Product of Two Elements in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfTwoElementsInAnArray.java)|false|
+|1465|Medium|[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAreaOfPieceOfCakeAfterHorizontalAndVerticalCuts.java)|false|
 |1466|Medium|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)|[Reorder Routes to Make All Paths Lead to the City Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReorderRoutesToMakeAllPathsLeadToTheCityZero.java)|false|
 |1470|Undefined|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|[Shuffle the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShuffleTheArray.java)|false|
 |1471|Medium|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|[The k Strongest Values in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKStrongestValuesInArray.java)|false|
@@ -1280,6 +1281,7 @@ Count of solved tasks: 1254
 |1433|Medium|[Check If a String Can Break Another String](https://leetcode.com/problems/check-if-a-string-can-break-another-string/)|[Check If a String Can Break Another String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfStringCanBreakAnotherString.java)|false|
 |1443|Medium|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|[Minimum Time to Collect All Apples in a Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeToCollectAllApplesInTree.java)|false|
 |1457|Medium|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|[Pseudo-Palindromic Paths in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PseudoPalindromicPathsInBinaryTree.java)|false|
+|1465|Medium|[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAreaOfPieceOfCakeAfterHorizontalAndVerticalCuts.java)|false|
 |1466|Medium|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)|[Reorder Routes to Make All Paths Lead to the City Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReorderRoutesToMakeAllPathsLeadToTheCityZero.java)|false|
 |1471|Medium|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|[The k Strongest Values in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKStrongestValuesInArray.java)|false|
 |1492|Medium|[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[The kth Factor of n.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKthFactorOfN.java)|false|
