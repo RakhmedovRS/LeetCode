@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1253
+Count of solved tasks: 1254
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -417,6 +417,7 @@ Count of solved tasks: 1253
 |622|Undefined|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|[Design Circular Queue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignCircularQueue.java)|false|
 |623|Medium|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[Add One Row to Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddOneRowToTree.java)|false|
 |628|Undefined|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Maximum Product of Three Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfThreeNumbers.java)|false|
+|636|Medium|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|[Exclusive Time of Functions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExclusiveTimeOfFunctions.java)|false|
 |637|Easy|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Average of Levels in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AverageOfLevelsInBinaryTree.java)|false|
 |638|Undefined|[Shopping Offers](https://leetcode.com/problems/shopping-offers/)|[Shopping Offers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShoppingOffers.java)|false|
 |639|Hard|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|[Decode Ways II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeWaysII.java)|false|
@@ -1217,6 +1218,7 @@ Count of solved tasks: 1253
 |554|Medium|[Brick Wall](https://leetcode.com/problems/brick-wall/)|[Brick Wall.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BrickWall.java)|false|
 |581|Medium|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Shortest Unsorted Continuous Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestUnsortedContinuousSubarray.java)|false|
 |623|Medium|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[Add One Row to Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddOneRowToTree.java)|false|
+|636|Medium|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|[Exclusive Time of Functions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExclusiveTimeOfFunctions.java)|false|
 |667|Medium|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|[Beautiful Arrangement II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BeautifulArrangementII.java)|false|
 |669|Medium|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Trim a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TrimBinarySearchTree.java)|false|
 |677|Medium|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)|[Map Sum Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MapSumPairs.java)|false|
