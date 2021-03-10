@@ -17,7 +17,7 @@ Count of solved tasks: 1253
 |9|Easy|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Palindrome Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeNumber.java)|false|
 |10|Undefined|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|[Regular Expression Matching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RegularExpressionMatching.java)|false|
 |11|Medium|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Container With Most Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainerWithMostWater.java)|false|
-|12|Undefined|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Integer to Roman.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerToRoman.java)|false|
+|12|Medium|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Integer to Roman.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerToRoman.java)|false|
 |13|Easy|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Roman to Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RomanToInteger.java)|false|
 |14|Undefined|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Longest Common Prefix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestCommonPrefix.java)|false|
 |15|Undefined|[3Sum](https://leetcode.com/problems/3sum/)|[3Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThreeSum.java)|false|
@@ -1170,6 +1170,7 @@ Count of solved tasks: 1253
 |3|Medium|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest Substring Without Repeating Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithoutRepeatingCharacters.java)|false|
 |5|Medium|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest Palindromic Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestPalindromicSubstring.java)|false|
 |11|Medium|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Container With Most Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainerWithMostWater.java)|false|
+|12|Medium|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Integer to Roman.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerToRoman.java)|false|
 |24|Medium|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Swap Nodes in Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SwapNodesInPairs.java)|false|
 |29|Medium|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[Divide Two Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DivideTwoIntegers.java)|false|
 |31|Medium|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[Next Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextPermutation.java)|false|
