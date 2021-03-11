@@ -1,14 +1,18 @@
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * @author RakhmedovRS
  * @created 07-Apr-20
  */
-@LeetCode(id = 322, name = "Coin Change", url = "https://leetcode.com/problems/coin-change/")
+@LeetCode(
+	id = 322,
+	name = "Coin Change",
+	url = "https://leetcode.com/problems/coin-change/",
+	difficulty = Difficulty.MEDIUM
+)
 public class CoinChange
 {
 	public int coinChange(int[] coins, int amount)
@@ -16,13 +20,14 @@ public class CoinChange
 		int[] memo = new int[amount + 1];
 		Arrays.fill(memo, Integer.MAX_VALUE);
 		memo[0] = 0;
-		for (int i = 1; i <= amount; i++)
+
+		for (long i = 0; i < memo.length; i++)
 		{
 			for (int coin : coins)
 			{
-				if (i - coin >= 0 && memo[i - coin] != Integer.MAX_VALUE)
+				if (memo[(int) i] != Integer.MAX_VALUE && i + coin < memo.length && memo[(int) i] + 1 < memo[(int) i + coin])
 				{
-					memo[i] = Math.min(memo[i], 1 + memo[i - coin]);
+					memo[(int) i + coin] = memo[(int) i] + 1;
 				}
 			}
 		}

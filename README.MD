@@ -234,7 +234,7 @@ Count of solved tasks: 1253
 |316|Medium|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[Remove Duplicate Letters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveDuplicateLetters.java)|false|
 |318|Undefined|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[Maximum Product of Word Lengths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfWordLengths.java)|false|
 |319|Undefined|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/)|[Bulb Switcher.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BulbSwitcher.java)|false|
-|322|Undefined|[Coin Change](https://leetcode.com/problems/coin-change/)|[Coin Change.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CoinChange.java)|false|
+|322|Medium|[Coin Change](https://leetcode.com/problems/coin-change/)|[Coin Change.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CoinChange.java)|false|
 |326|Undefined|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Power of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PowerOfThree.java)|false|
 |327|Hard|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)|[Count of Range Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountOfRangeSum.java)|false|
 |328|Undefined|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[Odd Even Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OddEvenLinkedList.java)|false|
@@ -1195,6 +1195,7 @@ Count of solved tasks: 1253
 |307|Medium|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[Range Sum Query - Mutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQueryMutable.java)|false|
 |312|Medium|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[Burst Balloons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BurstBalloons.java)|false|
 |316|Medium|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[Remove Duplicate Letters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveDuplicateLetters.java)|false|
+|322|Medium|[Coin Change](https://leetcode.com/problems/coin-change/)|[Coin Change.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CoinChange.java)|false|
 |334|Medium|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[Increasing Triplet Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingTripletSubsequence.java)|false|
 |337|Medium|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[House Robber III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HouseRobberIII.java)|false|
 |382|Medium|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|[Linked List Random Node.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListRandomNode.java)|false|
