@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1255
+Count of solved tasks: 1256
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -869,6 +869,7 @@ Count of solved tasks: 1255
 |1405|Undefined|[Longest Happy String](https://leetcode.com/problems/longest-happy-string/)|[Longest Happy String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestHappyString.java)|false|
 |1408|Undefined|[String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)|[String Matching in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StringMatchingInArray.java)|false|
 |1409|Medium|[Queries on a Permutation With Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/)|[Queries on a Permutation With Key.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueriesOnPermutationWithKey.java)|false|
+|1410|Medium|[HTML Entity Parser](https://leetcode.com/problems/html-entity-parser/)|[HTML Entity Parser.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HtmlEntityParser.java)|false|
 |1413|Undefined|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|[Minimum Value to Get Positive Step by Step Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumValueoToGetPositiveStepByStepSum.java)|false|
 |1414|Undefined|[Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)|[Find the Minimum Number of Fibonacci Numbers Whose Sum Is K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheMinimumNumberOfFibonacciNumbersWhoseSumIsK.java)|false|
 |1415|Medium|[The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)|[The k-th Lexicographical String of All Happy Strings of Length n.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKthLexicographicalStringOfAllHappyStringsOfLengthN.java)|false|
@@ -1278,6 +1279,7 @@ Count of solved tasks: 1255
 |1371|Medium|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|[Find the Longest Substring Containing Vowels in Even Counts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindtheLongestSubstringContainingVowelsInEvenCounts.java)|false|
 |1379|Medium|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCorrespondingNodeOfBinaryTreeInCloneOfThatTree.java)|false|
 |1409|Medium|[Queries on a Permutation With Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/)|[Queries on a Permutation With Key.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueriesOnPermutationWithKey.java)|false|
+|1410|Medium|[HTML Entity Parser](https://leetcode.com/problems/html-entity-parser/)|[HTML Entity Parser.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HtmlEntityParser.java)|false|
 |1415|Medium|[The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)|[The k-th Lexicographical String of All Happy Strings of Length n.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKthLexicographicalStringOfAllHappyStringsOfLengthN.java)|false|
 |1433|Medium|[Check If a String Can Break Another String](https://leetcode.com/problems/check-if-a-string-can-break-another-string/)|[Check If a String Can Break Another String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfStringCanBreakAnotherString.java)|false|
 |1443|Medium|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|[Minimum Time to Collect All Apples in a Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeToCollectAllApplesInTree.java)|false|
