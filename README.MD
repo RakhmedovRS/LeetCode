@@ -204,7 +204,7 @@ Count of solved tasks: 1256
 |258|Undefined|[Add Digits](https://leetcode.com/problems/add-digits/)|[Add Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddDigits.java)|false|
 |260|Undefined|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[Single Number III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleNumberIII.java)|false|
 |263|Undefined|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Ugly Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UglyNumber.java)|false|
-|264|Undefined|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Ugly Number II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UglyNumberII.java)|false|
+|264|Medium|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Ugly Number II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UglyNumberII.java)|false|
 |268|Easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumber.java)|false|
 |274|Undefined|[H-Index](https://leetcode.com/problems/h-index/)|[H-Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HIndex.java)|false|
 |275|Undefined|[H-Index II](https://leetcode.com/problems/h-index-ii/)|[H-Index II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HIndexII.java)|false|
@@ -1193,6 +1193,7 @@ Count of solved tasks: 1256
 |223|Medium|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[Rectangle Area.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RectangleArea.java)|false|
 |227|Medium|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Basic Calculator II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BasicCalculatorII.java)|false|
 |240|Medium|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Search a 2D Matrix II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Search2DMatrixII.java)|false|
+|264|Medium|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Ugly Number II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/UglyNumberII.java)|false|
 |284|Medium|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Peeking Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PeekingIterator.java)|false|
 |289|Medium|[Game of Life](https://leetcode.com/problems/game-of-life/)|[Game of Life.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GameOfLife.java)|false|
 |304|Medium|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Range Sum Query 2D - Immutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeSumQuery2DImmutable.java)|false|
