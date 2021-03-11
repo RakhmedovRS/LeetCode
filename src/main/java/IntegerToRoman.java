@@ -1,53 +1,112 @@
+import common.Difficulty;
 import common.LeetCode;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
 
 /**
  * @author RakhmedovRS
  * @created 24-Feb-20
  */
-@LeetCode(id = 12, name = "Integer to Roman", url = "https://leetcode.com/problems/integer-to-roman/")
+@LeetCode(
+		id = 12,
+		name = "Integer to Roman",
+		url = "https://leetcode.com/problems/integer-to-roman/",
+		difficulty = Difficulty.MEDIUM
+)
 public class IntegerToRoman
 {
-	static List<Map.Entry<Integer, String>> dictionary = new ArrayList<>();
-
-	static
-	{
-		dictionary.add(new java.util.AbstractMap.SimpleEntry<>(1000, "M"));
-		dictionary.add(new java.util.AbstractMap.SimpleEntry<>(900, "CM"));
-		dictionary.add(new java.util.AbstractMap.SimpleEntry<>(500, "D"));
-		dictionary.add(new java.util.AbstractMap.SimpleEntry<>(400, "CD"));
-		dictionary.add(new java.util.AbstractMap.SimpleEntry<>(100, "C"));
-		dictionary.add(new java.util.AbstractMap.SimpleEntry<>(90, "XC"));
-		dictionary.add(new java.util.AbstractMap.SimpleEntry<>(50, "L"));
-		dictionary.add(new java.util.AbstractMap.SimpleEntry<>(40, "XL"));
-		dictionary.add(new java.util.AbstractMap.SimpleEntry<>(10, "X"));
-		dictionary.add(new java.util.AbstractMap.SimpleEntry<>(9, "IX"));
-		dictionary.add(new java.util.AbstractMap.SimpleEntry<>(5, "V"));
-		dictionary.add(new java.util.AbstractMap.SimpleEntry<>(4, "IV"));
-		dictionary.add(new java.util.AbstractMap.SimpleEntry<>(1, "I"));
-	}
-
 	public String intToRoman(int num)
 	{
-		StringBuilder result = new StringBuilder();
-		for (Map.Entry<Integer, String> entry : dictionary)
+		StringBuilder sb = new StringBuilder();
+		while (num != 0)
 		{
-			if (num == 0)
+			if (num >= 1000)
 			{
-				break;
-			}
+				int c = num / 1000;
 
-			while (num > 0 && num >= entry.getKey())
+				for (int i = 0; i < c; i++)
+				{
+					sb.append("M");
+				}
+
+				num %= 1000;
+			}
+			else if (num / 900 > 0)
 			{
-				result.append(entry.getValue());
-				num -= entry.getKey();
+				sb.append("CM");
+				num %= 900;
+			}
+			else if (num >= 500)
+			{
+				sb.append("D");
+				num %= 500;
+			}
+			else if (num / 400 > 0)
+			{
+				sb.append("CD");
+				num %= 400;
+			}
+			else if (num >= 100)
+			{
+				int c = num / 100;
+
+				for (int i = 0; i < c; i++)
+				{
+					sb.append("C");
+				}
+
+				num %= 100;
+			}
+			else if (num / 90 > 0)
+			{
+				sb.append("XC");
+				num %= 90;
+			}
+			else if (num >= 50)
+			{
+				sb.append("L");
+				num %= 50;
+			}
+			else if (num / 40 > 0)
+			{
+				sb.append("XL");
+				num %= 40;
+			}
+			else if (num >= 10)
+			{
+				int c = num / 10;
+
+				for (int i = 0; i < c; i++)
+				{
+					sb.append("X");
+				}
+
+				num %= 10;
+			}
+			else if (num / 9 > 0)
+			{
+				sb.append("IX");
+				num %= 9;
+			}
+			else if (num >= 5)
+			{
+				sb.append("V");
+				num %= 5;
+			}
+			else if (num / 4 > 0)
+			{
+				sb.append("IV");
+				num %= 4;
+			}
+			else
+			{
+				while (num > 0)
+				{
+					sb.append("I");
+					num--;
+				}
 			}
 		}
 
-		return result.toString();
+		return sb.toString();
 	}
 
 	public static void main(String[] args)

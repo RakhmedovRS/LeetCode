@@ -1,8 +1,8 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1253
+Count of solved tasks: 1255
 <details>
-<summary>Table of all solved tasks</summary>
+<summary>Table of all solved non-premium tasks</summary>
 <p>
 
 | LeetCode ID | Difficulty  | Name           | Solution       | Premium  |
@@ -17,7 +17,7 @@ Count of solved tasks: 1253
 |9|Easy|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Palindrome Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromeNumber.java)|false|
 |10|Undefined|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|[Regular Expression Matching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RegularExpressionMatching.java)|false|
 |11|Medium|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Container With Most Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainerWithMostWater.java)|false|
-|12|Undefined|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Integer to Roman.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerToRoman.java)|false|
+|12|Medium|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Integer to Roman.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerToRoman.java)|false|
 |13|Easy|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Roman to Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RomanToInteger.java)|false|
 |14|Undefined|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Longest Common Prefix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestCommonPrefix.java)|false|
 |15|Undefined|[3Sum](https://leetcode.com/problems/3sum/)|[3Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThreeSum.java)|false|
@@ -415,8 +415,9 @@ Count of solved tasks: 1253
 |617|Undefined|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Merge Two Binary Trees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeTwoBinaryTrees.java)|false|
 |621|Undefined|[Task Scheduler](https://leetcode.com/problems/task-scheduler/)|[Task Scheduler.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TaskScheduler.java)|false|
 |622|Undefined|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|[Design Circular Queue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignCircularQueue.java)|false|
-|623|Undefined|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[Add One Row to Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddOneRowToTree.java)|false|
+|623|Medium|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[Add One Row to Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddOneRowToTree.java)|false|
 |628|Undefined|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Maximum Product of Three Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfThreeNumbers.java)|false|
+|636|Medium|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|[Exclusive Time of Functions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExclusiveTimeOfFunctions.java)|false|
 |637|Easy|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Average of Levels in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AverageOfLevelsInBinaryTree.java)|false|
 |638|Undefined|[Shopping Offers](https://leetcode.com/problems/shopping-offers/)|[Shopping Offers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShoppingOffers.java)|false|
 |639|Hard|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|[Decode Ways II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeWaysII.java)|false|
@@ -901,6 +902,7 @@ Count of solved tasks: 1253
 |1461|Undefined|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|[Check If a String Contains All Binary Codes of Size K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfStringContainsAllBinaryCodesOfSizeK.java)|false|
 |1463|Hard|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|[Cherry Pickup II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CherryPickupII.java)|false|
 |1464|Undefined|[Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)|[Maximum Product of Two Elements in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProductOfTwoElementsInAnArray.java)|false|
+|1465|Medium|[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAreaOfPieceOfCakeAfterHorizontalAndVerticalCuts.java)|false|
 |1466|Medium|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)|[Reorder Routes to Make All Paths Lead to the City Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReorderRoutesToMakeAllPathsLeadToTheCityZero.java)|false|
 |1470|Undefined|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|[Shuffle the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShuffleTheArray.java)|false|
 |1471|Medium|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|[The k Strongest Values in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKStrongestValuesInArray.java)|false|
@@ -1085,7 +1087,7 @@ Count of solved tasks: 1253
 </details>
 
 <details>
-<summary>Table of Easy solved tasks</summary>
+<summary>Table of Easy solved non-premium tasks</summary>
 <p>
 
 | LeetCode ID | Difficulty  | Name           | Solution       | Premium  |
@@ -1161,7 +1163,7 @@ Count of solved tasks: 1253
 </details>
 
 <details>
-<summary>Table of Medium solved tasks</summary>
+<summary>Table of Medium solved non-premium tasks</summary>
 <p>
 
 | LeetCode ID | Difficulty  | Name           | Solution       | Premium  |
@@ -1170,6 +1172,7 @@ Count of solved tasks: 1253
 |3|Medium|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest Substring Without Repeating Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestSubstringWithoutRepeatingCharacters.java)|false|
 |5|Medium|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest Palindromic Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestPalindromicSubstring.java)|false|
 |11|Medium|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Container With Most Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainerWithMostWater.java)|false|
+|12|Medium|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Integer to Roman.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerToRoman.java)|false|
 |24|Medium|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Swap Nodes in Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SwapNodesInPairs.java)|false|
 |29|Medium|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[Divide Two Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DivideTwoIntegers.java)|false|
 |31|Medium|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[Next Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextPermutation.java)|false|
@@ -1216,6 +1219,8 @@ Count of solved tasks: 1253
 |539|Medium|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|[Minimum Time Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeDifference.java)|false|
 |554|Medium|[Brick Wall](https://leetcode.com/problems/brick-wall/)|[Brick Wall.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BrickWall.java)|false|
 |581|Medium|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Shortest Unsorted Continuous Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestUnsortedContinuousSubarray.java)|false|
+|623|Medium|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[Add One Row to Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddOneRowToTree.java)|false|
+|636|Medium|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|[Exclusive Time of Functions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExclusiveTimeOfFunctions.java)|false|
 |667|Medium|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|[Beautiful Arrangement II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BeautifulArrangementII.java)|false|
 |669|Medium|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Trim a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TrimBinarySearchTree.java)|false|
 |677|Medium|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)|[Map Sum Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MapSumPairs.java)|false|
@@ -1277,6 +1282,7 @@ Count of solved tasks: 1253
 |1433|Medium|[Check If a String Can Break Another String](https://leetcode.com/problems/check-if-a-string-can-break-another-string/)|[Check If a String Can Break Another String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfStringCanBreakAnotherString.java)|false|
 |1443|Medium|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|[Minimum Time to Collect All Apples in a Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeToCollectAllApplesInTree.java)|false|
 |1457|Medium|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|[Pseudo-Palindromic Paths in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PseudoPalindromicPathsInBinaryTree.java)|false|
+|1465|Medium|[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAreaOfPieceOfCakeAfterHorizontalAndVerticalCuts.java)|false|
 |1466|Medium|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)|[Reorder Routes to Make All Paths Lead to the City Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReorderRoutesToMakeAllPathsLeadToTheCityZero.java)|false|
 |1471|Medium|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|[The k Strongest Values in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKStrongestValuesInArray.java)|false|
 |1492|Medium|[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[The kth Factor of n.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheKthFactorOfN.java)|false|
@@ -1335,7 +1341,7 @@ Count of solved tasks: 1253
 </details>
 
 <details>
-<summary>Table of Hard solved tasks</summary>
+<summary>Table of Hard solved non-premium tasks</summary>
 <p>
 
 | LeetCode ID | Difficulty  | Name           | Solution       | Premium  |
@@ -1380,7 +1386,7 @@ Count of solved tasks: 1253
 </details>
 
 <details>
-<summary>Table of Premium solved tasks</summary>
+<summary>Table of Premium solved premium tasks</summary>
 <p>
 
 | LeetCode ID | Difficulty  | Name           | Solution       | Premium  |
