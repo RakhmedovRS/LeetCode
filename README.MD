@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1256
+Count of solved tasks: 1257
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1549,6 +1549,7 @@ Count of solved tasks: 1256
 |1474|Easy|[Delete N Nodes After M Nodes of a Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/)|[Delete N Nodes After M Nodes of a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeleteNNodesAfterMNodesOfLinkedList.java)|true|
 |1485|Medium|[Clone Binary Tree With Random Pointer](https://leetcode.com/problems/clone-binary-tree-with-random-pointer/)|[Clone Binary Tree With Random Pointer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CloneBinaryTreeWithRandomPointer.java)|true|
 |1490|Medium|[Clone N-ary Tree](https://leetcode.com/problems/clone-n-ary-tree/)|[Clone N-ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CloneNAryTree.java)|true|
+|1500|Medium|[Design a File Sharing System](https://leetcode.com/problems/design-a-file-sharing-system/)|[Design a File Sharing System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignFileSharingSystem.java)|true|
 |1506|Medium|[Find Root of N-Ary Tree](https://leetcode.com/problems/find-root-of-n-ary-tree/)|[Find Root of N-Ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindRootOfNAryTree.java)|true|
 |1522|Medium|[Diameter of N-Ary Tree](https://leetcode.com/problems/diameter-of-n-ary-tree/)|[Diameter of N-Ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiameterOfNAryTree.java)|true|
 |1533|Medium|[Find the Index of the Large Integer](https://leetcode.com/problems/find-the-index-of-the-large-integer/)|[Find the Index of the Large Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheIndexOfTheLargeInteger.java)|true|
