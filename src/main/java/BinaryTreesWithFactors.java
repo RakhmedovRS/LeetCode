@@ -1,57 +1,64 @@
+import common.Difficulty;
 import common.LeetCode;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author RakhmedovRS
  * @created 31-Aug-20
  */
-@LeetCode(id = 823, name = "Binary Trees With Factors", url = "https://leetcode.com/problems/binary-trees-with-factors/")
+@LeetCode(
+	id = 823,
+	name = "Binary Trees With Factors",
+	url = "https://leetcode.com/problems/binary-trees-with-factors/",
+	difficulty = Difficulty.MEDIUM
+)
 public class BinaryTreesWithFactors
 {
-	public int numFactoredBinaryTrees(int[] A)
+	private static final int MOD = 1_000_000_007;
+
+	public int numFactoredBinaryTrees(int[] arr)
 	{
-		Arrays.sort(A);
-		Map<Integer, Integer> numbers = new HashMap<>();
-		Map<Integer, Long> memo = new HashMap<>();
-		for (int i = 0; i < A.length; i++)
+		TreeSet<Integer> set = new TreeSet<>(Comparator.reverseOrder());
+		for (int num : arr)
 		{
-			numbers.put(A[i], i);
+			set.add(num);
 		}
 
-		for (int i = 0; i < A.length; i++)
+		Map<Integer, Integer> memo = new HashMap<>();
+		int result = 0;
+		for (int num : set)
 		{
-			dfs(A, i, memo, numbers);
+			result = (result + dfs(num, set, memo)) % MOD;
 		}
 
-		long result = 0;
-		for (Long count : memo.values())
-		{
-			result = (result + count) % (long)(1e9 + 7);
-		}
-
-		return (int) result;
+		return result;
 	}
 
-	private long dfs(int[] A, int pos, Map<Integer, Long> memo, Map<Integer, Integer> numbers)
+	private int dfs(int num, Set<Integer> set, Map<Integer, Integer> memo)
 	{
-		if (memo.containsKey(A[pos]))
+		long count = 1;
+
+		if (memo.containsKey(num))
 		{
-			return memo.get(A[pos]);
+			return memo.get(num);
 		}
 
-		long count = 1;
-		for (int i = pos; i >= 0; i--)
+		long a;
+		long b;
+		for (int d : set)
 		{
-			if (A[pos] % A[i] == 0 && numbers.containsKey(A[pos] / A[i]))
+			if (num >= d && num % d == 0 && set.contains(num / d))
 			{
-				count += dfs(A, i, memo, numbers) * dfs(A, numbers.get(A[pos] / A[i]), memo, numbers);
+				a = dfs(d, set, memo);
+				b = dfs(num / d, set, memo);
+
+				count = (count + (a * b) % MOD) % MOD;
 			}
 		}
 
-		memo.put(A[pos], count);
-		return count;
+		memo.put(num, (int) count);
+
+		return (int) count;
 	}
 }
