@@ -2,9 +2,6 @@ import common.Difficulty;
 import common.LeetCode;
 import common.ListNode;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @author RakhmedovRS
  * @created 1/10/2021
@@ -19,31 +16,43 @@ public class SwappingNodesInLinkedList
 {
 	public ListNode swapNodes(ListNode head, int k)
 	{
-		List<ListNode> list = new ArrayList<>();
+		ListNode originalHead = head;
+		ListNode nodeA = head;
+		for (int i = 1; i < k; i++)
+		{
+			head = head.next;
+			nodeA = head;
+		}
+
+		ListNode reversedHead = reverse(originalHead);
+		head = reversedHead;
+		ListNode nodeB = head;
+		for (int i = 1; i < k; i++)
+		{
+			head = head.next;
+			nodeB = head;
+		}
+
+		int temp = nodeA.val;
+		nodeA.val = nodeB.val;
+		nodeB.val = temp;
+
+		return reverse(reversedHead);
+	}
+
+	private ListNode reverse(ListNode head)
+	{
+		ListNode prev = null;
 		ListNode next;
 		while (head != null)
 		{
 			next = head.next;
-			list.add(head);
-			head.next = null;
+			head.next = prev;
+			prev = head;
 			head = next;
 		}
 
-		if (k - 1 != list.size() - k)
-		{
-			ListNode temp1 = list.get(k - 1);
-			ListNode temp2 = list.get(list.size() - k);
-
-			list.set(k - 1, temp2);
-			list.set(list.size() - k, temp1);
-		}
-
-		for (int i = 1; i < list.size(); i++)
-		{
-			list.get(i - 1).next = list.get(i);
-		}
-
-		return list.get(0);
+		return prev;
 	}
 
 	public static void main(String[] args)
