@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1261
+Count of solved tasks: 1262
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -710,6 +710,7 @@ Count of solved tasks: 1261
 |1080|Undefined|[Insufficient Nodes in Root to Leaf Paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/)|[Insufficient Nodes in Root to Leaf Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsufficientNodesInRootToLeafPaths.java)|false|
 |1081|Undefined|[Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)|[Smallest Subsequence of Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestSubsequenceOfDistinctCharacters.java)|false|
 |1089|Undefined|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[Duplicate Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DuplicateZeros.java)|false|
+|1090|Medium|[Largest Values From Labels](https://leetcode.com/problems/largest-values-from-labels/)|[Largest Values From Labels.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestValuesFromLabels.java)|false|
 |1091|Medium|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Shortest Path in Binary Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathInBinaryMatrix.java)|false|
 |1093|Medium|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|[Statistics from a Large Sample.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StatisticsFromLargeSample.java)|false|
 |1094|Undefined|[Car Pooling](https://leetcode.com/problems/car-pooling/)|[Car Pooling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CarPooling.java)|false|
@@ -1264,6 +1265,7 @@ Count of solved tasks: 1261
 |1010|Medium|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[Pairs of Songs With Total Durations Divisible by 60.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PairsOfSongsWithTotalDurationsDivisibleBy60.java)|false|
 |1015|Medium|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[Smallest Integer Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestIntegerDivisibleByK.java)|false|
 |1016|Medium|[Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)|[Binary String With Substrings Representing 1 To N.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryStringWithSubstringsRepresentingOneToN.java)|false|
+|1090|Medium|[Largest Values From Labels](https://leetcode.com/problems/largest-values-from-labels/)|[Largest Values From Labels.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestValuesFromLabels.java)|false|
 |1091|Medium|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Shortest Path in Binary Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathInBinaryMatrix.java)|false|
 |1093|Medium|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|[Statistics from a Large Sample.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StatisticsFromLargeSample.java)|false|
 |1102|Medium|[Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value/)|[Path With Maximum Minimum Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathWithMaximumMinimumValue.java)|false|
