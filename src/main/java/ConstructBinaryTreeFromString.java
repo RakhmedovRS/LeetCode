@@ -19,36 +19,47 @@ public class ConstructBinaryTreeFromString
 {
 	public TreeNode str2tree(String s)
 	{
-		if (s == null || s.isEmpty())
+		return str2tree(s.toCharArray(), 0, s.length() - 1);
+	}
+
+	public TreeNode str2tree(char[] chars, int left, int right)
+	{
+		if (left > right)
 		{
 			return null;
 		}
 
-		int i = s.charAt(0) == '-' ? 1 : 0;
-		while (i < s.length() && Character.isDigit(s.charAt(i)))
+		boolean negative = chars[left] == '-';
+		int i = negative ? left + 1 : left;
+		int num = 0;
+		while (i <= right && Character.isDigit(chars[i]))
 		{
+			num *= 10;
+			num += chars[i] - '0';
 			i++;
 		}
 
-		TreeNode node = new TreeNode(Integer.parseInt(s.substring(0, i)));
+		num = negative ? -num : num;
+
+		TreeNode node = new TreeNode(num);
 		LinkedList<Integer> indices = new LinkedList<>();
-		for (; i < s.length(); i++)
+		for (; i <= right; i++)
 		{
-			if (s.charAt(i) == '(')
+			if (chars[i] == '(')
 			{
 				indices.push(i);
 			}
-			else if (s.charAt(i) == ')')
+			else if (chars[i] == ')')
 			{
 				if (indices.size() == 1)
 				{
 					if (node.left == null)
 					{
-						node.left = str2tree(s.substring(indices.pop() + 1, i));
+						node.left = str2tree(chars, indices.pop() + 1, i - 1);
 					}
 					else
 					{
-						node.right = str2tree(s.substring(indices.pop() + 1, i));
+						node.right = str2tree(chars, indices.pop() + 1, i - 1);
 					}
 				}
 				else
@@ -59,5 +70,11 @@ public class ConstructBinaryTreeFromString
 		}
 
 		return node;
+	}
+
+	public static void main(String[] args)
+	{
+		ConstructBinaryTreeFromString clazz = new ConstructBinaryTreeFromString();
+		System.out.println(clazz.str2tree("4(2(3)(1))(6(5))"));
 	}
 }
