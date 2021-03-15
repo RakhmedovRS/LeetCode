@@ -2,6 +2,8 @@ import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
+import java.util.LinkedList;
+
 /**
  * @author RakhmedovRS
  * @created 12/11/2020
@@ -17,49 +19,41 @@ public class ConstructBinaryTreeFromString
 {
 	public TreeNode str2tree(String s)
 	{
-		if (s.isEmpty())
+		if (s == null || s.isEmpty())
 		{
 			return null;
 		}
 
-		StringBuilder number = new StringBuilder();
-		int left = 0;
-		while (left < s.length() && s.charAt(left) != '(')
+		int i = s.charAt(0) == '-' ? 1 : 0;
+		while (i < s.length() && Character.isDigit(s.charAt(i)))
 		{
-			number.append(s.charAt(left++));
+			i++;
 		}
 
-		TreeNode node = new TreeNode(Integer.parseInt(number.toString()));
-		if (left == s.length())
+		TreeNode node = new TreeNode(Integer.parseInt(s.substring(0, i)));
+		LinkedList<Integer> indices = new LinkedList<>();
+		for (; i < s.length(); i++)
 		{
-			return node;
-		}
-
-		int balance = 1;
-		int right = left + 1;
-		boolean leftCalled = false;
-		for (; right < s.length(); right++)
-		{
-			if (s.charAt(right) == ')')
+			if (s.charAt(i) == '(')
 			{
-				balance--;
+				indices.push(i);
 			}
-			else if (s.charAt(right) == '(')
+			else if (s.charAt(i) == ')')
 			{
-				balance++;
-			}
-
-			if (balance == 0)
-			{
-				if (!leftCalled)
+				if (indices.size() == 1)
 				{
-					node.left = str2tree(s.substring(left + 1, right));
-					leftCalled = true;
-					left = right + 1;
+					if (node.left == null)
+					{
+						node.left = str2tree(s.substring(indices.pop() + 1, i));
+					}
+					else
+					{
+						node.right = str2tree(s.substring(indices.pop() + 1, i));
+					}
 				}
 				else
 				{
-					node.right = str2tree(s.substring(left + 1, right));
+					indices.pop();
 				}
 			}
 		}
