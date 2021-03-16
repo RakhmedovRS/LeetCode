@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1262
+Count of solved tasks: 1263
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1548,6 +1548,7 @@ Count of solved tasks: 1262
 |1242|Medium|[Web Crawler Multithreaded](https://leetcode.com/problems/web-crawler-multithreaded/)|[Web Crawler Multithreaded.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WebCrawlerMultithreaded.java)|true|
 |1243|Easy|[Array Transformation](https://leetcode.com/problems/array-transformation/)|[Array Transformation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ArrayTransformation.java)|true|
 |1244|Medium|[Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/)|[Design A Leaderboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignLeaderboard.java)|true|
+|1245|Medium|[Tree Diameter](https://leetcode.com/problems/tree-diameter/)|[Tree Diameter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TreeDiameter.java)|true|
 |1256|Medium|[Encode Number](https://leetcode.com/problems/encode-number/)|[Encode Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EncodeNumber.java)|true|
 |1257|Medium|[Smallest Common Region](https://leetcode.com/problems/smallest-common-region/)|[Smallest Common Region.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestCommonRegion.java)|true|
 |1258|Medium|[Synonymous Sentences](https://leetcode.com/problems/synonymous-sentences/)|[Synonymous Sentences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SynonymousSentences.java)|true|
