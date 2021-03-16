@@ -2,6 +2,8 @@ import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
+import java.util.LinkedList;
+
 /**
  * @author RakhmedovRS
  * @created 12/11/2020
@@ -17,53 +19,62 @@ public class ConstructBinaryTreeFromString
 {
 	public TreeNode str2tree(String s)
 	{
-		if (s.isEmpty())
+		return str2tree(s.toCharArray(), 0, s.length() - 1);
+	}
+
+	public TreeNode str2tree(char[] chars, int left, int right)
+	{
+		if (left > right)
 		{
 			return null;
 		}
 
-		StringBuilder number = new StringBuilder();
-		int left = 0;
-		while (left < s.length() && s.charAt(left) != '(')
+		boolean negative = chars[left] == '-';
+		int i = negative ? left + 1 : left;
+		int num = 0;
+		while (i <= right && Character.isDigit(chars[i]))
 		{
-			number.append(s.charAt(left++));
+			num *= 10;
+			num += chars[i] - '0';
+			i++;
 		}
 
-		TreeNode node = new TreeNode(Integer.parseInt(number.toString()));
-		if (left == s.length())
-		{
-			return node;
-		}
+		num = negative ? -num : num;
 
-		int balance = 1;
-		int right = left + 1;
-		boolean leftCalled = false;
-		for (; right < s.length(); right++)
+		TreeNode node = new TreeNode(num);
+		LinkedList<Integer> indices = new LinkedList<>();
+		for (; i <= right; i++)
 		{
-			if (s.charAt(right) == ')')
+			if (chars[i] == '(')
 			{
-				balance--;
+				indices.push(i);
 			}
-			else if (s.charAt(right) == '(')
+			else if (chars[i] == ')')
 			{
-				balance++;
-			}
-
-			if (balance == 0)
-			{
-				if (!leftCalled)
+				if (indices.size() == 1)
 				{
-					node.left = str2tree(s.substring(left + 1, right));
-					leftCalled = true;
-					left = right + 1;
+					if (node.left == null)
+					{
+						node.left = str2tree(chars, indices.pop() + 1, i - 1);
+					}
+					else
+					{
+						node.right = str2tree(chars, indices.pop() + 1, i - 1);
+					}
 				}
 				else
 				{
-					node.right = str2tree(s.substring(left + 1, right));
+					indices.pop();
 				}
 			}
 		}
 
 		return node;
+	}
+
+	public static void main(String[] args)
+	{
+		ConstructBinaryTreeFromString clazz = new ConstructBinaryTreeFromString();
+		System.out.println(clazz.str2tree("4(2(3)(1))(6(5))"));
 	}
 }

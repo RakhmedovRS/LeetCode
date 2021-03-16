@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1258
+Count of solved tasks: 1262
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -378,7 +378,7 @@ Count of solved tasks: 1258
 |529|Undefined|[Minesweeper](https://leetcode.com/problems/minesweeper/)|[Minesweeper.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Minesweeper.java)|false|
 |530|Undefined|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Minimum Absolute Difference in BST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumAbsoluteDifferenceInBST.java)|false|
 |532|Undefined|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[K-diff Pairs in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KdiffPairsInArray.java)|false|
-|535|Undefined|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|[Encode and Decode TinyURL.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EncodeAndDecodeTinyURL.java)|false|
+|535|Medium|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|[Encode and Decode TinyURL.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EncodeAndDecodeTinyURL.java)|false|
 |538|Medium|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Convert BST to Greater Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertBSTToGreaterTree.java)|false|
 |539|Medium|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|[Minimum Time Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeDifference.java)|false|
 |540|Undefined|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Single Element in a Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleElementInSortedArray.java)|false|
@@ -529,7 +529,7 @@ Count of solved tasks: 1258
 |820|Medium|[Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)|[Short Encoding of Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortEncodingOfWords.java)|false|
 |821|Easy|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[Shortest Distance to a Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestDistanceToCharacter.java)|false|
 |822|Undefined|[Card Flipping Game](https://leetcode.com/problems/card-flipping-game/)|[Card Flipping Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CardFlippingGame.java)|false|
-|823|Undefined|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[Binary Trees With Factors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreesWithFactors.java)|false|
+|823|Medium|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[Binary Trees With Factors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreesWithFactors.java)|false|
 |824|Undefined|[Goat Latin](https://leetcode.com/problems/goat-latin/)|[Goat Latin.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GoatLatin.java)|false|
 |826|Undefined|[Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/)|[Most Profit Assigning Work.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MostProfitAssigningWork.java)|false|
 |827|Undefined|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/)|[Making A Large Island.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MakingLargeIsland.java)|false|
@@ -710,6 +710,7 @@ Count of solved tasks: 1258
 |1080|Undefined|[Insufficient Nodes in Root to Leaf Paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/)|[Insufficient Nodes in Root to Leaf Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsufficientNodesInRootToLeafPaths.java)|false|
 |1081|Undefined|[Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)|[Smallest Subsequence of Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestSubsequenceOfDistinctCharacters.java)|false|
 |1089|Undefined|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[Duplicate Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DuplicateZeros.java)|false|
+|1090|Medium|[Largest Values From Labels](https://leetcode.com/problems/largest-values-from-labels/)|[Largest Values From Labels.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestValuesFromLabels.java)|false|
 |1091|Medium|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Shortest Path in Binary Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathInBinaryMatrix.java)|false|
 |1093|Medium|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|[Statistics from a Large Sample.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StatisticsFromLargeSample.java)|false|
 |1094|Undefined|[Car Pooling](https://leetcode.com/problems/car-pooling/)|[Car Pooling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CarPooling.java)|false|
@@ -1084,7 +1085,10 @@ Count of solved tasks: 1258
 |1780|Medium|[Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)|[Check if Number is a Sum of Powers of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfNumberIsSumOfPowersOfThree.java)|false|
 |1781|Medium|[Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/)|[Sum of Beauty of All Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfBeautyOfAllSubstrings.java)|false|
 |1784|Easy|[Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)|[Check if Binary String Has at Most One Segment of Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfBinaryStringHasAtMostOneSegmentOfOnes.java)|false|
-|1785|Medium|[Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/)|[Minimum Elements to Add to Form a Given Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumElementsToAddToFormGivenSum.java)|false|</p>
+|1785|Medium|[Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/)|[Minimum Elements to Add to Form a Given Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumElementsToAddToFormGivenSum.java)|false|
+|1790|Easy|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|[Check if One String Swap Can Make Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfOneStringSwapCanMakeStringsEqual.java)|false|
+|1791|Medium|[Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)|[Find Center of Star Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCenterOfStarGraph.java)|false|
+|1792|Medium|[Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/)|[Maximum Average Pass Ratio.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAveragePassRatio.java)|false|</p>
 </details>
 
 <details>
@@ -1160,7 +1164,8 @@ Count of solved tasks: 1258
 |1768|Easy|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[Merge Strings Alternately.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeStringsAlternately.java)|false|
 |1773|Easy|[Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)|[Count Items Matching a Rule.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountItemsMatchingRule.java)|false|
 |1779|Easy|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|[Find Nearest Point That Has the Same X or Y Coordinate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNearestPointThatHasTheSameXorYCoordinate.java)|false|
-|1784|Easy|[Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)|[Check if Binary String Has at Most One Segment of Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfBinaryStringHasAtMostOneSegmentOfOnes.java)|false|</p>
+|1784|Easy|[Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)|[Check if Binary String Has at Most One Segment of Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfBinaryStringHasAtMostOneSegmentOfOnes.java)|false|
+|1790|Easy|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|[Check if One String Swap Can Make Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfOneStringSwapCanMakeStringsEqual.java)|false|</p>
 </details>
 
 <details>
@@ -1217,6 +1222,7 @@ Count of solved tasks: 1258
 |503|Medium|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[Next Greater Element II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementII.java)|false|
 |524|Medium|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/)|[Longest Word in Dictionary through Deleting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestWordInDictionaryThroughDeleting.java)|false|
 |526|Medium|[Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)|[Beautiful Arrangement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BeautifulArrangement.java)|false|
+|535|Medium|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|[Encode and Decode TinyURL.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EncodeAndDecodeTinyURL.java)|false|
 |538|Medium|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Convert BST to Greater Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConvertBSTToGreaterTree.java)|false|
 |539|Medium|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|[Minimum Time Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumTimeDifference.java)|false|
 |554|Medium|[Brick Wall](https://leetcode.com/problems/brick-wall/)|[Brick Wall.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BrickWall.java)|false|
@@ -1238,6 +1244,7 @@ Count of solved tasks: 1258
 |785|Medium|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[Is Graph Bipartite?.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IsGraphBipartite.java)|false|
 |807|Medium|[Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|[Max Increase to Keep City Skyline.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaxIncreaseToKeepCitySkyline.java)|false|
 |820|Medium|[Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)|[Short Encoding of Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortEncodingOfWords.java)|false|
+|823|Medium|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[Binary Trees With Factors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreesWithFactors.java)|false|
 |831|Medium|[Masking Personal Information](https://leetcode.com/problems/masking-personal-information/)|[Masking Personal Information.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaskingPersonalInformation.java)|false|
 |833|Medium|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|[Find And Replace in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAndReplaceInString.java)|false|
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[Longest Mountain in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)|false|
@@ -1259,6 +1266,7 @@ Count of solved tasks: 1258
 |1010|Medium|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[Pairs of Songs With Total Durations Divisible by 60.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PairsOfSongsWithTotalDurationsDivisibleBy60.java)|false|
 |1015|Medium|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[Smallest Integer Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestIntegerDivisibleByK.java)|false|
 |1016|Medium|[Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)|[Binary String With Substrings Representing 1 To N.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryStringWithSubstringsRepresentingOneToN.java)|false|
+|1090|Medium|[Largest Values From Labels](https://leetcode.com/problems/largest-values-from-labels/)|[Largest Values From Labels.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestValuesFromLabels.java)|false|
 |1091|Medium|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Shortest Path in Binary Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathInBinaryMatrix.java)|false|
 |1093|Medium|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|[Statistics from a Large Sample.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/StatisticsFromLargeSample.java)|false|
 |1102|Medium|[Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value/)|[Path With Maximum Minimum Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PathWithMaximumMinimumValue.java)|false|
@@ -1342,7 +1350,9 @@ Count of solved tasks: 1258
 |1775|Medium|[Equal Sum Arrays With Minimum Number of Operations](https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/)|[Equal Sum Arrays With Minimum Number of Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EqualSumArraysWithMinimumNumberOfOperations.java)|false|
 |1780|Medium|[Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)|[Check if Number is a Sum of Powers of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfNumberIsSumOfPowersOfThree.java)|false|
 |1781|Medium|[Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/)|[Sum of Beauty of All Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfBeautyOfAllSubstrings.java)|false|
-|1785|Medium|[Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/)|[Minimum Elements to Add to Form a Given Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumElementsToAddToFormGivenSum.java)|false|</p>
+|1785|Medium|[Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/)|[Minimum Elements to Add to Form a Given Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumElementsToAddToFormGivenSum.java)|false|
+|1791|Medium|[Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)|[Find Center of Star Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCenterOfStarGraph.java)|false|
+|1792|Medium|[Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/)|[Maximum Average Pass Ratio.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAveragePassRatio.java)|false|</p>
 </details>
 
 <details>
