@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1263
+Count of solved tasks: 1265
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -340,6 +340,7 @@ Count of solved tasks: 1263
 |475|Undefined|[Heaters](https://leetcode.com/problems/heaters/)|[Heaters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Heaters.java)|false|
 |476|Undefined|[Number Complement](https://leetcode.com/problems/number-complement/)|[Number Complement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberComplement.java)|false|
 |477|Undefined|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|[Total Hamming Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TotalHammingDistance.java)|false|
+|478|Medium|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|[Generate Random Point in a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GenerateRandomPointInCircle.java)|false|
 |479|Undefined|[Largest Palindrome Product](https://leetcode.com/problems/largest-palindrome-product/)|[Largest Palindrome Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestPalindromeProduct.java)|false|
 |480|Undefined|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)|[Sliding Window Median.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SlidingWindowMedian.java)|false|
 |482|Undefined|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|[License Key Formatting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LicenseKeyFormatting.java)|false|
@@ -1218,6 +1219,7 @@ Count of solved tasks: 1263
 |433|Medium|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[Minimum Genetic Mutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumGeneticMutation.java)|false|
 |454|Medium|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[4Sum II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FourSumII.java)|false|
 |473|Medium|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[Matchsticks to Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MatchsticksToSquare.java)|false|
+|478|Medium|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|[Generate Random Point in a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GenerateRandomPointInCircle.java)|false|
 |498|Medium|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Diagonal Traverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverse.java)|false|
 |503|Medium|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[Next Greater Element II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementII.java)|false|
 |524|Medium|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/)|[Longest Word in Dictionary through Deleting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestWordInDictionaryThroughDeleting.java)|false|
