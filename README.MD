@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1262
+Count of solved tasks: 1263
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1475,6 +1475,7 @@ Count of solved tasks: 1262
 |531|Medium|[Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/)|[Lonely Pixel I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LonelyPixelI.java)|true|
 |536|Medium|[Construct Binary Tree from String](https://leetcode.com/problems/construct-binary-tree-from-string/)|[Construct Binary Tree from String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructBinaryTreeFromString.java)|true|
 |544|Medium|[Output Contest Matches](https://leetcode.com/problems/output-contest-matches/)|[Output Contest Matches.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OutputContestMatches.java)|true|
+|545|Medium|[Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/)|[Boundary of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BoundaryOfBinaryTree.java)|true|
 |549|Medium|[Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)|[Binary Tree Longest Consecutive Sequence II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeLongestConsecutiveSequenceII.java)|true|
 |556|Undefined|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/)|[Next Greater Element III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementIII.java)|true|
 |562|Medium|[Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/)|[Longest Line of Consecutive One in Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestLineOfConsecutiveOneInMatrix.java)|true|
