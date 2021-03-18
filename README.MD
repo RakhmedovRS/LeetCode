@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1264
+Count of solved tasks: 1265
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -340,6 +340,7 @@ Count of solved tasks: 1264
 |475|Undefined|[Heaters](https://leetcode.com/problems/heaters/)|[Heaters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/Heaters.java)|false|
 |476|Undefined|[Number Complement](https://leetcode.com/problems/number-complement/)|[Number Complement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberComplement.java)|false|
 |477|Undefined|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|[Total Hamming Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TotalHammingDistance.java)|false|
+|478|Medium|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|[Generate Random Point in a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GenerateRandomPointInCircle.java)|false|
 |479|Undefined|[Largest Palindrome Product](https://leetcode.com/problems/largest-palindrome-product/)|[Largest Palindrome Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestPalindromeProduct.java)|false|
 |480|Undefined|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)|[Sliding Window Median.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SlidingWindowMedian.java)|false|
 |482|Undefined|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|[License Key Formatting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LicenseKeyFormatting.java)|false|
@@ -1218,6 +1219,7 @@ Count of solved tasks: 1264
 |433|Medium|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[Minimum Genetic Mutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumGeneticMutation.java)|false|
 |454|Medium|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[4Sum II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FourSumII.java)|false|
 |473|Medium|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[Matchsticks to Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MatchsticksToSquare.java)|false|
+|478|Medium|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|[Generate Random Point in a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GenerateRandomPointInCircle.java)|false|
 |498|Medium|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Diagonal Traverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DiagonalTraverse.java)|false|
 |503|Medium|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[Next Greater Element II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementII.java)|false|
 |524|Medium|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/)|[Longest Word in Dictionary through Deleting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestWordInDictionaryThroughDeleting.java)|false|
@@ -1476,6 +1478,7 @@ Count of solved tasks: 1264
 |531|Medium|[Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/)|[Lonely Pixel I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LonelyPixelI.java)|true|
 |536|Medium|[Construct Binary Tree from String](https://leetcode.com/problems/construct-binary-tree-from-string/)|[Construct Binary Tree from String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConstructBinaryTreeFromString.java)|true|
 |544|Medium|[Output Contest Matches](https://leetcode.com/problems/output-contest-matches/)|[Output Contest Matches.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OutputContestMatches.java)|true|
+|545|Medium|[Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/)|[Boundary of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BoundaryOfBinaryTree.java)|true|
 |549|Medium|[Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)|[Binary Tree Longest Consecutive Sequence II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeLongestConsecutiveSequenceII.java)|true|
 |556|Undefined|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/)|[Next Greater Element III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementIII.java)|true|
 |562|Medium|[Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/)|[Longest Line of Consecutive One in Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestLineOfConsecutiveOneInMatrix.java)|true|
@@ -1586,7 +1589,6 @@ Count of solved tasks: 1264
 |1749|Medium|[Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/)|[Maximum Absolute Sum of Any Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAbsoluteSumOfAnySubarray.java)|true|
 |1756|Medium|[Design Most Recently Used Queue](https://leetcode.com/problems/design-most-recently-used-queue/)|[Design Most Recently Used Queue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignMostRecentlyUsedQueue.java)|true|
 |1762|Medium|[Buildings With an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/)|[Buildings With an Ocean View.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BuildingsWithAnOceanView.java)|true|
-|1772|Medium|[Sort Features by Popularity](https://leetcode.com/problems/sort-features-by-popularity/)|[Sort Features by Popularity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortFeaturesByPopularity.java)|true|
-|1794|Medium|[Count Pairs of Equal Substrings With Minimum Difference](https://leetcode.com/problems/count-pairs-of-equal-substrings-with-minimum-difference/)|[Count Pairs of Equal Substrings With Minimum Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountPairsOfEqualSubstringsWithMinimumDifference.java)|true|</p>
+|1772|Medium|[Sort Features by Popularity](https://leetcode.com/problems/sort-features-by-popularity/)|[Sort Features by Popularity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortFeaturesByPopularity.java)|true|</p>
 </details>
 
