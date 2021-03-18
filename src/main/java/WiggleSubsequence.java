@@ -1,35 +1,53 @@
+import common.Difficulty;
 import common.LeetCode;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author RakhmedovRS
  * @created 10-Aug-20
  */
-@LeetCode(id = 376, name = "Wiggle Subsequence", url = "https://leetcode.com/problems/wiggle-subsequence/")
+@LeetCode(
+		id = 376,
+		name = "Wiggle Subsequence",
+		url = "https://leetcode.com/problems/wiggle-subsequence/",
+		difficulty = Difficulty.MEDIUM
+)
 public class WiggleSubsequence
 {
 	public int wiggleMaxLength(int[] nums)
 	{
-		if (nums.length < 2)
+		int maxLen = 1;
+		if (nums.length < 1)
 		{
-			return nums.length;
-		}
-		int[] negative = new int[nums.length];
-		int[] positive = new int[nums.length];
-		for (int right = 1; right < nums.length; right++)
-		{
-			for (int left = 0; left < right; left++)
-			{
-				if (nums[right] > nums[left])
-				{
-					negative[right] = Math.max(negative[right], positive[left] + 1);
-				}
-				else if (nums[left] > nums[right])
-				{
-					positive[right] = Math.max(positive[right], negative[left] + 1);
-				}
-			}
+			return 0;
 		}
 
-		return 1 + Math.max(negative[nums.length - 1], positive[nums.length - 1]);
+		List<int[]> list = new ArrayList<>();
+		list.add(new int[]{1, 1});
+
+		for (int i = 1; i < nums.length; i++)
+		{
+			int[] res = new int[]{1, 1};
+			for (int j = 0; j < i; j++)
+			{
+				if (nums[j] < nums[i])
+				{
+					res[0] = Math.max(res[0], list.get(j)[1] + 1);
+					res[1] = Math.max(res[1], list.get(j)[1]);
+				}
+				else if (nums[j] > nums[i])
+				{
+					res[1] = Math.max(res[1], list.get(j)[0] + 1);
+					res[0] = Math.max(res[0], list.get(j)[0]);
+				}
+			}
+
+			list.add(res);
+			maxLen = Math.max(maxLen, Math.max(res[0], res[1]));
+		}
+
+		return maxLen;
 	}
 }
