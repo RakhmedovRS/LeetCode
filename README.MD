@@ -544,7 +544,7 @@ Count of solved tasks: 1265
 |837|Undefined|[New 21 Game](https://leetcode.com/problems/new-21-game/)|[New 21 Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/New21Game.java)|false|
 |838|Undefined|[Push Dominoes](https://leetcode.com/problems/push-dominoes/)|[Push Dominoes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PushDominoes.java)|false|
 |840|Undefined|[Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/)|[Magic Squares In Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MagicSquaresInGrid.java)|false|
-|841|Undefined|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[Keys and Rooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KeysAndRooms.java)|false|
+|841|Medium|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[Keys and Rooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KeysAndRooms.java)|false|
 |842|Undefined|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|[Split Array into Fibonacci Sequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SplitArrayIntoFibonacciSequence.java)|false|
 |844|Undefined|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Backspace String Compare.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BackspaceStringCompare.java)|false|
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[Longest Mountain in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)|false|
@@ -1249,6 +1249,7 @@ Count of solved tasks: 1265
 |823|Medium|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[Binary Trees With Factors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreesWithFactors.java)|false|
 |831|Medium|[Masking Personal Information](https://leetcode.com/problems/masking-personal-information/)|[Masking Personal Information.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaskingPersonalInformation.java)|false|
 |833|Medium|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|[Find And Replace in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindAndReplaceInString.java)|false|
+|841|Medium|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[Keys and Rooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KeysAndRooms.java)|false|
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[Longest Mountain in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestMountainInArray.java)|false|
 |846|Medium|[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)|[Hand of Straights.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HandOfStraights.java)|false|
 |856|Medium|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|[Score of Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ScoreOfParentheses.java)|false|
