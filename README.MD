@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1265
+Count of solved tasks: 1266
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -262,7 +262,7 @@ Count of solved tasks: 1265
 |373|Undefined|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|[Find K Pairs with Smallest Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindKPairsWithSmallestSums.java)|false|
 |374|Undefined|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Guess Number Higher or Lower.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GuessNumberHigherOrLower.java)|false|
 |375|Undefined|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)|[Guess Number Higher or Lower II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GuessNumberHigherOrLowerII.java)|false|
-|376|Undefined|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[Wiggle Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WiggleSubsequence.java)|false|
+|376|Medium|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[Wiggle Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WiggleSubsequence.java)|false|
 |377|Undefined|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|[Combination Sum IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CombinationSumIV.java)|false|
 |378|Undefined|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[Kth Smallest Element in a Sorted Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KthSmallestElementInSortedMatrix.java)|false|
 |380|Undefined|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Insert Delete GetRandom O(1).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsertDeleteGetRandom.java)|false|
@@ -1209,6 +1209,7 @@ Count of solved tasks: 1265
 |322|Medium|[Coin Change](https://leetcode.com/problems/coin-change/)|[Coin Change.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CoinChange.java)|false|
 |334|Medium|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[Increasing Triplet Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingTripletSubsequence.java)|false|
 |337|Medium|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[House Robber III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HouseRobberIII.java)|false|
+|376|Medium|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[Wiggle Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WiggleSubsequence.java)|false|
 |382|Medium|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|[Linked List Random Node.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListRandomNode.java)|false|
 |386|Medium|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)|[Lexicographical Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LexicographicalNumbers.java)|false|
 |394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[Decode String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeString.java)|false|
@@ -1590,6 +1591,7 @@ Count of solved tasks: 1265
 |1749|Medium|[Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/)|[Maximum Absolute Sum of Any Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAbsoluteSumOfAnySubarray.java)|true|
 |1756|Medium|[Design Most Recently Used Queue](https://leetcode.com/problems/design-most-recently-used-queue/)|[Design Most Recently Used Queue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignMostRecentlyUsedQueue.java)|true|
 |1762|Medium|[Buildings With an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/)|[Buildings With an Ocean View.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BuildingsWithAnOceanView.java)|true|
-|1772|Medium|[Sort Features by Popularity](https://leetcode.com/problems/sort-features-by-popularity/)|[Sort Features by Popularity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortFeaturesByPopularity.java)|true|</p>
+|1772|Medium|[Sort Features by Popularity](https://leetcode.com/problems/sort-features-by-popularity/)|[Sort Features by Popularity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortFeaturesByPopularity.java)|true|
+|1794|Medium|[Count Pairs of Equal Substrings With Minimum Difference](https://leetcode.com/problems/count-pairs-of-equal-substrings-with-minimum-difference/)|[Count Pairs of Equal Substrings With Minimum Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountPairsOfEqualSubstringsWithMinimumDifference.java)|true|</p>
 </details>
 
