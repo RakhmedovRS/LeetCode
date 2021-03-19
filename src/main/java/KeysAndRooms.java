@@ -17,10 +17,12 @@ public class KeysAndRooms
 {
 	public boolean canVisitAllRooms(List<List<Integer>> rooms)
 	{
-		Set<Integer> visitedRooms = new HashSet<>();
+		int requiredToVisit = rooms.size();
+		boolean[] visited = new boolean[requiredToVisit];
 		Queue<Integer> queue = new LinkedList<>();
 		queue.add(0);
-		visitedRooms.add(0);
+		requiredToVisit--;
+		visited[0] = true;
 
 		int currentRoom;
 		while (!queue.isEmpty())
@@ -28,13 +30,15 @@ public class KeysAndRooms
 			currentRoom = queue.remove();
 			for (int nextRoom : rooms.get(currentRoom))
 			{
-				if (visitedRooms.add(nextRoom))
+				if (!visited[nextRoom])
 				{
 					queue.add(nextRoom);
+					requiredToVisit--;
+					visited[nextRoom] = true;
 				}
 			}
 		}
 
-		return visitedRooms.size() == rooms.size();
+		return requiredToVisit == 0;
 	}
 }
