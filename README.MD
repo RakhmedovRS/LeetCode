@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1266
+Count of solved tasks: 1267
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1592,6 +1592,7 @@ Count of solved tasks: 1266
 |1756|Medium|[Design Most Recently Used Queue](https://leetcode.com/problems/design-most-recently-used-queue/)|[Design Most Recently Used Queue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignMostRecentlyUsedQueue.java)|true|
 |1762|Medium|[Buildings With an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/)|[Buildings With an Ocean View.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BuildingsWithAnOceanView.java)|true|
 |1772|Medium|[Sort Features by Popularity](https://leetcode.com/problems/sort-features-by-popularity/)|[Sort Features by Popularity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortFeaturesByPopularity.java)|true|
+|1778|Medium|[Shortest Path in a Hidden Grid](https://leetcode.com/problems/shortest-path-in-a-hidden-grid/)|[Shortest Path in a Hidden Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathInHiddenGrid.java)|true|
 |1794|Medium|[Count Pairs of Equal Substrings With Minimum Difference](https://leetcode.com/problems/count-pairs-of-equal-substrings-with-minimum-difference/)|[Count Pairs of Equal Substrings With Minimum Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountPairsOfEqualSubstringsWithMinimumDifference.java)|true|</p>
 </details>
 
