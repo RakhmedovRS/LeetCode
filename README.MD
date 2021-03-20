@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1269
+Count of solved tasks: 1270
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1091,7 +1091,8 @@ Count of solved tasks: 1269
 |1791|Medium|[Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)|[Find Center of Star Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCenterOfStarGraph.java)|false|
 |1792|Medium|[Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/)|[Maximum Average Pass Ratio.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAveragePassRatio.java)|false|
 |1796|Easy|[Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)|[Second Largest Digit in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SecondLargestDigitInString.java)|false|
-|1797|Medium|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|[Design Authentication Manager.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAuthenticationManager.java)|false|</p>
+|1797|Medium|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|[Design Authentication Manager.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAuthenticationManager.java)|false|
+|1798|Medium|[Maximum Number of Consecutive Values You Can Make](https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/)|[Maximum Number of Consecutive Values You Can Make.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfConsecutiveValuesYouCanMake.java)|false|</p>
 </details>
 
 <details>
@@ -1361,7 +1362,8 @@ Count of solved tasks: 1269
 |1785|Medium|[Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/)|[Minimum Elements to Add to Form a Given Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumElementsToAddToFormGivenSum.java)|false|
 |1791|Medium|[Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)|[Find Center of Star Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCenterOfStarGraph.java)|false|
 |1792|Medium|[Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/)|[Maximum Average Pass Ratio.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAveragePassRatio.java)|false|
-|1797|Medium|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|[Design Authentication Manager.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAuthenticationManager.java)|false|</p>
+|1797|Medium|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|[Design Authentication Manager.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAuthenticationManager.java)|false|
+|1798|Medium|[Maximum Number of Consecutive Values You Can Make](https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/)|[Maximum Number of Consecutive Values You Can Make.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfConsecutiveValuesYouCanMake.java)|false|</p>
 </details>
 
 <details>
