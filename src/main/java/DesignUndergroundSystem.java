@@ -1,3 +1,4 @@
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashMap;
@@ -7,64 +8,46 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 05-Jun-20
  */
-@LeetCode(id = 1396, name = "Design Underground System", url = "https://leetcode.com/problems/design-underground-system/")
+@LeetCode(
+	id = 1396,
+	name = "Design Underground System",
+	url = "https://leetcode.com/problems/design-underground-system/",
+	difficulty = Difficulty.MEDIUM
+)
 public class DesignUndergroundSystem
 {
 	class UndergroundSystem
 	{
-		private class Trip
-		{
-			String startStation;
-			int enterTime;
 
-			public boolean isCheckedIn()
-			{
-				return startStation == null;
-			}
-		}
-
-		Map<Integer, Trip> customers;
-		Map<String, int[]> averages;
+		Map<String, int[]> routesMap;
+		Map<Integer, Map.Entry<String, Integer>> checkedIn;
 
 		public UndergroundSystem()
 		{
-			customers = new HashMap<>();
-			averages = new HashMap<>();
+			routesMap = new HashMap<>();
+			checkedIn = new HashMap<>();
 		}
 
 		public void checkIn(int id, String stationName, int t)
 		{
-			Trip trip = customers.getOrDefault(id, new Trip());
-			if (!trip.isCheckedIn())
-			{
-				return;
-			}
-
-			trip.startStation = stationName;
-			trip.enterTime = t;
-			customers.put(id, trip);
+			checkedIn.put(id, new java.util.AbstractMap.SimpleEntry<>(stationName, t));
 		}
 
 		public void checkOut(int id, String stationName, int t)
 		{
-			Trip trip = customers.remove(id);
-			if (trip == null || trip.startStation.equals(stationName))
-			{
-				return;
-			}
-
-			String route = trip.startStation + "_" + stationName;
-
-			int[] average = averages.getOrDefault(route, new int[]{0, 0});
-			average[0] += t - trip.enterTime;
-			average[1]++;
-			averages.put(route, average);
+			Map.Entry<String, Integer> entry = checkedIn.remove(id);
+			String route = entry.getKey() + "|" + stationName;
+			int[] statistics = routesMap.getOrDefault(route, new int[2]);
+			statistics[0] += t - entry.getValue();
+			statistics[1]++;
+			routesMap.put(route, statistics);
 		}
 
 		public double getAverageTime(String startStation, String endStation)
 		{
-			int[] average = averages.getOrDefault(startStation + "_" + endStation, new int[]{0, 1});
-			return 1D * average[0] / average[1];
+			String route = startStation + "|" + endStation;
+			int[] statistics = routesMap.get(route);
+			return 1D * statistics[0] / statistics[1];
 		}
 	}
 }
