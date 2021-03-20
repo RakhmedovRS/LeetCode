@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1267
+Count of solved tasks: 1268
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1089,7 +1089,8 @@ Count of solved tasks: 1267
 |1785|Medium|[Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/)|[Minimum Elements to Add to Form a Given Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumElementsToAddToFormGivenSum.java)|false|
 |1790|Easy|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|[Check if One String Swap Can Make Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfOneStringSwapCanMakeStringsEqual.java)|false|
 |1791|Medium|[Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)|[Find Center of Star Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCenterOfStarGraph.java)|false|
-|1792|Medium|[Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/)|[Maximum Average Pass Ratio.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAveragePassRatio.java)|false|</p>
+|1792|Medium|[Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/)|[Maximum Average Pass Ratio.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAveragePassRatio.java)|false|
+|1796|Easy|[Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)|[Second Largest Digit in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SecondLargestDigitInString.java)|false|</p>
 </details>
 
 <details>
@@ -1166,7 +1167,8 @@ Count of solved tasks: 1267
 |1773|Easy|[Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)|[Count Items Matching a Rule.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountItemsMatchingRule.java)|false|
 |1779|Easy|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|[Find Nearest Point That Has the Same X or Y Coordinate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNearestPointThatHasTheSameXorYCoordinate.java)|false|
 |1784|Easy|[Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)|[Check if Binary String Has at Most One Segment of Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfBinaryStringHasAtMostOneSegmentOfOnes.java)|false|
-|1790|Easy|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|[Check if One String Swap Can Make Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfOneStringSwapCanMakeStringsEqual.java)|false|</p>
+|1790|Easy|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|[Check if One String Swap Can Make Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfOneStringSwapCanMakeStringsEqual.java)|false|
+|1796|Easy|[Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)|[Second Largest Digit in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SecondLargestDigitInString.java)|false|</p>
 </details>
 
 <details>
