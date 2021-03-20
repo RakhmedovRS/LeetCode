@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1268
+Count of solved tasks: 1269
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1090,7 +1090,8 @@ Count of solved tasks: 1268
 |1790|Easy|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|[Check if One String Swap Can Make Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfOneStringSwapCanMakeStringsEqual.java)|false|
 |1791|Medium|[Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)|[Find Center of Star Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCenterOfStarGraph.java)|false|
 |1792|Medium|[Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/)|[Maximum Average Pass Ratio.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAveragePassRatio.java)|false|
-|1796|Easy|[Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)|[Second Largest Digit in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SecondLargestDigitInString.java)|false|</p>
+|1796|Easy|[Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)|[Second Largest Digit in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SecondLargestDigitInString.java)|false|
+|1797|Medium|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|[Design Authentication Manager.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAuthenticationManager.java)|false|</p>
 </details>
 
 <details>
@@ -1358,7 +1359,8 @@ Count of solved tasks: 1268
 |1781|Medium|[Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/)|[Sum of Beauty of All Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfBeautyOfAllSubstrings.java)|false|
 |1785|Medium|[Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/)|[Minimum Elements to Add to Form a Given Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumElementsToAddToFormGivenSum.java)|false|
 |1791|Medium|[Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)|[Find Center of Star Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindCenterOfStarGraph.java)|false|
-|1792|Medium|[Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/)|[Maximum Average Pass Ratio.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAveragePassRatio.java)|false|</p>
+|1792|Medium|[Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/)|[Maximum Average Pass Ratio.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAveragePassRatio.java)|false|
+|1797|Medium|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|[Design Authentication Manager.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAuthenticationManager.java)|false|</p>
 </details>
 
 <details>
