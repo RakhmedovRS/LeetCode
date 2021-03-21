@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1270
+Count of solved tasks: 1271
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1092,7 +1092,8 @@ Count of solved tasks: 1270
 |1792|Medium|[Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/)|[Maximum Average Pass Ratio.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAveragePassRatio.java)|false|
 |1796|Easy|[Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)|[Second Largest Digit in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SecondLargestDigitInString.java)|false|
 |1797|Medium|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|[Design Authentication Manager.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAuthenticationManager.java)|false|
-|1798|Medium|[Maximum Number of Consecutive Values You Can Make](https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/)|[Maximum Number of Consecutive Values You Can Make.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfConsecutiveValuesYouCanMake.java)|false|</p>
+|1798|Medium|[Maximum Number of Consecutive Values You Can Make](https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/)|[Maximum Number of Consecutive Values You Can Make.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfConsecutiveValuesYouCanMake.java)|false|
+|1800|Easy|[Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/)|[Maximum Ascending Subarray Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAscendingSubarraySum.java)|false|</p>
 </details>
 
 <details>
@@ -1170,7 +1171,8 @@ Count of solved tasks: 1270
 |1779|Easy|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|[Find Nearest Point That Has the Same X or Y Coordinate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindNearestPointThatHasTheSameXorYCoordinate.java)|false|
 |1784|Easy|[Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)|[Check if Binary String Has at Most One Segment of Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfBinaryStringHasAtMostOneSegmentOfOnes.java)|false|
 |1790|Easy|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|[Check if One String Swap Can Make Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfOneStringSwapCanMakeStringsEqual.java)|false|
-|1796|Easy|[Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)|[Second Largest Digit in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SecondLargestDigitInString.java)|false|</p>
+|1796|Easy|[Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)|[Second Largest Digit in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SecondLargestDigitInString.java)|false|
+|1800|Easy|[Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/)|[Maximum Ascending Subarray Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAscendingSubarraySum.java)|false|</p>
 </details>
 
 <details>
