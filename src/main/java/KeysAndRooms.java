@@ -1,33 +1,44 @@
+import common.Difficulty;
 import common.LeetCode;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @author RakhmedovRS
  * @created 29-Jun-20
  */
-@LeetCode(id = 841, name = "Keys and Rooms", url = "https://leetcode.com/problems/keys-and-rooms/")
+@LeetCode(
+	id = 841,
+	name = "Keys and Rooms",
+	url = "https://leetcode.com/problems/keys-and-rooms/",
+	difficulty = Difficulty.MEDIUM
+)
 public class KeysAndRooms
 {
 	public boolean canVisitAllRooms(List<List<Integer>> rooms)
 	{
-		Set<Integer> visited = new HashSet<>();
-		traverse(rooms, 0, visited);
-		return visited.size() == rooms.size();
-	}
+		int requiredToVisit = rooms.size();
+		boolean[] visited = new boolean[requiredToVisit];
+		Queue<Integer> queue = new LinkedList<>();
+		queue.add(0);
+		requiredToVisit--;
+		visited[0] = true;
 
-	private void traverse(List<List<Integer>> rooms, int position, Set<Integer> visited)
-	{
-		if (!visited.add(position))
+		int currentRoom;
+		while (!queue.isEmpty())
 		{
-			return;
+			currentRoom = queue.remove();
+			for (int nextRoom : rooms.get(currentRoom))
+			{
+				if (!visited[nextRoom])
+				{
+					queue.add(nextRoom);
+					requiredToVisit--;
+					visited[nextRoom] = true;
+				}
+			}
 		}
 
-		for (int nextPosition : rooms.get(position))
-		{
-			traverse(rooms, nextPosition, visited);
-		}
+		return requiredToVisit == 0;
 	}
 }
