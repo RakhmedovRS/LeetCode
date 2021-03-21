@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1272
+Count of solved tasks: 1273
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1094,7 +1094,8 @@ Count of solved tasks: 1272
 |1797|Medium|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|[Design Authentication Manager.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAuthenticationManager.java)|false|
 |1798|Medium|[Maximum Number of Consecutive Values You Can Make](https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/)|[Maximum Number of Consecutive Values You Can Make.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfConsecutiveValuesYouCanMake.java)|false|
 |1800|Easy|[Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/)|[Maximum Ascending Subarray Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAscendingSubarraySum.java)|false|
-|1801|Medium|[Number of Orders in the Backlog](https://leetcode.com/problems/number-of-orders-in-the-backlog/)|[Number of Orders in the Backlog.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfOrdersInTheBacklog.java)|false|</p>
+|1801|Medium|[Number of Orders in the Backlog](https://leetcode.com/problems/number-of-orders-in-the-backlog/)|[Number of Orders in the Backlog.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfOrdersInTheBacklog.java)|false|
+|1802|Medium|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|[Maximum Value at a Given Index in a Bounded Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumValueAtGivenIndexInBoundedArray.java)|false|</p>
 </details>
 
 <details>
@@ -1367,7 +1368,8 @@ Count of solved tasks: 1272
 |1792|Medium|[Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/)|[Maximum Average Pass Ratio.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAveragePassRatio.java)|false|
 |1797|Medium|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|[Design Authentication Manager.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAuthenticationManager.java)|false|
 |1798|Medium|[Maximum Number of Consecutive Values You Can Make](https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/)|[Maximum Number of Consecutive Values You Can Make.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfConsecutiveValuesYouCanMake.java)|false|
-|1801|Medium|[Number of Orders in the Backlog](https://leetcode.com/problems/number-of-orders-in-the-backlog/)|[Number of Orders in the Backlog.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfOrdersInTheBacklog.java)|false|</p>
+|1801|Medium|[Number of Orders in the Backlog](https://leetcode.com/problems/number-of-orders-in-the-backlog/)|[Number of Orders in the Backlog.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfOrdersInTheBacklog.java)|false|
+|1802|Medium|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|[Maximum Value at a Given Index in a Bounded Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumValueAtGivenIndexInBoundedArray.java)|false|</p>
 </details>
 
 <details>
