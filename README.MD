@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1273
+Count of solved tasks: 1274
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1535,6 +1535,7 @@ Count of solved tasks: 1273
 |1085|Easy|[Sum of Digits in the Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/)|[Sum of Digits in the Minimum Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SumOfDigitsInTheMinimumNumber.java)|true|
 |1086|Easy|[High Five](https://leetcode.com/problems/high-five/)|[High Five.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HighFive.java)|true|
 |1087|Medium|[Brace Expansion](https://leetcode.com/problems/brace-expansion/)|[Brace Expansion.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BraceExpansion.java)|true|
+|1088|Hard|[Confusing Number II](https://leetcode.com/problems/confusing-number-ii/)|[Confusing Number II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ConfusingNumberII.java)|true|
 |1099|Easy|[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[Two Sum Less Than K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoSumLessThanK.java)|true|
 |1100|Medium|[Find K-Length Substrings With No Repeated Characters](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/)|[Find K-Length Substrings With No Repeated Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindKLengthSubstringsWithNoRepeatedCharacters.java)|true|
 |1101|Medium|[The Earliest Moment When Everyone Become Friends](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/)|[The Earliest Moment When Everyone Become Friends.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TheEarliestMomentWhenEveryoneBecomeFriends.java)|true|
