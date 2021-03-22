@@ -15,10 +15,10 @@ import java.util.stream.Stream;
  */
 public class Collector
 {
-	private static final String HEADER = "| LeetCode ID | Difficulty  | Name           | Solution       | Premium  |";
-	private static final String LINE =   "|:-----------:|:-----------:|:--------------:|:--------------:|:--------:|";
+	private static final String HEADER = "| LeetCode ID | Difficulty  | Name           | Solution       |";
+	private static final String LINE =   "|:-----------:|:-----------:|:--------------:|:--------------:|";
 	private static final String GENERAL_INFO_PATTERN = "### This file was created automatically by [%s.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/%s.java)";
-	private static final String GENERAL_PATTERN = "|%d|%s|[%s](%s)|%s|%s|";
+	private static final String GENERAL_PATTERN = "|%d|%s|[%s](%s)|%s|";
 	private static final String URL_PATTERN = "[%s.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/%s.java)";
 
 	public static void main(String[] args) throws Exception
@@ -118,7 +118,7 @@ public class Collector
 				{
 					String url = String.format(URL_PATTERN, entry.getKey().name(), entry.getValue());
 					LeetCode leetCode = entry.getKey();
-					return String.format(GENERAL_PATTERN, leetCode.id(), leetCode.difficulty().name, leetCode.name(), leetCode.url(), url, leetCode.premium());
+					return String.format(GENERAL_PATTERN, leetCode.id(), leetCode.difficulty().name, leetCode.name(), leetCode.url(), url);
 				}
 				catch (Exception ignore)
 				{
