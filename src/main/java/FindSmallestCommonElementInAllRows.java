@@ -14,34 +14,27 @@ import common.LeetCode;
 )
 public class FindSmallestCommonElementInAllRows
 {
-	public int smallestCommonElement(int[][] matrix)
+	public int smallestCommonElement(int[][] mat)
 	{
-		int rows = matrix.length;
-		if (rows == 0)
+		int min = Integer.MAX_VALUE;
+		int[] map = new int[10_001];
+		for (int[] row : mat)
 		{
-			return -1;
-		}
-		int columns = matrix[0].length;
-
-		int[] memo = new int[10_001];
-		for (int row = 0; row < rows; row++)
-		{
-			for (int column = 0; column < columns; column++)
+			for (int i = 0; i < row.length; i++)
 			{
-				if (column == 0 || matrix[row][column - 1] != matrix[row][column])
+				if (i > 0 && row[i - 1] == row[i])
 				{
-					memo[matrix[row][column]]++;
+					continue;
+				}
+
+				map[row[i]]++;
+				if (map[row[i]] >= mat.length)
+				{
+					min = Math.min(min, row[i]);
 				}
 			}
 		}
 
-		for (int i = 1; i < memo.length; i++)
-		{
-			if (memo[i] == rows)
-			{
-				return i;
-			}
-		}
-		return -1;
+		return min == Integer.MAX_VALUE ? -1 : min;
 	}
 }
