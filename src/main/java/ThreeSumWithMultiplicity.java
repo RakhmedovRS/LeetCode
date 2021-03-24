@@ -1,68 +1,74 @@
+import common.Difficulty;
 import common.LeetCode;
-
-import java.util.Arrays;
 
 /**
  * @author RakhmedovRS
  * @created 11/12/2020
  */
-@LeetCode(id = 923, name = "3Sum With Multiplicity", url = "https://leetcode.com/problems/3sum-with-multiplicity/")
+@LeetCode(
+        id = 923,
+        name = "3Sum With Multiplicity",
+        url = "https://leetcode.com/problems/3sum-with-multiplicity/",
+        difficulty = Difficulty.MEDIUM
+)
 public class ThreeSumWithMultiplicity
 {
-	public int threeSumMulti(int[] A, int target)
-	{
-		int mod = 1_000_000_007;
-		Arrays.sort(A);
-		int count = 0;
-		int searchSum;
-		for (int left = 0; left < A.length; left++)
-		{
-			searchSum = target - A[left];
-			int middle = left + 1;
-			int right = A.length - 1;
-			while (middle < right)
-			{
-				if (A[middle] + A[right] < searchSum)
-				{
-					middle++;
-				}
-				else if (A[middle] + A[right] > searchSum)
-				{
-					right--;
-				}
-				else if (A[middle] != A[right])
-				{
-					int l = 1;
-					int r = 1;
-					while (middle + 1 < right && A[middle] == A[middle + 1])
-					{
-						l++;
-						middle++;
-					}
+    public int threeSumMulti(int[] arr, int target)
+    {
+        int mod = 1_000_000_001;
+        long result = 0L;
+        long[] counts = new long[101];
+        int numCount = 0;
+        for (int num : arr)
+        {
+            counts[num]++;
+            if (counts[num] == 1)
+            {
+                numCount++;
+            }
+        }
 
-					while (right - 1 > middle && A[right] == A[right - 1])
-					{
-						r++;
-						right--;
-					}
+        int[] numbers = new int[numCount];
+        int i = 0;
+        for (int j = 0; j < counts.length; j++)
+        {
+            if (counts[j] > 0)
+            {
+                numbers[i++] = j;
+            }
+        }
 
-					count = ((count + (l * r)) % mod);
-					middle++;
-					right--;
-				}
-				else
-				{
-					count = ((count + (right - middle + 1) * (right - middle) / 2) % mod);
-					break;
-				}
-			}
-		}
+        int numC;
+        for (int numA : numbers)
+        {
+            for (int numB : numbers)
+            {
+                numC = target - numA - numB;
+                if (numC < 0)
+                {
+                    continue;
+                }
 
-		return count;
-	}
+                if (numA == numB && numB == numC)
+                {
+                    result += (counts[numA] * (counts[numA] - 1) * (counts[numA] - 2)) / 6;
+                }
+                else if (numA == numB)
+                {
+                    result += (counts[numA] * (counts[numA] - 1)) / 2 * counts[numC];
+                }
+                else if (numC > numB && numB > numA)
+                {
+                    result += counts[numA] * counts[numB] * counts[numC];
+                }
+            }
+        }
 
-	public static void main(String[] args)
-	{
-		System.out.println(new ThreeSumWithMultiplicity().threeSumMulti(new int[]{1, 1, 2, 2, 3, 3, 4, 4, 5, 5}, 8));
-	}
+        return (int) (result % mod);
+    }
+
+    public static void main(String[] args)
+    {
+        System.out.println(new ThreeSumWithMultiplicity().threeSumMulti(new int[]{1, 1, 2, 2, 3, 3, 4, 4, 5, 5}, 8));
+    }
 }
