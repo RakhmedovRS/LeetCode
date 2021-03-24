@@ -563,7 +563,7 @@ Count of solved tasks: 1274
 |867|Undefined|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Transpose Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TransposeMatrix.java)|
 |868|Undefined|[Binary Gap](https://leetcode.com/problems/binary-gap/)|[Binary Gap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryGap.java)|
 |869|Medium|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[Reordered Power of 2.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReorderedPowerOf2.java)|
-|870|Undefined|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/)|[Advantage Shuffle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AdvantageShuffle.java)|
+|870|Medium|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/)|[Advantage Shuffle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AdvantageShuffle.java)|
 |871|Undefined|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)|[Minimum Number of Refueling Stops.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfRefuelingStops.java)|
 |872|Undefined|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[Leaf-Similar Trees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LeafSimilarTrees.java)|
 |873|Undefined|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)|[Length of Longest Fibonacci Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LengthOfLongestFibonacciSubsequence.java)|
@@ -1265,6 +1265,7 @@ Count of solved tasks: 1274
 |865|Medium|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|[Smallest Subtree with all the Deepest Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SmallestSubtreeWithAllTheDeepestNodes.java)|
 |866|Medium|[Prime Palindrome](https://leetcode.com/problems/prime-palindrome/)|[Prime Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PrimePalindrome.java)|
 |869|Medium|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[Reordered Power of 2.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReorderedPowerOf2.java)|
+|870|Medium|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/)|[Advantage Shuffle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AdvantageShuffle.java)|
 |875|Medium|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|[Koko Eating Bananas.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KokoEatingBananas.java)|
 |880|Medium|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/)|[Decoded String at Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodedStringAtIndex.java)|
 |881|Medium|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[Boats to Save People.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BoatsToSavePeople.java)|
