@@ -1,9 +1,7 @@
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author RakhmedovRS
@@ -27,36 +25,38 @@ public class PacificAtlanticWaterFlow
         }
         int columns = matrix[0].length;
 
-        boolean[][] atlantic = new boolean[rows][columns];
-        for (int row = 0; row < rows; row++)
+        // 0 - can flow to pacific, 1 - can go to atlantic
+        boolean[][][] flows = new boolean[rows][columns][2];
+        Queue<int[]> pacific = new LinkedList<>();
+        Queue<int[]> atlantic = new LinkedList<>();
+        for (int i = 0; i < columns; i++)
         {
-            atlantic[row][0] = true;
-        }
-        for (int column = 0; column < columns; column++)
-        {
-            atlantic[0][column] = true;
+            flows[0][i][0] = true;
+            flows[rows - 1][i][1] = true;
+
+            pacific.add(new int[]{0, i});
+            atlantic.add(new int[]{rows - 1, i});
         }
 
-        boolean[][] pacific = new boolean[rows][columns];
-        for (int row = 0; row < rows; row++)
+        for (int i = 0; i < rows; i++)
         {
-            pacific[row][columns - 1] = true;
+            flows[i][0][0] = true;
+            flows[i][columns - 1][1] = true;
+
+            pacific.add(new int[]{i, 0});
+            atlantic.add(new int[]{i, columns - 1});
         }
-        for (int column = 0; column < columns; column++)
-        {
-            pacific[rows - 1][column] = true;
-        }
+
+        process(pacific, 0, flows, matrix, rows, columns);
+        process(atlantic, 1, flows, matrix, rows, columns);
 
         for (int row = 0; row < rows; row++)
         {
             for (int column = 0; column < columns; column++)
             {
-                if (canReachOcean(matrix[row][column], row, column, rows, columns, atlantic, matrix, new boolean[rows][columns])
-                        && canReachOcean(matrix[row][column], row, column, rows, columns, pacific, matrix, new boolean[rows][columns]))
+                if (flows[row][column][0] && flows[row][column][1])
                 {
                     answer.add(Arrays.asList(row, column));
-                    atlantic[row][column] = true;
-                    pacific[row][column] = true;
                 }
             }
         }
@@ -64,25 +64,40 @@ public class PacificAtlanticWaterFlow
         return answer;
     }
 
-    private boolean canReachOcean(int prev, int row, int column, int rows, int columns,
-                                  boolean[][] memo, int[][] matrix, boolean[][] visited)
+    private void process(Queue<int[]> ocean, int oceanType, boolean[][][] flows, int[][] matrix, int rows, int columns)
     {
-        if (row < 0 || row == rows || column < 0 || column == columns || matrix[row][column] > prev || visited[row][column])
+        int[][] directions = new int[][]{{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
+        int[] current;
+        int currentRow;
+        int currentColumn;
+        int nextRow;
+        int nextColumn;
+        while (!ocean.isEmpty())
         {
-            return false;
+            current = ocean.remove();
+            currentRow = current[0];
+            currentColumn = current[1];
+
+            for (int[] direction : directions)
+            {
+                nextRow = currentRow + direction[0];
+                nextColumn = currentColumn + direction[1];
+                if (nextRow < 0
+                    || nextRow == rows
+                    || nextColumn < 0
+                    || nextColumn == columns
+                    || matrix[currentRow][currentColumn] > matrix[nextRow][nextColumn]
+                    || flows[nextRow][nextColumn][oceanType]
+                )
+                {
+                    continue;
+                }
+
+                flows[nextRow][nextColumn][oceanType] = true;
+
+                ocean.add(new int[]{nextRow, nextColumn});
+            }
         }
-
-        visited[row][column] = true;
-
-        if (memo[row][column])
-        {
-            return true;
-        }
-
-        return canReachOcean(matrix[row][column], row - 1, column, rows, columns, memo, matrix, visited)
-                || canReachOcean(matrix[row][column], row + 1, column, rows, columns, memo, matrix, visited)
-                || canReachOcean(matrix[row][column], row, column - 1, rows, columns, memo, matrix, visited)
-                || canReachOcean(matrix[row][column], row, column + 1, rows, columns, memo, matrix, visited);
     }
 
     public static void main(String[] args)
