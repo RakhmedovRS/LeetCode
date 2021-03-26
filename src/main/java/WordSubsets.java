@@ -1,3 +1,4 @@
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -7,71 +8,55 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 10-May-20
  */
-@LeetCode(id = 916, name = "Word Subsets", url = "https://leetcode.com/problems/word-subsets/")
+@LeetCode(
+	id = 916,
+	name = "Word Subsets",
+	url = "https://leetcode.com/problems/word-subsets/",
+	difficulty = Difficulty.MEDIUM
+)
 public class WordSubsets
 {
 	public List<String> wordSubsets(String[] A, String[] B)
 	{
-		List<String> result = new ArrayList<>();
-		if (A == null || A.length == 0 || B == null || B.length == 0)
+		List<String> answer = new ArrayList<>();
+		int[] table;
+		int[] tableB = new int[26];
+		for (int i = 0; i < B.length; i++)
 		{
-			return result;
+			table = buildTable(B[i]);
+			for (int j = 0; j < 26; j++)
+			{
+				tableB[j] = Math.max(tableB[j], table[j]);
+			}
 		}
 
-		int[] charsToCountB = fillMapB(B);
+		outer:
 		for (String word : A)
 		{
-			boolean valid = true;
-			int[] charsToCountA = fillMapA(word);
-			for (int i = 0; i < 26; i++)
+			table = buildTable(word);
+			int i = 0;
+			for (; i < 26; i++)
 			{
-				if (charsToCountB[i] > charsToCountA[i])
+				if (tableB[i] > table[i])
 				{
-					valid = false;
-					break;
+					continue outer;
 				}
 			}
 
-			if (valid)
-			{
-				result.add(word);
-			}
+			answer.add(word);
 		}
 
-
-		return result;
+		return answer;
 	}
 
-	private int[] fillMapA(String word)
+	private int[] buildTable(String word)
 	{
-		int[] charsToCount = new int[26];
+		int[] table = new int[26];
 		for (char ch : word.toCharArray())
 		{
-			charsToCount[ch - 'a']++;
-		}
-		return charsToCount;
-	}
-
-	private int[] fillMapB(String[] words)
-	{
-		int[] result = new int[26];
-		for (String word : words)
-		{
-			int[] temp = new int[26];
-			for (char ch : word.toCharArray())
-			{
-				temp[ch- 'a']++;
-			}
-
-			for (int i = 0; i < 26; i++)
-			{
-				if (temp[i] > result[i])
-				{
-					result[i] = temp[i];
-				}
-			}
+			table[ch - 'a']++;
 		}
 
-		return result;
+		return table;
 	}
 }
