@@ -426,7 +426,7 @@ Count of solved tasks: 1275
 |643|Undefined|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|[Maximum Average Subarray I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAverageSubarrayI.java)|
 |645|Easy|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[Set Mismatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SetMismatch.java)|
 |646|Undefined|[Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)|[Maximum Length of Pair Chain.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumLengthOfPairChain.java)|
-|647|Undefined|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Palindromic Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromicSubstrings.java)|
+|647|Medium|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Palindromic Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromicSubstrings.java)|
 |648|Undefined|[Replace Words](https://leetcode.com/problems/replace-words/)|[Replace Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceWords.java)|
 |650|Undefined|[2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)|[2 Keys Keyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TwoKeysKeyboard.java)|
 |652|Undefined|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/)|[Find Duplicate Subtrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindDuplicateSubtrees.java)|
@@ -1240,6 +1240,7 @@ Count of solved tasks: 1275
 |581|Medium|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Shortest Unsorted Continuous Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestUnsortedContinuousSubarray.java)|
 |623|Medium|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[Add One Row to Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddOneRowToTree.java)|
 |636|Medium|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|[Exclusive Time of Functions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ExclusiveTimeOfFunctions.java)|
+|647|Medium|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Palindromic Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromicSubstrings.java)|
 |667|Medium|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|[Beautiful Arrangement II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BeautifulArrangementII.java)|
 |669|Medium|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Trim a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/TrimBinarySearchTree.java)|
 |677|Medium|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)|[Map Sum Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MapSumPairs.java)|
