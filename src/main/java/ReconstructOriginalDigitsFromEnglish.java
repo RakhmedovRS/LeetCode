@@ -1,42 +1,111 @@
+import common.Difficulty;
 import common.LeetCode;
-
-import java.util.Arrays;
 
 /**
  * @author RakhmedovRS
  * @created 13-Jul-20
  */
-@LeetCode(id = 423, name = "Reconstruct Original Digits from English", url = "https://leetcode.com/problems/reconstruct-original-digits-from-english/")
+@LeetCode(
+	id = 423,
+	name = "Reconstruct Original Digits from English",
+	url = "https://leetcode.com/problems/reconstruct-original-digits-from-english/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ReconstructOriginalDigitsFromEnglish
 {
 	public String originalDigits(String s)
 	{
-		int[] nums = new int[10];
-		int[] chars = new int[128];
-		for (char ch : s.toCharArray())
+		int[] numbers = new int[10];
+		int[][] tables = new int[10][];
+		tables[0] = buildTable("zero");
+		tables[1] = buildTable("one");
+		tables[2] = buildTable("two");
+		tables[3] = buildTable("three");
+		tables[4] = buildTable("four");
+		tables[5] = buildTable("five");
+		tables[6] = buildTable("six");
+		tables[7] = buildTable("seven");
+		tables[8] = buildTable("eight");
+		tables[9] = buildTable("nine");
+
+		int[] table = buildTable(s);
+		dfs(table, tables,numbers);
+
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < numbers.length; i++)
 		{
-			chars[ch]++;
-		}
-		nums[0] = chars['z'];
-		nums[2] = chars['w'];
-		nums[4] = chars['u'];
-		nums[6] = chars['x'];
-		nums[8] = chars['g'];
-		nums[1] = chars['o'] - nums[0] - nums[2] - nums[4];
-		nums[3] = chars['r'] - nums[0] - nums[4];
-		nums[5] = chars['f'] - nums[4];
-		nums[7] = chars['s'] - nums[6];
-		nums[9] = chars['i'] - nums[5] - nums[6] - nums[8];
-		StringBuilder ret = new StringBuilder();
-		for (int i = 0; i < 10; ++i)
-		{
-			if (nums[i] > 0)
+			while (numbers[i]-- > 0)
 			{
-				char[] arr = new char[nums[i]];
-				Arrays.fill(arr, (char) (i + '0'));
-				ret.append(String.valueOf(arr));
+				sb.append(i);
 			}
 		}
-		return ret.toString();
+		return sb.toString();
+	}
+
+	private boolean dfs(int[] table, int[][] tables, int[] numbers)
+	{
+		boolean contains = false;
+		for (int i = 0; i < 26; i++)
+		{
+			if (table[i] != 0)
+			{
+				contains = true;
+				break;
+			}
+		}
+
+		int ways;
+		for (int i = 0 ; i < tables.length; i++)
+		{
+			ways = waysToCreateNumber(table, tables[i]);
+			if (ways > 0)
+			{
+				process(table, tables[i], -ways);
+				numbers[i]+=ways;
+				if (dfs(table, tables, numbers))
+				{
+					return true;
+				}
+				process(table, tables[i], ways);
+				numbers[i]-=ways;
+			}
+		}
+
+
+		return !contains;
+	}
+
+	private int[] buildTable(String word)
+	{
+		int[] table = new int[26];
+		for (char ch : word.toCharArray())
+		{
+			table[ch - 'a']++;
+		}
+
+		return table;
+	}
+
+	private int waysToCreateNumber(int[] tableA, int[] tableB)
+	{
+		int ways = Integer.MAX_VALUE;
+		for (int i = 0; i < tableA.length; i++)
+		{
+			if(tableB[i] == 0)
+			{
+				continue;
+			}
+			ways = Math.min(ways, tableA[i] / tableB[i]);
+		}
+
+		return ways;
+	}
+
+	private void process(int[] tableA, int[] tableB, int add)
+	{
+		for (int i = 0; i < tableA.length; i++)
+		{
+			tableA[i] += add * tableB[i];
+		}
 	}
 }
