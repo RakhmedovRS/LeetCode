@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1276
+Count of solved tasks: 1277
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1096,7 +1096,8 @@ Count of solved tasks: 1276
 |1800|Easy|[Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/)|[Maximum Ascending Subarray Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAscendingSubarraySum.java)|
 |1801|Medium|[Number of Orders in the Backlog](https://leetcode.com/problems/number-of-orders-in-the-backlog/)|[Number of Orders in the Backlog.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfOrdersInTheBacklog.java)|
 |1802|Medium|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|[Maximum Value at a Given Index in a Bounded Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumValueAtGivenIndexInBoundedArray.java)|
-|1805|Easy|[Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)|[Number of Different Integers in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfDifferentIntegersInString.java)|</p>
+|1805|Easy|[Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)|[Number of Different Integers in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfDifferentIntegersInString.java)|
+|1806|Medium|[Minimum Number of Operations to Reinitialize a Permutation](https://leetcode.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation/)|[Minimum Number of Operations to Reinitialize a Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfOperationsToReinitializePermutation.java)|</p>
 </details>
 
 <details>
@@ -1376,7 +1377,8 @@ Count of solved tasks: 1276
 |1797|Medium|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|[Design Authentication Manager.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DesignAuthenticationManager.java)|
 |1798|Medium|[Maximum Number of Consecutive Values You Can Make](https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/)|[Maximum Number of Consecutive Values You Can Make.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfConsecutiveValuesYouCanMake.java)|
 |1801|Medium|[Number of Orders in the Backlog](https://leetcode.com/problems/number-of-orders-in-the-backlog/)|[Number of Orders in the Backlog.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfOrdersInTheBacklog.java)|
-|1802|Medium|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|[Maximum Value at a Given Index in a Bounded Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumValueAtGivenIndexInBoundedArray.java)|</p>
+|1802|Medium|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|[Maximum Value at a Given Index in a Bounded Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumValueAtGivenIndexInBoundedArray.java)|
+|1806|Medium|[Minimum Number of Operations to Reinitialize a Permutation](https://leetcode.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation/)|[Minimum Number of Operations to Reinitialize a Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfOperationsToReinitializePermutation.java)|</p>
 </details>
 
 <details>
