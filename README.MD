@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1278
+Count of solved tasks: 1279
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -636,6 +636,7 @@ Count of solved tasks: 1278
 |968|Undefined|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|[Binary Tree Cameras.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BinaryTreeCameras.java)|
 |969|Undefined|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)|[Pancake Sorting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PancakeSorting.java)|
 |970|Undefined|[Powerful Integers](https://leetcode.com/problems/powerful-integers/)|[Powerful Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PowerfulIntegers.java)|
+|971|Medium|[Flip Binary Tree To Match Preorder Traversal](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/)|[Flip Binary Tree To Match Preorder Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlipBinaryTreeToMatchPreorderTraversal.java)|
 |973|Undefined|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|[K Closest Points to Origin.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/KClosestPointToOrigin.java)|
 |976|Undefined|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|[Largest Perimeter Triangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestPerimeterTriangle.java)|
 |977|Easy|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Squares of a Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SquaresOfSortedArray.java)|
@@ -1283,6 +1284,7 @@ Count of solved tasks: 1278
 |921|Medium|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)|[Minimum Add to Make Parentheses Valid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumAddToMakeParenthesesValid.java)|
 |923|Medium|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|[3Sum With Multiplicity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThreeSumWithMultiplicity.java)|
 |946|Medium|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[Validate Stack Sequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidateStackSequences.java)|
+|971|Medium|[Flip Binary Tree To Match Preorder Traversal](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/)|[Flip Binary Tree To Match Preorder Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlipBinaryTreeToMatchPreorderTraversal.java)|
 |991|Medium|[Broken Calculator](https://leetcode.com/problems/broken-calculator/)|[Broken Calculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/BrokenCalculator.java)|
 |1006|Medium|[Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/)|[Clumsy Factorial.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ClumsyFactorial.java)|
 |1010|Medium|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[Pairs of Songs With Total Durations Divisible by 60.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PairsOfSongsWithTotalDurationsDivisibleBy60.java)|
