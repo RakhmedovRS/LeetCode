@@ -36,7 +36,7 @@ Count of solved tasks: 1280
 |29|Medium|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[Divide Two Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DivideTwoIntegers.java)|
 |30|Undefined|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|[Substring with Concatenation of All Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubstringWithConcatenationOfAllWords.java)|
 |31|Medium|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[Next Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextPermutation.java)|
-|32|Undefined|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Longest Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestValidParentheses.java)|
+|32|Hard|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Longest Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestValidParentheses.java)|
 |33|Medium|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search in Rotated Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArray.java)|
 |34|Undefined|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Find First and Last Position of Element in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindFirstAndLastPositionOfElementInSortedArray.java)|
 |35|Undefined|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Search Insert Position.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInsertPosition.java)|
@@ -1395,6 +1395,7 @@ Count of solved tasks: 1280
 |:-----------:|:-----------:|:--------------:|:--------------:|
 |23|Hard|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[Merge k Sorted Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeKSortedLists.java)|
 |25|Hard|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[Reverse Nodes in k-Group.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseNodesInKGroup.java)|
+|32|Hard|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Longest Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestValidParentheses.java)|
 |41|Hard|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[First Missing Positive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FirstMissingPositive.java)|
 |84|Hard|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[Largest Rectangle in Histogram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestRectangleInHistogram.java)|
 |127|Hard|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Word Ladder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WordLadder.java)|

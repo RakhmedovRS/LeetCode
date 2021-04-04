@@ -1,46 +1,49 @@
+import common.Difficulty;
 import common.LeetCode;
 
-import java.util.Deque;
 import java.util.LinkedList;
 
 /**
  * @author RakhmedovRS
  * @created 26-Apr-20
  */
-@LeetCode(id = 32, name = "Longest Valid Parentheses", url = "https://leetcode.com/problems/longest-valid-parentheses/")
+@LeetCode(
+	id = 32,
+	name = "Longest Valid Parentheses",
+	url = "https://leetcode.com/problems/longest-valid-parentheses/",
+	difficulty = Difficulty.HARD
+)
 public class LongestValidParentheses
 {
-	public int longestValidParentheses(String parentheses)
+	public int longestValidParentheses(String s)
 	{
-		int result = 0;
-		if (parentheses == null || parentheses.length() <= 1)
-		{
-			return result;
-		}
+		int max = 0;
+		LinkedList<Integer> list = new LinkedList<>();
+		list.add(-1);
 
-		Deque<Integer> stack = new LinkedList<>();
-		stack.push(-1);
-		for (int i = 0; i < parentheses.length(); i++)
+		char ch;
+		for (int i = 0; i < s.length(); i++)
 		{
-			if (parentheses.charAt(i) == '(')
+			ch = s.charAt(i);
+			if (ch == '(')
 			{
-				stack.push(i);
+				list.push(i);
 			}
-			else if (parentheses.charAt(i) == ')')
+			else
 			{
-				if (stack.isEmpty() || stack.peek() == -1 || parentheses.charAt(stack.peek()) != '(')
+				if (list.isEmpty() || list.peek() == -1 || s.charAt(list.peek()) != '(')
 				{
-					stack.push(i);
+					list.push(i);
 				}
 				else
 				{
-					stack.pop();
-					result = Math.max(result, i - stack.peek());
+					list.pop();
+					max = Math.max(max, i - list.peek());
 				}
 			}
 		}
 
-		return result;
+		return max;
 	}
 
 	public static void main(String[] args)
