@@ -1,118 +1,116 @@
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 10/10/2020
  */
-@LeetCode(id = 622, name = "Design Circular Queue", url = "https://leetcode.com/problems/design-circular-queue/")
+@LeetCode(
+	id = 622,
+	name = "Design Circular Queue",
+	url = "https://leetcode.com/problems/design-circular-queue/",
+	difficulty = Difficulty.MEDIUM
+)
 public class DesignCircularQueue
 {
 	class Node
 	{
-		Node prev;
 		Node next;
-		int val;
+		Node prev;
+		int value;
 
-		public Node(int val)
+		public Node(int value)
 		{
-			this.val = val;
+			this.value = value;
 		}
 	}
 
 	class MyCircularQueue
 	{
-		int size;
+		int currentSize;
 		int maxSize;
 		Node head;
 		Node tail;
 
 		public MyCircularQueue(int k)
 		{
-			size = 0;
+			currentSize = 0;
 			maxSize = k;
+
 			head = new Node(Integer.MIN_VALUE);
 			tail = new Node(Integer.MAX_VALUE);
 
 			head.next = tail;
-			head.prev = tail;
-			tail.next = head;
 			tail.prev = head;
 		}
 
-		/**
-		 * Insert an element into the circular queue. Return true if the operation is successful.
-		 */
 		public boolean enQueue(int value)
 		{
-			if (size < maxSize)
-			{
-				Node prev = tail.prev;
-				Node newNode = new Node(value);
-				newNode.next = tail;
-				tail.prev = newNode;
-				prev.next = newNode;
-				newNode.prev = prev;
-				size++;
-				return true;
-			}
-			return false;
-		}
-
-		/**
-		 * Delete an element from the circular queue. Return true if the operation is successful.
-		 */
-		public boolean deQueue()
-		{
-			if (size == 0)
+			if (currentSize == maxSize)
 			{
 				return false;
 			}
 
-			head.next = head.next.next;
-			head.next.prev = head;
+			Node next = head.next;
+			Node node = new Node(value);
 
-			size--;
+			head.next = node;
+			node.prev = head;
+
+			node.next = next;
+			next.prev = node;
+
+			currentSize++;
+
 			return true;
 		}
 
-		/**
-		 * Get the front item from the queue.
-		 */
+		public boolean deQueue()
+		{
+			if (currentSize == 0)
+			{
+				return false;
+			}
+
+			Node prev = tail.prev;
+			Node prevPrev = prev.prev;
+
+			tail.prev = prevPrev;
+			prevPrev.next = tail;
+
+			currentSize--;
+
+			return true;
+		}
+
 		public int Front()
 		{
-			if (size == 0)
+			if (isEmpty())
 			{
 				return -1;
 			}
-			return head.next.val;
+
+			return tail.prev.value;
 		}
 
-		/**
-		 * Get the last item from the queue.
-		 */
 		public int Rear()
 		{
-			if (size == 0)
+			if (isEmpty())
 			{
 				return -1;
 			}
-			return tail.prev.val;
+
+			return head.next.value;
 		}
 
-		/**
-		 * Checks whether the circular queue is empty or not.
-		 */
 		public boolean isEmpty()
 		{
-			return size == 0;
+			return currentSize == 0;
 		}
 
-		/**
-		 * Checks whether the circular queue is full or not.
-		 */
 		public boolean isFull()
 		{
-			return size == maxSize;
+			return currentSize == maxSize;
 		}
 	}
 
