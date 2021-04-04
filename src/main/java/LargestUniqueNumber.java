@@ -16,19 +16,29 @@ public class LargestUniqueNumber
 {
 	public int largestUniqueNumber(int[] A)
 	{
-		int[] memo = new int[1001];
-		for (int num : A)
+		int[] numbers = new int[1001];
+		for (int num: A)
 		{
-			memo[num]++;
+			numbers[num]++;
 		}
 
-		for (int i = 1000; i >= 0; i--)
+		for (int i = 1000; i >=0; i--)
 		{
-			if (memo[i] == 1)
+			if (numbers[i] == 1)
 			{
 				return i;
 			}
 		}
+
 		return -1;
+	}
+
+	public static void main(String[] args)
+	{
+		LargestUniqueNumber clazz = new LargestUniqueNumber();
+
+		System.out.println(clazz.largestUniqueNumber(new int[]{}));
+		System.out.println(clazz.largestUniqueNumber(new int[]{5,7,3,9,4,9,8,3,1}));
+		System.out.println(clazz.largestUniqueNumber(new int[]{9,9,8,8}));
 	}
 }
