@@ -18,21 +18,26 @@ public class NumberOfDifferentIntegersInString
 {
 	public int numDifferentIntegers(String word)
 	{
-		Set<Integer> set = new HashSet<>();
-		Integer number = null;
+		Set<String> set = new HashSet<>();
+		StringBuilder number = null;
+		int digit;
 		for (int i = 0; i < word.length(); i++)
 		{
 			if (Character.isDigit(word.charAt(i)))
 			{
-				number = number == null ? 0 : number;
-				number *= 10;
-				number += word.charAt(i) - '0';
+
+				if (number == null)
+				{
+					number = new StringBuilder();
+				}
+
+				number.append(word.charAt(i) - '0');
 			}
 			else
 			{
 				if (number != null)
 				{
-					set.add(number);
+					set.add(getActualNumber(number));
 					number = null;
 				}
 			}
@@ -40,9 +45,23 @@ public class NumberOfDifferentIntegersInString
 
 		if (number != null)
 		{
-			set.add(number);
+			set.add(getActualNumber(number));
 		}
 
 		return set.size();
+	}
+
+	private String getActualNumber(StringBuilder stringBuilder)
+	{
+		int i = 0;
+		for (; i < stringBuilder.length() - 1; i++)
+		{
+			if (stringBuilder.charAt(i) != '0')
+			{
+				break;
+			}
+		}
+
+		return stringBuilder.substring(i);
 	}
 }
