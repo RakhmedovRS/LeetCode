@@ -1,28 +1,33 @@
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 16-Aug-20
  */
-@LeetCode(id = 1551, name = "Minimum Operations to Make Array Equal", url = "https://leetcode.com/problems/minimum-operations-to-make-array-equal/")
+@LeetCode(
+	id = 1551,
+	name = "Minimum Operations to Make Array Equal",
+	url = "https://leetcode.com/problems/minimum-operations-to-make-array-equal/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MinimumOperationsToMakeArrayEqual
 {
 	public int minOperations(int n)
 	{
-		int min = 0;
-		int sum = 0;
+		int operations = 0;
+		int[] arr = new int[n];
 		for (int i = 0; i < n; i++)
 		{
-			sum += i * 2 + 1;
+			arr[i] = i * 2 + 1;
 		}
 
-		int mid = sum / n;
-		for (int i = 0; i * 2 + 1 < mid; i++)
+		for (int i = 0, j = n - 1; i < j; i++, j--)
 		{
-			min += mid - (i * 2 + 1);
+			operations += arr[j] - arr[i];
 		}
 
-		return min;
+		return operations;
 	}
 
 	public static void main(String[] args)
