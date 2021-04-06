@@ -17,25 +17,34 @@ public class GlobalAndLocalInversions
 {
 	public boolean isIdealPermutation(int[] A)
 	{
-		int local = 0;
 		int global = 0;
-
-		TreeSet<Integer> treeSet = new TreeSet<>();
-		for (int i = 0; i < A.length; i++)
+		TreeSet<int[]> set = new TreeSet<>((a, b) ->
 		{
-			if (i + 1 < A.length && A[i] > A[i + 1])
+			if (a[0] == b[0])
+			{
+				return a[1] - b[1];
+			}
+
+			return a[0] - b[0];
+		});
+
+		int[] arr;
+		for (int i = A.length - 1; i >= 0; i--)
+		{
+			arr = new int[]{A[i], i};
+			global += set.headSet(arr).size();
+			set.add(arr);
+		}
+
+		int local = 0;
+		for (int i = 0; i < A.length - 1; i++)
+		{
+			if (A[i] > A[i + 1])
 			{
 				local++;
 			}
-			treeSet.add(i);
 		}
 
-		for (int j : A)
-		{
-			treeSet.remove(j);
-			global += treeSet.headSet(j).size();
-		}
-
-		return local == global;
+		return global == local;
 	}
 }
