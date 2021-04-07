@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1281
+Count of solved tasks: 1282
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1629,6 +1629,7 @@ Count of solved tasks: 1281
 |1772|Medium|[Sort Features by Popularity](https://leetcode.com/problems/sort-features-by-popularity/)|[Sort Features by Popularity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortFeaturesByPopularity.java)|
 |1778|Medium|[Shortest Path in a Hidden Grid](https://leetcode.com/problems/shortest-path-in-a-hidden-grid/)|[Shortest Path in a Hidden Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ShortestPathInHiddenGrid.java)|
 |1794|Medium|[Count Pairs of Equal Substrings With Minimum Difference](https://leetcode.com/problems/count-pairs-of-equal-substrings-with-minimum-difference/)|[Count Pairs of Equal Substrings With Minimum Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountPairsOfEqualSubstringsWithMinimumDifference.java)|
-|1804|Medium|[Implement Trie II (Prefix Tree)](https://leetcode.com/problems/implement-trie-ii-prefix-tree/)|[Implement Trie II (Prefix Tree).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImplementTrieII.java)|</p>
+|1804|Medium|[Implement Trie II (Prefix Tree)](https://leetcode.com/problems/implement-trie-ii-prefix-tree/)|[Implement Trie II (Prefix Tree).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ImplementTrieII.java)|
+|1810|Medium|[Minimum Path Cost in a Hidden Grid](https://leetcode.com/problems/minimum-path-cost-in-a-hidden-grid/)|[Minimum Path Cost in a Hidden Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumPathCostInHiddenGrid.java)|</p>
 </details>
 
