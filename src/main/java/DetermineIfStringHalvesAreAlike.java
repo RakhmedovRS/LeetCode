@@ -15,25 +15,22 @@ public class DetermineIfStringHalvesAreAlike
 {
 	public boolean halvesAreAlike(String s)
 	{
-		int a = 0;
-		int b = 0;
+		int balance = 0;
 		for (int i = 0; i < s.length(); i++)
 		{
-			char ch = Character.toLowerCase(s.charAt(i));
-
-			if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+			if (isVowel(s.charAt(i)))
 			{
-				if (i < s.length() / 2)
-				{
-					a++;
-				}
-				else
-				{
-					b++;
-				}
+				balance += i < (s.length() / 2) ? 1 : -1;
 			}
 		}
 
-		return a == b;
+		return balance == 0;
+	}
+
+	private boolean isVowel(char ch)
+	{
+		ch = Character.toLowerCase(ch);
+
+		return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
 	}
 }
