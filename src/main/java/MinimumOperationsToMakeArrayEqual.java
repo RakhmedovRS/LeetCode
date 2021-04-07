@@ -16,15 +16,10 @@ public class MinimumOperationsToMakeArrayEqual
 	public int minOperations(int n)
 	{
 		int operations = 0;
-		int[] arr = new int[n];
-		for (int i = 0; i < n; i++)
-		{
-			arr[i] = i * 2 + 1;
-		}
 
 		for (int i = 0, j = n - 1; i < j; i++, j--)
 		{
-			operations += arr[j] - arr[i];
+			operations += ((2 * j + 1) - (2 * i + 1)) / 2;
 		}
 
 		return operations;
