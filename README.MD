@@ -22,7 +22,7 @@ Count of solved tasks: 1282
 |14|Undefined|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Longest Common Prefix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestCommonPrefix.java)|
 |15|Undefined|[3Sum](https://leetcode.com/problems/3sum/)|[3Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThreeSum.java)|
 |16|Undefined|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[3Sum Closest.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ThreeSumClosest.java)|
-|17|Undefined|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Letter Combinations of a Phone Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LetterCombinationsOfPhoneNumber.java)|
+|17|Medium|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Letter Combinations of a Phone Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LetterCombinationsOfPhoneNumber.java)|
 |19|Undefined|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove Nth Node From End of List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveNthNodeFromEndOfList.java)|
 |20|Easy|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidParentheses.java)|
 |21|Easy|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeTwoSortedLists.java)|
@@ -1195,6 +1195,7 @@ Count of solved tasks: 1282
 |5|Medium|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest Palindromic Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestPalindromicSubstring.java)|
 |11|Medium|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Container With Most Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ContainerWithMostWater.java)|
 |12|Medium|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Integer to Roman.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerToRoman.java)|
+|17|Medium|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Letter Combinations of a Phone Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LetterCombinationsOfPhoneNumber.java)|
 |24|Medium|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Swap Nodes in Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SwapNodesInPairs.java)|
 |29|Medium|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[Divide Two Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DivideTwoIntegers.java)|
 |31|Medium|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[Next Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextPermutation.java)|
