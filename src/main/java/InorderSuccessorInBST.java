@@ -34,34 +34,29 @@ public class InorderSuccessorInBST
 		Map<TreeNode, TreeNode> parents = new HashMap<>();
 		dfs(null, root, parents);
 
-		TreeNode parent;
-		while (p != null)
+		TreeNode parent = parents.get(p);
+		while (parent != null)
 		{
-			parent = parents.get(p);
-			if (parent != null && parent.left == p)
+			if (parent.val > p.val)
 			{
 				return parent;
 			}
 
-			p = parent;
+			parent = parents.get(parent);
 		}
 
 		return null;
 	}
 
-	private void dfs(TreeNode parent, TreeNode root, Map<TreeNode, TreeNode> parents)
+	private void dfs(TreeNode parent, TreeNode current, Map<TreeNode, TreeNode> parents)
 	{
-		if (root == null)
+		if (current == null)
 		{
 			return;
 		}
 
-		if (parent != null)
-		{
-			parents.put(root, parent);
-		}
-
-		dfs(root, root.left, parents);
-		dfs(root, root.right, parents);
+		parents.put(current, parent);
+		dfs(current, current.left, parents);
+		dfs(current, current.right, parents);
 	}
 }
