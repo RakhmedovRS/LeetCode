@@ -1,46 +1,50 @@
+import common.Difficulty;
 import common.LeetCode;
 
+import java.util.Arrays;
 import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author RakhmedovRS
  * @created 21-Jul-20
  */
-@LeetCode(id = 953, name = "Verifying an Alien Dictionary", url = "https://leetcode.com/problems/verifying-an-alien-dictionary/")
+@LeetCode(
+	id = 953,
+	name = "Verifying an Alien Dictionary",
+	url = "https://leetcode.com/problems/verifying-an-alien-dictionary/",
+	difficulty = Difficulty.EASY
+)
 public class VerifyingAlienDictionary
 {
 	public boolean isAlienSorted(String[] words, String order)
 	{
-		int[] positions = new int[26];
+		Map<Character, Character> dict = new HashMap<>();
 		for (int i = 0; i < order.length(); i++)
 		{
-			positions[order.charAt(i) - 'a'] = i;
+			dict.put(order.charAt(i), (char) ('a' + i));
 		}
 
-		Comparator<String> comparator = (word1, word2) ->
+		String[] original = new String[words.length];
+		String[] sorted = new String[words.length];
+		for (int i = 0; i < words.length; i++)
 		{
-			int word1Pos = 0;
-			int word2Pos = 0;
-			while (word1Pos < word1.length() && word2Pos < word2.length())
+			StringBuilder sb = new StringBuilder();
+			for (char ch : words[i].toCharArray())
 			{
-				int left = positions[word1.charAt(word1Pos++) - 'a'];
-				int right = positions[word2.charAt(word2Pos++) - 'a'];
-				if (left < right)
-				{
-					return -1;
-				}
-				else if (left > right)
-				{
-					return 1;
-				}
+
+				sb.append(dict.get(ch));
 			}
 
-			return word1Pos == word1.length() && word2Pos == word2.length() ? 0 : word1Pos == word1.length() ? -1 : 1;
-		};
+			original[i] = sb.toString();
+			sorted[i] = sb.toString();
+		}
 
-		for (int i = 1; i < words.length; i++)
+		Arrays.sort(sorted);
+		for (int i = 0; i < sorted.length; i++)
 		{
-			if (comparator.compare(words[i - 1], words[i]) > 0)
+			if (!original[i].equals(sorted[i]))
 			{
 				return false;
 			}
