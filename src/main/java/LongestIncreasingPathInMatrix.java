@@ -1,95 +1,60 @@
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 26-Apr-20
  */
-@LeetCode(id = 329, name = "Longest Increasing Path in a Matrix", url = "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/")
+@LeetCode(
+	id = 329,
+	name = "Longest Increasing Path in a Matrix",
+	url = "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
+	difficulty = Difficulty.HARD
+)
 public class LongestIncreasingPathInMatrix
 {
 	public int longestIncreasingPath(int[][] matrix)
 	{
-		if (matrix == null || matrix.length == 0)
+		int rows = matrix.length;
+		if (rows == 0)
 		{
 			return 0;
 		}
-
-		int rows = matrix.length;
 		int columns = matrix[0].length;
-		int[][] cache = new int[rows][columns];
-		for (int row = 0; row < rows; row++)
-		{
-			cache[row] = new int[columns];
-		}
 
-		int max = 1;
-		int len;
+		int max = 0;
+
 		for (int row = 0; row < rows; row++)
 		{
 			for (int column = 0; column < columns; column++)
 			{
-				len = longestIncreasingPath(matrix, row, column, cache);
-				if (len > max)
-				{
-					max = len;
-				}
+				max = Math.max(max, dfs(Long.MAX_VALUE, row, column, rows, columns, matrix, new Integer[rows][columns]));
 			}
 		}
+
 		return max;
 	}
 
-	private int longestIncreasingPath(int[][] matrix, int row, int column, int[][] cache)
+	private int dfs(long value, int row, int column, int rows, int columns, int[][] matrix, Integer[][] memo)
 	{
-		if (row < 0 || row == matrix.length || column < 0 || column == matrix[0].length)
+		if (row < 0 || row == rows || column < 0 || column == columns || value <= matrix[row][column])
 		{
 			return 0;
 		}
 
-		if (cache[row][column] != 0)
+		if (memo[row][column] != null)
 		{
-			return cache[row][column];
+			return memo[row][column];
 		}
 
-		int max = 1;
-		int len;
-		if (row - 1 >= 0 && matrix[row][column] < matrix[row - 1][column])
-		{
-			len = 1 + longestIncreasingPath(matrix, row - 1, column, cache);
-			if (len > max)
-			{
-				max = len;
-			}
-		}
+		int left = 1 + dfs(matrix[row][column], row - 1, column, rows, columns, matrix, memo);
+		int right = 1 + dfs(matrix[row][column], row + 1, column, rows, columns, matrix, memo);
+		int up = 1 + dfs(matrix[row][column], row, column - 1, rows, columns, matrix, memo);
+		int down = 1 + dfs(matrix[row][column], row, column + 1, rows, columns, matrix, memo);
 
-		if (row + 1 < matrix.length && matrix[row][column] < matrix[row + 1][column])
-		{
-			len = 1 + longestIncreasingPath(matrix, row + 1, column, cache);
-			if (len > max)
-			{
-				max = len;
-			}
-		}
+		memo[row][column] = Math.max(left, Math.max(right, Math.max(up, down)));
 
-		if (column - 1 >= 0 && matrix[row][column] < matrix[row][column - 1])
-		{
-			len = 1 + longestIncreasingPath(matrix, row, column - 1, cache);
-			if (len > max)
-			{
-				max = len;
-			}
-		}
-
-		if (column + 1 < matrix[row].length && matrix[row][column] < matrix[row][column + 1])
-		{
-			len = 1 + longestIncreasingPath(matrix, row, column + 1, cache);
-			if (len > max)
-			{
-				max = len;
-			}
-		}
-
-		cache[row][column] = max;
-		return max;
+		return memo[row][column];
 	}
 
 	public static void main(String[] args)
