@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1283
+Count of solved tasks: 1284
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1101,7 +1101,8 @@ Count of solved tasks: 1283
 |1806|Medium|[Minimum Number of Operations to Reinitialize a Permutation](https://leetcode.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation/)|[Minimum Number of Operations to Reinitialize a Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfOperationsToReinitializePermutation.java)|
 |1807|Medium|[Evaluate the Bracket Pairs of a String](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/)|[Evaluate the Bracket Pairs of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EvaluateTheBracketPairsOfString.java)|
 |1812|Easy|[Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)|[Determine Color of a Chessboard Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineColorOfChessboardSquare.java)|
-|1822|Easy|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[Sign of the Product of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SignOfTheProductOfArray.java)|</p>
+|1822|Easy|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[Sign of the Product of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SignOfTheProductOfArray.java)|
+|1823|Medium|[Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[Find the Winner of the Circular Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheWinnerOfTheCircularGame.java)|</p>
 </details>
 
 <details>
@@ -1392,7 +1393,8 @@ Count of solved tasks: 1283
 |1801|Medium|[Number of Orders in the Backlog](https://leetcode.com/problems/number-of-orders-in-the-backlog/)|[Number of Orders in the Backlog.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfOrdersInTheBacklog.java)|
 |1802|Medium|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|[Maximum Value at a Given Index in a Bounded Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumValueAtGivenIndexInBoundedArray.java)|
 |1806|Medium|[Minimum Number of Operations to Reinitialize a Permutation](https://leetcode.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation/)|[Minimum Number of Operations to Reinitialize a Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfOperationsToReinitializePermutation.java)|
-|1807|Medium|[Evaluate the Bracket Pairs of a String](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/)|[Evaluate the Bracket Pairs of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EvaluateTheBracketPairsOfString.java)|</p>
+|1807|Medium|[Evaluate the Bracket Pairs of a String](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/)|[Evaluate the Bracket Pairs of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EvaluateTheBracketPairsOfString.java)|
+|1823|Medium|[Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[Find the Winner of the Circular Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheWinnerOfTheCircularGame.java)|</p>
 </details>
 
 <details>
