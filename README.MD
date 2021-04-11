@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1285
+Count of solved tasks: 1286
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -803,6 +803,7 @@ Count of solved tasks: 1285
 |1296|Undefined|[Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)|[Divide Array in Sets of K Consecutive Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DivideArrayInSetsOfKConsecutiveNumbers.java)|
 |1297|Medium|[Maximum Number of Occurrences of a Substring](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/)|[Maximum Number of Occurrences of a Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfOccurrencesOfSubstring.java)|
 |1299|Undefined|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[Replace Elements with Greatest Element on Right Side.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReplaceElementsWithGreatestElementOnRightSide.java)|
+|1302|Medium|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|[Deepest Leaves Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeepestLeavesSum.java)|
 |1305|Undefined|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[All Elements in Two Binary Search Trees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AllElementInTwoBinarySearchTrees.java)|
 |1306|Undefined|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|[Jump Game III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/JumpGameIII.java)|
 |1310|Undefined|[XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/)|[XOR Queries of a Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/XORQueriesOfSubarray.java)|
@@ -1318,6 +1319,7 @@ Count of solved tasks: 1285
 |1268|Medium|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|[Search Suggestions System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchSuggestionsSystem.java)|
 |1276|Medium|[Number of Burgers with No Waste of Ingredients](https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/)|[Number of Burgers with No Waste of Ingredients.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfBurgersWithNoWasteOfIngredients.java)|
 |1297|Medium|[Maximum Number of Occurrences of a Substring](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/)|[Maximum Number of Occurrences of a Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumNumberOfOccurrencesOfSubstring.java)|
+|1302|Medium|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|[Deepest Leaves Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DeepestLeavesSum.java)|
 |1329|Medium|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[Sort the Matrix Diagonally.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SortMatrixDiagonally.java)|
 |1352|Medium|[Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/)|[Product of the Last K Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ProductOfTheLastKNumbers.java)|
 |1371|Medium|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|[Find the Longest Substring Containing Vowels in Even Counts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindtheLongestSubstringContainingVowelsInEvenCounts.java)|
