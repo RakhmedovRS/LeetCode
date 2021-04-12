@@ -15,28 +15,29 @@ public class BeautifulArrangementII
 {
 	public int[] constructArray(int n, int k)
 	{
-		int[] answer = new int[n];
+		int[] arr = new int[n];
 		for (int i = 0; i < n; i++)
 		{
-			answer[i] = i + 1;
+			arr[i] = i + 1;
 		}
 
-		for (int i = 1; i < k; i++)
+		for (int i = 1; i < n && k > 1; i++, k--)
 		{
-			reverse(i, answer);
+			reverse(arr, i);
 		}
-		return answer;
+
+		return arr;
 	}
 
-	private void reverse(int left, int[] array)
+	private void reverse(int[] arr, int left)
 	{
-		int right = array.length - 1;
 		int temp;
+		int right = arr.length - 1;
 		while (left < right)
 		{
-			temp = array[left];
-			array[left] = array[right];
-			array[right] = temp;
+			temp = arr[left];
+			arr[left] = arr[right];
+			arr[right] = temp;
 			left++;
 			right--;
 		}
