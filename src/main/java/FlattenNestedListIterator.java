@@ -1,14 +1,20 @@
+import common.Difficulty;
 import common.LeetCode;
 
-import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
  * @author RakhmedovRS
  * @created 27-Apr-20
  */
-@LeetCode(id = 341, name = "Flatten Nested List Iterator", url = "https://leetcode.com/problems/flatten-nested-list-iterator/")
+@LeetCode(
+	id = 341,
+	name = "Flatten Nested List Iterator",
+	url = "https://leetcode.com/problems/flatten-nested-list-iterator/",
+	difficulty = Difficulty.MEDIUM
+)
 public class FlattenNestedListIterator
 {
 	public interface NestedInteger
@@ -27,39 +33,38 @@ public class FlattenNestedListIterator
 
 	public class NestedIterator implements Iterator<Integer>
 	{
-		private List<Integer> integers;
-		int currentPos;
+
+		LinkedList<Integer> list;
 
 		public NestedIterator(List<NestedInteger> nestedList)
 		{
-			integers = new ArrayList<>();
-			currentPos = 0;
-			fillList(nestedList, integers);
+			list = new LinkedList<>();
+			traverse(nestedList, list);
 		}
 
 		@Override
 		public Integer next()
 		{
-			return integers.get(currentPos++);
+			return list.removeFirst();
 		}
 
 		@Override
 		public boolean hasNext()
 		{
-			return currentPos < integers.size();
+			return !list.isEmpty();
 		}
 
-		private void fillList(List<NestedInteger> nestedList, List<Integer> integers)
+		private void traverse(List<NestedInteger> nestedList, LinkedList<Integer> list)
 		{
 			for (NestedInteger nestedInteger : nestedList)
 			{
 				if (nestedInteger.isInteger())
 				{
-					integers.add(nestedInteger.getInteger());
+					list.addLast(nestedInteger.getInteger());
 				}
 				else
 				{
-					fillList(nestedInteger.getList(), integers);
+					traverse(nestedInteger.getList(), list);
 				}
 			}
 		}

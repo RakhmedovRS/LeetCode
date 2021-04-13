@@ -245,7 +245,7 @@ Count of solved tasks: 1286
 |336|Undefined|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)|[Palindrome Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PalindromePairs.java)|
 |337|Medium|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[House Robber III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HouseRobberIII.java)|
 |338|Undefined|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Counting Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountingBits.java)|
-|341|Undefined|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[Flatten Nested List Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlattenNestedListIterator.java)|
+|341|Medium|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[Flatten Nested List Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlattenNestedListIterator.java)|
 |343|Undefined|[Integer Break](https://leetcode.com/problems/integer-break/)|[Integer Break.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IntegerBreak.java)|
 |344|Undefined|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Reverse String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseString.java)|
 |345|Undefined|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Reverse Vowels of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ReverseVowelsOfString.java)|
@@ -1231,6 +1231,7 @@ Count of solved tasks: 1286
 |322|Medium|[Coin Change](https://leetcode.com/problems/coin-change/)|[Coin Change.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CoinChange.java)|
 |334|Medium|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[Increasing Triplet Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/IncreasingTripletSubsequence.java)|
 |337|Medium|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[House Robber III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/HouseRobberIII.java)|
+|341|Medium|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[Flatten Nested List Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FlattenNestedListIterator.java)|
 |354|Medium|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|[Russian Doll Envelopes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RussianDollEnvelopes.java)|
 |376|Medium|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[Wiggle Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/WiggleSubsequence.java)|
 |382|Medium|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|[Linked List Random Node.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LinkedListRandomNode.java)|
