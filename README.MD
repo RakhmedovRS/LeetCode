@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1286
+Count of solved tasks: 1287
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -83,6 +83,7 @@ Count of solved tasks: 1286
 |82|Medium|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Remove Duplicates from Sorted List II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveDuplicatesFromSortedListII.java)|
 |84|Hard|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[Largest Rectangle in Histogram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LargestRectangleInHistogram.java)|
 |85|Undefined|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|[Maximal Rectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximalRectangle.java)|
+|86|Medium|[Partition List](https://leetcode.com/problems/partition-list/)|[Partition List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionList.java)|
 |87|Undefined|[Scramble String](https://leetcode.com/problems/scramble-string/)|[Scramble String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ScrambleString.java)|
 |88|Easy|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Merge Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MergeSortedArray.java)|
 |90|Undefined|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Subsets II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubsetsII.java)|
@@ -1212,6 +1213,7 @@ Count of solved tasks: 1286
 |80|Medium|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Remove Duplicates from Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveDuplicatesFromSortedArrayII.java)|
 |81|Medium|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Search in Rotated Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SearchInRotatedSortedArrayII.java)|
 |82|Medium|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Remove Duplicates from Sorted List II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveDuplicatesFromSortedListII.java)|
+|86|Medium|[Partition List](https://leetcode.com/problems/partition-list/)|[Partition List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PartitionList.java)|
 |91|Medium|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[Decode Ways.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DecodeWays.java)|
 |98|Medium|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidateBinarySearchTree.java)|
 |117|Medium|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Populating Next Right Pointers in Each Node II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PopulatingNextRightPointersInEachNodeII.java)|
