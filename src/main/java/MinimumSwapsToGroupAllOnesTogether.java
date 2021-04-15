@@ -16,33 +16,35 @@ public class MinimumSwapsToGroupAllOnesTogether
 {
 	public int minSwaps(int[] data)
 	{
-		int onceCount = 0;
+		int onesCount = 0;
 		for (int d : data)
 		{
-			onceCount += d;
+			onesCount += d;
 		}
 
-		if (onceCount == 1)
+		if (onesCount == 0)
 		{
 			return 0;
 		}
 
-		int min = data.length;
+		int min = onesCount;
+		int currentCount = 0;
 		int left = 0;
 		int right = 0;
-		int count = 0;
 		while (right < data.length)
 		{
-			count += data[right];
-			if (right - left >= onceCount - 1)
+			currentCount += data[right++];
+
+			if (right - left > onesCount)
 			{
-				if (right - left >= onceCount)
-				{
-					count -= data[left++];
-				}
-				min = Math.min(min, onceCount - count);
+				currentCount -= data[left++];
 			}
-			right++;
+
+
+			if (right - left == onesCount)
+			{
+				min = Math.min(min, onesCount - currentCount);
+			}
 		}
 
 		return min;
