@@ -363,7 +363,7 @@ Count of solved tasks: 1287
 |506|Undefined|[Relative Ranks](https://leetcode.com/problems/relative-ranks/)|[Relative Ranks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RelativeRanks.java)|
 |507|Undefined|[Perfect Number](https://leetcode.com/problems/perfect-number/)|[Perfect Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/PerfectNumber.java)|
 |508|Undefined|[Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/)|[Most Frequent Subtree Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MostFrequentSubtreeSum.java)|
-|509|Undefined|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FibonacciNumber.java)|
+|509|Easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FibonacciNumber.java)|
 |513|Undefined|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|[Find Bottom Left Tree Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindBottomLeftTreeValue.java)|
 |514|Undefined|[Freedom Trail](https://leetcode.com/problems/freedom-trail/)|[Freedom Trail.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FreedomTrail.java)|
 |515|Undefined|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[Find Largest Value in Each Tree Row.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindLargestValueInEachTreeRow.java)|
@@ -1132,6 +1132,7 @@ Count of solved tasks: 1287
 |242|Easy|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Valid Anagram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/ValidAnagram.java)|
 |268|Easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MissingNumber.java)|
 |496|Easy|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Next Greater Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NextGreaterElementI.java)|
+|509|Easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FibonacciNumber.java)|
 |594|Easy|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Longest Harmonious Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LongestHarmoniousSubsequence.java)|
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[Range Addition II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RangeAdditionII.java)|
 |605|Easy|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Can Place Flowers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CanPlaceFlowers.java)|
