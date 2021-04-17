@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1290
+Count of solved tasks: 1291
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1107,7 +1107,8 @@ Count of solved tasks: 1290
 |1823|Medium|[Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[Find the Winner of the Circular Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheWinnerOfTheCircularGame.java)|
 |1824|Medium|[Minimum Sideway Jumps](https://leetcode.com/problems/minimum-sideway-jumps/)|[Minimum Sideway Jumps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSidewayJumps.java)|
 |1827|Easy|[Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)|[Minimum Operations to Make the Array Increasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToMakeTheArrayIncreasing.java)|
-|1828|Medium|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|[Queries on Number of Points Inside a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueriesOnNumberOfPointsInsideCircle.java)|</p>
+|1828|Medium|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|[Queries on Number of Points Inside a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueriesOnNumberOfPointsInsideCircle.java)|
+|1829|Medium|[Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/)|[Maximum XOR for Each Query.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumXORForEachQuery.java)|</p>
 </details>
 
 <details>
@@ -1407,7 +1408,8 @@ Count of solved tasks: 1290
 |1807|Medium|[Evaluate the Bracket Pairs of a String](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/)|[Evaluate the Bracket Pairs of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EvaluateTheBracketPairsOfString.java)|
 |1823|Medium|[Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[Find the Winner of the Circular Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheWinnerOfTheCircularGame.java)|
 |1824|Medium|[Minimum Sideway Jumps](https://leetcode.com/problems/minimum-sideway-jumps/)|[Minimum Sideway Jumps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSidewayJumps.java)|
-|1828|Medium|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|[Queries on Number of Points Inside a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueriesOnNumberOfPointsInsideCircle.java)|</p>
+|1828|Medium|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|[Queries on Number of Points Inside a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueriesOnNumberOfPointsInsideCircle.java)|
+|1829|Medium|[Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/)|[Maximum XOR for Each Query.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumXORForEachQuery.java)|</p>
 </details>
 
 <details>
