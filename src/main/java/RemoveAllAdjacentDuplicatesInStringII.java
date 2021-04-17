@@ -1,41 +1,62 @@
+import common.Difficulty;
 import common.LeetCode;
+
+import java.util.LinkedList;
 
 /**
  * @author RakhmedovRS
  * @created 26-Feb-20
  */
-@LeetCode(id = 1209, name = "Remove All Adjacent Duplicates in String II", url = "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/")
+@LeetCode(
+	id = 1209,
+	name = "Remove All Adjacent Duplicates in String II",
+	url = "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/",
+	difficulty = Difficulty.MEDIUM
+)
 public class RemoveAllAdjacentDuplicatesInStringII
 {
-	public String removeDuplicates(String S, int k)
+	public String removeDuplicates(String s, int k)
 	{
-		java.util.Deque<java.util.Map.Entry<Character, Integer>> stack = new java.util.LinkedList<>();
-		for (char ch : S.toCharArray())
+		if (k == 1)
 		{
-			if (stack.isEmpty() || stack.peek().getKey() != ch)
+			return "";
+		}
+
+		boolean removed = false;
+		LinkedList<Character> characters = new LinkedList<>();
+		LinkedList<Integer> counts = new LinkedList<>();
+		for (char ch : s.toCharArray())
+		{
+			if (!characters.isEmpty() && characters.getLast() == ch && counts.getLast() == k - 1)
 			{
-				stack.addFirst(new java.util.AbstractMap.SimpleEntry<>(ch, 1));
-			}
-			else if (stack.peek().getKey() == ch && stack.peek().getValue() < k - 1)
-			{
-				stack.peek().setValue(stack.peek().getValue() + 1);
+				for (int i = 0; i < k - 1; i++)
+				{
+					characters.removeLast();
+					counts.removeLast();
+				}
+				removed = true;
 			}
 			else
 			{
-				stack.pop();
+				if (characters.isEmpty() || characters.getLast() != ch)
+				{
+					counts.addLast(1);
+				}
+				else
+				{
+					counts.addLast(counts.getLast() + 1);
+				}
+
+				characters.addLast(ch);
 			}
 		}
 
-		StringBuilder sb = new StringBuilder(stack.size());
-		while (!stack.isEmpty())
+		StringBuilder sb = new StringBuilder();
+		for (char ch : characters)
 		{
-			for (int i = 0; i < stack.peek().getValue(); i++)
-			{
-				sb.append(stack.peek().getKey());
-			}
-			stack.pop();
+			sb.append(ch);
 		}
 
-		return sb.reverse().toString();
+		return removed ? removeDuplicates(sb.toString(), k) : sb.toString();
 	}
 }
