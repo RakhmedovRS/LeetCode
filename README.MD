@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1289
+Count of solved tasks: 1290
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1106,7 +1106,8 @@ Count of solved tasks: 1289
 |1822|Easy|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[Sign of the Product of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SignOfTheProductOfArray.java)|
 |1823|Medium|[Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[Find the Winner of the Circular Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheWinnerOfTheCircularGame.java)|
 |1824|Medium|[Minimum Sideway Jumps](https://leetcode.com/problems/minimum-sideway-jumps/)|[Minimum Sideway Jumps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSidewayJumps.java)|
-|1827|Easy|[Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)|[Minimum Operations to Make the Array Increasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToMakeTheArrayIncreasing.java)|</p>
+|1827|Easy|[Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)|[Minimum Operations to Make the Array Increasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToMakeTheArrayIncreasing.java)|
+|1828|Medium|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|[Queries on Number of Points Inside a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueriesOnNumberOfPointsInsideCircle.java)|</p>
 </details>
 
 <details>
@@ -1405,7 +1406,8 @@ Count of solved tasks: 1289
 |1806|Medium|[Minimum Number of Operations to Reinitialize a Permutation](https://leetcode.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation/)|[Minimum Number of Operations to Reinitialize a Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfOperationsToReinitializePermutation.java)|
 |1807|Medium|[Evaluate the Bracket Pairs of a String](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/)|[Evaluate the Bracket Pairs of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/EvaluateTheBracketPairsOfString.java)|
 |1823|Medium|[Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[Find the Winner of the Circular Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheWinnerOfTheCircularGame.java)|
-|1824|Medium|[Minimum Sideway Jumps](https://leetcode.com/problems/minimum-sideway-jumps/)|[Minimum Sideway Jumps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSidewayJumps.java)|</p>
+|1824|Medium|[Minimum Sideway Jumps](https://leetcode.com/problems/minimum-sideway-jumps/)|[Minimum Sideway Jumps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSidewayJumps.java)|
+|1828|Medium|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|[Queries on Number of Points Inside a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueriesOnNumberOfPointsInsideCircle.java)|</p>
 </details>
 
 <details>
