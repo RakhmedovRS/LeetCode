@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1288
+Count of solved tasks: 1289
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1105,7 +1105,8 @@ Count of solved tasks: 1288
 |1812|Easy|[Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)|[Determine Color of a Chessboard Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineColorOfChessboardSquare.java)|
 |1822|Easy|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[Sign of the Product of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SignOfTheProductOfArray.java)|
 |1823|Medium|[Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[Find the Winner of the Circular Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindTheWinnerOfTheCircularGame.java)|
-|1824|Medium|[Minimum Sideway Jumps](https://leetcode.com/problems/minimum-sideway-jumps/)|[Minimum Sideway Jumps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSidewayJumps.java)|</p>
+|1824|Medium|[Minimum Sideway Jumps](https://leetcode.com/problems/minimum-sideway-jumps/)|[Minimum Sideway Jumps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSidewayJumps.java)|
+|1827|Easy|[Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)|[Minimum Operations to Make the Array Increasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToMakeTheArrayIncreasing.java)|</p>
 </details>
 
 <details>
@@ -1189,7 +1190,8 @@ Count of solved tasks: 1288
 |1800|Easy|[Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/)|[Maximum Ascending Subarray Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumAscendingSubarraySum.java)|
 |1805|Easy|[Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)|[Number of Different Integers in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfDifferentIntegersInString.java)|
 |1812|Easy|[Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)|[Determine Color of a Chessboard Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineColorOfChessboardSquare.java)|
-|1822|Easy|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[Sign of the Product of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SignOfTheProductOfArray.java)|</p>
+|1822|Easy|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[Sign of the Product of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SignOfTheProductOfArray.java)|
+|1827|Easy|[Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)|[Minimum Operations to Make the Array Increasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToMakeTheArrayIncreasing.java)|</p>
 </details>
 
 <details>
