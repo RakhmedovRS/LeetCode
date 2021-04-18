@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1292
+Count of solved tasks: 1293
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1109,7 +1109,8 @@ Count of solved tasks: 1292
 |1824|Medium|[Minimum Sideway Jumps](https://leetcode.com/problems/minimum-sideway-jumps/)|[Minimum Sideway Jumps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSidewayJumps.java)|
 |1827|Easy|[Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)|[Minimum Operations to Make the Array Increasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToMakeTheArrayIncreasing.java)|
 |1828|Medium|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|[Queries on Number of Points Inside a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueriesOnNumberOfPointsInsideCircle.java)|
-|1829|Medium|[Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/)|[Maximum XOR for Each Query.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumXORForEachQuery.java)|</p>
+|1829|Medium|[Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/)|[Maximum XOR for Each Query.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumXORForEachQuery.java)|
+|1832|Easy|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|[Check if the Sentence Is Pangram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTheSentenceIsPangram.java)|</p>
 </details>
 
 <details>
@@ -1194,7 +1195,8 @@ Count of solved tasks: 1292
 |1805|Easy|[Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)|[Number of Different Integers in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfDifferentIntegersInString.java)|
 |1812|Easy|[Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)|[Determine Color of a Chessboard Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DetermineColorOfChessboardSquare.java)|
 |1822|Easy|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[Sign of the Product of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SignOfTheProductOfArray.java)|
-|1827|Easy|[Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)|[Minimum Operations to Make the Array Increasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToMakeTheArrayIncreasing.java)|</p>
+|1827|Easy|[Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)|[Minimum Operations to Make the Array Increasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumOperationsToMakeTheArrayIncreasing.java)|
+|1832|Easy|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|[Check if the Sentence Is Pangram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTheSentenceIsPangram.java)|</p>
 </details>
 
 <details>
