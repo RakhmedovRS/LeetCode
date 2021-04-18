@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1291
+Count of solved tasks: 1292
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -708,6 +708,7 @@ Count of solved tasks: 1291
 |1054|Undefined|[Distant Barcodes](https://leetcode.com/problems/distant-barcodes/)|[Distant Barcodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DistantBarcodes.java)|
 |1071|Undefined|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|[Greatest Common Divisor of Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/GreatestCommonDivisorOfStrings.java)|
 |1073|Undefined|[Adding Two Negabinary Numbers](https://leetcode.com/problems/adding-two-negabinary-numbers/)|[Adding Two Negabinary Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/AddingTwoNegabinaryNumbers.java)|
+|1074|Hard|[Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)|[Number of Submatrices That Sum to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfSubmatricesThatSumToTarget.java)|
 |1078|Undefined|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|[Occurrences After Bigram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/OccurrencesAfterBigram.java)|
 |1079|Undefined|[Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)|[Letter Tile Possibilities.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/LetterTilePossibilities.java)|
 |1080|Undefined|[Insufficient Nodes in Root to Leaf Paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/)|[Insufficient Nodes in Root to Leaf Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/InsufficientNodesInRootToLeafPaths.java)|
@@ -1441,6 +1442,7 @@ Count of solved tasks: 1291
 |987|Hard|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|[Vertical Order Traversal of a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/VerticalOrderTraversalOfBinaryTree.java)|
 |992|Hard|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)|[Subarrays with K Different Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SubarraysWithKDifferentIntegers.java)|
 |995|Hard|[Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)|[Minimum Number of K Consecutive Bit Flips.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java)|
+|1074|Hard|[Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)|[Number of Submatrices That Sum to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/NumberOfSubmatricesThatSumToTarget.java)|
 |1172|Hard|[Dinner Plate Stacks](https://leetcode.com/problems/dinner-plate-stacks/)|[Dinner Plate Stacks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/DinnerPlateStacks.java)|
 |1220|Hard|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[Count Vowels Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CountVowelsPermutation.java)|
 |1235|Hard|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[Maximum Profit in Job Scheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumProfitInJobScheduling.java)|
