@@ -1,39 +1,37 @@
+import common.Difficulty;
 import common.LeetCode;
 import common.ListNode;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author RakhmedovRS
  * @created 14-Mar-20
  */
-@LeetCode(id = 19, name = "Remove Nth Node From End of List", url = "https://leetcode.com/problems/remove-nth-node-from-end-of-list/")
+@LeetCode(
+	id = 19,
+	name = "Remove Nth Node From End of List",
+	url = "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+	difficulty = Difficulty.MEDIUM
+)
 public class RemoveNthNodeFromEndOfList
 {
 	public ListNode removeNthFromEnd(ListNode head, int n)
 	{
-		ListNode dummy = new ListNode(0);
-		ListNode dummy2 = new ListNode(0);
-		dummy.next = dummy2;
-		dummy2.next = head;
+		List<ListNode> list  = new ArrayList<>();
+		list.add(new ListNode());
+		list.get(0).next = head;
 
-		ListNode current = dummy2;
-		while (n > 0)
+		while (head != null)
 		{
-			current = current.next;
-			n--;
+			list.add(head);
+			head = head.next;
 		}
 
-		ListNode newCurrent = dummy2;
-		ListNode prev = dummy;
-		while (current != null)
-		{
-			prev = newCurrent;
-			newCurrent = newCurrent.next;
-			current = current.next;
-		}
+		list.get(list.size() - 1 - n).next = list.get(list.size() - n);
 
-		prev.next = newCurrent.next;
-
-		return dummy2.next;
+		return list.get(0).next;
 	}
 
 	public static void main(String[] args)
