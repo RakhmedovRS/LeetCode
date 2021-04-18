@@ -1,6 +1,7 @@
 import common.Difficulty;
 import common.LeetCode;
 
+import java.util.Arrays;
 import java.util.PriorityQueue;
 
 /**
@@ -62,5 +63,12 @@ public class SingleThreadedCPU
 		}
 
 		return answer;
+	}
+
+	public static void main(String[] args)
+	{
+		SingleThreadedCPU clazz = new SingleThreadedCPU();
+		System.out.println(Arrays.toString(clazz.getOrder(new int[][]{{100,100}, {500,100}, {1000,100}, {10000,100}, {100000,100}})));
+		System.out.println(Arrays.toString(clazz.getOrder(new int[][]{{5, 2}, {7, 2}, {9, 4}, {6, 3}, {5, 10}, {1, 1}})));
 	}
 }
