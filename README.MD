@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1295
+Count of solved tasks: 1296
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1112,7 +1112,8 @@ Count of solved tasks: 1295
 |1829|Medium|[Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/)|[Maximum XOR for Each Query.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumXORForEachQuery.java)|
 |1832|Easy|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|[Check if the Sentence Is Pangram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTheSentenceIsPangram.java)|
 |1833|Medium|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|[Maximum Ice Cream Bars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumIceCreamBars.java)|
-|1834|Medium|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)|[Single-Threaded CPU.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleThreadedCPU.java)|</p>
+|1834|Medium|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)|[Single-Threaded CPU.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleThreadedCPU.java)|
+|1835|Hard|[Find XOR Sum of All Pairs Bitwise AND](https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/)|[Find XOR Sum of All Pairs Bitwise AND.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindXORSumOfAllPairsBitwiseAND.java)|</p>
 </details>
 
 <details>
@@ -1464,7 +1465,8 @@ Count of solved tasks: 1295
 |1579|Hard|[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|[Remove Max Number of Edges to Keep Graph Fully Traversable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable.java)|
 |1649|Hard|[Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)|[Create Sorted Array through Instructions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CreateSortedArrayThroughInstructions.java)|
 |1665|Hard|[Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/)|[Minimum Initial Energy to Finish Tasks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumInitialEnergyToFinishTasks.java)|
-|1675|Hard|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|[Minimize Deviation in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimizeDeviationInArray.java)|</p>
+|1675|Hard|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|[Minimize Deviation in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimizeDeviationInArray.java)|
+|1835|Hard|[Find XOR Sum of All Pairs Bitwise AND](https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/)|[Find XOR Sum of All Pairs Bitwise AND.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/FindXORSumOfAllPairsBitwiseAND.java)|</p>
 </details>
 
 <details>
