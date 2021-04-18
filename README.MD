@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1294
+Count of solved tasks: 1295
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1111,7 +1111,8 @@ Count of solved tasks: 1294
 |1828|Medium|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|[Queries on Number of Points Inside a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueriesOnNumberOfPointsInsideCircle.java)|
 |1829|Medium|[Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/)|[Maximum XOR for Each Query.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumXORForEachQuery.java)|
 |1832|Easy|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|[Check if the Sentence Is Pangram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/CheckIfTheSentenceIsPangram.java)|
-|1833|Medium|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|[Maximum Ice Cream Bars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumIceCreamBars.java)|</p>
+|1833|Medium|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|[Maximum Ice Cream Bars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumIceCreamBars.java)|
+|1834|Medium|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)|[Single-Threaded CPU.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleThreadedCPU.java)|</p>
 </details>
 
 <details>
@@ -1414,7 +1415,8 @@ Count of solved tasks: 1294
 |1824|Medium|[Minimum Sideway Jumps](https://leetcode.com/problems/minimum-sideway-jumps/)|[Minimum Sideway Jumps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MinimumSidewayJumps.java)|
 |1828|Medium|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|[Queries on Number of Points Inside a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/QueriesOnNumberOfPointsInsideCircle.java)|
 |1829|Medium|[Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/)|[Maximum XOR for Each Query.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumXORForEachQuery.java)|
-|1833|Medium|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|[Maximum Ice Cream Bars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumIceCreamBars.java)|</p>
+|1833|Medium|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|[Maximum Ice Cream Bars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/MaximumIceCreamBars.java)|
+|1834|Medium|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)|[Single-Threaded CPU.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/SingleThreadedCPU.java)|</p>
 </details>
 
 <details>
