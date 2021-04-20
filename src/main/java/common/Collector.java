@@ -19,7 +19,7 @@ public class Collector
 	private static final String LINE =   "|:-----------:|:-----------:|:--------------:|:--------------:|";
 	private static final String GENERAL_INFO_PATTERN = "### This file was created automatically by [%s.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/%s.java)";
 	private static final String GENERAL_PATTERN = "|%d|%s|[%s](%s)|%s|";
-	private static final String URL_PATTERN = "[%s.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/%s.java)";
+	private static final String URL_PATTERN = "[%s.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/%s.java)";
 
 	public static void main(String[] args) throws Exception
 	{
