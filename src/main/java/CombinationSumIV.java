@@ -1,3 +1,4 @@
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -6,27 +7,32 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 04-Jul-20
  */
-@LeetCode(id = 377, name = "Combination Sum IV", url = "https://leetcode.com/problems/combination-sum-iv/")
+@LeetCode(
+	id = 377,
+	name = "Combination Sum IV",
+	url = "https://leetcode.com/problems/combination-sum-iv/",
+	difficulty = Difficulty.MEDIUM
+)
 public class CombinationSumIV
 {
 	public int combinationSum4(int[] nums, int target)
 	{
-		int[] memo = new int[target + 1];
+		int[] memo = new int[1001];
 		Arrays.fill(memo, -1);
-
-		return helper(nums, target, memo);
+		Arrays.sort(nums);
+		return dfs(target, nums, memo);
 	}
 
-	public int helper(int[] nums, int target, int[] memo)
+	private int dfs(int target, int[] nums, int[] memo)
 	{
+		if (target < 0)
+		{
+			return -1;
+		}
+
 		if (target == 0)
 		{
 			return 1;
-		}
-
-		if (target < 0)
-		{
-			return 0;
 		}
 
 		if (memo[target] != -1)
@@ -34,15 +40,18 @@ public class CombinationSumIV
 			return memo[target];
 		}
 
-		int res = 0;
+		int use;
+		memo[target] = 0;
 		for (int num : nums)
 		{
-			res += helper(nums, target - num, memo);
+			use = dfs(target - num, nums, memo);
+			if (use != -1)
+			{
+				memo[target] += use;
+			}
 		}
 
-		memo[target] = res;
-
-		return res;
+		return memo[target];
 	}
 
 	public static void main(String[] args)
