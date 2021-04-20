@@ -1,14 +1,18 @@
+import common.Difficulty;
 import common.LeetCode;
 
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author RakhmedovRS
  * @created 10-Feb-20
  */
-@LeetCode(id = 589, name = "N-ary Tree Preorder Traversal", url = "https://leetcode.com/problems/n-ary-tree-preorder-traversal/")
+@LeetCode(
+	id = 589,
+	name = "N-ary Tree Preorder Traversal",
+	url = "https://leetcode.com/problems/n-ary-tree-preorder-traversal/",
+	difficulty = Difficulty.EASY
+)
 public class N_aryTreePreorderTraversal
 {
 	class Node
@@ -30,39 +34,20 @@ public class N_aryTreePreorderTraversal
 		}
 	}
 
-	public List<Integer> preorder(Node root) {
-		List<Integer> result = new LinkedList<>();
-		preorder(root, result);
-		return result;
-	}
-
-	private void preorder(Node root, List<Integer> result)
+	public List<Integer> preorder(Node root)
 	{
 		if (root == null)
 		{
-			return;
+			return Collections.emptyList();
 		}
 
-		Deque<Node> deque = new LinkedList<>();
-		deque.addFirst(root);
-		while (!deque.isEmpty())
+		List<Integer> list = new ArrayList<>();
+		list.add(root.val);
+		for (Node child : root.children)
 		{
-			Node node = deque.remove();
-			if (node != null)
-			{
-				result.add(node.val);
-				if (node.children != null)
-				{
-					for (int i = node.children.size() - 1; i >= 0; i--)
-					{
-						Node children = node.children.get(i);
-						if (children != null)
-						{
-							deque.addFirst(children);
-						}
-					}
-				}
-			}
+			list.addAll(preorder(child));
 		}
+
+		return list;
 	}
 }
