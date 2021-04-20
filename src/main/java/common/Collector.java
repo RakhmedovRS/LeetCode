@@ -24,14 +24,14 @@ public class Collector
 	public static void main(String[] args) throws Exception
 	{
 		Set<Integer> seenIds = new HashSet<>();
-		try (Stream<Path> pathStream = Files.list(Paths.get("").toAbsolutePath().resolve("src").resolve("main").resolve("java")))
+		try (Stream<Path> pathStream = Files.list(Paths.get("").toAbsolutePath().resolve("src").resolve("main").resolve("java").resolve("tasks")))
 		{
 			List<Map.Entry<LeetCode, String>> annotations =
 				pathStream.map(path ->
 				{
 					try
 					{
-						return Class.forName(path.getFileName().toString().replaceAll(".java", ""));
+						return Class.forName("tasks." + path.getFileName().toString().replaceAll(".java", ""));
 					}
 					catch (Exception ignore)
 					{
@@ -39,7 +39,7 @@ public class Collector
 					}
 				})
 					.filter(clazz -> clazz != null && clazz.isAnnotationPresent(LeetCode.class))
-					.map(clazz -> new AbstractMap.SimpleEntry<>(clazz.getAnnotation(LeetCode.class), clazz.getName()))
+					.map(clazz -> new AbstractMap.SimpleEntry<>(clazz.getAnnotation(LeetCode.class), clazz.getSimpleName()))
 					.sorted(Comparator.comparingInt(entry -> entry.getKey().id()))
 					.peek(entry -> {
 						if (!seenIds.add(entry.getKey().id()))
