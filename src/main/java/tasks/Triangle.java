@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -10,7 +11,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 12-Apr-20
  */
-@LeetCode(id = 120, name = "tasks.Triangle", url = "https://leetcode.com/problems/triangle/")
+@LeetCode(
+	id = 120,
+	name = "tasks.Triangle",
+	url = "https://leetcode.com/problems/triangle/",
+	difficulty = Difficulty.MEDIUM
+)
 public class Triangle
 {
 	public int minimumTotal(List<List<Integer>> triangle)
