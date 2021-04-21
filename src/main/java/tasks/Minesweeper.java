@@ -6,7 +6,7 @@ import common.LeetCode;
  * @author RakhmedovRS
  * @created 10/5/2020
  */
-@LeetCode(id = 529, name = "tasks.Minesweeper", url = "https://leetcode.com/problems/minesweeper/")
+@LeetCode(id = 529, name = "Minesweeper", url = "https://leetcode.com/problems/minesweeper/")
 public class Minesweeper
 {
 	public char[][] updateBoard(char[][] board, int[] click)

@@ -9,7 +9,7 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 09-Apr-20
  */
-@LeetCode(id = 78, name = "tasks.Subsets", url = "https://leetcode.com/problems/subsets/")
+@LeetCode(id = 78, name = "Subsets", url = "https://leetcode.com/problems/subsets/")
 public class Subsets
 {
 	public List<List<Integer>> subsets(int[] nums)

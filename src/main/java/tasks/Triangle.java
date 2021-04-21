@@ -13,7 +13,7 @@ import java.util.List;
  */
 @LeetCode(
 	id = 120,
-	name = "tasks.Triangle",
+	name = "Triangle",
 	url = "https://leetcode.com/problems/triangle/",
 	difficulty = Difficulty.MEDIUM
 )

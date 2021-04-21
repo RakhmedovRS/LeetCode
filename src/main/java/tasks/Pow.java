@@ -6,7 +6,7 @@ import common.LeetCode;
  * @author RakhmedovRS
  * @created 09-Apr-20
  */
-@LeetCode(id = 50, name = "tasks.Pow(x, n)", url = "https://leetcode.com/problems/powx-n/")
+@LeetCode(id = 50, name = "Pow(x, n)", url = "https://leetcode.com/problems/powx-n/")
 public class Pow
 {
 	public double myPow(double x, int n)

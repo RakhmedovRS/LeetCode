@@ -8,7 +8,7 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 22-Apr-20
  */
-@LeetCode(id = 90, name = "tasks.Subsets II", url = "https://leetcode.com/problems/subsets-ii/")
+@LeetCode(id = 90, name = "Subsets II", url = "https://leetcode.com/problems/subsets-ii/")
 public class SubsetsII
 {
 	public List<List<Integer>> subsetsWithDup(int[] nums)

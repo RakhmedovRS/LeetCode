@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 08-Mar-20
  */
-@LeetCode(id = 135, name = "tasks.Candy", url = "https://leetcode.com/problems/candy/")
+@LeetCode(id = 135, name = "Candy", url = "https://leetcode.com/problems/candy/")
 public class Candy
 {
 	public int candy(int[] ratings)

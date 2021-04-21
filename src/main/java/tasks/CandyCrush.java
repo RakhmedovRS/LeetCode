@@ -9,7 +9,7 @@ import common.LeetCode;
  */
 @LeetCode(
 	id = 723,
-	name = "tasks.Candy Crush",
+	name = "Candy Crush",
 	url = "https://leetcode.com/problems/candy-crush/",
 	difficulty = Difficulty.MEDIUM,
 	premium = true

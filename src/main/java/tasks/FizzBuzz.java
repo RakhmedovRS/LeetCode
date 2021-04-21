@@ -27,7 +27,7 @@ public class FizzBuzz
 				i++;
 				if (i % 3 == 0 && i % 5 == 0)
 				{
-					return "tasks.FizzBuzz";
+					return "FizzBuzz";
 				}
 				else if (i % 3 == 0)
 				{

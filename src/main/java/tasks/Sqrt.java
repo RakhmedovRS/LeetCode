@@ -6,7 +6,7 @@ import common.LeetCode;
  * @author RakhmedovRS
  * @created 12-Apr-20
  */
-@LeetCode(id = 69, name = "tasks.Sqrt(x)", url = "https://leetcode.com/problems/sqrtx/")
+@LeetCode(id = 69, name = "Sqrt(x)", url = "https://leetcode.com/problems/sqrtx/")
 public class Sqrt
 {
 	public int mySqrt(int x)

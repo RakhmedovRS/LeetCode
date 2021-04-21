@@ -48,11 +48,11 @@ Count of solved tasks: 1296
 |42|Undefined|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Trapping Rain Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TrappingRainWater.java)|
 |44|Undefined|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[Wildcard Matching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WildcardMatching.java)|
 |45|Undefined|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Jump Game II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGameII.java)|
-|46|Undefined|[tasks.Permutations](https://leetcode.com/problems/permutations/)|[tasks.Permutations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Permutations.java)|
-|47|Undefined|[tasks.Permutations II](https://leetcode.com/problems/permutations-ii/)|[tasks.Permutations II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PermutationsII.java)|
+|46|Undefined|[Permutations](https://leetcode.com/problems/permutations/)|[Permutations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Permutations.java)|
+|47|Undefined|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Permutations II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PermutationsII.java)|
 |48|Undefined|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[Rotate Image.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotateImage.java)|
 |49|Undefined|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Group Anagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GroupAnagrams.java)|
-|50|Undefined|[tasks.Pow(x, n)](https://leetcode.com/problems/powx-n/)|[tasks.Pow(x, n).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Pow.java)|
+|50|Undefined|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Pow(x, n).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Pow.java)|
 |52|Undefined|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[N-Queens II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NQueensII.java)|
 |53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSubarray.java)|
 |54|Undefined|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Spiral Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpiralMatrix.java)|
@@ -68,7 +68,7 @@ Count of solved tasks: 1296
 |64|Undefined|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Minimum Path Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPathSum.java)|
 |66|Undefined|[Plus One](https://leetcode.com/problems/plus-one/)|[Plus One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PlusOne.java)|
 |67|Undefined|[Add Binary](https://leetcode.com/problems/add-binary/)|[Add Binary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddBinary.java)|
-|69|Undefined|[tasks.Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[tasks.Sqrt(x).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Sqrt.java)|
+|69|Undefined|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Sqrt(x).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Sqrt.java)|
 |70|Undefined|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClimbingStairs.java)|
 |71|Medium|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[Simplify Path.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SimplifyPath.java)|
 |72|Undefined|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[Edit Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EditDistance.java)|
@@ -76,7 +76,7 @@ Count of solved tasks: 1296
 |74|Undefined|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Search a 2D Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Search2DMatrix.java)|
 |75|Undefined|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[Sort Colors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortColors.java)|
 |76|Undefined|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[Minimum Window Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumWindowSubstring.java)|
-|78|Undefined|[tasks.Subsets](https://leetcode.com/problems/subsets/)|[tasks.Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Subsets.java)|
+|78|Undefined|[Subsets](https://leetcode.com/problems/subsets/)|[Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Subsets.java)|
 |79|Undefined|[Word Search](https://leetcode.com/problems/word-search/)|[Word Search.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordSearch.java)|
 |80|Medium|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Remove Duplicates from Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveDuplicatesFromSortedArrayII.java)|
 |81|Medium|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Search in Rotated Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SearchInRotatedSortedArrayII.java)|
@@ -86,7 +86,7 @@ Count of solved tasks: 1296
 |86|Medium|[Partition List](https://leetcode.com/problems/partition-list/)|[Partition List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionList.java)|
 |87|Undefined|[Scramble String](https://leetcode.com/problems/scramble-string/)|[Scramble String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ScrambleString.java)|
 |88|Easy|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Merge Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeSortedArray.java)|
-|90|Undefined|[tasks.Subsets II](https://leetcode.com/problems/subsets-ii/)|[tasks.Subsets II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubsetsII.java)|
+|90|Undefined|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Subsets II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubsetsII.java)|
 |91|Medium|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[Decode Ways.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeWays.java)|
 |93|Undefined|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[Restore IP Addresses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RestoreIPAddresses.java)|
 |94|Undefined|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Binary Tree Inorder Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeInorderTraversal.java)|
@@ -110,7 +110,7 @@ Count of solved tasks: 1296
 |117|Medium|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Populating Next Right Pointers in Each Node II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PopulatingNextRightPointersInEachNodeII.java)|
 |118|Undefined|[Pascal's tasks.Triangle](https://leetcode.com/problems/pascals-triangle/)|[Pascal's tasks.Triangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PascalTriangle.java)|
 |119|Undefined|[Pascal's tasks.Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Pascal's tasks.Triangle II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PascalTriangleII.java)|
-|120|Medium|[tasks.Triangle](https://leetcode.com/problems/triangle/)|[tasks.Triangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Triangle.java)|
+|120|Medium|[Triangle](https://leetcode.com/problems/triangle/)|[Triangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Triangle.java)|
 |121|Undefined|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Best Time to Buy and Sell Stock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestTimeToBuyAndSellStock.java)|
 |122|Undefined|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Best Time to Buy and Sell Stock II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestTimeToBuyAndSellStockII.java)|
 |123|Undefined|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/submissions/)|[Best Time to Buy and Sell Stock III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestTimeToBuyAndSellStockIII.java)|
@@ -124,7 +124,7 @@ Count of solved tasks: 1296
 |132|Medium|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)|[Palindrome Partitioning II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromePartitioningII.java)|
 |133|Undefined|[Clone Graph](https://leetcode.com/problems/clone-graph/)|[Clone Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CloneGraph.java)|
 |134|Undefined|[Gas Station](https://leetcode.com/problems/gas-station/)|[Gas Station.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GasStation.java)|
-|135|Undefined|[tasks.Candy](https://leetcode.com/problems/candy/)|[tasks.Candy.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Candy.java)|
+|135|Undefined|[Candy](https://leetcode.com/problems/candy/)|[Candy.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Candy.java)|
 |136|Undefined|[Single Number](https://leetcode.com/problems/single-number/)|[Single Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SingleNumber.java)|
 |138|Medium|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Copy List with Random Pointer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CopyListWithRandomPointer.java)|
 |139|Undefined|[Word Break](https://leetcode.com/problems/word-break/)|[Word Break.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordBreak.java)|
@@ -338,7 +338,7 @@ Count of solved tasks: 1296
 |472|Undefined|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|[Concatenated Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenatedWords.java)|
 |473|Medium|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[Matchsticks to Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MatchsticksToSquare.java)|
 |474|Undefined|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|[Ones and Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OnesAndZeroes.java)|
-|475|Undefined|[tasks.Heaters](https://leetcode.com/problems/heaters/)|[tasks.Heaters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Heaters.java)|
+|475|Undefined|[Heaters](https://leetcode.com/problems/heaters/)|[Heaters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Heaters.java)|
 |476|Undefined|[Number Complement](https://leetcode.com/problems/number-complement/)|[Number Complement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberComplement.java)|
 |477|Undefined|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|[Total Hamming Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalHammingDistance.java)|
 |478|Medium|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|[Generate Random Point in a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GenerateRandomPointInCircle.java)|
@@ -377,7 +377,7 @@ Count of solved tasks: 1296
 |525|Undefined|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[Contiguous Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ContiguousArray.java)|
 |526|Medium|[Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)|[Beautiful Arrangement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BeautifulArrangement.java)|
 |528|Undefined|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|[Random Pick with Weight.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RandomPickWithWeight.java)|
-|529|Undefined|[tasks.Minesweeper](https://leetcode.com/problems/minesweeper/)|[tasks.Minesweeper.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Minesweeper.java)|
+|529|Undefined|[Minesweeper](https://leetcode.com/problems/minesweeper/)|[Minesweeper.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Minesweeper.java)|
 |530|Undefined|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Minimum Absolute Difference in BST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDifferenceInBST.java)|
 |532|Undefined|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[K-diff Pairs in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KdiffPairsInArray.java)|
 |535|Medium|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|[Encode and Decode TinyURL.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EncodeAndDecodeTinyURL.java)|
@@ -1230,7 +1230,7 @@ Count of solved tasks: 1296
 |91|Medium|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[Decode Ways.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeWays.java)|
 |98|Medium|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidateBinarySearchTree.java)|
 |117|Medium|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Populating Next Right Pointers in Each Node II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PopulatingNextRightPointersInEachNodeII.java)|
-|120|Medium|[tasks.Triangle](https://leetcode.com/problems/triangle/)|[tasks.Triangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Triangle.java)|
+|120|Medium|[Triangle](https://leetcode.com/problems/triangle/)|[Triangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Triangle.java)|
 |132|Medium|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)|[Palindrome Partitioning II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromePartitioningII.java)|
 |138|Medium|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Copy List with Random Pointer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CopyListWithRandomPointer.java)|
 |173|Medium|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Binary Search Tree Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinarySearchTreeIterator.java)|
@@ -1568,7 +1568,7 @@ Count of solved tasks: 1296
 |702|Medium|[Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)|[Search in a Sorted Array of Unknown Size.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SearchInSortedArrayOfUnknownSize.java)|
 |708|Medium|[Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/)|[Insert into a Sorted Circular Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/InsertIntoSortedCircularLinkedList.java)|
 |716|Easy|[Max Stack](https://leetcode.com/problems/max-stack/)|[Max Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxStack.java)|
-|723|Medium|[tasks.Candy Crush](https://leetcode.com/problems/candy-crush/)|[tasks.Candy Crush.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CandyCrush.java)|
+|723|Medium|[Candy Crush](https://leetcode.com/problems/candy-crush/)|[Candy Crush.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CandyCrush.java)|
 |734|Easy|[Sentence Similarity](https://leetcode.com/problems/sentence-similarity/)|[Sentence Similarity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SentenceSimilarity.java)|
 |737|Medium|[Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)|[Sentence Similarity II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SentenceSimilarityII.java)|
 |742|Medium|[Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/)|[Closest Leaf in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClosestLeafInBinaryTree.java)|
