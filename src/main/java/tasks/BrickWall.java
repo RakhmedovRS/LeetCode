@@ -3,6 +3,7 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -19,24 +20,37 @@ import java.util.Map;
 )
 public class BrickWall
 {
-	public int leastBricks(List<List<Integer>> wall)
+	public int leastBricks(List<List<Integer>> walls)
 	{
-		int max = 0;
-		int temp;
-		Map<Integer, Integer> map = new HashMap<>();
-		int current;
-		for (List<Integer> bricks : wall)
+		Map<Integer, Integer> memo = new HashMap<>();
+		for (List<Integer> wall : walls)
 		{
-			current = 0;
-			for (int i = 0; i < bricks.size() - 1; i++)
+			int pos = 0;
+			for (int i = 0; i < wall.size() - 1; i++)
 			{
-				current += bricks.get(i);
-				temp = map.getOrDefault(current, 0) + 1;
-				map.put(current, temp);
-				max = Math.max(max, temp);
+				pos += wall.get(i);
+				memo.put(pos, memo.getOrDefault(pos, 0) + 1);
 			}
 		}
 
-		return wall.size() - max;
+		int min = walls.size();
+		for (Map.Entry<Integer, Integer> entry : memo.entrySet())
+		{
+			min = Math.min(min, walls.size() - entry.getValue());
+		}
+
+		return min;
+	}
+
+	public static void main(String[] args)
+	{
+		BrickWall clazz = new BrickWall();
+		System.out.println(clazz.leastBricks(Arrays.asList(
+			Arrays.asList(1, 2, 2, 1),
+			Arrays.asList(3, 1, 2),
+			Arrays.asList(1, 3, 2),
+			Arrays.asList(2, 4),
+			Arrays.asList(3, 1, 2),
+			Arrays.asList(1, 3, 1, 1))));
 	}
 }
