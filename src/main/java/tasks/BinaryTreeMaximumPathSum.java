@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -7,28 +8,33 @@ import common.TreeNode;
  * @author RakhmedovRS
  * @created 21-Feb-20
  */
-@LeetCode(id = 124, name = "Binary Tree Maximum Path Sum", url = "https://leetcode.com/problems/binary-tree-maximum-path-sum/")
+@LeetCode(
+	id = 124,
+	name = "Binary Tree Maximum Path Sum",
+	url = "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+	difficulty = Difficulty.HARD
+)
 public class BinaryTreeMaximumPathSum
 {
 	public int maxPathSum(TreeNode root)
 	{
-		int[] answer = new int[]{Integer.MIN_VALUE};
-		maxPathSum(root, answer);
-		return answer[0];
+		int[] max = new int[]{Integer.MIN_VALUE};
+		dfs(root, max);
+		return max[0];
 	}
 
-	private int maxPathSum(TreeNode root, int[] answer)
+	private int dfs(TreeNode root, int[] max)
 	{
 		if (root == null)
 		{
 			return 0;
 		}
 
-		int left = Math.max(0, maxPathSum(root.left, answer));
-		int right = Math.max(0, maxPathSum(root.right, answer));
+		int left = dfs(root.left, max);
+		int right = dfs(root.right, max);
 
-		answer[0] = Math.max(answer[0], root.val + left + right);
+		max[0] = Math.max(max[0], Math.max(root.val, Math.max(root.val + left, Math.max(root.val + right, root.val + left + right))));
 
-		return Math.max(left, right) + root.val;
+		return root.val + Math.max(0, Math.max(left, right));
 	}
 }
