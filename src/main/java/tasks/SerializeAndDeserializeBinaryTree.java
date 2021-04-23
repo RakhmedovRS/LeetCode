@@ -1,66 +1,81 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
-
-import java.util.Arrays;
-import java.util.Deque;
-import java.util.LinkedList;
 
 /**
  * @author RakhmedovRS
  * @created 03-Apr-20
  */
-@LeetCode(id = 297, name = "Serialize and Deserialize Binary Tree", url = "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/")
+@LeetCode(
+	id = 297,
+	name = "Serialize and Deserialize Binary Tree",
+	url = "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+	difficulty = Difficulty.HARD
+)
 public class SerializeAndDeserializeBinaryTree
 {
 	public class Codec
 	{
+
 		// Encodes a tree to a single string.
 		public String serialize(TreeNode root)
 		{
 			StringBuilder sb = new StringBuilder();
-			buildString(root, sb);
+			preorder(root, sb);
 			return sb.toString();
 		}
 
-		private void buildString(TreeNode node, StringBuilder sb)
+		private void preorder(TreeNode root, StringBuilder sb)
 		{
-			if (node == null)
+			if (sb.length() > 0)
 			{
-				sb.append("N");
-				sb.append(",");
+				sb.append(',');
 			}
-			else
+
+			if (root == null)
 			{
-				sb.append(node.val);
-				sb.append(",");
-				buildString(node.left, sb);
-				buildString(node.right, sb);
+				sb.append('N');
+				return;
 			}
+
+			sb.append(root.val);
+			preorder(root.left, sb);
+			preorder(root.right, sb);
 		}
 
 		// Decodes your encoded data to tree.
 		public TreeNode deserialize(String data)
 		{
-			Deque<String> nodes = new LinkedList<>(Arrays.asList(data.split(",")));
-			return buildTree(nodes);
-		}
-
-		private TreeNode buildTree(Deque<String> nodes)
-		{
-			String val = nodes.remove();
-			if (val.equals("N"))
+			if (data.equals("N"))
 			{
 				return null;
 			}
-			else
+
+			String[] nodes = data.split(",");
+
+			return deserialize(nodes, new int[]{0});
+		}
+
+		private TreeNode deserialize(String[] nodes, int[] index)
+		{
+			if (index[0] >= nodes.length)
 			{
-				TreeNode node = new TreeNode(Integer.parseInt(val));
-				node.left = buildTree(nodes);
-				node.right = buildTree(nodes);
-				return node;
+				return null;
 			}
+
+			if (nodes[index[0]].equals("N"))
+			{
+				index[0]++;
+				return null;
+			}
+
+			TreeNode node = new TreeNode(Integer.parseInt(nodes[index[0]++]));
+			node.left = deserialize(nodes, index);
+			node.right = deserialize(nodes, index);
+
+			return node;
 		}
 	}
 
