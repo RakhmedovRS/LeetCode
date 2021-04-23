@@ -18,16 +18,47 @@ public class MissingNumberInArithmeticProgression
 {
 	public int missingNumber(int[] arr)
 	{
-		int first = arr[0];
-		int last = arr[0];
-		int sum = 0;
-		for (int num : arr)
+		int diff = arr[1] - arr[0];
+		Integer missing = null;
+		int i = 2;
+		for (; i < arr.length; i++)
 		{
-			first = Math.min(first, num);
-			last = Math.max(last, num);
-			sum += num;
+			if (arr[i - 1] + diff != arr[i])
+			{
+				if (missing == null)
+				{
+					missing = arr[i - 1] + diff;
+					if (missing + diff != arr[i])
+					{
+						break;
+					}
+				}
+			}
 		}
 
-		return (first + last) * (arr.length + 1) / 2 - sum;
+		if (i == arr.length)
+		{
+			return missing == null ? arr[0] : missing;
+		}
+
+		diff = arr[arr.length - 2] - arr[arr.length - 1];
+		i = arr.length - 2;
+		for (; i > 0; i--)
+		{
+			if (arr[i] + diff != arr[i - 1])
+			{
+				missing = arr[i] + diff;
+				break;
+			}
+		}
+
+		return missing == null ? arr[0] : missing;
+	}
+
+	public static void main(String[] args)
+	{
+		MissingNumberInArithmeticProgression clazz = new MissingNumberInArithmeticProgression();
+		System.out.println(clazz.missingNumber(new int[]{1, 2, 3, 5}));
+		System.out.println(clazz.missingNumber(new int[]{5, 7, 11, 13}));
 	}
 }
