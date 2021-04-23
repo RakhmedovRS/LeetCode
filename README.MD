@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1296
+Count of solved tasks: 1297
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1668,6 +1668,7 @@ Count of solved tasks: 1296
 |1794|Medium|[Count Pairs of Equal Substrings With Minimum Difference](https://leetcode.com/problems/count-pairs-of-equal-substrings-with-minimum-difference/)|[Count Pairs of Equal Substrings With Minimum Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsOfEqualSubstringsWithMinimumDifference.java)|
 |1804|Medium|[Implement Trie II (Prefix Tree)](https://leetcode.com/problems/implement-trie-ii-prefix-tree/)|[Implement Trie II (Prefix Tree).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ImplementTrieII.java)|
 |1810|Medium|[Minimum Path Cost in a Hidden Grid](https://leetcode.com/problems/minimum-path-cost-in-a-hidden-grid/)|[Minimum Path Cost in a Hidden Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPathCostInHiddenGrid.java)|
-|1826|Medium|[Faulty Sensor](https://leetcode.com/problems/faulty-sensor/)|[Faulty Sensor.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FaultySensor.java)|</p>
+|1826|Medium|[Faulty Sensor](https://leetcode.com/problems/faulty-sensor/)|[Faulty Sensor.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FaultySensor.java)|
+|1836|Medium|[Remove Duplicates From an Unsorted Linked List](https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/)|[Remove Duplicates From an Unsorted Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveDuplicatesFromAnUnsortedLinkedList.java)|</p>
 </details>
 
