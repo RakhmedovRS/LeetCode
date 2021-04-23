@@ -55,7 +55,11 @@ public class SingleThreadedCPU
 
 			if (cpuTasks.isEmpty())
 			{
-				cpuTasks.add(ids.remove());
+				int time = tasks[ids.peek()][0];
+				while (!ids.isEmpty() && tasks[ids.peek()][0] == time)
+				{
+					cpuTasks.add(ids.remove());
+				}
 			}
 
 			answer[i] = cpuTasks.peek();
@@ -70,7 +74,8 @@ public class SingleThreadedCPU
 	public static void main(String[] args)
 	{
 		SingleThreadedCPU clazz = new SingleThreadedCPU();
-		System.out.println(Arrays.toString(clazz.getOrder(new int[][]{{100,100}, {500,100}, {1000,100}, {10000,100}, {100000,100}})));
+		System.out.println(Arrays.toString(clazz.getOrder(new int[][]{{5, 6}, {9, 4}, {3, 9}, {3, 7}, {1, 1}, {6, 9}, {9, 1}})));
+		System.out.println(Arrays.toString(clazz.getOrder(new int[][]{{100, 100}, {500, 100}, {1000, 100}, {10000, 100}, {100000, 100}})));
 		System.out.println(Arrays.toString(clazz.getOrder(new int[][]{{5, 2}, {7, 2}, {9, 4}, {6, 3}, {5, 10}, {1, 1}})));
 	}
 }
