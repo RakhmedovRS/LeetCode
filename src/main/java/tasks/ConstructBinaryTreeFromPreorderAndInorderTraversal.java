@@ -1,42 +1,43 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * @author RakhmedovRS
  * @created 08-Apr-20
  */
-@LeetCode(id = 105, name = "Construct Binary Tree from Preorder and Inorder Traversal", url = "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/")
+@LeetCode(
+	id = 105,
+	name = "Construct Binary Tree from Preorder and Inorder Traversal",
+	url = "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ConstructBinaryTreeFromPreorderAndInorderTraversal
 {
 	public TreeNode buildTree(int[] preorder, int[] inorder)
 	{
-		Map<Integer, Integer> cache = new HashMap<>();
+		int[] memo = new int[6002];
 		for (int i = 0; i < inorder.length; i++)
 		{
-			cache.put(inorder[i], i);
+			memo[inorder[i] + 3000] = i;
 		}
-		return buildTree(preorder, cache, new int[]{0}, 0, inorder.length - 1);
+
+		return buildTree(preorder, new int[]{0}, 0, inorder.length - 1, memo);
 	}
 
-	public TreeNode buildTree(int[] preorder, Map<Integer, Integer> cache, int[] rootIdx, int left, int right)
+	private TreeNode buildTree(int[] preOrder, int[] preOrderPos, int left, int right, int[] memo)
 	{
-		if (rootIdx[0] >= preorder.length || left > right)
+		if (preOrderPos[0] >= preOrder.length || left > right)
 		{
 			return null;
 		}
 
-		TreeNode root = new TreeNode(preorder[rootIdx[0]++]);
+		TreeNode node = new TreeNode(preOrder[preOrderPos[0]++]);
+		node.left = buildTree(preOrder, preOrderPos, left, memo[node.val + 3000] - 1, memo);
+		node.right = buildTree(preOrder, preOrderPos, memo[node.val + 3000] + 1, right, memo);
 
-		int rootPos = cache.get(root.val);
-
-		root.left = buildTree(preorder, cache, rootIdx, left, rootPos - 1);
-		root.right = buildTree(preorder, cache, rootIdx, rootPos + 1, right);
-
-		return root;
+		return node;
 	}
 }
