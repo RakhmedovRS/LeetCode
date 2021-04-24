@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1297
+Count of solved tasks: 1298
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -760,6 +760,7 @@ Count of solved tasks: 1297
 |1189|Undefined|[Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)|[Maximum Number of Balloons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfBalloons.java)|
 |1190|Undefined|[Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/)|[Reverse Substrings Between Each Pair of Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseSubstringsBetweenEachPairOfParentheses.java)|
 |1191|Undefined|[K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/)|[K-Concatenation Maximum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KConcatenationMaximumSum.java)|
+|1192|Hard|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|[Critical Connections in a Network.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CriticalConnectionsInNetwork.java)|
 |1195|Undefined|[Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/)|[Fizz Buzz Multithreaded.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FizzBuzzMultithreaded.java)|
 |1200|Undefined|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[Minimum Absolute Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDifference.java)|
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[Smallest String With Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestStringWithSwaps.java)|
@@ -1459,6 +1460,7 @@ Count of solved tasks: 1297
 |995|Hard|[Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)|[Minimum Number of K Consecutive Bit Flips.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfKConsecutiveBitFlips.java)|
 |1074|Hard|[Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)|[Number of Submatrices That Sum to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubmatricesThatSumToTarget.java)|
 |1172|Hard|[Dinner Plate Stacks](https://leetcode.com/problems/dinner-plate-stacks/)|[Dinner Plate Stacks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DinnerPlateStacks.java)|
+|1192|Hard|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|[Critical Connections in a Network.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CriticalConnectionsInNetwork.java)|
 |1220|Hard|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[Count Vowels Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountVowelsPermutation.java)|
 |1235|Hard|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[Maximum Profit in Job Scheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProfitInJobScheduling.java)|
 |1284|Hard|[Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)|[Minimum Number of Flips to Convert Binary Matrix to Zero Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfFlipsToConvertBinaryMatrixToZeroMatrix.java)|
