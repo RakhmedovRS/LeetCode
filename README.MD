@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1300
+Count of solved tasks: 1301
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1116,7 +1116,8 @@ Count of solved tasks: 1300
 |1834|Medium|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)|[Single-Threaded CPU.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SingleThreadedCPU.java)|
 |1835|Hard|[Find XOR Sum of All Pairs Bitwise AND](https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/)|[Find XOR Sum of All Pairs Bitwise AND.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindXORSumOfAllPairsBitwiseAND.java)|
 |1837|Easy|[Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/)|[Sum of Digits in Base K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitsInBaseK.java)|
-|1838|Medium|[Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)|[Frequency of the Most Frequent Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FrequencyOfTheMostFrequentElement.java)|</p>
+|1838|Medium|[Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)|[Frequency of the Most Frequent Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FrequencyOfTheMostFrequentElement.java)|
+|1839|Medium|[Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/)|[Longest Substring Of All Vowels in Order.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubstringOfAllVowelsInOrder.java)|</p>
 </details>
 
 <details>
@@ -1428,7 +1429,8 @@ Count of solved tasks: 1300
 |1829|Medium|[Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/)|[Maximum XOR for Each Query.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumXORForEachQuery.java)|
 |1833|Medium|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|[Maximum Ice Cream Bars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumIceCreamBars.java)|
 |1834|Medium|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)|[Single-Threaded CPU.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SingleThreadedCPU.java)|
-|1838|Medium|[Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)|[Frequency of the Most Frequent Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FrequencyOfTheMostFrequentElement.java)|</p>
+|1838|Medium|[Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)|[Frequency of the Most Frequent Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FrequencyOfTheMostFrequentElement.java)|
+|1839|Medium|[Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/)|[Longest Substring Of All Vowels in Order.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubstringOfAllVowelsInOrder.java)|</p>
 </details>
 
 <details>
