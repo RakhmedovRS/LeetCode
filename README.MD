@@ -50,7 +50,7 @@ Count of solved tasks: 1301
 |45|Undefined|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Jump Game II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGameII.java)|
 |46|Undefined|[Permutations](https://leetcode.com/problems/permutations/)|[Permutations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Permutations.java)|
 |47|Undefined|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Permutations II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PermutationsII.java)|
-|48|Undefined|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[Rotate Image.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotateImage.java)|
+|48|Medium|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[Rotate Image.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotateImage.java)|
 |49|Undefined|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Group Anagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GroupAnagrams.java)|
 |50|Undefined|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Pow(x, n).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Pow.java)|
 |52|Undefined|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[N-Queens II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NQueensII.java)|
@@ -1226,6 +1226,7 @@ Count of solved tasks: 1301
 |29|Medium|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[Divide Two Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideTwoIntegers.java)|
 |31|Medium|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[Next Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NextPermutation.java)|
 |33|Medium|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search in Rotated Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SearchInRotatedSortedArray.java)|
+|48|Medium|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[Rotate Image.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotateImage.java)|
 |56|Medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge Intervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeIntervals.java)|
 |59|Medium|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Spiral Matrix II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpiralMatrixII.java)|
 |71|Medium|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[Simplify Path.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SimplifyPath.java)|
