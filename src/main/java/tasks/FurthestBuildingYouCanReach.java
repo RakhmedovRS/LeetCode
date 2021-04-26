@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.PriorityQueue;
@@ -8,29 +9,35 @@ import java.util.PriorityQueue;
  * @author RakhmedovRS
  * @created 11/1/2020
  */
-@LeetCode(id = 1642, name = "Furthest Building You Can Reach", url = "https://leetcode.com/problems/furthest-building-you-can-reach/")
+@LeetCode(
+	id = 1642,
+	name = "Furthest Building You Can Reach",
+	url = "https://leetcode.com/problems/furthest-building-you-can-reach/",
+	difficulty = Difficulty.MEDIUM
+)
 public class FurthestBuildingYouCanReach
 {
 	public int furthestBuilding(int[] heights, int bricks, int ladders)
 	{
 		PriorityQueue<Integer> pq = new PriorityQueue<>();
-		int diff;
 		for (int i = 0; i < heights.length - 1; i++)
 		{
-			diff = heights[i + 1] - heights[i];
-			if (diff > 0)
+			if (heights[i] < heights[i + 1])
 			{
-				pq.add(diff);
-			}
+				pq.add(heights[i + 1] - heights[i]);
+				if (ladders > 0)
+				{
+					ladders--;
+				}
+				else
+				{
+					if (pq.isEmpty() || pq.peek() > bricks)
+					{
+						return i;
+					}
 
-			if (pq.size() > ladders)
-			{
-				bricks -= pq.remove();
-			}
-
-			if (bricks < 0)
-			{
-				return i;
+					bricks -= pq.remove();
+				}
 			}
 		}
 

@@ -13,7 +13,6 @@ public class Contest
 {
 
 
-
 	public static void main(String[] args) throws Exception
 	{
 		Contest clazz = new Contest();
