@@ -21,19 +21,26 @@ public class MinimumDifficultyOfJobSchedule
 		{
 			return -1;
 		}
-
-		return dfs(0, jobDifficulty, d, new Integer[jobDifficulty.length][d + 1]);
+		Integer[][] memo = new Integer[jobDifficulty.length][d + 1];
+		return dfs(0, d, jobDifficulty, memo);
 	}
 
-	private int dfs(int pos, int[] jobDifficulty, int d, Integer[][] memo)
+	private int dfs(int pos, int d, int[] jobDifficulty, Integer[][] memo)
 	{
+		if (pos == jobDifficulty.length)
+		{
+			return 0;
+		}
+
 		if (d == 1)
 		{
-			int max = -1;
+			int max = 0;
 			for (int i = pos; i < jobDifficulty.length; i++)
 			{
 				max = Math.max(max, jobDifficulty[i]);
 			}
+
+			memo[pos][d] = max;
 			return max;
 		}
 
@@ -42,16 +49,16 @@ public class MinimumDifficultyOfJobSchedule
 			return memo[pos][d];
 		}
 
+		int max = Integer.MIN_VALUE;
 		int min = Integer.MAX_VALUE;
-		int max = -1;
 		for (int i = pos; i <= jobDifficulty.length - d; i++)
 		{
 			max = Math.max(max, jobDifficulty[i]);
-			min = Math.min(min, max + dfs(i + 1, jobDifficulty, d - 1, memo));
+			min = Math.min(min, max + dfs(i + 1, d - 1, jobDifficulty, memo));
 		}
 
 		memo[pos][d] = min;
 
-		return min;
+		return memo[pos][d];
 	}
 }
