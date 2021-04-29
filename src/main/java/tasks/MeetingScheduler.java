@@ -20,45 +20,46 @@ public class MeetingScheduler
 {
     public List<Integer> minAvailableDuration(int[][] slots1, int[][] slots2, int duration)
     {
-        Comparator<int[]> comparator = (a, b) ->
-        {
-            if (a[0] == b[0])
-            {
-                return a[1] - b[1];
-            }
-            return a[0] - b[0];
-        };
+        int s1Index = 0;
+        int s2Index = 0;
+
+        Comparator<int[]> comparator = Comparator.comparingInt(a -> a[0]);
 
         Arrays.sort(slots1, comparator);
         Arrays.sort(slots2, comparator);
 
-
-        int aPos = 0;
-        int bBos = 0;
-        int[] aSlot;
-        int[] bSlot;
-        while (aPos < slots1.length && bBos < slots2.length)
+        while (s1Index < slots1.length && s2Index < slots2.length)
         {
-            aSlot = slots1[aPos];
-            bSlot = slots2[bBos];
-            long start = Math.max(aSlot[0], bSlot[0]);
-            long end = Math.min(aSlot[1], bSlot[1]);
-            if (start + duration <= end)
+            if (slots1[s1Index][1] < slots2[s2Index][0])
             {
-                return Arrays.asList((int) start, (int) start + duration);
+                s1Index++;
             }
-
-            if (aSlot[0] == start)
+            else if (slots2[s2Index][1] < slots1[s1Index][0])
             {
-                bBos++;
+                s2Index++;
             }
             else
             {
-                aPos++;
+                int start = Math.max(slots1[s1Index][0], slots2[s2Index][0]);
+                int end = Math.min(slots1[s1Index][1], slots2[s2Index][1]);
+
+                if (end - start >= duration)
+                {
+                    return Arrays.asList(start, start + duration);
+                }
+
+                if (slots1[s1Index][1] == end)
+                {
+                    s1Index++;
+                }
+                else
+                {
+                    s2Index++;
+                }
             }
         }
 
-        return Collections.emptyList();
+        return new ArrayList<>();
     }
 
     public static void main(String[] args)
