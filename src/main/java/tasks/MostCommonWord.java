@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -8,35 +9,59 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 29-May-20
  */
-@LeetCode(id = 819, name = "Most Common Word", url = "https://leetcode.com/problems/most-common-word/")
+@LeetCode(
+	id = 819,
+	name = "Most Common Word",
+	url = "https://leetcode.com/problems/most-common-word/",
+	difficulty = Difficulty.EASY
+)
 public class MostCommonWord
 {
 	public String mostCommonWord(String paragraph, String[] banned)
 	{
 		Set<String> bannedWords = new HashSet<>(Arrays.asList(banned));
-		Set<Character> bannedChars = new HashSet<>(Arrays.asList('!', '?', '\'', ',', '.', ':', ';'));
-
 		Map<String, Integer> wordToCount = new HashMap<>();
-		StringBuilder stringBuilder = new StringBuilder();
-		for (char ch : paragraph.toCharArray())
+		String[] words = formatParagraph(paragraph).split(" ");
+		int count = 0;
+		int temp;
+		String answer = null;
+		for (String word : words)
 		{
-			if (bannedChars.contains(ch))
+			if (bannedWords.contains(word))
 			{
-				stringBuilder.append(' ');
 				continue;
 			}
-			stringBuilder.append(Character.toLowerCase(ch));
-		}
-		for (String word : stringBuilder.toString().split(" "))
-		{
-			if (!bannedWords.contains(word) && !word.isEmpty())
+
+			temp = wordToCount.getOrDefault(word, 0) + 1;
+			wordToCount.put(word, temp);
+
+			if (temp > count)
 			{
-				wordToCount.put(word, wordToCount.getOrDefault(word, 0) + 1);
+				count = temp;
+				answer = word;
 			}
 		}
 
-		PriorityQueue<String> maxHeap = new PriorityQueue<>((s1, s2) -> wordToCount.get(s2) - wordToCount.get(s1));
-		maxHeap.addAll(wordToCount.keySet());
-		return maxHeap.peek();
+		return answer;
+	}
+
+	private String formatParagraph(String paragraph)
+	{
+		StringBuilder sb = new StringBuilder();
+		char ch;
+		for (int i = 0; i < paragraph.length(); i++)
+		{
+			ch = paragraph.charAt(i);
+			if (Character.isLetter(ch) || ch == ' ')
+			{
+				sb.append(Character.toLowerCase(ch));
+			}
+			else if (i + 1 < paragraph.length() && Character.isLetter(paragraph.charAt(i + 1)))
+			{
+				sb.append(" ");
+			}
+		}
+
+		return sb.toString();
 	}
 }
