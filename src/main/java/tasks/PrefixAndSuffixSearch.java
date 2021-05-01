@@ -1,91 +1,97 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
-
-import java.util.*;
 
 /**
  * @author RakhmedovRS
  * @created 11/4/2020
  */
-@LeetCode(id = 745, name = "Prefix and Suffix Search", url = "https://leetcode.com/problems/prefix-and-suffix-search/")
+@LeetCode(
+	id = 745,
+	name = "Prefix and Suffix Search",
+	url = "https://leetcode.com/problems/prefix-and-suffix-search/",
+	difficulty = Difficulty.HARD
+)
 public class PrefixAndSuffixSearch
 {
 	class Trie
 	{
-		Trie[] child = new Trie[27];
-		int end = -1;
+		private Node root;
+
+		class Node
+		{
+			Node[] children = new Node[28];
+			int maxIndex = -1;
+		}
+
+		public Trie()
+		{
+			root = new Node();
+		}
+
+		public void addWord(char[] chars, int index)
+		{
+			Node current = root;
+			for (char ch : chars)
+			{
+				if (current.children[ch - '_'] == null)
+				{
+					current.children[ch - '_'] = new Node();
+				}
+
+				current = current.children[ch - '_'];
+				current.maxIndex = Math.max(current.maxIndex, index);
+			}
+		}
+
+		public int find(char[] chars)
+		{
+			Node current = root;
+			for (char ch : chars)
+			{
+				if (current.children[ch - '_'] == null)
+				{
+					return -1;
+				}
+
+				current = current.children[ch - '_'];
+			}
+
+			return current.maxIndex;
+		}
 	}
 
 	class WordFilter
 	{
-
-		Trie root;
+		Trie trie;
 
 		public WordFilter(String[] words)
 		{
-			root = new Trie();
-			for (int i = 0; i < words.length; i++)
+			trie = new Trie();
+			String word;
+			for (int index = 0; index < words.length; index++)
 			{
-				for (int j = 0; j <= words[i].length(); j++)
+				word = words[index];
+				for (int i = 0; i < word.length(); i++)
 				{
-					addToTrie(words[i].substring(words[i].length() - j) + "{" + words[i], i);
+					StringBuilder sb = new StringBuilder();
+					for (int j = word.length() - i - 1; j < word.length(); j++)
+					{
+						sb.append(word.charAt(j));
+					}
+
+					sb.append("_");
+					sb.append(word);
+
+					trie.addWord(sb.toString().toCharArray(), index);
 				}
 			}
 		}
 
 		public int f(String prefix, String suffix)
 		{
-			return find(suffix + "{" + prefix);
-		}
-
-		private void addToTrie(String word, int pos)
-		{
-			Trie current = root;
-			for (char ch : word.toCharArray())
-			{
-				if (current.child[ch - 'a'] == null)
-				{
-					current.child[ch - 'a'] = new Trie();
-				}
-
-				current = current.child[ch - 'a'];
-			}
-
-			current.end = pos;
-		}
-
-		private int find(String word)
-		{
-			Trie current = root;
-			for (char ch : word.toCharArray())
-			{
-				if (current.child[ch - 'a'] == null)
-				{
-					return -1;
-				}
-
-				current = current.child[ch - 'a'];
-			}
-
-			int max = -1;
-			Queue<Trie> queue = new LinkedList<>();
-			queue.add(current);
-			while (!queue.isEmpty())
-			{
-				current = queue.remove();
-				max = Math.max(max, current.end);
-
-				for (Trie next : current.child)
-				{
-					if (next != null)
-					{
-						queue.add(next);
-					}
-				}
-			}
-
-			return max;
+			return trie.find((suffix + "_" + prefix).toCharArray());
 		}
 	}
 
