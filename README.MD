@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1306
+Count of solved tasks: 1307
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1121,7 +1121,8 @@ Count of solved tasks: 1306
 |1839|Medium|[Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/)|[Longest Substring Of All Vowels in Order.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubstringOfAllVowelsInOrder.java)|
 |1844|Medium|[Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)|[Replace All Digits with Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReplaceAllDigitsWithCharacters.java)|
 |1845|Medium|[Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/)|[Seat Reservation Manager.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SeatReservationManager.java)|
-|1846|Medium|[Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/)|[Maximum Element After Decreasing and Rearranging.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumElementAfterDecreasingAndRearranging.java)|</p>
+|1846|Medium|[Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/)|[Maximum Element After Decreasing and Rearranging.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumElementAfterDecreasingAndRearranging.java)|
+|1848|Easy|[Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/)|[Minimum Distance to the Target Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceToTheTargetElement.java)|</p>
 </details>
 
 <details>
@@ -1212,7 +1213,8 @@ Count of solved tasks: 1306
 |1822|Easy|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[Sign of the Product of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SignOfTheProductOfArray.java)|
 |1827|Easy|[Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)|[Minimum Operations to Make the Array Increasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeTheArrayIncreasing.java)|
 |1832|Easy|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|[Check if the Sentence Is Pangram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfTheSentenceIsPangram.java)|
-|1837|Easy|[Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/)|[Sum of Digits in Base K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitsInBaseK.java)|</p>
+|1837|Easy|[Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/)|[Sum of Digits in Base K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitsInBaseK.java)|
+|1848|Easy|[Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/)|[Minimum Distance to the Target Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceToTheTargetElement.java)|</p>
 </details>
 
 <details>
