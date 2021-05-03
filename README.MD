@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1305
+Count of solved tasks: 1306
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -419,6 +419,7 @@ Count of solved tasks: 1305
 |622|Medium|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|[Design Circular Queue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignCircularQueue.java)|
 |623|Medium|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[Add One Row to Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddOneRowToTree.java)|
 |628|Undefined|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Maximum Product of Three Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductOfThreeNumbers.java)|
+|630|Hard|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|[Course Schedule III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CourseScheduleIII.java)|
 |636|Medium|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|[Exclusive Time of Functions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExclusiveTimeOfFunctions.java)|
 |637|Easy|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Average of Levels in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AverageOfLevelsInBinaryTree.java)|
 |638|Undefined|[Shopping Offers](https://leetcode.com/problems/shopping-offers/)|[Shopping Offers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShoppingOffers.java)|
@@ -1469,6 +1470,7 @@ Count of solved tasks: 1305
 |431|Hard|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/)|[Encode N-ary Tree to Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EncodeNaryTreeToBinaryTree.java)|
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[Poor Pigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PoorPigs.java)|
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[Remove Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveBoxes.java)|
+|630|Hard|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|[Course Schedule III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CourseScheduleIII.java)|
 |639|Hard|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|[Decode Ways II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeWaysII.java)|
 |732|Hard|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[My Calendar III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MyCalendarIII.java)|
 |745|Hard|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/)|[Prefix and Suffix Search.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrefixAndSuffixSearch.java)|
