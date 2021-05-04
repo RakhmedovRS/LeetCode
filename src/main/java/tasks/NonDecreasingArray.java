@@ -1,32 +1,35 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 09-Jul-20
  */
-@LeetCode(id = 665, name = "Non-decreasing Array", url = "https://leetcode.com/problems/non-decreasing-array/")
+@LeetCode(
+	id = 665,
+	name = "Non-decreasing Array",
+	url = "https://leetcode.com/problems/non-decreasing-array/",
+	difficulty = Difficulty.MEDIUM
+)
 public class NonDecreasingArray
 {
 	public boolean checkPossibility(int[] nums)
 	{
-		Integer missIndex = null;
+		Integer miss = null;
 		for (int i = 0; i < nums.length - 1; i++)
 		{
 			if (nums[i] > nums[i + 1])
 			{
-				if (missIndex == null)
-				{
-					missIndex = i;
-				}
-				else
+				if (miss != null)
 				{
 					return false;
 				}
+				miss = i;
 			}
 		}
 
-		return missIndex == null || missIndex == 0 || missIndex == nums.length - 2 || nums[missIndex - 1] <= nums[missIndex + 1] || nums[missIndex] <= nums[missIndex + 2];
+		return miss == null || miss == 0 || miss == nums.length - 2 || nums[miss - 1] <= nums[miss + 1] || nums[miss] <= nums[miss + 2];
 	}
 }

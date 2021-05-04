@@ -436,7 +436,7 @@ Count of solved tasks: 1309
 |655|Undefined|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|[Print Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrintBinaryTree.java)|
 |661|Undefined|[Image Smoother](https://leetcode.com/problems/image-smoother/)|[Image Smoother.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ImageSmoother.java)|
 |662|Undefined|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[Maximum Width of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumWidthOfBinaryTree.java)|
-|665|Undefined|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Non-decreasing Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NonDecreasingArray.java)|
+|665|Medium|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Non-decreasing Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NonDecreasingArray.java)|
 |667|Medium|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|[Beautiful Arrangement II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BeautifulArrangementII.java)|
 |669|Medium|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Trim a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TrimBinarySearchTree.java)|
 |670|Undefined|[Maximum Swap](https://leetcode.com/problems/maximum-swap/)|[Maximum Swap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSwap.java)|
@@ -1297,6 +1297,7 @@ Count of solved tasks: 1309
 |623|Medium|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[Add One Row to Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddOneRowToTree.java)|
 |636|Medium|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|[Exclusive Time of Functions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExclusiveTimeOfFunctions.java)|
 |647|Medium|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Palindromic Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromicSubstrings.java)|
+|665|Medium|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Non-decreasing Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NonDecreasingArray.java)|
 |667|Medium|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|[Beautiful Arrangement II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BeautifulArrangementII.java)|
 |669|Medium|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Trim a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TrimBinarySearchTree.java)|
 |677|Medium|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)|[Map Sum Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MapSumPairs.java)|
