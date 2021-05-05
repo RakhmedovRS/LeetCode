@@ -1,29 +1,48 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 18-Apr-20
  */
-@LeetCode(id = 45, name = "Jump Game II", url = "https://leetcode.com/problems/jump-game-ii/")
+@LeetCode(
+	id = 45,
+	name = "Jump Game II",
+	url = "https://leetcode.com/problems/jump-game-ii/",
+	difficulty = Difficulty.MEDIUM
+)
 public class JumpGameII
 {
 	public int jump(int[] nums)
 	{
-		int jumps = 0;
-		int end = 0;
-		int farthest = 0;
-		for (int i = 0; i < nums.length - 1; i++)
+		Integer[] memo = new Integer[nums.length];
+		memo[0] = 0;
+
+		int jumps;
+		for (int i = 0; i < nums.length; i++)
 		{
-			farthest = Math.max(farthest, i + nums[i]);
-			if (i == end)
+			if (memo[i] == null)
 			{
-				jumps++;
-				end = farthest;
+				continue;
+			}
+
+			jumps = memo[i] + 1;
+			for (int j = i + 1; j <= Math.min(nums.length - 1, i + nums[i]); j++)
+			{
+				if (memo[j] == null)
+				{
+					memo[j] = jumps;
+				}
+				else
+				{
+					memo[j] = Math.min(memo[j], jumps);
+				}
 			}
 		}
-		return jumps;
+
+		return memo[memo.length - 1];
 	}
 
 	public static void main(String[] args)

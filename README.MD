@@ -47,7 +47,7 @@ Count of solved tasks: 1309
 |41|Hard|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[First Missing Positive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstMissingPositive.java)|
 |42|Undefined|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Trapping Rain Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TrappingRainWater.java)|
 |44|Undefined|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[Wildcard Matching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WildcardMatching.java)|
-|45|Undefined|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Jump Game II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGameII.java)|
+|45|Medium|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Jump Game II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGameII.java)|
 |46|Undefined|[Permutations](https://leetcode.com/problems/permutations/)|[Permutations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Permutations.java)|
 |47|Undefined|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Permutations II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PermutationsII.java)|
 |48|Medium|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[Rotate Image.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotateImage.java)|
@@ -1238,6 +1238,7 @@ Count of solved tasks: 1309
 |31|Medium|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[Next Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NextPermutation.java)|
 |33|Medium|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search in Rotated Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SearchInRotatedSortedArray.java)|
 |34|Medium|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Find First and Last Position of Element in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindFirstAndLastPositionOfElementInSortedArray.java)|
+|45|Medium|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Jump Game II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGameII.java)|
 |48|Medium|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[Rotate Image.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotateImage.java)|
 |56|Medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge Intervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeIntervals.java)|
 |59|Medium|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Spiral Matrix II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpiralMatrixII.java)|
