@@ -1,52 +1,53 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.ListNode;
 import common.TreeNode;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author RakhmedovRS
  * @created 10-Mar-20
  */
-@LeetCode(id = 109, name = "Convert Sorted List to Binary Search Tree", url = "https://leetcode.com/problems/minimum-window-substring/")
+@LeetCode(
+	id = 109,
+	name = "Convert Sorted List to Binary Search Tree",
+	url = "https://leetcode.com/problems/minimum-window-substring/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ConvertSortedListToBinarySearchTree
 {
-	private TreeNode convertListToBST(int left, int right, ListNode[] currentHead)
+	public TreeNode sortedListToBST(ListNode head)
+	{
+		List<Integer> values = new ArrayList<>();
+		while (head != null)
+		{
+			values.add(head.val);
+			head = head.next;
+		}
+
+		return sortedListToBST(0, values.size() - 1, values);
+	}
+
+	public TreeNode sortedListToBST(int left, int right, List<Integer> values)
 	{
 		if (left > right)
 		{
 			return null;
 		}
 
-		int mid = (left + right) / 2;
+		if (left == right)
+		{
+			return new TreeNode(values.get(left));
+		}
 
-		TreeNode leftNode = convertListToBST(left, mid - 1, currentHead);
-
-		TreeNode node = new TreeNode(currentHead[0].val);
-		node.left = leftNode;
-
-		currentHead[0] = currentHead[0].next;
-
-		node.right = convertListToBST(mid + 1, right, currentHead);
+		int middle = (left + right) / 2;
+		TreeNode node = new TreeNode(values.get(middle));
+		node.left = sortedListToBST(left, middle - 1, values);
+		node.right = sortedListToBST(middle + 1, right, values);
 		return node;
-	}
-
-	public TreeNode sortedListToBST(ListNode head)
-	{
-		if (head == null)
-		{
-			return null;
-		}
-
-		ListNode temp = head;
-		int size = 0;
-		while (temp != null)
-		{
-			temp = temp.next;
-			size++;
-		}
-
-		ListNode[] currentHead = new ListNode[]{head};
-		return convertListToBST(0, size - 1, currentHead);
 	}
 }
