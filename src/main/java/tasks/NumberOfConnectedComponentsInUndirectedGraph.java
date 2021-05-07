@@ -3,6 +3,9 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * @author RakhmedovRS
  * @created 1/12/2021
@@ -18,17 +21,13 @@ public class NumberOfConnectedComponentsInUndirectedGraph
 {
 	class UnionFind
 	{
-		int[] rank;
 		int[] parents;
 
 		public UnionFind(int n)
 		{
-			rank = new int[n];
 			parents = new int[n];
-
 			for (int i = 0; i < n; i++)
 			{
-				rank[i] = 1;
 				parents[i] = i;
 			}
 		}
@@ -36,13 +35,13 @@ public class NumberOfConnectedComponentsInUndirectedGraph
 		public int findParent(int node)
 		{
 			int parent = node;
-			while (parent != parents[parent])
+			while (parents[parent] != parent)
 			{
 				parent = parents[parent];
 			}
 
 			int temp;
-			while (node != parents[node])
+			while (parents[node] != parent)
 			{
 				temp = parents[node];
 				parents[node] = parent;
@@ -52,49 +51,44 @@ public class NumberOfConnectedComponentsInUndirectedGraph
 			return parent;
 		}
 
-		public void union(int nodeA, int nodeB)
+		public void connect(int nodeA, int nodeB)
 		{
 			int parentA = findParent(nodeA);
 			int parentB = findParent(nodeB);
 
 			if (parentA != parentB)
 			{
-				if (rank[parentA] >= rank[parentB])
-				{
-					rank[parentA] += rank[parentB];
-					parents[parentB] = parentA;
-				}
-				else
-				{
-					rank[parentB] += rank[parentA];
-					parents[parentA] = parentB;
-				}
+				parents[parentB] = parentA;
 			}
 		}
+
+		public int numberOfComponents()
+		{
+			Set<Integer> set = new HashSet<>();
+
+			for (int i = 0; i < parents.length; i++)
+			{
+				findParent(i);
+			}
+
+			for (int p : parents)
+			{
+				set.add(p);
+			}
+
+			return set.size();
+		}
 	}
+
 
 	public int countComponents(int n, int[][] edges)
 	{
 		UnionFind uf = new UnionFind(n);
 		for (int[] edge : edges)
 		{
-			uf.union(edge[0], edge[1]);
+			uf.connect(edge[0], edge[1]);
 		}
 
-		int diffParts = 0;
-		boolean[] parts = new boolean[n];
-		int parent;
-		for (int i = 0; i < n; i++)
-		{
-			parent = uf.findParent(i);
-			if (!parts[parent])
-			{
-				diffParts++;
-			}
-
-			parts[parent] = true;
-		}
-
-		return diffParts;
+		return uf.numberOfComponents();
 	}
 }
