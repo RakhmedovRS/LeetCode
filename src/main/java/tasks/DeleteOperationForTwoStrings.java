@@ -1,59 +1,55 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 05-Apr-20
  */
-@LeetCode(id = 583, name = "Delete Operation for Two Strings", url = "https://leetcode.com/problems/delete-operation-for-two-strings/")
+@LeetCode(
+	id = 583,
+	name = "Delete Operation for Two Strings",
+	url = "https://leetcode.com/problems/delete-operation-for-two-strings/",
+	difficulty = Difficulty.MEDIUM
+)
 public class DeleteOperationForTwoStrings
 {
 	public int minDistance(String word1, String word2)
 	{
-		if (word1 == null && word2 == null)
+		Integer[][] memo = new Integer[word1.length() + 1][word2.length() + 1];
+		return minDistance(0, word1.toCharArray(), 0, word2.toCharArray(), memo);
+	}
+
+	private int minDistance(int w1Index, char[] w1Chars, int w2Index, char[] w2Chars, Integer[][] memo)
+	{
+		if (w1Index == w1Chars.length)
 		{
-			return 0;
+			return w2Chars.length - w2Index;
 		}
-		else if (word1 == null)
+		else if (w2Index == w2Chars.length)
 		{
-			return word2.length();
-		}
-		else if (word2 == null)
-		{
-			return word1.length();
+			return w1Chars.length - w1Index;
 		}
 
-		char[] first = word1.toCharArray();
-		char[] second = word2.toCharArray();
-		int[][] memo = new int[first.length + 1][second.length + 1];
-
-		for (int column = 1; column < memo[0].length; column++)
+		if (memo[w1Index][w2Index] != null)
 		{
-			memo[0][column] = memo[0][column - 1] + 1;
+			return memo[w1Index][w2Index];
 		}
 
-		for (int row = 1; row < memo.length; row++)
+		if (w1Chars[w1Index] == w2Chars[w2Index])
 		{
-			memo[row][0] = memo[row - 1][0] + 1;
+			memo[w1Index][w2Index] = Math.min(minDistance(w1Index + 1, w1Chars, w2Index + 1, w2Chars, memo),
+				1 + Math.min(minDistance(w1Index + 1, w1Chars, w2Index, w2Chars, memo),
+					minDistance(w1Index, w1Chars, w2Index + 1, w2Chars, memo)));
+		}
+		else
+		{
+			memo[w1Index][w2Index] = 1 + Math.min(minDistance(w1Index + 1, w1Chars, w2Index, w2Chars, memo),
+				minDistance(w1Index, w1Chars, w2Index + 1, w2Chars, memo));
 		}
 
-		for (int row = 1; row < memo.length; row++)
-		{
-			for (int column = 1; column < memo[row].length; column++)
-			{
-				if (first[row - 1] == second[column - 1])
-				{
-					memo[row][column] = memo[row - 1][column - 1];
-				}
-				else
-				{
-					memo[row][column] = Math.min(memo[row - 1][column], memo[row][column - 1]) + 1;
-				}
-			}
-		}
-
-		return memo[first.length][second.length];
+		return memo[w1Index][w2Index];
 	}
 
 	public static void main(String[] args)
