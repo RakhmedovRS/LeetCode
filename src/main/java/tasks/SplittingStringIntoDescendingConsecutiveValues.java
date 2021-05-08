@@ -20,14 +20,14 @@ public class SplittingStringIntoDescendingConsecutiveValues
 		return dfs(null, 0, 0, s.toCharArray());
 	}
 
-	private boolean dfs(Integer prev, int pos, int found, char[] chars)
+	private boolean dfs(Long prev, int pos, int found, char[] chars)
 	{
 		if (pos >= chars.length)
 		{
 			return found > 1;
 		}
 
-		int val = 0;
+		long val = 0;
 		for (int i = pos; i < chars.length; i++)
 		{
 			val *= 10;
