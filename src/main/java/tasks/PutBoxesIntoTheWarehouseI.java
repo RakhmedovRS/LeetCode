@@ -3,7 +3,7 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.Arrays;
+import java.util.PriorityQueue;
 
 /**
  * @author RakhmedovRS
@@ -20,27 +20,29 @@ public class PutBoxesIntoTheWarehouseI
 {
 	public int maxBoxesInWarehouse(int[] boxes, int[] warehouse)
 	{
-		int min = warehouse[0];
-		int[] mins = new int[warehouse.length];
-		for (int i = 0; i < mins.length; i++)
+		PriorityQueue<Integer> pq = new PriorityQueue<>();
+		for (int box : boxes)
 		{
-			min = Math.min(min, warehouse[i]);
-			mins[i] = min;
+			pq.add(box);
 		}
 
-		Arrays.sort(boxes);
-
-		int answer = 0;
-		int pos = 0;
-		for (int i = mins.length - 1; i >= 0; i--)
+		int boxesPushed = 0;
+		int min = Integer.MAX_VALUE;
+		for (int i = 0; i < warehouse.length; i++)
 		{
-			if (pos < boxes.length && boxes[pos] <= mins[i])
+			min = Math.min(min, warehouse[i]);
+			warehouse[i] = min;
+		}
+
+		for (int i = warehouse.length - 1; i >= 0 && !pq.isEmpty(); i--)
+		{
+			if (pq.peek() <= warehouse[i])
 			{
-				answer++;
-				pos++;
+				pq.remove();
+				boxesPushed++;
 			}
 		}
 
-		return answer;
+		return boxesPushed;
 	}
 }
