@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1310
+Count of solved tasks: 1311
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1124,7 +1124,8 @@ Count of solved tasks: 1310
 |1846|Medium|[Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/)|[Maximum Element After Decreasing and Rearranging.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumElementAfterDecreasingAndRearranging.java)|
 |1848|Easy|[Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/)|[Minimum Distance to the Target Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceToTheTargetElement.java)|
 |1849|Medium|[Splitting a String Into Descending Consecutive Values](https://leetcode.com/problems/splitting-a-string-into-descending-consecutive-values/)|[Splitting a String Into Descending Consecutive Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplittingStringIntoDescendingConsecutiveValues.java)|
-|1850|Medium|[Minimum Adjacent Swaps to Reach the Kth Smallest Number](https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)|[Minimum Adjacent Swaps to Reach the Kth Smallest Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAdjacentSwapsToReachTheKthSmallestNumber.java)|</p>
+|1850|Medium|[Minimum Adjacent Swaps to Reach the Kth Smallest Number](https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)|[Minimum Adjacent Swaps to Reach the Kth Smallest Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAdjacentSwapsToReachTheKthSmallestNumber.java)|
+|1856|Medium|[Maximum Subarray Min-Product](https://leetcode.com/problems/maximum-subarray-min-product/)|[Maximum Subarray Min-Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSubarrayMinProduct.java)|</p>
 </details>
 
 <details>
@@ -1455,7 +1456,8 @@ Count of solved tasks: 1310
 |1845|Medium|[Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/)|[Seat Reservation Manager.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SeatReservationManager.java)|
 |1846|Medium|[Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/)|[Maximum Element After Decreasing and Rearranging.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumElementAfterDecreasingAndRearranging.java)|
 |1849|Medium|[Splitting a String Into Descending Consecutive Values](https://leetcode.com/problems/splitting-a-string-into-descending-consecutive-values/)|[Splitting a String Into Descending Consecutive Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplittingStringIntoDescendingConsecutiveValues.java)|
-|1850|Medium|[Minimum Adjacent Swaps to Reach the Kth Smallest Number](https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)|[Minimum Adjacent Swaps to Reach the Kth Smallest Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAdjacentSwapsToReachTheKthSmallestNumber.java)|</p>
+|1850|Medium|[Minimum Adjacent Swaps to Reach the Kth Smallest Number](https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)|[Minimum Adjacent Swaps to Reach the Kth Smallest Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAdjacentSwapsToReachTheKthSmallestNumber.java)|
+|1856|Medium|[Maximum Subarray Min-Product](https://leetcode.com/problems/maximum-subarray-min-product/)|[Maximum Subarray Min-Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSubarrayMinProduct.java)|</p>
 </details>
 
 <details>
