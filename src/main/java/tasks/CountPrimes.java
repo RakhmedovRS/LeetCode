@@ -1,51 +1,43 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
-
-import java.util.Arrays;
 
 /**
  * @author RakhmedovRS
  * @created 17-Mar-20
  */
-@LeetCode(id = 204, name = "Count Primes", url = "https://leetcode.com/problems/count-primes/")
+@LeetCode(
+	id = 204,
+	name = "Count Primes",
+	url = "https://leetcode.com/problems/count-primes/",
+	difficulty = Difficulty.EASY
+)
 public class CountPrimes
 {
 	public int countPrimes(int n)
 	{
-		if (n <= 2)
+		if (n < 2)
 		{
 			return 0;
 		}
 
-		boolean[] memo = new boolean[n];
-		Arrays.fill(memo, true);
-		memo[0] = false;
-		memo[1] = false;
+		int count = 0;
+		boolean[] primes = new boolean[n];
 
-		for (int factor = 2; factor < memo.length; factor++)
+		for (int i = 2; i < primes.length; i++)
 		{
-			if (!memo[factor])
+			if (!primes[i])
 			{
-				continue;
-			}
-
-			for (int i = 2; i * factor < memo.length; i++)
-			{
-				memo[i * factor] = false;
+				count++;
+				for (int j = i * 2; j > 0 && j < primes.length; j += i)
+				{
+					primes[j] = true;
+				}
 			}
 		}
 
-		int counter = 0;
-		for (boolean state : memo)
-		{
-			if (state)
-			{
-				counter++;
-			}
-		}
-
-		return counter;
+		return count;
 	}
 
 	public static void main(String[] args)
