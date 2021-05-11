@@ -1,39 +1,42 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 11/12/2020
  */
-@LeetCode(id = 1423, name = "Maximum Points You Can Obtain from Cards", url = "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/")
+@LeetCode(
+	id = 1423,
+	name = "Maximum Points You Can Obtain from Cards",
+	url = "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MaximumPointsYouCanObtainFromCards
 {
 	public int maxScore(int[] cardPoints, int k)
 	{
-		int pointer = 0;
-		int currentSum = 0;
-		int maxSum = 0;
-		for (; pointer < k && pointer < cardPoints.length; pointer++)
+		int i = 0;
+		int sum = 0;
+		int max = 0;
+		for (; i < k; i++)
 		{
-			currentSum += cardPoints[pointer];
+			sum += cardPoints[i];
 		}
 
-		if (pointer == cardPoints.length)
+		max = sum;
+
+		i = Math.min(i, cardPoints.length - 1);
+
+		for (int j = cardPoints.length - 1; i >= 0; i--, j--)
 		{
-			return currentSum;
+			sum -= cardPoints[i];
+			sum += cardPoints[j];
+			max = Math.max(max, sum);
 		}
 
-		maxSum = currentSum;
-
-		for (int i = cardPoints.length - 1; cardPoints.length - i <= k; i--)
-		{
-			currentSum -= cardPoints[--pointer];
-			currentSum += cardPoints[i];
-			maxSum = Math.max(maxSum, currentSum);
-		}
-
-		return maxSum;
+		return max;
 	}
 
 	public static void main(String[] args)
