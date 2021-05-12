@@ -17,18 +17,17 @@ public class RangeSumQuery2DImmutable
 {
 	class NumMatrix
 	{
+
 		int[][] matrix;
 
 		public NumMatrix(int[][] matrix)
 		{
-			int rows = matrix.length;
-			int columns = rows == 0 ? 0 : matrix[0].length;
 			this.matrix = matrix;
-			for (int row = 0; row < rows; row++)
+			for (int[] row : matrix)
 			{
-				for (int column = 1; column < columns; column++)
+				for (int i = 1; i < row.length; i++)
 				{
-					matrix[row][column] += matrix[row][column - 1];
+					row[i] += row[i - 1];
 				}
 			}
 		}
