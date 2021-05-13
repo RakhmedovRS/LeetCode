@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1311
+Count of solved tasks: 1312
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -527,6 +527,7 @@ Count of solved tasks: 1311
 |812|Undefined|[Largest tasks.Triangle Area](https://leetcode.com/problems/largest-triangle-area/)|[Largest tasks.Triangle Area.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestTriangleArea.java)|
 |813|Undefined|[Largest Sum of Averages](https://leetcode.com/problems/largest-sum-of-averages/)|[Largest Sum of Averages.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestSumOfAverages.java)|
 |814|Undefined|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|[Binary Tree Pruning.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreePruning.java)|
+|816|Medium|[Ambiguous Coordinates](https://leetcode.com/problems/ambiguous-coordinates/)|[Ambiguous Coordinates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AmbiguousCoordinates.java)|
 |817|Undefined|[Linked List Components](https://leetcode.com/problems/linked-list-components/)|[Linked List Components.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LinkedListComponents.java)|
 |819|Easy|[Most Common Word](https://leetcode.com/problems/most-common-word/)|[Most Common Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostCommonWord.java)|
 |820|Medium|[Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)|[Short Encoding of Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortEncodingOfWords.java)|
@@ -1317,6 +1318,7 @@ Count of solved tasks: 1311
 |784|Medium|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Letter Case Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LetterCasePermutation.java)|
 |785|Medium|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[Is Graph Bipartite?.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IsGraphBipartite.java)|
 |807|Medium|[Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|[Max Increase to Keep City Skyline.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxIncreaseToKeepCitySkyline.java)|
+|816|Medium|[Ambiguous Coordinates](https://leetcode.com/problems/ambiguous-coordinates/)|[Ambiguous Coordinates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AmbiguousCoordinates.java)|
 |820|Medium|[Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)|[Short Encoding of Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortEncodingOfWords.java)|
 |823|Medium|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[Binary Trees With Factors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreesWithFactors.java)|
 |831|Medium|[Masking Personal Information](https://leetcode.com/problems/masking-personal-information/)|[Masking Personal Information.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaskingPersonalInformation.java)|
