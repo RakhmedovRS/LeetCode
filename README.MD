@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1313
+Count of solved tasks: 1314
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -105,6 +105,7 @@ Count of solved tasks: 1313
 |109|Medium|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/minimum-window-substring/)|[Convert Sorted List to Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertSortedListToBinarySearchTree.java)|
 |110|Easy|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Balanced Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BalancedBinaryTree.java)|
 |111|Undefined|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Minimum Depth of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDepthOfBinaryTree.java)|
+|114|Medium|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Flatten Binary Tree to Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FlattenBinaryTreeToLinkedList.java)|
 |115|Undefined|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|[Distinct Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DistinctSubsequences.java)|
 |116|Undefined|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Populating Next Right Pointers in Each Node.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PopulatingNextRightPointersInEachNode.java)|
 |117|Medium|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Populating Next Right Pointers in Each Node II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PopulatingNextRightPointersInEachNodeII.java)|
@@ -1256,6 +1257,7 @@ Count of solved tasks: 1313
 |98|Medium|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidateBinarySearchTree.java)|
 |105|Medium|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[Construct Binary Tree from Preorder and Inorder Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)|
 |109|Medium|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/minimum-window-substring/)|[Convert Sorted List to Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertSortedListToBinarySearchTree.java)|
+|114|Medium|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Flatten Binary Tree to Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FlattenBinaryTreeToLinkedList.java)|
 |117|Medium|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Populating Next Right Pointers in Each Node II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PopulatingNextRightPointersInEachNodeII.java)|
 |120|Medium|[Triangle](https://leetcode.com/problems/triangle/)|[Triangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Triangle.java)|
 |132|Medium|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)|[Palindrome Partitioning II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromePartitioningII.java)|
