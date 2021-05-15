@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1317
+Count of solved tasks: 1318
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -66,6 +66,7 @@ Count of solved tasks: 1317
 |62|Undefined|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Unique Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniquePaths.java)|
 |63|Medium|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Unique Paths II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniquePathsII.java)|
 |64|Undefined|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Minimum Path Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPathSum.java)|
+|65|Hard|[Valid Number](https://leetcode.com/problems/valid-number/)|[Valid Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidNumber.java)|
 |66|Undefined|[Plus One](https://leetcode.com/problems/plus-one/)|[Plus One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PlusOne.java)|
 |67|Undefined|[Add Binary](https://leetcode.com/problems/add-binary/)|[Add Binary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddBinary.java)|
 |69|Undefined|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Sqrt(x).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Sqrt.java)|
@@ -1484,6 +1485,7 @@ Count of solved tasks: 1317
 |25|Hard|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[Reverse Nodes in k-Group.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseNodesInKGroup.java)|
 |32|Hard|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Longest Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestValidParentheses.java)|
 |41|Hard|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[First Missing Positive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstMissingPositive.java)|
+|65|Hard|[Valid Number](https://leetcode.com/problems/valid-number/)|[Valid Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidNumber.java)|
 |84|Hard|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[Largest Rectangle in Histogram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestRectangleInHistogram.java)|
 |124|Hard|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[Binary Tree Maximum Path Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeMaximumPathSum.java)|
 |127|Hard|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Word Ladder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordLadder.java)|
