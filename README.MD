@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1314
+Count of solved tasks: 1315
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1128,7 +1128,8 @@ Count of solved tasks: 1314
 |1849|Medium|[Splitting a String Into Descending Consecutive Values](https://leetcode.com/problems/splitting-a-string-into-descending-consecutive-values/)|[Splitting a String Into Descending Consecutive Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplittingStringIntoDescendingConsecutiveValues.java)|
 |1850|Medium|[Minimum Adjacent Swaps to Reach the Kth Smallest Number](https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)|[Minimum Adjacent Swaps to Reach the Kth Smallest Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAdjacentSwapsToReachTheKthSmallestNumber.java)|
 |1856|Medium|[Maximum Subarray Min-Product](https://leetcode.com/problems/maximum-subarray-min-product/)|[Maximum Subarray Min-Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSubarrayMinProduct.java)|
-|1858|Medium|[Longest Word With All Prefixes](https://leetcode.com/problems/longest-word-with-all-prefixes/)|[Longest Word With All Prefixes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestWordWithAllPrefixes.java)|</p>
+|1858|Medium|[Longest Word With All Prefixes](https://leetcode.com/problems/longest-word-with-all-prefixes/)|[Longest Word With All Prefixes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestWordWithAllPrefixes.java)|
+|1859|Easy|[Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)|[Sorting the Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortingTheSentence.java)|</p>
 </details>
 
 <details>
@@ -1222,7 +1223,8 @@ Count of solved tasks: 1314
 |1827|Easy|[Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)|[Minimum Operations to Make the Array Increasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeTheArrayIncreasing.java)|
 |1832|Easy|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|[Check if the Sentence Is Pangram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfTheSentenceIsPangram.java)|
 |1837|Easy|[Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/)|[Sum of Digits in Base K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitsInBaseK.java)|
-|1848|Easy|[Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/)|[Minimum Distance to the Target Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceToTheTargetElement.java)|</p>
+|1848|Easy|[Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/)|[Minimum Distance to the Target Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceToTheTargetElement.java)|
+|1859|Easy|[Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)|[Sorting the Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortingTheSentence.java)|</p>
 </details>
 
 <details>
