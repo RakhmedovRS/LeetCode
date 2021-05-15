@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1316
+Count of solved tasks: 1317
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1130,7 +1130,8 @@ Count of solved tasks: 1316
 |1856|Medium|[Maximum Subarray Min-Product](https://leetcode.com/problems/maximum-subarray-min-product/)|[Maximum Subarray Min-Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSubarrayMinProduct.java)|
 |1858|Medium|[Longest Word With All Prefixes](https://leetcode.com/problems/longest-word-with-all-prefixes/)|[Longest Word With All Prefixes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestWordWithAllPrefixes.java)|
 |1859|Easy|[Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)|[Sorting the Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortingTheSentence.java)|
-|1860|Medium|[Incremental Memory Leak](https://leetcode.com/problems/incremental-memory-leak/)|[Incremental Memory Leak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IncrementalMemoryLeak.java)|</p>
+|1860|Medium|[Incremental Memory Leak](https://leetcode.com/problems/incremental-memory-leak/)|[Incremental Memory Leak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IncrementalMemoryLeak.java)|
+|1861|Medium|[Rotating the Box](https://leetcode.com/problems/rotating-the-box/)|[Rotating the Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotatingTheBox.java)|</p>
 </details>
 
 <details>
@@ -1469,7 +1470,8 @@ Count of solved tasks: 1316
 |1850|Medium|[Minimum Adjacent Swaps to Reach the Kth Smallest Number](https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)|[Minimum Adjacent Swaps to Reach the Kth Smallest Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAdjacentSwapsToReachTheKthSmallestNumber.java)|
 |1856|Medium|[Maximum Subarray Min-Product](https://leetcode.com/problems/maximum-subarray-min-product/)|[Maximum Subarray Min-Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSubarrayMinProduct.java)|
 |1858|Medium|[Longest Word With All Prefixes](https://leetcode.com/problems/longest-word-with-all-prefixes/)|[Longest Word With All Prefixes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestWordWithAllPrefixes.java)|
-|1860|Medium|[Incremental Memory Leak](https://leetcode.com/problems/incremental-memory-leak/)|[Incremental Memory Leak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IncrementalMemoryLeak.java)|</p>
+|1860|Medium|[Incremental Memory Leak](https://leetcode.com/problems/incremental-memory-leak/)|[Incremental Memory Leak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IncrementalMemoryLeak.java)|
+|1861|Medium|[Rotating the Box](https://leetcode.com/problems/rotating-the-box/)|[Rotating the Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotatingTheBox.java)|</p>
 </details>
 
 <details>
