@@ -1,93 +1,79 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
-import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author RakhmedovRS
  * @created 12-Aug-20
  */
-@LeetCode(id = 968, name = "Binary Tree Cameras", url = "https://leetcode.com/problems/binary-tree-cameras/")
+@LeetCode(
+	id = 968,
+	name = "Binary Tree Cameras",
+	url = "https://leetcode.com/problems/binary-tree-cameras/",
+	difficulty = Difficulty.HARD
+)
 public class BinaryTreeCameras
 {
-	enum State
-	{
-		EMPTY(0),
-		CAMERA(1),
-		COVERED(2);
-
-		int index;
-
-		State(int index)
-		{
-			this.index = index;
-		}
-	}
-
 	public int minCameraCover(TreeNode root)
 	{
-		int[] val = new int[]{0};
-		inorder(root, val);
-		int[][] memo = new int[val[0]][3];
-		for (int[] row : memo)
+		if (root == null)
 		{
-			Arrays.fill(row, -1);
+			return 0;
 		}
-		return Math.min(dfs(root, State.EMPTY, memo), 1 + dfs(root, State.CAMERA, memo));
+		else if (root.left == null && root.right == null)
+		{
+			return 1;
+		}
+
+		Map<TreeNode, Integer[]> memo = new HashMap<>();
+
+		return Math.min(dfs(root, 0, memo), 1 + dfs(root, 2, memo));
 	}
 
-	private int dfs(TreeNode root, State state, int[][] memo)
+	// 0 - uncovered, 1 - covered, 2 - camera
+	private int dfs(TreeNode root, int state, Map<TreeNode, Integer[]> memo)
 	{
 		if (root == null)
 		{
 			return 0;
 		}
 
-		if (memo[root.val][state.index] != -1)
+		if (memo.containsKey(root) && memo.get(root)[state] != null)
 		{
-			return memo[root.val][state.index];
+			return memo.get(root)[state];
 		}
 
-		int result = 0;
-		switch (state)
+		memo.putIfAbsent(root, new Integer[3]);
+
+		int result;
+
+		//uncovered
+		if (state == 0)
 		{
-			case EMPTY:
-			{
-				int cameraHere = 1 + dfs(root.left, State.COVERED, memo) + dfs(root.right, State.COVERED, memo);
-				int cameraAtLeftChild = root.left == null ? Integer.MAX_VALUE : 1 + dfs(root.left, State.CAMERA, memo) + dfs(root.right, State.EMPTY, memo);
-				int cameraAtRightChild = root.right == null ? Integer.MAX_VALUE : 1 + dfs(root.right, State.CAMERA, memo) + dfs(root.left, State.EMPTY, memo);
-				result = Math.min(cameraHere, Math.min(cameraAtLeftChild, cameraAtRightChild));
-				break;
-			}
-			case CAMERA:
-			{
-				result = dfs(root.left, State.COVERED, memo) + dfs(root.right, State.COVERED, memo);
-				break;
-			}
-			case COVERED:
-			{
-				result = 1 + dfs(root.left, State.COVERED, memo) + dfs(root.right, State.COVERED, memo);
-				result = Math.min(result, dfs(root.left, State.EMPTY, memo) + dfs(root.right, State.EMPTY, memo));
-				break;
-			}
+			int camera = 1 + dfs(root.left, 1, memo) + dfs(root.right, 1, memo);
+			int leftCamera = root.left == null ? Integer.MAX_VALUE : 1 + dfs(root.left, 2, memo) + dfs(root.right, 0, memo);
+			int rightCamera = root.right == null ? Integer.MAX_VALUE : 1 + dfs(root.right, 2, memo) + dfs(root.left, 0, memo);
+			result = Math.min(camera, Math.min(leftCamera, rightCamera));
+		}
+		//covered
+		else if (state == 1)
+		{
+			result = Math.min(1 + dfs(root.left, 1, memo) + dfs(root.right, 1, memo),
+				dfs(root.left, 0, memo) + dfs(root.right, 0, memo));
+		}
+		//camera
+		else
+		{
+			result = dfs(root.left, 1, memo) + dfs(root.right, 1, memo);
 		}
 
-		memo[root.val][state.index] = result;
+		memo.get(root)[state] = result;
 
-		return memo[root.val][state.index];
-	}
-
-	private void inorder(TreeNode root, int[] val)
-	{
-		if (root == null)
-		{
-			return;
-		}
-
-		inorder(root.left, val);
-		root.val = val[0]++;
-		inorder(root.right, val);
+		return result;
 	}
 }
