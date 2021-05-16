@@ -1,8 +1,8 @@
 package contest;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 import java.util.stream.Collectors;
 
 /**
@@ -13,13 +13,18 @@ public class Contest
 {
 
 
+
 	public static void main(String[] args) throws Exception
 	{
 		Contest clazz = new Contest();
 	}
 
-	private static String readBigTestCase() throws FileNotFoundException
+	private static String readBigTestCase() throws IOException
 	{
-		return new BufferedReader(new FileReader(Thread.currentThread().getContextClassLoader().getResource("TestCase.txt").getFile())).lines().collect(Collectors.joining());
+		try(BufferedReader br = new BufferedReader(new FileReader(Thread.currentThread().getContextClassLoader().getResource("TestCase.txt").getFile())))
+		{
+			return br.lines().collect(Collectors.joining());
+		}
+
 	}
 }
