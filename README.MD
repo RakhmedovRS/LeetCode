@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1318
+Count of solved tasks: 1319
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -638,7 +638,7 @@ Count of solved tasks: 1318
 |965|Undefined|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[Univalued Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UnivaluedBinaryTree.java)|
 |966|Undefined|[Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker/)|[Vowel Spellchecker.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelSpellchecker.java)|
 |967|Undefined|[Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)|[Numbers With Same Consecutive Differences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumbersWithSameConsecutiveDifferences.java)|
-|968|Undefined|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|[Binary Tree Cameras.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeCameras.java)|
+|968|Hard|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|[Binary Tree Cameras.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeCameras.java)|
 |969|Undefined|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)|[Pancake Sorting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PancakeSorting.java)|
 |970|Medium|[Powerful Integers](https://leetcode.com/problems/powerful-integers/)|[Powerful Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PowerfulIntegers.java)|
 |971|Medium|[Flip Binary Tree To Match Preorder Traversal](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/)|[Flip Binary Tree To Match Preorder Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FlipBinaryTreeToMatchPreorderTraversal.java)|
@@ -1132,7 +1132,8 @@ Count of solved tasks: 1318
 |1858|Medium|[Longest Word With All Prefixes](https://leetcode.com/problems/longest-word-with-all-prefixes/)|[Longest Word With All Prefixes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestWordWithAllPrefixes.java)|
 |1859|Easy|[Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)|[Sorting the Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortingTheSentence.java)|
 |1860|Medium|[Incremental Memory Leak](https://leetcode.com/problems/incremental-memory-leak/)|[Incremental Memory Leak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IncrementalMemoryLeak.java)|
-|1861|Medium|[Rotating the Box](https://leetcode.com/problems/rotating-the-box/)|[Rotating the Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotatingTheBox.java)|</p>
+|1861|Medium|[Rotating the Box](https://leetcode.com/problems/rotating-the-box/)|[Rotating the Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotatingTheBox.java)|
+|1863|Easy|[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)|[Sum of All Subset XOR Totals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfAllSubsetXORTotals.java)|</p>
 </details>
 
 <details>
@@ -1227,7 +1228,8 @@ Count of solved tasks: 1318
 |1832|Easy|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|[Check if the Sentence Is Pangram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfTheSentenceIsPangram.java)|
 |1837|Easy|[Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/)|[Sum of Digits in Base K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitsInBaseK.java)|
 |1848|Easy|[Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/)|[Minimum Distance to the Target Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceToTheTargetElement.java)|
-|1859|Easy|[Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)|[Sorting the Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortingTheSentence.java)|</p>
+|1859|Easy|[Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)|[Sorting the Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortingTheSentence.java)|
+|1863|Easy|[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)|[Sum of All Subset XOR Totals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfAllSubsetXORTotals.java)|</p>
 </details>
 
 <details>
@@ -1506,6 +1508,7 @@ Count of solved tasks: 1318
 |773|Hard|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/)|[Sliding Puzzle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SlidingPuzzle.java)|
 |895|Hard|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|[Maximum Frequency Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumFrequencyStack.java)|
 |902|Hard|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[Numbers At Most N Given Digit Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumbersAtMostNGivenDigitSet.java)|
+|968|Hard|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|[Binary Tree Cameras.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeCameras.java)|
 |987|Hard|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|[Vertical Order Traversal of a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VerticalOrderTraversalOfBinaryTree.java)|
 |992|Hard|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)|[Subarrays with K Different Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubarraysWithKDifferentIntegers.java)|
 |995|Hard|[Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)|[Minimum Number of K Consecutive Bit Flips.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfKConsecutiveBitFlips.java)|
