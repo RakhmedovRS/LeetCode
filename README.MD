@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1319
+Count of solved tasks: 1320
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1133,7 +1133,8 @@ Count of solved tasks: 1319
 |1859|Easy|[Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)|[Sorting the Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortingTheSentence.java)|
 |1860|Medium|[Incremental Memory Leak](https://leetcode.com/problems/incremental-memory-leak/)|[Incremental Memory Leak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IncrementalMemoryLeak.java)|
 |1861|Medium|[Rotating the Box](https://leetcode.com/problems/rotating-the-box/)|[Rotating the Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotatingTheBox.java)|
-|1863|Easy|[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)|[Sum of All Subset XOR Totals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfAllSubsetXORTotals.java)|</p>
+|1863|Easy|[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)|[Sum of All Subset XOR Totals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfAllSubsetXORTotals.java)|
+|1864|Medium|[Minimum Number of Swaps to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/)|[Minimum Number of Swaps to Make the Binary String Alternating.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfSwapsToMakeTheBinaryStringAlternating.java)|</p>
 </details>
 
 <details>
@@ -1474,7 +1475,8 @@ Count of solved tasks: 1319
 |1856|Medium|[Maximum Subarray Min-Product](https://leetcode.com/problems/maximum-subarray-min-product/)|[Maximum Subarray Min-Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSubarrayMinProduct.java)|
 |1858|Medium|[Longest Word With All Prefixes](https://leetcode.com/problems/longest-word-with-all-prefixes/)|[Longest Word With All Prefixes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestWordWithAllPrefixes.java)|
 |1860|Medium|[Incremental Memory Leak](https://leetcode.com/problems/incremental-memory-leak/)|[Incremental Memory Leak.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IncrementalMemoryLeak.java)|
-|1861|Medium|[Rotating the Box](https://leetcode.com/problems/rotating-the-box/)|[Rotating the Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotatingTheBox.java)|</p>
+|1861|Medium|[Rotating the Box](https://leetcode.com/problems/rotating-the-box/)|[Rotating the Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotatingTheBox.java)|
+|1864|Medium|[Minimum Number of Swaps to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/)|[Minimum Number of Swaps to Make the Binary String Alternating.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfSwapsToMakeTheBinaryStringAlternating.java)|</p>
 </details>
 
 <details>
