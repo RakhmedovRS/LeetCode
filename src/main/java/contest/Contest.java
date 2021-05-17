@@ -21,10 +21,9 @@ public class Contest
 
 	private static String readBigTestCase() throws IOException
 	{
-		try(BufferedReader br = new BufferedReader(new FileReader(Thread.currentThread().getContextClassLoader().getResource("TestCase.txt").getFile())))
+		try (BufferedReader br = new BufferedReader(new FileReader(Thread.currentThread().getContextClassLoader().getResource("TestCase.txt").getFile())))
 		{
 			return br.lines().collect(Collectors.joining());
 		}
-
 	}
 }
