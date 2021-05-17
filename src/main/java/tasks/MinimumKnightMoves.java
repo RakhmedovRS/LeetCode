@@ -20,61 +20,53 @@ public class MinimumKnightMoves
 {
 	public int minKnightMoves(int x, int y)
 	{
-		if (x == 0 && y == 0)
-		{
-			return 0;
-		}
-
-		Queue<int[]> positions = new LinkedList<>();
-		positions.add(new int[]{0, 0});
 		Map<Integer, Set<Integer>> visited = new HashMap<>();
-		visited.put(0, new HashSet<>());
-		visited.get(0).add(0);
+		Queue<int[]> queue = new LinkedList<>();
+		queue.add(new int[]{0, 0});
 
-		int size;
 		int steps = 0;
+		int size;
 		int[] current;
-		int nextX;
-		int nextY;
-		int[][] moves = new int[][]
-			{
-				{-2, -1},
-				{-2, 1},
-				{-1, -2},
-				{-1, 2},
-				{1, -2},
-				{1, 2},
-				{2, -1},
-				{2, 1}
-			};
-		while (!positions.isEmpty())
+		int row;
+		int column;
+		int nextRow;
+		int nextColumn;
+
+		int[][] moves = new int[][]{{-1, -2}, {-2, -1}, {-2, 1}, {-1, 2}, {1, -2}, {2, -1}, {2, 1}, {1, 2}};
+		while (!queue.isEmpty())
 		{
-			size = positions.size();
+			size = queue.size();
 			while (size-- > 0)
 			{
-				current = positions.remove();
+				current = queue.remove();
+				row = current[0];
+				column = current[1];
+
+				if (row == x && column == y)
+				{
+					return steps;
+				}
+
 				for (int[] move : moves)
 				{
-					nextX = current[0] + move[0];
-					nextY = current[1] + move[1];
+					nextRow = row + move[0];
+					nextColumn = column + move[1];
 
-					if (nextX == x && nextY == y)
-					{
-						return steps + 1;
-					}
-
-					visited.putIfAbsent(nextX, new HashSet<>());
-					if (!visited.get(nextX).add(nextY))
+					if (visited.getOrDefault(nextRow, Collections.emptySet()).contains(nextColumn))
 					{
 						continue;
 					}
 
-					positions.add(new int[]{nextX, nextY});
+					visited.putIfAbsent(nextRow, new HashSet<>());
+					visited.get(nextRow).add(nextColumn);
+
+					queue.add(new int[]{nextRow, nextColumn});
 				}
 			}
+
 			steps++;
 		}
 
-		return steps;
+		return -1;
 	}
 }
