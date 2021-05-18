@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1321
+Count of solved tasks: 1322
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1626,6 +1626,7 @@ Count of solved tasks: 1321
 |604|Easy|[Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator/)|[Design Compressed String Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignCompressedStringIterator.java)|
 |616|Medium|[Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string/)|[Add Bold Tag in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddBoldTagInString.java)|
 |624|Medium|[Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/)|[Maximum Distance in Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDistanceInArrays.java)|
+|635|Medium|[Design Log Storage System](https://leetcode.com/problems/design-log-storage-system/)|[Design Log Storage System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignLogStorageSystem.java)|
 |644|Hard|[Maximum Average Subarray II](https://leetcode.com/problems/maximum-average-subarray-ii/)|[Maximum Average Subarray II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAverageSubarrayII.java)|
 |660|Medium|[Remove 9](https://leetcode.com/problems/remove-9/)|[Remove 9.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Remove9.java)|
 |681|Medium|[Next Closest Time](https://leetcode.com/problems/next-closest-time/)|[Next Closest Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NextClosestTime.java)|
