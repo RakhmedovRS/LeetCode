@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1322
+Count of solved tasks: 1323
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -436,6 +436,7 @@ Count of solved tasks: 1322
 |652|Undefined|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/)|[Find Duplicate Subtrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindDuplicateSubtrees.java)|
 |654|Undefined|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|[Maximum Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumBinaryTree.java)|
 |655|Undefined|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|[Print Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrintBinaryTree.java)|
+|658|Medium|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|[Find K Closest Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindKClosestElements.java)|
 |661|Undefined|[Image Smoother](https://leetcode.com/problems/image-smoother/)|[Image Smoother.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ImageSmoother.java)|
 |662|Undefined|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[Maximum Width of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumWidthOfBinaryTree.java)|
 |665|Medium|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Non-decreasing Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NonDecreasingArray.java)|
@@ -1317,6 +1318,7 @@ Count of solved tasks: 1322
 |623|Medium|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[Add One Row to Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddOneRowToTree.java)|
 |636|Medium|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|[Exclusive Time of Functions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExclusiveTimeOfFunctions.java)|
 |647|Medium|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Palindromic Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromicSubstrings.java)|
+|658|Medium|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|[Find K Closest Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindKClosestElements.java)|
 |665|Medium|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Non-decreasing Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NonDecreasingArray.java)|
 |667|Medium|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|[Beautiful Arrangement II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BeautifulArrangementII.java)|
 |669|Medium|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Trim a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TrimBinarySearchTree.java)|
