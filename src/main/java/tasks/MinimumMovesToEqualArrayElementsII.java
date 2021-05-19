@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,18 +9,33 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 9/24/2020
  */
-@LeetCode(id = 462, name = "Minimum Moves to Equal Array Elements II", url = "https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/")
+@LeetCode(
+	id = 462,
+	name = "Minimum Moves to Equal Array Elements II",
+	url = "https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MinimumMovesToEqualArrayElementsII
 {
 	public int minMoves2(int[] nums)
 	{
-		int moves = 0;
 		Arrays.sort(nums);
-		int middle = nums[nums.length / 2];
+		int median;
+		if (nums.length % 2 == 0)
+		{
+			median = (nums[nums.length / 2 - 1] + nums[nums.length / 2]) / 2;
+		}
+		else
+		{
+			median = nums[nums.length / 2];
+		}
+
+		int steps = 0;
 		for (int num : nums)
 		{
-			moves += Math.abs(num - nums[middle]);
+			steps += Math.abs(median - num);
 		}
-		return moves;
+
+		return steps;
 	}
 }
