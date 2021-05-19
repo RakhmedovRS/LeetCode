@@ -1,38 +1,53 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 07-May-20
  */
-@LeetCode(id = 922, name = "Sort Array By Parity II", url = "https://leetcode.com/problems/sort-array-by-parity-ii/")
+@LeetCode(
+	id = 922,
+	name = "Sort Array By Parity II",
+	url = "https://leetcode.com/problems/sort-array-by-parity-ii/",
+	difficulty = Difficulty.EASY
+)
 public class SortArrayByParityII
 {
-	public int[] sortArrayByParityII(int[] A)
+	public int[] sortArrayByParityII(int[] nums)
 	{
-		if (A == null)
-		{
-			return new int[]{};
-		}
-
-		int[] result = new int[A.length];
+		int odd = 0;
 		int even = 0;
-		int odd = 1;
-		for (int value : A)
+
+		for (int i = 0; i < nums.length; i++)
 		{
-			if (value % 2 == 0)
+			if (i % 2 == 0)
 			{
-				result[even] = value;
-				even += 2;
+				while (nums[even] % 2 != 0)
+				{
+					even++;
+				}
+
+				swap(nums, i, even++);
 			}
 			else
 			{
-				result[odd] = value;
-				odd += 2;
+				while (nums[odd] % 2 == 0)
+				{
+					odd++;
+				}
+
+				swap(nums, i, odd++);
 			}
 		}
+		return nums;
+	}
 
-		return result;
+	private void swap(int[] nums, int left, int right)
+	{
+		int temp = nums[left];
+		nums[left] = nums[right];
+		nums[right] = temp;
 	}
 }
