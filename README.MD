@@ -337,7 +337,7 @@ Count of solved tasks: 1323
 |467|Undefined|[Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)|[Unique Substrings in Wraparound String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniqueSubstringsInWraparoundString.java)|
 |468|Undefined|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[Validate IP Address.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidateIPAddress.java)|
 |470|Undefined|[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)|[Implement Rand10() Using Rand7().java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ImplementRand10UsingRand7.java)|
-|472|Undefined|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|[Concatenated Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenatedWords.java)|
+|472|Hard|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|[Concatenated Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenatedWords.java)|
 |473|Medium|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[Matchsticks to Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MatchsticksToSquare.java)|
 |474|Undefined|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|[Ones and Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OnesAndZeroes.java)|
 |475|Undefined|[Heaters](https://leetcode.com/problems/heaters/)|[Heaters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Heaters.java)|
@@ -1510,6 +1510,7 @@ Count of solved tasks: 1323
 |381|Hard|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|[Insert Delete GetRandom O(1) - Duplicates allowed.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/InsertDeleteGetRandomO1DuplicatesAllowed.java)|
 |431|Hard|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/)|[Encode N-ary Tree to Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EncodeNaryTreeToBinaryTree.java)|
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[Poor Pigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PoorPigs.java)|
+|472|Hard|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|[Concatenated Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenatedWords.java)|
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[Remove Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveBoxes.java)|
 |630|Hard|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|[Course Schedule III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CourseScheduleIII.java)|
 |639|Hard|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|[Decode Ways II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeWaysII.java)|
