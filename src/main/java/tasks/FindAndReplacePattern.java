@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -12,7 +13,12 @@ import java.util.Map;
  * @created 14-Aug-20
  */
 
-@LeetCode(id = 890, name = "Find and Replace Pattern", url = "https://leetcode.com/problems/find-and-replace-pattern/")
+@LeetCode(
+	id = 890,
+	name = "Find and Replace Pattern",
+	url = "https://leetcode.com/problems/find-and-replace-pattern/",
+	difficulty = Difficulty.MEDIUM
+)
 public class FindAndReplacePattern
 {
 	public List<String> findAndReplacePattern(String[] words, String pattern)
@@ -20,7 +26,7 @@ public class FindAndReplacePattern
 		List<String> answer = new ArrayList<>();
 		for (String word : words)
 		{
-			if (word.length() == pattern.length() && replacePossible(word, pattern))
+			if (isMatch(word, pattern))
 			{
 				answer.add(word);
 			}
@@ -29,24 +35,32 @@ public class FindAndReplacePattern
 		return answer;
 	}
 
-	private boolean replacePossible(String word, String pattern)
+	private boolean isMatch(String word, String pattern)
 	{
-		Map<Character, Character> wordToPattern = new HashMap<>();
-		Map<Character, Character> patternToWord = new HashMap<>();
+		if (word.length() != pattern.length())
+		{
+			return false;
+		}
+
+		boolean[] used = new boolean[26];
+		Map<Character, Character> map = new HashMap<>();
+		char wChar;
+		char pChar;
 		for (int i = 0; i < word.length(); i++)
 		{
-			char wChar = word.charAt(i);
-			char pChar = pattern.charAt(i);
-			if (!wordToPattern.containsKey(wChar))
-			{
-				wordToPattern.put(wChar, pChar);
-			}
-			if (!patternToWord.containsKey(pChar))
-			{
-				patternToWord.put(pChar, wChar);
-			}
+			wChar = word.charAt(i);
+			pChar = pattern.charAt(i);
 
-			if (wordToPattern.get(wChar) != pChar || patternToWord.get(pChar) != wChar)
+			if (!map.containsKey(pChar))
+			{
+				if (used[wChar - 'a'])
+				{
+					return false;
+				}
+				map.put(pChar, wChar);
+				used[wChar - 'a'] = true;
+			}
+			else if (map.get(pChar) != wChar)
 			{
 				return false;
 			}
