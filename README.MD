@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1324
+Count of solved tasks: 1325
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1137,7 +1137,8 @@ Count of solved tasks: 1324
 |1861|Medium|[Rotating the Box](https://leetcode.com/problems/rotating-the-box/)|[Rotating the Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotatingTheBox.java)|
 |1863|Easy|[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)|[Sum of All Subset XOR Totals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfAllSubsetXORTotals.java)|
 |1864|Medium|[Minimum Number of Swaps to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/)|[Minimum Number of Swaps to Make the Binary String Alternating.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfSwapsToMakeTheBinaryStringAlternating.java)|
-|1865|Medium|[Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/)|[Finding Pairs With a Certain Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindingPairsWithCertainSum.java)|</p>
+|1865|Medium|[Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/)|[Finding Pairs With a Certain Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindingPairsWithCertainSum.java)|
+|1869|Easy|[Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)|[Longer Contiguous Segments of Ones than Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongerContiguousSegmentsOfOnesThanZeros.java)|</p>
 </details>
 
 <details>
@@ -1234,7 +1235,8 @@ Count of solved tasks: 1324
 |1837|Easy|[Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/)|[Sum of Digits in Base K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitsInBaseK.java)|
 |1848|Easy|[Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/)|[Minimum Distance to the Target Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceToTheTargetElement.java)|
 |1859|Easy|[Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)|[Sorting the Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortingTheSentence.java)|
-|1863|Easy|[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)|[Sum of All Subset XOR Totals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfAllSubsetXORTotals.java)|</p>
+|1863|Easy|[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)|[Sum of All Subset XOR Totals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfAllSubsetXORTotals.java)|
+|1869|Easy|[Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)|[Longer Contiguous Segments of Ones than Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongerContiguousSegmentsOfOnesThanZeros.java)|</p>
 </details>
 
 <details>
