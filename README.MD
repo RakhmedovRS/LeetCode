@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1328
+Count of solved tasks: 1329
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1140,7 +1140,8 @@ Count of solved tasks: 1328
 |1864|Medium|[Minimum Number of Swaps to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/)|[Minimum Number of Swaps to Make the Binary String Alternating.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfSwapsToMakeTheBinaryStringAlternating.java)|
 |1865|Medium|[Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/)|[Finding Pairs With a Certain Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindingPairsWithCertainSum.java)|
 |1869|Easy|[Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)|[Longer Contiguous Segments of Ones than Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongerContiguousSegmentsOfOnesThanZeros.java)|
-|1870|Medium|[Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/)|[Minimum Speed to Arrive on Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSpeedToArriveOnTime.java)|</p>
+|1870|Medium|[Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/)|[Minimum Speed to Arrive on Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSpeedToArriveOnTime.java)|
+|1871|Medium|[Jump Game VII](https://leetcode.com/problems/jump-game-vii/)|[Jump Game VII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGameVII.java)|</p>
 </details>
 
 <details>
@@ -1493,7 +1494,8 @@ Count of solved tasks: 1328
 |1861|Medium|[Rotating the Box](https://leetcode.com/problems/rotating-the-box/)|[Rotating the Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotatingTheBox.java)|
 |1864|Medium|[Minimum Number of Swaps to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/)|[Minimum Number of Swaps to Make the Binary String Alternating.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfSwapsToMakeTheBinaryStringAlternating.java)|
 |1865|Medium|[Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/)|[Finding Pairs With a Certain Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindingPairsWithCertainSum.java)|
-|1870|Medium|[Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/)|[Minimum Speed to Arrive on Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSpeedToArriveOnTime.java)|</p>
+|1870|Medium|[Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/)|[Minimum Speed to Arrive on Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSpeedToArriveOnTime.java)|
+|1871|Medium|[Jump Game VII](https://leetcode.com/problems/jump-game-vii/)|[Jump Game VII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGameVII.java)|</p>
 </details>
 
 <details>
