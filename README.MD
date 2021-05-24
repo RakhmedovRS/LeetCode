@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1327
+Count of solved tasks: 1328
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -470,6 +470,7 @@ Count of solved tasks: 1327
 |705|Undefined|[Design HashSet](https://leetcode.com/problems/design-hashset/)|[Design HashSet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignHashSet.java)|
 |706|Easy|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Design HashMap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignHashMap.java)|
 |707|Undefined|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[Design Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignLinkedList.java)|
+|709|Easy|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[To Lower Case.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ToLowerCase.java)|
 |710|Undefined|[Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/)|[Random Pick with Blacklist.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RandomPickWithBlacklist.java)|
 |712|Undefined|[Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)|[Minimum ASCII Delete Sum for Two Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumASCIIDeleteSumForTwoStrings.java)|
 |713|Undefined|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[Subarray Product Less Than K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubarrayProductLessThanK.java)|
@@ -1177,6 +1178,7 @@ Count of solved tasks: 1327
 |645|Easy|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[Set Mismatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SetMismatch.java)|
 |696|Easy|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|[Count Binary Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountBinarySubstrings.java)|
 |706|Easy|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Design HashMap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignHashMap.java)|
+|709|Easy|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[To Lower Case.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ToLowerCase.java)|
 |720|Easy|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Longest Word in Dictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestWordInDictionary.java)|
 |804|Easy|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Unique Morse Code Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniqueMorseCodeWords.java)|
 |819|Easy|[Most Common Word](https://leetcode.com/problems/most-common-word/)|[Most Common Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostCommonWord.java)|
