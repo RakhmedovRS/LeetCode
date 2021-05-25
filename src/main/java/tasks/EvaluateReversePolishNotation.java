@@ -1,61 +1,52 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
-import java.util.Deque;
+import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.Map;
+import java.util.function.IntBinaryOperator;
 
 /**
  * @author RakhmedovRS
  * @created 11-Apr-20
  */
-@LeetCode(id = 150, name = "Evaluate Reverse Polish Notation", url = "https://leetcode.com/problems/evaluate-reverse-polish-notation/")
+@LeetCode(
+	id = 150,
+	name = "Evaluate Reverse Polish Notation",
+	url = "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+	difficulty = Difficulty.MEDIUM
+)
 public class EvaluateReversePolishNotation
 {
 	public int evalRPN(String[] tokens)
 	{
-		Deque<Integer> values = new LinkedList<>();
+		LinkedList<Integer> stack = new LinkedList<>();
+		Map<String, IntBinaryOperator> ops = new HashMap<>();
+		ops.put("+", (a, b) -> a + b);
+		ops.put("-", (a, b) -> a - b);
+		ops.put("*", (a, b) -> a * b);
+		ops.put("/", (a, b) -> a / b);
+
+		int a;
+		int b;
 		for (String token : tokens)
 		{
-			switch (token)
+			if (token.length() == 1 && !Character.isDigit(token.charAt(0)))
 			{
-				case "+":
-				{
-					Integer a = values.removeLast();
-					Integer b = values.removeLast();
-					values.addLast(a + b);
-					break;
-				}
-				case "-":
-				{
-					Integer a = values.removeLast();
-					Integer b = values.removeLast();
-					values.addLast(b - a);
-					break;
-				}
-				case "*":
-				{
-					Integer a = values.removeLast();
-					Integer b = values.removeLast();
-					values.addLast(a * b);
-					break;
-				}
-				case "/":
-				{
-					Integer a = values.removeLast();
-					Integer b = values.removeLast();
-					values.addLast(b / a);
-					break;
-				}
-				default:
-				{
-					values.addLast(Integer.parseInt(token));
-					break;
-				}
+				b = stack.pop();
+				a = stack.pop();
+
+				stack.push(ops.get(token).applyAsInt(a, b));
+			}
+			else
+			{
+				stack.push(Integer.parseInt(token));
 			}
 		}
 
-		return values.getLast();
+		return stack.remove();
 	}
 
 	public static void main(String[] args)
