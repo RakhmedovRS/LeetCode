@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1329
+Count of solved tasks: 1330
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -277,6 +277,7 @@ Count of solved tasks: 1329
 |385|Undefined|[Mini Parser](https://leetcode.com/problems/mini-parser/)|[Mini Parser.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MiniParser.java)|
 |386|Medium|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)|[Lexicographical Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicalNumbers.java)|
 |387|Undefined|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[First Unique Character in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstUniqueCharacterInString.java)|
+|388|Medium|[Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)|[Longest Absolute File Path.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestAbsoluteFilePath.java)|
 |389|Undefined|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Find the Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheDifference.java)|
 |390|Undefined|[Elimination Game](https://leetcode.com/problems/elimination-game/)|[Elimination Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EliminationGame.java)|
 |392|Undefined|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Is Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IsSubsequence.java)|
@@ -1302,6 +1303,7 @@ Count of solved tasks: 1329
 |377|Medium|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|[Combination Sum IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CombinationSumIV.java)|
 |382|Medium|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|[Linked List Random Node.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LinkedListRandomNode.java)|
 |386|Medium|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)|[Lexicographical Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicalNumbers.java)|
+|388|Medium|[Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)|[Longest Absolute File Path.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestAbsoluteFilePath.java)|
 |394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[Decode String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeString.java)|
 |395|Medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|[Longest Substring with At Least K Repeating Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubstringWithAtLeastKRepeatingCharacters.java)|
 |413|Medium|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[Arithmetic Slices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArithmeticSlices.java)|
