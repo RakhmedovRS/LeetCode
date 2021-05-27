@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1330
+Count of solved tasks: 1331
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1759,6 +1759,7 @@ Count of solved tasks: 1330
 |1836|Medium|[Remove Duplicates From an Unsorted Linked List](https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/)|[Remove Duplicates From an Unsorted Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveDuplicatesFromAnUnsortedLinkedList.java)|
 |1842|Hard|[Next Palindrome Using Same Digits](https://leetcode.com/problems/next-palindrome-using-same-digits/)|[Next Palindrome Using Same Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NextPalindromeUsingSameDigits.java)|
 |1852|Medium|[Distinct Numbers in Each Subarray](https://leetcode.com/problems/distinct-numbers-in-each-subarray/)|[Distinct Numbers in Each Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DistinctNumbersInEachSubarray.java)|
-|1868|Medium|[Product of Two Run-Length Encoded Arrays](https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/)|[Product of Two Run-Length Encoded Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ProductOfTwoRunLengthEncodedArrays.java)|</p>
+|1868|Medium|[Product of Two Run-Length Encoded Arrays](https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/)|[Product of Two Run-Length Encoded Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ProductOfTwoRunLengthEncodedArrays.java)|
+|1874|Medium|[Minimize Product Sum of Two Arrays](https://leetcode.com/problems/minimize-product-sum-of-two-arrays/)|[Minimize Product Sum of Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeProductSumOfTwoArrays.java)|</p>
 </details>
 
