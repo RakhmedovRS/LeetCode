@@ -1,28 +1,34 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 25-Jun-20
  */
-@LeetCode(id = 318, name = "Maximum Product of Word Lengths", url = "https://leetcode.com/problems/maximum-product-of-word-lengths/")
+@LeetCode(
+	id = 318,
+	name = "Maximum Product of Word Lengths",
+	url = "https://leetcode.com/problems/maximum-product-of-word-lengths/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MaximumProductOfWordLengths
 {
 	public int maxProduct(String[] words)
 	{
-		int[][] tables = new int[words.length][];
+		int max = 0;
+		boolean[][] tables = new boolean[words.length][];
 		for (int i = 0; i < words.length; i++)
 		{
-			tables[i] = createTable(words[i]);
+			tables[i] = buildTable(words[i]);
 		}
 
-		int max = 0;
-		for (int i = 0; i < tables.length - 1; i++)
+		for (int i = 0; i < words.length; i++)
 		{
-			for (int j = i + 1; j < tables.length; j++)
+			for (int j = i + 1; j < words.length; j++)
 			{
-				if (!containsSameChars(tables[i], tables[j]))
+				if (!isIntersect(tables[i], tables[j]))
 				{
 					max = Math.max(max, words[i].length() * words[j].length());
 				}
@@ -32,22 +38,22 @@ public class MaximumProductOfWordLengths
 		return max;
 	}
 
-	private int[] createTable(String word)
+	private boolean[] buildTable(String string)
 	{
-		int[] table = new int[26];
-		for (char ch : word.toCharArray())
+		boolean[] table = new boolean[26];
+		for (char ch : string.toCharArray())
 		{
-			table[ch - 'a']++;
+			table[ch - 'a'] = true;
 		}
 
 		return table;
 	}
 
-	private boolean containsSameChars(int[] table1, int[] table2)
+	private boolean isIntersect(boolean[] a, boolean[] b)
 	{
-		for (int i = 0; i < 26; i++)
+		for (int i = 0; i < a.length; i++)
 		{
-			if (table1[i] > 0 && table2[i] > 0)
+			if (a[i] && b[i])
 			{
 				return true;
 			}
