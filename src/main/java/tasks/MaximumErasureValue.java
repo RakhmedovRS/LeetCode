@@ -17,29 +17,23 @@ public class MaximumErasureValue
 {
 	public int maximumUniqueSubarray(int[] nums)
 	{
-		int[] table = new int[10_001];
-		int sum = 0;
 		int max = 0;
+		boolean[] used = new boolean[10_000];
 		int left = 0;
 		int right = 0;
+		int sum = 0;
 		while (right < nums.length)
 		{
-			sum += nums[right];
-			table[nums[right]]++;
-			if (table[nums[right]] == 1)
+			while (used[nums[right]])
 			{
-				max = Math.max(max, sum);
-			}
-			else
-			{
-				while (left < right && table[nums[right]] != 1)
-				{
-					table[nums[left]]--;
-					sum -= nums[left++];
-				}
+				used[nums[left]] = false;
+				sum -= nums[left++];
 			}
 
-			right++;
+			used[nums[right]] = true;
+			sum += nums[right++];
+
+			max = Math.max(max, sum);
 		}
 
 		return max;
