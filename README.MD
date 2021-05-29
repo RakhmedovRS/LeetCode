@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1333
+Count of solved tasks: 1334
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1144,7 +1144,8 @@ Count of solved tasks: 1333
 |1870|Medium|[Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/)|[Minimum Speed to Arrive on Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSpeedToArriveOnTime.java)|
 |1871|Medium|[Jump Game VII](https://leetcode.com/problems/jump-game-vii/)|[Jump Game VII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGameVII.java)|
 |1876|Easy|[Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)|[Substrings of Size Three with Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubstringsOfSizeThreeWithDistinctCharacters.java)|
-|1877|Medium|[Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/)|[Minimize Maximum Pair Sum in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeMaximumPairSumInArray.java)|</p>
+|1877|Medium|[Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/)|[Minimize Maximum Pair Sum in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeMaximumPairSumInArray.java)|
+|1878|Medium|[Get Biggest Three Rhombus Sums in a Grid](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)|[Get Biggest Three Rhombus Sums in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GetBiggestThreeRhombusSumsInGrid.java)|</p>
 </details>
 
 <details>
@@ -1503,7 +1504,8 @@ Count of solved tasks: 1333
 |1865|Medium|[Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/)|[Finding Pairs With a Certain Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindingPairsWithCertainSum.java)|
 |1870|Medium|[Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/)|[Minimum Speed to Arrive on Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSpeedToArriveOnTime.java)|
 |1871|Medium|[Jump Game VII](https://leetcode.com/problems/jump-game-vii/)|[Jump Game VII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGameVII.java)|
-|1877|Medium|[Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/)|[Minimize Maximum Pair Sum in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeMaximumPairSumInArray.java)|</p>
+|1877|Medium|[Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/)|[Minimize Maximum Pair Sum in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeMaximumPairSumInArray.java)|
+|1878|Medium|[Get Biggest Three Rhombus Sums in a Grid](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)|[Get Biggest Three Rhombus Sums in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GetBiggestThreeRhombusSumsInGrid.java)|</p>
 </details>
 
 <details>
