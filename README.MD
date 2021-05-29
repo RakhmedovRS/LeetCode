@@ -54,7 +54,7 @@ Count of solved tasks: 1334
 |49|Undefined|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Group Anagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GroupAnagrams.java)|
 |50|Undefined|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Pow(x, n).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Pow.java)|
 |51|Hard|[N-Queens](https://leetcode.com/problems/n-queens/)|[N-Queens.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NQueens.java)|
-|52|Undefined|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[N-Queens II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NQueensII.java)|
+|52|Hard|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[N-Queens II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NQueensII.java)|
 |53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSubarray.java)|
 |54|Undefined|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Spiral Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpiralMatrix.java)|
 |55|Undefined|[Jump Game](https://leetcode.com/problems/jump-game/)|[Jump Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGame.java)|
@@ -1519,6 +1519,7 @@ Count of solved tasks: 1334
 |32|Hard|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Longest Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestValidParentheses.java)|
 |41|Hard|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[First Missing Positive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstMissingPositive.java)|
 |51|Hard|[N-Queens](https://leetcode.com/problems/n-queens/)|[N-Queens.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NQueens.java)|
+|52|Hard|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[N-Queens II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NQueensII.java)|
 |65|Hard|[Valid Number](https://leetcode.com/problems/valid-number/)|[Valid Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidNumber.java)|
 |84|Hard|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[Largest Rectangle in Histogram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestRectangleInHistogram.java)|
 |124|Hard|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[Binary Tree Maximum Path Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeMaximumPathSum.java)|

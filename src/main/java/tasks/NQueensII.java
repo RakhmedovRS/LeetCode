@@ -1,95 +1,101 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 29-Feb-20
  */
-@LeetCode(id = 52, name = "N-Queens II", url = "https://leetcode.com/problems/n-queens-ii/")
+@LeetCode(
+	id = 52,
+	name = "N-Queens II",
+	url = "https://leetcode.com/problems/n-queens-ii/",
+	difficulty = Difficulty.HARD
+)
 public class NQueensII
 {
-	public boolean validPlacement(boolean[][] board, int row, int column)
+	public int totalNQueens(int n)
 	{
-		for (int i = 0; i < board.length; i++)
+		boolean[][] board = new boolean[n][n];
+		int[] answer = new int[1];
+		dfs(0, board, answer);
+
+		return answer[0];
+	}
+
+	private void dfs(int row, boolean[][] board, int[] answer)
+	{
+		if (row == board.length)
 		{
-			if (i != column && board[row][i])
+			answer[0]++;
+			return;
+		}
+
+		for (int column = 0; column < board[row].length; column++)
+		{
+			if (canPlaceQueen(row, column, board))
+			{
+				board[row][column] = true;
+				dfs(row + 1, board, answer);
+				board[row][column] = false;
+			}
+		}
+	}
+
+	private boolean canPlaceQueen(int row, int column, boolean[][] table)
+	{
+		//horizontal line
+		for (int c = 0; c < table[row].length; c++)
+		{
+			if (table[row][c])
 			{
 				return false;
 			}
 		}
 
-		for (int i = 0; i < board.length; i++)
+		//vertical line
+		for (int r = 0; r < table.length; r++)
 		{
-			if (i != row && board[i][column])
+			if (table[r][column])
 			{
 				return false;
 			}
 		}
 
-		for (int i = row + 1, j = column + 1; i < board.length && j < board.length; i++, j++)
+		//slash line
+		for (int r = row, c = column; r < table.length && c >=0 ; r++, c--)
 		{
-			if (board[i][j])
+			if (table[r][c])
+			{
+				return false;
+			}
+		}
+		for (int r = row, c = column; r >= 0 && c < table[row].length ; r--, c++)
+		{
+			if (table[r][c])
 			{
 				return false;
 			}
 		}
 
-		for (int i = row - 1, j = column - 1; i >= 0 && j >= 0; i--, j--)
+		//backslash line
+		for (int r = row, c = column; r >= 0 && c >=0 ; r--, c--)
 		{
-			if (board[i][j])
+			if (table[r][c])
 			{
 				return false;
 			}
 		}
-
-		for (int i = row - 1, j = column + 1; i >= 0 && j < board.length; i--, j++)
+		for (int r = row, c = column; r < table.length && c < table[row].length ; r++, c++)
 		{
-			if (board[i][j])
-			{
-				return false;
-			}
-		}
-
-		for (int i = row + 1, j = column - 1; i < board.length && j >= 0; i++, j--)
-		{
-			if (board[i][j])
+			if (table[r][c])
 			{
 				return false;
 			}
 		}
 
 		return true;
-	}
-
-	public int totalNQueens(int n)
-	{
-		boolean[][] board = new boolean[n][n];
-		int[] result = new int[1];
-		nQueens(board, result, 0);
-		return result[0];
-	}
-
-	public void nQueens(boolean[][] board, int[] result, int row)
-	{
-		if (row == board.length)
-		{
-			return;
-		}
-
-		for (int i = 0; i < board.length; i++)
-		{
-			board[row][i] = true;
-			if (validPlacement(board, row, i))
-			{
-				nQueens(board, result, row + 1);
-				if (row + 1 == board.length)
-				{
-					result[0]++;
-				}
-			}
-			board[row][i] = false;
-		}
 	}
 
 	public static void main(String[] args)
