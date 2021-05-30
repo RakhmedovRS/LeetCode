@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1335
+Count of solved tasks: 1336
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1146,7 +1146,8 @@ Count of solved tasks: 1335
 |1876|Easy|[Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)|[Substrings of Size Three with Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubstringsOfSizeThreeWithDistinctCharacters.java)|
 |1877|Medium|[Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/)|[Minimize Maximum Pair Sum in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeMaximumPairSumInArray.java)|
 |1878|Medium|[Get Biggest Three Rhombus Sums in a Grid](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)|[Get Biggest Three Rhombus Sums in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GetBiggestThreeRhombusSumsInGrid.java)|
-|1879|Hard|[Minimum XOR Sum of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)|[Minimum XOR Sum of Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumXORSumOfTwoArrays.java)|</p>
+|1879|Hard|[Minimum XOR Sum of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)|[Minimum XOR Sum of Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumXORSumOfTwoArrays.java)|
+|1880|Easy|[Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/)|[Check if Word Equals Summation of Two Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfWordEqualsSummationOfTwoWords.java)|</p>
 </details>
 
 <details>
@@ -1246,7 +1247,8 @@ Count of solved tasks: 1335
 |1859|Easy|[Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)|[Sorting the Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortingTheSentence.java)|
 |1863|Easy|[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)|[Sum of All Subset XOR Totals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfAllSubsetXORTotals.java)|
 |1869|Easy|[Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)|[Longer Contiguous Segments of Ones than Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongerContiguousSegmentsOfOnesThanZeros.java)|
-|1876|Easy|[Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)|[Substrings of Size Three with Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubstringsOfSizeThreeWithDistinctCharacters.java)|</p>
+|1876|Easy|[Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)|[Substrings of Size Three with Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubstringsOfSizeThreeWithDistinctCharacters.java)|
+|1880|Easy|[Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/)|[Check if Word Equals Summation of Two Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfWordEqualsSummationOfTwoWords.java)|</p>
 </details>
 
 <details>
