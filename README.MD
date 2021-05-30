@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1337
+Count of solved tasks: 1338
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1148,7 +1148,8 @@ Count of solved tasks: 1337
 |1878|Medium|[Get Biggest Three Rhombus Sums in a Grid](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)|[Get Biggest Three Rhombus Sums in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GetBiggestThreeRhombusSumsInGrid.java)|
 |1879|Hard|[Minimum XOR Sum of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)|[Minimum XOR Sum of Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumXORSumOfTwoArrays.java)|
 |1880|Easy|[Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/)|[Check if Word Equals Summation of Two Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfWordEqualsSummationOfTwoWords.java)|
-|1881|Medium|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|[Maximum Value after Insertion.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumValueAfterInsertion.java)|</p>
+|1881|Medium|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|[Maximum Value after Insertion.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumValueAfterInsertion.java)|
+|1882|Medium|[Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)|[Process Tasks Using Servers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ProcessTasksUsingServers.java)|</p>
 </details>
 
 <details>
@@ -1510,7 +1511,8 @@ Count of solved tasks: 1337
 |1871|Medium|[Jump Game VII](https://leetcode.com/problems/jump-game-vii/)|[Jump Game VII.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGameVII.java)|
 |1877|Medium|[Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/)|[Minimize Maximum Pair Sum in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeMaximumPairSumInArray.java)|
 |1878|Medium|[Get Biggest Three Rhombus Sums in a Grid](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)|[Get Biggest Three Rhombus Sums in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GetBiggestThreeRhombusSumsInGrid.java)|
-|1881|Medium|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|[Maximum Value after Insertion.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumValueAfterInsertion.java)|</p>
+|1881|Medium|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|[Maximum Value after Insertion.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumValueAfterInsertion.java)|
+|1882|Medium|[Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)|[Process Tasks Using Servers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ProcessTasksUsingServers.java)|</p>
 </details>
 
 <details>
