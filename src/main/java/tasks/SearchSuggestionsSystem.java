@@ -4,8 +4,6 @@ import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 /**
@@ -22,61 +20,82 @@ public class SearchSuggestionsSystem
 {
 	class Trie
 	{
-		List<String> words = new ArrayList<>();
-		Trie[] children = new Trie[26];
-
-		public void add(String word)
+		class Node
 		{
-			if (words.size() < 3)
+			Node[] children = new Node[26];
+			List<String> endWords = new ArrayList<>(4);
+		}
+
+		Node root;
+
+		public Trie()
+		{
+			root = new Node();
+		}
+
+		public void addWord(String word)
+		{
+			Node current = root;
+			for (char ch : word.toCharArray())
 			{
-				words.add(word);
+				if (current.children[ch - 'a'] == null)
+				{
+					current.children[ch - 'a'] = new Node();
+				}
+
+				current = current.children[ch - 'a'];
+			}
+
+			if (current.endWords.size() < 3)
+			{
+				current.endWords.add(word);
 			}
 		}
 	}
 
 	public List<List<String>> suggestedProducts(String[] products, String searchWord)
 	{
-		Arrays.sort(products);
 		List<List<String>> answer = new ArrayList<>();
-		Trie root = new Trie();
+		Trie trie = new Trie();
 		for (String product : products)
 		{
-			addToTrie(root, product);
+			trie.addWord(product);
 		}
 
-		Trie current = root;
-		for (int i = 0; i < searchWord.length(); i++)
+		Trie.Node current = trie.root;
+		for (char ch : searchWord.toCharArray())
 		{
-			current = current.children[searchWord.charAt(i) - 'a'];
-			if (current == null)
+			List<String> list = new ArrayList<>();
+			if (current != null)
 			{
-				for (int j = i; j < searchWord.length(); j++)
-				{
-					answer.add(Collections.emptyList());
-				}
-				break;
+				current = current.children[ch - 'a'];
+				dfs(current, list);
 			}
 
-			answer.add(current.words);
+			answer.add(list);
 		}
 
 		return answer;
 	}
 
-	private void addToTrie(Trie root, String word)
+	private void dfs(Trie.Node current, List<String> list)
 	{
-		Trie current = root;
-		int index;
-		for (int i = 0; i < word.length(); i++)
+		if (current == null || list.size() == 3)
 		{
-			index = word.charAt(i) - 'a';
-			if (current.children[index] == null)
-			{
-				current.children[index] = new Trie();
-			}
+			return;
+		}
 
-			current = current.children[index];
-			current.add(word);
+		for (int i = 0; i < current.endWords.size() && list.size() < 3; i++)
+		{
+			list.add(current.endWords.get(i));
+		}
+
+		for (Trie.Node next : current.children)
+		{
+			if (next != null)
+			{
+				dfs(next, list);
+			}
 		}
 	}
 }
