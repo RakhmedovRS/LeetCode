@@ -4,8 +4,6 @@ import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -23,21 +21,37 @@ public class MaximumAreaOfPieceOfCakeAfterHorizontalAndVerticalCuts
 {
     public int maxArea(int h, int w, int[] horizontalCuts, int[] verticalCuts)
     {
-        Arrays.sort(horizontalCuts);
-        Arrays.sort(verticalCuts);
-
-        int maxH = Math.max(horizontalCuts[0], h - horizontalCuts[horizontalCuts.length - 1]);
-        for (int i = 1; i < horizontalCuts.length; i++)
+        List<Integer> hs = new ArrayList<>();
+        hs.add(0);
+        hs.add(h);
+        for (int num : horizontalCuts)
         {
-            maxH = Math.max(maxH, horizontalCuts[i] - horizontalCuts[i - 1]);
+            hs.add(num);
         }
 
-        int maxV = Math.max(verticalCuts[0], w - verticalCuts[verticalCuts.length - 1]);
-        for (int i = 1; i < verticalCuts.length; i++)
+        List<Integer> ws = new ArrayList<>();
+        ws.add(0);
+        ws.add(w);
+        for (int num : verticalCuts)
         {
-            maxV = Math.max(maxV, verticalCuts[i] - verticalCuts[i - 1]);
+            ws.add(num);
         }
 
-        return (int)(((long) maxH * maxV) % 1_000_000_007);
+        long hMax = 0;
+        long wMax = 0;
+
+        hs.sort(null);
+        ws.sort(null);
+        for (int i = 1; i < hs.size(); i++)
+        {
+            hMax = Math.max(hMax, hs.get(i) - hs.get(i - 1));
+        }
+
+        for (int i = 1; i < ws.size(); i++)
+        {
+            wMax = Math.max(wMax, ws.get(i) - ws.get(i - 1));
+        }
+
+        return (int)((hMax * wMax) % 1_000_000_007);
     }
 }
