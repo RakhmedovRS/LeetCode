@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1339
+Count of solved tasks: 1340
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -868,6 +868,7 @@ Count of solved tasks: 1339
 |1380|Undefined|[Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/)|[Lucky Numbers in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LuckyNumbersInMatrix.java)|
 |1381|Undefined|[Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)|[Design a Stack With Increment Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignStackWithIncrementOperation.java)|
 |1382|Undefined|[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|[Balance a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BalanceBinarySearchTree.java)|
+|1383|Hard|[Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)|[Maximum Performance of a Team.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPerformanceOfTeam.java)|
 |1385|Undefined|[Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)|[Find the Distance Value Between Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheDistanceValueBetweenTwoArrays.java)|
 |1387|Undefined|[Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/)|[Sort Integers by The Power Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortIntegersByThePowerValue.java)|
 |1389|Undefined|[Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)|[Create Target Array in the Given Order.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CreateTargetArrayInTheGivenOrder.java)|
@@ -1569,6 +1570,7 @@ Count of solved tasks: 1339
 |1354|Hard|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[Construct Target Array With Multiple Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructTargetArrayWithMultipleSums.java)|
 |1368|Hard|[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|[Minimum Cost to Make at Least One Valid Path in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToMakeAtLeastOneValidPathInGrid.java)|
 |1373|Hard|[Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/)|[Maximum Sum BST in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumBSTInBinaryTree.java)|
+|1383|Hard|[Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)|[Maximum Performance of a Team.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPerformanceOfTeam.java)|
 |1439|Hard|[Find the Kth Smallest Sum of a Matrix With Sorted Rows](https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)|[Find the Kth Smallest Sum of a Matrix With Sorted Rows.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKthSmallestSumOfMatrixWithSortedRows.java)|
 |1463|Hard|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|[Cherry Pickup II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CherryPickupII.java)|
 |1579|Hard|[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|[Remove Max Number of Edges to Keep Graph Fully Traversable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable.java)|
