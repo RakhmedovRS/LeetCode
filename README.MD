@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1342
+Count of solved tasks: 1343
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1153,7 +1153,8 @@ Count of solved tasks: 1342
 |1881|Medium|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|[Maximum Value after Insertion.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumValueAfterInsertion.java)|
 |1882|Medium|[Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)|[Process Tasks Using Servers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ProcessTasksUsingServers.java)|
 |1886|Easy|[Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)|[Determine Whether Matrix Can Be Obtained By Rotation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineWhetherMatrixCanBeObtainedByRotation.java)|
-|1887|Medium|[Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)|[Reduction Operations to Make the Array Elements Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReductionOperationsToMakeTheArrayElementsEqual.java)|</p>
+|1887|Medium|[Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)|[Reduction Operations to Make the Array Elements Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReductionOperationsToMakeTheArrayElementsEqual.java)|
+|1888|Medium|[Minimum Number of Flips to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/)|[Minimum Number of Flips to Make the Binary String Alternating.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfFlipsToMakeTheBinaryStringAlternating.java)|</p>
 </details>
 
 <details>
@@ -1521,7 +1522,8 @@ Count of solved tasks: 1342
 |1878|Medium|[Get Biggest Three Rhombus Sums in a Grid](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)|[Get Biggest Three Rhombus Sums in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GetBiggestThreeRhombusSumsInGrid.java)|
 |1881|Medium|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|[Maximum Value after Insertion.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumValueAfterInsertion.java)|
 |1882|Medium|[Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)|[Process Tasks Using Servers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ProcessTasksUsingServers.java)|
-|1887|Medium|[Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)|[Reduction Operations to Make the Array Elements Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReductionOperationsToMakeTheArrayElementsEqual.java)|</p>
+|1887|Medium|[Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)|[Reduction Operations to Make the Array Elements Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReductionOperationsToMakeTheArrayElementsEqual.java)|
+|1888|Medium|[Minimum Number of Flips to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/)|[Minimum Number of Flips to Make the Binary String Alternating.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfFlipsToMakeTheBinaryStringAlternating.java)|</p>
 </details>
 
 <details>
