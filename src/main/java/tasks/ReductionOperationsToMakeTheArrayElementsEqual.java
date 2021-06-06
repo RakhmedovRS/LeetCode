@@ -3,8 +3,7 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.Comparator;
-import java.util.TreeMap;
+import java.util.Arrays;
 
 /**
  * @author RakhmedovRS
@@ -21,20 +20,13 @@ public class ReductionOperationsToMakeTheArrayElementsEqual
 	public int reductionOperations(int[] nums)
 	{
 		int operations = 0;
-		TreeMap<Integer, Integer> treeMap = new TreeMap<>(Comparator.reverseOrder());
-
-		for (int num : nums)
+		Arrays.sort(nums);
+		for (int j = nums.length - 1; j > 0; j--)
 		{
-			treeMap.put(num, treeMap.getOrDefault(num, 0) + 1);
-		}
-
-		while (treeMap.size() != 1)
-		{
-			int current = treeMap.firstKey();
-			int count = treeMap.remove(current);
-			int next = treeMap.firstKey();
-			treeMap.put(next, treeMap.get(next) + count);
-			operations += count;
+			if (nums[j - 1] != nums[j])
+			{
+				operations += nums.length - j;
+			}
 		}
 
 		return operations;
