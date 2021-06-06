@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1340
+Count of solved tasks: 1341
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1151,7 +1151,8 @@ Count of solved tasks: 1340
 |1879|Hard|[Minimum XOR Sum of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)|[Minimum XOR Sum of Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumXORSumOfTwoArrays.java)|
 |1880|Easy|[Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/)|[Check if Word Equals Summation of Two Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfWordEqualsSummationOfTwoWords.java)|
 |1881|Medium|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|[Maximum Value after Insertion.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumValueAfterInsertion.java)|
-|1882|Medium|[Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)|[Process Tasks Using Servers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ProcessTasksUsingServers.java)|</p>
+|1882|Medium|[Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)|[Process Tasks Using Servers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ProcessTasksUsingServers.java)|
+|1886|Easy|[Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)|[Determine Whether Matrix Can Be Obtained By Rotation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineWhetherMatrixCanBeObtainedByRotation.java)|</p>
 </details>
 
 <details>
@@ -1252,7 +1253,8 @@ Count of solved tasks: 1340
 |1863|Easy|[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)|[Sum of All Subset XOR Totals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfAllSubsetXORTotals.java)|
 |1869|Easy|[Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)|[Longer Contiguous Segments of Ones than Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongerContiguousSegmentsOfOnesThanZeros.java)|
 |1876|Easy|[Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)|[Substrings of Size Three with Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubstringsOfSizeThreeWithDistinctCharacters.java)|
-|1880|Easy|[Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/)|[Check if Word Equals Summation of Two Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfWordEqualsSummationOfTwoWords.java)|</p>
+|1880|Easy|[Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/)|[Check if Word Equals Summation of Two Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfWordEqualsSummationOfTwoWords.java)|
+|1886|Easy|[Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)|[Determine Whether Matrix Can Be Obtained By Rotation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineWhetherMatrixCanBeObtainedByRotation.java)|</p>
 </details>
 
 <details>
