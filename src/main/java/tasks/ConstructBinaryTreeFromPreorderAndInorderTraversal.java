@@ -18,26 +18,29 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal
 {
 	public TreeNode buildTree(int[] preorder, int[] inorder)
 	{
-		int[] memo = new int[6002];
-		for (int i = 0; i < inorder.length; i++)
-		{
-			memo[inorder[i] + 3000] = i;
-		}
+		int[] pos = new int[]{0};
 
-		return buildTree(preorder, new int[]{0}, 0, inorder.length - 1, memo);
+		return buildTree(preorder, inorder, pos, 0, preorder.length - 1);
 	}
 
-	private TreeNode buildTree(int[] preOrder, int[] preOrderPos, int left, int right, int[] memo)
+	private TreeNode buildTree(int[] preorder, int[] inorder, int[] pos, int left, int right)
 	{
-		if (preOrderPos[0] >= preOrder.length || left > right)
+		if (left > right)
 		{
 			return null;
 		}
 
-		TreeNode node = new TreeNode(preOrder[preOrderPos[0]++]);
-		node.left = buildTree(preOrder, preOrderPos, left, memo[node.val + 3000] - 1, memo);
-		node.right = buildTree(preOrder, preOrderPos, memo[node.val + 3000] + 1, right, memo);
+		TreeNode treeNode = new TreeNode(preorder[pos[0]++]);
+		for (int i = left; i <= right; i++)
+		{
+			if (inorder[i] == treeNode.val)
+			{
+				treeNode.left = buildTree(preorder, inorder, pos, left, i - 1);
+				treeNode.right = buildTree(preorder, inorder, pos, i + 1, right);
+				break;
+			}
+		}
 
-		return node;
+		return treeNode;
 	}
 }
