@@ -31,7 +31,7 @@ public class JumpGameVI
 				deque.removeFirst();
 			}
 
-			dp[i] = nums[i] + dp[deque.peek()];
+			dp[i] = nums[i] + dp[deque.getFirst()];
 			while (!deque.isEmpty() && dp[deque.getLast()] <= dp[i])
 			{
 				deque.removeLast();
