@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.TreeMap;
@@ -8,7 +9,11 @@ import java.util.TreeMap;
  * @author RakhmedovRS
  * @created 11-Aug-20
  */
-@LeetCode(id = 729, name = "My Calendar I", url = "https://leetcode.com/problems/my-calendar-i/")
+@LeetCode(id = 729,
+	name = "My Calendar I",
+	url = "https://leetcode.com/problems/my-calendar-i/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MyCalendarI
 {
 	class MyCalendar

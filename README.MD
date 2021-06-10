@@ -484,7 +484,7 @@ Count of solved tasks: 1343
 |722|Undefined|[Remove Comments](https://leetcode.com/problems/remove-comments/)|[Remove Comments.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveComments.java)|
 |724|Undefined|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Find Pivot Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindPivotIndex.java)|
 |725|Undefined|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)|[Split Linked List in Parts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitLinkedListInParts.java)|
-|729|Undefined|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[My Calendar I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MyCalendarI.java)|
+|729|Medium|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[My Calendar I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MyCalendarI.java)|
 |731|Medium|[My Calendar II](https://leetcode.com/problems/my-calendar-ii/)|[My Calendar II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MyCalendarII.java)|
 |732|Hard|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[My Calendar III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MyCalendarIII.java)|
 |733|Undefined|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Flood Fill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FloodFill.java)|
@@ -1357,6 +1357,7 @@ Count of solved tasks: 1343
 |714|Medium|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[Best Time to Buy and Sell Stock with Transaction Fee.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestTimeToBuyAndSellStockWithTransactionFee.java)|
 |718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Maximum Length of Repeated Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumLengthOfRepeatedSubarray.java)|
 |721|Medium|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[Accounts Merge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AccountsMerge.java)|
+|729|Medium|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[My Calendar I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MyCalendarI.java)|
 |731|Medium|[My Calendar II](https://leetcode.com/problems/my-calendar-ii/)|[My Calendar II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MyCalendarII.java)|
 |750|Medium|[Number Of Corner Rectangles](https://leetcode.com/problems/number-of-corner-rectangles/)|[Number Of Corner Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfCornerRectangles.java)|
 |752|Medium|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|[Open the Lock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OpenTheLock.java)|
