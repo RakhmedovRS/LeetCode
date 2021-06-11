@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 03-Jul-20
  */
-@LeetCode(id = 211, name = "Add and Search Word - Data structure design", url = "https://leetcode.com/problems/add-and-search-word-data-structure-design/")
+@LeetCode(
+	id = 211,
+	name = "Add and Search Word - Data structure design",
+	url = "https://leetcode.com/problems/add-and-search-word-data-structure-design/",
+	difficulty = Difficulty.MEDIUM
+)
 public class AddAndSearchWordDataStructureDesign
 {
 	class TrieNode
