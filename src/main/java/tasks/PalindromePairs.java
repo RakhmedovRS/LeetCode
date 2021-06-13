@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -10,7 +11,11 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 21-Aug-20
  */
-@LeetCode(id = 336, name = "Palindrome Pairs", url = "https://leetcode.com/problems/palindrome-pairs/")
+@LeetCode(id = 336,
+	name = "Palindrome Pairs",
+	url = "https://leetcode.com/problems/palindrome-pairs/",
+	difficulty = Difficulty.HARD
+)
 public class PalindromePairs
 {
 	public List<List<Integer>> palindromePairs(String[] words)
