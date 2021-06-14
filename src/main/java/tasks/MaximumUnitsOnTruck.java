@@ -20,15 +20,23 @@ public class MaximumUnitsOnTruck
 {
 	public int maximumUnits(int[][] boxTypes, int truckSize)
 	{
-		int max = 0;
-		Arrays.sort(boxTypes, Comparator.comparingInt(a -> a[1]));
+		Arrays.sort(boxTypes, Comparator.comparing(a -> a[1]));
+		int answer = 0;
 		for (int i = boxTypes.length - 1; i >= 0 && truckSize > 0; i--)
 		{
-			max += Math.min(truckSize, boxTypes[i][0]) * boxTypes[i][1];
-			truckSize -= Math.min(truckSize, boxTypes[i][0]);
+			if (truckSize >= boxTypes[i][0])
+			{
+				truckSize -= boxTypes[i][0];
+				answer += boxTypes[i][0] * boxTypes[i][1];
+			}
+			else
+			{
+				answer += truckSize * boxTypes[i][1];
+				truckSize = 0;
+			}
 		}
 
-		return max;
+		return answer;
 	}
 
 	public static void main(String[] args)
