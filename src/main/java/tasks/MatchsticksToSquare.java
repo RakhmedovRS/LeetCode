@@ -17,61 +17,41 @@ import java.util.Arrays;
 )
 public class MatchsticksToSquare
 {
-	public boolean makesquare(int[] nums)
+	public boolean makesquare(int[] matchsticks)
 	{
-		if(nums.length == 0)
-		{
-			return false;
-		}
+		boolean[] used = new boolean[matchsticks.length];
 
 		int sum = 0;
-		for (int num : nums)
+		Arrays.sort(matchsticks);
+		for (int matchstick : matchsticks)
 		{
-			sum += num;
+			sum += matchstick;
 		}
 
-		if (sum % 4 != 0)
+		if (sum % 4 != 0 || matchsticks.length < 4)
 		{
 			return false;
 		}
 
-		Arrays.sort(nums);
-
-		int target = sum / 4;
-		boolean[] used = new boolean[nums.length];
-		if (canCreateSquare(nums, target, used)
-			&& canCreateSquare(nums, target, used)
-			&& canCreateSquare(nums, target, used)
-			&& canCreateSquare(nums, target, used)
-		)
-		{
-			for (boolean u : used)
-			{
-				if (!u)
-				{
-					return false;
-				}
-			}
-
-			return true;
-		}
-
-		return false;
+		return dfs(sum / 4, matchsticks, used)
+			&& dfs(sum / 4, matchsticks, used)
+			&& dfs(sum / 4, matchsticks, used)
+			&& dfs(sum / 4, matchsticks, used);
 	}
 
-	private boolean canCreateSquare(int[] nums, int sum, boolean[] used)
+	private boolean dfs(int sum, int[] matchsticks, boolean[] used)
 	{
 		if (sum == 0)
 		{
 			return true;
 		}
 
-		for (int i = nums.length - 1; i >= 0; i--)
+		for (int i = matchsticks.length - 1; i >= 0; i--)
 		{
-			if (!used[i] && sum - nums[i] >= 0)
+			if (!used[i] && sum - matchsticks[i] >= 0)
 			{
 				used[i] = true;
-				if (canCreateSquare(nums, sum - nums[i], used))
+				if (dfs(sum - matchsticks[i], matchsticks, used))
 				{
 					return true;
 				}
