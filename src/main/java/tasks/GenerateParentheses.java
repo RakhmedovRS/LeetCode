@@ -1,54 +1,49 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Consumer;
 
 /**
  * @author RakhmedovRS
  * @created 13-Feb-20
  */
-@LeetCode(id = 22, name = "Generate Parentheses", url = "https://leetcode.com/problems/generate-parentheses/")
+@LeetCode(
+	id = 22,
+	name = "Generate Parentheses",
+	url = "https://leetcode.com/problems/generate-parentheses/",
+	difficulty = Difficulty.MEDIUM
+)
 public class GenerateParentheses
 {
 	public List<String> generateParenthesis(int n)
 	{
-		List<String> answer = new ArrayList<>();
-		dfs(n,n, new StringBuilder(), answer::add);
-		return answer;
+		List<String> list = new ArrayList<>();
+		dfs(n, n, new StringBuilder(), list);
+		return list;
 	}
 
-	private void dfs(int left, int right, StringBuilder sb, Consumer<String> consumer)
+	private void dfs(int left, int right, StringBuilder sb, List<String> list)
 	{
-		if (left == 0 && right == 0)
+		if (right == 0)
 		{
-			consumer.accept(sb.toString());
-			return;
-		}
-		else if (left == 0)
-		{
-			sb.append(')');
-			dfs(left, right - 1, sb, consumer);
-			sb.deleteCharAt(sb.length() - 1);
+			list.add(sb.toString());
 			return;
 		}
 
-		if (left == right)
+		if (left > 0)
 		{
 			sb.append('(');
-			dfs(left - 1, right, sb, consumer);
+			dfs(left - 1, right, sb, list);
 			sb.deleteCharAt(sb.length() - 1);
 		}
-		else
+
+		if (left < right)
 		{
 			sb.append(')');
-			dfs(left, right - 1, sb, consumer);
-			sb.deleteCharAt(sb.length() - 1);
-
-			sb.append('(');
-			dfs(left - 1, right, sb, consumer);
+			dfs(left, right - 1, sb, list);
 			sb.deleteCharAt(sb.length() - 1);
 		}
 	}
