@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1346
+Count of solved tasks: 1347
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1157,7 +1157,8 @@ Count of solved tasks: 1346
 |1888|Medium|[Minimum Number of Flips to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/)|[Minimum Number of Flips to Make the Binary String Alternating.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfFlipsToMakeTheBinaryStringAlternating.java)|
 |1891|Medium|[Cutting Ribbons](https://leetcode.com/problems/cutting-ribbons/)|[Cutting Ribbons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CuttingRibbons.java)|
 |1893|Easy|[Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/)|[Check if All the Integers in a Range Are Covered.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllTheIntegersInRangeAreCovered.java)|
-|1894|Medium|[Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/)|[Find the Student that Will Replace the Chalk.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheStudentThatWillReplaceTheChalk.java)|</p>
+|1894|Medium|[Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/)|[Find the Student that Will Replace the Chalk.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheStudentThatWillReplaceTheChalk.java)|
+|1897|Easy|[Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/)|[Redistribute Characters to Make All Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RedistributeCharactersToMakeAllStringsEqual.java)|</p>
 </details>
 
 <details>
@@ -1261,7 +1262,8 @@ Count of solved tasks: 1346
 |1876|Easy|[Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)|[Substrings of Size Three with Distinct Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubstringsOfSizeThreeWithDistinctCharacters.java)|
 |1880|Easy|[Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/)|[Check if Word Equals Summation of Two Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfWordEqualsSummationOfTwoWords.java)|
 |1886|Easy|[Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)|[Determine Whether Matrix Can Be Obtained By Rotation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineWhetherMatrixCanBeObtainedByRotation.java)|
-|1893|Easy|[Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/)|[Check if All the Integers in a Range Are Covered.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllTheIntegersInRangeAreCovered.java)|</p>
+|1893|Easy|[Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/)|[Check if All the Integers in a Range Are Covered.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllTheIntegersInRangeAreCovered.java)|
+|1897|Easy|[Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/)|[Redistribute Characters to Make All Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RedistributeCharactersToMakeAllStringsEqual.java)|</p>
 </details>
 
 <details>
