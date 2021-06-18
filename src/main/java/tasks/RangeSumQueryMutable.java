@@ -15,12 +15,12 @@ import common.LeetCode;
 )
 public class RangeSumQueryMutable
 {
-	class FenwikTree
+	class NumArray
 	{
 		int[] original;
 		int[] table;
 
-		public FenwikTree(int[] nums)
+		public NumArray(int[] nums)
 		{
 			original = new int[nums.length + 1];
 			table = new int[nums.length + 1];
@@ -82,24 +82,24 @@ public class RangeSumQueryMutable
 
 	public static void main(String[] args)
 	{
-		FenwikTree fenwikTree = new RangeSumQueryMutable().new FenwikTree(new int[]{0, 9, 5, 7, 3});
-		System.out.println(fenwikTree.sumRange(4, 4)); //3
-		System.out.println(fenwikTree.sumRange(2, 4)); //15
+		NumArray numArray = new RangeSumQueryMutable().new NumArray(new int[]{0, 9, 5, 7, 3});
+		System.out.println(numArray.sumRange(4, 4)); //3
+		System.out.println(numArray.sumRange(2, 4)); //15
 
 		System.out.println();
 
-		fenwikTree = new RangeSumQueryMutable().new FenwikTree(new int[]{9, -8});
-		fenwikTree.update(0, 3);
-		System.out.println(fenwikTree.sumRange(1, 1)); //-8
-		System.out.println(fenwikTree.sumRange(0, 1)); //-5
-		fenwikTree.update(1, -3);
-		System.out.println(fenwikTree.sumRange(0, 1)); //0
+		numArray = new RangeSumQueryMutable().new NumArray(new int[]{9, -8});
+		numArray.update(0, 3);
+		System.out.println(numArray.sumRange(1, 1)); //-8
+		System.out.println(numArray.sumRange(0, 1)); //-5
+		numArray.update(1, -3);
+		System.out.println(numArray.sumRange(0, 1)); //0
 
 		System.out.println();
 
-		fenwikTree = new RangeSumQueryMutable().new FenwikTree(new int[]{1, 3, 5});
-		System.out.println(fenwikTree.sumRange(0, 2));//9
-		fenwikTree.update(1, 2);
-		System.out.println(fenwikTree.sumRange(0, 2)); // 8
+		numArray = new RangeSumQueryMutable().new NumArray(new int[]{1, 3, 5});
+		System.out.println(numArray.sumRange(0, 2));//9
+		numArray.update(1, 2);
+		System.out.println(numArray.sumRange(0, 2)); // 8
 	}
 }
