@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1349
+Count of solved tasks: 1350
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1159,7 +1159,8 @@ Count of solved tasks: 1349
 |1893|Easy|[Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/)|[Check if All the Integers in a Range Are Covered.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllTheIntegersInRangeAreCovered.java)|
 |1894|Medium|[Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/)|[Find the Student that Will Replace the Chalk.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheStudentThatWillReplaceTheChalk.java)|
 |1897|Easy|[Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/)|[Redistribute Characters to Make All Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RedistributeCharactersToMakeAllStringsEqual.java)|
-|1903|Easy|[Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)|[Largest Odd Number in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestOddNumberInString.java)|</p>
+|1903|Easy|[Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)|[Largest Odd Number in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestOddNumberInString.java)|
+|1904|Medium|[The Number of Full Rounds You Have Played](https://leetcode.com/problems/the-number-of-full-rounds-you-have-played/)|[The Number of Full Rounds You Have Played.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheNumberOfFullRoundsYouHavePlayed.java)|</p>
 </details>
 
 <details>
@@ -1537,7 +1538,8 @@ Count of solved tasks: 1349
 |1887|Medium|[Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)|[Reduction Operations to Make the Array Elements Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReductionOperationsToMakeTheArrayElementsEqual.java)|
 |1888|Medium|[Minimum Number of Flips to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/)|[Minimum Number of Flips to Make the Binary String Alternating.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfFlipsToMakeTheBinaryStringAlternating.java)|
 |1891|Medium|[Cutting Ribbons](https://leetcode.com/problems/cutting-ribbons/)|[Cutting Ribbons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CuttingRibbons.java)|
-|1894|Medium|[Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/)|[Find the Student that Will Replace the Chalk.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheStudentThatWillReplaceTheChalk.java)|</p>
+|1894|Medium|[Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/)|[Find the Student that Will Replace the Chalk.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheStudentThatWillReplaceTheChalk.java)|
+|1904|Medium|[The Number of Full Rounds You Have Played](https://leetcode.com/problems/the-number-of-full-rounds-you-have-played/)|[The Number of Full Rounds You Have Played.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheNumberOfFullRoundsYouHavePlayed.java)|</p>
 </details>
 
 <details>
