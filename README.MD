@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1351
+Count of solved tasks: 1352
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -511,6 +511,7 @@ Count of solved tasks: 1351
 |771|Undefined|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Jewels and Stones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JewelsAndStones.java)|
 |773|Hard|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/)|[Sliding Puzzle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SlidingPuzzle.java)|
 |775|Medium|[Global and Local Inversions](https://leetcode.com/problems/global-and-local-inversions/)|[Global and Local Inversions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GlobalAndLocalInversions.java)|
+|778|Hard|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|[Swim in Rising Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SwimInRisingWater.java)|
 |783|Undefined|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[Minimum Distance Between BST Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceBetweenBSTNodes.java)|
 |784|Medium|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Letter Case Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LetterCasePermutation.java)|
 |785|Medium|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[Is Graph Bipartite?.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IsGraphBipartite.java)|
@@ -1577,6 +1578,7 @@ Count of solved tasks: 1351
 |732|Hard|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[My Calendar III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MyCalendarIII.java)|
 |745|Hard|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/)|[Prefix and Suffix Search.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrefixAndSuffixSearch.java)|
 |773|Hard|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/)|[Sliding Puzzle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SlidingPuzzle.java)|
+|778|Hard|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|[Swim in Rising Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SwimInRisingWater.java)|
 |895|Hard|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|[Maximum Frequency Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumFrequencyStack.java)|
 |902|Hard|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[Numbers At Most N Given Digit Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumbersAtMostNGivenDigitSet.java)|
 |968|Hard|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|[Binary Tree Cameras.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeCameras.java)|
