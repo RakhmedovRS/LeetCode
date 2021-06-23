@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1352
+Count of solved tasks: 1353
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -90,6 +90,7 @@ Count of solved tasks: 1352
 |88|Easy|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Merge Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeSortedArray.java)|
 |90|Undefined|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Subsets II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubsetsII.java)|
 |91|Medium|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[Decode Ways.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeWays.java)|
+|92|Medium|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[Reverse Linked List II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseLinkedListII.java)|
 |93|Undefined|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[Restore IP Addresses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RestoreIPAddresses.java)|
 |94|Undefined|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Binary Tree Inorder Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeInorderTraversal.java)|
 |95|Undefined|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|[Unique Binary Search Trees II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniqueBinarySearchTreesII.java)|
@@ -1302,6 +1303,7 @@ Count of solved tasks: 1352
 |82|Medium|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Remove Duplicates from Sorted List II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveDuplicatesFromSortedListII.java)|
 |86|Medium|[Partition List](https://leetcode.com/problems/partition-list/)|[Partition List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionList.java)|
 |91|Medium|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[Decode Ways.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeWays.java)|
+|92|Medium|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[Reverse Linked List II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseLinkedListII.java)|
 |97|Medium|[Interleaving String](https://leetcode.com/problems/interleaving-string/)|[Interleaving String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/InterleavingString.java)|
 |98|Medium|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidateBinarySearchTree.java)|
 |102|Medium|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Binary Tree Level Order Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeLevelOrderTraversal.java)|
