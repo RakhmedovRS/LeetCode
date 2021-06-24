@@ -1,57 +1,50 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
-
-import java.util.Arrays;
 
 /**
  * @author RakhmedovRS
  * @created 08-Aug-20
  */
-@LeetCode(id = 576, name = "Out of Boundary Paths", url = "https://leetcode.com/problems/out-of-boundary-paths/")
+@LeetCode(
+	id = 576,
+	name = "Out of Boundary Paths",
+	url = "https://leetcode.com/problems/out-of-boundary-paths/",
+	difficulty = Difficulty.MEDIUM
+)
 public class OutOfBoundaryPaths
 {
-	public int findPaths(int rows, int columns, int steps, int row, int column)
+	public int findPaths(int rows, int columns, int maxMove, int startRow, int startColumn)
 	{
-		int[][][] grid = new int[rows][columns][steps + 1];
-		for (int[][] gridRow : grid)
-		{
-			for (int[] gridSubRow : gridRow)
-			{
-				Arrays.fill(gridSubRow, -1);
-			}
-		}
-		return dfs(grid, row, column, rows, columns, steps) % (int) (1e9 + 7);
+		Long[][][] memo = new Long[rows][columns][maxMove + 1];
+		dfs(startRow, startColumn, rows, columns, maxMove, memo);
+		return (int)(memo[startRow][startColumn][maxMove] % 1_000_000_007);
 	}
 
-	private int dfs(int[][][] grid, int row, int column, int rows, int columns, int steps)
+	private long dfs(int row, int column, int rows, int columns, int maxMove, Long[][][] memo)
 	{
+		if (maxMove < 0)
+		{
+			return 0;
+		}
+
 		if (row < 0 || row == rows || column < 0 || column == columns)
 		{
 			return 1;
 		}
 
-		if (steps == 0)
+		if (memo[row][column][maxMove] != null)
 		{
-			return 0;
+			return memo[row][column][maxMove];
 		}
 
-		if (grid[row][column][steps] >= 0)
-		{
-			return grid[row][column][steps];
-		}
+		long count = dfs(row - 1, column, rows, columns, maxMove - 1, memo)
+			+ dfs(row + 1, column, rows, columns, maxMove - 1, memo)
+			+ dfs(row, column - 1, rows, columns, maxMove - 1, memo)
+			+ dfs(row, column + 1, rows, columns, maxMove - 1, memo);
 
-		int left = dfs(grid, row, column - 1, rows, columns, steps - 1) % (int) (1e9 + 7);
-		int right = dfs(grid, row, column + 1, rows, columns, steps - 1) % (int) (1e9 + 7);
-		int up = dfs(grid, row - 1, column, rows, columns, steps - 1) % (int) (1e9 + 7);
-		int down = dfs(grid, row + 1, column, rows, columns, steps - 1) % (int) (1e9 + 7);
-
-		int ways = left;
-		ways = (ways + right) % (int) (1e9 + 7);
-		ways = (ways + up) % (int) (1e9 + 7);
-		ways = (ways + down) % (int) (1e9 + 7);
-		grid[row][column][steps] = ways;
-
-		return grid[row][column][steps];
+		memo[row][column][maxMove] = count % 1_000_000_007;
+		return memo[row][column][maxMove];
 	}
 }
