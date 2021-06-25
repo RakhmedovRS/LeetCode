@@ -1,90 +1,80 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 10/2/2020
  */
-@LeetCode(id = 684, name = "Redundant Connection", url = "https://leetcode.com/problems/redundant-connection/")
+@LeetCode(
+	id = 684,
+	name = "Redundant Connection",
+	url = "https://leetcode.com/problems/redundant-connection/",
+	difficulty = Difficulty.MEDIUM
+)
 public class RedundantConnection
 {
 	class UnionFind
 	{
-		int[] parent;
-		int[] rank;
+		int[] parents;
 
-		public UnionFind(int size)
+		public UnionFind(int n)
 		{
-			parent = new int[size];
-			rank = new int[size];
-
-			for (int i = 0; i < size; i++)
+			parents = new int[n + 1];
+			for (int i = 1; i <= n; i++)
 			{
-				parent[i] = i;
-				rank[i] = 1;
+				parents[i] = i;
 			}
 		}
 
-		public int findParent(int node)
+		public int getParent(int node)
 		{
-			int parentNode = node;
-			while (parent[parentNode] != parentNode)
+			int parent = node;
+			while (parents[parent] != parent)
 			{
-				parentNode = parent[parentNode];
+				parent = parents[parent];
 			}
 
 			int temp;
-			while (parent[node] != node)
+			while (parents[node] != parent)
 			{
-				temp = parent[node];
-				parent[node] = parentNode;
+				temp = parents[node];
+				parents[node] = parent;
 				node = temp;
 			}
 
-			return parentNode;
+			return parent;
 		}
 
-		public void union(int nodeA, int nodeB)
+		public boolean connect(int nodeA, int nodeB)
 		{
-			int parentA = findParent(nodeA);
-			int parentB = findParent(nodeB);
+			int parentA = getParent(nodeA);
+			int parentB = getParent(nodeB);
 
-			if (parentA != parentB)
+			if (parentA == parentB)
 			{
-				if (rank[parentA] > rank[parentB])
-				{
-					rank[parentA] += rank[parentB];
-					parent[parentB] = parentA;
-				}
-				else
-				{
-					rank[parentB] += rank[parentA];
-					parent[parentA] = parentB;
-				}
+				return false;
 			}
+
+			parents[parentB] = parentA;
+
+			return true;
 		}
 	}
 
 	public int[] findRedundantConnection(int[][] edges)
 	{
-		UnionFind unionFind = new UnionFind(edges.length + 1);
-
+		UnionFind unionFind = new UnionFind(edges.length);
+		int[] candidate = new int[]{};
 		for (int[] edge : edges)
 		{
-			int parentA = unionFind.findParent(edge[0]);
-			int parentB = unionFind.findParent(edge[1]);
-
-			if (parentA != parentB)
+			if (!unionFind.connect(edge[0], edge[1]))
 			{
-				unionFind.union(edge[0], edge[1]);
-			}
-			else
-			{
-				return edge;
+				candidate = edge;
 			}
 		}
 
-		return new int[0];
+		return candidate;
 	}
 }
