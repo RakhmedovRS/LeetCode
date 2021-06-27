@@ -20,19 +20,20 @@ public class Candy
 {
 	public int candy(int[] ratings)
 	{
-		PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.comparingInt(a -> ratings[a]));
+		Integer[] indices = new Integer[ratings.length];
 		for (int i = 0; i < ratings.length; i++)
 		{
-			pq.add(i);
+			indices[i] = i;
 		}
+
+		Arrays.sort(indices, Comparator.comparingInt(a -> ratings[a]));
 
 		int[] candies = new int[ratings.length];
 		Arrays.fill(candies, 1);
 
-		while (!pq.isEmpty())
+		int count = 0;
+		for (int pos : indices)
 		{
-			int pos = pq.remove();
-
 			if (pos - 1 >= 0)
 			{
 				if (ratings[pos - 1] < ratings[pos])
@@ -48,12 +49,8 @@ public class Candy
 					candies[pos] = Math.max(candies[pos], candies[pos + 1] + 1);
 				}
 			}
-		}
 
-		int count = 0;
-		for (int candy : candies)
-		{
-			count += candy;
+			count += candies[pos];
 		}
 		return count;
 	}
