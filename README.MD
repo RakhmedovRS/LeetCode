@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1357
+Count of solved tasks: 1358
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1167,7 +1167,8 @@ Count of solved tasks: 1357
 |1909|Easy|[Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)|[Remove One Element to Make the Array Strictly Increasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveOneElementToMakeTheArrayStrictlyIncreasing.java)|
 |1910|Medium|[Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/)|[Remove All Occurrences of a Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveAllOccurrencesOfSubstring.java)|
 |1911|Medium|[Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/)|[Maximum Alternating Subsequence Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAlternatingSubsequenceSum.java)|
-|1913|Easy|[Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)|[Maximum Product Difference Between Two Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductDifferenceBetweenTwoPairs.java)|</p>
+|1913|Easy|[Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)|[Maximum Product Difference Between Two Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductDifferenceBetweenTwoPairs.java)|
+|1914|Medium|[Cyclically Rotating a Grid](https://leetcode.com/problems/cyclically-rotating-a-grid/)|[Cyclically Rotating a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CyclicallyRotatingGrid.java)|</p>
 </details>
 
 <details>
@@ -1556,7 +1557,8 @@ Count of solved tasks: 1357
 |1904|Medium|[The Number of Full Rounds You Have Played](https://leetcode.com/problems/the-number-of-full-rounds-you-have-played/)|[The Number of Full Rounds You Have Played.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheNumberOfFullRoundsYouHavePlayed.java)|
 |1905|Medium|[Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)|[Count Sub Islands.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubIslands.java)|
 |1910|Medium|[Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/)|[Remove All Occurrences of a Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveAllOccurrencesOfSubstring.java)|
-|1911|Medium|[Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/)|[Maximum Alternating Subsequence Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAlternatingSubsequenceSum.java)|</p>
+|1911|Medium|[Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/)|[Maximum Alternating Subsequence Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAlternatingSubsequenceSum.java)|
+|1914|Medium|[Cyclically Rotating a Grid](https://leetcode.com/problems/cyclically-rotating-a-grid/)|[Cyclically Rotating a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CyclicallyRotatingGrid.java)|</p>
 </details>
 
 <details>
