@@ -10,51 +10,48 @@ import java.util.LinkedList;
  * @created 10-Jun-20
  */
 @LeetCode(
-		id = 1249,
-		name = "Minimum Remove to Make Valid Parentheses",
-		url = "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
-		difficulty = Difficulty.MEDIUM
+	id = 1249,
+	name = "Minimum Remove to Make Valid Parentheses",
+	url = "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+	difficulty = Difficulty.MEDIUM
 )
 public class MinimumRemoveToMakeValidParentheses
 {
 	public String minRemoveToMakeValid(String s)
 	{
-		boolean[] used = new boolean[s.length()];
-		char[] chars = s.toCharArray();
+		boolean[] keep = new boolean[s.length()];
+
 		LinkedList<Integer> list = new LinkedList<>();
-		for (int i = 0; i < chars.length; i++)
+		for (int i = 0; i < s.length(); i++)
 		{
-			if (Character.isLetter(chars[i]))
-			{
-				used[i] = true;
-			}
-			else if (chars[i] == '(')
+			if (s.charAt(i) == '(')
 			{
 				list.addLast(i);
 			}
-			else
+			else if (s.charAt(i) == ')')
 			{
 				if (list.isEmpty())
 				{
-					used[i] = false;
+					keep[i] = false;
 				}
 				else
 				{
-					if (chars[list.getLast()] == '(')
-					{
-						used[list.removeLast()] = true;
-						used[i] = true;
-					}
+					keep[list.removeLast()] = true;
+					keep[i] = true;
 				}
+			}
+			else
+			{
+				keep[i] = true;
 			}
 		}
 
 		StringBuilder sb = new StringBuilder();
-		for (int i = 0; i < used.length; i++)
+		for (int i = 0; i < s.length(); i++)
 		{
-			if (used[i])
+			if (keep[i])
 			{
-				sb.append(chars[i]);
+				sb.append(s.charAt(i));
 			}
 		}
 
