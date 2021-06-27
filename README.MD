@@ -129,7 +129,7 @@ Count of solved tasks: 1358
 |132|Medium|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)|[Palindrome Partitioning II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromePartitioningII.java)|
 |133|Undefined|[Clone Graph](https://leetcode.com/problems/clone-graph/)|[Clone Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CloneGraph.java)|
 |134|Undefined|[Gas Station](https://leetcode.com/problems/gas-station/)|[Gas Station.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GasStation.java)|
-|135|Undefined|[Candy](https://leetcode.com/problems/candy/)|[Candy.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Candy.java)|
+|135|Hard|[Candy](https://leetcode.com/problems/candy/)|[Candy.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Candy.java)|
 |136|Undefined|[Single Number](https://leetcode.com/problems/single-number/)|[Single Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SingleNumber.java)|
 |138|Medium|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Copy List with Random Pointer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CopyListWithRandomPointer.java)|
 |139|Undefined|[Word Break](https://leetcode.com/problems/word-break/)|[Word Break.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordBreak.java)|
@@ -1577,6 +1577,7 @@ Count of solved tasks: 1358
 |84|Hard|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[Largest Rectangle in Histogram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestRectangleInHistogram.java)|
 |124|Hard|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[Binary Tree Maximum Path Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeMaximumPathSum.java)|
 |127|Hard|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Word Ladder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordLadder.java)|
+|135|Hard|[Candy](https://leetcode.com/problems/candy/)|[Candy.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Candy.java)|
 |214|Hard|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|[Shortest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestPalindrome.java)|
 |218|Hard|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[The Skyline Problem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheSkylineProblem.java)|
 |239|Hard|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Sliding Window Maximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SlidingWindowMaximum.java)|

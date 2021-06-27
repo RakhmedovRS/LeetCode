@@ -1,56 +1,61 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
+import java.util.Comparator;
+import java.util.PriorityQueue;
 
 /**
  * @author RakhmedovRS
  * @created 08-Mar-20
  */
-@LeetCode(id = 135, name = "Candy", url = "https://leetcode.com/problems/candy/")
+@LeetCode(
+	id = 135,
+	name = "Candy",
+	url = "https://leetcode.com/problems/candy/",
+	difficulty = Difficulty.HARD)
 public class Candy
 {
 	public int candy(int[] ratings)
 	{
-		int[] memo = new int[ratings.length];
-		Arrays.fill(memo, 1);
-
-		for (int i = 1; i < ratings.length - 2; i++)
+		PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.comparingInt(a -> ratings[a]));
+		for (int i = 0; i < ratings.length; i++)
 		{
-			int l = 0;
-			int r = 0;
-
-			if (ratings[i] > ratings[i - 1])
-			{
-				l = memo[i - 1];
-			}
-
-			if (ratings[i] > ratings[i + 1])
-			{
-				r = memo[i + 1];
-			}
-
-			memo[i] = Math.max(l, r) + 1;
+			pq.add(i);
 		}
 
-		for (int i = 1; i < ratings.length; i++)
-		{
-			if (ratings[i] > ratings[i - 1] && memo[i] <= memo[i - 1])
-			{
-				memo[i] = memo[i - 1] + 1;
-			}
-		}
+		int[] candies = new int[ratings.length];
+		Arrays.fill(candies, 1);
 
-		for (int i = ratings.length - 2; i >= 0; i--)
+		while (!pq.isEmpty())
 		{
-			if (ratings[i] > ratings[i + 1] && memo[i] <= memo[i + 1])
+			int pos = pq.remove();
+
+			if (pos - 1 >= 0)
 			{
-				memo[i] = memo[i + 1] + 1;
+				if (ratings[pos - 1] < ratings[pos])
+				{
+					candies[pos] = Math.max(candies[pos], candies[pos - 1] + 1);
+				}
+			}
+
+			if (pos + 1 < ratings.length)
+			{
+				if (ratings[pos + 1] < ratings[pos])
+				{
+					candies[pos] = Math.max(candies[pos], candies[pos + 1] + 1);
+				}
 			}
 		}
 
-		return Arrays.stream(memo).sum();
+		int count = 0;
+		for (int candy : candies)
+		{
+			count += candy;
+		}
+		return count;
 	}
 
 	public static void main(String[] args)
