@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1356
+Count of solved tasks: 1357
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1166,7 +1166,8 @@ Count of solved tasks: 1356
 |1905|Medium|[Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)|[Count Sub Islands.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubIslands.java)|
 |1909|Easy|[Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)|[Remove One Element to Make the Array Strictly Increasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveOneElementToMakeTheArrayStrictlyIncreasing.java)|
 |1910|Medium|[Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/)|[Remove All Occurrences of a Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveAllOccurrencesOfSubstring.java)|
-|1911|Medium|[Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/)|[Maximum Alternating Subsequence Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAlternatingSubsequenceSum.java)|</p>
+|1911|Medium|[Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/)|[Maximum Alternating Subsequence Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAlternatingSubsequenceSum.java)|
+|1913|Easy|[Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)|[Maximum Product Difference Between Two Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductDifferenceBetweenTwoPairs.java)|</p>
 </details>
 
 <details>
@@ -1274,7 +1275,8 @@ Count of solved tasks: 1356
 |1893|Easy|[Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/)|[Check if All the Integers in a Range Are Covered.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllTheIntegersInRangeAreCovered.java)|
 |1897|Easy|[Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/)|[Redistribute Characters to Make All Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RedistributeCharactersToMakeAllStringsEqual.java)|
 |1903|Easy|[Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)|[Largest Odd Number in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestOddNumberInString.java)|
-|1909|Easy|[Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)|[Remove One Element to Make the Array Strictly Increasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveOneElementToMakeTheArrayStrictlyIncreasing.java)|</p>
+|1909|Easy|[Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)|[Remove One Element to Make the Array Strictly Increasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveOneElementToMakeTheArrayStrictlyIncreasing.java)|
+|1913|Easy|[Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)|[Maximum Product Difference Between Two Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductDifferenceBetweenTwoPairs.java)|</p>
 </details>
 
 <details>
