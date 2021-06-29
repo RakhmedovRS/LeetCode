@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Deque;
@@ -9,7 +10,12 @@ import java.util.LinkedList;
  * @author RakhmedovRS
  * @created 26-Feb-20
  */
-@LeetCode(id = 1047, name = "Remove All Adjacent Duplicates In String", url = "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/")
+@LeetCode(
+	id = 1047,
+	name = "Remove All Adjacent Duplicates In String",
+	url = "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/",
+	difficulty = Difficulty.EASY
+)
 public class RemoveAllAdjacentDuplicatesInString
 {
 	public String removeDuplicates(String S)
