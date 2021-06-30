@@ -3,6 +3,9 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author RakhmedovRS
  * @created 11/29/2020
@@ -16,21 +19,38 @@ import common.LeetCode;
 )
 public class ArmstrongNumber
 {
-	public boolean isArmstrong(int N)
+	public boolean isArmstrong(int n)
 	{
-		int num = N;
-		long sum = 0;
-		int pow = String.valueOf(N).length();
-		while (num > 0)
+		List<Integer> nums = new ArrayList<>();
+		int temp = n;
+		while (temp > 0)
 		{
-			sum += Math.pow(num % 10, pow);
-			if (sum > Integer.MAX_VALUE)
+			nums.add(temp % 10);
+			temp /= 10;
+		}
+
+		for (int i = 0; i < 100; i++)
+		{
+			long number = 0;
+			for (int num : nums)
+			{
+				number += Math.pow(num, i);
+				if (number > n)
+				{
+					return false;
+				}
+			}
+
+			if (number > n)
 			{
 				return false;
 			}
-			num /= 10;
+			else if (number == n)
+			{
+				return true;
+			}
 		}
 
-		return sum == N;
+		return false;
 	}
 }
