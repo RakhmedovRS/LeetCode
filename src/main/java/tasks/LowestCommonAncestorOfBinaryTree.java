@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -7,7 +8,12 @@ import common.TreeNode;
  * @author RakhmedovRS
  * @created 01-May-20
  */
-@LeetCode(id = 236, name = "Lowest Common Ancestor of a Binary Tree", url = "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/")
+@LeetCode(
+	id = 236,
+	name = "Lowest Common Ancestor of a Binary Tree",
+	url = "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+	difficulty = Difficulty.MEDIUM
+)
 public class LowestCommonAncestorOfBinaryTree
 {
 	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
