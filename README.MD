@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1359
+Count of solved tasks: 1360
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -262,6 +262,7 @@ Count of solved tasks: 1359
 |354|Medium|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|[Russian Doll Envelopes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RussianDollEnvelopes.java)|
 |355|Undefined|[Design Twitter](https://leetcode.com/problems/design-twitter/)|[Design Twitter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignTwitter.java)|
 |357|Undefined|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)|[Count Numbers with Unique Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumbersWithUniqueDigits.java)|
+|363|Hard|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)|[Max Sum of Rectangle No Larger Than K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxSumOfRectangleNoLargerThanK.java)|
 |365|Undefined|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)|[Water and Jug Problem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WaterAndJugProblem.java)|
 |367|Undefined|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Valid Perfect Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidPerfectSquare.java)|
 |368|Undefined|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|[Largest Divisible Subset.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestDivisibleSubset.java)|
@@ -1590,6 +1591,7 @@ Count of solved tasks: 1359
 |327|Hard|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)|[Count of Range Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountOfRangeSum.java)|
 |329|Hard|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[Longest Increasing Path in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestIncreasingPathInMatrix.java)|
 |336|Hard|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)|[Palindrome Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromePairs.java)|
+|363|Hard|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)|[Max Sum of Rectangle No Larger Than K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxSumOfRectangleNoLargerThanK.java)|
 |381|Hard|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|[Insert Delete GetRandom O(1) - Duplicates allowed.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/InsertDeleteGetRandomO1DuplicatesAllowed.java)|
 |431|Hard|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/)|[Encode N-ary Tree to Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EncodeNaryTreeToBinaryTree.java)|
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[Poor Pigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PoorPigs.java)|
