@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1362
+Count of solved tasks: 1363
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1172,7 +1172,8 @@ Count of solved tasks: 1362
 |1913|Easy|[Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)|[Maximum Product Difference Between Two Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductDifferenceBetweenTwoPairs.java)|
 |1914|Medium|[Cyclically Rotating a Grid](https://leetcode.com/problems/cyclically-rotating-a-grid/)|[Cyclically Rotating a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CyclicallyRotatingGrid.java)|
 |1920|Easy|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|[Build Array from Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BuildArrayFromPermutation.java)|
-|1921|Medium|[Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/)|[Eliminate Maximum Number of Monsters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EliminateMaximumNumberOfMonsters.java)|</p>
+|1921|Medium|[Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/)|[Eliminate Maximum Number of Monsters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EliminateMaximumNumberOfMonsters.java)|
+|1922|Medium|[Count Good Numbers](https://leetcode.com/problems/count-good-numbers/)|[Count Good Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountGoodNumbers.java)|</p>
 </details>
 
 <details>
@@ -1568,7 +1569,8 @@ Count of solved tasks: 1362
 |1910|Medium|[Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/)|[Remove All Occurrences of a Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveAllOccurrencesOfSubstring.java)|
 |1911|Medium|[Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/)|[Maximum Alternating Subsequence Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAlternatingSubsequenceSum.java)|
 |1914|Medium|[Cyclically Rotating a Grid](https://leetcode.com/problems/cyclically-rotating-a-grid/)|[Cyclically Rotating a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CyclicallyRotatingGrid.java)|
-|1921|Medium|[Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/)|[Eliminate Maximum Number of Monsters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EliminateMaximumNumberOfMonsters.java)|</p>
+|1921|Medium|[Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/)|[Eliminate Maximum Number of Monsters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EliminateMaximumNumberOfMonsters.java)|
+|1922|Medium|[Count Good Numbers](https://leetcode.com/problems/count-good-numbers/)|[Count Good Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountGoodNumbers.java)|</p>
 </details>
 
 <details>
