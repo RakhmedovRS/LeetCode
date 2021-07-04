@@ -3,11 +3,6 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 /**
  * @author RakhmedovRS
  * @created 11/26/2020
@@ -22,46 +17,31 @@ public class CountVowelsPermutation
 {
 	public int countVowelPermutation(int n)
 	{
-		Map<Character, List<Character>> transitions = new HashMap<>();
-		transitions.put('a', Arrays.asList('e'));
-		transitions.put('e', Arrays.asList('a', 'i'));
-		transitions.put('i', Arrays.asList('a', 'e', 'o', 'u'));
-		transitions.put('o', Arrays.asList('i', 'u'));
-		transitions.put('u', Arrays.asList('a'));
-
 		int mod = 1_000_000_007;
+		long[] aS = new long[n];
+		long[] eS = new long[n];
+		long[] iS = new long[n];
+		long[] oS = new long[n];
+		long[] uS = new long[n];
 
-		int[][] memo = new int[n + 1][26];
+		aS[0] = eS[0] = iS[0] = oS[0] = uS[0] = 1;
 
-		int answer = 0;
-		for (Character ch : transitions.keySet())
+		for (int i = 1; i < n; i++)
 		{
-			answer = (answer + dfs(ch, n - 1, transitions, memo, mod) % mod) % mod;
+			aS[i] = ((uS[i - 1] % mod) + (eS[i - 1] % mod) + (iS[i - 1] % mod)) % mod;
+			eS[i] = ((aS[i - 1] % mod) + (iS[i - 1] % mod)) % mod;
+			iS[i] = ((eS[i - 1] % mod) + (oS[i - 1] % mod)) % mod;
+			oS[i] = iS[i - 1] % mod;
+			uS[i] = ((iS[i - 1] % mod) + (oS[i - 1] % mod)) % mod;
 		}
 
-		return answer;
-	}
+		long answer = 0;
+		answer = (answer + aS[n - 1]) % mod;
+		answer = (answer + eS[n - 1]) % mod;
+		answer = (answer + iS[n - 1]) % mod;
+		answer = (answer + oS[n - 1]) % mod;
+		answer = (answer + uS[n - 1]) % mod;
 
-	private int dfs(char ch, int n, Map<Character, List<Character>> transitions, int[][] memo, int mod)
-	{
-		if (n == 0)
-		{
-			return 1;
-		}
-
-		if (memo[n][ch - 'a'] != 0)
-		{
-			return memo[n][ch - 'a'];
-		}
-
-		int res = 0;
-		for (Character next : transitions.get(ch))
-		{
-			res = (res + dfs(next, n - 1, transitions, memo, mod) % mod) % mod;
-		}
-
-		memo[n][ch - 'a'] = res;
-
-		return res;
+		return (int) answer;
 	}
 }
