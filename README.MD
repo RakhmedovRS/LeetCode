@@ -406,7 +406,7 @@ Count of solved tasks: 1363
 |561|Undefined|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Array Partition I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrayPartitionI.java)|
 |563|Undefined|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[Binary Tree Tilt.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeTilt.java)|
 |565|Undefined|[Array Nesting](https://leetcode.com/problems/array-nesting/)|[Array Nesting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrayNesting.java)|
-|566|Undefined|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Reshape the Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReshapeTheMatrix.java)|
+|566|Easy|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Reshape the Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReshapeTheMatrix.java)|
 |567|Undefined|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Permutation in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PermutationInString.java)|
 |572|Undefined|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Subtree of Another Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubtreeOfAnotherTree.java)|
 |576|Medium|[Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)|[Out of Boundary Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OutOfBoundaryPaths.java)|
@@ -1204,6 +1204,7 @@ Count of solved tasks: 1363
 |326|Easy|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Power of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PowerOfThree.java)|
 |496|Easy|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Next Greater Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NextGreaterElementI.java)|
 |509|Easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FibonacciNumber.java)|
+|566|Easy|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Reshape the Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReshapeTheMatrix.java)|
 |589|Easy|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary Tree Preorder Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/N_aryTreePreorderTraversal.java)|
 |594|Easy|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Longest Harmonious Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestHarmoniousSubsequence.java)|
 |598|Easy|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[Range Addition II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeAdditionII.java)|

@@ -1,41 +1,46 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 03-Jun-20
  */
-@LeetCode(id = 566, name = "Reshape the Matrix", url = "https://leetcode.com/problems/reshape-the-matrix/")
+@LeetCode(
+	id = 566,
+	name = "Reshape the Matrix",
+	url = "https://leetcode.com/problems/reshape-the-matrix/",
+	difficulty = Difficulty.EASY
+)
 public class ReshapeTheMatrix
 {
-	public int[][] matrixReshape(int[][] nums, int r, int c)
+	public int[][] matrixReshape(int[][] mat, int r, int c)
 	{
-		int rows = nums.length;
-		int columns = nums[0].length;
-
+		int rows = mat.length;
+		int columns = mat[0].length;
 		if (rows * columns != r * c)
 		{
-			return nums;
+			return mat;
 		}
 
-		int[][] matrix = new int[r][c];
-		int matrixRow = 0;
-		int matrixColumn = 0;
+		int[][] newMat = new int[r][c];
+		int newMatRow = 0;
+		int newManColumn = 0;
+
 		for (int row = 0; row < rows; row++)
 		{
 			for (int column = 0; column < columns; column++)
 			{
-				matrix[matrixRow][matrixColumn] = nums[row][column];
-				matrixColumn++;
-				if (matrixColumn == c)
+				newMat[newMatRow][newManColumn++] = mat[row][column];
+				if (newManColumn == c)
 				{
-					matrixColumn = 0;
-					matrixRow++;
+					newMatRow++;
+					newManColumn = 0;
 				}
 			}
 		}
 
-		return matrix;
+		return newMat;
 	}
 }
