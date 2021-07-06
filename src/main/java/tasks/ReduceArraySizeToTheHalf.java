@@ -1,17 +1,20 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author RakhmedovRS
  * @created 22-Jun-20
  */
-@LeetCode(id = 1338, name = "Reduce Array Size to The Half", url = "https://leetcode.com/problems/reduce-array-size-to-the-half/")
+@LeetCode(
+	id = 1338,
+	name = "Reduce Array Size to The Half",
+	url = "https://leetcode.com/problems/reduce-array-size-to-the-half/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ReduceArraySizeToTheHalf
 {
 	public int minSetSize(int[] arr)
@@ -22,22 +25,21 @@ public class ReduceArraySizeToTheHalf
 			map.put(num, map.getOrDefault(num, 0) + 1);
 		}
 
-		List<Integer> sortedKeys = new ArrayList<>(map.keySet());
-		sortedKeys.sort((v1, v2) -> map.get(v2) - map.get(v1));
+		PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> map.get(b) - map.get(a));
 
-		int count = 0;
-		int amount = 0;
-		for (int key : sortedKeys)
+		for (Map.Entry<Integer, Integer> entry : map.entrySet())
 		{
-			if (amount >= arr.length / 2)
-			{
-				break;
-			}
-
-			amount += map.get(key);
-			count++;
+			pq.add(entry.getKey());
 		}
 
-		return count;
+		int half = arr.length / 2;
+		int removes = 0;
+		while (half > 0)
+		{
+			half -= map.get(pq.remove());
+			removes++;
+		}
+
+		return removes;
 	}
 }
