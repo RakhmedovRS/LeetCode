@@ -3,6 +3,8 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
+import java.util.*;
+
 /**
  * @author RakhmedovRS
  * @created 11/20/2020
@@ -15,37 +17,31 @@ import common.LeetCode;
 )
 public class MaximumLengthOfRepeatedSubarray
 {
-	public int findLength(int[] A, int[] B)
+	public int findLength(int[] nums1, int[] nums2)
 	{
-		return dfs(0, 0, A, B, new Integer[A.length][B.length]);
-	}
-
-	private int dfs(int aPos, int bPos, int[] A, int[] B, Integer[][] memo)
-	{
-		if (aPos >= A.length || bPos >= B.length)
+		int max = 0;
+		Map<Integer, List<Integer>> map = new HashMap<>();
+		for (int i = 0; i < nums2.length; i++)
 		{
-			return 0;
+			map.putIfAbsent(nums2[i], new ArrayList<>());
+			map.get(nums2[i]).add(i);
 		}
 
-		if (memo[aPos][bPos] != null)
+		for (int i = 0; i < nums1.length; i++)
 		{
-			return memo[aPos][bPos];
-		}
-
-		int current = 0;
-		if (A[aPos] == B[bPos])
-		{
-			int a = aPos;
-			int b = bPos;
-			while (a < A.length && b < B.length && A[a] == B[b])
+			for (int j : map.getOrDefault(nums1[i], Collections.emptyList()))
 			{
-				current++;
-				a++;
-				b++;
+				int a = i;
+				int b = j;
+				while (a < nums1.length && b < nums2.length && nums1[a] == nums2[b])
+				{
+					max = Math.max(max, 1 + a - i);
+					a++;
+					b++;
+				}
 			}
 		}
 
-		memo[aPos][bPos] = Math.max(current, Math.max(dfs(aPos + 1, bPos, A, B, memo), dfs(aPos, bPos + 1, A, B, memo)));
-		return memo[aPos][bPos];
+		return max;
 	}
 }
