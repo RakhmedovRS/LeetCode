@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 14-Feb-20
  */
-@LeetCode(id = 300, name = "Longest Increasing Subsequence", url = "https://leetcode.com/problems/longest-increasing-subsequence/")
+@LeetCode(
+	id = 300,
+	name = "Longest Increasing Subsequence",
+	url = "https://leetcode.com/problems/longest-increasing-subsequence/",
+	difficulty = Difficulty.MEDIUM
+)
 public class LongestIncreasingSubsequence
 {
 	public int lengthOfLIS(int[] nums)
