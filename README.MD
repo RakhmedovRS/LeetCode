@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1364
+Count of solved tasks: 1365
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1174,7 +1174,8 @@ Count of solved tasks: 1364
 |1920|Easy|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|[Build Array from Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BuildArrayFromPermutation.java)|
 |1921|Medium|[Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/)|[Eliminate Maximum Number of Monsters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EliminateMaximumNumberOfMonsters.java)|
 |1922|Medium|[Count Good Numbers](https://leetcode.com/problems/count-good-numbers/)|[Count Good Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountGoodNumbers.java)|
-|1925|Easy|[Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/)|[Count Square Sum Triples.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSquareSumTriples.java)|</p>
+|1925|Easy|[Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/)|[Count Square Sum Triples.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSquareSumTriples.java)|
+|1926|Medium|[Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)|[Nearest Exit from Entrance in Maze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NearestExitFromEntranceInMaze.java)|</p>
 </details>
 
 <details>
@@ -1576,7 +1577,8 @@ Count of solved tasks: 1364
 |1911|Medium|[Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/)|[Maximum Alternating Subsequence Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAlternatingSubsequenceSum.java)|
 |1914|Medium|[Cyclically Rotating a Grid](https://leetcode.com/problems/cyclically-rotating-a-grid/)|[Cyclically Rotating a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CyclicallyRotatingGrid.java)|
 |1921|Medium|[Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/)|[Eliminate Maximum Number of Monsters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EliminateMaximumNumberOfMonsters.java)|
-|1922|Medium|[Count Good Numbers](https://leetcode.com/problems/count-good-numbers/)|[Count Good Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountGoodNumbers.java)|</p>
+|1922|Medium|[Count Good Numbers](https://leetcode.com/problems/count-good-numbers/)|[Count Good Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountGoodNumbers.java)|
+|1926|Medium|[Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)|[Nearest Exit from Entrance in Maze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NearestExitFromEntranceInMaze.java)|</p>
 </details>
 
 <details>
