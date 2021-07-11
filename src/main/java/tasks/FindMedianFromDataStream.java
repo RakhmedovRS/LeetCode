@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Comparator;
@@ -9,7 +10,12 @@ import java.util.PriorityQueue;
  * @author RakhmedovRS
  * @created 16-Mar-20
  */
-@LeetCode(id = 295, name = "Find Median from Data Stream", url = "https://leetcode.com/problems/find-median-from-data-stream/")
+@LeetCode(
+	id = 295,
+	name = "Find Median from Data Stream",
+	url = "https://leetcode.com/problems/find-median-from-data-stream/",
+	difficulty = Difficulty.HARD
+)
 public class FindMedianFromDataStream
 {
 	class MedianFinder
