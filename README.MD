@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1366
+Count of solved tasks: 1367
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1176,7 +1176,8 @@ Count of solved tasks: 1366
 |1922|Medium|[Count Good Numbers](https://leetcode.com/problems/count-good-numbers/)|[Count Good Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountGoodNumbers.java)|
 |1925|Easy|[Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/)|[Count Square Sum Triples.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSquareSumTriples.java)|
 |1926|Medium|[Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)|[Nearest Exit from Entrance in Maze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NearestExitFromEntranceInMaze.java)|
-|1929|Easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[Concatenation of Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenationOfArray.java)|</p>
+|1929|Easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[Concatenation of Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenationOfArray.java)|
+|1930|Medium|[Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/)|[Unique Length-3 Palindromic Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniqueLength3PalindromicSubsequences.java)|</p>
 </details>
 
 <details>
@@ -1581,7 +1582,8 @@ Count of solved tasks: 1366
 |1914|Medium|[Cyclically Rotating a Grid](https://leetcode.com/problems/cyclically-rotating-a-grid/)|[Cyclically Rotating a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CyclicallyRotatingGrid.java)|
 |1921|Medium|[Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/)|[Eliminate Maximum Number of Monsters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EliminateMaximumNumberOfMonsters.java)|
 |1922|Medium|[Count Good Numbers](https://leetcode.com/problems/count-good-numbers/)|[Count Good Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountGoodNumbers.java)|
-|1926|Medium|[Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)|[Nearest Exit from Entrance in Maze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NearestExitFromEntranceInMaze.java)|</p>
+|1926|Medium|[Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)|[Nearest Exit from Entrance in Maze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NearestExitFromEntranceInMaze.java)|
+|1930|Medium|[Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/)|[Unique Length-3 Palindromic Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniqueLength3PalindromicSubsequences.java)|</p>
 </details>
 
 <details>
