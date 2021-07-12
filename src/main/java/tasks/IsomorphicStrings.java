@@ -1,42 +1,38 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 /**
  * @author RakhmedovRS
  * @created 11-Jul-20
  */
-@LeetCode(id = 205, name = "Isomorphic Strings", url = "https://leetcode.com/problems/isomorphic-strings/")
+@LeetCode(
+	id = 205,
+	name = "Isomorphic Strings",
+	url = "https://leetcode.com/problems/isomorphic-strings/",
+	difficulty = Difficulty.EASY)
 public class IsomorphicStrings
 {
 	public boolean isIsomorphic(String s, String t)
 	{
-		Map<Character, Character> map = new HashMap<>();
-		Set<Character> used = new HashSet<>();
-		for (int i = 0; i < s.length(); i++)
+		Map<Character, Character> mapA = new HashMap<>();
+		Map<Character, Character> mapB = new HashMap<>();
+		char[] charsA = s.toCharArray();
+		char[] charsB = t.toCharArray();
+		for (int i = 0; i < charsA.length; i++)
 		{
-			if (map.get(s.charAt(i)) == null)
+			if (mapA.getOrDefault(charsA[i], charsB[i]) != charsB[i] || mapB.getOrDefault(charsB[i], charsA[i]) != charsA[i])
 			{
-				if (used.contains(t.charAt(i)))
-				{
-					return false;
-				}
-				used.add(t.charAt(i));
-				map.put(s.charAt(i), t.charAt(i));
+				return false;
 			}
-			else
-			{
-				if (map.get(s.charAt(i)) != t.charAt(i))
-				{
-					return false;
-				}
-			}
+			mapA.put(charsA[i], charsB[i]);
+			mapB.put(charsB[i], charsA[i]);
 		}
+
 		return true;
 	}
 
