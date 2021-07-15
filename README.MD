@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1367
+Count of solved tasks: 1368
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -422,6 +422,7 @@ Count of solved tasks: 1367
 |605|Easy|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Can Place Flowers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CanPlaceFlowers.java)|
 |606|Undefined|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[Construct String from Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructStringFromBinaryTree.java)|
 |609|Medium|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|[Find Duplicate File in System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindDuplicateFileInSystem.java)|
+|611|Medium|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)|[Valid Triangle Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidTriangleNumber.java)|
 |617|Undefined|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Merge Two Binary Trees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeTwoBinaryTrees.java)|
 |621|Undefined|[Task Scheduler](https://leetcode.com/problems/task-scheduler/)|[Task Scheduler.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TaskScheduler.java)|
 |622|Medium|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|[Design Circular Queue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignCircularQueue.java)|
@@ -1388,6 +1389,7 @@ Count of solved tasks: 1367
 |581|Medium|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Shortest Unsorted Continuous Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestUnsortedContinuousSubarray.java)|
 |583|Medium|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Delete Operation for Two Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteOperationForTwoStrings.java)|
 |609|Medium|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|[Find Duplicate File in System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindDuplicateFileInSystem.java)|
+|611|Medium|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)|[Valid Triangle Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidTriangleNumber.java)|
 |622|Medium|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|[Design Circular Queue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignCircularQueue.java)|
 |623|Medium|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[Add One Row to Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddOneRowToTree.java)|
 |636|Medium|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|[Exclusive Time of Functions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExclusiveTimeOfFunctions.java)|
