@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1369
+Count of solved tasks: 1370
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -621,6 +621,7 @@ Count of solved tasks: 1369
 |923|Medium|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|[3Sum With Multiplicity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThreeSumWithMultiplicity.java)|
 |925|Undefined|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|[Long Pressed Name.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongPressedName.java)|
 |926|Undefined|[Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/)|[Flip String to Monotone Increasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FlipStringToMonotoneIncreasing.java)|
+|927|Hard|[Three Equal Parts](https://leetcode.com/problems/three-equal-parts/)|[Three Equal Parts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThreeEqualParts.java)|
 |929|Undefined|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|[Unique Email Addresses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniqueEmailAddresses.java)|
 |930|Undefined|[Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)|[Binary Subarrays With Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinarySubarraysWithSum.java)|
 |931|Undefined|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|[Minimum Falling Path Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumFallingPathSum.java)|
@@ -1631,6 +1632,7 @@ Count of solved tasks: 1369
 |778|Hard|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|[Swim in Rising Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SwimInRisingWater.java)|
 |895|Hard|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|[Maximum Frequency Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumFrequencyStack.java)|
 |902|Hard|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[Numbers At Most N Given Digit Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumbersAtMostNGivenDigitSet.java)|
+|927|Hard|[Three Equal Parts](https://leetcode.com/problems/three-equal-parts/)|[Three Equal Parts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThreeEqualParts.java)|
 |968|Hard|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|[Binary Tree Cameras.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeCameras.java)|
 |987|Hard|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|[Vertical Order Traversal of a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VerticalOrderTraversalOfBinaryTree.java)|
 |992|Hard|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)|[Subarrays with K Different Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubarraysWithKDifferentIntegers.java)|
