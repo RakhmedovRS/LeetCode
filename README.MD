@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1368
+Count of solved tasks: 1369
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -23,6 +23,7 @@ Count of solved tasks: 1368
 |15|Undefined|[3Sum](https://leetcode.com/problems/3sum/)|[3Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThreeSum.java)|
 |16|Undefined|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[3Sum Closest.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThreeSumClosest.java)|
 |17|Medium|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Letter Combinations of a Phone Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LetterCombinationsOfPhoneNumber.java)|
+|18|Medium|[4Sum](https://leetcode.com/problems/4sum/)|[4Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FourSum.java)|
 |19|Medium|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove Nth Node From End of List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveNthNodeFromEndOfList.java)|
 |20|Easy|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidParentheses.java)|
 |21|Easy|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeTwoSortedLists.java)|
@@ -1308,6 +1309,7 @@ Count of solved tasks: 1368
 |11|Medium|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Container With Most Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ContainerWithMostWater.java)|
 |12|Medium|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Integer to Roman.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IntegerToRoman.java)|
 |17|Medium|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Letter Combinations of a Phone Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LetterCombinationsOfPhoneNumber.java)|
+|18|Medium|[4Sum](https://leetcode.com/problems/4sum/)|[4Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FourSum.java)|
 |19|Medium|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove Nth Node From End of List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveNthNodeFromEndOfList.java)|
 |22|Medium|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Generate Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GenerateParentheses.java)|
 |24|Medium|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Swap Nodes in Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SwapNodesInPairs.java)|
