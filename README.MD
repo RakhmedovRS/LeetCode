@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1371
+Count of solved tasks: 1372
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1181,7 +1181,8 @@ Count of solved tasks: 1371
 |1926|Medium|[Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)|[Nearest Exit from Entrance in Maze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NearestExitFromEntranceInMaze.java)|
 |1929|Easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[Concatenation of Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenationOfArray.java)|
 |1930|Medium|[Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/)|[Unique Length-3 Palindromic Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniqueLength3PalindromicSubsequences.java)|
-|1933|Easy|[Check if String Is Decomposable Into Value-Equal Substrings](https://leetcode.com/problems/check-if-string-is-decomposable-into-value-equal-substrings/)|[Check if String Is Decomposable Into Value-Equal Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringIsDecomposableIntoValueEqualSubstrings.java)|</p>
+|1933|Easy|[Check if String Is Decomposable Into Value-Equal Substrings](https://leetcode.com/problems/check-if-string-is-decomposable-into-value-equal-substrings/)|[Check if String Is Decomposable Into Value-Equal Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringIsDecomposableIntoValueEqualSubstrings.java)|
+|1935|Easy|[Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/)|[Maximum Number of Words You Can Type.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfWordsYouCanType.java)|</p>
 </details>
 
 <details>
@@ -1297,7 +1298,8 @@ Count of solved tasks: 1371
 |1920|Easy|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|[Build Array from Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BuildArrayFromPermutation.java)|
 |1925|Easy|[Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/)|[Count Square Sum Triples.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSquareSumTriples.java)|
 |1929|Easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[Concatenation of Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenationOfArray.java)|
-|1933|Easy|[Check if String Is Decomposable Into Value-Equal Substrings](https://leetcode.com/problems/check-if-string-is-decomposable-into-value-equal-substrings/)|[Check if String Is Decomposable Into Value-Equal Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringIsDecomposableIntoValueEqualSubstrings.java)|</p>
+|1933|Easy|[Check if String Is Decomposable Into Value-Equal Substrings](https://leetcode.com/problems/check-if-string-is-decomposable-into-value-equal-substrings/)|[Check if String Is Decomposable Into Value-Equal Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringIsDecomposableIntoValueEqualSubstrings.java)|
+|1935|Easy|[Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/)|[Maximum Number of Words You Can Type.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfWordsYouCanType.java)|</p>
 </details>
 
 <details>
