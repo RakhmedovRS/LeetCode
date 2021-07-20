@@ -1,57 +1,63 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 /**
  * @author RakhmedovRS
  * @created 30-Mar-20
  */
-@LeetCode(id = 384, name = "Shuffle an Array", url = "https://leetcode.com/problems/shuffle-an-array/")
+@LeetCode(
+	id = 384,
+	name = "Shuffle an Array",
+	url = "https://leetcode.com/problems/shuffle-an-array/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ShuffleAnArray
 {
 	class Solution
 	{
+		private int[] array;
 		private int[] original;
-		private int[] shuffled;
-		Random random;
+
+		private Random rand = new Random();
+
+		private List<Integer> getArrayCopy()
+		{
+			List<Integer> asList = new ArrayList<>();
+			for (int i = 0; i < array.length; i++)
+			{
+				asList.add(array[i]);
+			}
+			return asList;
+		}
 
 		public Solution(int[] nums)
 		{
-			original = nums;
-			shuffled = nums;
-			random = new Random();
+			array = nums;
+			original = nums.clone();
 		}
 
-		/**
-		 * Resets the array to its original configuration and return it.
-		 */
 		public int[] reset()
 		{
-			return Arrays.copyOf(original, original.length);
+			array = original;
+			original = original.clone();
+			return array;
 		}
 
-		/**
-		 * Returns a random shuffling of the array.
-		 */
 		public int[] shuffle()
 		{
-			original = shuffled;
-			shuffled = Arrays.copyOf(original, original.length);
-			for (int i = 0; i < shuffled.length; i++)
+			List<Integer> aux = getArrayCopy();
+			for (int i = 0; i < array.length; i++)
 			{
-				swap(shuffled, i, random.nextInt(shuffled.length - 1));
+				array[i] = aux.remove(rand.nextInt(aux.size()));
 			}
-			return shuffled;
-		}
 
-		private void swap(int[] shuffled, int left, int right)
-		{
-			int temp = shuffled[left];
-			shuffled[left] = shuffled[right];
-			shuffled[right] = temp;
+			return array;
 		}
 	}
 }
