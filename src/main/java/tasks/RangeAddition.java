@@ -19,19 +19,12 @@ public class RangeAddition
 	public int[] getModifiedArray(int length, int[][] updates)
 	{
 		int[] array = new int[length];
-		int start;
-		int end;
-		int value;
 		for (int[] update : updates)
 		{
-			start = update[0];
-			end = update[1] + 1;
-			value = update[2];
-
-			array[start] += value;
-			if (end < length)
+			array[update[0]] += update[2];
+			if (update[1] + 1 < length)
 			{
-				array[end] -= value;
+				array[update[1] + 1] -= update[2];
 			}
 		}
 
