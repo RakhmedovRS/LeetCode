@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.LinkedList;
@@ -9,7 +10,12 @@ import java.util.Queue;
  * @author RakhmedovRS
  * @created 04-Sep-20
  */
-@LeetCode(id = 838, name = "Push Dominoes", url = "https://leetcode.com/problems/push-dominoes/")
+@LeetCode(
+	id = 838,
+	name = "Push Dominoes",
+	url = "https://leetcode.com/problems/push-dominoes/",
+	difficulty = Difficulty.MEDIUM
+)
 public class PushDominoes
 {
 	public String pushDominoes(String dominoes)
