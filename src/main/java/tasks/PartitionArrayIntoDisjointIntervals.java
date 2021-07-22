@@ -3,6 +3,8 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
+import java.util.TreeMap;
+
 /**
  * @author RakhmedovRS
  * @created 1/21/2021
@@ -15,24 +17,29 @@ import common.LeetCode;
 )
 public class PartitionArrayIntoDisjointIntervals
 {
-	public int partitionDisjoint(int[] A)
+	public int partitionDisjoint(int[] nums)
 	{
-		int min = Integer.MAX_VALUE;
-		int[] minimums = new int[A.length];
-		for (int i = A.length - 1; i >= 0; i--)
+		TreeMap<Integer, Integer> map = new TreeMap<>();
+		for (int num : nums)
 		{
-			minimums[i] = min;
-			min = Math.min(min, A[i]);
+			map.put(num, map.getOrDefault(num, 0) + 1);
 		}
 
-		int max = Integer.MIN_VALUE;
-		for (int i = 0; i < A.length; i++)
+		Integer max = null;
+		for (int i = 0; i < nums.length; i++)
 		{
-			max = Math.max(max, A[i]);
-			if (max <= minimums[i])
+			if (max != null && max <= map.firstKey())
 			{
-				return i + 1;
+				return i;
 			}
+
+			int count = map.remove(nums[i]);
+			if (--count > 0)
+			{
+				map.put(nums[i], count);
+			}
+
+			max = Math.max(max == null ? 0 : max, nums[i]);
 		}
 
 		return -1;
