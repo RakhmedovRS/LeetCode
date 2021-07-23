@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -7,7 +8,12 @@ import common.TreeNode;
  * @author RakhmedovRS
  * @created 18-Feb-20
  */
-@LeetCode(id = 814, name = "Binary Tree Pruning", url = "https://leetcode.com/problems/binary-tree-pruning/")
+@LeetCode(
+	id = 814,
+	name = "Binary Tree Pruning",
+	url = "https://leetcode.com/problems/binary-tree-pruning/",
+	difficulty = Difficulty.MEDIUM
+)
 public class BinaryTreePruning
 {
 	public boolean needDeleteNode(TreeNode root)
