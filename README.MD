@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1373
+Count of solved tasks: 1374
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1183,7 +1183,8 @@ Count of solved tasks: 1373
 |1930|Medium|[Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/)|[Unique Length-3 Palindromic Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniqueLength3PalindromicSubsequences.java)|
 |1933|Easy|[Check if String Is Decomposable Into Value-Equal Substrings](https://leetcode.com/problems/check-if-string-is-decomposable-into-value-equal-substrings/)|[Check if String Is Decomposable Into Value-Equal Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringIsDecomposableIntoValueEqualSubstrings.java)|
 |1935|Easy|[Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/)|[Maximum Number of Words You Can Type.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfWordsYouCanType.java)|
-|1936|Medium|[Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/)|[Add Minimum Number of Rungs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddMinimumNumberOfRungs.java)|</p>
+|1936|Medium|[Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/)|[Add Minimum Number of Rungs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddMinimumNumberOfRungs.java)|
+|1941|Easy|[Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/)|[Check if All Characters Have Equal Number of Occurrences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllCharactersHaveEqualNumberOfOccurrences.java)|</p>
 </details>
 
 <details>
@@ -1301,7 +1302,8 @@ Count of solved tasks: 1373
 |1925|Easy|[Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/)|[Count Square Sum Triples.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSquareSumTriples.java)|
 |1929|Easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[Concatenation of Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenationOfArray.java)|
 |1933|Easy|[Check if String Is Decomposable Into Value-Equal Substrings](https://leetcode.com/problems/check-if-string-is-decomposable-into-value-equal-substrings/)|[Check if String Is Decomposable Into Value-Equal Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringIsDecomposableIntoValueEqualSubstrings.java)|
-|1935|Easy|[Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/)|[Maximum Number of Words You Can Type.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfWordsYouCanType.java)|</p>
+|1935|Easy|[Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/)|[Maximum Number of Words You Can Type.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfWordsYouCanType.java)|
+|1941|Easy|[Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/)|[Check if All Characters Have Equal Number of Occurrences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllCharactersHaveEqualNumberOfOccurrences.java)|</p>
 </details>
 
 <details>
