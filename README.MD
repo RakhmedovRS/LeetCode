@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1375
+Count of solved tasks: 1376
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1185,7 +1185,8 @@ Count of solved tasks: 1375
 |1935|Easy|[Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/)|[Maximum Number of Words You Can Type.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfWordsYouCanType.java)|
 |1936|Medium|[Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/)|[Add Minimum Number of Rungs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddMinimumNumberOfRungs.java)|
 |1941|Easy|[Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/)|[Check if All Characters Have Equal Number of Occurrences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllCharactersHaveEqualNumberOfOccurrences.java)|
-|1942|Medium|[The Number of the Smallest Unoccupied Chair](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/)|[The Number of the Smallest Unoccupied Chair.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfTheSmallestUnoccupiedChair.java)|</p>
+|1942|Medium|[The Number of the Smallest Unoccupied Chair](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/)|[The Number of the Smallest Unoccupied Chair.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfTheSmallestUnoccupiedChair.java)|
+|1943|Medium|[Describe the Painting](https://leetcode.com/problems/describe-the-painting/)|[Describe the Painting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DescribeThePainting.java)|</p>
 </details>
 
 <details>
@@ -1604,7 +1605,8 @@ Count of solved tasks: 1375
 |1926|Medium|[Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)|[Nearest Exit from Entrance in Maze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NearestExitFromEntranceInMaze.java)|
 |1930|Medium|[Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/)|[Unique Length-3 Palindromic Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniqueLength3PalindromicSubsequences.java)|
 |1936|Medium|[Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/)|[Add Minimum Number of Rungs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddMinimumNumberOfRungs.java)|
-|1942|Medium|[The Number of the Smallest Unoccupied Chair](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/)|[The Number of the Smallest Unoccupied Chair.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfTheSmallestUnoccupiedChair.java)|</p>
+|1942|Medium|[The Number of the Smallest Unoccupied Chair](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/)|[The Number of the Smallest Unoccupied Chair.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfTheSmallestUnoccupiedChair.java)|
+|1943|Medium|[Describe the Painting](https://leetcode.com/problems/describe-the-painting/)|[Describe the Painting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DescribeThePainting.java)|</p>
 </details>
 
 <details>
