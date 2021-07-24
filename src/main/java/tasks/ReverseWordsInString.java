@@ -1,45 +1,37 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author RakhmedovRS
  * @created 04-Apr-20
  */
-@LeetCode(id = 151, name = "Reverse Words in a String", url = "https://leetcode.com/problems/reverse-words-in-a-string/")
+@LeetCode(
+	id = 151,
+	name = "Reverse Words in a String",
+	url = "https://leetcode.com/problems/reverse-words-in-a-string/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ReverseWordsInString
 {
 	public String reverseWords(String s)
 	{
-		if (s == null || s.length() == 0)
+		String[] words = s.split(" ");
+		StringBuilder result = new StringBuilder(words.length);
+		for (int i = words.length - 1; i >= 0; i--)
 		{
-			return s;
-		}
-
-		List<String> words = new ArrayList<>();
-		for (String word : s.split(" "))
-		{
-			if (!word.isEmpty())
+			if (words[i].length() != 0)
 			{
-				words.add(word);
+				result.append(words[i]).append(" ");
 			}
 		}
 
-		int left = 0;
-		int right = words.size() - 1;
-		while (left < right)
+		if (result.length() > 0)
 		{
-			String temp = words.get(left);
-			words.set(left, words.get(right));
-			words.set(right, temp);
-			left++;
-			right--;
+			result.deleteCharAt(result.length() - 1);
 		}
-
-		return String.join(" ", words);
+		return result.toString();
 	}
 
 	public static void main(String[] args)
