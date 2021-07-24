@@ -23,14 +23,14 @@ public class ReverseWordsInString
 		{
 			if (words[i].length() != 0)
 			{
-				result.append(words[i]).append(" ");
+				if (result.length() != 0)
+				{
+					result.append(" ");
+				}
+				result.append(words[i]);
 			}
 		}
 
-		if (result.length() > 0)
-		{
-			result.deleteCharAt(result.length() - 1);
-		}
 		return result.toString();
 	}
 
