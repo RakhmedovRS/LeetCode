@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1378
+Count of solved tasks: 1379
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1188,7 +1188,8 @@ Count of solved tasks: 1378
 |1942|Medium|[The Number of the Smallest Unoccupied Chair](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/)|[The Number of the Smallest Unoccupied Chair.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfTheSmallestUnoccupiedChair.java)|
 |1943|Medium|[Describe the Painting](https://leetcode.com/problems/describe-the-painting/)|[Describe the Painting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DescribeThePainting.java)|
 |1945|Easy|[Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/)|[Sum of Digits of String After Convert.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitsOfStringAfterConvert.java)|
-|1946|Medium|[Largest Number After Mutating Substring](https://leetcode.com/problems/largest-number-after-mutating-substring/)|[Largest Number After Mutating Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestNumberAfterMutatingSubstring.java)|</p>
+|1946|Medium|[Largest Number After Mutating Substring](https://leetcode.com/problems/largest-number-after-mutating-substring/)|[Largest Number After Mutating Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestNumberAfterMutatingSubstring.java)|
+|1947|Medium|[Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/)|[Maximum Compatibility Score Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumCompatibilityScoreSum.java)|</p>
 </details>
 
 <details>
@@ -1611,7 +1612,8 @@ Count of solved tasks: 1378
 |1936|Medium|[Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/)|[Add Minimum Number of Rungs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddMinimumNumberOfRungs.java)|
 |1942|Medium|[The Number of the Smallest Unoccupied Chair](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/)|[The Number of the Smallest Unoccupied Chair.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfTheSmallestUnoccupiedChair.java)|
 |1943|Medium|[Describe the Painting](https://leetcode.com/problems/describe-the-painting/)|[Describe the Painting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DescribeThePainting.java)|
-|1946|Medium|[Largest Number After Mutating Substring](https://leetcode.com/problems/largest-number-after-mutating-substring/)|[Largest Number After Mutating Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestNumberAfterMutatingSubstring.java)|</p>
+|1946|Medium|[Largest Number After Mutating Substring](https://leetcode.com/problems/largest-number-after-mutating-substring/)|[Largest Number After Mutating Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestNumberAfterMutatingSubstring.java)|
+|1947|Medium|[Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/)|[Maximum Compatibility Score Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumCompatibilityScoreSum.java)|</p>
 </details>
 
 <details>
