@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1376
+Count of solved tasks: 1377
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1186,7 +1186,8 @@ Count of solved tasks: 1376
 |1936|Medium|[Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/)|[Add Minimum Number of Rungs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddMinimumNumberOfRungs.java)|
 |1941|Easy|[Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/)|[Check if All Characters Have Equal Number of Occurrences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllCharactersHaveEqualNumberOfOccurrences.java)|
 |1942|Medium|[The Number of the Smallest Unoccupied Chair](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/)|[The Number of the Smallest Unoccupied Chair.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfTheSmallestUnoccupiedChair.java)|
-|1943|Medium|[Describe the Painting](https://leetcode.com/problems/describe-the-painting/)|[Describe the Painting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DescribeThePainting.java)|</p>
+|1943|Medium|[Describe the Painting](https://leetcode.com/problems/describe-the-painting/)|[Describe the Painting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DescribeThePainting.java)|
+|1945|Easy|[Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/)|[Sum of Digits of String After Convert.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitsOfStringAfterConvert.java)|</p>
 </details>
 
 <details>
@@ -1305,7 +1306,8 @@ Count of solved tasks: 1376
 |1929|Easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[Concatenation of Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenationOfArray.java)|
 |1933|Easy|[Check if String Is Decomposable Into Value-Equal Substrings](https://leetcode.com/problems/check-if-string-is-decomposable-into-value-equal-substrings/)|[Check if String Is Decomposable Into Value-Equal Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringIsDecomposableIntoValueEqualSubstrings.java)|
 |1935|Easy|[Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/)|[Maximum Number of Words You Can Type.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfWordsYouCanType.java)|
-|1941|Easy|[Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/)|[Check if All Characters Have Equal Number of Occurrences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllCharactersHaveEqualNumberOfOccurrences.java)|</p>
+|1941|Easy|[Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/)|[Check if All Characters Have Equal Number of Occurrences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllCharactersHaveEqualNumberOfOccurrences.java)|
+|1945|Easy|[Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/)|[Sum of Digits of String After Convert.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitsOfStringAfterConvert.java)|</p>
 </details>
 
 <details>
