@@ -21,7 +21,7 @@ Count of solved tasks: 1379
 |13|Easy|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Roman to Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RomanToInteger.java)|
 |14|Undefined|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Longest Common Prefix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestCommonPrefix.java)|
 |15|Undefined|[3Sum](https://leetcode.com/problems/3sum/)|[3Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThreeSum.java)|
-|16|Undefined|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[3Sum Closest.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThreeSumClosest.java)|
+|16|Medium|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[3Sum Closest.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThreeSumClosest.java)|
 |17|Medium|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Letter Combinations of a Phone Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LetterCombinationsOfPhoneNumber.java)|
 |18|Medium|[4Sum](https://leetcode.com/problems/4sum/)|[4Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FourSum.java)|
 |19|Medium|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove Nth Node From End of List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveNthNodeFromEndOfList.java)|
@@ -1324,6 +1324,7 @@ Count of solved tasks: 1379
 |5|Medium|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest Palindromic Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestPalindromicSubstring.java)|
 |11|Medium|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Container With Most Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ContainerWithMostWater.java)|
 |12|Medium|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Integer to Roman.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IntegerToRoman.java)|
+|16|Medium|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[3Sum Closest.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThreeSumClosest.java)|
 |17|Medium|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Letter Combinations of a Phone Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LetterCombinationsOfPhoneNumber.java)|
 |18|Medium|[4Sum](https://leetcode.com/problems/4sum/)|[4Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FourSum.java)|
 |19|Medium|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove Nth Node From End of List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveNthNodeFromEndOfList.java)|
