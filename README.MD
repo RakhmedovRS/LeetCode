@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1379
+Count of solved tasks: 1380
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -625,6 +625,7 @@ Count of solved tasks: 1379
 |929|Undefined|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|[Unique Email Addresses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniqueEmailAddresses.java)|
 |930|Undefined|[Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)|[Binary Subarrays With Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinarySubarraysWithSum.java)|
 |931|Undefined|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|[Minimum Falling Path Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumFallingPathSum.java)|
+|932|Medium|[Beautiful Array](https://leetcode.com/problems/beautiful-array/)|[Beautiful Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BeautifulArray.java)|
 |933|Undefined|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[Number of Recent Calls.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfRecentCalls.java)|
 |934|Undefined|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)|[Shortest Bridge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestBridge.java)|
 |935|Undefined|[Knight Dialer](https://leetcode.com/problems/knight-dialer/)|[Knight Dialer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KnightDialer.java)|
@@ -1463,6 +1464,7 @@ Count of solved tasks: 1379
 |919|Medium|[Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/)|[Complete Binary Tree Inserter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CompleteBinaryTreeInserter.java)|
 |921|Medium|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)|[Minimum Add to Make Parentheses Valid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAddToMakeParenthesesValid.java)|
 |923|Medium|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|[3Sum With Multiplicity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThreeSumWithMultiplicity.java)|
+|932|Medium|[Beautiful Array](https://leetcode.com/problems/beautiful-array/)|[Beautiful Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BeautifulArray.java)|
 |946|Medium|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[Validate Stack Sequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidateStackSequences.java)|
 |970|Medium|[Powerful Integers](https://leetcode.com/problems/powerful-integers/)|[Powerful Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PowerfulIntegers.java)|
 |971|Medium|[Flip Binary Tree To Match Preorder Traversal](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/)|[Flip Binary Tree To Match Preorder Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FlipBinaryTreeToMatchPreorderTraversal.java)|
