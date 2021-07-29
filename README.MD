@@ -394,7 +394,7 @@ Count of solved tasks: 1380
 |539|Medium|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|[Minimum Time Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeDifference.java)|
 |540|Undefined|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Single Element in a Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SingleElementInSortedArray.java)|
 |541|Undefined|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Reverse String II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseStringII.java)|
-|542|Undefined|[01 Matrix](https://leetcode.com/problems/01-matrix/)|[01 Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ZeroOneMatrix.java)|
+|542|Medium|[01 Matrix](https://leetcode.com/problems/01-matrix/)|[01 Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ZeroOneMatrix.java)|
 |543|Undefined|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Diameter of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DiameterOfBinaryTree.java)|
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[Remove Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveBoxes.java)|
 |547|Undefined|[Friend Circles](https://leetcode.com/problems/friend-circles/)|[Friend Circles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FriendCircles.java)|
@@ -1406,6 +1406,7 @@ Count of solved tasks: 1380
 |535|Medium|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|[Encode and Decode TinyURL.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EncodeAndDecodeTinyURL.java)|
 |538|Medium|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Convert BST to Greater Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertBSTToGreaterTree.java)|
 |539|Medium|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|[Minimum Time Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeDifference.java)|
+|542|Medium|[01 Matrix](https://leetcode.com/problems/01-matrix/)|[01 Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ZeroOneMatrix.java)|
 |554|Medium|[Brick Wall](https://leetcode.com/problems/brick-wall/)|[Brick Wall.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BrickWall.java)|
 |576|Medium|[Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)|[Out of Boundary Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OutOfBoundaryPaths.java)|
 |581|Medium|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Shortest Unsorted Continuous Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestUnsortedContinuousSubarray.java)|
