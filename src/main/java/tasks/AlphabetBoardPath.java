@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
@@ -9,7 +10,9 @@ import common.LeetCode;
 @LeetCode(
 	id = 1138,
 	name = "Alphabet Board Path",
-	url = "https://leetcode.com/problems/alphabet-board-path/")
+	url = "https://leetcode.com/problems/alphabet-board-path/",
+	difficulty = Difficulty.MEDIUM
+)
 public class AlphabetBoardPath
 {
 	public String alphabetBoardPath(String target)
