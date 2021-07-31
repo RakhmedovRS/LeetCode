@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 02-May-20
  */
-@LeetCode(id = 42, name = "Trapping Rain Water", url = "https://leetcode.com/problems/trapping-rain-water/")
+@LeetCode(
+	id = 42,
+	name = "Trapping Rain Water",
+	url = "https://leetcode.com/problems/trapping-rain-water/",
+	difficulty = Difficulty.HARD
+)
 public class TrappingRainWater
 {
 	public int trap(int[] height)
