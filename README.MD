@@ -7,7 +7,7 @@ Count of solved tasks: 1381
 
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
-|1|Undefined|[Two Sum](https://leetcode.com/problems/two-sum/)|[Two Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoSum.java)|
+|1|Easy|[Two Sum](https://leetcode.com/problems/two-sum/)|[Two Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoSum.java)|
 |2|Medium|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Add Two Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddTwoNumbers.java)|
 |3|Medium|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest Substring Without Repeating Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubstringWithoutRepeatingCharacters.java)|
 |4|Undefined|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Median of Two Sorted Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MedianOfTwoSortedArrays.java)|
@@ -1200,6 +1200,7 @@ Count of solved tasks: 1381
 
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
+|1|Easy|[Two Sum](https://leetcode.com/problems/two-sum/)|[Two Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoSum.java)|
 |9|Easy|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Palindrome Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromeNumber.java)|
 |13|Easy|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Roman to Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RomanToInteger.java)|
 |20|Easy|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidParentheses.java)|
