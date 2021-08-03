@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -8,59 +9,35 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 22-Apr-20
  */
-@LeetCode(id = 90, name = "Subsets II", url = "https://leetcode.com/problems/subsets-ii/")
+@LeetCode(
+	id = 90,
+	name = "Subsets II",
+	url = "https://leetcode.com/problems/subsets-ii/",
+	difficulty = Difficulty.MEDIUM
+)
 public class SubsetsII
 {
 	public List<List<Integer>> subsetsWithDup(int[] nums)
 	{
 		Arrays.sort(nums);
-		List<List<Integer>> result = new ArrayList<>();
-		result.add(new ArrayList<>());
-		req(result, 0, new ArrayList<>(), nums);
-
-		return result;
-	}
-
-	private void req(List<List<Integer>> result, int startPos, List<Integer> temp, int[] nums)
-	{
-		for (int i = startPos; i < nums.length; i++)
-		{
-			if (i > startPos && nums[i] == nums[i-1])
-			{
-				continue;
-			}
-			temp.add(nums[i]);
-			result.add(new ArrayList<>(temp));
-			req(result, i + 1, temp, nums);
-			temp.remove(temp.size() - 1);
-		}
-	}
-
-	public List<List<Integer>> subsetsWithDup1(int[] nums)
-	{
-		Arrays.sort(nums);
-		List<List<Integer>> result = new ArrayList<>();
-		List<StringBuilder> builderList = new ArrayList<>();
-		result.add(new ArrayList<>());
-		builderList.add(new StringBuilder());
-		Set<String> cache = new HashSet<>();
+		Set<List<Integer>> set = new HashSet<>();
+		List<List<Integer>> answer = new ArrayList<>();
+		answer.add(new ArrayList<>());
 		for (int num : nums)
 		{
-			int size = result.size();
+			int size = answer.size();
 			for (int i = 0; i < size; i++)
 			{
-				StringBuilder sb = new StringBuilder(builderList.get(i));
-				List<Integer> newList = new ArrayList<>(result.get(i));
-				sb.append(num);
-				newList.add(num);
-				if (cache.add(sb.toString()))
+				List<Integer> list = new ArrayList<>(answer.get(i));
+				list.add(num);
+
+				if (set.add(list))
 				{
-					builderList.add(sb);
-					result.add(newList);
+					answer.add(list);
 				}
 			}
 		}
 
-		return result;
+		return answer;
 	}
 }
