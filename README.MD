@@ -587,7 +587,7 @@ Count of solved tasks: 1382
 |874|Undefined|[Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/)|[Walking Robot Simulation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WalkingRobotSimulation.java)|
 |875|Medium|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|[Koko Eating Bananas.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KokoEatingBananas.java)|
 |876|Undefined|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle of the Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MiddleOfTheLinkedList.java)|
-|877|Undefined|[Stone Game](https://leetcode.com/problems/stone-game/)|[Stone Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StoneGame.java)|
+|877|Medium|[Stone Game](https://leetcode.com/problems/stone-game/)|[Stone Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StoneGame.java)|
 |880|Medium|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/)|[Decoded String at Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodedStringAtIndex.java)|
 |881|Medium|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[Boats to Save People.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BoatsToSavePeople.java)|
 |883|Undefined|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|[Projection Area of 3D Shapes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ProjectionAreaOf3DShapes.java)|
@@ -1461,6 +1461,7 @@ Count of solved tasks: 1382
 |869|Medium|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[Reordered Power of 2.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReorderedPowerOf2.java)|
 |870|Medium|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/)|[Advantage Shuffle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AdvantageShuffle.java)|
 |875|Medium|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|[Koko Eating Bananas.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KokoEatingBananas.java)|
+|877|Medium|[Stone Game](https://leetcode.com/problems/stone-game/)|[Stone Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StoneGame.java)|
 |880|Medium|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/)|[Decoded String at Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodedStringAtIndex.java)|
 |881|Medium|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[Boats to Save People.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BoatsToSavePeople.java)|
 |890|Medium|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)|[Find and Replace Pattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAndReplacePattern.java)|

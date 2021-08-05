@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 23-Jul-20
  */
-@LeetCode(id = 877, name = "Stone Game", url = "https://leetcode.com/problems/stone-game/")
+@LeetCode(
+	id = 877,
+	name = "Stone Game",
+	url = "https://leetcode.com/problems/stone-game/",
+	difficulty = Difficulty.MEDIUM
+)
 public class StoneGame
 {
 	public boolean stoneGame(int[] piles)
