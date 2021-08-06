@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -11,7 +12,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 09-Mar-20
  */
-@LeetCode(id = 429, name = " N-ary Tree Level Order Traversal", url = "https://leetcode.com/problems/n-ary-tree-level-order-traversal/")
+@LeetCode(
+	id = 429,
+	name = "N-ary Tree Level Order Traversal",
+	url = "https://leetcode.com/problems/n-ary-tree-level-order-traversal/",
+	difficulty = Difficulty.MEDIUM
+)
 public class NaryTreeLevelOrderTraversal
 {
 	static class Node
