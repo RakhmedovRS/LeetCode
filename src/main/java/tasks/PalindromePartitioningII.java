@@ -13,48 +13,54 @@ import java.util.*;
 	id = 132,
 	name = "Palindrome Partitioning II",
 	url = "https://leetcode.com/problems/palindrome-partitioning-ii/",
-	difficulty = Difficulty.MEDIUM
+	difficulty = Difficulty.HARD
 )
 public class PalindromePartitioningII
 {
-	public List<List<String>> partition(String s)
+	public int minCut(String s)
 	{
-		List<List<String>> answer = new ArrayList<>();
-		dfs(0, s, new LinkedList<>(), answer);
-		return answer;
+		return dfs(s, new HashMap<>(), new HashMap<>());
 	}
 
-	private void dfs(int pos, String s, LinkedList<String> list, List<List<String>> answer)
+	private int dfs(String s, Map<String, Integer> map, Map<String, Boolean> palindromes)
 	{
-		if (pos == s.length())
+		if (map.containsKey(s))
 		{
-			answer.add(new ArrayList<>(list));
-			return;
+			return map.get(s);
 		}
 
-		String sub;
-		for (int i = pos + 1; i <= s.length(); i++)
+		if (s.length() <= 1 || palindromes.containsKey(s) && palindromes.get(s) || isPalindrome(s))
 		{
-			sub = s.substring(pos, i);
+			return 0;
+		}
+
+		int res = s.length();
+		for (int i = 1; i < s.length(); i++)
+		{
+			String sub = s.substring(0, i);
 			if (isPalindrome(sub))
 			{
-				list.addLast(sub);
-				dfs(i, s, list, answer);
-				list.removeLast();
+				res = Math.min(res, dfs(s.substring(i), map, palindromes) + 1);
+				palindromes.put(sub, true);
 			}
 		}
+		map.put(s, res);
+		return res;
 	}
 
 	private boolean isPalindrome(String string)
 	{
-		int left = 0;
-		int right = string.length() - 1;
-		while (left <= right)
+		int start = 0;
+		int end = string.length() - 1;
+
+		while (start < end)
 		{
-			if (string.charAt(left++) != string.charAt(right--))
+			if (string.charAt(start) != string.charAt(end))
 			{
 				return false;
 			}
+			start++;
+			end--;
 		}
 
 		return true;
