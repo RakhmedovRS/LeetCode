@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1382
+Count of solved tasks: 1383
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1192,7 +1192,8 @@ Count of solved tasks: 1382
 |1945|Easy|[Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/)|[Sum of Digits of String After Convert.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitsOfStringAfterConvert.java)|
 |1946|Medium|[Largest Number After Mutating Substring](https://leetcode.com/problems/largest-number-after-mutating-substring/)|[Largest Number After Mutating Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestNumberAfterMutatingSubstring.java)|
 |1947|Medium|[Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/)|[Maximum Compatibility Score Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumCompatibilityScoreSum.java)|
-|1952|Easy|[Three Divisors](https://leetcode.com/problems/three-divisors/)|[Three Divisors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThreeDivisors.java)|</p>
+|1952|Easy|[Three Divisors](https://leetcode.com/problems/three-divisors/)|[Three Divisors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThreeDivisors.java)|
+|1957|Easy|[Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string/)|[Delete Characters to Make Fancy String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteCharactersToMakeFancyString.java)|</p>
 </details>
 
 <details>
@@ -1315,7 +1316,8 @@ Count of solved tasks: 1382
 |1935|Easy|[Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/)|[Maximum Number of Words You Can Type.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfWordsYouCanType.java)|
 |1941|Easy|[Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/)|[Check if All Characters Have Equal Number of Occurrences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllCharactersHaveEqualNumberOfOccurrences.java)|
 |1945|Easy|[Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/)|[Sum of Digits of String After Convert.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitsOfStringAfterConvert.java)|
-|1952|Easy|[Three Divisors](https://leetcode.com/problems/three-divisors/)|[Three Divisors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThreeDivisors.java)|</p>
+|1952|Easy|[Three Divisors](https://leetcode.com/problems/three-divisors/)|[Three Divisors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThreeDivisors.java)|
+|1957|Easy|[Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string/)|[Delete Characters to Make Fancy String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteCharactersToMakeFancyString.java)|</p>
 </details>
 
 <details>
