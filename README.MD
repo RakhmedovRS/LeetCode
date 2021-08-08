@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1387
+Count of solved tasks: 1388
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1026,6 +1026,7 @@ Count of solved tasks: 1387
 |1629|Undefined|[Slowest Key](https://leetcode.com/problems/slowest-key/)|[Slowest Key.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SlowestKey.java)|
 |1630|Undefined|[Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)|[Arithmetic Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArithmeticSubarrays.java)|
 |1631|Medium|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|[Path With Minimum Effort.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PathWithMinimumEffort.java)|
+|1632|Hard|[Rank Transform of a Matrix](https://leetcode.com/problems/rank-transform-of-a-matrix/)|[Rank Transform of a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RankTransformOfMatrix.java)|
 |1636|Undefined|[Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)|[Sort Array by Increasing Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortArrayByIncreasingFrequency.java)|
 |1637|Undefined|[Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/)|[Widest Vertical Area Between Two Points Containing No Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WidestVerticaAreaBetweenTwoPointsContainingNoPoints.java)|
 |1638|Undefined|[Count Substrings That Differ by One Character](https://leetcode.com/problems/count-substrings-that-differ-by-one-character/)|[Count Substrings That Differ by One Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsThatDifferByOneCharacter.java)|
@@ -1702,6 +1703,7 @@ Count of solved tasks: 1387
 |1439|Hard|[Find the Kth Smallest Sum of a Matrix With Sorted Rows](https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)|[Find the Kth Smallest Sum of a Matrix With Sorted Rows.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKthSmallestSumOfMatrixWithSortedRows.java)|
 |1463|Hard|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|[Cherry Pickup II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CherryPickupII.java)|
 |1579|Hard|[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|[Remove Max Number of Edges to Keep Graph Fully Traversable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable.java)|
+|1632|Hard|[Rank Transform of a Matrix](https://leetcode.com/problems/rank-transform-of-a-matrix/)|[Rank Transform of a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RankTransformOfMatrix.java)|
 |1649|Hard|[Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)|[Create Sorted Array through Instructions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CreateSortedArrayThroughInstructions.java)|
 |1665|Hard|[Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/)|[Minimum Initial Energy to Finish Tasks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumInitialEnergyToFinishTasks.java)|
 |1675|Hard|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|[Minimize Deviation in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeDeviationInArray.java)|
