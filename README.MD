@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1383
+Count of solved tasks: 1384
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1193,7 +1193,8 @@ Count of solved tasks: 1383
 |1946|Medium|[Largest Number After Mutating Substring](https://leetcode.com/problems/largest-number-after-mutating-substring/)|[Largest Number After Mutating Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestNumberAfterMutatingSubstring.java)|
 |1947|Medium|[Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/)|[Maximum Compatibility Score Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumCompatibilityScoreSum.java)|
 |1952|Easy|[Three Divisors](https://leetcode.com/problems/three-divisors/)|[Three Divisors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThreeDivisors.java)|
-|1957|Easy|[Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string/)|[Delete Characters to Make Fancy String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteCharactersToMakeFancyString.java)|</p>
+|1957|Easy|[Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string/)|[Delete Characters to Make Fancy String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteCharactersToMakeFancyString.java)|
+|1958|Medium|[Check if Move is Legal](https://leetcode.com/problems/check-if-move-is-legal/)|[Check if Move is Legal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfMoveIsLegal.java)|</p>
 </details>
 
 <details>
@@ -1628,7 +1629,8 @@ Count of solved tasks: 1383
 |1942|Medium|[The Number of the Smallest Unoccupied Chair](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/)|[The Number of the Smallest Unoccupied Chair.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfTheSmallestUnoccupiedChair.java)|
 |1943|Medium|[Describe the Painting](https://leetcode.com/problems/describe-the-painting/)|[Describe the Painting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DescribeThePainting.java)|
 |1946|Medium|[Largest Number After Mutating Substring](https://leetcode.com/problems/largest-number-after-mutating-substring/)|[Largest Number After Mutating Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestNumberAfterMutatingSubstring.java)|
-|1947|Medium|[Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/)|[Maximum Compatibility Score Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumCompatibilityScoreSum.java)|</p>
+|1947|Medium|[Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/)|[Maximum Compatibility Score Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumCompatibilityScoreSum.java)|
+|1958|Medium|[Check if Move is Legal](https://leetcode.com/problems/check-if-move-is-legal/)|[Check if Move is Legal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfMoveIsLegal.java)|</p>
 </details>
 
 <details>
