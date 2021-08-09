@@ -304,7 +304,7 @@ Count of solved tasks: 1388
 |412|Undefined|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Fizz Buzz.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FizzBuzz.java)|
 |413|Medium|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[Arithmetic Slices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArithmeticSlices.java)|
 |414|Undefined|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Third Maximum Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThirdMaximumNumber.java)|
-|415|Undefined|[Add Strings](https://leetcode.com/problems/add-strings/)|[Add Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddStrings.java)|
+|415|Easy|[Add Strings](https://leetcode.com/problems/add-strings/)|[Add Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddStrings.java)|
 |416|Medium|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[Partition Equal Subset Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionEqualSubsetSum.java)|
 |417|Medium|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[Pacific Atlantic Water Flow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PacificAtlanticWaterFlow.java)|
 |419|Undefined|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[Battleships in a Board.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BattleshipsInBoard.java)|
@@ -1231,6 +1231,7 @@ Count of solved tasks: 1388
 |242|Easy|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Valid Anagram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidAnagram.java)|
 |268|Easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MissingNumber.java)|
 |326|Easy|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Power of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PowerOfThree.java)|
+|415|Easy|[Add Strings](https://leetcode.com/problems/add-strings/)|[Add Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddStrings.java)|
 |496|Easy|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Next Greater Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NextGreaterElementI.java)|
 |509|Easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FibonacciNumber.java)|
 |566|Easy|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Reshape the Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReshapeTheMatrix.java)|

@@ -1,67 +1,56 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 12-Apr-20
  */
-@LeetCode(id = 415, name = "Add Strings", url = "https://leetcode.com/problems/add-strings/")
+@LeetCode(
+	id = 415,
+	name = "Add Strings",
+	url = "https://leetcode.com/problems/add-strings/",
+	difficulty = Difficulty.EASY
+)
 public class AddStrings
 {
 	public String addStrings(String num1, String num2)
 	{
-		if (num1 == null && num2 == null)
+		StringBuilder sb = new StringBuilder();
+		int posA = num1.length() - 1;
+		int posB = num2.length() - 1;
+		boolean reminder = false;
+		while (posA < num1.length() || posB < num2.length() || reminder)
 		{
-			return null;
-		}
-		else if (num1 == null)
-		{
-			return num2;
-		}
-		else if (num2 == null)
-		{
-			return num1;
-		}
-
-		int n1 = num1.length() - 1;
-		int n2 = num2.length() - 1;
-		boolean add = false;
-		StringBuilder result = new StringBuilder(Math.max(num1.length(), num2.length()) + 1);
-		int curr;
-		while (n1 >= 0 || n2 >= 0 || add)
-		{
-			curr = 0;
-			if (n1 >= 0)
+			int num = 0;
+			if (reminder)
 			{
-				curr += num1.charAt(n1) - '0';
-				n1--;
+				num += 1;
+				reminder = false;
 			}
 
-			if (n2 >= 0)
+			if (posA >= 0)
 			{
-				curr += num2.charAt(n2) - '0';
-				n2--;
+				num += num1.charAt(posA--) - '0';
 			}
 
-			if (add)
+			if (posB >= 0)
 			{
-				curr += 1;
-				add = false;
+				num += num2.charAt(posB--) - '0';
 			}
 
-			if (curr >= 10)
+
+			if (num >= 10)
 			{
-				add = true;
-				result.append(curr % 10);
+				num %= 10;
+				reminder = true;
 			}
-			else
-			{
-				result.append(curr);
-			}
+
+			sb.append(num);
 		}
 
-		return result.reverse().toString();
+		return sb.toString();
 	}
 
 	public static void main(String[] args)
