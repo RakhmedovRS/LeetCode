@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 25-Aug-20
  */
-@LeetCode(id = 926, name = "Flip String to Monotone Increasing", url = "https://leetcode.com/problems/flip-string-to-monotone-increasing/")
+@LeetCode(
+	id = 926,
+	name = "Flip String to Monotone Increasing",
+	url = "https://leetcode.com/problems/flip-string-to-monotone-increasing/",
+	difficulty = Difficulty.MEDIUM
+)
 public class FlipStringToMonotoneIncreasing
 {
 	public int minFlipsMonoIncr(String S)
