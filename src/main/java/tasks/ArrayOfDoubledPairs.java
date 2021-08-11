@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -10,7 +11,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 22-Jul-20
  */
-@LeetCode(id = 954, name = "Array of Doubled Pairs", url = "https://leetcode.com/problems/array-of-doubled-pairs/")
+@LeetCode(
+	id = 954,
+	name = "Array of Doubled Pairs",
+	url = "https://leetcode.com/problems/array-of-doubled-pairs/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ArrayOfDoubledPairs
 {
 	public boolean canReorderDoubled(int[] A)
