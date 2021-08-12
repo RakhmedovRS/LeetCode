@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -8,35 +9,44 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 06-Apr-20
  */
-@LeetCode(id = 49, name = "Group Anagrams", url = "https://leetcode.com/problems/group-anagrams/")
+@LeetCode(
+	id = 49,
+	name = "Group Anagrams",
+	url = "https://leetcode.com/problems/group-anagrams/",
+	difficulty = Difficulty.MEDIUM
+)
 public class GroupAnagrams
 {
 	public List<List<String>> groupAnagrams(String[] strs)
 	{
-		List<List<String>> result = new ArrayList<>();
-		if (strs == null || strs.length == 0)
-		{
-			return result;
-		}
-
-		Map<String, List<String>> cache = new HashMap<>();
+		Map<String, List<String>> map = new HashMap<>();
 		for (String str : strs)
 		{
-			if (str == null)
-			{
-				continue;
-			}
-
-			char[] chars = str.toCharArray();
-			Arrays.sort(chars);
-			String value = String.valueOf(chars);
-			List<String> strings = cache.getOrDefault(value, new ArrayList<>());
-			strings.add(str);
-			cache.put(value, strings);
+			String sorted = sort(str);
+			map.putIfAbsent(sorted, new ArrayList<>());
+			map.get(sorted).add(str);
 		}
 
-		result.addAll(cache.values());
+		return new ArrayList<>(map.values());
+	}
 
-		return result;
+	private String sort(String str)
+	{
+		int[] memo = new int[26];
+		for (char ch : str.toCharArray())
+		{
+			memo[ch - 'a']++;
+		}
+
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < memo.length; i++)
+		{
+			while (memo[i]-- != 0)
+			{
+				sb.append((char) (i + 'a'));
+			}
+		}
+
+		return sb.toString();
 	}
 }
