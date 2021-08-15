@@ -78,7 +78,7 @@ Count of solved tasks: 1388
 |73|Medium|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[Set Matrix Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SetMatrixZeroes.java)|
 |74|Undefined|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Search a 2D Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Search2DMatrix.java)|
 |75|Undefined|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[Sort Colors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortColors.java)|
-|76|Undefined|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[Minimum Window Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumWindowSubstring.java)|
+|76|Hard|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[Minimum Window Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumWindowSubstring.java)|
 |78|Undefined|[Subsets](https://leetcode.com/problems/subsets/)|[Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Subsets.java)|
 |79|Undefined|[Word Search](https://leetcode.com/problems/word-search/)|[Word Search.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordSearch.java)|
 |80|Medium|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Remove Duplicates from Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveDuplicatesFromSortedArrayII.java)|
@@ -1660,6 +1660,7 @@ Count of solved tasks: 1388
 |51|Hard|[N-Queens](https://leetcode.com/problems/n-queens/)|[N-Queens.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NQueens.java)|
 |52|Hard|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[N-Queens II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NQueensII.java)|
 |65|Hard|[Valid Number](https://leetcode.com/problems/valid-number/)|[Valid Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidNumber.java)|
+|76|Hard|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[Minimum Window Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumWindowSubstring.java)|
 |84|Hard|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[Largest Rectangle in Histogram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestRectangleInHistogram.java)|
 |124|Hard|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[Binary Tree Maximum Path Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeMaximumPathSum.java)|
 |127|Hard|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Word Ladder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordLadder.java)|

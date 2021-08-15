@@ -1,76 +1,69 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * @author RakhmedovRS
  * @created 10-Mar-20
  */
-@LeetCode(id = 76, name = "Minimum Window Substring", url = "https://leetcode.com/problems/minimum-window-substring/")
+@LeetCode(
+	id = 76,
+	name = "Minimum Window Substring",
+	url = "https://leetcode.com/problems/minimum-window-substring/",
+	difficulty = Difficulty.HARD
+)
 public class MinimumWindowSubstring
 {
-	public String minWindow(String string, String pattern)
+	public String minWindow(String s, String t)
 	{
-		if (string == null || string.length() == 0 || pattern == null || pattern.length() == 0 || string.length() < pattern.length())
-		{
-			return "";
-		}
+		char[] string = s.toCharArray();
 
-		Map<Character, Integer> window = new HashMap<>();
-		for (char ch : pattern.toCharArray())
-		{
-			window.put(ch, window.getOrDefault(ch, 0) - 1);
-		}
+		int[] pMemo = buildTable(t);
+		int[] sMemo = new int['z' - 'A' + 1];
+
+		String minWindow = null;
 		int left = 0;
-		int right = -1;
-		int leftMin = 0;
-		int rightMin = string.length();
-		boolean found = false;
-		while (right < string.length())
+		int right = 0;
+		while (right < s.length())
 		{
-			if (!isMatches(window))
+			sMemo[string[right++] - 'A']++;
+			while (containsPattern(sMemo, pMemo))
 			{
-				right++;
-				if (right < string.length())
+				if (minWindow == null || minWindow.length() > right - left)
 				{
-					char rightChar = string.charAt(right);
-					if (window.containsKey(rightChar))
-					{
-						window.put(rightChar, window.get(rightChar) + 1);
-					}
+					minWindow = s.substring(left, right);
 				}
-			}
-			else
-			{
-				found = true;
-				if (rightMin - leftMin > right - left + 1)
-				{
-					leftMin = left;
-					rightMin = right + 1;
-				}
-				char leftChar = string.charAt(left++);
-				if (window.containsKey(leftChar))
-				{
-					window.put(leftChar, window.get(leftChar) - 1);
-				}
+				sMemo[string[left++] - 'A']--;
 			}
 		}
 
-		return found ? string.substring(leftMin, rightMin) : "";
+
+		return minWindow == null ? "" : minWindow;
 	}
 
-	private boolean isMatches(Map<Character, Integer> window)
+	private int[] buildTable(String word)
 	{
-		for (int val : window.values())
+		int[] table = new int['z' - 'A' + 1];
+		for (char ch : word.toCharArray())
 		{
-			if (val < 0)
+			table[ch - 'A']++;
+		}
+
+		return table;
+	}
+
+	private boolean containsPattern(int[] sMemo, int[] pMemo)
+	{
+		for (int i = 0; i < sMemo.length; i++)
+		{
+			if (pMemo[i] > sMemo[i])
 			{
 				return false;
 			}
 		}
+
 		return true;
 	}
 
