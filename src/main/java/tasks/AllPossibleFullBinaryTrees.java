@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -9,7 +10,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 15-Jun-20
  */
-@LeetCode(id = 894, name = "All Possible Full Binary Trees", url = "https://leetcode.com/problems/all-possible-full-binary-trees/")
+@LeetCode(
+	id = 894,
+	name = "All Possible Full Binary Trees",
+	url = "https://leetcode.com/problems/all-possible-full-binary-trees/",
+	difficulty = Difficulty.MEDIUM
+)
 public class AllPossibleFullBinaryTrees
 {
 	private Map<Integer, List<TreeNode>> cache = new HashMap<>();
