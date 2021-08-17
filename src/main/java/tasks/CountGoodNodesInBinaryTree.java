@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -7,7 +8,12 @@ import common.TreeNode;
  * @author RakhmedovRS
  * @created 13-Jun-20
  */
-@LeetCode(id = 1448, name = "Count Good Nodes in Binary Tree", url = "https://leetcode.com/problems/count-good-nodes-in-binary-tree/")
+@LeetCode(
+	id = 1448,
+	name = "Count Good Nodes in Binary Tree",
+	url = "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+	difficulty = Difficulty.MEDIUM
+)
 public class CountGoodNodesInBinaryTree
 {
 	public int goodNodes(TreeNode root)
