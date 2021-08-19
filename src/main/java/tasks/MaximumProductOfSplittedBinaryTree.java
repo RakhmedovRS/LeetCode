@@ -1,63 +1,62 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author RakhmedovRS
  * @created 06-May-20
  */
-@LeetCode(id = 1339, name = "Maximum Product of Splitted Binary Tree", url = "https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/")
+@LeetCode(
+	id = 1339,
+	name = "Maximum Product of Splitted Binary Tree",
+	url = "https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MaximumProductOfSplittedBinaryTree
 {
 	public int maxProduct(TreeNode root)
 	{
-		HashMap<TreeNode, Integer> nodeToSum = new HashMap<>();
-		long totalSum = calculateTotalSum(root, nodeToSum);
-		long[] maxProduct = new long[]{0};
-		maxProduct(root, totalSum, maxProduct, nodeToSum);
-		return (int) (maxProduct[0] % (1e9 + 7));
+		Map<TreeNode, Long> memo = new HashMap<>();
+		dfs(root, memo);
+		long[] max = new long[]{Long.MIN_VALUE};
+		findMax(root, max, memo, memo.get(root));
+		return (int) (max[0] % 1_000_000_007);
 	}
 
-	private void maxProduct(TreeNode root, long totalSum, long[] maxProduct, HashMap<TreeNode, Integer> nodeToSum)
+	private void findMax(TreeNode node, long[] max, Map<TreeNode, Long> memo, long sum)
 	{
-		if (root == null)
+		if (node == null)
 		{
 			return;
 		}
 
-		long leftSubTreeSum = nodeToSum.getOrDefault(root.left, 0);
-		long rightSubTreeSum = nodeToSum.getOrDefault(root.right, 0);
-		long leftMax = (totalSum - leftSubTreeSum) * leftSubTreeSum;
-		long rightMax = (totalSum - rightSubTreeSum) * rightSubTreeSum;
-
-		if (leftMax > maxProduct[0])
+		if (node.left != null)
 		{
-			maxProduct[0] = leftMax;
+			max[0] = Math.max(max[0], (sum - memo.get(node.left)) * memo.get(node.left));
+			findMax(node.left, max, memo, sum);
 		}
 
-		if (rightMax > maxProduct[0])
+		if (node.right != null)
 		{
-			maxProduct[0] = rightMax;
+			max[0] = Math.max(max[0], (sum - memo.get(node.right)) * memo.get(node.right));
+			findMax(node.right, max, memo, sum);
 		}
-
-		maxProduct(root.left, totalSum, maxProduct, nodeToSum);
-		maxProduct(root.right, totalSum, maxProduct, nodeToSum);
 	}
 
-	private int calculateTotalSum(TreeNode root, HashMap<TreeNode, Integer> nodeToSum)
+	private long dfs(TreeNode node, Map<TreeNode, Long> memo)
 	{
-		if (root == null)
+		if (node == null)
 		{
 			return 0;
 		}
 
-		int subTreeSum = root.val + calculateTotalSum(root.left, nodeToSum) + calculateTotalSum(root.right, nodeToSum);
-
-		nodeToSum.put(root, subTreeSum);
-
-		return subTreeSum;
+		long sum = node.val + dfs(node.left, memo) + dfs(node.right, memo);
+		memo.put(node, sum);
+		return sum;
 	}
 }
