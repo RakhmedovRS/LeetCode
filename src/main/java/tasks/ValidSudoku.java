@@ -1,63 +1,73 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
-
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * @author RakhmedovRS
  * @created 18-Mar-20
  */
-@LeetCode(id = 36, name = "Valid Sudoku", url = "https://leetcode.com/problems/valid-sudoku/")
+@LeetCode(
+	id = 36,
+	name = "Valid Sudoku",
+	url = "https://leetcode.com/problems/valid-sudoku/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ValidSudoku
 {
 	public boolean isValidSudoku(char[][] board)
 	{
-		Set<Integer> set;
-		for (int row = 0; row < board.length; row++)
+		for (char[] row : board)
 		{
-			set = new HashSet<>();
+			boolean[] seen = new boolean[10];
 			for (int column = 0; column < board.length; column++)
 			{
-				char ch = board[row][column];
-				if (ch != '.' && !set.add(ch - '1'))
+				if (row[column] != '.' && seen[row[column] - '0'])
 				{
 					return false;
 				}
 
-				if (row % 3 == 1 && column % 3 == 1 && !isValidArea(board, row, column))
+				if (row[column] != '.')
 				{
-					return false;
-				}
-			}
-		}
-
-		for (int column = 0; column < board.length; column++)
-		{
-			set = new HashSet<>();
-			for (char[] chars : board)
-			{
-				if (chars[column] != '.' && !set.add(chars[column] - '1'))
-				{
-					return false;
+					seen[row[column] - '0'] = true;
 				}
 			}
 		}
 
-		return true;
-	}
-
-	private boolean isValidArea(char[][] board, int row, int column)
-	{
-		Set<Character> set = new HashSet<>();
-		for (int i = row - 1; i <= row + 1; i++)
+		for (int column = 0; column < board[0].length; column++)
 		{
-			for (int j = column - 1; j <= column + 1; j++)
+			boolean[] seen = new boolean[10];
+			for (char[] row : board)
 			{
-				if (board[i][j] != '.' && !set.add(board[i][j]))
+				if (row[column] != '.' && seen[row[column] - '0'])
 				{
 					return false;
+				}
+
+				if (row[column] != '.')
+				{
+					seen[row[column] - '0'] = true;
+				}
+			}
+		}
+
+		int[][] positions = new int[][]{{0, 0}, {0, 3}, {0, 6}, {3, 0}, {3, 3}, {3, 6}, {6, 0}, {6, 3}, {6, 6}};
+		for (int[] position : positions)
+		{
+			boolean[] seen = new boolean[10];
+			for (int row = position[0]; row < position[0] + 3; row++)
+			{
+				for (int column = position[1]; column < position[1] + 3; column++)
+				{
+					if (board[row][column] != '.' && seen[board[row][column] - '0'])
+					{
+						return false;
+					}
+
+					if (board[row][column] != '.')
+					{
+						seen[board[row][column] - '0'] = true;
+					}
 				}
 			}
 		}
