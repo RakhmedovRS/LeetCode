@@ -42,7 +42,7 @@ Count of solved tasks: 1390
 |34|Medium|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Find First and Last Position of Element in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindFirstAndLastPositionOfElementInSortedArray.java)|
 |35|Undefined|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Search Insert Position.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SearchInsertPosition.java)|
 |36|Medium|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Valid Sudoku.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidSudoku.java)|
-|37|Undefined|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|[Sudoku Solver.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SudokuSolver.java)|
+|37|Hard|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|[Sudoku Solver.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SudokuSolver.java)|
 |38|Undefined|[Count and Say](https://leetcode.com/problems/count-and-say/)|[Count and Say.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountAndSay.java)|
 |39|Undefined|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Combination Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CombinationSum.java)|
 |41|Hard|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[First Missing Positive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstMissingPositive.java)|
@@ -1663,6 +1663,7 @@ Count of solved tasks: 1390
 |23|Hard|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[Merge k Sorted Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeKSortedLists.java)|
 |25|Hard|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[Reverse Nodes in k-Group.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseNodesInKGroup.java)|
 |32|Hard|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Longest Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestValidParentheses.java)|
+|37|Hard|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|[Sudoku Solver.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SudokuSolver.java)|
 |41|Hard|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[First Missing Positive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstMissingPositive.java)|
 |42|Hard|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Trapping Rain Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TrappingRainWater.java)|
 |51|Hard|[N-Queens](https://leetcode.com/problems/n-queens/)|[N-Queens.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NQueens.java)|

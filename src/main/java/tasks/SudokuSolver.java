@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -10,7 +11,12 @@ import java.util.Set;
  * @author RakhmedovRS
  * @created 14-Jul-20
  */
-@LeetCode(id = 37, name = "Sudoku Solver", url = "https://leetcode.com/problems/sudoku-solver/")
+@LeetCode(
+	id = 37,
+	name = "Sudoku Solver",
+	url = "https://leetcode.com/problems/sudoku-solver/",
+	difficulty = Difficulty.HARD
+)
 public class SudokuSolver
 {
 	public void solveSudoku(char[][] board)
