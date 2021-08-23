@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1391
+Count of solved tasks: 1392
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1201,7 +1201,8 @@ Count of solved tasks: 1391
 |1963|Medium|[Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/)|[Minimum Number of Swaps to Make the String Balanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfSwapsToMakeTheStringBalanced.java)|
 |1967|Easy|[Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/)|[Number of Strings That Appear as Substrings in Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfStringsThatAppearAsSubstringsInWord.java)|
 |1968|Medium|[Array With Elements Not Equal to Average of Neighbors](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)|[Array With Elements Not Equal to Average of Neighbors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrayWithElementsNotEqualToAverageOfNeighbors.java)|
-|1974|Easy|[Minimum Time to Type Word Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/)|[Minimum Time to Type Word Using Special Typewriter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToTypeWordUsingSpecialTypewriter.java)|</p>
+|1974|Easy|[Minimum Time to Type Word Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/)|[Minimum Time to Type Word Using Special Typewriter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToTypeWordUsingSpecialTypewriter.java)|
+|1975|Medium|[Maximum Matrix Sum](https://leetcode.com/problems/maximum-matrix-sum/)|[Maximum Matrix Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumMatrixSum.java)|</p>
 </details>
 
 <details>
@@ -1653,7 +1654,8 @@ Count of solved tasks: 1391
 |1958|Medium|[Check if Move is Legal](https://leetcode.com/problems/check-if-move-is-legal/)|[Check if Move is Legal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfMoveIsLegal.java)|
 |1962|Medium|[Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/)|[Remove Stones to Minimize the Total.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveStonesToMinimizeTheTotal.java)|
 |1963|Medium|[Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/)|[Minimum Number of Swaps to Make the String Balanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfSwapsToMakeTheStringBalanced.java)|
-|1968|Medium|[Array With Elements Not Equal to Average of Neighbors](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)|[Array With Elements Not Equal to Average of Neighbors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrayWithElementsNotEqualToAverageOfNeighbors.java)|</p>
+|1968|Medium|[Array With Elements Not Equal to Average of Neighbors](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)|[Array With Elements Not Equal to Average of Neighbors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrayWithElementsNotEqualToAverageOfNeighbors.java)|
+|1975|Medium|[Maximum Matrix Sum](https://leetcode.com/problems/maximum-matrix-sum/)|[Maximum Matrix Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumMatrixSum.java)|</p>
 </details>
 
 <details>
