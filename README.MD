@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1395
+Count of solved tasks: 1396
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -443,6 +443,7 @@ Count of solved tasks: 1395
 |648|Undefined|[Replace Words](https://leetcode.com/problems/replace-words/)|[Replace Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReplaceWords.java)|
 |650|Undefined|[2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)|[2 Keys Keyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoKeysKeyboard.java)|
 |652|Undefined|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/)|[Find Duplicate Subtrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindDuplicateSubtrees.java)|
+|653|Easy|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Two Sum IV - Input is a BST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoSumIVInputIsBST.java)|
 |654|Undefined|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|[Maximum Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumBinaryTree.java)|
 |655|Undefined|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|[Print Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrintBinaryTree.java)|
 |658|Medium|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|[Find K Closest Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindKClosestElements.java)|
@@ -1249,6 +1250,7 @@ Count of solved tasks: 1395
 |605|Easy|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Can Place Flowers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CanPlaceFlowers.java)|
 |637|Easy|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Average of Levels in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AverageOfLevelsInBinaryTree.java)|
 |645|Easy|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[Set Mismatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SetMismatch.java)|
+|653|Easy|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Two Sum IV - Input is a BST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoSumIVInputIsBST.java)|
 |696|Easy|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|[Count Binary Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountBinarySubstrings.java)|
 |706|Easy|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Design HashMap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignHashMap.java)|
 |709|Easy|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[To Lower Case.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ToLowerCase.java)|
