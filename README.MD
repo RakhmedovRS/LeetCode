@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1394
+Count of solved tasks: 1395
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1204,7 +1204,8 @@ Count of solved tasks: 1394
 |1974|Easy|[Minimum Time to Type Word Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/)|[Minimum Time to Type Word Using Special Typewriter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToTypeWordUsingSpecialTypewriter.java)|
 |1975|Medium|[Maximum Matrix Sum](https://leetcode.com/problems/maximum-matrix-sum/)|[Maximum Matrix Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumMatrixSum.java)|
 |1979|Easy|[Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/)|[Find Greatest Common Divisor of Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindGreatestCommonDivisorOfArray.java)|
-|1980|Medium|[Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/)|[Find Unique Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindUniqueBinaryString.java)|</p>
+|1980|Medium|[Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/)|[Find Unique Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindUniqueBinaryString.java)|
+|1981|Medium|[Minimize the Difference Between Target and Chosen Elements](https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/)|[Minimize the Difference Between Target and Chosen Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeTheDifferenceBetweenTargetAndChosenElements.java)|</p>
 </details>
 
 <details>
@@ -1659,7 +1660,8 @@ Count of solved tasks: 1394
 |1963|Medium|[Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/)|[Minimum Number of Swaps to Make the String Balanced.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfSwapsToMakeTheStringBalanced.java)|
 |1968|Medium|[Array With Elements Not Equal to Average of Neighbors](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)|[Array With Elements Not Equal to Average of Neighbors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrayWithElementsNotEqualToAverageOfNeighbors.java)|
 |1975|Medium|[Maximum Matrix Sum](https://leetcode.com/problems/maximum-matrix-sum/)|[Maximum Matrix Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumMatrixSum.java)|
-|1980|Medium|[Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/)|[Find Unique Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindUniqueBinaryString.java)|</p>
+|1980|Medium|[Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/)|[Find Unique Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindUniqueBinaryString.java)|
+|1981|Medium|[Minimize the Difference Between Target and Chosen Elements](https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/)|[Minimize the Difference Between Target and Chosen Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeTheDifferenceBetweenTargetAndChosenElements.java)|</p>
 </details>
 
 <details>
