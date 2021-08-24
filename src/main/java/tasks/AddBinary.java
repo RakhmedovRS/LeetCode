@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -9,7 +10,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 25-Apr-20
  */
-@LeetCode(id = 67, name = "Add Binary", url = "https://leetcode.com/problems/add-binary/")
+@LeetCode(
+	id = 67,
+	name = "Add Binary",
+	url = "https://leetcode.com/problems/add-binary/",
+	difficulty = Difficulty.EASY
+)
 public class AddBinary
 {
 	public String addBinary(String a, String b)

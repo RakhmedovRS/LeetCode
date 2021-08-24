@@ -70,7 +70,7 @@ Count of solved tasks: 1396
 |64|Undefined|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Minimum Path Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPathSum.java)|
 |65|Hard|[Valid Number](https://leetcode.com/problems/valid-number/)|[Valid Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidNumber.java)|
 |66|Undefined|[Plus One](https://leetcode.com/problems/plus-one/)|[Plus One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PlusOne.java)|
-|67|Undefined|[Add Binary](https://leetcode.com/problems/add-binary/)|[Add Binary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddBinary.java)|
+|67|Easy|[Add Binary](https://leetcode.com/problems/add-binary/)|[Add Binary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddBinary.java)|
 |69|Undefined|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Sqrt(x).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Sqrt.java)|
 |70|Undefined|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClimbingStairs.java)|
 |71|Medium|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[Simplify Path.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SimplifyPath.java)|
@@ -1222,6 +1222,7 @@ Count of solved tasks: 1396
 |21|Easy|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeTwoSortedLists.java)|
 |27|Easy|[Remove Element](https://leetcode.com/problems/remove-element/)|[Remove Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveElement.java)|
 |53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSubarray.java)|
+|67|Easy|[Add Binary](https://leetcode.com/problems/add-binary/)|[Add Binary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddBinary.java)|
 |88|Easy|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Merge Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeSortedArray.java)|
 |104|Easy|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Maximum Depth of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDepthOfBinaryTree.java)|
 |108|Easy|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Convert Sorted Array to Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertSortedArrayToBinarySearchTree.java)|
