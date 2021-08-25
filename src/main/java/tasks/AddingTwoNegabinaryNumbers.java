@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 10/15/2020
  */
-@LeetCode(id = 1073, name = "Adding Two Negabinary Numbers", url = "https://leetcode.com/problems/adding-two-negabinary-numbers/")
+@LeetCode(
+	id = 1073,
+	name = "Adding Two Negabinary Numbers",
+	url = "https://leetcode.com/problems/adding-two-negabinary-numbers/",
+	difficulty = Difficulty.MEDIUM
+)
 public class AddingTwoNegabinaryNumbers
 {
 	public int[] addNegabinary(int[] arr1, int[] arr2)
