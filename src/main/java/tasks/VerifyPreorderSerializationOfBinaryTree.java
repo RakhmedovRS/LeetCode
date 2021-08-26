@@ -1,66 +1,91 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author RakhmedovRS
  * @created 07-Aug-20
  */
-@LeetCode(id = 331, name = "Verify Preorder Serialization of a Binary Tree", url = "https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/")
+@LeetCode(
+	id = 331,
+	name = "Verify Preorder Serialization of a Binary Tree",
+	url = "https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/",
+	difficulty = Difficulty.MEDIUM
+)
 public class VerifyPreorderSerializationOfBinaryTree
 {
-	class TNode
+	class TreeNode
 	{
-		TNode left;
-		TNode right;
-		String val;
-		boolean isLeaf = false;
+		public String val;
+		public TreeNode left;
+		public TreeNode right;
+
+		public TreeNode(String x){ val = x; }
 	}
 
 	public boolean isValidSerialization(String preorder)
 	{
-		String[] nodes = preorder.split(",");
-		int[] pos = new int[]{0};
-		TNode node = buildTree(nodes, pos);
-		return isTreeValid(node) && pos[0] == nodes.length;
-	}
+		String[] parts = preorder.split(",");
 
-	private TNode buildTree(String[] nodes, int[] pos)
-	{
-		if (pos[0] == nodes.length)
+		Map<TreeNode, TreeNode> parents = new HashMap<>();
+		TreeNode root = new TreeNode(parts[0]);
+		TreeNode current = root;
+		parents.put(current, null);
+		for (int i = 1; i < parts.length; i++)
 		{
-			return null;
+			while (true)
+			{
+				if (current == null)
+				{
+					return false;
+				}
+
+				if (current.left == null)
+				{
+					current.left = new TreeNode(parts[i]);
+					parents.put(current.left, current);
+					if (!"#".equals(parts[i]))
+					{
+						current = current.left;
+					}
+					break;
+				}
+				else if (current.right == null)
+				{
+					current.right = new TreeNode(parts[i]);
+					parents.put(current.right, current);
+					if (!"#".equals(parts[i]))
+					{
+						current = current.right;
+					}
+					break;
+				}
+				else
+				{
+					current = parents.get(current);
+				}
+			}
 		}
 
-		TNode node = new TNode();
-		node.val = nodes[pos[0]];
-
-		if ("#".equals(nodes[pos[0]]))
-		{
-			pos[0]++;
-			node.isLeaf = true;
-			return node;
-		}
-
-		pos[0]++;
-		node.left = buildTree(nodes, pos);
-		node.right = buildTree(nodes, pos);
-
-		return node;
+		return validate(root);
 	}
 
-	private boolean isTreeValid(TNode node)
+	private boolean validate(TreeNode node)
 	{
 		if (node == null)
 		{
 			return false;
 		}
 
-		if (node.isLeaf)
+		if ("#".equals(node.val))
 		{
-			return true;
+			return node.left == null && node.right == null;
 		}
 
-		return isTreeValid(node.left) && isTreeValid(node.right);
+		return validate(node.left) && validate(node.right);
 	}
 }
