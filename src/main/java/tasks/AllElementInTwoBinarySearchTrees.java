@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -10,7 +11,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 05-Sep-20
  */
-@LeetCode(id = 1305, name = "All Elements in Two Binary Search Trees", url = "https://leetcode.com/problems/all-elements-in-two-binary-search-trees/")
+@LeetCode(
+	id = 1305,
+	name = "All Elements in Two Binary Search Trees",
+	url = "https://leetcode.com/problems/all-elements-in-two-binary-search-trees/",
+	difficulty = Difficulty.MEDIUM
+)
 public class AllElementInTwoBinarySearchTrees
 {
 	public List<Integer> getAllElements(TreeNode root1, TreeNode root2)
