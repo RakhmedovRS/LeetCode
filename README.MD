@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1399
+Count of solved tasks: 1400
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -147,6 +147,7 @@ Count of solved tasks: 1399
 |150|Medium|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Evaluate Reverse Polish Notation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateReversePolishNotation.java)|
 |151|Medium|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Reverse Words in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseWordsInString.java)|
 |152|Undefined|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum Product Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductSubarray.java)|
+|153|Medium|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Find Minimum in Rotated Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumInRotatedSortedArray.java)|
 |154|Undefined|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[Find Minimum in Rotated Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumInRotatedSortedArrayII.java)|
 |155|Undefined|[Min Stack](https://leetcode.com/problems/min-stack/)|[Min Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinStack.java)|
 |160|Easy|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Intersection of Two Linked Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IntersectionOfTwoLinkedLists.java)|
@@ -1396,6 +1397,7 @@ Count of solved tasks: 1399
 |138|Medium|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Copy List with Random Pointer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CopyListWithRandomPointer.java)|
 |150|Medium|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Evaluate Reverse Polish Notation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateReversePolishNotation.java)|
 |151|Medium|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Reverse Words in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseWordsInString.java)|
+|153|Medium|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Find Minimum in Rotated Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumInRotatedSortedArray.java)|
 |162|Medium|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Find Peak Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindPeakElement.java)|
 |173|Medium|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Binary Search Tree Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinarySearchTreeIterator.java)|
 |211|Medium|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|[Add and Search Word - Data structure design.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddAndSearchWordDataStructureDesign.java)|
