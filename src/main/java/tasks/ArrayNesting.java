@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 07-Jul-20
  */
-@LeetCode(id = 565, name = "Array Nesting", url = "https://leetcode.com/problems/array-nesting/")
+@LeetCode(
+	id = 565,
+	name = "Array Nesting",
+	url = "https://leetcode.com/problems/array-nesting/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ArrayNesting
 {
 	public int arrayNesting(int[] nums)

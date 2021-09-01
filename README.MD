@@ -408,7 +408,7 @@ Count of solved tasks: 1401
 |560|Undefined|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Subarray Sum Equals K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubarraySumEqualsK.java)|
 |561|Undefined|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Array Partition I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrayPartitionI.java)|
 |563|Undefined|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[Binary Tree Tilt.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeTilt.java)|
-|565|Undefined|[Array Nesting](https://leetcode.com/problems/array-nesting/)|[Array Nesting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrayNesting.java)|
+|565|Medium|[Array Nesting](https://leetcode.com/problems/array-nesting/)|[Array Nesting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrayNesting.java)|
 |566|Easy|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Reshape the Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReshapeTheMatrix.java)|
 |567|Undefined|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Permutation in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PermutationInString.java)|
 |572|Undefined|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Subtree of Another Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubtreeOfAnotherTree.java)|
@@ -1449,6 +1449,7 @@ Count of solved tasks: 1401
 |539|Medium|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|[Minimum Time Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeDifference.java)|
 |542|Medium|[01 Matrix](https://leetcode.com/problems/01-matrix/)|[01 Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ZeroOneMatrix.java)|
 |554|Medium|[Brick Wall](https://leetcode.com/problems/brick-wall/)|[Brick Wall.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BrickWall.java)|
+|565|Medium|[Array Nesting](https://leetcode.com/problems/array-nesting/)|[Array Nesting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrayNesting.java)|
 |576|Medium|[Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)|[Out of Boundary Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OutOfBoundaryPaths.java)|
 |581|Medium|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Shortest Unsorted Continuous Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestUnsortedContinuousSubarray.java)|
 |583|Medium|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Delete Operation for Two Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteOperationForTwoStrings.java)|
