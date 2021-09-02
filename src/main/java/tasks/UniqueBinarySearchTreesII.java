@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -10,7 +11,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 08-May-20
  */
-@LeetCode(id = 95, name = "Unique Binary Search Trees II", url = "https://leetcode.com/problems/unique-binary-search-trees-ii/")
+@LeetCode(
+	id = 95,
+	name = "Unique Binary Search Trees II",
+	url = "https://leetcode.com/problems/unique-binary-search-trees-ii/",
+	difficulty = Difficulty.MEDIUM
+)
 public class UniqueBinarySearchTreesII
 {
 	public List<TreeNode> generateTrees(int n)
