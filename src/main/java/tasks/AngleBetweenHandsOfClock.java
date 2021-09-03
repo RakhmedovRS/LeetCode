@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 14-Jul-20
  */
-@LeetCode(id = 1344, name = "Angle Between Hands of a Clock", url = "https://leetcode.com/problems/angle-between-hands-of-a-clock/")
+@LeetCode(
+	id = 1344,
+	name = "Angle Between Hands of a Clock",
+	url = "https://leetcode.com/problems/angle-between-hands-of-a-clock/",
+	difficulty = Difficulty.EASY
+)
 public class AngleBetweenHandsOfClock
 {
 	public double angleClock(int hour, int minutes)
