@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1401
+Count of solved tasks: 1402
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1211,7 +1211,8 @@ Count of solved tasks: 1401
 |1981|Medium|[Minimize the Difference Between Target and Chosen Elements](https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/)|[Minimize the Difference Between Target and Chosen Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeTheDifferenceBetweenTargetAndChosenElements.java)|
 |1984|Easy|[Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)|[Minimum Difference Between Highest and Lowest of K Scores.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDifferenceBetweenHighestAndLowestOfKScores.java)|
 |1985|Medium|[Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/)|[Find the Kth Largest Integer in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKthLargestIntegerInTheArray.java)|
-|1987|Medium|[Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/)|[Minimum Number of Work Sessions to Finish the Tasks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfWorkSessionsToFinishTheTasks.java)|</p>
+|1987|Medium|[Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/)|[Minimum Number of Work Sessions to Finish the Tasks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfWorkSessionsToFinishTheTasks.java)|
+|1991|Easy|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)|[Find the Middle Index in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMiddleIndexInArray.java)|</p>
 </details>
 
 <details>
@@ -1346,7 +1347,8 @@ Count of solved tasks: 1401
 |1967|Easy|[Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/)|[Number of Strings That Appear as Substrings in Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfStringsThatAppearAsSubstringsInWord.java)|
 |1974|Easy|[Minimum Time to Type Word Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/)|[Minimum Time to Type Word Using Special Typewriter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToTypeWordUsingSpecialTypewriter.java)|
 |1979|Easy|[Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/)|[Find Greatest Common Divisor of Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindGreatestCommonDivisorOfArray.java)|
-|1984|Easy|[Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)|[Minimum Difference Between Highest and Lowest of K Scores.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDifferenceBetweenHighestAndLowestOfKScores.java)|</p>
+|1984|Easy|[Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)|[Minimum Difference Between Highest and Lowest of K Scores.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDifferenceBetweenHighestAndLowestOfKScores.java)|
+|1991|Easy|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)|[Find the Middle Index in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMiddleIndexInArray.java)|</p>
 </details>
 
 <details>
