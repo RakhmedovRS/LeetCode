@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 04-Sep-20
  */
-@LeetCode(id = 899, name = "Orderly Queue", url = "https://leetcode.com/problems/orderly-queue/")
+@LeetCode(
+	id = 899,
+	name = "Orderly Queue",
+	url = "https://leetcode.com/problems/orderly-queue/",
+	difficulty = Difficulty.HARD
+)
 public class OrderlyQueue
 {
 	public String orderlyQueue(String S, int K)

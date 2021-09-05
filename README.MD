@@ -605,7 +605,7 @@ Count of solved tasks: 1404
 |894|Medium|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/)|[All Possible Full Binary Trees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AllPossibleFullBinaryTrees.java)|
 |895|Hard|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|[Maximum Frequency Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumFrequencyStack.java)|
 |897|Easy|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[Increasing Order Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IncreasingOrderSearchTree.java)|
-|899|Undefined|[Orderly Queue](https://leetcode.com/problems/orderly-queue/)|[Orderly Queue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OrderlyQueue.java)|
+|899|Hard|[Orderly Queue](https://leetcode.com/problems/orderly-queue/)|[Orderly Queue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OrderlyQueue.java)|
 |900|Undefined|[RLE Iterator](https://leetcode.com/problems/rle-iterator/)|[RLE Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RLEIterator.java)|
 |901|Undefined|[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[Online Stock Span.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OnlineStockSpan.java)|
 |902|Hard|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[Numbers At Most N Given Digit Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumbersAtMostNGivenDigitSet.java)|
@@ -1733,6 +1733,7 @@ Count of solved tasks: 1404
 |778|Hard|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|[Swim in Rising Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SwimInRisingWater.java)|
 |827|Hard|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/)|[Making A Large Island.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakingLargeIsland.java)|
 |895|Hard|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|[Maximum Frequency Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumFrequencyStack.java)|
+|899|Hard|[Orderly Queue](https://leetcode.com/problems/orderly-queue/)|[Orderly Queue.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OrderlyQueue.java)|
 |902|Hard|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[Numbers At Most N Given Digit Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumbersAtMostNGivenDigitSet.java)|
 |927|Hard|[Three Equal Parts](https://leetcode.com/problems/three-equal-parts/)|[Three Equal Parts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThreeEqualParts.java)|
 |968|Hard|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|[Binary Tree Cameras.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeCameras.java)|
