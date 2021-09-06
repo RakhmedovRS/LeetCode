@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 10/25/2020
  */
-@LeetCode(id = 1629, name = "Slowest Key", url = "https://leetcode.com/problems/slowest-key/")
+@LeetCode(
+	id = 1629,
+	name = "Slowest Key",
+	url = "https://leetcode.com/problems/slowest-key/",
+	difficulty = Difficulty.EASY
+)
 public class SlowestKey
 {
 	public char slowestKey(int[] releaseTimes, String keysPressed)
