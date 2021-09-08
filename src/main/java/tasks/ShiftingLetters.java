@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 17-May-20
  */
-@LeetCode(id = 848, name = "Shifting Letters", url = "https://leetcode.com/problems/shifting-letters/")
+@LeetCode(
+	id = 848,
+	name = "Shifting Letters",
+	url = "https://leetcode.com/problems/shifting-letters/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ShiftingLetters
 {
 	public String shiftingLetters(String S, int[] shifts)
