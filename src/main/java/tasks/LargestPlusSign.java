@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 08-Jul-20
  */
-@LeetCode(id = 764, name = "Largest Plus Sign", url = "https://leetcode.com/problems/largest-plus-sign/")
+@LeetCode(
+	id = 764,
+	name = "Largest Plus Sign",
+	url = "https://leetcode.com/problems/largest-plus-sign/",
+	difficulty = Difficulty.MEDIUM
+)
 public class LargestPlusSign
 {
 	public int orderOfLargestPlusSign(int N, int[][] mines)
