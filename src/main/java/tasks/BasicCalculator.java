@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Deque;
@@ -9,7 +10,12 @@ import java.util.LinkedList;
  * @author RakhmedovRS
  * @created 01-Aug-20
  */
-@LeetCode(id = 224, name = "Basic Calculator", url = "https://leetcode.com/problems/basic-calculator/")
+@LeetCode(
+	id = 224,
+	name = "Basic Calculator",
+	url = "https://leetcode.com/problems/basic-calculator/",
+	difficulty = Difficulty.HARD
+)
 public class BasicCalculator
 {
 	public int calculate(String s)

@@ -193,7 +193,7 @@ Count of solved tasks: 1404
 |221|Undefined|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[Maximal Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximalSquare.java)|
 |222|Undefined|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Count Complete Tree Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCompleteTreeNodes.java)|
 |223|Medium|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[Rectangle Area.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RectangleArea.java)|
-|224|Undefined|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|[Basic Calculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BasicCalculator.java)|
+|224|Hard|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|[Basic Calculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BasicCalculator.java)|
 |225|Undefined|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Implement Stack using Queues.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ImplementStackUsingQueues.java)|
 |227|Medium|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Basic Calculator II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BasicCalculatorII.java)|
 |228|Undefined|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Summary Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SummaryRanges.java)|
@@ -1718,6 +1718,7 @@ Count of solved tasks: 1404
 |135|Hard|[Candy](https://leetcode.com/problems/candy/)|[Candy.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Candy.java)|
 |214|Hard|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|[Shortest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestPalindrome.java)|
 |218|Hard|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[The Skyline Problem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheSkylineProblem.java)|
+|224|Hard|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|[Basic Calculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BasicCalculator.java)|
 |239|Hard|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Sliding Window Maximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SlidingWindowMaximum.java)|
 |295|Hard|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[Find Median from Data Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMedianFromDataStream.java)|
 |297|Hard|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[Serialize and Deserialize Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SerializeAndDeserializeBinaryTree.java)|
