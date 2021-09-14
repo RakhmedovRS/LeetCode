@@ -1,53 +1,41 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 19-May-20
  */
-@LeetCode(id = 917, name = "Reverse Only Letters", url = "https://leetcode.com/problems/reverse-only-letters/")
+@LeetCode(
+	id = 917,
+	name = "Reverse Only Letters",
+	url = "https://leetcode.com/problems/reverse-only-letters/",
+	difficulty = Difficulty.EASY
+)
 public class ReverseOnlyLetters
 {
-	public String reverseOnlyLetters(String S)
+	public String reverseOnlyLetters(String s)
 	{
-		if (S == null || S.isEmpty())
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0, j = s.length() - 1; i < s.length(); i++)
 		{
-			return S;
+			while (j >= 0 && !Character.isAlphabetic(s.charAt(j)))
+			{
+				j--;
+			}
+
+			if (Character.isAlphabetic(s.charAt(i)))
+			{
+				sb.append(s.charAt(j--));
+			}
+			else
+			{
+				sb.append(s.charAt(i));
+			}
+
 		}
 
-		int left = 0;
-		int right = S.length() - 1;
-		char[] chars = S.toCharArray();
-		while (left < right)
-		{
-			while (left < S.length() && !Character.isAlphabetic(chars[left]))
-			{
-				left++;
-			}
-
-			if (left >= right)
-			{
-				break;
-			}
-
-			while (right >= 0 && !Character.isAlphabetic(chars[right]))
-			{
-				right--;
-			}
-
-			if (left >= right)
-			{
-				break;
-			}
-
-			char temp = chars[left];
-			chars[left] = chars[right];
-			chars[right] = temp;
-			left++;
-			right--;
-		}
-
-		return String.valueOf(chars);
+		return sb.toString();
 	}
 }
