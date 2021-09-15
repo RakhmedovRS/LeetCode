@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 17-Aug-20
  */
-@LeetCode(id = 978, name = "Longest Turbulent Subarray", url = "https://leetcode.com/problems/longest-turbulent-subarray/")
+@LeetCode(
+	id = 978,
+	name = "Longest Turbulent Subarray",
+	url = "https://leetcode.com/problems/longest-turbulent-subarray/",
+	difficulty = Difficulty.MEDIUM
+)
 public class LongestTurbulentSubarray
 {
 	public int maxTurbulenceSize(int[] A)
