@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -9,7 +10,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 26-Feb-20
  */
-@LeetCode(id = 54, name = "Spiral Matrix", url = "https://leetcode.com/problems/spiral-matrix/")
+@LeetCode(
+	id = 54,
+	name = "Spiral Matrix",
+	url = "https://leetcode.com/problems/spiral-matrix/",
+	difficulty = Difficulty.MEDIUM
+)
 public class SpiralMatrix
 {
 	enum Direction
