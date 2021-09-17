@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -10,7 +11,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 28-Mar-20
  */
-@LeetCode(id = 350, name = "Intersection of Two Arrays II", url = "https://leetcode.com/problems/intersection-of-two-arrays-ii/")
+@LeetCode(
+	id = 350,
+	name = "Intersection of Two Arrays II",
+	url = "https://leetcode.com/problems/intersection-of-two-arrays-ii/",
+	difficulty = Difficulty.MEDIUM
+)
 public class IntersectionOfTwoArraysII
 {
 	public int[] intersect(int[] nums1, int[] nums2)
