@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1408
+Count of solved tasks: 1409
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1218,7 +1218,8 @@ Count of solved tasks: 1408
 |2000|Easy|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|[Reverse Prefix of Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReversePrefixOfWord.java)|
 |2001|Medium|[Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/)|[Number of Pairs of Interchangeable Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfPairsOfInterchangeableRectangles.java)|
 |2006|Easy|[Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)|[Count Number of Pairs With Absolute Difference K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfPairsWithAbsoluteDifferenceK.java)|
-|2007|Medium|[Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|[Find Original Array From Doubled Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindOriginalArrayFromDoubledArray.java)|</p>
+|2007|Medium|[Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|[Find Original Array From Doubled Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindOriginalArrayFromDoubledArray.java)|
+|2008|Medium|[Maximum Earnings From Taxi](https://leetcode.com/problems/maximum-earnings-from-taxi/)|[Maximum Earnings From Taxi.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEarningsFromTaxi.java)|</p>
 </details>
 
 <details>
@@ -1705,7 +1706,8 @@ Count of solved tasks: 1408
 |1992|Medium|[Find All Groups of Farmland](https://leetcode.com/problems/find-all-groups-of-farmland/)|[Find All Groups of Farmland.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllGroupsOfFarmland.java)|
 |1993|Medium|[Operations on Tree](https://leetcode.com/problems/operations-on-tree/)|[Operations on Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OperationsOnTree.java)|
 |2001|Medium|[Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/)|[Number of Pairs of Interchangeable Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfPairsOfInterchangeableRectangles.java)|
-|2007|Medium|[Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|[Find Original Array From Doubled Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindOriginalArrayFromDoubledArray.java)|</p>
+|2007|Medium|[Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|[Find Original Array From Doubled Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindOriginalArrayFromDoubledArray.java)|
+|2008|Medium|[Maximum Earnings From Taxi](https://leetcode.com/problems/maximum-earnings-from-taxi/)|[Maximum Earnings From Taxi.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEarningsFromTaxi.java)|</p>
 </details>
 
 <details>
