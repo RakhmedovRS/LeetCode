@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1411
+Count of solved tasks: 1412
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1221,7 +1221,8 @@ Count of solved tasks: 1411
 |2007|Medium|[Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|[Find Original Array From Doubled Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindOriginalArrayFromDoubledArray.java)|
 |2008|Medium|[Maximum Earnings From Taxi](https://leetcode.com/problems/maximum-earnings-from-taxi/)|[Maximum Earnings From Taxi.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEarningsFromTaxi.java)|
 |2011|Easy|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|[Final Value of Variable After Performing Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FinalValueOfVariableAfterPerformingOperations.java)|
-|2012|Medium|[Sum of Beauty in the Array](https://leetcode.com/problems/sum-of-beauty-in-the-array/)|[Sum of Beauty in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfBeautyInTheArray.java)|</p>
+|2012|Medium|[Sum of Beauty in the Array](https://leetcode.com/problems/sum-of-beauty-in-the-array/)|[Sum of Beauty in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfBeautyInTheArray.java)|
+|2013|Medium|[Detect Squares](https://leetcode.com/problems/detect-squares/)|[Detect Squares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetectSquares.java)|</p>
 </details>
 
 <details>
@@ -1711,7 +1712,8 @@ Count of solved tasks: 1411
 |2001|Medium|[Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/)|[Number of Pairs of Interchangeable Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfPairsOfInterchangeableRectangles.java)|
 |2007|Medium|[Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|[Find Original Array From Doubled Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindOriginalArrayFromDoubledArray.java)|
 |2008|Medium|[Maximum Earnings From Taxi](https://leetcode.com/problems/maximum-earnings-from-taxi/)|[Maximum Earnings From Taxi.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEarningsFromTaxi.java)|
-|2012|Medium|[Sum of Beauty in the Array](https://leetcode.com/problems/sum-of-beauty-in-the-array/)|[Sum of Beauty in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfBeautyInTheArray.java)|</p>
+|2012|Medium|[Sum of Beauty in the Array](https://leetcode.com/problems/sum-of-beauty-in-the-array/)|[Sum of Beauty in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfBeautyInTheArray.java)|
+|2013|Medium|[Detect Squares](https://leetcode.com/problems/detect-squares/)|[Detect Squares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetectSquares.java)|</p>
 </details>
 
 <details>
