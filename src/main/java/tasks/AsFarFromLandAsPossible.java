@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.LinkedList;
@@ -9,7 +10,12 @@ import java.util.Queue;
  * @author RakhmedovRS
  * @created 24-Jul-20
  */
-@LeetCode(id = 1162, name = "As Far from Land as Possible", url = "https://leetcode.com/problems/as-far-from-land-as-possible/")
+@LeetCode(
+	id = 1162,
+	name = "As Far from Land as Possible",
+	url = "https://leetcode.com/problems/as-far-from-land-as-possible/",
+	difficulty = Difficulty.MEDIUM
+)
 public class AsFarFromLandAsPossible
 {
 	public int maxDistance(int[][] grid)
