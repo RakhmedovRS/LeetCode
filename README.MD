@@ -356,7 +356,7 @@ Count of solved tasks: 1412
 |479|Undefined|[Largest Palindrome Product](https://leetcode.com/problems/largest-palindrome-product/)|[Largest Palindrome Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPalindromeProduct.java)|
 |480|Undefined|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)|[Sliding Window Median.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SlidingWindowMedian.java)|
 |482|Undefined|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|[License Key Formatting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LicenseKeyFormatting.java)|
-|485|Undefined|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max Consecutive Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxConsecutiveOnes.java)|
+|485|Easy|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max Consecutive Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxConsecutiveOnes.java)|
 |486|Undefined|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/)|[Predict the Winner.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PredictTheWinner.java)|
 |488|Undefined|[Zuma Game](https://leetcode.com/problems/zuma-game/)|[Zuma Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ZumaGame.java)|
 |491|Undefined|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)|[Increasing Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IncreasingSubsequences.java)|
@@ -1259,6 +1259,7 @@ Count of solved tasks: 1412
 |303|Easy|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Range Sum Query - Immutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeSumQueryImmutable.java)|
 |326|Easy|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Power of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PowerOfThree.java)|
 |415|Easy|[Add Strings](https://leetcode.com/problems/add-strings/)|[Add Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddStrings.java)|
+|485|Easy|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max Consecutive Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxConsecutiveOnes.java)|
 |496|Easy|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Next Greater Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NextGreaterElementI.java)|
 |509|Easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FibonacciNumber.java)|
 |561|Easy|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Array Partition I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrayPartitionI.java)|

@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 15-Apr-20
  */
-@LeetCode(id = 485, name = "Max Consecutive Ones", url = "https://leetcode.com/problems/max-consecutive-ones/")
+@LeetCode(
+	id = 485,
+	name = "Max Consecutive Ones",
+	url = "https://leetcode.com/problems/max-consecutive-ones/",
+	difficulty = Difficulty.EASY
+)
 public class MaxConsecutiveOnes
 {
 	public int findMaxConsecutiveOnes(int[] nums)
