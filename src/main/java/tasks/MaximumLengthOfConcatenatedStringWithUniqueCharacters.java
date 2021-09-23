@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -11,7 +12,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 16-Jun-20
  */
-@LeetCode(id = 1239, name = "Maximum Length of a Concatenated String with Unique Characters", url = "https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/")
+@LeetCode(
+	id = 1239,
+	name = "Maximum Length of a Concatenated String with Unique Characters",
+	url = "https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MaximumLengthOfConcatenatedStringWithUniqueCharacters
 {
 	public int maxLength(List<String> arr)
