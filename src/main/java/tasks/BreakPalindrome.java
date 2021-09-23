@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 19-Aug-20
  */
-@LeetCode(id = 1328, name = "Break a Palindrome", url = "https://leetcode.com/problems/break-a-palindrome/")
+@LeetCode(
+	id = 1328,
+	name = "Break a Palindrome",
+	url = "https://leetcode.com/problems/break-a-palindrome/",
+	difficulty = Difficulty.MEDIUM
+)
 public class BreakPalindrome
 {
 	public String breakPalindrome(String palindrome)
