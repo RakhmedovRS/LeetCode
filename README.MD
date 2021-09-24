@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1412
+Count of solved tasks: 1413
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -756,6 +756,7 @@ Count of solved tasks: 1412
 |1124|Undefined|[Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|[Longest Well-Performing Interval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestWellPerformingInterval.java)|
 |1128|Undefined|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|[Number of Equivalent Domino Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfEquivalentDominoPairs.java)|
 |1130|Undefined|[Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)|[Minimum Cost Tree From Leaf Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostTreeFromLeafValues.java)|
+|1137|Easy|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[N-th Tribonacci Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NthTribonacciNumber.java)|
 |1138|Medium|[Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/)|[Alphabet Board Path.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlphabetBoardPath.java)|
 |1140|Medium|[Stone Game II](https://leetcode.com/problems/stone-game-ii/)|[Stone Game II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StoneGameII.java)|
 |1143|Undefined|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Longest Common Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestCommonSubsequence.java)|
@@ -1290,6 +1291,7 @@ Count of solved tasks: 1412
 |977|Easy|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Squares of a Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SquaresOfSortedArray.java)|
 |1021|Easy|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)|[Remove Outermost Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveOutermostParentheses.java)|
 |1047|Easy|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Remove All Adjacent Duplicates In String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveAllAdjacentDuplicatesInString.java)|
+|1137|Easy|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[N-th Tribonacci Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NthTribonacciNumber.java)|
 |1189|Easy|[Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)|[Maximum Number of Balloons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfBalloons.java)|
 |1332|Easy|[Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|[Remove Palindromic Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemovePalindromicSubsequences.java)|
 |1337|Easy|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[The K Weakest Rows in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheKWeakestRowsInMatrix.java)|
