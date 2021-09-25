@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 10/18/2020
  */
-@LeetCode(id = 188, name = "Best Time to Buy and Sell Stock IV", url = "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/")
+@LeetCode(
+	id = 188,
+	name = "Best Time to Buy and Sell Stock IV",
+	url = "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+	difficulty = Difficulty.HARD
+)
 public class BestTimeToBuyAndSellStockIV
 {
 	public int maxProfit(int k, int[] prices)
