@@ -1,49 +1,47 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 /**
  * @author RakhmedovRS
  * @created 16-May-20
  */
-@LeetCode(id = 929, name = "Unique Email Addresses", url = "https://leetcode.com/problems/unique-email-addresses/")
+@LeetCode(
+	id = 929,
+	name = "Unique Email Addresses",
+	url = "https://leetcode.com/problems/unique-email-addresses/",
+	difficulty = Difficulty.EASY
+)
 public class UniqueEmailAddresses
 {
 	public int numUniqueEmails(String[] emails)
 	{
-		Set<String> uniqueEmails = new HashSet<>();
-		if (emails == null || emails.length == 0)
-		{
-			return uniqueEmails.size();
-		}
-
+		Map<String, Set<String>> emailsMap = new HashMap<>();
 		for (String email : emails)
 		{
-			StringBuilder emailBuilder = new StringBuilder();
-			String[] parts = email.split("@");
-			for (char ch : parts[0].toCharArray())
-			{
-				if (ch == '.')
-				{
-					continue;
-				}
-				if (ch == '+')
-				{
-					break;
-				}
-				emailBuilder.append(ch);
-			}
-			if (emailBuilder.length() != 0)
-			{
-				emailBuilder.append('@');
-				emailBuilder.append(parts[1]);
-				uniqueEmails.add(emailBuilder.toString());
-			}
+			String[] emailParts = email.split("@");
+			String name = emailParts[0].replace(".", "");
+			String domain = emailParts[1];
+
+			emailsMap.putIfAbsent(domain, new HashSet<>());
+
+			name = name.contains("+") ? name.substring(0, name.indexOf("+")) : name;
+			emailsMap.get(domain).add(name);
 		}
 
-		return uniqueEmails.size();
+
+		int count = 0;
+		for (Set<String> names : emailsMap.values())
+		{
+			count += names.size();
+		}
+
+		return count;
 	}
 }
