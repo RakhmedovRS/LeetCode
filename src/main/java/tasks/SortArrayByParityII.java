@@ -17,30 +17,22 @@ public class SortArrayByParityII
 {
 	public int[] sortArrayByParityII(int[] nums)
 	{
-		int odd = 0;
-		int even = 0;
-
-		for (int i = 0; i < nums.length; i++)
+		int j = 1;
+		for (int i = 0; i < nums.length; i += 2)
 		{
-			if (i % 2 == 0)
+			if (nums[i] % 2 != 0)
 			{
-				while (nums[even] % 2 != 0)
+				while (j < nums.length && nums[j] % 2 != 0)
 				{
-					even++;
+					j+=2;
 				}
 
-				swap(nums, i, even++);
-			}
-			else
-			{
-				while (nums[odd] % 2 == 0)
-				{
-					odd++;
-				}
-
-				swap(nums, i, odd++);
+				int temp = nums[i];
+				nums[i] = nums[j];
+				nums[j] = temp;
 			}
 		}
+
 		return nums;
 	}
 
