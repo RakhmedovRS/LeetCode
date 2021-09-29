@@ -1,69 +1,59 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.ListNode;
+
+import java.util.LinkedList;
 
 /**
  * @author RakhmedovRS
  * @created 22-Apr-20
  */
-@LeetCode(id = 725, name = "Split Linked List in Parts", url = "https://leetcode.com/problems/split-linked-list-in-parts/")
+@LeetCode(
+	id = 725,
+	name = "Split Linked List in Parts",
+	url = "https://leetcode.com/problems/split-linked-list-in-parts/",
+	difficulty = Difficulty.MEDIUM
+)
 public class SplitLinkedListInParts
 {
-	public ListNode[] splitListToParts(ListNode root, int k)
+	public ListNode[] splitListToParts(ListNode head, int k)
 	{
-		if (k == 1)
+		LinkedList<ListNode> nodes = new LinkedList<>();
+		while (head != null)
 		{
-			return new ListNode[]{root};
+			nodes.addLast(head);
+			head = head.next;
 		}
 
-		ListNode curr = root;
-		int nodeCount = 0;
-		while (curr != null)
-		{
-			curr = curr.next;
-			nodeCount++;
-		}
+		int parts = nodes.size() / k;
+		int rest = nodes.size() % k;
 
-		ListNode[] roots = new ListNode[k];
-		if (nodeCount < k)
+		ListNode[] asnwer = new ListNode[k];
+		for (int pos = 0; pos < asnwer.length; pos++)
 		{
-			ListNode prev = root;
-			for (int i = 0; i < k; i++)
+			ListNode dummy = new ListNode();
+			ListNode prev = dummy;
+			for (int i = 0; i < parts; i++)
 			{
-				roots[i] = prev;
-				if (prev != null)
-				{
-					prev = prev.next;
-					roots[i].next = null;
-				}
-			}
-		}
-		else
-		{
-			int add = nodeCount % k;
-			int normal = nodeCount / k;
-			ListNode prev = root;
-			for (int i = 0; i < k; i++)
-			{
-				roots[i] = prev;
-				int count = 1;
-				while (count++ < normal)
-				{
-					prev = prev.next;
-				}
-				if (add > 0)
-				{
-					add--;
-					prev = prev.next;
-				}
-				ListNode temp = prev;
+				prev.next = nodes.removeFirst();
 				prev = prev.next;
-				temp.next = null;
+				prev.next = null;
 			}
+
+			if (rest > 0)
+			{
+				prev.next = nodes.removeFirst();
+				prev = prev.next;
+				prev.next = null;
+				rest--;
+			}
+
+			asnwer[pos] = dummy.next;
 		}
 
-		return roots;
+		return asnwer;
 	}
 
 	public static void main(String[] args)
