@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 25-May-20
  */
-@LeetCode(id = 698, name = "Partition to K Equal Sum tasks.Subsets", url = "https://leetcode.com/problems/partition-to-k-equal-sum-subsets/")
+@LeetCode(
+	id = 698,
+	name = "Partition to K Equal Sum Subsets",
+	url = "https://leetcode.com/problems/partition-to-k-equal-sum-subsets/",
+	difficulty = Difficulty.MEDIUM
+)
 public class PartitionToKEqualSumSubsets
 {
 	public boolean canPartitionKSubsets(int[] nums, int k)
