@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1414
+Count of solved tasks: 1415
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -245,6 +245,7 @@ Count of solved tasks: 1414
 |318|Medium|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[Maximum Product of Word Lengths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductOfWordLengths.java)|
 |319|Undefined|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/)|[Bulb Switcher.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BulbSwitcher.java)|
 |322|Medium|[Coin Change](https://leetcode.com/problems/coin-change/)|[Coin Change.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CoinChange.java)|
+|325|Medium|[Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)|[Maximum Size Subarray Sum Equals k.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSizeSubarraySumEqualsK.java)|
 |326|Easy|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Power of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PowerOfThree.java)|
 |327|Hard|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)|[Count of Range Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountOfRangeSum.java)|
 |328|Undefined|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[Odd Even Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OddEvenLinkedList.java)|
@@ -1444,6 +1445,7 @@ Count of solved tasks: 1414
 |316|Medium|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[Remove Duplicate Letters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveDuplicateLetters.java)|
 |318|Medium|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[Maximum Product of Word Lengths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductOfWordLengths.java)|
 |322|Medium|[Coin Change](https://leetcode.com/problems/coin-change/)|[Coin Change.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CoinChange.java)|
+|325|Medium|[Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)|[Maximum Size Subarray Sum Equals k.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSizeSubarraySumEqualsK.java)|
 |331|Medium|[Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)|[Verify Preorder Serialization of a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VerifyPreorderSerializationOfBinaryTree.java)|
 |334|Medium|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[Increasing Triplet Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IncreasingTripletSubsequence.java)|
 |337|Medium|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[House Robber III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HouseRobberIII.java)|
