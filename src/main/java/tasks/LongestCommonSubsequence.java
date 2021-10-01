@@ -1,22 +1,31 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 16-Feb-20
  */
-@LeetCode(id = 1143, name = "Longest Common Subsequence", url = "https://leetcode.com/problems/longest-common-subsequence/")
+@LeetCode(
+	id = 1143,
+	name = "Longest Common Subsequence",
+	url = "https://leetcode.com/problems/longest-common-subsequence/",
+	difficulty = Difficulty.MEDIUM
+)
 public class LongestCommonSubsequence
 {
 	public int longestCommonSubsequence(String text1, String text2)
 	{
-		return dfs(0, text1, 0, text2, new Integer[text1.length() + 1][text2.length() + 1]);
+		char[] chars1 = text1.toCharArray();
+		char[] chars2 = text2.toCharArray();
+		Integer[][] memo = new Integer[chars1.length][chars2.length];
+		return dfs(0, 0, chars1, chars2, memo);
 	}
 
-	private int dfs(int pos1, String text1, int pos2, String text2, Integer[][] memo)
+	private int dfs(int pos1, int pos2, char[] chars1, char[] chars2, Integer[][] memo)
 	{
-		if (pos1 == text1.length() || pos2 == text2.length())
+		if (pos1 == chars1.length || pos2 == chars2.length)
 		{
 			return 0;
 		}
@@ -26,14 +35,18 @@ public class LongestCommonSubsequence
 			return memo[pos1][pos2];
 		}
 
-		if (text1.charAt(pos1) == text2.charAt(pos2))
+		if (chars1[pos1] == chars2[pos2])
 		{
-			memo[pos1][pos2] = 1 + dfs(pos1 + 1, text1, pos2 + 1, text2, memo);
+			memo[pos1][pos2] = Math.max(1 + dfs(pos1 + 1, pos2 + 1, chars1, chars2, memo),
+				Math.max(dfs(pos1 + 1, pos2, chars1, chars2, memo),
+					dfs(pos1, pos2 + 1, chars1, chars2, memo)
+				));
 		}
 		else
 		{
-			memo[pos1][pos2] = Math.max(dfs(pos1 + 1, text1, pos2, text2, memo),
-				dfs(pos1, text1, pos2 + 1, text2, memo));
+			memo[pos1][pos2] = Math.max(dfs(pos1 + 1, pos2, chars1, chars2, memo),
+				dfs(pos1, pos2 + 1, chars1, chars2, memo)
+			);
 		}
 
 		return memo[pos1][pos2];
