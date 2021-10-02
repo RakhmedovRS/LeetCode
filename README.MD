@@ -160,7 +160,7 @@ Count of solved tasks: 1420
 |171|Undefined|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[Excel Sheet Column Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExcelSheetColumnNumber.java)|
 |172|Undefined|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|[Factorial Trailing Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FactorialTrailingZeroes.java)|
 |173|Medium|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Binary Search Tree Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinarySearchTreeIterator.java)|
-|174|Undefined|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|[Dungeon Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DungeonGame.java)|
+|174|Hard|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|[Dungeon Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DungeonGame.java)|
 |179|Undefined|[Largest Number](https://leetcode.com/problems/largest-number/)|[Largest Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestNumber.java)|
 |187|Undefined|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)|[Repeated DNA Sequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RepeatedDNASequences.java)|
 |188|Hard|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|[Best Time to Buy and Sell Stock IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestTimeToBuyAndSellStockIV.java)|
@@ -1761,6 +1761,7 @@ Count of solved tasks: 1420
 |127|Hard|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Word Ladder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordLadder.java)|
 |132|Hard|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)|[Palindrome Partitioning II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromePartitioningII.java)|
 |135|Hard|[Candy](https://leetcode.com/problems/candy/)|[Candy.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Candy.java)|
+|174|Hard|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|[Dungeon Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DungeonGame.java)|
 |188|Hard|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|[Best Time to Buy and Sell Stock IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestTimeToBuyAndSellStockIV.java)|
 |214|Hard|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|[Shortest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestPalindrome.java)|
 |218|Hard|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[The Skyline Problem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheSkylineProblem.java)|

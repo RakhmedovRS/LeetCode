@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 21-Jun-20
  */
-@LeetCode(id = 174, name = "Dungeon Game", url = "https://leetcode.com/problems/dungeon-game/")
+@LeetCode(
+	id = 174,
+	name = "Dungeon Game",
+	url = "https://leetcode.com/problems/dungeon-game/",
+	difficulty = Difficulty.HARD
+)
 public class DungeonGame
 {
 	public int calculateMinimumHP(int[][] dungeon)
