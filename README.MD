@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1417
+Count of solved tasks: 1418
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1227,7 +1227,8 @@ Count of solved tasks: 1417
 |2011|Easy|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|[Final Value of Variable After Performing Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FinalValueOfVariableAfterPerformingOperations.java)|
 |2012|Medium|[Sum of Beauty in the Array](https://leetcode.com/problems/sum-of-beauty-in-the-array/)|[Sum of Beauty in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfBeautyInTheArray.java)|
 |2013|Medium|[Detect Squares](https://leetcode.com/problems/detect-squares/)|[Detect Squares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetectSquares.java)|
-|2016|Easy|[Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)|[Maximum Difference Between Increasing Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceBetweenIncreasingElements.java)|</p>
+|2016|Easy|[Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)|[Maximum Difference Between Increasing Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceBetweenIncreasingElements.java)|
+|2022|Easy|[Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/)|[Convert 1D Array Into 2D Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Convert1DArrayInto2DArray.java)|</p>
 </details>
 
 <details>
@@ -1376,7 +1377,8 @@ Count of solved tasks: 1417
 |2000|Easy|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|[Reverse Prefix of Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReversePrefixOfWord.java)|
 |2006|Easy|[Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)|[Count Number of Pairs With Absolute Difference K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfPairsWithAbsoluteDifferenceK.java)|
 |2011|Easy|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|[Final Value of Variable After Performing Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FinalValueOfVariableAfterPerformingOperations.java)|
-|2016|Easy|[Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)|[Maximum Difference Between Increasing Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceBetweenIncreasingElements.java)|</p>
+|2016|Easy|[Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)|[Maximum Difference Between Increasing Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceBetweenIncreasingElements.java)|
+|2022|Easy|[Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/)|[Convert 1D Array Into 2D Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Convert1DArrayInto2DArray.java)|</p>
 </details>
 
 <details>
