@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1419
+Count of solved tasks: 1420
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1229,7 +1229,8 @@ Count of solved tasks: 1419
 |2013|Medium|[Detect Squares](https://leetcode.com/problems/detect-squares/)|[Detect Squares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetectSquares.java)|
 |2016|Easy|[Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)|[Maximum Difference Between Increasing Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceBetweenIncreasingElements.java)|
 |2022|Easy|[Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/)|[Convert 1D Array Into 2D Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Convert1DArrayInto2DArray.java)|
-|2023|Medium|[Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)|[Number of Pairs of Strings With Concatenation Equal to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfPairsOfStringsWithConcatenationEqualToTarget.java)|</p>
+|2023|Medium|[Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)|[Number of Pairs of Strings With Concatenation Equal to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfPairsOfStringsWithConcatenationEqualToTarget.java)|
+|2024|Medium|[Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)|[Maximize the Confusion of an Exam.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheConfusionOfAnExam.java)|</p>
 </details>
 
 <details>
@@ -1735,7 +1736,8 @@ Count of solved tasks: 1419
 |2008|Medium|[Maximum Earnings From Taxi](https://leetcode.com/problems/maximum-earnings-from-taxi/)|[Maximum Earnings From Taxi.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEarningsFromTaxi.java)|
 |2012|Medium|[Sum of Beauty in the Array](https://leetcode.com/problems/sum-of-beauty-in-the-array/)|[Sum of Beauty in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfBeautyInTheArray.java)|
 |2013|Medium|[Detect Squares](https://leetcode.com/problems/detect-squares/)|[Detect Squares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetectSquares.java)|
-|2023|Medium|[Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)|[Number of Pairs of Strings With Concatenation Equal to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfPairsOfStringsWithConcatenationEqualToTarget.java)|</p>
+|2023|Medium|[Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)|[Number of Pairs of Strings With Concatenation Equal to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfPairsOfStringsWithConcatenationEqualToTarget.java)|
+|2024|Medium|[Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)|[Maximize the Confusion of an Exam.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheConfusionOfAnExam.java)|</p>
 </details>
 
 <details>
