@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 02-Apr-20
  */
-@LeetCode(id = 55, name = "Jump Game", url = "https://leetcode.com/problems/jump-game/")
+@LeetCode(
+	id = 55,
+	name = "Jump Game",
+	url = "https://leetcode.com/problems/jump-game/",
+	difficulty = Difficulty.MEDIUM
+)
 public class JumpGame
 {
 	public boolean canJump(int[] nums)

@@ -58,7 +58,7 @@ Count of solved tasks: 1420
 |52|Hard|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[N-Queens II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NQueensII.java)|
 |53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSubarray.java)|
 |54|Medium|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Spiral Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpiralMatrix.java)|
-|55|Undefined|[Jump Game](https://leetcode.com/problems/jump-game/)|[Jump Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGame.java)|
+|55|Medium|[Jump Game](https://leetcode.com/problems/jump-game/)|[Jump Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGame.java)|
 |56|Medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge Intervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeIntervals.java)|
 |57|Undefined|[Insert Interval](https://leetcode.com/problems/insert-interval/)|[Insert Interval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/InsertInterval.java)|
 |58|Undefined|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Length of Last Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LengthOfLastWord.java)|
@@ -1409,6 +1409,7 @@ Count of solved tasks: 1420
 |48|Medium|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[Rotate Image.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotateImage.java)|
 |49|Medium|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Group Anagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GroupAnagrams.java)|
 |54|Medium|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Spiral Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpiralMatrix.java)|
+|55|Medium|[Jump Game](https://leetcode.com/problems/jump-game/)|[Jump Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGame.java)|
 |56|Medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge Intervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeIntervals.java)|
 |59|Medium|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Spiral Matrix II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpiralMatrixII.java)|
 |63|Medium|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Unique Paths II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniquePathsII.java)|
