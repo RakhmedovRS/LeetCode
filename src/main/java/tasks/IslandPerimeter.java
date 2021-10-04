@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 16-May-20
  */
-@LeetCode(id = 463, name = "Island Perimeter", url = "https://leetcode.com/problems/island-perimeter/")
+@LeetCode(
+	id = 463,
+	name = "Island Perimeter",
+	url = "https://leetcode.com/problems/island-perimeter/",
+	difficulty = Difficulty.EASY
+)
 public class IslandPerimeter
 {
 	public int islandPerimeter(int[][] grid)

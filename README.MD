@@ -342,7 +342,7 @@ Count of solved tasks: 1422
 |460|Undefined|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|[LFU Cache.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LFUCache.java)|
 |461|Undefined|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Hamming Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HammingDistance.java)|
 |462|Medium|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|[Minimum Moves to Equal Array Elements II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToEqualArrayElementsII.java)|
-|463|Undefined|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Island Perimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IslandPerimeter.java)|
+|463|Easy|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Island Perimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IslandPerimeter.java)|
 |464|Undefined|[Can I Win](https://leetcode.com/problems/can-i-win/)|[Can I Win.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CanIWin.java)|
 |467|Undefined|[Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)|[Unique Substrings in Wraparound String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniqueSubstringsInWraparoundString.java)|
 |468|Undefined|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[Validate IP Address.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidateIPAddress.java)|
@@ -1269,6 +1269,7 @@ Count of solved tasks: 1422
 |303|Easy|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Range Sum Query - Immutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeSumQueryImmutable.java)|
 |326|Easy|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Power of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PowerOfThree.java)|
 |415|Easy|[Add Strings](https://leetcode.com/problems/add-strings/)|[Add Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddStrings.java)|
+|463|Easy|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Island Perimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IslandPerimeter.java)|
 |485|Easy|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max Consecutive Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxConsecutiveOnes.java)|
 |496|Easy|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Next Greater Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NextGreaterElementI.java)|
 |509|Easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FibonacciNumber.java)|
