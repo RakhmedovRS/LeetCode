@@ -72,7 +72,7 @@ Count of solved tasks: 1422
 |66|Undefined|[Plus One](https://leetcode.com/problems/plus-one/)|[Plus One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PlusOne.java)|
 |67|Easy|[Add Binary](https://leetcode.com/problems/add-binary/)|[Add Binary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddBinary.java)|
 |69|Undefined|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Sqrt(x).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Sqrt.java)|
-|70|Undefined|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClimbingStairs.java)|
+|70|Easy|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClimbingStairs.java)|
 |71|Medium|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[Simplify Path.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SimplifyPath.java)|
 |72|Undefined|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[Edit Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EditDistance.java)|
 |73|Medium|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[Set Matrix Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SetMatrixZeroes.java)|
@@ -1249,6 +1249,7 @@ Count of solved tasks: 1422
 |27|Easy|[Remove Element](https://leetcode.com/problems/remove-element/)|[Remove Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveElement.java)|
 |53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSubarray.java)|
 |67|Easy|[Add Binary](https://leetcode.com/problems/add-binary/)|[Add Binary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddBinary.java)|
+|70|Easy|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClimbingStairs.java)|
 |88|Easy|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Merge Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeSortedArray.java)|
 |104|Easy|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Maximum Depth of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDepthOfBinaryTree.java)|
 |108|Easy|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Convert Sorted Array to Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertSortedArrayToBinarySearchTree.java)|

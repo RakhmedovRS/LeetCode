@@ -1,35 +1,36 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 13-Feb-20
  */
-@LeetCode(id = 70, name = "Climbing Stairs", url = "https://leetcode.com/problems/climbing-stairs/")
+@LeetCode(
+	id = 70,
+	name = "Climbing Stairs",
+	url = "https://leetcode.com/problems/climbing-stairs/",
+	difficulty = Difficulty.EASY
+)
 public class ClimbingStairs
 {
 	public int climbStairs(int n)
 	{
-		if (n == 1)
+		if (n <= 2)
 		{
-			return 1;
-		}
-		if (n == 2)
-		{
-			return 2;
+			return n;
 		}
 
-		int prevPrev = 1;
-		int prev = 2;
-		int curr = 0;
-		for (int i = 3; i <= n; i++)
+		int[] memo = new int[n];
+		memo[0] = 1;
+		memo[1] = 2;
+
+		for (int i = 2; i < n; i++)
 		{
-			curr = prevPrev + prev;
-			prevPrev = prev;
-			prev = curr;
+			memo[i] = memo[i - 2] + memo[i - 1];
 		}
 
-		return curr;
+		return memo[n - 1];
 	}
 }
