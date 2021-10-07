@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 22-Mar-20
  */
-@LeetCode(id = 79, name = "Word Search", url = "https://leetcode.com/problems/word-search/")
+@LeetCode(
+	id = 79,
+	name = "Word Search",
+	url = "https://leetcode.com/problems/word-search/",
+	difficulty = Difficulty.MEDIUM
+)
 public class WordSearch
 {
 	public boolean exist(char[][] board, String word)
