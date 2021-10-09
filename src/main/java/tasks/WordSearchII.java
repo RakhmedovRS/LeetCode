@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -8,7 +9,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 26-Apr-20
  */
-@LeetCode(id = 212, name = "Word Search II", url = "https://leetcode.com/problems/word-search-ii/")
+@LeetCode(
+	id = 212,
+	name = "Word Search II",
+	url = "https://leetcode.com/problems/word-search-ii/",
+	difficulty = Difficulty.HARD
+)
 public class WordSearchII
 {
 	public List<String> findWords(char[][] board, String[] words)

@@ -181,7 +181,7 @@ Count of solved tasks: 1422
 |209|Undefined|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Minimum Size Subarray Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSizeSubarraySum.java)|
 |210|Undefined|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|[Course Schedule II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CourseScheduleII.java)|
 |211|Medium|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|[Add and Search Word - Data structure design.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddAndSearchWordDataStructureDesign.java)|
-|212|Undefined|[Word Search II](https://leetcode.com/problems/word-search-ii/)|[Word Search II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordSearchII.java)|
+|212|Hard|[Word Search II](https://leetcode.com/problems/word-search-ii/)|[Word Search II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordSearchII.java)|
 |213|Undefined|[House Robber II](https://leetcode.com/problems/house-robber-ii/)|[House Robber II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HouseRobberII.java)|
 |214|Hard|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|[Shortest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestPalindrome.java)|
 |215|Easy|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Kth Largest Element in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthLargestElementInAnArray.java)|
@@ -1772,6 +1772,7 @@ Count of solved tasks: 1422
 |135|Hard|[Candy](https://leetcode.com/problems/candy/)|[Candy.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Candy.java)|
 |174|Hard|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|[Dungeon Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DungeonGame.java)|
 |188|Hard|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|[Best Time to Buy and Sell Stock IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestTimeToBuyAndSellStockIV.java)|
+|212|Hard|[Word Search II](https://leetcode.com/problems/word-search-ii/)|[Word Search II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordSearchII.java)|
 |214|Hard|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|[Shortest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestPalindrome.java)|
 |218|Hard|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[The Skyline Problem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheSkylineProblem.java)|
 |224|Hard|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|[Basic Calculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BasicCalculator.java)|
