@@ -398,7 +398,7 @@ Count of solved tasks: 1423
 |540|Undefined|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Single Element in a Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SingleElementInSortedArray.java)|
 |541|Undefined|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Reverse String II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseStringII.java)|
 |542|Medium|[01 Matrix](https://leetcode.com/problems/01-matrix/)|[01 Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ZeroOneMatrix.java)|
-|543|Undefined|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Diameter of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DiameterOfBinaryTree.java)|
+|543|Easy|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Diameter of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DiameterOfBinaryTree.java)|
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[Remove Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveBoxes.java)|
 |547|Undefined|[Friend Circles](https://leetcode.com/problems/friend-circles/)|[Friend Circles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FriendCircles.java)|
 |551|Undefined|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[Student Attendance Record I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StudentAttendanceRecordI.java)|
@@ -1275,6 +1275,7 @@ Count of solved tasks: 1423
 |485|Easy|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max Consecutive Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxConsecutiveOnes.java)|
 |496|Easy|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Next Greater Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NextGreaterElementI.java)|
 |509|Easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FibonacciNumber.java)|
+|543|Easy|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Diameter of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DiameterOfBinaryTree.java)|
 |561|Easy|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Array Partition I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrayPartitionI.java)|
 |566|Easy|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Reshape the Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReshapeTheMatrix.java)|
 |589|Easy|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary Tree Preorder Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/N_aryTreePreorderTraversal.java)|

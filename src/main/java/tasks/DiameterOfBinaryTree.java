@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -7,7 +8,12 @@ import common.TreeNode;
  * @author RakhmedovRS
  * @created 11-Apr-20
  */
-@LeetCode(id = 543, name = "Diameter of Binary Tree", url = "https://leetcode.com/problems/diameter-of-binary-tree/")
+@LeetCode(
+	id = 543,
+	name = "Diameter of Binary Tree",
+	url = "https://leetcode.com/problems/diameter-of-binary-tree/",
+	difficulty = Difficulty.EASY
+)
 public class DiameterOfBinaryTree
 {
 	public int diameterOfBinaryTree(TreeNode root)
