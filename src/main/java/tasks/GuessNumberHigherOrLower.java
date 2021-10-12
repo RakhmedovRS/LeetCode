@@ -1,38 +1,46 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 12-May-20
  */
-@LeetCode(id = 374, name = "Guess Number Higher or Lower", url = "https://leetcode.com/problems/guess-number-higher-or-lower/")
+@LeetCode(
+	id = 374,
+	name = "Guess Number Higher or Lower",
+	url = "https://leetcode.com/problems/guess-number-higher-or-lower/",
+	difficulty = Difficulty.EASY
+)
 public abstract class GuessNumberHigherOrLower
 {
 	abstract int guess(int num);
 
 	public int guessNumber(int n)
 	{
-		int left = 1;
-		int right = n;
-		int middle;
-		while (left < right)
+		long left = 1;
+		long right = n;
+		long middle;
+		int res;
+		while (left <= right)
 		{
-			middle = left + (right - left) / 2;
-			int g = guess(middle);
-			if (g == 0)
+			middle = (left + right) /2;
+			res = guess((int)middle);
+			if (res == 0)
 			{
-				return middle;
+				return (int)middle;
 			}
-			else if (g < 0)
+			else if (res < 0)
 			{
-				right = middle - 1;
+				right = middle -1;
 			}
 			else
 			{
 				left = middle + 1;
 			}
 		}
-		return left;
+
+		return (int)left;
 	}
 }
