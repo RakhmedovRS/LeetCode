@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -7,7 +8,12 @@ import common.TreeNode;
  * @author RakhmedovRS
  * @created 20-Apr-20
  */
-@LeetCode(id = 1008, name = "Construct Binary Search Tree from Preorder Traversal", url = "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/")
+@LeetCode(
+	id = 1008,
+	name = "Construct Binary Search Tree from Preorder Traversal",
+	url = "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ConstructBinarySearchTreeFromPreorderTraversal
 {
 	public TreeNode bstFromPreorder(int[] preorder)
