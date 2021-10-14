@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 09-May-20
  */
-@LeetCode(id = 279, name = "Perfect Squares", url = "https://leetcode.com/problems/perfect-squares/")
+@LeetCode(
+	id = 279,
+	name = "Perfect Squares",
+	url = "https://leetcode.com/problems/perfect-squares/",
+	difficulty = Difficulty.MEDIUM
+)
 public class PerfectSquares
 {
 	public int numSquares(int n)
