@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1423
+Count of solved tasks: 1424
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1233,7 +1233,8 @@ Count of solved tasks: 1423
 |2024|Medium|[Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)|[Maximize the Confusion of an Exam.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheConfusionOfAnExam.java)|
 |2027|Easy|[Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/)|[Minimum Moves to Convert String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToConvertString.java)|
 |2028|Medium|[Find Missing Observations](https://leetcode.com/problems/find-missing-observations/)|[Find Missing Observations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMissingObservations.java)|
-|2032|Easy|[Two Out of Three](https://leetcode.com/problems/two-out-of-three/)|[Two Out of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoOutOfThree.java)|</p>
+|2032|Easy|[Two Out of Three](https://leetcode.com/problems/two-out-of-three/)|[Two Out of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoOutOfThree.java)|
+|2037|Easy|[Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/)|[Minimum Number of Moves to Seat Everyone.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfMovesToSeatEveryone.java)|</p>
 </details>
 
 <details>
@@ -1389,7 +1390,8 @@ Count of solved tasks: 1423
 |2016|Easy|[Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)|[Maximum Difference Between Increasing Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceBetweenIncreasingElements.java)|
 |2022|Easy|[Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/)|[Convert 1D Array Into 2D Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Convert1DArrayInto2DArray.java)|
 |2027|Easy|[Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/)|[Minimum Moves to Convert String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToConvertString.java)|
-|2032|Easy|[Two Out of Three](https://leetcode.com/problems/two-out-of-three/)|[Two Out of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoOutOfThree.java)|</p>
+|2032|Easy|[Two Out of Three](https://leetcode.com/problems/two-out-of-three/)|[Two Out of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoOutOfThree.java)|
+|2037|Easy|[Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/)|[Minimum Number of Moves to Seat Everyone.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfMovesToSeatEveryone.java)|</p>
 </details>
 
 <details>
