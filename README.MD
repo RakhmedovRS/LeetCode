@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1429
+Count of solved tasks: 1430
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -677,6 +677,7 @@ Count of solved tasks: 1429
 |989|Undefined|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[Add to Array-Form of Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddToArrayFormOfInteger.java)|
 |991|Medium|[Broken Calculator](https://leetcode.com/problems/broken-calculator/)|[Broken Calculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BrokenCalculator.java)|
 |992|Hard|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)|[Subarrays with K Different Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubarraysWithKDifferentIntegers.java)|
+|993|Easy|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Cousins in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CousinsInBinaryTree.java)|
 |994|Undefined|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Rotting Oranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RottingOranges.java)|
 |995|Hard|[Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)|[Minimum Number of K Consecutive Bit Flips.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfKConsecutiveBitFlips.java)|
 |997|Undefined|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[Find the Town Judge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheTownJudge.java)|
@@ -1310,6 +1311,7 @@ Count of solved tasks: 1429
 |941|Easy|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Valid Mountain Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidMountainArray.java)|
 |953|Easy|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|[Verifying an Alien Dictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VerifyingAlienDictionary.java)|
 |977|Easy|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Squares of a Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SquaresOfSortedArray.java)|
+|993|Easy|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Cousins in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CousinsInBinaryTree.java)|
 |1021|Easy|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)|[Remove Outermost Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveOutermostParentheses.java)|
 |1047|Easy|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Remove All Adjacent Duplicates In String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveAllAdjacentDuplicatesInString.java)|
 |1137|Easy|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[N-th Tribonacci Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NthTribonacciNumber.java)|
