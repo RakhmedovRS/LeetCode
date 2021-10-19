@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 10/16/2020
  */
-@LeetCode(id = 837, name = "New 21 Game", url = "https://leetcode.com/problems/new-21-game/")
+@LeetCode(
+	id = 837,
+	name = "New 21 Game",
+	url = "https://leetcode.com/problems/new-21-game/",
+	difficulty = Difficulty.MEDIUM
+)
 public class New21Game
 {
 	public double new21Game(int N, int K, int W)

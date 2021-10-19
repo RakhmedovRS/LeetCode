@@ -562,7 +562,7 @@ Count of solved tasks: 1430
 |833|Medium|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|[Find And Replace in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAndReplaceInString.java)|
 |835|Undefined|[Image Overlap](https://leetcode.com/problems/image-overlap/)|[Image Overlap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ImageOverlap.java)|
 |836|Undefined|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)|[Rectangle Overlap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RectangleOverlap.java)|
-|837|Undefined|[New 21 Game](https://leetcode.com/problems/new-21-game/)|[New 21 Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/New21Game.java)|
+|837|Medium|[New 21 Game](https://leetcode.com/problems/new-21-game/)|[New 21 Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/New21Game.java)|
 |838|Medium|[Push Dominoes](https://leetcode.com/problems/push-dominoes/)|[Push Dominoes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PushDominoes.java)|
 |840|Undefined|[Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/)|[Magic Squares In Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MagicSquaresInGrid.java)|
 |841|Medium|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[Keys and Rooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KeysAndRooms.java)|
@@ -1555,6 +1555,7 @@ Count of solved tasks: 1430
 |823|Medium|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[Binary Trees With Factors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreesWithFactors.java)|
 |831|Medium|[Masking Personal Information](https://leetcode.com/problems/masking-personal-information/)|[Masking Personal Information.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaskingPersonalInformation.java)|
 |833|Medium|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|[Find And Replace in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAndReplaceInString.java)|
+|837|Medium|[New 21 Game](https://leetcode.com/problems/new-21-game/)|[New 21 Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/New21Game.java)|
 |838|Medium|[Push Dominoes](https://leetcode.com/problems/push-dominoes/)|[Push Dominoes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PushDominoes.java)|
 |841|Medium|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[Keys and Rooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KeysAndRooms.java)|
 |845|Medium|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[Longest Mountain in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestMountainInArray.java)|
