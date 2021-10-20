@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -9,7 +10,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 11-Jun-20
  */
-@LeetCode(id = 797, name = "All Paths From Source to Target", url = "https://leetcode.com/problems/all-paths-from-source-to-target/")
+@LeetCode(
+	id = 797,
+	name = "All Paths From Source to Target",
+	url = "https://leetcode.com/problems/all-paths-from-source-to-target/",
+	difficulty = Difficulty.MEDIUM
+)
 public class AllPathsFromSourceToTarget
 {
 	public List<List<Integer>> allPathsSourceTarget(int[][] graph)
