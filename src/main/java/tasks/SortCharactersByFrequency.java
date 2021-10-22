@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashMap;
@@ -10,36 +11,38 @@ import java.util.PriorityQueue;
  * @author RakhmedovRS
  * @created 04-Mar-20
  */
-@LeetCode(id = 451, name = "Sort Characters By Frequency", url = "https://leetcode.com/problems/sort-characters-by-frequency/")
+@LeetCode(
+	id = 451,
+	name = "Sort Characters By Frequency",
+	url = "https://leetcode.com/problems/sort-characters-by-frequency/",
+	difficulty = Difficulty.MEDIUM
+)
 public class SortCharactersByFrequency
 {
 	public String frequencySort(String s)
 	{
-		if (s == null || s.isEmpty())
-		{
-			return s;
-		}
-
-		Map<Character, Integer> memo = new HashMap<>();
+		Map<Character, Integer> freq = new HashMap<>();
 		for (char ch : s.toCharArray())
 		{
-			memo.put(ch, memo.getOrDefault(ch, 0) + 1);
+			freq.put(ch, freq.getOrDefault(ch, 0) + 1);
 		}
 
-		PriorityQueue<Character> maxHeap = new PriorityQueue<>((ch1, ch2) -> memo.get(ch2).compareTo(memo.get(ch1)));
-		maxHeap.addAll(memo.keySet());
-		StringBuilder stringBuilder = new StringBuilder();
-		while (!maxHeap.isEmpty())
+		PriorityQueue<Character> priorityQueue = new PriorityQueue<>((a, b) -> freq.get(b) - freq.get(a));
+		priorityQueue.addAll(freq.keySet());
+
+		StringBuilder sb = new StringBuilder();
+		while (!priorityQueue.isEmpty())
 		{
-			char ch = maxHeap.remove();
-			int count = memo.get(ch);
+			char ch = priorityQueue.remove();
+			int count = freq.remove(ch);
+
 			while (count-- > 0)
 			{
-				stringBuilder.append(ch);
+				sb.append(ch);
 			}
 		}
 
-		return stringBuilder.toString();
+		return sb.toString();
 	}
 
 	public static void main(String[] args)
