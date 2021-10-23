@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 25-Jul-20
  */
-@LeetCode(id = 154, name = "Find Minimum in Rotated Sorted Array II", url = "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/")
+@LeetCode(
+	id = 154,
+	name = "Find Minimum in Rotated Sorted Array II",
+	url = "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/",
+	difficulty = Difficulty.HARD
+)
 public class FindMinimumInRotatedSortedArrayII
 {
 	public int findMin(int[] nums)
