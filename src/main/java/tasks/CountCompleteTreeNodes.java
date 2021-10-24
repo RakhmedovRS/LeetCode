@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -7,7 +8,12 @@ import common.TreeNode;
  * @author RakhmedovRS
  * @created 23-Jun-20
  */
-@LeetCode(id = 222, name = "Count Complete Tree Nodes", url = "https://leetcode.com/problems/count-complete-tree-nodes/")
+@LeetCode(
+	id = 222,
+	name = "Count Complete Tree Nodes",
+	url = "https://leetcode.com/problems/count-complete-tree-nodes/",
+	difficulty = Difficulty.MEDIUM
+)
 public class CountCompleteTreeNodes
 {
 	public int countNodes(TreeNode root)
