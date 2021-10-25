@@ -149,7 +149,7 @@ Count of solved tasks: 1430
 |152|Undefined|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum Product Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductSubarray.java)|
 |153|Medium|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Find Minimum in Rotated Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumInRotatedSortedArray.java)|
 |154|Hard|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[Find Minimum in Rotated Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumInRotatedSortedArrayII.java)|
-|155|Undefined|[Min Stack](https://leetcode.com/problems/min-stack/)|[Min Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinStack.java)|
+|155|Easy|[Min Stack](https://leetcode.com/problems/min-stack/)|[Min Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinStack.java)|
 |160|Easy|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Intersection of Two Linked Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IntersectionOfTwoLinkedLists.java)|
 |162|Medium|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Find Peak Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindPeakElement.java)|
 |164|Undefined|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[Maximum Gap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumGap.java)|
@@ -1264,6 +1264,7 @@ Count of solved tasks: 1430
 |110|Easy|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Balanced Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BalancedBinaryTree.java)|
 |118|Easy|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Pascal's Triangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PascalTriangle.java)|
 |141|Easy|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LinkedListCycle.java)|
+|155|Easy|[Min Stack](https://leetcode.com/problems/min-stack/)|[Min Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinStack.java)|
 |160|Easy|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Intersection of Two Linked Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IntersectionOfTwoLinkedLists.java)|
 |191|Easy|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOf1Bits.java)|
 |204|Easy|[Count Primes](https://leetcode.com/problems/count-primes/)|[Count Primes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPrimes.java)|

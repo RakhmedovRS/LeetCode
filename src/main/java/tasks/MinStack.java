@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.LinkedList;
@@ -8,46 +9,50 @@ import java.util.LinkedList;
  * @author RakhmedovRS
  * @created 26-Mar-20
  */
-@LeetCode(id = 155, name = "Min Stack", url = "https://leetcode.com/problems/min-stack/")
-public class MinStack
+@LeetCode(
+	id = 155,
+	name = "Min Stack",
+	url = "https://leetcode.com/problems/min-stack/",
+	difficulty = Difficulty.EASY
+)
+class MinStack
 {
-	private LinkedList<Integer> values;
-	private LinkedList<Integer> min;
+
+	LinkedList<Integer> stack;
+	LinkedList<Integer> mStack;
 
 	public MinStack()
 	{
-		values = new LinkedList<>();
-		min = new LinkedList<>();
+		stack = new LinkedList<>();
+		mStack = new LinkedList<>();
 	}
 
-	public void push(int x)
+	public void push(int val)
 	{
-		if (min.isEmpty() || x <= min.getFirst())
+		if (!mStack.isEmpty())
 		{
-			min.addFirst(x);
+			mStack.addLast(Math.min(mStack.getLast(), val));
 		}
-		values.addFirst(x);
+		else
+		{
+			mStack.addLast(val);
+		}
+		stack.addLast(val);
 	}
 
 	public void pop()
 	{
-		if (!values.isEmpty())
-		{
-			int x = values.removeFirst();
-			if (min.getFirst() == x)
-			{
-				min.removeFirst();
-			}
-		}
+		stack.removeLast();
+		mStack.removeLast();
 	}
 
 	public int top()
 	{
-		return values.isEmpty() ? -1 : values.getFirst();
+		return stack.getLast();
 	}
 
 	public int getMin()
 	{
-		return min.isEmpty() ? -1 : min.getFirst();
+		return mStack.getLast();
 	}
 }
