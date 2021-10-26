@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1430
+Count of solved tasks: 1431
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -195,6 +195,7 @@ Count of solved tasks: 1430
 |223|Medium|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[Rectangle Area.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RectangleArea.java)|
 |224|Hard|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|[Basic Calculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BasicCalculator.java)|
 |225|Undefined|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Implement Stack using Queues.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ImplementStackUsingQueues.java)|
+|226|Easy|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Invert Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/InvertBinaryTree.java)|
 |227|Medium|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Basic Calculator II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BasicCalculatorII.java)|
 |228|Undefined|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Summary Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SummaryRanges.java)|
 |229|Undefined|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|[Majority Element II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MajorityElementII.java)|
@@ -1271,6 +1272,7 @@ Count of solved tasks: 1430
 |205|Easy|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Isomorphic Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IsomorphicStrings.java)|
 |206|Easy|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseLinkedList.java)|
 |215|Easy|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Kth Largest Element in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthLargestElementInAnArray.java)|
+|226|Easy|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Invert Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/InvertBinaryTree.java)|
 |234|Easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromeLinkedList.java)|
 |235|Easy|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Lowest Common Ancestor of a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LowestCommonAncestorOfBinarySearchTree.java)|
 |242|Easy|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Valid Anagram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidAnagram.java)|
