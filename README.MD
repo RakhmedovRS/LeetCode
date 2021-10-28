@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1431
+Count of solved tasks: 1432
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1241,7 +1241,8 @@ Count of solved tasks: 1431
 |2039|Medium|[The Time When the Network Becomes Idle](https://leetcode.com/problems/the-time-when-the-network-becomes-idle/)|[The Time When the Network Becomes Idle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheTimeWhenTheNetworkBecomesIdle.java)|
 |2042|Easy|[Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)|[Check if Numbers Are Ascending in a Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfNumbersAreAscendingInSentence.java)|
 |2043|Medium|[Simple Bank System](https://leetcode.com/problems/simple-bank-system/)|[Simple Bank System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SimpleBankSystem.java)|
-|2044|Medium|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|[Count Number of Maximum Bitwise-OR Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfMaximumBitwiseORSubsets.java)|</p>
+|2044|Medium|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|[Count Number of Maximum Bitwise-OR Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfMaximumBitwiseORSubsets.java)|
+|2046|Medium|[Sort Linked List Already Sorted Using Absolute Values](https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values/)|[Sort Linked List Already Sorted Using Absolute Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortLinkedListAlreadySortedUsingAbsoluteValues.java)|</p>
 </details>
 
 <details>
@@ -1777,7 +1778,8 @@ Count of solved tasks: 1431
 |2038|Medium|[Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)|[Remove Colored Pieces if Both Neighbors are the Same Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveColoredPiecesIfBothNeighborsAreTheSameColor.java)|
 |2039|Medium|[The Time When the Network Becomes Idle](https://leetcode.com/problems/the-time-when-the-network-becomes-idle/)|[The Time When the Network Becomes Idle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheTimeWhenTheNetworkBecomesIdle.java)|
 |2043|Medium|[Simple Bank System](https://leetcode.com/problems/simple-bank-system/)|[Simple Bank System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SimpleBankSystem.java)|
-|2044|Medium|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|[Count Number of Maximum Bitwise-OR Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfMaximumBitwiseORSubsets.java)|</p>
+|2044|Medium|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|[Count Number of Maximum Bitwise-OR Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfMaximumBitwiseORSubsets.java)|
+|2046|Medium|[Sort Linked List Already Sorted Using Absolute Values](https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values/)|[Sort Linked List Already Sorted Using Absolute Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortLinkedListAlreadySortedUsingAbsoluteValues.java)|</p>
 </details>
 
 <details>
