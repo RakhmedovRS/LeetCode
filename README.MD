@@ -1241,8 +1241,7 @@ Count of solved tasks: 1432
 |2039|Medium|[The Time When the Network Becomes Idle](https://leetcode.com/problems/the-time-when-the-network-becomes-idle/)|[The Time When the Network Becomes Idle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheTimeWhenTheNetworkBecomesIdle.java)|
 |2042|Easy|[Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)|[Check if Numbers Are Ascending in a Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfNumbersAreAscendingInSentence.java)|
 |2043|Medium|[Simple Bank System](https://leetcode.com/problems/simple-bank-system/)|[Simple Bank System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SimpleBankSystem.java)|
-|2044|Medium|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|[Count Number of Maximum Bitwise-OR Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfMaximumBitwiseORSubsets.java)|
-|2046|Medium|[Sort Linked List Already Sorted Using Absolute Values](https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values/)|[Sort Linked List Already Sorted Using Absolute Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortLinkedListAlreadySortedUsingAbsoluteValues.java)|</p>
+|2044|Medium|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|[Count Number of Maximum Bitwise-OR Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfMaximumBitwiseORSubsets.java)|</p>
 </details>
 
 <details>
@@ -1778,8 +1777,7 @@ Count of solved tasks: 1432
 |2038|Medium|[Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)|[Remove Colored Pieces if Both Neighbors are the Same Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveColoredPiecesIfBothNeighborsAreTheSameColor.java)|
 |2039|Medium|[The Time When the Network Becomes Idle](https://leetcode.com/problems/the-time-when-the-network-becomes-idle/)|[The Time When the Network Becomes Idle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheTimeWhenTheNetworkBecomesIdle.java)|
 |2043|Medium|[Simple Bank System](https://leetcode.com/problems/simple-bank-system/)|[Simple Bank System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SimpleBankSystem.java)|
-|2044|Medium|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|[Count Number of Maximum Bitwise-OR Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfMaximumBitwiseORSubsets.java)|
-|2046|Medium|[Sort Linked List Already Sorted Using Absolute Values](https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values/)|[Sort Linked List Already Sorted Using Absolute Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortLinkedListAlreadySortedUsingAbsoluteValues.java)|</p>
+|2044|Medium|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|[Count Number of Maximum Bitwise-OR Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfMaximumBitwiseORSubsets.java)|</p>
 </details>
 
 <details>
@@ -2062,6 +2060,7 @@ Count of solved tasks: 1432
 |1852|Medium|[Distinct Numbers in Each Subarray](https://leetcode.com/problems/distinct-numbers-in-each-subarray/)|[Distinct Numbers in Each Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DistinctNumbersInEachSubarray.java)|
 |1868|Medium|[Product of Two Run-Length Encoded Arrays](https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/)|[Product of Two Run-Length Encoded Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ProductOfTwoRunLengthEncodedArrays.java)|
 |1874|Medium|[Minimize Product Sum of Two Arrays](https://leetcode.com/problems/minimize-product-sum-of-two-arrays/)|[Minimize Product Sum of Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeProductSumOfTwoArrays.java)|
-|1902|Medium|[Depth of BST Given Insertion Order](https://leetcode.com/problems/depth-of-bst-given-insertion-order/)|[Depth of BST Given Insertion Order.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DepthOfBSTGivenInsertionOrder.java)|</p>
+|1902|Medium|[Depth of BST Given Insertion Order](https://leetcode.com/problems/depth-of-bst-given-insertion-order/)|[Depth of BST Given Insertion Order.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DepthOfBSTGivenInsertionOrder.java)|
+|2046|Medium|[Sort Linked List Already Sorted Using Absolute Values](https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values/)|[Sort Linked List Already Sorted Using Absolute Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortLinkedListAlreadySortedUsingAbsoluteValues.java)|</p>
 </details>
 

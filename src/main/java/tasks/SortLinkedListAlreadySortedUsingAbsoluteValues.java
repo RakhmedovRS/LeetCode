@@ -14,7 +14,8 @@ import java.util.LinkedList;
 	id = 2046,
 	name = "Sort Linked List Already Sorted Using Absolute Values",
 	url = "https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values/",
-	difficulty = Difficulty.MEDIUM
+	difficulty = Difficulty.MEDIUM,
+	premium = true
 )
 public class SortLinkedListAlreadySortedUsingAbsoluteValues
 {
