@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.LinkedList;
@@ -9,7 +10,12 @@ import java.util.Queue;
  * @author RakhmedovRS
  * @created 21-Jul-20
  */
-@LeetCode(id = 994, name = "Rotting Oranges", url = "https://leetcode.com/problems/rotting-oranges/")
+@LeetCode(
+	id = 994,
+	name = "Rotting Oranges",
+	url = "https://leetcode.com/problems/rotting-oranges/",
+	difficulty = Difficulty.MEDIUM
+)
 public class RottingOranges
 {
 	public int orangesRotting(int[][] grid)
