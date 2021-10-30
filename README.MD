@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1433
+Count of solved tasks: 1434
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1242,7 +1242,8 @@ Count of solved tasks: 1433
 |2042|Easy|[Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)|[Check if Numbers Are Ascending in a Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfNumbersAreAscendingInSentence.java)|
 |2043|Medium|[Simple Bank System](https://leetcode.com/problems/simple-bank-system/)|[Simple Bank System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SimpleBankSystem.java)|
 |2044|Medium|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|[Count Number of Maximum Bitwise-OR Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfMaximumBitwiseORSubsets.java)|
-|2047|Easy|[Number of Valid Words in a Sentence](https://leetcode.com/problems/number-of-valid-words-in-a-sentence/)|[Number of Valid Words in a Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfValidWordsInSentence.java)|</p>
+|2047|Easy|[Number of Valid Words in a Sentence](https://leetcode.com/problems/number-of-valid-words-in-a-sentence/)|[Number of Valid Words in a Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfValidWordsInSentence.java)|
+|2053|Easy|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|[Kth Distinct String in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthDistinctStringInArray.java)|</p>
 </details>
 
 <details>
@@ -1404,7 +1405,8 @@ Count of solved tasks: 1433
 |2032|Easy|[Two Out of Three](https://leetcode.com/problems/two-out-of-three/)|[Two Out of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoOutOfThree.java)|
 |2037|Easy|[Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/)|[Minimum Number of Moves to Seat Everyone.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfMovesToSeatEveryone.java)|
 |2042|Easy|[Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)|[Check if Numbers Are Ascending in a Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfNumbersAreAscendingInSentence.java)|
-|2047|Easy|[Number of Valid Words in a Sentence](https://leetcode.com/problems/number-of-valid-words-in-a-sentence/)|[Number of Valid Words in a Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfValidWordsInSentence.java)|</p>
+|2047|Easy|[Number of Valid Words in a Sentence](https://leetcode.com/problems/number-of-valid-words-in-a-sentence/)|[Number of Valid Words in a Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfValidWordsInSentence.java)|
+|2053|Easy|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|[Kth Distinct String in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthDistinctStringInArray.java)|</p>
 </details>
 
 <details>
