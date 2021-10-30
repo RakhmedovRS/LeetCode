@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1434
+Count of solved tasks: 1435
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1243,7 +1243,8 @@ Count of solved tasks: 1434
 |2043|Medium|[Simple Bank System](https://leetcode.com/problems/simple-bank-system/)|[Simple Bank System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SimpleBankSystem.java)|
 |2044|Medium|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|[Count Number of Maximum Bitwise-OR Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfMaximumBitwiseORSubsets.java)|
 |2047|Easy|[Number of Valid Words in a Sentence](https://leetcode.com/problems/number-of-valid-words-in-a-sentence/)|[Number of Valid Words in a Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfValidWordsInSentence.java)|
-|2053|Easy|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|[Kth Distinct String in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthDistinctStringInArray.java)|</p>
+|2053|Easy|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|[Kth Distinct String in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthDistinctStringInArray.java)|
+|2054|Medium|[Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/)|[Two Best Non-Overlapping Events.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoBestNonOverlappingEvents.java)|</p>
 </details>
 
 <details>
@@ -1782,7 +1783,8 @@ Count of solved tasks: 1434
 |2038|Medium|[Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)|[Remove Colored Pieces if Both Neighbors are the Same Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveColoredPiecesIfBothNeighborsAreTheSameColor.java)|
 |2039|Medium|[The Time When the Network Becomes Idle](https://leetcode.com/problems/the-time-when-the-network-becomes-idle/)|[The Time When the Network Becomes Idle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheTimeWhenTheNetworkBecomesIdle.java)|
 |2043|Medium|[Simple Bank System](https://leetcode.com/problems/simple-bank-system/)|[Simple Bank System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SimpleBankSystem.java)|
-|2044|Medium|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|[Count Number of Maximum Bitwise-OR Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfMaximumBitwiseORSubsets.java)|</p>
+|2044|Medium|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|[Count Number of Maximum Bitwise-OR Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfMaximumBitwiseORSubsets.java)|
+|2054|Medium|[Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/)|[Two Best Non-Overlapping Events.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoBestNonOverlappingEvents.java)|</p>
 </details>
 
 <details>
