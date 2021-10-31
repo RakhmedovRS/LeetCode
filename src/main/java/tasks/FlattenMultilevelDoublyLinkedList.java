@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.Node;
 
@@ -7,7 +8,12 @@ import common.Node;
  * @author RakhmedovRS
  * @created 10-Jul-20
  */
-@LeetCode(id = 430, name = "Flatten a Multilevel Doubly Linked List", url = "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/")
+@LeetCode(
+	id = 430,
+	name = "Flatten a Multilevel Doubly Linked List",
+	url = "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/",
+	difficulty = Difficulty.MEDIUM
+)
 public class FlattenMultilevelDoublyLinkedList
 {
 	public Node flatten(Node head)
