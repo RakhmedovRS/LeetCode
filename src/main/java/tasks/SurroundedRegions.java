@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 10-Jun-20
  */
-@LeetCode(id = 130, name = "Surrounded Regions", url = "https://leetcode.com/problems/surrounded-regions/")
+@LeetCode(
+	id = 130,
+	name = "Surrounded Regions",
+	url = "https://leetcode.com/problems/surrounded-regions/",
+	difficulty = Difficulty.MEDIUM
+)
 public class SurroundedRegions
 {
 	public void solve(char[][] board)
