@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 20-Sep-20
  */
-@LeetCode(id = 980, name = "Unique Paths III", url = "https://leetcode.com/problems/unique-paths-iii/")
+@LeetCode(
+	id = 980,
+	name = "Unique Paths III",
+	url = "https://leetcode.com/problems/unique-paths-iii/",
+	difficulty = Difficulty.HARD
+)
 public class UniquePathsIII
 {
 	public int uniquePathsIII(int[][] grid)
