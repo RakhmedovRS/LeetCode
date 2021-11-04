@@ -299,7 +299,7 @@ Count of solved tasks: 1436
 |400|Undefined|[Nth Digit](https://leetcode.com/problems/nth-digit/)|[Nth Digit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NthDigit.java)|
 |401|Undefined|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[Binary Watch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryWatch.java)|
 |402|Undefined|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[Remove K Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveKDigits.java)|
-|404|Undefined|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Sum of Left Leaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfLeftLeaves.java)|
+|404|Easy|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Sum of Left Leaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfLeftLeaves.java)|
 |405|Undefined|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|[Convert a Number to Hexadecimal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertNumberToHexadecimal.java)|
 |406|Undefined|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|[Queue Reconstruction by Height.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/QueueReconstructionByHeight.java)|
 |409|Undefined|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Longest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestPalindrome.java)|
@@ -1285,6 +1285,7 @@ Count of solved tasks: 1436
 |303|Easy|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Range Sum Query - Immutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeSumQueryImmutable.java)|
 |326|Easy|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Power of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PowerOfThree.java)|
 |374|Easy|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Guess Number Higher or Lower.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GuessNumberHigherOrLower.java)|
+|404|Easy|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Sum of Left Leaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfLeftLeaves.java)|
 |415|Easy|[Add Strings](https://leetcode.com/problems/add-strings/)|[Add Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddStrings.java)|
 |463|Easy|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Island Perimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IslandPerimeter.java)|
 |485|Easy|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max Consecutive Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxConsecutiveOnes.java)|

@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -7,20 +8,20 @@ import common.TreeNode;
  * @author RakhmedovRS
  * @created 24-Aug-20
  */
-@LeetCode(id = 404, name = "Sum of Left Leaves", url = "https://leetcode.com/problems/sum-of-left-leaves/")
+@LeetCode(
+	id = 404,
+	name = "Sum of Left Leaves",
+	url = "https://leetcode.com/problems/sum-of-left-leaves/",
+	difficulty = Difficulty.EASY
+)
 public class SumOfLeftLeaves
 {
 	public int sumOfLeftLeaves(TreeNode root)
 	{
-		if (root == null)
-		{
-			return 0;
-		}
-
-		return sumOfLeftLeaves(root.left, true) + sumOfLeftLeaves(root.right, false);
+		return sumOfLeftLeaves(root, false);
 	}
 
-	public int sumOfLeftLeaves(TreeNode root, boolean isLeft)
+	public int sumOfLeftLeaves(TreeNode root, boolean left)
 	{
 		if (root == null)
 		{
@@ -29,7 +30,7 @@ public class SumOfLeftLeaves
 
 		if (root.left == null && root.right == null)
 		{
-			return isLeft ? root.val : 0;
+			return left ? root.val : 0;
 		}
 
 		return sumOfLeftLeaves(root.left, true) + sumOfLeftLeaves(root.right, false);
