@@ -325,7 +325,7 @@ Count of solved tasks: 1436
 |436|Undefined|[Find Right Interval](https://leetcode.com/problems/find-right-interval/)|[Find Right Interval.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindRightInterval.java)|
 |437|Undefined|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Path Sum III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PathSumIII.java)|
 |438|Undefined|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Find All Anagrams in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllAnagramsInString.java)|
-|441|Undefined|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[Arranging Coins.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrangingCoins.java)|
+|441|Easy|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[Arranging Coins.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrangingCoins.java)|
 |442|Medium|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[Find All Duplicates in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllDuplicatesInArray.java)|
 |443|Undefined|[String Compression](https://leetcode.com/problems/string-compression/)|[String Compression.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StringCompression.java)|
 |445|Undefined|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|[Add Two Numbers II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddTwoNumbersII.java)|
@@ -1287,6 +1287,7 @@ Count of solved tasks: 1436
 |374|Easy|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Guess Number Higher or Lower.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GuessNumberHigherOrLower.java)|
 |404|Easy|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Sum of Left Leaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfLeftLeaves.java)|
 |415|Easy|[Add Strings](https://leetcode.com/problems/add-strings/)|[Add Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddStrings.java)|
+|441|Easy|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[Arranging Coins.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrangingCoins.java)|
 |463|Easy|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Island Perimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IslandPerimeter.java)|
 |485|Easy|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max Consecutive Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxConsecutiveOnes.java)|
 |496|Easy|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Next Greater Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NextGreaterElementI.java)|

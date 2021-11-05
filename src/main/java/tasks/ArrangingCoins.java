@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 06-Jun-20
  */
-@LeetCode(id = 441, name = "Arranging Coins", url = "https://leetcode.com/problems/arranging-coins/")
+@LeetCode(
+	id = 441,
+	name = "Arranging Coins",
+	url = "https://leetcode.com/problems/arranging-coins/",
+	difficulty = Difficulty.EASY
+)
 public class ArrangingCoins
 {
 	public int arrangeCoins(int n)
