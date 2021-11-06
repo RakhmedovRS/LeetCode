@@ -213,7 +213,7 @@ Count of solved tasks: 1436
 |242|Easy|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Valid Anagram.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidAnagram.java)|
 |257|Undefined|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Binary Tree Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreePaths.java)|
 |258|Easy|[Add Digits](https://leetcode.com/problems/add-digits/)|[Add Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddDigits.java)|
-|260|Undefined|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[Single Number III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SingleNumberIII.java)|
+|260|Medium|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[Single Number III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SingleNumberIII.java)|
 |263|Undefined|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Ugly Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UglyNumber.java)|
 |264|Medium|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Ugly Number II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UglyNumberII.java)|
 |268|Easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MissingNumber.java)|
@@ -1480,6 +1480,7 @@ Count of solved tasks: 1436
 |227|Medium|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Basic Calculator II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BasicCalculatorII.java)|
 |236|Medium|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Lowest Common Ancestor of a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LowestCommonAncestorOfBinaryTree.java)|
 |240|Medium|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Search a 2D Matrix II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Search2DMatrixII.java)|
+|260|Medium|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[Single Number III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SingleNumberIII.java)|
 |264|Medium|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Ugly Number II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UglyNumberII.java)|
 |279|Medium|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Perfect Squares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PerfectSquares.java)|
 |284|Medium|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Peeking Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PeekingIterator.java)|
