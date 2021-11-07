@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1439
+Count of solved tasks: 1440
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -47,6 +47,7 @@ Count of solved tasks: 1439
 |39|Undefined|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Combination Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CombinationSum.java)|
 |41|Hard|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[First Missing Positive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstMissingPositive.java)|
 |42|Hard|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Trapping Rain Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TrappingRainWater.java)|
+|43|Medium|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[Multiply Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MultiplyStrings.java)|
 |44|Undefined|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[Wildcard Matching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WildcardMatching.java)|
 |45|Medium|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Jump Game II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGameII.java)|
 |46|Undefined|[Permutations](https://leetcode.com/problems/permutations/)|[Permutations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Permutations.java)|
@@ -1440,6 +1441,7 @@ Count of solved tasks: 1439
 |33|Medium|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search in Rotated Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SearchInRotatedSortedArray.java)|
 |34|Medium|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Find First and Last Position of Element in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindFirstAndLastPositionOfElementInSortedArray.java)|
 |36|Medium|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Valid Sudoku.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidSudoku.java)|
+|43|Medium|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[Multiply Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MultiplyStrings.java)|
 |45|Medium|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Jump Game II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGameII.java)|
 |48|Medium|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[Rotate Image.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotateImage.java)|
 |49|Medium|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Group Anagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GroupAnagrams.java)|
