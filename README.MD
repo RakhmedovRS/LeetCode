@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1437
+Count of solved tasks: 1438
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1246,7 +1246,8 @@ Count of solved tasks: 1437
 |2053|Easy|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|[Kth Distinct String in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthDistinctStringInArray.java)|
 |2054|Medium|[Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/)|[Two Best Non-Overlapping Events.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoBestNonOverlappingEvents.java)|
 |2055|Medium|[Plates Between Candles](https://leetcode.com/problems/plates-between-candles/)|[Plates Between Candles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PlatesBetweenCandles.java)|
-|2062|Easy|[Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)|[Count Vowel Substrings of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountVowelSubstringsOfString.java)|</p>
+|2062|Easy|[Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)|[Count Vowel Substrings of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountVowelSubstringsOfString.java)|
+|2063|Medium|[Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/)|[Vowels of All Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelsOfAllSubstrings.java)|</p>
 </details>
 
 <details>
@@ -1794,7 +1795,8 @@ Count of solved tasks: 1437
 |2043|Medium|[Simple Bank System](https://leetcode.com/problems/simple-bank-system/)|[Simple Bank System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SimpleBankSystem.java)|
 |2044|Medium|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|[Count Number of Maximum Bitwise-OR Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfMaximumBitwiseORSubsets.java)|
 |2054|Medium|[Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/)|[Two Best Non-Overlapping Events.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoBestNonOverlappingEvents.java)|
-|2055|Medium|[Plates Between Candles](https://leetcode.com/problems/plates-between-candles/)|[Plates Between Candles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PlatesBetweenCandles.java)|</p>
+|2055|Medium|[Plates Between Candles](https://leetcode.com/problems/plates-between-candles/)|[Plates Between Candles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PlatesBetweenCandles.java)|
+|2063|Medium|[Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/)|[Vowels of All Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelsOfAllSubstrings.java)|</p>
 </details>
 
 <details>
