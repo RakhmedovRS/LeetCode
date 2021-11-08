@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 11/3/2020
  */
-@LeetCode(id = 96, name = "Unique Binary Search Trees", url = "")
+@LeetCode(
+	id = 96,
+	name = "Unique Binary Search Trees",
+	url = "https://leetcode.com/problems/unique-binary-search-trees/",
+	difficulty = Difficulty.MEDIUM
+)
 public class UniqueBinarySearchTrees
 {
 	public int numTrees(int n)
