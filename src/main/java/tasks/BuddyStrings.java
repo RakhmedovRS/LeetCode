@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 
@@ -7,7 +8,12 @@ import common.LeetCode;
  * @author RakhmedovRS
  * @created 9/26/2020
  */
-@LeetCode(id = 859, name = "Buddy Strings", url = "https://leetcode.com/problems/buddy-strings/")
+@LeetCode(
+	id = 859,
+	name = "Buddy Strings",
+	url = "https://leetcode.com/problems/buddy-strings/",
+	difficulty = Difficulty.EASY
+)
 public class BuddyStrings
 {
 	public boolean buddyStrings(String A, String B)
