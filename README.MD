@@ -173,7 +173,7 @@ Count of solved tasks: 1440
 |200|Undefined|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Number of Islands.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfIslands.java)|
 |201|Medium|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|[Bitwise AND of Numbers Range.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BitwiseANDOfNumbersRange.java)|
 |202|Undefined|[Happy Number](https://leetcode.com/problems/happy-number/)|[Happy Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HappyNumber.java)|
-|203|Undefined|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove Linked List Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveLinkedListElements.java)|
+|203|Easy|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove Linked List Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveLinkedListElements.java)|
 |204|Easy|[Count Primes](https://leetcode.com/problems/count-primes/)|[Count Primes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPrimes.java)|
 |205|Easy|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Isomorphic Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IsomorphicStrings.java)|
 |206|Easy|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseLinkedList.java)|
@@ -1276,6 +1276,7 @@ Count of solved tasks: 1440
 |155|Easy|[Min Stack](https://leetcode.com/problems/min-stack/)|[Min Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinStack.java)|
 |160|Easy|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Intersection of Two Linked Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IntersectionOfTwoLinkedLists.java)|
 |191|Easy|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOf1Bits.java)|
+|203|Easy|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove Linked List Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveLinkedListElements.java)|
 |204|Easy|[Count Primes](https://leetcode.com/problems/count-primes/)|[Count Primes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPrimes.java)|
 |205|Easy|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Isomorphic Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IsomorphicStrings.java)|
 |206|Easy|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseLinkedList.java)|

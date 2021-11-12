@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.ListNode;
 
@@ -7,7 +8,12 @@ import common.ListNode;
  * @author RakhmedovRS
  * @created 07-May-20
  */
-@LeetCode(id = 203, name = "Remove Linked List Elements", url = "https://leetcode.com/problems/remove-linked-list-elements/")
+@LeetCode(
+	id = 203,
+	name = "Remove Linked List Elements",
+	url = "https://leetcode.com/problems/remove-linked-list-elements/",
+	difficulty = Difficulty.EASY
+)
 public class RemoveLinkedListElements
 {
 	public ListNode removeElements(ListNode head, int val)
