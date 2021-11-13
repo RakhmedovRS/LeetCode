@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1440
+Count of solved tasks: 1441
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1249,7 +1249,8 @@ Count of solved tasks: 1440
 |2055|Medium|[Plates Between Candles](https://leetcode.com/problems/plates-between-candles/)|[Plates Between Candles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PlatesBetweenCandles.java)|
 |2057|Easy|[Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)|[Smallest Index With Equal Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestIndexWithEqualValue.java)|
 |2062|Easy|[Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)|[Count Vowel Substrings of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountVowelSubstringsOfString.java)|
-|2063|Medium|[Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/)|[Vowels of All Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelsOfAllSubstrings.java)|</p>
+|2063|Medium|[Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/)|[Vowels of All Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelsOfAllSubstrings.java)|
+|2068|Easy|[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)|[Check Whether Two Strings are Almost Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckWhetherTwoStringsAreAlmostEquivalent.java)|</p>
 </details>
 
 <details>
@@ -1419,7 +1420,8 @@ Count of solved tasks: 1440
 |2047|Easy|[Number of Valid Words in a Sentence](https://leetcode.com/problems/number-of-valid-words-in-a-sentence/)|[Number of Valid Words in a Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfValidWordsInSentence.java)|
 |2053|Easy|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|[Kth Distinct String in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthDistinctStringInArray.java)|
 |2057|Easy|[Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)|[Smallest Index With Equal Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestIndexWithEqualValue.java)|
-|2062|Easy|[Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)|[Count Vowel Substrings of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountVowelSubstringsOfString.java)|</p>
+|2062|Easy|[Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)|[Count Vowel Substrings of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountVowelSubstringsOfString.java)|
+|2068|Easy|[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)|[Check Whether Two Strings are Almost Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckWhetherTwoStringsAreAlmostEquivalent.java)|</p>
 </details>
 
 <details>
