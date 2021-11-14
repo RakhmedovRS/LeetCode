@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1444
+Count of solved tasks: 1445
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1253,7 +1253,8 @@ Count of solved tasks: 1444
 |2068|Easy|[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)|[Check Whether Two Strings are Almost Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckWhetherTwoStringsAreAlmostEquivalent.java)|
 |2070|Medium|[Most Beautiful Item for Each Query](https://leetcode.com/problems/most-beautiful-item-for-each-query/)|[Most Beautiful Item for Each Query.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostBeautifulItemForEachQuery.java)|
 |2073|Easy|[Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/)|[Time Needed to Buy Tickets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TimeNeededToBuyTickets.java)|
-|2074|Medium|[Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)|[Reverse Nodes in Even Length Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseNodesInEvenLengthGroups.java)|</p>
+|2074|Medium|[Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)|[Reverse Nodes in Even Length Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseNodesInEvenLengthGroups.java)|
+|2075|Medium|[Decode the Slanted Ciphertext](https://leetcode.com/problems/decode-the-slanted-ciphertext/)|[Decode the Slanted Ciphertext.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeTheSlantedCiphertext.java)|</p>
 </details>
 
 <details>
@@ -1814,7 +1815,8 @@ Count of solved tasks: 1444
 |2055|Medium|[Plates Between Candles](https://leetcode.com/problems/plates-between-candles/)|[Plates Between Candles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PlatesBetweenCandles.java)|
 |2063|Medium|[Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/)|[Vowels of All Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelsOfAllSubstrings.java)|
 |2070|Medium|[Most Beautiful Item for Each Query](https://leetcode.com/problems/most-beautiful-item-for-each-query/)|[Most Beautiful Item for Each Query.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostBeautifulItemForEachQuery.java)|
-|2074|Medium|[Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)|[Reverse Nodes in Even Length Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseNodesInEvenLengthGroups.java)|</p>
+|2074|Medium|[Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)|[Reverse Nodes in Even Length Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseNodesInEvenLengthGroups.java)|
+|2075|Medium|[Decode the Slanted Ciphertext](https://leetcode.com/problems/decode-the-slanted-ciphertext/)|[Decode the Slanted Ciphertext.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeTheSlantedCiphertext.java)|</p>
 </details>
 
 <details>
