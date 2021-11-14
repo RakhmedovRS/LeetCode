@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1442
+Count of solved tasks: 1443
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1251,7 +1251,8 @@ Count of solved tasks: 1442
 |2062|Easy|[Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)|[Count Vowel Substrings of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountVowelSubstringsOfString.java)|
 |2063|Medium|[Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/)|[Vowels of All Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelsOfAllSubstrings.java)|
 |2068|Easy|[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)|[Check Whether Two Strings are Almost Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckWhetherTwoStringsAreAlmostEquivalent.java)|
-|2070|Medium|[Most Beautiful Item for Each Query](https://leetcode.com/problems/most-beautiful-item-for-each-query/)|[Most Beautiful Item for Each Query.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostBeautifulItemForEachQuery.java)|</p>
+|2070|Medium|[Most Beautiful Item for Each Query](https://leetcode.com/problems/most-beautiful-item-for-each-query/)|[Most Beautiful Item for Each Query.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostBeautifulItemForEachQuery.java)|
+|2073|Easy|[Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/)|[Time Needed to Buy Tickets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TimeNeededToBuyTickets.java)|</p>
 </details>
 
 <details>
@@ -1422,7 +1423,8 @@ Count of solved tasks: 1442
 |2053|Easy|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|[Kth Distinct String in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthDistinctStringInArray.java)|
 |2057|Easy|[Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)|[Smallest Index With Equal Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestIndexWithEqualValue.java)|
 |2062|Easy|[Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)|[Count Vowel Substrings of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountVowelSubstringsOfString.java)|
-|2068|Easy|[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)|[Check Whether Two Strings are Almost Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckWhetherTwoStringsAreAlmostEquivalent.java)|</p>
+|2068|Easy|[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)|[Check Whether Two Strings are Almost Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckWhetherTwoStringsAreAlmostEquivalent.java)|
+|2073|Easy|[Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/)|[Time Needed to Buy Tickets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TimeNeededToBuyTickets.java)|</p>
 </details>
 
 <details>
