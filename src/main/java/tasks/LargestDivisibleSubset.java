@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -8,7 +9,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 13-Jun-20
  */
-@LeetCode(id = 368, name = "Largest Divisible Subset", url = "https://leetcode.com/problems/largest-divisible-subset/")
+@LeetCode(
+	id = 368,
+	name = "Largest Divisible Subset",
+	url = "https://leetcode.com/problems/largest-divisible-subset/",
+	difficulty = Difficulty.MEDIUM
+)
 public class LargestDivisibleSubset
 {
 	public List<Integer> largestDivisibleSubset(int[] nums)
