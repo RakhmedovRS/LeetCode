@@ -66,7 +66,7 @@ Count of solved tasks: 1445
 |59|Medium|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Spiral Matrix II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpiralMatrixII.java)|
 |60|Undefined|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|[Permutation Sequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PermutationSequence.java)|
 |61|Undefined|[Rotate List](https://leetcode.com/problems/rotate-list/)|[Rotate List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotateList.java)|
-|62|Undefined|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Unique Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniquePaths.java)|
+|62|Medium|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Unique Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniquePaths.java)|
 |63|Medium|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Unique Paths II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniquePathsII.java)|
 |64|Undefined|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Minimum Path Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPathSum.java)|
 |65|Hard|[Valid Number](https://leetcode.com/problems/valid-number/)|[Valid Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidNumber.java)|
@@ -1460,6 +1460,7 @@ Count of solved tasks: 1445
 |55|Medium|[Jump Game](https://leetcode.com/problems/jump-game/)|[Jump Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGame.java)|
 |56|Medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge Intervals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeIntervals.java)|
 |59|Medium|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Spiral Matrix II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpiralMatrixII.java)|
+|62|Medium|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Unique Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniquePaths.java)|
 |63|Medium|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Unique Paths II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniquePathsII.java)|
 |71|Medium|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[Simplify Path.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SimplifyPath.java)|
 |73|Medium|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[Set Matrix Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SetMatrixZeroes.java)|

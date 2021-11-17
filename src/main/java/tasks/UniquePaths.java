@@ -1,36 +1,39 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
+
+import java.util.Arrays;
 
 /**
  * @author RakhmedovRS
  * @created 08-Apr-20
  */
-@LeetCode(id = 62, name = "Unique Paths", url = "https://leetcode.com/problems/unique-paths/")
+@LeetCode(
+	id = 62,
+	name = "Unique Paths",
+	url = "https://leetcode.com/problems/unique-paths/",
+	difficulty = Difficulty.MEDIUM
+)
 public class UniquePaths
 {
-	public int uniquePaths(int m, int n)
+	public int uniquePaths(int rows, int columns)
 	{
-		int[][] grid = new int[n][m];
-		for (int row = 0; row < n; row++)
+		int[][] grid = new int[rows][columns];
+		Arrays.fill(grid[0], 1);
+		for (int row = 0; row < rows; row++)
 		{
-			for (int column = 0; column < m; column++)
+			grid[row][0] = 1;
+		}
+
+		for (int row = 1; row < rows; row++)
+		{
+			for (int column = 1; column < columns; column++)
 			{
-				if (row == 0)
-				{
-					grid[row][column] = 1;
-				}
-				else if (column == 0)
-				{
-					grid[row][column] = 1;
-				}
-				else
-				{
-					grid[row][column] = grid[row - 1][column] + grid[row][column - 1];
-				}
+				grid[row][column] = grid[row - 1][column] + grid[row][column - 1];
 			}
 		}
 
-		return grid[n - 1][m - 1];
+		return grid[rows - 1][columns - 1];
 	}
 }
