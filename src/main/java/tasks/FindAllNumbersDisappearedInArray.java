@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -9,7 +10,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 22-Apr-20
  */
-@LeetCode(id = 448, name = "Find All Numbers Disappeared in an Array", url = "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/")
+@LeetCode(
+	id = 448,
+	name = "Find All Numbers Disappeared in an Array",
+	url = "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/",
+	difficulty = Difficulty.EASY
+)
 public class FindAllNumbersDisappearedInArray
 {
 	public List<Integer> findDisappearedNumbers(int[] nums)
