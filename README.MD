@@ -342,7 +342,7 @@ Count of solved tasks: 1445
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[Poor Pigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PoorPigs.java)|
 |459|Undefined|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[Repeated Substring Pattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RepeatedSubstringPattern.java)|
 |460|Undefined|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|[LFU Cache.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LFUCache.java)|
-|461|Undefined|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Hamming Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HammingDistance.java)|
+|461|Easy|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Hamming Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HammingDistance.java)|
 |462|Medium|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|[Minimum Moves to Equal Array Elements II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToEqualArrayElementsII.java)|
 |463|Easy|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Island Perimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IslandPerimeter.java)|
 |464|Undefined|[Can I Win](https://leetcode.com/problems/can-i-win/)|[Can I Win.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CanIWin.java)|
@@ -1299,6 +1299,7 @@ Count of solved tasks: 1445
 |415|Easy|[Add Strings](https://leetcode.com/problems/add-strings/)|[Add Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddStrings.java)|
 |441|Easy|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[Arranging Coins.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrangingCoins.java)|
 |448|Easy|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Find All Numbers Disappeared in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllNumbersDisappearedInArray.java)|
+|461|Easy|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Hamming Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HammingDistance.java)|
 |463|Easy|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Island Perimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IslandPerimeter.java)|
 |485|Easy|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max Consecutive Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxConsecutiveOnes.java)|
 |496|Easy|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Next Greater Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NextGreaterElementI.java)|

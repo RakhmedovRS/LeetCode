@@ -1,28 +1,32 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 31-Mar-20
  */
-@LeetCode(id = 461, name = "Hamming Distance", url = "https://leetcode.com/problems/hamming-distance/")
+@LeetCode(
+	id = 461,
+	name = "Hamming Distance",
+	url = "https://leetcode.com/problems/hamming-distance/",
+	difficulty = Difficulty.EASY
+)
 public class HammingDistance
 {
 	public int hammingDistance(int x, int y)
 	{
-		int diff = 0;
-		for (int i = 0; i < 32; i++)
+		int count = 0;
+		while (x != 0 || y != 0)
 		{
-			if ((x & 1) != (y & 1))
-			{
-				diff++;
-			}
-			x >>= 1;
-			y >>= 1;
-		}
 
-		return diff;
+			count += ((1 & x) == (1 & y) ? 0 : 1);
+
+			x = x >> 1;
+			y = y >> 1;
+		}
+		return count;
 	}
 
 	public static void main(String[] args)
