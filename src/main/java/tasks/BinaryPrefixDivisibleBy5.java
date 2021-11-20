@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -10,7 +11,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 10-Jul-20
  */
-@LeetCode(id = 1018, name = "Binary Prefix Divisible By 5", url = "https://leetcode.com/problems/binary-prefix-divisible-by-5/")
+@LeetCode(
+	id = 1018,
+	name = "Binary Prefix Divisible By 5",
+	url = "https://leetcode.com/problems/binary-prefix-divisible-by-5/",
+	difficulty = Difficulty.EASY
+)
 public class BinaryPrefixDivisibleBy5
 {
 	public List<Boolean> prefixesDivBy5(int[] A)
