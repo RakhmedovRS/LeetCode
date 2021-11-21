@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1445
+Count of solved tasks: 1446
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1254,7 +1254,8 @@ Count of solved tasks: 1445
 |2070|Medium|[Most Beautiful Item for Each Query](https://leetcode.com/problems/most-beautiful-item-for-each-query/)|[Most Beautiful Item for Each Query.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostBeautifulItemForEachQuery.java)|
 |2073|Easy|[Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/)|[Time Needed to Buy Tickets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TimeNeededToBuyTickets.java)|
 |2074|Medium|[Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)|[Reverse Nodes in Even Length Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseNodesInEvenLengthGroups.java)|
-|2075|Medium|[Decode the Slanted Ciphertext](https://leetcode.com/problems/decode-the-slanted-ciphertext/)|[Decode the Slanted Ciphertext.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeTheSlantedCiphertext.java)|</p>
+|2075|Medium|[Decode the Slanted Ciphertext](https://leetcode.com/problems/decode-the-slanted-ciphertext/)|[Decode the Slanted Ciphertext.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeTheSlantedCiphertext.java)|
+|2078|Easy|[Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)|[Two Furthest Houses With Different Colors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoFurthestHousesWithDifferentColors.java)|</p>
 </details>
 
 <details>
@@ -1430,7 +1431,8 @@ Count of solved tasks: 1445
 |2057|Easy|[Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)|[Smallest Index With Equal Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestIndexWithEqualValue.java)|
 |2062|Easy|[Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)|[Count Vowel Substrings of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountVowelSubstringsOfString.java)|
 |2068|Easy|[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)|[Check Whether Two Strings are Almost Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckWhetherTwoStringsAreAlmostEquivalent.java)|
-|2073|Easy|[Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/)|[Time Needed to Buy Tickets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TimeNeededToBuyTickets.java)|</p>
+|2073|Easy|[Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/)|[Time Needed to Buy Tickets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TimeNeededToBuyTickets.java)|
+|2078|Easy|[Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)|[Two Furthest Houses With Different Colors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoFurthestHousesWithDifferentColors.java)|</p>
 </details>
 
 <details>
