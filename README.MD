@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1447
+Count of solved tasks: 1448
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1256,7 +1256,8 @@ Count of solved tasks: 1447
 |2074|Medium|[Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)|[Reverse Nodes in Even Length Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseNodesInEvenLengthGroups.java)|
 |2075|Medium|[Decode the Slanted Ciphertext](https://leetcode.com/problems/decode-the-slanted-ciphertext/)|[Decode the Slanted Ciphertext.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeTheSlantedCiphertext.java)|
 |2078|Easy|[Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)|[Two Furthest Houses With Different Colors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoFurthestHousesWithDifferentColors.java)|
-|2079|Medium|[Watering Plants](https://leetcode.com/problems/watering-plants/)|[Watering Plants.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WateringPlants.java)|</p>
+|2079|Medium|[Watering Plants](https://leetcode.com/problems/watering-plants/)|[Watering Plants.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WateringPlants.java)|
+|2080|Medium|[Range Frequency Queries](https://leetcode.com/problems/range-frequency-queries/)|[Range Frequency Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeFrequencyQueries.java)|</p>
 </details>
 
 <details>
@@ -1826,7 +1827,8 @@ Count of solved tasks: 1447
 |2070|Medium|[Most Beautiful Item for Each Query](https://leetcode.com/problems/most-beautiful-item-for-each-query/)|[Most Beautiful Item for Each Query.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostBeautifulItemForEachQuery.java)|
 |2074|Medium|[Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)|[Reverse Nodes in Even Length Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseNodesInEvenLengthGroups.java)|
 |2075|Medium|[Decode the Slanted Ciphertext](https://leetcode.com/problems/decode-the-slanted-ciphertext/)|[Decode the Slanted Ciphertext.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeTheSlantedCiphertext.java)|
-|2079|Medium|[Watering Plants](https://leetcode.com/problems/watering-plants/)|[Watering Plants.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WateringPlants.java)|</p>
+|2079|Medium|[Watering Plants](https://leetcode.com/problems/watering-plants/)|[Watering Plants.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WateringPlants.java)|
+|2080|Medium|[Range Frequency Queries](https://leetcode.com/problems/range-frequency-queries/)|[Range Frequency Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeFrequencyQueries.java)|</p>
 </details>
 
 <details>
