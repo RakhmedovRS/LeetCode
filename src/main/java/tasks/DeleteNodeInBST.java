@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeBuilder;
 import common.TreeNode;
@@ -8,7 +9,12 @@ import common.TreeNode;
  * @author RakhmedovRS
  * @created 01-Aug-20
  */
-@LeetCode(id = 450, name = "Delete Node in a BST", url = "https://leetcode.com/problems/delete-node-in-a-bst/")
+@LeetCode(
+	id = 450,
+	name = "Delete Node in a BST",
+	url = "https://leetcode.com/problems/delete-node-in-a-bst/",
+	difficulty = Difficulty.MEDIUM
+)
 public class DeleteNodeInBST
 {
 	public TreeNode deleteNode(TreeNode root, int key)
