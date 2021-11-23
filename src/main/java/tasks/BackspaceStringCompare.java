@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.LinkedList;
@@ -8,7 +9,12 @@ import java.util.LinkedList;
  * @author RakhmedovRS
  * @created 09-Apr-20
  */
-@LeetCode(id = 844, name = "Backspace String Compare", url = "https://leetcode.com/problems/backspace-string-compare/")
+@LeetCode(
+	id = 844,
+	name = "Backspace String Compare",
+	url = "https://leetcode.com/problems/backspace-string-compare/",
+	difficulty = Difficulty.EASY
+)
 public class BackspaceStringCompare
 {
 	public boolean backspaceCompare(String S, String T)
