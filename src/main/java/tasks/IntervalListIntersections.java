@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -10,7 +11,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 23-May-20
  */
-@LeetCode(id = 986, name = "Interval List Intersections", url = "https://leetcode.com/problems/interval-list-intersections/")
+@LeetCode(
+	id = 986,
+	name = "Interval List Intersections",
+	url = "https://leetcode.com/problems/interval-list-intersections/",
+	difficulty = Difficulty.MEDIUM
+)
 public class IntervalListIntersections
 {
 	public int[][] intervalIntersection(int[][] A, int[][] B)
