@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 31-Aug-20
  */
-@LeetCode(id = 1014, name = "Best Sightseeing Pair", url = "https://leetcode.com/problems/best-sightseeing-pair/")
+@LeetCode(
+	id = 1014,
+	name = "Best Sightseeing Pair",
+	url = "https://leetcode.com/problems/best-sightseeing-pair/",
+	difficulty = Difficulty.MEDIUM
+)
 public class BestSightseeingPair
 {
 	public int maxScoreSightseeingPair(int[] A)
