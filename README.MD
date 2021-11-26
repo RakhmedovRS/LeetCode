@@ -40,7 +40,7 @@ Count of solved tasks: 1449
 |32|Hard|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Longest Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestValidParentheses.java)|
 |33|Medium|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search in Rotated Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SearchInRotatedSortedArray.java)|
 |34|Medium|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Find First and Last Position of Element in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindFirstAndLastPositionOfElementInSortedArray.java)|
-|35|Undefined|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Search Insert Position.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SearchInsertPosition.java)|
+|35|Easy|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Search Insert Position.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SearchInsertPosition.java)|
 |36|Medium|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Valid Sudoku.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidSudoku.java)|
 |37|Hard|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|[Sudoku Solver.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SudokuSolver.java)|
 |38|Undefined|[Count and Say](https://leetcode.com/problems/count-and-say/)|[Count and Say.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountAndSay.java)|
@@ -1273,6 +1273,7 @@ Count of solved tasks: 1449
 |20|Easy|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidParentheses.java)|
 |21|Easy|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeTwoSortedLists.java)|
 |27|Easy|[Remove Element](https://leetcode.com/problems/remove-element/)|[Remove Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveElement.java)|
+|35|Easy|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Search Insert Position.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SearchInsertPosition.java)|
 |53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSubarray.java)|
 |67|Easy|[Add Binary](https://leetcode.com/problems/add-binary/)|[Add Binary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddBinary.java)|
 |70|Easy|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClimbingStairs.java)|
