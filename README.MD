@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1449
+Count of solved tasks: 1450
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1258,7 +1258,8 @@ Count of solved tasks: 1449
 |2075|Medium|[Decode the Slanted Ciphertext](https://leetcode.com/problems/decode-the-slanted-ciphertext/)|[Decode the Slanted Ciphertext.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeTheSlantedCiphertext.java)|
 |2078|Easy|[Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)|[Two Furthest Houses With Different Colors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoFurthestHousesWithDifferentColors.java)|
 |2079|Medium|[Watering Plants](https://leetcode.com/problems/watering-plants/)|[Watering Plants.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WateringPlants.java)|
-|2080|Medium|[Range Frequency Queries](https://leetcode.com/problems/range-frequency-queries/)|[Range Frequency Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeFrequencyQueries.java)|</p>
+|2080|Medium|[Range Frequency Queries](https://leetcode.com/problems/range-frequency-queries/)|[Range Frequency Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeFrequencyQueries.java)|
+|2085|Easy|[Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/)|[Count Common Words With One Occurrence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCommonWordsWithOneOccurrence.java)|</p>
 </details>
 
 <details>
@@ -1437,7 +1438,8 @@ Count of solved tasks: 1449
 |2062|Easy|[Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)|[Count Vowel Substrings of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountVowelSubstringsOfString.java)|
 |2068|Easy|[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)|[Check Whether Two Strings are Almost Equivalent.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckWhetherTwoStringsAreAlmostEquivalent.java)|
 |2073|Easy|[Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/)|[Time Needed to Buy Tickets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TimeNeededToBuyTickets.java)|
-|2078|Easy|[Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)|[Two Furthest Houses With Different Colors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoFurthestHousesWithDifferentColors.java)|</p>
+|2078|Easy|[Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)|[Two Furthest Houses With Different Colors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoFurthestHousesWithDifferentColors.java)|
+|2085|Easy|[Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/)|[Count Common Words With One Occurrence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCommonWordsWithOneOccurrence.java)|</p>
 </details>
 
 <details>
