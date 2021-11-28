@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1453
+Count of solved tasks: 1454
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1262,7 +1262,8 @@ Count of solved tasks: 1453
 |2085|Easy|[Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/)|[Count Common Words With One Occurrence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCommonWordsWithOneOccurrence.java)|
 |2086|Medium|[Minimum Number of Buckets Required to Collect Rainwater from Houses](https://leetcode.com/problems/minimum-number-of-buckets-required-to-collect-rainwater-from-houses/)|[Minimum Number of Buckets Required to Collect Rainwater from Houses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfBucketsRequiredToCollectRainwaterFromHouses.java)|
 |2087|Medium|[Minimum Cost Homecoming of a Robot in a Grid](https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/)|[Minimum Cost Homecoming of a Robot in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostHomecomingOfRobotInGrid.java)|
-|2089|Easy|[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)|[Find Target Indices After Sorting Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTargetIndicesAfterSortingArray.java)|</p>
+|2089|Easy|[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)|[Find Target Indices After Sorting Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTargetIndicesAfterSortingArray.java)|
+|2090|Medium|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|[K Radius Subarray Averages.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KRadiusSubarrayAverages.java)|</p>
 </details>
 
 <details>
@@ -1842,7 +1843,8 @@ Count of solved tasks: 1453
 |2079|Medium|[Watering Plants](https://leetcode.com/problems/watering-plants/)|[Watering Plants.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WateringPlants.java)|
 |2080|Medium|[Range Frequency Queries](https://leetcode.com/problems/range-frequency-queries/)|[Range Frequency Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeFrequencyQueries.java)|
 |2086|Medium|[Minimum Number of Buckets Required to Collect Rainwater from Houses](https://leetcode.com/problems/minimum-number-of-buckets-required-to-collect-rainwater-from-houses/)|[Minimum Number of Buckets Required to Collect Rainwater from Houses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfBucketsRequiredToCollectRainwaterFromHouses.java)|
-|2087|Medium|[Minimum Cost Homecoming of a Robot in a Grid](https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/)|[Minimum Cost Homecoming of a Robot in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostHomecomingOfRobotInGrid.java)|</p>
+|2087|Medium|[Minimum Cost Homecoming of a Robot in a Grid](https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/)|[Minimum Cost Homecoming of a Robot in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostHomecomingOfRobotInGrid.java)|
+|2090|Medium|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|[K Radius Subarray Averages.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KRadiusSubarrayAverages.java)|</p>
 </details>
 
 <details>
