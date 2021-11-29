@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -10,7 +11,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 10/20/2020
  */
-@LeetCode(id = 1145, name = "Binary Tree Coloring Game", url = "https://leetcode.com/problems/binary-tree-coloring-game/")
+@LeetCode(
+	id = 1145,
+	name = "Binary Tree Coloring Game",
+	url = "https://leetcode.com/problems/binary-tree-coloring-game/",
+	difficulty = Difficulty.MEDIUM
+)
 public class BinaryTreeColoringGame
 {
 	public boolean btreeGameWinningMove(TreeNode root, int n, int x)
