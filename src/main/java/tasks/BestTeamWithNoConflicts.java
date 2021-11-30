@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -9,7 +10,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 10/18/2020
  */
-@LeetCode(id = 1626, name = "Best Team With No Conflicts", url = "https://leetcode.com/problems/best-team-with-no-conflicts/")
+@LeetCode(
+	id = 1626,
+	name = "Best Team With No Conflicts",
+	url = "https://leetcode.com/problems/best-team-with-no-conflicts/",
+	difficulty = Difficulty.MEDIUM
+)
 public class BestTeamWithNoConflicts
 {
 	static class Player
