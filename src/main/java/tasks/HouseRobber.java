@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 24-Feb-20
  */
-@LeetCode(id = 198, name = "House Robber", url = "https://leetcode.com/problems/house-robber/")
+@LeetCode(
+	id = 198,
+	name = "House Robber",
+	url = "https://leetcode.com/problems/house-robber/",
+	difficulty = Difficulty.MEDIUM
+)
 public class HouseRobber
 {
 	public int rob(int[] nums)
