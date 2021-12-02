@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.ListNode;
 
@@ -7,7 +8,12 @@ import common.ListNode;
  * @author RakhmedovRS
  * @created 06-Apr-20
  */
-@LeetCode(id = 328, name = "Odd Even Linked List", url = "https://leetcode.com/problems/odd-even-linked-list/")
+@LeetCode(
+	id = 328,
+	name = "Odd Even Linked List",
+	url = "https://leetcode.com/problems/odd-even-linked-list/",
+	difficulty = Difficulty.MEDIUM
+)
 public class OddEvenLinkedList
 {
 public ListNode oddEvenList(ListNode head)
