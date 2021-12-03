@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 07-Mar-20
  */
-@LeetCode(id = 152, name = "Maximum Product Subarray", url = "https://leetcode.com/problems/maximum-product-subarray/")
+@LeetCode(
+	id = 152,
+	name = "Maximum Product Subarray",
+	url = "https://leetcode.com/problems/maximum-product-subarray/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MaximumProductSubarray
 {
 	public int maxProduct(int[] nums)
