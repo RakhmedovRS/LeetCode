@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 23-Aug-20
  */
-@LeetCode(id = 1032, name = "Stream of Characters", url = "https://leetcode.com/problems/stream-of-characters/")
+@LeetCode(
+	id = 1032,
+	name = "Stream of Characters",
+	url = "https://leetcode.com/problems/stream-of-characters/",
+	difficulty = Difficulty.HARD
+)
 public class StreamOfCharacters
 {
 	class StreamChecker
