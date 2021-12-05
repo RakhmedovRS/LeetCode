@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1456
+Count of solved tasks: 1457
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1265,7 +1265,8 @@ Count of solved tasks: 1456
 |2089|Easy|[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)|[Find Target Indices After Sorting Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTargetIndicesAfterSortingArray.java)|
 |2090|Medium|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|[K Radius Subarray Averages.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KRadiusSubarrayAverages.java)|
 |2091|Medium|[Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/)|[Removing Minimum and Maximum From Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemovingMinimumAndMaximumFromArray.java)|
-|2094|Easy|[Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/)|[Finding 3-Digit Even Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindingTreeDigitEvenNumbers.java)|</p>
+|2094|Easy|[Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/)|[Finding 3-Digit Even Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindingTreeDigitEvenNumbers.java)|
+|2095|Medium|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[Delete the Middle Node of a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteTheMiddleNodeOfLinkedList.java)|</p>
 </details>
 
 <details>
@@ -1853,7 +1854,8 @@ Count of solved tasks: 1456
 |2086|Medium|[Minimum Number of Buckets Required to Collect Rainwater from Houses](https://leetcode.com/problems/minimum-number-of-buckets-required-to-collect-rainwater-from-houses/)|[Minimum Number of Buckets Required to Collect Rainwater from Houses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfBucketsRequiredToCollectRainwaterFromHouses.java)|
 |2087|Medium|[Minimum Cost Homecoming of a Robot in a Grid](https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/)|[Minimum Cost Homecoming of a Robot in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostHomecomingOfRobotInGrid.java)|
 |2090|Medium|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|[K Radius Subarray Averages.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KRadiusSubarrayAverages.java)|
-|2091|Medium|[Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/)|[Removing Minimum and Maximum From Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemovingMinimumAndMaximumFromArray.java)|</p>
+|2091|Medium|[Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/)|[Removing Minimum and Maximum From Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemovingMinimumAndMaximumFromArray.java)|
+|2095|Medium|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[Delete the Middle Node of a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteTheMiddleNodeOfLinkedList.java)|</p>
 </details>
 
 <details>
