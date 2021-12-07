@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.ListNode;
 
@@ -7,19 +8,23 @@ import common.ListNode;
  * @author RakhmedovRS
  * @created 11/1/2020
  */
-@LeetCode(id = 1290, name = "Convert Binary Number in a Linked List to Integer", url = "https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/")
+@LeetCode(
+	id = 1290,
+	name = "Convert Binary Number in a Linked List to Integer",
+	url = "https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/",
+	difficulty = Difficulty.EASY
+)
 public class ConvertBinaryNumberInLinkedListtoInteger
 {
 	public int getDecimalValue(ListNode head)
 	{
-		int number = 0;
+		StringBuilder sb = new StringBuilder();
 		while (head != null)
 		{
-			number = (number << 1);
-			number ^= head.val;
+			sb.append(head.val);
 			head = head.next;
 		}
 
-		return number;
+		return Integer.parseInt(sb.toString(), 2);
 	}
 }
