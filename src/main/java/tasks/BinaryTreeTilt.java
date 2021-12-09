@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -7,7 +8,12 @@ import common.TreeNode;
  * @author RakhmedovRS
  * @created 01-Jun-20
  */
-@LeetCode(id = 563, name = "Binary Tree Tilt", url = "https://leetcode.com/problems/binary-tree-tilt/")
+@LeetCode(
+	id = 563,
+	name = "Binary Tree Tilt",
+	url = "https://leetcode.com/problems/binary-tree-tilt/",
+	difficulty = Difficulty.EASY
+)
 public class BinaryTreeTilt
 {
 	public int findTilt(TreeNode root)

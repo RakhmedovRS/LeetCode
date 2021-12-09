@@ -410,7 +410,7 @@ Count of solved tasks: 1458
 |559|Undefined|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[Maximum Depth of N-ary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDepthOfNaryTree.java)|
 |560|Undefined|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Subarray Sum Equals K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubarraySumEqualsK.java)|
 |561|Easy|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Array Partition I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrayPartitionI.java)|
-|563|Undefined|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[Binary Tree Tilt.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeTilt.java)|
+|563|Easy|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[Binary Tree Tilt.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeTilt.java)|
 |565|Medium|[Array Nesting](https://leetcode.com/problems/array-nesting/)|[Array Nesting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrayNesting.java)|
 |566|Easy|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Reshape the Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReshapeTheMatrix.java)|
 |567|Undefined|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Permutation in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PermutationInString.java)|
@@ -1320,6 +1320,7 @@ Count of solved tasks: 1458
 |509|Easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FibonacciNumber.java)|
 |543|Easy|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Diameter of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DiameterOfBinaryTree.java)|
 |561|Easy|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Array Partition I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrayPartitionI.java)|
+|563|Easy|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[Binary Tree Tilt.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeTilt.java)|
 |566|Easy|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Reshape the Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReshapeTheMatrix.java)|
 |589|Easy|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary Tree Preorder Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/N_aryTreePreorderTraversal.java)|
 |594|Easy|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Longest Harmonious Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestHarmoniousSubsequence.java)|
