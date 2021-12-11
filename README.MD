@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1458
+Count of solved tasks: 1459
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1267,7 +1267,8 @@ Count of solved tasks: 1458
 |2091|Medium|[Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/)|[Removing Minimum and Maximum From Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemovingMinimumAndMaximumFromArray.java)|
 |2094|Easy|[Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/)|[Finding 3-Digit Even Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindingTreeDigitEvenNumbers.java)|
 |2095|Medium|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[Delete the Middle Node of a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteTheMiddleNodeOfLinkedList.java)|
-|2096|Medium|[Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/submissions/)|[Step-By-Step Directions From a Binary Tree Node to Another.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StepByStepDirectionsFromBinaryTreeNodeToAnother.java)|</p>
+|2096|Medium|[Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/submissions/)|[Step-By-Step Directions From a Binary Tree Node to Another.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StepByStepDirectionsFromBinaryTreeNodeToAnother.java)|
+|2099|Easy|[Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)|[Find Subsequence of Length K With the Largest Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSubsequenceOfLengthKWithTheLargestSum.java)|</p>
 </details>
 
 <details>
@@ -1453,7 +1454,8 @@ Count of solved tasks: 1458
 |2078|Easy|[Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)|[Two Furthest Houses With Different Colors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoFurthestHousesWithDifferentColors.java)|
 |2085|Easy|[Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/)|[Count Common Words With One Occurrence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCommonWordsWithOneOccurrence.java)|
 |2089|Easy|[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)|[Find Target Indices After Sorting Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTargetIndicesAfterSortingArray.java)|
-|2094|Easy|[Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/)|[Finding 3-Digit Even Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindingTreeDigitEvenNumbers.java)|</p>
+|2094|Easy|[Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/)|[Finding 3-Digit Even Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindingTreeDigitEvenNumbers.java)|
+|2099|Easy|[Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)|[Find Subsequence of Length K With the Largest Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSubsequenceOfLengthKWithTheLargestSum.java)|</p>
 </details>
 
 <details>
