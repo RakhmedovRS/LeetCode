@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1460
+Count of solved tasks: 1461
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1269,7 +1269,8 @@ Count of solved tasks: 1460
 |2095|Medium|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[Delete the Middle Node of a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteTheMiddleNodeOfLinkedList.java)|
 |2096|Medium|[Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/submissions/)|[Step-By-Step Directions From a Binary Tree Node to Another.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StepByStepDirectionsFromBinaryTreeNodeToAnother.java)|
 |2099|Easy|[Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)|[Find Subsequence of Length K With the Largest Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSubsequenceOfLengthKWithTheLargestSum.java)|
-|2100|Medium|[Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)|[Find Good Days to Rob the Bank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindGoodDaysToRobTheBank.java)|</p>
+|2100|Medium|[Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)|[Find Good Days to Rob the Bank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindGoodDaysToRobTheBank.java)|
+|2101|Medium|[Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|[Detonate the Maximum Bombs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetonateTheMaximumBombs.java)|</p>
 </details>
 
 <details>
@@ -1865,7 +1866,8 @@ Count of solved tasks: 1460
 |2091|Medium|[Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/)|[Removing Minimum and Maximum From Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemovingMinimumAndMaximumFromArray.java)|
 |2095|Medium|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[Delete the Middle Node of a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteTheMiddleNodeOfLinkedList.java)|
 |2096|Medium|[Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/submissions/)|[Step-By-Step Directions From a Binary Tree Node to Another.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StepByStepDirectionsFromBinaryTreeNodeToAnother.java)|
-|2100|Medium|[Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)|[Find Good Days to Rob the Bank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindGoodDaysToRobTheBank.java)|</p>
+|2100|Medium|[Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)|[Find Good Days to Rob the Bank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindGoodDaysToRobTheBank.java)|
+|2101|Medium|[Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|[Detonate the Maximum Bombs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetonateTheMaximumBombs.java)|</p>
 </details>
 
 <details>
