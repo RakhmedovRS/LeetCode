@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1463
+Count of solved tasks: 1464
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1272,7 +1272,8 @@ Count of solved tasks: 1463
 |2100|Medium|[Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)|[Find Good Days to Rob the Bank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindGoodDaysToRobTheBank.java)|
 |2101|Medium|[Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|[Detonate the Maximum Bombs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetonateTheMaximumBombs.java)|
 |2103|Easy|[Rings and Rods](https://leetcode.com/problems/rings-and-rods/)|[Rings and Rods.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RingsAndRods.java)|
-|2104|Medium|[Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/)|[Sum of Subarray Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfSubarrayRanges.java)|</p>
+|2104|Medium|[Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/)|[Sum of Subarray Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfSubarrayRanges.java)|
+|2105|Medium|[Watering Plants II](https://leetcode.com/problems/watering-plants-ii/)|[Watering Plants II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WateringPlantsII.java)|</p>
 </details>
 
 <details>
@@ -1871,7 +1872,8 @@ Count of solved tasks: 1463
 |2096|Medium|[Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/submissions/)|[Step-By-Step Directions From a Binary Tree Node to Another.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StepByStepDirectionsFromBinaryTreeNodeToAnother.java)|
 |2100|Medium|[Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)|[Find Good Days to Rob the Bank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindGoodDaysToRobTheBank.java)|
 |2101|Medium|[Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|[Detonate the Maximum Bombs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetonateTheMaximumBombs.java)|
-|2104|Medium|[Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/)|[Sum of Subarray Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfSubarrayRanges.java)|</p>
+|2104|Medium|[Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/)|[Sum of Subarray Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfSubarrayRanges.java)|
+|2105|Medium|[Watering Plants II](https://leetcode.com/problems/watering-plants-ii/)|[Watering Plants II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WateringPlantsII.java)|</p>
 </details>
 
 <details>
