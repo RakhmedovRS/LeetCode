@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1461
+Count of solved tasks: 1462
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1270,7 +1270,8 @@ Count of solved tasks: 1461
 |2096|Medium|[Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/submissions/)|[Step-By-Step Directions From a Binary Tree Node to Another.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StepByStepDirectionsFromBinaryTreeNodeToAnother.java)|
 |2099|Easy|[Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)|[Find Subsequence of Length K With the Largest Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSubsequenceOfLengthKWithTheLargestSum.java)|
 |2100|Medium|[Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)|[Find Good Days to Rob the Bank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindGoodDaysToRobTheBank.java)|
-|2101|Medium|[Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|[Detonate the Maximum Bombs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetonateTheMaximumBombs.java)|</p>
+|2101|Medium|[Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|[Detonate the Maximum Bombs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetonateTheMaximumBombs.java)|
+|2103|Easy|[Rings and Rods](https://leetcode.com/problems/rings-and-rods/)|[Rings and Rods.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RingsAndRods.java)|</p>
 </details>
 
 <details>
@@ -1457,7 +1458,8 @@ Count of solved tasks: 1461
 |2085|Easy|[Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/)|[Count Common Words With One Occurrence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCommonWordsWithOneOccurrence.java)|
 |2089|Easy|[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)|[Find Target Indices After Sorting Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTargetIndicesAfterSortingArray.java)|
 |2094|Easy|[Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/)|[Finding 3-Digit Even Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindingTreeDigitEvenNumbers.java)|
-|2099|Easy|[Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)|[Find Subsequence of Length K With the Largest Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSubsequenceOfLengthKWithTheLargestSum.java)|</p>
+|2099|Easy|[Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)|[Find Subsequence of Length K With the Largest Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSubsequenceOfLengthKWithTheLargestSum.java)|
+|2103|Easy|[Rings and Rods](https://leetcode.com/problems/rings-and-rods/)|[Rings and Rods.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RingsAndRods.java)|</p>
 </details>
 
 <details>
