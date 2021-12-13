@@ -1,34 +1,40 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 17-May-20
  */
-@LeetCode(id = 1446, name = "Consecutive Characters", url = "https://leetcode.com/problems/consecutive-characters/")
+@LeetCode(
+	id = 1446,
+	name = "Consecutive Characters",
+	url = "https://leetcode.com/problems/consecutive-characters/",
+	difficulty = Difficulty.EASY
+)
 public class ConsecutiveCharacters
 {
 	public int maxPower(String s)
 	{
-		char prev = s.charAt(0);
-		int power = 1;
-		int maxPower = 1;
-		for (int i = 1; i < s.length(); i++)
+		int max = 0;
+		int currentCount = 0;
+		char ch = ' ';
+		for (char c : s.toCharArray())
 		{
-			if (s.charAt(i) == prev)
+			if (c == ch)
 			{
-				power++;
+				currentCount++;
 			}
 			else
 			{
-				prev = s.charAt(i);
-				power = 1;
+				ch = c;
+				currentCount = 1;
 			}
 
-			maxPower = Math.max(maxPower, power);
+			max = Math.max(max, currentCount);
 		}
 
-		return maxPower;
+		return max;
 	}
 }
