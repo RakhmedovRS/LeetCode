@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -12,7 +13,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 02-May-20
  */
-@LeetCode(id = 199, name = "Binary Tree Right Side View", url = "https://leetcode.com/problems/binary-tree-right-side-view/")
+@LeetCode(
+	id = 199,
+	name = "Binary Tree Right Side View",
+	url = "https://leetcode.com/problems/binary-tree-right-side-view/",
+	difficulty = Difficulty.MEDIUM
+)
 public class BinaryTreeRightSideView
 {
 	public List<Integer> rightSideView(TreeNode root)
