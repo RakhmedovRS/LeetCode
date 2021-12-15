@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.ListNode;
 
@@ -7,7 +8,12 @@ import common.ListNode;
  * @author RakhmedovRS
  * @created 11/2/2020
  */
-@LeetCode(id = 147, name = "Insertion Sort List", url = "https://leetcode.com/problems/insertion-sort-list/")
+@LeetCode(
+	id = 147,
+	name = "Insertion Sort List",
+	url = "https://leetcode.com/problems/insertion-sort-list/",
+	difficulty = Difficulty.MEDIUM
+)
 public class InsertionSortList
 {
 	public ListNode insertionSortList(ListNode head)
