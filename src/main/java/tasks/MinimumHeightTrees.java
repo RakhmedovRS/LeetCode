@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -8,7 +9,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 11/4/2020
  */
-@LeetCode(id = 310, name = "Minimum Height Trees", url = "https://leetcode.com/problems/minimum-height-trees/")
+@LeetCode(
+	id = 310,
+	name = "Minimum Height Trees",
+	url = "https://leetcode.com/problems/minimum-height-trees/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MinimumHeightTrees
 {
 	public List<Integer> findMinHeightTrees(int n, int[][] edges)
