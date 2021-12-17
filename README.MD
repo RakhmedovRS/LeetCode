@@ -191,7 +191,7 @@ Count of solved tasks: 1464
 |218|Hard|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[The Skyline Problem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheSkylineProblem.java)|
 |219|Undefined|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Contains Duplicate II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ContainsDuplicateII.java)|
 |220|Undefined|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|[Contains Duplicate III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ContainsDuplicateIII.java)|
-|221|Undefined|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[Maximal Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximalSquare.java)|
+|221|Medium|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[Maximal Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximalSquare.java)|
 |222|Medium|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Count Complete Tree Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCompleteTreeNodes.java)|
 |223|Medium|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[Rectangle Area.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RectangleArea.java)|
 |224|Hard|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|[Basic Calculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BasicCalculator.java)|
@@ -1535,6 +1535,7 @@ Count of solved tasks: 1464
 |199|Medium|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Binary Tree Right Side View.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeRightSideView.java)|
 |201|Medium|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|[Bitwise AND of Numbers Range.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BitwiseANDOfNumbersRange.java)|
 |211|Medium|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|[Add and Search Word - Data structure design.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddAndSearchWordDataStructureDesign.java)|
+|221|Medium|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[Maximal Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximalSquare.java)|
 |222|Medium|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Count Complete Tree Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCompleteTreeNodes.java)|
 |223|Medium|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[Rectangle Area.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RectangleArea.java)|
 |227|Medium|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Basic Calculator II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BasicCalculatorII.java)|

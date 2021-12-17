@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 27-Apr-20
  */
-@LeetCode(id = 221, name = "Maximal Square", url = "https://leetcode.com/problems/maximal-square/")
+@LeetCode(
+	id = 221,
+	name = "Maximal Square",
+	url = "https://leetcode.com/problems/maximal-square/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MaximalSquare
 {
 	public int maximalSquare(char[][] matrix)
