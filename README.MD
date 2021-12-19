@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1465
+Count of solved tasks: 1466
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1274,7 +1274,8 @@ Count of solved tasks: 1465
 |2103|Easy|[Rings and Rods](https://leetcode.com/problems/rings-and-rods/)|[Rings and Rods.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RingsAndRods.java)|
 |2104|Medium|[Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/)|[Sum of Subarray Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfSubarrayRanges.java)|
 |2105|Medium|[Watering Plants II](https://leetcode.com/problems/watering-plants-ii/)|[Watering Plants II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WateringPlantsII.java)|
-|2108|Easy|[Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)|[Find First Palindromic String in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindFirstPalindromicStringInTheArray.java)|</p>
+|2108|Easy|[Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)|[Find First Palindromic String in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindFirstPalindromicStringInTheArray.java)|
+|2110|Medium|[Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/)|[Number of Smooth Descent Periods of a Stock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSmoothDescentPeriodsOfStock.java)|</p>
 </details>
 
 <details>
@@ -1881,7 +1882,8 @@ Count of solved tasks: 1465
 |2100|Medium|[Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)|[Find Good Days to Rob the Bank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindGoodDaysToRobTheBank.java)|
 |2101|Medium|[Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|[Detonate the Maximum Bombs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetonateTheMaximumBombs.java)|
 |2104|Medium|[Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/)|[Sum of Subarray Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfSubarrayRanges.java)|
-|2105|Medium|[Watering Plants II](https://leetcode.com/problems/watering-plants-ii/)|[Watering Plants II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WateringPlantsII.java)|</p>
+|2105|Medium|[Watering Plants II](https://leetcode.com/problems/watering-plants-ii/)|[Watering Plants II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WateringPlantsII.java)|
+|2110|Medium|[Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/)|[Number of Smooth Descent Periods of a Stock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSmoothDescentPeriodsOfStock.java)|</p>
 </details>
 
 <details>
