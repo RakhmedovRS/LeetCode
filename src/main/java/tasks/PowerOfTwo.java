@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 08-Jun-20
  */
-@LeetCode(id = 231, name = "Power of Two", url = "https://leetcode.com/problems/power-of-two/")
+@LeetCode(
+	id = 231,
+	name = "Power of Two",
+	url = "https://leetcode.com/problems/power-of-two/",
+	difficulty = Difficulty.EASY
+)
 public class PowerOfTwo
 {
 	public boolean isPowerOfTwo(int n)
