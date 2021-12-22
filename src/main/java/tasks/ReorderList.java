@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.ListNode;
 
@@ -7,7 +8,12 @@ import common.ListNode;
  * @author RakhmedovRS
  * @created 20-Aug-20
  */
-@LeetCode(id = 143, name = "Reorder List", url = "https://leetcode.com/problems/reorder-list/")
+@LeetCode(
+	id = 143,
+	name = "Reorder List",
+	url = "https://leetcode.com/problems/reorder-list/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ReorderList
 {
 	public void reorderList(ListNode head)
