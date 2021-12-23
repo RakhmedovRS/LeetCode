@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -8,7 +9,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 29-May-20
  */
-@LeetCode(id = 207, name = "Course Schedule", url = "https://leetcode.com/problems/course-schedule/")
+@LeetCode(
+	id = 207,
+	name = "Course Schedule",
+	url = "https://leetcode.com/problems/course-schedule/",
+	difficulty = Difficulty.MEDIUM
+)
 public class CourseSchedule
 {
 	public boolean canFinish(int numCourses, int[][] prerequisites)

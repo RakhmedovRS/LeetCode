@@ -177,7 +177,7 @@ Count of solved tasks: 1467
 |204|Easy|[Count Primes](https://leetcode.com/problems/count-primes/)|[Count Primes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPrimes.java)|
 |205|Easy|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Isomorphic Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IsomorphicStrings.java)|
 |206|Easy|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseLinkedList.java)|
-|207|Undefined|[Course Schedule](https://leetcode.com/problems/course-schedule/)|[Course Schedule.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CourseSchedule.java)|
+|207|Medium|[Course Schedule](https://leetcode.com/problems/course-schedule/)|[Course Schedule.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CourseSchedule.java)|
 |208|Undefined|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Implement Trie (Prefix Tree).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrefixTree.java)|
 |209|Undefined|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Minimum Size Subarray Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSizeSubarraySum.java)|
 |210|Undefined|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|[Course Schedule II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CourseScheduleII.java)|
@@ -1541,6 +1541,7 @@ Count of solved tasks: 1467
 |198|Medium|[House Robber](https://leetcode.com/problems/house-robber/)|[House Robber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HouseRobber.java)|
 |199|Medium|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Binary Tree Right Side View.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeRightSideView.java)|
 |201|Medium|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|[Bitwise AND of Numbers Range.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BitwiseANDOfNumbersRange.java)|
+|207|Medium|[Course Schedule](https://leetcode.com/problems/course-schedule/)|[Course Schedule.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CourseSchedule.java)|
 |211|Medium|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|[Add and Search Word - Data structure design.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddAndSearchWordDataStructureDesign.java)|
 |221|Medium|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[Maximal Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximalSquare.java)|
 |222|Medium|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Count Complete Tree Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCompleteTreeNodes.java)|
