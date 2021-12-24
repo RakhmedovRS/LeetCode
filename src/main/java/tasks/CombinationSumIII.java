@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -9,7 +10,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 23-Apr-20
  */
-@LeetCode(id = 216, name = "Combination Sum III", url = "https://leetcode.com/problems/combination-sum-iii/")
+@LeetCode(
+	id = 216,
+	name = "Combination Sum III",
+	url = "https://leetcode.com/problems/combination-sum-iii/",
+	difficulty = Difficulty.MEDIUM
+)
 public class CombinationSumIII
 {
 	public List<List<Integer>> combinationSum3(int k, int n)

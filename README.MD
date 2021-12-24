@@ -186,7 +186,7 @@ Count of solved tasks: 1467
 |213|Undefined|[House Robber II](https://leetcode.com/problems/house-robber-ii/)|[House Robber II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HouseRobberII.java)|
 |214|Hard|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|[Shortest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestPalindrome.java)|
 |215|Easy|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Kth Largest Element in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthLargestElementInAnArray.java)|
-|216|Undefined|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Combination Sum III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CombinationSumIII.java)|
+|216|Medium|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Combination Sum III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CombinationSumIII.java)|
 |217|Undefined|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Contains Duplicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ContainsDuplicate.java)|
 |218|Hard|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[The Skyline Problem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheSkylineProblem.java)|
 |219|Undefined|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Contains Duplicate II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ContainsDuplicateII.java)|
@@ -1543,6 +1543,7 @@ Count of solved tasks: 1467
 |201|Medium|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|[Bitwise AND of Numbers Range.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BitwiseANDOfNumbersRange.java)|
 |207|Medium|[Course Schedule](https://leetcode.com/problems/course-schedule/)|[Course Schedule.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CourseSchedule.java)|
 |211|Medium|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|[Add and Search Word - Data structure design.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddAndSearchWordDataStructureDesign.java)|
+|216|Medium|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Combination Sum III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CombinationSumIII.java)|
 |221|Medium|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[Maximal Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximalSquare.java)|
 |222|Medium|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Count Complete Tree Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCompleteTreeNodes.java)|
 |223|Medium|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[Rectangle Area.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RectangleArea.java)|
