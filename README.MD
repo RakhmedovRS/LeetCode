@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1467
+Count of solved tasks: 1468
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1276,7 +1276,8 @@ Count of solved tasks: 1467
 |2105|Medium|[Watering Plants II](https://leetcode.com/problems/watering-plants-ii/)|[Watering Plants II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WateringPlantsII.java)|
 |2108|Easy|[Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)|[Find First Palindromic String in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindFirstPalindromicStringInTheArray.java)|
 |2109|Medium|[Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/)|[Adding Spaces to a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddingSpacesToString.java)|
-|2110|Medium|[Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/)|[Number of Smooth Descent Periods of a Stock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSmoothDescentPeriodsOfStock.java)|</p>
+|2110|Medium|[Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/)|[Number of Smooth Descent Periods of a Stock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSmoothDescentPeriodsOfStock.java)|
+|2114|Easy|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|[Maximum Number of Words Found in Sentences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfWordsFoundInSentences.java)|</p>
 </details>
 
 <details>
@@ -1468,7 +1469,8 @@ Count of solved tasks: 1467
 |2094|Easy|[Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/)|[Finding 3-Digit Even Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindingTreeDigitEvenNumbers.java)|
 |2099|Easy|[Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)|[Find Subsequence of Length K With the Largest Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSubsequenceOfLengthKWithTheLargestSum.java)|
 |2103|Easy|[Rings and Rods](https://leetcode.com/problems/rings-and-rods/)|[Rings and Rods.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RingsAndRods.java)|
-|2108|Easy|[Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)|[Find First Palindromic String in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindFirstPalindromicStringInTheArray.java)|</p>
+|2108|Easy|[Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)|[Find First Palindromic String in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindFirstPalindromicStringInTheArray.java)|
+|2114|Easy|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|[Maximum Number of Words Found in Sentences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfWordsFoundInSentences.java)|</p>
 </details>
 
 <details>
