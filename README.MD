@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1469
+Count of solved tasks: 1470
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1278,7 +1278,8 @@ Count of solved tasks: 1469
 |2109|Medium|[Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/)|[Adding Spaces to a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddingSpacesToString.java)|
 |2110|Medium|[Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/)|[Number of Smooth Descent Periods of a Stock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSmoothDescentPeriodsOfStock.java)|
 |2114|Easy|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|[Maximum Number of Words Found in Sentences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfWordsFoundInSentences.java)|
-|2115|Medium|[Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)|[Find All Possible Recipes from Given Supplies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllPossibleRecipesFromGivenSupplies.java)|</p>
+|2115|Medium|[Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)|[Find All Possible Recipes from Given Supplies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllPossibleRecipesFromGivenSupplies.java)|
+|2116|Medium|[Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|[Check if a Parentheses String Can Be Valid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfParenthesesStringCanBeValid.java)|</p>
 </details>
 
 <details>
@@ -1894,7 +1895,8 @@ Count of solved tasks: 1469
 |2105|Medium|[Watering Plants II](https://leetcode.com/problems/watering-plants-ii/)|[Watering Plants II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WateringPlantsII.java)|
 |2109|Medium|[Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/)|[Adding Spaces to a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddingSpacesToString.java)|
 |2110|Medium|[Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/)|[Number of Smooth Descent Periods of a Stock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSmoothDescentPeriodsOfStock.java)|
-|2115|Medium|[Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)|[Find All Possible Recipes from Given Supplies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllPossibleRecipesFromGivenSupplies.java)|</p>
+|2115|Medium|[Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)|[Find All Possible Recipes from Given Supplies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllPossibleRecipesFromGivenSupplies.java)|
+|2116|Medium|[Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|[Check if a Parentheses String Can Be Valid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfParenthesesStringCanBeValid.java)|</p>
 </details>
 
 <details>
