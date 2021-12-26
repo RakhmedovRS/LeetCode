@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1470
+Count of solved tasks: 1471
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1279,7 +1279,8 @@ Count of solved tasks: 1470
 |2110|Medium|[Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/)|[Number of Smooth Descent Periods of a Stock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSmoothDescentPeriodsOfStock.java)|
 |2114|Easy|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|[Maximum Number of Words Found in Sentences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfWordsFoundInSentences.java)|
 |2115|Medium|[Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)|[Find All Possible Recipes from Given Supplies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllPossibleRecipesFromGivenSupplies.java)|
-|2116|Medium|[Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|[Check if a Parentheses String Can Be Valid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfParenthesesStringCanBeValid.java)|</p>
+|2116|Medium|[Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|[Check if a Parentheses String Can Be Valid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfParenthesesStringCanBeValid.java)|
+|2119|Easy|[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)|[A Number After a Double Reversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberAfterDoubleReversal.java)|</p>
 </details>
 
 <details>
@@ -1472,7 +1473,8 @@ Count of solved tasks: 1470
 |2099|Easy|[Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)|[Find Subsequence of Length K With the Largest Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSubsequenceOfLengthKWithTheLargestSum.java)|
 |2103|Easy|[Rings and Rods](https://leetcode.com/problems/rings-and-rods/)|[Rings and Rods.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RingsAndRods.java)|
 |2108|Easy|[Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)|[Find First Palindromic String in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindFirstPalindromicStringInTheArray.java)|
-|2114|Easy|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|[Maximum Number of Words Found in Sentences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfWordsFoundInSentences.java)|</p>
+|2114|Easy|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|[Maximum Number of Words Found in Sentences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfWordsFoundInSentences.java)|
+|2119|Easy|[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)|[A Number After a Double Reversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberAfterDoubleReversal.java)|</p>
 </details>
 
 <details>
