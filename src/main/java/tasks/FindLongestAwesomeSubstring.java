@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashMap;
@@ -9,7 +10,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 09-Sep-20
  */
-@LeetCode(id = 1542, name = "Find Longest Awesome Substring", url = "https://leetcode.com/problems/find-longest-awesome-substring/")
+@LeetCode(
+	id = 1542,
+	name = "Find Longest Awesome Substring",
+	url = "https://leetcode.com/problems/find-longest-awesome-substring/",
+	difficulty = Difficulty.HARD
+)
 public class FindLongestAwesomeSubstring
 {
 	public int longestAwesome(String s)
