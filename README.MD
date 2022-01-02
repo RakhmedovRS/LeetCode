@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1471
+Count of solved tasks: 1472
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1280,7 +1280,8 @@ Count of solved tasks: 1471
 |2114|Easy|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|[Maximum Number of Words Found in Sentences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfWordsFoundInSentences.java)|
 |2115|Medium|[Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)|[Find All Possible Recipes from Given Supplies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllPossibleRecipesFromGivenSupplies.java)|
 |2116|Medium|[Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|[Check if a Parentheses String Can Be Valid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfParenthesesStringCanBeValid.java)|
-|2119|Easy|[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)|[A Number After a Double Reversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberAfterDoubleReversal.java)|</p>
+|2119|Easy|[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)|[A Number After a Double Reversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberAfterDoubleReversal.java)|
+|2124|Easy|[Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)|[Check if All A's Appears Before All B's.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllAsAppearsBeforeAllBs.java)|</p>
 </details>
 
 <details>
@@ -1474,7 +1475,8 @@ Count of solved tasks: 1471
 |2103|Easy|[Rings and Rods](https://leetcode.com/problems/rings-and-rods/)|[Rings and Rods.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RingsAndRods.java)|
 |2108|Easy|[Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)|[Find First Palindromic String in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindFirstPalindromicStringInTheArray.java)|
 |2114|Easy|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|[Maximum Number of Words Found in Sentences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfWordsFoundInSentences.java)|
-|2119|Easy|[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)|[A Number After a Double Reversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberAfterDoubleReversal.java)|</p>
+|2119|Easy|[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)|[A Number After a Double Reversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberAfterDoubleReversal.java)|
+|2124|Easy|[Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)|[Check if All A's Appears Before All B's.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllAsAppearsBeforeAllBs.java)|</p>
 </details>
 
 <details>
