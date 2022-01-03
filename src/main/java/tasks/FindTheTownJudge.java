@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -11,7 +12,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 10-May-20
  */
-@LeetCode(id = 997, name = "Find the Town Judge", url = "https://leetcode.com/problems/find-the-town-judge/")
+@LeetCode(
+	id = 997,
+	name = "Find the Town Judge",
+	url = "https://leetcode.com/problems/find-the-town-judge/",
+	difficulty = Difficulty.EASY
+)
 public class FindTheTownJudge
 {
 	public int findJudge(int N, int[][] trust)
