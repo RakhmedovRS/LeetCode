@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 15-Sep-20
  */
-@LeetCode(id = 1009, name = "Complement of Base 10 Integer", url = "https://leetcode.com/problems/complement-of-base-10-integer/")
+@LeetCode(
+	id = 1009,
+	name = "Complement of Base 10 Integer",
+	url = "https://leetcode.com/problems/complement-of-base-10-integer/",
+	difficulty = Difficulty.EASY
+)
 public class ComplementOfBase10Integer
 {
 	public int bitwiseComplement(int N)
