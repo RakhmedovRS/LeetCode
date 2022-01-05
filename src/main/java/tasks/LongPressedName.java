@@ -1,10 +1,11 @@
 package tasks;
 
 import common.LeetCode;
-import javafx.util.Pair;
 
+import java.util.AbstractMap;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author RakhmedovRS
@@ -15,8 +16,8 @@ public class LongPressedName
 {
 	public boolean isLongPressedName(String name, String typed)
 	{
-		List<Pair<Character, Integer>> namePairs = shortString(name);
-		List<Pair<Character, Integer>> typedPairs = shortString(typed);
+		List<Map.Entry<Character, Integer>> namePairs = shortString(name);
+		List<Map.Entry<Character, Integer>> typedPairs = shortString(typed);
 		if (namePairs.size() != typedPairs.size())
 		{
 			return false;
@@ -24,8 +25,8 @@ public class LongPressedName
 
 		for (int i = 0; i < namePairs.size(); i++)
 		{
-			Pair<Character, Integer> namePair = namePairs.get(i);
-			Pair<Character, Integer> typedPair = typedPairs.get(i);
+			Map.Entry<Character, Integer> namePair = namePairs.get(i);
+			Map.Entry<Character, Integer> typedPair = typedPairs.get(i);
 
 			if (namePair.getKey() != typedPair.getKey() || namePair.getValue() > typedPair.getValue())
 			{
@@ -36,9 +37,9 @@ public class LongPressedName
 		return true;
 	}
 
-	private List<Pair<Character, Integer>> shortString(String string)
+	private List<Map.Entry<Character, Integer>> shortString(String string)
 	{
-		List<Pair<Character, Integer>> pairs = new ArrayList<>();
+		List<Map.Entry<Character, Integer>> pairs = new ArrayList<>();
 		char prev = string.charAt(0);
 		int count = 0;
 		for (int i = 0; i < string.length(); i++)
@@ -49,12 +50,12 @@ public class LongPressedName
 			}
 			else
 			{
-				pairs.add(new Pair<>(prev, count));
+				pairs.add(new AbstractMap.SimpleEntry<>(prev, count));
 				prev = string.charAt(i);
 				count = 0;
 			}
 		}
-		pairs.add(new Pair<>(prev, count));
+		pairs.add(new AbstractMap.SimpleEntry<>(prev, count));
 
 		return pairs;
 	}
