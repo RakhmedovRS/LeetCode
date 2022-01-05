@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1474
+Count of solved tasks: 1475
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -130,6 +130,7 @@ Count of solved tasks: 1474
 |128|Undefined|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[Longest Consecutive Sequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestConsecutiveSequence.java)|
 |129|Medium|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[Sum Root to Leaf Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumRootToLeafNumbers.java)|
 |130|Medium|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|[Surrounded Regions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SurroundedRegions.java)|
+|131|Medium|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|[Palindrome Partitioning.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromePartitioning.java)|
 |132|Hard|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)|[Palindrome Partitioning II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromePartitioningII.java)|
 |133|Undefined|[Clone Graph](https://leetcode.com/problems/clone-graph/)|[Clone Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CloneGraph.java)|
 |134|Undefined|[Gas Station](https://leetcode.com/problems/gas-station/)|[Gas Station.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GasStation.java)|
@@ -1541,6 +1542,7 @@ Count of solved tasks: 1474
 |122|Medium|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Best Time to Buy and Sell Stock II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestTimeToBuyAndSellStockII.java)|
 |129|Medium|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[Sum Root to Leaf Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumRootToLeafNumbers.java)|
 |130|Medium|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|[Surrounded Regions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SurroundedRegions.java)|
+|131|Medium|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|[Palindrome Partitioning.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromePartitioning.java)|
 |138|Medium|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Copy List with Random Pointer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CopyListWithRandomPointer.java)|
 |143|Medium|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Reorder List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReorderList.java)|
 |147|Medium|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[Insertion Sort List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/InsertionSortList.java)|
