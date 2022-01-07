@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -10,7 +11,12 @@ import java.util.PriorityQueue;
  * @author RakhmedovRS
  * @created 21-Sep-20
  */
-@LeetCode(id = 1094, name = "Car Pooling", url = "https://leetcode.com/problems/car-pooling/")
+@LeetCode(
+	id = 1094,
+	name = "Car Pooling",
+	url = "https://leetcode.com/problems/car-pooling/",
+	difficulty = Difficulty.MEDIUM
+)
 public class CarPooling
 {
 	public boolean carPooling(int[][] trips, int capacity)

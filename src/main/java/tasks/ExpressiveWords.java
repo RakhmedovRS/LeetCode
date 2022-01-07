@@ -2,11 +2,7 @@ package tasks;
 
 import common.LeetCode;
 
-import java.util.AbstractMap;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author RakhmedovRS
