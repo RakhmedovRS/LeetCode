@@ -1,11 +1,8 @@
 package tasks;
 
 import common.LeetCode;
-import javafx.util.Pair;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author RakhmedovRS
@@ -17,11 +14,11 @@ public class ExpressiveWords
 	public int expressiveWords(String S, String[] words)
 	{
 		int count = 0;
-		List<Pair<Character, Integer>> pattern = shortWord(S);
+		List<Map.Entry<Character, Integer>> pattern = shortWord(S);
 		outer:
 		for (String word : words)
 		{
-			List<Pair<Character, Integer>> shortWord = shortWord(word);
+			List<Map.Entry<Character, Integer>> shortWord = shortWord(word);
 			if (pattern.size() == shortWord.size())
 			{
 				for (int i = 0; i < pattern.size(); i++)
@@ -43,7 +40,7 @@ public class ExpressiveWords
 		return count;
 	}
 
-	private List<Pair<Character, Integer>> shortWord(String word)
+	private List<Map.Entry<Character, Integer>> shortWord(String word)
 	{
 		if (word == null || word.isEmpty())
 		{
@@ -53,7 +50,7 @@ public class ExpressiveWords
 		int pos = 0;
 		char prev = word.charAt(0);
 		int count = 0;
-		List<Pair<Character, Integer>> result = new ArrayList<>();
+		List<Map.Entry<Character, Integer>> result = new ArrayList<>();
 		while (pos < word.length())
 		{
 			while (pos < word.length() && word.charAt(pos) == prev)
@@ -62,7 +59,7 @@ public class ExpressiveWords
 				count++;
 			}
 
-			result.add(new Pair<>(prev, count));
+			result.add(new AbstractMap.SimpleEntry<>(prev, count));
 			if (pos < word.length())
 			{
 				prev = word.charAt(pos);

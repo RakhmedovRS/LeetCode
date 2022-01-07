@@ -1,10 +1,11 @@
 package tasks;
 
 import common.LeetCode;
-import javafx.util.Pair;
 
+import java.util.AbstractMap;
 import java.util.Deque;
 import java.util.LinkedList;
+import java.util.Map;
 
 /**
  * @author RakhmedovRS
@@ -41,19 +42,19 @@ public class ValidParenthesisString
 			}
 		}
 
-		Deque<Pair<Integer, Character>> parenthesis = new LinkedList<>();
-		Deque<Pair<Integer, Character>> stars = new LinkedList<>();
+		Deque<Map.Entry<Integer, Character>> parenthesis = new LinkedList<>();
+		Deque<Map.Entry<Integer, Character>> stars = new LinkedList<>();
 		int i = 0;
 		while (!stack.isEmpty())
 		{
 			Character ch = stack.removeLast();
 			if (ch == '*')
 			{
-				stars.push(new Pair<>(i++, ch));
+				stars.push(new AbstractMap.SimpleEntry<>(i++, ch));
 			}
 			else if (ch == '(')
 			{
-				parenthesis.push(new Pair<>(i++, ch));
+				parenthesis.push(new AbstractMap.SimpleEntry<>(i++, ch));
 			}
 			else
 			{
@@ -74,7 +75,7 @@ public class ValidParenthesisString
 
 		while (!parenthesis.isEmpty())
 		{
-			Pair<Integer, Character> pair = parenthesis.pop();
+			Map.Entry<Integer, Character> pair = parenthesis.pop();
 			if (stars.isEmpty())
 			{
 				return false;
