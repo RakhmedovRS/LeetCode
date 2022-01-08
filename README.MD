@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1477
+Count of solved tasks: 1478
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1286,7 +1286,8 @@ Count of solved tasks: 1477
 |2124|Easy|[Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)|[Check if All A's Appears Before All B's.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllAsAppearsBeforeAllBs.java)|
 |2125|Medium|[Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)|[Number of Laser Beams in a Bank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfLaserBeamsInBank.java)|
 |2126|Medium|[Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/)|[Destroying Asteroids.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DestroyingAsteroids.java)|
-|2129|Easy|[Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/)|[Capitalize the Title.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CapitalizeTheTitle.java)|</p>
+|2129|Easy|[Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/)|[Capitalize the Title.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CapitalizeTheTitle.java)|
+|2130|Medium|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|[Longest Palindrome by Concatenating Two Letter Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestPalindromeByConcatenatingTwoLetterWords.java)|</p>
 </details>
 
 <details>
@@ -1914,7 +1915,8 @@ Count of solved tasks: 1477
 |2115|Medium|[Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)|[Find All Possible Recipes from Given Supplies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllPossibleRecipesFromGivenSupplies.java)|
 |2116|Medium|[Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|[Check if a Parentheses String Can Be Valid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfParenthesesStringCanBeValid.java)|
 |2125|Medium|[Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)|[Number of Laser Beams in a Bank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfLaserBeamsInBank.java)|
-|2126|Medium|[Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/)|[Destroying Asteroids.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DestroyingAsteroids.java)|</p>
+|2126|Medium|[Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/)|[Destroying Asteroids.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DestroyingAsteroids.java)|
+|2130|Medium|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|[Longest Palindrome by Concatenating Two Letter Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestPalindromeByConcatenatingTwoLetterWords.java)|</p>
 </details>
 
 <details>
