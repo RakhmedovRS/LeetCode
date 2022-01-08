@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1475
+Count of solved tasks: 1476
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1284,7 +1284,8 @@ Count of solved tasks: 1475
 |2119|Easy|[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)|[A Number After a Double Reversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberAfterDoubleReversal.java)|
 |2124|Easy|[Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)|[Check if All A's Appears Before All B's.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllAsAppearsBeforeAllBs.java)|
 |2125|Medium|[Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)|[Number of Laser Beams in a Bank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfLaserBeamsInBank.java)|
-|2126|Medium|[Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/)|[Destroying Asteroids.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DestroyingAsteroids.java)|</p>
+|2126|Medium|[Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/)|[Destroying Asteroids.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DestroyingAsteroids.java)|
+|2129|Easy|[Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/)|[Capitalize the Title.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CapitalizeTheTitle.java)|</p>
 </details>
 
 <details>
@@ -1481,7 +1482,8 @@ Count of solved tasks: 1475
 |2108|Easy|[Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)|[Find First Palindromic String in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindFirstPalindromicStringInTheArray.java)|
 |2114|Easy|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|[Maximum Number of Words Found in Sentences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfWordsFoundInSentences.java)|
 |2119|Easy|[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)|[A Number After a Double Reversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberAfterDoubleReversal.java)|
-|2124|Easy|[Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)|[Check if All A's Appears Before All B's.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllAsAppearsBeforeAllBs.java)|</p>
+|2124|Easy|[Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)|[Check if All A's Appears Before All B's.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllAsAppearsBeforeAllBs.java)|
+|2129|Easy|[Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/)|[Capitalize the Title.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CapitalizeTheTitle.java)|</p>
 </details>
 
 <details>
