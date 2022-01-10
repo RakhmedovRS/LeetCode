@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Deque;
@@ -9,7 +10,12 @@ import java.util.LinkedList;
  * @author RakhmedovRS
  * @created 13-Jul-20
  */
-@LeetCode(id = 735, name = "Asteroid Collision", url = "https://leetcode.com/problems/asteroid-collision/")
+@LeetCode(
+	id = 735,
+	name = "Asteroid Collision",
+	url = "https://leetcode.com/problems/asteroid-collision/",
+	difficulty = Difficulty.MEDIUM
+)
 public class AsteroidCollision
 {
 	public int[] asteroidCollision(int[] asteroids)
