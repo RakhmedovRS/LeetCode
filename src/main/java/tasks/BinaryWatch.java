@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -9,7 +10,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 09-May-20
  */
-@LeetCode(id = 401, name = "Binary Watch", url = "https://leetcode.com/problems/binary-watch/")
+@LeetCode(
+	id = 401,
+	name = "Binary Watch",
+	url = "https://leetcode.com/problems/binary-watch/",
+	difficulty = Difficulty.EASY
+)
 public class BinaryWatch
 {
 	public List<String> readBinaryWatch(int num)
