@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -11,7 +12,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 31-Mar-20
  */
-@LeetCode(id = 1002, name = "Find Common Characters", url = "https://leetcode.com/problems/find-common-characters/")
+@LeetCode(
+	id = 1002,
+	name = "Find Common Characters",
+	url = "https://leetcode.com/problems/find-common-characters/",
+	difficulty = Difficulty.EASY
+)
 public class FindCommonCharacters
 {
 	public List<String> commonChars(String[] A)
