@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -7,7 +8,12 @@ import common.TreeNode;
  * @author RakhmedovRS
  * @created 17-May-20
  */
-@LeetCode(id = 701, name = "Insert into a Binary Search Tree", url = "https://leetcode.com/problems/insert-into-a-binary-search-tree/")
+@LeetCode(
+	id = 701,
+	name = "Insert into a Binary Search Tree",
+	url = "https://leetcode.com/problems/insert-into-a-binary-search-tree/",
+	difficulty = Difficulty.MEDIUM
+)
 public class InsertIntoBinarySearchTree
 {
 	public TreeNode insertIntoBST(TreeNode root, int val)
