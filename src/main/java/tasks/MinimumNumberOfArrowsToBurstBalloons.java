@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 29-Jul-20
  */
-@LeetCode(id = 452, name = "Minimum Number of Arrows to Burst Balloons", url = "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/")
+@LeetCode(
+	id = 452,
+	name = "Minimum Number of Arrows to Burst Balloons",
+	url = "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MinimumNumberOfArrowsToBurstBalloons
 {
 	public int findMinArrowShots(int[][] points)
