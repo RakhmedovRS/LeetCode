@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 24-Mar-20
  */
-@LeetCode(id = 8, name = "String to Integer", url = "https://leetcode.com/problems/string-to-integer-atoi/")
+@LeetCode(
+	id = 8,
+	name = "String to Integer",
+	url = "https://leetcode.com/problems/string-to-integer-atoi/",
+	difficulty = Difficulty.MEDIUM
+)
 public class StringToInteger
 {
 	public int myAtoi(String str)
