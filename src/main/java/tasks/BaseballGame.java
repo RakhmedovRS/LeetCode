@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Deque;
@@ -9,7 +10,12 @@ import java.util.LinkedList;
  * @author RakhmedovRS
  * @created 14-Jul-20
  */
-@LeetCode(id = 682, name = "Baseball Game", url = "https://leetcode.com/problems/baseball-game/")
+@LeetCode(
+	id = 682,
+	name = "Baseball Game",
+	url = "https://leetcode.com/problems/baseball-game/",
+	difficulty = Difficulty.EASY
+)
 public class BaseballGame
 {
 	public int calPoints(String[] ops)
