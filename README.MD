@@ -228,7 +228,7 @@ Count of solved tasks: 1478
 |284|Medium|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Peeking Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PeekingIterator.java)|
 |287|Undefined|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Find the Duplicate Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindDuplicateNumber.java)|
 |289|Medium|[Game of Life](https://leetcode.com/problems/game-of-life/)|[Game of Life.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GameOfLife.java)|
-|290|Undefined|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Word Pattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordPattern.java)|
+|290|Medium|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Word Pattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordPattern.java)|
 |292|Undefined|[Nim Game](https://leetcode.com/problems/nim-game/)|[Nim Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NimGame.java)|
 |295|Hard|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[Find Median from Data Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMedianFromDataStream.java)|
 |297|Hard|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[Serialize and Deserialize Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SerializeAndDeserializeBinaryTree.java)|
@@ -1577,6 +1577,7 @@ Count of solved tasks: 1478
 |279|Medium|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Perfect Squares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PerfectSquares.java)|
 |284|Medium|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Peeking Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PeekingIterator.java)|
 |289|Medium|[Game of Life](https://leetcode.com/problems/game-of-life/)|[Game of Life.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GameOfLife.java)|
+|290|Medium|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Word Pattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordPattern.java)|
 |300|Medium|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Longest Increasing Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestIncreasingSubsequence.java)|
 |304|Medium|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Range Sum Query 2D - Immutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeSumQuery2DImmutable.java)|
 |307|Medium|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[Range Sum Query - Mutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeSumQueryMutable.java)|
