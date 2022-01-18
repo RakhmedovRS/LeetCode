@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashMap;
@@ -9,7 +10,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 11-Jul-20
  */
-@LeetCode(id = 290, name = "Word Pattern", url = "https://leetcode.com/problems/word-pattern/")
+@LeetCode(
+		id = 290,
+		name = "Word Pattern",
+		url = "https://leetcode.com/problems/word-pattern/",
+		difficulty = Difficulty.MEDIUM
+)
 public class WordPattern
 {
 	public boolean wordPattern(String pattern, String str)

@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 10/29/2020
  */
-@LeetCode(id = 849, name = "Maximize Distance to Closest Person", url = "https://leetcode.com/problems/maximize-distance-to-closest-person/")
+@LeetCode(
+		id = 849,
+		name = "Maximize Distance to Closest Person",
+		url = "https://leetcode.com/problems/maximize-distance-to-closest-person/",
+		difficulty = Difficulty.MEDIUM
+)
 public class MaximizeDistanceToClosestPerson
 {
 	public int maxDistToClosest(int[] seats)
