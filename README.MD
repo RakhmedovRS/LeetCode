@@ -140,7 +140,7 @@ Count of solved tasks: 1479
 |139|Undefined|[Word Break](https://leetcode.com/problems/word-break/)|[Word Break.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordBreak.java)|
 |140|Undefined|[Word Break](https://leetcode.com/problems/word-break-ii/)|[Word Break.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordBreakII.java)|
 |141|Easy|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LinkedListCycle.java)|
-|142|Undefined|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked List Cycle II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LinkedListCycleII.java)|
+|142|Medium|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked List Cycle II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LinkedListCycleII.java)|
 |143|Medium|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Reorder List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReorderList.java)|
 |144|Undefined|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Binary Tree Preorder Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreePreorderTraversal.java)|
 |146|Undefined|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[LRU Cache.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LRUCache.java)|
@@ -1554,6 +1554,7 @@ Count of solved tasks: 1479
 |130|Medium|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|[Surrounded Regions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SurroundedRegions.java)|
 |131|Medium|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|[Palindrome Partitioning.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromePartitioning.java)|
 |138|Medium|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Copy List with Random Pointer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CopyListWithRandomPointer.java)|
+|142|Medium|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked List Cycle II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LinkedListCycleII.java)|
 |143|Medium|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Reorder List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReorderList.java)|
 |147|Medium|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[Insertion Sort List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/InsertionSortList.java)|
 |150|Medium|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Evaluate Reverse Polish Notation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateReversePolishNotation.java)|
