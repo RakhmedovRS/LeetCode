@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 16-Mar-20
  */
-@LeetCode(id = 134, name = "Gas Station", url = "https://leetcode.com/problems/gas-station/")
+@LeetCode(
+	id = 134,
+	name = "Gas Station",
+	url = "https://leetcode.com/problems/gas-station/",
+	difficulty = Difficulty.MEDIUM
+)
 public class GasStation
 {
 	public int canCompleteCircuit(int[] gas, int[] cost)

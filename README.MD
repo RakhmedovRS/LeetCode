@@ -133,7 +133,7 @@ Count of solved tasks: 1480
 |131|Medium|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|[Palindrome Partitioning.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromePartitioning.java)|
 |132|Hard|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)|[Palindrome Partitioning II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromePartitioningII.java)|
 |133|Undefined|[Clone Graph](https://leetcode.com/problems/clone-graph/)|[Clone Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CloneGraph.java)|
-|134|Undefined|[Gas Station](https://leetcode.com/problems/gas-station/)|[Gas Station.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GasStation.java)|
+|134|Medium|[Gas Station](https://leetcode.com/problems/gas-station/)|[Gas Station.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GasStation.java)|
 |135|Hard|[Candy](https://leetcode.com/problems/candy/)|[Candy.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Candy.java)|
 |136|Undefined|[Single Number](https://leetcode.com/problems/single-number/)|[Single Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SingleNumber.java)|
 |138|Medium|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Copy List with Random Pointer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CopyListWithRandomPointer.java)|
@@ -1555,6 +1555,7 @@ Count of solved tasks: 1480
 |129|Medium|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[Sum Root to Leaf Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumRootToLeafNumbers.java)|
 |130|Medium|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|[Surrounded Regions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SurroundedRegions.java)|
 |131|Medium|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|[Palindrome Partitioning.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromePartitioning.java)|
+|134|Medium|[Gas Station](https://leetcode.com/problems/gas-station/)|[Gas Station.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GasStation.java)|
 |138|Medium|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Copy List with Random Pointer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CopyListWithRandomPointer.java)|
 |142|Medium|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked List Cycle II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LinkedListCycleII.java)|
 |143|Medium|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Reorder List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReorderList.java)|
