@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1480
+Count of solved tasks: 1481
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1289,7 +1289,8 @@ Count of solved tasks: 1480
 |2130|Medium|[Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)|[Maximum Twin Sum of a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTwinSumOfLinkedList.java)|
 |2131|Medium|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|[Longest Palindrome by Concatenating Two Letter Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestPalindromeByConcatenatingTwoLetterWords.java)|
 |2133|Easy|[Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/)|[Check if Every Row and Column Contains All Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfEveryRowAndColumnContainsAllNumbers.java)|
-|2138|Easy|[Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)|[Divide a String Into Groups of Size k.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideStringIntoGroupsOfSizeK.java)|</p>
+|2138|Easy|[Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)|[Divide a String Into Groups of Size k.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideStringIntoGroupsOfSizeK.java)|
+|2144|Easy|[Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/)|[Minimum Cost of Buying Candies With Discount.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostOfBuyingCandiesWithDiscount.java)|</p>
 </details>
 
 <details>
@@ -1492,7 +1493,8 @@ Count of solved tasks: 1480
 |2124|Easy|[Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)|[Check if All A's Appears Before All B's.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllAsAppearsBeforeAllBs.java)|
 |2129|Easy|[Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/)|[Capitalize the Title.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CapitalizeTheTitle.java)|
 |2133|Easy|[Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/)|[Check if Every Row and Column Contains All Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfEveryRowAndColumnContainsAllNumbers.java)|
-|2138|Easy|[Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)|[Divide a String Into Groups of Size k.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideStringIntoGroupsOfSizeK.java)|</p>
+|2138|Easy|[Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)|[Divide a String Into Groups of Size k.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideStringIntoGroupsOfSizeK.java)|
+|2144|Easy|[Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/)|[Minimum Cost of Buying Candies With Discount.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostOfBuyingCandiesWithDiscount.java)|</p>
 </details>
 
 <details>
