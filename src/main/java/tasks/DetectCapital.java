@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 27-May-20
  */
-@LeetCode(id = 520, name = "Detect Capital", url = "https://leetcode.com/problems/detect-capital/submissions/")
+@LeetCode(
+	id = 520,
+	name = "Detect Capital",
+	url = "https://leetcode.com/problems/detect-capital/submissions/",
+	difficulty = Difficulty.EASY
+)
 public class DetectCapital
 {
 	public boolean detectCapitalUse(String word) {
