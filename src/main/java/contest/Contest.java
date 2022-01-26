@@ -1,5 +1,7 @@
 package contest;
 
+import common.TreeNode;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

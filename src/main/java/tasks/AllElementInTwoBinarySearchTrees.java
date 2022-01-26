@@ -5,6 +5,7 @@ import common.LeetCode;
 import common.TreeNode;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -21,47 +22,47 @@ public class AllElementInTwoBinarySearchTrees
 {
 	public List<Integer> getAllElements(TreeNode root1, TreeNode root2)
 	{
-		List<Integer> first = new ArrayList<>();
-		List<Integer> second = new ArrayList<>();
-		inorder(root1, first);
-		inorder(root2, second);
-		List<Integer> result = new ArrayList<>();
-		int fPos = 0;
-		int sPos = 0;
-		while (fPos < first.size() && sPos < second.size())
+		LinkedList<Integer> list1 = new LinkedList<>();
+		LinkedList<Integer> list2 = new LinkedList<>();
+		dfs(root1, list1);
+		dfs(root2, list2);
+
+		List<Integer> answer = new ArrayList<>();
+		while (!list1.isEmpty() && !list2.isEmpty())
 		{
-			if (first.get(fPos) < second.get(sPos))
+			if (list1.getFirst() <= list2.getFirst())
 			{
-				result.add(first.get(fPos++));
+				answer.add(list1.removeFirst());
 			}
 			else
 			{
-				result.add(second.get(sPos++));
+				answer.add(list2.removeFirst());
 			}
 		}
 
-		while (fPos < first.size())
+		while (!list1.isEmpty())
 		{
-			result.add(first.get(fPos++));
+			answer.add(list1.removeFirst());
 		}
 
-		while (sPos < second.size())
+
+		while (!list2.isEmpty())
 		{
-			result.add(second.get(sPos++));
+			answer.add(list2.removeFirst());
 		}
 
-		return result;
+		return answer;
 	}
 
-	private void inorder(TreeNode root, List<Integer> values)
+	private void dfs(TreeNode treeNode, List<Integer> list)
 	{
-		if (root == null)
+		if (treeNode == null)
 		{
 			return;
 		}
 
-		inorder(root.left, values);
-		values.add(root.val);
-		inorder(root.right, values);
+		dfs(treeNode.left, list);
+		list.add(treeNode.val);
+		dfs(treeNode.right, list);
 	}
 }
