@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 20-Jul-20
  */
-@LeetCode(id = 421, name = "Maximum XOR of Two Numbers in an Array", url = "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/")
+@LeetCode(
+	id = 421,
+	name = "Maximum XOR of Two Numbers in an Array",
+	url = "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MaximumXOROfTwoNumbersInAnArray
 {
 	class Trie
