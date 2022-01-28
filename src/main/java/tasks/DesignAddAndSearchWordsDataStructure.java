@@ -9,11 +9,11 @@ import common.LeetCode;
  */
 @LeetCode(
 	id = 211,
-	name = "Add and Search Word - Data structure design",
+	name = "Design Add and Search Words Data Structure",
 	url = "https://leetcode.com/problems/add-and-search-word-data-structure-design/",
 	difficulty = Difficulty.MEDIUM
 )
-public class AddAndSearchWordDataStructureDesign
+public class DesignAddAndSearchWordsDataStructure
 {
 	class TrieNode
 	{
@@ -85,7 +85,7 @@ public class AddAndSearchWordDataStructureDesign
 
 	public static void main(String[] args)
 	{
-		WordDictionary dictionary = new AddAndSearchWordDataStructureDesign().new WordDictionary();
+		WordDictionary dictionary = new DesignAddAndSearchWordsDataStructure().new WordDictionary();
 		System.out.println(dictionary.search("a"));
 		dictionary.addWord("bad");
 		dictionary.addWord("dad");
