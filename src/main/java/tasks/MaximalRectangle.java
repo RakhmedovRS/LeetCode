@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Deque;
@@ -9,7 +10,12 @@ import java.util.LinkedList;
  * @author RakhmedovRS
  * @created 26-Feb-20
  */
-@LeetCode(id = 85, name = "Maximal Rectangle", url = "https://leetcode.com/problems/maximal-rectangle/")
+@LeetCode(
+	id = 85,
+	name = "Maximal Rectangle",
+	url = "https://leetcode.com/problems/maximal-rectangle/",
+	difficulty = Difficulty.HARD
+)
 public class MaximalRectangle
 {
 	public int largestRectangleArea(int[] heights)
