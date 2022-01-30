@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1488
+Count of solved tasks: 1489
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1297,7 +1297,8 @@ Count of solved tasks: 1488
 |2148|Easy|[Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/)|[Count Elements With Strictly Smaller and Greater Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountElementsWithStrictlySmallerAndGreaterElements.java)|
 |2149|Medium|[Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/)|[Rearrange Array Elements by Sign.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeArrayElementsBySign.java)|
 |2150|Medium|[Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)|[Find All Lonely Numbers in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllLonelyNumbersInTheArray.java)|
-|2154|Easy|[Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|[Keep Multiplying Found Values by Two.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KeepMultiplyingFoundValuesByTwo.java)|</p>
+|2154|Easy|[Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|[Keep Multiplying Found Values by Two.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KeepMultiplyingFoundValuesByTwo.java)|
+|2155|Medium|[All Divisions With the Highest Score of a Binary Array](https://leetcode.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/)|[All Divisions With the Highest Score of a Binary Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AllDivisionsWithTheHighestScoreOfBinaryArray.java)|</p>
 </details>
 
 <details>
@@ -1949,7 +1950,8 @@ Count of solved tasks: 1488
 |2145|Medium|[Count the Hidden Sequences](https://leetcode.com/problems/count-the-hidden-sequences/)|[Count the Hidden Sequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheHiddenSequences.java)|
 |2146|Medium|[K Highest Ranked Items Within a Price Range](https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/)|[K Highest Ranked Items Within a Price Range.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KHighestRankedItemsWithinPriceRange.java)|
 |2149|Medium|[Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/)|[Rearrange Array Elements by Sign.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeArrayElementsBySign.java)|
-|2150|Medium|[Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)|[Find All Lonely Numbers in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllLonelyNumbersInTheArray.java)|</p>
+|2150|Medium|[Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)|[Find All Lonely Numbers in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllLonelyNumbersInTheArray.java)|
+|2155|Medium|[All Divisions With the Highest Score of a Binary Array](https://leetcode.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/)|[All Divisions With the Highest Score of a Binary Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AllDivisionsWithTheHighestScoreOfBinaryArray.java)|</p>
 </details>
 
 <details>
