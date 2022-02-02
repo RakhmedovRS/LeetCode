@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -9,58 +10,67 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 17-May-20
  */
-@LeetCode(id = 438, name = "Find All Anagrams in a String", url = "https://leetcode.com/problems/find-all-anagrams-in-a-string/")
+@LeetCode(
+	id = 438,
+	name = "Find All Anagrams in a String",
+	url = "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+	difficulty = Difficulty.MEDIUM
+)
 public class FindAllAnagramsInString
 {
 	public List<Integer> findAnagrams(String s, String p)
 	{
-		List<Integer> result = new ArrayList<>();
-		if (s == null || s.isEmpty() || p == null || p.isEmpty() || s.length() < p.length())
+		List<Integer> answer = new ArrayList<>();
+		int[] origin = createCharFrequencyTable(p);
+		int[] current = new int[26];
+		int left = 0;
+		int right = 0;
+		while (right <= s.length())
 		{
-			return result;
-		}
-
-		int[] pattern = new int[26];
-		for (char ch : p.toCharArray())
-		{
-			pattern[ch - 'a']++;
-		}
-
-		int pLength = p.length();
-		int[] window = new int[26];
-		for (int i = 0; i < s.length(); i++)
-		{
-			char ch = s.charAt(i);
-			window[ch - 'a']++;
-			if (i < pLength - 1)
+			if (right - left == p.length())
 			{
-				continue;
+				if (containsSameChars(origin, current))
+				{
+					answer.add(left);
+				}
+				current[s.charAt(left++) - 'a']--;
 			}
 
-			if (i >= pLength)
+			if (right < s.length())
 			{
-				window[s.charAt(i - pLength) - 'a']--;
+				current[s.charAt(right) - 'a']++;
 			}
-
-			if (match(window, pattern))
-			{
-				result.add(i - pLength + 1);
-			}
+			right++;
 		}
 
-		return result;
+		return answer;
 	}
 
-	private boolean match(int[] window, int[] pattern)
+	private boolean containsSameChars(int[] origin, int[] current)
 	{
-		for (int i = 0; i < window.length; i++)
+		for (int i = 0; i < origin.length; i++)
 		{
-			if (window[i] < pattern[i])
+			if (origin[i] > current[i])
 			{
 				return false;
 			}
 		}
+
 		return true;
+	}
+
+	public int[] createCharFrequencyTable(String word)
+	{
+		int[] pattern = new int[26];
+		for (char ch : word.toCharArray())
+		{
+			if (Character.isAlphabetic(ch))
+			{
+				pattern[Character.toLowerCase(ch) - 'a']++;
+			}
+		}
+
+		return pattern;
 	}
 
 	public static void main(String[] args)
