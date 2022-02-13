@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1489
+Count of solved tasks: 1490
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1298,7 +1298,8 @@ Count of solved tasks: 1489
 |2149|Medium|[Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/)|[Rearrange Array Elements by Sign.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeArrayElementsBySign.java)|
 |2150|Medium|[Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)|[Find All Lonely Numbers in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllLonelyNumbersInTheArray.java)|
 |2154|Easy|[Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|[Keep Multiplying Found Values by Two.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KeepMultiplyingFoundValuesByTwo.java)|
-|2155|Medium|[All Divisions With the Highest Score of a Binary Array](https://leetcode.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/)|[All Divisions With the Highest Score of a Binary Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AllDivisionsWithTheHighestScoreOfBinaryArray.java)|</p>
+|2155|Medium|[All Divisions With the Highest Score of a Binary Array](https://leetcode.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/)|[All Divisions With the Highest Score of a Binary Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AllDivisionsWithTheHighestScoreOfBinaryArray.java)|
+|2169|Easy|[Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/)|[Count Operations to Obtain Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountOperationsToObtainZero.java)|</p>
 </details>
 
 <details>
@@ -1506,7 +1507,8 @@ Count of solved tasks: 1489
 |2138|Easy|[Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)|[Divide a String Into Groups of Size k.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideStringIntoGroupsOfSizeK.java)|
 |2144|Easy|[Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/)|[Minimum Cost of Buying Candies With Discount.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostOfBuyingCandiesWithDiscount.java)|
 |2148|Easy|[Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/)|[Count Elements With Strictly Smaller and Greater Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountElementsWithStrictlySmallerAndGreaterElements.java)|
-|2154|Easy|[Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|[Keep Multiplying Found Values by Two.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KeepMultiplyingFoundValuesByTwo.java)|</p>
+|2154|Easy|[Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|[Keep Multiplying Found Values by Two.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KeepMultiplyingFoundValuesByTwo.java)|
+|2169|Easy|[Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/)|[Count Operations to Obtain Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountOperationsToObtainZero.java)|</p>
 </details>
 
 <details>
