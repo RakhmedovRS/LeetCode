@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1492
+Count of solved tasks: 1493
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1299,6 +1299,7 @@ Count of solved tasks: 1492
 |2150|Medium|[Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)|[Find All Lonely Numbers in the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllLonelyNumbersInTheArray.java)|
 |2154|Easy|[Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|[Keep Multiplying Found Values by Two.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KeepMultiplyingFoundValuesByTwo.java)|
 |2155|Medium|[All Divisions With the Highest Score of a Binary Array](https://leetcode.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/)|[All Divisions With the Highest Score of a Binary Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AllDivisionsWithTheHighestScoreOfBinaryArray.java)|
+|2164|Easy|[Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)|[Sort Even and Odd Indices Independently.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortEvenAndOddIndicesIndependently.java)|
 |2169|Easy|[Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/)|[Count Operations to Obtain Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountOperationsToObtainZero.java)|
 |2170|Medium|[Minimum Operations to Make the Array Alternating](https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/)|[Minimum Operations to Make the Array Alternating.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeTheArrayAlternating.java)|
 |2171|Medium|[Removing Minimum Number of Magic Beans](https://leetcode.com/problems/removing-minimum-number-of-magic-beans/)|[Removing Minimum Number of Magic Beans.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemovingMinimumNumberOfMagicBeans.java)|</p>
@@ -1510,6 +1511,7 @@ Count of solved tasks: 1492
 |2144|Easy|[Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/)|[Minimum Cost of Buying Candies With Discount.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostOfBuyingCandiesWithDiscount.java)|
 |2148|Easy|[Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/)|[Count Elements With Strictly Smaller and Greater Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountElementsWithStrictlySmallerAndGreaterElements.java)|
 |2154|Easy|[Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|[Keep Multiplying Found Values by Two.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KeepMultiplyingFoundValuesByTwo.java)|
+|2164|Easy|[Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)|[Sort Even and Odd Indices Independently.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortEvenAndOddIndicesIndependently.java)|
 |2169|Easy|[Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/)|[Count Operations to Obtain Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountOperationsToObtainZero.java)|</p>
 </details>
 
