@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 08-Mar-20
  */
-@LeetCode(id = 693, name = "Binary Number with Alternating Bits", url = "https://leetcode.com/problems/binary-number-with-alternating-bits/")
+@LeetCode(
+	id = 693,
+	name = "Binary Number with Alternating Bits",
+	url = "https://leetcode.com/problems/binary-number-with-alternating-bits/",
+	difficulty = Difficulty.MEDIUM
+)
 public class BinaryNumberWithAlternatingBits
 {
 	public boolean hasAlternatingBits(int n)
