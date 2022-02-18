@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Deque;
@@ -9,7 +10,12 @@ import java.util.LinkedList;
  * @author RakhmedovRS
  * @created 13-May-20
  */
-@LeetCode(id = 402, name = "Remove K Digits", url = "https://leetcode.com/problems/remove-k-digits/")
+@LeetCode(
+	id = 402,
+	name = "Remove K Digits",
+	url = "https://leetcode.com/problems/remove-k-digits/",
+	difficulty = Difficulty.MEDIUM
+)
 public class RemoveKDigits
 {
 	public String removeKdigits(String num, int k)
@@ -25,7 +31,7 @@ public class RemoveKDigits
 			char ch = num.charAt(i);
 			while (k > 0 && !stack.isEmpty() && stack.peek() > ch)
 			{
-				stack.pop();
+				stack.removeFirst();
 				k--;
 			}
 
@@ -33,19 +39,19 @@ public class RemoveKDigits
 			{
 				continue;
 			}
-			stack.push(num.charAt(i));
+			stack.addFirst(num.charAt(i));
 		}
 
 		while (k > 0)
 		{
-			stack.pop();
+			stack.removeFirst();
 			k--;
 		}
 
 		StringBuilder stringBuilder = new StringBuilder();
 		while (!stack.isEmpty())
 		{
-			stringBuilder.append(stack.pop());
+			stringBuilder.append(stack.removeFirst());
 		}
 
 		String answer = stringBuilder.reverse().toString();
