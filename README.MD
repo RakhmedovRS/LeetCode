@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1497
+Count of solved tasks: 1498
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1306,7 +1306,8 @@ Count of solved tasks: 1497
 |2169|Easy|[Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/)|[Count Operations to Obtain Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountOperationsToObtainZero.java)|
 |2170|Medium|[Minimum Operations to Make the Array Alternating](https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/)|[Minimum Operations to Make the Array Alternating.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeTheArrayAlternating.java)|
 |2171|Medium|[Removing Minimum Number of Magic Beans](https://leetcode.com/problems/removing-minimum-number-of-magic-beans/)|[Removing Minimum Number of Magic Beans.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemovingMinimumNumberOfMagicBeans.java)|
-|2176|Easy|[Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/)|[Count Equal and Divisible Pairs in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountEqualAndDivisiblePairsInArray.java)|</p>
+|2176|Easy|[Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/)|[Count Equal and Divisible Pairs in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountEqualAndDivisiblePairsInArray.java)|
+|2177|Medium|[Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/)|[Find Three Consecutive Integers That Sum to a Given Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThreeConsecutiveIntegersThatSumToGivenNumber.java)|</p>
 </details>
 
 <details>
@@ -1972,7 +1973,8 @@ Count of solved tasks: 1497
 |2161|Medium|[Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)|[Partition Array According to Given Pivot.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionArrayAccordingToGivenPivot.java)|
 |2165|Medium|[Smallest Value of the Rearranged Number](https://leetcode.com/problems/smallest-value-of-the-rearranged-number/)|[Smallest Value of the Rearranged Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestValueOfTheRearrangedNumber.java)|
 |2170|Medium|[Minimum Operations to Make the Array Alternating](https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/)|[Minimum Operations to Make the Array Alternating.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeTheArrayAlternating.java)|
-|2171|Medium|[Removing Minimum Number of Magic Beans](https://leetcode.com/problems/removing-minimum-number-of-magic-beans/)|[Removing Minimum Number of Magic Beans.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemovingMinimumNumberOfMagicBeans.java)|</p>
+|2171|Medium|[Removing Minimum Number of Magic Beans](https://leetcode.com/problems/removing-minimum-number-of-magic-beans/)|[Removing Minimum Number of Magic Beans.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemovingMinimumNumberOfMagicBeans.java)|
+|2177|Medium|[Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/)|[Find Three Consecutive Integers That Sum to a Given Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThreeConsecutiveIntegersThatSumToGivenNumber.java)|</p>
 </details>
 
 <details>
