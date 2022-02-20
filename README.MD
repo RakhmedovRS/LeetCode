@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1500
+Count of solved tasks: 1501
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1309,7 +1309,8 @@ Count of solved tasks: 1500
 |2176|Easy|[Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/)|[Count Equal and Divisible Pairs in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountEqualAndDivisiblePairsInArray.java)|
 |2177|Medium|[Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/)|[Find Three Consecutive Integers That Sum to a Given Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThreeConsecutiveIntegersThatSumToGivenNumber.java)|
 |2178|Medium|[Maximum Split of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/)|[Maximum Split of Positive Even Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSplitOfPositiveEvenIntegers.java)|
-|2180|Easy|[Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/)|[Count Integers With Even Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIntegersWithEvenDigitSum.java)|</p>
+|2180|Easy|[Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/)|[Count Integers With Even Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIntegersWithEvenDigitSum.java)|
+|2181|Medium|[Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/)|[Merge Nodes in Between Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeNodesInBetweenZeros.java)|</p>
 </details>
 
 <details>
@@ -1978,7 +1979,8 @@ Count of solved tasks: 1500
 |2170|Medium|[Minimum Operations to Make the Array Alternating](https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/)|[Minimum Operations to Make the Array Alternating.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeTheArrayAlternating.java)|
 |2171|Medium|[Removing Minimum Number of Magic Beans](https://leetcode.com/problems/removing-minimum-number-of-magic-beans/)|[Removing Minimum Number of Magic Beans.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemovingMinimumNumberOfMagicBeans.java)|
 |2177|Medium|[Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/)|[Find Three Consecutive Integers That Sum to a Given Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThreeConsecutiveIntegersThatSumToGivenNumber.java)|
-|2178|Medium|[Maximum Split of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/)|[Maximum Split of Positive Even Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSplitOfPositiveEvenIntegers.java)|</p>
+|2178|Medium|[Maximum Split of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/)|[Maximum Split of Positive Even Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSplitOfPositiveEvenIntegers.java)|
+|2181|Medium|[Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/)|[Merge Nodes in Between Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeNodesInBetweenZeros.java)|</p>
 </details>
 
 <details>
