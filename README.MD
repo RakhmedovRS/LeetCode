@@ -158,7 +158,7 @@ Count of solved tasks: 1502
 |165|Undefined|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Compare Version Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CompareVersionNumbers.java)|
 |167|Undefined|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Two Sum II - Input array is sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoSumII.java)|
 |168|Undefined|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)|[Excel Sheet Column Title.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExcelSheetColumnTitle.java)|
-|169|Undefined|[Majority Element](https://leetcode.com/problems/majority-element/)|[Majority Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MajorityElement.java)|
+|169|Easy|[Majority Element](https://leetcode.com/problems/majority-element/)|[Majority Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MajorityElement.java)|
 |171|Undefined|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[Excel Sheet Column Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExcelSheetColumnNumber.java)|
 |172|Undefined|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|[Factorial Trailing Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FactorialTrailingZeroes.java)|
 |173|Medium|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Binary Search Tree Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinarySearchTreeIterator.java)|
@@ -1339,6 +1339,7 @@ Count of solved tasks: 1502
 |141|Easy|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LinkedListCycle.java)|
 |155|Easy|[Min Stack](https://leetcode.com/problems/min-stack/)|[Min Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinStack.java)|
 |160|Easy|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Intersection of Two Linked Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IntersectionOfTwoLinkedLists.java)|
+|169|Easy|[Majority Element](https://leetcode.com/problems/majority-element/)|[Majority Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MajorityElement.java)|
 |191|Easy|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOf1Bits.java)|
 |203|Easy|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove Linked List Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveLinkedListElements.java)|
 |204|Easy|[Count Primes](https://leetcode.com/problems/count-primes/)|[Count Primes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPrimes.java)|

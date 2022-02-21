@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashMap;
@@ -9,7 +10,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 03-Mar-20
  */
-@LeetCode(id = 169, name = "Majority Element", url = "https://leetcode.com/problems/majority-element/")
+@LeetCode(
+	id = 169,
+	name = "Majority Element",
+	url = "https://leetcode.com/problems/majority-element/",
+	difficulty = Difficulty.EASY
+)
 public class MajorityElement
 {
 	public int majorityElement(int[] nums)
