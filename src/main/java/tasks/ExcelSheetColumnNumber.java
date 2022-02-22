@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 05-Apr-20
  */
-@LeetCode(id = 171, name = "Excel Sheet Column Number", url = "https://leetcode.com/problems/excel-sheet-column-number/")
+@LeetCode(
+	id = 171,
+	name = "Excel Sheet Column Number",
+	url = "https://leetcode.com/problems/excel-sheet-column-number/",
+	difficulty = Difficulty.EASY
+)
 public class ExcelSheetColumnNumber
 {
 	public int titleToNumber(String s) {
