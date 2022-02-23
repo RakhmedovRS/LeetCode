@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.Node;
 
@@ -9,7 +10,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 26-Mar-20
  */
-@LeetCode(id = 133, name = "Clone Graph", url = "https://leetcode.com/problems/clone-graph/")
+@LeetCode(
+	id = 133,
+	name = "Clone Graph",
+	url = "https://leetcode.com/problems/clone-graph/",
+	difficulty = Difficulty.MEDIUM
+)
 public class CloneGraph
 {
 	public Node cloneGraph(Node node)
