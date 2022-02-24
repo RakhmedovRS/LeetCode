@@ -145,7 +145,7 @@ Count of solved tasks: 1502
 |144|Undefined|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Binary Tree Preorder Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreePreorderTraversal.java)|
 |146|Undefined|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[LRU Cache.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LRUCache.java)|
 |147|Medium|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[Insertion Sort List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/InsertionSortList.java)|
-|148|Undefined|[Sort List](https://leetcode.com/problems/sort-list/)|[Sort List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortList.java)|
+|148|Medium|[Sort List](https://leetcode.com/problems/sort-list/)|[Sort List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortList.java)|
 |150|Medium|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Evaluate Reverse Polish Notation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateReversePolishNotation.java)|
 |151|Medium|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Reverse Words in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseWordsInString.java)|
 |152|Medium|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum Product Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductSubarray.java)|
@@ -1595,6 +1595,7 @@ Count of solved tasks: 1502
 |142|Medium|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked List Cycle II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LinkedListCycleII.java)|
 |143|Medium|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Reorder List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReorderList.java)|
 |147|Medium|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[Insertion Sort List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/InsertionSortList.java)|
+|148|Medium|[Sort List](https://leetcode.com/problems/sort-list/)|[Sort List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortList.java)|
 |150|Medium|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Evaluate Reverse Polish Notation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateReversePolishNotation.java)|
 |151|Medium|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Reverse Words in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseWordsInString.java)|
 |152|Medium|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum Product Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductSubarray.java)|
