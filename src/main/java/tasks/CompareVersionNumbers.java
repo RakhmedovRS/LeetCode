@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 20-Jun-20
  */
-@LeetCode(id = 165, name = "Compare Version Numbers", url = "https://leetcode.com/problems/compare-version-numbers/")
+@LeetCode(
+	id = 165,
+	name = "Compare Version Numbers",
+	url = "https://leetcode.com/problems/compare-version-numbers/",
+	difficulty = Difficulty.MEDIUM
+)
 public class CompareVersionNumbers
 {
 	public int compareVersion(String version1, String version2)
