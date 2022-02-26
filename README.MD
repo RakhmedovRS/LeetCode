@@ -482,7 +482,7 @@ Count of solved tasks: 1502
 |701|Medium|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Insert into a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/InsertIntoBinarySearchTree.java)|
 |703|Undefined|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Kth Largest Element in a Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthLargestElementInStream.java)|
 |704|Undefined|[Binary Search](https://leetcode.com/problems/binary-search/)|[Binary Search.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinarySearch.java)|
-|705|Undefined|[Design HashSet](https://leetcode.com/problems/design-hashset/)|[Design HashSet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignHashSet.java)|
+|705|Easy|[Design HashSet](https://leetcode.com/problems/design-hashset/)|[Design HashSet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignHashSet.java)|
 |706|Easy|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Design HashMap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignHashMap.java)|
 |707|Undefined|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[Design Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignLinkedList.java)|
 |709|Easy|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[To Lower Case.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ToLowerCase.java)|
@@ -1381,6 +1381,7 @@ Count of solved tasks: 1502
 |653|Easy|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Two Sum IV - Input is a BST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoSumIVInputIsBST.java)|
 |682|Easy|[Baseball Game](https://leetcode.com/problems/baseball-game/)|[Baseball Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BaseballGame.java)|
 |696|Easy|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|[Count Binary Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountBinarySubstrings.java)|
+|705|Easy|[Design HashSet](https://leetcode.com/problems/design-hashset/)|[Design HashSet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignHashSet.java)|
 |706|Easy|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Design HashMap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignHashMap.java)|
 |709|Easy|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[To Lower Case.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ToLowerCase.java)|
 |720|Easy|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Longest Word in Dictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestWordInDictionary.java)|
