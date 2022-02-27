@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1502
+Count of solved tasks: 1503
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1311,7 +1311,8 @@ Count of solved tasks: 1502
 |2178|Medium|[Maximum Split of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/)|[Maximum Split of Positive Even Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSplitOfPositiveEvenIntegers.java)|
 |2180|Easy|[Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/)|[Count Integers With Even Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIntegersWithEvenDigitSum.java)|
 |2181|Medium|[Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/)|[Merge Nodes in Between Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeNodesInBetweenZeros.java)|
-|2182|Medium|[Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/)|[Construct String With Repeat Limit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructStringWithRepeatLimit.java)|</p>
+|2182|Medium|[Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/)|[Construct String With Repeat Limit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructStringWithRepeatLimit.java)|
+|2185|Easy|[Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/)|[Counting Words With a Given Prefix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountingWordsWithGivenPrefix.java)|</p>
 </details>
 
 <details>
@@ -1527,7 +1528,8 @@ Count of solved tasks: 1502
 |2164|Easy|[Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)|[Sort Even and Odd Indices Independently.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortEvenAndOddIndicesIndependently.java)|
 |2169|Easy|[Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/)|[Count Operations to Obtain Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountOperationsToObtainZero.java)|
 |2176|Easy|[Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/)|[Count Equal and Divisible Pairs in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountEqualAndDivisiblePairsInArray.java)|
-|2180|Easy|[Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/)|[Count Integers With Even Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIntegersWithEvenDigitSum.java)|</p>
+|2180|Easy|[Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/)|[Count Integers With Even Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIntegersWithEvenDigitSum.java)|
+|2185|Easy|[Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/)|[Counting Words With a Given Prefix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountingWordsWithGivenPrefix.java)|</p>
 </details>
 
 <details>
