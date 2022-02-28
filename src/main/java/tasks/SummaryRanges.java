@@ -1,9 +1,9 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
-import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -11,48 +11,51 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 03-Jul-20
  */
-@LeetCode(id = 228, name = "Summary Ranges", url = "https://leetcode.com/problems/summary-ranges/")
+@LeetCode(
+	id = 228,
+	name = "Summary Ranges",
+	url = "https://leetcode.com/problems/summary-ranges/",
+	difficulty = Difficulty.EASY
+)
 public class SummaryRanges
 {
 	public List<String> summaryRanges(int[] nums)
 	{
-		List<String> answer = new ArrayList<>();
-		if (nums == null || nums.length == 0)
-		{
-			return answer;
-		}
-
-		Deque<Integer> deque = new LinkedList<>();
+		List<String> list = new ArrayList<>();
+		LinkedList<Integer> stack = new LinkedList<>();
 		for (int num : nums)
 		{
-			if (!deque.isEmpty())
+			if (!stack.isEmpty())
 			{
-				if (deque.getLast() + 1 != num)
+				if (stack.getLast() + 1 != num)
 				{
-					if (deque.size() == 1)
+					if (stack.size() == 1)
 					{
-						answer.add(String.valueOf(deque.removeLast()));
+						list.add("" + stack.removeLast());
 					}
 					else
 					{
-						answer.add(String.format("%d->%d", deque.removeFirst(), deque.removeLast()));
-						deque.clear();
+						list.add("" + stack.removeFirst() + "->" + stack.removeLast());
 					}
+					stack.clear();
 				}
 			}
-			deque.addLast(num);
+
+			stack.addLast(num);
 		}
 
-		if (deque.size() == 1)
+		if (!stack.isEmpty())
 		{
-			answer.add(String.valueOf(deque.removeLast()));
+			if (stack.size() == 1)
+			{
+				list.add("" + stack.removeLast());
+			}
+			else
+			{
+				list.add("" + stack.removeFirst() + "->" + stack.removeLast());
+			}
 		}
-		else
-		{
-			answer.add(String.format("%d->%d", deque.removeFirst(), deque.removeLast()));
-		}
-
-		return answer;
+		return list;
 	}
 
 	public static void main(String[] args)
