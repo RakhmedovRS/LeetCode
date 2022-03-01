@@ -258,7 +258,7 @@ Count of solved tasks: 1503
 |334|Medium|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[Increasing Triplet Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IncreasingTripletSubsequence.java)|
 |336|Hard|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)|[Palindrome Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromePairs.java)|
 |337|Medium|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[House Robber III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HouseRobberIII.java)|
-|338|Undefined|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Counting Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountingBits.java)|
+|338|Easy|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Counting Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountingBits.java)|
 |341|Medium|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[Flatten Nested List Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FlattenNestedListIterator.java)|
 |343|Undefined|[Integer Break](https://leetcode.com/problems/integer-break/)|[Integer Break.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IntegerBreak.java)|
 |344|Undefined|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Reverse String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseString.java)|
@@ -1358,6 +1358,7 @@ Count of solved tasks: 1503
 |268|Easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MissingNumber.java)|
 |303|Easy|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Range Sum Query - Immutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeSumQueryImmutable.java)|
 |326|Easy|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Power of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PowerOfThree.java)|
+|338|Easy|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Counting Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountingBits.java)|
 |374|Easy|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Guess Number Higher or Lower.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GuessNumberHigherOrLower.java)|
 |401|Easy|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[Binary Watch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryWatch.java)|
 |404|Easy|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Sum of Left Leaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfLeftLeaves.java)|

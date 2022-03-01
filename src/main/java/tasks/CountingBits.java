@@ -1,54 +1,31 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 28-May-20
  */
-@LeetCode(id = 338, name = "Counting Bits", url = "https://leetcode.com/problems/counting-bits/")
+@LeetCode(
+	id = 338,
+	name = "Counting Bits",
+	url = "https://leetcode.com/problems/counting-bits/",
+	difficulty = Difficulty.EASY
+)
 public class CountingBits
 {
-	public int[] countBits1(int num)
+	public int[] countBits(int n)
 	{
-		int[] answer = new int[num + 1];
-
-		for (int i = 1; i <= num; i++)
+		int[] answer = new int[n + 1];
+		for (int i = 1; i <= n; i++)
 		{
-			answer[i] = Integer.bitCount(i);
-		}
-		return answer;
-	}
-
-	public int[] countBits(int num)
-	{
-		int[] answer = new int[num + 1];
-		boolean[] number = new boolean[32];
-		int pos;
-		boolean add;
-		int bitCount = 0;
-		for (int i = 1; i <= num; i++)
-		{
-			add = true;
-			pos = 0;
-			while (add && pos < 32)
+			for (int j = 0; j < 30; j++)
 			{
-				if (number[pos])
-				{
-					number[pos] = false;
-					bitCount--;
-				}
-				else
-				{
-					add = false;
-					number[pos] = true;
-					bitCount++;
-				}
-				pos++;
+				answer[i] += (i & (1 << j)) > 0 ? 1 : 0;
 			}
-
-			answer[i] = bitCount;
 		}
+
 		return answer;
 	}
 }
