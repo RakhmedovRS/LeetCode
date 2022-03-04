@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 07-Jun-20
  */
-@LeetCode(id = 799, name = "Champagne Tower", url = "https://leetcode.com/problems/champagne-tower/")
+@LeetCode(
+	id = 799,
+	name = "Champagne Tower",
+	url = "https://leetcode.com/problems/champagne-tower/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ChampagneTower
 {
 	public double champagneTower(int poured, int query_row, int query_glass)
