@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1505
+Count of solved tasks: 1506
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1314,7 +1314,8 @@ Count of solved tasks: 1505
 |2182|Medium|[Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/)|[Construct String With Repeat Limit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructStringWithRepeatLimit.java)|
 |2185|Easy|[Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/)|[Counting Words With a Given Prefix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountingWordsWithGivenPrefix.java)|
 |2186|Medium|[Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)|[Minimum Number of Steps to Make Two Strings Anagram II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfStepsToMakeTwoStringsAnagramII.java)|
-|2190|Easy|[Most Frequent Number Following Key In an Array](https://leetcode.com/contest/biweekly-contest-73/problems/most-frequent-number-following-key-in-an-array/)|[Most Frequent Number Following Key In an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostFrequentNumberFollowingKeyInArray.java)|</p>
+|2190|Easy|[Most Frequent Number Following Key In an Array](https://leetcode.com/contest/biweekly-contest-73/problems/most-frequent-number-following-key-in-an-array/)|[Most Frequent Number Following Key In an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostFrequentNumberFollowingKeyInArray.java)|
+|2191|Medium|[Sort the Jumbled Numbers](https://leetcode.com/contest/biweekly-contest-73/problems/sort-the-jumbled-numbers/)|[Sort the Jumbled Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortTheJumbledNumbers.java)|</p>
 </details>
 
 <details>
@@ -1998,7 +1999,8 @@ Count of solved tasks: 1505
 |2178|Medium|[Maximum Split of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/)|[Maximum Split of Positive Even Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSplitOfPositiveEvenIntegers.java)|
 |2181|Medium|[Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/)|[Merge Nodes in Between Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeNodesInBetweenZeros.java)|
 |2182|Medium|[Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/)|[Construct String With Repeat Limit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructStringWithRepeatLimit.java)|
-|2186|Medium|[Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)|[Minimum Number of Steps to Make Two Strings Anagram II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfStepsToMakeTwoStringsAnagramII.java)|</p>
+|2186|Medium|[Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)|[Minimum Number of Steps to Make Two Strings Anagram II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfStepsToMakeTwoStringsAnagramII.java)|
+|2191|Medium|[Sort the Jumbled Numbers](https://leetcode.com/contest/biweekly-contest-73/problems/sort-the-jumbled-numbers/)|[Sort the Jumbled Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortTheJumbledNumbers.java)|</p>
 </details>
 
 <details>
