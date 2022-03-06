@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1507
+Count of solved tasks: 1508
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1316,7 +1316,8 @@ Count of solved tasks: 1507
 |2186|Medium|[Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)|[Minimum Number of Steps to Make Two Strings Anagram II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfStepsToMakeTwoStringsAnagramII.java)|
 |2190|Easy|[Most Frequent Number Following Key In an Array](https://leetcode.com/contest/biweekly-contest-73/problems/most-frequent-number-following-key-in-an-array/)|[Most Frequent Number Following Key In an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostFrequentNumberFollowingKeyInArray.java)|
 |2191|Medium|[Sort the Jumbled Numbers](https://leetcode.com/contest/biweekly-contest-73/problems/sort-the-jumbled-numbers/)|[Sort the Jumbled Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortTheJumbledNumbers.java)|
-|2192|Medium|[All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)|[All Ancestors of a Node in a Directed Acyclic Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AllAncestorsOfNodeInDirectedAcyclicGraph.java)|</p>
+|2192|Medium|[All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)|[All Ancestors of a Node in a Directed Acyclic Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AllAncestorsOfNodeInDirectedAcyclicGraph.java)|
+|2194|Easy|[Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/)|[Cells in a Range on an Excel Sheet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CellsInRangeOnExcelSheet.java)|</p>
 </details>
 
 <details>
@@ -1537,7 +1538,8 @@ Count of solved tasks: 1507
 |2176|Easy|[Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/)|[Count Equal and Divisible Pairs in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountEqualAndDivisiblePairsInArray.java)|
 |2180|Easy|[Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/)|[Count Integers With Even Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIntegersWithEvenDigitSum.java)|
 |2185|Easy|[Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/)|[Counting Words With a Given Prefix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountingWordsWithGivenPrefix.java)|
-|2190|Easy|[Most Frequent Number Following Key In an Array](https://leetcode.com/contest/biweekly-contest-73/problems/most-frequent-number-following-key-in-an-array/)|[Most Frequent Number Following Key In an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostFrequentNumberFollowingKeyInArray.java)|</p>
+|2190|Easy|[Most Frequent Number Following Key In an Array](https://leetcode.com/contest/biweekly-contest-73/problems/most-frequent-number-following-key-in-an-array/)|[Most Frequent Number Following Key In an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostFrequentNumberFollowingKeyInArray.java)|
+|2194|Easy|[Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/)|[Cells in a Range on an Excel Sheet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CellsInRangeOnExcelSheet.java)|</p>
 </details>
 
 <details>
