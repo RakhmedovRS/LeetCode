@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1509
+Count of solved tasks: 1510
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1318,7 +1318,8 @@ Count of solved tasks: 1509
 |2191|Medium|[Sort the Jumbled Numbers](https://leetcode.com/contest/biweekly-contest-73/problems/sort-the-jumbled-numbers/)|[Sort the Jumbled Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortTheJumbledNumbers.java)|
 |2192|Medium|[All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)|[All Ancestors of a Node in a Directed Acyclic Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AllAncestorsOfNodeInDirectedAcyclicGraph.java)|
 |2194|Easy|[Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/)|[Cells in a Range on an Excel Sheet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CellsInRangeOnExcelSheet.java)|
-|2195|Medium|[Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/)|[Append K Integers With Minimal Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppendKIntegersWithMinimalSum.java)|</p>
+|2195|Medium|[Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/)|[Append K Integers With Minimal Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppendKIntegersWithMinimalSum.java)|
+|2196|Medium|[Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/)|[Create Binary Tree From Descriptions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CreateBinaryTreeFromDescriptions.java)|</p>
 </details>
 
 <details>
@@ -2006,7 +2007,8 @@ Count of solved tasks: 1509
 |2186|Medium|[Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)|[Minimum Number of Steps to Make Two Strings Anagram II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfStepsToMakeTwoStringsAnagramII.java)|
 |2191|Medium|[Sort the Jumbled Numbers](https://leetcode.com/contest/biweekly-contest-73/problems/sort-the-jumbled-numbers/)|[Sort the Jumbled Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortTheJumbledNumbers.java)|
 |2192|Medium|[All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)|[All Ancestors of a Node in a Directed Acyclic Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AllAncestorsOfNodeInDirectedAcyclicGraph.java)|
-|2195|Medium|[Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/)|[Append K Integers With Minimal Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppendKIntegersWithMinimalSum.java)|</p>
+|2195|Medium|[Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/)|[Append K Integers With Minimal Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppendKIntegersWithMinimalSum.java)|
+|2196|Medium|[Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/)|[Create Binary Tree From Descriptions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CreateBinaryTreeFromDescriptions.java)|</p>
 </details>
 
 <details>
