@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 14-Jul-20
  */
-@LeetCode(id = 1130, name = "Minimum Cost Tree From Leaf Values", url = "https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/")
+@LeetCode(
+	id = 1130,
+	name = "Minimum Cost Tree From Leaf Values",
+	url = "https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MinimumCostTreeFromLeafValues
 {
 	public int mctFromLeafValues(int[] arr)
