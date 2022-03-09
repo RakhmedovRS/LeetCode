@@ -636,7 +636,7 @@ Count of solved tasks: 1510
 |932|Medium|[Beautiful Array](https://leetcode.com/problems/beautiful-array/)|[Beautiful Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BeautifulArray.java)|
 |933|Undefined|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[Number of Recent Calls.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfRecentCalls.java)|
 |934|Undefined|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)|[Shortest Bridge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestBridge.java)|
-|935|Undefined|[Knight Dialer](https://leetcode.com/problems/knight-dialer/)|[Knight Dialer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KnightDialer.java)|
+|935|Medium|[Knight Dialer](https://leetcode.com/problems/knight-dialer/)|[Knight Dialer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KnightDialer.java)|
 |937|Easy|[Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|[Reorder Data in Log Files.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReorderDataInLogFiles.java)|
 |938|Easy|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Range Sum of BST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeSumOfBST.java)|
 |941|Easy|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Valid Mountain Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidMountainArray.java)|
@@ -1767,6 +1767,7 @@ Count of solved tasks: 1510
 |923|Medium|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|[3Sum With Multiplicity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThreeSumWithMultiplicity.java)|
 |926|Medium|[Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/)|[Flip String to Monotone Increasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FlipStringToMonotoneIncreasing.java)|
 |932|Medium|[Beautiful Array](https://leetcode.com/problems/beautiful-array/)|[Beautiful Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BeautifulArray.java)|
+|935|Medium|[Knight Dialer](https://leetcode.com/problems/knight-dialer/)|[Knight Dialer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KnightDialer.java)|
 |946|Medium|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[Validate Stack Sequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidateStackSequences.java)|
 |954|Medium|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/)|[Array of Doubled Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrayOfDoubledPairs.java)|
 |970|Medium|[Powerful Integers](https://leetcode.com/problems/powerful-integers/)|[Powerful Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PowerfulIntegers.java)|

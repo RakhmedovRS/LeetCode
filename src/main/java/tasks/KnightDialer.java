@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 01-Jul-20
  */
-@LeetCode(id = 935, name = "Knight Dialer", url = "https://leetcode.com/problems/knight-dialer/")
+@LeetCode(
+	id = 935,
+	name = "Knight Dialer",
+	url = "https://leetcode.com/problems/knight-dialer/",
+	difficulty = Difficulty.MEDIUM
+)
 public class KnightDialer
 {
 	public int knightDialer(int N)
