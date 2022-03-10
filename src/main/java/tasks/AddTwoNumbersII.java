@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.ListNode;
 
@@ -7,7 +8,12 @@ import common.ListNode;
  * @author RakhmedovRS
  * @created 11/7/2020
  */
-@LeetCode(id = 445, name = "Add Two Numbers II", url = "https://leetcode.com/problems/add-two-numbers-ii/")
+@LeetCode(
+	id = 445,
+	name = "Add Two Numbers II",
+	url = "https://leetcode.com/problems/add-two-numbers-ii/",
+	difficulty = Difficulty.MEDIUM
+)
 public class AddTwoNumbersII
 {
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2)
