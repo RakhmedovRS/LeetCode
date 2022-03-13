@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1510
+Count of solved tasks: 1511
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1319,7 +1319,8 @@ Count of solved tasks: 1510
 |2192|Medium|[All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)|[All Ancestors of a Node in a Directed Acyclic Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AllAncestorsOfNodeInDirectedAcyclicGraph.java)|
 |2194|Easy|[Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/)|[Cells in a Range on an Excel Sheet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CellsInRangeOnExcelSheet.java)|
 |2195|Medium|[Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/)|[Append K Integers With Minimal Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppendKIntegersWithMinimalSum.java)|
-|2196|Medium|[Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/)|[Create Binary Tree From Descriptions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CreateBinaryTreeFromDescriptions.java)|</p>
+|2196|Medium|[Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/)|[Create Binary Tree From Descriptions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CreateBinaryTreeFromDescriptions.java)|
+|2200|Easy|[Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)|[Find All K-Distant Indices in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllKDistantIndicesInArray.java)|</p>
 </details>
 
 <details>
@@ -1542,7 +1543,8 @@ Count of solved tasks: 1510
 |2180|Easy|[Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/)|[Count Integers With Even Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIntegersWithEvenDigitSum.java)|
 |2185|Easy|[Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/)|[Counting Words With a Given Prefix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountingWordsWithGivenPrefix.java)|
 |2190|Easy|[Most Frequent Number Following Key In an Array](https://leetcode.com/contest/biweekly-contest-73/problems/most-frequent-number-following-key-in-an-array/)|[Most Frequent Number Following Key In an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostFrequentNumberFollowingKeyInArray.java)|
-|2194|Easy|[Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/)|[Cells in a Range on an Excel Sheet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CellsInRangeOnExcelSheet.java)|</p>
+|2194|Easy|[Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/)|[Cells in a Range on an Excel Sheet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CellsInRangeOnExcelSheet.java)|
+|2200|Easy|[Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)|[Find All K-Distant Indices in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllKDistantIndicesInArray.java)|</p>
 </details>
 
 <details>
