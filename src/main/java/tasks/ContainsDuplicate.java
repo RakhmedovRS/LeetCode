@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -10,7 +11,12 @@ import java.util.Set;
  * @author RakhmedovRS
  * @created 11-Mar-20
  */
-@LeetCode(id = 217, name = "Contains Duplicate", url = "https://leetcode.com/problems/contains-duplicate/")
+@LeetCode(
+	id = 217,
+	name = "Contains Duplicate",
+	url = "https://leetcode.com/problems/contains-duplicate/",
+	difficulty = Difficulty.EASY
+)
 public class ContainsDuplicate
 {
 	public boolean containsDuplicate(int[] nums)

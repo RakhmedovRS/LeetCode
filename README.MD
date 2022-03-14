@@ -188,7 +188,7 @@ Count of solved tasks: 1513
 |214|Hard|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|[Shortest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestPalindrome.java)|
 |215|Easy|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Kth Largest Element in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthLargestElementInAnArray.java)|
 |216|Medium|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Combination Sum III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CombinationSumIII.java)|
-|217|Undefined|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Contains Duplicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ContainsDuplicate.java)|
+|217|Easy|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Contains Duplicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ContainsDuplicate.java)|
 |218|Hard|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[The Skyline Problem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheSkylineProblem.java)|
 |219|Undefined|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Contains Duplicate II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ContainsDuplicateII.java)|
 |220|Undefined|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|[Contains Duplicate III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ContainsDuplicateIII.java)|
@@ -1358,6 +1358,7 @@ Count of solved tasks: 1513
 |205|Easy|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Isomorphic Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IsomorphicStrings.java)|
 |206|Easy|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseLinkedList.java)|
 |215|Easy|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Kth Largest Element in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthLargestElementInAnArray.java)|
+|217|Easy|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Contains Duplicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ContainsDuplicate.java)|
 |226|Easy|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Invert Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/InvertBinaryTree.java)|
 |228|Easy|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Summary Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SummaryRanges.java)|
 |231|Easy|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Power of Two.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PowerOfTwo.java)|
