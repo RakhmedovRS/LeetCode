@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashSet;
@@ -9,7 +10,12 @@ import java.util.Set;
  * @author RakhmedovRS
  * @created 16-Jun-20
  */
-@LeetCode(id = 468, name = "Validate IP Address", url = "https://leetcode.com/problems/validate-ip-address/")
+@LeetCode(
+	id = 468,
+	name = "Validate IP Address",
+	url = "https://leetcode.com/problems/validate-ip-address/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ValidateIPAddress
 {
 	public String validIPAddress(String IP)
