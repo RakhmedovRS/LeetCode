@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -9,7 +10,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 04-Jun-20
  */
-@LeetCode(id = 501, name = "Find Mode in Binary Search Tree", url = "https://leetcode.com/problems/find-mode-in-binary-search-tree/")
+@LeetCode(
+	id = 501,
+	name = "Find Mode in Binary Search Tree",
+	url = "https://leetcode.com/problems/find-mode-in-binary-search-tree/",
+	difficulty = Difficulty.EASY
+)
 public class FindModeInBinarySearchTree
 {
 	public int[] findMode(TreeNode root)
