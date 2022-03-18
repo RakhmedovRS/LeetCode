@@ -289,7 +289,7 @@ Count of solved tasks: 1513
 |386|Medium|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)|[Lexicographical Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicalNumbers.java)|
 |387|Undefined|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[First Unique Character in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstUniqueCharacterInString.java)|
 |388|Medium|[Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)|[Longest Absolute File Path.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestAbsoluteFilePath.java)|
-|389|Undefined|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Find the Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheDifference.java)|
+|389|Easy|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Find the Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheDifference.java)|
 |390|Undefined|[Elimination Game](https://leetcode.com/problems/elimination-game/)|[Elimination Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EliminationGame.java)|
 |392|Easy|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Is Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IsSubsequence.java)|
 |394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[Decode String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeString.java)|
@@ -1371,6 +1371,7 @@ Count of solved tasks: 1513
 |326|Easy|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Power of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PowerOfThree.java)|
 |338|Easy|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Counting Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountingBits.java)|
 |374|Easy|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Guess Number Higher or Lower.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GuessNumberHigherOrLower.java)|
+|389|Easy|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Find the Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheDifference.java)|
 |392|Easy|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Is Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IsSubsequence.java)|
 |401|Easy|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[Binary Watch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryWatch.java)|
 |404|Easy|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Sum of Left Leaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfLeftLeaves.java)|
