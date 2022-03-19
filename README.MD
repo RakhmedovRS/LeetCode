@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1513
+Count of solved tasks: 1514
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1322,7 +1322,8 @@ Count of solved tasks: 1513
 |2196|Medium|[Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/)|[Create Binary Tree From Descriptions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CreateBinaryTreeFromDescriptions.java)|
 |2200|Easy|[Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)|[Find All K-Distant Indices in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllKDistantIndicesInArray.java)|
 |2201|Medium|[Count Artifacts That Can Be Extracted](https://leetcode.com/problems/count-artifacts-that-can-be-extracted/)|[Count Artifacts That Can Be Extracted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountArtifactsThatCanBeExtracted.java)|
-|2202|Medium|[Maximize the Topmost Element After K Moves](https://leetcode.com/problems/maximize-the-topmost-element-after-k-moves/)|[Maximize the Topmost Element After K Moves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheTopmostElementAfterKMoves.java)|</p>
+|2202|Medium|[Maximize the Topmost Element After K Moves](https://leetcode.com/problems/maximize-the-topmost-element-after-k-moves/)|[Maximize the Topmost Element After K Moves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheTopmostElementAfterKMoves.java)|
+|2206|Easy|[Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/)|[Divide Array Into Equal Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideArrayIntoEqualPairs.java)|</p>
 </details>
 
 <details>
@@ -1550,7 +1551,8 @@ Count of solved tasks: 1513
 |2185|Easy|[Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/)|[Counting Words With a Given Prefix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountingWordsWithGivenPrefix.java)|
 |2190|Easy|[Most Frequent Number Following Key In an Array](https://leetcode.com/contest/biweekly-contest-73/problems/most-frequent-number-following-key-in-an-array/)|[Most Frequent Number Following Key In an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostFrequentNumberFollowingKeyInArray.java)|
 |2194|Easy|[Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/)|[Cells in a Range on an Excel Sheet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CellsInRangeOnExcelSheet.java)|
-|2200|Easy|[Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)|[Find All K-Distant Indices in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllKDistantIndicesInArray.java)|</p>
+|2200|Easy|[Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)|[Find All K-Distant Indices in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllKDistantIndicesInArray.java)|
+|2206|Easy|[Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/)|[Divide Array Into Equal Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideArrayIntoEqualPairs.java)|</p>
 </details>
 
 <details>
