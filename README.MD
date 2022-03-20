@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1518
+Count of solved tasks: 1519
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1327,7 +1327,8 @@ Count of solved tasks: 1518
 |2207|Medium|[Maximize Number of Subsequences in a String](https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string/)|[Maximize Number of Subsequences in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeNumberOfSubsequencesInString.java)|
 |2208|Medium|[Minimum Operations to Halve Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/)|[Minimum Operations to Halve Array Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToHalveArraySum.java)|
 |2210|Easy|[Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/)|[Count Hills and Valleys in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountHillsAndValleysInArray.java)|
-|2211|Medium|[Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/)|[Count Collisions on a Road.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCollisionsOnRoad.java)|</p>
+|2211|Medium|[Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/)|[Count Collisions on a Road.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCollisionsOnRoad.java)|
+|2212|Medium|[Maximum Points in an Archery Competition](https://leetcode.com/problems/maximum-points-in-an-archery-competition/)|[Maximum Points in an Archery Competition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPointsInArcheryCompetition.java)|</p>
 </details>
 
 <details>
@@ -2034,7 +2035,8 @@ Count of solved tasks: 1518
 |2202|Medium|[Maximize the Topmost Element After K Moves](https://leetcode.com/problems/maximize-the-topmost-element-after-k-moves/)|[Maximize the Topmost Element After K Moves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheTopmostElementAfterKMoves.java)|
 |2207|Medium|[Maximize Number of Subsequences in a String](https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string/)|[Maximize Number of Subsequences in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeNumberOfSubsequencesInString.java)|
 |2208|Medium|[Minimum Operations to Halve Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/)|[Minimum Operations to Halve Array Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToHalveArraySum.java)|
-|2211|Medium|[Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/)|[Count Collisions on a Road.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCollisionsOnRoad.java)|</p>
+|2211|Medium|[Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/)|[Count Collisions on a Road.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCollisionsOnRoad.java)|
+|2212|Medium|[Maximum Points in an Archery Competition](https://leetcode.com/problems/maximum-points-in-an-archery-competition/)|[Maximum Points in an Archery Competition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPointsInArcheryCompetition.java)|</p>
 </details>
 
 <details>
