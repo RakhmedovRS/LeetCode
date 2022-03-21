@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -9,7 +10,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 04-Sep-20
  */
-@LeetCode(id = 763, name = "Partition Labels", url = "https://leetcode.com/problems/partition-labels/")
+@LeetCode(
+	id = 763,
+	name = "Partition Labels",
+	url = "https://leetcode.com/problems/partition-labels/",
+	difficulty = Difficulty.MEDIUM
+)
 public class PartitionLabels
 {
 	public List<Integer> partitionLabels(String S)

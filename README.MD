@@ -516,7 +516,7 @@ Count of solved tasks: 1519
 |753|Undefined|[Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/)|[Cracking the Safe.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CrackingTheSafe.java)|
 |754|Medium|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|[Reach a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReachNumber.java)|
 |762|Undefined|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|[Prime Number of Set Bits in Binary Representation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimeNumberOfSetBitsInBinaryRepresentation.java)|
-|763|Undefined|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Partition Labels.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionLabels.java)|
+|763|Medium|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Partition Labels.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionLabels.java)|
 |764|Medium|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/)|[Largest Plus Sign.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPlusSign.java)|
 |766|Undefined|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[Toeplitz Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ToeplitzMatrix.java)|
 |767|Undefined|[Reorganize String](https://leetcode.com/problems/reorganize-string/)|[Reorganize String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReorganizeString.java)|
@@ -1743,6 +1743,7 @@ Count of solved tasks: 1519
 |750|Medium|[Number Of Corner Rectangles](https://leetcode.com/problems/number-of-corner-rectangles/)|[Number Of Corner Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfCornerRectangles.java)|
 |752|Medium|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|[Open the Lock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OpenTheLock.java)|
 |754|Medium|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|[Reach a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReachNumber.java)|
+|763|Medium|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Partition Labels.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionLabels.java)|
 |764|Medium|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/)|[Largest Plus Sign.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPlusSign.java)|
 |769|Medium|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[Max Chunks To Make Sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxChunksToMakeSorted.java)|
 |775|Medium|[Global and Local Inversions](https://leetcode.com/problems/global-and-local-inversions/)|[Global and Local Inversions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GlobalAndLocalInversions.java)|
