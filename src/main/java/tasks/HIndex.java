@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 11-Aug-20
  */
-@LeetCode(id = 274, name = "H-Index", url = "https://leetcode.com/problems/h-index/")
+@LeetCode(
+	id = 274,
+	name = "H-Index",
+	url = "https://leetcode.com/problems/h-index/",
+	difficulty = Difficulty.MEDIUM
+)
 public class HIndex
 {
 	public int hIndex(int[] citations)
