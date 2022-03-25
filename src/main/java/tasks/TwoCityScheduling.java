@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 03-Jun-20
  */
-@LeetCode(id = 1029, name = "Two City Scheduling", url = "https://leetcode.com/problems/two-city-scheduling/")
+@LeetCode(
+	id = 1029,
+	name = "Two City Scheduling",
+	url = "https://leetcode.com/problems/two-city-scheduling/",
+	difficulty = Difficulty.MEDIUM
+)
 public class TwoCityScheduling
 {
 	public int twoCitySchedCost(int[][] costs)
