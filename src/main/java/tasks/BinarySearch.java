@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 02-May-20
  */
-@LeetCode(id = 704, name = "Binary Search", url = "https://leetcode.com/problems/binary-search/")
+@LeetCode(
+	id = 704,
+	name = "Binary Search",
+	url = "https://leetcode.com/problems/binary-search/",
+	difficulty = Difficulty.EASY
+)
 public class BinarySearch
 {
 	public int search(int[] nums, int target)
