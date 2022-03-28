@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashSet;
@@ -9,7 +10,12 @@ import java.util.Set;
  * @author RakhmedovRS
  * @created 10/28/2020
  */
-@LeetCode(id = 822, name = "Card Flipping Game", url = "https://leetcode.com/problems/card-flipping-game/")
+@LeetCode(
+	id = 822,
+	name = "Card Flipping Game",
+	url = "https://leetcode.com/problems/card-flipping-game/",
+	difficulty = Difficulty.MEDIUM
+)
 public class CardFlippingGame
 {
 	public int flipgame(int[] fronts, int[] backs)
