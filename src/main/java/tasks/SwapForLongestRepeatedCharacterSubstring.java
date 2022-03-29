@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 03-Sep-20
  */
-@LeetCode(id = 1156, name = "Swap For Longest Repeated Character Substring", url = "https://leetcode.com/problems/swap-for-longest-repeated-character-substring/")
+@LeetCode(
+	id = 1156,
+	name = "Swap For Longest Repeated Character Substring",
+	url = "https://leetcode.com/problems/swap-for-longest-repeated-character-substring/",
+	difficulty = Difficulty.MEDIUM
+)
 public class SwapForLongestRepeatedCharacterSubstring
 {
 	public int maxRepOpt1(String text)
