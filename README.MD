@@ -77,7 +77,7 @@ Count of solved tasks: 1522
 |71|Medium|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[Simplify Path.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SimplifyPath.java)|
 |72|Undefined|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[Edit Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EditDistance.java)|
 |73|Medium|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[Set Matrix Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SetMatrixZeroes.java)|
-|74|Undefined|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Search a 2D Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Search2DMatrix.java)|
+|74|Medium|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Search a 2D Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Search2DMatrix.java)|
 |75|Medium|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[Sort Colors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortColors.java)|
 |76|Hard|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[Minimum Window Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumWindowSubstring.java)|
 |78|Undefined|[Subsets](https://leetcode.com/problems/subsets/)|[Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Subsets.java)|
@@ -1602,6 +1602,7 @@ Count of solved tasks: 1522
 |63|Medium|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Unique Paths II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniquePathsII.java)|
 |71|Medium|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[Simplify Path.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SimplifyPath.java)|
 |73|Medium|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[Set Matrix Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SetMatrixZeroes.java)|
+|74|Medium|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Search a 2D Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Search2DMatrix.java)|
 |75|Medium|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[Sort Colors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortColors.java)|
 |79|Medium|[Word Search](https://leetcode.com/problems/word-search/)|[Word Search.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordSearch.java)|
 |80|Medium|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Remove Duplicates from Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveDuplicatesFromSortedArrayII.java)|

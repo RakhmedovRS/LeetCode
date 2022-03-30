@@ -1,44 +1,38 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 11-Apr-20
  */
-@LeetCode(id = 74, name = "Search a 2D Matrix", url = "https://leetcode.com/problems/search-a-2d-matrix/")
+@LeetCode(
+	id = 74,
+	name = "Search a 2D Matrix",
+	url = "https://leetcode.com/problems/search-a-2d-matrix/",
+	difficulty = Difficulty.MEDIUM
+)
 public class Search2DMatrix
 {
+
 	public boolean searchMatrix(int[][] matrix, int target)
 	{
-		if (matrix == null || matrix.length == 0)
+		int row = 0;
+		int column = matrix[row].length - 1;
+		while (row >= 0 && row < matrix.length && column >= 0 && column < matrix[row].length)
 		{
-			return false;
-		}
-
-		int rows = matrix.length;
-		int columns = matrix[0].length;
-		int row;
-		int column;
-		int left = 0;
-		int mid;
-		int right = rows * columns - 1;
-		while (left <= right)
-		{
-			mid = left + (right - left) / 2;
-			row = mid / columns;
-			column = mid % columns;
 			if (matrix[row][column] == target)
 			{
 				return true;
 			}
 			else if (matrix[row][column] > target)
 			{
-				right = mid - 1;
+				column--;
 			}
 			else
 			{
-				left = mid + 1;
+				row++;
 			}
 		}
 
