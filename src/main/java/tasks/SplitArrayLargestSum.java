@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 11/6/2020
  */
-@LeetCode(id = 410, name = "Split Array Largest Sum", url = "https://leetcode.com/problems/split-array-largest-sum/")
+@LeetCode(
+	id = 410,
+	name = "Split Array Largest Sum",
+	url = "https://leetcode.com/problems/split-array-largest-sum/",
+	difficulty = Difficulty.HARD
+)
 public class SplitArrayLargestSum
 {
 	public int splitArray(int[] nums, int m)
