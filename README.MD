@@ -261,7 +261,7 @@ Count of solved tasks: 1522
 |338|Easy|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Counting Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountingBits.java)|
 |341|Medium|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[Flatten Nested List Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FlattenNestedListIterator.java)|
 |343|Undefined|[Integer Break](https://leetcode.com/problems/integer-break/)|[Integer Break.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IntegerBreak.java)|
-|344|Undefined|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Reverse String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseString.java)|
+|344|Easy|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Reverse String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseString.java)|
 |345|Undefined|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Reverse Vowels of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseVowelsOfString.java)|
 |347|Undefined|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Top K Frequent Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TopKFrequentElements.java)|
 |350|Medium|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Intersection of Two Arrays II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IntersectionOfTwoArraysII.java)|
@@ -1379,6 +1379,7 @@ Count of solved tasks: 1522
 |303|Easy|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Range Sum Query - Immutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeSumQueryImmutable.java)|
 |326|Easy|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Power of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PowerOfThree.java)|
 |338|Easy|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Counting Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountingBits.java)|
+|344|Easy|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Reverse String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseString.java)|
 |374|Easy|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Guess Number Higher or Lower.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GuessNumberHigherOrLower.java)|
 |389|Easy|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Find the Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheDifference.java)|
 |392|Easy|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Is Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IsSubsequence.java)|
