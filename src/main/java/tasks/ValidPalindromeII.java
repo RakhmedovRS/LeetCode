@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 22-Sep-20
  */
-@LeetCode(id = 680, name = "Valid Palindrome II", url = "https://leetcode.com/problems/valid-palindrome-ii/")
+@LeetCode(
+	id = 680,
+	name = "Valid Palindrome II",
+	url = "https://leetcode.com/problems/valid-palindrome-ii/",
+	difficulty = Difficulty.EASY
+)
 public class ValidPalindromeII
 {
 	public boolean validPalindrome(String s)

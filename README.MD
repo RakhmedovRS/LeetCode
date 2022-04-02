@@ -466,7 +466,7 @@ Count of solved tasks: 1522
 |677|Medium|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)|[Map Sum Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MapSumPairs.java)|
 |678|Undefined|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[Valid Parenthesis String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidParenthesisString.java)|
 |679|Undefined|[24 Game](https://leetcode.com/problems/24-game/)|[24 Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Game24.java)|
-|680|Undefined|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Valid Palindrome II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidPalindromeII.java)|
+|680|Easy|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Valid Palindrome II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidPalindromeII.java)|
 |682|Easy|[Baseball Game](https://leetcode.com/problems/baseball-game/)|[Baseball Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BaseballGame.java)|
 |684|Medium|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|[Redundant Connection.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RedundantConnection.java)|
 |686|Undefined|[Repeated String Match](https://leetcode.com/problems/repeated-string-match/)|[Repeated String Match.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RepeatedStringMatch.java)|
@@ -1406,6 +1406,7 @@ Count of solved tasks: 1522
 |637|Easy|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Average of Levels in Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AverageOfLevelsInBinaryTree.java)|
 |645|Easy|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[Set Mismatch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SetMismatch.java)|
 |653|Easy|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Two Sum IV - Input is a BST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoSumIVInputIsBST.java)|
+|680|Easy|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Valid Palindrome II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidPalindromeII.java)|
 |682|Easy|[Baseball Game](https://leetcode.com/problems/baseball-game/)|[Baseball Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BaseballGame.java)|
 |696|Easy|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|[Count Binary Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountBinarySubstrings.java)|
 |704|Easy|[Binary Search](https://leetcode.com/problems/binary-search/)|[Binary Search.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinarySearch.java)|
