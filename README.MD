@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1523
+Count of solved tasks: 1524
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1332,7 +1332,8 @@ Count of solved tasks: 1523
 |2215|Easy|[Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)|[Find the Difference of Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheDifferenceOfTwoArrays.java)|
 |2216|Medium|[Minimum Deletions to Make Array Beautiful](https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful/)|[Minimum Deletions to Make Array Beautiful.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeArrayBeautiful.java)|
 |2217|Medium|[Find Palindrome With Fixed Length](https://leetcode.com/problems/find-palindrome-with-fixed-length/)|[Find Palindrome With Fixed Length.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindPalindromeWithFixedLength.java)|
-|2220|Easy|[Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/)|[Minimum Bit Flips to Convert Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumBitFlipsToConvertNumber.java)|</p>
+|2220|Easy|[Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/)|[Minimum Bit Flips to Convert Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumBitFlipsToConvertNumber.java)|
+|2221|Medium|[Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/)|[Find Triangular Sum of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTriangularSumOfArray.java)|</p>
 </details>
 
 <details>
@@ -2055,7 +2056,8 @@ Count of solved tasks: 1523
 |2211|Medium|[Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/)|[Count Collisions on a Road.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCollisionsOnRoad.java)|
 |2212|Medium|[Maximum Points in an Archery Competition](https://leetcode.com/problems/maximum-points-in-an-archery-competition/)|[Maximum Points in an Archery Competition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPointsInArcheryCompetition.java)|
 |2216|Medium|[Minimum Deletions to Make Array Beautiful](https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful/)|[Minimum Deletions to Make Array Beautiful.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeArrayBeautiful.java)|
-|2217|Medium|[Find Palindrome With Fixed Length](https://leetcode.com/problems/find-palindrome-with-fixed-length/)|[Find Palindrome With Fixed Length.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindPalindromeWithFixedLength.java)|</p>
+|2217|Medium|[Find Palindrome With Fixed Length](https://leetcode.com/problems/find-palindrome-with-fixed-length/)|[Find Palindrome With Fixed Length.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindPalindromeWithFixedLength.java)|
+|2221|Medium|[Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/)|[Find Triangular Sum of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTriangularSumOfArray.java)|</p>
 </details>
 
 <details>
