@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashMap;
@@ -9,7 +10,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 11-Sep-20
  */
-@LeetCode(id = 432, name = "All O`one Data Structure", url = "https://leetcode.com/problems/all-oone-data-structure/")
+@LeetCode(
+	id = 432,
+	name = "All O`one Data Structure",
+	url = "https://leetcode.com/problems/all-oone-data-structure/",
+	difficulty = Difficulty.HARD
+)
 public class AllOoneDataStructure
 {
 	class AllOne
