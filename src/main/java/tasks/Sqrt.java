@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 12-Apr-20
  */
-@LeetCode(id = 69, name = "Sqrt(x)", url = "https://leetcode.com/problems/sqrtx/")
+@LeetCode(
+	id = 69,
+	name = "Sqrt(x)",
+	url = "https://leetcode.com/problems/sqrtx/",
+	difficulty = Difficulty.EASY
+)
 public class Sqrt
 {
 	public int mySqrt(int x)
