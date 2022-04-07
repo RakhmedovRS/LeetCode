@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.PriorityQueue;
@@ -8,7 +9,12 @@ import java.util.PriorityQueue;
  * @author RakhmedovRS
  * @created 04-Mar-20
  */
-@LeetCode(id = 1046, name = "Last Stone Weight", url = "https://leetcode.com/problems/last-stone-weight/")
+@LeetCode(
+	id = 1046,
+	name = "Last Stone Weight",
+	url = "https://leetcode.com/problems/last-stone-weight/",
+	difficulty = Difficulty.EASY
+)
 public class LastStoneWeight
 {
 	public int lastStoneWeight(int[] stones)
