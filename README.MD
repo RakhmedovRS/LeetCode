@@ -480,7 +480,7 @@ Count of solved tasks: 1524
 |698|Medium|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|[Partition to K Equal Sum Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionToKEqualSumSubsets.java)|
 |700|Undefined|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Search in a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SearchInBinarySearchTree.java)|
 |701|Medium|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Insert into a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/InsertIntoBinarySearchTree.java)|
-|703|Undefined|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Kth Largest Element in a Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthLargestElementInStream.java)|
+|703|Easy|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Kth Largest Element in a Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthLargestElementInStream.java)|
 |704|Easy|[Binary Search](https://leetcode.com/problems/binary-search/)|[Binary Search.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinarySearch.java)|
 |705|Easy|[Design HashSet](https://leetcode.com/problems/design-hashset/)|[Design HashSet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignHashSet.java)|
 |706|Easy|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Design HashMap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignHashMap.java)|
@@ -1412,6 +1412,7 @@ Count of solved tasks: 1524
 |680|Easy|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Valid Palindrome II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidPalindromeII.java)|
 |682|Easy|[Baseball Game](https://leetcode.com/problems/baseball-game/)|[Baseball Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BaseballGame.java)|
 |696|Easy|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|[Count Binary Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountBinarySubstrings.java)|
+|703|Easy|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Kth Largest Element in a Stream.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthLargestElementInStream.java)|
 |704|Easy|[Binary Search](https://leetcode.com/problems/binary-search/)|[Binary Search.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinarySearch.java)|
 |705|Easy|[Design HashSet](https://leetcode.com/problems/design-hashset/)|[Design HashSet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignHashSet.java)|
 |706|Easy|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Design HashMap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignHashMap.java)|

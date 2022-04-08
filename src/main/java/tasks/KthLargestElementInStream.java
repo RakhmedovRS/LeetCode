@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.PriorityQueue;
@@ -8,7 +9,12 @@ import java.util.PriorityQueue;
  * @author RakhmedovRS
  * @created 28-May-20
  */
-@LeetCode(id = 703, name = "Kth Largest Element in a Stream", url = "https://leetcode.com/problems/kth-largest-element-in-a-stream/")
+@LeetCode(
+	id = 703,
+	name = "Kth Largest Element in a Stream",
+	url = "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+	difficulty = Difficulty.EASY
+)
 public class KthLargestElementInStream
 {
 	class KthLargest
