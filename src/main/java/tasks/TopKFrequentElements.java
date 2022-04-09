@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -8,7 +9,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 08-Mar-20
  */
-@LeetCode(id = 347, name = "Top K Frequent Elements", url = "https://leetcode.com/problems/top-k-frequent-elements/")
+@LeetCode(
+	id = 347,
+	name = "Top K Frequent Elements",
+	url = "https://leetcode.com/problems/top-k-frequent-elements/",
+	difficulty = Difficulty.MEDIUM
+)
 public class TopKFrequentElements
 {
 	public List<Integer> topKFrequent(int[] values, int k)
