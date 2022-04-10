@@ -3,7 +3,6 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.Deque;
 import java.util.LinkedList;
 
 /**
@@ -20,42 +19,38 @@ public class BaseballGame
 {
 	public int calPoints(String[] ops)
 	{
-		Deque<Integer> integers = new LinkedList<>();
+		LinkedList<Integer> list = new LinkedList<>();
 		for (String op : ops)
 		{
-			if (op.equals("+"))
+			if (Character.isDigit(op.charAt(op.length() - 1)))
 			{
-				if (integers.size() == 1)
+				list.addLast(Integer.parseInt(op));
+			}
+			else if ("C".equals(op))
+			{
+				if (!list.isEmpty())
 				{
-					integers.push(integers.peek() * 2);
-					continue;
+					list.removeLast();
 				}
-
-				int b = integers.pop();
-				int a = integers.pop();
-				int c = a + b;
-				integers.push(a);
-				integers.push(b);
-				integers.push(c);
 			}
-			else if (op.equals("C"))
+			else if ("D".equals(op))
 			{
-				integers.pop();
-			}
-			else if (op.equals("D"))
-			{
-				integers.push(integers.peek() * 2);
+				list.addLast(list.getLast() * 2);
 			}
 			else
 			{
-				integers.push(Integer.parseInt(op));
+				int prev = list.removeLast();
+				int prevPrev = list.removeLast();
+				list.addLast(prevPrev);
+				list.addLast(prev);
+				list.addLast(prev + prevPrev);
 			}
 		}
 
 		int res = 0;
-		for (int val : integers)
+		while (!list.isEmpty())
 		{
-			res += val;
+			res += list.removeFirst();
 		}
 
 		return res;
