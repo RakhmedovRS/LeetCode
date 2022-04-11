@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -10,7 +11,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 30-May-20
  */
-@LeetCode(id = 1260, name = "Shift 2D Grid", url = "https://leetcode.com/problems/shift-2d-grid/")
+@LeetCode(
+	id = 1260,
+	name = "Shift 2D Grid",
+	url = "https://leetcode.com/problems/shift-2d-grid/",
+	difficulty = Difficulty.EASY
+)
 public class Shift2DGrid
 {
 	public List<List<Integer>> shiftGrid(int[][] grid, int k)
