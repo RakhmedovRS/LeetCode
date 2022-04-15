@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -12,7 +13,12 @@ import java.util.stream.Collectors;
  * @author RakhmedovRS
  * @created 17-Mar-20
  */
-@LeetCode(id = 257, name = "Binary Tree Paths", url = "https://leetcode.com/problems/binary-tree-paths/")
+@LeetCode(
+	id = 257,
+	name = "Binary Tree Paths",
+	url = "https://leetcode.com/problems/binary-tree-paths/",
+	difficulty = Difficulty.EASY
+)
 public class BinaryTreePaths
 {
 	public List<String> binaryTreePaths(TreeNode root)
