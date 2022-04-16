@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1532
+Count of solved tasks: 1533
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1334,6 +1334,7 @@ Count of solved tasks: 1532
 |2217|Medium|[Find Palindrome With Fixed Length](https://leetcode.com/problems/find-palindrome-with-fixed-length/)|[Find Palindrome With Fixed Length.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindPalindromeWithFixedLength.java)|
 |2220|Easy|[Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/)|[Minimum Bit Flips to Convert Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumBitFlipsToConvertNumber.java)|
 |2221|Medium|[Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/)|[Find Triangular Sum of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTriangularSumOfArray.java)|
+|2224|Easy|[Minimum Number of Operations to Convert Time](https://leetcode.com/problems/minimum-number-of-operations-to-convert-time/)|[Minimum Number of Operations to Convert Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToConvertTime.java)|
 |2231|Easy|[Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/)|[Largest Number After Digit Swaps by Parity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestNumberAfterDigitSwapsByParity.java)|
 |2232|Medium|[Minimize Result by Adding Parentheses to Expression](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/)|[Minimize Result by Adding Parentheses to Expression.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeResultByAddingParenthesesToExpression.java)|
 |2233|Medium|[Maximum Product After K Increments](https://leetcode.com/problems/maximum-product-after-k-increments/)|[Maximum Product After K Increments.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductAfterKIncrements.java)|
@@ -1584,6 +1585,7 @@ Count of solved tasks: 1532
 |2210|Easy|[Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/)|[Count Hills and Valleys in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountHillsAndValleysInArray.java)|
 |2215|Easy|[Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)|[Find the Difference of Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheDifferenceOfTwoArrays.java)|
 |2220|Easy|[Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/)|[Minimum Bit Flips to Convert Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumBitFlipsToConvertNumber.java)|
+|2224|Easy|[Minimum Number of Operations to Convert Time](https://leetcode.com/problems/minimum-number-of-operations-to-convert-time/)|[Minimum Number of Operations to Convert Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToConvertTime.java)|
 |2231|Easy|[Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/)|[Largest Number After Digit Swaps by Parity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestNumberAfterDigitSwapsByParity.java)|
 |2235|Easy|[Add Two Integers](https://leetcode.com/problems/add-two-integers/)|[Add Two Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddTwoIntegers.java)|
 |2236|Easy|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)|[Root Equals Sum of Children.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RootEqualsSumOfChildren.java)|
