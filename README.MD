@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1530
+Count of solved tasks: 1531
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1337,6 +1337,7 @@ Count of solved tasks: 1530
 |2231|Easy|[Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/)|[Largest Number After Digit Swaps by Parity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestNumberAfterDigitSwapsByParity.java)|
 |2232|Medium|[Minimize Result by Adding Parentheses to Expression](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/)|[Minimize Result by Adding Parentheses to Expression.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeResultByAddingParenthesesToExpression.java)|
 |2233|Medium|[Maximum Product After K Increments](https://leetcode.com/problems/maximum-product-after-k-increments/)|[Maximum Product After K Increments.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductAfterKIncrements.java)|
+|2235|Easy|[Add Two Integers](https://leetcode.com/problems/add-two-integers/)|[Add Two Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddTwoIntegers.java)|
 |2239|Easy|[Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)|[Find Closest Number to Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindClosestNumberToZero.java)|
 |2240|Medium|[Number of Ways to Buy Pens and Pencils](https://leetcode.com/problems/number-of-ways-to-buy-pens-and-pencils/)|[Number of Ways to Buy Pens and Pencils.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfWaysToBuyPensAndPencils.java)|
 |2241|Medium|[Design an ATM Machine](https://leetcode.com/problems/design-an-atm-machine/)|[Design an ATM Machine.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignAnATMMachine.java)|</p>
@@ -1583,6 +1584,7 @@ Count of solved tasks: 1530
 |2215|Easy|[Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)|[Find the Difference of Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheDifferenceOfTwoArrays.java)|
 |2220|Easy|[Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/)|[Minimum Bit Flips to Convert Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumBitFlipsToConvertNumber.java)|
 |2231|Easy|[Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/)|[Largest Number After Digit Swaps by Parity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestNumberAfterDigitSwapsByParity.java)|
+|2235|Easy|[Add Two Integers](https://leetcode.com/problems/add-two-integers/)|[Add Two Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddTwoIntegers.java)|
 |2239|Easy|[Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)|[Find Closest Number to Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindClosestNumberToZero.java)|</p>
 </details>
 
