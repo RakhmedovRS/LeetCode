@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1533
+Count of solved tasks: 1534
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1342,7 +1342,8 @@ Count of solved tasks: 1533
 |2236|Easy|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)|[Root Equals Sum of Children.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RootEqualsSumOfChildren.java)|
 |2239|Easy|[Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)|[Find Closest Number to Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindClosestNumberToZero.java)|
 |2240|Medium|[Number of Ways to Buy Pens and Pencils](https://leetcode.com/problems/number-of-ways-to-buy-pens-and-pencils/)|[Number of Ways to Buy Pens and Pencils.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfWaysToBuyPensAndPencils.java)|
-|2241|Medium|[Design an ATM Machine](https://leetcode.com/problems/design-an-atm-machine/)|[Design an ATM Machine.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignAnATMMachine.java)|</p>
+|2241|Medium|[Design an ATM Machine](https://leetcode.com/problems/design-an-atm-machine/)|[Design an ATM Machine.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignAnATMMachine.java)|
+|2243|Easy|[Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)|[Calculate Digit Sum of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateDigitSumOfString.java)|</p>
 </details>
 
 <details>
@@ -1589,7 +1590,8 @@ Count of solved tasks: 1533
 |2231|Easy|[Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/)|[Largest Number After Digit Swaps by Parity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestNumberAfterDigitSwapsByParity.java)|
 |2235|Easy|[Add Two Integers](https://leetcode.com/problems/add-two-integers/)|[Add Two Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddTwoIntegers.java)|
 |2236|Easy|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)|[Root Equals Sum of Children.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RootEqualsSumOfChildren.java)|
-|2239|Easy|[Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)|[Find Closest Number to Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindClosestNumberToZero.java)|</p>
+|2239|Easy|[Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)|[Find Closest Number to Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindClosestNumberToZero.java)|
+|2243|Easy|[Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)|[Calculate Digit Sum of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateDigitSumOfString.java)|</p>
 </details>
 
 <details>
