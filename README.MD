@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1534
+Count of solved tasks: 1535
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1343,7 +1343,8 @@ Count of solved tasks: 1534
 |2239|Easy|[Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)|[Find Closest Number to Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindClosestNumberToZero.java)|
 |2240|Medium|[Number of Ways to Buy Pens and Pencils](https://leetcode.com/problems/number-of-ways-to-buy-pens-and-pencils/)|[Number of Ways to Buy Pens and Pencils.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfWaysToBuyPensAndPencils.java)|
 |2241|Medium|[Design an ATM Machine](https://leetcode.com/problems/design-an-atm-machine/)|[Design an ATM Machine.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignAnATMMachine.java)|
-|2243|Easy|[Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)|[Calculate Digit Sum of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateDigitSumOfString.java)|</p>
+|2243|Easy|[Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)|[Calculate Digit Sum of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateDigitSumOfString.java)|
+|2244|Medium|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|[Minimum Rounds to Complete All Tasks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRoundsToCompleteAllTasks.java)|</p>
 </details>
 
 <details>
@@ -2087,7 +2088,8 @@ Count of solved tasks: 1534
 |2232|Medium|[Minimize Result by Adding Parentheses to Expression](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/)|[Minimize Result by Adding Parentheses to Expression.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeResultByAddingParenthesesToExpression.java)|
 |2233|Medium|[Maximum Product After K Increments](https://leetcode.com/problems/maximum-product-after-k-increments/)|[Maximum Product After K Increments.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductAfterKIncrements.java)|
 |2240|Medium|[Number of Ways to Buy Pens and Pencils](https://leetcode.com/problems/number-of-ways-to-buy-pens-and-pencils/)|[Number of Ways to Buy Pens and Pencils.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfWaysToBuyPensAndPencils.java)|
-|2241|Medium|[Design an ATM Machine](https://leetcode.com/problems/design-an-atm-machine/)|[Design an ATM Machine.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignAnATMMachine.java)|</p>
+|2241|Medium|[Design an ATM Machine](https://leetcode.com/problems/design-an-atm-machine/)|[Design an ATM Machine.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignAnATMMachine.java)|
+|2244|Medium|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|[Minimum Rounds to Complete All Tasks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRoundsToCompleteAllTasks.java)|</p>
 </details>
 
 <details>
