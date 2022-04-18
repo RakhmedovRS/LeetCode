@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -10,7 +11,12 @@ import java.util.LinkedList;
  * @author RakhmedovRS
  * @created 08-Feb-20
  */
-@LeetCode(id = 230, name = "Kth Smallest Element in a BST", url = "https://leetcode.com/problems/kth-smallest-element-in-a-bst/")
+@LeetCode(
+	id = 230,
+	name = "Kth Smallest Element in a BST",
+	url = "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+	difficulty = Difficulty.MEDIUM
+)
 public class KthSmallestElementInBST
 {
 	public void kthSmallest(TreeNode root, LinkedList<Integer> values, int k)
