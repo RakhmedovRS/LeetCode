@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -7,7 +8,12 @@ import common.TreeNode;
  * @author RakhmedovRS
  * @created 10/31/2020
  */
-@LeetCode(id = 99, name = "Recover Binary Search Tree", url = "https://leetcode.com/problems/recover-binary-search-tree/")
+@LeetCode(
+	id = 99,
+	name = "Recover Binary Search Tree",
+	url = "https://leetcode.com/problems/recover-binary-search-tree/",
+	difficulty = Difficulty.MEDIUM
+)
 public class RecoverBinarySearchTree
 {
 	public void recoverTree(TreeNode root)
