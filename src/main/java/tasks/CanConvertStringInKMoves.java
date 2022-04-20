@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 08-Aug-20
  */
-@LeetCode(id = 1540, name = "Can Convert String in K Moves", url = "https://leetcode.com/problems/can-convert-string-in-k-moves/")
+@LeetCode(
+	id = 1540,
+	name = "Can Convert String in K Moves",
+	url = "https://leetcode.com/problems/can-convert-string-in-k-moves/",
+	difficulty = Difficulty.MEDIUM
+)
 public class CanConvertStringInKMoves
 {
 	public boolean canConvertString(String s, String t, int k)
