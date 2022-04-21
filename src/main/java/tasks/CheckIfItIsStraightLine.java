@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 08-May-20
  */
-@LeetCode(id = 1232, name = "Check If It Is a Straight Line", url = "https://leetcode.com/problems/check-if-it-is-a-straight-line/")
+@LeetCode(
+	id = 1232,
+	name = "Check If It Is a Straight Line",
+	url = "https://leetcode.com/problems/check-if-it-is-a-straight-line/",
+	difficulty = Difficulty.EASY
+)
 public class CheckIfItIsStraightLine
 {
 	public boolean checkStraightLine(int[][] coordinates)
