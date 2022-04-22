@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -10,7 +11,12 @@ import java.util.PriorityQueue;
  * @author RakhmedovRS
  * @created 10-Sep-20
  */
-@LeetCode(id = 855, name = "Exam Room", url = "https://leetcode.com/problems/exam-room/")
+@LeetCode(
+	id = 855,
+	name = "Exam Room",
+	url = "https://leetcode.com/problems/exam-room/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ExamRoom
 {
 	int n;
