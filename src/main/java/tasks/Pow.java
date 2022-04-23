@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 09-Apr-20
  */
-@LeetCode(id = 50, name = "Pow(x, n)", url = "https://leetcode.com/problems/powx-n/")
+@LeetCode(
+	id = 50,
+	name = "Pow(x, n)",
+	url = "https://leetcode.com/problems/powx-n/",
+	difficulty = Difficulty.MEDIUM
+)
 public class Pow
 {
 	public double myPow(double x, int n)
