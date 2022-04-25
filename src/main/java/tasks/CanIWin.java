@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashMap;
@@ -9,7 +10,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 11/5/2020
  */
-@LeetCode(id = 464, name = "Can I Win", url = "https://leetcode.com/problems/can-i-win/")
+@LeetCode(
+	id = 464,
+	name = "Can I Win",
+	url = "https://leetcode.com/problems/can-i-win/",
+	difficulty = Difficulty.MEDIUM
+)
 public class CanIWin
 {
 	public boolean canIWin(int maxChoosableInteger, int desiredTotal)
