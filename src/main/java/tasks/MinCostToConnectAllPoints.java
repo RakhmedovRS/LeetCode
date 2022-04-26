@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -8,7 +9,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 13-Sep-20
  */
-@LeetCode(id = 1584, name = "Min Cost to Connect All Points", url = "https://leetcode.com/problems/min-cost-to-connect-all-points/")
+@LeetCode(
+	id = 1584,
+	name = "Min Cost to Connect All Points",
+	url = "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MinCostToConnectAllPoints
 {
 	class UnionFind
