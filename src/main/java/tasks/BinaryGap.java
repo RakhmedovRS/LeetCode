@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 25-Jun-20
  */
-@LeetCode(id = 868, name = "Binary Gap", url = "https://leetcode.com/problems/binary-gap/")
+@LeetCode(
+	id = 868,
+	name = "Binary Gap",
+	url = "https://leetcode.com/problems/binary-gap/",
+	difficulty = Difficulty.EASY
+)
 public class BinaryGap
 {
 	public int binaryGap(int N)
