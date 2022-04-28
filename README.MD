@@ -465,7 +465,7 @@ Count of solved tasks: 1538
 |676|Undefined|[Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/)|[Implement Magic Dictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ImplementMagicDictionary.java)|
 |677|Medium|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)|[Map Sum Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MapSumPairs.java)|
 |678|Undefined|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[Valid Parenthesis String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidParenthesisString.java)|
-|679|Undefined|[24 Game](https://leetcode.com/problems/24-game/)|[24 Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Game24.java)|
+|679|Hard|[24 Game](https://leetcode.com/problems/24-game/)|[24 Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Game24.java)|
 |680|Easy|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Valid Palindrome II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidPalindromeII.java)|
 |682|Easy|[Baseball Game](https://leetcode.com/problems/baseball-game/)|[Baseball Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BaseballGame.java)|
 |684|Medium|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|[Redundant Connection.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RedundantConnection.java)|
@@ -2153,6 +2153,7 @@ Count of solved tasks: 1538
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[Remove Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveBoxes.java)|
 |630|Hard|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|[Course Schedule III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CourseScheduleIII.java)|
 |639|Hard|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|[Decode Ways II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeWaysII.java)|
+|679|Hard|[24 Game](https://leetcode.com/problems/24-game/)|[24 Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Game24.java)|
 |732|Hard|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[My Calendar III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MyCalendarIII.java)|
 |745|Hard|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/)|[Prefix and Suffix Search.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrefixAndSuffixSearch.java)|
 |773|Hard|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/)|[Sliding Puzzle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SlidingPuzzle.java)|

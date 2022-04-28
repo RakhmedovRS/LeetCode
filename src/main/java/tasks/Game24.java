@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -9,7 +10,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 22-Sep-20
  */
-@LeetCode(id = 679, name = "24 Game", url = "https://leetcode.com/problems/24-game/")
+@LeetCode(
+	id = 679,
+	name = "24 Game",
+	url = "https://leetcode.com/problems/24-game/",
+	difficulty = Difficulty.HARD
+)
 public class Game24
 {
 	public boolean judgePoint24(int[] nums)
