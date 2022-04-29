@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -7,7 +8,12 @@ import common.TreeNode;
  * @author RakhmedovRS
  * @created 9/26/2020
  */
-@LeetCode(id = 889, name = "Construct Binary Tree from Preorder and Postorder Traversal", url = "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/")
+@LeetCode(
+	id = 889,
+	name = "Construct Binary Tree from Preorder and Postorder Traversal",
+	url = "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ConstructBinaryTreeFromPreorderAndPostorderTraversal
 {
 	public TreeNode constructFromPrePost(int[] pre, int[] post)
