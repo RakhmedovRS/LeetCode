@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1538
+Count of solved tasks: 1539
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1347,7 +1347,8 @@ Count of solved tasks: 1538
 |2244|Medium|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|[Minimum Rounds to Complete All Tasks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRoundsToCompleteAllTasks.java)|
 |2248|Easy|[Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)|[Intersection of Multiple Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IntersectionOfMultipleArrays.java)|
 |2249|Medium|[Count Lattice Points Inside a Circle](https://leetcode.com/problems/count-lattice-points-inside-a-circle/)|[Count Lattice Points Inside a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountLatticePointsInsideCircle.java)|
-|2250|Medium|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|[Count Number of Rectangles Containing Each Point.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfRectanglesContainingEachPoint.java)|</p>
+|2250|Medium|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|[Count Number of Rectangles Containing Each Point.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfRectanglesContainingEachPoint.java)|
+|2255|Easy|[Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)|[Count Prefixes of a Given String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPrefixesOfGivenString.java)|</p>
 </details>
 
 <details>
@@ -1598,7 +1599,8 @@ Count of solved tasks: 1538
 |2236|Easy|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)|[Root Equals Sum of Children.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RootEqualsSumOfChildren.java)|
 |2239|Easy|[Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)|[Find Closest Number to Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindClosestNumberToZero.java)|
 |2243|Easy|[Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)|[Calculate Digit Sum of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateDigitSumOfString.java)|
-|2248|Easy|[Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)|[Intersection of Multiple Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IntersectionOfMultipleArrays.java)|</p>
+|2248|Easy|[Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)|[Intersection of Multiple Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IntersectionOfMultipleArrays.java)|
+|2255|Easy|[Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)|[Count Prefixes of a Given String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPrefixesOfGivenString.java)|</p>
 </details>
 
 <details>
