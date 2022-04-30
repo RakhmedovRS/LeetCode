@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1540
+Count of solved tasks: 1541
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1349,7 +1349,8 @@ Count of solved tasks: 1540
 |2249|Medium|[Count Lattice Points Inside a Circle](https://leetcode.com/problems/count-lattice-points-inside-a-circle/)|[Count Lattice Points Inside a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountLatticePointsInsideCircle.java)|
 |2250|Medium|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|[Count Number of Rectangles Containing Each Point.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfRectanglesContainingEachPoint.java)|
 |2255|Easy|[Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)|[Count Prefixes of a Given String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPrefixesOfGivenString.java)|
-|2256|Medium|[Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/)|[Minimum Average Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAverageDifference.java)|</p>
+|2256|Medium|[Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/)|[Minimum Average Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAverageDifference.java)|
+|2257|Medium|[Count Unguarded Cells in the Grid](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/)|[Count Unguarded Cells in the Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountUnguardedCellsInTheGrid.java)|</p>
 </details>
 
 <details>
@@ -2109,7 +2110,8 @@ Count of solved tasks: 1540
 |2244|Medium|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|[Minimum Rounds to Complete All Tasks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRoundsToCompleteAllTasks.java)|
 |2249|Medium|[Count Lattice Points Inside a Circle](https://leetcode.com/problems/count-lattice-points-inside-a-circle/)|[Count Lattice Points Inside a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountLatticePointsInsideCircle.java)|
 |2250|Medium|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|[Count Number of Rectangles Containing Each Point.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfRectanglesContainingEachPoint.java)|
-|2256|Medium|[Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/)|[Minimum Average Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAverageDifference.java)|</p>
+|2256|Medium|[Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/)|[Minimum Average Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAverageDifference.java)|
+|2257|Medium|[Count Unguarded Cells in the Grid](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/)|[Count Unguarded Cells in the Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountUnguardedCellsInTheGrid.java)|</p>
 </details>
 
 <details>
