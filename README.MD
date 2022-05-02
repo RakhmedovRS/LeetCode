@@ -613,7 +613,7 @@ Count of solved tasks: 1544
 |900|Undefined|[RLE Iterator](https://leetcode.com/problems/rle-iterator/)|[RLE Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RLEIterator.java)|
 |901|Undefined|[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[Online Stock Span.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OnlineStockSpan.java)|
 |902|Hard|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[Numbers At Most N Given Digit Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumbersAtMostNGivenDigitSet.java)|
-|905|Undefined|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Sort Array By Parity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortArrayByParity.java)|
+|905|Easy|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Sort Array By Parity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortArrayByParity.java)|
 |907|Undefined|[Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|[Sum of Subarray Minimums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfSubarrayMinimums.java)|
 |908|Undefined|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|[Smallest Range I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestRangeI.java)|
 |910|Medium|[Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|[Smallest Range II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestRangeII.java)|
@@ -1450,6 +1450,7 @@ Count of solved tasks: 1544
 |868|Easy|[Binary Gap](https://leetcode.com/problems/binary-gap/)|[Binary Gap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryGap.java)|
 |893|Easy|[Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/)|[Groups of Special-Equivalent Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GroupsOfSpecialEquivalentStrings.java)|
 |897|Easy|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[Increasing Order Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IncreasingOrderSearchTree.java)|
+|905|Easy|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Sort Array By Parity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortArrayByParity.java)|
 |917|Easy|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)|[Reverse Only Letters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseOnlyLetters.java)|
 |922|Easy|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Sort Array By Parity II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortArrayByParityII.java)|
 |929|Easy|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|[Unique Email Addresses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniqueEmailAddresses.java)|
