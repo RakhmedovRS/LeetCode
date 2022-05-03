@@ -306,7 +306,7 @@ Count of solved tasks: 1544
 |406|Undefined|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|[Queue Reconstruction by Height.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/QueueReconstructionByHeight.java)|
 |409|Undefined|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Longest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestPalindrome.java)|
 |410|Hard|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)|[Split Array Largest Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayLargestSum.java)|
-|412|Undefined|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Fizz Buzz.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FizzBuzz.java)|
+|412|Easy|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Fizz Buzz.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FizzBuzz.java)|
 |413|Medium|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[Arithmetic Slices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArithmeticSlices.java)|
 |414|Undefined|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Third Maximum Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThirdMaximumNumber.java)|
 |415|Easy|[Add Strings](https://leetcode.com/problems/add-strings/)|[Add Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddStrings.java)|
@@ -1409,6 +1409,7 @@ Count of solved tasks: 1544
 |392|Easy|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Is Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IsSubsequence.java)|
 |401|Easy|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[Binary Watch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryWatch.java)|
 |404|Easy|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Sum of Left Leaves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfLeftLeaves.java)|
+|412|Easy|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Fizz Buzz.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FizzBuzz.java)|
 |415|Easy|[Add Strings](https://leetcode.com/problems/add-strings/)|[Add Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddStrings.java)|
 |441|Easy|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[Arranging Coins.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrangingCoins.java)|
 |448|Easy|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Find All Numbers Disappeared in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllNumbersDisappearedInArray.java)|

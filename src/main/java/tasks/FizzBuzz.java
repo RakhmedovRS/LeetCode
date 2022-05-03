@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Collections;
@@ -9,7 +10,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 15-Mar-20
  */
-@LeetCode(id = 412, name = "Fizz Buzz", url = "https://leetcode.com/problems/fizz-buzz/")
+@LeetCode(
+	id = 412,
+	name = "Fizz Buzz",
+	url = "https://leetcode.com/problems/fizz-buzz/",
+	difficulty = Difficulty.EASY
+)
 public class FizzBuzz
 {
 	public List<String> fizzBuzz(int n)
