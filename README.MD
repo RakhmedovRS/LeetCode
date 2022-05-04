@@ -220,7 +220,7 @@ Count of solved tasks: 1544
 |264|Medium|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Ugly Number II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UglyNumberII.java)|
 |268|Easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MissingNumber.java)|
 |274|Medium|[H-Index](https://leetcode.com/problems/h-index/)|[H-Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HIndex.java)|
-|275|Undefined|[H-Index II](https://leetcode.com/problems/h-index-ii/)|[H-Index II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HIndexII.java)|
+|275|Medium|[H-Index II](https://leetcode.com/problems/h-index-ii/)|[H-Index II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HIndexII.java)|
 |278|Undefined|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[First Bad Version.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstBadVersion.java)|
 |279|Medium|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Perfect Squares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PerfectSquares.java)|
 |282|Undefined|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[Expression Add Operators.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExpressionAddOperators.java)|
@@ -1705,6 +1705,7 @@ Count of solved tasks: 1544
 |260|Medium|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[Single Number III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SingleNumberIII.java)|
 |264|Medium|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Ugly Number II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UglyNumberII.java)|
 |274|Medium|[H-Index](https://leetcode.com/problems/h-index/)|[H-Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HIndex.java)|
+|275|Medium|[H-Index II](https://leetcode.com/problems/h-index-ii/)|[H-Index II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HIndexII.java)|
 |279|Medium|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Perfect Squares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PerfectSquares.java)|
 |284|Medium|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Peeking Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PeekingIterator.java)|
 |289|Medium|[Game of Life](https://leetcode.com/problems/game-of-life/)|[Game of Life.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GameOfLife.java)|

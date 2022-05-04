@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 18.06.2020
  */
-@LeetCode(id = 275, name = "H-Index II", url = "https://leetcode.com/problems/h-index-ii/")
+@LeetCode(
+	id = 275,
+	name = "H-Index II",
+	url = "https://leetcode.com/problems/h-index-ii/",
+	difficulty = Difficulty.MEDIUM
+)
 public class HIndexII
 {
 	public int hIndex(int[] citations)
