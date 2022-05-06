@@ -342,7 +342,7 @@ Count of solved tasks: 1544
 |457|Undefined|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|[Circular Array Loop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CircularArrayLoop.java)|
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[Poor Pigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PoorPigs.java)|
 |459|Undefined|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[Repeated Substring Pattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RepeatedSubstringPattern.java)|
-|460|Undefined|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|[LFU Cache.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LFUCache.java)|
+|460|Hard|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|[LFU Cache.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LFUCache.java)|
 |461|Easy|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Hamming Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HammingDistance.java)|
 |462|Medium|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|[Minimum Moves to Equal Array Elements II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToEqualArrayElementsII.java)|
 |463|Easy|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Island Perimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IslandPerimeter.java)|
@@ -2166,6 +2166,7 @@ Count of solved tasks: 1544
 |431|Hard|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/)|[Encode N-ary Tree to Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EncodeNaryTreeToBinaryTree.java)|
 |432|Hard|[All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)|[All O`one Data Structure.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AllOoneDataStructure.java)|
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[Poor Pigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PoorPigs.java)|
+|460|Hard|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|[LFU Cache.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LFUCache.java)|
 |472|Hard|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|[Concatenated Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenatedWords.java)|
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[Remove Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveBoxes.java)|
 |630|Hard|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|[Course Schedule III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CourseScheduleIII.java)|

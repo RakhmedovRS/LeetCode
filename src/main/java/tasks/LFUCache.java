@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashMap;
@@ -10,7 +11,12 @@ import java.util.TreeMap;
  * @author RakhmedovRS
  * @created 10/13/2020
  */
-@LeetCode(id = 460, name = "LFU Cache", url = "https://leetcode.com/problems/lfu-cache/")
+@LeetCode(
+	id = 460,
+	name = "LFU Cache",
+	url = "https://leetcode.com/problems/lfu-cache/",
+	difficulty = Difficulty.HARD
+)
 public class LFUCache
 {
 	class Link
