@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.TreeSet;
@@ -8,7 +9,12 @@ import java.util.TreeSet;
  * @author RakhmedovRS
  * @created 04-Aug-20
  */
-@LeetCode(id = 475, name = "Heaters", url = "https://leetcode.com/problems/heaters/")
+@LeetCode(
+	id = 475,
+	name = "Heaters",
+	url = "https://leetcode.com/problems/heaters/",
+	difficulty = Difficulty.MEDIUM
+)
 public class Heaters
 {
 	public int findRadius(int[] houses, int[] heaters)

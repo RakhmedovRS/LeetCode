@@ -353,7 +353,7 @@ Count of solved tasks: 1544
 |472|Hard|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|[Concatenated Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenatedWords.java)|
 |473|Medium|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[Matchsticks to Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MatchsticksToSquare.java)|
 |474|Undefined|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|[Ones and Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OnesAndZeroes.java)|
-|475|Undefined|[Heaters](https://leetcode.com/problems/heaters/)|[Heaters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Heaters.java)|
+|475|Medium|[Heaters](https://leetcode.com/problems/heaters/)|[Heaters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Heaters.java)|
 |476|Undefined|[Number Complement](https://leetcode.com/problems/number-complement/)|[Number Complement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberComplement.java)|
 |477|Undefined|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|[Total Hamming Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalHammingDistance.java)|
 |478|Medium|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|[Generate Random Point in a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GenerateRandomPointInCircle.java)|
@@ -1759,6 +1759,7 @@ Count of solved tasks: 1544
 |464|Medium|[Can I Win](https://leetcode.com/problems/can-i-win/)|[Can I Win.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CanIWin.java)|
 |468|Medium|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[Validate IP Address.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidateIPAddress.java)|
 |473|Medium|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[Matchsticks to Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MatchsticksToSquare.java)|
+|475|Medium|[Heaters](https://leetcode.com/problems/heaters/)|[Heaters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Heaters.java)|
 |478|Medium|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|[Generate Random Point in a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GenerateRandomPointInCircle.java)|
 |498|Medium|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Diagonal Traverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DiagonalTraverse.java)|
 |503|Medium|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[Next Greater Element II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NextGreaterElementII.java)|
