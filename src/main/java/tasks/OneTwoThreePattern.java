@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.TreeMap;
@@ -8,7 +9,12 @@ import java.util.TreeMap;
  * @author RakhmedovRS
  * @created 07-Jul-20
  */
-@LeetCode(id = 456, name = "132 Pattern", url = "https://leetcode.com/problems/132-pattern/")
+@LeetCode(
+	id = 456,
+	name = "132 Pattern",
+	url = "https://leetcode.com/problems/132-pattern/",
+	difficulty = Difficulty.MEDIUM
+)
 public class OneTwoThreePattern
 {
 	public boolean find132pattern(int[] nums)
