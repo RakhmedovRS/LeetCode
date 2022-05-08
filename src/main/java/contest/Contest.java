@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
  */
 public class Contest
 {
+	int MOD = 1_000_000_007;
 
 	public static void main(String[] args) throws Exception
 	{
