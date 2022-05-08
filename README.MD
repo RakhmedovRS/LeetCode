@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1544
+Count of solved tasks: 1545
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1353,7 +1353,8 @@ Count of solved tasks: 1544
 |2257|Medium|[Count Unguarded Cells in the Grid](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/)|[Count Unguarded Cells in the Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountUnguardedCellsInTheGrid.java)|
 |2259|Easy|[Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)|[Remove Digit From Number to Maximize Result.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveDigitFromNumberToMaximizeResult.java)|
 |2260|Medium|[Minimum Consecutive Cards to Pick Up](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/)|[Minimum Consecutive Cards to Pick Up.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumConsecutiveCardsToPickUp.java)|
-|2261|Medium|[K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/)|[K Divisible Elements Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KDivisibleElementsSubarrays.java)|</p>
+|2261|Medium|[K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/)|[K Divisible Elements Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KDivisibleElementsSubarrays.java)|
+|2264|Easy|[Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)|[Largest 3-Same-Digit Number in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Largest3SameDigitNumberInString.java)|</p>
 </details>
 
 <details>
@@ -1608,7 +1609,8 @@ Count of solved tasks: 1544
 |2243|Easy|[Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)|[Calculate Digit Sum of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateDigitSumOfString.java)|
 |2248|Easy|[Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)|[Intersection of Multiple Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IntersectionOfMultipleArrays.java)|
 |2255|Easy|[Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)|[Count Prefixes of a Given String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPrefixesOfGivenString.java)|
-|2259|Easy|[Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)|[Remove Digit From Number to Maximize Result.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveDigitFromNumberToMaximizeResult.java)|</p>
+|2259|Easy|[Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)|[Remove Digit From Number to Maximize Result.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveDigitFromNumberToMaximizeResult.java)|
+|2264|Easy|[Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)|[Largest 3-Same-Digit Number in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Largest3SameDigitNumberInString.java)|</p>
 </details>
 
 <details>
