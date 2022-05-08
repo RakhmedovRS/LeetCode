@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1545
+Count of solved tasks: 1546
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1354,7 +1354,8 @@ Count of solved tasks: 1545
 |2259|Easy|[Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)|[Remove Digit From Number to Maximize Result.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveDigitFromNumberToMaximizeResult.java)|
 |2260|Medium|[Minimum Consecutive Cards to Pick Up](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/)|[Minimum Consecutive Cards to Pick Up.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumConsecutiveCardsToPickUp.java)|
 |2261|Medium|[K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/)|[K Divisible Elements Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KDivisibleElementsSubarrays.java)|
-|2264|Easy|[Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)|[Largest 3-Same-Digit Number in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Largest3SameDigitNumberInString.java)|</p>
+|2264|Easy|[Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)|[Largest 3-Same-Digit Number in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Largest3SameDigitNumberInString.java)|
+|2265|Medium|[Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)|[Count Nodes Equal to Average of Subtree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNodesEqualToAverageOfSubtree.java)|</p>
 </details>
 
 <details>
@@ -2124,7 +2125,8 @@ Count of solved tasks: 1545
 |2256|Medium|[Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/)|[Minimum Average Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAverageDifference.java)|
 |2257|Medium|[Count Unguarded Cells in the Grid](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/)|[Count Unguarded Cells in the Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountUnguardedCellsInTheGrid.java)|
 |2260|Medium|[Minimum Consecutive Cards to Pick Up](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/)|[Minimum Consecutive Cards to Pick Up.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumConsecutiveCardsToPickUp.java)|
-|2261|Medium|[K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/)|[K Divisible Elements Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KDivisibleElementsSubarrays.java)|</p>
+|2261|Medium|[K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/)|[K Divisible Elements Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KDivisibleElementsSubarrays.java)|
+|2265|Medium|[Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)|[Count Nodes Equal to Average of Subtree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNodesEqualToAverageOfSubtree.java)|</p>
 </details>
 
 <details>
