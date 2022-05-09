@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 21-May-20
  */
-@LeetCode(id = 1277, name = "Count Square Submatrices with All Ones", url = "https://leetcode.com/problems/count-square-submatrices-with-all-ones/")
+@LeetCode(
+	id = 1277,
+	name = "Count Square Submatrices with All Ones",
+	url = "https://leetcode.com/problems/count-square-submatrices-with-all-ones/",
+	difficulty = Difficulty.MEDIUM
+)
 public class CountSquareSubmatricesWithAllOnes
 {
 	public int countSquares(int[][] matrix)
