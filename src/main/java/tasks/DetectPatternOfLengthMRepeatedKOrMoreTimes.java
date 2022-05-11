@@ -1,8 +1,14 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
-@LeetCode(id = 1566, name = "Detect Pattern of Length M Repeated K or More Times", url = "https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/")
+@LeetCode(
+    id = 1566,
+    name = "Detect Pattern of Length M Repeated K or More Times",
+    url = "https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/",
+    difficulty = Difficulty.EASY
+)
 public class DetectPatternOfLengthMRepeatedKOrMoreTimes
 {
     public boolean containsPattern(int[] arr, int m, int k)
