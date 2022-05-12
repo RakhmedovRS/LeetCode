@@ -51,7 +51,7 @@ Count of solved tasks: 1547
 |44|Undefined|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[Wildcard Matching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WildcardMatching.java)|
 |45|Medium|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Jump Game II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGameII.java)|
 |46|Undefined|[Permutations](https://leetcode.com/problems/permutations/)|[Permutations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Permutations.java)|
-|47|Undefined|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Permutations II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PermutationsII.java)|
+|47|Medium|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Permutations II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PermutationsII.java)|
 |48|Medium|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[Rotate Image.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotateImage.java)|
 |49|Medium|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Group Anagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GroupAnagrams.java)|
 |50|Medium|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Pow(x, n).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Pow.java)|
@@ -1642,6 +1642,7 @@ Count of solved tasks: 1547
 |36|Medium|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Valid Sudoku.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidSudoku.java)|
 |43|Medium|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[Multiply Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MultiplyStrings.java)|
 |45|Medium|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Jump Game II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGameII.java)|
+|47|Medium|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Permutations II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PermutationsII.java)|
 |48|Medium|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[Rotate Image.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotateImage.java)|
 |49|Medium|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Group Anagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GroupAnagrams.java)|
 |50|Medium|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Pow(x, n).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Pow.java)|

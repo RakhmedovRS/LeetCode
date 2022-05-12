@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -11,7 +12,12 @@ import java.util.function.Consumer;
  * @author RakhmedovRS
  * @created 11/12/2020
  */
-@LeetCode(id = 47, name = "Permutations II", url = "https://leetcode.com/problems/permutations-ii/")
+@LeetCode(
+	id = 47,
+	name = "Permutations II",
+	url = "https://leetcode.com/problems/permutations-ii/",
+	difficulty = Difficulty.MEDIUM
+)
 public class PermutationsII
 {
 	class Trie
