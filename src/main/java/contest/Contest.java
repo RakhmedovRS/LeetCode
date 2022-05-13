@@ -9,6 +9,18 @@ import java.util.stream.Collectors;
 /**
  * @author RakhmedovRS
  * @created 9/27/2020
+ *
+ * input size    | required time complexity
+ * n <= 11       | O(n!), O(n^6)
+ * n <= 15..18   | O(2^n * n^2)
+ * n <= 18..22   | O(2^n * n)
+ * n <= 100      | O(n^4)
+ * n <= 400      | O(n^3)
+ * n <= 2000     | O(n^2 * log n)
+ * n <= 10^5     | O(n^2)
+ * n <= 10^6     | O(n log n) or O(n)
+ * n <= 10^8     | O(n), O(log n), O(1)
+ * n <= 10^9     | O(1)
  */
 public class Contest
 {
