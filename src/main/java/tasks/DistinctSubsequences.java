@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 01-Jul-20
  */
-@LeetCode(id = 115, name = "Distinct Subsequences", url = "https://leetcode.com/problems/distinct-subsequences/")
+@LeetCode(
+	id = 115,
+	name = "Distinct Subsequences",
+	url = "https://leetcode.com/problems/distinct-subsequences/",
+	difficulty = Difficulty.HARD
+)
 public class DistinctSubsequences
 {
 	public int numDistinct(String s, String t)
