@@ -3,13 +3,13 @@ package contest;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Arrays;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
  * @author RakhmedovRS
  * @created 9/27/2020
- *
+ * <pre>
  * input size    | required time complexity
  * n <= 11       | O(n!), O(n^6)
  * n <= 15..18   | O(2^n * n^2)
@@ -21,6 +21,7 @@ import java.util.stream.Collectors;
  * n <= 10^6     | O(n log n) or O(n)
  * n <= 10^8     | O(n), O(log n), O(1)
  * n <= 10^9     | O(1)
+ * </pre>
  */
 public class Contest
 {
