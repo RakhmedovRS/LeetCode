@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1550
+Count of solved tasks: 1551
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1359,7 +1359,8 @@ Count of solved tasks: 1550
 |2266|Medium|[Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/)|[Count Number of Texts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfTexts.java)|
 |2269|Easy|[Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/)|[Find the K-Beauty of a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKBeautyOfNumber.java)|
 |2270|Medium|[Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)|[Number of Ways to Split Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfWaysToSplitArray.java)|
-|2271|Medium|[Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/)|[Maximum White Tiles Covered by a Carpet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumWhiteTilesCoveredByCarpet.java)|</p>
+|2271|Medium|[Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/)|[Maximum White Tiles Covered by a Carpet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumWhiteTilesCoveredByCarpet.java)|
+|2273|Easy|[Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/)|[Find Resultant Array After Removing Anagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindResultantArrayAfterRemovingAnagrams.java)|</p>
 </details>
 
 <details>
@@ -1618,7 +1619,8 @@ Count of solved tasks: 1550
 |2255|Easy|[Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)|[Count Prefixes of a Given String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPrefixesOfGivenString.java)|
 |2259|Easy|[Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)|[Remove Digit From Number to Maximize Result.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveDigitFromNumberToMaximizeResult.java)|
 |2264|Easy|[Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)|[Largest 3-Same-Digit Number in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Largest3SameDigitNumberInString.java)|
-|2269|Easy|[Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/)|[Find the K-Beauty of a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKBeautyOfNumber.java)|</p>
+|2269|Easy|[Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/)|[Find the K-Beauty of a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKBeautyOfNumber.java)|
+|2273|Easy|[Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/)|[Find Resultant Array After Removing Anagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindResultantArrayAfterRemovingAnagrams.java)|</p>
 </details>
 
 <details>
