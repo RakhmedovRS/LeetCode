@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1551
+Count of solved tasks: 1552
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1360,7 +1360,8 @@ Count of solved tasks: 1551
 |2269|Easy|[Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/)|[Find the K-Beauty of a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKBeautyOfNumber.java)|
 |2270|Medium|[Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)|[Number of Ways to Split Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfWaysToSplitArray.java)|
 |2271|Medium|[Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/)|[Maximum White Tiles Covered by a Carpet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumWhiteTilesCoveredByCarpet.java)|
-|2273|Easy|[Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/)|[Find Resultant Array After Removing Anagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindResultantArrayAfterRemovingAnagrams.java)|</p>
+|2273|Easy|[Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/)|[Find Resultant Array After Removing Anagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindResultantArrayAfterRemovingAnagrams.java)|
+|2274|Medium|[Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/)|[Maximum Consecutive Floors Without Special Floors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumConsecutiveFloorsWithoutSpecialFloors.java)|</p>
 </details>
 
 <details>
@@ -2140,7 +2141,8 @@ Count of solved tasks: 1551
 |2265|Medium|[Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)|[Count Nodes Equal to Average of Subtree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNodesEqualToAverageOfSubtree.java)|
 |2266|Medium|[Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/)|[Count Number of Texts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfTexts.java)|
 |2270|Medium|[Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)|[Number of Ways to Split Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfWaysToSplitArray.java)|
-|2271|Medium|[Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/)|[Maximum White Tiles Covered by a Carpet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumWhiteTilesCoveredByCarpet.java)|</p>
+|2271|Medium|[Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/)|[Maximum White Tiles Covered by a Carpet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumWhiteTilesCoveredByCarpet.java)|
+|2274|Medium|[Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/)|[Maximum Consecutive Floors Without Special Floors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumConsecutiveFloorsWithoutSpecialFloors.java)|</p>
 </details>
 
 <details>
