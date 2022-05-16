@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -7,7 +8,12 @@ import common.TreeNode;
  * @author RakhmedovRS
  * @created 12-Sep-20
  */
-@LeetCode(id = 979, name = "Distribute Coins in Binary Tree", url = "https://leetcode.com/problems/distribute-coins-in-binary-tree/")
+@LeetCode(
+	id = 979,
+	name = "Distribute Coins in Binary Tree",
+	url = "https://leetcode.com/problems/distribute-coins-in-binary-tree/",
+	difficulty = Difficulty.MEDIUM
+)
 public class DistributeCoinsInBinaryTree
 {
 	public int distributeCoins(TreeNode root)
