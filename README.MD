@@ -495,7 +495,7 @@ Count of solved tasks: 1553
 |720|Easy|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Longest Word in Dictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestWordInDictionary.java)|
 |721|Medium|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[Accounts Merge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AccountsMerge.java)|
 |722|Undefined|[Remove Comments](https://leetcode.com/problems/remove-comments/)|[Remove Comments.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveComments.java)|
-|724|Undefined|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Find Pivot Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindPivotIndex.java)|
+|724|Easy|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Find Pivot Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindPivotIndex.java)|
 |725|Medium|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)|[Split Linked List in Parts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitLinkedListInParts.java)|
 |729|Medium|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[My Calendar I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MyCalendarI.java)|
 |731|Medium|[My Calendar II](https://leetcode.com/problems/my-calendar-ii/)|[My Calendar II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MyCalendarII.java)|
@@ -1451,6 +1451,7 @@ Count of solved tasks: 1553
 |706|Easy|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Design HashMap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignHashMap.java)|
 |709|Easy|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[To Lower Case.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ToLowerCase.java)|
 |720|Easy|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Longest Word in Dictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestWordInDictionary.java)|
+|724|Easy|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Find Pivot Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindPivotIndex.java)|
 |746|Easy|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Min Cost Climbing Stairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinCostClimbingStairs.java)|
 |804|Easy|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Unique Morse Code Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniqueMorseCodeWords.java)|
 |819|Easy|[Most Common Word](https://leetcode.com/problems/most-common-word/)|[Most Common Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostCommonWord.java)|

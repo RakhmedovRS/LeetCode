@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 22-Apr-20
  */
-@LeetCode(id = 724, name = "Find Pivot Index", url = "https://leetcode.com/problems/find-pivot-index/")
+@LeetCode(
+	id = 724,
+	name = "Find Pivot Index",
+	url = "https://leetcode.com/problems/find-pivot-index/",
+	difficulty = Difficulty.EASY
+)
 public class FindPivotIndex
 {
 	public int pivotIndex(int[] nums)
