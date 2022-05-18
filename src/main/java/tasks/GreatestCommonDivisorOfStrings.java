@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 10/1/2020
  */
-@LeetCode(id = 1071, name = "Greatest Common Divisor of Strings", url = "https://leetcode.com/problems/greatest-common-divisor-of-strings/")
+@LeetCode(
+	id = 1071,
+	name = "Greatest Common Divisor of Strings",
+	url = "https://leetcode.com/problems/greatest-common-divisor-of-strings/",
+	difficulty = Difficulty.EASY
+)
 public class GreatestCommonDivisorOfStrings
 {
 	public String gcdOfStrings(String str1, String str2)
