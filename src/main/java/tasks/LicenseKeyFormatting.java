@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 11-Jun-20
  */
-@LeetCode(id = 482, name = "License Key Formatting", url = "https://leetcode.com/problems/license-key-formatting/")
+@LeetCode(
+	id = 482,
+	name = "License Key Formatting",
+	url = "https://leetcode.com/problems/license-key-formatting/",
+	difficulty = Difficulty.EASY
+)
 public class LicenseKeyFormatting
 {
 	public String licenseKeyFormatting(String S, int K)
