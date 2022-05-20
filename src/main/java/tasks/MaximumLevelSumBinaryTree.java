@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -9,7 +10,12 @@ import java.util.LinkedList;
  * @author RakhmedovRS
  * @created 17-Feb-20
  */
-@LeetCode(id = 1161, name = "Maximum Level Sum of a Binary Tree", url = "https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/")
+@LeetCode(
+	id = 1161,
+	name = "Maximum Level Sum of a Binary Tree",
+	url = "https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MaximumLevelSumBinaryTree
 {
 	public int maxLevelSum(TreeNode root)
