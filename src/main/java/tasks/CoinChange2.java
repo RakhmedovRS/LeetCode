@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 07-Jun-20
  */
-@LeetCode(id = 518, name = "Coin Change 2", url = "https://leetcode.com/problems/coin-change-2/")
+@LeetCode(
+	id = 518,
+	name = "Coin Change 2",
+	url = "https://leetcode.com/problems/coin-change-2/",
+	difficulty = Difficulty.MEDIUM
+)
 public class CoinChange2
 {
 	public int change(int amount, int[] coins)
