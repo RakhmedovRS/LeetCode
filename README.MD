@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1553
+Count of solved tasks: 1554
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1362,7 +1362,8 @@ Count of solved tasks: 1553
 |2271|Medium|[Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/)|[Maximum White Tiles Covered by a Carpet.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumWhiteTilesCoveredByCarpet.java)|
 |2273|Easy|[Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/)|[Find Resultant Array After Removing Anagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindResultantArrayAfterRemovingAnagrams.java)|
 |2274|Medium|[Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/)|[Maximum Consecutive Floors Without Special Floors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumConsecutiveFloorsWithoutSpecialFloors.java)|
-|2275|Medium|[Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/)|[Largest Combination With Bitwise AND Greater Than Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestCombinationWithBitwiseAndGreaterThanZero.java)|</p>
+|2275|Medium|[Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/)|[Largest Combination With Bitwise AND Greater Than Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestCombinationWithBitwiseAndGreaterThanZero.java)|
+|2278|Easy|[Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/)|[Percentage of Letter in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PercentageOfLetterInString.java)|</p>
 </details>
 
 <details>
@@ -1625,7 +1626,8 @@ Count of solved tasks: 1553
 |2259|Easy|[Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)|[Remove Digit From Number to Maximize Result.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveDigitFromNumberToMaximizeResult.java)|
 |2264|Easy|[Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)|[Largest 3-Same-Digit Number in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Largest3SameDigitNumberInString.java)|
 |2269|Easy|[Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/)|[Find the K-Beauty of a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKBeautyOfNumber.java)|
-|2273|Easy|[Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/)|[Find Resultant Array After Removing Anagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindResultantArrayAfterRemovingAnagrams.java)|</p>
+|2273|Easy|[Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/)|[Find Resultant Array After Removing Anagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindResultantArrayAfterRemovingAnagrams.java)|
+|2278|Easy|[Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/)|[Percentage of Letter in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PercentageOfLetterInString.java)|</p>
 </details>
 
 <details>
