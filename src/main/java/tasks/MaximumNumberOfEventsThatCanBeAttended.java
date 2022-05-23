@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -10,7 +11,12 @@ import java.util.PriorityQueue;
  * @author RakhmedovRS
  * @created 27-Jul-20
  */
-@LeetCode(id = 1353, name = "Maximum Number of Events That Can Be Attended", url = "https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/")
+@LeetCode(
+	id = 1353,
+	name = "Maximum Number of Events That Can Be Attended",
+	url = "https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MaximumNumberOfEventsThatCanBeAttended
 {
 	public int maxEvents(int[][] events)
