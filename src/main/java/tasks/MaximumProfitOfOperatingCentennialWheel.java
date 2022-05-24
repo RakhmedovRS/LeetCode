@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 9/27/2020
  */
-@LeetCode(id = 1599, name = "Maximum Profit of Operating a Centennial Wheel", url = "https://leetcode.com/problems/maximum-profit-of-operating-a-centennial-wheel/")
+@LeetCode(
+	id = 1599,
+	name = "Maximum Profit of Operating a Centennial Wheel",
+	url = "https://leetcode.com/problems/maximum-profit-of-operating-a-centennial-wheel/",
+	difficulty = Difficulty.MEDIUM
+)
 public class MaximumProfitOfOperatingCentennialWheel
 {
 	public int minOperationsMaxProfit(int[] customers, int boardingCost, int runningCost)
