@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.LinkedList;
@@ -9,7 +10,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 10-Feb-20
  */
-@LeetCode(id = 590, name = "N-ary Tree Postorder Traversal", url = "https://leetcode.com/problems/n-ary-tree-postorder-traversal/")
+@LeetCode(
+	id = 590,
+	name = "N-ary Tree Postorder Traversal",
+	url = "https://leetcode.com/problems/n-ary-tree-postorder-traversal/",
+	difficulty = Difficulty.EASY
+)
 public class N_aryTreePostorderTraversal
 {
 	class Node
