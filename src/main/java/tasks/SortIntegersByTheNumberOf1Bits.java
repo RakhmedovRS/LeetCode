@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 05-Apr-20
  */
-@LeetCode(id = 1356, name = "Sort Integers by The Number of 1 Bits", url = "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/")
+@LeetCode(
+	id = 1356,
+	name = "Sort Integers by The Number of 1 Bits",
+	url = "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/",
+	difficulty = Difficulty.EASY
+)
 public class SortIntegersByTheNumberOf1Bits
 {
 	public int[] sortByBits(int[] arr)
