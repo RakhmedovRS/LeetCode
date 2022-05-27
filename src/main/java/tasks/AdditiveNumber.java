@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -9,7 +10,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 16-Jun-20
  */
-@LeetCode(id = 306, name = "Additive Number", url = "https://leetcode.com/problems/additive-number/")
+@LeetCode(
+	id = 306,
+	name = "Additive Number",
+	url = "https://leetcode.com/problems/additive-number/",
+	difficulty = Difficulty.MEDIUM
+)
 public class AdditiveNumber
 {
 	public boolean isAdditiveNumber(String num)
