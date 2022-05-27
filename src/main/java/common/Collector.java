@@ -26,28 +26,7 @@ public class Collector
 		Set<Integer> seenIds = new HashSet<>();
 		try (Stream<Path> pathStream = Files.list(Paths.get("").toAbsolutePath().resolve("src").resolve("main").resolve("java").resolve("tasks")))
 		{
-			List<Map.Entry<LeetCode, String>> annotations =
-				pathStream.map(path ->
-				{
-					try
-					{
-						return Class.forName("tasks." + path.getFileName().toString().replaceAll(".java", ""));
-					}
-					catch (Exception ignore)
-					{
-						return null;
-					}
-				})
-					.filter(clazz -> clazz != null && clazz.isAnnotationPresent(LeetCode.class))
-					.map(clazz -> new AbstractMap.SimpleEntry<>(clazz.getAnnotation(LeetCode.class), clazz.getSimpleName()))
-					.sorted(Comparator.comparingInt(entry -> entry.getKey().id()))
-					.peek(entry -> {
-						if (!seenIds.add(entry.getKey().id()))
-						{
-							System.out.println("Found duplicated ID - " + entry.getKey().id());
-						}
-					})
-					.collect(Collectors.toList());
+			List<Map.Entry<LeetCode, String>> annotations = getAnnotations(pathStream, seenIds);
 
 			Path output = Paths.get("").resolve("README.MD");
 			try (OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(output.toFile()));)
@@ -126,6 +105,32 @@ public class Collector
 				}
 			})
 			.collect(Collectors.joining(System.lineSeparator()));
+	}
+
+	private static List<Map.Entry<LeetCode, String>> getAnnotations(Stream<Path> pathStream, Set<Integer> seenIds)
+	{
+		return
+			pathStream.map(path ->
+				{
+					try
+					{
+						return Class.forName("tasks." + path.getFileName().toString().replaceAll(".java", ""));
+					}
+					catch (Exception ignore)
+					{
+						return null;
+					}
+				})
+				.filter(clazz -> clazz != null && clazz.isAnnotationPresent(LeetCode.class))
+				.map(clazz -> new AbstractMap.SimpleEntry<>(clazz.getAnnotation(LeetCode.class), clazz.getSimpleName()))
+				.sorted(Comparator.comparingInt(entry -> entry.getKey().id()))
+				.peek(entry -> {
+					if (!seenIds.add(entry.getKey().id()))
+					{
+						System.out.println("Found duplicated ID - " + entry.getKey().id());
+					}
+				})
+				.collect(Collectors.toList());
 	}
 
 	private static String preprocess(String string)
