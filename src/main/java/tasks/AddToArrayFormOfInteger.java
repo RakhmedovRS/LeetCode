@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.LinkedList;
@@ -9,7 +10,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 30-Mar-20
  */
-@LeetCode(id = 989, name = "Add to Array-Form of Integer", url = "https://leetcode.com/problems/add-to-array-form-of-integer/")
+@LeetCode(
+	id = 989,
+	name = "Add to Array-Form of Integer",
+	url = "https://leetcode.com/problems/add-to-array-form-of-integer/",
+	difficulty = Difficulty.EASY
+)
 public class AddToArrayFormOfInteger
 {
 	public List<Integer> addToArrayForm(int[] A, int k)
