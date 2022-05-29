@@ -138,7 +138,7 @@ Count of solved tasks: 1556
 |136|Undefined|[Single Number](https://leetcode.com/problems/single-number/)|[Single Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SingleNumber.java)|
 |138|Medium|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Copy List with Random Pointer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CopyListWithRandomPointer.java)|
 |139|Undefined|[Word Break](https://leetcode.com/problems/word-break/)|[Word Break.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordBreak.java)|
-|140|Undefined|[Word Break](https://leetcode.com/problems/word-break-ii/)|[Word Break.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordBreakII.java)|
+|140|Hard|[Word Break](https://leetcode.com/problems/word-break-ii/)|[Word Break.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordBreakII.java)|
 |141|Easy|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LinkedListCycle.java)|
 |142|Medium|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked List Cycle II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LinkedListCycleII.java)|
 |143|Medium|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Reorder List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReorderList.java)|
@@ -2189,6 +2189,7 @@ Count of solved tasks: 1556
 |127|Hard|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Word Ladder.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordLadder.java)|
 |132|Hard|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)|[Palindrome Partitioning II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromePartitioningII.java)|
 |135|Hard|[Candy](https://leetcode.com/problems/candy/)|[Candy.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Candy.java)|
+|140|Hard|[Word Break](https://leetcode.com/problems/word-break-ii/)|[Word Break.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordBreakII.java)|
 |154|Hard|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[Find Minimum in Rotated Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumInRotatedSortedArrayII.java)|
 |174|Hard|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|[Dungeon Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DungeonGame.java)|
 |188|Hard|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|[Best Time to Buy and Sell Stock IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestTimeToBuyAndSellStockIV.java)|

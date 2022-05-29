@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -8,7 +9,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 22-Feb-20
  */
-@LeetCode(id = 140, name = "Word Break", url = "https://leetcode.com/problems/word-break-ii/")
+@LeetCode(
+	id = 140,
+	name = "Word Break",
+	url = "https://leetcode.com/problems/word-break-ii/",
+	difficulty = Difficulty.HARD
+)
 public class WordBreakII
 {
 	class TrieNode
