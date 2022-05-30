@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -10,7 +11,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 08-Aug-20
  */
-@LeetCode(id = 437, name = "Path Sum III", url = "https://leetcode.com/problems/path-sum-iii/")
+@LeetCode(
+	id = 437,
+	name = "Path Sum III",
+	url = "https://leetcode.com/problems/path-sum-iii/",
+	difficulty = Difficulty.MEDIUM
+)
 public class PathSumIII
 {
 	public int pathSum(TreeNode root, int sum)
