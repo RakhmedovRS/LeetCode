@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashSet;
@@ -9,7 +10,12 @@ import java.util.Set;
  * @author RakhmedovRS
  * @created 20-Sep-20
  */
-@LeetCode(id = 1593, name = "Split a String Into the Max Number of Unique Substrings", url = "https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/")
+@LeetCode(
+	id = 1593,
+	name = "Split a String Into the Max Number of Unique Substrings",
+	url = "https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/",
+	difficulty = Difficulty.EASY
+)
 public class SplitStringIntoTheMaxNumberOfUniqueSubstrings
 {
 	public int maxUniqueSplit(String s)
