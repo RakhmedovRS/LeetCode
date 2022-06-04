@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -7,7 +8,12 @@ import common.TreeNode;
  * @author RakhmedovRS
  * @created 15-Jul-20
  */
-@LeetCode(id = 988, name = "Smallest String Starting From Leaf", url = "https://leetcode.com/problems/smallest-string-starting-from-leaf/")
+@LeetCode(
+	id = 988,
+	name = "Smallest String Starting From Leaf",
+	url = "https://leetcode.com/problems/smallest-string-starting-from-leaf/",
+	difficulty = Difficulty.MEDIUM
+)
 public class SmallestStringStartingFromLeaf
 {
 	public String smallestFromLeaf(TreeNode root)
