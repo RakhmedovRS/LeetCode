@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1557
+Count of solved tasks: 1558
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1366,7 +1366,8 @@ Count of solved tasks: 1557
 |2278|Easy|[Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/)|[Percentage of Letter in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PercentageOfLetterInString.java)|
 |2279|Medium|[Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)|[Maximum Bags With Full Capacity of Rocks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumBagsWithFullCapacityOfRocks.java)|
 |2280|Medium|[Minimum Lines to Represent a Line Chart](https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/)|[Minimum Lines to Represent a Line Chart.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumLinesToRepresentLineChart.java)|
-|2283|Easy|[Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/)|[Check if Number Has Equal Digit Count and Digit Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfNumberHasEqualDigitCountAndDigitValue.java)|</p>
+|2283|Easy|[Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/)|[Check if Number Has Equal Digit Count and Digit Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfNumberHasEqualDigitCountAndDigitValue.java)|
+|2284|Medium|[Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/)|[Sender With Largest Word Count.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SenderWithLargestWordCount.java)|</p>
 </details>
 
 <details>
@@ -2170,7 +2171,8 @@ Count of solved tasks: 1557
 |2274|Medium|[Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/)|[Maximum Consecutive Floors Without Special Floors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumConsecutiveFloorsWithoutSpecialFloors.java)|
 |2275|Medium|[Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/)|[Largest Combination With Bitwise AND Greater Than Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestCombinationWithBitwiseAndGreaterThanZero.java)|
 |2279|Medium|[Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)|[Maximum Bags With Full Capacity of Rocks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumBagsWithFullCapacityOfRocks.java)|
-|2280|Medium|[Minimum Lines to Represent a Line Chart](https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/)|[Minimum Lines to Represent a Line Chart.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumLinesToRepresentLineChart.java)|</p>
+|2280|Medium|[Minimum Lines to Represent a Line Chart](https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/)|[Minimum Lines to Represent a Line Chart.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumLinesToRepresentLineChart.java)|
+|2284|Medium|[Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/)|[Sender With Largest Word Count.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SenderWithLargestWordCount.java)|</p>
 </details>
 
 <details>
