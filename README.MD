@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1561
+Count of solved tasks: 1562
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1370,7 +1370,8 @@ Count of solved tasks: 1561
 |2284|Medium|[Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/)|[Sender With Largest Word Count.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SenderWithLargestWordCount.java)|
 |2285|Medium|[Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/)|[Maximum Total Importance of Roads.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalImportanceOfRoads.java)|
 |2287|Easy|[Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/)|[Rearrange Characters to Make Target String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeCharactersToMakeTargetString.java)|
-|2288|Medium|[Apply Discount to Prices](https://leetcode.com/problems/apply-discount-to-prices/)|[Apply Discount to Prices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyDiscountToPrices.java)|</p>
+|2288|Medium|[Apply Discount to Prices](https://leetcode.com/problems/apply-discount-to-prices/)|[Apply Discount to Prices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyDiscountToPrices.java)|
+|2293|Easy|[Min Max Game](https://leetcode.com/problems/min-max-game/)|[Min Max Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinMaxGame.java)|</p>
 </details>
 
 <details>
@@ -1641,7 +1642,8 @@ Count of solved tasks: 1561
 |2273|Easy|[Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/)|[Find Resultant Array After Removing Anagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindResultantArrayAfterRemovingAnagrams.java)|
 |2278|Easy|[Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/)|[Percentage of Letter in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PercentageOfLetterInString.java)|
 |2283|Easy|[Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/)|[Check if Number Has Equal Digit Count and Digit Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfNumberHasEqualDigitCountAndDigitValue.java)|
-|2287|Easy|[Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/)|[Rearrange Characters to Make Target String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeCharactersToMakeTargetString.java)|</p>
+|2287|Easy|[Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/)|[Rearrange Characters to Make Target String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeCharactersToMakeTargetString.java)|
+|2293|Easy|[Min Max Game](https://leetcode.com/problems/min-max-game/)|[Min Max Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinMaxGame.java)|</p>
 </details>
 
 <details>
