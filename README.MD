@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1556
+Count of solved tasks: 1557
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1365,7 +1365,8 @@ Count of solved tasks: 1556
 |2275|Medium|[Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/)|[Largest Combination With Bitwise AND Greater Than Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestCombinationWithBitwiseAndGreaterThanZero.java)|
 |2278|Easy|[Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/)|[Percentage of Letter in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PercentageOfLetterInString.java)|
 |2279|Medium|[Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)|[Maximum Bags With Full Capacity of Rocks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumBagsWithFullCapacityOfRocks.java)|
-|2280|Medium|[Minimum Lines to Represent a Line Chart](https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/)|[Minimum Lines to Represent a Line Chart.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumLinesToRepresentLineChart.java)|</p>
+|2280|Medium|[Minimum Lines to Represent a Line Chart](https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/)|[Minimum Lines to Represent a Line Chart.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumLinesToRepresentLineChart.java)|
+|2283|Easy|[Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/)|[Check if Number Has Equal Digit Count and Digit Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfNumberHasEqualDigitCountAndDigitValue.java)|</p>
 </details>
 
 <details>
@@ -1634,7 +1635,8 @@ Count of solved tasks: 1556
 |2264|Easy|[Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)|[Largest 3-Same-Digit Number in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Largest3SameDigitNumberInString.java)|
 |2269|Easy|[Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/)|[Find the K-Beauty of a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKBeautyOfNumber.java)|
 |2273|Easy|[Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/)|[Find Resultant Array After Removing Anagrams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindResultantArrayAfterRemovingAnagrams.java)|
-|2278|Easy|[Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/)|[Percentage of Letter in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PercentageOfLetterInString.java)|</p>
+|2278|Easy|[Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/)|[Percentage of Letter in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PercentageOfLetterInString.java)|
+|2283|Easy|[Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/)|[Check if Number Has Equal Digit Count and Digit Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfNumberHasEqualDigitCountAndDigitValue.java)|</p>
 </details>
 
 <details>
