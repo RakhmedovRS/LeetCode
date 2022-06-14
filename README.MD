@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1563
+Count of solved tasks: 1564
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1372,7 +1372,8 @@ Count of solved tasks: 1563
 |2287|Easy|[Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/)|[Rearrange Characters to Make Target String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeCharactersToMakeTargetString.java)|
 |2288|Medium|[Apply Discount to Prices](https://leetcode.com/problems/apply-discount-to-prices/)|[Apply Discount to Prices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyDiscountToPrices.java)|
 |2293|Easy|[Min Max Game](https://leetcode.com/problems/min-max-game/)|[Min Max Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinMaxGame.java)|
-|2294|Medium|[Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/)|[Partition Array Such That Maximum Difference Is K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionArraySuchThatMaximumDifferenceIsK.java)|</p>
+|2294|Medium|[Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/)|[Partition Array Such That Maximum Difference Is K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionArraySuchThatMaximumDifferenceIsK.java)|
+|2295|Medium|[Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/)|[Replace Elements in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReplaceElementsInArray.java)|</p>
 </details>
 
 <details>
@@ -2182,7 +2183,8 @@ Count of solved tasks: 1563
 |2284|Medium|[Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/)|[Sender With Largest Word Count.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SenderWithLargestWordCount.java)|
 |2285|Medium|[Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/)|[Maximum Total Importance of Roads.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalImportanceOfRoads.java)|
 |2288|Medium|[Apply Discount to Prices](https://leetcode.com/problems/apply-discount-to-prices/)|[Apply Discount to Prices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyDiscountToPrices.java)|
-|2294|Medium|[Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/)|[Partition Array Such That Maximum Difference Is K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionArraySuchThatMaximumDifferenceIsK.java)|</p>
+|2294|Medium|[Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/)|[Partition Array Such That Maximum Difference Is K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionArraySuchThatMaximumDifferenceIsK.java)|
+|2295|Medium|[Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/)|[Replace Elements in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReplaceElementsInArray.java)|</p>
 </details>
 
 <details>
