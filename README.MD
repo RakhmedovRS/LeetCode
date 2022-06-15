@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1565
+Count of solved tasks: 1566
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1374,7 +1374,8 @@ Count of solved tasks: 1565
 |2293|Easy|[Min Max Game](https://leetcode.com/problems/min-max-game/)|[Min Max Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinMaxGame.java)|
 |2294|Medium|[Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/)|[Partition Array Such That Maximum Difference Is K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionArraySuchThatMaximumDifferenceIsK.java)|
 |2295|Medium|[Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/)|[Replace Elements in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReplaceElementsInArray.java)|
-|2299|Easy|[Strong Password Checker II](https://leetcode.com/problems/strong-password-checker-ii/)|[Strong Password Checker II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StrongPasswordCheckerII.java)|</p>
+|2299|Easy|[Strong Password Checker II](https://leetcode.com/problems/strong-password-checker-ii/)|[Strong Password Checker II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StrongPasswordCheckerII.java)|
+|2300|Medium|[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)|[Successful Pairs of Spells and Potions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SuccessfulPairsOfSpellsAndPotions.java)|</p>
 </details>
 
 <details>
@@ -2186,7 +2187,8 @@ Count of solved tasks: 1565
 |2285|Medium|[Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/)|[Maximum Total Importance of Roads.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalImportanceOfRoads.java)|
 |2288|Medium|[Apply Discount to Prices](https://leetcode.com/problems/apply-discount-to-prices/)|[Apply Discount to Prices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyDiscountToPrices.java)|
 |2294|Medium|[Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/)|[Partition Array Such That Maximum Difference Is K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionArraySuchThatMaximumDifferenceIsK.java)|
-|2295|Medium|[Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/)|[Replace Elements in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReplaceElementsInArray.java)|</p>
+|2295|Medium|[Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/)|[Replace Elements in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReplaceElementsInArray.java)|
+|2300|Medium|[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)|[Successful Pairs of Spells and Potions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SuccessfulPairsOfSpellsAndPotions.java)|</p>
 </details>
 
 <details>
