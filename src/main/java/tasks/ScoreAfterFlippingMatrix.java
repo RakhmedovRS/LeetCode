@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 28-Jul-20
  */
-@LeetCode(id = 861, name = "Score After Flipping Matrix", url = "https://leetcode.com/problems/score-after-flipping-matrix/")
+@LeetCode(
+	id = 861,
+	name = "Score After Flipping Matrix",
+	url = "https://leetcode.com/problems/score-after-flipping-matrix/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ScoreAfterFlippingMatrix
 {
 	public int matrixScore(int[][] matrix)
