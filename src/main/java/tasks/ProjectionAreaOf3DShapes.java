@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 11/4/2020
  */
-@LeetCode(id = 883, name = "Projection Area of 3D Shapes", url = "https://leetcode.com/problems/projection-area-of-3d-shapes/")
+@LeetCode(
+	id = 883,
+	name = "Projection Area of 3D Shapes",
+	url = "https://leetcode.com/problems/projection-area-of-3d-shapes/",
+	difficulty = Difficulty.EASY
+)
 public class ProjectionAreaOf3DShapes
 {
 	public int projectionArea(int[][] grid)
