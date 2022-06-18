@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1567
+Count of solved tasks: 1568
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1376,7 +1376,8 @@ Count of solved tasks: 1567
 |2295|Medium|[Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/)|[Replace Elements in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReplaceElementsInArray.java)|
 |2299|Easy|[Strong Password Checker II](https://leetcode.com/problems/strong-password-checker-ii/)|[Strong Password Checker II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StrongPasswordCheckerII.java)|
 |2300|Medium|[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)|[Successful Pairs of Spells and Potions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SuccessfulPairsOfSpellsAndPotions.java)|
-|2303|Easy|[Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/)|[Calculate Amount Paid in Taxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateAmountPaidInTaxes.java)|</p>
+|2303|Easy|[Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/)|[Calculate Amount Paid in Taxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateAmountPaidInTaxes.java)|
+|2304|Medium|[Minimum Path Cost in a Grid](https://leetcode.com/problems/minimum-path-cost-in-a-grid/)|[Minimum Path Cost in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPathCostInGrid.java)|</p>
 </details>
 
 <details>
@@ -2192,7 +2193,8 @@ Count of solved tasks: 1567
 |2288|Medium|[Apply Discount to Prices](https://leetcode.com/problems/apply-discount-to-prices/)|[Apply Discount to Prices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyDiscountToPrices.java)|
 |2294|Medium|[Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/)|[Partition Array Such That Maximum Difference Is K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionArraySuchThatMaximumDifferenceIsK.java)|
 |2295|Medium|[Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/)|[Replace Elements in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReplaceElementsInArray.java)|
-|2300|Medium|[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)|[Successful Pairs of Spells and Potions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SuccessfulPairsOfSpellsAndPotions.java)|</p>
+|2300|Medium|[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)|[Successful Pairs of Spells and Potions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SuccessfulPairsOfSpellsAndPotions.java)|
+|2304|Medium|[Minimum Path Cost in a Grid](https://leetcode.com/problems/minimum-path-cost-in-a-grid/)|[Minimum Path Cost in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPathCostInGrid.java)|</p>
 </details>
 
 <details>
