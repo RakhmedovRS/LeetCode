@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1568
+Count of solved tasks: 1569
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1377,7 +1377,8 @@ Count of solved tasks: 1568
 |2299|Easy|[Strong Password Checker II](https://leetcode.com/problems/strong-password-checker-ii/)|[Strong Password Checker II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StrongPasswordCheckerII.java)|
 |2300|Medium|[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)|[Successful Pairs of Spells and Potions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SuccessfulPairsOfSpellsAndPotions.java)|
 |2303|Easy|[Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/)|[Calculate Amount Paid in Taxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateAmountPaidInTaxes.java)|
-|2304|Medium|[Minimum Path Cost in a Grid](https://leetcode.com/problems/minimum-path-cost-in-a-grid/)|[Minimum Path Cost in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPathCostInGrid.java)|</p>
+|2304|Medium|[Minimum Path Cost in a Grid](https://leetcode.com/problems/minimum-path-cost-in-a-grid/)|[Minimum Path Cost in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPathCostInGrid.java)|
+|2309|Easy|[Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/)|[Greatest English Letter in Upper and Lower Case.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GreatestEnglishLetterInUpperAndLowerCase.java)|</p>
 </details>
 
 <details>
@@ -1652,7 +1653,8 @@ Count of solved tasks: 1568
 |2287|Easy|[Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/)|[Rearrange Characters to Make Target String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeCharactersToMakeTargetString.java)|
 |2293|Easy|[Min Max Game](https://leetcode.com/problems/min-max-game/)|[Min Max Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinMaxGame.java)|
 |2299|Easy|[Strong Password Checker II](https://leetcode.com/problems/strong-password-checker-ii/)|[Strong Password Checker II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StrongPasswordCheckerII.java)|
-|2303|Easy|[Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/)|[Calculate Amount Paid in Taxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateAmountPaidInTaxes.java)|</p>
+|2303|Easy|[Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/)|[Calculate Amount Paid in Taxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateAmountPaidInTaxes.java)|
+|2309|Easy|[Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/)|[Greatest English Letter in Upper and Lower Case.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GreatestEnglishLetterInUpperAndLowerCase.java)|</p>
 </details>
 
 <details>
