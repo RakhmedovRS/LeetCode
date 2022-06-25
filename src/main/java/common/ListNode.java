@@ -6,6 +6,19 @@ package common;
  */
 public class ListNode
 {
+	public static ListNode createFromArray(int[] array)
+	{
+		ListNode dummy = new ListNode();
+		ListNode current = dummy;
+		for (int val : array)
+		{
+			current.next = new ListNode(val);
+			current = current.next;
+		}
+
+		return dummy.next;
+	}
+
 	public int val;
 	public ListNode next;
 
