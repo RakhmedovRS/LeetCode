@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1576
+Count of solved tasks: 1577
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1385,7 +1385,8 @@ Count of solved tasks: 1576
 |2309|Easy|[Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/)|[Greatest English Letter in Upper and Lower Case.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GreatestEnglishLetterInUpperAndLowerCase.java)|
 |2310|Medium|[Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/)|[Sum of Numbers With Units Digit K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfNumbersWithUnitsDigitK.java)|
 |2311|Medium|[Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/)|[Longest Binary Subsequence Less Than or Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestBinarySubsequenceLessThanOrEqualToK.java)|
-|2315|Easy|[Count Asterisks](https://leetcode.com/problems/count-asterisks/)|[Count Asterisks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountAsterisks.java)|</p>
+|2315|Easy|[Count Asterisks](https://leetcode.com/problems/count-asterisks/)|[Count Asterisks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountAsterisks.java)|
+|2316|Medium|[Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/)|[Count Unreachable Pairs of Nodes in an Undirected Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountUnreachablePairsOfNodesInUndirectedGraph.java)|</p>
 </details>
 
 <details>
@@ -2210,7 +2211,8 @@ Count of solved tasks: 1576
 |2300|Medium|[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)|[Successful Pairs of Spells and Potions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SuccessfulPairsOfSpellsAndPotions.java)|
 |2304|Medium|[Minimum Path Cost in a Grid](https://leetcode.com/problems/minimum-path-cost-in-a-grid/)|[Minimum Path Cost in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPathCostInGrid.java)|
 |2310|Medium|[Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/)|[Sum of Numbers With Units Digit K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfNumbersWithUnitsDigitK.java)|
-|2311|Medium|[Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/)|[Longest Binary Subsequence Less Than or Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestBinarySubsequenceLessThanOrEqualToK.java)|</p>
+|2311|Medium|[Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/)|[Longest Binary Subsequence Less Than or Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestBinarySubsequenceLessThanOrEqualToK.java)|
+|2316|Medium|[Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/)|[Count Unreachable Pairs of Nodes in an Undirected Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountUnreachablePairsOfNodesInUndirectedGraph.java)|</p>
 </details>
 
 <details>
