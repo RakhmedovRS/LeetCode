@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1578
+Count of solved tasks: 1579
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1387,7 +1387,8 @@ Count of solved tasks: 1578
 |2311|Medium|[Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/)|[Longest Binary Subsequence Less Than or Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestBinarySubsequenceLessThanOrEqualToK.java)|
 |2315|Easy|[Count Asterisks](https://leetcode.com/problems/count-asterisks/)|[Count Asterisks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountAsterisks.java)|
 |2316|Medium|[Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/)|[Count Unreachable Pairs of Nodes in an Undirected Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountUnreachablePairsOfNodesInUndirectedGraph.java)|
-|2317|Medium|[Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations/)|[Maximum XOR After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumXORAfterOperations.java)|</p>
+|2317|Medium|[Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations/)|[Maximum XOR After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumXORAfterOperations.java)|
+|2319|Easy|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|[Check if Matrix Is X-Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfMatrixIsXMatrix.java)|</p>
 </details>
 
 <details>
@@ -1664,7 +1665,8 @@ Count of solved tasks: 1578
 |2299|Easy|[Strong Password Checker II](https://leetcode.com/problems/strong-password-checker-ii/)|[Strong Password Checker II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StrongPasswordCheckerII.java)|
 |2303|Easy|[Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/)|[Calculate Amount Paid in Taxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateAmountPaidInTaxes.java)|
 |2309|Easy|[Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/)|[Greatest English Letter in Upper and Lower Case.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GreatestEnglishLetterInUpperAndLowerCase.java)|
-|2315|Easy|[Count Asterisks](https://leetcode.com/problems/count-asterisks/)|[Count Asterisks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountAsterisks.java)|</p>
+|2315|Easy|[Count Asterisks](https://leetcode.com/problems/count-asterisks/)|[Count Asterisks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountAsterisks.java)|
+|2319|Easy|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|[Check if Matrix Is X-Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfMatrixIsXMatrix.java)|</p>
 </details>
 
 <details>
