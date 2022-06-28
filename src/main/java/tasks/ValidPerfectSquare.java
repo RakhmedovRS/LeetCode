@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 09-May-20
  */
-@LeetCode(id = 367, name = "Valid Perfect Square", url = "https://leetcode.com/problems/valid-perfect-square/")
+@LeetCode(
+	id = 367,
+	name = "Valid Perfect Square",
+	url = "https://leetcode.com/problems/valid-perfect-square/",
+	difficulty = Difficulty.EASY
+)
 public class ValidPerfectSquare
 {
 	public boolean isPerfectSquare(int num)
