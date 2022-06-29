@@ -361,7 +361,7 @@ Count of solved tasks: 1579
 |480|Undefined|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)|[Sliding Window Median.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SlidingWindowMedian.java)|
 |482|Easy|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|[License Key Formatting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LicenseKeyFormatting.java)|
 |485|Easy|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max Consecutive Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxConsecutiveOnes.java)|
-|486|Undefined|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/)|[Predict the Winner.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PredictTheWinner.java)|
+|486|Medium|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/)|[Predict the Winner.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PredictTheWinner.java)|
 |488|Undefined|[Zuma Game](https://leetcode.com/problems/zuma-game/)|[Zuma Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ZumaGame.java)|
 |491|Undefined|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)|[Increasing Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IncreasingSubsequences.java)|
 |492|Undefined|[Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)|[Construct the Rectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructTheRectangle.java)|
@@ -1825,6 +1825,7 @@ Count of solved tasks: 1579
 |473|Medium|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[Matchsticks to Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MatchsticksToSquare.java)|
 |475|Medium|[Heaters](https://leetcode.com/problems/heaters/)|[Heaters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Heaters.java)|
 |478|Medium|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|[Generate Random Point in a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GenerateRandomPointInCircle.java)|
+|486|Medium|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/)|[Predict the Winner.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PredictTheWinner.java)|
 |498|Medium|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Diagonal Traverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DiagonalTraverse.java)|
 |503|Medium|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[Next Greater Element II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NextGreaterElementII.java)|
 |518|Medium|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)|[Coin Change 2.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CoinChange2.java)|

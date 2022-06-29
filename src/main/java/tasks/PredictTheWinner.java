@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 18-Aug-20
  */
-@LeetCode(id = 486, name = "Predict the Winner", url = "https://leetcode.com/problems/predict-the-winner/")
+@LeetCode(
+	id = 486,
+	name = "Predict the Winner",
+	url = "https://leetcode.com/problems/predict-the-winner/",
+	difficulty = Difficulty.MEDIUM
+)
 public class PredictTheWinner
 {
 	public boolean PredictTheWinner(int[] nums)
