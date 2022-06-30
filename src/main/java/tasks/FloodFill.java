@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 11-May-20
  */
-@LeetCode(id = 733, name = "Flood Fill", url = "https://leetcode.com/problems/flood-fill/")
+@LeetCode(
+	id = 733,
+	name = "Flood Fill",
+	url = "https://leetcode.com/problems/flood-fill/",
+	difficulty = Difficulty.EASY
+)
 public class FloodFill
 {
 	public int[][] floodFill(int[][] image, int sr, int sc, int newColor)

@@ -500,7 +500,7 @@ Count of solved tasks: 1579
 |729|Medium|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[My Calendar I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MyCalendarI.java)|
 |731|Medium|[My Calendar II](https://leetcode.com/problems/my-calendar-ii/)|[My Calendar II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MyCalendarII.java)|
 |732|Hard|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[My Calendar III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MyCalendarIII.java)|
-|733|Undefined|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Flood Fill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FloodFill.java)|
+|733|Easy|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Flood Fill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FloodFill.java)|
 |735|Medium|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Asteroid Collision.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AsteroidCollision.java)|
 |738|Undefined|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/)|[Monotone Increasing Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MonotoneIncreasingDigits.java)|
 |739|Medium|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Daily Temperatures.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DailyTemperatures.java)|
@@ -1481,6 +1481,7 @@ Count of solved tasks: 1579
 |709|Easy|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[To Lower Case.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ToLowerCase.java)|
 |720|Easy|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Longest Word in Dictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestWordInDictionary.java)|
 |724|Easy|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Find Pivot Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindPivotIndex.java)|
+|733|Easy|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Flood Fill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FloodFill.java)|
 |746|Easy|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Min Cost Climbing Stairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinCostClimbingStairs.java)|
 |804|Easy|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Unique Morse Code Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniqueMorseCodeWords.java)|
 |819|Easy|[Most Common Word](https://leetcode.com/problems/most-common-word/)|[Most Common Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostCommonWord.java)|
