@@ -48,7 +48,7 @@ Count of solved tasks: 1579
 |41|Hard|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[First Missing Positive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstMissingPositive.java)|
 |42|Hard|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Trapping Rain Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TrappingRainWater.java)|
 |43|Medium|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[Multiply Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MultiplyStrings.java)|
-|44|Undefined|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[Wildcard Matching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WildcardMatching.java)|
+|44|Hard|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[Wildcard Matching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WildcardMatching.java)|
 |45|Medium|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Jump Game II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/JumpGameII.java)|
 |46|Undefined|[Permutations](https://leetcode.com/problems/permutations/)|[Permutations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Permutations.java)|
 |47|Medium|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Permutations II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PermutationsII.java)|
@@ -2234,6 +2234,7 @@ Count of solved tasks: 1579
 |37|Hard|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|[Sudoku Solver.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SudokuSolver.java)|
 |41|Hard|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[First Missing Positive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstMissingPositive.java)|
 |42|Hard|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Trapping Rain Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TrappingRainWater.java)|
+|44|Hard|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[Wildcard Matching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WildcardMatching.java)|
 |51|Hard|[N-Queens](https://leetcode.com/problems/n-queens/)|[N-Queens.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NQueens.java)|
 |52|Hard|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[N-Queens II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NQueensII.java)|
 |65|Hard|[Valid Number](https://leetcode.com/problems/valid-number/)|[Valid Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidNumber.java)|

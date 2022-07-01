@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 29-Mar-20
  */
-@LeetCode(id = 44, name = "Wildcard Matching", url = "https://leetcode.com/problems/wildcard-matching/")
+@LeetCode(
+	id = 44,
+	name = "Wildcard Matching",
+	url = "https://leetcode.com/problems/wildcard-matching/",
+	difficulty = Difficulty.HARD
+)
 public class WildcardMatching
 {
 	public boolean isMatch(String s, String p)
