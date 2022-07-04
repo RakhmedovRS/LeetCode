@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1580
+Count of solved tasks: 1581
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1389,7 +1389,8 @@ Count of solved tasks: 1580
 |2316|Medium|[Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/)|[Count Unreachable Pairs of Nodes in an Undirected Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountUnreachablePairsOfNodesInUndirectedGraph.java)|
 |2317|Medium|[Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations/)|[Maximum XOR After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumXORAfterOperations.java)|
 |2319|Easy|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|[Check if Matrix Is X-Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfMatrixIsXMatrix.java)|
-|2325|Easy|[Decode the Message](https://leetcode.com/problems/decode-the-message/)|[Decode the Message.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeTheMessage.java)|</p>
+|2325|Easy|[Decode the Message](https://leetcode.com/problems/decode-the-message/)|[Decode the Message.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeTheMessage.java)|
+|2326|Medium|[Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)|[Spiral Matrix IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpiralMatrixIV.java)|</p>
 </details>
 
 <details>
@@ -2221,7 +2222,8 @@ Count of solved tasks: 1580
 |2310|Medium|[Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/)|[Sum of Numbers With Units Digit K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfNumbersWithUnitsDigitK.java)|
 |2311|Medium|[Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/)|[Longest Binary Subsequence Less Than or Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestBinarySubsequenceLessThanOrEqualToK.java)|
 |2316|Medium|[Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/)|[Count Unreachable Pairs of Nodes in an Undirected Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountUnreachablePairsOfNodesInUndirectedGraph.java)|
-|2317|Medium|[Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations/)|[Maximum XOR After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumXORAfterOperations.java)|</p>
+|2317|Medium|[Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations/)|[Maximum XOR After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumXORAfterOperations.java)|
+|2326|Medium|[Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)|[Spiral Matrix IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpiralMatrixIV.java)|</p>
 </details>
 
 <details>
