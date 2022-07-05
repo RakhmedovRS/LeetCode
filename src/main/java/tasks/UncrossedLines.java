@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 25-May-20
  */
-@LeetCode(id = 1035, name = "Uncrossed Lines", url = "https://leetcode.com/problems/uncrossed-lines/")
+@LeetCode(
+	id = 1035,
+	name = "Uncrossed Lines",
+	url = "https://leetcode.com/problems/uncrossed-lines/",
+	difficulty = Difficulty.MEDIUM
+)
 public class UncrossedLines
 {
 	public int maxUncrossedLines(int[] A, int[] B)
