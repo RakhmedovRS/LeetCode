@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 28-Jul-20
  */
-@LeetCode(id = 812, name = "Largest tasks.Triangle Area", url = "https://leetcode.com/problems/largest-triangle-area/")
+@LeetCode(
+	id = 812,
+	name = "Largest tasks.Triangle Area",
+	url = "https://leetcode.com/problems/largest-triangle-area/",
+	difficulty = Difficulty.EASY
+)
 public class LargestTriangleArea
 {
 	public double largestTriangleArea(int[][] points) {
