@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -9,7 +10,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 28-May-20
  */
-@LeetCode(id = 796, name = "Rotate String", url = "https://leetcode.com/problems/rotate-string/")
+@LeetCode(
+	id = 796,
+	name = "Rotate String",
+	url = "https://leetcode.com/problems/rotate-string/",
+	difficulty = Difficulty.EASY
+)
 public class RotateString
 {
 	public boolean rotateString(String A, String B)
