@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 02-Sep-20
  */
-@LeetCode(id = 390, name = "Elimination Game", url = "https://leetcode.com/problems/elimination-game/")
+@LeetCode(
+	id = 390,
+	name = "Elimination Game",
+	url = "https://leetcode.com/problems/elimination-game/",
+	difficulty = Difficulty.MEDIUM
+)
 public class EliminationGame
 {
 	public int lastRemaining(int n)
