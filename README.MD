@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1581
+Count of solved tasks: 1582
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1390,7 +1390,8 @@ Count of solved tasks: 1581
 |2317|Medium|[Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations/)|[Maximum XOR After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumXORAfterOperations.java)|
 |2319|Easy|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|[Check if Matrix Is X-Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfMatrixIsXMatrix.java)|
 |2325|Easy|[Decode the Message](https://leetcode.com/problems/decode-the-message/)|[Decode the Message.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeTheMessage.java)|
-|2326|Medium|[Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)|[Spiral Matrix IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpiralMatrixIV.java)|</p>
+|2326|Medium|[Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)|[Spiral Matrix IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpiralMatrixIV.java)|
+|2331|Easy|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|[Evaluate Boolean Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateBooleanBinaryTree.java)|</p>
 </details>
 
 <details>
@@ -1673,7 +1674,8 @@ Count of solved tasks: 1581
 |2309|Easy|[Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/)|[Greatest English Letter in Upper and Lower Case.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GreatestEnglishLetterInUpperAndLowerCase.java)|
 |2315|Easy|[Count Asterisks](https://leetcode.com/problems/count-asterisks/)|[Count Asterisks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountAsterisks.java)|
 |2319|Easy|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|[Check if Matrix Is X-Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfMatrixIsXMatrix.java)|
-|2325|Easy|[Decode the Message](https://leetcode.com/problems/decode-the-message/)|[Decode the Message.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeTheMessage.java)|</p>
+|2325|Easy|[Decode the Message](https://leetcode.com/problems/decode-the-message/)|[Decode the Message.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeTheMessage.java)|
+|2331|Easy|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|[Evaluate Boolean Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateBooleanBinaryTree.java)|</p>
 </details>
 
 <details>
