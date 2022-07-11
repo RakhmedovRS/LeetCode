@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1583
+Count of solved tasks: 1584
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1392,7 +1392,8 @@ Count of solved tasks: 1583
 |2325|Easy|[Decode the Message](https://leetcode.com/problems/decode-the-message/)|[Decode the Message.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeTheMessage.java)|
 |2326|Medium|[Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)|[Spiral Matrix IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpiralMatrixIV.java)|
 |2331|Easy|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|[Evaluate Boolean Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateBooleanBinaryTree.java)|
-|2332|Medium|[The Latest Time to Catch a Bus](https://leetcode.com/problems/the-latest-time-to-catch-a-bus/)|[The Latest Time to Catch a Bus.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheLatestTimeToCatchBus.java)|</p>
+|2332|Medium|[The Latest Time to Catch a Bus](https://leetcode.com/problems/the-latest-time-to-catch-a-bus/)|[The Latest Time to Catch a Bus.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheLatestTimeToCatchBus.java)|
+|2335|Easy|[Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/)|[Minimum Amount of Time to Fill Cups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfTimeToFillCups.java)|</p>
 </details>
 
 <details>
@@ -1676,7 +1677,8 @@ Count of solved tasks: 1583
 |2315|Easy|[Count Asterisks](https://leetcode.com/problems/count-asterisks/)|[Count Asterisks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountAsterisks.java)|
 |2319|Easy|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|[Check if Matrix Is X-Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfMatrixIsXMatrix.java)|
 |2325|Easy|[Decode the Message](https://leetcode.com/problems/decode-the-message/)|[Decode the Message.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeTheMessage.java)|
-|2331|Easy|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|[Evaluate Boolean Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateBooleanBinaryTree.java)|</p>
+|2331|Easy|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|[Evaluate Boolean Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateBooleanBinaryTree.java)|
+|2335|Easy|[Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/)|[Minimum Amount of Time to Fill Cups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfTimeToFillCups.java)|</p>
 </details>
 
 <details>
