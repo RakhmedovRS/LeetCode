@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1584
+Count of solved tasks: 1585
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1393,7 +1393,8 @@ Count of solved tasks: 1584
 |2326|Medium|[Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)|[Spiral Matrix IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpiralMatrixIV.java)|
 |2331|Easy|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|[Evaluate Boolean Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateBooleanBinaryTree.java)|
 |2332|Medium|[The Latest Time to Catch a Bus](https://leetcode.com/problems/the-latest-time-to-catch-a-bus/)|[The Latest Time to Catch a Bus.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheLatestTimeToCatchBus.java)|
-|2335|Easy|[Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/)|[Minimum Amount of Time to Fill Cups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfTimeToFillCups.java)|</p>
+|2335|Easy|[Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/)|[Minimum Amount of Time to Fill Cups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfTimeToFillCups.java)|
+|2336|Medium|[Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/)|[Smallest Number in Infinite Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestNumberInInfiniteSet.java)|</p>
 </details>
 
 <details>
@@ -2233,7 +2234,8 @@ Count of solved tasks: 1584
 |2316|Medium|[Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/)|[Count Unreachable Pairs of Nodes in an Undirected Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountUnreachablePairsOfNodesInUndirectedGraph.java)|
 |2317|Medium|[Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations/)|[Maximum XOR After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumXORAfterOperations.java)|
 |2326|Medium|[Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)|[Spiral Matrix IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpiralMatrixIV.java)|
-|2332|Medium|[The Latest Time to Catch a Bus](https://leetcode.com/problems/the-latest-time-to-catch-a-bus/)|[The Latest Time to Catch a Bus.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheLatestTimeToCatchBus.java)|</p>
+|2332|Medium|[The Latest Time to Catch a Bus](https://leetcode.com/problems/the-latest-time-to-catch-a-bus/)|[The Latest Time to Catch a Bus.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheLatestTimeToCatchBus.java)|
+|2336|Medium|[Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/)|[Smallest Number in Infinite Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestNumberInInfiniteSet.java)|</p>
 </details>
 
 <details>
