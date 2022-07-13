@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -8,7 +9,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 02-Jul-20
  */
-@LeetCode(id = 809, name = "Expressive Words", url = "https://leetcode.com/problems/expressive-words/")
+@LeetCode(
+	id = 809,
+	name = "Expressive Words",
+	url = "https://leetcode.com/problems/expressive-words/",
+	difficulty = Difficulty.MEDIUM
+)
 public class ExpressiveWords
 {
 	public int expressiveWords(String S, String[] words)
