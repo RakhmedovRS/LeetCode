@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 30-Jun-20
  */
-@LeetCode(id = 1154, name = "Day of the Year", url = "https://leetcode.com/problems/day-of-the-year/submissions/")
+@LeetCode(
+	id = 1154,
+	name = "Day of the Year",
+	url = "https://leetcode.com/problems/day-of-the-year/submissions/",
+	difficulty = Difficulty.EASY
+)
 public class DayOfTheYear
 {
 	public int dayOfYear(String date)
