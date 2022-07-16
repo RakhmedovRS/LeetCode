@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -8,7 +9,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 13-Aug-20
  */
-@LeetCode(id = 1311, name = "Get Watched Videos by Your Friends", url = "https://leetcode.com/problems/get-watched-videos-by-your-friends/")
+@LeetCode(
+	id = 1311,
+	name = "Get Watched Videos by Your Friends",
+	url = "https://leetcode.com/problems/get-watched-videos-by-your-friends/",
+	difficulty = Difficulty.MEDIUM
+)
 public class GetWatchedVideosByYourFriends
 {
 	public List<String> watchedVideosByFriends(List<List<String>> watchedVideos, int[][] friends, int id, int level)
