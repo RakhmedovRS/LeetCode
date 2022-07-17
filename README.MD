@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1585
+Count of solved tasks: 1586
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1394,7 +1394,8 @@ Count of solved tasks: 1585
 |2331|Easy|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|[Evaluate Boolean Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateBooleanBinaryTree.java)|
 |2332|Medium|[The Latest Time to Catch a Bus](https://leetcode.com/problems/the-latest-time-to-catch-a-bus/)|[The Latest Time to Catch a Bus.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheLatestTimeToCatchBus.java)|
 |2335|Easy|[Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/)|[Minimum Amount of Time to Fill Cups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfTimeToFillCups.java)|
-|2336|Medium|[Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/)|[Smallest Number in Infinite Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestNumberInInfiniteSet.java)|</p>
+|2336|Medium|[Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/)|[Smallest Number in Infinite Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestNumberInInfiniteSet.java)|
+|2341|Easy|[Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/)|[Maximum Number of Pairs in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfPairsInArray.java)|</p>
 </details>
 
 <details>
@@ -1680,7 +1681,8 @@ Count of solved tasks: 1585
 |2319|Easy|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|[Check if Matrix Is X-Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfMatrixIsXMatrix.java)|
 |2325|Easy|[Decode the Message](https://leetcode.com/problems/decode-the-message/)|[Decode the Message.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeTheMessage.java)|
 |2331|Easy|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|[Evaluate Boolean Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateBooleanBinaryTree.java)|
-|2335|Easy|[Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/)|[Minimum Amount of Time to Fill Cups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfTimeToFillCups.java)|</p>
+|2335|Easy|[Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/)|[Minimum Amount of Time to Fill Cups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfTimeToFillCups.java)|
+|2341|Easy|[Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/)|[Maximum Number of Pairs in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfPairsInArray.java)|</p>
 </details>
 
 <details>
