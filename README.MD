@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1586
+Count of solved tasks: 1587
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1395,7 +1395,8 @@ Count of solved tasks: 1586
 |2332|Medium|[The Latest Time to Catch a Bus](https://leetcode.com/problems/the-latest-time-to-catch-a-bus/)|[The Latest Time to Catch a Bus.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheLatestTimeToCatchBus.java)|
 |2335|Easy|[Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/)|[Minimum Amount of Time to Fill Cups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfTimeToFillCups.java)|
 |2336|Medium|[Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/)|[Smallest Number in Infinite Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestNumberInInfiniteSet.java)|
-|2341|Easy|[Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/)|[Maximum Number of Pairs in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfPairsInArray.java)|</p>
+|2341|Easy|[Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/)|[Maximum Number of Pairs in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfPairsInArray.java)|
+|2342|Medium|[Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)|[Max Sum of a Pair With Equal Sum of Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxSumOfPairWithEqualSumOfDigits.java)|</p>
 </details>
 
 <details>
@@ -2240,7 +2241,8 @@ Count of solved tasks: 1586
 |2317|Medium|[Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations/)|[Maximum XOR After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumXORAfterOperations.java)|
 |2326|Medium|[Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)|[Spiral Matrix IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpiralMatrixIV.java)|
 |2332|Medium|[The Latest Time to Catch a Bus](https://leetcode.com/problems/the-latest-time-to-catch-a-bus/)|[The Latest Time to Catch a Bus.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheLatestTimeToCatchBus.java)|
-|2336|Medium|[Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/)|[Smallest Number in Infinite Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestNumberInInfiniteSet.java)|</p>
+|2336|Medium|[Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/)|[Smallest Number in Infinite Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestNumberInInfiniteSet.java)|
+|2342|Medium|[Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)|[Max Sum of a Pair With Equal Sum of Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxSumOfPairWithEqualSumOfDigits.java)|</p>
 </details>
 
 <details>
