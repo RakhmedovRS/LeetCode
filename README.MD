@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1588
+Count of solved tasks: 1589
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1397,7 +1397,8 @@ Count of solved tasks: 1588
 |2336|Medium|[Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/)|[Smallest Number in Infinite Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestNumberInInfiniteSet.java)|
 |2341|Easy|[Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/)|[Maximum Number of Pairs in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfPairsInArray.java)|
 |2342|Medium|[Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)|[Max Sum of a Pair With Equal Sum of Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxSumOfPairWithEqualSumOfDigits.java)|
-|2343|Medium|[Query Kth Smallest Trimmed Number](https://leetcode.com/problems/query-kth-smallest-trimmed-number/)|[Query Kth Smallest Trimmed Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/QueryKthSmallestTrimmedNumber.java)|</p>
+|2343|Medium|[Query Kth Smallest Trimmed Number](https://leetcode.com/problems/query-kth-smallest-trimmed-number/)|[Query Kth Smallest Trimmed Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/QueryKthSmallestTrimmedNumber.java)|
+|2344|Hard|[Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/)|[Minimum Deletions to Make Array Divisible.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeArrayDivisible.java)|</p>
 </details>
 
 <details>
@@ -2336,7 +2337,8 @@ Count of solved tasks: 1588
 |1675|Hard|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|[Minimize Deviation in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeDeviationInArray.java)|
 |1835|Hard|[Find XOR Sum of All Pairs Bitwise AND](https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/)|[Find XOR Sum of All Pairs Bitwise AND.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindXORSumOfAllPairsBitwiseAND.java)|
 |1879|Hard|[Minimum XOR Sum of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)|[Minimum XOR Sum of Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumXORSumOfTwoArrays.java)|
-|2019|Hard|[Sum of k-Mirror Numbers](https://leetcode.com/problems/sum-of-k-mirror-numbers/)|[Sum of k-Mirror Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfKMirrorNumbers.java)|</p>
+|2019|Hard|[Sum of k-Mirror Numbers](https://leetcode.com/problems/sum-of-k-mirror-numbers/)|[Sum of k-Mirror Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfKMirrorNumbers.java)|
+|2344|Hard|[Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/)|[Minimum Deletions to Make Array Divisible.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeArrayDivisible.java)|</p>
 </details>
 
 <details>
