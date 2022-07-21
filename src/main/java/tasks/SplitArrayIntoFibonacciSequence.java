@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -9,7 +10,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 13-May-20
  */
-@LeetCode(id = 842, name = "Split Array into Fibonacci Sequence", url = "https://leetcode.com/problems/split-array-into-fibonacci-sequence/")
+@LeetCode(
+	id = 842,
+	name = "Split Array into Fibonacci Sequence",
+	url = "https://leetcode.com/problems/split-array-into-fibonacci-sequence/",
+	difficulty = Difficulty.MEDIUM
+)
 public class SplitArrayIntoFibonacciSequence
 {
 	public List<Integer> splitIntoFibonacci(String S)
