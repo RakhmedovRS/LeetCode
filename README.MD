@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1589
+Count of solved tasks: 1590
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1398,7 +1398,8 @@ Count of solved tasks: 1589
 |2341|Easy|[Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/)|[Maximum Number of Pairs in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfPairsInArray.java)|
 |2342|Medium|[Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)|[Max Sum of a Pair With Equal Sum of Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxSumOfPairWithEqualSumOfDigits.java)|
 |2343|Medium|[Query Kth Smallest Trimmed Number](https://leetcode.com/problems/query-kth-smallest-trimmed-number/)|[Query Kth Smallest Trimmed Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/QueryKthSmallestTrimmedNumber.java)|
-|2344|Hard|[Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/)|[Minimum Deletions to Make Array Divisible.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeArrayDivisible.java)|</p>
+|2344|Hard|[Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/)|[Minimum Deletions to Make Array Divisible.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeArrayDivisible.java)|
+|2347|Easy|[Best Poker Hand](https://leetcode.com/problems/best-poker-hand/)|[Best Poker Hand.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestPokerHand.java)|</p>
 </details>
 
 <details>
@@ -1685,7 +1686,8 @@ Count of solved tasks: 1589
 |2325|Easy|[Decode the Message](https://leetcode.com/problems/decode-the-message/)|[Decode the Message.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeTheMessage.java)|
 |2331|Easy|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|[Evaluate Boolean Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateBooleanBinaryTree.java)|
 |2335|Easy|[Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/)|[Minimum Amount of Time to Fill Cups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfTimeToFillCups.java)|
-|2341|Easy|[Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/)|[Maximum Number of Pairs in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfPairsInArray.java)|</p>
+|2341|Easy|[Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/)|[Maximum Number of Pairs in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfPairsInArray.java)|
+|2347|Easy|[Best Poker Hand](https://leetcode.com/problems/best-poker-hand/)|[Best Poker Hand.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestPokerHand.java)|</p>
 </details>
 
 <details>
