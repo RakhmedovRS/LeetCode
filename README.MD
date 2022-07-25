@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1590
+Count of solved tasks: 1591
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1399,7 +1399,8 @@ Count of solved tasks: 1590
 |2342|Medium|[Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)|[Max Sum of a Pair With Equal Sum of Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxSumOfPairWithEqualSumOfDigits.java)|
 |2343|Medium|[Query Kth Smallest Trimmed Number](https://leetcode.com/problems/query-kth-smallest-trimmed-number/)|[Query Kth Smallest Trimmed Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/QueryKthSmallestTrimmedNumber.java)|
 |2344|Hard|[Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/)|[Minimum Deletions to Make Array Divisible.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeArrayDivisible.java)|
-|2347|Easy|[Best Poker Hand](https://leetcode.com/problems/best-poker-hand/)|[Best Poker Hand.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestPokerHand.java)|</p>
+|2347|Easy|[Best Poker Hand](https://leetcode.com/problems/best-poker-hand/)|[Best Poker Hand.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestPokerHand.java)|
+|2348|Medium|[Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)|[Number of Zero-Filled Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfZeroFilledSubarrays.java)|</p>
 </details>
 
 <details>
@@ -2248,7 +2249,8 @@ Count of solved tasks: 1590
 |2332|Medium|[The Latest Time to Catch a Bus](https://leetcode.com/problems/the-latest-time-to-catch-a-bus/)|[The Latest Time to Catch a Bus.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheLatestTimeToCatchBus.java)|
 |2336|Medium|[Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/)|[Smallest Number in Infinite Set.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestNumberInInfiniteSet.java)|
 |2342|Medium|[Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)|[Max Sum of a Pair With Equal Sum of Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxSumOfPairWithEqualSumOfDigits.java)|
-|2343|Medium|[Query Kth Smallest Trimmed Number](https://leetcode.com/problems/query-kth-smallest-trimmed-number/)|[Query Kth Smallest Trimmed Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/QueryKthSmallestTrimmedNumber.java)|</p>
+|2343|Medium|[Query Kth Smallest Trimmed Number](https://leetcode.com/problems/query-kth-smallest-trimmed-number/)|[Query Kth Smallest Trimmed Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/QueryKthSmallestTrimmedNumber.java)|
+|2348|Medium|[Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)|[Number of Zero-Filled Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfZeroFilledSubarrays.java)|</p>
 </details>
 
 <details>
