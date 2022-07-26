@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1592
+Count of solved tasks: 1593
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1401,7 +1401,8 @@ Count of solved tasks: 1592
 |2344|Hard|[Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/)|[Minimum Deletions to Make Array Divisible.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeArrayDivisible.java)|
 |2347|Easy|[Best Poker Hand](https://leetcode.com/problems/best-poker-hand/)|[Best Poker Hand.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestPokerHand.java)|
 |2348|Medium|[Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)|[Number of Zero-Filled Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfZeroFilledSubarrays.java)|
-|2349|Medium|[Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/)|[Design a Number Container System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignNumberContainerSystem.java)|</p>
+|2349|Medium|[Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/)|[Design a Number Container System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignNumberContainerSystem.java)|
+|2351|Easy|[First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)|[First Letter to Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstLetterToAppearTwice.java)|</p>
 </details>
 
 <details>
@@ -1689,7 +1690,8 @@ Count of solved tasks: 1592
 |2331|Easy|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|[Evaluate Boolean Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateBooleanBinaryTree.java)|
 |2335|Easy|[Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/)|[Minimum Amount of Time to Fill Cups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfTimeToFillCups.java)|
 |2341|Easy|[Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/)|[Maximum Number of Pairs in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfPairsInArray.java)|
-|2347|Easy|[Best Poker Hand](https://leetcode.com/problems/best-poker-hand/)|[Best Poker Hand.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestPokerHand.java)|</p>
+|2347|Easy|[Best Poker Hand](https://leetcode.com/problems/best-poker-hand/)|[Best Poker Hand.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestPokerHand.java)|
+|2351|Easy|[First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)|[First Letter to Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstLetterToAppearTwice.java)|</p>
 </details>
 
 <details>
