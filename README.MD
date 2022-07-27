@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1593
+Count of solved tasks: 1594
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1402,7 +1402,8 @@ Count of solved tasks: 1593
 |2347|Easy|[Best Poker Hand](https://leetcode.com/problems/best-poker-hand/)|[Best Poker Hand.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestPokerHand.java)|
 |2348|Medium|[Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)|[Number of Zero-Filled Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfZeroFilledSubarrays.java)|
 |2349|Medium|[Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/)|[Design a Number Container System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignNumberContainerSystem.java)|
-|2351|Easy|[First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)|[First Letter to Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstLetterToAppearTwice.java)|</p>
+|2351|Easy|[First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)|[First Letter to Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstLetterToAppearTwice.java)|
+|2352|Medium|[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|[Equal Row and Column Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EqualRowAndColumnPairs.java)|</p>
 </details>
 
 <details>
@@ -2254,7 +2255,8 @@ Count of solved tasks: 1593
 |2342|Medium|[Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)|[Max Sum of a Pair With Equal Sum of Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxSumOfPairWithEqualSumOfDigits.java)|
 |2343|Medium|[Query Kth Smallest Trimmed Number](https://leetcode.com/problems/query-kth-smallest-trimmed-number/)|[Query Kth Smallest Trimmed Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/QueryKthSmallestTrimmedNumber.java)|
 |2348|Medium|[Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)|[Number of Zero-Filled Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfZeroFilledSubarrays.java)|
-|2349|Medium|[Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/)|[Design a Number Container System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignNumberContainerSystem.java)|</p>
+|2349|Medium|[Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/)|[Design a Number Container System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignNumberContainerSystem.java)|
+|2352|Medium|[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|[Equal Row and Column Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EqualRowAndColumnPairs.java)|</p>
 </details>
 
 <details>
