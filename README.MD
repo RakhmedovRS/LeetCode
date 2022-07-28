@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1594
+Count of solved tasks: 1595
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1403,7 +1403,8 @@ Count of solved tasks: 1594
 |2348|Medium|[Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)|[Number of Zero-Filled Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfZeroFilledSubarrays.java)|
 |2349|Medium|[Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/)|[Design a Number Container System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignNumberContainerSystem.java)|
 |2351|Easy|[First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)|[First Letter to Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstLetterToAppearTwice.java)|
-|2352|Medium|[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|[Equal Row and Column Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EqualRowAndColumnPairs.java)|</p>
+|2352|Medium|[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|[Equal Row and Column Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EqualRowAndColumnPairs.java)|
+|2353|Medium|[Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)|[Design a Food Rating System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignFoodRatingSystem.java)|</p>
 </details>
 
 <details>
@@ -2256,7 +2257,8 @@ Count of solved tasks: 1594
 |2343|Medium|[Query Kth Smallest Trimmed Number](https://leetcode.com/problems/query-kth-smallest-trimmed-number/)|[Query Kth Smallest Trimmed Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/QueryKthSmallestTrimmedNumber.java)|
 |2348|Medium|[Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)|[Number of Zero-Filled Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfZeroFilledSubarrays.java)|
 |2349|Medium|[Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/)|[Design a Number Container System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignNumberContainerSystem.java)|
-|2352|Medium|[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|[Equal Row and Column Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EqualRowAndColumnPairs.java)|</p>
+|2352|Medium|[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|[Equal Row and Column Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EqualRowAndColumnPairs.java)|
+|2353|Medium|[Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)|[Design a Food Rating System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignFoodRatingSystem.java)|</p>
 </details>
 
 <details>
