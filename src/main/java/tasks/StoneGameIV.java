@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 10/25/2020
  */
-@LeetCode(id = 1510, name = "Stone Game IV", url = "https://leetcode.com/problems/stone-game-iv/")
+@LeetCode(
+		id = 1510,
+		name = "Stone Game IV",
+		url = "https://leetcode.com/problems/stone-game-iv/",
+		difficulty = Difficulty.HARD
+)
 public class StoneGameIV
 {
 	public boolean winnerSquareGame(int n)
