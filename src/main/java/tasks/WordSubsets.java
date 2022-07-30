@@ -18,28 +18,26 @@ import java.util.List;
 )
 public class WordSubsets
 {
-	public List<String> wordSubsets(String[] A, String[] B)
+	public List<String> wordSubsets(String[] words1, String[] words2)
 	{
 		List<String> answer = new ArrayList<>();
-		int[] table;
-		int[] tableB = new int[26];
-		for (int i = 0; i < B.length; i++)
+		int[] memo = new int[26];
+		for (String word: words2)
 		{
-			table = buildTable(B[i]);
-			for (int j = 0; j < 26; j++)
+			int[] temp = createCharFrequencyTable(word);
+			for (int i = 0; i < 26; i++)
 			{
-				tableB[j] = Math.max(tableB[j], table[j]);
+				memo[i] = Math.max(memo[i], temp[i]);
 			}
 		}
 
-		outer:
-		for (String word : A)
+		outer: for (String word : words1)
 		{
-			table = buildTable(word);
-			int i = 0;
-			for (; i < 26; i++)
+			int[] current = createCharFrequencyTable(word);
+
+			for (int i = 0; i < 26; i++)
 			{
-				if (tableB[i] > table[i])
+				if (memo[i] > current[i])
 				{
 					continue outer;
 				}
@@ -51,14 +49,17 @@ public class WordSubsets
 		return answer;
 	}
 
-	private int[] buildTable(String word)
+	public int[] createCharFrequencyTable(String word)
 	{
-		int[] table = new int[26];
+		int[] pattern = new int[26];
 		for (char ch : word.toCharArray())
 		{
-			table[ch - 'a']++;
+			if (Character.isAlphabetic(ch))
+			{
+				pattern[Character.toLowerCase(ch) - 'a']++;
+			}
 		}
 
-		return table;
+		return pattern;
 	}
 }
