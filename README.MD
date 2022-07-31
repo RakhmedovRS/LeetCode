@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1595
+Count of solved tasks: 1596
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1404,7 +1404,8 @@ Count of solved tasks: 1595
 |2349|Medium|[Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/)|[Design a Number Container System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignNumberContainerSystem.java)|
 |2351|Easy|[First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)|[First Letter to Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstLetterToAppearTwice.java)|
 |2352|Medium|[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|[Equal Row and Column Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EqualRowAndColumnPairs.java)|
-|2353|Medium|[Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)|[Design a Food Rating System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignFoodRatingSystem.java)|</p>
+|2353|Medium|[Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)|[Design a Food Rating System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignFoodRatingSystem.java)|
+|2357|Easy|[Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)|[Make Array Zero by Subtracting Equal Amounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeArrayZeroBySubtractingEqualAmounts.java)|</p>
 </details>
 
 <details>
@@ -1693,7 +1694,8 @@ Count of solved tasks: 1595
 |2335|Easy|[Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/)|[Minimum Amount of Time to Fill Cups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfTimeToFillCups.java)|
 |2341|Easy|[Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/)|[Maximum Number of Pairs in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfPairsInArray.java)|
 |2347|Easy|[Best Poker Hand](https://leetcode.com/problems/best-poker-hand/)|[Best Poker Hand.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestPokerHand.java)|
-|2351|Easy|[First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)|[First Letter to Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstLetterToAppearTwice.java)|</p>
+|2351|Easy|[First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)|[First Letter to Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstLetterToAppearTwice.java)|
+|2357|Easy|[Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)|[Make Array Zero by Subtracting Equal Amounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeArrayZeroBySubtractingEqualAmounts.java)|</p>
 </details>
 
 <details>
