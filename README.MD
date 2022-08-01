@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1596
+Count of solved tasks: 1597
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1405,7 +1405,8 @@ Count of solved tasks: 1596
 |2351|Easy|[First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)|[First Letter to Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstLetterToAppearTwice.java)|
 |2352|Medium|[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|[Equal Row and Column Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EqualRowAndColumnPairs.java)|
 |2353|Medium|[Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)|[Design a Food Rating System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignFoodRatingSystem.java)|
-|2357|Easy|[Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)|[Make Array Zero by Subtracting Equal Amounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeArrayZeroBySubtractingEqualAmounts.java)|</p>
+|2357|Easy|[Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)|[Make Array Zero by Subtracting Equal Amounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeArrayZeroBySubtractingEqualAmounts.java)|
+|2358|Medium|[Maximum Number of Groups Entering a Competition](https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition/)|[Maximum Number of Groups Entering a Competition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfGroupsEnteringCompetition.java)|</p>
 </details>
 
 <details>
@@ -2260,7 +2261,8 @@ Count of solved tasks: 1596
 |2348|Medium|[Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)|[Number of Zero-Filled Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfZeroFilledSubarrays.java)|
 |2349|Medium|[Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/)|[Design a Number Container System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignNumberContainerSystem.java)|
 |2352|Medium|[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|[Equal Row and Column Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EqualRowAndColumnPairs.java)|
-|2353|Medium|[Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)|[Design a Food Rating System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignFoodRatingSystem.java)|</p>
+|2353|Medium|[Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)|[Design a Food Rating System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignFoodRatingSystem.java)|
+|2358|Medium|[Maximum Number of Groups Entering a Competition](https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition/)|[Maximum Number of Groups Entering a Competition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfGroupsEnteringCompetition.java)|</p>
 </details>
 
 <details>
