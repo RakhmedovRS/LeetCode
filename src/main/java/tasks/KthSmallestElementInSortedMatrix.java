@@ -20,26 +20,31 @@ public class KthSmallestElementInSortedMatrix
 {
 	public int kthSmallest(int[][] matrix, int k)
 	{
-		PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Comparator.reverseOrder());
-		for (int[] ints : matrix)
+		PriorityQueue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(a -> matrix[a[0]][a[1]]));
+		for (int row = 0; row < matrix.length; row++)
 		{
-			for (int anInt : ints)
+			pq.add(new int[]{row, 0});
+		}
+
+		while (k-- > 0)
+		{
+			int[] current = pq.remove();
+			int row = current[0];
+			int column = current[1];
+			int val = matrix[row][column];
+
+			if(k == 0)
 			{
-				if (priorityQueue.size() < k)
-				{
-					priorityQueue.add(anInt);
-				}
-				else
-				{
-					if (anInt < priorityQueue.peek())
-					{
-						priorityQueue.remove();
-						priorityQueue.add(anInt);
-					}
-				}
+				return val;
+			}
+
+			column++;
+			if (column < matrix[row].length)
+			{
+				pq.add(new int[]{row, column});
 			}
 		}
 
-		return priorityQueue.peek();
+		return 0;
 	}
 }
