@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -9,7 +10,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 19-Mar-20
  */
-@LeetCode(id = 107, name = "Binary Tree Level Order Traversal II", url = "https://leetcode.com/problems/binary-tree-level-order-traversal-ii/")
+@LeetCode(
+		id = 107,
+		name = "Binary Tree Level Order Traversal II",
+		url = "https://leetcode.com/problems/binary-tree-level-order-traversal-ii/",
+		difficulty = Difficulty.MEDIUM
+)
 public class BinaryTreeLevelOrderTraversalII
 {
 	public List<List<Integer>> levelOrderBottom(TreeNode root)
