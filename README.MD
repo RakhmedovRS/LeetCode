@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1600
+Count of solved tasks: 1601
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1409,7 +1409,8 @@ Count of solved tasks: 1600
 |2357|Easy|[Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)|[Make Array Zero by Subtracting Equal Amounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeArrayZeroBySubtractingEqualAmounts.java)|
 |2358|Medium|[Maximum Number of Groups Entering a Competition](https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition/)|[Maximum Number of Groups Entering a Competition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfGroupsEnteringCompetition.java)|
 |2363|Easy|[Merge Similar Items](https://leetcode.com/problems/merge-similar-items/)|[Merge Similar Items.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeSimilarItems.java)|
-|2364|Medium|[Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)|[Count Number of Bad Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfBadPairs.java)|</p>
+|2364|Medium|[Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)|[Count Number of Bad Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfBadPairs.java)|
+|2365|Medium|[Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/)|[Task Scheduler II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TaskSchedulerII.java)|</p>
 </details>
 
 <details>
@@ -2269,7 +2270,8 @@ Count of solved tasks: 1600
 |2352|Medium|[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|[Equal Row and Column Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EqualRowAndColumnPairs.java)|
 |2353|Medium|[Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)|[Design a Food Rating System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignFoodRatingSystem.java)|
 |2358|Medium|[Maximum Number of Groups Entering a Competition](https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition/)|[Maximum Number of Groups Entering a Competition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfGroupsEnteringCompetition.java)|
-|2364|Medium|[Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)|[Count Number of Bad Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfBadPairs.java)|</p>
+|2364|Medium|[Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)|[Count Number of Bad Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfBadPairs.java)|
+|2365|Medium|[Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/)|[Task Scheduler II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TaskSchedulerII.java)|</p>
 </details>
 
 <details>
