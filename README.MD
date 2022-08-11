@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1601
+Count of solved tasks: 1602
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1410,7 +1410,8 @@ Count of solved tasks: 1601
 |2358|Medium|[Maximum Number of Groups Entering a Competition](https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition/)|[Maximum Number of Groups Entering a Competition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfGroupsEnteringCompetition.java)|
 |2363|Easy|[Merge Similar Items](https://leetcode.com/problems/merge-similar-items/)|[Merge Similar Items.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeSimilarItems.java)|
 |2364|Medium|[Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)|[Count Number of Bad Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfBadPairs.java)|
-|2365|Medium|[Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/)|[Task Scheduler II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TaskSchedulerII.java)|</p>
+|2365|Medium|[Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/)|[Task Scheduler II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TaskSchedulerII.java)|
+|2367|Easy|[Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)|[Number of Arithmetic Triplets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfArithmeticTriplets.java)|</p>
 </details>
 
 <details>
@@ -1701,7 +1702,8 @@ Count of solved tasks: 1601
 |2347|Easy|[Best Poker Hand](https://leetcode.com/problems/best-poker-hand/)|[Best Poker Hand.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestPokerHand.java)|
 |2351|Easy|[First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)|[First Letter to Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstLetterToAppearTwice.java)|
 |2357|Easy|[Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)|[Make Array Zero by Subtracting Equal Amounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeArrayZeroBySubtractingEqualAmounts.java)|
-|2363|Easy|[Merge Similar Items](https://leetcode.com/problems/merge-similar-items/)|[Merge Similar Items.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeSimilarItems.java)|</p>
+|2363|Easy|[Merge Similar Items](https://leetcode.com/problems/merge-similar-items/)|[Merge Similar Items.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeSimilarItems.java)|
+|2367|Easy|[Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)|[Number of Arithmetic Triplets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfArithmeticTriplets.java)|</p>
 </details>
 
 <details>
