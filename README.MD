@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1604
+Count of solved tasks: 1605
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1413,7 +1413,8 @@ Count of solved tasks: 1604
 |2365|Medium|[Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/)|[Task Scheduler II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TaskSchedulerII.java)|
 |2367|Easy|[Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)|[Number of Arithmetic Triplets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfArithmeticTriplets.java)|
 |2368|Medium|[Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)|[Reachable Nodes With Restrictions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReachableNodesWithRestrictions.java)|
-|2373|Easy|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|[Largest Local Values in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestLocalValuesInMatrix.java)|</p>
+|2373|Easy|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|[Largest Local Values in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestLocalValuesInMatrix.java)|
+|2374|Medium|[Node With Highest Edge Score](https://leetcode.com/problems/node-with-highest-edge-score/)|[Node With Highest Edge Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NodeWithHighestEdgeScore.java)|</p>
 </details>
 
 <details>
@@ -2277,7 +2278,8 @@ Count of solved tasks: 1604
 |2358|Medium|[Maximum Number of Groups Entering a Competition](https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition/)|[Maximum Number of Groups Entering a Competition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfGroupsEnteringCompetition.java)|
 |2364|Medium|[Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)|[Count Number of Bad Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfBadPairs.java)|
 |2365|Medium|[Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/)|[Task Scheduler II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TaskSchedulerII.java)|
-|2368|Medium|[Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)|[Reachable Nodes With Restrictions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReachableNodesWithRestrictions.java)|</p>
+|2368|Medium|[Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)|[Reachable Nodes With Restrictions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReachableNodesWithRestrictions.java)|
+|2374|Medium|[Node With Highest Edge Score](https://leetcode.com/problems/node-with-highest-edge-score/)|[Node With Highest Edge Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NodeWithHighestEdgeScore.java)|</p>
 </details>
 
 <details>
