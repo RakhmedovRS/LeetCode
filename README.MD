@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1606
+Count of solved tasks: 1607
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1415,7 +1415,8 @@ Count of solved tasks: 1606
 |2368|Medium|[Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)|[Reachable Nodes With Restrictions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReachableNodesWithRestrictions.java)|
 |2373|Easy|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|[Largest Local Values in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestLocalValuesInMatrix.java)|
 |2374|Medium|[Node With Highest Edge Score](https://leetcode.com/problems/node-with-highest-edge-score/)|[Node With Highest Edge Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NodeWithHighestEdgeScore.java)|
-|2375|Medium|[Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)|[Construct Smallest Number From DI String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructSmallestNumberFromDIString.java)|</p>
+|2375|Medium|[Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)|[Construct Smallest Number From DI String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructSmallestNumberFromDIString.java)|
+|2376|Hard|[Count Special Integers](https://leetcode.com/problems/count-special-integers/)|[Count Special Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSpecialIntegers.java)|</p>
 </details>
 
 <details>
@@ -2375,7 +2376,8 @@ Count of solved tasks: 1606
 |1835|Hard|[Find XOR Sum of All Pairs Bitwise AND](https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/)|[Find XOR Sum of All Pairs Bitwise AND.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindXORSumOfAllPairsBitwiseAND.java)|
 |1879|Hard|[Minimum XOR Sum of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)|[Minimum XOR Sum of Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumXORSumOfTwoArrays.java)|
 |2019|Hard|[Sum of k-Mirror Numbers](https://leetcode.com/problems/sum-of-k-mirror-numbers/)|[Sum of k-Mirror Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfKMirrorNumbers.java)|
-|2344|Hard|[Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/)|[Minimum Deletions to Make Array Divisible.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeArrayDivisible.java)|</p>
+|2344|Hard|[Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/)|[Minimum Deletions to Make Array Divisible.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeArrayDivisible.java)|
+|2376|Hard|[Count Special Integers](https://leetcode.com/problems/count-special-integers/)|[Count Special Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSpecialIntegers.java)|</p>
 </details>
 
 <details>
