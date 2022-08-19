@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -12,7 +13,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 01-Apr-20
  */
-@LeetCode(id = 94, name = "Binary Tree Inorder Traversal", url = "https://leetcode.com/problems/binary-tree-inorder-traversal/")
+@LeetCode(
+		id = 94,
+		name = "Binary Tree Inorder Traversal",
+		url = "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+		difficulty = Difficulty.EASY
+)
 public class BinaryTreeInorderTraversal
 {
 	public List<Integer> inorderTraversal(TreeNode root)
