@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1607
+Count of solved tasks: 1608
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1416,7 +1416,8 @@ Count of solved tasks: 1607
 |2373|Easy|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|[Largest Local Values in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestLocalValuesInMatrix.java)|
 |2374|Medium|[Node With Highest Edge Score](https://leetcode.com/problems/node-with-highest-edge-score/)|[Node With Highest Edge Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NodeWithHighestEdgeScore.java)|
 |2375|Medium|[Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)|[Construct Smallest Number From DI String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructSmallestNumberFromDIString.java)|
-|2376|Hard|[Count Special Integers](https://leetcode.com/problems/count-special-integers/)|[Count Special Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSpecialIntegers.java)|</p>
+|2376|Hard|[Count Special Integers](https://leetcode.com/problems/count-special-integers/)|[Count Special Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSpecialIntegers.java)|
+|2379|Easy|[Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[Minimum Recolors to Get K Consecutive Black Blocks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRecolorsToGetKConsecutiveBlackBlocks.java)|</p>
 </details>
 
 <details>
@@ -1710,7 +1711,8 @@ Count of solved tasks: 1607
 |2357|Easy|[Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)|[Make Array Zero by Subtracting Equal Amounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeArrayZeroBySubtractingEqualAmounts.java)|
 |2363|Easy|[Merge Similar Items](https://leetcode.com/problems/merge-similar-items/)|[Merge Similar Items.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeSimilarItems.java)|
 |2367|Easy|[Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)|[Number of Arithmetic Triplets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfArithmeticTriplets.java)|
-|2373|Easy|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|[Largest Local Values in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestLocalValuesInMatrix.java)|</p>
+|2373|Easy|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|[Largest Local Values in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestLocalValuesInMatrix.java)|
+|2379|Easy|[Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[Minimum Recolors to Get K Consecutive Black Blocks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRecolorsToGetKConsecutiveBlackBlocks.java)|</p>
 </details>
 
 <details>
