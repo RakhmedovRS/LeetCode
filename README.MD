@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1609
+Count of solved tasks: 1610
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1418,7 +1418,8 @@ Count of solved tasks: 1609
 |2375|Medium|[Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)|[Construct Smallest Number From DI String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructSmallestNumberFromDIString.java)|
 |2376|Hard|[Count Special Integers](https://leetcode.com/problems/count-special-integers/)|[Count Special Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSpecialIntegers.java)|
 |2379|Easy|[Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[Minimum Recolors to Get K Consecutive Black Blocks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRecolorsToGetKConsecutiveBlackBlocks.java)|
-|2380|Medium|[Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/)|[Time Needed to Rearrange a Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TimeNeededToRearrangeBinaryString.java)|</p>
+|2380|Medium|[Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/)|[Time Needed to Rearrange a Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TimeNeededToRearrangeBinaryString.java)|
+|2381|Medium|[Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/)|[Shifting Letters II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShiftingLettersII.java)|</p>
 </details>
 
 <details>
@@ -2287,7 +2288,8 @@ Count of solved tasks: 1609
 |2368|Medium|[Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)|[Reachable Nodes With Restrictions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReachableNodesWithRestrictions.java)|
 |2374|Medium|[Node With Highest Edge Score](https://leetcode.com/problems/node-with-highest-edge-score/)|[Node With Highest Edge Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NodeWithHighestEdgeScore.java)|
 |2375|Medium|[Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)|[Construct Smallest Number From DI String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructSmallestNumberFromDIString.java)|
-|2380|Medium|[Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/)|[Time Needed to Rearrange a Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TimeNeededToRearrangeBinaryString.java)|</p>
+|2380|Medium|[Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/)|[Time Needed to Rearrange a Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TimeNeededToRearrangeBinaryString.java)|
+|2381|Medium|[Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/)|[Shifting Letters II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShiftingLettersII.java)|</p>
 </details>
 
 <details>
