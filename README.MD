@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1611
+Count of solved tasks: 1612
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1420,7 +1420,8 @@ Count of solved tasks: 1611
 |2379|Easy|[Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[Minimum Recolors to Get K Consecutive Black Blocks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRecolorsToGetKConsecutiveBlackBlocks.java)|
 |2380|Medium|[Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/)|[Time Needed to Rearrange a Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TimeNeededToRearrangeBinaryString.java)|
 |2381|Medium|[Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/)|[Shifting Letters II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShiftingLettersII.java)|
-|2382|Hard|[Maximum Segment Sum After Removals](https://leetcode.com/problems/maximum-segment-sum-after-removals/)|[Maximum Segment Sum After Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSegmentSumAfterRemovals.java)|</p>
+|2382|Hard|[Maximum Segment Sum After Removals](https://leetcode.com/problems/maximum-segment-sum-after-removals/)|[Maximum Segment Sum After Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSegmentSumAfterRemovals.java)|
+|2383|Easy|[Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)|[Minimum Hours of Training to Win a Competition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumHoursOfTrainingToWinCompetition.java)|</p>
 </details>
 
 <details>
@@ -1715,7 +1716,8 @@ Count of solved tasks: 1611
 |2363|Easy|[Merge Similar Items](https://leetcode.com/problems/merge-similar-items/)|[Merge Similar Items.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeSimilarItems.java)|
 |2367|Easy|[Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)|[Number of Arithmetic Triplets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfArithmeticTriplets.java)|
 |2373|Easy|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|[Largest Local Values in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestLocalValuesInMatrix.java)|
-|2379|Easy|[Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[Minimum Recolors to Get K Consecutive Black Blocks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRecolorsToGetKConsecutiveBlackBlocks.java)|</p>
+|2379|Easy|[Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[Minimum Recolors to Get K Consecutive Black Blocks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRecolorsToGetKConsecutiveBlackBlocks.java)|
+|2383|Easy|[Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)|[Minimum Hours of Training to Win a Competition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumHoursOfTrainingToWinCompetition.java)|</p>
 </details>
 
 <details>
