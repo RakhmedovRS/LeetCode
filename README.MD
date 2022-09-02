@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1614
+Count of solved tasks: 1615
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1423,7 +1423,8 @@ Count of solved tasks: 1614
 |2382|Hard|[Maximum Segment Sum After Removals](https://leetcode.com/problems/maximum-segment-sum-after-removals/)|[Maximum Segment Sum After Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSegmentSumAfterRemovals.java)|
 |2383|Easy|[Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)|[Minimum Hours of Training to Win a Competition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumHoursOfTrainingToWinCompetition.java)|
 |2384|Medium|[Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/)|[Largest Palindromic Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPalindromicNumber.java)|
-|2385|Medium|[Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)|[Amount of Time for Binary Tree to Be Infected.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AmountOfTimeForBinaryTreeToBeInfected.java)|</p>
+|2385|Medium|[Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)|[Amount of Time for Binary Tree to Be Infected.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AmountOfTimeForBinaryTreeToBeInfected.java)|
+|2389|Easy|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|[Longest Subsequence With Limited Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubsequenceWithLimitedSum.java)|</p>
 </details>
 
 <details>
@@ -1719,7 +1720,8 @@ Count of solved tasks: 1614
 |2367|Easy|[Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)|[Number of Arithmetic Triplets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfArithmeticTriplets.java)|
 |2373|Easy|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|[Largest Local Values in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestLocalValuesInMatrix.java)|
 |2379|Easy|[Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[Minimum Recolors to Get K Consecutive Black Blocks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRecolorsToGetKConsecutiveBlackBlocks.java)|
-|2383|Easy|[Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)|[Minimum Hours of Training to Win a Competition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumHoursOfTrainingToWinCompetition.java)|</p>
+|2383|Easy|[Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)|[Minimum Hours of Training to Win a Competition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumHoursOfTrainingToWinCompetition.java)|
+|2389|Easy|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|[Longest Subsequence With Limited Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubsequenceWithLimitedSum.java)|</p>
 </details>
 
 <details>
