@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1615
+Count of solved tasks: 1616
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1424,7 +1424,8 @@ Count of solved tasks: 1615
 |2383|Easy|[Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)|[Minimum Hours of Training to Win a Competition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumHoursOfTrainingToWinCompetition.java)|
 |2384|Medium|[Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/)|[Largest Palindromic Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPalindromicNumber.java)|
 |2385|Medium|[Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)|[Amount of Time for Binary Tree to Be Infected.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AmountOfTimeForBinaryTreeToBeInfected.java)|
-|2389|Easy|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|[Longest Subsequence With Limited Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubsequenceWithLimitedSum.java)|</p>
+|2389|Easy|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|[Longest Subsequence With Limited Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubsequenceWithLimitedSum.java)|
+|2390|Medium|[Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)|[Removing Stars From a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemovingStarsFromString.java)|</p>
 </details>
 
 <details>
@@ -2298,7 +2299,8 @@ Count of solved tasks: 1615
 |2380|Medium|[Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/)|[Time Needed to Rearrange a Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TimeNeededToRearrangeBinaryString.java)|
 |2381|Medium|[Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/)|[Shifting Letters II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShiftingLettersII.java)|
 |2384|Medium|[Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/)|[Largest Palindromic Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPalindromicNumber.java)|
-|2385|Medium|[Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)|[Amount of Time for Binary Tree to Be Infected.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AmountOfTimeForBinaryTreeToBeInfected.java)|</p>
+|2385|Medium|[Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)|[Amount of Time for Binary Tree to Be Infected.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AmountOfTimeForBinaryTreeToBeInfected.java)|
+|2390|Medium|[Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)|[Removing Stars From a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemovingStarsFromString.java)|</p>
 </details>
 
 <details>
