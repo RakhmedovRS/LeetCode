@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1616
+Count of solved tasks: 1617
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1425,7 +1425,8 @@ Count of solved tasks: 1616
 |2384|Medium|[Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/)|[Largest Palindromic Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPalindromicNumber.java)|
 |2385|Medium|[Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)|[Amount of Time for Binary Tree to Be Infected.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AmountOfTimeForBinaryTreeToBeInfected.java)|
 |2389|Easy|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|[Longest Subsequence With Limited Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubsequenceWithLimitedSum.java)|
-|2390|Medium|[Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)|[Removing Stars From a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemovingStarsFromString.java)|</p>
+|2390|Medium|[Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)|[Removing Stars From a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemovingStarsFromString.java)|
+|2391|Medium|[Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)|[Minimum Amount of Time to Collect Garbage.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfTimeToCollectGarbage.java)|</p>
 </details>
 
 <details>
@@ -2300,7 +2301,8 @@ Count of solved tasks: 1616
 |2381|Medium|[Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/)|[Shifting Letters II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShiftingLettersII.java)|
 |2384|Medium|[Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/)|[Largest Palindromic Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPalindromicNumber.java)|
 |2385|Medium|[Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)|[Amount of Time for Binary Tree to Be Infected.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AmountOfTimeForBinaryTreeToBeInfected.java)|
-|2390|Medium|[Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)|[Removing Stars From a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemovingStarsFromString.java)|</p>
+|2390|Medium|[Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)|[Removing Stars From a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemovingStarsFromString.java)|
+|2391|Medium|[Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)|[Minimum Amount of Time to Collect Garbage.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfTimeToCollectGarbage.java)|</p>
 </details>
 
 <details>
