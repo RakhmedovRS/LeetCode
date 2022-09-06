@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1617
+Count of solved tasks: 1618
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1426,7 +1426,8 @@ Count of solved tasks: 1617
 |2385|Medium|[Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)|[Amount of Time for Binary Tree to Be Infected.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AmountOfTimeForBinaryTreeToBeInfected.java)|
 |2389|Easy|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|[Longest Subsequence With Limited Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubsequenceWithLimitedSum.java)|
 |2390|Medium|[Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)|[Removing Stars From a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemovingStarsFromString.java)|
-|2391|Medium|[Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)|[Minimum Amount of Time to Collect Garbage.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfTimeToCollectGarbage.java)|</p>
+|2391|Medium|[Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)|[Minimum Amount of Time to Collect Garbage.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfTimeToCollectGarbage.java)|
+|2395|Easy|[Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/)|[Find Subarrays With Equal Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSubarraysWithEqualSum.java)|</p>
 </details>
 
 <details>
@@ -1723,7 +1724,8 @@ Count of solved tasks: 1617
 |2373|Easy|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|[Largest Local Values in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestLocalValuesInMatrix.java)|
 |2379|Easy|[Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[Minimum Recolors to Get K Consecutive Black Blocks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRecolorsToGetKConsecutiveBlackBlocks.java)|
 |2383|Easy|[Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)|[Minimum Hours of Training to Win a Competition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumHoursOfTrainingToWinCompetition.java)|
-|2389|Easy|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|[Longest Subsequence With Limited Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubsequenceWithLimitedSum.java)|</p>
+|2389|Easy|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|[Longest Subsequence With Limited Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubsequenceWithLimitedSum.java)|
+|2395|Easy|[Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/)|[Find Subarrays With Equal Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSubarraysWithEqualSum.java)|</p>
 </details>
 
 <details>
