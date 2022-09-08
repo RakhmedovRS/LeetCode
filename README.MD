@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1619
+Count of solved tasks: 1620
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1428,7 +1428,8 @@ Count of solved tasks: 1619
 |2390|Medium|[Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)|[Removing Stars From a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemovingStarsFromString.java)|
 |2391|Medium|[Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)|[Minimum Amount of Time to Collect Garbage.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfTimeToCollectGarbage.java)|
 |2395|Easy|[Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/)|[Find Subarrays With Equal Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSubarraysWithEqualSum.java)|
-|2396|Medium|[Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/)|[Strictly Palindromic Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StrictlyPalindromicNumber.java)|</p>
+|2396|Medium|[Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/)|[Strictly Palindromic Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StrictlyPalindromicNumber.java)|
+|2399|Easy|[Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/)|[Check Distances Between Same Letters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckDistancesBetweenSameLetters.java)|</p>
 </details>
 
 <details>
@@ -1726,7 +1727,8 @@ Count of solved tasks: 1619
 |2379|Easy|[Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[Minimum Recolors to Get K Consecutive Black Blocks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRecolorsToGetKConsecutiveBlackBlocks.java)|
 |2383|Easy|[Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)|[Minimum Hours of Training to Win a Competition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumHoursOfTrainingToWinCompetition.java)|
 |2389|Easy|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|[Longest Subsequence With Limited Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubsequenceWithLimitedSum.java)|
-|2395|Easy|[Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/)|[Find Subarrays With Equal Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSubarraysWithEqualSum.java)|</p>
+|2395|Easy|[Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/)|[Find Subarrays With Equal Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSubarraysWithEqualSum.java)|
+|2399|Easy|[Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/)|[Check Distances Between Same Letters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckDistancesBetweenSameLetters.java)|</p>
 </details>
 
 <details>
