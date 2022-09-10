@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1621
+Count of solved tasks: 1622
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1430,7 +1430,8 @@ Count of solved tasks: 1621
 |2395|Easy|[Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/)|[Find Subarrays With Equal Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSubarraysWithEqualSum.java)|
 |2396|Medium|[Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/)|[Strictly Palindromic Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StrictlyPalindromicNumber.java)|
 |2399|Easy|[Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/)|[Check Distances Between Same Letters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckDistancesBetweenSameLetters.java)|
-|2400|Medium|[Number of Ways to Reach a Position After Exactly k Steps](https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/)|[Number of Ways to Reach a Position After Exactly k Steps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfWaysToReachPositionAfterExactlyKSteps.java)|</p>
+|2400|Medium|[Number of Ways to Reach a Position After Exactly k Steps](https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/)|[Number of Ways to Reach a Position After Exactly k Steps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfWaysToReachPositionAfterExactlyKSteps.java)|
+|2402|Hard|[Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/)|[Meeting Rooms III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MeetingRoomsIII.java)|</p>
 </details>
 
 <details>
@@ -2406,7 +2407,8 @@ Count of solved tasks: 1621
 |2019|Hard|[Sum of k-Mirror Numbers](https://leetcode.com/problems/sum-of-k-mirror-numbers/)|[Sum of k-Mirror Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfKMirrorNumbers.java)|
 |2344|Hard|[Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/)|[Minimum Deletions to Make Array Divisible.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeArrayDivisible.java)|
 |2376|Hard|[Count Special Integers](https://leetcode.com/problems/count-special-integers/)|[Count Special Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSpecialIntegers.java)|
-|2382|Hard|[Maximum Segment Sum After Removals](https://leetcode.com/problems/maximum-segment-sum-after-removals/)|[Maximum Segment Sum After Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSegmentSumAfterRemovals.java)|</p>
+|2382|Hard|[Maximum Segment Sum After Removals](https://leetcode.com/problems/maximum-segment-sum-after-removals/)|[Maximum Segment Sum After Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSegmentSumAfterRemovals.java)|
+|2402|Hard|[Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/)|[Meeting Rooms III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MeetingRoomsIII.java)|</p>
 </details>
 
 <details>
