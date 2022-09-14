@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 10/15/2020
  */
-@LeetCode(id = 738, name = "Monotone Increasing Digits", url = "https://leetcode.com/problems/monotone-increasing-digits/")
+@LeetCode(
+		id = 738,
+		name = "Monotone Increasing Digits",
+		url = "https://leetcode.com/problems/monotone-increasing-digits/",
+		difficulty = Difficulty.MEDIUM
+)
 public class MonotoneIncreasingDigits
 {
 	public int monotoneIncreasingDigits(int N)

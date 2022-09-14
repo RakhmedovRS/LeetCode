@@ -502,7 +502,7 @@ Count of solved tasks: 1625
 |732|Hard|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[My Calendar III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MyCalendarIII.java)|
 |733|Easy|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Flood Fill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FloodFill.java)|
 |735|Medium|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Asteroid Collision.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AsteroidCollision.java)|
-|738|Undefined|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/)|[Monotone Increasing Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MonotoneIncreasingDigits.java)|
+|738|Medium|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/)|[Monotone Increasing Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MonotoneIncreasingDigits.java)|
 |739|Medium|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Daily Temperatures.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DailyTemperatures.java)|
 |740|Undefined|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[Delete and Earn.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteAndEarn.java)|
 |744|Undefined|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|[Find Smallest Letter Greater Than Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSmallestLetterGreaterThanTarget.java)|
@@ -1933,6 +1933,7 @@ Count of solved tasks: 1625
 |729|Medium|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[My Calendar I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MyCalendarI.java)|
 |731|Medium|[My Calendar II](https://leetcode.com/problems/my-calendar-ii/)|[My Calendar II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MyCalendarII.java)|
 |735|Medium|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Asteroid Collision.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AsteroidCollision.java)|
+|738|Medium|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/)|[Monotone Increasing Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MonotoneIncreasingDigits.java)|
 |739|Medium|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Daily Temperatures.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DailyTemperatures.java)|
 |750|Medium|[Number Of Corner Rectangles](https://leetcode.com/problems/number-of-corner-rectangles/)|[Number Of Corner Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfCornerRectangles.java)|
 |752|Medium|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|[Open the Lock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OpenTheLock.java)|
