@@ -80,7 +80,7 @@ Count of solved tasks: 1625
 |74|Medium|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Search a 2D Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Search2DMatrix.java)|
 |75|Medium|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[Sort Colors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortColors.java)|
 |76|Hard|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[Minimum Window Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumWindowSubstring.java)|
-|78|Undefined|[Subsets](https://leetcode.com/problems/subsets/)|[Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Subsets.java)|
+|78|Medium|[Subsets](https://leetcode.com/problems/subsets/)|[Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Subsets.java)|
 |79|Medium|[Word Search](https://leetcode.com/problems/word-search/)|[Word Search.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordSearch.java)|
 |80|Medium|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Remove Duplicates from Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveDuplicatesFromSortedArrayII.java)|
 |81|Medium|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Search in Rotated Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SearchInRotatedSortedArrayII.java)|
@@ -1777,6 +1777,7 @@ Count of solved tasks: 1625
 |73|Medium|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[Set Matrix Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SetMatrixZeroes.java)|
 |74|Medium|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Search a 2D Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Search2DMatrix.java)|
 |75|Medium|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[Sort Colors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortColors.java)|
+|78|Medium|[Subsets](https://leetcode.com/problems/subsets/)|[Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Subsets.java)|
 |79|Medium|[Word Search](https://leetcode.com/problems/word-search/)|[Word Search.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordSearch.java)|
 |80|Medium|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Remove Duplicates from Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveDuplicatesFromSortedArrayII.java)|
 |81|Medium|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Search in Rotated Sorted Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SearchInRotatedSortedArrayII.java)|

@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -9,7 +10,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 09-Apr-20
  */
-@LeetCode(id = 78, name = "Subsets", url = "https://leetcode.com/problems/subsets/")
+@LeetCode(
+		id = 78,
+		name = "Subsets",
+		url = "https://leetcode.com/problems/subsets/",
+		difficulty = Difficulty.MEDIUM
+)
 public class Subsets
 {
 	public List<List<Integer>> subsets(int[] nums)
