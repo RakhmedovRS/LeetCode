@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1625
+Count of solved tasks: 1626
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1434,7 +1434,8 @@ Count of solved tasks: 1625
 |2402|Hard|[Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/)|[Meeting Rooms III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MeetingRoomsIII.java)|
 |2404|Easy|[Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/)|[Most Frequent Even Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostFrequentEvenElement.java)|
 |2405|Medium|[Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/)|[Optimal Partition of String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OptimalPartitionOfString.java)|
-|2406|Medium|[Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/)|[Divide Intervals Into Minimum Number of Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideIntervalsIntoMinimumNumberOfGroups.java)|</p>
+|2406|Medium|[Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/)|[Divide Intervals Into Minimum Number of Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideIntervalsIntoMinimumNumberOfGroups.java)|
+|2409|Easy|[Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/)|[Count Days Spent Together.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDaysSpentTogether.java)|</p>
 </details>
 
 <details>
@@ -1734,7 +1735,8 @@ Count of solved tasks: 1625
 |2389|Easy|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|[Longest Subsequence With Limited Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubsequenceWithLimitedSum.java)|
 |2395|Easy|[Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/)|[Find Subarrays With Equal Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSubarraysWithEqualSum.java)|
 |2399|Easy|[Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/)|[Check Distances Between Same Letters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckDistancesBetweenSameLetters.java)|
-|2404|Easy|[Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/)|[Most Frequent Even Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostFrequentEvenElement.java)|</p>
+|2404|Easy|[Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/)|[Most Frequent Even Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostFrequentEvenElement.java)|
+|2409|Easy|[Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/)|[Count Days Spent Together.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDaysSpentTogether.java)|</p>
 </details>
 
 <details>
