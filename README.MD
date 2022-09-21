@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1626
+Count of solved tasks: 1627
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1435,7 +1435,8 @@ Count of solved tasks: 1626
 |2404|Easy|[Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/)|[Most Frequent Even Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostFrequentEvenElement.java)|
 |2405|Medium|[Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/)|[Optimal Partition of String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OptimalPartitionOfString.java)|
 |2406|Medium|[Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/)|[Divide Intervals Into Minimum Number of Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideIntervalsIntoMinimumNumberOfGroups.java)|
-|2409|Easy|[Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/)|[Count Days Spent Together.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDaysSpentTogether.java)|</p>
+|2409|Easy|[Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/)|[Count Days Spent Together.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDaysSpentTogether.java)|
+|2410|Medium|[Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/)|[Maximum Matching of Players With Trainers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumMatchingOfPlayersWithTrainers.java)|</p>
 </details>
 
 <details>
@@ -2321,7 +2322,8 @@ Count of solved tasks: 1626
 |2396|Medium|[Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/)|[Strictly Palindromic Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StrictlyPalindromicNumber.java)|
 |2400|Medium|[Number of Ways to Reach a Position After Exactly k Steps](https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/)|[Number of Ways to Reach a Position After Exactly k Steps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfWaysToReachPositionAfterExactlyKSteps.java)|
 |2405|Medium|[Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/)|[Optimal Partition of String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OptimalPartitionOfString.java)|
-|2406|Medium|[Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/)|[Divide Intervals Into Minimum Number of Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideIntervalsIntoMinimumNumberOfGroups.java)|</p>
+|2406|Medium|[Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/)|[Divide Intervals Into Minimum Number of Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideIntervalsIntoMinimumNumberOfGroups.java)|
+|2410|Medium|[Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/)|[Maximum Matching of Players With Trainers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumMatchingOfPlayersWithTrainers.java)|</p>
 </details>
 
 <details>
