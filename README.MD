@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1630
+Count of solved tasks: 1631
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1439,7 +1439,8 @@ Count of solved tasks: 1630
 |2410|Medium|[Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/)|[Maximum Matching of Players With Trainers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumMatchingOfPlayersWithTrainers.java)|
 |2411|Medium|[Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/)|[Smallest Subarrays With Maximum Bitwise OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestSubarraysWithMaximumBitwiseOR.java)|
 |2413|Easy|[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)|[Smallest Even Multiple.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestEvenMultiple.java)|
-|2414|Medium|[Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)|[Length of the Longest Alphabetical Continuous Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LengthOfTheLongestAlphabeticalContinuousSubstring.java)|</p>
+|2414|Medium|[Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)|[Length of the Longest Alphabetical Continuous Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LengthOfTheLongestAlphabeticalContinuousSubstring.java)|
+|2415|Medium|[Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)|[Reverse Odd Levels of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseOddLevelsOfBinaryTree.java)|</p>
 </details>
 
 <details>
@@ -2329,7 +2330,8 @@ Count of solved tasks: 1630
 |2406|Medium|[Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/)|[Divide Intervals Into Minimum Number of Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideIntervalsIntoMinimumNumberOfGroups.java)|
 |2410|Medium|[Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/)|[Maximum Matching of Players With Trainers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumMatchingOfPlayersWithTrainers.java)|
 |2411|Medium|[Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/)|[Smallest Subarrays With Maximum Bitwise OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestSubarraysWithMaximumBitwiseOR.java)|
-|2414|Medium|[Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)|[Length of the Longest Alphabetical Continuous Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LengthOfTheLongestAlphabeticalContinuousSubstring.java)|</p>
+|2414|Medium|[Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)|[Length of the Longest Alphabetical Continuous Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LengthOfTheLongestAlphabeticalContinuousSubstring.java)|
+|2415|Medium|[Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)|[Reverse Odd Levels of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseOddLevelsOfBinaryTree.java)|</p>
 </details>
 
 <details>
