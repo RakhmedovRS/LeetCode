@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1631
+Count of solved tasks: 1632
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1440,7 +1440,8 @@ Count of solved tasks: 1631
 |2411|Medium|[Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/)|[Smallest Subarrays With Maximum Bitwise OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestSubarraysWithMaximumBitwiseOR.java)|
 |2413|Easy|[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)|[Smallest Even Multiple.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestEvenMultiple.java)|
 |2414|Medium|[Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)|[Length of the Longest Alphabetical Continuous Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LengthOfTheLongestAlphabeticalContinuousSubstring.java)|
-|2415|Medium|[Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)|[Reverse Odd Levels of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseOddLevelsOfBinaryTree.java)|</p>
+|2415|Medium|[Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)|[Reverse Odd Levels of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseOddLevelsOfBinaryTree.java)|
+|2416|Hard|[Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/)|[Sum of Prefix Scores of Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfPrefixScoresOfStrings.java)|</p>
 </details>
 
 <details>
@@ -2428,7 +2429,8 @@ Count of solved tasks: 1631
 |2344|Hard|[Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/)|[Minimum Deletions to Make Array Divisible.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeArrayDivisible.java)|
 |2376|Hard|[Count Special Integers](https://leetcode.com/problems/count-special-integers/)|[Count Special Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSpecialIntegers.java)|
 |2382|Hard|[Maximum Segment Sum After Removals](https://leetcode.com/problems/maximum-segment-sum-after-removals/)|[Maximum Segment Sum After Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSegmentSumAfterRemovals.java)|
-|2402|Hard|[Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/)|[Meeting Rooms III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MeetingRoomsIII.java)|</p>
+|2402|Hard|[Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/)|[Meeting Rooms III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MeetingRoomsIII.java)|
+|2416|Hard|[Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/)|[Sum of Prefix Scores of Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfPrefixScoresOfStrings.java)|</p>
 </details>
 
 <details>
