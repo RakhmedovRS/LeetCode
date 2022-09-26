@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1632
+Count of solved tasks: 1633
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1441,7 +1441,8 @@ Count of solved tasks: 1632
 |2413|Easy|[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)|[Smallest Even Multiple.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestEvenMultiple.java)|
 |2414|Medium|[Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)|[Length of the Longest Alphabetical Continuous Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LengthOfTheLongestAlphabeticalContinuousSubstring.java)|
 |2415|Medium|[Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)|[Reverse Odd Levels of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseOddLevelsOfBinaryTree.java)|
-|2416|Hard|[Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/)|[Sum of Prefix Scores of Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfPrefixScoresOfStrings.java)|</p>
+|2416|Hard|[Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/)|[Sum of Prefix Scores of Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfPrefixScoresOfStrings.java)|
+|2418|Easy|[Sort the People](https://leetcode.com/problems/sort-the-people/)|[Sort the People.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortThePeople.java)|</p>
 </details>
 
 <details>
@@ -1743,7 +1744,8 @@ Count of solved tasks: 1632
 |2399|Easy|[Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/)|[Check Distances Between Same Letters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckDistancesBetweenSameLetters.java)|
 |2404|Easy|[Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/)|[Most Frequent Even Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostFrequentEvenElement.java)|
 |2409|Easy|[Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/)|[Count Days Spent Together.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDaysSpentTogether.java)|
-|2413|Easy|[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)|[Smallest Even Multiple.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestEvenMultiple.java)|</p>
+|2413|Easy|[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)|[Smallest Even Multiple.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestEvenMultiple.java)|
+|2418|Easy|[Sort the People](https://leetcode.com/problems/sort-the-people/)|[Sort the People.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortThePeople.java)|</p>
 </details>
 
 <details>
