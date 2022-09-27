@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1633
+Count of solved tasks: 1634
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1442,7 +1442,8 @@ Count of solved tasks: 1633
 |2414|Medium|[Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)|[Length of the Longest Alphabetical Continuous Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LengthOfTheLongestAlphabeticalContinuousSubstring.java)|
 |2415|Medium|[Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)|[Reverse Odd Levels of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseOddLevelsOfBinaryTree.java)|
 |2416|Hard|[Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/)|[Sum of Prefix Scores of Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfPrefixScoresOfStrings.java)|
-|2418|Easy|[Sort the People](https://leetcode.com/problems/sort-the-people/)|[Sort the People.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortThePeople.java)|</p>
+|2418|Easy|[Sort the People](https://leetcode.com/problems/sort-the-people/)|[Sort the People.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortThePeople.java)|
+|2419|Medium|[Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/)|[Longest Subarray With Maximum Bitwise AND.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubarrayWithMaximumBitwiseAND.java)|</p>
 </details>
 
 <details>
@@ -2334,7 +2335,8 @@ Count of solved tasks: 1633
 |2410|Medium|[Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/)|[Maximum Matching of Players With Trainers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumMatchingOfPlayersWithTrainers.java)|
 |2411|Medium|[Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/)|[Smallest Subarrays With Maximum Bitwise OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestSubarraysWithMaximumBitwiseOR.java)|
 |2414|Medium|[Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)|[Length of the Longest Alphabetical Continuous Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LengthOfTheLongestAlphabeticalContinuousSubstring.java)|
-|2415|Medium|[Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)|[Reverse Odd Levels of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseOddLevelsOfBinaryTree.java)|</p>
+|2415|Medium|[Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)|[Reverse Odd Levels of Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseOddLevelsOfBinaryTree.java)|
+|2419|Medium|[Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/)|[Longest Subarray With Maximum Bitwise AND.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubarrayWithMaximumBitwiseAND.java)|</p>
 </details>
 
 <details>
