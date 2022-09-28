@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -8,7 +9,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 10/24/2020
  */
-@LeetCode(id = 1334, name = "Find the City With the Smallest Number of Neighbors at a Threshold Distance", url = "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/")
+@LeetCode(
+		id = 1334,
+		name = "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+		url = "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
+		difficulty = Difficulty.MEDIUM
+)
 public class FindTheCityWithTheSmallestNumberOfNeighborsAtThresholdDistance
 {
 	public int findTheCity(int n, int[][] edges, int distanceThreshold)
