@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -9,7 +10,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 9/30/2020
  */
-@LeetCode(id = 1585, name = "Check If String Is Transformable With Substring Sort Operations", url = "https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations/")
+@LeetCode(
+		id = 1585,
+		name = "Check If String Is Transformable With Substring Sort Operations",
+		url = "https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations/",
+		difficulty = Difficulty.HARD
+)
 public class CheckIfStringIsTransformableWithSubstringSortOperations
 {
 	public boolean isTransformable(String s, String t)
