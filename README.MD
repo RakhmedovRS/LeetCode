@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1637
+Count of solved tasks: 1638
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1446,7 +1446,8 @@ Count of solved tasks: 1637
 |2419|Medium|[Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/)|[Longest Subarray With Maximum Bitwise AND.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubarrayWithMaximumBitwiseAND.java)|
 |2423|Easy|[Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)|[Remove Letter To Equalize Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveLetterToEqualizeFrequency.java)|
 |2424|Medium|[Longest Uploaded Prefix](https://leetcode.com/problems/longest-uploaded-prefix/)|[Longest Uploaded Prefix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestUploadedPrefix.java)|
-|2425|Medium|[Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/)|[Bitwise XOR of All Pairings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BitwiseXOROfAllPairings.java)|</p>
+|2425|Medium|[Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/)|[Bitwise XOR of All Pairings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BitwiseXOROfAllPairings.java)|
+|2427|Easy|[Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/)|[Number of Common Factors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfCommonFactors.java)|</p>
 </details>
 
 <details>
@@ -1750,7 +1751,8 @@ Count of solved tasks: 1637
 |2409|Easy|[Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/)|[Count Days Spent Together.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDaysSpentTogether.java)|
 |2413|Easy|[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)|[Smallest Even Multiple.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestEvenMultiple.java)|
 |2418|Easy|[Sort the People](https://leetcode.com/problems/sort-the-people/)|[Sort the People.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortThePeople.java)|
-|2423|Easy|[Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)|[Remove Letter To Equalize Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveLetterToEqualizeFrequency.java)|</p>
+|2423|Easy|[Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)|[Remove Letter To Equalize Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveLetterToEqualizeFrequency.java)|
+|2427|Easy|[Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/)|[Number of Common Factors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfCommonFactors.java)|</p>
 </details>
 
 <details>
