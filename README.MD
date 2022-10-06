@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1639
+Count of solved tasks: 1640
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1448,7 +1448,8 @@ Count of solved tasks: 1639
 |2424|Medium|[Longest Uploaded Prefix](https://leetcode.com/problems/longest-uploaded-prefix/)|[Longest Uploaded Prefix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestUploadedPrefix.java)|
 |2425|Medium|[Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/)|[Bitwise XOR of All Pairings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BitwiseXOROfAllPairings.java)|
 |2427|Easy|[Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/)|[Number of Common Factors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfCommonFactors.java)|
-|2428|Medium|[Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/)|[Maximum Sum of an Hourglass.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumOfHourglass.java)|</p>
+|2428|Medium|[Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/)|[Maximum Sum of an Hourglass.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumOfHourglass.java)|
+|2429|Medium|[Minimize XOR](https://leetcode.com/problems/minimize-xor/)|[Minimize XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeXOR.java)|</p>
 </details>
 
 <details>
@@ -2347,7 +2348,8 @@ Count of solved tasks: 1639
 |2419|Medium|[Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/)|[Longest Subarray With Maximum Bitwise AND.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubarrayWithMaximumBitwiseAND.java)|
 |2424|Medium|[Longest Uploaded Prefix](https://leetcode.com/problems/longest-uploaded-prefix/)|[Longest Uploaded Prefix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestUploadedPrefix.java)|
 |2425|Medium|[Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/)|[Bitwise XOR of All Pairings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BitwiseXOROfAllPairings.java)|
-|2428|Medium|[Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/)|[Maximum Sum of an Hourglass.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumOfHourglass.java)|</p>
+|2428|Medium|[Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/)|[Maximum Sum of an Hourglass.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumOfHourglass.java)|
+|2429|Medium|[Minimize XOR](https://leetcode.com/problems/minimize-xor/)|[Minimize XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeXOR.java)|</p>
 </details>
 
 <details>
