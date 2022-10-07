@@ -297,7 +297,7 @@ Count of solved tasks: 1640
 |396|Undefined|[Rotate Function](https://leetcode.com/problems/rotate-function/)|[Rotate Function.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotateFunction.java)|
 |397|Undefined|[Integer Replacement](https://leetcode.com/problems/integer-replacement/)|[Integer Replacement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IntegerReplacement.java)|
 |398|Undefined|[Random Pick Index](https://leetcode.com/problems/random-pick-index/)|[Random Pick Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RandomPickIndex.java)|
-|399|Undefined|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|[Evaluate Division.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateDivision.java)|
+|399|Medium|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|[Evaluate Division.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateDivision.java)|
 |400|Undefined|[Nth Digit](https://leetcode.com/problems/nth-digit/)|[Nth Digit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NthDigit.java)|
 |401|Easy|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[Binary Watch.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryWatch.java)|
 |402|Medium|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[Remove K Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveKDigits.java)|
@@ -1891,6 +1891,7 @@ Count of solved tasks: 1640
 |390|Medium|[Elimination Game](https://leetcode.com/problems/elimination-game/)|[Elimination Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EliminationGame.java)|
 |394|Medium|[Decode String](https://leetcode.com/problems/decode-string/)|[Decode String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeString.java)|
 |395|Medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|[Longest Substring with At Least K Repeating Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubstringWithAtLeastKRepeatingCharacters.java)|
+|399|Medium|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|[Evaluate Division.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateDivision.java)|
 |402|Medium|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[Remove K Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveKDigits.java)|
 |413|Medium|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[Arithmetic Slices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArithmeticSlices.java)|
 |416|Medium|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[Partition Equal Subset Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionEqualSubsetSum.java)|

@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -11,7 +12,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 9/27/2020
  */
-@LeetCode(id = 399, name = "Evaluate Division", url = "https://leetcode.com/problems/evaluate-division/")
+@LeetCode(
+		id = 399,
+		name = "Evaluate Division",
+		url = "https://leetcode.com/problems/evaluate-division/",
+		difficulty = Difficulty.MEDIUM
+)
 public class EvaluateDivision
 {
 	public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries)
