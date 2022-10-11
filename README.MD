@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1642
+Count of solved tasks: 1643
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1451,7 +1451,8 @@ Count of solved tasks: 1642
 |2428|Medium|[Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/)|[Maximum Sum of an Hourglass.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumOfHourglass.java)|
 |2429|Medium|[Minimize XOR](https://leetcode.com/problems/minimize-xor/)|[Minimize XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeXOR.java)|
 |2432|Easy|[The Employee That Worked on the Longest Task](https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/)|[The Employee That Worked on the Longest Task.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheEmployeeThatWorkedOnTheLongestTask.java)|
-|2433|Medium|[Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/)|[Find The Original Array of Prefix Xor.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheOriginalArrayOfPrefixXor.java)|</p>
+|2433|Medium|[Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/)|[Find The Original Array of Prefix Xor.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheOriginalArrayOfPrefixXor.java)|
+|2434|Medium|[Using a Robot to Print the Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/)|[Using a Robot to Print the Lexicographically Smallest String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UsingRobotToPrintTheLexicographicallySmallestString.java)|</p>
 </details>
 
 <details>
@@ -2355,7 +2356,8 @@ Count of solved tasks: 1642
 |2425|Medium|[Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/)|[Bitwise XOR of All Pairings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BitwiseXOROfAllPairings.java)|
 |2428|Medium|[Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/)|[Maximum Sum of an Hourglass.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumOfHourglass.java)|
 |2429|Medium|[Minimize XOR](https://leetcode.com/problems/minimize-xor/)|[Minimize XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeXOR.java)|
-|2433|Medium|[Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/)|[Find The Original Array of Prefix Xor.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheOriginalArrayOfPrefixXor.java)|</p>
+|2433|Medium|[Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/)|[Find The Original Array of Prefix Xor.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheOriginalArrayOfPrefixXor.java)|
+|2434|Medium|[Using a Robot to Print the Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/)|[Using a Robot to Print the Lexicographically Smallest String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UsingRobotToPrintTheLexicographicallySmallestString.java)|</p>
 </details>
 
 <details>
