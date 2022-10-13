@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 12-May-20
  */
-@LeetCode(id = 1385, name = "Find the Distance Value Between Two Arrays", url = "https://leetcode.com/problems/find-the-distance-value-between-two-arrays/")
+@LeetCode(
+		id = 1385,
+		name = "Find the Distance Value Between Two Arrays",
+		url = "https://leetcode.com/problems/find-the-distance-value-between-two-arrays/",
+		difficulty = Difficulty.EASY
+)
 public class FindTheDistanceValueBetweenTwoArrays
 {
 	public int findTheDistanceValue(int[] arr1, int[] arr2, int d) {
