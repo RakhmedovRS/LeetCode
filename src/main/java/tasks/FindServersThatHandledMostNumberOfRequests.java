@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -11,7 +12,12 @@ import java.util.TreeSet;
  * @author RakhmedovRS
  * @created 10/3/2020
  */
-@LeetCode(id = 1606, name = "Find Servers That Handled Most Number of Requests", url = "https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/")
+@LeetCode(
+		id = 1606,
+		name = "Find Servers That Handled Most Number of Requests",
+		url = "https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/",
+		difficulty = Difficulty.HARD
+)
 public class FindServersThatHandledMostNumberOfRequests
 {
 	public List<Integer> busiestServers(int k, int[] arrival, int[] load)
