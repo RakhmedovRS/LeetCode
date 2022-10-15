@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1644
+Count of solved tasks: 1645
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1453,7 +1453,8 @@ Count of solved tasks: 1644
 |2432|Easy|[The Employee That Worked on the Longest Task](https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/)|[The Employee That Worked on the Longest Task.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheEmployeeThatWorkedOnTheLongestTask.java)|
 |2433|Medium|[Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/)|[Find The Original Array of Prefix Xor.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheOriginalArrayOfPrefixXor.java)|
 |2434|Medium|[Using a Robot to Print the Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/)|[Using a Robot to Print the Lexicographically Smallest String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UsingRobotToPrintTheLexicographicallySmallestString.java)|
-|2435|Hard|[Paths in Matrix Whose Sum Is Divisible by K](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/)|[Paths in Matrix Whose Sum Is Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PathsInMatrixWhoseSumIsDivisibleByK.java)|</p>
+|2435|Hard|[Paths in Matrix Whose Sum Is Divisible by K](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/)|[Paths in Matrix Whose Sum Is Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PathsInMatrixWhoseSumIsDivisibleByK.java)|
+|2437|Easy|[Number of Valid Clock Times](https://leetcode.com/problems/number-of-valid-clock-times/)|[Number of Valid Clock Times.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfValidClockTimes.java)|</p>
 </details>
 
 <details>
@@ -1760,7 +1761,8 @@ Count of solved tasks: 1644
 |2418|Easy|[Sort the People](https://leetcode.com/problems/sort-the-people/)|[Sort the People.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortThePeople.java)|
 |2423|Easy|[Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)|[Remove Letter To Equalize Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveLetterToEqualizeFrequency.java)|
 |2427|Easy|[Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/)|[Number of Common Factors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfCommonFactors.java)|
-|2432|Easy|[The Employee That Worked on the Longest Task](https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/)|[The Employee That Worked on the Longest Task.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheEmployeeThatWorkedOnTheLongestTask.java)|</p>
+|2432|Easy|[The Employee That Worked on the Longest Task](https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/)|[The Employee That Worked on the Longest Task.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheEmployeeThatWorkedOnTheLongestTask.java)|
+|2437|Easy|[Number of Valid Clock Times](https://leetcode.com/problems/number-of-valid-clock-times/)|[Number of Valid Clock Times.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfValidClockTimes.java)|</p>
 </details>
 
 <details>
