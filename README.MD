@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1645
+Count of solved tasks: 1646
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1454,7 +1454,8 @@ Count of solved tasks: 1645
 |2433|Medium|[Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/)|[Find The Original Array of Prefix Xor.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheOriginalArrayOfPrefixXor.java)|
 |2434|Medium|[Using a Robot to Print the Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/)|[Using a Robot to Print the Lexicographically Smallest String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UsingRobotToPrintTheLexicographicallySmallestString.java)|
 |2435|Hard|[Paths in Matrix Whose Sum Is Divisible by K](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/)|[Paths in Matrix Whose Sum Is Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PathsInMatrixWhoseSumIsDivisibleByK.java)|
-|2437|Easy|[Number of Valid Clock Times](https://leetcode.com/problems/number-of-valid-clock-times/)|[Number of Valid Clock Times.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfValidClockTimes.java)|</p>
+|2437|Easy|[Number of Valid Clock Times](https://leetcode.com/problems/number-of-valid-clock-times/)|[Number of Valid Clock Times.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfValidClockTimes.java)|
+|2438|Medium|[Range Product Queries of Powers](https://leetcode.com/problems/range-product-queries-of-powers/)|[Range Product Queries of Powers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeProductQueriesOfPowers.java)|</p>
 </details>
 
 <details>
@@ -2361,7 +2362,8 @@ Count of solved tasks: 1645
 |2428|Medium|[Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/)|[Maximum Sum of an Hourglass.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumOfHourglass.java)|
 |2429|Medium|[Minimize XOR](https://leetcode.com/problems/minimize-xor/)|[Minimize XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeXOR.java)|
 |2433|Medium|[Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/)|[Find The Original Array of Prefix Xor.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheOriginalArrayOfPrefixXor.java)|
-|2434|Medium|[Using a Robot to Print the Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/)|[Using a Robot to Print the Lexicographically Smallest String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UsingRobotToPrintTheLexicographicallySmallestString.java)|</p>
+|2434|Medium|[Using a Robot to Print the Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/)|[Using a Robot to Print the Lexicographically Smallest String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UsingRobotToPrintTheLexicographicallySmallestString.java)|
+|2438|Medium|[Range Product Queries of Powers](https://leetcode.com/problems/range-product-queries-of-powers/)|[Range Product Queries of Powers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeProductQueriesOfPowers.java)|</p>
 </details>
 
 <details>
