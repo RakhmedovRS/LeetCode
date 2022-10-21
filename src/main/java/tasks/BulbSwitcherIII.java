@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 11/10/2020
  */
-@LeetCode(id = 1375, name = "Bulb Switcher III", url = "https://leetcode.com/problems/bulb-switcher-iii/")
+@LeetCode(
+		id = 1375,
+		name = "Bulb Switcher III",
+		url = "https://leetcode.com/problems/bulb-switcher-iii/",
+		difficulty = Difficulty.MEDIUM
+)
 public class BulbSwitcherIII
 {
 	public int numTimesAllBlue(int[] light)
