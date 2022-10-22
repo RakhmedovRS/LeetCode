@@ -446,7 +446,7 @@ Count of solved tasks: 1649
 |646|Undefined|[Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)|[Maximum Length of Pair Chain.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumLengthOfPairChain.java)|
 |647|Medium|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Palindromic Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromicSubstrings.java)|
 |648|Undefined|[Replace Words](https://leetcode.com/problems/replace-words/)|[Replace Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReplaceWords.java)|
-|650|Undefined|[2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)|[2 Keys Keyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoKeysKeyboard.java)|
+|650|Medium|[2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)|[2 Keys Keyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoKeysKeyboard.java)|
 |652|Undefined|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/)|[Find Duplicate Subtrees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindDuplicateSubtrees.java)|
 |653|Easy|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Two Sum IV - Input is a BST.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoSumIVInputIsBST.java)|
 |654|Undefined|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|[Maximum Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumBinaryTree.java)|
@@ -1950,6 +1950,7 @@ Count of solved tasks: 1649
 |623|Medium|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[Add One Row to Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddOneRowToTree.java)|
 |636|Medium|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|[Exclusive Time of Functions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExclusiveTimeOfFunctions.java)|
 |647|Medium|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Palindromic Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PalindromicSubstrings.java)|
+|650|Medium|[2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)|[2 Keys Keyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoKeysKeyboard.java)|
 |658|Medium|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|[Find K Closest Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindKClosestElements.java)|
 |663|Medium|[Equal Tree Partition](https://leetcode.com/problems/equal-tree-partition/)|[Equal Tree Partition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EqualTreePartition.java)|
 |665|Medium|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Non-decreasing Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NonDecreasingArray.java)|

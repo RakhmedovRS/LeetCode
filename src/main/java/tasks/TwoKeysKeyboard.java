@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 13-Jun-20
  */
-@LeetCode(id = 650, name = "2 Keys Keyboard", url = "https://leetcode.com/problems/2-keys-keyboard/")
+@LeetCode(
+		id = 650,
+		name = "2 Keys Keyboard",
+		url = "https://leetcode.com/problems/2-keys-keyboard/",
+		difficulty = Difficulty.MEDIUM
+)
 public class TwoKeysKeyboard
 {
 	public int minSteps(int n)
