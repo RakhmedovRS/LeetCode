@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1649
+Count of solved tasks: 1650
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1458,7 +1458,8 @@ Count of solved tasks: 1649
 |2438|Medium|[Range Product Queries of Powers](https://leetcode.com/problems/range-product-queries-of-powers/)|[Range Product Queries of Powers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeProductQueriesOfPowers.java)|
 |2441|Easy|[Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/)|[Largest Positive Integer That Exists With Its Negative.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPositiveIntegerThatExistsWithItsNegative.java)|
 |2442|Medium|[Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/)|[Count Number of Distinct Integers After Reverse Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfDistinctIntegersAfterReverseOperations.java)|
-|2443|Medium|[Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/)|[Sum of Number and Its Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfNumberAndItsReverse.java)|</p>
+|2443|Medium|[Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/)|[Sum of Number and Its Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfNumberAndItsReverse.java)|
+|2446|Easy|[Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/)|[Determine if Two Events Have Conflict.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineIfTwoEventsHaveConflict.java)|</p>
 </details>
 
 <details>
@@ -1767,7 +1768,8 @@ Count of solved tasks: 1649
 |2427|Easy|[Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/)|[Number of Common Factors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfCommonFactors.java)|
 |2432|Easy|[The Employee That Worked on the Longest Task](https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/)|[The Employee That Worked on the Longest Task.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheEmployeeThatWorkedOnTheLongestTask.java)|
 |2437|Easy|[Number of Valid Clock Times](https://leetcode.com/problems/number-of-valid-clock-times/)|[Number of Valid Clock Times.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfValidClockTimes.java)|
-|2441|Easy|[Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/)|[Largest Positive Integer That Exists With Its Negative.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPositiveIntegerThatExistsWithItsNegative.java)|</p>
+|2441|Easy|[Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/)|[Largest Positive Integer That Exists With Its Negative.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPositiveIntegerThatExistsWithItsNegative.java)|
+|2446|Easy|[Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/)|[Determine if Two Events Have Conflict.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineIfTwoEventsHaveConflict.java)|</p>
 </details>
 
 <details>
