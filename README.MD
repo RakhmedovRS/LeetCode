@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1650
+Count of solved tasks: 1651
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1459,7 +1459,8 @@ Count of solved tasks: 1650
 |2441|Easy|[Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/)|[Largest Positive Integer That Exists With Its Negative.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPositiveIntegerThatExistsWithItsNegative.java)|
 |2442|Medium|[Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/)|[Count Number of Distinct Integers After Reverse Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfDistinctIntegersAfterReverseOperations.java)|
 |2443|Medium|[Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/)|[Sum of Number and Its Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfNumberAndItsReverse.java)|
-|2446|Easy|[Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/)|[Determine if Two Events Have Conflict.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineIfTwoEventsHaveConflict.java)|</p>
+|2446|Easy|[Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/)|[Determine if Two Events Have Conflict.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineIfTwoEventsHaveConflict.java)|
+|2447|Medium|[Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/)|[Number of Subarrays With GCD Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysWithGCDEqualToK.java)|</p>
 </details>
 
 <details>
@@ -2373,7 +2374,8 @@ Count of solved tasks: 1650
 |2434|Medium|[Using a Robot to Print the Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/)|[Using a Robot to Print the Lexicographically Smallest String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UsingRobotToPrintTheLexicographicallySmallestString.java)|
 |2438|Medium|[Range Product Queries of Powers](https://leetcode.com/problems/range-product-queries-of-powers/)|[Range Product Queries of Powers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeProductQueriesOfPowers.java)|
 |2442|Medium|[Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/)|[Count Number of Distinct Integers After Reverse Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfDistinctIntegersAfterReverseOperations.java)|
-|2443|Medium|[Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/)|[Sum of Number and Its Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfNumberAndItsReverse.java)|</p>
+|2443|Medium|[Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/)|[Sum of Number and Its Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfNumberAndItsReverse.java)|
+|2447|Medium|[Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/)|[Number of Subarrays With GCD Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysWithGCDEqualToK.java)|</p>
 </details>
 
 <details>
