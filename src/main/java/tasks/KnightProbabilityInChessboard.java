@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 10/8/2020
  */
-@LeetCode(id = 688, name = "Knight Probability in Chessboard", url = "https://leetcode.com/problems/knight-probability-in-chessboard/")
+@LeetCode(
+		id = 688,
+		name = "Knight Probability in Chessboard",
+		url = "https://leetcode.com/problems/knight-probability-in-chessboard/",
+		difficulty = Difficulty.MEDIUM
+)
 public class KnightProbabilityInChessboard
 {
 	public double knightProbability(int length, int movesLeft, int row, int column)
