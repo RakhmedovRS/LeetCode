@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashSet;
@@ -9,7 +10,12 @@ import java.util.Set;
  * @author RakhmedovRS
  * @created 20-May-20
  */
-@LeetCode(id = 873, name = "Length of Longest Fibonacci Subsequence", url = "https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/")
+@LeetCode(
+		id = 873,
+		name = "Length of Longest Fibonacci Subsequence",
+		url = "https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/",
+		difficulty = Difficulty.MEDIUM
+)
 public class LengthOfLongestFibonacciSubsequence
 {
 	public int lenLongestFibSubseq(int[] A)
