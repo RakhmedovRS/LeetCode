@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 15-Aug-20
  */
-@LeetCode(id = 1247 , name = "Minimum Swaps to Make Strings Equal", url = "https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/")
+@LeetCode(
+		id = 1247 ,
+		name = "Minimum Swaps to Make Strings Equal",
+		url = "https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/",
+		difficulty = Difficulty.MEDIUM
+)
 public class MinimumSwapsToMakeStringsEqual
 {
 	public int minimumSwap(String s1, String s2)
