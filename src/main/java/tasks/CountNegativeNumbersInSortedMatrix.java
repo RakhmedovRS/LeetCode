@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 22-May-20
  */
-@LeetCode(id = 1351, name = "Count Negative Numbers in a Sorted Matrix", url = "https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/")
+@LeetCode(
+		id = 1351,
+		name = "Count Negative Numbers in a Sorted Matrix",
+		url = "https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/",
+		difficulty = Difficulty.EASY
+)
 public class CountNegativeNumbersInSortedMatrix
 {
 	public int countNegatives(int[][] grid)
