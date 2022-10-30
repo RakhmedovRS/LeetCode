@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1652
+Count of solved tasks: 1653
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1461,7 +1461,8 @@ Count of solved tasks: 1652
 |2443|Medium|[Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/)|[Sum of Number and Its Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfNumberAndItsReverse.java)|
 |2446|Easy|[Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/)|[Determine if Two Events Have Conflict.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineIfTwoEventsHaveConflict.java)|
 |2447|Medium|[Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/)|[Number of Subarrays With GCD Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysWithGCDEqualToK.java)|
-|2451|Easy|[Odd String Difference](https://leetcode.com/problems/odd-string-difference/)|[Odd String Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OddStringDifference.java)|</p>
+|2451|Easy|[Odd String Difference](https://leetcode.com/problems/odd-string-difference/)|[Odd String Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OddStringDifference.java)|
+|2452|Medium|[Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/)|[Words Within Two Edits of Dictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordsWithinTwoEditsOfDictionary.java)|</p>
 </details>
 
 <details>
@@ -2381,7 +2382,8 @@ Count of solved tasks: 1652
 |2438|Medium|[Range Product Queries of Powers](https://leetcode.com/problems/range-product-queries-of-powers/)|[Range Product Queries of Powers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeProductQueriesOfPowers.java)|
 |2442|Medium|[Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/)|[Count Number of Distinct Integers After Reverse Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfDistinctIntegersAfterReverseOperations.java)|
 |2443|Medium|[Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/)|[Sum of Number and Its Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfNumberAndItsReverse.java)|
-|2447|Medium|[Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/)|[Number of Subarrays With GCD Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysWithGCDEqualToK.java)|</p>
+|2447|Medium|[Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/)|[Number of Subarrays With GCD Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysWithGCDEqualToK.java)|
+|2452|Medium|[Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/)|[Words Within Two Edits of Dictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordsWithinTwoEditsOfDictionary.java)|</p>
 </details>
 
 <details>
