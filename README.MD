@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1654
+Count of solved tasks: 1655
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1463,7 +1463,8 @@ Count of solved tasks: 1654
 |2447|Medium|[Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/)|[Number of Subarrays With GCD Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysWithGCDEqualToK.java)|
 |2451|Easy|[Odd String Difference](https://leetcode.com/problems/odd-string-difference/)|[Odd String Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OddStringDifference.java)|
 |2452|Medium|[Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/)|[Words Within Two Edits of Dictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordsWithinTwoEditsOfDictionary.java)|
-|2453|Medium|[Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets/)|[Destroy Sequential Targets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DestroySequentialTargets.java)|</p>
+|2453|Medium|[Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets/)|[Destroy Sequential Targets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DestroySequentialTargets.java)|
+|2455|Easy|[Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/)|[Average Value of Even Numbers That Are Divisible by Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AverageValueOfEvenNumbersThatAreDivisibleByThree.java)|</p>
 </details>
 
 <details>
@@ -1775,7 +1776,8 @@ Count of solved tasks: 1654
 |2437|Easy|[Number of Valid Clock Times](https://leetcode.com/problems/number-of-valid-clock-times/)|[Number of Valid Clock Times.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfValidClockTimes.java)|
 |2441|Easy|[Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/)|[Largest Positive Integer That Exists With Its Negative.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPositiveIntegerThatExistsWithItsNegative.java)|
 |2446|Easy|[Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/)|[Determine if Two Events Have Conflict.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineIfTwoEventsHaveConflict.java)|
-|2451|Easy|[Odd String Difference](https://leetcode.com/problems/odd-string-difference/)|[Odd String Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OddStringDifference.java)|</p>
+|2451|Easy|[Odd String Difference](https://leetcode.com/problems/odd-string-difference/)|[Odd String Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OddStringDifference.java)|
+|2455|Easy|[Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/)|[Average Value of Even Numbers That Are Divisible by Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AverageValueOfEvenNumbersThatAreDivisibleByThree.java)|</p>
 </details>
 
 <details>
