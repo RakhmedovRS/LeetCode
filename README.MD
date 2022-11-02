@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1655
+Count of solved tasks: 1656
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1464,7 +1464,8 @@ Count of solved tasks: 1655
 |2451|Easy|[Odd String Difference](https://leetcode.com/problems/odd-string-difference/)|[Odd String Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OddStringDifference.java)|
 |2452|Medium|[Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/)|[Words Within Two Edits of Dictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordsWithinTwoEditsOfDictionary.java)|
 |2453|Medium|[Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets/)|[Destroy Sequential Targets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DestroySequentialTargets.java)|
-|2455|Easy|[Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/)|[Average Value of Even Numbers That Are Divisible by Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AverageValueOfEvenNumbersThatAreDivisibleByThree.java)|</p>
+|2455|Easy|[Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/)|[Average Value of Even Numbers That Are Divisible by Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AverageValueOfEvenNumbersThatAreDivisibleByThree.java)|
+|2456|Medium|[Most Popular Video Creator](https://leetcode.com/problems/most-popular-video-creator/)|[Most Popular Video Creator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostPopularVideoCreator.java)|</p>
 </details>
 
 <details>
@@ -2387,7 +2388,8 @@ Count of solved tasks: 1655
 |2443|Medium|[Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/)|[Sum of Number and Its Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfNumberAndItsReverse.java)|
 |2447|Medium|[Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/)|[Number of Subarrays With GCD Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysWithGCDEqualToK.java)|
 |2452|Medium|[Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/)|[Words Within Two Edits of Dictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordsWithinTwoEditsOfDictionary.java)|
-|2453|Medium|[Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets/)|[Destroy Sequential Targets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DestroySequentialTargets.java)|</p>
+|2453|Medium|[Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets/)|[Destroy Sequential Targets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DestroySequentialTargets.java)|
+|2456|Medium|[Most Popular Video Creator](https://leetcode.com/problems/most-popular-video-creator/)|[Most Popular Video Creator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostPopularVideoCreator.java)|</p>
 </details>
 
 <details>
