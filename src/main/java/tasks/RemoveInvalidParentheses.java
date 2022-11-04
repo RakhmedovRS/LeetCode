@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -8,7 +9,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 11/7/2020
  */
-@LeetCode(id = 301, name = "Remove Invalid Parentheses", url = "https://leetcode.com/problems/remove-invalid-parentheses/")
+@LeetCode(
+		id = 301,
+		name = "Remove Invalid Parentheses",
+		url = "https://leetcode.com/problems/remove-invalid-parentheses/",
+		difficulty = Difficulty.HARD
+)
 public class RemoveInvalidParentheses
 {
 	public List<String> removeInvalidParentheses(String s)
