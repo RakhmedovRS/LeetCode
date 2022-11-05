@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Collections;
@@ -10,7 +11,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 07-May-20
  */
-@LeetCode(id = 1146, name = "Snapshot Array", url = "https://leetcode.com/problems/snapshot-array/")
+@LeetCode(
+		id = 1146,
+		name = "Snapshot Array",
+		url = "https://leetcode.com/problems/snapshot-array/",
+		difficulty = Difficulty.MEDIUM
+)
 class SnapshotArray
 {
 	private Map<Integer, Map<Integer, Integer>> snapshots;
