@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1657
+Count of solved tasks: 1658
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1466,7 +1466,8 @@ Count of solved tasks: 1657
 |2453|Medium|[Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets/)|[Destroy Sequential Targets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DestroySequentialTargets.java)|
 |2455|Easy|[Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/)|[Average Value of Even Numbers That Are Divisible by Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AverageValueOfEvenNumbersThatAreDivisibleByThree.java)|
 |2456|Medium|[Most Popular Video Creator](https://leetcode.com/problems/most-popular-video-creator/)|[Most Popular Video Creator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostPopularVideoCreator.java)|
-|2457|Medium|[Minimum Addition to Make Integer Beautiful](https://leetcode.com/problems/minimum-addition-to-make-integer-beautiful/)|[Minimum Addition to Make Integer Beautiful.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAdditionToMakeIntegerBeautiful.java)|</p>
+|2457|Medium|[Minimum Addition to Make Integer Beautiful](https://leetcode.com/problems/minimum-addition-to-make-integer-beautiful/)|[Minimum Addition to Make Integer Beautiful.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAdditionToMakeIntegerBeautiful.java)|
+|2460|Easy|[Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/)|[Apply Operations to an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyOperationsToArray.java)|</p>
 </details>
 
 <details>
@@ -1779,7 +1780,8 @@ Count of solved tasks: 1657
 |2441|Easy|[Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/)|[Largest Positive Integer That Exists With Its Negative.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPositiveIntegerThatExistsWithItsNegative.java)|
 |2446|Easy|[Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/)|[Determine if Two Events Have Conflict.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineIfTwoEventsHaveConflict.java)|
 |2451|Easy|[Odd String Difference](https://leetcode.com/problems/odd-string-difference/)|[Odd String Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OddStringDifference.java)|
-|2455|Easy|[Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/)|[Average Value of Even Numbers That Are Divisible by Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AverageValueOfEvenNumbersThatAreDivisibleByThree.java)|</p>
+|2455|Easy|[Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/)|[Average Value of Even Numbers That Are Divisible by Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AverageValueOfEvenNumbersThatAreDivisibleByThree.java)|
+|2460|Easy|[Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/)|[Apply Operations to an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyOperationsToArray.java)|</p>
 </details>
 
 <details>
