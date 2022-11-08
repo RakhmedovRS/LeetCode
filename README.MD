@@ -337,7 +337,7 @@ Count of solved tasks: 1659
 |451|Medium|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[Sort Characters By Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortCharactersByFrequency.java)|
 |452|Medium|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Minimum Number of Arrows to Burst Balloons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfArrowsToBurstBalloons.java)|
 |454|Medium|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[4Sum II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FourSumII.java)|
-|455|Undefined|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|[Assign Cookies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AssignCookies.java)|
+|455|Easy|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|[Assign Cookies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AssignCookies.java)|
 |456|Medium|[132 Pattern](https://leetcode.com/problems/132-pattern/)|[132 Pattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OneTwoThreePattern.java)|
 |457|Undefined|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|[Circular Array Loop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CircularArrayLoop.java)|
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[Poor Pigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PoorPigs.java)|
@@ -1530,6 +1530,7 @@ Count of solved tasks: 1659
 |415|Easy|[Add Strings](https://leetcode.com/problems/add-strings/)|[Add Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddStrings.java)|
 |441|Easy|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[Arranging Coins.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ArrangingCoins.java)|
 |448|Easy|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Find All Numbers Disappeared in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllNumbersDisappearedInArray.java)|
+|455|Easy|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|[Assign Cookies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AssignCookies.java)|
 |461|Easy|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Hamming Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HammingDistance.java)|
 |463|Easy|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Island Perimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IslandPerimeter.java)|
 |482|Easy|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|[License Key Formatting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LicenseKeyFormatting.java)|
