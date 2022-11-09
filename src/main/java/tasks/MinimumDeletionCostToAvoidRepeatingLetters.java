@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.LinkedList;
@@ -8,7 +9,12 @@ import java.util.LinkedList;
  * @author RakhmedovRS
  * @created 06-Sep-20
  */
-@LeetCode(id = 1578, name = "Minimum Deletion Cost to Avoid Repeating Letters", url = "https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/")
+@LeetCode(
+		id = 1578,
+		name = "Minimum Deletion Cost to Avoid Repeating Letters",
+		url = "https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/",
+		difficulty = Difficulty.MEDIUM
+)
 public class MinimumDeletionCostToAvoidRepeatingLetters
 {
 	public int minCost(String s, int[] cost)
