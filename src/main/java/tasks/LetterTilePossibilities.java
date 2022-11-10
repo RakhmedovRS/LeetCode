@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 18.06.2020
  */
-@LeetCode(id = 1079, name = "Letter Tile Possibilities", url = "https://leetcode.com/problems/letter-tile-possibilities/")
+@LeetCode(
+		id = 1079,
+		name = "Letter Tile Possibilities",
+		url = "https://leetcode.com/problems/letter-tile-possibilities/",
+		difficulty = Difficulty.MEDIUM
+)
 public class LetterTilePossibilities
 {
 	public int numTilePossibilities(String tiles)
