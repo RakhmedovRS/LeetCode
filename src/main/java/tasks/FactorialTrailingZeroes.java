@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 05-Apr-20
  */
-@LeetCode(id = 172, name = "Factorial Trailing Zeroes", url = "https://leetcode.com/problems/factorial-trailing-zeroes/")
+@LeetCode(
+		id = 172,
+		name = "Factorial Trailing Zeroes",
+		url = "https://leetcode.com/problems/factorial-trailing-zeroes/",
+		difficulty = Difficulty.MEDIUM
+)
 public class FactorialTrailingZeroes
 {
 	public int trailingZeroes(int n)
