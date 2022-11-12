@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1659
+Count of solved tasks: 1660
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1468,7 +1468,8 @@ Count of solved tasks: 1659
 |2456|Medium|[Most Popular Video Creator](https://leetcode.com/problems/most-popular-video-creator/)|[Most Popular Video Creator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostPopularVideoCreator.java)|
 |2457|Medium|[Minimum Addition to Make Integer Beautiful](https://leetcode.com/problems/minimum-addition-to-make-integer-beautiful/)|[Minimum Addition to Make Integer Beautiful.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAdditionToMakeIntegerBeautiful.java)|
 |2460|Easy|[Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/)|[Apply Operations to an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyOperationsToArray.java)|
-|2461|Medium|[Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)|[Maximum Sum of Distinct Subarrays With Length K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumOfDistinctSubarraysWithLengthK.java)|</p>
+|2461|Medium|[Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)|[Maximum Sum of Distinct Subarrays With Length K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumOfDistinctSubarraysWithLengthK.java)|
+|2465|Easy|[Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/)|[Number of Distinct Averages.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfDistinctAverages.java)|</p>
 </details>
 
 <details>
@@ -1783,7 +1784,8 @@ Count of solved tasks: 1659
 |2446|Easy|[Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/)|[Determine if Two Events Have Conflict.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineIfTwoEventsHaveConflict.java)|
 |2451|Easy|[Odd String Difference](https://leetcode.com/problems/odd-string-difference/)|[Odd String Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OddStringDifference.java)|
 |2455|Easy|[Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/)|[Average Value of Even Numbers That Are Divisible by Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AverageValueOfEvenNumbersThatAreDivisibleByThree.java)|
-|2460|Easy|[Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/)|[Apply Operations to an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyOperationsToArray.java)|</p>
+|2460|Easy|[Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/)|[Apply Operations to an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyOperationsToArray.java)|
+|2465|Easy|[Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/)|[Number of Distinct Averages.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfDistinctAverages.java)|</p>
 </details>
 
 <details>
