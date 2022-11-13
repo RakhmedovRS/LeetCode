@@ -22,10 +22,27 @@ import java.util.stream.Collectors;
  * n <= 10^8     | O(n), O(log n), O(1)
  * n <= 10^9     | O(1)
  * </pre>
+ *
+ * <pre>
+ * Two Pointers
+ * Binary Search
+ * Stack
+ * Sorting
+ * Trie
+ * Dynamic Programming
+ * Math
+ * Greedy
+ * Heap
+ * Sliding Window
+ * Graph
+ * Recursion
+ * </pre>
  */
 public class Contest
 {
 	int MOD = 1_000_000_007;
+
+
 
 	public static void main(String[] args) throws Exception
 	{
