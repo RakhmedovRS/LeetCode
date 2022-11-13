@@ -64,4 +64,26 @@ public final class Helper
 
 		return answer;
 	}
+
+	public static int gcd(int a, int b)
+	{
+		return a == 0 ? b : gcd(b % a, a);
+	}
+
+	public static int lcm(int a, int b)
+	{
+		return (a / gcd(a, b)) * b;
+	}
+
+	public static boolean isPalindrome(char[] chars, int left, int right)
+	{
+		while (left <= right)
+		{
+			if (chars[left++] != chars[right--])
+			{
+				return false;
+			}
+		}
+		return true;
+	}
 }
