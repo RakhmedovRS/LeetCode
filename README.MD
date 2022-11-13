@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1660
+Count of solved tasks: 1661
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1469,7 +1469,8 @@ Count of solved tasks: 1660
 |2457|Medium|[Minimum Addition to Make Integer Beautiful](https://leetcode.com/problems/minimum-addition-to-make-integer-beautiful/)|[Minimum Addition to Make Integer Beautiful.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAdditionToMakeIntegerBeautiful.java)|
 |2460|Easy|[Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/)|[Apply Operations to an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyOperationsToArray.java)|
 |2461|Medium|[Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)|[Maximum Sum of Distinct Subarrays With Length K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumOfDistinctSubarraysWithLengthK.java)|
-|2465|Easy|[Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/)|[Number of Distinct Averages.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfDistinctAverages.java)|</p>
+|2465|Easy|[Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/)|[Number of Distinct Averages.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfDistinctAverages.java)|
+|2466|Medium|[Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/)|[Count Ways To Build Good Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountWaysToBuildGoodStrings.java)|</p>
 </details>
 
 <details>
@@ -2402,7 +2403,8 @@ Count of solved tasks: 1660
 |2453|Medium|[Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets/)|[Destroy Sequential Targets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DestroySequentialTargets.java)|
 |2456|Medium|[Most Popular Video Creator](https://leetcode.com/problems/most-popular-video-creator/)|[Most Popular Video Creator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostPopularVideoCreator.java)|
 |2457|Medium|[Minimum Addition to Make Integer Beautiful](https://leetcode.com/problems/minimum-addition-to-make-integer-beautiful/)|[Minimum Addition to Make Integer Beautiful.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAdditionToMakeIntegerBeautiful.java)|
-|2461|Medium|[Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)|[Maximum Sum of Distinct Subarrays With Length K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumOfDistinctSubarraysWithLengthK.java)|</p>
+|2461|Medium|[Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)|[Maximum Sum of Distinct Subarrays With Length K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumOfDistinctSubarraysWithLengthK.java)|
+|2466|Medium|[Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/)|[Count Ways To Build Good Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountWaysToBuildGoodStrings.java)|</p>
 </details>
 
 <details>
