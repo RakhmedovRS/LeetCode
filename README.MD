@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1663
+Count of solved tasks: 1664
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1472,7 +1472,8 @@ Count of solved tasks: 1663
 |2465|Easy|[Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/)|[Number of Distinct Averages.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfDistinctAverages.java)|
 |2466|Medium|[Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/)|[Count Ways To Build Good Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountWaysToBuildGoodStrings.java)|
 |2469|Easy|[Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/)|[Convert the Temperature.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertTheTemperature.java)|
-|2470|Medium|[Number of Subarrays With LCM Equal to K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/)|[Number of Subarrays With LCM Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysWithLCMEqualToK.java)|</p>
+|2470|Medium|[Number of Subarrays With LCM Equal to K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/)|[Number of Subarrays With LCM Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysWithLCMEqualToK.java)|
+|2471|Medium|[Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/)|[Minimum Number of Operations to Sort a Binary Tree by Level.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToSortBinaryTreeByLevel.java)|</p>
 </details>
 
 <details>
@@ -2408,7 +2409,8 @@ Count of solved tasks: 1663
 |2457|Medium|[Minimum Addition to Make Integer Beautiful](https://leetcode.com/problems/minimum-addition-to-make-integer-beautiful/)|[Minimum Addition to Make Integer Beautiful.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAdditionToMakeIntegerBeautiful.java)|
 |2461|Medium|[Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)|[Maximum Sum of Distinct Subarrays With Length K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumOfDistinctSubarraysWithLengthK.java)|
 |2466|Medium|[Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/)|[Count Ways To Build Good Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountWaysToBuildGoodStrings.java)|
-|2470|Medium|[Number of Subarrays With LCM Equal to K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/)|[Number of Subarrays With LCM Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysWithLCMEqualToK.java)|</p>
+|2470|Medium|[Number of Subarrays With LCM Equal to K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/)|[Number of Subarrays With LCM Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysWithLCMEqualToK.java)|
+|2471|Medium|[Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/)|[Minimum Number of Operations to Sort a Binary Tree by Level.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToSortBinaryTreeByLevel.java)|</p>
 </details>
 
 <details>
