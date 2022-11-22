@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1664
+Count of solved tasks: 1665
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1473,7 +1473,8 @@ Count of solved tasks: 1664
 |2466|Medium|[Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/)|[Count Ways To Build Good Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountWaysToBuildGoodStrings.java)|
 |2469|Easy|[Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/)|[Convert the Temperature.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertTheTemperature.java)|
 |2470|Medium|[Number of Subarrays With LCM Equal to K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/)|[Number of Subarrays With LCM Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysWithLCMEqualToK.java)|
-|2471|Medium|[Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/)|[Minimum Number of Operations to Sort a Binary Tree by Level.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToSortBinaryTreeByLevel.java)|</p>
+|2471|Medium|[Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/)|[Minimum Number of Operations to Sort a Binary Tree by Level.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToSortBinaryTreeByLevel.java)|
+|2472|Hard|[Maximum Number of Non-overlapping Palindrome Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/)|[Maximum Number of Non-overlapping Palindrome Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfNonOverlappingPalindromeSubstrings.java)|</p>
 </details>
 
 <details>
@@ -2512,7 +2513,8 @@ Count of solved tasks: 1664
 |2382|Hard|[Maximum Segment Sum After Removals](https://leetcode.com/problems/maximum-segment-sum-after-removals/)|[Maximum Segment Sum After Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSegmentSumAfterRemovals.java)|
 |2402|Hard|[Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/)|[Meeting Rooms III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MeetingRoomsIII.java)|
 |2416|Hard|[Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/)|[Sum of Prefix Scores of Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfPrefixScoresOfStrings.java)|
-|2435|Hard|[Paths in Matrix Whose Sum Is Divisible by K](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/)|[Paths in Matrix Whose Sum Is Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PathsInMatrixWhoseSumIsDivisibleByK.java)|</p>
+|2435|Hard|[Paths in Matrix Whose Sum Is Divisible by K](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/)|[Paths in Matrix Whose Sum Is Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PathsInMatrixWhoseSumIsDivisibleByK.java)|
+|2472|Hard|[Maximum Number of Non-overlapping Palindrome Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/)|[Maximum Number of Non-overlapping Palindrome Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfNonOverlappingPalindromeSubstrings.java)|</p>
 </details>
 
 <details>
