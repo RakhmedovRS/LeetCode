@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1665
+Count of solved tasks: 1666
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1474,7 +1474,8 @@ Count of solved tasks: 1665
 |2469|Easy|[Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/)|[Convert the Temperature.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertTheTemperature.java)|
 |2470|Medium|[Number of Subarrays With LCM Equal to K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/)|[Number of Subarrays With LCM Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysWithLCMEqualToK.java)|
 |2471|Medium|[Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/)|[Minimum Number of Operations to Sort a Binary Tree by Level.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToSortBinaryTreeByLevel.java)|
-|2472|Hard|[Maximum Number of Non-overlapping Palindrome Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/)|[Maximum Number of Non-overlapping Palindrome Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfNonOverlappingPalindromeSubstrings.java)|</p>
+|2472|Hard|[Maximum Number of Non-overlapping Palindrome Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/)|[Maximum Number of Non-overlapping Palindrome Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfNonOverlappingPalindromeSubstrings.java)|
+|2475|Easy|[Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/)|[Number of Unequal Triplets in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfUnequalTripletsInArray.java)|</p>
 </details>
 
 <details>
@@ -1791,7 +1792,8 @@ Count of solved tasks: 1665
 |2455|Easy|[Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/)|[Average Value of Even Numbers That Are Divisible by Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AverageValueOfEvenNumbersThatAreDivisibleByThree.java)|
 |2460|Easy|[Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/)|[Apply Operations to an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyOperationsToArray.java)|
 |2465|Easy|[Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/)|[Number of Distinct Averages.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfDistinctAverages.java)|
-|2469|Easy|[Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/)|[Convert the Temperature.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertTheTemperature.java)|</p>
+|2469|Easy|[Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/)|[Convert the Temperature.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertTheTemperature.java)|
+|2475|Easy|[Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/)|[Number of Unequal Triplets in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfUnequalTripletsInArray.java)|</p>
 </details>
 
 <details>
