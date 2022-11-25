@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 10/24/2020
  */
-@LeetCode(id = 948, name = "Bag of Tokens", url = "https://leetcode.com/problems/bag-of-tokens/")
+@LeetCode(
+		id = 948,
+		name = "Bag of Tokens",
+		url = "https://leetcode.com/problems/bag-of-tokens/",
+		difficulty = Difficulty.MEDIUM
+)
 public class BagOfTokens
 {
 	public int bagOfTokensScore(int[] tokens, int power)
