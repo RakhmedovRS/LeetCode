@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1669
+Count of solved tasks: 1670
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1478,7 +1478,8 @@ Count of solved tasks: 1669
 |2475|Easy|[Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/)|[Number of Unequal Triplets in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfUnequalTripletsInArray.java)|
 |2476|Medium|[Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/)|[Closest Nodes Queries in a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClosestNodesQueriesInBinarySearchTree.java)|
 |2481|Easy|[Minimum Cuts to Divide a Circle](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/)|[Minimum Cuts to Divide a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCutsЕoDivideCircle.java)|
-|2482|Medium|[Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)|[Difference Between Ones and Zeros in Row and Column.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DifferenceBetweenOnesAndZerosInRowAndColumn.java)|</p>
+|2482|Medium|[Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)|[Difference Between Ones and Zeros in Row and Column.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DifferenceBetweenOnesAndZerosInRowAndColumn.java)|
+|2483|Medium|[Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/)|[Minimum Penalty for a Shop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPenaltyForShop.java)|</p>
 </details>
 
 <details>
@@ -2420,7 +2421,8 @@ Count of solved tasks: 1669
 |2470|Medium|[Number of Subarrays With LCM Equal to K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/)|[Number of Subarrays With LCM Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysWithLCMEqualToK.java)|
 |2471|Medium|[Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/)|[Minimum Number of Operations to Sort a Binary Tree by Level.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToSortBinaryTreeByLevel.java)|
 |2476|Medium|[Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/)|[Closest Nodes Queries in a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClosestNodesQueriesInBinarySearchTree.java)|
-|2482|Medium|[Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)|[Difference Between Ones and Zeros in Row and Column.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DifferenceBetweenOnesAndZerosInRowAndColumn.java)|</p>
+|2482|Medium|[Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)|[Difference Between Ones and Zeros in Row and Column.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DifferenceBetweenOnesAndZerosInRowAndColumn.java)|
+|2483|Medium|[Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/)|[Minimum Penalty for a Shop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPenaltyForShop.java)|</p>
 </details>
 
 <details>
