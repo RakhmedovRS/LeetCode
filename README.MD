@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1670
+Count of solved tasks: 1671
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1479,7 +1479,8 @@ Count of solved tasks: 1670
 |2476|Medium|[Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/)|[Closest Nodes Queries in a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClosestNodesQueriesInBinarySearchTree.java)|
 |2481|Easy|[Minimum Cuts to Divide a Circle](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/)|[Minimum Cuts to Divide a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCutsЕoDivideCircle.java)|
 |2482|Medium|[Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)|[Difference Between Ones and Zeros in Row and Column.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DifferenceBetweenOnesAndZerosInRowAndColumn.java)|
-|2483|Medium|[Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/)|[Minimum Penalty for a Shop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPenaltyForShop.java)|</p>
+|2483|Medium|[Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/)|[Minimum Penalty for a Shop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPenaltyForShop.java)|
+|2484|Hard|[Count Palindromic Subsequences](https://leetcode.com/problems/count-palindromic-subsequences/)|[Count Palindromic Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPalindromicSubsequences.java)|</p>
 </details>
 
 <details>
@@ -2525,7 +2526,8 @@ Count of solved tasks: 1670
 |2402|Hard|[Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/)|[Meeting Rooms III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MeetingRoomsIII.java)|
 |2416|Hard|[Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/)|[Sum of Prefix Scores of Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfPrefixScoresOfStrings.java)|
 |2435|Hard|[Paths in Matrix Whose Sum Is Divisible by K](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/)|[Paths in Matrix Whose Sum Is Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PathsInMatrixWhoseSumIsDivisibleByK.java)|
-|2472|Hard|[Maximum Number of Non-overlapping Palindrome Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/)|[Maximum Number of Non-overlapping Palindrome Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfNonOverlappingPalindromeSubstrings.java)|</p>
+|2472|Hard|[Maximum Number of Non-overlapping Palindrome Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/)|[Maximum Number of Non-overlapping Palindrome Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfNonOverlappingPalindromeSubstrings.java)|
+|2484|Hard|[Count Palindromic Subsequences](https://leetcode.com/problems/count-palindromic-subsequences/)|[Count Palindromic Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPalindromicSubsequences.java)|</p>
 </details>
 
 <details>
