@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1671
+Count of solved tasks: 1672
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1480,7 +1480,8 @@ Count of solved tasks: 1671
 |2481|Easy|[Minimum Cuts to Divide a Circle](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/)|[Minimum Cuts to Divide a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCutsЕoDivideCircle.java)|
 |2482|Medium|[Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)|[Difference Between Ones and Zeros in Row and Column.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DifferenceBetweenOnesAndZerosInRowAndColumn.java)|
 |2483|Medium|[Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/)|[Minimum Penalty for a Shop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPenaltyForShop.java)|
-|2484|Hard|[Count Palindromic Subsequences](https://leetcode.com/problems/count-palindromic-subsequences/)|[Count Palindromic Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPalindromicSubsequences.java)|</p>
+|2484|Hard|[Count Palindromic Subsequences](https://leetcode.com/problems/count-palindromic-subsequences/)|[Count Palindromic Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPalindromicSubsequences.java)|
+|2485|Easy|[Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/)|[Find the Pivot Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThePivotInteger.java)|</p>
 </details>
 
 <details>
@@ -1799,7 +1800,8 @@ Count of solved tasks: 1671
 |2465|Easy|[Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/)|[Number of Distinct Averages.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfDistinctAverages.java)|
 |2469|Easy|[Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/)|[Convert the Temperature.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertTheTemperature.java)|
 |2475|Easy|[Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/)|[Number of Unequal Triplets in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfUnequalTripletsInArray.java)|
-|2481|Easy|[Minimum Cuts to Divide a Circle](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/)|[Minimum Cuts to Divide a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCutsЕoDivideCircle.java)|</p>
+|2481|Easy|[Minimum Cuts to Divide a Circle](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/)|[Minimum Cuts to Divide a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCutsЕoDivideCircle.java)|
+|2485|Easy|[Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/)|[Find the Pivot Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThePivotInteger.java)|</p>
 </details>
 
 <details>
