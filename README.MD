@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1673
+Count of solved tasks: 1674
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1482,7 +1482,8 @@ Count of solved tasks: 1673
 |2483|Medium|[Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/)|[Minimum Penalty for a Shop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPenaltyForShop.java)|
 |2484|Hard|[Count Palindromic Subsequences](https://leetcode.com/problems/count-palindromic-subsequences/)|[Count Palindromic Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPalindromicSubsequences.java)|
 |2485|Easy|[Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/)|[Find the Pivot Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThePivotInteger.java)|
-|2486|Medium|[Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)|[Append Characters to String to Make Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppendCharactersToStringToMakeSubsequence.java)|</p>
+|2486|Medium|[Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)|[Append Characters to String to Make Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppendCharactersToStringToMakeSubsequence.java)|
+|2487|Medium|[Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)|[Remove Nodes From Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveNodesFromLinkedList.java)|</p>
 </details>
 
 <details>
@@ -2427,7 +2428,8 @@ Count of solved tasks: 1673
 |2476|Medium|[Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/)|[Closest Nodes Queries in a Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClosestNodesQueriesInBinarySearchTree.java)|
 |2482|Medium|[Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)|[Difference Between Ones and Zeros in Row and Column.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DifferenceBetweenOnesAndZerosInRowAndColumn.java)|
 |2483|Medium|[Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/)|[Minimum Penalty for a Shop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPenaltyForShop.java)|
-|2486|Medium|[Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)|[Append Characters to String to Make Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppendCharactersToStringToMakeSubsequence.java)|</p>
+|2486|Medium|[Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)|[Append Characters to String to Make Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppendCharactersToStringToMakeSubsequence.java)|
+|2487|Medium|[Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)|[Remove Nodes From Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveNodesFromLinkedList.java)|</p>
 </details>
 
 <details>
