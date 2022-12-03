@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -10,7 +11,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 19-May-20
  */
-@LeetCode(id = 872, name = "Leaf-Similar Trees", url = "https://leetcode.com/problems/leaf-similar-trees/")
+@LeetCode(
+		id = 872,
+		name = "Leaf-Similar Trees",
+		url = "https://leetcode.com/problems/leaf-similar-trees/",
+		difficulty = Difficulty.EASY
+)
 public class LeafSimilarTrees
 {
 	public boolean leafSimilar(TreeNode root1, TreeNode root2)
