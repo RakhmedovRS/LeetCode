@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1674
+Count of solved tasks: 1675
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1483,7 +1483,8 @@ Count of solved tasks: 1674
 |2484|Hard|[Count Palindromic Subsequences](https://leetcode.com/problems/count-palindromic-subsequences/)|[Count Palindromic Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPalindromicSubsequences.java)|
 |2485|Easy|[Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/)|[Find the Pivot Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThePivotInteger.java)|
 |2486|Medium|[Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)|[Append Characters to String to Make Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppendCharactersToStringToMakeSubsequence.java)|
-|2487|Medium|[Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)|[Remove Nodes From Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveNodesFromLinkedList.java)|</p>
+|2487|Medium|[Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)|[Remove Nodes From Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveNodesFromLinkedList.java)|
+|2490|Easy|[Circular Sentence](https://leetcode.com/problems/circular-sentence/)|[Circular Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CircularSentence.java)|</p>
 </details>
 
 <details>
@@ -1804,7 +1805,8 @@ Count of solved tasks: 1674
 |2469|Easy|[Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/)|[Convert the Temperature.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertTheTemperature.java)|
 |2475|Easy|[Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/)|[Number of Unequal Triplets in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfUnequalTripletsInArray.java)|
 |2481|Easy|[Minimum Cuts to Divide a Circle](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/)|[Minimum Cuts to Divide a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCutsЕoDivideCircle.java)|
-|2485|Easy|[Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/)|[Find the Pivot Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThePivotInteger.java)|</p>
+|2485|Easy|[Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/)|[Find the Pivot Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThePivotInteger.java)|
+|2490|Easy|[Circular Sentence](https://leetcode.com/problems/circular-sentence/)|[Circular Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CircularSentence.java)|</p>
 </details>
 
 <details>
