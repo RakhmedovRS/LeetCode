@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1675
+Count of solved tasks: 1676
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1484,7 +1484,8 @@ Count of solved tasks: 1675
 |2485|Easy|[Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/)|[Find the Pivot Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThePivotInteger.java)|
 |2486|Medium|[Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)|[Append Characters to String to Make Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppendCharactersToStringToMakeSubsequence.java)|
 |2487|Medium|[Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)|[Remove Nodes From Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveNodesFromLinkedList.java)|
-|2490|Easy|[Circular Sentence](https://leetcode.com/problems/circular-sentence/)|[Circular Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CircularSentence.java)|</p>
+|2490|Easy|[Circular Sentence](https://leetcode.com/problems/circular-sentence/)|[Circular Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CircularSentence.java)|
+|2491|Medium|[Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/)|[Divide Players Into Teams of Equal Skill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DividePlayersIntoTeamsOfEqualSkill.java)|</p>
 </details>
 
 <details>
@@ -2432,7 +2433,8 @@ Count of solved tasks: 1675
 |2482|Medium|[Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)|[Difference Between Ones and Zeros in Row and Column.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DifferenceBetweenOnesAndZerosInRowAndColumn.java)|
 |2483|Medium|[Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/)|[Minimum Penalty for a Shop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPenaltyForShop.java)|
 |2486|Medium|[Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)|[Append Characters to String to Make Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppendCharactersToStringToMakeSubsequence.java)|
-|2487|Medium|[Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)|[Remove Nodes From Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveNodesFromLinkedList.java)|</p>
+|2487|Medium|[Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)|[Remove Nodes From Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveNodesFromLinkedList.java)|
+|2491|Medium|[Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/)|[Divide Players Into Teams of Equal Skill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DividePlayersIntoTeamsOfEqualSkill.java)|</p>
 </details>
 
 <details>
