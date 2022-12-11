@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1676
+Count of solved tasks: 1677
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1485,7 +1485,8 @@ Count of solved tasks: 1676
 |2486|Medium|[Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)|[Append Characters to String to Make Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppendCharactersToStringToMakeSubsequence.java)|
 |2487|Medium|[Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)|[Remove Nodes From Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveNodesFromLinkedList.java)|
 |2490|Easy|[Circular Sentence](https://leetcode.com/problems/circular-sentence/)|[Circular Sentence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CircularSentence.java)|
-|2491|Medium|[Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/)|[Divide Players Into Teams of Equal Skill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DividePlayersIntoTeamsOfEqualSkill.java)|</p>
+|2491|Medium|[Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/)|[Divide Players Into Teams of Equal Skill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DividePlayersIntoTeamsOfEqualSkill.java)|
+|2492|Medium|[Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/)|[Minimum Score of a Path Between Two Cities.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumScoreOfPathBetweenTwoCities.java)|</p>
 </details>
 
 <details>
@@ -2434,7 +2435,8 @@ Count of solved tasks: 1676
 |2483|Medium|[Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/)|[Minimum Penalty for a Shop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPenaltyForShop.java)|
 |2486|Medium|[Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)|[Append Characters to String to Make Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppendCharactersToStringToMakeSubsequence.java)|
 |2487|Medium|[Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)|[Remove Nodes From Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveNodesFromLinkedList.java)|
-|2491|Medium|[Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/)|[Divide Players Into Teams of Equal Skill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DividePlayersIntoTeamsOfEqualSkill.java)|</p>
+|2491|Medium|[Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/)|[Divide Players Into Teams of Equal Skill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DividePlayersIntoTeamsOfEqualSkill.java)|
+|2492|Medium|[Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/)|[Minimum Score of a Path Between Two Cities.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumScoreOfPathBetweenTwoCities.java)|</p>
 </details>
 
 <details>
