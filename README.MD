@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1680
+Count of solved tasks: 1681
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1489,6 +1489,7 @@ Count of solved tasks: 1680
 |2492|Medium|[Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/)|[Minimum Score of a Path Between Two Cities.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumScoreOfPathBetweenTwoCities.java)|
 |2493|Hard|[Divide Nodes Into the Maximum Number of Groups](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/)|[Divide Nodes Into the Maximum Number of Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideNodesIntoTheMaximumNumberOfGroups.java)|
 |2496|Easy|[Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/description/)|[Maximum Value of a String in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumValueOfStringInArray.java)|
+|2497|Medium|[Maximum Star Sum of a Graph](https://leetcode.com/problems/maximum-star-sum-of-a-graph/description/)|[Maximum Star Sum of a Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumStarSumOfGraph.java)|
 |2500|Easy|[Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/)|[Delete Greatest Value in Each Row.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteGreatestValueInEachRow.java)|</p>
 </details>
 
@@ -2441,7 +2442,8 @@ Count of solved tasks: 1680
 |2486|Medium|[Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)|[Append Characters to String to Make Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppendCharactersToStringToMakeSubsequence.java)|
 |2487|Medium|[Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)|[Remove Nodes From Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveNodesFromLinkedList.java)|
 |2491|Medium|[Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/)|[Divide Players Into Teams of Equal Skill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DividePlayersIntoTeamsOfEqualSkill.java)|
-|2492|Medium|[Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/)|[Minimum Score of a Path Between Two Cities.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumScoreOfPathBetweenTwoCities.java)|</p>
+|2492|Medium|[Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/)|[Minimum Score of a Path Between Two Cities.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumScoreOfPathBetweenTwoCities.java)|
+|2497|Medium|[Maximum Star Sum of a Graph](https://leetcode.com/problems/maximum-star-sum-of-a-graph/description/)|[Maximum Star Sum of a Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumStarSumOfGraph.java)|</p>
 </details>
 
 <details>
