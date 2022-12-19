@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.LinkedList;
@@ -8,7 +9,12 @@ import java.util.LinkedList;
  * @author RakhmedovRS
  * @created 11/8/2020
  */
-@LeetCode(id = 1404, name = "Number of Steps to Reduce a Number in Binary Representation to One", url = "https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/")
+@LeetCode(
+		id = 1404,
+		name = "Number of Steps to Reduce a Number in Binary Representation to One",
+		url = "https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/",
+		difficulty = Difficulty.MEDIUM
+)
 public class NumberOfStepsToReduceNumberInBinaryRepresentationToOne
 {
 	public int numSteps(String s)
