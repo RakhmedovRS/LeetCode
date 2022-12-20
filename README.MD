@@ -513,7 +513,7 @@ Count of solved tasks: 1682
 |749|Undefined|[Contain Virus](https://leetcode.com/problems/contain-virus/)|[Contain Virus.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ContainVirus.java)|
 |750|Medium|[Number Of Corner Rectangles](https://leetcode.com/problems/number-of-corner-rectangles/)|[Number Of Corner Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfCornerRectangles.java)|
 |752|Medium|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|[Open the Lock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OpenTheLock.java)|
-|753|Undefined|[Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/)|[Cracking the Safe.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CrackingTheSafe.java)|
+|753|Hard|[Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/)|[Cracking the Safe.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CrackingTheSafe.java)|
 |754|Medium|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|[Reach a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReachNumber.java)|
 |762|Undefined|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|[Prime Number of Set Bits in Binary Representation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimeNumberOfSetBitsInBinaryRepresentation.java)|
 |763|Medium|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Partition Labels.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionLabels.java)|
@@ -2503,6 +2503,7 @@ Count of solved tasks: 1682
 |679|Hard|[24 Game](https://leetcode.com/problems/24-game/)|[24 Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Game24.java)|
 |732|Hard|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[My Calendar III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MyCalendarIII.java)|
 |745|Hard|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/)|[Prefix and Suffix Search.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrefixAndSuffixSearch.java)|
+|753|Hard|[Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/)|[Cracking the Safe.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CrackingTheSafe.java)|
 |773|Hard|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/)|[Sliding Puzzle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SlidingPuzzle.java)|
 |778|Hard|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|[Swim in Rising Water.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SwimInRisingWater.java)|
 |827|Hard|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/)|[Making A Large Island.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakingLargeIsland.java)|

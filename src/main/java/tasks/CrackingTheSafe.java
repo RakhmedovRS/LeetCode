@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashSet;
@@ -9,7 +10,11 @@ import java.util.Set;
  * @author RakhmedovRS
  * @created 10/10/2020
  */
-@LeetCode(id = 753, name = "Cracking the Safe", url = "https://leetcode.com/problems/cracking-the-safe/")
+@LeetCode(
+		id = 753,
+		name = "Cracking the Safe",
+		url = "https://leetcode.com/problems/cracking-the-safe/",
+		difficulty = Difficulty.HARD)
 public class CrackingTheSafe
 {
 	public String crackSafe(int maxPositions, int maxNumber)
