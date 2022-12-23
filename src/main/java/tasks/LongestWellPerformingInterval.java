@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashMap;
@@ -9,7 +10,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 10/6/2020
  */
-@LeetCode(id = 1124, name = "Longest Well-Performing Interval", url = "https://leetcode.com/problems/longest-well-performing-interval/")
+@LeetCode(
+		id = 1124,
+		name = "Longest Well-Performing Interval",
+		url = "https://leetcode.com/problems/longest-well-performing-interval/",
+		difficulty = Difficulty.MEDIUM
+)
 public class LongestWellPerformingInterval
 {
 	public int longestWPI(int[] hours)
