@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Stack;
@@ -8,7 +9,12 @@ import java.util.Stack;
  * @author RakhmedovRS
  * @created 10/2/2020
  */
-@LeetCode(id = 907, name = "Sum of Subarray Minimums", url = "https://leetcode.com/problems/sum-of-subarray-minimums/")
+@LeetCode(
+		id = 907,
+		name = "Sum of Subarray Minimums",
+		url = "https://leetcode.com/problems/sum-of-subarray-minimums/",
+		difficulty = Difficulty.MEDIUM
+)
 public class SumOfSubarrayMinimums
 {
 	public int sumSubarrayMins(int[] numbers)
