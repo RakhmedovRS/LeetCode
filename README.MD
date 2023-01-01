@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1687
+Count of solved tasks: 1688
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1496,7 +1496,8 @@ Count of solved tasks: 1687
 |2512|Medium|[Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/)|[Reward Top K Students.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RewardTopKStudents.java)|
 |2515|Easy|[Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/)|[Shortest Distance to Target String in a Circular Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestDistanceToTargetStringInCircularArray.java)|
 |2516|Medium|[Take K of Each Character From Left and Right](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/)|[Take K of Each Character From Left and Right.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakeKOfEachCharacterFromLeftAndRight.java)|
-|2517|Medium|[Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/)|[Maximum Tastiness of Candy Basket.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTastinessOfCandyBasket.java)|</p>
+|2517|Medium|[Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/)|[Maximum Tastiness of Candy Basket.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTastinessOfCandyBasket.java)|
+|2520|Easy|[Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/)|[Count the Digits That Divide a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheDigitsThatDivideNumber.java)|</p>
 </details>
 
 <details>
@@ -1823,7 +1824,8 @@ Count of solved tasks: 1687
 |2500|Easy|[Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/)|[Delete Greatest Value in Each Row.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteGreatestValueInEachRow.java)|
 |2506|Easy|[Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)|[Count Pairs Of Similar Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsOfSimilarStrings.java)|
 |2511|Easy|[Maximum Enemy Forts That Can Be Captured](https://leetcode.com/problems/maximum-enemy-forts-that-can-be-captured/description/)|[Maximum Enemy Forts That Can Be Captured.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEnemyFortsThatCanBeCaptured.java)|
-|2515|Easy|[Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/)|[Shortest Distance to Target String in a Circular Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestDistanceToTargetStringInCircularArray.java)|</p>
+|2515|Easy|[Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/)|[Shortest Distance to Target String in a Circular Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestDistanceToTargetStringInCircularArray.java)|
+|2520|Easy|[Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/)|[Count the Digits That Divide a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheDigitsThatDivideNumber.java)|</p>
 </details>
 
 <details>
