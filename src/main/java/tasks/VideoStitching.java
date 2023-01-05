@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 10/22/2020
  */
-@LeetCode(id = 1024, name = "Video Stitching", url = "https://leetcode.com/problems/video-stitching/")
+@LeetCode(
+		id = 1024,
+		name = "Video Stitching",
+		url = "https://leetcode.com/problems/video-stitching/",
+		difficulty = Difficulty.MEDIUM
+)
 public class VideoStitching
 {
 	public int videoStitching(int[][] clips, int T)
