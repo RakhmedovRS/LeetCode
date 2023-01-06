@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 11/2/2020
  */
-@LeetCode(id = 1223, name = "Dice Roll Simulation", url = "https://leetcode.com/problems/dice-roll-simulation/")
+@LeetCode(
+		id = 1223,
+		name = "Dice Roll Simulation",
+		url = "https://leetcode.com/problems/dice-roll-simulation/",
+		difficulty = Difficulty.HARD
+)
 public class DiceRollSimulation
 {
 	private final int MOD = 1_000_000_007;
