@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1691
+Count of solved tasks: 1692
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1500,7 +1500,8 @@ Count of solved tasks: 1691
 |2520|Easy|[Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/)|[Count the Digits That Divide a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheDigitsThatDivideNumber.java)|
 |2521|Medium|[Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/)|[Distinct Prime Factors of Product of Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DistinctPrimeFactorsOfProductOfArray.java)|
 |2522|Medium|[Partition String Into Substrings With Values at Most K](https://leetcode.com/problems/partition-string-into-substrings-with-values-at-most-k/)|[Partition String Into Substrings With Values at Most K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionStringIntoSubstringsWithValuesAtMostK.java)|
-|2523|Medium|[Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/)|[Closest Prime Numbers in Range.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClosestPrimeNumbersInRange.java)|</p>
+|2523|Medium|[Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/)|[Closest Prime Numbers in Range.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClosestPrimeNumbersInRange.java)|
+|2525|Easy|[Categorize Box According to Criteria](https://leetcode.com/problems/categorize-box-according-to-criteria/description/)|[Categorize Box According to Criteria.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CategorizeBoxAccordingToCriteria.java)|</p>
 </details>
 
 <details>
@@ -1828,7 +1829,8 @@ Count of solved tasks: 1691
 |2506|Easy|[Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)|[Count Pairs Of Similar Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsOfSimilarStrings.java)|
 |2511|Easy|[Maximum Enemy Forts That Can Be Captured](https://leetcode.com/problems/maximum-enemy-forts-that-can-be-captured/description/)|[Maximum Enemy Forts That Can Be Captured.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEnemyFortsThatCanBeCaptured.java)|
 |2515|Easy|[Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/)|[Shortest Distance to Target String in a Circular Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestDistanceToTargetStringInCircularArray.java)|
-|2520|Easy|[Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/)|[Count the Digits That Divide a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheDigitsThatDivideNumber.java)|</p>
+|2520|Easy|[Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/)|[Count the Digits That Divide a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheDigitsThatDivideNumber.java)|
+|2525|Easy|[Categorize Box According to Criteria](https://leetcode.com/problems/categorize-box-according-to-criteria/description/)|[Categorize Box According to Criteria.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CategorizeBoxAccordingToCriteria.java)|</p>
 </details>
 
 <details>
