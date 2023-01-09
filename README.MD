@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1693
+Count of solved tasks: 1694
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1502,7 +1502,8 @@ Count of solved tasks: 1693
 |2522|Medium|[Partition String Into Substrings With Values at Most K](https://leetcode.com/problems/partition-string-into-substrings-with-values-at-most-k/)|[Partition String Into Substrings With Values at Most K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionStringIntoSubstringsWithValuesAtMostK.java)|
 |2523|Medium|[Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/)|[Closest Prime Numbers in Range.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClosestPrimeNumbersInRange.java)|
 |2525|Easy|[Categorize Box According to Criteria](https://leetcode.com/problems/categorize-box-according-to-criteria/description/)|[Categorize Box According to Criteria.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CategorizeBoxAccordingToCriteria.java)|
-|2529|Easy|[Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/)|[Maximum Count of Positive Integer and Negative Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumCountOfPositiveIntegerAndNegativeInteger.java)|</p>
+|2529|Easy|[Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/)|[Maximum Count of Positive Integer and Negative Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumCountOfPositiveIntegerAndNegativeInteger.java)|
+|2530|Medium|[Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/)|[Maximal Score After Applying K Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximalScoreAfterApplyingKOperations.java)|</p>
 </details>
 
 <details>
@@ -2472,7 +2473,8 @@ Count of solved tasks: 1693
 |2517|Medium|[Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/)|[Maximum Tastiness of Candy Basket.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTastinessOfCandyBasket.java)|
 |2521|Medium|[Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/)|[Distinct Prime Factors of Product of Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DistinctPrimeFactorsOfProductOfArray.java)|
 |2522|Medium|[Partition String Into Substrings With Values at Most K](https://leetcode.com/problems/partition-string-into-substrings-with-values-at-most-k/)|[Partition String Into Substrings With Values at Most K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionStringIntoSubstringsWithValuesAtMostK.java)|
-|2523|Medium|[Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/)|[Closest Prime Numbers in Range.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClosestPrimeNumbersInRange.java)|</p>
+|2523|Medium|[Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/)|[Closest Prime Numbers in Range.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClosestPrimeNumbersInRange.java)|
+|2530|Medium|[Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/)|[Maximal Score After Applying K Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximalScoreAfterApplyingKOperations.java)|</p>
 </details>
 
 <details>
