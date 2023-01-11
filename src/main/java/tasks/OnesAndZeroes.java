@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 05-Aug-20
  */
-@LeetCode(id = 474, name = "Ones and Zeroes", url = "https://leetcode.com/problems/ones-and-zeroes/")
+@LeetCode(
+		id = 474,
+		name = "Ones and Zeroes",
+		url = "https://leetcode.com/problems/ones-and-zeroes/",
+		difficulty = Difficulty.MEDIUM
+)
 public class OnesAndZeroes
 {
 	public int findMaxForm(String[] strs, int zeroes, int ones)
