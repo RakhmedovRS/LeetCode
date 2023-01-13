@@ -354,7 +354,7 @@ Count of solved tasks: 1695
 |473|Medium|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[Matchsticks to Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MatchsticksToSquare.java)|
 |474|Medium|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|[Ones and Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OnesAndZeroes.java)|
 |475|Medium|[Heaters](https://leetcode.com/problems/heaters/)|[Heaters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Heaters.java)|
-|476|Undefined|[Number Complement](https://leetcode.com/problems/number-complement/)|[Number Complement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberComplement.java)|
+|476|Easy|[Number Complement](https://leetcode.com/problems/number-complement/)|[Number Complement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberComplement.java)|
 |477|Undefined|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|[Total Hamming Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalHammingDistance.java)|
 |478|Medium|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|[Generate Random Point in a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GenerateRandomPointInCircle.java)|
 |479|Undefined|[Largest Palindrome Product](https://leetcode.com/problems/largest-palindrome-product/)|[Largest Palindrome Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPalindromeProduct.java)|
@@ -1569,6 +1569,7 @@ Count of solved tasks: 1695
 |455|Easy|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|[Assign Cookies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AssignCookies.java)|
 |461|Easy|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Hamming Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HammingDistance.java)|
 |463|Easy|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Island Perimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IslandPerimeter.java)|
+|476|Easy|[Number Complement](https://leetcode.com/problems/number-complement/)|[Number Complement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberComplement.java)|
 |482|Easy|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|[License Key Formatting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LicenseKeyFormatting.java)|
 |485|Easy|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max Consecutive Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxConsecutiveOnes.java)|
 |496|Easy|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Next Greater Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NextGreaterElementI.java)|
