@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashMap;
@@ -9,7 +10,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 9/28/2020
  */
-@LeetCode(id = 947, name = "Most Stones Removed with Same Row or Column", url = "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/")
+@LeetCode(
+		id = 947,
+		name = "Most Stones Removed with Same Row or Column",
+		url = "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
+		difficulty = Difficulty.MEDIUM
+)
 public class MostStonesRemovedWithSameRowOrColumn
 {
 	public int removeStones(int[][] stones)
