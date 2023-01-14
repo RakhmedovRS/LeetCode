@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashMap;
@@ -9,7 +10,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 13-Apr-20
  */
-@LeetCode(id = 525, name = "Contiguous Array", url = "https://leetcode.com/problems/contiguous-array/")
+@LeetCode(
+		id = 525,
+		name = "Contiguous Array",
+		url = "https://leetcode.com/problems/contiguous-array/",
+		difficulty = Difficulty.MEDIUM
+)
 public class ContiguousArray
 {
 	public int findMaxLength(int[] nums)
