@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1695
+Count of solved tasks: 1696
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1504,7 +1504,8 @@ Count of solved tasks: 1695
 |2525|Easy|[Categorize Box According to Criteria](https://leetcode.com/problems/categorize-box-according-to-criteria/description/)|[Categorize Box According to Criteria.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CategorizeBoxAccordingToCriteria.java)|
 |2529|Easy|[Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/)|[Maximum Count of Positive Integer and Negative Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumCountOfPositiveIntegerAndNegativeInteger.java)|
 |2530|Medium|[Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/)|[Maximal Score After Applying K Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximalScoreAfterApplyingKOperations.java)|
-|2531|Medium|[Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/)|[Make Number of Distinct Characters Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeNumberOfDistinctCharactersEqual.java)|</p>
+|2531|Medium|[Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/)|[Make Number of Distinct Characters Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeNumberOfDistinctCharactersEqual.java)|
+|2535|Easy|[Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/)|[Difference Between Element Sum and Digit Sum of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DifferenceBetweenElementSumAndDigitSumOfArray.java)|</p>
 </details>
 
 <details>
@@ -1835,7 +1836,8 @@ Count of solved tasks: 1695
 |2515|Easy|[Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/)|[Shortest Distance to Target String in a Circular Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestDistanceToTargetStringInCircularArray.java)|
 |2520|Easy|[Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/)|[Count the Digits That Divide a Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheDigitsThatDivideNumber.java)|
 |2525|Easy|[Categorize Box According to Criteria](https://leetcode.com/problems/categorize-box-according-to-criteria/description/)|[Categorize Box According to Criteria.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CategorizeBoxAccordingToCriteria.java)|
-|2529|Easy|[Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/)|[Maximum Count of Positive Integer and Negative Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumCountOfPositiveIntegerAndNegativeInteger.java)|</p>
+|2529|Easy|[Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/)|[Maximum Count of Positive Integer and Negative Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumCountOfPositiveIntegerAndNegativeInteger.java)|
+|2535|Easy|[Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/)|[Difference Between Element Sum and Digit Sum of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DifferenceBetweenElementSumAndDigitSumOfArray.java)|</p>
 </details>
 
 <details>
