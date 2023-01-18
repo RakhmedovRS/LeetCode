@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1697
+Count of solved tasks: 1698
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1506,7 +1506,8 @@ Count of solved tasks: 1697
 |2530|Medium|[Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/)|[Maximal Score After Applying K Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximalScoreAfterApplyingKOperations.java)|
 |2531|Medium|[Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/)|[Make Number of Distinct Characters Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeNumberOfDistinctCharactersEqual.java)|
 |2535|Easy|[Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/)|[Difference Between Element Sum and Digit Sum of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DifferenceBetweenElementSumAndDigitSumOfArray.java)|
-|2536|Medium|[Increment Submatrices by One](https://leetcode.com/problems/increment-submatrices-by-one/)|[Increment Submatrices by One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IncrementSubmatricesByOne.java)|</p>
+|2536|Medium|[Increment Submatrices by One](https://leetcode.com/problems/increment-submatrices-by-one/)|[Increment Submatrices by One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IncrementSubmatricesByOne.java)|
+|2537|Medium|[Count the Number of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays/)|[Count the Number of Good Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfGoodSubarrays.java)|</p>
 </details>
 
 <details>
@@ -2484,7 +2485,8 @@ Count of solved tasks: 1697
 |2523|Medium|[Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/)|[Closest Prime Numbers in Range.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClosestPrimeNumbersInRange.java)|
 |2530|Medium|[Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/)|[Maximal Score After Applying K Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximalScoreAfterApplyingKOperations.java)|
 |2531|Medium|[Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/)|[Make Number of Distinct Characters Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeNumberOfDistinctCharactersEqual.java)|
-|2536|Medium|[Increment Submatrices by One](https://leetcode.com/problems/increment-submatrices-by-one/)|[Increment Submatrices by One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IncrementSubmatricesByOne.java)|</p>
+|2536|Medium|[Increment Submatrices by One](https://leetcode.com/problems/increment-submatrices-by-one/)|[Increment Submatrices by One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IncrementSubmatricesByOne.java)|
+|2537|Medium|[Count the Number of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays/)|[Count the Number of Good Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfGoodSubarrays.java)|</p>
 </details>
 
 <details>
