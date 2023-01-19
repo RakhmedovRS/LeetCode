@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -10,7 +11,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 08-Jul-20
  */
-@LeetCode(id = 1177, name = "Can Make Palindrome from Substring", url = "https://leetcode.com/problems/can-make-palindrome-from-substring/")
+@LeetCode(
+		id = 1177,
+		name = "Can Make Palindrome from Substring",
+		url = "https://leetcode.com/problems/can-make-palindrome-from-substring/",
+		difficulty = Difficulty.MEDIUM
+)
 public class CanMakePalindromeFromSubstring
 {
 	public List<Boolean> canMakePaliQueries(String s, int[][] queries)
