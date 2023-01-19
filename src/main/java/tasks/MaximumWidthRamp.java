@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.TreeMap;
@@ -8,7 +9,12 @@ import java.util.TreeMap;
  * @author RakhmedovRS
  * @created 17-Sep-20
  */
-@LeetCode(id = 962, name = "Maximum Width Ramp", url = "https://leetcode.com/problems/maximum-width-ramp/")
+@LeetCode(
+		id = 962,
+		name = "Maximum Width Ramp",
+		url = "https://leetcode.com/problems/maximum-width-ramp/",
+		difficulty = Difficulty.MEDIUM
+)
 public class MaximumWidthRamp
 {
 	public int maxWidthRamp(int[] A)
