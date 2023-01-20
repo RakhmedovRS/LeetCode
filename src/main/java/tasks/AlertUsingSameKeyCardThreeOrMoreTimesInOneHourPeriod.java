@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -8,7 +9,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 10/3/2020
  */
-@LeetCode(id = 1604, name = "Alert Using Same Key-Card Three or More Times in a One Hour Period", url = "https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/")
+@LeetCode(
+		id = 1604,
+		name = "Alert Using Same Key-Card Three or More Times in a One Hour Period",
+		url = "https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/",
+		difficulty = Difficulty.MEDIUM
+)
 public class AlertUsingSameKeyCardThreeOrMoreTimesInOneHourPeriod
 {
 	public List<String> alertNames(String[] keyNames, String[] keyTime)
