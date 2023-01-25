@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1702
+Count of solved tasks: 1703
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1511,7 +1511,8 @@ Count of solved tasks: 1702
 |2540|Easy|[Minimum Common Value](https://leetcode.com/problems/minimum-common-value/)|[Minimum Common Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCommonValue.java)|
 |2544|Easy|[Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)|[Alternating Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingDigitSum.java)|
 |2545|Medium|[Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/)|[Sort the Students by Their Kth Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortTheStudentsByTheirKthScore.java)|
-|2546|Medium|[Apply Bitwise Operations to Make Strings Equal](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/)|[Apply Bitwise Operations to Make Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyBitwiseOperationsToMakeStringsEqual.java)|</p>
+|2546|Medium|[Apply Bitwise Operations to Make Strings Equal](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/)|[Apply Bitwise Operations to Make Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyBitwiseOperationsToMakeStringsEqual.java)|
+|2547|Hard|[Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array/)|[Minimum Cost to Split an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToSplitArray.java)|</p>
 </details>
 
 <details>
@@ -2604,7 +2605,8 @@ Count of solved tasks: 1702
 |2435|Hard|[Paths in Matrix Whose Sum Is Divisible by K](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/)|[Paths in Matrix Whose Sum Is Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PathsInMatrixWhoseSumIsDivisibleByK.java)|
 |2472|Hard|[Maximum Number of Non-overlapping Palindrome Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/)|[Maximum Number of Non-overlapping Palindrome Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfNonOverlappingPalindromeSubstrings.java)|
 |2484|Hard|[Count Palindromic Subsequences](https://leetcode.com/problems/count-palindromic-subsequences/)|[Count Palindromic Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPalindromicSubsequences.java)|
-|2493|Hard|[Divide Nodes Into the Maximum Number of Groups](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/)|[Divide Nodes Into the Maximum Number of Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideNodesIntoTheMaximumNumberOfGroups.java)|</p>
+|2493|Hard|[Divide Nodes Into the Maximum Number of Groups](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/)|[Divide Nodes Into the Maximum Number of Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideNodesIntoTheMaximumNumberOfGroups.java)|
+|2547|Hard|[Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array/)|[Minimum Cost to Split an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToSplitArray.java)|</p>
 </details>
 
 <details>
