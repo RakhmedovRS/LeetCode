@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -7,7 +8,12 @@ import common.TreeNode;
  * @author RakhmedovRS
  * @created 24-Aug-20
  */
-@LeetCode(id = 654, name = "Maximum Binary Tree", url = "https://leetcode.com/problems/maximum-binary-tree/")
+@LeetCode(
+		id = 654,
+		name = "Maximum Binary Tree",
+		url = "https://leetcode.com/problems/maximum-binary-tree/",
+		difficulty = Difficulty.MEDIUM
+)
 public class MaximumBinaryTree
 {
 	public TreeNode constructMaximumBinaryTree(int[] nums)
