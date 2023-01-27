@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 9/24/2020
  */
-@LeetCode(id = 1037, name = "Valid Boomerang", url = "https://leetcode.com/problems/valid-boomerang/")
+@LeetCode(
+		id = 1037,
+		name = "Valid Boomerang",
+		url = "https://leetcode.com/problems/valid-boomerang/",
+		difficulty = Difficulty.EASY
+)
 public class ValidBoomerang
 {
 	public boolean isBoomerang(int[][] points)
