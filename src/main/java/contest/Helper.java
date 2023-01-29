@@ -26,6 +26,22 @@ public final class Helper
 		return result < 0 ? result + mod : result;
 	}
 
+	public static long factorialMod(int num, int mod)
+	{
+		if (num >= mod)
+		{
+			return 0;
+		}
+
+		int result = 1;
+		for (int i = 1; i <= num; i++)
+		{
+			result = (result * i) % mod;
+		}
+
+		return result;
+	}
+
 	public static int[] createCharFrequencyTable(String word)
 	{
 		int[] pattern = new int[26];
