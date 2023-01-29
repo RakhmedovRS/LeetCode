@@ -224,7 +224,7 @@ Count of solved tasks: 1703
 |278|Undefined|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[First Bad Version.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstBadVersion.java)|
 |279|Medium|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Perfect Squares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PerfectSquares.java)|
 |282|Undefined|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[Expression Add Operators.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExpressionAddOperators.java)|
-|283|Undefined|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Move Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MoveZeroes.java)|
+|283|Easy|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Move Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MoveZeroes.java)|
 |284|Medium|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Peeking Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PeekingIterator.java)|
 |287|Undefined|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Find the Duplicate Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindDuplicateNumber.java)|
 |289|Medium|[Game of Life](https://leetcode.com/problems/game-of-life/)|[Game of Life.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GameOfLife.java)|
@@ -1560,6 +1560,7 @@ Count of solved tasks: 1703
 |257|Easy|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Binary Tree Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreePaths.java)|
 |258|Easy|[Add Digits](https://leetcode.com/problems/add-digits/)|[Add Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddDigits.java)|
 |268|Easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MissingNumber.java)|
+|283|Easy|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Move Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MoveZeroes.java)|
 |303|Easy|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Range Sum Query - Immutable.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RangeSumQueryImmutable.java)|
 |326|Easy|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Power of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PowerOfThree.java)|
 |338|Easy|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Counting Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountingBits.java)|

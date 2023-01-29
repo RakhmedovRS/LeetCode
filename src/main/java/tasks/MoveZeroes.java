@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 03-Mar-20
  */
-@LeetCode(id = 283, name = "Move Zeroes", url = "https://leetcode.com/problems/move-zeroes/")
+@LeetCode(
+		id = 283,
+		name = "Move Zeroes",
+		url = "https://leetcode.com/problems/move-zeroes/",
+		difficulty = Difficulty.EASY
+)
 public class MoveZeroes
 {
 	public void moveZeroes(int[] nums)
