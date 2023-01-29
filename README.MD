@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1703
+Count of solved tasks: 1704
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1512,7 +1512,8 @@ Count of solved tasks: 1703
 |2544|Easy|[Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)|[Alternating Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingDigitSum.java)|
 |2545|Medium|[Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/)|[Sort the Students by Their Kth Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortTheStudentsByTheirKthScore.java)|
 |2546|Medium|[Apply Bitwise Operations to Make Strings Equal](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/)|[Apply Bitwise Operations to Make Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyBitwiseOperationsToMakeStringsEqual.java)|
-|2547|Hard|[Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array/)|[Minimum Cost to Split an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToSplitArray.java)|</p>
+|2547|Hard|[Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array/)|[Minimum Cost to Split an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToSplitArray.java)|
+|2549|Easy|[Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/)|[Count Distinct Numbers on Board.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDistinctNumbersOnBoard.java)|</p>
 </details>
 
 <details>
@@ -1848,7 +1849,8 @@ Count of solved tasks: 1703
 |2529|Easy|[Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/)|[Maximum Count of Positive Integer and Negative Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumCountOfPositiveIntegerAndNegativeInteger.java)|
 |2535|Easy|[Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/)|[Difference Between Element Sum and Digit Sum of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DifferenceBetweenElementSumAndDigitSumOfArray.java)|
 |2540|Easy|[Minimum Common Value](https://leetcode.com/problems/minimum-common-value/)|[Minimum Common Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCommonValue.java)|
-|2544|Easy|[Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)|[Alternating Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingDigitSum.java)|</p>
+|2544|Easy|[Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)|[Alternating Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingDigitSum.java)|
+|2549|Easy|[Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/)|[Count Distinct Numbers on Board.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDistinctNumbersOnBoard.java)|</p>
 </details>
 
 <details>
