@@ -70,7 +70,7 @@ Count of solved tasks: 1705
 |63|Medium|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Unique Paths II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UniquePathsII.java)|
 |64|Undefined|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Minimum Path Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPathSum.java)|
 |65|Hard|[Valid Number](https://leetcode.com/problems/valid-number/)|[Valid Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidNumber.java)|
-|66|Undefined|[Plus One](https://leetcode.com/problems/plus-one/)|[Plus One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PlusOne.java)|
+|66|Easy|[Plus One](https://leetcode.com/problems/plus-one/)|[Plus One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PlusOne.java)|
 |67|Easy|[Add Binary](https://leetcode.com/problems/add-binary/)|[Add Binary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddBinary.java)|
 |69|Easy|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Sqrt(x).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Sqrt.java)|
 |70|Easy|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClimbingStairs.java)|
@@ -1531,6 +1531,7 @@ Count of solved tasks: 1705
 |27|Easy|[Remove Element](https://leetcode.com/problems/remove-element/)|[Remove Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveElement.java)|
 |35|Easy|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Search Insert Position.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SearchInsertPosition.java)|
 |53|Easy|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSubarray.java)|
+|66|Easy|[Plus One](https://leetcode.com/problems/plus-one/)|[Plus One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PlusOne.java)|
 |67|Easy|[Add Binary](https://leetcode.com/problems/add-binary/)|[Add Binary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddBinary.java)|
 |69|Easy|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Sqrt(x).java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Sqrt.java)|
 |70|Easy|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClimbingStairs.java)|

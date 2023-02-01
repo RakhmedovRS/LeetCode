@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 13-Mar-20
  */
-@LeetCode(id = 66, name = "Plus One", url = "https://leetcode.com/problems/plus-one/")
+@LeetCode(
+		id = 66,
+		name = "Plus One",
+		url = "https://leetcode.com/problems/plus-one/",
+		difficulty = Difficulty.EASY
+)
 public class PlusOne
 {
 	public int[] plusOne(int[] digits)
