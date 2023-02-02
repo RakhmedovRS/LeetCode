@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashMap;
@@ -9,7 +10,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 06-Mar-20
  */
-@LeetCode(id = 146, name = "LRU Cache", url = "https://leetcode.com/problems/lru-cache/")
+@LeetCode(
+		id = 146,
+		name = "LRU Cache",
+		url = "https://leetcode.com/problems/lru-cache/",
+		difficulty = Difficulty.MEDIUM
+)
 public class LRUCache
 {
 	private class Entry
