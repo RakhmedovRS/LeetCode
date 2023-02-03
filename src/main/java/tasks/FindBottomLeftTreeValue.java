@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -12,7 +13,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 01-Jun-20
  */
-@LeetCode(id = 513, name = "Find Bottom Left Tree Value", url = "https://leetcode.com/problems/find-bottom-left-tree-value/")
+@LeetCode(
+		id = 513,
+		name = "Find Bottom Left Tree Value",
+		url = "https://leetcode.com/problems/find-bottom-left-tree-value/",
+		difficulty = Difficulty.MEDIUM
+)
 public class FindBottomLeftTreeValue
 {
 	public int findBottomLeftValue(TreeNode root)
