@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1705
+Count of solved tasks: 1706
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1514,7 +1514,8 @@ Count of solved tasks: 1705
 |2546|Medium|[Apply Bitwise Operations to Make Strings Equal](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/)|[Apply Bitwise Operations to Make Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyBitwiseOperationsToMakeStringsEqual.java)|
 |2547|Hard|[Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array/)|[Minimum Cost to Split an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToSplitArray.java)|
 |2549|Easy|[Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/)|[Count Distinct Numbers on Board.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDistinctNumbersOnBoard.java)|
-|2550|Medium|[Count Collisions of Monkeys on a Polygon](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/)|[Count Collisions of Monkeys on a Polygon.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCollisionsOfMonkeysOnPolygon.java)|</p>
+|2550|Medium|[Count Collisions of Monkeys on a Polygon](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/)|[Count Collisions of Monkeys on a Polygon.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCollisionsOfMonkeysOnPolygon.java)|
+|2558|Easy|[Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/)|[Take Gifts From the Richest Pile.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakeGiftsFromTheRichestPile.java)|</p>
 </details>
 
 <details>
@@ -1852,7 +1853,8 @@ Count of solved tasks: 1705
 |2535|Easy|[Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/)|[Difference Between Element Sum and Digit Sum of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DifferenceBetweenElementSumAndDigitSumOfArray.java)|
 |2540|Easy|[Minimum Common Value](https://leetcode.com/problems/minimum-common-value/)|[Minimum Common Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCommonValue.java)|
 |2544|Easy|[Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)|[Alternating Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingDigitSum.java)|
-|2549|Easy|[Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/)|[Count Distinct Numbers on Board.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDistinctNumbersOnBoard.java)|</p>
+|2549|Easy|[Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/)|[Count Distinct Numbers on Board.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDistinctNumbersOnBoard.java)|
+|2558|Easy|[Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/)|[Take Gifts From the Richest Pile.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakeGiftsFromTheRichestPile.java)|</p>
 </details>
 
 <details>
