@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1706
+Count of solved tasks: 1707
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1515,6 +1515,7 @@ Count of solved tasks: 1706
 |2547|Hard|[Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array/)|[Minimum Cost to Split an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToSplitArray.java)|
 |2549|Easy|[Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/)|[Count Distinct Numbers on Board.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDistinctNumbersOnBoard.java)|
 |2550|Medium|[Count Collisions of Monkeys on a Polygon](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/)|[Count Collisions of Monkeys on a Polygon.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCollisionsOfMonkeysOnPolygon.java)|
+|2554|Medium|[Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/)|[Maximum Number of Integers to Choose From a Range I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfIntegersToChooseFromRangeI.java)|
 |2558|Easy|[Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/)|[Take Gifts From the Richest Pile.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakeGiftsFromTheRichestPile.java)|</p>
 </details>
 
@@ -2510,7 +2511,8 @@ Count of solved tasks: 1706
 |2537|Medium|[Count the Number of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays/)|[Count the Number of Good Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfGoodSubarrays.java)|
 |2545|Medium|[Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/)|[Sort the Students by Their Kth Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortTheStudentsByTheirKthScore.java)|
 |2546|Medium|[Apply Bitwise Operations to Make Strings Equal](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/)|[Apply Bitwise Operations to Make Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyBitwiseOperationsToMakeStringsEqual.java)|
-|2550|Medium|[Count Collisions of Monkeys on a Polygon](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/)|[Count Collisions of Monkeys on a Polygon.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCollisionsOfMonkeysOnPolygon.java)|</p>
+|2550|Medium|[Count Collisions of Monkeys on a Polygon](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/)|[Count Collisions of Monkeys on a Polygon.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCollisionsOfMonkeysOnPolygon.java)|
+|2554|Medium|[Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/)|[Maximum Number of Integers to Choose From a Range I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfIntegersToChooseFromRangeI.java)|</p>
 </details>
 
 <details>
