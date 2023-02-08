@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1707
+Count of solved tasks: 1708
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1515,6 +1515,7 @@ Count of solved tasks: 1707
 |2547|Hard|[Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array/)|[Minimum Cost to Split an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToSplitArray.java)|
 |2549|Easy|[Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/)|[Count Distinct Numbers on Board.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDistinctNumbersOnBoard.java)|
 |2550|Medium|[Count Collisions of Monkeys on a Polygon](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/)|[Count Collisions of Monkeys on a Polygon.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCollisionsOfMonkeysOnPolygon.java)|
+|2553|Easy|[Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/)|[Separate the Digits in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SeparateTheDigitsInArray.java)|
 |2554|Medium|[Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/)|[Maximum Number of Integers to Choose From a Range I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfIntegersToChooseFromRangeI.java)|
 |2558|Easy|[Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/)|[Take Gifts From the Richest Pile.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakeGiftsFromTheRichestPile.java)|</p>
 </details>
@@ -1855,6 +1856,7 @@ Count of solved tasks: 1707
 |2540|Easy|[Minimum Common Value](https://leetcode.com/problems/minimum-common-value/)|[Minimum Common Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCommonValue.java)|
 |2544|Easy|[Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)|[Alternating Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingDigitSum.java)|
 |2549|Easy|[Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/)|[Count Distinct Numbers on Board.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDistinctNumbersOnBoard.java)|
+|2553|Easy|[Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/)|[Separate the Digits in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SeparateTheDigitsInArray.java)|
 |2558|Easy|[Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/)|[Take Gifts From the Richest Pile.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakeGiftsFromTheRichestPile.java)|</p>
 </details>
 
