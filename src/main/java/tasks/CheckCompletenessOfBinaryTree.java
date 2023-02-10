@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -12,7 +13,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 01-Jun-20
  */
-@LeetCode(id = 958, name = "Check Completeness of a Binary Tree", url = "https://leetcode.com/problems/check-completeness-of-a-binary-tree/")
+@LeetCode(
+		id = 958,
+		name = "Check Completeness of a Binary Tree",
+		url = "https://leetcode.com/problems/check-completeness-of-a-binary-tree/",
+		difficulty = Difficulty.MEDIUM
+)
 public class CheckCompletenessOfBinaryTree
 {
 	public boolean isCompleteTree(TreeNode root)
