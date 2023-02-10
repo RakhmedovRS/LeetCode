@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1709
+Count of solved tasks: 1710
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1518,7 +1518,8 @@ Count of solved tasks: 1709
 |2553|Easy|[Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/)|[Separate the Digits in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SeparateTheDigitsInArray.java)|
 |2554|Medium|[Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/)|[Maximum Number of Integers to Choose From a Range I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfIntegersToChooseFromRangeI.java)|
 |2558|Easy|[Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/)|[Take Gifts From the Richest Pile.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakeGiftsFromTheRichestPile.java)|
-|2559|Medium|[Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/)|[Count Vowel Strings in Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountVowelStringsInRanges.java)|</p>
+|2559|Medium|[Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/)|[Count Vowel Strings in Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountVowelStringsInRanges.java)|
+|2560|Medium|[House Robber IV](https://leetcode.com/problems/house-robber-iv/)|[House Robber IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HouseRobberIV.java)|</p>
 </details>
 
 <details>
@@ -2516,7 +2517,8 @@ Count of solved tasks: 1709
 |2546|Medium|[Apply Bitwise Operations to Make Strings Equal](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/)|[Apply Bitwise Operations to Make Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyBitwiseOperationsToMakeStringsEqual.java)|
 |2550|Medium|[Count Collisions of Monkeys on a Polygon](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/)|[Count Collisions of Monkeys on a Polygon.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCollisionsOfMonkeysOnPolygon.java)|
 |2554|Medium|[Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/)|[Maximum Number of Integers to Choose From a Range I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfIntegersToChooseFromRangeI.java)|
-|2559|Medium|[Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/)|[Count Vowel Strings in Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountVowelStringsInRanges.java)|</p>
+|2559|Medium|[Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/)|[Count Vowel Strings in Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountVowelStringsInRanges.java)|
+|2560|Medium|[House Robber IV](https://leetcode.com/problems/house-robber-iv/)|[House Robber IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HouseRobberIV.java)|</p>
 </details>
 
 <details>
