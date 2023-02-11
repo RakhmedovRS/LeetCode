@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 11/7/2020
  */
-@LeetCode(id = 1401, name = "Circle and Rectangle Overlapping", url = "https://leetcode.com/problems/circle-and-rectangle-overlapping/")
+@LeetCode(
+		id = 1401,
+		name = "Circle and Rectangle Overlapping",
+		url = "https://leetcode.com/problems/circle-and-rectangle-overlapping/",
+		difficulty = Difficulty.MEDIUM
+)
 public class CircleAndRectangleOverlapping
 {
 	class Circle
