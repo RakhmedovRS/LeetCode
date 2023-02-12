@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1710
+Count of solved tasks: 1711
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1519,7 +1519,8 @@ Count of solved tasks: 1710
 |2554|Medium|[Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/)|[Maximum Number of Integers to Choose From a Range I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfIntegersToChooseFromRangeI.java)|
 |2558|Easy|[Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/)|[Take Gifts From the Richest Pile.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakeGiftsFromTheRichestPile.java)|
 |2559|Medium|[Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/)|[Count Vowel Strings in Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountVowelStringsInRanges.java)|
-|2560|Medium|[House Robber IV](https://leetcode.com/problems/house-robber-iv/)|[House Robber IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HouseRobberIV.java)|</p>
+|2560|Medium|[House Robber IV](https://leetcode.com/problems/house-robber-iv/)|[House Robber IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HouseRobberIV.java)|
+|2562|Easy|[Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/description/)|[Find the Array Concatenation Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheArrayConcatenationValue.java)|</p>
 </details>
 
 <details>
@@ -1859,7 +1860,8 @@ Count of solved tasks: 1710
 |2544|Easy|[Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)|[Alternating Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingDigitSum.java)|
 |2549|Easy|[Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/)|[Count Distinct Numbers on Board.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDistinctNumbersOnBoard.java)|
 |2553|Easy|[Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/)|[Separate the Digits in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SeparateTheDigitsInArray.java)|
-|2558|Easy|[Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/)|[Take Gifts From the Richest Pile.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakeGiftsFromTheRichestPile.java)|</p>
+|2558|Easy|[Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/)|[Take Gifts From the Richest Pile.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakeGiftsFromTheRichestPile.java)|
+|2562|Easy|[Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/description/)|[Find the Array Concatenation Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheArrayConcatenationValue.java)|</p>
 </details>
 
 <details>
