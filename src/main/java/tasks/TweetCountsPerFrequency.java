@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -11,7 +12,12 @@ import java.util.TreeMap;
  * @author RakhmedovRS
  * @created 11/9/2020
  */
-@LeetCode(id = 1348, name = "Tweet Counts Per Frequency", url = "https://leetcode.com/problems/tweet-counts-per-frequency/")
+@LeetCode(
+		id = 1348,
+		name = "Tweet Counts Per Frequency",
+		url = "https://leetcode.com/problems/tweet-counts-per-frequency/",
+		difficulty = Difficulty.MEDIUM
+)
 public class TweetCountsPerFrequency
 {
 	class TweetCounts
