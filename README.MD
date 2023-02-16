@@ -380,7 +380,7 @@ Count of solved tasks: 1711
 |508|Undefined|[Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/)|[Most Frequent Subtree Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostFrequentSubtreeSum.java)|
 |509|Easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FibonacciNumber.java)|
 |513|Medium|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|[Find Bottom Left Tree Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindBottomLeftTreeValue.java)|
-|514|Undefined|[Freedom Trail](https://leetcode.com/problems/freedom-trail/)|[Freedom Trail.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FreedomTrail.java)|
+|514|Hard|[Freedom Trail](https://leetcode.com/problems/freedom-trail/)|[Freedom Trail.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FreedomTrail.java)|
 |515|Undefined|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[Find Largest Value in Each Tree Row.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindLargestValueInEachTreeRow.java)|
 |516|Undefined|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|[Longest Palindromic Subsequence.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestPalindromicSubsequence.java)|
 |518|Medium|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)|[Coin Change 2.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CoinChange2.java)|
@@ -2575,6 +2575,7 @@ Count of solved tasks: 1711
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[Poor Pigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PoorPigs.java)|
 |460|Hard|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|[LFU Cache.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LFUCache.java)|
 |472|Hard|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|[Concatenated Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenatedWords.java)|
+|514|Hard|[Freedom Trail](https://leetcode.com/problems/freedom-trail/)|[Freedom Trail.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FreedomTrail.java)|
 |546|Hard|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[Remove Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveBoxes.java)|
 |630|Hard|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|[Course Schedule III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CourseScheduleIII.java)|
 |639|Hard|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|[Decode Ways II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeWaysII.java)|

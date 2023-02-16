@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 01-Aug-20
  */
-@LeetCode(id = 514, name = "Freedom Trail", url = "https://leetcode.com/problems/freedom-trail/")
+@LeetCode(
+		id = 514,
+		name = "Freedom Trail",
+		url = "https://leetcode.com/problems/freedom-trail/",
+		difficulty = Difficulty.HARD
+)
 public class FreedomTrail
 {
 	public int findRotateSteps(String ring, String key)
