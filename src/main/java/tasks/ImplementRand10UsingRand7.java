@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -9,7 +10,12 @@ import java.util.Random;
  * @author RakhmedovRS
  * @created 21-May-20
  */
-@LeetCode(id = 470, name = "Implement Rand10() Using Rand7()", url = "https://leetcode.com/problems/implement-rand10-using-rand7/")
+@LeetCode(
+        id = 470,
+        name = "Implement Rand10() Using Rand7()",
+        url = "https://leetcode.com/problems/implement-rand10-using-rand7/",
+        difficulty = Difficulty.MEDIUM
+)
 public class ImplementRand10UsingRand7
 {
     private abstract class SolBase
