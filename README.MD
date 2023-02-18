@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1711
+Count of solved tasks: 1712
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1520,7 +1520,8 @@ Count of solved tasks: 1711
 |2558|Easy|[Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/)|[Take Gifts From the Richest Pile.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakeGiftsFromTheRichestPile.java)|
 |2559|Medium|[Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/)|[Count Vowel Strings in Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountVowelStringsInRanges.java)|
 |2560|Medium|[House Robber IV](https://leetcode.com/problems/house-robber-iv/)|[House Robber IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HouseRobberIV.java)|
-|2562|Easy|[Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/description/)|[Find the Array Concatenation Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheArrayConcatenationValue.java)|</p>
+|2562|Easy|[Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/description/)|[Find the Array Concatenation Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheArrayConcatenationValue.java)|
+|2566|Easy|[Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/description/)|[Maximum Difference by Remapping a Digit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceByRemappingDigit.java)|</p>
 </details>
 
 <details>
@@ -1862,7 +1863,8 @@ Count of solved tasks: 1711
 |2549|Easy|[Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/)|[Count Distinct Numbers on Board.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDistinctNumbersOnBoard.java)|
 |2553|Easy|[Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/)|[Separate the Digits in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SeparateTheDigitsInArray.java)|
 |2558|Easy|[Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/)|[Take Gifts From the Richest Pile.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakeGiftsFromTheRichestPile.java)|
-|2562|Easy|[Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/description/)|[Find the Array Concatenation Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheArrayConcatenationValue.java)|</p>
+|2562|Easy|[Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/description/)|[Find the Array Concatenation Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheArrayConcatenationValue.java)|
+|2566|Easy|[Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/description/)|[Maximum Difference by Remapping a Digit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceByRemappingDigit.java)|</p>
 </details>
 
 <details>
