@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1713
+Count of solved tasks: 1714
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1522,7 +1522,8 @@ Count of solved tasks: 1713
 |2560|Medium|[House Robber IV](https://leetcode.com/problems/house-robber-iv/)|[House Robber IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HouseRobberIV.java)|
 |2562|Easy|[Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/description/)|[Find the Array Concatenation Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheArrayConcatenationValue.java)|
 |2566|Easy|[Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/description/)|[Maximum Difference by Remapping a Digit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceByRemappingDigit.java)|
-|2567|Medium|[Minimum Score by Changing Two Elements](https://leetcode.com/problems/minimum-score-by-changing-two-elements/)|[Minimum Score by Changing Two Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumScoreByChangingTwoElements.java)|</p>
+|2567|Medium|[Minimum Score by Changing Two Elements](https://leetcode.com/problems/minimum-score-by-changing-two-elements/)|[Minimum Score by Changing Two Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumScoreByChangingTwoElements.java)|
+|2568|Medium|[Minimum Impossible OR](https://leetcode.com/problems/minimum-impossible-or/)|[Minimum Impossible OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumImpossibleOR.java)|</p>
 </details>
 
 <details>
@@ -2529,7 +2530,8 @@ Count of solved tasks: 1713
 |2554|Medium|[Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/)|[Maximum Number of Integers to Choose From a Range I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfIntegersToChooseFromRangeI.java)|
 |2559|Medium|[Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/)|[Count Vowel Strings in Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountVowelStringsInRanges.java)|
 |2560|Medium|[House Robber IV](https://leetcode.com/problems/house-robber-iv/)|[House Robber IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HouseRobberIV.java)|
-|2567|Medium|[Minimum Score by Changing Two Elements](https://leetcode.com/problems/minimum-score-by-changing-two-elements/)|[Minimum Score by Changing Two Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumScoreByChangingTwoElements.java)|</p>
+|2567|Medium|[Minimum Score by Changing Two Elements](https://leetcode.com/problems/minimum-score-by-changing-two-elements/)|[Minimum Score by Changing Two Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumScoreByChangingTwoElements.java)|
+|2568|Medium|[Minimum Impossible OR](https://leetcode.com/problems/minimum-impossible-or/)|[Minimum Impossible OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumImpossibleOR.java)|</p>
 </details>
 
 <details>
