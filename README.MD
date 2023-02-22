@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1714
+Count of solved tasks: 1715
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1523,7 +1523,8 @@ Count of solved tasks: 1714
 |2562|Easy|[Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/description/)|[Find the Array Concatenation Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheArrayConcatenationValue.java)|
 |2566|Easy|[Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/description/)|[Maximum Difference by Remapping a Digit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceByRemappingDigit.java)|
 |2567|Medium|[Minimum Score by Changing Two Elements](https://leetcode.com/problems/minimum-score-by-changing-two-elements/)|[Minimum Score by Changing Two Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumScoreByChangingTwoElements.java)|
-|2568|Medium|[Minimum Impossible OR](https://leetcode.com/problems/minimum-impossible-or/)|[Minimum Impossible OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumImpossibleOR.java)|</p>
+|2568|Medium|[Minimum Impossible OR](https://leetcode.com/problems/minimum-impossible-or/)|[Minimum Impossible OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumImpossibleOR.java)|
+|2570|Easy|[Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/)|[Merge Two 2D Arrays by Summing Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeTwo2DArraysBySummingValues.java)|</p>
 </details>
 
 <details>
@@ -1866,7 +1867,8 @@ Count of solved tasks: 1714
 |2553|Easy|[Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/)|[Separate the Digits in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SeparateTheDigitsInArray.java)|
 |2558|Easy|[Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/)|[Take Gifts From the Richest Pile.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakeGiftsFromTheRichestPile.java)|
 |2562|Easy|[Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/description/)|[Find the Array Concatenation Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheArrayConcatenationValue.java)|
-|2566|Easy|[Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/description/)|[Maximum Difference by Remapping a Digit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceByRemappingDigit.java)|</p>
+|2566|Easy|[Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/description/)|[Maximum Difference by Remapping a Digit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceByRemappingDigit.java)|
+|2570|Easy|[Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/)|[Merge Two 2D Arrays by Summing Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeTwo2DArraysBySummingValues.java)|</p>
 </details>
 
 <details>
