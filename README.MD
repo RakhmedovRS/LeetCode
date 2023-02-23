@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1715
+Count of solved tasks: 1716
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -696,6 +696,7 @@ Count of solved tasks: 1715
 |1008|Medium|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|[Construct Binary Search Tree from Preorder Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructBinarySearchTreeFromPreorderTraversal.java)|
 |1009|Easy|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|[Complement of Base 10 Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ComplementOfBase10Integer.java)|
 |1010|Medium|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[Pairs of Songs With Total Durations Divisible by 60.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PairsOfSongsWithTotalDurationsDivisibleBy60.java)|
+|1011|Medium|[Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)|[Capacity To Ship Packages Within D Days.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CapacityToShipPackagesWithinDDays.java)|
 |1013|Undefined|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|[Partition Array Into Three Parts With Equal Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionArrayIntoThreePartsWithEqualSum.java)|
 |1014|Medium|[Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)|[Best Sightseeing Pair.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestSightseeingPair.java)|
 |1015|Medium|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[Smallest Integer Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestIntegerDivisibleByK.java)|
@@ -2158,6 +2159,7 @@ Count of solved tasks: 1715
 |1007|Medium|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[Minimum Domino Rotations For Equal Row.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDominoRotationsForEqualRow.java)|
 |1008|Medium|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|[Construct Binary Search Tree from Preorder Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructBinarySearchTreeFromPreorderTraversal.java)|
 |1010|Medium|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[Pairs of Songs With Total Durations Divisible by 60.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PairsOfSongsWithTotalDurationsDivisibleBy60.java)|
+|1011|Medium|[Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)|[Capacity To Ship Packages Within D Days.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CapacityToShipPackagesWithinDDays.java)|
 |1014|Medium|[Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)|[Best Sightseeing Pair.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestSightseeingPair.java)|
 |1015|Medium|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[Smallest Integer Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestIntegerDivisibleByK.java)|
 |1016|Medium|[Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)|[Binary String With Substrings Representing 1 To N.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryStringWithSubstringsRepresentingOneToN.java)|
