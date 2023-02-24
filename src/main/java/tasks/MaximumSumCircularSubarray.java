@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 15-May-20
  */
-@LeetCode(id = 918, name = "Maximum Sum Circular Subarray", url = "https://leetcode.com/problems/maximum-sum-circular-subarray/")
+@LeetCode(
+		id = 918,
+		name = "Maximum Sum Circular Subarray",
+		url = "https://leetcode.com/problems/maximum-sum-circular-subarray/",
+		difficulty = Difficulty.MEDIUM
+)
 public class MaximumSumCircularSubarray
 {
 	public int maxSubarraySumCircular(int[] A)
