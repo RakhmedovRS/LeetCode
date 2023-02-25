@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 12-Mar-20
  */
-@LeetCode(id = 7, name = "Reverse Integer", url = "https://leetcode.com/problems/reverse-integer/")
+@LeetCode(
+		id = 7,
+		name = "Reverse Integer",
+		url = "https://leetcode.com/problems/reverse-integer/",
+		difficulty = Difficulty.MEDIUM
+)
 public class ReverseInteger
 {
 	public int reverse(int x)
