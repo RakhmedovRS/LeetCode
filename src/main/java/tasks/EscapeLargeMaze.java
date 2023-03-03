@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -8,7 +9,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 14-Aug-20
  */
-@LeetCode(id = 1036, name = "Escape a Large Maze", url = "https://leetcode.com/problems/escape-a-large-maze/")
+@LeetCode(
+		id = 1036,
+		name = "Escape a Large Maze",
+		url = "https://leetcode.com/problems/escape-a-large-maze/",
+		difficulty = Difficulty.HARD
+)
 public class EscapeLargeMaze
 {
 	public boolean isEscapePossible(int[][] blocked, int[] source, int[] target)
