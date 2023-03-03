@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashMap;
@@ -9,7 +10,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 21-Jun-20
  */
-@LeetCode(id = 1487, name = "Making File Names Unique", url = "https://leetcode.com/problems/making-file-names-unique/")
+@LeetCode(
+		id = 1487,
+		name = "Making File Names Unique",
+		url = "https://leetcode.com/problems/making-file-names-unique/",
+		difficulty = Difficulty.MEDIUM
+)
 public class MakingFileNamesUnique
 {
 	public String[] getFolderNames(String[] names)
