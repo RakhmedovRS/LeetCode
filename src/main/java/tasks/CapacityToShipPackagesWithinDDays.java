@@ -6,8 +6,6 @@ import common.LeetCode;
 /**
  * @author Ruslan Rakhmedov
  * @created 2/22/2023
- * @$
- * @$
  */
 @LeetCode(
         id = 1011,

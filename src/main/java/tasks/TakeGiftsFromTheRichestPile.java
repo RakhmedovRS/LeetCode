@@ -9,8 +9,6 @@ import java.util.PriorityQueue;
 /**
  * @author Ruslan Rakhmedov
  * @created 2/5/2023
- * @$
- * @$
  */
 @LeetCode(
         id = 2558,

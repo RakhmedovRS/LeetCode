@@ -8,8 +8,6 @@ import java.util.TreeSet;
 /**
  * @author Ruslan Rakhmedov
  * @created 12/30/2022
- * @$
- * @$
  */
 @LeetCode(
         id = 2517,

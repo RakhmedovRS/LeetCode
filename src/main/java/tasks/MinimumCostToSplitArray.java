@@ -9,8 +9,6 @@ import java.util.Map;
 /**
  * @author Ruslan Rakhmedov
  * @created 1/25/2023
- * @$
- * @$
  */
 @LeetCode(
         id = 2547,

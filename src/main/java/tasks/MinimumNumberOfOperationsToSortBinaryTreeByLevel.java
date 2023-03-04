@@ -9,8 +9,6 @@ import java.util.*;
 /**
  * @author Ruslan Rakhmedov
  * @created 11/21/2022
- * @$
- * @$
  */
 @LeetCode(
         id = 2471,

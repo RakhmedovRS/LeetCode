@@ -9,8 +9,6 @@ import java.util.TreeMap;
 /**
  * @author Ruslan Rakhmedov
  * @created 3/1/2023
- * @$
- * @$
  */
 @LeetCode(
         id = 2576,

@@ -8,8 +8,6 @@ import java.util.*;
 /**
  * @author Ruslan Rakhmedov
  * @created 9/10/2022
- * @$
- * @$
  */
 @LeetCode(
         id = 2402,

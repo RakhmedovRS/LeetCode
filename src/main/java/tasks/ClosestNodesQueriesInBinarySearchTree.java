@@ -12,8 +12,6 @@ import java.util.TreeSet;
 /**
  * @author Ruslan Rakhmedov
  * @created 11/24/2022
- * @$
- * @$
  */
 @LeetCode(
         id = 2476,

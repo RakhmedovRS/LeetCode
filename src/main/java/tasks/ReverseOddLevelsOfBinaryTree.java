@@ -12,8 +12,6 @@ import java.util.List;
 /**
  * @author Ruslan Rakhmedov
  * @created 9/24/2022
- * @$
- * @$
  */
 @LeetCode(
         id = 2415,

@@ -10,8 +10,6 @@ import java.util.Map;
 /**
  * @author Ruslan Rakhmedov
  * @created 9/26/2022
- * @$
- * @$
  */
 @LeetCode(
         id = 2418,

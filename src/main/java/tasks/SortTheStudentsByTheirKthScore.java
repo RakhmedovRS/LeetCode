@@ -10,8 +10,6 @@ import java.util.List;
 /**
  * @author Ruslan Rakhmedov
  * @created 1/23/2023
- * @$
- * @$
  */
 @LeetCode(
         id = 2545,

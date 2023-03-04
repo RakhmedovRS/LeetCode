@@ -9,8 +9,6 @@ import java.util.TreeSet;
 /**
  * @author Ruslan Rakhmedov
  * @created 1/4/2023
- * @$
- * @$
  */
 @LeetCode(
         id = 2523,

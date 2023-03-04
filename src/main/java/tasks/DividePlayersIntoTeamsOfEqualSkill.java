@@ -8,8 +8,6 @@ import java.util.Arrays;
 /**
  * @author Ruslan Rakhmedov
  * @created 12/10/2022
- * @$
- * @$
  */
 @LeetCode(
         id = 2491,

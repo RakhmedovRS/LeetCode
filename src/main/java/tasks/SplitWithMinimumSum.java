@@ -8,8 +8,6 @@ import java.util.LinkedList;
 /**
  * @author Ruslan Rakhmedov
  * @created 3/4/2023
- * @$
- * @$
  */
 @LeetCode(
         id = 2578,

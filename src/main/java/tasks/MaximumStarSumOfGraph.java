@@ -11,8 +11,6 @@ import java.util.PriorityQueue;
 /**
  * @author Ruslan Rakhmedov
  * @created 12/15/2022
- * @$
- * @$
  */
 @LeetCode(
         id = 2497,
