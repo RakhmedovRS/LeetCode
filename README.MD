@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1720
+Count of solved tasks: 1721
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1529,7 +1529,8 @@ Count of solved tasks: 1720
 |2571|Medium|[Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/)|[Minimum Operations to Reduce an Integer to 0.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToReduceIntegerToZero.java)|
 |2574|Easy|[Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/)|[Left and Right Sum Differences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LeftAndRightSumDifferences.java)|
 |2575|Medium|[Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/)|[Find the Divisibility Array of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheDivisibilityArrayOfString.java)|
-|2576|Medium|[Find the Maximum Number of Marked Indices](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/)|[Find the Maximum Number of Marked Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumNumberOfMarkedIndices.java)|</p>
+|2576|Medium|[Find the Maximum Number of Marked Indices](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/)|[Find the Maximum Number of Marked Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumNumberOfMarkedIndices.java)|
+|2578|Easy|[Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/)|[Split With Minimum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitWithMinimumSum.java)|</p>
 </details>
 
 <details>
@@ -1874,7 +1875,8 @@ Count of solved tasks: 1720
 |2562|Easy|[Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/description/)|[Find the Array Concatenation Value.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheArrayConcatenationValue.java)|
 |2566|Easy|[Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/description/)|[Maximum Difference by Remapping a Digit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceByRemappingDigit.java)|
 |2570|Easy|[Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/)|[Merge Two 2D Arrays by Summing Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeTwo2DArraysBySummingValues.java)|
-|2574|Easy|[Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/)|[Left and Right Sum Differences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LeftAndRightSumDifferences.java)|</p>
+|2574|Easy|[Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/)|[Left and Right Sum Differences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LeftAndRightSumDifferences.java)|
+|2578|Easy|[Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/)|[Split With Minimum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitWithMinimumSum.java)|</p>
 </details>
 
 <details>
