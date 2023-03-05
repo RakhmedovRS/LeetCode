@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1721
+Count of solved tasks: 1722
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1530,7 +1530,8 @@ Count of solved tasks: 1721
 |2574|Easy|[Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/)|[Left and Right Sum Differences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LeftAndRightSumDifferences.java)|
 |2575|Medium|[Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/)|[Find the Divisibility Array of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheDivisibilityArrayOfString.java)|
 |2576|Medium|[Find the Maximum Number of Marked Indices](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/)|[Find the Maximum Number of Marked Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumNumberOfMarkedIndices.java)|
-|2578|Easy|[Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/)|[Split With Minimum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitWithMinimumSum.java)|</p>
+|2578|Easy|[Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/)|[Split With Minimum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitWithMinimumSum.java)|
+|2579|Medium|[Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/)|[Count Total Number of Colored Cells.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTotalNumberOfColoredCells.java)|</p>
 </details>
 
 <details>
@@ -2548,7 +2549,8 @@ Count of solved tasks: 1721
 |2568|Medium|[Minimum Impossible OR](https://leetcode.com/problems/minimum-impossible-or/)|[Minimum Impossible OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumImpossibleOR.java)|
 |2571|Medium|[Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/)|[Minimum Operations to Reduce an Integer to 0.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToReduceIntegerToZero.java)|
 |2575|Medium|[Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/)|[Find the Divisibility Array of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheDivisibilityArrayOfString.java)|
-|2576|Medium|[Find the Maximum Number of Marked Indices](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/)|[Find the Maximum Number of Marked Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumNumberOfMarkedIndices.java)|</p>
+|2576|Medium|[Find the Maximum Number of Marked Indices](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/)|[Find the Maximum Number of Marked Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumNumberOfMarkedIndices.java)|
+|2579|Medium|[Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/)|[Count Total Number of Colored Cells.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTotalNumberOfColoredCells.java)|</p>
 </details>
 
 <details>
