@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1722
+Count of solved tasks: 1723
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1531,7 +1531,8 @@ Count of solved tasks: 1722
 |2575|Medium|[Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/)|[Find the Divisibility Array of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheDivisibilityArrayOfString.java)|
 |2576|Medium|[Find the Maximum Number of Marked Indices](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/)|[Find the Maximum Number of Marked Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumNumberOfMarkedIndices.java)|
 |2578|Easy|[Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/)|[Split With Minimum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitWithMinimumSum.java)|
-|2579|Medium|[Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/)|[Count Total Number of Colored Cells.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTotalNumberOfColoredCells.java)|</p>
+|2579|Medium|[Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/)|[Count Total Number of Colored Cells.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTotalNumberOfColoredCells.java)|
+|2580|Medium|[Count Ways to Group Overlapping Ranges](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/)|[Count Ways to Group Overlapping Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountWaysToGroupOverlappingRanges.java)|</p>
 </details>
 
 <details>
@@ -2550,7 +2551,8 @@ Count of solved tasks: 1722
 |2571|Medium|[Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/)|[Minimum Operations to Reduce an Integer to 0.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToReduceIntegerToZero.java)|
 |2575|Medium|[Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/)|[Find the Divisibility Array of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheDivisibilityArrayOfString.java)|
 |2576|Medium|[Find the Maximum Number of Marked Indices](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/)|[Find the Maximum Number of Marked Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumNumberOfMarkedIndices.java)|
-|2579|Medium|[Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/)|[Count Total Number of Colored Cells.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTotalNumberOfColoredCells.java)|</p>
+|2579|Medium|[Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/)|[Count Total Number of Colored Cells.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTotalNumberOfColoredCells.java)|
+|2580|Medium|[Count Ways to Group Overlapping Ranges](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/)|[Count Ways to Group Overlapping Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountWaysToGroupOverlappingRanges.java)|</p>
 </details>
 
 <details>
