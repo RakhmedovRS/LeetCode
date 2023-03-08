@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1723
+Count of solved tasks: 1724
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1532,7 +1532,8 @@ Count of solved tasks: 1723
 |2576|Medium|[Find the Maximum Number of Marked Indices](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/)|[Find the Maximum Number of Marked Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumNumberOfMarkedIndices.java)|
 |2578|Easy|[Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/)|[Split With Minimum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitWithMinimumSum.java)|
 |2579|Medium|[Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/)|[Count Total Number of Colored Cells.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTotalNumberOfColoredCells.java)|
-|2580|Medium|[Count Ways to Group Overlapping Ranges](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/)|[Count Ways to Group Overlapping Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountWaysToGroupOverlappingRanges.java)|</p>
+|2580|Medium|[Count Ways to Group Overlapping Ranges](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/)|[Count Ways to Group Overlapping Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountWaysToGroupOverlappingRanges.java)|
+|2582|Easy|[Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/)|[Pass the Pillow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PassThePillow.java)|</p>
 </details>
 
 <details>
@@ -1878,7 +1879,8 @@ Count of solved tasks: 1723
 |2566|Easy|[Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/description/)|[Maximum Difference by Remapping a Digit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceByRemappingDigit.java)|
 |2570|Easy|[Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/)|[Merge Two 2D Arrays by Summing Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeTwo2DArraysBySummingValues.java)|
 |2574|Easy|[Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/)|[Left and Right Sum Differences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LeftAndRightSumDifferences.java)|
-|2578|Easy|[Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/)|[Split With Minimum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitWithMinimumSum.java)|</p>
+|2578|Easy|[Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/)|[Split With Minimum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitWithMinimumSum.java)|
+|2582|Easy|[Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/)|[Pass the Pillow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PassThePillow.java)|</p>
 </details>
 
 <details>
