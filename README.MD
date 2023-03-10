@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1725
+Count of solved tasks: 1726
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1534,7 +1534,8 @@ Count of solved tasks: 1725
 |2579|Medium|[Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/)|[Count Total Number of Colored Cells.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTotalNumberOfColoredCells.java)|
 |2580|Medium|[Count Ways to Group Overlapping Ranges](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/)|[Count Ways to Group Overlapping Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountWaysToGroupOverlappingRanges.java)|
 |2582|Easy|[Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/)|[Pass the Pillow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PassThePillow.java)|
-|2583|Medium|[Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/)|[Kth Largest Sum in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthLargestSumInBinaryTree.java)|</p>
+|2583|Medium|[Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/)|[Kth Largest Sum in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthLargestSumInBinaryTree.java)|
+|2585|Hard|[Number of Ways to Earn Points](https://leetcode.com/problems/number-of-ways-to-earn-points/)|[Number of Ways to Earn Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfWaysToEarnPoints.java)|</p>
 </details>
 
 <details>
@@ -2666,7 +2667,8 @@ Count of solved tasks: 1725
 |2472|Hard|[Maximum Number of Non-overlapping Palindrome Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/)|[Maximum Number of Non-overlapping Palindrome Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfNonOverlappingPalindromeSubstrings.java)|
 |2484|Hard|[Count Palindromic Subsequences](https://leetcode.com/problems/count-palindromic-subsequences/)|[Count Palindromic Subsequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPalindromicSubsequences.java)|
 |2493|Hard|[Divide Nodes Into the Maximum Number of Groups](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/)|[Divide Nodes Into the Maximum Number of Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideNodesIntoTheMaximumNumberOfGroups.java)|
-|2547|Hard|[Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array/)|[Minimum Cost to Split an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToSplitArray.java)|</p>
+|2547|Hard|[Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array/)|[Minimum Cost to Split an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToSplitArray.java)|
+|2585|Hard|[Number of Ways to Earn Points](https://leetcode.com/problems/number-of-ways-to-earn-points/)|[Number of Ways to Earn Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfWaysToEarnPoints.java)|</p>
 </details>
 
 <details>
