@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -9,7 +10,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 11/4/2020
  */
-@LeetCode(id = 1023, name = "Camelcase Matching", url = "https://leetcode.com/problems/camelcase-matching/")
+@LeetCode(
+		id = 1023,
+		name = "Camelcase Matching",
+		url = "https://leetcode.com/problems/camelcase-matching/",
+		difficulty = Difficulty.MEDIUM
+)
 public class CamelcaseMatching
 {
 	public List<Boolean> camelMatch(String[] queries, String pattern)
