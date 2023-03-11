@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -8,7 +9,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 18-May-20
  */
-@LeetCode(id = 500, name = "Keyboard Row", url = "https://leetcode.com/problems/keyboard-row/")
+@LeetCode(
+		id = 500,
+		name = "Keyboard Row",
+		url = "https://leetcode.com/problems/keyboard-row/",
+		difficulty = Difficulty.EASY
+)
 public class KeyboardRow
 {
 	public String[] findWords(String[] words)

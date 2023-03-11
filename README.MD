@@ -371,7 +371,7 @@ Count of solved tasks: 1726
 |496|Easy|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Next Greater Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NextGreaterElementI.java)|
 |497|Undefined|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/)|[Random Point in Non-overlapping Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RandomPointInNonOverlappingRectangles.java)|
 |498|Medium|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Diagonal Traverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DiagonalTraverse.java)|
-|500|Undefined|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[Keyboard Row.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KeyboardRow.java)|
+|500|Easy|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[Keyboard Row.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KeyboardRow.java)|
 |501|Easy|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[Find Mode in Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindModeInBinarySearchTree.java)|
 |503|Medium|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[Next Greater Element II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NextGreaterElementII.java)|
 |504|Easy|[Base 7](https://leetcode.com/problems/base-7/)|[Base 7.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Base7.java)|
@@ -1606,6 +1606,7 @@ Count of solved tasks: 1726
 |482|Easy|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|[License Key Formatting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LicenseKeyFormatting.java)|
 |485|Easy|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max Consecutive Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxConsecutiveOnes.java)|
 |496|Easy|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Next Greater Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NextGreaterElementI.java)|
+|500|Easy|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[Keyboard Row.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KeyboardRow.java)|
 |501|Easy|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[Find Mode in Binary Search Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindModeInBinarySearchTree.java)|
 |504|Easy|[Base 7](https://leetcode.com/problems/base-7/)|[Base 7.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Base7.java)|
 |509|Easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FibonacciNumber.java)|
