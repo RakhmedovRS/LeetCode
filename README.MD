@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1726
+Count of solved tasks: 1727
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1535,7 +1535,8 @@ Count of solved tasks: 1726
 |2580|Medium|[Count Ways to Group Overlapping Ranges](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/)|[Count Ways to Group Overlapping Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountWaysToGroupOverlappingRanges.java)|
 |2582|Easy|[Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/)|[Pass the Pillow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PassThePillow.java)|
 |2583|Medium|[Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/)|[Kth Largest Sum in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthLargestSumInBinaryTree.java)|
-|2585|Hard|[Number of Ways to Earn Points](https://leetcode.com/problems/number-of-ways-to-earn-points/)|[Number of Ways to Earn Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfWaysToEarnPoints.java)|</p>
+|2585|Hard|[Number of Ways to Earn Points](https://leetcode.com/problems/number-of-ways-to-earn-points/)|[Number of Ways to Earn Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfWaysToEarnPoints.java)|
+|2586|Easy|[Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/)|[Count the Number of Vowel Strings in Range.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfVowelStringsInRange.java)|</p>
 </details>
 
 <details>
@@ -1883,7 +1884,8 @@ Count of solved tasks: 1726
 |2570|Easy|[Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/)|[Merge Two 2D Arrays by Summing Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeTwo2DArraysBySummingValues.java)|
 |2574|Easy|[Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/)|[Left and Right Sum Differences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LeftAndRightSumDifferences.java)|
 |2578|Easy|[Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/)|[Split With Minimum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitWithMinimumSum.java)|
-|2582|Easy|[Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/)|[Pass the Pillow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PassThePillow.java)|</p>
+|2582|Easy|[Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/)|[Pass the Pillow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PassThePillow.java)|
+|2586|Easy|[Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/)|[Count the Number of Vowel Strings in Range.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfVowelStringsInRange.java)|</p>
 </details>
 
 <details>
