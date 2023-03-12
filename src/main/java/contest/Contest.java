@@ -36,6 +36,8 @@ import java.util.stream.Collectors;
  * Sliding Window
  * Graph
  * Recursion
+ * Prefix Sum
+ * XOR
  * </pre>
  */
 public class Contest
