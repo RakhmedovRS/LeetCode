@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1727
+Count of solved tasks: 1728
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1536,7 +1536,8 @@ Count of solved tasks: 1727
 |2582|Easy|[Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/)|[Pass the Pillow.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PassThePillow.java)|
 |2583|Medium|[Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/)|[Kth Largest Sum in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthLargestSumInBinaryTree.java)|
 |2585|Hard|[Number of Ways to Earn Points](https://leetcode.com/problems/number-of-ways-to-earn-points/)|[Number of Ways to Earn Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfWaysToEarnPoints.java)|
-|2586|Easy|[Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/)|[Count the Number of Vowel Strings in Range.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfVowelStringsInRange.java)|</p>
+|2586|Easy|[Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/)|[Count the Number of Vowel Strings in Range.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfVowelStringsInRange.java)|
+|2587|Medium|[Rearrange Array to Maximize Prefix Score](https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/)|[Rearrange Array to Maximize Prefix Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeArrayToMaximizePrefixScore.java)|</p>
 </details>
 
 <details>
@@ -2561,7 +2562,8 @@ Count of solved tasks: 1727
 |2576|Medium|[Find the Maximum Number of Marked Indices](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/)|[Find the Maximum Number of Marked Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumNumberOfMarkedIndices.java)|
 |2579|Medium|[Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/)|[Count Total Number of Colored Cells.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTotalNumberOfColoredCells.java)|
 |2580|Medium|[Count Ways to Group Overlapping Ranges](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/)|[Count Ways to Group Overlapping Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountWaysToGroupOverlappingRanges.java)|
-|2583|Medium|[Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/)|[Kth Largest Sum in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthLargestSumInBinaryTree.java)|</p>
+|2583|Medium|[Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/)|[Kth Largest Sum in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthLargestSumInBinaryTree.java)|
+|2587|Medium|[Rearrange Array to Maximize Prefix Score](https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/)|[Rearrange Array to Maximize Prefix Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeArrayToMaximizePrefixScore.java)|</p>
 </details>
 
 <details>
