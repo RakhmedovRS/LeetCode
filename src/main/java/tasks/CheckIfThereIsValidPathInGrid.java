@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 11/10/2020
  */
-@LeetCode(id = 1391, name = "Check if There is a Valid Path in a Grid", url = "https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/")
+@LeetCode(
+		id = 1391,
+		name = "Check if There is a Valid Path in a Grid",
+		url = "https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/",
+		difficulty = Difficulty.MEDIUM
+)
 public class CheckIfThereIsValidPathInGrid
 {
 	enum Direction
