@@ -563,7 +563,7 @@ Count of solved tasks: 1728
 |831|Medium|[Masking Personal Information](https://leetcode.com/problems/masking-personal-information/)|[Masking Personal Information.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaskingPersonalInformation.java)|
 |832|Undefined|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[Flipping an Image.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FlippingAnImage.java)|
 |833|Medium|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|[Find And Replace in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAndReplaceInString.java)|
-|835|Undefined|[Image Overlap](https://leetcode.com/problems/image-overlap/)|[Image Overlap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ImageOverlap.java)|
+|835|Medium|[Image Overlap](https://leetcode.com/problems/image-overlap/)|[Image Overlap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ImageOverlap.java)|
 |836|Undefined|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)|[Rectangle Overlap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RectangleOverlap.java)|
 |837|Medium|[New 21 Game](https://leetcode.com/problems/new-21-game/)|[New 21 Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/New21Game.java)|
 |838|Medium|[Push Dominoes](https://leetcode.com/problems/push-dominoes/)|[Push Dominoes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PushDominoes.java)|
@@ -2122,6 +2122,7 @@ Count of solved tasks: 1728
 |823|Medium|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[Binary Trees With Factors.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreesWithFactors.java)|
 |831|Medium|[Masking Personal Information](https://leetcode.com/problems/masking-personal-information/)|[Masking Personal Information.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaskingPersonalInformation.java)|
 |833|Medium|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|[Find And Replace in String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAndReplaceInString.java)|
+|835|Medium|[Image Overlap](https://leetcode.com/problems/image-overlap/)|[Image Overlap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ImageOverlap.java)|
 |837|Medium|[New 21 Game](https://leetcode.com/problems/new-21-game/)|[New 21 Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/New21Game.java)|
 |838|Medium|[Push Dominoes](https://leetcode.com/problems/push-dominoes/)|[Push Dominoes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PushDominoes.java)|
 |841|Medium|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[Keys and Rooms.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KeysAndRooms.java)|

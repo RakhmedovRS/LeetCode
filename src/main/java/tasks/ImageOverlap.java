@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 06-Sep-20
  */
-@LeetCode(id = 835, name = "Image Overlap", url = "https://leetcode.com/problems/image-overlap/")
+@LeetCode(
+		id = 835,
+		name = "Image Overlap",
+		url = "https://leetcode.com/problems/image-overlap/",
+		difficulty = Difficulty.MEDIUM
+)
 public class ImageOverlap
 {
 	public int largestOverlap(int[][] A, int[][] B)
