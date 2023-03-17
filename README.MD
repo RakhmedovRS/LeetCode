@@ -166,7 +166,7 @@ Count of solved tasks: 1728
 |179|Undefined|[Largest Number](https://leetcode.com/problems/largest-number/)|[Largest Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestNumber.java)|
 |187|Undefined|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)|[Repeated DNA Sequences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RepeatedDNASequences.java)|
 |188|Hard|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|[Best Time to Buy and Sell Stock IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestTimeToBuyAndSellStockIV.java)|
-|189|Undefined|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Rotate Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotateArray.java)|
+|189|Medium|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Rotate Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotateArray.java)|
 |190|Undefined|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[Reverse Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseBits.java)|
 |191|Easy|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOf1Bits.java)|
 |198|Medium|[House Robber](https://leetcode.com/problems/house-robber/)|[House Robber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HouseRobber.java)|
@@ -1973,6 +1973,7 @@ Count of solved tasks: 1728
 |165|Medium|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Compare Version Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CompareVersionNumbers.java)|
 |172|Medium|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|[Factorial Trailing Zeroes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FactorialTrailingZeroes.java)|
 |173|Medium|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Binary Search Tree Iterator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinarySearchTreeIterator.java)|
+|189|Medium|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Rotate Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RotateArray.java)|
 |198|Medium|[House Robber](https://leetcode.com/problems/house-robber/)|[House Robber.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HouseRobber.java)|
 |199|Medium|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Binary Tree Right Side View.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BinaryTreeRightSideView.java)|
 |200|Medium|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Number of Islands.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfIslands.java)|

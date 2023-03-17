@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.Arrays;
@@ -8,7 +9,12 @@ import java.util.Arrays;
  * @author RakhmedovRS
  * @created 28-Mar-20
  */
-@LeetCode(id = 189, name = "Rotate Array", url = "https://leetcode.com/problems/rotate-array/")
+@LeetCode(
+		id = 189,
+		name = "Rotate Array",
+		url = "https://leetcode.com/problems/rotate-array/",
+		difficulty = Difficulty.MEDIUM
+)
 public class RotateArray
 {
 	public void rotate(int[] nums, int k)
