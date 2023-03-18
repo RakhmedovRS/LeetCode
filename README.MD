@@ -10,7 +10,7 @@ Count of solved tasks: 1728
 |1|Easy|[Two Sum](https://leetcode.com/problems/two-sum/)|[Two Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoSum.java)|
 |2|Medium|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Add Two Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddTwoNumbers.java)|
 |3|Medium|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest Substring Without Repeating Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubstringWithoutRepeatingCharacters.java)|
-|4|Undefined|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Median of Two Sorted Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MedianOfTwoSortedArrays.java)|
+|4|Hard|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Median of Two Sorted Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MedianOfTwoSortedArrays.java)|
 |5|Medium|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest Palindromic Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestPalindromicSubstring.java)|
 |7|Medium|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Reverse Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseInteger.java)|
 |8|Medium|[String to Integer](https://leetcode.com/problems/string-to-integer-atoi/)|[String to Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StringToInteger.java)|
@@ -2575,6 +2575,7 @@ Count of solved tasks: 1728
 
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
+|4|Hard|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Median of Two Sorted Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MedianOfTwoSortedArrays.java)|
 |23|Hard|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[Merge k Sorted Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeKSortedLists.java)|
 |25|Hard|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[Reverse Nodes in k-Group.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReverseNodesInKGroup.java)|
 |32|Hard|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Longest Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestValidParentheses.java)|

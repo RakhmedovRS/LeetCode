@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 03-Apr-20
  */
-@LeetCode(id = 4, name = "Median of Two Sorted Arrays", url = "https://leetcode.com/problems/median-of-two-sorted-arrays/")
+@LeetCode(
+		id = 4,
+		name = "Median of Two Sorted Arrays",
+		url = "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+		difficulty = Difficulty.HARD
+)
 public class MedianOfTwoSortedArrays
 {
 	public double findMedianSortedArrays(int[] nums1, int[] nums2)
