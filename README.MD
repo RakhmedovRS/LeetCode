@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1730
+Count of solved tasks: 1731
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1539,7 +1539,8 @@ Count of solved tasks: 1730
 |2586|Easy|[Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/)|[Count the Number of Vowel Strings in Range.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfVowelStringsInRange.java)|
 |2587|Medium|[Rearrange Array to Maximize Prefix Score](https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/)|[Rearrange Array to Maximize Prefix Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeArrayToMaximizePrefixScore.java)|
 |2591|Easy|[Distribute Money to Maximum Children](https://leetcode.com/problems/distribute-money-to-maximum-children/description/)|[Distribute Money to Maximum Children.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DistributeMoneyToMaximumChildren.java)|
-|2592|Medium|[Maximize Greatness of an Array](https://leetcode.com/problems/maximize-greatness-of-an-array/)|[Maximize Greatness of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeGreatnessOfArray.java)|</p>
+|2592|Medium|[Maximize Greatness of an Array](https://leetcode.com/problems/maximize-greatness-of-an-array/)|[Maximize Greatness of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeGreatnessOfArray.java)|
+|2593|Medium|[Find Score of an Array After Marking All Elements](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/)|[Find Score of an Array After Marking All Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindScoreOfArrayAfterMarkingAllElements.java)|</p>
 </details>
 
 <details>
@@ -2570,7 +2571,8 @@ Count of solved tasks: 1730
 |2580|Medium|[Count Ways to Group Overlapping Ranges](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/)|[Count Ways to Group Overlapping Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountWaysToGroupOverlappingRanges.java)|
 |2583|Medium|[Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/)|[Kth Largest Sum in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthLargestSumInBinaryTree.java)|
 |2587|Medium|[Rearrange Array to Maximize Prefix Score](https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/)|[Rearrange Array to Maximize Prefix Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeArrayToMaximizePrefixScore.java)|
-|2592|Medium|[Maximize Greatness of an Array](https://leetcode.com/problems/maximize-greatness-of-an-array/)|[Maximize Greatness of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeGreatnessOfArray.java)|</p>
+|2592|Medium|[Maximize Greatness of an Array](https://leetcode.com/problems/maximize-greatness-of-an-array/)|[Maximize Greatness of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeGreatnessOfArray.java)|
+|2593|Medium|[Find Score of an Array After Marking All Elements](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/)|[Find Score of an Array After Marking All Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindScoreOfArrayAfterMarkingAllElements.java)|</p>
 </details>
 
 <details>
