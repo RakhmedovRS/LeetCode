@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1737
+Count of solved tasks: 1738
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1546,7 +1546,8 @@ Count of solved tasks: 1737
 |2596|Medium|[Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/)|[Check Knight Tour Configuration.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckKnightTourConfiguration.java)|
 |2597|Medium|[The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/)|[The Number of Beautiful Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheNumberOfBeautifulSubsets.java)|
 |2600|Easy|[K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/)|[K Items With the Maximum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KItemsWithTheMaximumSum.java)|
-|2601|Medium|[Prime Subtraction Operation](https://leetcode.com/problems/prime-subtraction-operation/)|[Prime Subtraction Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimeSubtractionOperation.java)|</p>
+|2601|Medium|[Prime Subtraction Operation](https://leetcode.com/problems/prime-subtraction-operation/)|[Prime Subtraction Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimeSubtractionOperation.java)|
+|2602|Medium|[Minimum Operations to Make All Array Elements Equal](https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/)|[Minimum Operations to Make All Array Elements Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeAllArrayElementsEqual.java)|</p>
 </details>
 
 <details>
@@ -2584,7 +2585,8 @@ Count of solved tasks: 1737
 |2594|Medium|[Minimum Time to Repair Cars](https://leetcode.com/problems/minimum-time-to-repair-cars/)|[Minimum Time to Repair Cars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToRepairCars.java)|
 |2596|Medium|[Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/)|[Check Knight Tour Configuration.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckKnightTourConfiguration.java)|
 |2597|Medium|[The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/)|[The Number of Beautiful Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheNumberOfBeautifulSubsets.java)|
-|2601|Medium|[Prime Subtraction Operation](https://leetcode.com/problems/prime-subtraction-operation/)|[Prime Subtraction Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimeSubtractionOperation.java)|</p>
+|2601|Medium|[Prime Subtraction Operation](https://leetcode.com/problems/prime-subtraction-operation/)|[Prime Subtraction Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimeSubtractionOperation.java)|
+|2602|Medium|[Minimum Operations to Make All Array Elements Equal](https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/)|[Minimum Operations to Make All Array Elements Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeAllArrayElementsEqual.java)|</p>
 </details>
 
 <details>
