@@ -7,10 +7,11 @@ import common.LeetCode;
  * @author RakhmedovRS
  * @created 22-Jul-20
  */
-@LeetCode(id = 1332,
-	name = "Remove Palindromic Subsequences",
-	url = "https://leetcode.com/problems/remove-palindromic-subsequences/",
-	difficulty = Difficulty.EASY
+@LeetCode(
+		id = 1332,
+        name = "Remove Palindromic Subsequences",
+        url = "https://leetcode.com/problems/remove-palindromic-subsequences/",
+        difficulty = Difficulty.EASY
 )
 public class RemovePalindromicSubsequences
 {
