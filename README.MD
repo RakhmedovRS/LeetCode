@@ -716,7 +716,7 @@ Count of solved tasks: 1738
 |1031|Undefined|[Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/)|[Maximum Sum of Two Non-Overlapping Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumOfTwoNonOverlappingSubarrays.java)|
 |1032|Hard|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|[Stream of Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StreamOfCharacters.java)|
 |1033|Undefined|[Moving Stones Until Consecutive](https://leetcode.com/problems/moving-stones-until-consecutive/)|[Moving Stones Until Consecutive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MovingStonesUntilConsecutive.java)|
-|1034|Undefined|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|[Coloring A Border.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ColoringBorder.java)|
+|1034|Medium|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|[Coloring A Border.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ColoringBorder.java)|
 |1035|Medium|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)|[Uncrossed Lines.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UncrossedLines.java)|
 |1036|Hard|[Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/)|[Escape a Large Maze.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EscapeLargeMaze.java)|
 |1037|Easy|[Valid Boomerang](https://leetcode.com/problems/valid-boomerang/)|[Valid Boomerang.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidBoomerang.java)|
@@ -2200,6 +2200,7 @@ Count of solved tasks: 1738
 |1023|Medium|[Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)|[Camelcase Matching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CamelcaseMatching.java)|
 |1024|Medium|[Video Stitching](https://leetcode.com/problems/video-stitching/)|[Video Stitching.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VideoStitching.java)|
 |1029|Medium|[Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)|[Two City Scheduling.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoCityScheduling.java)|
+|1034|Medium|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|[Coloring A Border.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ColoringBorder.java)|
 |1035|Medium|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)|[Uncrossed Lines.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/UncrossedLines.java)|
 |1048|Medium|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|[Longest String Chain.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestStringChain.java)|
 |1073|Medium|[Adding Two Negabinary Numbers](https://leetcode.com/problems/adding-two-negabinary-numbers/)|[Adding Two Negabinary Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AddingTwoNegabinaryNumbers.java)|

@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.ArrayList;
@@ -11,7 +12,12 @@ import java.util.Queue;
  * @author RakhmedovRS
  * @created 18-Sep-20
  */
-@LeetCode(id = 1034, name = "Coloring A Border", url = "https://leetcode.com/problems/coloring-a-border/")
+@LeetCode(
+		id = 1034,
+		name = "Coloring A Border",
+		url = "https://leetcode.com/problems/coloring-a-border/",
+		difficulty = Difficulty.MEDIUM
+)
 public class ColoringBorder
 {
 	public int[][] colorBorder(int[][] grid, int r0, int c0, int color)
