@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1738
+Count of solved tasks: 1739
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1547,7 +1547,8 @@ Count of solved tasks: 1738
 |2597|Medium|[The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/)|[The Number of Beautiful Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheNumberOfBeautifulSubsets.java)|
 |2600|Easy|[K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/)|[K Items With the Maximum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KItemsWithTheMaximumSum.java)|
 |2601|Medium|[Prime Subtraction Operation](https://leetcode.com/problems/prime-subtraction-operation/)|[Prime Subtraction Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimeSubtractionOperation.java)|
-|2602|Medium|[Minimum Operations to Make All Array Elements Equal](https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/)|[Minimum Operations to Make All Array Elements Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeAllArrayElementsEqual.java)|</p>
+|2602|Medium|[Minimum Operations to Make All Array Elements Equal](https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/)|[Minimum Operations to Make All Array Elements Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeAllArrayElementsEqual.java)|
+|2605|Easy|[Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/)|[Form Smallest Number From Two Digit Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FormSmallestNumberFromTwoDigitArrays.java)|</p>
 </details>
 
 <details>
@@ -1899,7 +1900,8 @@ Count of solved tasks: 1738
 |2586|Easy|[Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/)|[Count the Number of Vowel Strings in Range.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfVowelStringsInRange.java)|
 |2591|Easy|[Distribute Money to Maximum Children](https://leetcode.com/problems/distribute-money-to-maximum-children/description/)|[Distribute Money to Maximum Children.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DistributeMoneyToMaximumChildren.java)|
 |2595|Easy|[Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits/)|[Number of Even and Odd Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumbeOfEvenAndOddBits.java)|
-|2600|Easy|[K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/)|[K Items With the Maximum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KItemsWithTheMaximumSum.java)|</p>
+|2600|Easy|[K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/)|[K Items With the Maximum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KItemsWithTheMaximumSum.java)|
+|2605|Easy|[Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/)|[Form Smallest Number From Two Digit Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FormSmallestNumberFromTwoDigitArrays.java)|</p>
 </details>
 
 <details>
