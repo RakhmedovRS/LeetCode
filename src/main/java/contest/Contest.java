@@ -44,33 +44,7 @@ public class Contest
 {
     int MOD = 1_000_000_007;
 
-    public int findTheLongestBalancedSubstring(String s)
-    {
-        int max = 0;
-        int pos = 0;
-        while (pos < s.length())
-        {
-            int z = 0;
-            int o = 0;
-            while (pos < s.length() && s.charAt(pos) == '0')
-            {
-                z++;
-                pos++;
-            }
 
-            while (pos < s.length() && s.charAt(pos) == '1')
-            {
-                o++;
-                if (z >= o)
-                {
-                    max = Math.max(max, o * 2);
-                }
-                pos++;
-            }
-        }
-
-        return max;
-    }
 
     public static void main(String[] args) throws Exception
     {

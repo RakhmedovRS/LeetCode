@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1739
+Count of solved tasks: 1740
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1548,7 +1548,8 @@ Count of solved tasks: 1739
 |2600|Easy|[K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/)|[K Items With the Maximum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KItemsWithTheMaximumSum.java)|
 |2601|Medium|[Prime Subtraction Operation](https://leetcode.com/problems/prime-subtraction-operation/)|[Prime Subtraction Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimeSubtractionOperation.java)|
 |2602|Medium|[Minimum Operations to Make All Array Elements Equal](https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/)|[Minimum Operations to Make All Array Elements Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeAllArrayElementsEqual.java)|
-|2605|Easy|[Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/)|[Form Smallest Number From Two Digit Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FormSmallestNumberFromTwoDigitArrays.java)|</p>
+|2605|Easy|[Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/)|[Form Smallest Number From Two Digit Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FormSmallestNumberFromTwoDigitArrays.java)|
+|2609|Easy|[Find the Longest Balanced Substring of a Binary String](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/description/)|[Find the Longest Balanced Substring of a Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLongestBalancedSubstringOfBinaryString.java)|</p>
 </details>
 
 <details>
@@ -1901,7 +1902,8 @@ Count of solved tasks: 1739
 |2591|Easy|[Distribute Money to Maximum Children](https://leetcode.com/problems/distribute-money-to-maximum-children/description/)|[Distribute Money to Maximum Children.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DistributeMoneyToMaximumChildren.java)|
 |2595|Easy|[Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits/)|[Number of Even and Odd Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumbeOfEvenAndOddBits.java)|
 |2600|Easy|[K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/)|[K Items With the Maximum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KItemsWithTheMaximumSum.java)|
-|2605|Easy|[Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/)|[Form Smallest Number From Two Digit Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FormSmallestNumberFromTwoDigitArrays.java)|</p>
+|2605|Easy|[Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/)|[Form Smallest Number From Two Digit Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FormSmallestNumberFromTwoDigitArrays.java)|
+|2609|Easy|[Find the Longest Balanced Substring of a Binary String](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/description/)|[Find the Longest Balanced Substring of a Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLongestBalancedSubstringOfBinaryString.java)|</p>
 </details>
 
 <details>
