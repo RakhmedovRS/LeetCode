@@ -135,7 +135,7 @@ Count of solved tasks: 1740
 |133|Medium|[Clone Graph](https://leetcode.com/problems/clone-graph/)|[Clone Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CloneGraph.java)|
 |134|Medium|[Gas Station](https://leetcode.com/problems/gas-station/)|[Gas Station.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GasStation.java)|
 |135|Hard|[Candy](https://leetcode.com/problems/candy/)|[Candy.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Candy.java)|
-|136|Undefined|[Single Number](https://leetcode.com/problems/single-number/)|[Single Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SingleNumber.java)|
+|136|Easy|[Single Number](https://leetcode.com/problems/single-number/)|[Single Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SingleNumber.java)|
 |138|Medium|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Copy List with Random Pointer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CopyListWithRandomPointer.java)|
 |139|Undefined|[Word Break](https://leetcode.com/problems/word-break/)|[Word Break.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordBreak.java)|
 |140|Hard|[Word Break](https://leetcode.com/problems/word-break-ii/)|[Word Break.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WordBreakII.java)|
@@ -1577,6 +1577,7 @@ Count of solved tasks: 1740
 |110|Easy|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Balanced Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BalancedBinaryTree.java)|
 |118|Easy|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Pascal's Triangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PascalTriangle.java)|
 |121|Easy|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Best Time to Buy and Sell Stock.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestTimeToBuyAndSellStock.java)|
+|136|Easy|[Single Number](https://leetcode.com/problems/single-number/)|[Single Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SingleNumber.java)|
 |141|Easy|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LinkedListCycle.java)|
 |155|Easy|[Min Stack](https://leetcode.com/problems/min-stack/)|[Min Stack.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinStack.java)|
 |160|Easy|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Intersection of Two Linked Lists.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IntersectionOfTwoLinkedLists.java)|
