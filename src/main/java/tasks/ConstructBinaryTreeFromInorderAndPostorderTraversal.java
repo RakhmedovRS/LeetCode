@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -10,7 +11,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 01-May-20
  */
-@LeetCode(id = 106, name = "Construct Binary Tree from Inorder and Postorder Traversal", url = "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/")
+@LeetCode(
+		id = 106,
+		name = "Construct Binary Tree from Inorder and Postorder Traversal",
+		url = "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
+		difficulty = Difficulty.MEDIUM
+)
 public class ConstructBinaryTreeFromInorderAndPostorderTraversal
 {
 	public TreeNode buildTree(int[] inorder, int[] postorder)
