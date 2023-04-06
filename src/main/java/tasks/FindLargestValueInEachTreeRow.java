@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -11,7 +12,12 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 10-Mar-20
  */
-@LeetCode(id = 515, name = "Find Largest Value in Each Tree Row", url = "https://leetcode.com/problems/find-largest-value-in-each-tree-row/")
+@LeetCode(
+		id = 515,
+		name = "Find Largest Value in Each Tree Row",
+		url = "https://leetcode.com/problems/find-largest-value-in-each-tree-row/",
+		difficulty = Difficulty.MEDIUM
+)
 public class FindLargestValueInEachTreeRow
 {
 	public List<Integer> largestValues(TreeNode root)
