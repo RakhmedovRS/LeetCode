@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashSet;
@@ -9,7 +10,12 @@ import java.util.Set;
  * @author RakhmedovRS
  * @created 24-Jun-20
  */
-@LeetCode(id = 457, name = "Circular Array Loop", url = "https://leetcode.com/problems/circular-array-loop/")
+@LeetCode(
+		id = 457,
+		name = "Circular Array Loop",
+		url = "https://leetcode.com/problems/circular-array-loop/",
+		difficulty = Difficulty.MEDIUM
+)
 public class CircularArrayLoop
 {
 	public boolean circularArrayLoop(int[] nums)

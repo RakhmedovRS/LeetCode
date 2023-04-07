@@ -339,7 +339,7 @@ Count of solved tasks: 1741
 |454|Medium|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[4Sum II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FourSumII.java)|
 |455|Easy|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|[Assign Cookies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AssignCookies.java)|
 |456|Medium|[132 Pattern](https://leetcode.com/problems/132-pattern/)|[132 Pattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OneTwoThreePattern.java)|
-|457|Undefined|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|[Circular Array Loop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CircularArrayLoop.java)|
+|457|Medium|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|[Circular Array Loop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CircularArrayLoop.java)|
 |458|Hard|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[Poor Pigs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PoorPigs.java)|
 |459|Undefined|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[Repeated Substring Pattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RepeatedSubstringPattern.java)|
 |460|Hard|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|[LFU Cache.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LFUCache.java)|
@@ -2066,6 +2066,7 @@ Count of solved tasks: 1741
 |452|Medium|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Minimum Number of Arrows to Burst Balloons.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfArrowsToBurstBalloons.java)|
 |454|Medium|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[4Sum II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FourSumII.java)|
 |456|Medium|[132 Pattern](https://leetcode.com/problems/132-pattern/)|[132 Pattern.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OneTwoThreePattern.java)|
+|457|Medium|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|[Circular Array Loop.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CircularArrayLoop.java)|
 |462|Medium|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|[Minimum Moves to Equal Array Elements II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToEqualArrayElementsII.java)|
 |464|Medium|[Can I Win](https://leetcode.com/problems/can-i-win/)|[Can I Win.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CanIWin.java)|
 |468|Medium|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[Validate IP Address.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidateIPAddress.java)|
