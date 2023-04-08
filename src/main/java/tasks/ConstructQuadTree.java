@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 10/28/2020
  */
-@LeetCode(id = 427, name = "Construct Quad Tree", url = "https://leetcode.com/problems/construct-quad-tree/")
+@LeetCode(
+		id = 427,
+		name = "Construct Quad Tree",
+		url = "https://leetcode.com/problems/construct-quad-tree/",
+		difficulty = Difficulty.MEDIUM
+)
 public class ConstructQuadTree
 {
 	class Node
