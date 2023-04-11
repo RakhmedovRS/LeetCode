@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1742
+Count of solved tasks: 1743
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1284,6 +1284,7 @@ Count of solved tasks: 1742
 |2116|Medium|[Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|[Check if a Parentheses String Can Be Valid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfParenthesesStringCanBeValid.java)|
 |2119|Easy|[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)|[A Number After a Double Reversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberAfterDoubleReversal.java)|
 |2120|Medium|[Execution of All Suffix Instructions Staying in a Grid](https://leetcode.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/)|[Execution of All Suffix Instructions Staying in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExecutionOfAllSuffixInstructionsStayingInGrid.java)|
+|2121|Medium|[Intervals Between Identical Elements](https://leetcode.com/problems/intervals-between-identical-elements/)|[Intervals Between Identical Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IntervalsBetweenIdenticalElements.java)|
 |2124|Easy|[Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)|[Check if All A's Appears Before All B's.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAllAsAppearsBeforeAllBs.java)|
 |2125|Medium|[Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)|[Number of Laser Beams in a Bank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfLaserBeamsInBank.java)|
 |2126|Medium|[Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/)|[Destroying Asteroids.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DestroyingAsteroids.java)|
@@ -2446,6 +2447,7 @@ Count of solved tasks: 1742
 |2115|Medium|[Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)|[Find All Possible Recipes from Given Supplies.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindAllPossibleRecipesFromGivenSupplies.java)|
 |2116|Medium|[Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|[Check if a Parentheses String Can Be Valid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfParenthesesStringCanBeValid.java)|
 |2120|Medium|[Execution of All Suffix Instructions Staying in a Grid](https://leetcode.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/)|[Execution of All Suffix Instructions Staying in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExecutionOfAllSuffixInstructionsStayingInGrid.java)|
+|2121|Medium|[Intervals Between Identical Elements](https://leetcode.com/problems/intervals-between-identical-elements/)|[Intervals Between Identical Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IntervalsBetweenIdenticalElements.java)|
 |2125|Medium|[Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)|[Number of Laser Beams in a Bank.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfLaserBeamsInBank.java)|
 |2126|Medium|[Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/)|[Destroying Asteroids.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DestroyingAsteroids.java)|
 |2130|Medium|[Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)|[Maximum Twin Sum of a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTwinSumOfLinkedList.java)|
