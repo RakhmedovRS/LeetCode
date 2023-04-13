@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1743
+Count of solved tasks: 1744
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -794,7 +794,7 @@ Count of solved tasks: 1743
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[Smallest String With Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestStringWithSwaps.java)|
 |1209|Medium|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[Remove All Adjacent Duplicates in String II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveAllAdjacentDuplicatesInStringII.java)|
 |1217|Easy|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|[Minimum Cost to Move Chips to The Same Position.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToMoveChipsToTheSamePosition.java)|
-|1218|Undefined|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)|[Longest Arithmetic Subsequence of Given Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestArithmeticSubsequenceOfGivenDifference.java)|
+|1218|Medium|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)|[Longest Arithmetic Subsequence of Given Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestArithmeticSubsequenceOfGivenDifference.java)|
 |1219|Undefined|[Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)|[Path with Maximum Gold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PathWithMaximumGold.java)|
 |1220|Hard|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[Count Vowels Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountVowelsPermutation.java)|
 |1222|Undefined|[Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/)|[Queens That Can Attack the King.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/QueensThatCanAttackKing.java)|
@@ -2240,6 +2240,7 @@ Count of solved tasks: 1743
 |1177|Medium|[Can Make Palindrome from Substring](https://leetcode.com/problems/can-make-palindrome-from-substring/)|[Can Make Palindrome from Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CanMakePalindromeFromSubstring.java)|
 |1202|Medium|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[Smallest String With Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestStringWithSwaps.java)|
 |1209|Medium|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[Remove All Adjacent Duplicates in String II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveAllAdjacentDuplicatesInStringII.java)|
+|1218|Medium|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)|[Longest Arithmetic Subsequence of Given Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestArithmeticSubsequenceOfGivenDifference.java)|
 |1227|Medium|[Airplane Seat Assignment Probability](https://leetcode.com/problems/airplane-seat-assignment-probability/)|[Airplane Seat Assignment Probability.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AirplaneSeatAssignmentProbability.java)|
 |1233|Medium|[Remove Sub-Folders from the Filesystem](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/)|[Remove Sub-Folders from the Filesystem.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveSubFoldersFromTheFilesystem.java)|
 |1234|Medium|[Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)|[Replace the Substring for Balanced String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReplaceTheSubstringForBalancedString.java)|

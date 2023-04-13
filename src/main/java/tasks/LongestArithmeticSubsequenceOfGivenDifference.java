@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.HashMap;
@@ -9,7 +10,12 @@ import java.util.Map;
  * @author RakhmedovRS
  * @created 14-Sep-20
  */
-@LeetCode(id = 1218, name = "Longest Arithmetic Subsequence of Given Difference", url = "https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/")
+@LeetCode(
+		id = 1218,
+		name = "Longest Arithmetic Subsequence of Given Difference",
+		url = "https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/",
+		difficulty = Difficulty.MEDIUM
+)
 public class LongestArithmeticSubsequenceOfGivenDifference
 {
 	public int longestSubsequence(int[] arr, int difference)
