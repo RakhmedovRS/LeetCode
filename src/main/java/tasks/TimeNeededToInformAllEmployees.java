@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 import java.util.*;
@@ -8,7 +9,12 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 21-Sep-20
  */
-@LeetCode(id = 1376, name = "Time Needed to Inform All Employees", url = "https://leetcode.com/problems/time-needed-to-inform-all-employees/")
+@LeetCode(
+		id = 1376,
+		name = "Time Needed to Inform All Employees",
+		url = "https://leetcode.com/problems/time-needed-to-inform-all-employees/",
+		difficulty = Difficulty.MEDIUM
+)
 public class TimeNeededToInformAllEmployees
 {
 	public int numOfMinutes(int n, int headID, int[] manager, int[] informTime)
