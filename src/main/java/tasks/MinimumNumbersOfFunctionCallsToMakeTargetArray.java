@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 22-Aug-20
  */
-@LeetCode(id = 1558, name = "Minimum Numbers of Function Calls to Make Target Array", url = "https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/")
+@LeetCode(
+		id = 1558,
+		name = "Minimum Numbers of Function Calls to Make Target Array",
+		url = "https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/",
+		difficulty = Difficulty.MEDIUM
+)
 public class MinimumNumbersOfFunctionCallsToMakeTargetArray
 {
 	public int minOperations(int[] nums)
