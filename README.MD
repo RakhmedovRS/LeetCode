@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1746
+Count of solved tasks: 1747
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1555,7 +1555,8 @@ Count of solved tasks: 1746
 |2614|Easy|[Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/)|[Prime In Diagonal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimeInDiagonal.java)|
 |2615|Medium|[Sum of Distances](https://leetcode.com/problems/sum-of-distances/)|[Sum of Distances.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDistances.java)|
 |2639|Easy|[Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/)|[Find the Width of Columns of a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheWidthOfColumnsOfGrid.java)|
-|2640|Medium|[Find the Score of All Prefixes of an Array](https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array/)|[Find the Score of All Prefixes of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheScoreOfAllPrefixesOfArray.java)|</p>
+|2640|Medium|[Find the Score of All Prefixes of an Array](https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array/)|[Find the Score of All Prefixes of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheScoreOfAllPrefixesOfArray.java)|
+|2641|Medium|[Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/)|[Cousins in Binary Tree II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CousinsInBinaryTreeII.java)|</p>
 </details>
 
 <details>
@@ -2611,7 +2612,8 @@ Count of solved tasks: 1746
 |2602|Medium|[Minimum Operations to Make All Array Elements Equal](https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/)|[Minimum Operations to Make All Array Elements Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeAllArrayElementsEqual.java)|
 |2610|Medium|[Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/description/)|[Convert an Array Into a 2D Array With Conditions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertArrayInto2DArrayWithConditions.java)|
 |2615|Medium|[Sum of Distances](https://leetcode.com/problems/sum-of-distances/)|[Sum of Distances.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDistances.java)|
-|2640|Medium|[Find the Score of All Prefixes of an Array](https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array/)|[Find the Score of All Prefixes of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheScoreOfAllPrefixesOfArray.java)|</p>
+|2640|Medium|[Find the Score of All Prefixes of an Array](https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array/)|[Find the Score of All Prefixes of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheScoreOfAllPrefixesOfArray.java)|
+|2641|Medium|[Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/)|[Cousins in Binary Tree II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CousinsInBinaryTreeII.java)|</p>
 </details>
 
 <details>
