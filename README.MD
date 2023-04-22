@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1749
+Count of solved tasks: 1750
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1558,7 +1558,8 @@ Count of solved tasks: 1749
 |2640|Medium|[Find the Score of All Prefixes of an Array](https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array/)|[Find the Score of All Prefixes of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheScoreOfAllPrefixesOfArray.java)|
 |2641|Medium|[Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/)|[Cousins in Binary Tree II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CousinsInBinaryTreeII.java)|
 |2642|Hard|[Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/)|[Design Graph With Shortest Path Calculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignGraphWithShortestPathCalculator.java)|
-|2643|Easy|[Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/)|[Row With Maximum Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RowWithMaximumOnes.java)|</p>
+|2643|Easy|[Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/)|[Row With Maximum Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RowWithMaximumOnes.java)|
+|2644|Easy|[Find the Maximum Divisibility Score](https://leetcode.com/problems/find-the-maximum-divisibility-score/)|[Find the Maximum Divisibility Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumDivisibilityScore.java)|</p>
 </details>
 
 <details>
@@ -1916,7 +1917,8 @@ Count of solved tasks: 1749
 |2609|Easy|[Find the Longest Balanced Substring of a Binary String](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/description/)|[Find the Longest Balanced Substring of a Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLongestBalancedSubstringOfBinaryString.java)|
 |2614|Easy|[Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/)|[Prime In Diagonal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimeInDiagonal.java)|
 |2639|Easy|[Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/)|[Find the Width of Columns of a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheWidthOfColumnsOfGrid.java)|
-|2643|Easy|[Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/)|[Row With Maximum Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RowWithMaximumOnes.java)|</p>
+|2643|Easy|[Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/)|[Row With Maximum Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RowWithMaximumOnes.java)|
+|2644|Easy|[Find the Maximum Divisibility Score](https://leetcode.com/problems/find-the-maximum-divisibility-score/)|[Find the Maximum Divisibility Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumDivisibilityScore.java)|</p>
 </details>
 
 <details>
