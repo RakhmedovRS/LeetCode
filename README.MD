@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1750
+Count of solved tasks: 1751
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1559,7 +1559,8 @@ Count of solved tasks: 1750
 |2641|Medium|[Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/)|[Cousins in Binary Tree II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CousinsInBinaryTreeII.java)|
 |2642|Hard|[Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/)|[Design Graph With Shortest Path Calculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignGraphWithShortestPathCalculator.java)|
 |2643|Easy|[Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/)|[Row With Maximum Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RowWithMaximumOnes.java)|
-|2644|Easy|[Find the Maximum Divisibility Score](https://leetcode.com/problems/find-the-maximum-divisibility-score/)|[Find the Maximum Divisibility Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumDivisibilityScore.java)|</p>
+|2644|Easy|[Find the Maximum Divisibility Score](https://leetcode.com/problems/find-the-maximum-divisibility-score/)|[Find the Maximum Divisibility Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumDivisibilityScore.java)|
+|2645|Medium|[Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/)|[Minimum Additions to Make Valid String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAdditionsToMakeValidString.java)|</p>
 </details>
 
 <details>
@@ -2618,7 +2619,8 @@ Count of solved tasks: 1750
 |2610|Medium|[Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/description/)|[Convert an Array Into a 2D Array With Conditions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertArrayInto2DArrayWithConditions.java)|
 |2615|Medium|[Sum of Distances](https://leetcode.com/problems/sum-of-distances/)|[Sum of Distances.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDistances.java)|
 |2640|Medium|[Find the Score of All Prefixes of an Array](https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array/)|[Find the Score of All Prefixes of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheScoreOfAllPrefixesOfArray.java)|
-|2641|Medium|[Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/)|[Cousins in Binary Tree II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CousinsInBinaryTreeII.java)|</p>
+|2641|Medium|[Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/)|[Cousins in Binary Tree II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CousinsInBinaryTreeII.java)|
+|2645|Medium|[Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/)|[Minimum Additions to Make Valid String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAdditionsToMakeValidString.java)|</p>
 </details>
 
 <details>
