@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1752
+Count of solved tasks: 1753
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1561,7 +1561,8 @@ Count of solved tasks: 1752
 |2643|Easy|[Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/)|[Row With Maximum Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RowWithMaximumOnes.java)|
 |2644|Easy|[Find the Maximum Divisibility Score](https://leetcode.com/problems/find-the-maximum-divisibility-score/)|[Find the Maximum Divisibility Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumDivisibilityScore.java)|
 |2645|Medium|[Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/)|[Minimum Additions to Make Valid String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAdditionsToMakeValidString.java)|
-|2651|Easy|[Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/)|[Calculate Delayed Arrival Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateDelayedArrivalTime.java)|</p>
+|2651|Easy|[Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/)|[Calculate Delayed Arrival Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateDelayedArrivalTime.java)|
+|2652|Easy|[Sum Multiples](https://leetcode.com/problems/sum-multiples/)|[Sum Multiples.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumMultiples.java)|</p>
 </details>
 
 <details>
@@ -1921,7 +1922,8 @@ Count of solved tasks: 1752
 |2639|Easy|[Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/)|[Find the Width of Columns of a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheWidthOfColumnsOfGrid.java)|
 |2643|Easy|[Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/)|[Row With Maximum Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RowWithMaximumOnes.java)|
 |2644|Easy|[Find the Maximum Divisibility Score](https://leetcode.com/problems/find-the-maximum-divisibility-score/)|[Find the Maximum Divisibility Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumDivisibilityScore.java)|
-|2651|Easy|[Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/)|[Calculate Delayed Arrival Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateDelayedArrivalTime.java)|</p>
+|2651|Easy|[Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/)|[Calculate Delayed Arrival Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateDelayedArrivalTime.java)|
+|2652|Easy|[Sum Multiples](https://leetcode.com/problems/sum-multiples/)|[Sum Multiples.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumMultiples.java)|</p>
 </details>
 
 <details>
