@@ -1,5 +1,6 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
@@ -7,7 +8,12 @@ import common.TreeNode;
  * @author RakhmedovRS
  * @created 05-Apr-20
  */
-@LeetCode(id = 606, name = "Construct String from Binary Tree", url = "https://leetcode.com/problems/construct-string-from-binary-tree/")
+@LeetCode(
+		id = 606,
+		name = "Construct String from Binary Tree",
+		url = "https://leetcode.com/problems/construct-string-from-binary-tree/",
+		difficulty = Difficulty.EASY
+)
 public class ConstructStringFromBinaryTree
 {
 	public String tree2str(TreeNode t)
