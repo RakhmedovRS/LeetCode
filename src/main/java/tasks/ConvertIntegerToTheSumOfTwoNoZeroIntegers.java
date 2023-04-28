@@ -1,12 +1,18 @@
 package tasks;
 
+import common.Difficulty;
 import common.LeetCode;
 
 /**
  * @author RakhmedovRS
  * @created 21-Apr-20
  */
-@LeetCode(id = 1317, name = "Convert Integer to the Sum of Two No-Zero Integers", url = "https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/")
+@LeetCode(
+		id = 1317,
+		name = "Convert Integer to the Sum of Two No-Zero Integers",
+		url = "https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/",
+		difficulty = Difficulty.EASY
+)
 public class ConvertIntegerToTheSumOfTwoNoZeroIntegers
 {
 	private boolean containsZero(int n)
