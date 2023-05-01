@@ -44,46 +44,11 @@ public class Contest
 {
     int MOD = 1_000_000_007;
 
-    public int firstCompleteIndex(int[] arr, int[][] mat)
-    {
-        int rows = mat.length;
-        int columns = mat[0].length;
 
-        int[] rs = new int[rows];
-        int[] cs = new int[columns];
-
-        Map<Integer, int[]> map = new HashMap<>();
-        for (int row = 0; row < rows; row++)
-        {
-            for (int column = 0; column < columns; column++)
-            {
-                map.put(mat[row][column], new int[]{row, column});
-            }
-        }
-
-        for (int i = 0; i < arr.length; i++)
-        {
-            int[] pos = map.get(arr[i]);
-
-            rs[pos[0]]++;
-            cs[pos[1]]++;
-
-            if (rs[pos[0]] == columns || cs[pos[1]] == rows)
-            {
-                return i;
-            }
-        }
-
-        return -1;
-    }
 
     public static void main(String[] args) throws Exception
     {
         Contest clazz = new Contest();
-        System.out.println(clazz.firstCompleteIndex(new int[]{1,4,5,2,6,3}, new int[][]{{4,3,5}, {1,2,6}}));
-        System.out.println(clazz.firstCompleteIndex(new int[]{1, 3, 4, 2}, new int[][]{{1, 4}, {2, 3}}));
-
-        System.out.println(clazz.firstCompleteIndex(new int[]{2, 8, 7, 4, 1, 3, 5, 6, 9}, new int[][]{{3, 2, 5}, {1, 4, 6}, {8, 7, 9}}));
     }
 
     private static String readBigTestCase() throws IOException
