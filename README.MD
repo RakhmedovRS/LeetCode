@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1763
+Count of solved tasks: 1764
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1550,6 +1550,7 @@ Count of solved tasks: 1763
 |2601|Medium|[Prime Subtraction Operation](https://leetcode.com/problems/prime-subtraction-operation/)|[Prime Subtraction Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimeSubtractionOperation.java)|
 |2602|Medium|[Minimum Operations to Make All Array Elements Equal](https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/)|[Minimum Operations to Make All Array Elements Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeAllArrayElementsEqual.java)|
 |2605|Easy|[Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/)|[Form Smallest Number From Two Digit Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FormSmallestNumberFromTwoDigitArrays.java)|
+|2606|Medium|[Find the Substring With Maximum Cost](https://leetcode.com/problems/find-the-substring-with-maximum-cost/description/)|[Find the Substring With Maximum Cost.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheSubstringWithMaximumCost.java)|
 |2609|Easy|[Find the Longest Balanced Substring of a Binary String](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/description/)|[Find the Longest Balanced Substring of a Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLongestBalancedSubstringOfBinaryString.java)|
 |2610|Medium|[Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/description/)|[Convert an Array Into a 2D Array With Conditions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertArrayInto2DArrayWithConditions.java)|
 |2614|Easy|[Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/)|[Prime In Diagonal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimeInDiagonal.java)|
@@ -2635,6 +2636,7 @@ Count of solved tasks: 1763
 |2597|Medium|[The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/)|[The Number of Beautiful Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheNumberOfBeautifulSubsets.java)|
 |2601|Medium|[Prime Subtraction Operation](https://leetcode.com/problems/prime-subtraction-operation/)|[Prime Subtraction Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimeSubtractionOperation.java)|
 |2602|Medium|[Minimum Operations to Make All Array Elements Equal](https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/)|[Minimum Operations to Make All Array Elements Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeAllArrayElementsEqual.java)|
+|2606|Medium|[Find the Substring With Maximum Cost](https://leetcode.com/problems/find-the-substring-with-maximum-cost/description/)|[Find the Substring With Maximum Cost.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheSubstringWithMaximumCost.java)|
 |2610|Medium|[Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/description/)|[Convert an Array Into a 2D Array With Conditions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertArrayInto2DArrayWithConditions.java)|
 |2615|Medium|[Sum of Distances](https://leetcode.com/problems/sum-of-distances/)|[Sum of Distances.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDistances.java)|
 |2640|Medium|[Find the Score of All Prefixes of an Array](https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array/)|[Find the Score of All Prefixes of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheScoreOfAllPrefixesOfArray.java)|
