@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1764
+Count of solved tasks: 1765
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1573,7 +1573,8 @@ Count of solved tasks: 1764
 |2670|Easy|[Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/)|[Find the Distinct Difference Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheDistinctDifferenceArray.java)|
 |2671|Medium|[Frequency Tracker](https://leetcode.com/problems/frequency-tracker/)|[Frequency Tracker.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FrequencyTracker.java)|
 |2672|Medium|[Number of Adjacent Elements With the Same Color](https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color/)|[Number of Adjacent Elements With the Same Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfAdjacentElementsWithTheSameColor.java)|
-|2673|Medium|[Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)|[Make Costs of Paths Equal in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeCostsOfPathsEqualInBinaryTree.java)|</p>
+|2673|Medium|[Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)|[Make Costs of Paths Equal in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeCostsOfPathsEqualInBinaryTree.java)|
+|2678|Easy|[Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/)|[Number of Senior Citizens.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSeniorCitizens.java)|</p>
 </details>
 
 <details>
@@ -1939,7 +1940,8 @@ Count of solved tasks: 1764
 |2652|Easy|[Sum Multiples](https://leetcode.com/problems/sum-multiples/)|[Sum Multiples.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumMultiples.java)|
 |2656|Easy|[Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/description/)|[Maximum Sum With Exactly K Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumWithExactlyKElements.java)|
 |2660|Easy|[Determine the Winner of a Bowling Game](https://leetcode.com/problems/determine-the-winner-of-a-bowling-game/description/)|[Determine the Winner of a Bowling Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineTheWinnerOfBowlingGame.java)|
-|2670|Easy|[Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/)|[Find the Distinct Difference Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheDistinctDifferenceArray.java)|</p>
+|2670|Easy|[Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/)|[Find the Distinct Difference Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheDistinctDifferenceArray.java)|
+|2678|Easy|[Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/)|[Number of Senior Citizens.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSeniorCitizens.java)|</p>
 </details>
 
 <details>
