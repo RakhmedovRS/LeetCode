@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1766
+Count of solved tasks: 1767
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1575,7 +1575,8 @@ Count of solved tasks: 1766
 |2672|Medium|[Number of Adjacent Elements With the Same Color](https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color/)|[Number of Adjacent Elements With the Same Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfAdjacentElementsWithTheSameColor.java)|
 |2673|Medium|[Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)|[Make Costs of Paths Equal in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeCostsOfPathsEqualInBinaryTree.java)|
 |2678|Easy|[Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/)|[Number of Senior Citizens.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSeniorCitizens.java)|
-|2679|Medium|[Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/)|[Sum in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumInMatrix.java)|</p>
+|2679|Medium|[Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/)|[Sum in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumInMatrix.java)|
+|2680|Medium|[Maximum OR](https://leetcode.com/problems/maximum-or/)|[Maximum OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumOR.java)|</p>
 </details>
 
 <details>
@@ -2652,7 +2653,8 @@ Count of solved tasks: 1766
 |2671|Medium|[Frequency Tracker](https://leetcode.com/problems/frequency-tracker/)|[Frequency Tracker.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FrequencyTracker.java)|
 |2672|Medium|[Number of Adjacent Elements With the Same Color](https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color/)|[Number of Adjacent Elements With the Same Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfAdjacentElementsWithTheSameColor.java)|
 |2673|Medium|[Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)|[Make Costs of Paths Equal in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeCostsOfPathsEqualInBinaryTree.java)|
-|2679|Medium|[Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/)|[Sum in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumInMatrix.java)|</p>
+|2679|Medium|[Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/)|[Sum in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumInMatrix.java)|
+|2680|Medium|[Maximum OR](https://leetcode.com/problems/maximum-or/)|[Maximum OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumOR.java)|</p>
 </details>
 
 <details>
