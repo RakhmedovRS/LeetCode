@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1769
+Count of solved tasks: 1770
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1578,7 +1578,8 @@ Count of solved tasks: 1769
 |2679|Medium|[Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/)|[Sum in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumInMatrix.java)|
 |2680|Medium|[Maximum OR](https://leetcode.com/problems/maximum-or/)|[Maximum OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumOR.java)|
 |2682|Easy|[Find the Losers of the Circular Game](https://leetcode.com/problems/find-the-losers-of-the-circular-game/)|[Find the Losers of the Circular Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLosersOfTheCircularGame.java)|
-|2683|Medium|[Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/)|[Neighboring Bitwise XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NeighboringBitwiseXOR.java)|</p>
+|2683|Medium|[Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/)|[Neighboring Bitwise XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NeighboringBitwiseXOR.java)|
+|2684|Medium|[Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/)|[Maximum Number of Moves in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfMovesInGrid.java)|</p>
 </details>
 
 <details>
@@ -2658,7 +2659,8 @@ Count of solved tasks: 1769
 |2673|Medium|[Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)|[Make Costs of Paths Equal in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeCostsOfPathsEqualInBinaryTree.java)|
 |2679|Medium|[Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/)|[Sum in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumInMatrix.java)|
 |2680|Medium|[Maximum OR](https://leetcode.com/problems/maximum-or/)|[Maximum OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumOR.java)|
-|2683|Medium|[Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/)|[Neighboring Bitwise XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NeighboringBitwiseXOR.java)|</p>
+|2683|Medium|[Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/)|[Neighboring Bitwise XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NeighboringBitwiseXOR.java)|
+|2684|Medium|[Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/)|[Maximum Number of Moves in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfMovesInGrid.java)|</p>
 </details>
 
 <details>
