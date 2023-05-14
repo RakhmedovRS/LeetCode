@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1767
+Count of solved tasks: 1768
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1576,7 +1576,8 @@ Count of solved tasks: 1767
 |2673|Medium|[Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)|[Make Costs of Paths Equal in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeCostsOfPathsEqualInBinaryTree.java)|
 |2678|Easy|[Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/)|[Number of Senior Citizens.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSeniorCitizens.java)|
 |2679|Medium|[Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/)|[Sum in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumInMatrix.java)|
-|2680|Medium|[Maximum OR](https://leetcode.com/problems/maximum-or/)|[Maximum OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumOR.java)|</p>
+|2680|Medium|[Maximum OR](https://leetcode.com/problems/maximum-or/)|[Maximum OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumOR.java)|
+|2682|Easy|[Find the Losers of the Circular Game](https://leetcode.com/problems/find-the-losers-of-the-circular-game/)|[Find the Losers of the Circular Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLosersOfTheCircularGame.java)|</p>
 </details>
 
 <details>
@@ -1943,7 +1944,8 @@ Count of solved tasks: 1767
 |2656|Easy|[Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/description/)|[Maximum Sum With Exactly K Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumWithExactlyKElements.java)|
 |2660|Easy|[Determine the Winner of a Bowling Game](https://leetcode.com/problems/determine-the-winner-of-a-bowling-game/description/)|[Determine the Winner of a Bowling Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineTheWinnerOfBowlingGame.java)|
 |2670|Easy|[Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/)|[Find the Distinct Difference Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheDistinctDifferenceArray.java)|
-|2678|Easy|[Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/)|[Number of Senior Citizens.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSeniorCitizens.java)|</p>
+|2678|Easy|[Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/)|[Number of Senior Citizens.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSeniorCitizens.java)|
+|2682|Easy|[Find the Losers of the Circular Game](https://leetcode.com/problems/find-the-losers-of-the-circular-game/)|[Find the Losers of the Circular Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLosersOfTheCircularGame.java)|</p>
 </details>
 
 <details>
