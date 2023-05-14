@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1768
+Count of solved tasks: 1769
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1577,7 +1577,8 @@ Count of solved tasks: 1768
 |2678|Easy|[Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/)|[Number of Senior Citizens.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSeniorCitizens.java)|
 |2679|Medium|[Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/)|[Sum in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumInMatrix.java)|
 |2680|Medium|[Maximum OR](https://leetcode.com/problems/maximum-or/)|[Maximum OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumOR.java)|
-|2682|Easy|[Find the Losers of the Circular Game](https://leetcode.com/problems/find-the-losers-of-the-circular-game/)|[Find the Losers of the Circular Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLosersOfTheCircularGame.java)|</p>
+|2682|Easy|[Find the Losers of the Circular Game](https://leetcode.com/problems/find-the-losers-of-the-circular-game/)|[Find the Losers of the Circular Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLosersOfTheCircularGame.java)|
+|2683|Medium|[Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/)|[Neighboring Bitwise XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NeighboringBitwiseXOR.java)|</p>
 </details>
 
 <details>
@@ -2656,7 +2657,8 @@ Count of solved tasks: 1768
 |2672|Medium|[Number of Adjacent Elements With the Same Color](https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color/)|[Number of Adjacent Elements With the Same Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfAdjacentElementsWithTheSameColor.java)|
 |2673|Medium|[Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)|[Make Costs of Paths Equal in a Binary Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeCostsOfPathsEqualInBinaryTree.java)|
 |2679|Medium|[Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/)|[Sum in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumInMatrix.java)|
-|2680|Medium|[Maximum OR](https://leetcode.com/problems/maximum-or/)|[Maximum OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumOR.java)|</p>
+|2680|Medium|[Maximum OR](https://leetcode.com/problems/maximum-or/)|[Maximum OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumOR.java)|
+|2683|Medium|[Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/)|[Neighboring Bitwise XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NeighboringBitwiseXOR.java)|</p>
 </details>
 
 <details>
