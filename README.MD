@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1770
+Count of solved tasks: 1771
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1579,7 +1579,8 @@ Count of solved tasks: 1770
 |2680|Medium|[Maximum OR](https://leetcode.com/problems/maximum-or/)|[Maximum OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumOR.java)|
 |2682|Easy|[Find the Losers of the Circular Game](https://leetcode.com/problems/find-the-losers-of-the-circular-game/)|[Find the Losers of the Circular Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLosersOfTheCircularGame.java)|
 |2683|Medium|[Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/)|[Neighboring Bitwise XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NeighboringBitwiseXOR.java)|
-|2684|Medium|[Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/)|[Maximum Number of Moves in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfMovesInGrid.java)|</p>
+|2684|Medium|[Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/)|[Maximum Number of Moves in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfMovesInGrid.java)|
+|2685|Medium|[Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/)|[Count the Number of Complete Components.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfCompleteComponents.java)|</p>
 </details>
 
 <details>
@@ -2660,7 +2661,8 @@ Count of solved tasks: 1770
 |2679|Medium|[Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/)|[Sum in a Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumInMatrix.java)|
 |2680|Medium|[Maximum OR](https://leetcode.com/problems/maximum-or/)|[Maximum OR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumOR.java)|
 |2683|Medium|[Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/)|[Neighboring Bitwise XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NeighboringBitwiseXOR.java)|
-|2684|Medium|[Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/)|[Maximum Number of Moves in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfMovesInGrid.java)|</p>
+|2684|Medium|[Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/)|[Maximum Number of Moves in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfMovesInGrid.java)|
+|2685|Medium|[Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/)|[Count the Number of Complete Components.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfCompleteComponents.java)|</p>
 </details>
 
 <details>
