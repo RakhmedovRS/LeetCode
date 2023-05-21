@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1772
+Count of solved tasks: 1773
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1581,7 +1581,8 @@ Count of solved tasks: 1772
 |2683|Medium|[Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/)|[Neighboring Bitwise XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NeighboringBitwiseXOR.java)|
 |2684|Medium|[Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/)|[Maximum Number of Moves in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfMovesInGrid.java)|
 |2685|Medium|[Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/)|[Count the Number of Complete Components.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfCompleteComponents.java)|
-|2696|Easy|[Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/)|[Minimum String Length After Removing Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumStringLengthAfterRemovingSubstrings.java)|</p>
+|2696|Easy|[Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/)|[Minimum String Length After Removing Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumStringLengthAfterRemovingSubstrings.java)|
+|2697|Easy|[Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/)|[Lexicographically Smallest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestPalindrome.java)|</p>
 </details>
 
 <details>
@@ -1950,7 +1951,8 @@ Count of solved tasks: 1772
 |2670|Easy|[Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/)|[Find the Distinct Difference Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheDistinctDifferenceArray.java)|
 |2678|Easy|[Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/)|[Number of Senior Citizens.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSeniorCitizens.java)|
 |2682|Easy|[Find the Losers of the Circular Game](https://leetcode.com/problems/find-the-losers-of-the-circular-game/)|[Find the Losers of the Circular Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLosersOfTheCircularGame.java)|
-|2696|Easy|[Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/)|[Minimum String Length After Removing Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumStringLengthAfterRemovingSubstrings.java)|</p>
+|2696|Easy|[Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/)|[Minimum String Length After Removing Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumStringLengthAfterRemovingSubstrings.java)|
+|2697|Easy|[Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/)|[Lexicographically Smallest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestPalindrome.java)|</p>
 </details>
 
 <details>
