@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1775
+Count of solved tasks: 1776
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1584,7 +1584,8 @@ Count of solved tasks: 1775
 |2696|Easy|[Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/)|[Minimum String Length After Removing Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumStringLengthAfterRemovingSubstrings.java)|
 |2697|Easy|[Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/)|[Lexicographically Smallest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestPalindrome.java)|
 |2698|Medium|[Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/)|[Find the Punishment Number of an Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThePunishmentNumberOfInteger.java)|
-|2706|Easy|[Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/)|[Buy Two Chocolates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BuyTwoChocolates.java)|</p>
+|2706|Easy|[Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/)|[Buy Two Chocolates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BuyTwoChocolates.java)|
+|2708|Medium|[Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)|[Maximum Strength of a Group.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumStrengthOfGroup.java)|</p>
 </details>
 
 <details>
@@ -2670,7 +2671,8 @@ Count of solved tasks: 1775
 |2683|Medium|[Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/)|[Neighboring Bitwise XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NeighboringBitwiseXOR.java)|
 |2684|Medium|[Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/)|[Maximum Number of Moves in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfMovesInGrid.java)|
 |2685|Medium|[Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/)|[Count the Number of Complete Components.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfCompleteComponents.java)|
-|2698|Medium|[Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/)|[Find the Punishment Number of an Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThePunishmentNumberOfInteger.java)|</p>
+|2698|Medium|[Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/)|[Find the Punishment Number of an Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThePunishmentNumberOfInteger.java)|
+|2708|Medium|[Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)|[Maximum Strength of a Group.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumStrengthOfGroup.java)|</p>
 </details>
 
 <details>
