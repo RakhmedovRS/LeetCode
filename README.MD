@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1774
+Count of solved tasks: 1775
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1583,7 +1583,8 @@ Count of solved tasks: 1774
 |2685|Medium|[Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/)|[Count the Number of Complete Components.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfCompleteComponents.java)|
 |2696|Easy|[Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/)|[Minimum String Length After Removing Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumStringLengthAfterRemovingSubstrings.java)|
 |2697|Easy|[Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/)|[Lexicographically Smallest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestPalindrome.java)|
-|2698|Medium|[Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/)|[Find the Punishment Number of an Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThePunishmentNumberOfInteger.java)|</p>
+|2698|Medium|[Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/)|[Find the Punishment Number of an Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThePunishmentNumberOfInteger.java)|
+|2706|Easy|[Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/)|[Buy Two Chocolates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BuyTwoChocolates.java)|</p>
 </details>
 
 <details>
@@ -1953,7 +1954,8 @@ Count of solved tasks: 1774
 |2678|Easy|[Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/)|[Number of Senior Citizens.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSeniorCitizens.java)|
 |2682|Easy|[Find the Losers of the Circular Game](https://leetcode.com/problems/find-the-losers-of-the-circular-game/)|[Find the Losers of the Circular Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLosersOfTheCircularGame.java)|
 |2696|Easy|[Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/)|[Minimum String Length After Removing Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumStringLengthAfterRemovingSubstrings.java)|
-|2697|Easy|[Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/)|[Lexicographically Smallest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestPalindrome.java)|</p>
+|2697|Easy|[Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/)|[Lexicographically Smallest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestPalindrome.java)|
+|2706|Easy|[Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/)|[Buy Two Chocolates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BuyTwoChocolates.java)|</p>
 </details>
 
 <details>
