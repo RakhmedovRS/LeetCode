@@ -44,16 +44,7 @@ public class Contest
 {
     int MOD = 1_000_000_007;
 
-    public int minimizedStringLength(String s)
-    {
-        Set<Character> characters = new HashSet<>();
-        for (char ch: s.toCharArray())
-        {
-            characters.add(ch);
-        }
 
-        return characters.size();
-    }
 
     public static void main(String[] args) throws Exception
     {
