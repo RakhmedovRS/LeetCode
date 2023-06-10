@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1776
+Count of solved tasks: 1777
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1585,7 +1585,8 @@ Count of solved tasks: 1776
 |2697|Easy|[Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/)|[Lexicographically Smallest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestPalindrome.java)|
 |2698|Medium|[Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/)|[Find the Punishment Number of an Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThePunishmentNumberOfInteger.java)|
 |2729|Easy|[Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/)|[Check if The Number is Fascinating.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfTheNumberIsFascinating.java)|
-|2730|Medium|[Find the Longest Semi-Repetitive Substring](https://leetcode.com/problems/find-the-longest-semi-repetitive-substring/)|[Find the Longest Semi-Repetitive Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLongestSemiRepetitiveSubstring.java)|</p>
+|2730|Medium|[Find the Longest Semi-Repetitive Substring](https://leetcode.com/problems/find-the-longest-semi-repetitive-substring/)|[Find the Longest Semi-Repetitive Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLongestSemiRepetitiveSubstring.java)|
+|2731|Medium|[Movement of Robots](https://leetcode.com/problems/movement-of-robots/)|[Movement of Robots.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MovementOfRobots.java)|</p>
 </details>
 
 <details>
@@ -2672,7 +2673,8 @@ Count of solved tasks: 1776
 |2684|Medium|[Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/)|[Maximum Number of Moves in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfMovesInGrid.java)|
 |2685|Medium|[Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/)|[Count the Number of Complete Components.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfCompleteComponents.java)|
 |2698|Medium|[Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/)|[Find the Punishment Number of an Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThePunishmentNumberOfInteger.java)|
-|2730|Medium|[Find the Longest Semi-Repetitive Substring](https://leetcode.com/problems/find-the-longest-semi-repetitive-substring/)|[Find the Longest Semi-Repetitive Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLongestSemiRepetitiveSubstring.java)|</p>
+|2730|Medium|[Find the Longest Semi-Repetitive Substring](https://leetcode.com/problems/find-the-longest-semi-repetitive-substring/)|[Find the Longest Semi-Repetitive Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLongestSemiRepetitiveSubstring.java)|
+|2731|Medium|[Movement of Robots](https://leetcode.com/problems/movement-of-robots/)|[Movement of Robots.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MovementOfRobots.java)|</p>
 </details>
 
 <details>
