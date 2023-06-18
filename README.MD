@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1784
+Count of solved tasks: 1785
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1593,7 +1593,8 @@ Count of solved tasks: 1784
 |2731|Medium|[Movement of Robots](https://leetcode.com/problems/movement-of-robots/)|[Movement of Robots.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MovementOfRobots.java)|
 |2733|Easy|[Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/)|[Neither Minimum nor Maximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NeitherMinimumNorMaximum.java)|
 |2734|Medium|[Lexicographically Smallest String After Substring Operation](https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/)|[Lexicographically Smallest String After Substring Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterSubstringOperation.java)|
-|2739|Easy|[Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/)|[Total Distance Traveled.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalDistanceTraveled.java)|</p>
+|2739|Easy|[Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/)|[Total Distance Traveled.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalDistanceTraveled.java)|
+|2740|Medium|[Find the Value of the Partition](https://leetcode.com/problems/find-the-value-of-the-partition/)|[Find the Value of the Partition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheValueOfThePartition.java)|</p>
 </details>
 
 <details>
@@ -2688,7 +2689,8 @@ Count of solved tasks: 1784
 |2708|Medium|[Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)|[Maximum Strength of a Group.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumStrengthOfGroup.java)|
 |2730|Medium|[Find the Longest Semi-Repetitive Substring](https://leetcode.com/problems/find-the-longest-semi-repetitive-substring/)|[Find the Longest Semi-Repetitive Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLongestSemiRepetitiveSubstring.java)|
 |2731|Medium|[Movement of Robots](https://leetcode.com/problems/movement-of-robots/)|[Movement of Robots.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MovementOfRobots.java)|
-|2734|Medium|[Lexicographically Smallest String After Substring Operation](https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/)|[Lexicographically Smallest String After Substring Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterSubstringOperation.java)|</p>
+|2734|Medium|[Lexicographically Smallest String After Substring Operation](https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/)|[Lexicographically Smallest String After Substring Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterSubstringOperation.java)|
+|2740|Medium|[Find the Value of the Partition](https://leetcode.com/problems/find-the-value-of-the-partition/)|[Find the Value of the Partition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheValueOfThePartition.java)|</p>
 </details>
 
 <details>
