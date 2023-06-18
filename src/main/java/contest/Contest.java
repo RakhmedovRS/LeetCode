@@ -38,6 +38,8 @@ import java.util.stream.Collectors;
  * Recursion
  * Prefix Sum
  * XOR
+ * DP
+ * Bitmask DP
  * </pre>
  */
 public class Contest
