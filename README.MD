@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1783
+Count of solved tasks: 1784
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1592,7 +1592,8 @@ Count of solved tasks: 1783
 |2730|Medium|[Find the Longest Semi-Repetitive Substring](https://leetcode.com/problems/find-the-longest-semi-repetitive-substring/)|[Find the Longest Semi-Repetitive Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLongestSemiRepetitiveSubstring.java)|
 |2731|Medium|[Movement of Robots](https://leetcode.com/problems/movement-of-robots/)|[Movement of Robots.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MovementOfRobots.java)|
 |2733|Easy|[Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/)|[Neither Minimum nor Maximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NeitherMinimumNorMaximum.java)|
-|2734|Medium|[Lexicographically Smallest String After Substring Operation](https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/)|[Lexicographically Smallest String After Substring Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterSubstringOperation.java)|</p>
+|2734|Medium|[Lexicographically Smallest String After Substring Operation](https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/)|[Lexicographically Smallest String After Substring Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterSubstringOperation.java)|
+|2739|Easy|[Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/)|[Total Distance Traveled.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalDistanceTraveled.java)|</p>
 </details>
 
 <details>
@@ -1967,7 +1968,8 @@ Count of solved tasks: 1783
 |2710|Easy|[Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/)|[Remove Trailing Zeros From a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveTrailingZerosFromString.java)|
 |2716|Easy|[Minimize String Length](https://leetcode.com/problems/minimize-string-length/description/)|[Minimize String Length.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeStringLength.java)|
 |2729|Easy|[Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/)|[Check if The Number is Fascinating.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfTheNumberIsFascinating.java)|
-|2733|Easy|[Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/)|[Neither Minimum nor Maximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NeitherMinimumNorMaximum.java)|</p>
+|2733|Easy|[Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/)|[Neither Minimum nor Maximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NeitherMinimumNorMaximum.java)|
+|2739|Easy|[Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/)|[Total Distance Traveled.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalDistanceTraveled.java)|</p>
 </details>
 
 <details>
