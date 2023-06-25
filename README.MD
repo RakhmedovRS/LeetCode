@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1785
+Count of solved tasks: 1786
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1594,7 +1594,8 @@ Count of solved tasks: 1785
 |2733|Easy|[Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/)|[Neither Minimum nor Maximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NeitherMinimumNorMaximum.java)|
 |2734|Medium|[Lexicographically Smallest String After Substring Operation](https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/)|[Lexicographically Smallest String After Substring Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterSubstringOperation.java)|
 |2739|Easy|[Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/)|[Total Distance Traveled.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalDistanceTraveled.java)|
-|2740|Medium|[Find the Value of the Partition](https://leetcode.com/problems/find-the-value-of-the-partition/)|[Find the Value of the Partition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheValueOfThePartition.java)|</p>
+|2740|Medium|[Find the Value of the Partition](https://leetcode.com/problems/find-the-value-of-the-partition/)|[Find the Value of the Partition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheValueOfThePartition.java)|
+|2744|Easy|[Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs/description/)|[Find Maximum Number of String Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMaximumNumberOfStringPairs.java)|</p>
 </details>
 
 <details>
@@ -1970,7 +1971,8 @@ Count of solved tasks: 1785
 |2716|Easy|[Minimize String Length](https://leetcode.com/problems/minimize-string-length/description/)|[Minimize String Length.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeStringLength.java)|
 |2729|Easy|[Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/)|[Check if The Number is Fascinating.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfTheNumberIsFascinating.java)|
 |2733|Easy|[Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/)|[Neither Minimum nor Maximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NeitherMinimumNorMaximum.java)|
-|2739|Easy|[Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/)|[Total Distance Traveled.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalDistanceTraveled.java)|</p>
+|2739|Easy|[Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/)|[Total Distance Traveled.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalDistanceTraveled.java)|
+|2744|Easy|[Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs/description/)|[Find Maximum Number of String Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMaximumNumberOfStringPairs.java)|</p>
 </details>
 
 <details>
