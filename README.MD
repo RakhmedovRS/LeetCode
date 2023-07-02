@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1787
+Count of solved tasks: 1788
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1596,7 +1596,8 @@ Count of solved tasks: 1787
 |2739|Easy|[Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/)|[Total Distance Traveled.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalDistanceTraveled.java)|
 |2740|Medium|[Find the Value of the Partition](https://leetcode.com/problems/find-the-value-of-the-partition/)|[Find the Value of the Partition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheValueOfThePartition.java)|
 |2744|Easy|[Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs/description/)|[Find Maximum Number of String Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMaximumNumberOfStringPairs.java)|
-|2748|Easy|[Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/description/)|[Number of Beautiful Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfBeautifulPairs.java)|</p>
+|2748|Easy|[Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/description/)|[Number of Beautiful Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfBeautifulPairs.java)|
+|2760|Easy|[Longest Even Odd Subarray With Threshold](https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/)|[Longest Even Odd Subarray With Threshold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestEvenOddSubarrayWithThreshold.java)|</p>
 </details>
 
 <details>
@@ -1974,7 +1975,8 @@ Count of solved tasks: 1787
 |2733|Easy|[Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/)|[Neither Minimum nor Maximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NeitherMinimumNorMaximum.java)|
 |2739|Easy|[Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/)|[Total Distance Traveled.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalDistanceTraveled.java)|
 |2744|Easy|[Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs/description/)|[Find Maximum Number of String Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMaximumNumberOfStringPairs.java)|
-|2748|Easy|[Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/description/)|[Number of Beautiful Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfBeautifulPairs.java)|</p>
+|2748|Easy|[Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/description/)|[Number of Beautiful Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfBeautifulPairs.java)|
+|2760|Easy|[Longest Even Odd Subarray With Threshold](https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/)|[Longest Even Odd Subarray With Threshold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestEvenOddSubarrayWithThreshold.java)|</p>
 </details>
 
 <details>
