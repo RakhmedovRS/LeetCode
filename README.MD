@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1790
+Count of solved tasks: 1791
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1599,7 +1599,8 @@ Count of solved tasks: 1790
 |2748|Easy|[Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/description/)|[Number of Beautiful Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfBeautifulPairs.java)|
 |2760|Easy|[Longest Even Odd Subarray With Threshold](https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/)|[Longest Even Odd Subarray With Threshold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestEvenOddSubarrayWithThreshold.java)|
 |2761|Medium|[Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/)|[Prime Pairs With Target Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimePairsWithTargetSum.java)|
-|2765|Easy|[Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/)|[Longest Alternating Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestAlternatingSubarray.java)|</p>
+|2765|Easy|[Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/)|[Longest Alternating Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestAlternatingSubarray.java)|
+|2766|Medium|[Relocate Marbles](https://leetcode.com/problems/relocate-marbles/)|[Relocate Marbles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RelocateMarbles.java)|</p>
 </details>
 
 <details>
@@ -2700,7 +2701,8 @@ Count of solved tasks: 1790
 |2731|Medium|[Movement of Robots](https://leetcode.com/problems/movement-of-robots/)|[Movement of Robots.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MovementOfRobots.java)|
 |2734|Medium|[Lexicographically Smallest String After Substring Operation](https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/)|[Lexicographically Smallest String After Substring Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterSubstringOperation.java)|
 |2740|Medium|[Find the Value of the Partition](https://leetcode.com/problems/find-the-value-of-the-partition/)|[Find the Value of the Partition.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheValueOfThePartition.java)|
-|2761|Medium|[Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/)|[Prime Pairs With Target Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimePairsWithTargetSum.java)|</p>
+|2761|Medium|[Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/)|[Prime Pairs With Target Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimePairsWithTargetSum.java)|
+|2766|Medium|[Relocate Marbles](https://leetcode.com/problems/relocate-marbles/)|[Relocate Marbles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RelocateMarbles.java)|</p>
 </details>
 
 <details>
