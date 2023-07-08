@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1789
+Count of solved tasks: 1790
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1598,7 +1598,8 @@ Count of solved tasks: 1789
 |2744|Easy|[Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs/description/)|[Find Maximum Number of String Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMaximumNumberOfStringPairs.java)|
 |2748|Easy|[Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/description/)|[Number of Beautiful Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfBeautifulPairs.java)|
 |2760|Easy|[Longest Even Odd Subarray With Threshold](https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/)|[Longest Even Odd Subarray With Threshold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestEvenOddSubarrayWithThreshold.java)|
-|2761|Medium|[Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/)|[Prime Pairs With Target Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimePairsWithTargetSum.java)|</p>
+|2761|Medium|[Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/)|[Prime Pairs With Target Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimePairsWithTargetSum.java)|
+|2765|Easy|[Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/)|[Longest Alternating Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestAlternatingSubarray.java)|</p>
 </details>
 
 <details>
@@ -1977,7 +1978,8 @@ Count of solved tasks: 1789
 |2739|Easy|[Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/)|[Total Distance Traveled.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalDistanceTraveled.java)|
 |2744|Easy|[Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs/description/)|[Find Maximum Number of String Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMaximumNumberOfStringPairs.java)|
 |2748|Easy|[Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/description/)|[Number of Beautiful Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfBeautifulPairs.java)|
-|2760|Easy|[Longest Even Odd Subarray With Threshold](https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/)|[Longest Even Odd Subarray With Threshold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestEvenOddSubarrayWithThreshold.java)|</p>
+|2760|Easy|[Longest Even Odd Subarray With Threshold](https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/)|[Longest Even Odd Subarray With Threshold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestEvenOddSubarrayWithThreshold.java)|
+|2765|Easy|[Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/)|[Longest Alternating Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestAlternatingSubarray.java)|</p>
 </details>
 
 <details>
