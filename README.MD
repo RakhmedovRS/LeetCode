@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1794
+Count of solved tasks: 1795
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1603,7 +1603,8 @@ Count of solved tasks: 1794
 |2766|Medium|[Relocate Marbles](https://leetcode.com/problems/relocate-marbles/)|[Relocate Marbles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RelocateMarbles.java)|
 |2767|Medium|[Partition String Into Minimum Beautiful Substrings](https://leetcode.com/problems/partition-string-into-minimum-beautiful-substrings/)|[Partition String Into Minimum Beautiful Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionStringIntoMinimumBeautifulSubstrings.java)|
 |2769|Easy|[Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/)|[Find the Maximum Achievable Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumAchievableNumber.java)|
-|2770|Medium|[Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/)|[Maximum Number of Jumps to Reach the Last Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfJumpsToReachTheLastIndex.java)|</p>
+|2770|Medium|[Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/)|[Maximum Number of Jumps to Reach the Last Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfJumpsToReachTheLastIndex.java)|
+|2771|Medium|[Longest Non-decreasing Subarray From Two Arrays](https://leetcode.com/problems/longest-non-decreasing-subarray-from-two-arrays/)|[Longest Non-decreasing Subarray From Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestNonDecreasingSubarrayFromTwoArrays.java)|</p>
 </details>
 
 <details>
@@ -2708,7 +2709,8 @@ Count of solved tasks: 1794
 |2761|Medium|[Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/)|[Prime Pairs With Target Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimePairsWithTargetSum.java)|
 |2766|Medium|[Relocate Marbles](https://leetcode.com/problems/relocate-marbles/)|[Relocate Marbles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RelocateMarbles.java)|
 |2767|Medium|[Partition String Into Minimum Beautiful Substrings](https://leetcode.com/problems/partition-string-into-minimum-beautiful-substrings/)|[Partition String Into Minimum Beautiful Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionStringIntoMinimumBeautifulSubstrings.java)|
-|2770|Medium|[Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/)|[Maximum Number of Jumps to Reach the Last Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfJumpsToReachTheLastIndex.java)|</p>
+|2770|Medium|[Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/)|[Maximum Number of Jumps to Reach the Last Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfJumpsToReachTheLastIndex.java)|
+|2771|Medium|[Longest Non-decreasing Subarray From Two Arrays](https://leetcode.com/problems/longest-non-decreasing-subarray-from-two-arrays/)|[Longest Non-decreasing Subarray From Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestNonDecreasingSubarrayFromTwoArrays.java)|</p>
 </details>
 
 <details>
