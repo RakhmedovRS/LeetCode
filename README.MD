@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1792
+Count of solved tasks: 1793
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1601,7 +1601,8 @@ Count of solved tasks: 1792
 |2761|Medium|[Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/)|[Prime Pairs With Target Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimePairsWithTargetSum.java)|
 |2765|Easy|[Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/)|[Longest Alternating Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestAlternatingSubarray.java)|
 |2766|Medium|[Relocate Marbles](https://leetcode.com/problems/relocate-marbles/)|[Relocate Marbles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RelocateMarbles.java)|
-|2767|Medium|[Partition String Into Minimum Beautiful Substrings](https://leetcode.com/problems/partition-string-into-minimum-beautiful-substrings/)|[Partition String Into Minimum Beautiful Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionStringIntoMinimumBeautifulSubstrings.java)|</p>
+|2767|Medium|[Partition String Into Minimum Beautiful Substrings](https://leetcode.com/problems/partition-string-into-minimum-beautiful-substrings/)|[Partition String Into Minimum Beautiful Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionStringIntoMinimumBeautifulSubstrings.java)|
+|2769|Easy|[Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/)|[Find the Maximum Achievable Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumAchievableNumber.java)|</p>
 </details>
 
 <details>
@@ -1981,7 +1982,8 @@ Count of solved tasks: 1792
 |2744|Easy|[Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs/description/)|[Find Maximum Number of String Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMaximumNumberOfStringPairs.java)|
 |2748|Easy|[Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/description/)|[Number of Beautiful Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfBeautifulPairs.java)|
 |2760|Easy|[Longest Even Odd Subarray With Threshold](https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/)|[Longest Even Odd Subarray With Threshold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestEvenOddSubarrayWithThreshold.java)|
-|2765|Easy|[Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/)|[Longest Alternating Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestAlternatingSubarray.java)|</p>
+|2765|Easy|[Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/)|[Longest Alternating Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestAlternatingSubarray.java)|
+|2769|Easy|[Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/)|[Find the Maximum Achievable Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumAchievableNumber.java)|</p>
 </details>
 
 <details>
