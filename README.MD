@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1795
+Count of solved tasks: 1796
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1604,7 +1604,8 @@ Count of solved tasks: 1795
 |2767|Medium|[Partition String Into Minimum Beautiful Substrings](https://leetcode.com/problems/partition-string-into-minimum-beautiful-substrings/)|[Partition String Into Minimum Beautiful Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionStringIntoMinimumBeautifulSubstrings.java)|
 |2769|Easy|[Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/)|[Find the Maximum Achievable Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumAchievableNumber.java)|
 |2770|Medium|[Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/)|[Maximum Number of Jumps to Reach the Last Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfJumpsToReachTheLastIndex.java)|
-|2771|Medium|[Longest Non-decreasing Subarray From Two Arrays](https://leetcode.com/problems/longest-non-decreasing-subarray-from-two-arrays/)|[Longest Non-decreasing Subarray From Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestNonDecreasingSubarrayFromTwoArrays.java)|</p>
+|2771|Medium|[Longest Non-decreasing Subarray From Two Arrays](https://leetcode.com/problems/longest-non-decreasing-subarray-from-two-arrays/)|[Longest Non-decreasing Subarray From Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestNonDecreasingSubarrayFromTwoArrays.java)|
+|2778|Easy|[Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-special-elements/)|[Sum of Squares of Special Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfSquaresOfSpecialElements.java)|</p>
 </details>
 
 <details>
@@ -1985,7 +1986,8 @@ Count of solved tasks: 1795
 |2748|Easy|[Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/description/)|[Number of Beautiful Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfBeautifulPairs.java)|
 |2760|Easy|[Longest Even Odd Subarray With Threshold](https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/)|[Longest Even Odd Subarray With Threshold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestEvenOddSubarrayWithThreshold.java)|
 |2765|Easy|[Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/)|[Longest Alternating Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestAlternatingSubarray.java)|
-|2769|Easy|[Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/)|[Find the Maximum Achievable Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumAchievableNumber.java)|</p>
+|2769|Easy|[Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/)|[Find the Maximum Achievable Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumAchievableNumber.java)|
+|2778|Easy|[Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-special-elements/)|[Sum of Squares of Special Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfSquaresOfSpecialElements.java)|</p>
 </details>
 
 <details>
