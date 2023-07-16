@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1797
+Count of solved tasks: 1798
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1606,7 +1606,8 @@ Count of solved tasks: 1797
 |2770|Medium|[Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/)|[Maximum Number of Jumps to Reach the Last Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfJumpsToReachTheLastIndex.java)|
 |2771|Medium|[Longest Non-decreasing Subarray From Two Arrays](https://leetcode.com/problems/longest-non-decreasing-subarray-from-two-arrays/)|[Longest Non-decreasing Subarray From Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestNonDecreasingSubarrayFromTwoArrays.java)|
 |2778|Easy|[Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-special-elements/)|[Sum of Squares of Special Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfSquaresOfSpecialElements.java)|
-|2779|Medium|[Maximum Beauty of an Array After Applying Operation](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/)|[Maximum Beauty of an Array After Applying Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumBeautyOfArrayAfterApplyingOperation.java)|</p>
+|2779|Medium|[Maximum Beauty of an Array After Applying Operation](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/)|[Maximum Beauty of an Array After Applying Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumBeautyOfArrayAfterApplyingOperation.java)|
+|2780|Medium|[Minimum Index of a Valid Split](https://leetcode.com/problems/minimum-index-of-a-valid-split/)|[Minimum Index of a Valid Split.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumIndexOfValidSplit.java)|</p>
 </details>
 
 <details>
@@ -2714,7 +2715,8 @@ Count of solved tasks: 1797
 |2767|Medium|[Partition String Into Minimum Beautiful Substrings](https://leetcode.com/problems/partition-string-into-minimum-beautiful-substrings/)|[Partition String Into Minimum Beautiful Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionStringIntoMinimumBeautifulSubstrings.java)|
 |2770|Medium|[Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/)|[Maximum Number of Jumps to Reach the Last Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfJumpsToReachTheLastIndex.java)|
 |2771|Medium|[Longest Non-decreasing Subarray From Two Arrays](https://leetcode.com/problems/longest-non-decreasing-subarray-from-two-arrays/)|[Longest Non-decreasing Subarray From Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestNonDecreasingSubarrayFromTwoArrays.java)|
-|2779|Medium|[Maximum Beauty of an Array After Applying Operation](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/)|[Maximum Beauty of an Array After Applying Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumBeautyOfArrayAfterApplyingOperation.java)|</p>
+|2779|Medium|[Maximum Beauty of an Array After Applying Operation](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/)|[Maximum Beauty of an Array After Applying Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumBeautyOfArrayAfterApplyingOperation.java)|
+|2780|Medium|[Minimum Index of a Valid Split](https://leetcode.com/problems/minimum-index-of-a-valid-split/)|[Minimum Index of a Valid Split.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumIndexOfValidSplit.java)|</p>
 </details>
 
 <details>
