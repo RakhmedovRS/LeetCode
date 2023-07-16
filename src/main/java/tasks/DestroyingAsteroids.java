@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 1/2/2022
  */
 @LeetCode(
-	id = 2126,
-	name = "Destroying Asteroids",
-	url = "https://leetcode.com/problems/destroying-asteroids/",
-	difficulty = Difficulty.MEDIUM
+		id = 2126,
+		name = "Destroying Asteroids",
+		url = "https://leetcode.com/problems/destroying-asteroids/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DestroyingAsteroids
 {

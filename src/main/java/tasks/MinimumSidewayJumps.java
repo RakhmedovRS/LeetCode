@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 4/10/2021
  */
 @LeetCode(
-	id = 1824,
-	name = "Minimum Sideway Jumps",
-	url = "https://leetcode.com/problems/minimum-sideway-jumps/",
-	difficulty = Difficulty.MEDIUM
+		id = 1824,
+		name = "Minimum Sideway Jumps",
+		url = "https://leetcode.com/problems/minimum-sideway-jumps/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumSidewayJumps
 {

@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 1/21/2021
  */
 @LeetCode(
-	id = 1061,
-	name = "Lexicographically Smallest Equivalent String",
-	url = "https://leetcode.com/problems/lexicographically-smallest-equivalent-string/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1061,
+		name = "Lexicographically Smallest Equivalent String",
+		url = "https://leetcode.com/problems/lexicographically-smallest-equivalent-string/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class LexicographicallySmallestEquivalentString
 {

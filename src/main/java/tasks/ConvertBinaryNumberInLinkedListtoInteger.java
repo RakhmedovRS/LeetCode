@@ -9,10 +9,10 @@ import common.ListNode;
  * @created 11/1/2020
  */
 @LeetCode(
-	id = 1290,
-	name = "Convert Binary Number in a Linked List to Integer",
-	url = "https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/",
-	difficulty = Difficulty.EASY
+		id = 1290,
+		name = "Convert Binary Number in a Linked List to Integer",
+		url = "https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/",
+		difficulty = Difficulty.EASY
 )
 public class ConvertBinaryNumberInLinkedListtoInteger
 {

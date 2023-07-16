@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 03-Jun-20
  */
 @LeetCode(
-	id = 1029,
-	name = "Two City Scheduling",
-	url = "https://leetcode.com/problems/two-city-scheduling/",
-	difficulty = Difficulty.MEDIUM
+		id = 1029,
+		name = "Two City Scheduling",
+		url = "https://leetcode.com/problems/two-city-scheduling/",
+		difficulty = Difficulty.MEDIUM
 )
 public class TwoCityScheduling
 {

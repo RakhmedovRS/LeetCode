@@ -13,10 +13,10 @@ import java.util.TreeSet;
  * @created 3/20/2021
  */
 @LeetCode(
-	id = 1797,
-	name = "Design Authentication Manager",
-	url = "https://leetcode.com/problems/design-authentication-manager/",
-	difficulty = Difficulty.MEDIUM
+		id = 1797,
+		name = "Design Authentication Manager",
+		url = "https://leetcode.com/problems/design-authentication-manager/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DesignAuthenticationManager
 {

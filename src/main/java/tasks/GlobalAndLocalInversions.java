@@ -10,10 +10,10 @@ import java.util.TreeSet;
  * @created 2/26/2021
  */
 @LeetCode(
-	id = 775,
-	name = "Global and Local Inversions",
-	url = "https://leetcode.com/problems/global-and-local-inversions/",
-	difficulty = Difficulty.MEDIUM
+		id = 775,
+		name = "Global and Local Inversions",
+		url = "https://leetcode.com/problems/global-and-local-inversions/",
+		difficulty = Difficulty.MEDIUM
 )
 public class GlobalAndLocalInversions
 {

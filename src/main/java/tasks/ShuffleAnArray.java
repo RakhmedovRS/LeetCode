@@ -12,10 +12,10 @@ import java.util.Random;
  * @created 30-Mar-20
  */
 @LeetCode(
-	id = 384,
-	name = "Shuffle an Array",
-	url = "https://leetcode.com/problems/shuffle-an-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 384,
+		name = "Shuffle an Array",
+		url = "https://leetcode.com/problems/shuffle-an-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ShuffleAnArray
 {

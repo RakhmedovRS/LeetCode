@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 2/20/2021
  */
 @LeetCode(
-	id = 1764,
-	name = "Form Array by Concatenating Subarrays of Another Array",
-	url = "https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 1764,
+		name = "Form Array by Concatenating Subarrays of Another Array",
+		url = "https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FormArrayByConcatenatingSubarraysOfAnotherArray
 {
@@ -58,24 +58,24 @@ public class FormArrayByConcatenatingSubarraysOfAnotherArray
 	{
 		FormArrayByConcatenatingSubarraysOfAnotherArray clazz = new FormArrayByConcatenatingSubarraysOfAnotherArray();
 		System.out.println(clazz.canChoose(new int[][]
-				{
-					{1, -1, -1},
-					{3, -2, 0}
-				},
-			new int[]{1, -1, 0, 1, -1, -1, 3, -2, 0}));
+						{
+								{1, -1, -1},
+								{3, -2, 0}
+						},
+				new int[]{1, -1, 0, 1, -1, -1, 3, -2, 0}));
 
 		System.out.println(clazz.canChoose(new int[][]
-				{
-					{10, -2},
-					{1, 2, 3, 4}
-				},
-			new int[]{1, 2, 3, 4, 10, -2}));
+						{
+								{10, -2},
+								{1, 2, 3, 4}
+						},
+				new int[]{1, 2, 3, 4, 10, -2}));
 
 		System.out.println(clazz.canChoose(new int[][]
-				{
-					{1, 2, 3},
-					{3, 4}
-				},
-			new int[]{7, 7, 1, 2, 3, 4, 7, 7}));
+						{
+								{1, 2, 3},
+								{3, 4}
+						},
+				new int[]{7, 7, 1, 2, 3, 4, 7, 7}));
 	}
 }

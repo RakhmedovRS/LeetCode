@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 8/22/2021
  */
 @LeetCode(
-	id = 1980,
-	name = "Find Unique Binary String",
-	url = "https://leetcode.com/problems/find-unique-binary-string/",
-	difficulty = Difficulty.MEDIUM
+		id = 1980,
+		name = "Find Unique Binary String",
+		url = "https://leetcode.com/problems/find-unique-binary-string/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindUniqueBinaryString
 {

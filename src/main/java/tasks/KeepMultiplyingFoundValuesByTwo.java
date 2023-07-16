@@ -11,10 +11,10 @@ import java.util.Set;
  * @created 1/30/2022
  */
 @LeetCode(
-	id = 2154,
-	name = "Keep Multiplying Found Values by Two",
-	url = "https://leetcode.com/problems/keep-multiplying-found-values-by-two/",
-	difficulty = Difficulty.EASY
+		id = 2154,
+		name = "Keep Multiplying Found Values by Two",
+		url = "https://leetcode.com/problems/keep-multiplying-found-values-by-two/",
+		difficulty = Difficulty.EASY
 )
 public class KeepMultiplyingFoundValuesByTwo
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 2/20/2022
  */
 @LeetCode(
-	id = 2182,
-	name = "Construct String With Repeat Limit",
-	url = "https://leetcode.com/problems/construct-string-with-repeat-limit/",
-	difficulty = Difficulty.MEDIUM
+		id = 2182,
+		name = "Construct String With Repeat Limit",
+		url = "https://leetcode.com/problems/construct-string-with-repeat-limit/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ConstructStringWithRepeatLimit
 {

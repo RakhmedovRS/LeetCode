@@ -11,10 +11,10 @@ import java.util.List;
  * @created 2/15/2021
  */
 @LeetCode(
-	id = 1238,
-	name = "Circular Permutation in Binary Representation",
-	url = "https://leetcode.com/problems/circular-permutation-in-binary-representation/",
-	difficulty = Difficulty.MEDIUM
+		id = 1238,
+		name = "Circular Permutation in Binary Representation",
+		url = "https://leetcode.com/problems/circular-permutation-in-binary-representation/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CircularPermutationInBinaryRepresentation
 {

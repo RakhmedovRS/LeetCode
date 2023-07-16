@@ -12,10 +12,10 @@ import java.util.Map;
  * @created 11/1/2020
  */
 @LeetCode(
-	id = 1640,
-	name = "Check Array Formation Through Concatenation",
-	url = "https://leetcode.com/problems/check-array-formation-through-concatenation/",
-	difficulty = Difficulty.EASY
+		id = 1640,
+		name = "Check Array Formation Through Concatenation",
+		url = "https://leetcode.com/problems/check-array-formation-through-concatenation/",
+		difficulty = Difficulty.EASY
 )
 public class CheckArrayFormationThroughConcatenation
 {

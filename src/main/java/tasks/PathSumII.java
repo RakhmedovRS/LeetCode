@@ -13,10 +13,10 @@ import java.util.List;
  * @created 8/4/2021
  */
 @LeetCode(
-	id = 113,
-	name = "Path Sum II",
-	url = "https://leetcode.com/problems/path-sum-ii/",
-	difficulty = Difficulty.MEDIUM
+		id = 113,
+		name = "Path Sum II",
+		url = "https://leetcode.com/problems/path-sum-ii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PathSumII
 {

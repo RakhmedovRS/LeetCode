@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 8/15/2021
  */
 @LeetCode(
-	id = 1967,
-	name = "Number of Strings That Appear as Substrings in Word",
-	url = "https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/",
-	difficulty = Difficulty.EASY
+		id = 1967,
+		name = "Number of Strings That Appear as Substrings in Word",
+		url = "https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/",
+		difficulty = Difficulty.EASY
 )
 public class NumberOfStringsThatAppearAsSubstringsInWord
 {

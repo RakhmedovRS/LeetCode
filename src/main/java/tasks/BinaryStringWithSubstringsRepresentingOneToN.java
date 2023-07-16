@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/26/2020
  */
 @LeetCode(
-	id = 1016,
-	name = "Binary String With Substrings Representing 1 To N",
-	url = "https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/",
-	difficulty = Difficulty.MEDIUM
+		id = 1016,
+		name = "Binary String With Substrings Representing 1 To N",
+		url = "https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/",
+		difficulty = Difficulty.MEDIUM
 )
 public class BinaryStringWithSubstringsRepresentingOneToN
 {

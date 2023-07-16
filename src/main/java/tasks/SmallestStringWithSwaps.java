@@ -12,10 +12,10 @@ import java.util.List;
  * @created 11/21/2020
  */
 @LeetCode(
-	id = 1202,
-	name = "Smallest String With Swaps",
-	url = "https://leetcode.com/problems/smallest-string-with-swaps/",
-	difficulty = Difficulty.MEDIUM
+		id = 1202,
+		name = "Smallest String With Swaps",
+		url = "https://leetcode.com/problems/smallest-string-with-swaps/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SmallestStringWithSwaps
 {
@@ -130,27 +130,27 @@ public class SmallestStringWithSwaps
 	public static void main(String[] args)
 	{
 		System.out.println(new SmallestStringWithSwaps().smallestStringWithSwaps("zbxxxdgmbz", Arrays.asList(
-			Arrays.asList(1, 0),
-			Arrays.asList(7, 1),
-			Arrays.asList(9, 1),
-			Arrays.asList(3, 0),
-			Arrays.asList(7, 1),
-			Arrays.asList(0, 4),
-			Arrays.asList(6, 5),
-			Arrays.asList(2, 6),
-			Arrays.asList(6, 4),
-			Arrays.asList(6, 0)
+				Arrays.asList(1, 0),
+				Arrays.asList(7, 1),
+				Arrays.asList(9, 1),
+				Arrays.asList(3, 0),
+				Arrays.asList(7, 1),
+				Arrays.asList(0, 4),
+				Arrays.asList(6, 5),
+				Arrays.asList(2, 6),
+				Arrays.asList(6, 4),
+				Arrays.asList(6, 0)
 		))); //bdgmxxxzbz
 
 		System.out.println(new SmallestStringWithSwaps().smallestStringWithSwaps("dcab", Arrays.asList(
-			Arrays.asList(0, 3),
-			Arrays.asList(1, 2),
-			Arrays.asList(0, 2)
+				Arrays.asList(0, 3),
+				Arrays.asList(1, 2),
+				Arrays.asList(0, 2)
 		))); //abcd
 
 		System.out.println(new SmallestStringWithSwaps().smallestStringWithSwaps("dcab", Arrays.asList(
-			Arrays.asList(0, 3),
-			Arrays.asList(1, 2)
+				Arrays.asList(0, 3),
+				Arrays.asList(1, 2)
 		))); //bcad
 	}
 }

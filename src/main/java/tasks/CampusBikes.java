@@ -11,11 +11,11 @@ import java.util.List;
  * @created 12/17/2020
  */
 @LeetCode(
-	id = 1057,
-	name = "Campus Bikes",
-	url = "https://leetcode.com/problems/campus-bikes/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1057,
+		name = "Campus Bikes",
+		url = "https://leetcode.com/problems/campus-bikes/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class CampusBikes
 {

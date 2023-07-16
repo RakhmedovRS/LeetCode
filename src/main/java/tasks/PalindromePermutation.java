@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/15/2020
  */
 @LeetCode(
-	id = 266,
-	name = "Palindrome Permutation",
-	url = "https://leetcode.com/problems/palindrome-permutation/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 266,
+		name = "Palindrome Permutation",
+		url = "https://leetcode.com/problems/palindrome-permutation/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class PalindromePermutation
 {

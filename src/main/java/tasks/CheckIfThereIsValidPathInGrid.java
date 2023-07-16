@@ -90,16 +90,16 @@ public class CheckIfThereIsValidPathInGrid
 		}
 
 		Route[] routes = new Route[]{null,
-			new Route(Direction.LEFT, Direction.RIGHT),
-			new Route(Direction.UP, Direction.DOWN),
-			new Route(Direction.LEFT, Direction.DOWN),
-			new Route(Direction.DOWN, Direction.RIGHT),
-			new Route(Direction.LEFT, Direction.UP),
-			new Route(Direction.UP, Direction.RIGHT),
+				new Route(Direction.LEFT, Direction.RIGHT),
+				new Route(Direction.UP, Direction.DOWN),
+				new Route(Direction.LEFT, Direction.DOWN),
+				new Route(Direction.DOWN, Direction.RIGHT),
+				new Route(Direction.LEFT, Direction.UP),
+				new Route(Direction.UP, Direction.RIGHT),
 		};
 
 		return dfs(routes[grid[0][0]].enter.x, routes[grid[0][0]].enter.y, rows, columns, grid, routes[grid[0][0]].enter, routes, new boolean[rows][columns])
-			|| dfs(routes[grid[0][0]].exit.x, routes[grid[0][0]].exit.y, rows, columns, grid, routes[grid[0][0]].exit, routes, new boolean[rows][columns]);
+				|| dfs(routes[grid[0][0]].exit.x, routes[grid[0][0]].exit.y, rows, columns, grid, routes[grid[0][0]].exit, routes, new boolean[rows][columns]);
 	}
 
 	private boolean dfs(int row, int column, int rows, int columns, int[][] grid, Direction direction, Route[] routes, boolean[][] visited)
@@ -122,51 +122,51 @@ public class CheckIfThereIsValidPathInGrid
 		}
 
 		return dfs(row + routes[grid[row][column]].exit.x, column + routes[grid[row][column]].exit.y, rows, columns, grid, routes[grid[row][column]].exit, routes, visited)
-			|| dfs(row + routes[grid[row][column]].enter.x, column + routes[grid[row][column]].enter.y, rows, columns, grid, routes[grid[row][column]].enter, routes, visited);
+				|| dfs(row + routes[grid[row][column]].enter.x, column + routes[grid[row][column]].enter.y, rows, columns, grid, routes[grid[row][column]].enter, routes, visited);
 	}
 
 	public static void main(String[] args)
 	{
 		System.out.println(new CheckIfThereIsValidPathInGrid().hasValidPath(new int[][]
-			{
-				{3, 4, 3, 4},
-				{2, 2, 2, 2},
-				{6, 5, 6, 5},
-			}));
+				{
+						{3, 4, 3, 4},
+						{2, 2, 2, 2},
+						{6, 5, 6, 5},
+				}));
 
 		System.out.println(new CheckIfThereIsValidPathInGrid().hasValidPath(new int[][]
-			{
-				{1, 2, 1},
-				{1, 2, 1}
-			}));
+				{
+						{1, 2, 1},
+						{1, 2, 1}
+				}));
 
 		System.out.println(new CheckIfThereIsValidPathInGrid().hasValidPath(new int[][]
-			{
-				{6, 1, 3},
-				{4, 1, 5}
-			}));
+				{
+						{6, 1, 3},
+						{4, 1, 5}
+				}));
 
 		System.out.println(new CheckIfThereIsValidPathInGrid().hasValidPath(new int[][]
-			{
-				{1, 1},
-			}));
+				{
+						{1, 1},
+				}));
 
 		System.out.println(new CheckIfThereIsValidPathInGrid().hasValidPath(new int[][]
-			{
-				{2},
-				{2},
-			}));
+				{
+						{2},
+						{2},
+				}));
 
 		System.out.println(new CheckIfThereIsValidPathInGrid().hasValidPath(new int[][]
-			{
-				{2, 4, 3},
-				{6, 5, 2}
-			}));
+				{
+						{2, 4, 3},
+						{6, 5, 2}
+				}));
 
 		System.out.println(new CheckIfThereIsValidPathInGrid().hasValidPath(new int[][]
-			{
-				{4, 1},
-				{6, 1}
-			}));
+				{
+						{4, 1},
+						{6, 1}
+				}));
 	}
 }

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 10/16/2020
  */
 @LeetCode(
-	id = 304,
-	name = "Range Sum Query 2D - Immutable",
-	url = "https://leetcode.com/problems/range-sum-query-2d-immutable/",
-	difficulty = Difficulty.MEDIUM
+		id = 304,
+		name = "Range Sum Query 2D - Immutable",
+		url = "https://leetcode.com/problems/range-sum-query-2d-immutable/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RangeSumQuery2DImmutable
 {

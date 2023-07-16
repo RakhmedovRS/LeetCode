@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 5/30/2021
  */
 @LeetCode(
-	id = 1881,
-	name = "Maximum Value after Insertion",
-	url = "https://leetcode.com/problems/maximum-value-after-insertion/",
-	difficulty = Difficulty.MEDIUM
+		id = 1881,
+		name = "Maximum Value after Insertion",
+		url = "https://leetcode.com/problems/maximum-value-after-insertion/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumValueAfterInsertion
 {

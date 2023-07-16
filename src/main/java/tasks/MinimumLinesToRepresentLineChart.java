@@ -11,10 +11,10 @@ import java.util.Comparator;
  * @created 5/22/2022
  */
 @LeetCode(
-	id = 2280,
-	name = "Minimum Lines to Represent a Line Chart",
-	url = "https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/",
-	difficulty = Difficulty.MEDIUM
+		id = 2280,
+		name = "Minimum Lines to Represent a Line Chart",
+		url = "https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumLinesToRepresentLineChart
 {
@@ -49,8 +49,8 @@ public class MinimumLinesToRepresentLineChart
 	{
 
 		int a = x1 * (y2 - y3) +
-			x2 * (y3 - y1) +
-			x3 * (y1 - y2);
+				x2 * (y3 - y1) +
+				x3 * (y1 - y2);
 
 		return a == 0;
 	}

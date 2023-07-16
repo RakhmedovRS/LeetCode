@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 9/12/2021
  */
 @LeetCode(
-	id = 2001,
-	name = "Number of Pairs of Interchangeable Rectangles",
-	url = "https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/",
-	difficulty = Difficulty.MEDIUM
+		id = 2001,
+		name = "Number of Pairs of Interchangeable Rectangles",
+		url = "https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/",
+		difficulty = Difficulty.MEDIUM
 )
 public class NumberOfPairsOfInterchangeableRectangles
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 5/1/2022
  */
 @LeetCode(
-	id = 2259,
-	name = "Remove Digit From Number to Maximize Result",
-	url = "https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/",
-	difficulty = Difficulty.EASY
+		id = 2259,
+		name = "Remove Digit From Number to Maximize Result",
+		url = "https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/",
+		difficulty = Difficulty.EASY
 )
 public class RemoveDigitFromNumberToMaximizeResult
 {

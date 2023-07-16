@@ -14,10 +14,10 @@ import java.util.Queue;
  * @created 09-Mar-20
  */
 @LeetCode(
-	id = 102,
-	name = "Binary Tree Level Order Traversal",
-	url = "https://leetcode.com/problems/binary-tree-level-order-traversal/",
-	difficulty = Difficulty.MEDIUM
+		id = 102,
+		name = "Binary Tree Level Order Traversal",
+		url = "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+		difficulty = Difficulty.MEDIUM
 )
 public class BinaryTreeLevelOrderTraversal
 {

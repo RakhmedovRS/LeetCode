@@ -10,11 +10,11 @@ import java.util.Arrays;
  * @created 11/29/2020
  */
 @LeetCode(
-	id = 252,
-	name = "Meeting Rooms",
-	url = "https://leetcode.com/problems/meeting-rooms/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 252,
+		name = "Meeting Rooms",
+		url = "https://leetcode.com/problems/meeting-rooms/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class MeetingRooms
 {
@@ -35,16 +35,16 @@ public class MeetingRooms
 	public static void main(String[] args)
 	{
 		System.out.println(new MeetingRooms().canAttendMeetings(new int[][]
-			{
-				{7, 10},
-				{2, 4}
-			}));
+				{
+						{7, 10},
+						{2, 4}
+				}));
 
 		System.out.println(new MeetingRooms().canAttendMeetings(new int[][]
-			{
-				{0, 30},
-				{5, 10},
-				{15, 20}
-			}));
+				{
+						{0, 30},
+						{5, 10},
+						{15, 20}
+				}));
 	}
 }

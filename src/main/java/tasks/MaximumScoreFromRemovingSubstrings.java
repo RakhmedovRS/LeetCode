@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 1/9/2021
  */
 @LeetCode(
-	id = 1717,
-	name = "Maximum Score From Removing Substrings",
-	url = "https://leetcode.com/problems/maximum-score-from-removing-substrings/",
-	difficulty = Difficulty.MEDIUM
+		id = 1717,
+		name = "Maximum Score From Removing Substrings",
+		url = "https://leetcode.com/problems/maximum-score-from-removing-substrings/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumScoreFromRemovingSubstrings
 {

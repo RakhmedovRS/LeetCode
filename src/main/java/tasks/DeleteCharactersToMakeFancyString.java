@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 8/8/2021
  */
 @LeetCode(
-	id = 1957,
-	name = "Delete Characters to Make Fancy String",
-	url = "https://leetcode.com/problems/delete-characters-to-make-fancy-string/",
-	difficulty = Difficulty.EASY
+		id = 1957,
+		name = "Delete Characters to Make Fancy String",
+		url = "https://leetcode.com/problems/delete-characters-to-make-fancy-string/",
+		difficulty = Difficulty.EASY
 )
 public class DeleteCharactersToMakeFancyString
 {

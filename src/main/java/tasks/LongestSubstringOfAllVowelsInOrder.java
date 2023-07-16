@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 4/25/2021
  */
 @LeetCode(
-	id = 1839,
-	name = "Longest Substring Of All Vowels in Order",
-	url = "https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/",
-	difficulty = Difficulty.MEDIUM
+		id = 1839,
+		name = "Longest Substring Of All Vowels in Order",
+		url = "https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LongestSubstringOfAllVowelsInOrder
 {

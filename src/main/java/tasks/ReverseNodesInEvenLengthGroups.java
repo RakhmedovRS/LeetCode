@@ -11,10 +11,10 @@ import java.util.LinkedList;
  * @created 11/14/2021
  */
 @LeetCode(
-	id = 2074,
-	name = "Reverse Nodes in Even Length Groups",
-	url = "https://leetcode.com/problems/reverse-nodes-in-even-length-groups/",
-	difficulty = Difficulty.MEDIUM
+		id = 2074,
+		name = "Reverse Nodes in Even Length Groups",
+		url = "https://leetcode.com/problems/reverse-nodes-in-even-length-groups/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ReverseNodesInEvenLengthGroups
 {

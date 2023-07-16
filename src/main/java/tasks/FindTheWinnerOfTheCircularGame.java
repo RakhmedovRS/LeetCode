@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 4/10/2021
  */
 @LeetCode(
-	id = 1823,
-	name = "Find the Winner of the Circular Game",
-	url = "https://leetcode.com/problems/find-the-winner-of-the-circular-game/",
-	difficulty = Difficulty.MEDIUM
+		id = 1823,
+		name = "Find the Winner of the Circular Game",
+		url = "https://leetcode.com/problems/find-the-winner-of-the-circular-game/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindTheWinnerOfTheCircularGame
 {

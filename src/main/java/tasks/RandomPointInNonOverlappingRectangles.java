@@ -53,11 +53,11 @@ public class RandomPointInNonOverlappingRectangles
 	public static void main(String[] args)
 	{
 		Solution solution = new RandomPointInNonOverlappingRectangles().new Solution(new int[][]
-			{
-				new int[]{-2, -2, -1, -1},
-				new int[]{83793579, 18088559, 83793580, 18088560},
-				new int[]{1, 0, 3, 0}
-			});
+				{
+						new int[]{-2, -2, -1, -1},
+						new int[]{83793579, 18088559, 83793580, 18088560},
+						new int[]{1, 0, 3, 0}
+				});
 
 		for (int i = 0; i < 10; i++)
 		{
@@ -66,9 +66,9 @@ public class RandomPointInNonOverlappingRectangles
 
 		System.out.println();
 		solution = new RandomPointInNonOverlappingRectangles().new Solution(new int[][]
-			{
-				new int[]{1, 1, 5, 5}
-			});
+				{
+						new int[]{1, 1, 5, 5}
+				});
 
 		for (int i = 0; i < 10; i++)
 		{

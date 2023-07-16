@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 4/24/2022
  */
 @LeetCode(
-	id = 2249,
-	name = "Count Lattice Points Inside a Circle",
-	url = "https://leetcode.com/problems/count-lattice-points-inside-a-circle/",
-	difficulty = Difficulty.MEDIUM
+		id = 2249,
+		name = "Count Lattice Points Inside a Circle",
+		url = "https://leetcode.com/problems/count-lattice-points-inside-a-circle/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CountLatticePointsInsideCircle
 {
@@ -44,10 +44,10 @@ public class CountLatticePointsInsideCircle
 	}
 
 	boolean pointInsideCircle(int circleX, int circleY,
-	                          int radius, int pointX, int pointY)
+							  int radius, int pointX, int pointY)
 	{
 		if ((pointX - circleX) * (pointX - circleX) +
-			(pointY - circleY) * (pointY - circleY) <= radius * radius)
+				(pointY - circleY) * (pointY - circleY) <= radius * radius)
 		{
 			return true;
 		}

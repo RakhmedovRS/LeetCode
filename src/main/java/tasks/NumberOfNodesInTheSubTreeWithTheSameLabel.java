@@ -79,24 +79,24 @@ public class NumberOfNodesInTheSubTreeWithTheSameLabel
 	public static void main(String[] args)
 	{
 		System.out.println(Arrays.toString(new NumberOfNodesInTheSubTreeWithTheSameLabel().countSubTrees(4, new int[][]{
-			{0, 2},
-			{0, 3},
-			{1, 2}
+				{0, 2},
+				{0, 3},
+				{1, 2}
 		}, "aeed")));
 
 		System.out.println(Arrays.toString(new NumberOfNodesInTheSubTreeWithTheSameLabel().countSubTrees(7, new int[][]{
-			{0, 1},
-			{0, 2},
-			{1, 4},
-			{1, 5},
-			{2, 3},
-			{2, 6}
+				{0, 1},
+				{0, 2},
+				{1, 4},
+				{1, 5},
+				{2, 3},
+				{2, 6}
 		}, "abaedcd")));
 
 		System.out.println(Arrays.toString(new NumberOfNodesInTheSubTreeWithTheSameLabel().countSubTrees(5, new int[][]{
-			{0, 1},
-			{0, 2},
-			{1, 3},
-			{0, 4}}, "aabab")));
+				{0, 1},
+				{0, 2},
+				{1, 3},
+				{0, 4}}, "aabab")));
 	}
 }

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 4/10/2022
  */
 @LeetCode(
-	id = 2232,
-	name = "Minimize Result by Adding Parentheses to Expression",
-	url = "https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/",
-	difficulty = Difficulty.MEDIUM
+		id = 2232,
+		name = "Minimize Result by Adding Parentheses to Expression",
+		url = "https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimizeResultByAddingParenthesesToExpression
 {

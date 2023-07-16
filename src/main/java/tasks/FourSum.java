@@ -10,10 +10,10 @@ import java.util.*;
  * @created 7/16/2021
  */
 @LeetCode(
-	id = 18,
-	name = "4Sum",
-	url = "https://leetcode.com/problems/4sum/",
-	difficulty = Difficulty.MEDIUM
+		id = 18,
+		name = "4Sum",
+		url = "https://leetcode.com/problems/4sum/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FourSum
 {

@@ -11,11 +11,11 @@ import java.util.Map;
  * @created 11/29/2020
  */
 @LeetCode(
-	id = 1056,
-	name = "Confusing Number",
-	url = "https://leetcode.com/problems/confusing-number/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1056,
+		name = "Confusing Number",
+		url = "https://leetcode.com/problems/confusing-number/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class ConfusingNumber
 {

@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 4/16/2022
  */
 @LeetCode(
-	id = 2236,
-	name = "Root Equals Sum of Children",
-	url = "https://leetcode.com/problems/root-equals-sum-of-children/",
-	difficulty = Difficulty.EASY
+		id = 2236,
+		name = "Root Equals Sum of Children",
+		url = "https://leetcode.com/problems/root-equals-sum-of-children/",
+		difficulty = Difficulty.EASY
 )
 public class RootEqualsSumOfChildren
 {

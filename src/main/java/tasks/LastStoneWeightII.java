@@ -37,7 +37,7 @@ public class LastStoneWeightII
 		}
 
 		memo[leftSum][rightSum] = Math.min(dfs(pos + 1, stones, leftSum + stones[pos], rightSum - stones[pos], memo),
-			dfs(pos + 1, stones, leftSum, rightSum, memo)
+				dfs(pos + 1, stones, leftSum, rightSum, memo)
 		);
 
 		return memo[leftSum][rightSum];

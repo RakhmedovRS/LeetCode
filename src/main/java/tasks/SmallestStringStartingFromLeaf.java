@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 15-Jul-20
  */
 @LeetCode(
-	id = 988,
-	name = "Smallest String Starting From Leaf",
-	url = "https://leetcode.com/problems/smallest-string-starting-from-leaf/",
-	difficulty = Difficulty.MEDIUM
+		id = 988,
+		name = "Smallest String Starting From Leaf",
+		url = "https://leetcode.com/problems/smallest-string-starting-from-leaf/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SmallestStringStartingFromLeaf
 {

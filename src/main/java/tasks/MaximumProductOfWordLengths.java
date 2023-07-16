@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 25-Jun-20
  */
 @LeetCode(
-	id = 318,
-	name = "Maximum Product of Word Lengths",
-	url = "https://leetcode.com/problems/maximum-product-of-word-lengths/",
-	difficulty = Difficulty.MEDIUM
+		id = 318,
+		name = "Maximum Product of Word Lengths",
+		url = "https://leetcode.com/problems/maximum-product-of-word-lengths/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumProductOfWordLengths
 {

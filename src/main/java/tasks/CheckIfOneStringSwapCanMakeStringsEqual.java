@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 3/14/2021
  */
 @LeetCode(
-	id = 1790,
-	name = "Check if One String Swap Can Make Strings Equal",
-	url = "https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/",
-	difficulty = Difficulty.EASY
+		id = 1790,
+		name = "Check if One String Swap Can Make Strings Equal",
+		url = "https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/",
+		difficulty = Difficulty.EASY
 )
 public class CheckIfOneStringSwapCanMakeStringsEqual
 {

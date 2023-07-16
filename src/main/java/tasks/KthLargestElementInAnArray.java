@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 06-Feb-20
  */
 @LeetCode(
-	id = 215,
-	name = "Kth Largest Element in an Array",
-	url = "https://leetcode.com/problems/kth-largest-element-in-an-array/",
-	difficulty = Difficulty.EASY
+		id = 215,
+		name = "Kth Largest Element in an Array",
+		url = "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+		difficulty = Difficulty.EASY
 )
 public class KthLargestElementInAnArray
 {

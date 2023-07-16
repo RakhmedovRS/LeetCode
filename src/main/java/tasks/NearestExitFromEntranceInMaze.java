@@ -11,10 +11,10 @@ import java.util.Queue;
  * @created 7/10/2021
  */
 @LeetCode(
-	id = 1926,
-	name = "Nearest Exit from Entrance in Maze",
-	url = "https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/",
-	difficulty = Difficulty.MEDIUM
+		id = 1926,
+		name = "Nearest Exit from Entrance in Maze",
+		url = "https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/",
+		difficulty = Difficulty.MEDIUM
 )
 public class NearestExitFromEntranceInMaze
 {

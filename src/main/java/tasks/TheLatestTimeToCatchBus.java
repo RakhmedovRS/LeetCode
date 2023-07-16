@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 7/10/2022
  */
 @LeetCode(
-	id = 2332,
-	name = "The Latest Time to Catch a Bus",
-	url = "https://leetcode.com/problems/the-latest-time-to-catch-a-bus/",
-	difficulty = Difficulty.MEDIUM
+		id = 2332,
+		name = "The Latest Time to Catch a Bus",
+		url = "https://leetcode.com/problems/the-latest-time-to-catch-a-bus/",
+		difficulty = Difficulty.MEDIUM
 )
 public class TheLatestTimeToCatchBus
 {

@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/3/2020
  */
 @LeetCode(
-	id = 246,
-	name = "Strobogrammatic Number",
-	url = "https://leetcode.com/problems/strobogrammatic-number/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 246,
+		name = "Strobogrammatic Number",
+		url = "https://leetcode.com/problems/strobogrammatic-number/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class StrobogrammaticNumber
 {

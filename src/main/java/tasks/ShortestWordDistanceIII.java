@@ -13,11 +13,11 @@ import java.util.Map;
  * @created 12/25/2020
  */
 @LeetCode(
-	id = 245,
-	name = "Shortest Word Distance III",
-	url = "https://leetcode.com/problems/shortest-word-distance-iii/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 245,
+		name = "Shortest Word Distance III",
+		url = "https://leetcode.com/problems/shortest-word-distance-iii/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class ShortestWordDistanceIII
 {

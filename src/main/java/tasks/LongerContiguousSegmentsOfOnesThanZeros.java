@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 5/23/2021
  */
 @LeetCode(
-	id = 1869,
-	name = "Longer Contiguous Segments of Ones than Zeros",
-	url = "https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/",
-	difficulty = Difficulty.EASY
+		id = 1869,
+		name = "Longer Contiguous Segments of Ones than Zeros",
+		url = "https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/",
+		difficulty = Difficulty.EASY
 )
 public class LongerContiguousSegmentsOfOnesThanZeros
 {

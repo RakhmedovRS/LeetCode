@@ -11,10 +11,10 @@ import java.util.List;
  * @created 15-Mar-20
  */
 @LeetCode(
-	id = 412,
-	name = "Fizz Buzz",
-	url = "https://leetcode.com/problems/fizz-buzz/",
-	difficulty = Difficulty.EASY
+		id = 412,
+		name = "Fizz Buzz",
+		url = "https://leetcode.com/problems/fizz-buzz/",
+		difficulty = Difficulty.EASY
 )
 public class FizzBuzz
 {

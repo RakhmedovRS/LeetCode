@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 24-Mar-20
  */
 @LeetCode(
-	id = 8,
-	name = "String to Integer",
-	url = "https://leetcode.com/problems/string-to-integer-atoi/",
-	difficulty = Difficulty.MEDIUM
+		id = 8,
+		name = "String to Integer",
+		url = "https://leetcode.com/problems/string-to-integer-atoi/",
+		difficulty = Difficulty.MEDIUM
 )
 public class StringToInteger
 {

@@ -10,10 +10,10 @@ import java.util.*;
  * @created 26-Apr-20
  */
 @LeetCode(
-	id = 212,
-	name = "Word Search II",
-	url = "https://leetcode.com/problems/word-search-ii/",
-	difficulty = Difficulty.HARD
+		id = 212,
+		name = "Word Search II",
+		url = "https://leetcode.com/problems/word-search-ii/",
+		difficulty = Difficulty.HARD
 )
 public class WordSearchII
 {
@@ -70,9 +70,9 @@ public class WordSearchII
 		board[row][column] = ' ';
 		pos++;
 		boolean result = (dsf(board, row - 1, column, word, pos)
-			|| dsf(board, row + 1, column, word, pos)
-			|| dsf(board, row, column - 1, word, pos)
-			|| dsf(board, row, column + 1, word, pos));
+				|| dsf(board, row + 1, column, word, pos)
+				|| dsf(board, row, column - 1, word, pos)
+				|| dsf(board, row, column + 1, word, pos));
 		board[row][column] = temp;
 		return result;
 	}
@@ -80,12 +80,12 @@ public class WordSearchII
 	public static void main(String[] args)
 	{
 		char[][] board = new char[][]
-			{
-				{'o', 'a', 'a', 'n'},
-				{'e', 't', 'a', 'e'},
-				{'i', 'h', 'k', 'r'},
-				{'i', 'f', 'l', 'v'},
-			};
+				{
+						{'o', 'a', 'a', 'n'},
+						{'e', 't', 'a', 'e'},
+						{'i', 'h', 'k', 'r'},
+						{'i', 'f', 'l', 'v'},
+				};
 		String[] words = new String[]{"oath", "pea", "eat", "rain"};
 
 		System.out.println(new WordSearchII().findWords(board, words));

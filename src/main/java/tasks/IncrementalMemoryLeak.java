@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 5/15/2021
  */
 @LeetCode(
-	id = 1860,
-	name = "Incremental Memory Leak",
-	url = "https://leetcode.com/problems/incremental-memory-leak/",
-	difficulty = Difficulty.MEDIUM
+		id = 1860,
+		name = "Incremental Memory Leak",
+		url = "https://leetcode.com/problems/incremental-memory-leak/",
+		difficulty = Difficulty.MEDIUM
 )
 public class IncrementalMemoryLeak
 {

@@ -13,11 +13,11 @@ import java.util.List;
  * @created 1/11/2021
  */
 @LeetCode(
-	id = 254,
-	name = "Factor Combinations",
-	url = "https://leetcode.com/problems/factor-combinations/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 254,
+		name = "Factor Combinations",
+		url = "https://leetcode.com/problems/factor-combinations/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class FactorCombinations
 {

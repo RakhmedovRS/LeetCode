@@ -11,10 +11,10 @@ import java.util.List;
  * @created 10-May-20
  */
 @LeetCode(
-	id = 916,
-	name = "Word tasks.Subsets",
-	url = "https://leetcode.com/problems/word-subsets/",
-	difficulty = Difficulty.MEDIUM
+		id = 916,
+		name = "Word tasks.Subsets",
+		url = "https://leetcode.com/problems/word-subsets/",
+		difficulty = Difficulty.MEDIUM
 )
 public class WordSubsets
 {
@@ -22,7 +22,7 @@ public class WordSubsets
 	{
 		List<String> answer = new ArrayList<>();
 		int[] memo = new int[26];
-		for (String word: words2)
+		for (String word : words2)
 		{
 			int[] temp = createCharFrequencyTable(word);
 			for (int i = 0; i < 26; i++)
@@ -31,7 +31,8 @@ public class WordSubsets
 			}
 		}
 
-		outer: for (String word : words1)
+		outer:
+		for (String word : words1)
 		{
 			int[] current = createCharFrequencyTable(word);
 

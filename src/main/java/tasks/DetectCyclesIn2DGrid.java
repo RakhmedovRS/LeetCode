@@ -58,33 +58,33 @@ public class DetectCyclesIn2DGrid
 		if (cameFrom == Step.NONE)
 		{
 			return dfs(grid, row - 1, column, rows, columns, ch, step + 1, Step.DOWN)
-				|| dfs(grid, row + 1, column, rows, columns, ch, step + 1, Step.UP)
-				|| dfs(grid, row, column - 1, rows, columns, ch, step + 1, Step.RIGHT)
-				|| dfs(grid, row, column + 1, rows, columns, ch, step + 1, Step.LEFT);
+					|| dfs(grid, row + 1, column, rows, columns, ch, step + 1, Step.UP)
+					|| dfs(grid, row, column - 1, rows, columns, ch, step + 1, Step.RIGHT)
+					|| dfs(grid, row, column + 1, rows, columns, ch, step + 1, Step.LEFT);
 		}
 		else if (cameFrom == Step.UP)
 		{
 			return dfs(grid, row + 1, column, rows, columns, ch, step + 1, Step.UP)
-				|| dfs(grid, row, column - 1, rows, columns, ch, step + 1, Step.RIGHT)
-				|| dfs(grid, row, column + 1, rows, columns, ch, step + 1, Step.LEFT);
+					|| dfs(grid, row, column - 1, rows, columns, ch, step + 1, Step.RIGHT)
+					|| dfs(grid, row, column + 1, rows, columns, ch, step + 1, Step.LEFT);
 		}
 		else if (cameFrom == Step.DOWN)
 		{
 			return dfs(grid, row - 1, column, rows, columns, ch, step + 1, Step.DOWN)
-				|| dfs(grid, row, column - 1, rows, columns, ch, step + 1, Step.RIGHT)
-				|| dfs(grid, row, column + 1, rows, columns, ch, step + 1, Step.LEFT);
+					|| dfs(grid, row, column - 1, rows, columns, ch, step + 1, Step.RIGHT)
+					|| dfs(grid, row, column + 1, rows, columns, ch, step + 1, Step.LEFT);
 		}
 		else if (cameFrom == Step.LEFT)
 		{
 			return dfs(grid, row - 1, column, rows, columns, ch, step + 1, Step.DOWN)
-				|| dfs(grid, row + 1, column, rows, columns, ch, step + 1, Step.UP)
-				|| dfs(grid, row, column + 1, rows, columns, ch, step + 1, Step.LEFT);
+					|| dfs(grid, row + 1, column, rows, columns, ch, step + 1, Step.UP)
+					|| dfs(grid, row, column + 1, rows, columns, ch, step + 1, Step.LEFT);
 		}
 		else
 		{
 			return dfs(grid, row - 1, column, rows, columns, ch, step + 1, Step.DOWN)
-				|| dfs(grid, row + 1, column, rows, columns, ch, step + 1, Step.UP)
-				|| dfs(grid, row, column - 1, rows, columns, ch, step + 1, Step.RIGHT);
+					|| dfs(grid, row + 1, column, rows, columns, ch, step + 1, Step.UP)
+					|| dfs(grid, row, column - 1, rows, columns, ch, step + 1, Step.RIGHT);
 		}
 	}
 }

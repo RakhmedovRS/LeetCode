@@ -11,10 +11,10 @@ import java.util.List;
  * @created 3/6/2022
  */
 @LeetCode(
-	id = 2194,
-	name = "Cells in a Range on an Excel Sheet",
-	url = "https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/",
-	difficulty = Difficulty.EASY
+		id = 2194,
+		name = "Cells in a Range on an Excel Sheet",
+		url = "https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/",
+		difficulty = Difficulty.EASY
 )
 public class CellsInRangeOnExcelSheet
 {

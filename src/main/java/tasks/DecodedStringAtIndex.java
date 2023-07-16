@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/20/2020
  */
 @LeetCode(
-	id = 880,
-	name = "Decoded String at Index",
-	url = "https://leetcode.com/problems/decoded-string-at-index/",
-	difficulty = Difficulty.MEDIUM
+		id = 880,
+		name = "Decoded String at Index",
+		url = "https://leetcode.com/problems/decoded-string-at-index/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DecodedStringAtIndex
 {

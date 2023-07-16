@@ -18,8 +18,8 @@ public class CheckIfWordIsValidAfterSubstitutions
 		for (char ch : s.toCharArray())
 		{
 			if (ch == 'c' && chars.size() >= 2 &&
-				chars.get(chars.size() - 1) == 'b' &&
-				chars.get(chars.size() - 2) == 'a')
+					chars.get(chars.size() - 1) == 'b' &&
+					chars.get(chars.size() - 2) == 'a')
 			{
 				chars.remove(chars.size() - 1);
 				chars.remove(chars.size() - 1);

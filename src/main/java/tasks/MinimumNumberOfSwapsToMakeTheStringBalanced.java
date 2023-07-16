@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 8/8/2021
  */
 @LeetCode(
-	id = 1963,
-	name = "Minimum Number of Swaps to Make the String Balanced",
-	url = "https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/",
-	difficulty = Difficulty.MEDIUM
+		id = 1963,
+		name = "Minimum Number of Swaps to Make the String Balanced",
+		url = "https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumNumberOfSwapsToMakeTheStringBalanced
 {

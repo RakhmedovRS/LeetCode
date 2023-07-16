@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/22/2020
  */
 @LeetCode(
-	id = 1662,
-	name = "Check If Two String Arrays are Equivalent",
-	url = "https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/",
-	difficulty = Difficulty.EASY
+		id = 1662,
+		name = "Check If Two String Arrays are Equivalent",
+		url = "https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/",
+		difficulty = Difficulty.EASY
 )
 public class CheckIfTwoStringArraysAreEquivalent
 {

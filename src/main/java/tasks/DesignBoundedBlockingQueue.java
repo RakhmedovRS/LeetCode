@@ -10,11 +10,11 @@ import java.util.LinkedList;
  * @created 12/22/2020
  */
 @LeetCode(
-	id = 1188,
-	name = "Design Bounded Blocking Queue",
-	url = "https://leetcode.com/problems/design-bounded-blocking-queue/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1188,
+		name = "Design Bounded Blocking Queue",
+		url = "https://leetcode.com/problems/design-bounded-blocking-queue/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class DesignBoundedBlockingQueue
 {

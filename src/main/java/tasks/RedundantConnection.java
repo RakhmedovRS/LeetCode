@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 10/2/2020
  */
 @LeetCode(
-	id = 684,
-	name = "Redundant Connection",
-	url = "https://leetcode.com/problems/redundant-connection/",
-	difficulty = Difficulty.MEDIUM
+		id = 684,
+		name = "Redundant Connection",
+		url = "https://leetcode.com/problems/redundant-connection/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RedundantConnection
 {

@@ -49,7 +49,7 @@ public class MiniParser
 
 		public NestedInteger()
 		{
-			this.list = new ArrayList<> ();
+			this.list = new ArrayList<>();
 		}
 
 		public boolean isInteger()

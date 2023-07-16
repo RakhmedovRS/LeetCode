@@ -11,10 +11,10 @@ import java.util.PriorityQueue;
  * @created 6/5/2021
  */
 @LeetCode(
-	id = 1383,
-	name = "Maximum Performance of a Team",
-	url = "https://leetcode.com/problems/maximum-performance-of-a-team/",
-	difficulty = Difficulty.HARD
+		id = 1383,
+		name = "Maximum Performance of a Team",
+		url = "https://leetcode.com/problems/maximum-performance-of-a-team/",
+		difficulty = Difficulty.HARD
 )
 public class MaximumPerformanceOfTeam
 {

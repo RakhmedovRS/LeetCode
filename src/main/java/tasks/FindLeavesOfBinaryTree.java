@@ -11,11 +11,11 @@ import java.util.*;
  * @created 12/10/2020
  */
 @LeetCode(
-	id = 366,
-	name = "Find Leaves of Binary Tree",
-	url = "https://leetcode.com/problems/find-leaves-of-binary-tree/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 366,
+		name = "Find Leaves of Binary Tree",
+		url = "https://leetcode.com/problems/find-leaves-of-binary-tree/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class FindLeavesOfBinaryTree
 {

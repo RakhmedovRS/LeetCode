@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 3/6/2022
  */
 @LeetCode(
-	id = 2195,
-	name = "Append K Integers With Minimal Sum",
-	url = "https://leetcode.com/problems/append-k-integers-with-minimal-sum/",
-	difficulty = Difficulty.MEDIUM
+		id = 2195,
+		name = "Append K Integers With Minimal Sum",
+		url = "https://leetcode.com/problems/append-k-integers-with-minimal-sum/",
+		difficulty = Difficulty.MEDIUM
 )
 public class AppendKIntegersWithMinimalSum
 {

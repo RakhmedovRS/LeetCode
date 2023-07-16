@@ -10,10 +10,10 @@ import java.util.*;
  * @created 11/4/2020
  */
 @LeetCode(
-	id = 310,
-	name = "Minimum Height Trees",
-	url = "https://leetcode.com/problems/minimum-height-trees/",
-	difficulty = Difficulty.MEDIUM
+		id = 310,
+		name = "Minimum Height Trees",
+		url = "https://leetcode.com/problems/minimum-height-trees/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumHeightTrees
 {
@@ -74,30 +74,30 @@ public class MinimumHeightTrees
 	public static void main(String[] args)
 	{
 		System.out.println(new MinimumHeightTrees().findMinHeightTrees(3, new int[][]
-			{
-				{0, 1},
-				{0, 2},
-			}));
+				{
+						{0, 1},
+						{0, 2},
+				}));
 
 		System.out.println(new MinimumHeightTrees().findMinHeightTrees(4, new int[][]
-			{
-				{1, 0},
-				{1, 2},
-				{1, 3}
-			}));
+				{
+						{1, 0},
+						{1, 2},
+						{1, 3}
+				}));
 
 		System.out.println(new MinimumHeightTrees().findMinHeightTrees(2, new int[][]
-			{
-				{0, 1},
-			}));
+				{
+						{0, 1},
+				}));
 
 		System.out.println(new MinimumHeightTrees().findMinHeightTrees(6, new int[][]
-			{
-				{3, 0},
-				{3, 1},
-				{3, 2},
-				{3, 4},
-				{5, 4},
-			}));
+				{
+						{3, 0},
+						{3, 1},
+						{3, 2},
+						{3, 4},
+						{5, 4},
+				}));
 	}
 }

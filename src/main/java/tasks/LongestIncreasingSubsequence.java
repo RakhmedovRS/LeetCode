@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 14-Feb-20
  */
 @LeetCode(
-	id = 300,
-	name = "Longest Increasing Subsequence",
-	url = "https://leetcode.com/problems/longest-increasing-subsequence/",
-	difficulty = Difficulty.MEDIUM
+		id = 300,
+		name = "Longest Increasing Subsequence",
+		url = "https://leetcode.com/problems/longest-increasing-subsequence/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LongestIncreasingSubsequence
 {

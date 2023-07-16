@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 7/23/2022
  */
 @LeetCode(
-	id = 2347,
-	name = "Best Poker Hand",
-	url = "https://leetcode.com/problems/best-poker-hand/",
-	difficulty = Difficulty.EASY
+		id = 2347,
+		name = "Best Poker Hand",
+		url = "https://leetcode.com/problems/best-poker-hand/",
+		difficulty = Difficulty.EASY
 )
 public class BestPokerHand
 {

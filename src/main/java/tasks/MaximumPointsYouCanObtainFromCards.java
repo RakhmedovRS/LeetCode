@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/12/2020
  */
 @LeetCode(
-	id = 1423,
-	name = "Maximum Points You Can Obtain from Cards",
-	url = "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/",
-	difficulty = Difficulty.MEDIUM
+		id = 1423,
+		name = "Maximum Points You Can Obtain from Cards",
+		url = "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumPointsYouCanObtainFromCards
 {

@@ -11,11 +11,11 @@ import java.util.List;
  * @created 12/19/2020
  */
 @LeetCode(
-	id = 487,
-	name = "Max Consecutive Ones II",
-	url = "https://leetcode.com/problems/max-consecutive-ones-ii/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 487,
+		name = "Max Consecutive Ones II",
+		url = "https://leetcode.com/problems/max-consecutive-ones-ii/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class MaxConsecutiveOnesII
 {

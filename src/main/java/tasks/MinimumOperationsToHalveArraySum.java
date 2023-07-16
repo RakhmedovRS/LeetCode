@@ -11,10 +11,10 @@ import java.util.PriorityQueue;
  * @created 3/19/2022
  */
 @LeetCode(
-	id = 2208,
-	name = "Minimum Operations to Halve Array Sum",
-	url = "https://leetcode.com/problems/minimum-operations-to-halve-array-sum/",
-	difficulty = Difficulty.MEDIUM
+		id = 2208,
+		name = "Minimum Operations to Halve Array Sum",
+		url = "https://leetcode.com/problems/minimum-operations-to-halve-array-sum/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumOperationsToHalveArraySum
 {

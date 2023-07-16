@@ -12,16 +12,16 @@ import java.util.Set;
  * @created 14-Jul-20
  */
 @LeetCode(
-	id = 37,
-	name = "Sudoku Solver",
-	url = "https://leetcode.com/problems/sudoku-solver/",
-	difficulty = Difficulty.HARD
+		id = 37,
+		name = "Sudoku Solver",
+		url = "https://leetcode.com/problems/sudoku-solver/",
+		difficulty = Difficulty.HARD
 )
 public class SudokuSolver
 {
 	public void solveSudoku(char[][] board)
 	{
-		solve(board, 0,0);
+		solve(board, 0, 0);
 	}
 
 	private boolean solve(char[][] board, int row, int column)
@@ -44,7 +44,7 @@ public class SudokuSolver
 
 		for (int i = 1; i <= 9; i++)
 		{
-			board[row][column] = (char)(i + '0');
+			board[row][column] = (char) (i + '0');
 			if (isBoardValid(board, row, column))
 			{
 				if (solve(board, row, column))
@@ -66,9 +66,9 @@ public class SudokuSolver
 		Set<Character> set = new HashSet<>();
 
 		//check row
-		for (char ch: board[row])
+		for (char ch : board[row])
 		{
-			if (ch != '.' && ! set.add(ch))
+			if (ch != '.' && !set.add(ch))
 			{
 				return false;
 			}
@@ -92,7 +92,7 @@ public class SudokuSolver
 			for (int j = c; j < c + 3; j++)
 			{
 				char ch = board[i][j];
-				if (ch != '.' && ! set.add(ch))
+				if (ch != '.' && !set.add(ch))
 				{
 					return false;
 				}
@@ -105,21 +105,21 @@ public class SudokuSolver
 	public static void main(String[] args)
 	{
 		char[][] board = new char[][]
-			{
-				{'5','3','.','.','7','.','.','.','.'},
-				{'6','.','.','1','9','5','.','.','.'},
-				{'.','9','8','.','.','.','.','6','.'},
-				{'8','.','.','.','6','.','.','.','3'},
-				{'4','.','.','8','.','3','.','.','1'},
-				{'7','.','.','.','2','.','.','.','6'},
-				{'.','6','.','.','.','.','2','8','.'},
-				{'.','.','.','4','1','9','.','.','5'},
-				{'.','.','.','.','8','.','.','7','9'}
-			};
+				{
+						{'5', '3', '.', '.', '7', '.', '.', '.', '.'},
+						{'6', '.', '.', '1', '9', '5', '.', '.', '.'},
+						{'.', '9', '8', '.', '.', '.', '.', '6', '.'},
+						{'8', '.', '.', '.', '6', '.', '.', '.', '3'},
+						{'4', '.', '.', '8', '.', '3', '.', '.', '1'},
+						{'7', '.', '.', '.', '2', '.', '.', '.', '6'},
+						{'.', '6', '.', '.', '.', '.', '2', '8', '.'},
+						{'.', '.', '.', '4', '1', '9', '.', '.', '5'},
+						{'.', '.', '.', '.', '8', '.', '.', '7', '9'}
+				};
 
 		new SudokuSolver().solveSudoku(board);
 
-		for (char[] row :board)
+		for (char[] row : board)
 		{
 			System.out.println(Arrays.toString(row));
 		}

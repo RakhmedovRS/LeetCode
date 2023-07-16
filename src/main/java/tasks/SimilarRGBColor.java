@@ -11,11 +11,11 @@ import java.util.List;
  * @created 1/16/2021
  */
 @LeetCode(
-	id = 800,
-	name = "Similar RGB Color",
-	url = "https://leetcode.com/problems/similar-rgb-color/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 800,
+		name = "Similar RGB Color",
+		url = "https://leetcode.com/problems/similar-rgb-color/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class SimilarRGBColor
 {
@@ -37,11 +37,11 @@ public class SimilarRGBColor
 			{
 				for (String b : rgb)
 				{
-					diff = diff(rR,r) + diff(rG, g) + diff(rB, b);
+					diff = diff(rR, r) + diff(rG, g) + diff(rB, b);
 					if (minDiff > Math.abs(diff))
 					{
 						minDiff = Math.abs(diff);
-						answer = r+g+b;
+						answer = r + g + b;
 					}
 				}
 			}
@@ -52,7 +52,7 @@ public class SimilarRGBColor
 
 	private int diff(String X, String Y)
 	{
-		return -(int)(Math.pow((Integer.parseInt(X, 16) - Integer.parseInt(Y, 16)), 2));
+		return -(int) (Math.pow((Integer.parseInt(X, 16) - Integer.parseInt(Y, 16)), 2));
 	}
 
 	public static void main(String[] args)

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 10/17/2021
  */
 @LeetCode(
-	id = 2042,
-	name = "Check if Numbers Are Ascending in a Sentence",
-	url = "https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/",
-	difficulty = Difficulty.EASY
+		id = 2042,
+		name = "Check if Numbers Are Ascending in a Sentence",
+		url = "https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/",
+		difficulty = Difficulty.EASY
 )
 public class CheckIfNumbersAreAscendingInSentence
 {

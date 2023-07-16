@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/23/2020
  */
 @LeetCode(
-	id = 1267,
-	name = "Count Servers that Communicate",
-	url = "https://leetcode.com/problems/count-servers-that-communicate/",
-	difficulty = Difficulty.MEDIUM
+		id = 1267,
+		name = "Count Servers that Communicate",
+		url = "https://leetcode.com/problems/count-servers-that-communicate/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CountServersThatCommunicate
 {

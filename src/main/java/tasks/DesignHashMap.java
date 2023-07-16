@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 16-Mar-20
  */
 @LeetCode(
-	id = 706,
-	name = "Design HashMap",
-	url = "https://leetcode.com/problems/design-hashmap/",
-	difficulty = Difficulty.EASY
+		id = 706,
+		name = "Design HashMap",
+		url = "https://leetcode.com/problems/design-hashmap/",
+		difficulty = Difficulty.EASY
 )
 public class DesignHashMap
 {

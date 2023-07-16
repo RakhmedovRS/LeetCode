@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/19/2020
  */
 @LeetCode(
-	id = 1100,
-	name = "Find K-Length Substrings With No Repeated Characters",
-	url = "https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1100,
+		name = "Find K-Length Substrings With No Repeated Characters",
+		url = "https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class FindKLengthSubstringsWithNoRepeatedCharacters
 {

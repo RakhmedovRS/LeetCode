@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 2/17/2021
  */
 @LeetCode(
-	id = 311,
-	name = "Sparse Matrix Multiplication",
-	url = "https://leetcode.com/problems/sparse-matrix-multiplication/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 311,
+		name = "Sparse Matrix Multiplication",
+		url = "https://leetcode.com/problems/sparse-matrix-multiplication/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class SparseMatrixMultiplication
 {

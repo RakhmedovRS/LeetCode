@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 2/27/2021
  */
 @LeetCode(
-	id = 831,
-	name = "Masking Personal Information",
-	url = "https://leetcode.com/problems/masking-personal-information/",
-	difficulty = Difficulty.MEDIUM
+		id = 831,
+		name = "Masking Personal Information",
+		url = "https://leetcode.com/problems/masking-personal-information/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaskingPersonalInformation
 {

@@ -12,10 +12,10 @@ import java.util.List;
  * @created 11/28/2021
  */
 @LeetCode(
-	id = 2089,
-	name = "Find Target Indices After Sorting Array",
-	url = "https://leetcode.com/problems/find-target-indices-after-sorting-array/",
-	difficulty = Difficulty.EASY
+		id = 2089,
+		name = "Find Target Indices After Sorting Array",
+		url = "https://leetcode.com/problems/find-target-indices-after-sorting-array/",
+		difficulty = Difficulty.EASY
 )
 public class FindTargetIndicesAfterSortingArray
 {

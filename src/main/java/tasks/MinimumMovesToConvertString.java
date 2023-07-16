@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 10/3/2021
  */
 @LeetCode(
-	id = 2027,
-	name = "Minimum Moves to Convert String",
-	url = "https://leetcode.com/problems/minimum-moves-to-convert-string/",
-	difficulty = Difficulty.EASY
+		id = 2027,
+		name = "Minimum Moves to Convert String",
+		url = "https://leetcode.com/problems/minimum-moves-to-convert-string/",
+		difficulty = Difficulty.EASY
 )
 public class MinimumMovesToConvertString
 {

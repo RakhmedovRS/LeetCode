@@ -13,10 +13,10 @@ import java.util.List;
  * @created 09-Mar-20
  */
 @LeetCode(
-	id = 429,
-	name = "N-ary Tree Level Order Traversal",
-	url = "https://leetcode.com/problems/n-ary-tree-level-order-traversal/",
-	difficulty = Difficulty.MEDIUM
+		id = 429,
+		name = "N-ary Tree Level Order Traversal",
+		url = "https://leetcode.com/problems/n-ary-tree-level-order-traversal/",
+		difficulty = Difficulty.MEDIUM
 )
 public class NaryTreeLevelOrderTraversal
 {
@@ -25,7 +25,9 @@ public class NaryTreeLevelOrderTraversal
 		public int val;
 		public List<Node> children;
 
-		public Node(){}
+		public Node()
+		{
+		}
 
 		public Node(int val)
 		{

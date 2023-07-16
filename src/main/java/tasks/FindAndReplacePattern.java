@@ -14,10 +14,10 @@ import java.util.Map;
  */
 
 @LeetCode(
-	id = 890,
-	name = "Find and Replace Pattern",
-	url = "https://leetcode.com/problems/find-and-replace-pattern/",
-	difficulty = Difficulty.MEDIUM
+		id = 890,
+		name = "Find and Replace Pattern",
+		url = "https://leetcode.com/problems/find-and-replace-pattern/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindAndReplacePattern
 {

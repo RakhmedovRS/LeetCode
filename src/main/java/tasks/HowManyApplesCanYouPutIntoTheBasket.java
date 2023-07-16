@@ -10,11 +10,11 @@ import java.util.Arrays;
  * @created 12/11/2020
  */
 @LeetCode(
-	id = 1196,
-	name = "How Many Apples Can You Put into the Basket",
-	url = "https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1196,
+		name = "How Many Apples Can You Put into the Basket",
+		url = "https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class HowManyApplesCanYouPutIntoTheBasket
 {

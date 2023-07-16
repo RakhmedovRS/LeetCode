@@ -12,10 +12,10 @@ import java.util.List;
  * @created 26-Mar-20
  */
 @LeetCode(
-	id = 118,
-	name = "Pascal's Triangle",
-	url = "https://leetcode.com/problems/pascals-triangle/",
-	difficulty = Difficulty.EASY
+		id = 118,
+		name = "Pascal's Triangle",
+		url = "https://leetcode.com/problems/pascals-triangle/",
+		difficulty = Difficulty.EASY
 )
 public class PascalTriangle
 {
@@ -29,7 +29,7 @@ public class PascalTriangle
 
 		if (numRows >= 2)
 		{
-			lists.add(Arrays.asList(1,1));
+			lists.add(Arrays.asList(1, 1));
 		}
 
 		if (numRows >= 3)

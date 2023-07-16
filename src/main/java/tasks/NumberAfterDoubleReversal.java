@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/26/2021
  */
 @LeetCode(
-	id = 2119,
-	name = "A Number After a Double Reversal",
-	url = "https://leetcode.com/problems/a-number-after-a-double-reversal/",
-	difficulty = Difficulty.EASY
+		id = 2119,
+		name = "A Number After a Double Reversal",
+		url = "https://leetcode.com/problems/a-number-after-a-double-reversal/",
+		difficulty = Difficulty.EASY
 )
 public class NumberAfterDoubleReversal
 {

@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/2/2020
  */
 @LeetCode(
-	id = 758,
-	name = "Bold Words in String",
-	url = "https://leetcode.com/problems/bold-words-in-string/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 758,
+		name = "Bold Words in String",
+		url = "https://leetcode.com/problems/bold-words-in-string/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class BoldWordsInString
 {

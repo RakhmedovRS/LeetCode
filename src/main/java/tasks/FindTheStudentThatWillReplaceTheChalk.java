@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/13/2021
  */
 @LeetCode(
-	id = 1894,
-	name = "Find the Student that Will Replace the Chalk",
-	url = "https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/",
-	difficulty = Difficulty.MEDIUM
+		id = 1894,
+		name = "Find the Student that Will Replace the Chalk",
+		url = "https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindTheStudentThatWillReplaceTheChalk
 {

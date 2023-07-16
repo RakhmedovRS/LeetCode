@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/26/2020
  */
 @LeetCode(
-	id = 1220,
-	name = "Count Vowels Permutation",
-	url = "https://leetcode.com/problems/count-vowels-permutation/",
-	difficulty = Difficulty.HARD
+		id = 1220,
+		name = "Count Vowels Permutation",
+		url = "https://leetcode.com/problems/count-vowels-permutation/",
+		difficulty = Difficulty.HARD
 )
 public class CountVowelsPermutation
 {

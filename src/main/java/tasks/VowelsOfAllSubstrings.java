@@ -12,10 +12,10 @@ import java.util.Set;
  * @created 11/7/2021
  */
 @LeetCode(
-	id = 2063,
-	name = "Vowels of All Substrings",
-	url = "https://leetcode.com/problems/vowels-of-all-substrings/",
-	difficulty = Difficulty.MEDIUM
+		id = 2063,
+		name = "Vowels of All Substrings",
+		url = "https://leetcode.com/problems/vowels-of-all-substrings/",
+		difficulty = Difficulty.MEDIUM
 )
 public class VowelsOfAllSubstrings
 {

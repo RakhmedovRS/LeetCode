@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 23-Mar-20
  */
 @LeetCode(
-	id = 200,
-	name = "Number of Islands",
-	url = "https://leetcode.com/problems/number-of-islands/",
-	difficulty = Difficulty.MEDIUM
+		id = 200,
+		name = "Number of Islands",
+		url = "https://leetcode.com/problems/number-of-islands/",
+		difficulty = Difficulty.MEDIUM
 )
 public class NumberOfIslands
 {

@@ -11,11 +11,11 @@ import java.util.List;
  * @created 12/22/2020
  */
 @LeetCode(
-	id = 293,
-	name = "Flip Game",
-	url = "https://leetcode.com/problems/flip-game/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 293,
+		name = "Flip Game",
+		url = "https://leetcode.com/problems/flip-game/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class FlipGame
 {

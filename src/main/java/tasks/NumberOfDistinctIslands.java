@@ -13,11 +13,11 @@ import java.util.Set;
  * @created 2/9/2021
  */
 @LeetCode(
-	id = 694,
-	name = "Number of Distinct Islands",
-	url = "https://leetcode.com/problems/number-of-distinct-islands/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 694,
+		name = "Number of Distinct Islands",
+		url = "https://leetcode.com/problems/number-of-distinct-islands/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class NumberOfDistinctIslands
 {

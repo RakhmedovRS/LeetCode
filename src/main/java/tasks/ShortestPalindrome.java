@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/25/2020
  */
 @LeetCode(
-	id = 214,
-	name = "Shortest Palindrome",
-	url = "https://leetcode.com/problems/shortest-palindrome/",
-	difficulty = Difficulty.HARD
+		id = 214,
+		name = "Shortest Palindrome",
+		url = "https://leetcode.com/problems/shortest-palindrome/",
+		difficulty = Difficulty.HARD
 )
 public class ShortestPalindrome
 {

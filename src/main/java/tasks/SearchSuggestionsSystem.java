@@ -11,10 +11,10 @@ import java.util.List;
  * @created 2/10/2021
  */
 @LeetCode(
-	id = 1268,
-	name = "Search Suggestions System",
-	url = "https://leetcode.com/problems/search-suggestions-system/",
-	difficulty = Difficulty.MEDIUM
+		id = 1268,
+		name = "Search Suggestions System",
+		url = "https://leetcode.com/problems/search-suggestions-system/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SearchSuggestionsSystem
 {

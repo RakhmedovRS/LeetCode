@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 11/29/2020
  */
 @LeetCode(
-	id = 1180,
-	name = "Count Substrings with Only One Distinct Letter",
-	url = "https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1180,
+		name = "Count Substrings with Only One Distinct Letter",
+		url = "https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class CountSubstringsWithOnlyOneDistinctLetter
 {

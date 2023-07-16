@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/14/2020
  */
 @LeetCode(
-	id = 1653,
-	name = "Minimum Deletions to Make String Balanced",
-	url = "https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/",
-	difficulty = Difficulty.MEDIUM
+		id = 1653,
+		name = "Minimum Deletions to Make String Balanced",
+		url = "https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumDeletionsToMakeStringBalanced
 {

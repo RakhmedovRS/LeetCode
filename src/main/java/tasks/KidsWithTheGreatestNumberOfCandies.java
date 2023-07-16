@@ -11,10 +11,10 @@ import java.util.List;
  * @created 02-Jun-20
  */
 @LeetCode(
-	id = 1431,
-	name = "Kids With the Greatest Number of Candies",
-	url = "https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/",
-	difficulty = Difficulty.EASY
+		id = 1431,
+		name = "Kids With the Greatest Number of Candies",
+		url = "https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/",
+		difficulty = Difficulty.EASY
 )
 public class KidsWithTheGreatestNumberOfCandies
 {

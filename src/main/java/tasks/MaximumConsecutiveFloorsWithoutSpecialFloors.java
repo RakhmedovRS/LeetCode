@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 5/15/2022
  */
 @LeetCode(
-	id = 2274,
-	name = "Maximum Consecutive Floors Without Special Floors",
-	url = "https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/",
-	difficulty = Difficulty.MEDIUM
+		id = 2274,
+		name = "Maximum Consecutive Floors Without Special Floors",
+		url = "https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumConsecutiveFloorsWithoutSpecialFloors
 {

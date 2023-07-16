@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 7/15/2021
  */
 @LeetCode(
-	id = 611,
-	name = "Valid Triangle Number",
-	url = "https://leetcode.com/problems/valid-triangle-number/",
-	difficulty = Difficulty.MEDIUM
+		id = 611,
+		name = "Valid Triangle Number",
+		url = "https://leetcode.com/problems/valid-triangle-number/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ValidTriangleNumber
 {

@@ -13,10 +13,10 @@ import java.util.Set;
  * @created 1/8/2022
  */
 @LeetCode(
-	id = 2131,
-	name = "Longest Palindrome by Concatenating Two Letter Words",
-	url = "https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/",
-	difficulty = Difficulty.MEDIUM
+		id = 2131,
+		name = "Longest Palindrome by Concatenating Two Letter Words",
+		url = "https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LongestPalindromeByConcatenatingTwoLetterWords
 {

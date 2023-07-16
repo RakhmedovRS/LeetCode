@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 16-Aug-20
  */
 @LeetCode(
-	id = 123,
-	name = "Best Time to Buy and Sell Stock III",
-	url = "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/submissions/",
-	difficulty = Difficulty.HARD
+		id = 123,
+		name = "Best Time to Buy and Sell Stock III",
+		url = "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/submissions/",
+		difficulty = Difficulty.HARD
 )
 public class BestTimeToBuyAndSellStockIII
 {

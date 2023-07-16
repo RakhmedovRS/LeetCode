@@ -13,10 +13,10 @@ import java.util.List;
  * @created 3/29/2021
  */
 @LeetCode(
-	id = 971,
-	name = "Flip Binary Tree To Match Preorder Traversal",
-	url = "https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/",
-	difficulty = Difficulty.MEDIUM
+		id = 971,
+		name = "Flip Binary Tree To Match Preorder Traversal",
+		url = "https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FlipBinaryTreeToMatchPreorderTraversal
 {

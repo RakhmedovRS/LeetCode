@@ -12,10 +12,10 @@ import java.util.List;
  * @created 23-May-20
  */
 @LeetCode(
-	id = 986,
-	name = "Interval List Intersections",
-	url = "https://leetcode.com/problems/interval-list-intersections/",
-	difficulty = Difficulty.MEDIUM
+		id = 986,
+		name = "Interval List Intersections",
+		url = "https://leetcode.com/problems/interval-list-intersections/",
+		difficulty = Difficulty.MEDIUM
 )
 public class IntervalListIntersections
 {

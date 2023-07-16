@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/12/2022
  */
 @LeetCode(
-	id = 2287,
-	name = "Rearrange Characters to Make Target String",
-	url = "https://leetcode.com/problems/rearrange-characters-to-make-target-string/",
-	difficulty = Difficulty.EASY
+		id = 2287,
+		name = "Rearrange Characters to Make Target String",
+		url = "https://leetcode.com/problems/rearrange-characters-to-make-target-string/",
+		difficulty = Difficulty.EASY
 )
 public class RearrangeCharactersToMakeTargetString
 {

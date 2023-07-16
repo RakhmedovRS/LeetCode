@@ -12,9 +12,9 @@ import java.util.List;
  * @created 21-Aug-20
  */
 @LeetCode(id = 336,
-	name = "Palindrome Pairs",
-	url = "https://leetcode.com/problems/palindrome-pairs/",
-	difficulty = Difficulty.HARD
+		name = "Palindrome Pairs",
+		url = "https://leetcode.com/problems/palindrome-pairs/",
+		difficulty = Difficulty.HARD
 )
 public class PalindromePairs
 {

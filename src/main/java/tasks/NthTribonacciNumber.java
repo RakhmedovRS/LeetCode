@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 9/24/2021
  */
 @LeetCode(
-	id = 1137,
-	name = "N-th Tribonacci Number",
-	url = "https://leetcode.com/problems/n-th-tribonacci-number/",
-	difficulty = Difficulty.EASY
+		id = 1137,
+		name = "N-th Tribonacci Number",
+		url = "https://leetcode.com/problems/n-th-tribonacci-number/",
+		difficulty = Difficulty.EASY
 )
 public class NthTribonacciNumber
 {

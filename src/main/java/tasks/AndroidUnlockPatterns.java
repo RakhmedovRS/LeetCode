@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 3/2/2021
  */
 @LeetCode(
-	id = 351,
-	name = "Android Unlock Patterns",
-	url = "https://leetcode.com/problems/android-unlock-patterns/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 351,
+		name = "Android Unlock Patterns",
+		url = "https://leetcode.com/problems/android-unlock-patterns/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class AndroidUnlockPatterns
 {

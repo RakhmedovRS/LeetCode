@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/24/2022
  */
 @LeetCode(
-	id = 2120,
-	name = "Execution of All Suffix Instructions Staying in a Grid",
-	url = "https://leetcode.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/",
-	difficulty = Difficulty.MEDIUM
+		id = 2120,
+		name = "Execution of All Suffix Instructions Staying in a Grid",
+		url = "https://leetcode.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ExecutionOfAllSuffixInstructionsStayingInGrid
 {
@@ -19,7 +19,8 @@ public class ExecutionOfAllSuffixInstructionsStayingInGrid
 	{
 		int[] answer = new int[s.length()];
 		char[] chars = s.toCharArray();
-		outer: for (int i = 0; i < chars.length; i++)
+		outer:
+		for (int i = 0; i < chars.length; i++)
 		{
 			int row = startPos[0];
 			int column = startPos[1];

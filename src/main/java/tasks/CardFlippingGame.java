@@ -11,10 +11,10 @@ import java.util.Set;
  * @created 10/28/2020
  */
 @LeetCode(
-	id = 822,
-	name = "Card Flipping Game",
-	url = "https://leetcode.com/problems/card-flipping-game/",
-	difficulty = Difficulty.MEDIUM
+		id = 822,
+		name = "Card Flipping Game",
+		url = "https://leetcode.com/problems/card-flipping-game/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CardFlippingGame
 {

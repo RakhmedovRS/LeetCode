@@ -12,10 +12,10 @@ import java.util.TreeMap;
  * @created 11/13/2021
  */
 @LeetCode(
-	id = 2070,
-	name = "Most Beautiful Item for Each Query",
-	url = "https://leetcode.com/problems/most-beautiful-item-for-each-query/",
-	difficulty = Difficulty.MEDIUM
+		id = 2070,
+		name = "Most Beautiful Item for Each Query",
+		url = "https://leetcode.com/problems/most-beautiful-item-for-each-query/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MostBeautifulItemForEachQuery
 {

@@ -10,10 +10,10 @@ import java.util.*;
  * @created 22-Jun-20
  */
 @LeetCode(
-	id = 1338,
-	name = "Reduce Array Size to The Half",
-	url = "https://leetcode.com/problems/reduce-array-size-to-the-half/",
-	difficulty = Difficulty.MEDIUM
+		id = 1338,
+		name = "Reduce Array Size to The Half",
+		url = "https://leetcode.com/problems/reduce-array-size-to-the-half/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ReduceArraySizeToTheHalf
 {

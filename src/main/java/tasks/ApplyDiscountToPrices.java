@@ -11,10 +11,10 @@ import java.util.List;
  * @created 6/12/2022
  */
 @LeetCode(
-	id = 2288,
-	name = "Apply Discount to Prices",
-	url = "https://leetcode.com/problems/apply-discount-to-prices/",
-	difficulty = Difficulty.MEDIUM
+		id = 2288,
+		name = "Apply Discount to Prices",
+		url = "https://leetcode.com/problems/apply-discount-to-prices/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ApplyDiscountToPrices
 {

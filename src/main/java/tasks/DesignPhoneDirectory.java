@@ -10,11 +10,11 @@ import java.util.LinkedList;
  * @created 12/17/2020
  */
 @LeetCode(
-	id = 379,
-	name = "Design Phone Directory",
-	url = "https://leetcode.com/problems/design-phone-directory/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 379,
+		name = "Design Phone Directory",
+		url = "https://leetcode.com/problems/design-phone-directory/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class DesignPhoneDirectory
 {

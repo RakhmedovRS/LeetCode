@@ -12,11 +12,11 @@ import java.util.List;
  * @created 12/4/2020
  */
 @LeetCode(
-	id = 163,
-	name = "Missing Ranges",
-	url = "https://leetcode.com/problems/missing-ranges/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 163,
+		name = "Missing Ranges",
+		url = "https://leetcode.com/problems/missing-ranges/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class MissingRanges
 {

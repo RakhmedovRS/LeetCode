@@ -9,10 +9,10 @@ import common.LeetCode;
  */
 
 @LeetCode(
-	id = 769,
-	name = "Max Chunks To Make Sorted",
-	url = "https://leetcode.com/problems/max-chunks-to-make-sorted/",
-	difficulty = Difficulty.MEDIUM
+		id = 769,
+		name = "Max Chunks To Make Sorted",
+		url = "https://leetcode.com/problems/max-chunks-to-make-sorted/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaxChunksToMakeSorted
 {

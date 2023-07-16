@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 10/30/2021
  */
 @LeetCode(
-	id = 2053,
-	name = "Kth Distinct String in an Array",
-	url = "https://leetcode.com/problems/kth-distinct-string-in-an-array/",
-	difficulty = Difficulty.EASY
+		id = 2053,
+		name = "Kth Distinct String in an Array",
+		url = "https://leetcode.com/problems/kth-distinct-string-in-an-array/",
+		difficulty = Difficulty.EASY
 )
 public class KthDistinctStringInArray
 {

@@ -11,11 +11,11 @@ import java.util.List;
  * @created 3/1/2021
  */
 @LeetCode(
-	id = 247,
-	name = "Strobogrammatic Number II",
-	url = "https://leetcode.com/problems/strobogrammatic-number-ii/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 247,
+		name = "Strobogrammatic Number II",
+		url = "https://leetcode.com/problems/strobogrammatic-number-ii/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class StrobogrammaticNumberII
 {

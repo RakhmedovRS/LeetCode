@@ -9,10 +9,10 @@ import common.ListNode;
  * @created 4/14/2021
  */
 @LeetCode(
-	id = 86,
-	name = "Partition List",
-	url = "https://leetcode.com/problems/partition-list/",
-	difficulty = Difficulty.MEDIUM
+		id = 86,
+		name = "Partition List",
+		url = "https://leetcode.com/problems/partition-list/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PartitionList
 {

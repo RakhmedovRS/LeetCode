@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 13-Feb-20
  */
 @LeetCode(
-	id = 509,
-	name = "Fibonacci Number",
-	url = "https://leetcode.com/problems/fibonacci-number/",
-	difficulty = Difficulty.EASY
+		id = 509,
+		name = "Fibonacci Number",
+		url = "https://leetcode.com/problems/fibonacci-number/",
+		difficulty = Difficulty.EASY
 )
 public class FibonacciNumber
 {

@@ -14,10 +14,10 @@ import java.util.Map;
  * @created 02-May-20
  */
 @LeetCode(
-	id = 199,
-	name = "Binary Tree Right Side View",
-	url = "https://leetcode.com/problems/binary-tree-right-side-view/",
-	difficulty = Difficulty.MEDIUM
+		id = 199,
+		name = "Binary Tree Right Side View",
+		url = "https://leetcode.com/problems/binary-tree-right-side-view/",
+		difficulty = Difficulty.MEDIUM
 )
 public class BinaryTreeRightSideView
 {

@@ -35,12 +35,12 @@ public class NumberOfEquivalentDominoPairs
 	public static void main(String[] args)
 	{
 		System.out.println(new NumberOfEquivalentDominoPairs().numEquivDominoPairs(new int[][]
-			{
-				{1, 2},
-				{1, 2},
-				{1, 1},
-				{1, 2},
-				{2, 2},
-			}));
+				{
+						{1, 2},
+						{1, 2},
+						{1, 1},
+						{1, 2},
+						{2, 2},
+				}));
 	}
 }

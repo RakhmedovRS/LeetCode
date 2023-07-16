@@ -10,10 +10,10 @@ import java.util.PriorityQueue;
  * @created 11/1/2020
  */
 @LeetCode(
-	id = 1642,
-	name = "Furthest Building You Can Reach",
-	url = "https://leetcode.com/problems/furthest-building-you-can-reach/",
-	difficulty = Difficulty.MEDIUM
+		id = 1642,
+		name = "Furthest Building You Can Reach",
+		url = "https://leetcode.com/problems/furthest-building-you-can-reach/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FurthestBuildingYouCanReach
 {

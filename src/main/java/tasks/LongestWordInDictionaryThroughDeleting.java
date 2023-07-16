@@ -10,10 +10,10 @@ import java.util.List;
  * @created 12/14/2020
  */
 @LeetCode(
-	id = 524,
-	name = "Longest Word in Dictionary through Deleting",
-	url = "https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/",
-	difficulty = Difficulty.MEDIUM
+		id = 524,
+		name = "Longest Word in Dictionary through Deleting",
+		url = "https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LongestWordInDictionaryThroughDeleting
 {

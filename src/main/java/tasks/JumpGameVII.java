@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 5/24/2021
  */
 @LeetCode(
-	id = 1871,
-	name = "Jump Game VII",
-	url = "https://leetcode.com/problems/jump-game-vii/",
-	difficulty = Difficulty.MEDIUM
+		id = 1871,
+		name = "Jump Game VII",
+		url = "https://leetcode.com/problems/jump-game-vii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class JumpGameVII
 {

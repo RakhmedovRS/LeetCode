@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 5/30/2021
  */
 @LeetCode(
-	id = 1880,
-	name = "Check if Word Equals Summation of Two Words",
-	url = "https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/",
-	difficulty = Difficulty.EASY
+		id = 1880,
+		name = "Check if Word Equals Summation of Two Words",
+		url = "https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/",
+		difficulty = Difficulty.EASY
 )
 public class CheckIfWordEqualsSummationOfTwoWords
 {

@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 05-Apr-20
  */
 @LeetCode(
-	id = 75,
-	name = "Sort Colors",
-	url = "https://leetcode.com/problems/sort-colors/",
-	difficulty = Difficulty.MEDIUM
+		id = 75,
+		name = "Sort Colors",
+		url = "https://leetcode.com/problems/sort-colors/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SortColors
 {

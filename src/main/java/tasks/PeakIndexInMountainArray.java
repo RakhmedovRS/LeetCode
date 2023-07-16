@@ -12,9 +12,9 @@ public class PeakIndexInMountainArray
 	public int peakIndexInMountainArray(int[] A)
 	{
 		int target = 1;
-		for (;target < A.length - 1; target++)
+		for (; target < A.length - 1; target++)
 		{
-			if (A[target] > A[target -1] && A[target] < A[target + 1])
+			if (A[target] > A[target - 1] && A[target] < A[target + 1])
 			{
 				continue;
 			}

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 4/18/2021
  */
 @LeetCode(
-	id = 1832,
-	name = "Check if the Sentence Is Pangram",
-	url = "https://leetcode.com/problems/check-if-the-sentence-is-pangram/",
-	difficulty = Difficulty.EASY
+		id = 1832,
+		name = "Check if the Sentence Is Pangram",
+		url = "https://leetcode.com/problems/check-if-the-sentence-is-pangram/",
+		difficulty = Difficulty.EASY
 )
 public class CheckIfTheSentenceIsPangram
 {

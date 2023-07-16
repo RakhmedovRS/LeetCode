@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/14/2020
  */
 @LeetCode(
-	id = 1652,
-	name = "Defuse the Bomb",
-	url = "https://leetcode.com/problems/defuse-the-bomb/",
-	difficulty = Difficulty.EASY)
+		id = 1652,
+		name = "Defuse the Bomb",
+		url = "https://leetcode.com/problems/defuse-the-bomb/",
+		difficulty = Difficulty.EASY)
 public class DefuseTheBomb
 {
 	public int[] decrypt(int[] code, int k)

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 9/19/2021
  */
 @LeetCode(
-	id = 2012,
-	name = "Sum of Beauty in the Array",
-	url = "https://leetcode.com/problems/sum-of-beauty-in-the-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 2012,
+		name = "Sum of Beauty in the Array",
+		url = "https://leetcode.com/problems/sum-of-beauty-in-the-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SumOfBeautyInTheArray
 {

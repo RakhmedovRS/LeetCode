@@ -14,11 +14,11 @@ import java.util.Set;
  * @created 1/4/2021
  */
 @LeetCode(
-	id = 1214,
-	name = "Two Sum BSTs",
-	url = "https://leetcode.com/problems/two-sum-bsts/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1214,
+		name = "Two Sum BSTs",
+		url = "https://leetcode.com/problems/two-sum-bsts/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class TwoSumBSTs
 {

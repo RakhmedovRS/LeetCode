@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/26/2021
  */
 @LeetCode(
-	id = 1909,
-	name = "Remove One Element to Make the Array Strictly Increasing",
-	url = "https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/",
-	difficulty = Difficulty.EASY
+		id = 1909,
+		name = "Remove One Element to Make the Array Strictly Increasing",
+		url = "https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/",
+		difficulty = Difficulty.EASY
 )
 public class RemoveOneElementToMakeTheArrayStrictlyIncreasing
 {

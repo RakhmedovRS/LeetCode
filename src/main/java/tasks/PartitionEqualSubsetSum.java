@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 03-Aug-20
  */
 @LeetCode(
-	id = 416,
-	name = "Partition Equal Subset Sum",
-	url = "https://leetcode.com/problems/partition-equal-subset-sum/",
-	difficulty = Difficulty.MEDIUM
+		id = 416,
+		name = "Partition Equal Subset Sum",
+		url = "https://leetcode.com/problems/partition-equal-subset-sum/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PartitionEqualSubsetSum
 {

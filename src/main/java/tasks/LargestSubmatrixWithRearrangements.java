@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 1/17/2021
  */
 @LeetCode(
-	id = 1727,
-	name = "Largest Submatrix With Rearrangements",
-	url = "https://leetcode.com/problems/largest-submatrix-with-rearrangements/",
-	difficulty = Difficulty.MEDIUM
+		id = 1727,
+		name = "Largest Submatrix With Rearrangements",
+		url = "https://leetcode.com/problems/largest-submatrix-with-rearrangements/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LargestSubmatrixWithRearrangements
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11-Apr-20
  */
 @LeetCode(
-	id = 74,
-	name = "Search a 2D Matrix",
-	url = "https://leetcode.com/problems/search-a-2d-matrix/",
-	difficulty = Difficulty.MEDIUM
+		id = 74,
+		name = "Search a 2D Matrix",
+		url = "https://leetcode.com/problems/search-a-2d-matrix/",
+		difficulty = Difficulty.MEDIUM
 )
 public class Search2DMatrix
 {
@@ -42,11 +42,11 @@ public class Search2DMatrix
 	public static void main(String[] args)
 	{
 		int[][] matrix = new int[][]
-			{
-				{1, 3, 5, 7},
-				{10, 11, 16, 20},
-				{23, 30, 34, 50}
-			};
+				{
+						{1, 3, 5, 7},
+						{10, 11, 16, 20},
+						{23, 30, 34, 50}
+				};
 
 		System.out.println(new Search2DMatrix().searchMatrix(matrix, 3));
 	}

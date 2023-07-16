@@ -11,10 +11,10 @@ import java.util.LinkedList;
  * @created 13-Apr-20
  */
 @LeetCode(
-	id = 239,
-	name = "Sliding Window Maximum",
-	url = "https://leetcode.com/problems/sliding-window-maximum/",
-	difficulty = Difficulty.HARD
+		id = 239,
+		name = "Sliding Window Maximum",
+		url = "https://leetcode.com/problems/sliding-window-maximum/",
+		difficulty = Difficulty.HARD
 )
 public class SlidingWindowMaximum
 {

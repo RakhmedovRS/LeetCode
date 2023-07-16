@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/7/2021
  */
 @LeetCode(
-	id = 43,
-	name = "Multiply Strings",
-	url = "https://leetcode.com/problems/multiply-strings/",
-	difficulty = Difficulty.MEDIUM
+		id = 43,
+		name = "Multiply Strings",
+		url = "https://leetcode.com/problems/multiply-strings/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MultiplyStrings
 {

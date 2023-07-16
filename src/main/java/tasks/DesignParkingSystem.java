@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 10/3/2020
  */
 @LeetCode(
-	id = 1603,
-	name = "Design Parking System",
-	url = "https://leetcode.com/problems/design-parking-system/",
-	difficulty = Difficulty.EASY
+		id = 1603,
+		name = "Design Parking System",
+		url = "https://leetcode.com/problems/design-parking-system/",
+		difficulty = Difficulty.EASY
 )
 public class DesignParkingSystem
 {

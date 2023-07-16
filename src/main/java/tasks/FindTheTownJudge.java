@@ -13,10 +13,10 @@ import java.util.Map;
  * @created 10-May-20
  */
 @LeetCode(
-	id = 997,
-	name = "Find the Town Judge",
-	url = "https://leetcode.com/problems/find-the-town-judge/",
-	difficulty = Difficulty.EASY
+		id = 997,
+		name = "Find the Town Judge",
+		url = "https://leetcode.com/problems/find-the-town-judge/",
+		difficulty = Difficulty.EASY
 )
 public class FindTheTownJudge
 {

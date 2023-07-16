@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 14-Apr-20
  */
 @LeetCode(
-	id = 138,
-	name = "Copy List with Random Pointer",
-	url = "https://leetcode.com/problems/copy-list-with-random-pointer/",
-	difficulty = Difficulty.MEDIUM
+		id = 138,
+		name = "Copy List with Random Pointer",
+		url = "https://leetcode.com/problems/copy-list-with-random-pointer/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CopyListWithRandomPointer
 {

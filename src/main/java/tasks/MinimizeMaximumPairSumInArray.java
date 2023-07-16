@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 5/29/2021
  */
 @LeetCode(
-	id = 1877,
-	name = "Minimize Maximum Pair Sum in Array",
-	url = "https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 1877,
+		name = "Minimize Maximum Pair Sum in Array",
+		url = "https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimizeMaximumPairSumInArray
 {

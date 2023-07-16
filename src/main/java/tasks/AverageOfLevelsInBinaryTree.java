@@ -11,10 +11,10 @@ import java.util.*;
  * @created 19-Mar-20
  */
 @LeetCode(
-	id = 637,
-	name = "Average of Levels in Binary Tree",
-	url = "https://leetcode.com/problems/average-of-levels-in-binary-tree/",
-	difficulty = Difficulty.EASY
+		id = 637,
+		name = "Average of Levels in Binary Tree",
+		url = "https://leetcode.com/problems/average-of-levels-in-binary-tree/",
+		difficulty = Difficulty.EASY
 )
 public class AverageOfLevelsInBinaryTree
 {

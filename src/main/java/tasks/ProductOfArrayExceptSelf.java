@@ -6,7 +6,7 @@ import common.LeetCode;
  * @author RakhmedovRS
  * @created 15-Apr-20
  */
-@LeetCode(id= 238, name = "Product of Array Except Self", url = "https://leetcode.com/problems/product-of-array-except-self/")
+@LeetCode(id = 238, name = "Product of Array Except Self", url = "https://leetcode.com/problems/product-of-array-except-self/")
 public class ProductOfArrayExceptSelf
 {
 	public int[] productExceptSelf(int[] nums)

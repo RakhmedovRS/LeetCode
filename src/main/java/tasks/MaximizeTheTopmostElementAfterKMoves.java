@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 3/13/2022
  */
 @LeetCode(
-	id = 2202,
-	name = "Maximize the Topmost Element After K Moves",
-	url = "https://leetcode.com/problems/maximize-the-topmost-element-after-k-moves/",
-	difficulty = Difficulty.MEDIUM
+		id = 2202,
+		name = "Maximize the Topmost Element After K Moves",
+		url = "https://leetcode.com/problems/maximize-the-topmost-element-after-k-moves/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximizeTheTopmostElementAfterKMoves
 {

@@ -11,11 +11,11 @@ import java.util.Comparator;
  * @created 2/17/2021
  */
 @LeetCode(
-	id = 1135,
-	name = "Connecting Cities With Minimum Cost",
-	url = "https://leetcode.com/problems/connecting-cities-with-minimum-cost/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1135,
+		name = "Connecting Cities With Minimum Cost",
+		url = "https://leetcode.com/problems/connecting-cities-with-minimum-cost/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class ConnectingCitiesWithMinimumCost
 {

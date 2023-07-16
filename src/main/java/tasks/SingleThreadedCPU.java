@@ -11,10 +11,10 @@ import java.util.PriorityQueue;
  * @created 4/18/2021
  */
 @LeetCode(
-	id = 1834,
-	name = "Single-Threaded CPU",
-	url = "https://leetcode.com/problems/single-threaded-cpu/",
-	difficulty = Difficulty.MEDIUM
+		id = 1834,
+		name = "Single-Threaded CPU",
+		url = "https://leetcode.com/problems/single-threaded-cpu/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SingleThreadedCPU
 {

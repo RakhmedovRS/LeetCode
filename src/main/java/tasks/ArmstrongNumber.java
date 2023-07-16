@@ -11,11 +11,11 @@ import java.util.List;
  * @created 11/29/2020
  */
 @LeetCode(
-	id = 1134,
-	name = "Armstrong Number",
-	url = "https://leetcode.com/problems/armstrong-number/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1134,
+		name = "Armstrong Number",
+		url = "https://leetcode.com/problems/armstrong-number/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class ArmstrongNumber
 {

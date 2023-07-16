@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 10/25/2020
  */
 @LeetCode(
-	id = 1629,
-	name = "Slowest Key",
-	url = "https://leetcode.com/problems/slowest-key/",
-	difficulty = Difficulty.EASY
+		id = 1629,
+		name = "Slowest Key",
+		url = "https://leetcode.com/problems/slowest-key/",
+		difficulty = Difficulty.EASY
 )
 public class SlowestKey
 {

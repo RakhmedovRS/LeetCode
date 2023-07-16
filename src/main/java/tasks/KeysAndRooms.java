@@ -10,10 +10,10 @@ import java.util.*;
  * @created 29-Jun-20
  */
 @LeetCode(
-	id = 841,
-	name = "Keys and Rooms",
-	url = "https://leetcode.com/problems/keys-and-rooms/",
-	difficulty = Difficulty.MEDIUM
+		id = 841,
+		name = "Keys and Rooms",
+		url = "https://leetcode.com/problems/keys-and-rooms/",
+		difficulty = Difficulty.MEDIUM
 )
 public class KeysAndRooms
 {

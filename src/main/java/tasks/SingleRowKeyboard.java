@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/2/2020
  */
 @LeetCode(
-	id = 1165,
-	name = "Single-Row Keyboard",
-	url = "https://leetcode.com/problems/single-row-keyboard/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1165,
+		name = "Single-Row Keyboard",
+		url = "https://leetcode.com/problems/single-row-keyboard/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class SingleRowKeyboard
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 4/17/2021
  */
 @LeetCode(
-	id = 1827,
-	name = "Minimum Operations to Make the Array Increasing",
-	url = "https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/",
-	difficulty = Difficulty.EASY
+		id = 1827,
+		name = "Minimum Operations to Make the Array Increasing",
+		url = "https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/",
+		difficulty = Difficulty.EASY
 )
 public class MinimumOperationsToMakeTheArrayIncreasing
 {

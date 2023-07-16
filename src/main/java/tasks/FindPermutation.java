@@ -10,11 +10,11 @@ import java.util.Arrays;
  * @created 2/15/2021
  */
 @LeetCode(
-	id = 484,
-	name = "Find Permutation",
-	url = "https://leetcode.com/problems/find-permutation/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 484,
+		name = "Find Permutation",
+		url = "https://leetcode.com/problems/find-permutation/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class FindPermutation
 {

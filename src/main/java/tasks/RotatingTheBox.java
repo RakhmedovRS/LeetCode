@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 5/15/2021
  */
 @LeetCode(
-	id = 1861,
-	name = "Rotating the Box",
-	url = "https://leetcode.com/problems/rotating-the-box/",
-	difficulty = Difficulty.MEDIUM
+		id = 1861,
+		name = "Rotating the Box",
+		url = "https://leetcode.com/problems/rotating-the-box/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RotatingTheBox
 {

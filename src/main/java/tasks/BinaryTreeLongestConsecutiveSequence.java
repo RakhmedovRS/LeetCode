@@ -9,11 +9,11 @@ import common.TreeNode;
  * @created 12/30/2020
  */
 @LeetCode(
-	id = 298,
-	name = "Binary Tree Longest Consecutive Sequence",
-	url = "https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 298,
+		name = "Binary Tree Longest Consecutive Sequence",
+		url = "https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class BinaryTreeLongestConsecutiveSequence
 {

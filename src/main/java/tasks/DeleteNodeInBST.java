@@ -10,10 +10,10 @@ import common.TreeNode;
  * @created 01-Aug-20
  */
 @LeetCode(
-	id = 450,
-	name = "Delete Node in a BST",
-	url = "https://leetcode.com/problems/delete-node-in-a-bst/",
-	difficulty = Difficulty.MEDIUM
+		id = 450,
+		name = "Delete Node in a BST",
+		url = "https://leetcode.com/problems/delete-node-in-a-bst/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DeleteNodeInBST
 {

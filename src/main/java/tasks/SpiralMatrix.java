@@ -11,10 +11,10 @@ import java.util.List;
  * @created 26-Feb-20
  */
 @LeetCode(
-	id = 54,
-	name = "Spiral Matrix",
-	url = "https://leetcode.com/problems/spiral-matrix/",
-	difficulty = Difficulty.MEDIUM
+		id = 54,
+		name = "Spiral Matrix",
+		url = "https://leetcode.com/problems/spiral-matrix/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SpiralMatrix
 {

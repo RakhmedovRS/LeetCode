@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 13-Apr-20
  */
 @LeetCode(
-	id = 394,
-	name = "Decode String",
-	url = "https://leetcode.com/problems/decode-string/",
-	difficulty = Difficulty.MEDIUM
+		id = 394,
+		name = "Decode String",
+		url = "https://leetcode.com/problems/decode-string/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DecodeString
 {

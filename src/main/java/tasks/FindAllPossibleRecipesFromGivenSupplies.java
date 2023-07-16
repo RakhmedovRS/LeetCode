@@ -10,10 +10,10 @@ import java.util.*;
  * @created 12/25/2021
  */
 @LeetCode(
-	id = 2115,
-	name = "Find All Possible Recipes from Given Supplies",
-	url = "https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/",
-	difficulty = Difficulty.MEDIUM
+		id = 2115,
+		name = "Find All Possible Recipes from Given Supplies",
+		url = "https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindAllPossibleRecipesFromGivenSupplies
 {

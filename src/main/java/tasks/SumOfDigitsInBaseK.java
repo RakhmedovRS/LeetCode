@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 4/25/2021
  */
 @LeetCode(
-	id = 1837,
-	name = "Sum of Digits in Base K",
-	url = "https://leetcode.com/problems/sum-of-digits-in-base-k/",
-	difficulty = Difficulty.EASY
+		id = 1837,
+		name = "Sum of Digits in Base K",
+		url = "https://leetcode.com/problems/sum-of-digits-in-base-k/",
+		difficulty = Difficulty.EASY
 )
 public class SumOfDigitsInBaseK
 {

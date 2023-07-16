@@ -12,44 +12,44 @@ import java.util.PriorityQueue;
  * @1.0$
  */
 @LeetCode(
-        id = 2358,
-        name = "Maximum Number of Groups Entering a Competition",
-        url = "https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition/",
-        difficulty = Difficulty.MEDIUM
+		id = 2358,
+		name = "Maximum Number of Groups Entering a Competition",
+		url = "https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumNumberOfGroupsEnteringCompetition
 {
-    public int maximumGroups(int[] grades)
-    {
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
-        for (int num : grades)
-        {
-            pq.add(num);
-        }
+	public int maximumGroups(int[] grades)
+	{
+		PriorityQueue<Integer> pq = new PriorityQueue<>();
+		for (int num : grades)
+		{
+			pq.add(num);
+		}
 
-        int right = grades.length - 1;
-        int left = 0;
-        int prev = 0;
-        int prevCount = 0;
-        int totalCount = 0;
-        while (!pq.isEmpty())
-        {
-            int sum = 0;
-            int currentCount = 0;
-            while (!pq.isEmpty() && (sum <= prev || currentCount <= prevCount))
-            {
-                sum += pq.remove();
-                currentCount++;
-            }
+		int right = grades.length - 1;
+		int left = 0;
+		int prev = 0;
+		int prevCount = 0;
+		int totalCount = 0;
+		while (!pq.isEmpty())
+		{
+			int sum = 0;
+			int currentCount = 0;
+			while (!pq.isEmpty() && (sum <= prev || currentCount <= prevCount))
+			{
+				sum += pq.remove();
+				currentCount++;
+			}
 
-            if (sum > prev && currentCount > prevCount)
-            {
-                totalCount++;
-                prev = sum;
-                prevCount = currentCount;
-            }
-        }
+			if (sum > prev && currentCount > prevCount)
+			{
+				totalCount++;
+				prev = sum;
+				prevCount = currentCount;
+			}
+		}
 
-        return totalCount;
-    }
+		return totalCount;
+	}
 }

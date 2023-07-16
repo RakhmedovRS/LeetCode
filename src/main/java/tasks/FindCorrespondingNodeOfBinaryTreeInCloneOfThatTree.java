@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 16-May-20
  */
 @LeetCode(
-	id = 1379,
-	name = "Find a Corresponding Node of a Binary Tree in a Clone of That Tree",
-	url = "https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/",
-	difficulty = Difficulty.MEDIUM
+		id = 1379,
+		name = "Find a Corresponding Node of a Binary Tree in a Clone of That Tree",
+		url = "https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindCorrespondingNodeOfBinaryTreeInCloneOfThatTree
 {

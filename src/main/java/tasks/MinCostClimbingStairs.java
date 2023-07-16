@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 10-Apr-20
  */
 @LeetCode(
-	id = 746,
-	name = "Min Cost Climbing Stairs",
-	url = "https://leetcode.com/problems/min-cost-climbing-stairs/",
-	difficulty = Difficulty.EASY
+		id = 746,
+		name = "Min Cost Climbing Stairs",
+		url = "https://leetcode.com/problems/min-cost-climbing-stairs/",
+		difficulty = Difficulty.EASY
 )
 public class MinCostClimbingStairs
 {

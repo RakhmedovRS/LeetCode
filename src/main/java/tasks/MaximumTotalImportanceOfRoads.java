@@ -12,10 +12,10 @@ import java.util.PriorityQueue;
  * @created 6/12/2022
  */
 @LeetCode(
-	id = 2285,
-	name = "Maximum Total Importance of Roads",
-	url = "https://leetcode.com/problems/maximum-total-importance-of-roads/",
-	difficulty = Difficulty.MEDIUM
+		id = 2285,
+		name = "Maximum Total Importance of Roads",
+		url = "https://leetcode.com/problems/maximum-total-importance-of-roads/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumTotalImportanceOfRoads
 {

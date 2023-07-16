@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 04-Apr-20
  */
 @LeetCode(
-	id = 151,
-	name = "Reverse Words in a String",
-	url = "https://leetcode.com/problems/reverse-words-in-a-string/",
-	difficulty = Difficulty.MEDIUM
+		id = 151,
+		name = "Reverse Words in a String",
+		url = "https://leetcode.com/problems/reverse-words-in-a-string/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ReverseWordsInString
 {

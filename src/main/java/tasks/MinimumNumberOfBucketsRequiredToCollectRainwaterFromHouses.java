@@ -12,10 +12,10 @@ import java.util.TreeSet;
  * @created 11/27/2021
  */
 @LeetCode(
-	id = 2086,
-	name = "Minimum Number of Buckets Required to Collect Rainwater from Houses",
-	url = "https://leetcode.com/problems/minimum-number-of-buckets-required-to-collect-rainwater-from-houses/",
-	difficulty = Difficulty.MEDIUM
+		id = 2086,
+		name = "Minimum Number of Buckets Required to Collect Rainwater from Houses",
+		url = "https://leetcode.com/problems/minimum-number-of-buckets-required-to-collect-rainwater-from-houses/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumNumberOfBucketsRequiredToCollectRainwaterFromHouses
 {

@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 11/14/2021
  */
 @LeetCode(
-	id = 2073,
-	name = "Time Needed to Buy Tickets",
-	url = "https://leetcode.com/problems/time-needed-to-buy-tickets/",
-	difficulty = Difficulty.EASY
+		id = 2073,
+		name = "Time Needed to Buy Tickets",
+		url = "https://leetcode.com/problems/time-needed-to-buy-tickets/",
+		difficulty = Difficulty.EASY
 )
 public class TimeNeededToBuyTickets
 {

@@ -6,7 +6,7 @@ import common.LeetCode;
  * @author RakhmedovRS
  * @created 06-Sep-20
  */
-@LeetCode(id= 1576, name = "Replace All ?'s to Avoid Consecutive Repeating Characters", url = "https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/")
+@LeetCode(id = 1576, name = "Replace All ?'s to Avoid Consecutive Repeating Characters", url = "https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/")
 public class ReplaceAllQuestionsToAvoidConsecutiveRepeatingCharacters
 {
 	public String modifyString(String s)

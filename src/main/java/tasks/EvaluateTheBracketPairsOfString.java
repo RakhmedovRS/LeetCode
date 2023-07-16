@@ -12,10 +12,10 @@ import java.util.Map;
  * @created 3/28/2021
  */
 @LeetCode(
-	id = 1807,
-	name = "Evaluate the Bracket Pairs of a String",
-	url = "https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/",
-	difficulty = Difficulty.MEDIUM
+		id = 1807,
+		name = "Evaluate the Bracket Pairs of a String",
+		url = "https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/",
+		difficulty = Difficulty.MEDIUM
 )
 public class EvaluateTheBracketPairsOfString
 {

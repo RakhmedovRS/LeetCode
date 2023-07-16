@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 2/15/2022
  */
 @LeetCode(
-	id = 2160,
-	name = "Minimum Sum of Four Digit Number After Splitting Digits",
-	url = "https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/",
-	difficulty = Difficulty.EASY
+		id = 2160,
+		name = "Minimum Sum of Four Digit Number After Splitting Digits",
+		url = "https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/",
+		difficulty = Difficulty.EASY
 )
 public class MinimumSumOfFourDigitNumberAfterSplittingDigits
 {

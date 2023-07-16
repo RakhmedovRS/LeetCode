@@ -13,10 +13,10 @@ import java.util.Map;
  * @created 6/20/2022
  */
 @LeetCode(
-	id = 2310,
-	name = "Sum of Numbers With Units Digit K",
-	url = "https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/",
-	difficulty = Difficulty.MEDIUM
+		id = 2310,
+		name = "Sum of Numbers With Units Digit K",
+		url = "https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SumOfNumbersWithUnitsDigitK
 {

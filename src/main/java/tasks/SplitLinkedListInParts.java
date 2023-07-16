@@ -11,10 +11,10 @@ import java.util.LinkedList;
  * @created 22-Apr-20
  */
 @LeetCode(
-	id = 725,
-	name = "Split Linked List in Parts",
-	url = "https://leetcode.com/problems/split-linked-list-in-parts/",
-	difficulty = Difficulty.MEDIUM
+		id = 725,
+		name = "Split Linked List in Parts",
+		url = "https://leetcode.com/problems/split-linked-list-in-parts/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SplitLinkedListInParts
 {

@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 4/3/2022
  */
 @LeetCode(
-	id = 2221,
-	name = "Find Triangular Sum of an Array",
-	url = "https://leetcode.com/problems/find-triangular-sum-of-an-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 2221,
+		name = "Find Triangular Sum of an Array",
+		url = "https://leetcode.com/problems/find-triangular-sum-of-an-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindTriangularSumOfArray
 {

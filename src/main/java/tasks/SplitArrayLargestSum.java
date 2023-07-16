@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/6/2020
  */
 @LeetCode(
-	id = 410,
-	name = "Split Array Largest Sum",
-	url = "https://leetcode.com/problems/split-array-largest-sum/",
-	difficulty = Difficulty.HARD
+		id = 410,
+		name = "Split Array Largest Sum",
+		url = "https://leetcode.com/problems/split-array-largest-sum/",
+		difficulty = Difficulty.HARD
 )
 public class SplitArrayLargestSum
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 28-Jul-20
  */
 @LeetCode(
-	id = 861,
-	name = "Score After Flipping Matrix",
-	url = "https://leetcode.com/problems/score-after-flipping-matrix/",
-	difficulty = Difficulty.MEDIUM
+		id = 861,
+		name = "Score After Flipping Matrix",
+		url = "https://leetcode.com/problems/score-after-flipping-matrix/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ScoreAfterFlippingMatrix
 {

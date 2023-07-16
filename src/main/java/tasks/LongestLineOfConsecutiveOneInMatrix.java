@@ -10,11 +10,11 @@ import java.util.Arrays;
  * @created 12/15/2020
  */
 @LeetCode(
-	id = 562,
-	name = "Longest Line of Consecutive One in Matrix",
-	url = "https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 562,
+		name = "Longest Line of Consecutive One in Matrix",
+		url = "https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class LongestLineOfConsecutiveOneInMatrix
 {

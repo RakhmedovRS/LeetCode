@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 4/30/2022
  */
 @LeetCode(
-	id = 2256,
-	name = "Minimum Average Difference",
-	url = "https://leetcode.com/problems/minimum-average-difference/",
-	difficulty = Difficulty.MEDIUM
+		id = 2256,
+		name = "Minimum Average Difference",
+		url = "https://leetcode.com/problems/minimum-average-difference/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumAverageDifference
 {

@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 12/25/2021
  */
 @LeetCode(
-	id = 2116,
-	name = "Check if a Parentheses String Can Be Valid",
-	url = "https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/",
-	difficulty = Difficulty.MEDIUM
+		id = 2116,
+		name = "Check if a Parentheses String Can Be Valid",
+		url = "https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CheckIfParenthesesStringCanBeValid
 {

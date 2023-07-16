@@ -10,38 +10,38 @@ import common.LeetCode;
  * @1.0$
  */
 @LeetCode(
-        id = 2380,
-        name = "Time Needed to Rearrange a Binary String",
-        url = "https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/",
-        difficulty = Difficulty.MEDIUM
+		id = 2380,
+		name = "Time Needed to Rearrange a Binary String",
+		url = "https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/",
+		difficulty = Difficulty.MEDIUM
 )
 public class TimeNeededToRearrangeBinaryString
 {
-    public int secondsToRemoveOccurrences(String s)
-    {
-        return secondsToRemoveOccurrences(s.toCharArray());
-    }
+	public int secondsToRemoveOccurrences(String s)
+	{
+		return secondsToRemoveOccurrences(s.toCharArray());
+	}
 
-    public int secondsToRemoveOccurrences(char[] chars)
-    {
-        boolean seen = false;
+	public int secondsToRemoveOccurrences(char[] chars)
+	{
+		boolean seen = false;
 
-        for (int i = chars.length - 1; i > 0; i--)
-        {
-            if (chars[i - 1] == '0' && chars[i] == '1')
-            {
-                seen = true;
-                chars[i - 1] = '1';
-                chars[i] = '0';
-                i--;
-            }
-        }
+		for (int i = chars.length - 1; i > 0; i--)
+		{
+			if (chars[i - 1] == '0' && chars[i] == '1')
+			{
+				seen = true;
+				chars[i - 1] = '1';
+				chars[i] = '0';
+				i--;
+			}
+		}
 
-        if (seen)
-        {
-            return 1 + secondsToRemoveOccurrences(chars);
-        }
+		if (seen)
+		{
+			return 1 + secondsToRemoveOccurrences(chars);
+		}
 
-        return 0;
-    }
+		return 0;
+	}
 }

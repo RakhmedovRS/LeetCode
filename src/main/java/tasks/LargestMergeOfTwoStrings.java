@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 2/9/2021
  */
 @LeetCode(
-	id = 1754,
-	name = "Largest Merge Of Two Strings",
-	url = "https://leetcode.com/problems/largest-merge-of-two-strings/",
-	difficulty = Difficulty.MEDIUM
+		id = 1754,
+		name = "Largest Merge Of Two Strings",
+		url = "https://leetcode.com/problems/largest-merge-of-two-strings/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LargestMergeOfTwoStrings
 {

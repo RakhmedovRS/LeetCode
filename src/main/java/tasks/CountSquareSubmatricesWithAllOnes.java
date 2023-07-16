@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 21-May-20
  */
 @LeetCode(
-	id = 1277,
-	name = "Count Square Submatrices with All Ones",
-	url = "https://leetcode.com/problems/count-square-submatrices-with-all-ones/",
-	difficulty = Difficulty.MEDIUM
+		id = 1277,
+		name = "Count Square Submatrices with All Ones",
+		url = "https://leetcode.com/problems/count-square-submatrices-with-all-ones/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CountSquareSubmatricesWithAllOnes
 {
@@ -36,7 +36,7 @@ public class CountSquareSubmatricesWithAllOnes
 				}
 
 				matrix[row][column] += Math.min(matrix[row - 1][column - 1],
-					Math.min(matrix[row - 1][column], matrix[row][column - 1]));
+						Math.min(matrix[row - 1][column], matrix[row][column - 1]));
 				if (matrix[row][column] > 1)
 				{
 					result += matrix[row][column] - 1;

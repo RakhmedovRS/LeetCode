@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 18.06.2020
  */
 @LeetCode(
-	id = 275,
-	name = "H-Index II",
-	url = "https://leetcode.com/problems/h-index-ii/",
-	difficulty = Difficulty.MEDIUM
+		id = 275,
+		name = "H-Index II",
+		url = "https://leetcode.com/problems/h-index-ii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class HIndexII
 {

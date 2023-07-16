@@ -11,10 +11,10 @@ import java.util.List;
  * @created 25-Apr-20
  */
 @LeetCode(
-	id = 67,
-	name = "Add Binary",
-	url = "https://leetcode.com/problems/add-binary/",
-	difficulty = Difficulty.EASY
+		id = 67,
+		name = "Add Binary",
+		url = "https://leetcode.com/problems/add-binary/",
+		difficulty = Difficulty.EASY
 )
 public class AddBinary
 {

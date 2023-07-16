@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 11/29/2020
  */
 @LeetCode(
-	id = 159,
-	name = "Longest Substring with At Most Two Distinct Characters",
-	url = "https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 159,
+		name = "Longest Substring with At Most Two Distinct Characters",
+		url = "https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class LongestSubstringWithAtMostTwoDistinctCharacters
 {

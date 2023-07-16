@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 7/17/2022
  */
 @LeetCode(
-	id = 2341,
-	name = "Maximum Number of Pairs in Array",
-	url = "https://leetcode.com/problems/maximum-number-of-pairs-in-array/",
-	difficulty = Difficulty.EASY
+		id = 2341,
+		name = "Maximum Number of Pairs in Array",
+		url = "https://leetcode.com/problems/maximum-number-of-pairs-in-array/",
+		difficulty = Difficulty.EASY
 )
 public class MaximumNumberOfPairsInArray
 {

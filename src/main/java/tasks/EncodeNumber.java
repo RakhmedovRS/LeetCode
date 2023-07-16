@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 1/6/2021
  */
 @LeetCode(
-	id = 1256,
-	name = "Encode Number",
-	url = "https://leetcode.com/problems/encode-number/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1256,
+		name = "Encode Number",
+		url = "https://leetcode.com/problems/encode-number/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class EncodeNumber
 {

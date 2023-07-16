@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 25-May-20
  */
 @LeetCode(
-	id = 1035,
-	name = "Uncrossed Lines",
-	url = "https://leetcode.com/problems/uncrossed-lines/",
-	difficulty = Difficulty.MEDIUM
+		id = 1035,
+		name = "Uncrossed Lines",
+		url = "https://leetcode.com/problems/uncrossed-lines/",
+		difficulty = Difficulty.MEDIUM
 )
 public class UncrossedLines
 {

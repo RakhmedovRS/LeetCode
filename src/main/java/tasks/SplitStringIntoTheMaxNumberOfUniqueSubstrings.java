@@ -11,10 +11,10 @@ import java.util.Set;
  * @created 20-Sep-20
  */
 @LeetCode(
-	id = 1593,
-	name = "Split a String Into the Max Number of Unique Substrings",
-	url = "https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/",
-	difficulty = Difficulty.EASY
+		id = 1593,
+		name = "Split a String Into the Max Number of Unique Substrings",
+		url = "https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/",
+		difficulty = Difficulty.EASY
 )
 public class SplitStringIntoTheMaxNumberOfUniqueSubstrings
 {

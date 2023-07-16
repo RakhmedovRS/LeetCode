@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 8/15/2021
  */
 @LeetCode(
-	id = 1968,
-	name = "Array With Elements Not Equal to Average of Neighbors",
-	url = "https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/",
-	difficulty = Difficulty.MEDIUM
+		id = 1968,
+		name = "Array With Elements Not Equal to Average of Neighbors",
+		url = "https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ArrayWithElementsNotEqualToAverageOfNeighbors
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 1/18/2021
  */
 @LeetCode(
-	id = 1415,
-	name = "The k-th Lexicographical String of All Happy Strings of Length n",
-	url = "https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/",
-	difficulty = Difficulty.MEDIUM
+		id = 1415,
+		name = "The k-th Lexicographical String of All Happy Strings of Length n",
+		url = "https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/",
+		difficulty = Difficulty.MEDIUM
 )
 public class TheKthLexicographicalStringOfAllHappyStringsOfLengthN
 {

@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 4/16/2022
  */
 @LeetCode(
-	id = 2239,
-	name = "Find Closest Number to Zero",
-	url = "https://leetcode.com/problems/find-closest-number-to-zero/",
-	difficulty = Difficulty.EASY
+		id = 2239,
+		name = "Find Closest Number to Zero",
+		url = "https://leetcode.com/problems/find-closest-number-to-zero/",
+		difficulty = Difficulty.EASY
 )
 public class FindClosestNumberToZero
 {

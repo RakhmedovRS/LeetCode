@@ -9,10 +9,10 @@ import common.LeetCode;
  * @created 9/26/2020
  */
 @LeetCode(
-	id = 859,
-	name = "Buddy Strings",
-	url = "https://leetcode.com/problems/buddy-strings/",
-	difficulty = Difficulty.EASY
+		id = 859,
+		name = "Buddy Strings",
+		url = "https://leetcode.com/problems/buddy-strings/",
+		difficulty = Difficulty.EASY
 )
 public class BuddyStrings
 {

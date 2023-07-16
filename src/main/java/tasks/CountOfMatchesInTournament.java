@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/13/2020
  */
 @LeetCode(
-	id = 1688,
-	name = "Count of Matches in Tournament",
-	url = "https://leetcode.com/problems/count-of-matches-in-tournament/",
-	difficulty = Difficulty.EASY
+		id = 1688,
+		name = "Count of Matches in Tournament",
+		url = "https://leetcode.com/problems/count-of-matches-in-tournament/",
+		difficulty = Difficulty.EASY
 )
 public class CountOfMatchesInTournament
 {

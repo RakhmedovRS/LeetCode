@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 12/26/2020
  */
 @LeetCode(
-	id = 1700,
-	name = "Number of Students Unable to Eat Lunch",
-	url = "https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/",
-	difficulty = Difficulty.EASY
+		id = 1700,
+		name = "Number of Students Unable to Eat Lunch",
+		url = "https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/",
+		difficulty = Difficulty.EASY
 )
 public class NumberOfStudentsUnableToEatLunch
 {

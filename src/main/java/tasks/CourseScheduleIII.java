@@ -12,10 +12,10 @@ import java.util.PriorityQueue;
  * @created 5/2/2021
  */
 @LeetCode(
-	id = 630,
-	name = "Course Schedule III",
-	url = "https://leetcode.com/problems/course-schedule-iii/",
-	difficulty = Difficulty.HARD
+		id = 630,
+		name = "Course Schedule III",
+		url = "https://leetcode.com/problems/course-schedule-iii/",
+		difficulty = Difficulty.HARD
 )
 public class CourseScheduleIII
 {

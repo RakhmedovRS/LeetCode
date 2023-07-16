@@ -9,10 +9,10 @@ import common.ListNode;
  * @created 01-Apr-20
  */
 @LeetCode(
-	id = 2,
-	name = "Add Two Numbers",
-	url = "https://leetcode.com/problems/add-two-numbers/",
-	difficulty = Difficulty.MEDIUM
+		id = 2,
+		name = "Add Two Numbers",
+		url = "https://leetcode.com/problems/add-two-numbers/",
+		difficulty = Difficulty.MEDIUM
 )
 public class AddTwoNumbers
 {

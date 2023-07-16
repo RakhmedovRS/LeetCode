@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/24/2020
  */
 @LeetCode(
-	id = 526,
-	name = "Beautiful Arrangement",
-	url = "https://leetcode.com/problems/beautiful-arrangement/",
-	difficulty = Difficulty.MEDIUM
+		id = 526,
+		name = "Beautiful Arrangement",
+		url = "https://leetcode.com/problems/beautiful-arrangement/",
+		difficulty = Difficulty.MEDIUM
 )
 public class BeautifulArrangement
 {
@@ -31,7 +31,7 @@ public class BeautifulArrangement
 		int count = 0;
 		for (int i = 1; i <= n; i++)
 		{
-			if (!used[i] && (i % pos  ==0 || pos % i ==0))
+			if (!used[i] && (i % pos == 0 || pos % i == 0))
 			{
 				used[i] = true;
 				count += dfs(pos + 1, used, n);

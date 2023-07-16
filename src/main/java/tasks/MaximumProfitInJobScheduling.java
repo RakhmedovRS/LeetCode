@@ -12,10 +12,10 @@ import java.util.List;
  * @created 11/24/2020
  */
 @LeetCode(
-	id = 1235,
-	name = "Maximum Profit in Job Scheduling",
-	url = "https://leetcode.com/problems/maximum-profit-in-job-scheduling/",
-	difficulty = Difficulty.HARD
+		id = 1235,
+		name = "Maximum Profit in Job Scheduling",
+		url = "https://leetcode.com/problems/maximum-profit-in-job-scheduling/",
+		difficulty = Difficulty.HARD
 )
 public class MaximumProfitInJobScheduling
 {

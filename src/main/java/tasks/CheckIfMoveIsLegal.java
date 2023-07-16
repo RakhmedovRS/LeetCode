@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 8/8/2021
  */
 @LeetCode(
-	id = 1958,
-	name = "Check if Move is Legal",
-	url = "https://leetcode.com/problems/check-if-move-is-legal/",
-	difficulty = Difficulty.MEDIUM
+		id = 1958,
+		name = "Check if Move is Legal",
+		url = "https://leetcode.com/problems/check-if-move-is-legal/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CheckIfMoveIsLegal
 {

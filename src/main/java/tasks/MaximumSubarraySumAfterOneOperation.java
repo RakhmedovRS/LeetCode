@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 2/8/2021
  */
 @LeetCode(
-	id = 1746,
-	name = "Maximum Subarray Sum After One Operation",
-	url = "https://leetcode.com/problems/maximum-subarray-sum-after-one-operation/",
-	difficulty = Difficulty.MEDIUM
+		id = 1746,
+		name = "Maximum Subarray Sum After One Operation",
+		url = "https://leetcode.com/problems/maximum-subarray-sum-after-one-operation/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumSubarraySumAfterOneOperation
 {

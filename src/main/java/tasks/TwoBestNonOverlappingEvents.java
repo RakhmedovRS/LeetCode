@@ -13,10 +13,10 @@ import java.util.TreeMap;
  * @created 10/30/2021
  */
 @LeetCode(
-	id = 2054,
-	name = "Two Best Non-Overlapping Events",
-	url = "https://leetcode.com/problems/two-best-non-overlapping-events/",
-	difficulty = Difficulty.MEDIUM
+		id = 2054,
+		name = "Two Best Non-Overlapping Events",
+		url = "https://leetcode.com/problems/two-best-non-overlapping-events/",
+		difficulty = Difficulty.MEDIUM
 )
 public class TwoBestNonOverlappingEvents
 {

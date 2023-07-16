@@ -10,10 +10,10 @@ import java.util.*;
  * @created 22-Feb-20
  */
 @LeetCode(
-	id = 140,
-	name = "Word Break",
-	url = "https://leetcode.com/problems/word-break-ii/",
-	difficulty = Difficulty.HARD
+		id = 140,
+		name = "Word Break",
+		url = "https://leetcode.com/problems/word-break-ii/",
+		difficulty = Difficulty.HARD
 )
 public class WordBreakII
 {

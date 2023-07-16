@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 02-May-20
  */
 @LeetCode(
-	id = 704,
-	name = "Binary Search",
-	url = "https://leetcode.com/problems/binary-search/",
-	difficulty = Difficulty.EASY
+		id = 704,
+		name = "Binary Search",
+		url = "https://leetcode.com/problems/binary-search/",
+		difficulty = Difficulty.EASY
 )
 public class BinarySearch
 {

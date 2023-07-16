@@ -11,10 +11,10 @@ import java.util.List;
  * @created 13-Jun-20
  */
 @LeetCode(
-	id = 442,
-	name = "Find All Duplicates in an Array",
-	url = "https://leetcode.com/problems/find-all-duplicates-in-an-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 442,
+		name = "Find All Duplicates in an Array",
+		url = "https://leetcode.com/problems/find-all-duplicates-in-an-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindAllDuplicatesInArray
 {

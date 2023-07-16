@@ -99,60 +99,60 @@ public class FindTheCityWithTheSmallestNumberOfNeighborsAtThresholdDistance
 	public static void main(String[] args)
 	{
 		System.out.println(new FindTheCityWithTheSmallestNumberOfNeighborsAtThresholdDistance().findTheCity(8, new int[][]
-			{
-				{3, 5, 9558},
-				{1, 2, 1079},
-				{1, 3, 8040},
-				{0, 1, 9258},
-				{4, 7, 7558},
-				{5, 6, 8196},
-				{3, 4, 7284},
-				{1, 5, 6327},
-				{0, 4, 5966},
-				{3, 6, 8575},
-				{2, 5, 8604},
-				{1, 7, 7782},
-				{4, 6, 2857},
-				{3, 7, 2336},
-				{0, 6, 6},
-				{5, 7, 2870},
-				{4, 5, 5055},
-				{0, 7, 2904},
-				{1, 6, 2458},
-				{0, 5, 3399},
-				{6, 7, 2202},
-				{0, 2, 3996},
-				{0, 3, 7495},
-				{1, 4, 2262},
-				{2, 6, 1390}
-			}, 7937)); //7
+				{
+						{3, 5, 9558},
+						{1, 2, 1079},
+						{1, 3, 8040},
+						{0, 1, 9258},
+						{4, 7, 7558},
+						{5, 6, 8196},
+						{3, 4, 7284},
+						{1, 5, 6327},
+						{0, 4, 5966},
+						{3, 6, 8575},
+						{2, 5, 8604},
+						{1, 7, 7782},
+						{4, 6, 2857},
+						{3, 7, 2336},
+						{0, 6, 6},
+						{5, 7, 2870},
+						{4, 5, 5055},
+						{0, 7, 2904},
+						{1, 6, 2458},
+						{0, 5, 3399},
+						{6, 7, 2202},
+						{0, 2, 3996},
+						{0, 3, 7495},
+						{1, 4, 2262},
+						{2, 6, 1390}
+				}, 7937)); //7
 
 		System.out.println(new FindTheCityWithTheSmallestNumberOfNeighborsAtThresholdDistance().findTheCity(6, new int[][]
-			{
-				{0, 3, 7},
-				{2, 4, 1},
-				{0, 1, 5},
-				{2, 3, 10},
-				{1, 3, 6},
-				{1, 2, 1}
-			}, 417)); //5
+				{
+						{0, 3, 7},
+						{2, 4, 1},
+						{0, 1, 5},
+						{2, 3, 10},
+						{1, 3, 6},
+						{1, 2, 1}
+				}, 417)); //5
 
 		System.out.println(new FindTheCityWithTheSmallestNumberOfNeighborsAtThresholdDistance().findTheCity(5, new int[][]
-			{
-				{0, 1, 2},
-				{0, 4, 8},
-				{1, 2, 3},
-				{1, 4, 2},
-				{2, 3, 1},
-				{3, 4, 1},
-			}, 2)); //0
+				{
+						{0, 1, 2},
+						{0, 4, 8},
+						{1, 2, 3},
+						{1, 4, 2},
+						{2, 3, 1},
+						{3, 4, 1},
+				}, 2)); //0
 
 		System.out.println(new FindTheCityWithTheSmallestNumberOfNeighborsAtThresholdDistance().findTheCity(4, new int[][]
-			{
-				{0, 1, 3},
-				{1, 2, 1},
-				{1, 3, 4},
-				{2, 3, 1},
-			}, 4)); //3
+				{
+						{0, 1, 3},
+						{1, 2, 1},
+						{1, 3, 4},
+						{2, 3, 1},
+				}, 4)); //3
 	}
 }

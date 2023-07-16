@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 01-Mar-20
  */
 @LeetCode(
-	id = 59,
-	name = "Spiral Matrix II",
-	url = "https://leetcode.com/problems/spiral-matrix-ii/",
-	difficulty = Difficulty.MEDIUM
+		id = 59,
+		name = "Spiral Matrix II",
+		url = "https://leetcode.com/problems/spiral-matrix-ii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SpiralMatrixII
 {

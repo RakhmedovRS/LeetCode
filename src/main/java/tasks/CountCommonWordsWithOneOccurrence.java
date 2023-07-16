@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 11/27/2021
  */
 @LeetCode(
-	id = 2085,
-	name = "Count Common Words With One Occurrence",
-	url = "https://leetcode.com/problems/count-common-words-with-one-occurrence/",
-	difficulty = Difficulty.EASY
+		id = 2085,
+		name = "Count Common Words With One Occurrence",
+		url = "https://leetcode.com/problems/count-common-words-with-one-occurrence/",
+		difficulty = Difficulty.EASY
 )
 public class CountCommonWordsWithOneOccurrence
 {

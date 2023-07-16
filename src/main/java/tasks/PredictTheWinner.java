@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 18-Aug-20
  */
 @LeetCode(
-	id = 486,
-	name = "Predict the Winner",
-	url = "https://leetcode.com/problems/predict-the-winner/",
-	difficulty = Difficulty.MEDIUM
+		id = 486,
+		name = "Predict the Winner",
+		url = "https://leetcode.com/problems/predict-the-winner/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PredictTheWinner
 {

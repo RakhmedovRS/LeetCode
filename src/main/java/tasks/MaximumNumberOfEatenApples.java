@@ -10,10 +10,10 @@ import java.util.PriorityQueue;
  * @created 12/27/2020
  */
 @LeetCode(
-	id = 1705,
-	name = "Maximum Number of Eaten Apples",
-	url = "https://leetcode.com/problems/maximum-number-of-eaten-apples/",
-	difficulty = Difficulty.MEDIUM
+		id = 1705,
+		name = "Maximum Number of Eaten Apples",
+		url = "https://leetcode.com/problems/maximum-number-of-eaten-apples/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumNumberOfEatenApples
 {

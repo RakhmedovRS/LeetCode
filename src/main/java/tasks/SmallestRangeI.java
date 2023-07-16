@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 22-Jun-20
  */
 @LeetCode(
-	id = 908,
-	name = "Smallest Range I",
-	url = "https://leetcode.com/problems/smallest-range-i/",
-	difficulty = Difficulty.EASY
+		id = 908,
+		name = "Smallest Range I",
+		url = "https://leetcode.com/problems/smallest-range-i/",
+		difficulty = Difficulty.EASY
 )
 public class SmallestRangeI
 {

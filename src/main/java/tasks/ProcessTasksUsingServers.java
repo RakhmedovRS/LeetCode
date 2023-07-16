@@ -11,10 +11,10 @@ import java.util.PriorityQueue;
  * @created 5/30/2021
  */
 @LeetCode(
-	id = 1882,
-	name = "Process Tasks Using Servers",
-	url = "https://leetcode.com/problems/process-tasks-using-servers/",
-	difficulty = Difficulty.MEDIUM
+		id = 1882,
+		name = "Process Tasks Using Servers",
+		url = "https://leetcode.com/problems/process-tasks-using-servers/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ProcessTasksUsingServers
 {

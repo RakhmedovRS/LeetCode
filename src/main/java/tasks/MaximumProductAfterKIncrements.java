@@ -10,10 +10,10 @@ import java.util.PriorityQueue;
  * @created 4/10/2022
  */
 @LeetCode(
-	id = 2233,
-	name = "Maximum Product After K Increments",
-	url = "https://leetcode.com/problems/maximum-product-after-k-increments/",
-	difficulty = Difficulty.MEDIUM
+		id = 2233,
+		name = "Maximum Product After K Increments",
+		url = "https://leetcode.com/problems/maximum-product-after-k-increments/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumProductAfterKIncrements
 {

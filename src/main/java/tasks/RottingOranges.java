@@ -11,10 +11,10 @@ import java.util.Queue;
  * @created 21-Jul-20
  */
 @LeetCode(
-	id = 994,
-	name = "Rotting Oranges",
-	url = "https://leetcode.com/problems/rotting-oranges/",
-	difficulty = Difficulty.MEDIUM
+		id = 994,
+		name = "Rotting Oranges",
+		url = "https://leetcode.com/problems/rotting-oranges/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RottingOranges
 {

@@ -40,9 +40,9 @@ public class SplitTwoStringsToMakePalindrome
 		}
 
 		return isPalindrome(charsA, charsALeft, charBRight)
-			|| isPalindrome(charsB, charsALeft, charBRight)
-			|| isPalindrome(charsA, charsBLeft, charARight)
-			|| isPalindrome(charsB, charsBLeft, charARight);
+				|| isPalindrome(charsB, charsALeft, charBRight)
+				|| isPalindrome(charsA, charsBLeft, charARight)
+				|| isPalindrome(charsB, charsBLeft, charARight);
 	}
 
 	private boolean isPalindrome(char[] chars, int left, int right)
@@ -61,12 +61,12 @@ public class SplitTwoStringsToMakePalindrome
 	public static void main(String[] args)
 	{
 		System.out.println(new SplitTwoStringsToMakePalindrome().checkPalindromeFormation(
-			"aejbaalflrmkswrydwdkdwdyrwskmrlfqizjezd",
-			"uvebspqckawkhbrtlqwblfwzfptanhiglaabjea"));
+				"aejbaalflrmkswrydwdkdwdyrwskmrlfqizjezd",
+				"uvebspqckawkhbrtlqwblfwzfptanhiglaabjea"));
 
 		System.out.println(new SplitTwoStringsToMakePalindrome().checkPalindromeFormation(
-			"pvhmupgqeltozftlmfjjde",
-			"yjgpzbezspnnpszebzmhvp"));
+				"pvhmupgqeltozftlmfjjde",
+				"yjgpzbezspnnpszebzmhvp"));
 
 		System.out.println(new SplitTwoStringsToMakePalindrome().checkPalindromeFormation("ulacfd", "jizalu"));
 		System.out.println(new SplitTwoStringsToMakePalindrome().checkPalindromeFormation("abdef", "fecab"));

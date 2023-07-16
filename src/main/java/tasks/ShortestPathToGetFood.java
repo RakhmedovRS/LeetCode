@@ -11,11 +11,11 @@ import java.util.Queue;
  * @created 1/21/2021
  */
 @LeetCode(
-	id = 1730,
-	name = "Shortest Path to Get Food",
-	url = "https://leetcode.com/problems/shortest-path-to-get-food/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1730,
+		name = "Shortest Path to Get Food",
+		url = "https://leetcode.com/problems/shortest-path-to-get-food/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class ShortestPathToGetFood
 {

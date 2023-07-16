@@ -11,10 +11,10 @@ import java.util.LinkedList;
  * @created 02-Jul-20
  */
 @LeetCode(
-	id = 739,
-	name = "Daily Temperatures",
-	url = "https://leetcode.com/problems/daily-temperatures/",
-	difficulty = Difficulty.MEDIUM
+		id = 739,
+		name = "Daily Temperatures",
+		url = "https://leetcode.com/problems/daily-temperatures/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DailyTemperatures
 {
@@ -26,7 +26,7 @@ public class DailyTemperatures
 		{
 			while (!list.isEmpty() && temperatures[i] > temperatures[list.getLast()])
 			{
-				int prev =  list.removeLast();
+				int prev = list.removeLast();
 				answer[prev] = i - prev;
 			}
 

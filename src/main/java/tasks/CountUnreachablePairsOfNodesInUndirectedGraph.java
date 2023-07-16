@@ -12,10 +12,10 @@ import java.util.List;
  * @created 6/26/2022
  */
 @LeetCode(
-	id = 2316,
-	name = "Count Unreachable Pairs of Nodes in an Undirected Graph",
-	url = "https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/",
-	difficulty = Difficulty.MEDIUM
+		id = 2316,
+		name = "Count Unreachable Pairs of Nodes in an Undirected Graph",
+		url = "https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CountUnreachablePairsOfNodesInUndirectedGraph
 {

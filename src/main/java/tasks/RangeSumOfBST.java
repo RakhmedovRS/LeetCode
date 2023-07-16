@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 11/15/2020
  */
 @LeetCode(
-	id = 938,
-	name = "Range Sum of BST",
-	url = "https://leetcode.com/problems/range-sum-of-bst/",
-	difficulty = Difficulty.EASY
+		id = 938,
+		name = "Range Sum of BST",
+		url = "https://leetcode.com/problems/range-sum-of-bst/",
+		difficulty = Difficulty.EASY
 )
 public class RangeSumOfBST
 {

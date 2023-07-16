@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 12/21/2020
  */
 @LeetCode(
-	id = 1433,
-	name = "Check If a String Can Break Another String",
-	url = "https://leetcode.com/problems/check-if-a-string-can-break-another-string/",
-	difficulty = Difficulty.MEDIUM
+		id = 1433,
+		name = "Check If a String Can Break Another String",
+		url = "https://leetcode.com/problems/check-if-a-string-can-break-another-string/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CheckIfStringCanBreakAnotherString
 {

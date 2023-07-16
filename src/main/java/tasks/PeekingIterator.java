@@ -10,10 +10,10 @@ import java.util.Iterator;
  * @created 26-May-20
  */
 @LeetCode(
-	id = 284,
-	name = "Peeking Iterator",
-	url = "https://leetcode.com/problems/peeking-iterator/",
-	difficulty = Difficulty.MEDIUM
+		id = 284,
+		name = "Peeking Iterator",
+		url = "https://leetcode.com/problems/peeking-iterator/",
+		difficulty = Difficulty.MEDIUM
 )
 class PeekingIterator implements Iterator<Integer>
 {

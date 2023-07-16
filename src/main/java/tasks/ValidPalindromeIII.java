@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 1/5/2021
  */
 @LeetCode(
-	id = 1216,
-	name = "Valid Palindrome III",
-	url = "https://leetcode.com/problems/valid-palindrome-iii/",
-	difficulty = Difficulty.HARD,
-	premium = true
+		id = 1216,
+		name = "Valid Palindrome III",
+		url = "https://leetcode.com/problems/valid-palindrome-iii/",
+		difficulty = Difficulty.HARD,
+		premium = true
 )
 public class ValidPalindromeIII
 {
@@ -42,12 +42,12 @@ public class ValidPalindromeIII
 		if (chars[left] == chars[right])
 		{
 			memo[left][right] = Math.max(2 + dfs(left + 1, right - 1, chars, memo),
-				Math.max(dfs(left + 1, right, chars, memo), dfs(left, right - 1, chars, memo)));
+					Math.max(dfs(left + 1, right, chars, memo), dfs(left, right - 1, chars, memo)));
 		}
 		else
 		{
 			memo[left][right] = Math.max(dfs(left + 1, right - 1, chars, memo),
-				Math.max(dfs(left + 1, right, chars, memo), dfs(left, right - 1, chars, memo)));
+					Math.max(dfs(left + 1, right, chars, memo), dfs(left, right - 1, chars, memo)));
 		}
 
 		return memo[left][right];
@@ -61,10 +61,10 @@ public class ValidPalindromeIII
 		System.out.println(clazz.isValidPalindrome("baacacaa", 1));
 
 		System.out.println(clazz.isValidPalindrome(
-			"dadaabbdddcabbccdcaabadbbcccbacdcacacbdbabbadcdabacbadcdabcbbaacdabbdcbabdcbbbcaddccbdbbaaadcbaabaadbadcd" +
-				"adcdcddddcdbbddcbddbbdbabababcbdabddabcdcbcaaaacbbbdcbabbbcaacbcbacaaabccdbdddbbcbbbcacacbbdccacacddaabc" +
-				"cbaccddcbdcbcacadbaacccbaabaccdaddbdadcccbbbcbbbdcbbacacbabdcddcbbbccdcbbabddcbbabbacdcadcaaddcdcdaaccad" +
-				"bcdacbbdccaccdaaaabbcdcadddadcddbdccadabcbbadbbdbbaccbdadbdbbdcaccccccaddaaacbadcbbacbbbddacbadbdabdcbca" +
-				"cadbcdabbdbaddcdcabbbbabbacdacbacdaccbcbbcaccbabcbdbaccacddccdbabcbaadadacadabacddadadcbdaacdbd", 216));
+				"dadaabbdddcabbccdcaabadbbcccbacdcacacbdbabbadcdabacbadcdabcbbaacdabbdcbabdcbbbcaddccbdbbaaadcbaabaadbadcd" +
+						"adcdcddddcdbbddcbddbbdbabababcbdabddabcdcbcaaaacbbbdcbabbbcaacbcbacaaabccdbdddbbcbbbcacacbbdccacacddaabc" +
+						"cbaccddcbdcbcacadbaacccbaabaccdaddbdadcccbbbcbbbdcbbacacbabdcddcbbbccdcbbabddcbbabbacdcadcaaddcdcdaaccad" +
+						"bcdacbbdccaccdaaaabbcdcadddadcddbdccadabcbbadbbdbbaccbdadbdbbdcaccccccaddaaacbadcbbacbbbddacbadbdabdcbca" +
+						"cadbcdabbdbaddcdcabbbbabbacdacbacdaccbcbbcaccbabcbdbaccacddccdbabcbaadadacadabacddadadcbdaacdbd", 216));
 	}
 }

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 10/19/2020
  */
 @LeetCode(
-	id = 1007,
-	name = "Minimum Domino Rotations For Equal Row",
-	url = "https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/",
-	difficulty = Difficulty.MEDIUM
+		id = 1007,
+		name = "Minimum Domino Rotations For Equal Row",
+		url = "https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumDominoRotationsForEqualRow
 {

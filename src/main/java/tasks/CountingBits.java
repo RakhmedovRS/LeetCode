@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 28-May-20
  */
 @LeetCode(
-	id = 338,
-	name = "Counting Bits",
-	url = "https://leetcode.com/problems/counting-bits/",
-	difficulty = Difficulty.EASY
+		id = 338,
+		name = "Counting Bits",
+		url = "https://leetcode.com/problems/counting-bits/",
+		difficulty = Difficulty.EASY
 )
 public class CountingBits
 {

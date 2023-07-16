@@ -10,10 +10,10 @@ import java.util.PriorityQueue;
  * @created 5/1/2021
  */
 @LeetCode(
-	id = 1845,
-	name = "Seat Reservation Manager",
-	url = "https://leetcode.com/problems/seat-reservation-manager/",
-	difficulty = Difficulty.MEDIUM
+		id = 1845,
+		name = "Seat Reservation Manager",
+		url = "https://leetcode.com/problems/seat-reservation-manager/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SeatReservationManager
 {
@@ -21,6 +21,7 @@ public class SeatReservationManager
 	{
 
 		PriorityQueue<Integer> seats;
+
 		public SeatManager(int n)
 		{
 			seats = new PriorityQueue<>();

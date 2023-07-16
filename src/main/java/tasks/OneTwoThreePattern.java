@@ -10,10 +10,10 @@ import java.util.TreeMap;
  * @created 07-Jul-20
  */
 @LeetCode(
-	id = 456,
-	name = "132 Pattern",
-	url = "https://leetcode.com/problems/132-pattern/",
-	difficulty = Difficulty.MEDIUM
+		id = 456,
+		name = "132 Pattern",
+		url = "https://leetcode.com/problems/132-pattern/",
+		difficulty = Difficulty.MEDIUM
 )
 public class OneTwoThreePattern
 {

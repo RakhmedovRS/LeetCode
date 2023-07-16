@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 2/19/2022
  */
 @LeetCode(
-	id = 2176,
-	name = "Count Equal and Divisible Pairs in an Array",
-	url = "https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/",
-	difficulty = Difficulty.EASY
+		id = 2176,
+		name = "Count Equal and Divisible Pairs in an Array",
+		url = "https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/",
+		difficulty = Difficulty.EASY
 )
 public class CountEqualAndDivisiblePairsInArray
 {

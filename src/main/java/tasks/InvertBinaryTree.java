@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 10/26/2021
  */
 @LeetCode(
-	id = 226,
-	name = "Invert Binary Tree",
-	url = "https://leetcode.com/problems/invert-binary-tree/",
-	difficulty = Difficulty.EASY
+		id = 226,
+		name = "Invert Binary Tree",
+		url = "https://leetcode.com/problems/invert-binary-tree/",
+		difficulty = Difficulty.EASY
 )
 public class InvertBinaryTree
 {

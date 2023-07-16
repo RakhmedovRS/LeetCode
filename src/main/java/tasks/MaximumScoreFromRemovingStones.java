@@ -10,10 +10,10 @@ import java.util.PriorityQueue;
  * @created 2/8/2021
  */
 @LeetCode(
-	id = 1753,
-	name = "Maximum Score From Removing Stones",
-	url = "https://leetcode.com/problems/maximum-score-from-removing-stones/",
-	difficulty = Difficulty.MEDIUM
+		id = 1753,
+		name = "Maximum Score From Removing Stones",
+		url = "https://leetcode.com/problems/maximum-score-from-removing-stones/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumScoreFromRemovingStones
 {

@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 11/15/2020
  */
 @LeetCode(
-	id = 1657,
-	name = "Determine if Two Strings Are Close",
-	url = "https://leetcode.com/problems/determine-if-two-strings-are-close/",
-	difficulty = Difficulty.MEDIUM
+		id = 1657,
+		name = "Determine if Two Strings Are Close",
+		url = "https://leetcode.com/problems/determine-if-two-strings-are-close/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DetermineIfTwoStringsAreClose
 {

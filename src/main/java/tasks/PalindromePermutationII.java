@@ -10,11 +10,11 @@ import java.util.*;
  * @created 1/11/2021
  */
 @LeetCode(
-	id = 267,
-	name = "Palindrome Permutation II",
-	url = "https://leetcode.com/problems/palindrome-permutation-ii/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 267,
+		name = "Palindrome Permutation II",
+		url = "https://leetcode.com/problems/palindrome-permutation-ii/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class PalindromePermutationII
 {

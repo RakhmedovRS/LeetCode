@@ -11,10 +11,10 @@ import java.util.TreeMap;
  * @created 25-Mar-20
  */
 @LeetCode(
-	id = 16,
-	name = "3Sum Closest",
-	url = "https://leetcode.com/problems/3sum-closest/",
-	difficulty = Difficulty.MEDIUM
+		id = 16,
+		name = "3Sum Closest",
+		url = "https://leetcode.com/problems/3sum-closest/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ThreeSumClosest
 {

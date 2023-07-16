@@ -11,11 +11,11 @@ import java.util.Map;
  * @created 12/17/2020
  */
 @LeetCode(
-	id = 1485,
-	name = "Clone Binary Tree With Random Pointer",
-	url = "https://leetcode.com/problems/clone-binary-tree-with-random-pointer/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1485,
+		name = "Clone Binary Tree With Random Pointer",
+		url = "https://leetcode.com/problems/clone-binary-tree-with-random-pointer/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class CloneBinaryTreeWithRandomPointer
 {
@@ -26,9 +26,14 @@ public class CloneBinaryTreeWithRandomPointer
 		Node right;
 		Node random;
 
-		Node(){}
+		Node()
+		{
+		}
 
-		Node(int val){ this.val = val; }
+		Node(int val)
+		{
+			this.val = val;
+		}
 
 		Node(int val, Node left, Node right, Node random)
 		{

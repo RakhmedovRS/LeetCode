@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11-Apr-20
  */
 @LeetCode(
-	id = 29,
-	name = "Divide Two Integers",
-	url = "https://leetcode.com/problems/divide-two-integers/",
-	difficulty = Difficulty.MEDIUM
+		id = 29,
+		name = "Divide Two Integers",
+		url = "https://leetcode.com/problems/divide-two-integers/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DivideTwoIntegers
 {

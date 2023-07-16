@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 1/17/2021
  */
 @LeetCode(
-	id = 1725,
-	name = "Number Of Rectangles That Can Form The Largest Square",
-	url = "https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/",
-	difficulty = Difficulty.EASY
+		id = 1725,
+		name = "Number Of Rectangles That Can Form The Largest Square",
+		url = "https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/",
+		difficulty = Difficulty.EASY
 )
 public class NumberOfRectanglesThatCanFormTheLargestSquare
 {

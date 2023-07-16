@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 7/4/2021
  */
 @LeetCode(
-	id = 1920,
-	name = "Build Array from Permutation",
-	url = "https://leetcode.com/problems/build-array-from-permutation/",
-	difficulty = Difficulty.EASY
+		id = 1920,
+		name = "Build Array from Permutation",
+		url = "https://leetcode.com/problems/build-array-from-permutation/",
+		difficulty = Difficulty.EASY
 )
 public class BuildArrayFromPermutation
 {

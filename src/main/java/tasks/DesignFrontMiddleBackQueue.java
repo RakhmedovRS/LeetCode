@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/28/2020
  */
 @LeetCode(
-	id = 1670,
-	name = "Design Front Middle Back Queue",
-	url = "https://leetcode.com/problems/design-front-middle-back-queue/",
-	difficulty = Difficulty.MEDIUM
+		id = 1670,
+		name = "Design Front Middle Back Queue",
+		url = "https://leetcode.com/problems/design-front-middle-back-queue/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DesignFrontMiddleBackQueue
 {

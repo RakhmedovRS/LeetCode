@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 25-Jun-20
  */
 @LeetCode(
-	id = 868,
-	name = "Binary Gap",
-	url = "https://leetcode.com/problems/binary-gap/",
-	difficulty = Difficulty.EASY
+		id = 868,
+		name = "Binary Gap",
+		url = "https://leetcode.com/problems/binary-gap/",
+		difficulty = Difficulty.EASY
 )
 public class BinaryGap
 {

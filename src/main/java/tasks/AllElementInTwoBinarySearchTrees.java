@@ -13,10 +13,10 @@ import java.util.List;
  * @created 05-Sep-20
  */
 @LeetCode(
-	id = 1305,
-	name = "All Elements in Two Binary Search Trees",
-	url = "https://leetcode.com/problems/all-elements-in-two-binary-search-trees/",
-	difficulty = Difficulty.MEDIUM
+		id = 1305,
+		name = "All Elements in Two Binary Search Trees",
+		url = "https://leetcode.com/problems/all-elements-in-two-binary-search-trees/",
+		difficulty = Difficulty.MEDIUM
 )
 public class AllElementInTwoBinarySearchTrees
 {

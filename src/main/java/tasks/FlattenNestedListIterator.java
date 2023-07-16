@@ -12,10 +12,10 @@ import java.util.List;
  * @created 27-Apr-20
  */
 @LeetCode(
-	id = 341,
-	name = "Flatten Nested List Iterator",
-	url = "https://leetcode.com/problems/flatten-nested-list-iterator/",
-	difficulty = Difficulty.MEDIUM
+		id = 341,
+		name = "Flatten Nested List Iterator",
+		url = "https://leetcode.com/problems/flatten-nested-list-iterator/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FlattenNestedListIterator
 {

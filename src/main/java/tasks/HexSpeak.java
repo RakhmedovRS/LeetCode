@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/18/2020
  */
 @LeetCode(
-	id = 1271,
-	name = "Hexspeak",
-	url = "https://leetcode.com/problems/hexspeak/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1271,
+		name = "Hexspeak",
+		url = "https://leetcode.com/problems/hexspeak/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class HexSpeak
 {

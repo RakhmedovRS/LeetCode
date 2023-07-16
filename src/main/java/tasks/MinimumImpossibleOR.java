@@ -11,26 +11,27 @@ import java.util.Set;
  * @created 2/20/2023
  */
 @LeetCode(
-        id = 2568,
-        name = "Minimum Impossible OR",
-        url = "https://leetcode.com/problems/minimum-impossible-or/",
-        difficulty = Difficulty.MEDIUM
+		id = 2568,
+		name = "Minimum Impossible OR",
+		url = "https://leetcode.com/problems/minimum-impossible-or/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumImpossibleOR
 {
-    public int minImpossibleOR(int[] nums) {
-        Set<Integer> set = new HashSet<>();
-        for (int num: nums)
-        {
-            set.add(num);
-        }
+	public int minImpossibleOR(int[] nums)
+	{
+		Set<Integer> set = new HashSet<>();
+		for (int num : nums)
+		{
+			set.add(num);
+		}
 
-        int num = 1;
-        while (set.contains(num))
-        {
-            num <<= 1;
-        }
+		int num = 1;
+		while (set.contains(num))
+		{
+			num <<= 1;
+		}
 
-        return num;
-    }
+		return num;
+	}
 }

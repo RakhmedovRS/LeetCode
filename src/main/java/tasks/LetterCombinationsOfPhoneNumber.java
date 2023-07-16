@@ -10,10 +10,10 @@ import java.util.*;
  * @created 07-Apr-20
  */
 @LeetCode(
-	id = 17,
-	name = "Letter Combinations of a Phone Number",
-	url = "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
-	difficulty = Difficulty.MEDIUM
+		id = 17,
+		name = "Letter Combinations of a Phone Number",
+		url = "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LetterCombinationsOfPhoneNumber
 {

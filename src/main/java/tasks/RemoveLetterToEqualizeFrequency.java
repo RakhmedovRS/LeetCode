@@ -11,47 +11,48 @@ import java.util.Map;
  * @created 10/1/2022
  */
 @LeetCode(
-        id = 2423,
-        name = "Remove Letter To Equalize Frequency",
-        url = "https://leetcode.com/problems/remove-letter-to-equalize-frequency/",
-        difficulty = Difficulty.EASY
+		id = 2423,
+		name = "Remove Letter To Equalize Frequency",
+		url = "https://leetcode.com/problems/remove-letter-to-equalize-frequency/",
+		difficulty = Difficulty.EASY
 )
 public class RemoveLetterToEqualizeFrequency
 {
-    public boolean equalFrequency(String word)
-    {
-        Map<Character, Integer> map = new HashMap<>();
-        for (char ch : word.toCharArray())
-        {
-            map.put(ch, map.getOrDefault(ch, 0) + 1);
-        }
+	public boolean equalFrequency(String word)
+	{
+		Map<Character, Integer> map = new HashMap<>();
+		for (char ch : word.toCharArray())
+		{
+			map.put(ch, map.getOrDefault(ch, 0) + 1);
+		}
 
-        outer: for (char ch = 'a'; ch <= 'z'; ch++)
-        {
-            if (map.containsKey(ch))
-            {
-                int count = map.remove(ch) - 1;
-                if (count > 0)
-                {
-                    map.put(ch, count);
-                }
+		outer:
+		for (char ch = 'a'; ch <= 'z'; ch++)
+		{
+			if (map.containsKey(ch))
+			{
+				int count = map.remove(ch) - 1;
+				if (count > 0)
+				{
+					map.put(ch, count);
+				}
 
-                Integer prev = null;
-                for (int c: map.values())
-                {
-                    if (prev != null && prev != c)
-                    {
-                        map.put(ch, map.getOrDefault(ch, 0) + 1);
-                        continue outer;
-                    }
+				Integer prev = null;
+				for (int c : map.values())
+				{
+					if (prev != null && prev != c)
+					{
+						map.put(ch, map.getOrDefault(ch, 0) + 1);
+						continue outer;
+					}
 
-                    prev = c;
-                }
+					prev = c;
+				}
 
-                return true;
-            }
-        }
+				return true;
+			}
+		}
 
-        return false;
-    }
+		return false;
+	}
 }

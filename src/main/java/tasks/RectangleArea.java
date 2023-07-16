@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/23/2020
  */
 @LeetCode(
-	id = 223,
-	name = "Rectangle Area",
-	url = "https://leetcode.com/problems/rectangle-area/",
-	difficulty = Difficulty.MEDIUM
+		id = 223,
+		name = "Rectangle Area",
+		url = "https://leetcode.com/problems/rectangle-area/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RectangleArea
 {

@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 30-Mar-20
  */
 @LeetCode(
-	id = 561,
-	name = "Array Partition I",
-	url = "https://leetcode.com/problems/array-partition-i/",
-	difficulty = Difficulty.EASY
+		id = 561,
+		name = "Array Partition I",
+		url = "https://leetcode.com/problems/array-partition-i/",
+		difficulty = Difficulty.EASY
 )
 public class ArrayPartitionI
 {

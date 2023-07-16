@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 9/4/2021
  */
 @LeetCode(
-	id = 1991,
-	name = "Find the Middle Index in Array",
-	url = "https://leetcode.com/problems/find-the-middle-index-in-array/",
-	difficulty = Difficulty.EASY
+		id = 1991,
+		name = "Find the Middle Index in Array",
+		url = "https://leetcode.com/problems/find-the-middle-index-in-array/",
+		difficulty = Difficulty.EASY
 )
 public class FindTheMiddleIndexInArray
 {

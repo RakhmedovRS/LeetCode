@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/21/2020
  */
 @LeetCode(
-	id = 1064,
-	name = "Fixed Point",
-	url = "https://leetcode.com/problems/fixed-point/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1064,
+		name = "Fixed Point",
+		url = "https://leetcode.com/problems/fixed-point/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class FixedPoint
 {

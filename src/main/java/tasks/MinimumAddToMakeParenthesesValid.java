@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 1/22/2021
  */
 @LeetCode(
-	id = 921,
-	name = "Minimum Add to Make Parentheses Valid",
-	url = "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/",
-	difficulty = Difficulty.MEDIUM
+		id = 921,
+		name = "Minimum Add to Make Parentheses Valid",
+		url = "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumAddToMakeParenthesesValid
 {

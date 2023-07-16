@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/21/2020
  */
 @LeetCode(
-	id = 902,
-	name = "Numbers At Most N Given Digit Set",
-	url = "https://leetcode.com/problems/numbers-at-most-n-given-digit-set/",
-	difficulty = Difficulty.HARD
+		id = 902,
+		name = "Numbers At Most N Given Digit Set",
+		url = "https://leetcode.com/problems/numbers-at-most-n-given-digit-set/",
+		difficulty = Difficulty.HARD
 )
 public class NumbersAtMostNGivenDigitSet
 {

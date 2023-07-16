@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 6/12/2022
  */
 @LeetCode(
-	id = 2284,
-	name = "Sender With Largest Word Count",
-	url = "https://leetcode.com/problems/sender-with-largest-word-count/",
-	difficulty = Difficulty.MEDIUM
+		id = 2284,
+		name = "Sender With Largest Word Count",
+		url = "https://leetcode.com/problems/sender-with-largest-word-count/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SenderWithLargestWordCount
 {

@@ -72,6 +72,6 @@ public class CheckCompletenessOfBinaryTree
 		levels.put(depth, level);
 
 		return 1 + Math.max(treeDepth(root.left, depth + 1, levels),
-			treeDepth(root.right, depth + 1, levels));
+				treeDepth(root.right, depth + 1, levels));
 	}
 }

@@ -11,11 +11,11 @@ import java.util.Set;
  * @created 1/2/2021
  */
 @LeetCode(
-	id = 1698,
-	name = "Number of Distinct Substrings in a String",
-	url = "https://leetcode.com/problems/number-of-distinct-substrings-in-a-string/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1698,
+		name = "Number of Distinct Substrings in a String",
+		url = "https://leetcode.com/problems/number-of-distinct-substrings-in-a-string/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class NumberOfDistinctSubstringsInString
 {

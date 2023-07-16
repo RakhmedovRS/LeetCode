@@ -10,10 +10,10 @@ import java.util.*;
  * @created 1/14/2021
  */
 @LeetCode(
-	id = 381,
-	name = "Insert Delete GetRandom O(1) - Duplicates allowed",
-	url = "https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/",
-	difficulty = Difficulty.HARD
+		id = 381,
+		name = "Insert Delete GetRandom O(1) - Duplicates allowed",
+		url = "https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/",
+		difficulty = Difficulty.HARD
 )
 public class InsertDeleteGetRandomO1DuplicatesAllowed
 {

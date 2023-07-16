@@ -12,11 +12,11 @@ import java.util.List;
  * @created 2/16/2021
  */
 @LeetCode(
-	id = 272,
-	name = "Closest Binary Search Tree Value II",
-	url = "https://leetcode.com/problems/closest-binary-search-tree-value-ii/",
-	difficulty = Difficulty.HARD,
-	premium = true
+		id = 272,
+		name = "Closest Binary Search Tree Value II",
+		url = "https://leetcode.com/problems/closest-binary-search-tree-value-ii/",
+		difficulty = Difficulty.HARD,
+		premium = true
 )
 public class ClosestBinarySearchTreeValueII
 {

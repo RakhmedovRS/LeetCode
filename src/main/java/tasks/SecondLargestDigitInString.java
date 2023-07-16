@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 3/20/2021
  */
 @LeetCode(
-	id = 1796,
-	name = "Second Largest Digit in a String",
-	url = "https://leetcode.com/problems/second-largest-digit-in-a-string/",
-	difficulty = Difficulty.EASY
+		id = 1796,
+		name = "Second Largest Digit in a String",
+		url = "https://leetcode.com/problems/second-largest-digit-in-a-string/",
+		difficulty = Difficulty.EASY
 )
 public class SecondLargestDigitInString
 {
@@ -27,7 +27,7 @@ public class SecondLargestDigitInString
 		}
 
 		boolean seenNumber = false;
-		for (int i = 9; i >=0; i--)
+		for (int i = 9; i >= 0; i--)
 		{
 			if (digits[i])
 			{

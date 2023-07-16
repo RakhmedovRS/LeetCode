@@ -9,10 +9,10 @@ import common.ListNode;
  * @created 14-Mar-20
  */
 @LeetCode(
-	id = 21,
-	name = "Merge Two Sorted Lists",
-	url = "https://leetcode.com/problems/merge-two-sorted-lists/",
-	difficulty = Difficulty.EASY
+		id = 21,
+		name = "Merge Two Sorted Lists",
+		url = "https://leetcode.com/problems/merge-two-sorted-lists/",
+		difficulty = Difficulty.EASY
 )
 public class MergeTwoSortedLists
 {

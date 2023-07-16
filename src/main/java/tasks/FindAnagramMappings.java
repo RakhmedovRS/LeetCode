@@ -12,11 +12,11 @@ import java.util.Map;
  * @created 1/4/2021
  */
 @LeetCode(
-	id = 760,
-	name = "Find Anagram Mappings",
-	url = "https://leetcode.com/problems/find-anagram-mappings/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 760,
+		name = "Find Anagram Mappings",
+		url = "https://leetcode.com/problems/find-anagram-mappings/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class FindAnagramMappings
 {

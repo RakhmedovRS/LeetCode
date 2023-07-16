@@ -9,10 +9,10 @@ import common.ListNode;
  * @created 11/28/2020
  */
 @LeetCode(
-	id = 1669,
-	name = "Merge In Between Linked Lists",
-	url = "https://leetcode.com/problems/merge-in-between-linked-lists/",
-	difficulty = Difficulty.MEDIUM
+		id = 1669,
+		name = "Merge In Between Linked Lists",
+		url = "https://leetcode.com/problems/merge-in-between-linked-lists/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MergeInBetweenLinkedLists
 {

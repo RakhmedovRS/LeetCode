@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 4/18/2021
  */
 @LeetCode(
-	id = 1835,
-	name = "Find XOR Sum of All Pairs Bitwise AND",
-	url = "https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/",
-	difficulty = Difficulty.HARD
+		id = 1835,
+		name = "Find XOR Sum of All Pairs Bitwise AND",
+		url = "https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/",
+		difficulty = Difficulty.HARD
 )
 public class FindXORSumOfAllPairsBitwiseAND
 {

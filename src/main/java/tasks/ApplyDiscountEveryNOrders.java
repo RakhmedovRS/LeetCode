@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 20-Jul-20
  */
 @LeetCode(
-	id = 1357,
-	name = "Apply Discount Every n Orders",
-	url = "https://leetcode.com/problems/apply-discount-every-n-orders/",
-	difficulty = Difficulty.MEDIUM
+		id = 1357,
+		name = "Apply Discount Every n Orders",
+		url = "https://leetcode.com/problems/apply-discount-every-n-orders/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ApplyDiscountEveryNOrders
 {

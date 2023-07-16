@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 02-Sep-20
  */
 @LeetCode(
-	id = 390,
-	name = "Elimination Game",
-	url = "https://leetcode.com/problems/elimination-game/",
-	difficulty = Difficulty.MEDIUM
+		id = 390,
+		name = "Elimination Game",
+		url = "https://leetcode.com/problems/elimination-game/",
+		difficulty = Difficulty.MEDIUM
 )
 public class EliminationGame
 {

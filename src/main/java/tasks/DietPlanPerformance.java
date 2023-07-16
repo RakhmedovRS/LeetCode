@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/24/2020
  */
 @LeetCode(
-	id = 1176,
-	name = "Diet Plan Performance",
-	url = "https://leetcode.com/problems/diet-plan-performance/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1176,
+		name = "Diet Plan Performance",
+		url = "https://leetcode.com/problems/diet-plan-performance/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class DietPlanPerformance
 {

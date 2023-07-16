@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/21/2021
  */
 @LeetCode(
-	id = 2079,
-	name = "Watering Plants",
-	url = "https://leetcode.com/problems/watering-plants/",
-	difficulty = Difficulty.MEDIUM
+		id = 2079,
+		name = "Watering Plants",
+		url = "https://leetcode.com/problems/watering-plants/",
+		difficulty = Difficulty.MEDIUM
 )
 public class WateringPlants
 {

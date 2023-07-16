@@ -10,11 +10,11 @@ import java.util.Locale;
  * @created 1/12/2021
  */
 @LeetCode(
-	id = 261,
-	name = "Graph Valid Tree",
-	url  = "https://leetcode.com/problems/graph-valid-tree/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 261,
+		name = "Graph Valid Tree",
+		url = "https://leetcode.com/problems/graph-valid-tree/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class GraphValidTree
 {

@@ -32,7 +32,7 @@ public class JumpGameIII
 		visited.add(currentPos);
 
 		return canJump(positions, currentPos - positions[currentPos], visited)
-			|| canJump(positions, currentPos + positions[currentPos], visited);
+				|| canJump(positions, currentPos + positions[currentPos], visited);
 	}
 
 	public static void main(String[] args)

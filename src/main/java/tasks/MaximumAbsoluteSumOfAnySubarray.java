@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 2/8/2021
  */
 @LeetCode(
-	id = 1749,
-	name = "Maximum Absolute Sum of Any Subarray",
-	url = "https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1749,
+		name = "Maximum Absolute Sum of Any Subarray",
+		url = "https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class MaximumAbsoluteSumOfAnySubarray
 {

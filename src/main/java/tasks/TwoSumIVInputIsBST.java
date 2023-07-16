@@ -12,10 +12,10 @@ import java.util.Set;
  * @created 8/23/2021
  */
 @LeetCode(
-	id = 653,
-	name = "Two Sum IV - Input is a BST",
-	url = "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/",
-	difficulty = Difficulty.EASY
+		id = 653,
+		name = "Two Sum IV - Input is a BST",
+		url = "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/",
+		difficulty = Difficulty.EASY
 )
 public class TwoSumIVInputIsBST
 {

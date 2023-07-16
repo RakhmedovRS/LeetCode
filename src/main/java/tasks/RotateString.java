@@ -11,10 +11,10 @@ import java.util.List;
  * @created 28-May-20
  */
 @LeetCode(
-	id = 796,
-	name = "Rotate String",
-	url = "https://leetcode.com/problems/rotate-string/",
-	difficulty = Difficulty.EASY
+		id = 796,
+		name = "Rotate String",
+		url = "https://leetcode.com/problems/rotate-string/",
+		difficulty = Difficulty.EASY
 )
 public class RotateString
 {

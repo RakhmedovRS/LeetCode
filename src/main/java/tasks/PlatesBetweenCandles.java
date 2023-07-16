@@ -12,10 +12,10 @@ import java.util.TreeSet;
  * @created 10/30/2021
  */
 @LeetCode(
-	id = 2055,
-	name = "Plates Between Candles",
-	url = "https://leetcode.com/problems/plates-between-candles/",
-	difficulty = Difficulty.MEDIUM
+		id = 2055,
+		name = "Plates Between Candles",
+		url = "https://leetcode.com/problems/plates-between-candles/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PlatesBetweenCandles
 {

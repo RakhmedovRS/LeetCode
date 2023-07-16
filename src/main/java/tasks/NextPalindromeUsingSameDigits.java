@@ -10,11 +10,11 @@ import java.util.Arrays;
  * @created 4/30/2021
  */
 @LeetCode(
-	id = 1842,
-	name = "Next Palindrome Using Same Digits",
-	url = "https://leetcode.com/problems/next-palindrome-using-same-digits/",
-	difficulty = Difficulty.HARD,
-	premium = true
+		id = 1842,
+		name = "Next Palindrome Using Same Digits",
+		url = "https://leetcode.com/problems/next-palindrome-using-same-digits/",
+		difficulty = Difficulty.HARD,
+		premium = true
 )
 public class NextPalindromeUsingSameDigits
 {

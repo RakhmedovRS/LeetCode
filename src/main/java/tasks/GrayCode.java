@@ -11,10 +11,10 @@ import java.util.List;
  * @created 7/1/2021
  */
 @LeetCode(
-	id = 89,
-	name = "Gray Code",
-	url = "https://leetcode.com/problems/gray-code/",
-	difficulty = Difficulty.MEDIUM
+		id = 89,
+		name = "Gray Code",
+		url = "https://leetcode.com/problems/gray-code/",
+		difficulty = Difficulty.MEDIUM
 )
 public class GrayCode
 {

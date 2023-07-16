@@ -12,10 +12,10 @@ import java.util.List;
  * @created 2/13/2022
  */
 @LeetCode(
-	id = 2164,
-	name = "Sort Even and Odd Indices Independently",
-	url = "https://leetcode.com/problems/sort-even-and-odd-indices-independently/",
-	difficulty = Difficulty.EASY
+		id = 2164,
+		name = "Sort Even and Odd Indices Independently",
+		url = "https://leetcode.com/problems/sort-even-and-odd-indices-independently/",
+		difficulty = Difficulty.EASY
 )
 public class SortEvenAndOddIndicesIndependently
 {

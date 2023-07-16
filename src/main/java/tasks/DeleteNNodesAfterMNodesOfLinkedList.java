@@ -9,11 +9,11 @@ import common.ListNode;
  * @created 1/5/2021
  */
 @LeetCode(
-	id = 1474,
-	name = "Delete N Nodes After M Nodes of a Linked List",
-	url = "https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1474,
+		name = "Delete N Nodes After M Nodes of a Linked List",
+		url = "https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class DeleteNNodesAfterMNodesOfLinkedList
 {
@@ -62,6 +62,6 @@ public class DeleteNNodesAfterMNodesOfLinkedList
 
 		DeleteNNodesAfterMNodesOfLinkedList clazz = new DeleteNNodesAfterMNodesOfLinkedList();
 		System.out.println(head);
-		System.out.println(clazz.deleteNodes(head, 2,1));
+		System.out.println(clazz.deleteNodes(head, 2, 1));
 	}
 }

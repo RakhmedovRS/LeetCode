@@ -13,11 +13,11 @@ import java.util.Set;
  * @created 1/19/2021
  */
 @LeetCode(
-	id = 288,
-	name = "Unique Word Abbreviation",
-	url = "https://leetcode.com/problems/unique-word-abbreviation/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 288,
+		name = "Unique Word Abbreviation",
+		url = "https://leetcode.com/problems/unique-word-abbreviation/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class UniqueWordAbbreviation
 {

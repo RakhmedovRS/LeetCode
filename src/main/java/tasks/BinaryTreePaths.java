@@ -14,10 +14,10 @@ import java.util.stream.Collectors;
  * @created 17-Mar-20
  */
 @LeetCode(
-	id = 257,
-	name = "Binary Tree Paths",
-	url = "https://leetcode.com/problems/binary-tree-paths/",
-	difficulty = Difficulty.EASY
+		id = 257,
+		name = "Binary Tree Paths",
+		url = "https://leetcode.com/problems/binary-tree-paths/",
+		difficulty = Difficulty.EASY
 )
 public class BinaryTreePaths
 {

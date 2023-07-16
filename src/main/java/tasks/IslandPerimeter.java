@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 16-May-20
  */
 @LeetCode(
-	id = 463,
-	name = "Island Perimeter",
-	url = "https://leetcode.com/problems/island-perimeter/",
-	difficulty = Difficulty.EASY
+		id = 463,
+		name = "Island Perimeter",
+		url = "https://leetcode.com/problems/island-perimeter/",
+		difficulty = Difficulty.EASY
 )
 public class IslandPerimeter
 {
@@ -52,20 +52,20 @@ public class IslandPerimeter
 		grid[row][column] = -1;
 
 		return islandPerimeter(grid, row - 1, column)
-			+ islandPerimeter(grid, row + 1, column)
-			+ islandPerimeter(grid, row, column - 1)
-			+ islandPerimeter(grid, row, column + 1);
+				+ islandPerimeter(grid, row + 1, column)
+				+ islandPerimeter(grid, row, column - 1)
+				+ islandPerimeter(grid, row, column + 1);
 	}
 
 	public static void main(String[] args)
 	{
 		int[][] grid = new int[][]
-			{
-				{0, 1, 0, 0},
-				{1, 1, 1, 0},
-				{0, 1, 0, 0},
-				{1, 1, 0, 0},
-			};
+				{
+						{0, 1, 0, 0},
+						{1, 1, 1, 0},
+						{0, 1, 0, 0},
+						{1, 1, 0, 0},
+				};
 
 		System.out.println(new IslandPerimeter().islandPerimeter(grid));
 	}

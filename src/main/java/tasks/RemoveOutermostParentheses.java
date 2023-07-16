@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/30/2020
  */
 @LeetCode(
-	id = 1021,
-	name = "Remove Outermost Parentheses",
-	url = "https://leetcode.com/problems/remove-outermost-parentheses/",
-	difficulty = Difficulty.EASY
+		id = 1021,
+		name = "Remove Outermost Parentheses",
+		url = "https://leetcode.com/problems/remove-outermost-parentheses/",
+		difficulty = Difficulty.EASY
 )
 public class RemoveOutermostParentheses
 {

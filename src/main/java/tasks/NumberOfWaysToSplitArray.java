@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 5/14/2022
  */
 @LeetCode(
-	id = 2270,
-	name = "Number of Ways to Split Array",
-	url = "https://leetcode.com/problems/number-of-ways-to-split-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 2270,
+		name = "Number of Ways to Split Array",
+		url = "https://leetcode.com/problems/number-of-ways-to-split-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class NumberOfWaysToSplitArray
 {

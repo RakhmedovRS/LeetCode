@@ -11,10 +11,10 @@ import java.util.List;
  * @created 1/23/2022
  */
 @LeetCode(
-	id = 2150,
-	name = "Find All Lonely Numbers in the Array",
-	url = "https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 2150,
+		name = "Find All Lonely Numbers in the Array",
+		url = "https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindAllLonelyNumbersInTheArray
 {

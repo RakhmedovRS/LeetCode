@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 2/7/2021
  */
 @LeetCode(
-	id = 1752,
-	name = "Check if Array Is Sorted and Rotated",
-	url = "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/",
-	difficulty = Difficulty.EASY
+		id = 1752,
+		name = "Check if Array Is Sorted and Rotated",
+		url = "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/",
+		difficulty = Difficulty.EASY
 )
 public class CheckIfArrayIsSortedAndRotated
 {

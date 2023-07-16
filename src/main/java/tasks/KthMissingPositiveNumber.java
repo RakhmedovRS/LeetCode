@@ -9,10 +9,10 @@ import common.LeetCode;
  * @created 08-Aug-20
  */
 @LeetCode(
-	id = 1539,
-	name = "Kth Missing Positive Number",
-	url = "https://leetcode.com/problems/kth-missing-positive-number/",
-	difficulty = Difficulty.EASY)
+		id = 1539,
+		name = "Kth Missing Positive Number",
+		url = "https://leetcode.com/problems/kth-missing-positive-number/",
+		difficulty = Difficulty.EASY)
 public class KthMissingPositiveNumber
 {
 	public int findKthPositive(int[] arr, int k)

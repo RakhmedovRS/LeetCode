@@ -11,10 +11,10 @@ import java.util.LinkedList;
  * @created 4/30/2022
  */
 @LeetCode(
-	id = 2257,
-	name = "Count Unguarded Cells in the Grid",
-	url = "https://leetcode.com/problems/count-unguarded-cells-in-the-grid/",
-	difficulty = Difficulty.MEDIUM
+		id = 2257,
+		name = "Count Unguarded Cells in the Grid",
+		url = "https://leetcode.com/problems/count-unguarded-cells-in-the-grid/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CountUnguardedCellsInTheGrid
 {

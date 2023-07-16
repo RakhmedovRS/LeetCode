@@ -10,10 +10,10 @@ import java.util.*;
  * @created 8/8/2021
  */
 @LeetCode(
-	id = 1632,
-	name = "Rank Transform of a Matrix",
-	url = "https://leetcode.com/problems/rank-transform-of-a-matrix/",
-	difficulty = Difficulty.HARD
+		id = 1632,
+		name = "Rank Transform of a Matrix",
+		url = "https://leetcode.com/problems/rank-transform-of-a-matrix/",
+		difficulty = Difficulty.HARD
 )
 public class RankTransformOfMatrix
 {

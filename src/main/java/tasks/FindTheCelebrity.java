@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/9/2020
  */
 @LeetCode(
-	id = 277,
-	name = "Find the Celebrity",
-	url = "https://leetcode.com/problems/find-the-celebrity/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 277,
+		name = "Find the Celebrity",
+		url = "https://leetcode.com/problems/find-the-celebrity/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class FindTheCelebrity
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 4/4/2021
  */
 @LeetCode(
-	id = 1812,
-	name = "Determine Color of a Chessboard Square",
-	url = "https://leetcode.com/problems/determine-color-of-a-chessboard-square/",
-	difficulty = Difficulty.EASY
+		id = 1812,
+		name = "Determine Color of a Chessboard Square",
+		url = "https://leetcode.com/problems/determine-color-of-a-chessboard-square/",
+		difficulty = Difficulty.EASY
 )
 public class DetermineColorOfChessboardSquare
 {

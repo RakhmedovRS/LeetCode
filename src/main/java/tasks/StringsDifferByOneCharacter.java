@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/19/2020
  */
 @LeetCode(
-	id = 1554,
-	name = "Strings Differ by One Character",
-	url = "https://leetcode.com/problems/strings-differ-by-one-character/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1554,
+		name = "Strings Differ by One Character",
+		url = "https://leetcode.com/problems/strings-differ-by-one-character/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class StringsDifferByOneCharacter
 {

@@ -10,10 +10,10 @@ import java.util.PriorityQueue;
  * @created 04-Mar-20
  */
 @LeetCode(
-	id = 1046,
-	name = "Last Stone Weight",
-	url = "https://leetcode.com/problems/last-stone-weight/",
-	difficulty = Difficulty.EASY
+		id = 1046,
+		name = "Last Stone Weight",
+		url = "https://leetcode.com/problems/last-stone-weight/",
+		difficulty = Difficulty.EASY
 )
 public class LastStoneWeight
 {

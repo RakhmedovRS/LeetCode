@@ -11,10 +11,10 @@ import java.util.PriorityQueue;
  * @created 1/22/2022
  */
 @LeetCode(
-	id = 2144,
-	name = "Minimum Cost of Buying Candies With Discount",
-	url = "https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/",
-	difficulty = Difficulty.EASY
+		id = 2144,
+		name = "Minimum Cost of Buying Candies With Discount",
+		url = "https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/",
+		difficulty = Difficulty.EASY
 )
 public class MinimumCostOfBuyingCandiesWithDiscount
 {

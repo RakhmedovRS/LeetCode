@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 08-Apr-20
  */
 @LeetCode(
-	id = 62,
-	name = "Unique Paths",
-	url = "https://leetcode.com/problems/unique-paths/",
-	difficulty = Difficulty.MEDIUM
+		id = 62,
+		name = "Unique Paths",
+		url = "https://leetcode.com/problems/unique-paths/",
+		difficulty = Difficulty.MEDIUM
 )
 public class UniquePaths
 {

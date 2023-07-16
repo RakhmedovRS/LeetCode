@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 9/26/2021
  */
 @LeetCode(
-	id = 2016,
-	name = "Maximum Difference Between Increasing Elements",
-	url = "https://leetcode.com/problems/maximum-difference-between-increasing-elements/",
-	difficulty = Difficulty.EASY
+		id = 2016,
+		name = "Maximum Difference Between Increasing Elements",
+		url = "https://leetcode.com/problems/maximum-difference-between-increasing-elements/",
+		difficulty = Difficulty.EASY
 )
 public class MaximumDifferenceBetweenIncreasingElements
 {

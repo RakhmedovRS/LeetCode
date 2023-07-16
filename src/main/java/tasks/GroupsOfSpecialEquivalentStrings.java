@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 12/25/2020
  */
 @LeetCode(
-	id = 893,
-	name = "Groups of Special-Equivalent Strings",
-	url = "https://leetcode.com/problems/groups-of-special-equivalent-strings/",
-	difficulty = Difficulty.EASY
+		id = 893,
+		name = "Groups of Special-Equivalent Strings",
+		url = "https://leetcode.com/problems/groups-of-special-equivalent-strings/",
+		difficulty = Difficulty.EASY
 )
 public class GroupsOfSpecialEquivalentStrings
 {

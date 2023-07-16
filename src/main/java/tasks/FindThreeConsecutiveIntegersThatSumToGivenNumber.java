@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 2/19/2022
  */
 @LeetCode(
-	id = 2177,
-	name = "Find Three Consecutive Integers That Sum to a Given Number",
-	url = "https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/",
-	difficulty = Difficulty.MEDIUM
+		id = 2177,
+		name = "Find Three Consecutive Integers That Sum to a Given Number",
+		url = "https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindThreeConsecutiveIntegersThatSumToGivenNumber
 {

@@ -11,10 +11,10 @@ import java.util.Set;
  * @created 10/20/2020
  */
 @LeetCode(
-	id = 827,
-	name = "Making A Large Island",
-	url = "https://leetcode.com/problems/making-a-large-island/",
-	difficulty = Difficulty.HARD
+		id = 827,
+		name = "Making A Large Island",
+		url = "https://leetcode.com/problems/making-a-large-island/",
+		difficulty = Difficulty.HARD
 )
 public class MakingLargeIsland
 {
@@ -85,9 +85,9 @@ public class MakingLargeIsland
 
 		visited[row][column] = true;
 		return 1 + dfs(row - 1, column, rows, columns, grid, visited)
-			+ dfs(row + 1, column, rows, columns, grid, visited)
-			+ dfs(row, column - 1, rows, columns, grid, visited)
-			+ dfs(row, column + 1, rows, columns, grid, visited);
+				+ dfs(row + 1, column, rows, columns, grid, visited)
+				+ dfs(row, column - 1, rows, columns, grid, visited)
+				+ dfs(row, column + 1, rows, columns, grid, visited);
 	}
 
 	private void setArea(int row, int column, int rows, int columns, int[][] grid, int count, int id, int[][] ids)

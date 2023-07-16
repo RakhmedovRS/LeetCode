@@ -11,17 +11,17 @@ import java.util.List;
  * @created 4/24/2022
  */
 @LeetCode(
-	id = 2248,
-	name = "Intersection of Multiple Arrays",
-	url = "https://leetcode.com/problems/intersection-of-multiple-arrays/",
-	difficulty = Difficulty.EASY
+		id = 2248,
+		name = "Intersection of Multiple Arrays",
+		url = "https://leetcode.com/problems/intersection-of-multiple-arrays/",
+		difficulty = Difficulty.EASY
 )
 public class IntersectionOfMultipleArrays
 {
 	public List<Integer> intersection(int[][] nums)
 	{
 		int[] count = new int[1001];
-		for (int[] numss: nums)
+		for (int[] numss : nums)
 		{
 			boolean[] b = new boolean[1001];
 			for (int num : numss)

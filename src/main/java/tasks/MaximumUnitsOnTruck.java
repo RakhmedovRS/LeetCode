@@ -11,10 +11,10 @@ import java.util.Comparator;
  * @created 1/3/2021
  */
 @LeetCode(
-	id = 1710,
-	name = "Maximum Units on a Truck",
-	url = "https://leetcode.com/problems/maximum-units-on-a-truck/",
-	difficulty = Difficulty.EASY
+		id = 1710,
+		name = "Maximum Units on a Truck",
+		url = "https://leetcode.com/problems/maximum-units-on-a-truck/",
+		difficulty = Difficulty.EASY
 )
 public class MaximumUnitsOnTruck
 {
@@ -43,11 +43,11 @@ public class MaximumUnitsOnTruck
 	{
 		MaximumUnitsOnTruck clazz = new MaximumUnitsOnTruck();
 		System.out.println(clazz.maximumUnits(new int[][]
-			{
-				{5, 10},
-				{2, 5},
-				{4, 7},
-				{3, 9}
-			}, 10));
+				{
+						{5, 10},
+						{2, 5},
+						{4, 7},
+						{3, 9}
+				}, 10));
 	}
 }

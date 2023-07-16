@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 2/24/2021
  */
 @LeetCode(
-	id = 1335,
-	name = "Minimum Difficulty of a Job Schedule",
-	url = "https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/",
-	difficulty = Difficulty.HARD
+		id = 1335,
+		name = "Minimum Difficulty of a Job Schedule",
+		url = "https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/",
+		difficulty = Difficulty.HARD
 )
 public class MinimumDifficultyOfJobSchedule
 {

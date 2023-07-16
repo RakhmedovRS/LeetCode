@@ -10,11 +10,11 @@ import java.util.List;
  * @created 12/7/2020
  */
 @LeetCode(
-	id = 624,
-	name = "Maximum Distance in Arrays",
-	url = "https://leetcode.com/problems/maximum-distance-in-arrays/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 624,
+		name = "Maximum Distance in Arrays",
+		url = "https://leetcode.com/problems/maximum-distance-in-arrays/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class MaximumDistanceInArrays
 {

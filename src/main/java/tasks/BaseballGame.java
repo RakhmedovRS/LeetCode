@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 14-Jul-20
  */
 @LeetCode(
-	id = 682,
-	name = "Baseball Game",
-	url = "https://leetcode.com/problems/baseball-game/",
-	difficulty = Difficulty.EASY
+		id = 682,
+		name = "Baseball Game",
+		url = "https://leetcode.com/problems/baseball-game/",
+		difficulty = Difficulty.EASY
 )
 public class BaseballGame
 {

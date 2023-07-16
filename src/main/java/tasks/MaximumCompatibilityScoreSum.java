@@ -12,10 +12,10 @@ import java.util.Map;
  * @created 7/25/2021
  */
 @LeetCode(
-	id = 1947,
-	name = "Maximum Compatibility Score Sum",
-	url = "https://leetcode.com/problems/maximum-compatibility-score-sum/",
-	difficulty = Difficulty.MEDIUM
+		id = 1947,
+		name = "Maximum Compatibility Score Sum",
+		url = "https://leetcode.com/problems/maximum-compatibility-score-sum/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumCompatibilityScoreSum
 {

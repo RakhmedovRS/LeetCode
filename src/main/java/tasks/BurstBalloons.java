@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 23-May-20
  */
 @LeetCode(
-	id = 312,
-	name = "Burst Balloons",
-	url = "https://leetcode.com/problems/burst-balloons/",
-	difficulty = Difficulty.MEDIUM)
+		id = 312,
+		name = "Burst Balloons",
+		url = "https://leetcode.com/problems/burst-balloons/",
+		difficulty = Difficulty.MEDIUM)
 public class BurstBalloons
 {
 	public int maxCoins(int[] nums)
@@ -43,7 +43,7 @@ public class BurstBalloons
 		for (int i = left + 1; i < right; i++)
 		{
 			memo[left][right] = Math.max(memo[left][right],
-				nums[left] * nums[i] * nums[right] + dfs(nums, left, i, memo) + dfs(nums, i, right, memo));
+					nums[left] * nums[i] * nums[right] + dfs(nums, left, i, memo) + dfs(nums, i, right, memo));
 		}
 
 		return memo[left][right];

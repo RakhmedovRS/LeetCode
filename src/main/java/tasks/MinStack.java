@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 26-Mar-20
  */
 @LeetCode(
-	id = 155,
-	name = "Min Stack",
-	url = "https://leetcode.com/problems/min-stack/",
-	difficulty = Difficulty.EASY
+		id = 155,
+		name = "Min Stack",
+		url = "https://leetcode.com/problems/min-stack/",
+		difficulty = Difficulty.EASY
 )
 class MinStack
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 5/22/2022
  */
 @LeetCode(
-	id = 2278,
-	name = "Percentage of Letter in String",
-	url = "https://leetcode.com/problems/percentage-of-letter-in-string/",
-	difficulty = Difficulty.EASY
+		id = 2278,
+		name = "Percentage of Letter in String",
+		url = "https://leetcode.com/problems/percentage-of-letter-in-string/",
+		difficulty = Difficulty.EASY
 )
 public class PercentageOfLetterInString
 {

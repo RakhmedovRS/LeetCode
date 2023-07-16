@@ -10,11 +10,11 @@ import java.util.LinkedList;
  * @created 11/30/2020
  */
 @LeetCode(
-	id = 346,
-	name = "Moving Average from Data Stream",
-	url = "https://leetcode.com/problems/moving-average-from-data-stream/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 346,
+		name = "Moving Average from Data Stream",
+		url = "https://leetcode.com/problems/moving-average-from-data-stream/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class MovingAverageFromDataStream
 {

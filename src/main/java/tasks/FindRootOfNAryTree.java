@@ -13,11 +13,11 @@ import java.util.Map;
  * @created 12/4/2020
  */
 @LeetCode(
-	id = 1506,
-	name = "Find Root of N-Ary Tree",
-	url = "https://leetcode.com/problems/find-root-of-n-ary-tree/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1506,
+		name = "Find Root of N-Ary Tree",
+		url = "https://leetcode.com/problems/find-root-of-n-ary-tree/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class FindRootOfNAryTree
 {

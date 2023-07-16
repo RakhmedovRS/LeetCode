@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 14-Jul-20
  */
 @LeetCode(
-	id = 1130,
-	name = "Minimum Cost Tree From Leaf Values",
-	url = "https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/",
-	difficulty = Difficulty.MEDIUM
+		id = 1130,
+		name = "Minimum Cost Tree From Leaf Values",
+		url = "https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumCostTreeFromLeafValues
 {

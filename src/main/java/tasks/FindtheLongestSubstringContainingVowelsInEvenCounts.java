@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 11/27/2020
  */
 @LeetCode(
-	id = 1371,
-	name = "Find the Longest Substring Containing Vowels in Even Counts",
-	url = "https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/",
-	difficulty = Difficulty.MEDIUM
+		id = 1371,
+		name = "Find the Longest Substring Containing Vowels in Even Counts",
+		url = "https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindtheLongestSubstringContainingVowelsInEvenCounts
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/25/2022
  */
 @LeetCode(
-	id = 2315,
-	name = "Count Asterisks",
-	url = "https://leetcode.com/problems/count-asterisks/",
-	difficulty = Difficulty.EASY
+		id = 2315,
+		name = "Count Asterisks",
+		url = "https://leetcode.com/problems/count-asterisks/",
+		difficulty = Difficulty.EASY
 )
 public class CountAsterisks
 {

@@ -12,10 +12,10 @@ import java.util.Set;
  * @created 5/1/2022
  */
 @LeetCode(
-	id = 2261,
-	name = "K Divisible Elements Subarrays",
-	url = "https://leetcode.com/problems/k-divisible-elements-subarrays/",
-	difficulty = Difficulty.MEDIUM
+		id = 2261,
+		name = "K Divisible Elements Subarrays",
+		url = "https://leetcode.com/problems/k-divisible-elements-subarrays/",
+		difficulty = Difficulty.MEDIUM
 )
 public class KDivisibleElementsSubarrays
 {

@@ -10,10 +10,10 @@ import java.util.*;
  * @created 08-Mar-20
  */
 @LeetCode(
-	id = 347,
-	name = "Top K Frequent Elements",
-	url = "https://leetcode.com/problems/top-k-frequent-elements/",
-	difficulty = Difficulty.MEDIUM
+		id = 347,
+		name = "Top K Frequent Elements",
+		url = "https://leetcode.com/problems/top-k-frequent-elements/",
+		difficulty = Difficulty.MEDIUM
 )
 public class TopKFrequentElements
 {

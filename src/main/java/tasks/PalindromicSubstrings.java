@@ -13,10 +13,10 @@ import java.util.Set;
  * @created 26-Jun-20
  */
 @LeetCode(
-	id = 647,
-	name = "Palindromic Substrings",
-	url = "https://leetcode.com/problems/palindromic-substrings/",
-	difficulty = Difficulty.MEDIUM
+		id = 647,
+		name = "Palindromic Substrings",
+		url = "https://leetcode.com/problems/palindromic-substrings/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PalindromicSubstrings
 {
@@ -44,7 +44,7 @@ public class PalindromicSubstrings
 				current = queue.remove();
 				left = current[0];
 				right = current[1];
-				if (left - 1 >= 0 && isPalindrome(left -1, right, chars) && seen.add((left - 1) + "_" + right))
+				if (left - 1 >= 0 && isPalindrome(left - 1, right, chars) && seen.add((left - 1) + "_" + right))
 				{
 					queue.add(new int[]{left - 1, right});
 				}

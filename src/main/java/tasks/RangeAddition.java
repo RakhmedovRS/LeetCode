@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 1/14/2021
  */
 @LeetCode(
-	id = 370,
-	name = "Range Addition",
-	url = "https://leetcode.com/problems/range-addition/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 370,
+		name = "Range Addition",
+		url = "https://leetcode.com/problems/range-addition/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class RangeAddition
 {

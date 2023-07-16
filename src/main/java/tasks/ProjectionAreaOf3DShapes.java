@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/4/2020
  */
 @LeetCode(
-	id = 883,
-	name = "Projection Area of 3D Shapes",
-	url = "https://leetcode.com/problems/projection-area-of-3d-shapes/",
-	difficulty = Difficulty.EASY
+		id = 883,
+		name = "Projection Area of 3D Shapes",
+		url = "https://leetcode.com/problems/projection-area-of-3d-shapes/",
+		difficulty = Difficulty.EASY
 )
 public class ProjectionAreaOf3DShapes
 {
@@ -56,15 +56,15 @@ public class ProjectionAreaOf3DShapes
 	public static void main(String[] args)
 	{
 		System.out.println(new ProjectionAreaOf3DShapes().projectionArea(new int[][]
-			{
-				{1, 0},
-				{0, 2}
-			}));
+				{
+						{1, 0},
+						{0, 2}
+				}));
 
 		System.out.println(new ProjectionAreaOf3DShapes().projectionArea(new int[][]
-			{
-				{1, 2},
-				{3, 4}
-			}));
+				{
+						{1, 2},
+						{3, 4}
+				}));
 	}
 }

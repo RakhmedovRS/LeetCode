@@ -11,10 +11,10 @@ import java.util.*;
  * @created 11/20/2020
  */
 @LeetCode(
-	id = 865,
-	name = "Smallest Subtree with all the Deepest Nodes",
-	url = "https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/",
-	difficulty = Difficulty.MEDIUM
+		id = 865,
+		name = "Smallest Subtree with all the Deepest Nodes",
+		url = "https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SmallestSubtreeWithAllTheDeepestNodes
 {

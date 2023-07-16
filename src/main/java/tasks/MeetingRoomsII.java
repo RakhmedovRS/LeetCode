@@ -12,11 +12,11 @@ import java.util.PriorityQueue;
  * @created 1/1/2021
  */
 @LeetCode(
-	id = 253,
-	name = "Meeting Rooms II",
-	url = "https://leetcode.com/problems/meeting-rooms-ii/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 253,
+		name = "Meeting Rooms II",
+		url = "https://leetcode.com/problems/meeting-rooms-ii/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class MeetingRoomsII
 {

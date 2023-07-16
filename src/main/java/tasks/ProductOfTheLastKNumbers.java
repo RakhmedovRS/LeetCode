@@ -11,10 +11,10 @@ import java.util.List;
  * @created 12/9/2020
  */
 @LeetCode(
-	id = 1352,
-	name = "Product of the Last K Numbers",
-	url = "https://leetcode.com/problems/product-of-the-last-k-numbers/",
-	difficulty = Difficulty.MEDIUM
+		id = 1352,
+		name = "Product of the Last K Numbers",
+		url = "https://leetcode.com/problems/product-of-the-last-k-numbers/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ProductOfTheLastKNumbers
 {

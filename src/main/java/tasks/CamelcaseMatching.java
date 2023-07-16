@@ -51,7 +51,7 @@ public class CamelcaseMatching
 
 	public static void main(String[] args)
 	{
-		System.out.println(new CamelcaseMatching().camelMatch(new String[]{"FooBar","FooBarTest","FootBall","FrameBuffer","ForceFeedBack"}, "FB"));
-		System.out.println(new CamelcaseMatching().camelMatch(new String[]{"FooBar","FooBarTest","FootBall","FrameBuffer","ForceFeedBack"}, "FoBa"));
+		System.out.println(new CamelcaseMatching().camelMatch(new String[]{"FooBar", "FooBarTest", "FootBall", "FrameBuffer", "ForceFeedBack"}, "FB"));
+		System.out.println(new CamelcaseMatching().camelMatch(new String[]{"FooBar", "FooBarTest", "FootBall", "FrameBuffer", "ForceFeedBack"}, "FoBa"));
 	}
 }

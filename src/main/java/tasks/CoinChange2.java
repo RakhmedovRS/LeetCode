@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 07-Jun-20
  */
 @LeetCode(
-	id = 518,
-	name = "Coin Change 2",
-	url = "https://leetcode.com/problems/coin-change-2/",
-	difficulty = Difficulty.MEDIUM
+		id = 518,
+		name = "Coin Change 2",
+		url = "https://leetcode.com/problems/coin-change-2/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CoinChange2
 {
@@ -27,7 +27,7 @@ public class CoinChange2
 		{
 			for (int column = 1; column < memo[row].length; column++)
 			{
-				memo[row][column] = memo[row - 1][column] + (column - coins[row -1] >= 0 ? memo[row][column - coins[row - 1]] : 0);
+				memo[row][column] = memo[row - 1][column] + (column - coins[row - 1] >= 0 ? memo[row][column - coins[row - 1]] : 0);
 			}
 		}
 

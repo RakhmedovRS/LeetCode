@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 12/12/2020
  */
 @LeetCode(
-	id = 833,
-	name = "Find And Replace in String",
-	url = "https://leetcode.com/problems/find-and-replace-in-string/",
-	difficulty = Difficulty.MEDIUM
+		id = 833,
+		name = "Find And Replace in String",
+		url = "https://leetcode.com/problems/find-and-replace-in-string/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindAndReplaceInString
 {

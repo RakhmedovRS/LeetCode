@@ -11,11 +11,11 @@ import java.util.Map;
  * @created 12/30/2020
  */
 @LeetCode(
-	id = 294,
-	name = "Flip Game II",
-	url = "https://leetcode.com/problems/flip-game-ii/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 294,
+		name = "Flip Game II",
+		url = "https://leetcode.com/problems/flip-game-ii/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class FlipGameII
 {

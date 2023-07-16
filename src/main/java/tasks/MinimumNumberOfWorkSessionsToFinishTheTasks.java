@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 8/29/2021
  */
 @LeetCode(
-	id = 1987,
-	name = "Minimum Number of Work Sessions to Finish the Tasks",
-	url = "https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/",
-	difficulty = Difficulty.MEDIUM
+		id = 1987,
+		name = "Minimum Number of Work Sessions to Finish the Tasks",
+		url = "https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumNumberOfWorkSessionsToFinishTheTasks
 {

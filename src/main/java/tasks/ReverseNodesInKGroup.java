@@ -9,10 +9,10 @@ import common.ListNode;
  * @created 1/8/2021
  */
 @LeetCode(
-	id = 25,
-	name = "Reverse Nodes in k-Group",
-	url = "https://leetcode.com/problems/reverse-nodes-in-k-group/",
-	difficulty = Difficulty.HARD
+		id = 25,
+		name = "Reverse Nodes in k-Group",
+		url = "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+		difficulty = Difficulty.HARD
 )
 public class ReverseNodesInKGroup
 {

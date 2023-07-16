@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 2/14/2021
  */
 @LeetCode(
-	id = 1758,
-	name = "Minimum Changes To Make Alternating Binary String",
-	url = "https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/",
-	difficulty = Difficulty.EASY
+		id = 1758,
+		name = "Minimum Changes To Make Alternating Binary String",
+		url = "https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/",
+		difficulty = Difficulty.EASY
 )
 public class MinimumChangesToMakeAlternatingBinaryString
 {

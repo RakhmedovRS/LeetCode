@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/29/2020
  */
 @LeetCode(
-	id = 1674,
-	name = "Minimum Moves to Make Array Complementary",
-	url = "https://leetcode.com/problems/minimum-moves-to-make-array-complementary/",
-	difficulty = Difficulty.MEDIUM
+		id = 1674,
+		name = "Minimum Moves to Make Array Complementary",
+		url = "https://leetcode.com/problems/minimum-moves-to-make-array-complementary/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumMovesToMakeArrayComplementary
 {

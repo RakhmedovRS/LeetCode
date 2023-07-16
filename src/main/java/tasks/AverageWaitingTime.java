@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/26/2020
  */
 @LeetCode(
-	id = 1701,
-	name = "Average Waiting Time",
-	url = "https://leetcode.com/problems/average-waiting-time/",
-	difficulty = Difficulty.MEDIUM
+		id = 1701,
+		name = "Average Waiting Time",
+		url = "https://leetcode.com/problems/average-waiting-time/",
+		difficulty = Difficulty.MEDIUM
 )
 public class AverageWaitingTime
 {
@@ -40,18 +40,18 @@ public class AverageWaitingTime
 	{
 		AverageWaitingTime clazz = new AverageWaitingTime();
 		System.out.println(clazz.averageWaitingTime(new int[][]
-			{
-				{1, 2},
-				{2, 5},
-				{4, 3}
-			}));
+				{
+						{1, 2},
+						{2, 5},
+						{4, 3}
+				}));
 
 		System.out.println(clazz.averageWaitingTime(new int[][]
-			{
-				{5, 2},
-				{5, 4},
-				{10, 3},
-				{20, 1}
-			}));
+				{
+						{5, 2},
+						{5, 4},
+						{10, 3},
+						{20, 1}
+				}));
 	}
 }

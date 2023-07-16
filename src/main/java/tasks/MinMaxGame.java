@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/13/2022
  */
 @LeetCode(
-	id = 2293,
-	name = "Min Max Game",
-	url = "https://leetcode.com/problems/min-max-game/",
-	difficulty = Difficulty.EASY
+		id = 2293,
+		name = "Min Max Game",
+		url = "https://leetcode.com/problems/min-max-game/",
+		difficulty = Difficulty.EASY
 )
 public class MinMaxGame
 {

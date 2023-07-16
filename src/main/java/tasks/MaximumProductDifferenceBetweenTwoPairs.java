@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 6/27/2021
  */
 @LeetCode(
-	id = 1913,
-	name = "Maximum Product Difference Between Two Pairs",
-	url = "https://leetcode.com/problems/maximum-product-difference-between-two-pairs/",
-	difficulty = Difficulty.EASY
+		id = 1913,
+		name = "Maximum Product Difference Between Two Pairs",
+		url = "https://leetcode.com/problems/maximum-product-difference-between-two-pairs/",
+		difficulty = Difficulty.EASY
 )
 public class MaximumProductDifferenceBetweenTwoPairs
 {

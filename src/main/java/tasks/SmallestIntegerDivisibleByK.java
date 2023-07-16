@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 9/29/2020
  */
 @LeetCode(
-	id = 1015,
-	name = "Smallest Integer Divisible by K",
-	url = "https://leetcode.com/problems/smallest-integer-divisible-by-k/",
-	difficulty = Difficulty.MEDIUM
+		id = 1015,
+		name = "Smallest Integer Divisible by K",
+		url = "https://leetcode.com/problems/smallest-integer-divisible-by-k/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SmallestIntegerDivisibleByK
 {

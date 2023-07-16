@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 8/22/2021
  */
 @LeetCode(
-	id = 1979,
-	name = "Find Greatest Common Divisor of Array",
-	url = "https://leetcode.com/problems/find-greatest-common-divisor-of-array/",
-	difficulty = Difficulty.EASY
+		id = 1979,
+		name = "Find Greatest Common Divisor of Array",
+		url = "https://leetcode.com/problems/find-greatest-common-divisor-of-array/",
+		difficulty = Difficulty.EASY
 )
 public class FindGreatestCommonDivisorOfArray
 {

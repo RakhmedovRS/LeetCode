@@ -13,10 +13,10 @@ import java.util.Map;
  * @created 6/14/2022
  */
 @LeetCode(
-	id = 2295,
-	name = "Replace Elements in an Array",
-	url = "https://leetcode.com/problems/replace-elements-in-an-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 2295,
+		name = "Replace Elements in an Array",
+		url = "https://leetcode.com/problems/replace-elements-in-an-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ReplaceElementsInArray
 {

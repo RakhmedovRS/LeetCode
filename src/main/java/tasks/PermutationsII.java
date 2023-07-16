@@ -13,10 +13,10 @@ import java.util.function.Consumer;
  * @created 11/12/2020
  */
 @LeetCode(
-	id = 47,
-	name = "Permutations II",
-	url = "https://leetcode.com/problems/permutations-ii/",
-	difficulty = Difficulty.MEDIUM
+		id = 47,
+		name = "Permutations II",
+		url = "https://leetcode.com/problems/permutations-ii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PermutationsII
 {

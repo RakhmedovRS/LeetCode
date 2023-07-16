@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 18-Jul-20
  */
 @LeetCode(
-	id = 1006,
-	name = "Clumsy Factorial",
-	url = "https://leetcode.com/problems/clumsy-factorial/",
-	difficulty = Difficulty.MEDIUM
+		id = 1006,
+		name = "Clumsy Factorial",
+		url = "https://leetcode.com/problems/clumsy-factorial/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ClumsyFactorial
 {

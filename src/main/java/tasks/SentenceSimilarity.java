@@ -10,11 +10,11 @@ import java.util.*;
  * @created 12/3/2020
  */
 @LeetCode(
-	id = 734,
-	name = "Sentence Similarity",
-	url = "https://leetcode.com/problems/sentence-similarity/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 734,
+		name = "Sentence Similarity",
+		url = "https://leetcode.com/problems/sentence-similarity/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class SentenceSimilarity
 {
@@ -43,7 +43,7 @@ public class SentenceSimilarity
 			if (!sentence1[i].equals(sentence2[i]))
 			{
 				if (!map.getOrDefault(sentence1[i], Collections.emptySet()).contains(sentence2[i])
-					&& !map.getOrDefault(sentence2[i], Collections.emptySet()).contains(sentence1[i]))
+						&& !map.getOrDefault(sentence2[i], Collections.emptySet()).contains(sentence1[i]))
 				{
 					return false;
 				}

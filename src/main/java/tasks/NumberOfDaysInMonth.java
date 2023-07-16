@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/13/2020
  */
 @LeetCode(
-	id = 1118,
-	name = "Number of Days in a Month",
-	url = "https://leetcode.com/problems/number-of-days-in-a-month/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1118,
+		name = "Number of Days in a Month",
+		url = "https://leetcode.com/problems/number-of-days-in-a-month/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class NumberOfDaysInMonth
 {

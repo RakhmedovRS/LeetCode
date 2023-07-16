@@ -13,10 +13,10 @@ import java.util.Map;
  * @created 7/19/2022
  */
 @LeetCode(
-	id = 2343,
-	name = "Query Kth Smallest Trimmed Number",
-	url = "https://leetcode.com/problems/query-kth-smallest-trimmed-number/",
-	difficulty = Difficulty.MEDIUM
+		id = 2343,
+		name = "Query Kth Smallest Trimmed Number",
+		url = "https://leetcode.com/problems/query-kth-smallest-trimmed-number/",
+		difficulty = Difficulty.MEDIUM
 )
 public class QueryKthSmallestTrimmedNumber
 {

@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 1/1/2021
  */
 @LeetCode(
-	id = 1708,
-	name = "Largest Subarray Length K",
-	url = "https://leetcode.com/problems/largest-subarray-length-k/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1708,
+		name = "Largest Subarray Length K",
+		url = "https://leetcode.com/problems/largest-subarray-length-k/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class LargestSubarrayLengthK
 {

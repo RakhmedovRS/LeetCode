@@ -11,10 +11,10 @@ import java.util.List;
  * @created 4/17/2021
  */
 @LeetCode(
-	id = 1828,
-	name = "Queries on Number of Points Inside a Circle",
-	url = "https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/",
-	difficulty = Difficulty.MEDIUM
+		id = 1828,
+		name = "Queries on Number of Points Inside a Circle",
+		url = "https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/",
+		difficulty = Difficulty.MEDIUM
 )
 public class QueriesOnNumberOfPointsInsideCircle
 {
@@ -33,7 +33,7 @@ public class QueriesOnNumberOfPointsInsideCircle
 			{
 				if (memo[row][column] > 0)
 				{
-					pointsInfo.add(new int[]{row,column, memo[row][column]});
+					pointsInfo.add(new int[]{row, column, memo[row][column]});
 				}
 			}
 		}

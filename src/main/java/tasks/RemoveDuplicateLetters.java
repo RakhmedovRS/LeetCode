@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 17-Jul-20
  */
 @LeetCode(
-	id = 316,
-	name = "Remove Duplicate Letters",
-	url = "https://leetcode.com/problems/remove-duplicate-letters/",
-	difficulty = Difficulty.MEDIUM
+		id = 316,
+		name = "Remove Duplicate Letters",
+		url = "https://leetcode.com/problems/remove-duplicate-letters/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RemoveDuplicateLetters
 {

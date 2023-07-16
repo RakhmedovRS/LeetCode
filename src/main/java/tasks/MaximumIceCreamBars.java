@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 4/18/2021
  */
 @LeetCode(
-	id = 1833,
-	name = "Maximum Ice Cream Bars",
-	url = "https://leetcode.com/problems/maximum-ice-cream-bars/",
-	difficulty = Difficulty.MEDIUM
+		id = 1833,
+		name = "Maximum Ice Cream Bars",
+		url = "https://leetcode.com/problems/maximum-ice-cream-bars/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumIceCreamBars
 {

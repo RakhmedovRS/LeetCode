@@ -12,10 +12,10 @@ import java.util.List;
  * @created 11/27/2020
  */
 @LeetCode(
-	id = 1104,
-	name = "Path In Zigzag Labelled Binary Tree",
-	url = "https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/",
-	difficulty = Difficulty.MEDIUM
+		id = 1104,
+		name = "Path In Zigzag Labelled Binary Tree",
+		url = "https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PathInZigzagLabelledBinaryTree
 {

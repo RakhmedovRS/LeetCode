@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 9/30/2021
  */
 @LeetCode(
-	id = 1995,
-	name = "Count Special Quadruplets",
-	url = "https://leetcode.com/problems/count-special-quadruplets/",
-	difficulty = Difficulty.EASY
+		id = 1995,
+		name = "Count Special Quadruplets",
+		url = "https://leetcode.com/problems/count-special-quadruplets/",
+		difficulty = Difficulty.EASY
 )
 public class CountSpecialQuadruplets
 {

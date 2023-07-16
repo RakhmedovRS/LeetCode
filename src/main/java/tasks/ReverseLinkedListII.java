@@ -9,10 +9,10 @@ import common.ListNode;
  * @created 6/23/2021
  */
 @LeetCode(
-	id = 92,
-	name = "Reverse Linked List II",
-	url = "https://leetcode.com/problems/reverse-linked-list-ii/",
-	difficulty = Difficulty.MEDIUM
+		id = 92,
+		name = "Reverse Linked List II",
+		url = "https://leetcode.com/problems/reverse-linked-list-ii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ReverseLinkedListII
 {

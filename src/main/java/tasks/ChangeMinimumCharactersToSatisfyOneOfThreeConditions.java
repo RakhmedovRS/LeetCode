@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 1/24/2021
  */
 @LeetCode(
-	id = 1737,
-	name = "Change Minimum Characters to Satisfy One of Three Conditions",
-	url = "https://leetcode.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/",
-	difficulty = Difficulty.MEDIUM
+		id = 1737,
+		name = "Change Minimum Characters to Satisfy One of Three Conditions",
+		url = "https://leetcode.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ChangeMinimumCharactersToSatisfyOneOfThreeConditions
 {

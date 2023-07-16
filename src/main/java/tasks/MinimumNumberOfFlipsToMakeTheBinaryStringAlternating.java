@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/6/2021
  */
 @LeetCode(
-	id = 1888,
-	name = "Minimum Number of Flips to Make the Binary String Alternating",
-	url = "https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/",
-	difficulty = Difficulty.MEDIUM
+		id = 1888,
+		name = "Minimum Number of Flips to Make the Binary String Alternating",
+		url = "https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumNumberOfFlipsToMakeTheBinaryStringAlternating
 {

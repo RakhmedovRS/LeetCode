@@ -10,11 +10,11 @@ import java.util.LinkedList;
  * @created 12/4/2020
  */
 @LeetCode(
-	id = 1265,
-	name = "Print Immutable Linked List in Reverse",
-	url = "https://leetcode.com/problems/print-immutable-linked-list-in-reverse/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1265,
+		name = "Print Immutable Linked List in Reverse",
+		url = "https://leetcode.com/problems/print-immutable-linked-list-in-reverse/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class PrintImmutableLinkedListInReverse
 {

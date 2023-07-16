@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 3/20/2022
  */
 @LeetCode(
-	id = 2211,
-	name = "Count Collisions on a Road",
-	url = "https://leetcode.com/problems/count-collisions-on-a-road/",
-	difficulty = Difficulty.MEDIUM
+		id = 2211,
+		name = "Count Collisions on a Road",
+		url = "https://leetcode.com/problems/count-collisions-on-a-road/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CountCollisionsOnRoad
 {

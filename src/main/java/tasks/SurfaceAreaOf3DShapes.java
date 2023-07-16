@@ -29,8 +29,8 @@ public class SurfaceAreaOf3DShapes
 	private int around(int[][] grid, int row, int column)
 	{
 		return Math.max(grid[row][column] - (row > 0 ? grid[row - 1][column] : 0), 0)
-			+ Math.max(grid[row][column] - (row < grid.length - 1 ? grid[row + 1][column] : 0), 0)
-			+ Math.max(grid[row][column] - (column > 0 ? grid[row][column - 1] : 0), 0)
-			+ Math.max(grid[row][column] - (column < grid[row].length - 1 ? grid[row][column + 1] : 0), 0);
+				+ Math.max(grid[row][column] - (row < grid.length - 1 ? grid[row + 1][column] : 0), 0)
+				+ Math.max(grid[row][column] - (column > 0 ? grid[row][column - 1] : 0), 0)
+				+ Math.max(grid[row][column] - (column < grid[row].length - 1 ? grid[row][column + 1] : 0), 0);
 	}
 }

@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 2/13/2022
  */
 @LeetCode(
-	id = 2171,
-	name = "Removing Minimum Number of Magic Beans",
-	url = "https://leetcode.com/problems/removing-minimum-number-of-magic-beans/",
-	difficulty = Difficulty.MEDIUM
+		id = 2171,
+		name = "Removing Minimum Number of Magic Beans",
+		url = "https://leetcode.com/problems/removing-minimum-number-of-magic-beans/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RemovingMinimumNumberOfMagicBeans
 {

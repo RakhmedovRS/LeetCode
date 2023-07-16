@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 7/18/2021
  */
 @LeetCode(
-	id = 1935,
-	name = "Maximum Number of Words You Can Type",
-	url = "https://leetcode.com/problems/maximum-number-of-words-you-can-type/",
-	difficulty = Difficulty.EASY
+		id = 1935,
+		name = "Maximum Number of Words You Can Type",
+		url = "https://leetcode.com/problems/maximum-number-of-words-you-can-type/",
+		difficulty = Difficulty.EASY
 )
 public class MaximumNumberOfWordsYouCanType
 {

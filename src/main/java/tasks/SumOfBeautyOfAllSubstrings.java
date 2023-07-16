@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 3/6/2021
  */
 @LeetCode(
-	id = 1781,
-	name = "Sum of Beauty of All Substrings",
-	url = "https://leetcode.com/problems/sum-of-beauty-of-all-substrings/",
-	difficulty = Difficulty.MEDIUM
+		id = 1781,
+		name = "Sum of Beauty of All Substrings",
+		url = "https://leetcode.com/problems/sum-of-beauty-of-all-substrings/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SumOfBeautyOfAllSubstrings
 {

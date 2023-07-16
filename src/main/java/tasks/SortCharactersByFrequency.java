@@ -12,10 +12,10 @@ import java.util.PriorityQueue;
  * @created 04-Mar-20
  */
 @LeetCode(
-	id = 451,
-	name = "Sort Characters By Frequency",
-	url = "https://leetcode.com/problems/sort-characters-by-frequency/",
-	difficulty = Difficulty.MEDIUM
+		id = 451,
+		name = "Sort Characters By Frequency",
+		url = "https://leetcode.com/problems/sort-characters-by-frequency/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SortCharactersByFrequency
 {

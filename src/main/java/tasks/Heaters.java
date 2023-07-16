@@ -10,10 +10,10 @@ import java.util.TreeSet;
  * @created 04-Aug-20
  */
 @LeetCode(
-	id = 475,
-	name = "Heaters",
-	url = "https://leetcode.com/problems/heaters/",
-	difficulty = Difficulty.MEDIUM
+		id = 475,
+		name = "Heaters",
+		url = "https://leetcode.com/problems/heaters/",
+		difficulty = Difficulty.MEDIUM
 )
 public class Heaters
 {
@@ -31,8 +31,8 @@ public class Heaters
 			Integer ceil = treeSet.ceiling(house);
 			Integer floor = treeSet.floor(house);
 			max = Math.max(max,
-				Math.min(ceil == null ? Integer.MAX_VALUE : ceil - house,
-					floor == null ? Integer.MAX_VALUE : house - floor));
+					Math.min(ceil == null ? Integer.MAX_VALUE : ceil - house,
+							floor == null ? Integer.MAX_VALUE : house - floor));
 		}
 		return max;
 	}

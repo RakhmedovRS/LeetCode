@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 1/7/2021
  */
 @LeetCode(
-	id = 1297,
-	name = "Maximum Number of Occurrences of a Substring",
-	url = "https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/",
-	difficulty = Difficulty.MEDIUM
+		id = 1297,
+		name = "Maximum Number of Occurrences of a Substring",
+		url = "https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumNumberOfOccurrencesOfSubstring
 {
@@ -51,7 +51,7 @@ public class MaximumNumberOfOccurrencesOfSubstring
 
 					if (isValidSub(table, maxLetters))
 					{
-						count = addToTrie(root, left,right, chars);
+						count = addToTrie(root, left, right, chars);
 						maxFreq = Math.max(maxFreq, count);
 					}
 				}

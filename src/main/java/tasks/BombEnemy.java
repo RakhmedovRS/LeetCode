@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 1/14/2021
  */
 @LeetCode(
-	id = 361,
-	name = "Bomb Enemy",
-	url = "https://leetcode.com/problems/bomb-enemy/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 361,
+		name = "Bomb Enemy",
+		url = "https://leetcode.com/problems/bomb-enemy/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class BombEnemy
 {
@@ -104,9 +104,9 @@ public class BombEnemy
 				if (grid[row][column] == '0')
 				{
 					max = Math.max(max, left[row][column]
-						+ right[row][column]
-						+ up[row][column]
-						+ down[row][column]
+							+ right[row][column]
+							+ up[row][column]
+							+ down[row][column]
 					);
 				}
 			}

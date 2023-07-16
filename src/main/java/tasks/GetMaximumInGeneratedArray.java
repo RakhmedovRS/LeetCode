@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/8/2020
  */
 @LeetCode(
-	id = 1646,
-	name = "Get Maximum in Generated Array",
-	url = "https://leetcode.com/problems/get-maximum-in-generated-array/",
-	difficulty = Difficulty.EASY
+		id = 1646,
+		name = "Get Maximum in Generated Array",
+		url = "https://leetcode.com/problems/get-maximum-in-generated-array/",
+		difficulty = Difficulty.EASY
 )
 public class GetMaximumInGeneratedArray
 {

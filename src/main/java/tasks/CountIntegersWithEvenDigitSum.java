@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 2/20/2022
  */
 @LeetCode(
-	id = 2180,
-	name = "Count Integers With Even Digit Sum",
-	url = "https://leetcode.com/problems/count-integers-with-even-digit-sum/",
-	difficulty = Difficulty.EASY
+		id = 2180,
+		name = "Count Integers With Even Digit Sum",
+		url = "https://leetcode.com/problems/count-integers-with-even-digit-sum/",
+		difficulty = Difficulty.EASY
 )
 public class CountIntegersWithEvenDigitSum
 {

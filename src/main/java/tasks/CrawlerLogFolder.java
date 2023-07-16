@@ -11,10 +11,10 @@ import java.util.LinkedList;
  * @created 9/27/2020
  */
 @LeetCode(
-	id = 1598,
-	name = "Crawler Log Folder",
-	url = "https://leetcode.com/problems/crawler-log-folder/",
-	difficulty = Difficulty.EASY
+		id = 1598,
+		name = "Crawler Log Folder",
+		url = "https://leetcode.com/problems/crawler-log-folder/",
+		difficulty = Difficulty.EASY
 )
 public class CrawlerLogFolder
 {

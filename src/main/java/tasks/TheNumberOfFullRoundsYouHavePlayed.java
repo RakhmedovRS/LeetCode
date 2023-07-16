@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/20/2021
  */
 @LeetCode(
-	id = 1904,
-	name = "The Number of Full Rounds You Have Played",
-	url = "https://leetcode.com/problems/the-number-of-full-rounds-you-have-played/",
-	difficulty = Difficulty.MEDIUM
+		id = 1904,
+		name = "The Number of Full Rounds You Have Played",
+		url = "https://leetcode.com/problems/the-number-of-full-rounds-you-have-played/",
+		difficulty = Difficulty.MEDIUM
 )
 public class TheNumberOfFullRoundsYouHavePlayed
 {

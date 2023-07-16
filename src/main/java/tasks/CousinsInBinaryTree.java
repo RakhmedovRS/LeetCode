@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 10/18/2021
  */
 @LeetCode(
-	id = 993,
-	name = "Cousins in Binary Tree",
-	url = "https://leetcode.com/problems/cousins-in-binary-tree/",
-	difficulty = Difficulty.EASY
+		id = 993,
+		name = "Cousins in Binary Tree",
+		url = "https://leetcode.com/problems/cousins-in-binary-tree/",
+		difficulty = Difficulty.EASY
 )
 public class CousinsInBinaryTree
 {

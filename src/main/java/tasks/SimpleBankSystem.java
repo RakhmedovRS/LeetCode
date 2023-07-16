@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 10/17/2021
  */
 @LeetCode(
-	id = 2043,
-	name = "Simple Bank System",
-	url = "https://leetcode.com/problems/simple-bank-system/",
-	difficulty = Difficulty.MEDIUM
+		id = 2043,
+		name = "Simple Bank System",
+		url = "https://leetcode.com/problems/simple-bank-system/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SimpleBankSystem
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/28/2020
  */
 @LeetCode(
-	id = 754,
-	name = "Reach a Number",
-	url = "https://leetcode.com/problems/reach-a-number/",
-	difficulty = Difficulty.MEDIUM
+		id = 754,
+		name = "Reach a Number",
+		url = "https://leetcode.com/problems/reach-a-number/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ReachNumber
 {

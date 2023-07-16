@@ -10,17 +10,20 @@ import java.util.TreeSet;
  * @created 7/12/2022
  */
 @LeetCode(
-	id = 2336,
-	name = "Smallest Number in Infinite Set",
-	url = "https://leetcode.com/problems/smallest-number-in-infinite-set/",
-	difficulty = Difficulty.MEDIUM
+		id = 2336,
+		name = "Smallest Number in Infinite Set",
+		url = "https://leetcode.com/problems/smallest-number-in-infinite-set/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SmallestNumberInInfiniteSet
 {
-	class SmallestInfiniteSet {
+	class SmallestInfiniteSet
+	{
 
 		TreeSet<Integer> set;
-		public SmallestInfiniteSet() {
+
+		public SmallestInfiniteSet()
+		{
 			set = new TreeSet<>();
 			for (int i = 1; i < 1001; i++)
 			{
@@ -28,13 +31,15 @@ public class SmallestNumberInInfiniteSet
 			}
 		}
 
-		public int popSmallest() {
+		public int popSmallest()
+		{
 			int val = set.first();
 			set.remove(val);
 			return val;
 		}
 
-		public void addBack(int num) {
+		public void addBack(int num)
+		{
 			set.add(num);
 		}
 	}

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 10-Jun-20
  */
 @LeetCode(
-	id = 258,
-	name = "Add Digits",
-	url = "https://leetcode.com/problems/add-digits/",
-	difficulty = Difficulty.EASY
+		id = 258,
+		name = "Add Digits",
+		url = "https://leetcode.com/problems/add-digits/",
+		difficulty = Difficulty.EASY
 )
 public class AddDigits
 {

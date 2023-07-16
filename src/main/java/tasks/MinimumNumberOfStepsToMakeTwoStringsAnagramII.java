@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 3/3/2022
  */
 @LeetCode(
-	id = 2186,
-	name = "Minimum Number of Steps to Make Two Strings Anagram II",
-	url = "https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/",
-	difficulty = Difficulty.MEDIUM
+		id = 2186,
+		name = "Minimum Number of Steps to Make Two Strings Anagram II",
+		url = "https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumNumberOfStepsToMakeTwoStringsAnagramII
 {

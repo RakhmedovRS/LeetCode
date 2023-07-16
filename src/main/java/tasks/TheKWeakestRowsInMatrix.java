@@ -10,10 +10,10 @@ import java.util.PriorityQueue;
  * @created 26-May-20
  */
 @LeetCode(
-	id = 1337,
-	name = "The K Weakest Rows in a Matrix",
-	url = "https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/",
-	difficulty = Difficulty.EASY
+		id = 1337,
+		name = "The K Weakest Rows in a Matrix",
+		url = "https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/",
+		difficulty = Difficulty.EASY
 )
 public class TheKWeakestRowsInMatrix
 {

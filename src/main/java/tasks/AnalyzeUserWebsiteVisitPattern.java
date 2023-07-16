@@ -10,11 +10,11 @@ import java.util.*;
  * @created 2/24/2021
  */
 @LeetCode(
-	id = 1152,
-	name = "Analyze User Website Visit Pattern",
-	url = "https://leetcode.com/problems/analyze-user-website-visit-pattern/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1152,
+		name = "Analyze User Website Visit Pattern",
+		url = "https://leetcode.com/problems/analyze-user-website-visit-pattern/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class AnalyzeUserWebsiteVisitPattern
 {

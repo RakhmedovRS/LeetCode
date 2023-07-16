@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 05-Jun-20
  */
 @LeetCode(
-	id = 1396,
-	name = "Design Underground System",
-	url = "https://leetcode.com/problems/design-underground-system/",
-	difficulty = Difficulty.MEDIUM
+		id = 1396,
+		name = "Design Underground System",
+		url = "https://leetcode.com/problems/design-underground-system/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DesignUndergroundSystem
 {

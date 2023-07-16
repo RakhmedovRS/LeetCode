@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 10/17/2021
  */
 @LeetCode(
-	id = 2044,
-	name = "Count Number of Maximum Bitwise-OR Subsets",
-	url = "https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/",
-	difficulty = Difficulty.MEDIUM
+		id = 2044,
+		name = "Count Number of Maximum Bitwise-OR Subsets",
+		url = "https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CountNumberOfMaximumBitwiseORSubsets
 {

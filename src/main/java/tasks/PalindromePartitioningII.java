@@ -10,10 +10,10 @@ import java.util.*;
  * @created 27-Apr-20
  */
 @LeetCode(
-	id = 132,
-	name = "Palindrome Partitioning II",
-	url = "https://leetcode.com/problems/palindrome-partitioning-ii/",
-	difficulty = Difficulty.HARD
+		id = 132,
+		name = "Palindrome Partitioning II",
+		url = "https://leetcode.com/problems/palindrome-partitioning-ii/",
+		difficulty = Difficulty.HARD
 )
 public class PalindromePartitioningII
 {

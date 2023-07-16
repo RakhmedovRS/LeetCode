@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/19/2020
  */
 @LeetCode(
-	id = 1463,
-	name = "Cherry Pickup II",
-	url = "https://leetcode.com/problems/cherry-pickup-ii/",
-	difficulty = Difficulty.HARD
+		id = 1463,
+		name = "Cherry Pickup II",
+		url = "https://leetcode.com/problems/cherry-pickup-ii/",
+		difficulty = Difficulty.HARD
 )
 public class CherryPickupII
 {

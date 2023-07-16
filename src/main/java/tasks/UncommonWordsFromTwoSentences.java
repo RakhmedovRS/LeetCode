@@ -30,7 +30,7 @@ public class UncommonWordsFromTwoSentences
 
 		List<String> values = new ArrayList<>();
 
-		for (Map.Entry<String, Integer> entry: aMap.entrySet())
+		for (Map.Entry<String, Integer> entry : aMap.entrySet())
 		{
 			if (entry.getValue() == 1 && bMap.get(entry.getKey()) == null)
 			{
@@ -38,7 +38,7 @@ public class UncommonWordsFromTwoSentences
 			}
 		}
 
-		for (Map.Entry<String, Integer> entry: bMap.entrySet())
+		for (Map.Entry<String, Integer> entry : bMap.entrySet())
 		{
 			if (entry.getValue() == 1 && aMap.get(entry.getKey()) == null)
 			{

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 1/9/2021
  */
 @LeetCode(
-	id = 1716,
-	name = "Calculate Money in Leetcode Bank",
-	url = "https://leetcode.com/problems/calculate-money-in-leetcode-bank/",
-	difficulty = Difficulty.EASY
+		id = 1716,
+		name = "Calculate Money in Leetcode Bank",
+		url = "https://leetcode.com/problems/calculate-money-in-leetcode-bank/",
+		difficulty = Difficulty.EASY
 )
 public class CalculateMoneyInLeetcodeBank
 {

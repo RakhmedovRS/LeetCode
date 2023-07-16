@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 9/18/2021
  */
 @LeetCode(
-	id = 2007,
-	name = "Find Original Array From Doubled Array",
-	url = "https://leetcode.com/problems/find-original-array-from-doubled-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 2007,
+		name = "Find Original Array From Doubled Array",
+		url = "https://leetcode.com/problems/find-original-array-from-doubled-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindOriginalArrayFromDoubledArray
 {

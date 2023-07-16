@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 11/24/2020
  */
 @LeetCode(
-	id = 1471,
-	name = "The k Strongest Values in an Array",
-	url = "https://leetcode.com/problems/the-k-strongest-values-in-an-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 1471,
+		name = "The k Strongest Values in an Array",
+		url = "https://leetcode.com/problems/the-k-strongest-values-in-an-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class TheKStrongestValuesInArray
 {

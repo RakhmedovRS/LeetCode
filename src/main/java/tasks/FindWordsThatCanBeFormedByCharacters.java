@@ -18,7 +18,7 @@ public class FindWordsThatCanBeFormedByCharacters
 		{
 			if (isPossibleToCreateWord(dictionary, createDictionary(word)))
 			{
-				count+=word.length();
+				count += word.length();
 			}
 		}
 

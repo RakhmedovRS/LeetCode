@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 12/11/2021
  */
 @LeetCode(
-	id = 2101,
-	name = "Detonate the Maximum Bombs",
-	url = "https://leetcode.com/problems/detonate-the-maximum-bombs/",
-	difficulty = Difficulty.MEDIUM
+		id = 2101,
+		name = "Detonate the Maximum Bombs",
+		url = "https://leetcode.com/problems/detonate-the-maximum-bombs/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DetonateTheMaximumBombs
 {
@@ -134,10 +134,10 @@ public class DetonateTheMaximumBombs
 	}
 
 	private boolean isInside(int circle_x, int circle_y,
-	                         long radius, int x, int y)
+							 long radius, int x, int y)
 	{
 		if ((long) (x - circle_x) * (x - circle_x) +
-			(long) (y - circle_y) * (y - circle_y) <= radius * radius)
+				(long) (y - circle_y) * (y - circle_y) <= radius * radius)
 		{
 			return true;
 		}

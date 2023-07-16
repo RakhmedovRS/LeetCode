@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/2/2021
  */
 @LeetCode(
-	id = 97,
-	name = "Interleaving String",
-	url = "https://leetcode.com/problems/interleaving-string/",
-	difficulty = Difficulty.MEDIUM
+		id = 97,
+		name = "Interleaving String",
+		url = "https://leetcode.com/problems/interleaving-string/",
+		difficulty = Difficulty.MEDIUM
 )
 public class InterleavingString
 {
@@ -45,8 +45,8 @@ public class InterleavingString
 		}
 
 		memo[s1Pos][s2Pos] =
-			((s1.charAt(s1Pos) == s3.charAt(s3Pos) && dfs(s1Pos + 1, s1, s2Pos, s2, s3Pos + 1, s3, memo))
-				|| (s2.charAt(s2Pos) == s3.charAt(s3Pos) && dfs(s1Pos, s1, s2Pos + 1, s2, s3Pos + 1, s3, memo)));
+				((s1.charAt(s1Pos) == s3.charAt(s3Pos) && dfs(s1Pos + 1, s1, s2Pos, s2, s3Pos + 1, s3, memo))
+						|| (s2.charAt(s2Pos) == s3.charAt(s3Pos) && dfs(s1Pos, s1, s2Pos + 1, s2, s3Pos + 1, s3, memo)));
 
 		return memo[s1Pos][s2Pos];
 	}

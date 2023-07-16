@@ -10,11 +10,11 @@ import java.util.List;
  * @created 12/16/2020
  */
 @LeetCode(
-	id = 281,
-	name = "Zigzag Iterator",
-	url = "https://leetcode.com/problems/zigzag-iterator/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 281,
+		name = "Zigzag Iterator",
+		url = "https://leetcode.com/problems/zigzag-iterator/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class ZigzagIterator
 {

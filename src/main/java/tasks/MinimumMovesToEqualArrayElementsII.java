@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 9/24/2020
  */
 @LeetCode(
-	id = 462,
-	name = "Minimum Moves to Equal Array Elements II",
-	url = "https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/",
-	difficulty = Difficulty.MEDIUM
+		id = 462,
+		name = "Minimum Moves to Equal Array Elements II",
+		url = "https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumMovesToEqualArrayElementsII
 {

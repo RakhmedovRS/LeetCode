@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/14/2020
  */
 @LeetCode(
-	id = 546,
-	name = "Remove Boxes",
-	url = "https://leetcode.com/problems/remove-boxes/",
-	difficulty = Difficulty.HARD)
+		id = 546,
+		name = "Remove Boxes",
+		url = "https://leetcode.com/problems/remove-boxes/",
+		difficulty = Difficulty.HARD)
 public class RemoveBoxes
 {
 	public int removeBoxes(int[] boxes)
@@ -42,7 +42,7 @@ public class RemoveBoxes
 			if (boxes[left] == boxes[middle])
 			{
 				memo[left][right][used] = Math.max(memo[left][right][used],
-					dfs(boxes, left + 1, middle - 1, 0, memo) + dfs(boxes, middle, right, used + 1, memo));
+						dfs(boxes, left + 1, middle - 1, 0, memo) + dfs(boxes, middle, right, used + 1, memo));
 			}
 		}
 

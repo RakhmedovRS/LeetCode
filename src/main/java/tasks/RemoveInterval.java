@@ -12,11 +12,11 @@ import java.util.List;
  * @created 11/29/2020
  */
 @LeetCode(
-	id = 1272,
-	name = "Remove Interval",
-	url = "https://leetcode.com/problems/remove-interval/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1272,
+		name = "Remove Interval",
+		url = "https://leetcode.com/problems/remove-interval/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class RemoveInterval
 {
@@ -61,39 +61,39 @@ public class RemoveInterval
 	public static void main(String[] args)
 	{
 		System.out.println(new RemoveInterval().removeInterval(new int[][]
-			{
-				{0, 100}
-			}, new int[]{0, 50}));
+				{
+						{0, 100}
+				}, new int[]{0, 50}));
 
 		System.out.println(new RemoveInterval().removeInterval(new int[][]
-			{
-				{1, 2},
-				{2, 3},
-				{4, 4},
-				{4, 5},
-				{6, 7},
-				{8, 9},
-			}, new int[]{1, 10}));
+				{
+						{1, 2},
+						{2, 3},
+						{4, 4},
+						{4, 5},
+						{6, 7},
+						{8, 9},
+				}, new int[]{1, 10}));
 
 		System.out.println(new RemoveInterval().removeInterval(new int[][]
-			{
-				{0, 5}
-			}, new int[]{2, 3}));
+				{
+						{0, 5}
+				}, new int[]{2, 3}));
 
 		System.out.println(new RemoveInterval().removeInterval(new int[][]
-			{
-				{0, 2},
-				{3, 4},
-				{5, 7}
-			}, new int[]{1, 6}));
+				{
+						{0, 2},
+						{3, 4},
+						{5, 7}
+				}, new int[]{1, 6}));
 
 		System.out.println(new RemoveInterval().removeInterval(new int[][]
-			{
-				{-5, -4},
-				{-3, -2},
-				{1, 2},
-				{3, 5},
-				{8, 9},
-			}, new int[]{-1, 4}));
+				{
+						{-5, -4},
+						{-3, -2},
+						{1, 2},
+						{3, 5},
+						{8, 9},
+				}, new int[]{-1, 4}));
 	}
 }

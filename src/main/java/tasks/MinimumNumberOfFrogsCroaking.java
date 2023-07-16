@@ -51,17 +51,17 @@ public class MinimumNumberOfFrogsCroaking
 	private boolean isCroak(int[] memo)
 	{
 		return memo['c' - 'a'] > 0
-			&& memo['r' - 'a'] > 0
-			&& memo['o' - 'a'] > 0
-			&& memo['a' - 'a'] > 0
-			&& memo['k' - 'a'] > 0;
+				&& memo['r' - 'a'] > 0
+				&& memo['o' - 'a'] > 0
+				&& memo['a' - 'a'] > 0
+				&& memo['k' - 'a'] > 0;
 	}
 
 	private boolean isValid(int[] memo)
 	{
 		return memo['c' - 'a'] >= memo['r' - 'a']
-			&& memo['r' - 'a'] >= memo['o' - 'a']
-			&& memo['o' - 'a'] >= memo['a' - 'a']
-			&& memo['a' - 'a'] >= memo['k' - 'a'];
+				&& memo['r' - 'a'] >= memo['o' - 'a']
+				&& memo['o' - 'a'] >= memo['a' - 'a']
+				&& memo['a' - 'a'] >= memo['k' - 'a'];
 	}
 }

@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/29/2020
  */
 @LeetCode(
-	id = 1062,
-	name = "Longest Repeating Substring",
-	url = "https://leetcode.com/problems/longest-repeating-substring/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1062,
+		name = "Longest Repeating Substring",
+		url = "https://leetcode.com/problems/longest-repeating-substring/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class LongestRepeatingSubstring
 {

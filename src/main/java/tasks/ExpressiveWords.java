@@ -10,10 +10,10 @@ import java.util.*;
  * @created 02-Jul-20
  */
 @LeetCode(
-	id = 809,
-	name = "Expressive Words",
-	url = "https://leetcode.com/problems/expressive-words/",
-	difficulty = Difficulty.MEDIUM
+		id = 809,
+		name = "Expressive Words",
+		url = "https://leetcode.com/problems/expressive-words/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ExpressiveWords
 {

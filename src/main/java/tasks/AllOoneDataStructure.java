@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 11-Sep-20
  */
 @LeetCode(
-	id = 432,
-	name = "All O`one Data Structure",
-	url = "https://leetcode.com/problems/all-oone-data-structure/",
-	difficulty = Difficulty.HARD
+		id = 432,
+		name = "All O`one Data Structure",
+		url = "https://leetcode.com/problems/all-oone-data-structure/",
+		difficulty = Difficulty.HARD
 )
 public class AllOoneDataStructure
 {

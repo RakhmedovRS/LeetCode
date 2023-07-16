@@ -10,16 +10,16 @@ import java.util.*;
  * @created 7/18/2022
  */
 @LeetCode(
-	id = 2342,
-	name = "Max Sum of a Pair With Equal Sum of Digits",
-	url = "https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/",
-	difficulty = Difficulty.MEDIUM
+		id = 2342,
+		name = "Max Sum of a Pair With Equal Sum of Digits",
+		url = "https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaxSumOfPairWithEqualSumOfDigits
 {
 	public int maximumSum(int[] nums)
 	{
-		int[] copy = Arrays.copyOf(nums,  nums.length);
+		int[] copy = Arrays.copyOf(nums, nums.length);
 		Map<Integer, List<Integer>> sumToIndex = new HashMap<>();
 		for (int i = 0; i < nums.length; i++)
 		{

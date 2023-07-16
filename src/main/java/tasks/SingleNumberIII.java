@@ -11,10 +11,10 @@ import java.util.Set;
  * @created 25-Jun-20
  */
 @LeetCode(
-	id = 260,
-	name = "Single Number III",
-	url = "https://leetcode.com/problems/single-number-iii/",
-	difficulty = Difficulty.MEDIUM
+		id = 260,
+		name = "Single Number III",
+		url = "https://leetcode.com/problems/single-number-iii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SingleNumberIII
 {

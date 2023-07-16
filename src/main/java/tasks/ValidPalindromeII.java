@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 22-Sep-20
  */
 @LeetCode(
-	id = 680,
-	name = "Valid Palindrome II",
-	url = "https://leetcode.com/problems/valid-palindrome-ii/",
-	difficulty = Difficulty.EASY
+		id = 680,
+		name = "Valid Palindrome II",
+		url = "https://leetcode.com/problems/valid-palindrome-ii/",
+		difficulty = Difficulty.EASY
 )
 public class ValidPalindromeII
 {

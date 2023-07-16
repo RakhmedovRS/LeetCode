@@ -12,26 +12,31 @@ import java.util.List;
 @LeetCode(id = 1286, name = "Iterator for Combination", url = "https://leetcode.com/problems/iterator-for-combination/")
 public class IteratorForCombination
 {
-	class CombinationIterator {
+	class CombinationIterator
+	{
 
 		List<String> permutations;
 		int pos;
 
-		public CombinationIterator(String characters, int combinationLength) {
+		public CombinationIterator(String characters, int combinationLength)
+		{
 			permutations = new ArrayList<>();
 			generatePermutations(characters.toCharArray(), 0, new char[combinationLength], 0, permutations);
 			pos = 0;
 		}
 
-		public String next() {
+		public String next()
+		{
 			return permutations.get(pos++);
 		}
 
-		public boolean hasNext() {
+		public boolean hasNext()
+		{
 			return pos < permutations.size();
 		}
 
-		private void generatePermutations(char[] chars, int charsPos, char[] current, int currentPos, List<String> answer) {
+		private void generatePermutations(char[] chars, int charsPos, char[] current, int currentPos, List<String> answer)
+		{
 			if (currentPos == current.length)
 			{
 				answer.add(String.valueOf(current));

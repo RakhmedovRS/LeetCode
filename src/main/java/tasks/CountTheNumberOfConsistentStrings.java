@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/12/2020
  */
 @LeetCode(
-	id = 1684,
-	name = "Count the Number of Consistent Strings",
-	url = "https://leetcode.com/problems/count-the-number-of-consistent-strings/",
-	difficulty = Difficulty.EASY
+		id = 1684,
+		name = "Count the Number of Consistent Strings",
+		url = "https://leetcode.com/problems/count-the-number-of-consistent-strings/",
+		difficulty = Difficulty.EASY
 )
 public class CountTheNumberOfConsistentStrings
 {

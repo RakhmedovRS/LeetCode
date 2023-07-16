@@ -10,10 +10,10 @@ import java.util.*;
  * @created 06-Apr-20
  */
 @LeetCode(
-	id = 49,
-	name = "Group Anagrams",
-	url = "https://leetcode.com/problems/group-anagrams/",
-	difficulty = Difficulty.MEDIUM
+		id = 49,
+		name = "Group Anagrams",
+		url = "https://leetcode.com/problems/group-anagrams/",
+		difficulty = Difficulty.MEDIUM
 )
 public class GroupAnagrams
 {

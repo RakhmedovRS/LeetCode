@@ -12,10 +12,10 @@ import java.util.Map;
  * @created 21-Jul-20
  */
 @LeetCode(
-	id = 953,
-	name = "Verifying an Alien Dictionary",
-	url = "https://leetcode.com/problems/verifying-an-alien-dictionary/",
-	difficulty = Difficulty.EASY
+		id = 953,
+		name = "Verifying an Alien Dictionary",
+		url = "https://leetcode.com/problems/verifying-an-alien-dictionary/",
+		difficulty = Difficulty.EASY
 )
 public class VerifyingAlienDictionary
 {

@@ -11,10 +11,10 @@ import java.util.LinkedList;
  * @created 01-Aug-20
  */
 @LeetCode(
-	id = 224,
-	name = "Basic Calculator",
-	url = "https://leetcode.com/problems/basic-calculator/",
-	difficulty = Difficulty.HARD
+		id = 224,
+		name = "Basic Calculator",
+		url = "https://leetcode.com/problems/basic-calculator/",
+		difficulty = Difficulty.HARD
 )
 public class BasicCalculator
 {
@@ -34,10 +34,10 @@ public class BasicCalculator
 			if (Character.isDigit(ch))
 			{
 				int number = ch - '0';
-				while (i + 1 < s.length() && Character.isDigit(s.charAt(i+1)))
+				while (i + 1 < s.length() && Character.isDigit(s.charAt(i + 1)))
 				{
 					number *= 10;
-					number += s.charAt(i+1) - '0';
+					number += s.charAt(i + 1) - '0';
 					i++;
 				}
 				result += sign * number;

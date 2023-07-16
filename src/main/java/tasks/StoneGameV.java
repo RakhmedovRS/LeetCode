@@ -62,7 +62,7 @@ public class StoneGameV
 			else
 			{
 				sum = Math.max(sum, Math.max(stoneGameV(stoneValue, left, i, prefixSum, memo),
-					stoneGameV(stoneValue, i + 1, right, prefixSum, memo)) + lSum);
+						stoneGameV(stoneValue, i + 1, right, prefixSum, memo)) + lSum);
 			}
 		}
 

@@ -10,7 +10,7 @@ import common.ListNode;
 @LeetCode(id = 237, name = "Delete Node in a Linked List", url = "https://leetcode.com/problems/delete-node-in-a-linked-list/")
 public class DeleteNodeInLinkedList
 {
-public void deleteNode(ListNode node)
+	public void deleteNode(ListNode node)
 	{
 		if (node.next == null)
 		{

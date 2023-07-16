@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 8/22/2021
  */
 @LeetCode(
-	id = 1974,
-	name = "Minimum Time to Type Word Using Special Typewriter",
-	url = "https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/",
-	difficulty = Difficulty.EASY
+		id = 1974,
+		name = "Minimum Time to Type Word Using Special Typewriter",
+		url = "https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/",
+		difficulty = Difficulty.EASY
 )
 public class MinimumTimeToTypeWordUsingSpecialTypewriter
 {

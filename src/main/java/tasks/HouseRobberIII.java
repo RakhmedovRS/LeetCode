@@ -12,10 +12,10 @@ import java.util.Map;
  * @created 10/14/2020
  */
 @LeetCode(
-	id = 337,
-	name = "House Robber III",
-	url = "https://leetcode.com/problems/house-robber-iii/",
-	difficulty = Difficulty.MEDIUM
+		id = 337,
+		name = "House Robber III",
+		url = "https://leetcode.com/problems/house-robber-iii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class HouseRobberIII
 {
@@ -42,7 +42,7 @@ public class HouseRobberIII
 		if (canRob == 1)
 		{
 			memo.get(root)[canRob] = Math.max(root.val + dfs(root.left, 0, memo) + dfs(root.right, 0, memo),
-				dfs(root.left, 1, memo) + dfs(root.right, 1, memo));
+					dfs(root.left, 1, memo) + dfs(root.right, 1, memo));
 		}
 		else
 		{

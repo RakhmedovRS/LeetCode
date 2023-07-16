@@ -10,10 +10,10 @@ import java.util.PriorityQueue;
  * @created 28-May-20
  */
 @LeetCode(
-	id = 703,
-	name = "Kth Largest Element in a Stream",
-	url = "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
-	difficulty = Difficulty.EASY
+		id = 703,
+		name = "Kth Largest Element in a Stream",
+		url = "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+		difficulty = Difficulty.EASY
 )
 public class KthLargestElementInStream
 {

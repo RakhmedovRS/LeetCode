@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 06-Jun-20
  */
 @LeetCode(
-	id = 441,
-	name = "Arranging Coins",
-	url = "https://leetcode.com/problems/arranging-coins/",
-	difficulty = Difficulty.EASY
+		id = 441,
+		name = "Arranging Coins",
+		url = "https://leetcode.com/problems/arranging-coins/",
+		difficulty = Difficulty.EASY
 )
 public class ArrangingCoins
 {

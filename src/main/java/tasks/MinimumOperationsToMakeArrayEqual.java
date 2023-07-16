@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 16-Aug-20
  */
 @LeetCode(
-	id = 1551,
-	name = "Minimum Operations to Make Array Equal",
-	url = "https://leetcode.com/problems/minimum-operations-to-make-array-equal/",
-	difficulty = Difficulty.MEDIUM
+		id = 1551,
+		name = "Minimum Operations to Make Array Equal",
+		url = "https://leetcode.com/problems/minimum-operations-to-make-array-equal/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumOperationsToMakeArrayEqual
 {

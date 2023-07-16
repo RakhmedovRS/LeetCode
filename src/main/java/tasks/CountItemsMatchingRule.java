@@ -11,10 +11,10 @@ import java.util.List;
  * @created 2/28/2021
  */
 @LeetCode(
-	id = 1773,
-	name = "Count Items Matching a Rule",
-	url = "https://leetcode.com/problems/count-items-matching-a-rule/",
-	difficulty = Difficulty.EASY
+		id = 1773,
+		name = "Count Items Matching a Rule",
+		url = "https://leetcode.com/problems/count-items-matching-a-rule/",
+		difficulty = Difficulty.EASY
 )
 public class CountItemsMatchingRule
 {
@@ -51,15 +51,15 @@ public class CountItemsMatchingRule
 		CountItemsMatchingRule clazz = new CountItemsMatchingRule();
 
 		System.out.println(clazz.countMatches(Arrays.asList(
-			Arrays.asList("phone", "blue", "pixel"),
-			Arrays.asList("computer", "silver", "lenovo"),
-			Arrays.asList("phone", "gold", "iphone")
+				Arrays.asList("phone", "blue", "pixel"),
+				Arrays.asList("computer", "silver", "lenovo"),
+				Arrays.asList("phone", "gold", "iphone")
 		), "color", "silver"));
 
 		System.out.println(clazz.countMatches(Arrays.asList(
-			Arrays.asList("phone", "blue", "pixel"),
-			Arrays.asList("computer", "silver", "lenovo"),
-			Arrays.asList("phone", "gold", "iphone")
+				Arrays.asList("phone", "blue", "pixel"),
+				Arrays.asList("computer", "silver", "lenovo"),
+				Arrays.asList("phone", "gold", "iphone")
 		), "type", "phone"));
 	}
 }

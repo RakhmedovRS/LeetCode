@@ -11,11 +11,11 @@ import java.util.Map;
  * @created 12/5/2020
  */
 @LeetCode(
-	id = 1166,
-	name = "Design File System",
-	url = "https://leetcode.com/problems/design-file-system/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1166,
+		name = "Design File System",
+		url = "https://leetcode.com/problems/design-file-system/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class DesignFileSystem
 {

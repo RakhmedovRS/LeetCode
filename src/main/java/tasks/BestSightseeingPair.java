@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 31-Aug-20
  */
 @LeetCode(
-	id = 1014,
-	name = "Best Sightseeing Pair",
-	url = "https://leetcode.com/problems/best-sightseeing-pair/",
-	difficulty = Difficulty.MEDIUM
+		id = 1014,
+		name = "Best Sightseeing Pair",
+		url = "https://leetcode.com/problems/best-sightseeing-pair/",
+		difficulty = Difficulty.MEDIUM
 )
 public class BestSightseeingPair
 {

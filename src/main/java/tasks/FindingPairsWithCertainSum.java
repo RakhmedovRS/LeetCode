@@ -12,10 +12,10 @@ import java.util.Map;
  * @created 5/16/2021
  */
 @LeetCode(
-	id = 1865,
-	name = "Finding Pairs With a Certain Sum",
-	url = "https://leetcode.com/problems/finding-pairs-with-a-certain-sum/",
-	difficulty = Difficulty.MEDIUM
+		id = 1865,
+		name = "Finding Pairs With a Certain Sum",
+		url = "https://leetcode.com/problems/finding-pairs-with-a-certain-sum/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindingPairsWithCertainSum
 {

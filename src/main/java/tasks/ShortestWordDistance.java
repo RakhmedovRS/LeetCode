@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/1/2020
  */
 @LeetCode(
-	id = 243,
-	name = "Shortest Word Distance",
-	url = "https://leetcode.com/problems/shortest-word-distance/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 243,
+		name = "Shortest Word Distance",
+		url = "https://leetcode.com/problems/shortest-word-distance/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class ShortestWordDistance
 {

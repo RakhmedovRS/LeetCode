@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/19/2020
  */
 @LeetCode(
-	id = 1612,
-	name = "Check If Two Expression Trees are Equivalent",
-	url = "https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1612,
+		name = "Check If Two Expression Trees are Equivalent",
+		url = "https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class CheckIfTwoExpressionTreesAreEquivalent
 {
@@ -22,9 +22,15 @@ public class CheckIfTwoExpressionTreesAreEquivalent
 		Node left;
 		Node right;
 
-		Node(){this.val = ' ';}
+		Node()
+		{
+			this.val = ' ';
+		}
 
-		Node(char val){ this.val = val; }
+		Node(char val)
+		{
+			this.val = val;
+		}
 
 		Node(char val, Node left, Node right)
 		{

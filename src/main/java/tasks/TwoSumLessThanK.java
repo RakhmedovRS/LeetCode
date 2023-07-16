@@ -10,11 +10,11 @@ import java.util.*;
  * @created 11/29/2020
  */
 @LeetCode(
-	id = 1099,
-	name = "Two Sum Less Than K",
-	url = "https://leetcode.com/problems/two-sum-less-than-k/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1099,
+		name = "Two Sum Less Than K",
+		url = "https://leetcode.com/problems/two-sum-less-than-k/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class TwoSumLessThanK
 {

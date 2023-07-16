@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 01-Jul-20
  */
 @LeetCode(
-	id = 115,
-	name = "Distinct Subsequences",
-	url = "https://leetcode.com/problems/distinct-subsequences/",
-	difficulty = Difficulty.HARD
+		id = 115,
+		name = "Distinct Subsequences",
+		url = "https://leetcode.com/problems/distinct-subsequences/",
+		difficulty = Difficulty.HARD
 )
 public class DistinctSubsequences
 {

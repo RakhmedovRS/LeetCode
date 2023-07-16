@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/4/2020
  */
 @LeetCode(
-	id = 745,
-	name = "Prefix and Suffix Search",
-	url = "https://leetcode.com/problems/prefix-and-suffix-search/",
-	difficulty = Difficulty.HARD
+		id = 745,
+		name = "Prefix and Suffix Search",
+		url = "https://leetcode.com/problems/prefix-and-suffix-search/",
+		difficulty = Difficulty.HARD
 )
 public class PrefixAndSuffixSearch
 {

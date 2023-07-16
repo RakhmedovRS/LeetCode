@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 14-Jul-20
  */
 @LeetCode(
-	id = 1344,
-	name = "Angle Between Hands of a Clock",
-	url = "https://leetcode.com/problems/angle-between-hands-of-a-clock/",
-	difficulty = Difficulty.EASY
+		id = 1344,
+		name = "Angle Between Hands of a Clock",
+		url = "https://leetcode.com/problems/angle-between-hands-of-a-clock/",
+		difficulty = Difficulty.EASY
 )
 public class AngleBetweenHandsOfClock
 {

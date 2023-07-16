@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 6/13/2022
  */
 @LeetCode(
-	id = 2294,
-	name = "Partition Array Such That Maximum Difference Is K",
-	url = "https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/",
-	difficulty = Difficulty.MEDIUM
+		id = 2294,
+		name = "Partition Array Such That Maximum Difference Is K",
+		url = "https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PartitionArraySuchThatMaximumDifferenceIsK
 {

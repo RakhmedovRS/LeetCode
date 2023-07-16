@@ -11,10 +11,10 @@ import java.util.List;
  * @created 09-May-20
  */
 @LeetCode(
-	id = 401,
-	name = "Binary Watch",
-	url = "https://leetcode.com/problems/binary-watch/",
-	difficulty = Difficulty.EASY
+		id = 401,
+		name = "Binary Watch",
+		url = "https://leetcode.com/problems/binary-watch/",
+		difficulty = Difficulty.EASY
 )
 public class BinaryWatch
 {

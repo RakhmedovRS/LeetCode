@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 03-Jun-20
  */
 @LeetCode(
-	id = 566,
-	name = "Reshape the Matrix",
-	url = "https://leetcode.com/problems/reshape-the-matrix/",
-	difficulty = Difficulty.EASY
+		id = 566,
+		name = "Reshape the Matrix",
+		url = "https://leetcode.com/problems/reshape-the-matrix/",
+		difficulty = Difficulty.EASY
 )
 public class ReshapeTheMatrix
 {

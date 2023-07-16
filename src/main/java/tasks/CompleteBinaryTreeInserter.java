@@ -14,10 +14,10 @@ import java.util.Queue;
  * @created 1/16/2021
  */
 @LeetCode(
-	id = 919,
-	name = "Complete Binary Tree Inserter",
-	url = "https://leetcode.com/problems/complete-binary-tree-inserter/",
-	difficulty = Difficulty.MEDIUM
+		id = 919,
+		name = "Complete Binary Tree Inserter",
+		url = "https://leetcode.com/problems/complete-binary-tree-inserter/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CompleteBinaryTreeInserter
 {

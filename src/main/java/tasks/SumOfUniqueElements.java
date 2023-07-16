@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 2/7/2021
  */
 @LeetCode(
-	id = 1748,
-	name = "Sum of Unique Elements",
-	url = "https://leetcode.com/problems/sum-of-unique-elements/",
-	difficulty = Difficulty.EASY
+		id = 1748,
+		name = "Sum of Unique Elements",
+		url = "https://leetcode.com/problems/sum-of-unique-elements/",
+		difficulty = Difficulty.EASY
 )
 public class SumOfUniqueElements
 {

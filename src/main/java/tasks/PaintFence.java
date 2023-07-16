@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 1/18/2021
  */
 @LeetCode(
-	id = 276,
-	name = "Paint Fence",
-	url = "https://leetcode.com/problems/paint-fence/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 276,
+		name = "Paint Fence",
+		url = "https://leetcode.com/problems/paint-fence/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class PaintFence
 {

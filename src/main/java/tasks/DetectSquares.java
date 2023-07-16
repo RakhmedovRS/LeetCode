@@ -8,16 +8,17 @@ import common.LeetCode;
  * @created 9/19/2021
  */
 @LeetCode(
-	id = 2013,
-	name = "Detect Squares",
-	url = "https://leetcode.com/problems/detect-squares/",
-	difficulty = Difficulty.MEDIUM
+		id = 2013,
+		name = "Detect Squares",
+		url = "https://leetcode.com/problems/detect-squares/",
+		difficulty = Difficulty.MEDIUM
 )
 class DetectSquares
 {
 	int[][] grid;
 
 	int size = 1001;
+
 	public DetectSquares()
 	{
 		grid = new int[size][size];

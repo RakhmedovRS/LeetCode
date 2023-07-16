@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/14/2022
  */
 @LeetCode(
-	id = 2299,
-	name = "Strong Password Checker II",
-	url = "https://leetcode.com/problems/strong-password-checker-ii/",
-	difficulty = Difficulty.EASY
+		id = 2299,
+		name = "Strong Password Checker II",
+		url = "https://leetcode.com/problems/strong-password-checker-ii/",
+		difficulty = Difficulty.EASY
 )
 public class StrongPasswordCheckerII
 {

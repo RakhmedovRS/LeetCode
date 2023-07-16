@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 12/22/2020
  */
 @LeetCode(
-	id = 110,
-	name = "Balanced Binary Tree",
-	url = "https://leetcode.com/problems/balanced-binary-tree/",
-	difficulty = Difficulty.EASY
+		id = 110,
+		name = "Balanced Binary Tree",
+		url = "https://leetcode.com/problems/balanced-binary-tree/",
+		difficulty = Difficulty.EASY
 )
 public class BalancedBinaryTree
 {

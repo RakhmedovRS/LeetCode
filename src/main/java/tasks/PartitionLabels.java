@@ -11,10 +11,10 @@ import java.util.List;
  * @created 04-Sep-20
  */
 @LeetCode(
-	id = 763,
-	name = "Partition Labels",
-	url = "https://leetcode.com/problems/partition-labels/",
-	difficulty = Difficulty.MEDIUM
+		id = 763,
+		name = "Partition Labels",
+		url = "https://leetcode.com/problems/partition-labels/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PartitionLabels
 {

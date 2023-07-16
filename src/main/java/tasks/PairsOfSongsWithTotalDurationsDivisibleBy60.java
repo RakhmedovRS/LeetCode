@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 29-May-20
  */
 @LeetCode(
-	id = 1010,
-	name = "Pairs of Songs With Total Durations Divisible by 60",
-	url = "https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/",
-	difficulty = Difficulty.MEDIUM
+		id = 1010,
+		name = "Pairs of Songs With Total Durations Divisible by 60",
+		url = "https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PairsOfSongsWithTotalDurationsDivisibleBy60
 {

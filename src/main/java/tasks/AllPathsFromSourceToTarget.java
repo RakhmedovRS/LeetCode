@@ -11,10 +11,10 @@ import java.util.List;
  * @created 11-Jun-20
  */
 @LeetCode(
-	id = 797,
-	name = "All Paths From Source to Target",
-	url = "https://leetcode.com/problems/all-paths-from-source-to-target/",
-	difficulty = Difficulty.MEDIUM
+		id = 797,
+		name = "All Paths From Source to Target",
+		url = "https://leetcode.com/problems/all-paths-from-source-to-target/",
+		difficulty = Difficulty.MEDIUM
 )
 public class AllPathsFromSourceToTarget
 {
@@ -29,7 +29,7 @@ public class AllPathsFromSourceToTarget
 	}
 
 	private void dfs(int[][] graph, int currentNode,
-	                 List<Integer> currentPath, List<List<Integer>> result)
+					 List<Integer> currentPath, List<List<Integer>> result)
 	{
 		if (currentNode == graph.length - 1)
 		{

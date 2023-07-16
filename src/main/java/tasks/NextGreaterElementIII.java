@@ -7,10 +7,10 @@ import common.LeetCode;
  * @created 18-Jul-20
  */
 @LeetCode(
-	id = 556,
-	name = "Next Greater Element III",
-	url = "https://leetcode.com/problems/next-greater-element-iii/",
-	premium = true
+		id = 556,
+		name = "Next Greater Element III",
+		url = "https://leetcode.com/problems/next-greater-element-iii/",
+		premium = true
 )
 public class NextGreaterElementIII
 {

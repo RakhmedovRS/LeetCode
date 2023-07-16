@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 07-Apr-20
  */
 @LeetCode(
-	id = 322,
-	name = "Coin Change",
-	url = "https://leetcode.com/problems/coin-change/",
-	difficulty = Difficulty.MEDIUM
+		id = 322,
+		name = "Coin Change",
+		url = "https://leetcode.com/problems/coin-change/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CoinChange
 {

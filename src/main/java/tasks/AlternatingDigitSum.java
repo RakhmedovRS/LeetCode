@@ -8,31 +8,32 @@ import common.LeetCode;
  * @created 1/22/2023
  */
 @LeetCode(
-        id = 2544,
-        name = "Alternating Digit Sum",
-        url = "https://leetcode.com/problems/alternating-digit-sum/",
-        difficulty = Difficulty.EASY
+		id = 2544,
+		name = "Alternating Digit Sum",
+		url = "https://leetcode.com/problems/alternating-digit-sum/",
+		difficulty = Difficulty.EASY
 )
 public class AlternatingDigitSum
 {
-    public int alternateDigitSum(int n) {
-        int sum = 0;
-        boolean pos = true;
-        String s = "" + n;
-        for (char ch: s.toCharArray())
-        {
-            if (pos)
-            {
-                sum += ch - '0';
-            }
-            else
-            {
-                sum -= ch - '0';
-            }
+	public int alternateDigitSum(int n)
+	{
+		int sum = 0;
+		boolean pos = true;
+		String s = "" + n;
+		for (char ch : s.toCharArray())
+		{
+			if (pos)
+			{
+				sum += ch - '0';
+			}
+			else
+			{
+				sum -= ch - '0';
+			}
 
-            pos = !pos;
-        }
+			pos = !pos;
+		}
 
-        return sum;
-    }
+		return sum;
+	}
 }

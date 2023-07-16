@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 3/27/2022
  */
 @LeetCode(
-	id = 2216,
-	name = "Minimum Deletions to Make Array Beautiful",
-	url = "https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful/",
-	difficulty = Difficulty.MEDIUM
+		id = 2216,
+		name = "Minimum Deletions to Make Array Beautiful",
+		url = "https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumDeletionsToMakeArrayBeautiful
 {

@@ -10,10 +10,10 @@ import java.util.Locale;
  * @created 10/16/2021
  */
 @LeetCode(
-	id = 2038,
-	name = "Remove Colored Pieces if Both Neighbors are the Same Color",
-	url = "https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/",
-	difficulty = Difficulty.MEDIUM
+		id = 2038,
+		name = "Remove Colored Pieces if Both Neighbors are the Same Color",
+		url = "https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RemoveColoredPiecesIfBothNeighborsAreTheSameColor
 {
@@ -32,7 +32,7 @@ public class RemoveColoredPiecesIfBothNeighborsAreTheSameColor
 			}
 			else
 			{
-				if (colors.charAt(i - 1) == 'B'  && colors.charAt(i + 1) == 'B')
+				if (colors.charAt(i - 1) == 'B' && colors.charAt(i + 1) == 'B')
 				{
 					bobSteps++;
 				}

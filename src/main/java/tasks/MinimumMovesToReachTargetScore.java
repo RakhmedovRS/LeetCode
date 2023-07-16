@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 1/25/2022
  */
 @LeetCode(
-	id = 2139,
-	name = "Minimum Moves to Reach Target Score",
-	url = "https://leetcode.com/problems/minimum-moves-to-reach-target-score/",
-	difficulty = Difficulty.MEDIUM
+		id = 2139,
+		name = "Minimum Moves to Reach Target Score",
+		url = "https://leetcode.com/problems/minimum-moves-to-reach-target-score/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumMovesToReachTargetScore
 {

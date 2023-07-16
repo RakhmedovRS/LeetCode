@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 4/16/2022
  */
 @LeetCode(
-	id = 2240,
-	name = "Number of Ways to Buy Pens and Pencils",
-	url = "https://leetcode.com/problems/number-of-ways-to-buy-pens-and-pencils/",
-	difficulty = Difficulty.MEDIUM
+		id = 2240,
+		name = "Number of Ways to Buy Pens and Pencils",
+		url = "https://leetcode.com/problems/number-of-ways-to-buy-pens-and-pencils/",
+		difficulty = Difficulty.MEDIUM
 )
 public class NumberOfWaysToBuyPensAndPencils
 {

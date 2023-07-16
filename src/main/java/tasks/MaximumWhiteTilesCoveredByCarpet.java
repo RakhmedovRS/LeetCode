@@ -12,10 +12,10 @@ import java.util.LinkedList;
  * @created 5/14/2022
  */
 @LeetCode(
-	id = 2271,
-	name = "Maximum White Tiles Covered by a Carpet",
-	url = "https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/",
-	difficulty = Difficulty.MEDIUM
+		id = 2271,
+		name = "Maximum White Tiles Covered by a Carpet",
+		url = "https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumWhiteTilesCoveredByCarpet
 {

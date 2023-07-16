@@ -10,14 +10,15 @@ import java.util.PriorityQueue;
  * @created 5/22/2022
  */
 @LeetCode(
-	id = 2279,
-	name = "Maximum Bags With Full Capacity of Rocks",
-	url = "https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/",
-	difficulty = Difficulty.MEDIUM
+		id = 2279,
+		name = "Maximum Bags With Full Capacity of Rocks",
+		url = "https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumBagsWithFullCapacityOfRocks
 {
-	public int maximumBags(int[] capacity, int[] rocks, int additionalRocks) {
+	public int maximumBags(int[] capacity, int[] rocks, int additionalRocks)
+	{
 		PriorityQueue<Integer> pq = new PriorityQueue<>();
 		for (int i = 0; i < capacity.length; i++)
 		{

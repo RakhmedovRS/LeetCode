@@ -10,11 +10,11 @@ import java.util.*;
  * @created 12/10/2020
  */
 @LeetCode(
-	id = 1236,
-	name = "Web Crawler",
-	url = "https://leetcode.com/problems/web-crawler/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1236,
+		name = "Web Crawler",
+		url = "https://leetcode.com/problems/web-crawler/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class WebCrawler
 {
@@ -61,6 +61,6 @@ public class WebCrawler
 	public static void main(String[] args)
 	{
 		System.out.println(new WebCrawler().crawl("http://news.google.com",
-			(url) -> Arrays.asList("http://news.yahoo.com/news/topics/", "http://news.yahoo.com/news", "http://news.yahoo.com", "http://news.google.com")));
+				(url) -> Arrays.asList("http://news.yahoo.com/news/topics/", "http://news.yahoo.com/news", "http://news.yahoo.com", "http://news.google.com")));
 	}
 }

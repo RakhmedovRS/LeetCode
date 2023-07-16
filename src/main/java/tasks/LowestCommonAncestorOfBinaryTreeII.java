@@ -14,11 +14,11 @@ import java.util.Set;
  * @created 1/2/2021
  */
 @LeetCode(
-	id = 1644,
-	name = "Lowest Common Ancestor of a Binary Tree II",
-	url = "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1644,
+		name = "Lowest Common Ancestor of a Binary Tree II",
+		url = "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class LowestCommonAncestorOfBinaryTreeII
 {

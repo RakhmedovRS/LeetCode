@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 09-Jun-20
  */
 @LeetCode(
-	id = 354,
-	name = "Russian Doll Envelopes",
-	url = "https://leetcode.com/problems/russian-doll-envelopes/",
-	difficulty = Difficulty.MEDIUM
+		id = 354,
+		name = "Russian Doll Envelopes",
+		url = "https://leetcode.com/problems/russian-doll-envelopes/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RussianDollEnvelopes
 {

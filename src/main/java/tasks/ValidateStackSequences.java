@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 02-Feb-21
  */
 @LeetCode(
-	id = 946,
-	name = "Validate Stack Sequences",
-	url = "https://leetcode.com/problems/validate-stack-sequences/",
-	difficulty = Difficulty.MEDIUM
+		id = 946,
+		name = "Validate Stack Sequences",
+		url = "https://leetcode.com/problems/validate-stack-sequences/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ValidateStackSequences
 {

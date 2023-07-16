@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 30-Jun-20
  */
 @LeetCode(
-	id = 1154,
-	name = "Day of the Year",
-	url = "https://leetcode.com/problems/day-of-the-year/submissions/",
-	difficulty = Difficulty.EASY
+		id = 1154,
+		name = "Day of the Year",
+		url = "https://leetcode.com/problems/day-of-the-year/submissions/",
+		difficulty = Difficulty.EASY
 )
 public class DayOfTheYear
 {

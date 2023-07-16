@@ -11,10 +11,10 @@ import java.util.PriorityQueue;
  * @created 28-Apr-20
  */
 @LeetCode(
-	id = 378,
-	name = "Kth Smallest Element in a Sorted Matrix",
-	url = "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
-	difficulty = Difficulty.MEDIUM
+		id = 378,
+		name = "Kth Smallest Element in a Sorted Matrix",
+		url = "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
+		difficulty = Difficulty.MEDIUM
 )
 public class KthSmallestElementInSortedMatrix
 {
@@ -33,7 +33,7 @@ public class KthSmallestElementInSortedMatrix
 			int column = current[1];
 			int val = matrix[row][column];
 
-			if(k == 0)
+			if (k == 0)
 			{
 				return val;
 			}

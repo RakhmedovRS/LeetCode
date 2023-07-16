@@ -11,11 +11,11 @@ import java.util.LinkedList;
  * @created 2/17/2021
  */
 @LeetCode(
-	id = 1063,
-	name = "Number of Valid Subarrays",
-	url = "https://leetcode.com/problems/number-of-valid-subarrays/",
-	difficulty = Difficulty.HARD,
-	premium = true
+		id = 1063,
+		name = "Number of Valid Subarrays",
+		url = "https://leetcode.com/problems/number-of-valid-subarrays/",
+		difficulty = Difficulty.HARD,
+		premium = true
 )
 public class NumberOfValidSubarrays
 {

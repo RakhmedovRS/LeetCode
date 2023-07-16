@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 07-Jun-20
  */
 @LeetCode(
-	id = 799,
-	name = "Champagne Tower",
-	url = "https://leetcode.com/problems/champagne-tower/",
-	difficulty = Difficulty.MEDIUM
+		id = 799,
+		name = "Champagne Tower",
+		url = "https://leetcode.com/problems/champagne-tower/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ChampagneTower
 {

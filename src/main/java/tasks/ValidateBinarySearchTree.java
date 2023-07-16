@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 20-Mar-20
  */
 @LeetCode(
-	id = 98,
-	name = "Validate Binary Search Tree",
-	url = "https://leetcode.com/problems/validate-binary-search-tree/",
-	difficulty = Difficulty.MEDIUM
+		id = 98,
+		name = "Validate Binary Search Tree",
+		url = "https://leetcode.com/problems/validate-binary-search-tree/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ValidateBinarySearchTree
 {

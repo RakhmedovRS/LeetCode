@@ -35,9 +35,9 @@ public class NumberOfEnclaves
 	private boolean canWalkOffBoundaries(int[][] A, int row, int column, int rows, int columns, int[] count)
 	{
 		if (row < 0
-			|| row == rows
-			|| column < 0
-			|| column == columns)
+				|| row == rows
+				|| column < 0
+				|| column == columns)
 		{
 			return true;
 		}

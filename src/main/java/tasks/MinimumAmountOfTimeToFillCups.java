@@ -10,10 +10,10 @@ import java.util.PriorityQueue;
  * @created 7/11/2022
  */
 @LeetCode(
-	id = 2335,
-	name = "Minimum Amount of Time to Fill Cups",
-	url = "https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/",
-	difficulty = Difficulty.EASY
+		id = 2335,
+		name = "Minimum Amount of Time to Fill Cups",
+		url = "https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/",
+		difficulty = Difficulty.EASY
 )
 public class MinimumAmountOfTimeToFillCups
 {

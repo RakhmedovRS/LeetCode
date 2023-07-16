@@ -13,10 +13,10 @@ import java.util.Map;
  * @created 2/24/2021
  */
 @LeetCode(
-	id = 554,
-	name = "Brick Wall",
-	url = "https://leetcode.com/problems/brick-wall/",
-	difficulty = Difficulty.MEDIUM
+		id = 554,
+		name = "Brick Wall",
+		url = "https://leetcode.com/problems/brick-wall/",
+		difficulty = Difficulty.MEDIUM
 )
 public class BrickWall
 {
@@ -46,11 +46,11 @@ public class BrickWall
 	{
 		BrickWall clazz = new BrickWall();
 		System.out.println(clazz.leastBricks(Arrays.asList(
-			Arrays.asList(1, 2, 2, 1),
-			Arrays.asList(3, 1, 2),
-			Arrays.asList(1, 3, 2),
-			Arrays.asList(2, 4),
-			Arrays.asList(3, 1, 2),
-			Arrays.asList(1, 3, 1, 1))));
+				Arrays.asList(1, 2, 2, 1),
+				Arrays.asList(3, 1, 2),
+				Arrays.asList(1, 3, 2),
+				Arrays.asList(2, 4),
+				Arrays.asList(3, 1, 2),
+				Arrays.asList(1, 3, 1, 1))));
 	}
 }

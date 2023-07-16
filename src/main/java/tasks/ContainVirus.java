@@ -96,7 +96,7 @@ public class ContainVirus
 		}
 		grid[row][column] = target;
 		return dfs(row + 1, column, target, col) + dfs(row - 1, column, target, col) +
-			dfs(row, column + 1, target, col) + dfs(row, column - 1, target, col);
+				dfs(row, column + 1, target, col) + dfs(row, column - 1, target, col);
 	}
 
 	int buildWalls(int row, int column, int target)
@@ -115,7 +115,7 @@ public class ContainVirus
 		}
 		grid[row][column] = target;
 		return buildWalls(row + 1, column, target) + buildWalls(row, column + 1, target)
-			+ buildWalls(row - 1, column, target) + buildWalls(row, column - 1, target);
+				+ buildWalls(row - 1, column, target) + buildWalls(row, column - 1, target);
 	}
 
 	void infect(int row, int column, int target)

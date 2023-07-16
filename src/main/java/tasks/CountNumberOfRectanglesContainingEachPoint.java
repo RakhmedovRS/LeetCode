@@ -10,10 +10,10 @@ import java.util.*;
  * @created 4/24/2022
  */
 @LeetCode(
-	id = 2250,
-	name = "Count Number of Rectangles Containing Each Point",
-	url = "https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/",
-	difficulty = Difficulty.MEDIUM
+		id = 2250,
+		name = "Count Number of Rectangles Containing Each Point",
+		url = "https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CountNumberOfRectanglesContainingEachPoint
 {

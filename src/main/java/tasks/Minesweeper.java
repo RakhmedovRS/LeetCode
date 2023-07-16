@@ -53,12 +53,12 @@ public class Minesweeper
 	private void dfs(char[][] board, int row, int column, int rows, int columns)
 	{
 		if (row < 0
-			|| row == rows
-			|| column < 0
-			|| column == columns
-			|| board[row][column] == 'X'
-			|| board[row][column] == 'B'
-			|| Character.isDigit(board[row][column])
+				|| row == rows
+				|| column < 0
+				|| column == columns
+				|| board[row][column] == 'X'
+				|| board[row][column] == 'B'
+				|| Character.isDigit(board[row][column])
 		)
 		{
 			return;

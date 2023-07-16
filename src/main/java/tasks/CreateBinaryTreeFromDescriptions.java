@@ -12,10 +12,10 @@ import java.util.Map;
  * @created 3/6/2022
  */
 @LeetCode(
-	id = 2196,
-	name = "Create Binary Tree From Descriptions",
-	url = "https://leetcode.com/problems/create-binary-tree-from-descriptions/",
-	difficulty = Difficulty.MEDIUM
+		id = 2196,
+		name = "Create Binary Tree From Descriptions",
+		url = "https://leetcode.com/problems/create-binary-tree-from-descriptions/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CreateBinaryTreeFromDescriptions
 {

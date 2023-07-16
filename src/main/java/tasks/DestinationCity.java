@@ -41,9 +41,9 @@ public class DestinationCity
 	public static void main(String[] args)
 	{
 		System.out.println(new DestinationCity().destCity(Arrays.asList(
-			Arrays.asList("London", "New York"),
-			Arrays.asList("New York", "Lima"),
-			Arrays.asList("Lima", "Sao Paulo")
+				Arrays.asList("London", "New York"),
+				Arrays.asList("New York", "Lima"),
+				Arrays.asList("Lima", "Sao Paulo")
 		)));
 	}
 }

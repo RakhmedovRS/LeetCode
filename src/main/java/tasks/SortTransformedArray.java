@@ -11,11 +11,11 @@ import java.util.function.IntUnaryOperator;
  * @created 2/9/2021
  */
 @LeetCode(
-	id = 360,
-	name = "Sort Transformed Array",
-	url = "https://leetcode.com/problems/sort-transformed-array/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 360,
+		name = "Sort Transformed Array",
+		url = "https://leetcode.com/problems/sort-transformed-array/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class SortTransformedArray
 {
@@ -26,10 +26,10 @@ public class SortTransformedArray
 		int right = nums.length - 1;
 		int x;
 		int y;
-		IntUnaryOperator function = z -> a * z * z + z * b  + c;
+		IntUnaryOperator function = z -> a * z * z + z * b + c;
 		if (a > 0)
 		{
-			for (int i = answer.length - 1; i>=0; i--)
+			for (int i = answer.length - 1; i >= 0; i--)
 			{
 				x = function.applyAsInt(nums[left]);
 				y = function.applyAsInt(nums[right]);

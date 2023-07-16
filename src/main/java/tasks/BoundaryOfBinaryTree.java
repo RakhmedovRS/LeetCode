@@ -13,11 +13,11 @@ import java.util.List;
  * @created 3/17/2021
  */
 @LeetCode(
-	id = 545,
-	name = "Boundary of Binary Tree",
-	url = "https://leetcode.com/problems/boundary-of-binary-tree/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 545,
+		name = "Boundary of Binary Tree",
+		url = "https://leetcode.com/problems/boundary-of-binary-tree/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class BoundaryOfBinaryTree
 {

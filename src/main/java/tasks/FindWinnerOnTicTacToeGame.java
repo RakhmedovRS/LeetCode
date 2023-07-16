@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/7/2020
  */
 @LeetCode(
-	id = 1275,
-	name = "Find Winner on a Tic Tac Toe Game",
-	url = "https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1275,
+		name = "Find Winner on a Tic Tac Toe Game",
+		url = "https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class FindWinnerOnTicTacToeGame
 {
@@ -45,7 +45,7 @@ public class FindWinnerOnTicTacToeGame
 
 		for (int r = 1, c = 0; c < 3; c++)
 		{
-			if (table[r][c] != 0 && table[r-1][c] == table[r][c] && table[r][c] == table[r + 1][c])
+			if (table[r][c] != 0 && table[r - 1][c] == table[r][c] && table[r][c] == table[r + 1][c])
 			{
 				return true;
 			}

@@ -12,11 +12,11 @@ import java.util.Map;
  * @created 5/8/2021
  */
 @LeetCode(
-	id = 1852,
-	name = "Distinct Numbers in Each Subarray",
-	url = "https://leetcode.com/problems/distinct-numbers-in-each-subarray/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1852,
+		name = "Distinct Numbers in Each Subarray",
+		url = "https://leetcode.com/problems/distinct-numbers-in-each-subarray/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class DistinctNumbersInEachSubarray
 {

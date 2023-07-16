@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 08-Jun-20
  */
 @LeetCode(
-	id = 695,
-	name = "Max Area of Island",
-	url = "https://leetcode.com/problems/max-area-of-island/",
-	difficulty = Difficulty.MEDIUM
+		id = 695,
+		name = "Max Area of Island",
+		url = "https://leetcode.com/problems/max-area-of-island/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaxAreaOfIsland
 {
@@ -49,8 +49,8 @@ public class MaxAreaOfIsland
 		grid[row][column] = 0;
 
 		return 1 + dfs(row - 1, column, rows, columns, grid)
-			+ dfs(row + 1, column, rows, columns, grid)
-			+ dfs(row, column - 1, rows, columns, grid)
-			+ dfs(row, column + 1, rows, columns, grid);
+				+ dfs(row + 1, column, rows, columns, grid)
+				+ dfs(row, column - 1, rows, columns, grid)
+				+ dfs(row, column + 1, rows, columns, grid);
 	}
 }

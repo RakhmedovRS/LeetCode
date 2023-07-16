@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 7/24/2021
  */
 @LeetCode(
-	id = 1941,
-	name = "Check if All Characters Have Equal Number of Occurrences",
-	url = "https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/",
-	difficulty = Difficulty.EASY
+		id = 1941,
+		name = "Check if All Characters Have Equal Number of Occurrences",
+		url = "https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/",
+		difficulty = Difficulty.EASY
 )
 public class CheckIfAllCharactersHaveEqualNumberOfOccurrences
 {

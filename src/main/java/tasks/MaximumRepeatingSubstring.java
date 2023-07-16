@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/28/2020
  */
 @LeetCode(
-	id = 1668,
-	name = "Maximum Repeating Substring",
-	url = "https://leetcode.com/problems/maximum-repeating-substring/",
-	difficulty = Difficulty.EASY
+		id = 1668,
+		name = "Maximum Repeating Substring",
+		url = "https://leetcode.com/problems/maximum-repeating-substring/",
+		difficulty = Difficulty.EASY
 )
 public class MaximumRepeatingSubstring
 {

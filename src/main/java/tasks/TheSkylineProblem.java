@@ -10,10 +10,10 @@ import java.util.*;
  * @created 11/30/2020
  */
 @LeetCode(
-	id = 218,
-	name = "The Skyline Problem",
-	url = "https://leetcode.com/problems/the-skyline-problem/",
-	difficulty = Difficulty.HARD
+		id = 218,
+		name = "The Skyline Problem",
+		url = "https://leetcode.com/problems/the-skyline-problem/",
+		difficulty = Difficulty.HARD
 )
 public class TheSkylineProblem
 {
@@ -70,25 +70,25 @@ public class TheSkylineProblem
 	public static void main(String[] args)
 	{
 		System.out.println(new TheSkylineProblem().getSkyline(new int[][]
-			{
-				{0, 2, 3},
-				{2, 5, 3}
-			}));
+				{
+						{0, 2, 3},
+						{2, 5, 3}
+				}));
 
 		System.out.println(new TheSkylineProblem().getSkyline(new int[0][]));
 
 		System.out.println(new TheSkylineProblem().getSkyline(new int[][]
-			{
-				{0, Integer.MAX_VALUE, Integer.MAX_VALUE},
-			}));
+				{
+						{0, Integer.MAX_VALUE, Integer.MAX_VALUE},
+				}));
 
 		System.out.println(new TheSkylineProblem().getSkyline(new int[][]
-			{
-				{2, 9, 10},
-				{3, 7, 15},
-				{5, 12, 12},
-				{15, 20, 10},
-				{19, 24, 8}
-			}));
+				{
+						{2, 9, 10},
+						{3, 7, 15},
+						{5, 12, 12},
+						{15, 20, 10},
+						{19, 24, 8}
+				}));
 	}
 }

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 08-Apr-20
  */
 @LeetCode(
-	id = 34,
-	name = "Find First and Last Position of Element in Sorted Array",
-	url = "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 34,
+		name = "Find First and Last Position of Element in Sorted Array",
+		url = "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindFirstAndLastPositionOfElementInSortedArray
 {

@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 3/20/2021
  */
 @LeetCode(
-	id = 1798,
-	name = "Maximum Number of Consecutive Values You Can Make",
-	url = "https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/",
-	difficulty = Difficulty.MEDIUM
+		id = 1798,
+		name = "Maximum Number of Consecutive Values You Can Make",
+		url = "https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumNumberOfConsecutiveValuesYouCanMake
 {

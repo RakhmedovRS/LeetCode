@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12-May-20
  */
 @LeetCode(
-	id = 374,
-	name = "Guess Number Higher or Lower",
-	url = "https://leetcode.com/problems/guess-number-higher-or-lower/",
-	difficulty = Difficulty.EASY
+		id = 374,
+		name = "Guess Number Higher or Lower",
+		url = "https://leetcode.com/problems/guess-number-higher-or-lower/",
+		difficulty = Difficulty.EASY
 )
 public abstract class GuessNumberHigherOrLower
 {
@@ -25,15 +25,15 @@ public abstract class GuessNumberHigherOrLower
 		int res;
 		while (left <= right)
 		{
-			middle = (left + right) /2;
-			res = guess((int)middle);
+			middle = (left + right) / 2;
+			res = guess((int) middle);
 			if (res == 0)
 			{
-				return (int)middle;
+				return (int) middle;
 			}
 			else if (res < 0)
 			{
-				right = middle -1;
+				right = middle - 1;
 			}
 			else
 			{
@@ -41,6 +41,6 @@ public abstract class GuessNumberHigherOrLower
 			}
 		}
 
-		return (int)left;
+		return (int) left;
 	}
 }

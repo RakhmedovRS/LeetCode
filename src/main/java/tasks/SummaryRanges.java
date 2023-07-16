@@ -12,10 +12,10 @@ import java.util.List;
  * @created 03-Jul-20
  */
 @LeetCode(
-	id = 228,
-	name = "Summary Ranges",
-	url = "https://leetcode.com/problems/summary-ranges/",
-	difficulty = Difficulty.EASY
+		id = 228,
+		name = "Summary Ranges",
+		url = "https://leetcode.com/problems/summary-ranges/",
+		difficulty = Difficulty.EASY
 )
 public class SummaryRanges
 {

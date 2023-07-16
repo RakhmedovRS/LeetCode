@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 29-Apr-20
  */
 @LeetCode(
-	id = 289,
-	name = "Game of Life",
-	url = "https://leetcode.com/problems/game-of-life/",
-	difficulty = Difficulty.MEDIUM
+		id = 289,
+		name = "Game of Life",
+		url = "https://leetcode.com/problems/game-of-life/",
+		difficulty = Difficulty.MEDIUM
 )
 public class GameOfLife
 {

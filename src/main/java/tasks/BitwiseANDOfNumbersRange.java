@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 23-Apr-20
  */
 @LeetCode(
-	id = 201,
-	name = "Bitwise AND of Numbers Range",
-	url = "https://leetcode.com/problems/bitwise-and-of-numbers-range/",
-	difficulty = Difficulty.MEDIUM
+		id = 201,
+		name = "Bitwise AND of Numbers Range",
+		url = "https://leetcode.com/problems/bitwise-and-of-numbers-range/",
+		difficulty = Difficulty.MEDIUM
 )
 public class BitwiseANDOfNumbersRange
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 06-Apr-20
  */
 @LeetCode(
-	id = 11,
-	name = "Container With Most Water",
-	url = "https://leetcode.com/problems/container-with-most-water/",
-	difficulty = Difficulty.MEDIUM
+		id = 11,
+		name = "Container With Most Water",
+		url = "https://leetcode.com/problems/container-with-most-water/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ContainerWithMostWater
 {

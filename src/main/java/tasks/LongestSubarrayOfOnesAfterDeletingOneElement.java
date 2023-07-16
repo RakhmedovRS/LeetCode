@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 27-Jun-20
  */
 @LeetCode(
-	id = 1493,
-	name = "Longest Subarray of 1's After Deleting One Element",
-	url = "https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/",
-	difficulty = Difficulty.MEDIUM
+		id = 1493,
+		name = "Longest Subarray of 1's After Deleting One Element",
+		url = "https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LongestSubarrayOfOnesAfterDeletingOneElement
 {

@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 3/25/2021
  */
 @LeetCode(
-	id = 1804,
-	name = "Implement Trie II (Prefix Tree)",
-	url = "https://leetcode.com/problems/implement-trie-ii-prefix-tree/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1804,
+		name = "Implement Trie II (Prefix Tree)",
+		url = "https://leetcode.com/problems/implement-trie-ii-prefix-tree/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class ImplementTrieII
 {

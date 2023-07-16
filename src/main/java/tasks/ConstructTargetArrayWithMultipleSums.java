@@ -11,10 +11,10 @@ import java.util.PriorityQueue;
  * @created 11/16/2020
  */
 @LeetCode(
-	id = 1354,
-	name = "Construct Target Array With Multiple Sums",
-	url = "https://leetcode.com/problems/construct-target-array-with-multiple-sums/",
-	difficulty = Difficulty.HARD
+		id = 1354,
+		name = "Construct Target Array With Multiple Sums",
+		url = "https://leetcode.com/problems/construct-target-array-with-multiple-sums/",
+		difficulty = Difficulty.HARD
 )
 public class ConstructTargetArrayWithMultipleSums
 {

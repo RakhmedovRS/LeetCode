@@ -13,10 +13,10 @@ import java.util.Set;
  * @created 16-May-20
  */
 @LeetCode(
-	id = 929,
-	name = "Unique Email Addresses",
-	url = "https://leetcode.com/problems/unique-email-addresses/",
-	difficulty = Difficulty.EASY
+		id = 929,
+		name = "Unique Email Addresses",
+		url = "https://leetcode.com/problems/unique-email-addresses/",
+		difficulty = Difficulty.EASY
 )
 public class UniqueEmailAddresses
 {

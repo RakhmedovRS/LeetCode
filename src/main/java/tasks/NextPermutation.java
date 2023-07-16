@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 1/8/2021
  */
 @LeetCode(
-	id = 31,
-	name = "Next Permutation",
-	url = "https://leetcode.com/problems/next-permutation/",
-	difficulty = Difficulty.MEDIUM
+		id = 31,
+		name = "Next Permutation",
+		url = "https://leetcode.com/problems/next-permutation/",
+		difficulty = Difficulty.MEDIUM
 )
 public class NextPermutation
 {

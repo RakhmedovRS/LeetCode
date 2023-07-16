@@ -12,11 +12,11 @@ import java.util.List;
  * @created 2/23/2021
  */
 @LeetCode(
-	id = 1182,
-	name = "Shortest Distance to Target Color",
-	url = "https://leetcode.com/problems/shortest-distance-to-target-color/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1182,
+		name = "Shortest Distance to Target Color",
+		url = "https://leetcode.com/problems/shortest-distance-to-target-color/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class ShortestDistanceToTargetColor
 {

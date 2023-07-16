@@ -9,10 +9,10 @@ import common.ListNode;
  * @created 10-Apr-20
  */
 @LeetCode(
-	id = 24,
-	name = "Swap Nodes in Pairs",
-	url = "https://leetcode.com/problems/swap-nodes-in-pairs/",
-	difficulty = Difficulty.MEDIUM
+		id = 24,
+		name = "Swap Nodes in Pairs",
+		url = "https://leetcode.com/problems/swap-nodes-in-pairs/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SwapNodesInPairs
 {

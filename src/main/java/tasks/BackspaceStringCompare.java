@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 09-Apr-20
  */
 @LeetCode(
-	id = 844,
-	name = "Backspace String Compare",
-	url = "https://leetcode.com/problems/backspace-string-compare/",
-	difficulty = Difficulty.EASY
+		id = 844,
+		name = "Backspace String Compare",
+		url = "https://leetcode.com/problems/backspace-string-compare/",
+		difficulty = Difficulty.EASY
 )
 public class BackspaceStringCompare
 {

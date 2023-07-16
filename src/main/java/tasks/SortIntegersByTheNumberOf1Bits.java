@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 05-Apr-20
  */
 @LeetCode(
-	id = 1356,
-	name = "Sort Integers by The Number of 1 Bits",
-	url = "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/",
-	difficulty = Difficulty.EASY
+		id = 1356,
+		name = "Sort Integers by The Number of 1 Bits",
+		url = "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/",
+		difficulty = Difficulty.EASY
 )
 public class SortIntegersByTheNumberOf1Bits
 {

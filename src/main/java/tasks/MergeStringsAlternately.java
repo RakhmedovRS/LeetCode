@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 2/21/2021
  */
 @LeetCode(
-	id= 1768,
-	name = "Merge Strings Alternately",
-	url = "https://leetcode.com/problems/merge-strings-alternately/",
-	difficulty = Difficulty.EASY
+		id = 1768,
+		name = "Merge Strings Alternately",
+		url = "https://leetcode.com/problems/merge-strings-alternately/",
+		difficulty = Difficulty.EASY
 )
 public class MergeStringsAlternately
 {

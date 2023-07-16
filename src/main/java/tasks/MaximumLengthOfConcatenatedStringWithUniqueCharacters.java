@@ -13,10 +13,10 @@ import java.util.Map;
  * @created 16-Jun-20
  */
 @LeetCode(
-	id = 1239,
-	name = "Maximum Length of a Concatenated String with Unique Characters",
-	url = "https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/",
-	difficulty = Difficulty.MEDIUM
+		id = 1239,
+		name = "Maximum Length of a Concatenated String with Unique Characters",
+		url = "https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumLengthOfConcatenatedStringWithUniqueCharacters
 {
@@ -42,7 +42,7 @@ public class MaximumLengthOfConcatenatedStringWithUniqueCharacters
 	}
 
 	private boolean isPossibleToBuildUniqueString(String current, List<String> validValues,
-	                                              Map<String, int[]> stringMap, int pos, int[] max)
+												  Map<String, int[]> stringMap, int pos, int[] max)
 	{
 		if (pos == validValues.size())
 		{

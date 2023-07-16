@@ -13,10 +13,10 @@ import java.util.Map;
  * @created 31-Mar-20
  */
 @LeetCode(
-	id = 1002,
-	name = "Find Common Characters",
-	url = "https://leetcode.com/problems/find-common-characters/",
-	difficulty = Difficulty.EASY
+		id = 1002,
+		name = "Find Common Characters",
+		url = "https://leetcode.com/problems/find-common-characters/",
+		difficulty = Difficulty.EASY
 )
 public class FindCommonCharacters
 {

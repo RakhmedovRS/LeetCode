@@ -11,11 +11,11 @@ import java.util.*;
  * @created 12/10/2020
  */
 @LeetCode(
-	id = 742,
-	name = "Closest Leaf in a Binary Tree",
-	difficulty = Difficulty.MEDIUM,
-	url = "https://leetcode.com/problems/closest-leaf-in-a-binary-tree/",
-	premium = true
+		id = 742,
+		name = "Closest Leaf in a Binary Tree",
+		difficulty = Difficulty.MEDIUM,
+		url = "https://leetcode.com/problems/closest-leaf-in-a-binary-tree/",
+		premium = true
 )
 public class ClosestLeafInBinaryTree
 {

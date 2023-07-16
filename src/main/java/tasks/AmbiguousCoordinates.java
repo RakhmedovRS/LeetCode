@@ -11,10 +11,10 @@ import java.util.List;
  * @created 5/13/2021
  */
 @LeetCode(
-	id = 816,
-	name = "Ambiguous Coordinates",
-	url = "https://leetcode.com/problems/ambiguous-coordinates/",
-	difficulty = Difficulty.MEDIUM
+		id = 816,
+		name = "Ambiguous Coordinates",
+		url = "https://leetcode.com/problems/ambiguous-coordinates/",
+		difficulty = Difficulty.MEDIUM
 )
 public class AmbiguousCoordinates
 {

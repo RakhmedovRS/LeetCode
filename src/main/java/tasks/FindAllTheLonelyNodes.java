@@ -14,11 +14,11 @@ import java.util.Queue;
  * @created 12/12/2020
  */
 @LeetCode(
-	id = 1469,
-	name = "Find All The Lonely Nodes",
-	url = "https://leetcode.com/problems/find-all-the-lonely-nodes/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1469,
+		name = "Find All The Lonely Nodes",
+		url = "https://leetcode.com/problems/find-all-the-lonely-nodes/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class FindAllTheLonelyNodes
 {

@@ -12,11 +12,11 @@ import java.util.Queue;
  * @created 12/21/2020
  */
 @LeetCode(
-	id = 1602,
-	name = "Find Nearest Right Node in Binary Tree",
-	url = "https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1602,
+		name = "Find Nearest Right Node in Binary Tree",
+		url = "https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class FindNearestRightNodeInBinaryTree
 {

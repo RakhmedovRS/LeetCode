@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 1/9/2021
  */
 @LeetCode(
-	id = 1562,
-	name = "Find Latest Group of Size M",
-	url = "https://leetcode.com/problems/find-latest-group-of-size-m/",
-	difficulty = Difficulty.MEDIUM
+		id = 1562,
+		name = "Find Latest Group of Size M",
+		url = "https://leetcode.com/problems/find-latest-group-of-size-m/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindLatestGroupOfSizeM
 {

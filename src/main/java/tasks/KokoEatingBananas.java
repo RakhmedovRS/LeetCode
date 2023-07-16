@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 24-Jul-20
  */
 @LeetCode(
-	id = 875,
-	name = "Koko Eating Bananas",
-	url = "https://leetcode.com/problems/koko-eating-bananas/",
-	difficulty = Difficulty.MEDIUM
+		id = 875,
+		name = "Koko Eating Bananas",
+		url = "https://leetcode.com/problems/koko-eating-bananas/",
+		difficulty = Difficulty.MEDIUM
 )
 public class KokoEatingBananas
 {

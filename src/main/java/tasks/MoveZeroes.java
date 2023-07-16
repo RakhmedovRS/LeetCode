@@ -41,7 +41,7 @@ public class MoveZeroes
 
 	public static void main(String[] args)
 	{
-		int[] arr = new int[]{0,1,0,3,12};
+		int[] arr = new int[]{0, 1, 0, 3, 12};
 		new MoveZeroes().moveZeroes(arr);
 		System.out.println(Arrays.toString(arr));
 	}

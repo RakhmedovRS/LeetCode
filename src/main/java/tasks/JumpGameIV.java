@@ -10,10 +10,10 @@ import java.util.*;
  * @created 11/13/2020
  */
 @LeetCode(
-	id = 1345,
-	name = "Jump Game IV",
-	url = "https://leetcode.com/problems/jump-game-iv/",
-	difficulty = Difficulty.HARD
+		id = 1345,
+		name = "Jump Game IV",
+		url = "https://leetcode.com/problems/jump-game-iv/",
+		difficulty = Difficulty.HARD
 )
 public class JumpGameIV
 {

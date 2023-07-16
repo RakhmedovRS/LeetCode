@@ -13,10 +13,10 @@ import java.util.Map;
  * @created 1/17/2021
  */
 @LeetCode(
-	id = 1726,
-	name = "Tuple with Same Product",
-	url = "https://leetcode.com/problems/tuple-with-same-product/",
-	difficulty = Difficulty.MEDIUM
+		id = 1726,
+		name = "Tuple with Same Product",
+		url = "https://leetcode.com/problems/tuple-with-same-product/",
+		difficulty = Difficulty.MEDIUM
 )
 public class TupleWithSameProduct
 {

@@ -11,11 +11,11 @@ import java.util.*;
  * @created 12/14/2020
  */
 @LeetCode(
-	id = 250,
-	name = "Count Univalue Subtrees",
-	url = "https://leetcode.com/problems/count-univalue-subtrees/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 250,
+		name = "Count Univalue Subtrees",
+		url = "https://leetcode.com/problems/count-univalue-subtrees/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class CountUnivalueSubtrees
 {

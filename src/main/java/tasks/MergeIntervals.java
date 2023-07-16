@@ -11,10 +11,10 @@ import java.util.LinkedList;
  * @created 21-Mar-20
  */
 @LeetCode(
-	id = 56,
-	name = "Merge Intervals",
-	url = "https://leetcode.com/problems/merge-intervals/",
-	difficulty = Difficulty.MEDIUM
+		id = 56,
+		name = "Merge Intervals",
+		url = "https://leetcode.com/problems/merge-intervals/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MergeIntervals
 {

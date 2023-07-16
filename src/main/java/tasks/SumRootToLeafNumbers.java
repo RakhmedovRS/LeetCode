@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 26-Jun-20
  */
 @LeetCode(
-	id = 129,
-	name = "Sum Root to Leaf Numbers",
-	url = "https://leetcode.com/problems/sum-root-to-leaf-numbers/",
-	difficulty = Difficulty.MEDIUM
+		id = 129,
+		name = "Sum Root to Leaf Numbers",
+		url = "https://leetcode.com/problems/sum-root-to-leaf-numbers/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SumRootToLeafNumbers
 {

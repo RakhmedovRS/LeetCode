@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 1/4/2021
  */
 @LeetCode(
-	id = 1409,
-	name = "Queries on a Permutation With Key",
-	url = "https://leetcode.com/problems/queries-on-a-permutation-with-key/",
-	difficulty = Difficulty.MEDIUM
+		id = 1409,
+		name = "Queries on a Permutation With Key",
+		url = "https://leetcode.com/problems/queries-on-a-permutation-with-key/",
+		difficulty = Difficulty.MEDIUM
 )
 public class QueriesOnPermutationWithKey
 {
@@ -39,7 +39,7 @@ public class QueriesOnPermutationWithKey
 			answer[i] = j;
 			while (j > 0)
 			{
-				numbers[j] = numbers[j-1];
+				numbers[j] = numbers[j - 1];
 				j--;
 			}
 

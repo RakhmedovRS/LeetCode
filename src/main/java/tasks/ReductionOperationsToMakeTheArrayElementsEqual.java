@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 6/6/2021
  */
 @LeetCode(
-	id = 1887,
-	name = "Reduction Operations to Make the Array Elements Equal",
-	url = "https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/",
-	difficulty = Difficulty.MEDIUM
+		id = 1887,
+		name = "Reduction Operations to Make the Array Elements Equal",
+		url = "https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ReductionOperationsToMakeTheArrayElementsEqual
 {

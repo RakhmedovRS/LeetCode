@@ -10,10 +10,10 @@ import java.util.TreeSet;
  * @created 15-Jul-20
  */
 @LeetCode(
-	id = 792,
-	name = "Number of Matching Subsequences",
-	url = "https://leetcode.com/problems/number-of-matching-subsequences/",
-	difficulty = Difficulty.MEDIUM
+		id = 792,
+		name = "Number of Matching Subsequences",
+		url = "https://leetcode.com/problems/number-of-matching-subsequences/",
+		difficulty = Difficulty.MEDIUM
 )
 public class NumberOfMatchingSubsequences
 {

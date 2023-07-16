@@ -9,14 +9,15 @@ import common.TreeNode;
  * @created 5/8/2022
  */
 @LeetCode(
-	id = 2265,
-	name = "Count Nodes Equal to Average of Subtree",
-	url = "https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/",
-	difficulty = Difficulty.MEDIUM
+		id = 2265,
+		name = "Count Nodes Equal to Average of Subtree",
+		url = "https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CountNodesEqualToAverageOfSubtree
 {
-	public int averageOfSubtree(TreeNode root) {
+	public int averageOfSubtree(TreeNode root)
+	{
 		int[] arr = dfs(root);
 		return arr[0];
 	}
@@ -25,7 +26,7 @@ public class CountNodesEqualToAverageOfSubtree
 	{
 		if (root == null)
 		{
-			return new int[]{0,0,0};
+			return new int[]{0, 0, 0};
 		}
 
 		int[] left = dfs(root.left);

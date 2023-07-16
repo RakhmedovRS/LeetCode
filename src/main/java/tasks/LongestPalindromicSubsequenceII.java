@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/29/2020
  */
 @LeetCode(
-	id = 1682,
-	name = "Longest Palindromic Subsequence II",
-	url = "https://leetcode.com/problems/longest-palindromic-subsequence-ii/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1682,
+		name = "Longest Palindromic Subsequence II",
+		url = "https://leetcode.com/problems/longest-palindromic-subsequence-ii/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class LongestPalindromicSubsequenceII
 {

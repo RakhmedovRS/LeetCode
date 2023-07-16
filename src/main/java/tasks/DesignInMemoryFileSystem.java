@@ -10,11 +10,11 @@ import java.util.*;
  * @created 12/5/2020
  */
 @LeetCode(
-	id = 588,
-	name = "Design In-Memory File System",
-	url = "https://leetcode.com/problems/design-in-memory-file-system/",
-	difficulty = Difficulty.HARD,
-	premium = true
+		id = 588,
+		name = "Design In-Memory File System",
+		url = "https://leetcode.com/problems/design-in-memory-file-system/",
+		difficulty = Difficulty.HARD,
+		premium = true
 )
 public class DesignInMemoryFileSystem
 {

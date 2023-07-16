@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/28/2021
  */
 @LeetCode(
-	id = 2090,
-	name = "K Radius Subarray Averages",
-	url = "https://leetcode.com/problems/k-radius-subarray-averages/",
-	difficulty = Difficulty.MEDIUM
+		id = 2090,
+		name = "K Radius Subarray Averages",
+		url = "https://leetcode.com/problems/k-radius-subarray-averages/",
+		difficulty = Difficulty.MEDIUM
 )
 public class KRadiusSubarrayAverages
 {

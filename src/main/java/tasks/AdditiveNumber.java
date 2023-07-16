@@ -11,10 +11,10 @@ import java.util.List;
  * @created 16-Jun-20
  */
 @LeetCode(
-	id = 306,
-	name = "Additive Number",
-	url = "https://leetcode.com/problems/additive-number/",
-	difficulty = Difficulty.MEDIUM
+		id = 306,
+		name = "Additive Number",
+		url = "https://leetcode.com/problems/additive-number/",
+		difficulty = Difficulty.MEDIUM
 )
 public class AdditiveNumber
 {

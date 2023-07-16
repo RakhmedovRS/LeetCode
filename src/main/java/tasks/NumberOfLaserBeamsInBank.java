@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 1/2/2022
  */
 @LeetCode(
-	id = 2125,
-	name = "Number of Laser Beams in a Bank",
-	url = "https://leetcode.com/problems/number-of-laser-beams-in-a-bank/",
-	difficulty = Difficulty.MEDIUM
+		id = 2125,
+		name = "Number of Laser Beams in a Bank",
+		url = "https://leetcode.com/problems/number-of-laser-beams-in-a-bank/",
+		difficulty = Difficulty.MEDIUM
 )
 public class NumberOfLaserBeamsInBank
 {

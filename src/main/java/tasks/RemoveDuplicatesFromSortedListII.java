@@ -9,10 +9,10 @@ import common.ListNode;
  * @created 1/5/2021
  */
 @LeetCode(
-	id = 82,
-	name = "Remove Duplicates from Sorted List II",
-	url = "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/",
-	difficulty = Difficulty.MEDIUM
+		id = 82,
+		name = "Remove Duplicates from Sorted List II",
+		url = "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RemoveDuplicatesFromSortedListII
 {

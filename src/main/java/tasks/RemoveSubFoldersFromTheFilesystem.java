@@ -12,10 +12,10 @@ import java.util.List;
  * @created 1/19/2021
  */
 @LeetCode(
-	id = 1233,
-	name = "Remove Sub-Folders from the Filesystem",
-	url = "https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/",
-	difficulty = Difficulty.MEDIUM
+		id = 1233,
+		name = "Remove Sub-Folders from the Filesystem",
+		url = "https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RemoveSubFoldersFromTheFilesystem
 {

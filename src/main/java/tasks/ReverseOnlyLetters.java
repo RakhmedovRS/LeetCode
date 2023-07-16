@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 19-May-20
  */
 @LeetCode(
-	id = 917,
-	name = "Reverse Only Letters",
-	url = "https://leetcode.com/problems/reverse-only-letters/",
-	difficulty = Difficulty.EASY
+		id = 917,
+		name = "Reverse Only Letters",
+		url = "https://leetcode.com/problems/reverse-only-letters/",
+		difficulty = Difficulty.EASY
 )
 public class ReverseOnlyLetters
 {

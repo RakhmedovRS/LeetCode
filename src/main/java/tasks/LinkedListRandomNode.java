@@ -11,10 +11,10 @@ import java.util.Random;
  * @created 03-May-20
  */
 @LeetCode(
-	id = 382,
-	name = "Linked List Random Node",
-	url = "https://leetcode.com/problems/linked-list-random-node/",
-	difficulty = Difficulty.MEDIUM
+		id = 382,
+		name = "Linked List Random Node",
+		url = "https://leetcode.com/problems/linked-list-random-node/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LinkedListRandomNode
 {
@@ -24,6 +24,7 @@ public class LinkedListRandomNode
 		ListNode current;
 		int size;
 		Random random;
+
 		public Solution(ListNode head)
 		{
 			this.head = head;

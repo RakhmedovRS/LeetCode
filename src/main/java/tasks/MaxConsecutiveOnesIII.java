@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 15-Sep-20
  */
 @LeetCode(
-	id = 1004,
-	name = "Max Consecutive Ones III",
-	url = "https://leetcode.com/problems/max-consecutive-ones-iii/",
-	difficulty = Difficulty.MEDIUM
+		id = 1004,
+		name = "Max Consecutive Ones III",
+		url = "https://leetcode.com/problems/max-consecutive-ones-iii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaxConsecutiveOnesIII
 {

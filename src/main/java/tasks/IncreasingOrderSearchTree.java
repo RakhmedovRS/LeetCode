@@ -12,10 +12,10 @@ import java.util.List;
  * @created 27-Jun-20
  */
 @LeetCode(
-	id = 897,
-	name = "Increasing Order Search Tree",
-	url = "https://leetcode.com/problems/increasing-order-search-tree/",
-	difficulty = Difficulty.EASY
+		id = 897,
+		name = "Increasing Order Search Tree",
+		url = "https://leetcode.com/problems/increasing-order-search-tree/",
+		difficulty = Difficulty.EASY
 )
 public class IncreasingOrderSearchTree
 {
@@ -68,7 +68,7 @@ public class IncreasingOrderSearchTree
 		root.right = new TreeNode(6);
 		root.right.right = new TreeNode(8);
 		root.right.right.left = new TreeNode(7);
-		root.right.right.right  = new TreeNode(9);
+		root.right.right.right = new TreeNode(9);
 
 		new IncreasingOrderSearchTree().increasingBST(root);
 	}

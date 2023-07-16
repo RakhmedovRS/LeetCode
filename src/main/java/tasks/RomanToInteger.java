@@ -31,7 +31,7 @@ public class RomanToInteger
 
 		int number = 0;
 		char[] chars = s.toCharArray();
-		for (int i = 0; i < chars.length;)
+		for (int i = 0; i < chars.length; )
 		{
 			if (i + 1 < chars.length && map.get(chars[i]) < map.get(chars[i + 1]))
 			{

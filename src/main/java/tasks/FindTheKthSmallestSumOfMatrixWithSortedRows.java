@@ -11,10 +11,10 @@ import java.util.PriorityQueue;
  * @created 2/26/2021
  */
 @LeetCode(
-	id = 1439,
-	name = "Find the Kth Smallest Sum of a Matrix With Sorted Rows",
-	url = "https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/",
-	difficulty = Difficulty.HARD
+		id = 1439,
+		name = "Find the Kth Smallest Sum of a Matrix With Sorted Rows",
+		url = "https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/",
+		difficulty = Difficulty.HARD
 )
 public class FindTheKthSmallestSumOfMatrixWithSortedRows
 {

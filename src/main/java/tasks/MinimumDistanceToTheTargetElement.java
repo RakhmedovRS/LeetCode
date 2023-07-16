@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 5/2/2021
  */
 @LeetCode(
-	id = 1848,
-	name = "Minimum Distance to the Target Element",
-	url = "https://leetcode.com/problems/minimum-distance-to-the-target-element/",
-	difficulty = Difficulty.EASY
+		id = 1848,
+		name = "Minimum Distance to the Target Element",
+		url = "https://leetcode.com/problems/minimum-distance-to-the-target-element/",
+		difficulty = Difficulty.EASY
 )
 public class MinimumDistanceToTheTargetElement
 {

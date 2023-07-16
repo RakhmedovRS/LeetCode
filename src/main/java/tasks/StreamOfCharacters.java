@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 23-Aug-20
  */
 @LeetCode(
-	id = 1032,
-	name = "Stream of Characters",
-	url = "https://leetcode.com/problems/stream-of-characters/",
-	difficulty = Difficulty.HARD
+		id = 1032,
+		name = "Stream of Characters",
+		url = "https://leetcode.com/problems/stream-of-characters/",
+		difficulty = Difficulty.HARD
 )
 public class StreamOfCharacters
 {
@@ -29,7 +29,7 @@ public class StreamOfCharacters
 			for (String word : words)
 			{
 				TrieNode current = root;
-				for (int i = word.length() - 1; i>= 0; i--)
+				for (int i = word.length() - 1; i >= 0; i--)
 				{
 					char ch = word.charAt(i);
 					if (current.child[ch - 'a'] == null)

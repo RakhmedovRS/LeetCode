@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 1/12/2021
  */
 @LeetCode(
-	id = 505,
-	name = "The Maze II",
-	url = "https://leetcode.com/problems/the-maze-ii/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 505,
+		name = "The Maze II",
+		url = "https://leetcode.com/problems/the-maze-ii/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class TheMazeII
 {

@@ -12,24 +12,24 @@ import java.util.Arrays;
  * @1.0$
  */
 @LeetCode(
-        id = 2367,
-        name = "Number of Arithmetic Triplets",
-        url = "https://leetcode.com/problems/number-of-arithmetic-triplets/",
-        difficulty = Difficulty.EASY
+		id = 2367,
+		name = "Number of Arithmetic Triplets",
+		url = "https://leetcode.com/problems/number-of-arithmetic-triplets/",
+		difficulty = Difficulty.EASY
 )
 public class NumberOfArithmeticTriplets
 {
-    public int arithmeticTriplets(int[] nums, int diff)
-    {
-        int count = 0;
-        for (int num: nums)
-        {
-            if (Arrays.binarySearch(nums, num + diff) > 0 && Arrays.binarySearch(nums, num + diff * 2) > 0)
-            {
-                count++;
-            }
-        }
+	public int arithmeticTriplets(int[] nums, int diff)
+	{
+		int count = 0;
+		for (int num : nums)
+		{
+			if (Arrays.binarySearch(nums, num + diff) > 0 && Arrays.binarySearch(nums, num + diff * 2) > 0)
+			{
+				count++;
+			}
+		}
 
-        return count;
-    }
+		return count;
+	}
 }

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/22/2020
  */
 @LeetCode(
-	id = 1664,
-	name = "Ways to Make a Fair Array",
-	url = "https://leetcode.com/problems/ways-to-make-a-fair-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 1664,
+		name = "Ways to Make a Fair Array",
+		url = "https://leetcode.com/problems/ways-to-make-a-fair-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class WaysToMakeFairArray
 {

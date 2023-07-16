@@ -12,10 +12,10 @@ import java.util.List;
  * @created 2/16/2021
  */
 @LeetCode(
-	id = 1738,
-	name = "Find Kth Largest XOR Coordinate Value",
-	url = "https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/",
-	difficulty = Difficulty.MEDIUM
+		id = 1738,
+		name = "Find Kth Largest XOR Coordinate Value",
+		url = "https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindKthLargestXORCoordinateValue
 {

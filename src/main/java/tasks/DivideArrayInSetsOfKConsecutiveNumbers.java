@@ -31,7 +31,7 @@ public class DivideArrayInSetsOfKConsecutiveNumbers
 		while (!priorityQueue.isEmpty())
 		{
 			if (entryList.isEmpty() ||
-				entryList.get(entryList.size() - 1).getKey() == priorityQueue.peek().getKey() - 1)
+					entryList.get(entryList.size() - 1).getKey() == priorityQueue.peek().getKey() - 1)
 			{
 				entryList.add(priorityQueue.remove());
 			}

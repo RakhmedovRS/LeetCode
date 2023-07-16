@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 1/2/2022
  */
 @LeetCode(
-	id = 2124,
-	name = "Check if All A's Appears Before All B's",
-	url = "https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/",
-	difficulty = Difficulty.EASY
+		id = 2124,
+		name = "Check if All A's Appears Before All B's",
+		url = "https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/",
+		difficulty = Difficulty.EASY
 )
 public class CheckIfAllAsAppearsBeforeAllBs
 {

@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 12/20/2020
  */
 @LeetCode(
-	id = 1694,
-	name = "Reformat Phone Number",
-	url = "https://leetcode.com/problems/reformat-phone-number/",
-	difficulty = Difficulty.EASY
+		id = 1694,
+		name = "Reformat Phone Number",
+		url = "https://leetcode.com/problems/reformat-phone-number/",
+		difficulty = Difficulty.EASY
 )
 public class ReformatPhoneNumber
 {

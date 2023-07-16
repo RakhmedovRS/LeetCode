@@ -13,10 +13,10 @@ import java.util.List;
  * @created 10-Mar-20
  */
 @LeetCode(
-	id = 109,
-	name = "Convert Sorted List to Binary Search Tree",
-	url = "https://leetcode.com/problems/minimum-window-substring/",
-	difficulty = Difficulty.MEDIUM
+		id = 109,
+		name = "Convert Sorted List to Binary Search Tree",
+		url = "https://leetcode.com/problems/minimum-window-substring/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ConvertSortedListToBinarySearchTree
 {

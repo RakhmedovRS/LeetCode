@@ -12,10 +12,10 @@ import java.util.TreeMap;
  * @created 10/13/2020
  */
 @LeetCode(
-	id = 460,
-	name = "LFU Cache",
-	url = "https://leetcode.com/problems/lfu-cache/",
-	difficulty = Difficulty.HARD
+		id = 460,
+		name = "LFU Cache",
+		url = "https://leetcode.com/problems/lfu-cache/",
+		difficulty = Difficulty.HARD
 )
 public class LFUCache
 {
@@ -206,7 +206,7 @@ public class LFUCache
 		lfuCache.put(7, 7);
 		lfuCache.put(Integer.MIN_VALUE, Integer.MIN_VALUE); // trying to imitate the head
 		lfuCache.put(9, 9);
-		System.out.println("must 7 and returns: "  + lfuCache.get(7)); //trying to reproduce the bug
+		System.out.println("must 7 and returns: " + lfuCache.get(7)); //trying to reproduce the bug
 		lfuCache.put(10, 10);
 		lfuCache.put(11, 11); // in normal program it must evict (1,1) pair
 		lfuCache.put(12, 12); // in normal program it must evict (2,2) pair

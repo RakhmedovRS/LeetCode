@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 1/20/2021
  */
 @LeetCode(
-	id = 1254,
-	name = "Number of Closed Islands",
-	url = "https://leetcode.com/problems/number-of-closed-islands/",
-	difficulty = Difficulty.MEDIUM
+		id = 1254,
+		name = "Number of Closed Islands",
+		url = "https://leetcode.com/problems/number-of-closed-islands/",
+		difficulty = Difficulty.MEDIUM
 )
 public class NumberOfClosedIslands
 {
@@ -55,8 +55,8 @@ public class NumberOfClosedIslands
 		grid[row][column] = -1;
 
 		return isSurrounded(row - 1, column, rows, columns, grid, visited)
-			&& isSurrounded(row + 1, column, rows, columns, grid, visited)
-			&& isSurrounded(row, column - 1, rows, columns, grid, visited)
-			&& isSurrounded(row, column + 1, rows, columns, grid, visited);
+				&& isSurrounded(row + 1, column, rows, columns, grid, visited)
+				&& isSurrounded(row, column - 1, rows, columns, grid, visited)
+				&& isSurrounded(row, column + 1, rows, columns, grid, visited);
 	}
 }

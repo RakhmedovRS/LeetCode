@@ -10,11 +10,11 @@ import java.util.*;
  * @created 3/29/2021
  */
 @LeetCode(
-	id = 1136,
-	name = "Parallel Courses",
-	url = "https://leetcode.com/problems/parallel-courses/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1136,
+		name = "Parallel Courses",
+		url = "https://leetcode.com/problems/parallel-courses/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class ParallelCourses
 {

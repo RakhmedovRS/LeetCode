@@ -10,10 +10,10 @@ import java.util.PriorityQueue;
  * @created 3/5/2022
  */
 @LeetCode(
-	id = 2191,
-	name = "Sort the Jumbled Numbers",
-	url = "https://leetcode.com/contest/biweekly-contest-73/problems/sort-the-jumbled-numbers/",
-	difficulty = Difficulty.MEDIUM
+		id = 2191,
+		name = "Sort the Jumbled Numbers",
+		url = "https://leetcode.com/contest/biweekly-contest-73/problems/sort-the-jumbled-numbers/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SortTheJumbledNumbers
 {

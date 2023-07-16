@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 08-May-20
  */
 @LeetCode(
-	id = 1232,
-	name = "Check If It Is a Straight Line",
-	url = "https://leetcode.com/problems/check-if-it-is-a-straight-line/",
-	difficulty = Difficulty.EASY
+		id = 1232,
+		name = "Check If It Is a Straight Line",
+		url = "https://leetcode.com/problems/check-if-it-is-a-straight-line/",
+		difficulty = Difficulty.EASY
 )
 public class CheckIfItIsStraightLine
 {

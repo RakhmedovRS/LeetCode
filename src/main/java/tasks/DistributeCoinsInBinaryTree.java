@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 12-Sep-20
  */
 @LeetCode(
-	id = 979,
-	name = "Distribute Coins in Binary Tree",
-	url = "https://leetcode.com/problems/distribute-coins-in-binary-tree/",
-	difficulty = Difficulty.MEDIUM
+		id = 979,
+		name = "Distribute Coins in Binary Tree",
+		url = "https://leetcode.com/problems/distribute-coins-in-binary-tree/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DistributeCoinsInBinaryTree
 {

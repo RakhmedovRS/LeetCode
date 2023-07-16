@@ -11,11 +11,11 @@ import java.util.Map;
  * @created 12/3/2020
  */
 @LeetCode(
-	id = 170,
-	name = "Two Sum III - Data structure design",
-	url = "https://leetcode.com/problems/two-sum-iii-data-structure-design/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 170,
+		name = "Two Sum III - Data structure design",
+		url = "https://leetcode.com/problems/two-sum-iii-data-structure-design/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class TwoSumIIIDataStructureDesign
 {

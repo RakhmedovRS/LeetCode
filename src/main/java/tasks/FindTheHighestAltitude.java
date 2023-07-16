@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 1/23/2021
  */
 @LeetCode(
-	id = 1732,
-	name = "Find the Highest Altitude",
-	url = "https://leetcode.com/problems/find-the-highest-altitude/",
-	difficulty = Difficulty.EASY
+		id = 1732,
+		name = "Find the Highest Altitude",
+		url = "https://leetcode.com/problems/find-the-highest-altitude/",
+		difficulty = Difficulty.EASY
 )
 public class FindTheHighestAltitude
 {

@@ -11,10 +11,10 @@ import java.util.LinkedList;
  * @created 5/26/2021
  */
 @LeetCode(
-	id = 388,
-	name = "Longest Absolute File Path",
-	url = "https://leetcode.com/problems/longest-absolute-file-path/",
-	difficulty = Difficulty.MEDIUM
+		id = 388,
+		name = "Longest Absolute File Path",
+		url = "https://leetcode.com/problems/longest-absolute-file-path/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LongestAbsoluteFilePath
 {

@@ -11,11 +11,11 @@ import java.util.Map;
  * @created 12/8/2020
  */
 @LeetCode(
-	id = 359,
-	name = "Logger Rate Limiter",
-	url = "https://leetcode.com/problems/logger-rate-limiter/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 359,
+		name = "Logger Rate Limiter",
+		url = "https://leetcode.com/problems/logger-rate-limiter/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class LoggerRateLimiter
 {

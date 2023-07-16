@@ -11,10 +11,10 @@ import java.util.PriorityQueue;
  * @created 3/27/2022
  */
 @LeetCode(
-	id = 2217,
-	name = "Find Palindrome With Fixed Length",
-	url = "https://leetcode.com/problems/find-palindrome-with-fixed-length/",
-	difficulty = Difficulty.MEDIUM
+		id = 2217,
+		name = "Find Palindrome With Fixed Length",
+		url = "https://leetcode.com/problems/find-palindrome-with-fixed-length/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindPalindromeWithFixedLength
 {

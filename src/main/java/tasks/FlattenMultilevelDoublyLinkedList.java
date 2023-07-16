@@ -9,10 +9,10 @@ import common.Node;
  * @created 10-Jul-20
  */
 @LeetCode(
-	id = 430,
-	name = "Flatten a Multilevel Doubly Linked List",
-	url = "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/",
-	difficulty = Difficulty.MEDIUM
+		id = 430,
+		name = "Flatten a Multilevel Doubly Linked List",
+		url = "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FlattenMultilevelDoublyLinkedList
 {

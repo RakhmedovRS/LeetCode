@@ -11,10 +11,10 @@ import java.util.PriorityQueue;
  * @created 16-Mar-20
  */
 @LeetCode(
-	id = 295,
-	name = "Find Median from Data Stream",
-	url = "https://leetcode.com/problems/find-median-from-data-stream/",
-	difficulty = Difficulty.HARD
+		id = 295,
+		name = "Find Median from Data Stream",
+		url = "https://leetcode.com/problems/find-median-from-data-stream/",
+		difficulty = Difficulty.HARD
 )
 public class FindMedianFromDataStream
 {

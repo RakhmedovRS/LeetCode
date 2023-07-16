@@ -12,11 +12,11 @@ import java.util.Map;
  * @created 1/15/2021
  */
 @LeetCode(
-	id = 690,
-	name = "Employee Importance",
-	url = "https://leetcode.com/problems/employee-importance/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 690,
+		name = "Employee Importance",
+		url = "https://leetcode.com/problems/employee-importance/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class EmployeeImportance
 {

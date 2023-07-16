@@ -11,10 +11,10 @@ import java.util.Set;
  * @created 12/19/2021
  */
 @LeetCode(
-	id = 2109,
-	name = "Adding Spaces to a String",
-	url = "https://leetcode.com/problems/adding-spaces-to-a-string/",
-	difficulty = Difficulty.MEDIUM
+		id = 2109,
+		name = "Adding Spaces to a String",
+		url = "https://leetcode.com/problems/adding-spaces-to-a-string/",
+		difficulty = Difficulty.MEDIUM
 )
 public class AddingSpacesToString
 {

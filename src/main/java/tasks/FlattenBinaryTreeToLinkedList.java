@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 5/14/2021
  */
 @LeetCode(
-	id = 114,
-	name = "Flatten Binary Tree to Linked List",
-	url = "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
-	difficulty = Difficulty.MEDIUM
+		id = 114,
+		name = "Flatten Binary Tree to Linked List",
+		url = "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FlattenBinaryTreeToLinkedList
 {

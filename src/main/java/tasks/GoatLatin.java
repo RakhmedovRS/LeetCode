@@ -21,10 +21,10 @@ public class GoatLatin
 				char firstLetter = Character.toLowerCase(S.charAt(left));
 				int end = right == S.length() - 1 ? right + 1 : right;
 				if (firstLetter == 'a'
-					|| firstLetter == 'e'
-					|| firstLetter == 'i'
-					|| firstLetter == 'o'
-					|| firstLetter == 'u')
+						|| firstLetter == 'e'
+						|| firstLetter == 'i'
+						|| firstLetter == 'o'
+						|| firstLetter == 'u')
 				{
 					stringBuilder.append(S, left, end);
 				}

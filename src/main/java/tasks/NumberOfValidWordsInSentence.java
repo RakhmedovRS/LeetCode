@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 10/28/2021
  */
 @LeetCode(
-	id = 2047,
-	name = "Number of Valid Words in a Sentence",
-	url = "https://leetcode.com/problems/number-of-valid-words-in-a-sentence/",
-	difficulty = Difficulty.EASY
+		id = 2047,
+		name = "Number of Valid Words in a Sentence",
+		url = "https://leetcode.com/problems/number-of-valid-words-in-a-sentence/",
+		difficulty = Difficulty.EASY
 )
 public class NumberOfValidWordsInSentence
 {

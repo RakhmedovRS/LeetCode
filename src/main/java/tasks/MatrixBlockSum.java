@@ -19,9 +19,9 @@ public class MatrixBlockSum
 			for (int column = 1; column <= columns; column++)
 			{
 				sum[row][column] = matrix[row - 1][column - 1]
-					+ sum[row - 1][column]
-					+ sum[row][column - 1]
-					- sum[row - 1][column - 1];
+						+ sum[row - 1][column]
+						+ sum[row][column - 1]
+						- sum[row - 1][column - 1];
 			}
 		}
 
@@ -39,9 +39,9 @@ public class MatrixBlockSum
 				row2++;
 				column2++;
 				answer[row][column] = sum[row2][column2]
-					- sum[row2][column1 - 1]
-					- sum[row1 - 1][column2]
-					+ sum[row1 - 1][column1 - 1];
+						- sum[row2][column1 - 1]
+						- sum[row1 - 1][column2]
+						+ sum[row1 - 1][column1 - 1];
 			}
 		}
 		return answer;

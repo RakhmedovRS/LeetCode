@@ -8,17 +8,17 @@ import common.LeetCode;
  * @created 27-Apr-20
  */
 @LeetCode(
-	id = 221,
-	name = "Maximal Square",
-	url = "https://leetcode.com/problems/maximal-square/",
-	difficulty = Difficulty.MEDIUM
+		id = 221,
+		name = "Maximal Square",
+		url = "https://leetcode.com/problems/maximal-square/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximalSquare
 {
 	public int maximalSquare(char[][] matrix)
 	{
 		int rows = matrix.length;
-		if(rows == 0)
+		if (rows == 0)
 		{
 			return 0;
 		}
@@ -34,8 +34,8 @@ public class MaximalSquare
 					if (row > 0 && column > 0)
 					{
 						matrix[row][column] = (char) ('1' + Math.min(matrix[row - 1][column - 1] - '0',
-							Math.min(matrix[row - 1][column] - '0',
-								matrix[row][column - 1] - '0')));
+								Math.min(matrix[row - 1][column] - '0',
+										matrix[row][column - 1] - '0')));
 					}
 
 					max = Math.max(max, matrix[row][column] - '0');

@@ -11,11 +11,11 @@ import java.util.Queue;
  * @created 12/11/2020
  */
 @LeetCode(
-	id = 286,
-	name = "Walls and Gates",
-	url = "https://leetcode.com/problems/walls-and-gates/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 286,
+		name = "Walls and Gates",
+		url = "https://leetcode.com/problems/walls-and-gates/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class WallsAndGates
 {

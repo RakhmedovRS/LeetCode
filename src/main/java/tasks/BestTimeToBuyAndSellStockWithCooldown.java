@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 29-Jul-20
  */
 @LeetCode(
-	id = 309,
-	name = "Best Time to Buy and Sell Stock with Cooldown",
-	url = "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
-	difficulty = Difficulty.MEDIUM
+		id = 309,
+		name = "Best Time to Buy and Sell Stock with Cooldown",
+		url = "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+		difficulty = Difficulty.MEDIUM
 )
 public class BestTimeToBuyAndSellStockWithCooldown
 {

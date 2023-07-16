@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/21/2020
  */
 @LeetCode(
-	id = 1228,
-	name = "Missing Number In Arithmetic Progression",
-	url = "https://leetcode.com/problems/missing-number-in-arithmetic-progression/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1228,
+		name = "Missing Number In Arithmetic Progression",
+		url = "https://leetcode.com/problems/missing-number-in-arithmetic-progression/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class MissingNumberInArithmeticProgression
 {

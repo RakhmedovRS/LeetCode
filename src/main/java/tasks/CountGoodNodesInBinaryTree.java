@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 13-Jun-20
  */
 @LeetCode(
-	id = 1448,
-	name = "Count Good Nodes in Binary Tree",
-	url = "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
-	difficulty = Difficulty.MEDIUM
+		id = 1448,
+		name = "Count Good Nodes in Binary Tree",
+		url = "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CountGoodNodesInBinaryTree
 {

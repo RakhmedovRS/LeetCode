@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 08-Jun-20
  */
 @LeetCode(
-	id = 231,
-	name = "Power of Two",
-	url = "https://leetcode.com/problems/power-of-two/",
-	difficulty = Difficulty.EASY
+		id = 231,
+		name = "Power of Two",
+		url = "https://leetcode.com/problems/power-of-two/",
+		difficulty = Difficulty.EASY
 )
 public class PowerOfTwo
 {

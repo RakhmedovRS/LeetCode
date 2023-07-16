@@ -11,42 +11,42 @@ import java.util.Set;
  * @created 1/29/2023
  */
 @LeetCode(
-        id = 2549,
-        name = "Count Distinct Numbers on Board",
-        url = "https://leetcode.com/problems/count-distinct-numbers-on-board/",
-        difficulty = Difficulty.EASY
+		id = 2549,
+		name = "Count Distinct Numbers on Board",
+		url = "https://leetcode.com/problems/count-distinct-numbers-on-board/",
+		difficulty = Difficulty.EASY
 )
 public class CountDistinctNumbersOnBoard
 {
-    public int distinctIntegers(int n)
-    {
-        Set<Integer> set = new HashSet<>();
-        set.add(n);
+	public int distinctIntegers(int n)
+	{
+		Set<Integer> set = new HashSet<>();
+		set.add(n);
 
-        Set<Integer> copy = new HashSet<>();
-        Set<String> seen = new HashSet<>();
-        while (true)
-        {
-            copy = new HashSet<>(set);
-            for (int num: set)
-            {
-                for (int i = 1; i <= n; i++)
-                {
-                    if (num % i == 1)
-                    {
-                        copy.add(i);
-                    }
-                }
-            }
+		Set<Integer> copy = new HashSet<>();
+		Set<String> seen = new HashSet<>();
+		while (true)
+		{
+			copy = new HashSet<>(set);
+			for (int num : set)
+			{
+				for (int i = 1; i <= n; i++)
+				{
+					if (num % i == 1)
+					{
+						copy.add(i);
+					}
+				}
+			}
 
-            if (!seen.add(copy.toString()))
-            {
-                break;
-            }
+			if (!seen.add(copy.toString()))
+			{
+				break;
+			}
 
-            set = copy;
-        }
+			set = copy;
+		}
 
-        return set.size();
-    }
+		return set.size();
+	}
 }

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/16/2020
  */
 @LeetCode(
-	id = 327,
-	name = "Count of Range Sum",
-	url = "https://leetcode.com/problems/count-of-range-sum/",
-	difficulty = Difficulty.HARD
+		id = 327,
+		name = "Count of Range Sum",
+		url = "https://leetcode.com/problems/count-of-range-sum/",
+		difficulty = Difficulty.HARD
 )
 public class CountOfRangeSum
 {

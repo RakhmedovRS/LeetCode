@@ -10,11 +10,11 @@ import java.util.*;
  * @created 12/7/2020
  */
 @LeetCode(
-	id = 1197,
-	name = "Minimum Knight Moves",
-	url = "https://leetcode.com/problems/minimum-knight-moves/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1197,
+		name = "Minimum Knight Moves",
+		url = "https://leetcode.com/problems/minimum-knight-moves/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class MinimumKnightMoves
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 17-Mar-20
  */
 @LeetCode(
-	id = 204,
-	name = "Count Primes",
-	url = "https://leetcode.com/problems/count-primes/",
-	difficulty = Difficulty.EASY
+		id = 204,
+		name = "Count Primes",
+		url = "https://leetcode.com/problems/count-primes/",
+		difficulty = Difficulty.EASY
 )
 public class CountPrimes
 {
@@ -42,6 +42,7 @@ public class CountPrimes
 
 	public static void main(String[] args)
 	{
-		System.out.println(new CountPrimes().countPrimes(10));;
+		System.out.println(new CountPrimes().countPrimes(10));
+		;
 	}
 }

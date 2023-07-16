@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 9/18/2021
  */
 @LeetCode(
-	id = 2006,
-	name = "Count Number of Pairs With Absolute Difference K",
-	url = "https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/",
-	difficulty = Difficulty.EASY
+		id = 2006,
+		name = "Count Number of Pairs With Absolute Difference K",
+		url = "https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/",
+		difficulty = Difficulty.EASY
 )
 public class CountNumberOfPairsWithAbsoluteDifferenceK
 {

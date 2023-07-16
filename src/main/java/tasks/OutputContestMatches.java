@@ -10,11 +10,11 @@ import java.util.LinkedList;
  * @created 1/21/2021
  */
 @LeetCode(
-	id = 544,
-	name = "Output Contest Matches",
-	url = "https://leetcode.com/problems/output-contest-matches/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 544,
+		name = "Output Contest Matches",
+		url = "https://leetcode.com/problems/output-contest-matches/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class OutputContestMatches
 {

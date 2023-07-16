@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 7/18/2021
  */
 @LeetCode(
-	id = 1936,
-	name = "Add Minimum Number of Rungs",
-	url = "https://leetcode.com/problems/add-minimum-number-of-rungs/",
-	difficulty = Difficulty.MEDIUM
+		id = 1936,
+		name = "Add Minimum Number of Rungs",
+		url = "https://leetcode.com/problems/add-minimum-number-of-rungs/",
+		difficulty = Difficulty.MEDIUM
 )
 public class AddMinimumNumberOfRungs
 {

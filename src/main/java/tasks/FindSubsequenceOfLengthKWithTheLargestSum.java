@@ -12,10 +12,10 @@ import java.util.Map;
  * @created 12/11/2021
  */
 @LeetCode(
-	id = 2099,
-	name = "Find Subsequence of Length K With the Largest Sum",
-	url = "https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/",
-	difficulty = Difficulty.EASY
+		id = 2099,
+		name = "Find Subsequence of Length K With the Largest Sum",
+		url = "https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/",
+		difficulty = Difficulty.EASY
 )
 public class FindSubsequenceOfLengthKWithTheLargestSum
 {

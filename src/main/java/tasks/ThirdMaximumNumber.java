@@ -26,9 +26,9 @@ public class ThirdMaximumNumber
 				max[1] = nums[i];
 			}
 			else if (max[1] != null
-				&& nums[i] != max[0]
-				&& nums[i] != max[1]
-				&& (max[2] == null || nums[i] > max[2]))
+					&& nums[i] != max[0]
+					&& nums[i] != max[1]
+					&& (max[2] == null || nums[i] > max[2]))
 			{
 				max[2] = nums[i];
 			}

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 7/17/2021
  */
 @LeetCode(
-	id = 1933,
-	name = "Check if String Is Decomposable Into Value-Equal Substrings",
-	url = "https://leetcode.com/problems/check-if-string-is-decomposable-into-value-equal-substrings/",
-	difficulty = Difficulty.EASY
+		id = 1933,
+		name = "Check if String Is Decomposable Into Value-Equal Substrings",
+		url = "https://leetcode.com/problems/check-if-string-is-decomposable-into-value-equal-substrings/",
+		difficulty = Difficulty.EASY
 )
 public class CheckIfStringIsDecomposableIntoValueEqualSubstrings
 {

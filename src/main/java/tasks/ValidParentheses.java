@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 20-Mar-20
  */
 @LeetCode(
-	id = 20,
-	name = "Valid Parentheses",
-	url = "https://leetcode.com/problems/valid-parentheses/",
-	difficulty = Difficulty.EASY
+		id = 20,
+		name = "Valid Parentheses",
+		url = "https://leetcode.com/problems/valid-parentheses/",
+		difficulty = Difficulty.EASY
 )
 public class ValidParentheses
 {

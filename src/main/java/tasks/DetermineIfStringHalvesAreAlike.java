@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/27/2020
  */
 @LeetCode(
-	id = 1704,
-	name = "Determine if String Halves Are Alike",
-	url = "https://leetcode.com/problems/determine-if-string-halves-are-alike/",
-	difficulty = Difficulty.EASY
+		id = 1704,
+		name = "Determine if String Halves Are Alike",
+		url = "https://leetcode.com/problems/determine-if-string-halves-are-alike/",
+		difficulty = Difficulty.EASY
 )
 public class DetermineIfStringHalvesAreAlike
 {

@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 1/11/2021
  */
 @LeetCode(
-	id = 1198,
-	name = "Find Smallest Common Element in All Rows",
-	url = "https://leetcode.com/problems/find-smallest-common-element-in-all-rows/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1198,
+		name = "Find Smallest Common Element in All Rows",
+		url = "https://leetcode.com/problems/find-smallest-common-element-in-all-rows/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class FindSmallestCommonElementInAllRows
 {

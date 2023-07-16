@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 1/13/2021
  */
 @LeetCode(
-	id = 573,
-	name = "Squirrel Simulation",
-	url = "https://leetcode.com/problems/squirrel-simulation/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 573,
+		name = "Squirrel Simulation",
+		url = "https://leetcode.com/problems/squirrel-simulation/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class SquirrelSimulation
 {

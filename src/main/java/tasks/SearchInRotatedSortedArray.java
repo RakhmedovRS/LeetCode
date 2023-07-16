@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 10-Apr-20
  */
 @LeetCode(
-	id = 33,
-	name = "Search in Rotated Sorted Array",
-	url = "https://leetcode.com/problems/search-in-rotated-sorted-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 33,
+		name = "Search in Rotated Sorted Array",
+		url = "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SearchInRotatedSortedArray
 {

@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 4/11/2021
  */
 @LeetCode(
-	id = 1302,
-	name = "Deepest Leaves Sum",
-	url = "https://leetcode.com/problems/deepest-leaves-sum/",
-	difficulty = Difficulty.MEDIUM
+		id = 1302,
+		name = "Deepest Leaves Sum",
+		url = "https://leetcode.com/problems/deepest-leaves-sum/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DeepestLeavesSum
 {

@@ -10,11 +10,11 @@ import java.util.*;
  * @created 1/19/2021
  */
 @LeetCode(
-	id = 1258,
-	name = "Synonymous Sentences",
-	url = "https://leetcode.com/problems/synonymous-sentences/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1258,
+		name = "Synonymous Sentences",
+		url = "https://leetcode.com/problems/synonymous-sentences/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class SynonymousSentences
 {

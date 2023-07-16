@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 01-Jul-20
  */
 @LeetCode(
-	id = 935,
-	name = "Knight Dialer",
-	url = "https://leetcode.com/problems/knight-dialer/",
-	difficulty = Difficulty.MEDIUM
+		id = 935,
+		name = "Knight Dialer",
+		url = "https://leetcode.com/problems/knight-dialer/",
+		difficulty = Difficulty.MEDIUM
 )
 public class KnightDialer
 {
@@ -26,12 +26,12 @@ public class KnightDialer
 
 		int MOD = 1_000_000_007;
 		int[][] numPad =
-			{
-				{1, 2, 3},
-				{4, 5, 6},
-				{7, 8, 9},
-				{10, 0, 11}
-			};
+				{
+						{1, 2, 3},
+						{4, 5, 6},
+						{7, 8, 9},
+						{10, 0, 11}
+				};
 		Integer[][] memo = new Integer[N + 1][12];
 		for (int i = 0; i < 10; i++)
 		{
@@ -87,11 +87,11 @@ public class KnightDialer
 	private boolean isValidMove(int row, int column, int[][] numPad)
 	{
 		return row >= 0
-			&& row < numPad.length
-			&& column >= 0
-			&& column < numPad[row].length
-			&& numPad[row][column] != 10
-			&& numPad[row][column] != 11;
+				&& row < numPad.length
+				&& column >= 0
+				&& column < numPad[row].length
+				&& numPad[row][column] != 10
+				&& numPad[row][column] != 11;
 	}
 
 	public static void main(String[] args)

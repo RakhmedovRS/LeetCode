@@ -11,11 +11,11 @@ import java.util.Queue;
  * @created 4/7/2021
  */
 @LeetCode(
-	id = 1810,
-	name = "Minimum Path Cost in a Hidden Grid",
-	url = "https://leetcode.com/problems/minimum-path-cost-in-a-hidden-grid/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1810,
+		name = "Minimum Path Cost in a Hidden Grid",
+		url = "https://leetcode.com/problems/minimum-path-cost-in-a-hidden-grid/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class MinimumPathCostInHiddenGrid
 {

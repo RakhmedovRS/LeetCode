@@ -9,10 +9,10 @@ import common.ListNode;
  * @created 07-Apr-20
  */
 @LeetCode(
-	id = 160,
-	name = "Intersection of Two Linked Lists",
-	url = "https://leetcode.com/problems/intersection-of-two-linked-lists/",
-	difficulty = Difficulty.EASY
+		id = 160,
+		name = "Intersection of Two Linked Lists",
+		url = "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+		difficulty = Difficulty.EASY
 )
 public class IntersectionOfTwoLinkedLists
 {

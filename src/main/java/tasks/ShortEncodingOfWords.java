@@ -11,10 +11,10 @@ import java.util.Comparator;
  * @created 1/6/2021
  */
 @LeetCode(
-	id = 820,
-	name = "Short Encoding of Words",
-	url = "https://leetcode.com/problems/short-encoding-of-words/",
-	difficulty = Difficulty.MEDIUM
+		id = 820,
+		name = "Short Encoding of Words",
+		url = "https://leetcode.com/problems/short-encoding-of-words/",
+		difficulty = Difficulty.MEDIUM
 
 )
 public class ShortEncodingOfWords

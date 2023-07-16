@@ -11,10 +11,10 @@ import java.util.List;
  * @created 30-Jul-20
  */
 @LeetCode(
-	id = 539,
-	name = "Minimum Time Difference",
-	url = "https://leetcode.com/problems/minimum-time-difference/",
-	difficulty = Difficulty.MEDIUM
+		id = 539,
+		name = "Minimum Time Difference",
+		url = "https://leetcode.com/problems/minimum-time-difference/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumTimeDifference
 {

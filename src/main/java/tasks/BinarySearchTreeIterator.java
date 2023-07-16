@@ -11,10 +11,10 @@ import java.util.LinkedList;
  * @created 12/9/2020
  */
 @LeetCode(
-	id = 173,
-	name = "Binary Search Tree Iterator",
-	url = "https://leetcode.com/problems/binary-search-tree-iterator/",
-	difficulty = Difficulty.MEDIUM
+		id = 173,
+		name = "Binary Search Tree Iterator",
+		url = "https://leetcode.com/problems/binary-search-tree-iterator/",
+		difficulty = Difficulty.MEDIUM
 )
 public class BinarySearchTreeIterator
 {

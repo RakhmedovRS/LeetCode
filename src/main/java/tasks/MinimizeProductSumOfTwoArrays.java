@@ -10,11 +10,11 @@ import java.util.Arrays;
  * @created 5/27/2021
  */
 @LeetCode(
-	id = 1874,
-	name = "Minimize Product Sum of Two Arrays",
-	url = "https://leetcode.com/problems/minimize-product-sum-of-two-arrays/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1874,
+		name = "Minimize Product Sum of Two Arrays",
+		url = "https://leetcode.com/problems/minimize-product-sum-of-two-arrays/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class MinimizeProductSumOfTwoArrays
 {

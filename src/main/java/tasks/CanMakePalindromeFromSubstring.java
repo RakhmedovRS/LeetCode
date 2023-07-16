@@ -78,23 +78,23 @@ public class CanMakePalindromeFromSubstring
 	public static void main(String[] args)
 	{
 		System.out.println(new CanMakePalindromeFromSubstring().canMakePaliQueries("rkzavgdmdgt",
-			new int[][]{
-				{7, 9, 1}
-			}));
+				new int[][]{
+						{7, 9, 1}
+				}));
 
 		System.out.println(new CanMakePalindromeFromSubstring().canMakePaliQueries("hunu",
-			new int[][]{
-				{2, 3, 0},
-				{2, 3, 0}
-			}));
+				new int[][]{
+						{2, 3, 0},
+						{2, 3, 0}
+				}));
 
 		System.out.println(new CanMakePalindromeFromSubstring().canMakePaliQueries("abcda",
-			new int[][]{
-				{3, 3, 0},
-				{1, 2, 0},
-				{0, 3, 1},
-				{0, 3, 2},
-				{0, 4, 1}
-			}));
+				new int[][]{
+						{3, 3, 0},
+						{1, 2, 0},
+						{0, 3, 1},
+						{0, 3, 2},
+						{0, 4, 1}
+				}));
 	}
 }

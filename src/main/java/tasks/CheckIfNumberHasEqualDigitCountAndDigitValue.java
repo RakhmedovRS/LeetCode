@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/12/2022
  */
 @LeetCode(
-	id = 2283,
-	name = "Check if Number Has Equal Digit Count and Digit Value",
-	url = "https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/",
-	difficulty = Difficulty.EASY
+		id = 2283,
+		name = "Check if Number Has Equal Digit Count and Digit Value",
+		url = "https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/",
+		difficulty = Difficulty.EASY
 )
 public class CheckIfNumberHasEqualDigitCountAndDigitValue
 {

@@ -12,10 +12,10 @@ import java.util.List;
  * @created 12-Apr-20
  */
 @LeetCode(
-	id = 120,
-	name = "Triangle",
-	url = "https://leetcode.com/problems/triangle/",
-	difficulty = Difficulty.MEDIUM
+		id = 120,
+		name = "Triangle",
+		url = "https://leetcode.com/problems/triangle/",
+		difficulty = Difficulty.MEDIUM
 )
 public class Triangle
 {

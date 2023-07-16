@@ -9,10 +9,10 @@ import common.ListNode;
  * @created 04-Mar-20
  */
 @LeetCode(
-	id = 148,
-	name = "Sort List",
-	url = "https://leetcode.com/problems/sort-list/",
-	difficulty = Difficulty.MEDIUM
+		id = 148,
+		name = "Sort List",
+		url = "https://leetcode.com/problems/sort-list/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SortList
 {

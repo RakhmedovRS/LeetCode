@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 11/29/2020
  */
 @LeetCode(
-	id = 1673,
-	name = "Find the Most Competitive Subsequence",
-	url = "https://leetcode.com/problems/find-the-most-competitive-subsequence/",
-	difficulty = Difficulty.MEDIUM
+		id = 1673,
+		name = "Find the Most Competitive Subsequence",
+		url = "https://leetcode.com/problems/find-the-most-competitive-subsequence/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindTheMostCompetitiveSubsequence
 {

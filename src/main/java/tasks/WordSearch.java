@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 22-Mar-20
  */
 @LeetCode(
-	id = 79,
-	name = "Word Search",
-	url = "https://leetcode.com/problems/word-search/",
-	difficulty = Difficulty.MEDIUM
+		id = 79,
+		name = "Word Search",
+		url = "https://leetcode.com/problems/word-search/",
+		difficulty = Difficulty.MEDIUM
 )
 public class WordSearch
 {
@@ -53,9 +53,9 @@ public class WordSearch
 			char temp = board[row][column];
 			board[row][column] = ' ';
 			if (exist(board, word, row - 1, column, idx + 1)
-				|| exist(board, word, row + 1, column, idx + 1)
-				|| exist(board, word, row, column - 1, idx + 1)
-				|| exist(board, word, row, column + 1, idx + 1))
+					|| exist(board, word, row + 1, column, idx + 1)
+					|| exist(board, word, row, column - 1, idx + 1)
+					|| exist(board, word, row, column + 1, idx + 1))
 			{
 				return true;
 			}
@@ -68,29 +68,29 @@ public class WordSearch
 	public static void main(String[] args)
 	{
 		System.out.println(new WordSearch().exist(
-			new char[][]{
-				{'A'},
-			}, "AB"));
+				new char[][]{
+						{'A'},
+				}, "AB"));
 
 		System.out.println(new WordSearch().exist(
-			new char[][]{
-				{'A', 'B', 'C', 'E'},
-				{'S', 'F', 'C', 'S'},
-				{'A', 'D', 'E', 'E'}
-			}, "ABCCED"));
+				new char[][]{
+						{'A', 'B', 'C', 'E'},
+						{'S', 'F', 'C', 'S'},
+						{'A', 'D', 'E', 'E'}
+				}, "ABCCED"));
 
 		System.out.println(new WordSearch().exist(
-			new char[][]{
-				{'A', 'B', 'C', 'E'},
-				{'S', 'F', 'C', 'S'},
-				{'A', 'D', 'E', 'E'}
-			}, "SEE"));
+				new char[][]{
+						{'A', 'B', 'C', 'E'},
+						{'S', 'F', 'C', 'S'},
+						{'A', 'D', 'E', 'E'}
+				}, "SEE"));
 
 		System.out.println(new WordSearch().exist(
-			new char[][]{
-				{'A', 'B', 'C', 'E'},
-				{'S', 'F', 'C', 'S'},
-				{'A', 'D', 'E', 'E'}
-			}, "ABCB"));
+				new char[][]{
+						{'A', 'B', 'C', 'E'},
+						{'S', 'F', 'C', 'S'},
+						{'A', 'D', 'E', 'E'}
+				}, "ABCB"));
 	}
 }

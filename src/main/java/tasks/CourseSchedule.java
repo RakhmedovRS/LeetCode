@@ -10,10 +10,10 @@ import java.util.*;
  * @created 29-May-20
  */
 @LeetCode(
-	id = 207,
-	name = "Course Schedule",
-	url = "https://leetcode.com/problems/course-schedule/",
-	difficulty = Difficulty.MEDIUM
+		id = 207,
+		name = "Course Schedule",
+		url = "https://leetcode.com/problems/course-schedule/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CourseSchedule
 {
@@ -43,7 +43,7 @@ public class CourseSchedule
 		{
 			int current = stack.pop();
 			count++;
-			for (int node: graph.getOrDefault(current, Collections.emptyList()))
+			for (int node : graph.getOrDefault(current, Collections.emptyList()))
 			{
 				inDegree[node]--;
 				if (inDegree[node] == 0)

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 17-May-20
  */
 @LeetCode(
-	id = 848,
-	name = "Shifting Letters",
-	url = "https://leetcode.com/problems/shifting-letters/",
-	difficulty = Difficulty.MEDIUM
+		id = 848,
+		name = "Shifting Letters",
+		url = "https://leetcode.com/problems/shifting-letters/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ShiftingLetters
 {

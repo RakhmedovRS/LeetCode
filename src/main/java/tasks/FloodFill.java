@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 11-May-20
  */
 @LeetCode(
-	id = 733,
-	name = "Flood Fill",
-	url = "https://leetcode.com/problems/flood-fill/",
-	difficulty = Difficulty.EASY
+		id = 733,
+		name = "Flood Fill",
+		url = "https://leetcode.com/problems/flood-fill/",
+		difficulty = Difficulty.EASY
 )
 public class FloodFill
 {
@@ -35,8 +35,8 @@ public class FloodFill
 	public void floodFill(int[][] image, int row, int column, int newColor, int startColor, boolean[][] visited)
 	{
 		if (row < 0 || row == image.length
-			|| column < 0 || column == image[row].length
-			|| image[row][column] != startColor || visited[row][column])
+				|| column < 0 || column == image[row].length
+				|| image[row][column] != startColor || visited[row][column])
 		{
 			return;
 		}

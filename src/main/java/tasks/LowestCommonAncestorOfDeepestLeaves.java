@@ -14,10 +14,10 @@ import java.util.Set;
  * @created 11/20/2020
  */
 @LeetCode(
-	id = 1123,
-	name = "Lowest Common Ancestor of Deepest Leaves",
-	url = "https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/",
-	difficulty = Difficulty.MEDIUM
+		id = 1123,
+		name = "Lowest Common Ancestor of Deepest Leaves",
+		url = "https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LowestCommonAncestorOfDeepestLeaves
 {

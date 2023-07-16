@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 10-Jun-20
  */
 @LeetCode(
-	id = 1249,
-	name = "Minimum Remove to Make Valid Parentheses",
-	url = "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
-	difficulty = Difficulty.MEDIUM
+		id = 1249,
+		name = "Minimum Remove to Make Valid Parentheses",
+		url = "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumRemoveToMakeValidParentheses
 {

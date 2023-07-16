@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/13/2021
  */
 @LeetCode(
-	id = 1893,
-	name = "Check if All the Integers in a Range Are Covered",
-	url = "https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/",
-	difficulty = Difficulty.EASY
+		id = 1893,
+		name = "Check if All the Integers in a Range Are Covered",
+		url = "https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/",
+		difficulty = Difficulty.EASY
 )
 public class CheckIfAllTheIntegersInRangeAreCovered
 {

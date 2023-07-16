@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 26-Mar-20
  */
 @LeetCode(
-	id = 108,
-	name = "Convert Sorted Array to Binary Search Tree",
-	url = "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/",
-	difficulty = Difficulty.EASY
+		id = 108,
+		name = "Convert Sorted Array to Binary Search Tree",
+		url = "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/",
+		difficulty = Difficulty.EASY
 )
 public class ConvertSortedArrayToBinarySearchTree
 {

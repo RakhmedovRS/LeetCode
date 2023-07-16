@@ -10,10 +10,10 @@ import java.util.*;
  * @created 17-Jul-20
  */
 @LeetCode(
-	id = 433,
-	name = "Minimum Genetic Mutation",
-	url = "https://leetcode.com/problems/minimum-genetic-mutation/",
-	difficulty = Difficulty.MEDIUM
+		id = 433,
+		name = "Minimum Genetic Mutation",
+		url = "https://leetcode.com/problems/minimum-genetic-mutation/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumGeneticMutation
 {

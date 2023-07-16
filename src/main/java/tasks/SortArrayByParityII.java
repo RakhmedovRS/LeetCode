@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 07-May-20
  */
 @LeetCode(
-	id = 922,
-	name = "Sort Array By Parity II",
-	url = "https://leetcode.com/problems/sort-array-by-parity-ii/",
-	difficulty = Difficulty.EASY
+		id = 922,
+		name = "Sort Array By Parity II",
+		url = "https://leetcode.com/problems/sort-array-by-parity-ii/",
+		difficulty = Difficulty.EASY
 )
 public class SortArrayByParityII
 {
@@ -24,7 +24,7 @@ public class SortArrayByParityII
 			{
 				while (j < nums.length && nums[j] % 2 != 0)
 				{
-					j+=2;
+					j += 2;
 				}
 
 				int temp = nums[i];

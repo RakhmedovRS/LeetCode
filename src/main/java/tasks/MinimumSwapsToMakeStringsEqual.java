@@ -8,7 +8,7 @@ import common.LeetCode;
  * @created 15-Aug-20
  */
 @LeetCode(
-		id = 1247 ,
+		id = 1247,
 		name = "Minimum Swaps to Make Strings Equal",
 		url = "https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/",
 		difficulty = Difficulty.MEDIUM

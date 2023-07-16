@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 17-Mar-20
  */
 @LeetCode(
-	id = 941,
-	name = "Valid Mountain Array",
-	url = "https://leetcode.com/problems/valid-mountain-array/",
-	difficulty = Difficulty.EASY
+		id = 941,
+		name = "Valid Mountain Array",
+		url = "https://leetcode.com/problems/valid-mountain-array/",
+		difficulty = Difficulty.EASY
 )
 public class ValidMountainArray
 {

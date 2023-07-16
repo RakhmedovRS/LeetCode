@@ -11,10 +11,10 @@ import java.util.List;
  * @created 9/4/2021
  */
 @LeetCode(
-	id = 1992,
-	name = "Find All Groups of Farmland",
-	url = "https://leetcode.com/problems/find-all-groups-of-farmland/",
-	difficulty = Difficulty.MEDIUM
+		id = 1992,
+		name = "Find All Groups of Farmland",
+		url = "https://leetcode.com/problems/find-all-groups-of-farmland/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindAllGroupsOfFarmland
 {

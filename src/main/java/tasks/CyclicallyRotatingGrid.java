@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 6/27/2021
  */
 @LeetCode(
-	id = 1914,
-	name = "Cyclically Rotating a Grid",
-	url = "https://leetcode.com/problems/cyclically-rotating-a-grid/",
-	difficulty = Difficulty.MEDIUM
+		id = 1914,
+		name = "Cyclically Rotating a Grid",
+		url = "https://leetcode.com/problems/cyclically-rotating-a-grid/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CyclicallyRotatingGrid
 {

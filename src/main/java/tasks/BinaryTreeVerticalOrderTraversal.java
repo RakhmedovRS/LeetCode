@@ -11,11 +11,11 @@ import java.util.*;
  * @created 1/20/2021
  */
 @LeetCode(
-	id = 314,
-	name = "Binary Tree Vertical Order Traversal",
-	url = "https://leetcode.com/problems/binary-tree-vertical-order-traversal/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 314,
+		name = "Binary Tree Vertical Order Traversal",
+		url = "https://leetcode.com/problems/binary-tree-vertical-order-traversal/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class BinaryTreeVerticalOrderTraversal
 {

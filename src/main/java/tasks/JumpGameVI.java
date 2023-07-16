@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 12/20/2020
  */
 @LeetCode(
-	id = 1696,
-	name = "Jump Game VI",
-	url = "https://leetcode.com/problems/jump-game-vi/",
-	difficulty = Difficulty.MEDIUM
+		id = 1696,
+		name = "Jump Game VI",
+		url = "https://leetcode.com/problems/jump-game-vi/",
+		difficulty = Difficulty.MEDIUM
 )
 public class JumpGameVI
 {

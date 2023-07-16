@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 5/2/2021
  */
 @LeetCode(
-	id = 1849,
-	name = "Splitting a String Into Descending Consecutive Values",
-	url = "https://leetcode.com/problems/splitting-a-string-into-descending-consecutive-values/",
-	difficulty = Difficulty.MEDIUM
+		id = 1849,
+		name = "Splitting a String Into Descending Consecutive Values",
+		url = "https://leetcode.com/problems/splitting-a-string-into-descending-consecutive-values/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SplittingStringIntoDescendingConsecutiveValues
 {

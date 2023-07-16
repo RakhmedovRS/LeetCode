@@ -11,11 +11,11 @@ import java.util.Comparator;
  * @created 1/16/2021
  */
 @LeetCode(
-	id = 1101,
-	name = "The Earliest Moment When Everyone Become Friends",
-	url = "https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1101,
+		name = "The Earliest Moment When Everyone Become Friends",
+		url = "https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class TheEarliestMomentWhenEveryoneBecomeFriends
 {

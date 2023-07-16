@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/6/2021
  */
 @LeetCode(
-	id = 1886,
-	name = "Determine Whether Matrix Can Be Obtained By Rotation",
-	url = "https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/",
-	difficulty = Difficulty.EASY
+		id = 1886,
+		name = "Determine Whether Matrix Can Be Obtained By Rotation",
+		url = "https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/",
+		difficulty = Difficulty.EASY
 )
 public class DetermineWhetherMatrixCanBeObtainedByRotation
 {

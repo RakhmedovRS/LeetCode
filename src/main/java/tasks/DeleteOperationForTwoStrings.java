@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 05-Apr-20
  */
 @LeetCode(
-	id = 583,
-	name = "Delete Operation for Two Strings",
-	url = "https://leetcode.com/problems/delete-operation-for-two-strings/",
-	difficulty = Difficulty.MEDIUM
+		id = 583,
+		name = "Delete Operation for Two Strings",
+		url = "https://leetcode.com/problems/delete-operation-for-two-strings/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DeleteOperationForTwoStrings
 {
@@ -40,13 +40,13 @@ public class DeleteOperationForTwoStrings
 		if (w1Chars[w1Index] == w2Chars[w2Index])
 		{
 			memo[w1Index][w2Index] = Math.min(minDistance(w1Index + 1, w1Chars, w2Index + 1, w2Chars, memo),
-				1 + Math.min(minDistance(w1Index + 1, w1Chars, w2Index, w2Chars, memo),
-					minDistance(w1Index, w1Chars, w2Index + 1, w2Chars, memo)));
+					1 + Math.min(minDistance(w1Index + 1, w1Chars, w2Index, w2Chars, memo),
+							minDistance(w1Index, w1Chars, w2Index + 1, w2Chars, memo)));
 		}
 		else
 		{
 			memo[w1Index][w2Index] = 1 + Math.min(minDistance(w1Index + 1, w1Chars, w2Index, w2Chars, memo),
-				minDistance(w1Index, w1Chars, w2Index + 1, w2Chars, memo));
+					minDistance(w1Index, w1Chars, w2Index + 1, w2Chars, memo));
 		}
 
 		return memo[w1Index][w2Index];

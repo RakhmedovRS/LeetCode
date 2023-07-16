@@ -12,10 +12,10 @@ import java.util.List;
  * @created 6/21/2022
  */
 @LeetCode(
-	id = 2225,
-	name = "Find Players With Zero or One Losses",
-	url = "https://leetcode.com/problems/find-players-with-zero-or-one-losses/",
-	difficulty = Difficulty.MEDIUM
+		id = 2225,
+		name = "Find Players With Zero or One Losses",
+		url = "https://leetcode.com/problems/find-players-with-zero-or-one-losses/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindPlayersWithZeroOrOneLosses
 {

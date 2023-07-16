@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 26-Mar-20
  */
 @LeetCode(
-	id = 88,
-	name = "Merge Sorted Array",
-	url = "https://leetcode.com/problems/merge-sorted-array/",
-	difficulty = Difficulty.EASY
+		id = 88,
+		name = "Merge Sorted Array",
+		url = "https://leetcode.com/problems/merge-sorted-array/",
+		difficulty = Difficulty.EASY
 )
 public class MergeSortedArray
 {

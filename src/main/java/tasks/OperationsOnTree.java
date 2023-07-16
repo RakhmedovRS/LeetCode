@@ -10,10 +10,10 @@ import java.util.*;
  * @created 9/4/2021
  */
 @LeetCode(
-	id = 1993,
-	name = "Operations on Tree",
-	url = "https://leetcode.com/problems/operations-on-tree/",
-	difficulty = Difficulty.MEDIUM
+		id = 1993,
+		name = "Operations on Tree",
+		url = "https://leetcode.com/problems/operations-on-tree/",
+		difficulty = Difficulty.MEDIUM
 )
 public class OperationsOnTree
 {

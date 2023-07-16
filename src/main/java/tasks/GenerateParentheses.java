@@ -11,10 +11,10 @@ import java.util.List;
  * @created 13-Feb-20
  */
 @LeetCode(
-	id = 22,
-	name = "Generate Parentheses",
-	url = "https://leetcode.com/problems/generate-parentheses/",
-	difficulty = Difficulty.MEDIUM
+		id = 22,
+		name = "Generate Parentheses",
+		url = "https://leetcode.com/problems/generate-parentheses/",
+		difficulty = Difficulty.MEDIUM
 )
 public class GenerateParentheses
 {

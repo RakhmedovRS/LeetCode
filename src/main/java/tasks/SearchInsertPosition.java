@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 10-Jun-20
  */
 @LeetCode(
-	id = 35,
-	name = "Search Insert Position",
-	url = "https://leetcode.com/problems/search-insert-position/",
-	difficulty = Difficulty.EASY
+		id = 35,
+		name = "Search Insert Position",
+		url = "https://leetcode.com/problems/search-insert-position/",
+		difficulty = Difficulty.EASY
 )
 public class SearchInsertPosition
 {

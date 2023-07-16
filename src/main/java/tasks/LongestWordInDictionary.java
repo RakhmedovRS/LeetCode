@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 24-Jun-20
  */
 @LeetCode(
-	id = 720,
-	name = "Longest Word in Dictionary",
-	url = "https://leetcode.com/problems/longest-word-in-dictionary/",
-	difficulty = Difficulty.EASY
+		id = 720,
+		name = "Longest Word in Dictionary",
+		url = "https://leetcode.com/problems/longest-word-in-dictionary/",
+		difficulty = Difficulty.EASY
 )
 public class LongestWordInDictionary
 {

@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 10-Jun-20
  */
 @LeetCode(
-	id = 130,
-	name = "Surrounded Regions",
-	url = "https://leetcode.com/problems/surrounded-regions/",
-	difficulty = Difficulty.MEDIUM
+		id = 130,
+		name = "Surrounded Regions",
+		url = "https://leetcode.com/problems/surrounded-regions/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SurroundedRegions
 {
@@ -66,11 +66,11 @@ public class SurroundedRegions
 	private void fill(char[][] board, int row, int column, int rows, int columns)
 	{
 		if (row < 0
-			|| row == rows
-			|| column < 0
-			|| column == columns
-			|| board[row][column] == 'X'
-			|| board[row][column] == 'Z'
+				|| row == rows
+				|| column < 0
+				|| column == columns
+				|| board[row][column] == 'X'
+				|| board[row][column] == 'Z'
 		)
 		{
 			return;
@@ -87,13 +87,13 @@ public class SurroundedRegions
 	public static void main(String[] args)
 	{
 		char[][] board0 = new char[][]
-			{
-				{'O', 'X', 'O', 'O', 'O', 'X'},
-				{'O', 'O', 'X', 'X', 'X', 'O'},
-				{'X', 'X', 'X', 'X', 'X', 'O'},
-				{'O', 'O', 'O', 'O', 'X', 'X'},
-				{'X', 'X', 'O', 'O', 'X', 'O'},
-				{'O', 'O', 'X', 'X', 'X', 'X'}};
+				{
+						{'O', 'X', 'O', 'O', 'O', 'X'},
+						{'O', 'O', 'X', 'X', 'X', 'O'},
+						{'X', 'X', 'X', 'X', 'X', 'O'},
+						{'O', 'O', 'O', 'O', 'X', 'X'},
+						{'X', 'X', 'O', 'O', 'X', 'O'},
+						{'O', 'O', 'X', 'X', 'X', 'X'}};
 
 		new SurroundedRegions().solve(board0);
 		for (char[] row : board0)
@@ -104,12 +104,12 @@ public class SurroundedRegions
 		System.out.println();
 
 		char[][] board1 = new char[][]
-			{
-				{'X', 'X', 'X', 'X'},
-				{'X', 'O', 'O', 'X'},
-				{'X', 'X', 'O', 'X'},
-				{'X', 'O', 'X', 'X'}
-			};
+				{
+						{'X', 'X', 'X', 'X'},
+						{'X', 'O', 'O', 'X'},
+						{'X', 'X', 'O', 'X'},
+						{'X', 'O', 'X', 'X'}
+				};
 
 		new SurroundedRegions().solve(board1);
 		for (char[] row : board1)

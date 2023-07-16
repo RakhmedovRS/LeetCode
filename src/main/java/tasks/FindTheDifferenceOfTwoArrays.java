@@ -13,10 +13,10 @@ import java.util.Set;
  * @created 3/27/2022
  */
 @LeetCode(
-	id = 2215,
-	name = "Find the Difference of Two Arrays",
-	url = "https://leetcode.com/problems/find-the-difference-of-two-arrays/",
-	difficulty = Difficulty.EASY
+		id = 2215,
+		name = "Find the Difference of Two Arrays",
+		url = "https://leetcode.com/problems/find-the-difference-of-two-arrays/",
+		difficulty = Difficulty.EASY
 )
 public class FindTheDifferenceOfTwoArrays
 {

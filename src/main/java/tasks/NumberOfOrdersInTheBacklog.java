@@ -11,10 +11,10 @@ import java.util.PriorityQueue;
  * @created 3/21/2021
  */
 @LeetCode(
-	id = 1801,
-	name = "Number of Orders in the Backlog",
-	url = "https://leetcode.com/problems/number-of-orders-in-the-backlog/",
-	difficulty = Difficulty.MEDIUM
+		id = 1801,
+		name = "Number of Orders in the Backlog",
+		url = "https://leetcode.com/problems/number-of-orders-in-the-backlog/",
+		difficulty = Difficulty.MEDIUM
 )
 public class NumberOfOrdersInTheBacklog
 {
@@ -87,30 +87,30 @@ public class NumberOfOrdersInTheBacklog
 		NumberOfOrdersInTheBacklog clazz = new NumberOfOrdersInTheBacklog();
 
 		System.out.println(clazz.getNumberOfBacklogOrders(new int[][]
-			{
-				{26, 7, 0},
-				{16, 1, 1},
-				{14, 20, 0},
-				{23, 15, 1},
-				{24, 26, 0},
-				{19, 4, 1},
-				{1, 1, 0},
-			}));
+				{
+						{26, 7, 0},
+						{16, 1, 1},
+						{14, 20, 0},
+						{23, 15, 1},
+						{24, 26, 0},
+						{19, 4, 1},
+						{1, 1, 0},
+				}));
 
 		System.out.println(clazz.getNumberOfBacklogOrders(new int[][]
-			{
-				{7, 1000000000, 1},
-				{15, 3, 0},
-				{5, 999999995, 0},
-				{5, 1, 1}
-			}));
+				{
+						{7, 1000000000, 1},
+						{15, 3, 0},
+						{5, 999999995, 0},
+						{5, 1, 1}
+				}));
 
 		System.out.println(clazz.getNumberOfBacklogOrders(new int[][]
-			{
-				{10, 5, 0},
-				{15, 2, 1},
-				{25, 1, 1},
-				{30, 4, 0}
-			}));
+				{
+						{10, 5, 0},
+						{15, 2, 1},
+						{25, 1, 1},
+						{30, 4, 0}
+				}));
 	}
 }

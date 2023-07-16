@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 9/27/2020
  */
 @LeetCode(
-	id = 1599,
-	name = "Maximum Profit of Operating a Centennial Wheel",
-	url = "https://leetcode.com/problems/maximum-profit-of-operating-a-centennial-wheel/",
-	difficulty = Difficulty.MEDIUM
+		id = 1599,
+		name = "Maximum Profit of Operating a Centennial Wheel",
+		url = "https://leetcode.com/problems/maximum-profit-of-operating-a-centennial-wheel/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumProfitOfOperatingCentennialWheel
 {

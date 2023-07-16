@@ -11,10 +11,10 @@ import java.util.*;
  * @created 04-Jun-20
  */
 @LeetCode(
-	id = 501,
-	name = "Find Mode in Binary Search Tree",
-	url = "https://leetcode.com/problems/find-mode-in-binary-search-tree/",
-	difficulty = Difficulty.EASY
+		id = 501,
+		name = "Find Mode in Binary Search Tree",
+		url = "https://leetcode.com/problems/find-mode-in-binary-search-tree/",
+		difficulty = Difficulty.EASY
 )
 public class FindModeInBinarySearchTree
 {
@@ -32,7 +32,7 @@ public class FindModeInBinarySearchTree
 		List<Integer> answer = new ArrayList<>();
 		answer.add(maxHeap.remove());
 		while (!maxHeap.isEmpty() &&
-			freq.get(maxHeap.peek()).equals(freq.get(answer.get(0))))
+				freq.get(maxHeap.peek()).equals(freq.get(answer.get(0))))
 		{
 			answer.add(maxHeap.remove());
 		}

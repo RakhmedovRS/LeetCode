@@ -11,10 +11,10 @@ import java.util.LinkedList;
  * @created 5/9/2021
  */
 @LeetCode(
-	id = 1856,
-	name = "Maximum Subarray Min-Product",
-	url = "https://leetcode.com/problems/maximum-subarray-min-product/",
-	difficulty = Difficulty.MEDIUM
+		id = 1856,
+		name = "Maximum Subarray Min-Product",
+		url = "https://leetcode.com/problems/maximum-subarray-min-product/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumSubarrayMinProduct
 {

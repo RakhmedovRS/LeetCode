@@ -16,7 +16,7 @@ public class MinimumOneBitOperationsToMakeIntegersZero
 		{
 			if ((n & (1 << i)) != 0)
 			{
-				steps = (int)Math.pow(2, i + 1) - 1 - steps;
+				steps = (int) Math.pow(2, i + 1) - 1 - steps;
 			}
 		}
 		return steps;

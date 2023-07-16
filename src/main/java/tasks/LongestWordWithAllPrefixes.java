@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 5/13/2021
  */
 @LeetCode(
-	id = 1858,
-	name = "Longest Word With All Prefixes",
-	url = "https://leetcode.com/problems/longest-word-with-all-prefixes/",
-	difficulty = Difficulty.MEDIUM
+		id = 1858,
+		name = "Longest Word With All Prefixes",
+		url = "https://leetcode.com/problems/longest-word-with-all-prefixes/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LongestWordWithAllPrefixes
 {

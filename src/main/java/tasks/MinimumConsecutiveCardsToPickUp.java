@@ -13,10 +13,10 @@ import java.util.Map;
  * @created 5/1/2022
  */
 @LeetCode(
-	id = 2260,
-	name = "Minimum Consecutive Cards to Pick Up",
-	url = "https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/",
-	difficulty = Difficulty.MEDIUM
+		id = 2260,
+		name = "Minimum Consecutive Cards to Pick Up",
+		url = "https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumConsecutiveCardsToPickUp
 {

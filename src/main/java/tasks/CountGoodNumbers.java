@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 7/4/2021
  */
 @LeetCode(
-	id = 1922,
-	name = "Count Good Numbers",
-	url = "https://leetcode.com/problems/count-good-numbers/",
-	difficulty = Difficulty.MEDIUM
+		id = 1922,
+		name = "Count Good Numbers",
+		url = "https://leetcode.com/problems/count-good-numbers/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CountGoodNumbers
 {

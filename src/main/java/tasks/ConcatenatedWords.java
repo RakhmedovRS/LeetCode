@@ -10,10 +10,10 @@ import java.util.*;
  * @created 31-Jul-20
  */
 @LeetCode(
-	id = 472,
-	name = "Concatenated Words",
-	url = "https://leetcode.com/problems/concatenated-words/",
-	difficulty = Difficulty.HARD
+		id = 472,
+		name = "Concatenated Words",
+		url = "https://leetcode.com/problems/concatenated-words/",
+		difficulty = Difficulty.HARD
 )
 public class ConcatenatedWords
 {
@@ -55,7 +55,7 @@ public class ConcatenatedWords
 	public static void main(String[] args)
 	{
 		System.out.println(new ConcatenatedWords().findAllConcatenatedWordsInADict(
-			new String[]{"cat", "cats", "catsdogcats", "dog", "dogcatsdog", "hippopotamuses", "rat", "ratcatdogcat"})
+				new String[]{"cat", "cats", "catsdogcats", "dog", "dogcatsdog", "hippopotamuses", "rat", "ratcatdogcat"})
 		);
 	}
 }

@@ -12,11 +12,11 @@ import java.util.List;
  * @created 5/23/2021
  */
 @LeetCode(
-	id = 1868,
-	name = "Product of Two Run-Length Encoded Arrays",
-	url = "https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1868,
+		name = "Product of Two Run-Length Encoded Arrays",
+		url = "https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class ProductOfTwoRunLengthEncodedArrays
 {

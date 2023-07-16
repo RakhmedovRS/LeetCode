@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 12/27/2020
  */
 @LeetCode(
-	id = 1706,
-	name = "Where Will the Ball Fall",
-	url = "https://leetcode.com/problems/where-will-the-ball-fall/",
-	difficulty = Difficulty.MEDIUM
+		id = 1706,
+		name = "Where Will the Ball Fall",
+		url = "https://leetcode.com/problems/where-will-the-ball-fall/",
+		difficulty = Difficulty.MEDIUM
 )
 public class WhereWillTheBallFall
 {
@@ -25,20 +25,20 @@ public class WhereWillTheBallFall
 		Arrays.fill(answer, -1);
 		boolean[][] newGrid = new boolean[rows * 4][columns * 4];
 		int[][] a = new int[][]
-			{
-				{0, 0},
-				{1, 1},
-				{1, 1},
-				{1, 1}
-			};
+				{
+						{0, 0},
+						{1, 1},
+						{1, 1},
+						{1, 1}
+				};
 
 		int[][] b = new int[][]
-			{
-				{0, 3},
-				{1, -1},
-				{1, -1},
-				{1, -1}
-			};
+				{
+						{0, 3},
+						{1, -1},
+						{1, -1},
+						{1, -1}
+				};
 
 		int r;
 		int c;
@@ -113,19 +113,19 @@ public class WhereWillTheBallFall
 	{
 		WhereWillTheBallFall clazz = new WhereWillTheBallFall();
 		System.out.println(Arrays.toString(clazz.findBall(new int[][]
-			{
-				{1, -1, -1, 1, -1, 1, 1, 1, 1, 1, -1, 1, 1, 1, 1, 1, 1, -1, -1, -1, -1, -1, -1, 1, -1, 1, -1, 1, -1, -1, -1, -1, 1, -1, 1, 1, -1, -1, -1, -1, -1, 1},
-				{-1, 1, 1, 1, -1, -1, -1, -1, 1, 1, 1, -1, -1, -1, 1, -1, -1, 1, 1, 1, 1, 1, 1, -1, 1, -1, -1, -1, -1, -1, 1, -1, 1, -1, -1, -1, -1, 1, 1, -1, 1, 1},
-				{1, -1, -1, -1, -1, 1, -1, 1, 1, 1, 1, 1, 1, 1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1, 1, -1, 1, -1, -1, 1, -1, 1, -1, 1, 1, -1, -1, 1, 1, -1, 1, -1}
-			})));
+				{
+						{1, -1, -1, 1, -1, 1, 1, 1, 1, 1, -1, 1, 1, 1, 1, 1, 1, -1, -1, -1, -1, -1, -1, 1, -1, 1, -1, 1, -1, -1, -1, -1, 1, -1, 1, 1, -1, -1, -1, -1, -1, 1},
+						{-1, 1, 1, 1, -1, -1, -1, -1, 1, 1, 1, -1, -1, -1, 1, -1, -1, 1, 1, 1, 1, 1, 1, -1, 1, -1, -1, -1, -1, -1, 1, -1, 1, -1, -1, -1, -1, 1, 1, -1, 1, 1},
+						{1, -1, -1, -1, -1, 1, -1, 1, 1, 1, 1, 1, 1, 1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1, 1, -1, 1, -1, -1, 1, -1, 1, -1, 1, 1, -1, -1, 1, 1, -1, 1, -1}
+				})));
 
 		System.out.println(Arrays.toString(clazz.findBall(new int[][]
-			{
-				{1, 1, 1, -1, -1},
-				{1, 1, 1, -1, -1},
-				{-1, -1, -1, 1, 1},
-				{1, 1, 1, 1, -1},
-				{-1, -1, -1, -1, -1}
-			})));
+				{
+						{1, 1, 1, -1, -1},
+						{1, 1, 1, -1, -1},
+						{-1, -1, -1, 1, 1},
+						{1, 1, 1, 1, -1},
+						{-1, -1, -1, -1, -1}
+				})));
 	}
 }

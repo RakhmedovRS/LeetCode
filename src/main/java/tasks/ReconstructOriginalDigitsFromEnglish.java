@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 13-Jul-20
  */
 @LeetCode(
-	id = 423,
-	name = "Reconstruct Original Digits from English",
-	url = "https://leetcode.com/problems/reconstruct-original-digits-from-english/",
-	difficulty = Difficulty.MEDIUM
+		id = 423,
+		name = "Reconstruct Original Digits from English",
+		url = "https://leetcode.com/problems/reconstruct-original-digits-from-english/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ReconstructOriginalDigitsFromEnglish
 {
@@ -31,7 +31,7 @@ public class ReconstructOriginalDigitsFromEnglish
 		tables[9] = buildTable("nine");
 
 		int[] table = buildTable(s);
-		dfs(table, tables,numbers);
+		dfs(table, tables, numbers);
 
 		StringBuilder sb = new StringBuilder();
 		for (int i = 0; i < numbers.length; i++)
@@ -57,19 +57,19 @@ public class ReconstructOriginalDigitsFromEnglish
 		}
 
 		int ways;
-		for (int i = 0 ; i < tables.length; i++)
+		for (int i = 0; i < tables.length; i++)
 		{
 			ways = waysToCreateNumber(table, tables[i]);
 			if (ways > 0)
 			{
 				process(table, tables[i], -ways);
-				numbers[i]+=ways;
+				numbers[i] += ways;
 				if (dfs(table, tables, numbers))
 				{
 					return true;
 				}
 				process(table, tables[i], ways);
-				numbers[i]-=ways;
+				numbers[i] -= ways;
 			}
 		}
 
@@ -93,7 +93,7 @@ public class ReconstructOriginalDigitsFromEnglish
 		int ways = Integer.MAX_VALUE;
 		for (int i = 0; i < tableA.length; i++)
 		{
-			if(tableB[i] == 0)
+			if (tableB[i] == 0)
 			{
 				continue;
 			}

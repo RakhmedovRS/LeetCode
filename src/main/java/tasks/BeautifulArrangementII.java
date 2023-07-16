@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 3/3/2021
  */
 @LeetCode(
-	id = 667,
-	name = "Beautiful Arrangement II",
-	url = "https://leetcode.com/problems/beautiful-arrangement-ii/",
-	difficulty = Difficulty.MEDIUM
+		id = 667,
+		name = "Beautiful Arrangement II",
+		url = "https://leetcode.com/problems/beautiful-arrangement-ii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class BeautifulArrangementII
 {

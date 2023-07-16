@@ -11,11 +11,11 @@ import java.util.List;
  * @created 1/3/2021
  */
 @LeetCode(
-	id = 1243,
-	name = "Array Transformation",
-	url = "https://leetcode.com/problems/array-transformation/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1243,
+		name = "Array Transformation",
+		url = "https://leetcode.com/problems/array-transformation/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class ArrayTransformation
 {

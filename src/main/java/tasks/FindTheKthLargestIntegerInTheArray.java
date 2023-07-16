@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 8/29/2021
  */
 @LeetCode(
-	id = 1985,
-	name = "Find the Kth Largest Integer in the Array",
-	url = "https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 1985,
+		name = "Find the Kth Largest Integer in the Array",
+		url = "https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindTheKthLargestIntegerInTheArray
 {

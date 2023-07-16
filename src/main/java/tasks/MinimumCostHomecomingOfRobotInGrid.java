@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/27/2021
  */
 @LeetCode(
-	id = 2087,
-	name = "Minimum Cost Homecoming of a Robot in a Grid",
-	url = "https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/",
-	difficulty = Difficulty.MEDIUM
+		id = 2087,
+		name = "Minimum Cost Homecoming of a Robot in a Grid",
+		url = "https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumCostHomecomingOfRobotInGrid
 {

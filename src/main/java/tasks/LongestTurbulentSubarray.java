@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 17-Aug-20
  */
 @LeetCode(
-	id = 978,
-	name = "Longest Turbulent Subarray",
-	url = "https://leetcode.com/problems/longest-turbulent-subarray/",
-	difficulty = Difficulty.MEDIUM
+		id = 978,
+		name = "Longest Turbulent Subarray",
+		url = "https://leetcode.com/problems/longest-turbulent-subarray/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LongestTurbulentSubarray
 {

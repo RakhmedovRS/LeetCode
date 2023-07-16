@@ -12,11 +12,11 @@ import java.util.stream.Stream;
  * @created 12/18/2020
  */
 @LeetCode(
-	id = 1242,
-	name = "Web Crawler Multithreaded",
-	url = "https://leetcode.com/problems/web-crawler-multithreaded/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1242,
+		name = "Web Crawler Multithreaded",
+		url = "https://leetcode.com/problems/web-crawler-multithreaded/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class WebCrawlerMultithreaded
 {
@@ -33,8 +33,8 @@ public class WebCrawlerMultithreaded
 		{
 			map = new HashMap<>();
 			map.put("http://news.google.com", Arrays.asList("http://news.yahoo.com/news",
-				"http://news.yahoo.com/news/topics/",
-				"http://news.google.com"));
+					"http://news.yahoo.com/news/topics/",
+					"http://news.google.com"));
 
 			map.put("http://news.yahoo.com", Arrays.asList("http://news.yahoo.com/news/topics/"));
 			map.put("http://news.yahoo.com/news/topics/", Arrays.asList("http://news.yahoo.com/news"));
@@ -73,11 +73,11 @@ public class WebCrawlerMultithreaded
 	private Stream<String> crawl(String hostName, String startURL, HtmlParser htmlParser, Set<String> visited)
 	{
 		Stream<String> stream = htmlParser
-			.getUrls(startURL)
-			.parallelStream()
-			.filter(url -> url.contains(hostName))
-			.filter(visited::add)
-			.flatMap(url -> crawl(hostName, url, htmlParser, visited));
+				.getUrls(startURL)
+				.parallelStream()
+				.filter(url -> url.contains(hostName))
+				.filter(visited::add)
+				.flatMap(url -> crawl(hostName, url, htmlParser, visited));
 
 		return Stream.concat(Stream.of(startURL), stream);
 	}

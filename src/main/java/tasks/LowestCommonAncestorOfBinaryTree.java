@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 01-May-20
  */
 @LeetCode(
-	id = 236,
-	name = "Lowest Common Ancestor of a Binary Tree",
-	url = "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
-	difficulty = Difficulty.MEDIUM
+		id = 236,
+		name = "Lowest Common Ancestor of a Binary Tree",
+		url = "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LowestCommonAncestorOfBinaryTree
 {

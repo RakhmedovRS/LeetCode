@@ -9,10 +9,10 @@ import common.ListNode;
  * @created 1/10/2021
  */
 @LeetCode(
-	id = 1721,
-	name = "Swapping Nodes in a Linked List",
-	url = "https://leetcode.com/problems/swapping-nodes-in-a-linked-list/",
-	difficulty = Difficulty.MEDIUM
+		id = 1721,
+		name = "Swapping Nodes in a Linked List",
+		url = "https://leetcode.com/problems/swapping-nodes-in-a-linked-list/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SwappingNodesInLinkedList
 {

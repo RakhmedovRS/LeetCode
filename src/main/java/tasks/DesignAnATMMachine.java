@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 4/16/2022
  */
 @LeetCode(
-	id = 2241,
-	name = "Design an ATM Machine",
-	url = "https://leetcode.com/problems/design-an-atm-machine/",
-	difficulty = Difficulty.MEDIUM
+		id = 2241,
+		name = "Design an ATM Machine",
+		url = "https://leetcode.com/problems/design-an-atm-machine/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DesignAnATMMachine
 {
@@ -23,7 +23,7 @@ public class DesignAnATMMachine
 		public ATM()
 		{
 			banknote = new long[5];
-			value = new int[]{20,50,100,200,500};
+			value = new int[]{20, 50, 100, 200, 500};
 		}
 
 		public void deposit(int[] banknotesCount)
@@ -47,7 +47,7 @@ public class DesignAnATMMachine
 			{
 				if (banknote[pos] != 0 && amount >= value[pos])
 				{
-					used[pos] = (int)Math.min(amount / value[pos], banknote[pos]);
+					used[pos] = (int) Math.min(amount / value[pos], banknote[pos]);
 					amount -= value[pos] * used[pos];
 				}
 

@@ -10,10 +10,10 @@ import java.util.*;
  * @created 31-Aug-20
  */
 @LeetCode(
-	id = 823,
-	name = "Binary Trees With Factors",
-	url = "https://leetcode.com/problems/binary-trees-with-factors/",
-	difficulty = Difficulty.MEDIUM
+		id = 823,
+		name = "Binary Trees With Factors",
+		url = "https://leetcode.com/problems/binary-trees-with-factors/",
+		difficulty = Difficulty.MEDIUM
 )
 public class BinaryTreesWithFactors
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 7/25/2021
  */
 @LeetCode(
-	id = 1946,
-	name = "Largest Number After Mutating Substring",
-	url = "https://leetcode.com/problems/largest-number-after-mutating-substring/",
-	difficulty = Difficulty.MEDIUM
+		id = 1946,
+		name = "Largest Number After Mutating Substring",
+		url = "https://leetcode.com/problems/largest-number-after-mutating-substring/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LargestNumberAfterMutatingSubstring
 {

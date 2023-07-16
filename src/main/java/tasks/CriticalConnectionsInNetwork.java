@@ -10,10 +10,10 @@ import java.util.*;
  * @created 4/24/2021
  */
 @LeetCode(
-	id = 1192,
-	name = "Critical Connections in a Network",
-	url = "https://leetcode.com/problems/critical-connections-in-a-network/",
-	difficulty = Difficulty.HARD
+		id = 1192,
+		name = "Critical Connections in a Network",
+		url = "https://leetcode.com/problems/critical-connections-in-a-network/",
+		difficulty = Difficulty.HARD
 )
 public class CriticalConnectionsInNetwork
 {

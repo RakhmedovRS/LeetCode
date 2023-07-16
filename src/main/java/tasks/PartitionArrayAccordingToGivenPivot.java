@@ -11,10 +11,10 @@ import java.util.List;
  * @created 2/16/2022
  */
 @LeetCode(
-	id = 2161,
-	name = "Partition Array According to Given Pivot",
-	url = "https://leetcode.com/problems/partition-array-according-to-given-pivot/",
-	difficulty = Difficulty.MEDIUM
+		id = 2161,
+		name = "Partition Array According to Given Pivot",
+		url = "https://leetcode.com/problems/partition-array-according-to-given-pivot/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PartitionArrayAccordingToGivenPivot
 {

@@ -12,10 +12,10 @@ import java.util.PriorityQueue;
  * @created 11-Feb-20
  */
 @LeetCode(
-	id = 23,
-	name = "Merge k Sorted Lists",
-	url = "https://leetcode.com/problems/merge-k-sorted-lists/",
-	difficulty = Difficulty.HARD
+		id = 23,
+		name = "Merge k Sorted Lists",
+		url = "https://leetcode.com/problems/merge-k-sorted-lists/",
+		difficulty = Difficulty.HARD
 )
 public class MergeKSortedLists
 {

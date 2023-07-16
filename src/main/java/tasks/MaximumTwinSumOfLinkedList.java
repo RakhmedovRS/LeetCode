@@ -12,10 +12,10 @@ import java.util.List;
  * @created 1/8/2022
  */
 @LeetCode(
-	id = 2130,
-	name = "Maximum Twin Sum of a Linked List",
-	url = "https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/",
-	difficulty = Difficulty.MEDIUM
+		id = 2130,
+		name = "Maximum Twin Sum of a Linked List",
+		url = "https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumTwinSumOfLinkedList
 {

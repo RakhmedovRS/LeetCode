@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 3/13/2022
  */
 @LeetCode(
-	id = 2201,
-	name = "Count Artifacts That Can Be Extracted",
-	url = "https://leetcode.com/problems/count-artifacts-that-can-be-extracted/",
-	difficulty = Difficulty.MEDIUM
+		id = 2201,
+		name = "Count Artifacts That Can Be Extracted",
+		url = "https://leetcode.com/problems/count-artifacts-that-can-be-extracted/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CountArtifactsThatCanBeExtracted
 {

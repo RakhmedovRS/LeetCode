@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/20/2022
  */
 @LeetCode(
-	id = 2311,
-	name = "Longest Binary Subsequence Less Than or Equal to K",
-	url = "https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/",
-	difficulty = Difficulty.MEDIUM
+		id = 2311,
+		name = "Longest Binary Subsequence Less Than or Equal to K",
+		url = "https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LongestBinarySubsequenceLessThanOrEqualToK
 {

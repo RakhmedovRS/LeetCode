@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/27/2022
  */
 @LeetCode(
-	id = 2319,
-	name = "Check if Matrix Is X-Matrix",
-	url = "https://leetcode.com/problems/check-if-matrix-is-x-matrix/",
-	difficulty = Difficulty.EASY
+		id = 2319,
+		name = "Check if Matrix Is X-Matrix",
+		url = "https://leetcode.com/problems/check-if-matrix-is-x-matrix/",
+		difficulty = Difficulty.EASY
 )
 public class CheckIfMatrixIsXMatrix
 {

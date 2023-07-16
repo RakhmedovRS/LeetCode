@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 09-Jul-20
  */
 @LeetCode(
-	id = 665,
-	name = "Non-decreasing Array",
-	url = "https://leetcode.com/problems/non-decreasing-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 665,
+		name = "Non-decreasing Array",
+		url = "https://leetcode.com/problems/non-decreasing-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class NonDecreasingArray
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/13/2020
  */
 @LeetCode(
-	id = 1690,
-	name = "Stone Game VII",
-	url = "https://leetcode.com/problems/stone-game-vii/",
-	difficulty = Difficulty.MEDIUM
+		id = 1690,
+		name = "Stone Game VII",
+		url = "https://leetcode.com/problems/stone-game-vii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class StoneGameVII
 {
@@ -41,18 +41,18 @@ public class StoneGameVII
 		if (aliceTurn)
 		{
 			memo[left][right] =
-				Math.max(
-					sum - stones[left] + game(stones, left + 1, right, sum - stones[left], false, memo),
-					sum - stones[right] + game(stones, left, right - 1, sum - stones[right], false, memo)
-				);
+					Math.max(
+							sum - stones[left] + game(stones, left + 1, right, sum - stones[left], false, memo),
+							sum - stones[right] + game(stones, left, right - 1, sum - stones[right], false, memo)
+					);
 		}
 		else
 		{
 			memo[left][right] =
-				Math.min(
-					game(stones, left + 1, right, sum - stones[left], true, memo) - (sum - stones[left]),
-					game(stones, left, right - 1, sum - stones[right], true, memo) - (sum - stones[right])
-				);
+					Math.min(
+							game(stones, left + 1, right, sum - stones[left], true, memo) - (sum - stones[left]),
+							game(stones, left, right - 1, sum - stones[right], true, memo) - (sum - stones[right])
+					);
 		}
 
 		return memo[left][right];

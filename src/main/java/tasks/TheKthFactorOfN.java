@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 27-Jun-20
  */
 @LeetCode(
-	id = 1492,
-	name = "The kth Factor of n",
-	url = "https://leetcode.com/problems/the-kth-factor-of-n/",
-	difficulty = Difficulty.MEDIUM
+		id = 1492,
+		name = "The kth Factor of n",
+		url = "https://leetcode.com/problems/the-kth-factor-of-n/",
+		difficulty = Difficulty.MEDIUM
 )
 public class TheKthFactorOfN
 {

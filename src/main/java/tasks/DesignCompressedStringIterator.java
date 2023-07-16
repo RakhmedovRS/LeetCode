@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/30/2020
  */
 @LeetCode(
-	id = 604,
-	name = "Design Compressed String Iterator",
-	url = "https://leetcode.com/problems/design-compressed-string-iterator/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 604,
+		name = "Design Compressed String Iterator",
+		url = "https://leetcode.com/problems/design-compressed-string-iterator/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class DesignCompressedStringIterator
 {
@@ -32,7 +32,7 @@ public class DesignCompressedStringIterator
 		{
 			if (count == 0)
 			{
-				if(pos == chars.length)
+				if (pos == chars.length)
 				{
 					return ' ';
 				}

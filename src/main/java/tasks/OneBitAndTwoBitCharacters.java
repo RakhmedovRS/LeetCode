@@ -27,8 +27,8 @@ public class OneBitAndTwoBitCharacters
 		}
 
 		return ((bits[pos] == 0 && isOneBitCharacter(bits, pos + 1))
-			|| (bits[pos] == 1 && bits[pos + 1] == 0 && isOneBitCharacter(bits, pos + 2))
-			|| (bits[pos] == 1 && bits[pos + 1] == 1 && isOneBitCharacter(bits, pos + 2))
+				|| (bits[pos] == 1 && bits[pos + 1] == 0 && isOneBitCharacter(bits, pos + 2))
+				|| (bits[pos] == 1 && bits[pos + 1] == 1 && isOneBitCharacter(bits, pos + 2))
 		);
 	}
 

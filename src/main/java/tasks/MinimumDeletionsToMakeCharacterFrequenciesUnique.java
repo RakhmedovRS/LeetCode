@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/8/2020
  */
 @LeetCode(
-	id = 1647,
-	name = "Minimum Deletions to Make Character Frequencies Unique",
-	url = "https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/",
-	difficulty = Difficulty.MEDIUM
+		id = 1647,
+		name = "Minimum Deletions to Make Character Frequencies Unique",
+		url = "https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumDeletionsToMakeCharacterFrequenciesUnique
 {

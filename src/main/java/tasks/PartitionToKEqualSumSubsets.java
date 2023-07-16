@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 25-May-20
  */
 @LeetCode(
-	id = 698,
-	name = "Partition to K Equal Sum Subsets",
-	url = "https://leetcode.com/problems/partition-to-k-equal-sum-subsets/",
-	difficulty = Difficulty.MEDIUM
+		id = 698,
+		name = "Partition to K Equal Sum Subsets",
+		url = "https://leetcode.com/problems/partition-to-k-equal-sum-subsets/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PartitionToKEqualSumSubsets
 {
@@ -34,7 +34,7 @@ public class PartitionToKEqualSumSubsets
 	}
 
 	private boolean canPartitionKSubsets(int start, int[] arr, boolean[] used,
-	                                     int k, int currentSum, int targetSum)
+										 int k, int currentSum, int targetSum)
 	{
 		if (k == 0)
 		{

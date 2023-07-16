@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/19/2021
  */
 @LeetCode(
-	id = 2110,
-	name = "Number of Smooth Descent Periods of a Stock",
-	url = "https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/",
-	difficulty = Difficulty.MEDIUM
+		id = 2110,
+		name = "Number of Smooth Descent Periods of a Stock",
+		url = "https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/",
+		difficulty = Difficulty.MEDIUM
 )
 public class NumberOfSmoothDescentPeriodsOfStock
 {

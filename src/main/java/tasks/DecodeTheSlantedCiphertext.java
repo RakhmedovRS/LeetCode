@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/14/2021
  */
 @LeetCode(
-	id = 2075,
-	name = "Decode the Slanted Ciphertext",
-	url = "https://leetcode.com/problems/decode-the-slanted-ciphertext/",
-	difficulty = Difficulty.MEDIUM
+		id = 2075,
+		name = "Decode the Slanted Ciphertext",
+		url = "https://leetcode.com/problems/decode-the-slanted-ciphertext/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DecodeTheSlantedCiphertext
 {

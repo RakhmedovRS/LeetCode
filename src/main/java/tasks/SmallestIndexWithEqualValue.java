@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/7/2021
  */
 @LeetCode(
-	id = 2057,
-	name = "Smallest Index With Equal Value",
-	url = "https://leetcode.com/problems/smallest-index-with-equal-value/",
-	difficulty = Difficulty.EASY
+		id = 2057,
+		name = "Smallest Index With Equal Value",
+		url = "https://leetcode.com/problems/smallest-index-with-equal-value/",
+		difficulty = Difficulty.EASY
 )
 public class SmallestIndexWithEqualValue
 {

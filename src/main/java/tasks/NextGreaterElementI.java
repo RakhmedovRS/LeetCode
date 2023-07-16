@@ -10,17 +10,17 @@ import java.util.*;
  * @created 11-May-20
  */
 @LeetCode(
-	id = 496,
-	name = "Next Greater Element I",
-	url = "https://leetcode.com/problems/next-greater-element-i/",
-	difficulty = Difficulty.EASY
+		id = 496,
+		name = "Next Greater Element I",
+		url = "https://leetcode.com/problems/next-greater-element-i/",
+		difficulty = Difficulty.EASY
 )
 public class NextGreaterElementI
 {
 	public int[] nextGreaterElement(int[] nums1, int[] nums2)
 	{
 		int[] memo = new int[10_001];
-		Arrays.fill(memo , -1);
+		Arrays.fill(memo, -1);
 		LinkedList<Integer> list = new LinkedList<>();
 		for (int i = 0; i < nums2.length; i++)
 		{

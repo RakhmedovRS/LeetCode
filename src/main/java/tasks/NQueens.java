@@ -11,10 +11,10 @@ import java.util.List;
  * @created 5/22/2021
  */
 @LeetCode(
-	id = 51,
-	name = "N-Queens",
-	url = "https://leetcode.com/problems/n-queens/",
-	difficulty = Difficulty.HARD
+		id = 51,
+		name = "N-Queens",
+		url = "https://leetcode.com/problems/n-queens/",
+		difficulty = Difficulty.HARD
 )
 public class NQueens
 {
@@ -78,14 +78,14 @@ public class NQueens
 		}
 
 		//slash line
-		for (int r = row, c = column; r < table.length && c >=0 ; r++, c--)
+		for (int r = row, c = column; r < table.length && c >= 0; r++, c--)
 		{
 			if (table[r][c])
 			{
 				return false;
 			}
 		}
-		for (int r = row, c = column; r >= 0 && c < table[row].length ; r--, c++)
+		for (int r = row, c = column; r >= 0 && c < table[row].length; r--, c++)
 		{
 			if (table[r][c])
 			{
@@ -94,14 +94,14 @@ public class NQueens
 		}
 
 		//backslash line
-		for (int r = row, c = column; r >= 0 && c >=0 ; r--, c--)
+		for (int r = row, c = column; r >= 0 && c >= 0; r--, c--)
 		{
 			if (table[r][c])
 			{
 				return false;
 			}
 		}
-		for (int r = row, c = column; r < table.length && c < table[row].length ; r++, c++)
+		for (int r = row, c = column; r < table.length && c < table[row].length; r++, c++)
 		{
 			if (table[r][c])
 			{

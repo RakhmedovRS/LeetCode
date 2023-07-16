@@ -11,10 +11,10 @@ import java.util.List;
  * @created 13-May-20
  */
 @LeetCode(
-	id = 842,
-	name = "Split Array into Fibonacci Sequence",
-	url = "https://leetcode.com/problems/split-array-into-fibonacci-sequence/",
-	difficulty = Difficulty.MEDIUM
+		id = 842,
+		name = "Split Array into Fibonacci Sequence",
+		url = "https://leetcode.com/problems/split-array-into-fibonacci-sequence/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SplitArrayIntoFibonacciSequence
 {
@@ -49,7 +49,7 @@ public class SplitArrayIntoFibonacciSequence
 			{
 				continue;
 			}
-			result.add((int)number);
+			result.add((int) number);
 
 			if (splitIntoFibonacci(S, i, result))
 			{

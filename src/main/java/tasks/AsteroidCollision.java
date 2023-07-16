@@ -11,10 +11,10 @@ import java.util.LinkedList;
  * @created 13-Jul-20
  */
 @LeetCode(
-	id = 735,
-	name = "Asteroid Collision",
-	url = "https://leetcode.com/problems/asteroid-collision/",
-	difficulty = Difficulty.MEDIUM
+		id = 735,
+		name = "Asteroid Collision",
+		url = "https://leetcode.com/problems/asteroid-collision/",
+		difficulty = Difficulty.MEDIUM
 )
 public class AsteroidCollision
 {

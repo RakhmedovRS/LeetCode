@@ -11,10 +11,10 @@ import java.util.PriorityQueue;
  * @created 8/8/2021
  */
 @LeetCode(
-	id = 1962,
-	name = "Remove Stones to Minimize the Total",
-	url = "https://leetcode.com/problems/remove-stones-to-minimize-the-total/",
-	difficulty = Difficulty.MEDIUM
+		id = 1962,
+		name = "Remove Stones to Minimize the Total",
+		url = "https://leetcode.com/problems/remove-stones-to-minimize-the-total/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RemoveStonesToMinimizeTheTotal
 {

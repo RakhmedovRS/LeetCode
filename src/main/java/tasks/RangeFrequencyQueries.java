@@ -10,10 +10,10 @@ import java.util.*;
  * @created 11/21/2021
  */
 @LeetCode(
-	id = 2080,
-	name = "Range Frequency Queries",
-	url = "https://leetcode.com/problems/range-frequency-queries/",
-	difficulty = Difficulty.MEDIUM
+		id = 2080,
+		name = "Range Frequency Queries",
+		url = "https://leetcode.com/problems/range-frequency-queries/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RangeFrequencyQueries
 {

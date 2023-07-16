@@ -11,10 +11,10 @@ import java.util.Queue;
  * @created 04-Sep-20
  */
 @LeetCode(
-	id = 838,
-	name = "Push Dominoes",
-	url = "https://leetcode.com/problems/push-dominoes/",
-	difficulty = Difficulty.MEDIUM
+		id = 838,
+		name = "Push Dominoes",
+		url = "https://leetcode.com/problems/push-dominoes/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PushDominoes
 {

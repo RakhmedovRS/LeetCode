@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/19/2022
  */
 @LeetCode(
-	id = 2309,
-	name = "Greatest English Letter in Upper and Lower Case",
-	url = "https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/",
-	difficulty = Difficulty.EASY
+		id = 2309,
+		name = "Greatest English Letter in Upper and Lower Case",
+		url = "https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/",
+		difficulty = Difficulty.EASY
 )
 public class GreatestEnglishLetterInUpperAndLowerCase
 {

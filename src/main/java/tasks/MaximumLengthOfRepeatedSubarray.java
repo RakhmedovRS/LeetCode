@@ -10,10 +10,10 @@ import java.util.*;
  * @created 11/20/2020
  */
 @LeetCode(
-	id = 718,
-	name = "Maximum Length of Repeated Subarray",
-	url = "https://leetcode.com/problems/maximum-length-of-repeated-subarray/",
-	difficulty = Difficulty.MEDIUM
+		id = 718,
+		name = "Maximum Length of Repeated Subarray",
+		url = "https://leetcode.com/problems/maximum-length-of-repeated-subarray/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumLengthOfRepeatedSubarray
 {

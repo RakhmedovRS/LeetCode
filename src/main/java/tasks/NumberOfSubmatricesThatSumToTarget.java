@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 4/17/2021
  */
 @LeetCode(
-	id = 1074,
-	name = "Number of Submatrices That Sum to Target",
-	url = "https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/",
-	difficulty = Difficulty.HARD
+		id = 1074,
+		name = "Number of Submatrices That Sum to Target",
+		url = "https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/",
+		difficulty = Difficulty.HARD
 )
 public class NumberOfSubmatricesThatSumToTarget
 {

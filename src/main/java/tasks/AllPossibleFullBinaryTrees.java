@@ -11,10 +11,10 @@ import java.util.*;
  * @created 15-Jun-20
  */
 @LeetCode(
-	id = 894,
-	name = "All Possible Full Binary Trees",
-	url = "https://leetcode.com/problems/all-possible-full-binary-trees/",
-	difficulty = Difficulty.MEDIUM
+		id = 894,
+		name = "All Possible Full Binary Trees",
+		url = "https://leetcode.com/problems/all-possible-full-binary-trees/",
+		difficulty = Difficulty.MEDIUM
 )
 public class AllPossibleFullBinaryTrees
 {

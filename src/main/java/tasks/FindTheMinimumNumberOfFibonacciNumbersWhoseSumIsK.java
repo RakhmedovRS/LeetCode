@@ -11,10 +11,10 @@ import java.util.List;
  * @created 02-Jun-20
  */
 @LeetCode(
-	id = 1414,
-	name = "Find the Minimum Number of Fibonacci Numbers Whose Sum Is K",
-	url = "https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/",
-	difficulty = Difficulty.MEDIUM
+		id = 1414,
+		name = "Find the Minimum Number of Fibonacci Numbers Whose Sum Is K",
+		url = "https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindTheMinimumNumberOfFibonacciNumbersWhoseSumIsK
 {

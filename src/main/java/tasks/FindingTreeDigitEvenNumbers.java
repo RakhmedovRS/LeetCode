@@ -12,10 +12,10 @@ import java.util.Set;
  * @created 12/5/2021
  */
 @LeetCode(
-	id = 2094,
-	name = "Finding 3-Digit Even Numbers",
-	url = "https://leetcode.com/problems/finding-3-digit-even-numbers/",
-	difficulty = Difficulty.EASY
+		id = 2094,
+		name = "Finding 3-Digit Even Numbers",
+		url = "https://leetcode.com/problems/finding-3-digit-even-numbers/",
+		difficulty = Difficulty.EASY
 )
 public class FindingTreeDigitEvenNumbers
 {

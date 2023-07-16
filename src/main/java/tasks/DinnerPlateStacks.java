@@ -13,10 +13,10 @@ import java.util.TreeSet;
  * @created 3/2/2021
  */
 @LeetCode(
-	id = 1172,
-	name = "Dinner Plate Stacks",
-	url = "https://leetcode.com/problems/dinner-plate-stacks/",
-	difficulty = Difficulty.HARD
+		id = 1172,
+		name = "Dinner Plate Stacks",
+		url = "https://leetcode.com/problems/dinner-plate-stacks/",
+		difficulty = Difficulty.HARD
 )
 public class DinnerPlateStacks
 {

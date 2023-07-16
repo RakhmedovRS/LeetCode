@@ -10,11 +10,11 @@ import java.util.*;
  * @created 12/17/2020
  */
 @LeetCode(
-	id = 1059,
-	name = "All Paths from Source Lead to Destination",
-	url = "https://leetcode.com/problems/all-paths-from-source-lead-to-destination/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1059,
+		name = "All Paths from Source Lead to Destination",
+		url = "https://leetcode.com/problems/all-paths-from-source-lead-to-destination/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class AllPathsFromSourceLeadToDestination
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 04-Apr-20
  */
 @LeetCode(
-	id = 5,
-	name = "Longest Palindromic Substring",
-	url = "https://leetcode.com/problems/longest-palindromic-substring/",
-	difficulty = Difficulty.MEDIUM
+		id = 5,
+		name = "Longest Palindromic Substring",
+		url = "https://leetcode.com/problems/longest-palindromic-substring/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LongestPalindromicSubstring
 {

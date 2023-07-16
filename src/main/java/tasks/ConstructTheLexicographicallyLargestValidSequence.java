@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 1/9/2021
  */
 @LeetCode(
-	id = 1718,
-	name = "Construct the Lexicographically Largest Valid Sequence",
-	url = "https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/",
-	difficulty = Difficulty.MEDIUM
+		id = 1718,
+		name = "Construct the Lexicographically Largest Valid Sequence",
+		url = "https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ConstructTheLexicographicallyLargestValidSequence
 {

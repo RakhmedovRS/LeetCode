@@ -12,10 +12,10 @@ import java.util.PriorityQueue;
  * @created 27-Jul-20
  */
 @LeetCode(
-	id = 1353,
-	name = "Maximum Number of Events That Can Be Attended",
-	url = "https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/",
-	difficulty = Difficulty.MEDIUM
+		id = 1353,
+		name = "Maximum Number of Events That Can Be Attended",
+		url = "https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumNumberOfEventsThatCanBeAttended
 {

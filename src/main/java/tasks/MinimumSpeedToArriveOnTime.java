@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 5/23/2021
  */
 @LeetCode(
-	id = 1870,
-	name = "Minimum Speed to Arrive on Time",
-	url = "https://leetcode.com/problems/minimum-speed-to-arrive-on-time/",
-	difficulty = Difficulty.MEDIUM
+		id = 1870,
+		name = "Minimum Speed to Arrive on Time",
+		url = "https://leetcode.com/problems/minimum-speed-to-arrive-on-time/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumSpeedToArriveOnTime
 {

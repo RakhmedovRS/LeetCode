@@ -9,10 +9,10 @@ import common.ListNode;
  * @created 15-Mar-20
  */
 @LeetCode(
-	id = 234,
-	name = "Palindrome Linked List",
-	url = "https://leetcode.com/problems/palindrome-linked-list/",
-	difficulty = Difficulty.EASY
+		id = 234,
+		name = "Palindrome Linked List",
+		url = "https://leetcode.com/problems/palindrome-linked-list/",
+		difficulty = Difficulty.EASY
 )
 public class PalindromeLinkedList
 {

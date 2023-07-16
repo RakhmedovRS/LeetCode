@@ -32,16 +32,16 @@ public class ValidSquare
 		p4 = points.get(3);
 
 		if ((p1[0] == p2[0] && p1[1] == p2[1])
-			|| (p2[0] == p3[0] && p2[1] == p3[1])
-			|| (p3[0] == p4[0] && p3[1] == p4[1])
+				|| (p2[0] == p3[0] && p2[1] == p3[1])
+				|| (p3[0] == p4[0] && p3[1] == p4[1])
 		)
 		{
 			return false;
 		}
 
 		return distance(p1, p2) == distance(p1, p3)
-			&& distance(p4, p2) == distance(p4, p3)
-			&& distance(p1, p4) == distance(p2, p3);
+				&& distance(p4, p2) == distance(p4, p3)
+				&& distance(p1, p4) == distance(p2, p3);
 	}
 
 	private double distance(int[] aPoint, int[] bPoint)

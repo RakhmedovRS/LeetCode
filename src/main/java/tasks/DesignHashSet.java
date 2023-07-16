@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 26-Jun-20
  */
 @LeetCode(
-	id = 705,
-	name = "Design HashSet",
-	url = "https://leetcode.com/problems/design-hashset/",
-	difficulty = Difficulty.EASY
+		id = 705,
+		name = "Design HashSet",
+		url = "https://leetcode.com/problems/design-hashset/",
+		difficulty = Difficulty.EASY
 )
 public class DesignHashSet
 {

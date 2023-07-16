@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 1/20/2022
  */
 @LeetCode(
-	id = 2133,
-	name = "Check if Every Row and Column Contains All Numbers",
-	url = "https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/",
-	difficulty = Difficulty.EASY
+		id = 2133,
+		name = "Check if Every Row and Column Contains All Numbers",
+		url = "https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/",
+		difficulty = Difficulty.EASY
 )
 public class CheckIfEveryRowAndColumnContainsAllNumbers
 {

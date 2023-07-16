@@ -10,10 +10,10 @@ import java.util.*;
  * @created 3/6/2021
  */
 @LeetCode(
-	id = 1780,
-	name = "Check if Number is a Sum of Powers of Three",
-	url = "https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/",
-	difficulty = Difficulty.MEDIUM
+		id = 1780,
+		name = "Check if Number is a Sum of Powers of Three",
+		url = "https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CheckIfNumberIsSumOfPowersOfThree
 {

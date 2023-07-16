@@ -53,7 +53,7 @@ public class CountAndSay
 		}
 
 		StringBuilder result = new StringBuilder(deque.size());
-		for (Integer val: deque)
+		for (Integer val : deque)
 		{
 			result.append(val);
 		}

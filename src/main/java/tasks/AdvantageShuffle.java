@@ -13,10 +13,10 @@ import java.util.TreeMap;
  * @created 23-Sep-20
  */
 @LeetCode(
-	id = 870,
-	name = "Advantage Shuffle",
-	url = "https://leetcode.com/problems/advantage-shuffle/",
-	difficulty = Difficulty.MEDIUM
+		id = 870,
+		name = "Advantage Shuffle",
+		url = "https://leetcode.com/problems/advantage-shuffle/",
+		difficulty = Difficulty.MEDIUM
 )
 public class AdvantageShuffle
 {

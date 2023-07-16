@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 16-Jul-20
  */
 @LeetCode(
-	id = 856,
-	name = "Score of Parentheses",
-	url = "https://leetcode.com/problems/score-of-parentheses/",
-	difficulty = Difficulty.MEDIUM
+		id = 856,
+		name = "Score of Parentheses",
+		url = "https://leetcode.com/problems/score-of-parentheses/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ScoreOfParentheses
 {

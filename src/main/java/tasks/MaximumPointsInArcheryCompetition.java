@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 3/20/2022
  */
 @LeetCode(
-	id = 2212,
-	name = "Maximum Points in an Archery Competition",
-	url = "https://leetcode.com/problems/maximum-points-in-an-archery-competition/",
-	difficulty = Difficulty.MEDIUM
+		id = 2212,
+		name = "Maximum Points in an Archery Competition",
+		url = "https://leetcode.com/problems/maximum-points-in-an-archery-competition/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumPointsInArcheryCompetition
 {

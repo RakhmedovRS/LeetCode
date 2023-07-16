@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 01-Jun-20
  */
 @LeetCode(
-	id = 563,
-	name = "Binary Tree Tilt",
-	url = "https://leetcode.com/problems/binary-tree-tilt/",
-	difficulty = Difficulty.EASY
+		id = 563,
+		name = "Binary Tree Tilt",
+		url = "https://leetcode.com/problems/binary-tree-tilt/",
+		difficulty = Difficulty.EASY
 )
 public class BinaryTreeTilt
 {

@@ -9,14 +9,14 @@ import common.ListNode;
  * @created 06-Apr-20
  */
 @LeetCode(
-	id = 328,
-	name = "Odd Even Linked List",
-	url = "https://leetcode.com/problems/odd-even-linked-list/",
-	difficulty = Difficulty.MEDIUM
+		id = 328,
+		name = "Odd Even Linked List",
+		url = "https://leetcode.com/problems/odd-even-linked-list/",
+		difficulty = Difficulty.MEDIUM
 )
 public class OddEvenLinkedList
 {
-public ListNode oddEvenList(ListNode head)
+	public ListNode oddEvenList(ListNode head)
 	{
 		if (head == null || head.next == null)
 		{

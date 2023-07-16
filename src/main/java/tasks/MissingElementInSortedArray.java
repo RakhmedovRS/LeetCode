@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/8/2020
  */
 @LeetCode(
-	id = 1060,
-	name = "Missing Element in Sorted Array",
-	url = "https://leetcode.com/problems/missing-element-in-sorted-array/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1060,
+		name = "Missing Element in Sorted Array",
+		url = "https://leetcode.com/problems/missing-element-in-sorted-array/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class MissingElementInSortedArray
 {

@@ -12,11 +12,11 @@ import java.util.Map;
  * @created 12/18/2020
  */
 @LeetCode(
-	id = 353,
-	name = "Design Snake Game",
-	url = "https://leetcode.com/problems/design-snake-game/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 353,
+		name = "Design Snake Game",
+		url = "https://leetcode.com/problems/design-snake-game/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class DesignSnakeGame
 {
@@ -120,15 +120,15 @@ public class DesignSnakeGame
 	public static void main(String[] args)
 	{
 		SnakeGame snakeGame = new DesignSnakeGame().new SnakeGame(3, 3,
-			new int[][]{
-				{0, 1},
-				{0, 2},
-				{1, 2},
-				{2, 2},
-				{2, 1},
-				{2, 0},
-				{1, 0},
-			});
+				new int[][]{
+						{0, 1},
+						{0, 2},
+						{1, 2},
+						{2, 2},
+						{2, 1},
+						{2, 0},
+						{1, 0},
+				});
 		System.out.println(snakeGame.move("R"));
 		System.out.println(snakeGame.move("R"));
 		System.out.println(snakeGame.move("D"));

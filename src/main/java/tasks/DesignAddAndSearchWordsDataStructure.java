@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 03-Jul-20
  */
 @LeetCode(
-	id = 211,
-	name = "Design Add and Search Words Data Structure",
-	url = "https://leetcode.com/problems/add-and-search-word-data-structure-design/",
-	difficulty = Difficulty.MEDIUM
+		id = 211,
+		name = "Design Add and Search Words Data Structure",
+		url = "https://leetcode.com/problems/add-and-search-word-data-structure-design/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DesignAddAndSearchWordsDataStructure
 {

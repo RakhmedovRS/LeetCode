@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/29/2020
  */
 @LeetCode(
-	id = 408,
-	name = "Valid Word Abbreviation",
-	url = "https://leetcode.com/problems/valid-word-abbreviation/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 408,
+		name = "Valid Word Abbreviation",
+		url = "https://leetcode.com/problems/valid-word-abbreviation/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class ValidWordAbbreviation
 {

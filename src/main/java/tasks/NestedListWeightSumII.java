@@ -10,11 +10,11 @@ import java.util.List;
  * @created 12/23/2020
  */
 @LeetCode(
-	id = 364,
-	name = "Nested List Weight Sum II",
-	url = "https://leetcode.com/problems/nested-list-weight-sum-ii/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 364,
+		name = "Nested List Weight Sum II",
+		url = "https://leetcode.com/problems/nested-list-weight-sum-ii/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class NestedListWeightSumII
 {

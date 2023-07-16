@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 11/1/2020
  */
 @LeetCode(
-	id = 1641,
-	name = "Count Sorted Vowel Strings",
-	url = "https://leetcode.com/problems/count-sorted-vowel-strings/",
-	difficulty = Difficulty.MEDIUM
+		id = 1641,
+		name = "Count Sorted Vowel Strings",
+		url = "https://leetcode.com/problems/count-sorted-vowel-strings/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CountSortedVowelStrings
 {

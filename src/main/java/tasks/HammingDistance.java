@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 31-Mar-20
  */
 @LeetCode(
-	id = 461,
-	name = "Hamming Distance",
-	url = "https://leetcode.com/problems/hamming-distance/",
-	difficulty = Difficulty.EASY
+		id = 461,
+		name = "Hamming Distance",
+		url = "https://leetcode.com/problems/hamming-distance/",
+		difficulty = Difficulty.EASY
 )
 public class HammingDistance
 {

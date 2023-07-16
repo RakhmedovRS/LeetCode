@@ -12,10 +12,10 @@ import java.util.List;
  * @created 28-Mar-20
  */
 @LeetCode(
-	id = 350,
-	name = "Intersection of Two Arrays II",
-	url = "https://leetcode.com/problems/intersection-of-two-arrays-ii/",
-	difficulty = Difficulty.MEDIUM
+		id = 350,
+		name = "Intersection of Two Arrays II",
+		url = "https://leetcode.com/problems/intersection-of-two-arrays-ii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class IntersectionOfTwoArraysII
 {
@@ -62,6 +62,6 @@ public class IntersectionOfTwoArraysII
 	public static void main(String[] args)
 	{
 		System.out.println(Arrays.toString(new IntersectionOfTwoArraysII().intersect(new int[]{1, 2, 2, 1}, new int[]{2, 2})));
-		System.out.println(Arrays.toString(new IntersectionOfTwoArraysII().intersect(new int[]{4,9,5}, new int[]{9,4,9,8,4})));
+		System.out.println(Arrays.toString(new IntersectionOfTwoArraysII().intersect(new int[]{4, 9, 5}, new int[]{9, 4, 9, 8, 4})));
 	}
 }

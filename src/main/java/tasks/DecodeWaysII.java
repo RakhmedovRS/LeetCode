@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/27/2020
  */
 @LeetCode(
-	id = 639,
-	name = "Decode Ways II",
-	url = "https://leetcode.com/problems/decode-ways-ii/",
-	difficulty = Difficulty.HARD
+		id = 639,
+		name = "Decode Ways II",
+		url = "https://leetcode.com/problems/decode-ways-ii/",
+		difficulty = Difficulty.HARD
 )
 public class DecodeWaysII
 {
@@ -65,7 +65,7 @@ public class DecodeWaysII
 				else
 				{
 					result = ((result + dfs(pos + 1, chars, memo) % mod) % mod +
-						(result + dfs(pos + 2, chars, memo) % mod) % mod) % mod;
+							(result + dfs(pos + 2, chars, memo) % mod) % mod) % mod;
 				}
 			}
 			else
@@ -89,7 +89,7 @@ public class DecodeWaysII
 				else if (chars[pos + 1] <= '6')
 				{
 					result = (result + dfs(pos + 1, chars, memo) % mod) % mod +
-						(result + dfs(pos + 2, chars, memo) % mod) % mod;
+							(result + dfs(pos + 2, chars, memo) % mod) % mod;
 				}
 				else
 				{

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 10/10/2020
  */
 @LeetCode(
-	id = 622,
-	name = "Design Circular Queue",
-	url = "https://leetcode.com/problems/design-circular-queue/",
-	difficulty = Difficulty.MEDIUM
+		id = 622,
+		name = "Design Circular Queue",
+		url = "https://leetcode.com/problems/design-circular-queue/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DesignCircularQueue
 {

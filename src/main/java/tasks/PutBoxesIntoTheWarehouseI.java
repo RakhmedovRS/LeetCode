@@ -10,11 +10,11 @@ import java.util.PriorityQueue;
  * @created 1/18/2021
  */
 @LeetCode(
-	id = 1564,
-	name = "Put Boxes Into the Warehouse I",
-	url = "https://leetcode.com/problems/put-boxes-into-the-warehouse-i/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1564,
+		name = "Put Boxes Into the Warehouse I",
+		url = "https://leetcode.com/problems/put-boxes-into-the-warehouse-i/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class PutBoxesIntoTheWarehouseI
 {

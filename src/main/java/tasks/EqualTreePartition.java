@@ -12,10 +12,10 @@ import java.util.Map;
  * @created 8/31/2021
  */
 @LeetCode(
-	id = 663,
-	name = "Equal Tree Partition",
-	url = "https://leetcode.com/problems/equal-tree-partition/",
-	difficulty = Difficulty.MEDIUM
+		id = 663,
+		name = "Equal Tree Partition",
+		url = "https://leetcode.com/problems/equal-tree-partition/",
+		difficulty = Difficulty.MEDIUM
 )
 public class EqualTreePartition
 {

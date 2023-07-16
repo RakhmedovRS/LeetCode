@@ -12,11 +12,11 @@ import java.util.TreeMap;
  * @created 12/3/2020
  */
 @LeetCode(
-	id = 716,
-	name = "Max Stack",
-	url = "https://leetcode.com/problems/max-stack/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 716,
+		name = "Max Stack",
+		url = "https://leetcode.com/problems/max-stack/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class MaxStack
 {

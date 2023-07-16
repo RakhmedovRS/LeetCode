@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/19/2021
  */
 @LeetCode(
-	id = 2108,
-	name = "Find First Palindromic String in the Array",
-	url = "https://leetcode.com/problems/find-first-palindromic-string-in-the-array/",
-	difficulty = Difficulty.EASY
+		id = 2108,
+		name = "Find First Palindromic String in the Array",
+		url = "https://leetcode.com/problems/find-first-palindromic-string-in-the-array/",
+		difficulty = Difficulty.EASY
 )
 public class FindFirstPalindromicStringInTheArray
 {

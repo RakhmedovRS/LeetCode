@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 16-Jun-20
  */
 @LeetCode(
-	id = 645,
-	name = "Set Mismatch",
-	url = "https://leetcode.com/problems/set-mismatch/",
-	difficulty = Difficulty.EASY
+		id = 645,
+		name = "Set Mismatch",
+		url = "https://leetcode.com/problems/set-mismatch/",
+		difficulty = Difficulty.EASY
 )
 public class SetMismatch
 {

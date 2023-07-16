@@ -11,11 +11,11 @@ import java.util.LinkedList;
  * @created 10/28/2021
  */
 @LeetCode(
-	id = 2046,
-	name = "Sort Linked List Already Sorted Using Absolute Values",
-	url = "https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 2046,
+		name = "Sort Linked List Already Sorted Using Absolute Values",
+		url = "https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class SortLinkedListAlreadySortedUsingAbsoluteValues
 {

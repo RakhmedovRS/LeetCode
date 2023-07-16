@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/26/2020
  */
 @LeetCode(
-	id = 995,
-	name = "Minimum Number of K Consecutive Bit Flips",
-	url = "https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/",
-	difficulty = Difficulty.HARD
+		id = 995,
+		name = "Minimum Number of K Consecutive Bit Flips",
+		url = "https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/",
+		difficulty = Difficulty.HARD
 )
 public class MinimumNumberOfKConsecutiveBitFlips
 {

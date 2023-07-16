@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 1/16/2021
  */
 @LeetCode(
-	id = 473,
-	name = "Matchsticks to Square",
-	url = "https://leetcode.com/problems/matchsticks-to-square/",
-	difficulty = Difficulty.MEDIUM
+		id = 473,
+		name = "Matchsticks to Square",
+		url = "https://leetcode.com/problems/matchsticks-to-square/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MatchsticksToSquare
 {
@@ -34,9 +34,9 @@ public class MatchsticksToSquare
 		}
 
 		return dfs(sum / 4, matchsticks, used)
-			&& dfs(sum / 4, matchsticks, used)
-			&& dfs(sum / 4, matchsticks, used)
-			&& dfs(sum / 4, matchsticks, used);
+				&& dfs(sum / 4, matchsticks, used)
+				&& dfs(sum / 4, matchsticks, used)
+				&& dfs(sum / 4, matchsticks, used);
 	}
 
 	private boolean dfs(int sum, int[] matchsticks, boolean[] used)

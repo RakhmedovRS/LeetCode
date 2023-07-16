@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 6/26/2021
  */
 @LeetCode(
-	id = 1911,
-	name = "Maximum Alternating Subsequence Sum",
-	url = "https://leetcode.com/problems/maximum-alternating-subsequence-sum/",
-	difficulty = Difficulty.MEDIUM
+		id = 1911,
+		name = "Maximum Alternating Subsequence Sum",
+		url = "https://leetcode.com/problems/maximum-alternating-subsequence-sum/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumAlternatingSubsequenceSum
 {

@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 1/8/2021
  */
 @LeetCode(
-	id = 1590,
-	name = "Make Sum Divisible by P",
-	url = "https://leetcode.com/problems/make-sum-divisible-by-p/",
-	difficulty = Difficulty.MEDIUM
+		id = 1590,
+		name = "Make Sum Divisible by P",
+		url = "https://leetcode.com/problems/make-sum-divisible-by-p/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MakeSumDivisibleByP
 {

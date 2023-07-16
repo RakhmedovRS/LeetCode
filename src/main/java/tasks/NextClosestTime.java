@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/24/2020
  */
 @LeetCode(
-	id = 681,
-	name = "Next Closest Time",
-	url = "https://leetcode.com/problems/next-closest-time/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 681,
+		name = "Next Closest Time",
+		url = "https://leetcode.com/problems/next-closest-time/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class NextClosestTime
 {

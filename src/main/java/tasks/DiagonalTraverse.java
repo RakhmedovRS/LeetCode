@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 24-Apr-20
  */
 @LeetCode(
-	id = 498,
-	name = "Diagonal Traverse",
-	url = "https://leetcode.com/problems/diagonal-traverse/",
-	difficulty = Difficulty.MEDIUM
+		id = 498,
+		name = "Diagonal Traverse",
+		url = "https://leetcode.com/problems/diagonal-traverse/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DiagonalTraverse
 {

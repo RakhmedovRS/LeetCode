@@ -10,10 +10,10 @@ import java.util.*;
  * @created 10-Feb-20
  */
 @LeetCode(
-	id = 589,
-	name = "N-ary Tree Preorder Traversal",
-	url = "https://leetcode.com/problems/n-ary-tree-preorder-traversal/",
-	difficulty = Difficulty.EASY
+		id = 589,
+		name = "N-ary Tree Preorder Traversal",
+		url = "https://leetcode.com/problems/n-ary-tree-preorder-traversal/",
+		difficulty = Difficulty.EASY
 )
 public class N_aryTreePreorderTraversal
 {
@@ -22,7 +22,9 @@ public class N_aryTreePreorderTraversal
 		public int val;
 		public List<Node> children;
 
-		public Node(){}
+		public Node()
+		{
+		}
 
 		public Node(int val)
 		{

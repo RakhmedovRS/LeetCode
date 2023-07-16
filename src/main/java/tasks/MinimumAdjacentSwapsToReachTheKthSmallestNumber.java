@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 5/2/2021
  */
 @LeetCode(
-	id = 1850,
-	name = "Minimum Adjacent Swaps to Reach the Kth Smallest Number",
-	url = "https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/",
-	difficulty = Difficulty.MEDIUM
+		id = 1850,
+		name = "Minimum Adjacent Swaps to Reach the Kth Smallest Number",
+		url = "https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumAdjacentSwapsToReachTheKthSmallestNumber
 {

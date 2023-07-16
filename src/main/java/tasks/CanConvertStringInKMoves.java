@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 08-Aug-20
  */
 @LeetCode(
-	id = 1540,
-	name = "Can Convert String in K Moves",
-	url = "https://leetcode.com/problems/can-convert-string-in-k-moves/",
-	difficulty = Difficulty.MEDIUM
+		id = 1540,
+		name = "Can Convert String in K Moves",
+		url = "https://leetcode.com/problems/can-convert-string-in-k-moves/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CanConvertStringInKMoves
 {

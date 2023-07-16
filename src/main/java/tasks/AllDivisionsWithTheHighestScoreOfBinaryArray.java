@@ -11,10 +11,10 @@ import java.util.List;
  * @created 1/30/2022
  */
 @LeetCode(
-	id = 2155,
-	name = "All Divisions With the Highest Score of a Binary Array",
-	url = "https://leetcode.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 2155,
+		name = "All Divisions With the Highest Score of a Binary Array",
+		url = "https://leetcode.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class AllDivisionsWithTheHighestScoreOfBinaryArray
 {

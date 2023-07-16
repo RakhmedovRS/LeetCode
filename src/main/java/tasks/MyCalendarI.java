@@ -10,9 +10,9 @@ import java.util.TreeMap;
  * @created 11-Aug-20
  */
 @LeetCode(id = 729,
-	name = "My Calendar I",
-	url = "https://leetcode.com/problems/my-calendar-i/",
-	difficulty = Difficulty.MEDIUM
+		name = "My Calendar I",
+		url = "https://leetcode.com/problems/my-calendar-i/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MyCalendarI
 {
@@ -31,7 +31,7 @@ public class MyCalendarI
 			Integer previous = treeMap.floorKey(start);
 			Integer next = treeMap.ceilingKey(start);
 			if ((previous == null || treeMap.get(previous) <= start)
-				&& (next == null || end <= next))
+					&& (next == null || end <= next))
 			{
 				treeMap.put(start, end);
 				return true;

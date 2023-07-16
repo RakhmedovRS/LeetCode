@@ -10,10 +10,10 @@ import java.util.ArrayList;
  * @created 7/28/2021
  */
 @LeetCode(
-	id = 932,
-	name = "Beautiful Array",
-	url = "https://leetcode.com/problems/beautiful-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 932,
+		name = "Beautiful Array",
+		url = "https://leetcode.com/problems/beautiful-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class BeautifulArray
 {

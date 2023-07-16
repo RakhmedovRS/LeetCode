@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/21/2021
  */
 @LeetCode(
-	id = 2078,
-	name = "Two Furthest Houses With Different Colors",
-	url = "https://leetcode.com/problems/two-furthest-houses-with-different-colors/",
-	difficulty = Difficulty.EASY
+		id = 2078,
+		name = "Two Furthest Houses With Different Colors",
+		url = "https://leetcode.com/problems/two-furthest-houses-with-different-colors/",
+		difficulty = Difficulty.EASY
 )
 public class TwoFurthestHousesWithDifferentColors
 {

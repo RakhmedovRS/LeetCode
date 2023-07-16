@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 7/25/2021
  */
 @LeetCode(
-	id = 1945,
-	name = "Sum of Digits of String After Convert",
-	url = "https://leetcode.com/problems/sum-of-digits-of-string-after-convert/",
-	difficulty = Difficulty.EASY
+		id = 1945,
+		name = "Sum of Digits of String After Convert",
+		url = "https://leetcode.com/problems/sum-of-digits-of-string-after-convert/",
+		difficulty = Difficulty.EASY
 )
 public class SumOfDigitsOfStringAfterConvert
 {

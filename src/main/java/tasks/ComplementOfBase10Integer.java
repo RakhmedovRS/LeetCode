@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 15-Sep-20
  */
 @LeetCode(
-	id = 1009,
-	name = "Complement of Base 10 Integer",
-	url = "https://leetcode.com/problems/complement-of-base-10-integer/",
-	difficulty = Difficulty.EASY
+		id = 1009,
+		name = "Complement of Base 10 Integer",
+		url = "https://leetcode.com/problems/complement-of-base-10-integer/",
+		difficulty = Difficulty.EASY
 )
 public class ComplementOfBase10Integer
 {

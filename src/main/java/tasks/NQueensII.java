@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 29-Feb-20
  */
 @LeetCode(
-	id = 52,
-	name = "N-Queens II",
-	url = "https://leetcode.com/problems/n-queens-ii/",
-	difficulty = Difficulty.HARD
+		id = 52,
+		name = "N-Queens II",
+		url = "https://leetcode.com/problems/n-queens-ii/",
+		difficulty = Difficulty.HARD
 )
 public class NQueensII
 {
@@ -64,14 +64,14 @@ public class NQueensII
 		}
 
 		//slash line
-		for (int r = row, c = column; r < table.length && c >=0 ; r++, c--)
+		for (int r = row, c = column; r < table.length && c >= 0; r++, c--)
 		{
 			if (table[r][c])
 			{
 				return false;
 			}
 		}
-		for (int r = row, c = column; r >= 0 && c < table[row].length ; r--, c++)
+		for (int r = row, c = column; r >= 0 && c < table[row].length; r--, c++)
 		{
 			if (table[r][c])
 			{
@@ -80,14 +80,14 @@ public class NQueensII
 		}
 
 		//backslash line
-		for (int r = row, c = column; r >= 0 && c >=0 ; r--, c--)
+		for (int r = row, c = column; r >= 0 && c >= 0; r--, c--)
 		{
 			if (table[r][c])
 			{
 				return false;
 			}
 		}
-		for (int r = row, c = column; r < table.length && c < table[row].length ; r++, c++)
+		for (int r = row, c = column; r < table.length && c < table[row].length; r++, c++)
 		{
 			if (table[r][c])
 			{

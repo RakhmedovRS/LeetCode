@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 06-Apr-20
  */
 @LeetCode(
-	id = 162,
-	name = "Find Peak Element",
-	url = "https://leetcode.com/problems/find-peak-element/",
-	difficulty = Difficulty.MEDIUM
+		id = 162,
+		name = "Find Peak Element",
+		url = "https://leetcode.com/problems/find-peak-element/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindPeakElement
 {

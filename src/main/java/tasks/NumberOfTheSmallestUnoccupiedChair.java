@@ -10,10 +10,10 @@ import java.util.PriorityQueue;
  * @created 7/24/2021
  */
 @LeetCode(
-	id = 1942,
-	name = "The Number of the Smallest Unoccupied Chair",
-	url = "https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/",
-	difficulty = Difficulty.MEDIUM
+		id = 1942,
+		name = "The Number of the Smallest Unoccupied Chair",
+		url = "https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/",
+		difficulty = Difficulty.MEDIUM
 )
 public class NumberOfTheSmallestUnoccupiedChair
 {

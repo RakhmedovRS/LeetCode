@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 2/21/2021
  */
 @LeetCode(
-	id = 1769,
-	name = "Minimum Number of Operations to Move All Balls to Each Box",
-	url = "https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/",
-	difficulty = Difficulty.MEDIUM
+		id = 1769,
+		name = "Minimum Number of Operations to Move All Balls to Each Box",
+		url = "https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumNumberOfOperationsToMoveAllBallsToEachBox
 {

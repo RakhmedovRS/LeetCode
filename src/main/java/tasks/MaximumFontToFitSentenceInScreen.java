@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 1/3/2021
  */
 @LeetCode(
-	id = 1618,
-	name = "Maximum Font to Fit a Sentence in a Screen",
-	url = "https://leetcode.com/problems/maximum-font-to-fit-a-sentence-in-a-screen/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1618,
+		name = "Maximum Font to Fit a Sentence in a Screen",
+		url = "https://leetcode.com/problems/maximum-font-to-fit-a-sentence-in-a-screen/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class MaximumFontToFitSentenceInScreen
 {

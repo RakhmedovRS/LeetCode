@@ -35,7 +35,7 @@ public class RegularExpressionMatching
 			if (patternPos + 1 < pattern.length && pattern[patternPos + 1] == '*')
 			{
 				match = isMatch(stringPos, patternPos + 2, string, pattern, memo)
-					|| (match && isMatch(stringPos + 1, patternPos, string, pattern, memo));
+						|| (match && isMatch(stringPos + 1, patternPos, string, pattern, memo));
 			}
 			else
 			{

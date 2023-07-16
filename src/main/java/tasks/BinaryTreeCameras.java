@@ -12,10 +12,10 @@ import java.util.Map;
  * @created 12-Aug-20
  */
 @LeetCode(
-	id = 968,
-	name = "Binary Tree Cameras",
-	url = "https://leetcode.com/problems/binary-tree-cameras/",
-	difficulty = Difficulty.HARD
+		id = 968,
+		name = "Binary Tree Cameras",
+		url = "https://leetcode.com/problems/binary-tree-cameras/",
+		difficulty = Difficulty.HARD
 )
 public class BinaryTreeCameras
 {
@@ -64,7 +64,7 @@ public class BinaryTreeCameras
 		else if (state == 1)
 		{
 			result = Math.min(1 + dfs(root.left, 1, memo) + dfs(root.right, 1, memo),
-				dfs(root.left, 0, memo) + dfs(root.right, 0, memo));
+					dfs(root.left, 0, memo) + dfs(root.right, 0, memo));
 		}
 		//camera
 		else

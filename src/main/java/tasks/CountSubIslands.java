@@ -11,10 +11,10 @@ import java.util.List;
  * @created 6/20/2021
  */
 @LeetCode(
-	id = 1905,
-	name = "Count Sub Islands",
-	url = "https://leetcode.com/problems/count-sub-islands/",
-	difficulty = Difficulty.MEDIUM
+		id = 1905,
+		name = "Count Sub Islands",
+		url = "https://leetcode.com/problems/count-sub-islands/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CountSubIslands
 {
@@ -67,9 +67,9 @@ public class CountSubIslands
 		grid2[row][column] = 0;
 
 		return dfs(row - 1, column, rows, columns, grid1, grid2)
-			&& dfs(row + 1, column, rows, columns, grid1, grid2)
-			&& dfs(row, column - 1, rows, columns, grid1, grid2)
-			&& dfs(row, column + 1, rows, columns, grid1, grid2);
+				&& dfs(row + 1, column, rows, columns, grid1, grid2)
+				&& dfs(row, column - 1, rows, columns, grid1, grid2)
+				&& dfs(row, column + 1, rows, columns, grid1, grid2);
 	}
 
 	private void explore(int row, int column, int rows, int columns, int[][] grid, boolean[][] visited, List<int[]> land)

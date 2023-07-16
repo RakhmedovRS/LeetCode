@@ -10,10 +10,10 @@ import java.util.*;
  * @created 07-Aug-20
  */
 @LeetCode(
-	id = 752,
-	name = "Open the Lock",
-	url = "https://leetcode.com/problems/open-the-lock/",
-	difficulty = Difficulty.MEDIUM
+		id = 752,
+		name = "Open the Lock",
+		url = "https://leetcode.com/problems/open-the-lock/",
+		difficulty = Difficulty.MEDIUM
 )
 public class OpenTheLock
 {

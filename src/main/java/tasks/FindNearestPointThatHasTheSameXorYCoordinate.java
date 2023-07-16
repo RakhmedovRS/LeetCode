@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 3/6/2021
  */
 @LeetCode(
-	id = 1779,
-	name = "Find Nearest Point That Has the Same X or Y Coordinate",
-	url = "https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/",
-	difficulty = Difficulty.EASY
+		id = 1779,
+		name = "Find Nearest Point That Has the Same X or Y Coordinate",
+		url = "https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/",
+		difficulty = Difficulty.EASY
 )
 public class FindNearestPointThatHasTheSameXorYCoordinate
 {
@@ -46,15 +46,15 @@ public class FindNearestPointThatHasTheSameXorYCoordinate
 		FindNearestPointThatHasTheSameXorYCoordinate clazz = new FindNearestPointThatHasTheSameXorYCoordinate();
 
 		System.out.println(clazz.nearestValidPoint(3, 4, new int[][]{
-			{1, 2},
-			{3, 1},
-			{2, 4},
-			{2, 3},
-			{4, 4}
+				{1, 2},
+				{3, 1},
+				{2, 4},
+				{2, 3},
+				{4, 4}
 		}));
 
 		System.out.println(clazz.nearestValidPoint(3, 4, new int[][]{
-			{2, 3}
+				{2, 3}
 		}));
 	}
 }

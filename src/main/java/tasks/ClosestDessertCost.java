@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 2/28/2021
  */
 @LeetCode(
-	id = 1774,
-	name = "Closest Dessert Cost",
-	url = "https://leetcode.com/problems/closest-dessert-cost/",
-	difficulty = Difficulty.MEDIUM
+		id = 1774,
+		name = "Closest Dessert Cost",
+		url = "https://leetcode.com/problems/closest-dessert-cost/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ClosestDessertCost
 {

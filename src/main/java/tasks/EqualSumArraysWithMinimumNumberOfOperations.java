@@ -11,10 +11,10 @@ import java.util.PriorityQueue;
  * @created 2/28/2021
  */
 @LeetCode(
-	id = 1775,
-	name = "Equal Sum Arrays With Minimum Number of Operations",
-	url = "https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/",
-	difficulty = Difficulty.MEDIUM
+		id = 1775,
+		name = "Equal Sum Arrays With Minimum Number of Operations",
+		url = "https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/",
+		difficulty = Difficulty.MEDIUM
 )
 public class EqualSumArraysWithMinimumNumberOfOperations
 {

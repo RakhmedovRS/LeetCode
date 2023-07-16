@@ -9,10 +9,10 @@ import common.ListNode;
  * @created 07-May-20
  */
 @LeetCode(
-	id = 203,
-	name = "Remove Linked List Elements",
-	url = "https://leetcode.com/problems/remove-linked-list-elements/",
-	difficulty = Difficulty.EASY
+		id = 203,
+		name = "Remove Linked List Elements",
+		url = "https://leetcode.com/problems/remove-linked-list-elements/",
+		difficulty = Difficulty.EASY
 )
 public class RemoveLinkedListElements
 {

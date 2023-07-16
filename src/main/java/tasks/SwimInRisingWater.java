@@ -12,10 +12,10 @@ import java.util.Queue;
  * @created 6/20/2021
  */
 @LeetCode(
-	id = 778,
-	name = "Swim in Rising Water",
-	url = "https://leetcode.com/problems/swim-in-rising-water/",
-	difficulty = Difficulty.HARD
+		id = 778,
+		name = "Swim in Rising Water",
+		url = "https://leetcode.com/problems/swim-in-rising-water/",
+		difficulty = Difficulty.HARD
 )
 public class SwimInRisingWater
 {

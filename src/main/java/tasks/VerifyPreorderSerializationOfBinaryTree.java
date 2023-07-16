@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 07-Aug-20
  */
 @LeetCode(
-	id = 331,
-	name = "Verify Preorder Serialization of a Binary Tree",
-	url = "https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/",
-	difficulty = Difficulty.MEDIUM
+		id = 331,
+		name = "Verify Preorder Serialization of a Binary Tree",
+		url = "https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/",
+		difficulty = Difficulty.MEDIUM
 )
 public class VerifyPreorderSerializationOfBinaryTree
 {
@@ -24,7 +24,10 @@ public class VerifyPreorderSerializationOfBinaryTree
 		public TreeNode left;
 		public TreeNode right;
 
-		public TreeNode(String x){ val = x; }
+		public TreeNode(String x)
+		{
+			val = x;
+		}
 	}
 
 	public boolean isValidSerialization(String preorder)

@@ -13,11 +13,11 @@ import java.util.Map;
  * @created 12/4/2020
  */
 @LeetCode(
-	id = 1490,
-	name = "Clone N-ary Tree",
-	url = "https://leetcode.com/problems/clone-n-ary-tree/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1490,
+		name = "Clone N-ary Tree",
+		url = "https://leetcode.com/problems/clone-n-ary-tree/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class CloneNAryTree
 {

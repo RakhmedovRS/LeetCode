@@ -12,10 +12,10 @@ import java.util.Set;
  * @created 11-Mar-20
  */
 @LeetCode(
-	id = 217,
-	name = "Contains Duplicate",
-	url = "https://leetcode.com/problems/contains-duplicate/",
-	difficulty = Difficulty.EASY
+		id = 217,
+		name = "Contains Duplicate",
+		url = "https://leetcode.com/problems/contains-duplicate/",
+		difficulty = Difficulty.EASY
 )
 public class ContainsDuplicate
 {
@@ -38,7 +38,7 @@ public class ContainsDuplicate
 		Arrays.sort(nums);
 		for (int i = 1; i < nums.length; i++)
 		{
-			if (nums[i-1] == nums[i])
+			if (nums[i - 1] == nums[i])
 			{
 				return true;
 			}

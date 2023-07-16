@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 3/14/2021
  */
 @LeetCode(
-	id = 1791,
-	name = "Find Center of Star Graph",
-	url = "https://leetcode.com/problems/find-center-of-star-graph/",
-	difficulty = Difficulty.MEDIUM
+		id = 1791,
+		name = "Find Center of Star Graph",
+		url = "https://leetcode.com/problems/find-center-of-star-graph/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindCenterOfStarGraph
 {
@@ -39,18 +39,18 @@ public class FindCenterOfStarGraph
 	{
 		FindCenterOfStarGraph clazz = new FindCenterOfStarGraph();
 		System.out.println(clazz.findCenter(new int[][]
-			{
-				{1, 2},
-				{2, 3},
-				{4, 2}
-			}));
+				{
+						{1, 2},
+						{2, 3},
+						{4, 2}
+				}));
 
 		System.out.println(clazz.findCenter(new int[][]
-			{
-				{1, 2},
-				{5, 1},
-				{1, 3},
-				{1, 4}
-			}));
+				{
+						{1, 2},
+						{5, 1},
+						{1, 3},
+						{1, 4}
+				}));
 	}
 }

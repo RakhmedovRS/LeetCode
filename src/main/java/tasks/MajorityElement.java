@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 03-Mar-20
  */
 @LeetCode(
-	id = 169,
-	name = "Majority Element",
-	url = "https://leetcode.com/problems/majority-element/",
-	difficulty = Difficulty.EASY
+		id = 169,
+		name = "Majority Element",
+		url = "https://leetcode.com/problems/majority-element/",
+		difficulty = Difficulty.EASY
 )
 public class MajorityElement
 {

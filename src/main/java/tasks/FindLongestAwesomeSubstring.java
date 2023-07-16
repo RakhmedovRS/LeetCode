@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 09-Sep-20
  */
 @LeetCode(
-	id = 1542,
-	name = "Find Longest Awesome Substring",
-	url = "https://leetcode.com/problems/find-longest-awesome-substring/",
-	difficulty = Difficulty.HARD
+		id = 1542,
+		name = "Find Longest Awesome Substring",
+		url = "https://leetcode.com/problems/find-longest-awesome-substring/",
+		difficulty = Difficulty.HARD
 )
 public class FindLongestAwesomeSubstring
 {

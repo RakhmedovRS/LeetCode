@@ -12,10 +12,10 @@ import java.util.Map;
  * @created 02-Jul-20
  */
 @LeetCode(
-	id = 1048,
-	name = "Longest String Chain",
-	url = "https://leetcode.com/problems/longest-string-chain/",
-	difficulty = Difficulty.MEDIUM
+		id = 1048,
+		name = "Longest String Chain",
+		url = "https://leetcode.com/problems/longest-string-chain/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LongestStringChain
 {

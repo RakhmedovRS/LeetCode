@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 3/7/2021
  */
 @LeetCode(
-	id = 1785,
-	name = "Minimum Elements to Add to Form a Given Sum",
-	url = "https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/",
-	difficulty = Difficulty.MEDIUM
+		id = 1785,
+		name = "Minimum Elements to Add to Form a Given Sum",
+		url = "https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumElementsToAddToFormGivenSum
 {

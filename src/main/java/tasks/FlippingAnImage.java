@@ -25,7 +25,7 @@ public class FlippingAnImage
 				row[right] = temp;
 
 				row[left] = (row[left] + 1) % 2;
-				if(left != right)
+				if (left != right)
 				{
 					row[right] = (row[right] + 1) % 2;
 				}

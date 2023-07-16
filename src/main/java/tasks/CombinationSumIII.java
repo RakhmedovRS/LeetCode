@@ -11,10 +11,10 @@ import java.util.List;
  * @created 23-Apr-20
  */
 @LeetCode(
-	id = 216,
-	name = "Combination Sum III",
-	url = "https://leetcode.com/problems/combination-sum-iii/",
-	difficulty = Difficulty.MEDIUM
+		id = 216,
+		name = "Combination Sum III",
+		url = "https://leetcode.com/problems/combination-sum-iii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CombinationSumIII
 {

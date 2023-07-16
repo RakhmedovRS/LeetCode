@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/20/2021
  */
 @LeetCode(
-	id = 1903,
-	name = "Largest Odd Number in String",
-	url = "https://leetcode.com/problems/largest-odd-number-in-string/",
-	difficulty = Difficulty.EASY
+		id = 1903,
+		name = "Largest Odd Number in String",
+		url = "https://leetcode.com/problems/largest-odd-number-in-string/",
+		difficulty = Difficulty.EASY
 )
 public class LargestOddNumberInString
 {

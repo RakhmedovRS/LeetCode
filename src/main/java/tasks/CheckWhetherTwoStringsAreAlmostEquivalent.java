@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/13/2021
  */
 @LeetCode(
-	id = 2068,
-	name = "Check Whether Two Strings are Almost Equivalent",
-	url = "https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/",
-	difficulty = Difficulty.EASY
+		id = 2068,
+		name = "Check Whether Two Strings are Almost Equivalent",
+		url = "https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/",
+		difficulty = Difficulty.EASY
 )
 public class CheckWhetherTwoStringsAreAlmostEquivalent
 {

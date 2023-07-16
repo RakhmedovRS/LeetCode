@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/26/2020
  */
 @LeetCode(
-	id = 395,
-	name = "Longest Substring with At Least K Repeating Characters",
-	url = "https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/",
-	difficulty = Difficulty.MEDIUM
+		id = 395,
+		name = "Longest Substring with At Least K Repeating Characters",
+		url = "https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LongestSubstringWithAtLeastKRepeatingCharacters
 {

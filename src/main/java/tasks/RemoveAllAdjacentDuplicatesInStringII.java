@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 26-Feb-20
  */
 @LeetCode(
-	id = 1209,
-	name = "Remove All Adjacent Duplicates in String II",
-	url = "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/",
-	difficulty = Difficulty.MEDIUM
+		id = 1209,
+		name = "Remove All Adjacent Duplicates in String II",
+		url = "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RemoveAllAdjacentDuplicatesInStringII
 {

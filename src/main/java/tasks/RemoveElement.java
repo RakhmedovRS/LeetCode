@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 19-Apr-20
  */
 @LeetCode(
-	id = 27,
-	name = "Remove Element",
-	url = "https://leetcode.com/problems/remove-element/",
-	difficulty = Difficulty.EASY
+		id = 27,
+		name = "Remove Element",
+		url = "https://leetcode.com/problems/remove-element/",
+		difficulty = Difficulty.EASY
 )
 public class RemoveElement
 {

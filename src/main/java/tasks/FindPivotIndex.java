@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 22-Apr-20
  */
 @LeetCode(
-	id = 724,
-	name = "Find Pivot Index",
-	url = "https://leetcode.com/problems/find-pivot-index/",
-	difficulty = Difficulty.EASY
+		id = 724,
+		name = "Find Pivot Index",
+		url = "https://leetcode.com/problems/find-pivot-index/",
+		difficulty = Difficulty.EASY
 )
 public class FindPivotIndex
 {

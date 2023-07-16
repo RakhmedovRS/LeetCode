@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 2/7/2021
  */
 @LeetCode(
-	id = 1750,
-	name = "Minimum Length of String After Deleting Similar Ends",
-	url = "https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/",
-	difficulty = Difficulty.MEDIUM
+		id = 1750,
+		name = "Minimum Length of String After Deleting Similar Ends",
+		url = "https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumLengthOfStringAfterDeletingSimilarEnds
 {

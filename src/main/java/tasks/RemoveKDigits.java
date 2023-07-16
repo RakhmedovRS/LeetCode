@@ -11,10 +11,10 @@ import java.util.LinkedList;
  * @created 13-May-20
  */
 @LeetCode(
-	id = 402,
-	name = "Remove K Digits",
-	url = "https://leetcode.com/problems/remove-k-digits/",
-	difficulty = Difficulty.MEDIUM
+		id = 402,
+		name = "Remove K Digits",
+		url = "https://leetcode.com/problems/remove-k-digits/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RemoveKDigits
 {

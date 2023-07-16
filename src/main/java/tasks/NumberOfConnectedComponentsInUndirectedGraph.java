@@ -11,11 +11,11 @@ import java.util.Set;
  * @created 1/12/2021
  */
 @LeetCode(
-	id = 323,
-	name = "Number of Connected Components in an Undirected Graph",
-	url = "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 323,
+		name = "Number of Connected Components in an Undirected Graph",
+		url = "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class NumberOfConnectedComponentsInUndirectedGraph
 {

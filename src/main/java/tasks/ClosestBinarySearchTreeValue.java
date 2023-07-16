@@ -9,11 +9,11 @@ import common.TreeNode;
  * @created 12/9/2020
  */
 @LeetCode(
-	id = 270,
-	name = "Closest Binary Search Tree Value",
-	url = "https://leetcode.com/problems/closest-binary-search-tree-value/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 270,
+		name = "Closest Binary Search Tree Value",
+		url = "https://leetcode.com/problems/closest-binary-search-tree-value/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class ClosestBinarySearchTreeValue
 {

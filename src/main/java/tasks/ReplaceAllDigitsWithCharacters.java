@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 5/1/2021
  */
 @LeetCode(
-	id = 1844,
-	name = "Replace All Digits with Characters",
-	url = "https://leetcode.com/problems/replace-all-digits-with-characters/",
-	difficulty = Difficulty.MEDIUM
+		id = 1844,
+		name = "Replace All Digits with Characters",
+		url = "https://leetcode.com/problems/replace-all-digits-with-characters/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ReplaceAllDigitsWithCharacters
 {

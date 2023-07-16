@@ -14,7 +14,8 @@ import java.util.Map;
 @LeetCode(id = 1282, name = "Group the People Given the Group Size They Belong To", url = "https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/")
 public class GroupPeopleGivenGroupSize
 {
-	public List<List<Integer>> groupThePeople(int[] groupSizes) {
+	public List<List<Integer>> groupThePeople(int[] groupSizes)
+	{
 		Map<Integer, List<List<Integer>>> groups = new HashMap<>();
 		for (int i = 0; i < groupSizes.length; i++)
 		{
@@ -50,7 +51,7 @@ public class GroupPeopleGivenGroupSize
 		}
 
 		List<List<Integer>> result = new LinkedList<>();
-		for (List<List<Integer>> group: groups.values())
+		for (List<List<Integer>> group : groups.values())
 		{
 			result.addAll(group);
 		}
@@ -60,7 +61,7 @@ public class GroupPeopleGivenGroupSize
 
 	public static void main(String[] args)
 	{
-		System.out.println(new GroupPeopleGivenGroupSize().groupThePeople(new int[]{3,3,3,3,3,1,3}));
-		System.out.println(new GroupPeopleGivenGroupSize().groupThePeople(new int[]{2,1,3,3,3,2}));
+		System.out.println(new GroupPeopleGivenGroupSize().groupThePeople(new int[]{3, 3, 3, 3, 3, 1, 3}));
+		System.out.println(new GroupPeopleGivenGroupSize().groupThePeople(new int[]{2, 1, 3, 3, 3, 2}));
 	}
 }

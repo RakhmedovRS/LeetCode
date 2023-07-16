@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/22/2020
  */
 @LeetCode(
-	id = 1533,
-	name = "Find the Index of the Large Integer",
-	url = "https://leetcode.com/problems/find-the-index-of-the-large-integer/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1533,
+		name = "Find the Index of the Large Integer",
+		url = "https://leetcode.com/problems/find-the-index-of-the-large-integer/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class FindTheIndexOfTheLargeInteger
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 5/29/2021
  */
 @LeetCode(
-	id = 1879,
-	name = "Minimum XOR Sum of Two Arrays",
-	url = "https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/",
-	difficulty = Difficulty.HARD
+		id = 1879,
+		name = "Minimum XOR Sum of Two Arrays",
+		url = "https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/",
+		difficulty = Difficulty.HARD
 )
 public class MinimumXORSumOfTwoArrays
 {

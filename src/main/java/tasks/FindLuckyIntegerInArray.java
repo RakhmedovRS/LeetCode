@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 12-Apr-20
  */
 @LeetCode(
-	id = 1394,
-	name = "Find Lucky Integer in an Array",
-	url = "https://leetcode.com/problems/find-lucky-integer-in-an-array/",
-	difficulty = Difficulty.EASY
+		id = 1394,
+		name = "Find Lucky Integer in an Array",
+		url = "https://leetcode.com/problems/find-lucky-integer-in-an-array/",
+		difficulty = Difficulty.EASY
 )
 public class FindLuckyIntegerInArray
 {

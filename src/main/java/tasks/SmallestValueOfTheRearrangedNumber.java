@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 2/17/2022
  */
 @LeetCode(
-	id = 2165,
-	name = "Smallest Value of the Rearranged Number",
-	url = "https://leetcode.com/problems/smallest-value-of-the-rearranged-number/",
-	difficulty = Difficulty.MEDIUM
+		id = 2165,
+		name = "Smallest Value of the Rearranged Number",
+		url = "https://leetcode.com/problems/smallest-value-of-the-rearranged-number/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SmallestValueOfTheRearrangedNumber
 {
@@ -38,12 +38,12 @@ public class SmallestValueOfTheRearrangedNumber
 		if (negative)
 		{
 			long res = 0;
-			for (int i = digits.length - 1; i >=0 ; i--)
+			for (int i = digits.length - 1; i >= 0; i--)
 			{
 				while (digits[i]-- > 0)
 				{
 					res *= 10;
-					res+= i;
+					res += i;
 				}
 			}
 

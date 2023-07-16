@@ -10,10 +10,10 @@ import java.util.*;
  * @created 13-Jun-20
  */
 @LeetCode(
-	id = 368,
-	name = "Largest Divisible Subset",
-	url = "https://leetcode.com/problems/largest-divisible-subset/",
-	difficulty = Difficulty.MEDIUM
+		id = 368,
+		name = "Largest Divisible Subset",
+		url = "https://leetcode.com/problems/largest-divisible-subset/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LargestDivisibleSubset
 {

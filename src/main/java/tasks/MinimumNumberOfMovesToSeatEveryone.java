@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 10/16/2021
  */
 @LeetCode(
-	id = 2037,
-	name = "Minimum Number of Moves to Seat Everyone",
-	url = "https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/",
-	difficulty = Difficulty.EASY
+		id = 2037,
+		name = "Minimum Number of Moves to Seat Everyone",
+		url = "https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/",
+		difficulty = Difficulty.EASY
 )
 public class MinimumNumberOfMovesToSeatEveryone
 {

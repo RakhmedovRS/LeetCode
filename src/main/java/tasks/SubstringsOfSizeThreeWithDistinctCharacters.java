@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 5/29/2021
  */
 @LeetCode(
-	id = 1876,
-	name = "Substrings of Size Three with Distinct Characters",
-	url = "https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/",
-	difficulty = Difficulty.EASY
+		id = 1876,
+		name = "Substrings of Size Three with Distinct Characters",
+		url = "https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/",
+		difficulty = Difficulty.EASY
 )
 public class SubstringsOfSizeThreeWithDistinctCharacters
 {

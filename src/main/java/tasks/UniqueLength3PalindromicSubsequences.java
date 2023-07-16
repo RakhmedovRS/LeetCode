@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 7/12/2021
  */
 @LeetCode(
-	id = 1930,
-	name = "Unique Length-3 Palindromic Subsequences",
-	url = "https://leetcode.com/problems/unique-length-3-palindromic-subsequences/",
-	difficulty = Difficulty.MEDIUM
+		id = 1930,
+		name = "Unique Length-3 Palindromic Subsequences",
+		url = "https://leetcode.com/problems/unique-length-3-palindromic-subsequences/",
+		difficulty = Difficulty.MEDIUM
 )
 public class UniqueLength3PalindromicSubsequences
 {

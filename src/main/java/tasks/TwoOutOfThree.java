@@ -13,10 +13,10 @@ import java.util.Set;
  * @created 10/9/2021
  */
 @LeetCode(
-	id = 2032,
-	name = "Two Out of Three",
-	url = "https://leetcode.com/problems/two-out-of-three/",
-	difficulty = Difficulty.EASY
+		id = 2032,
+		name = "Two Out of Three",
+		url = "https://leetcode.com/problems/two-out-of-three/",
+		difficulty = Difficulty.EASY
 )
 public class TwoOutOfThree
 {

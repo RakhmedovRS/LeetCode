@@ -11,10 +11,10 @@ import java.util.Set;
  * @created 24-Jun-20
  */
 @LeetCode(
-	id = 791,
-	name = "Custom Sort String",
-	url = "https://leetcode.com/problems/custom-sort-string/",
-	difficulty = Difficulty.MEDIUM
+		id = 791,
+		name = "Custom Sort String",
+		url = "https://leetcode.com/problems/custom-sort-string/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CustomSortString
 {

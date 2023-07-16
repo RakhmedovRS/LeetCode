@@ -51,7 +51,7 @@ public class LongestPalindromicSubsequence
 		else
 		{
 			memo[left][right] = Math.max(findLongest(chars, left + 1, right, memo),
-				findLongest(chars, left, right - 1, memo));
+					findLongest(chars, left, right - 1, memo));
 		}
 
 		return memo[left][right];

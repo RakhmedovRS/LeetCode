@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/26/2021
  */
 @LeetCode(
-	id = 1910,
-	name = "Remove All Occurrences of a Substring",
-	url = "https://leetcode.com/problems/remove-all-occurrences-of-a-substring/",
-	difficulty = Difficulty.MEDIUM
+		id = 1910,
+		name = "Remove All Occurrences of a Substring",
+		url = "https://leetcode.com/problems/remove-all-occurrences-of-a-substring/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RemoveAllOccurrencesOfSubstring
 {

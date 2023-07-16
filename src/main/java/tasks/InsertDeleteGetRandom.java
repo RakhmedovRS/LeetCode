@@ -10,10 +10,10 @@ import java.util.*;
  * @created 03-Apr-20
  */
 @LeetCode(
-	id = 380,
-	name = "Insert Delete GetRandom O(1)",
-	url = "https://leetcode.com/problems/insert-delete-getrandom-o1/",
-	difficulty = Difficulty.MEDIUM
+		id = 380,
+		name = "Insert Delete GetRandom O(1)",
+		url = "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+		difficulty = Difficulty.MEDIUM
 )
 public class InsertDeleteGetRandom
 {

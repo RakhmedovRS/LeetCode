@@ -12,10 +12,10 @@ import java.util.PriorityQueue;
  * @created 4/17/2022
  */
 @LeetCode(
-	id = 2244,
-	name = "Minimum Rounds to Complete All Tasks",
-	url = "https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/",
-	difficulty = Difficulty.MEDIUM
+		id = 2244,
+		name = "Minimum Rounds to Complete All Tasks",
+		url = "https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumRoundsToCompleteAllTasks
 {

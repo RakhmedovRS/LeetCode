@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 1/10/2021
  */
 @LeetCode(
-	id = 1649,
-	name = "Create Sorted Array through Instructions",
-	url = "https://leetcode.com/problems/create-sorted-array-through-instructions/",
-	difficulty = Difficulty.HARD
+		id = 1649,
+		name = "Create Sorted Array through Instructions",
+		url = "https://leetcode.com/problems/create-sorted-array-through-instructions/",
+		difficulty = Difficulty.HARD
 )
 public class CreateSortedArrayThroughInstructions
 {

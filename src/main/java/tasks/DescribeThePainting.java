@@ -12,10 +12,10 @@ import java.util.List;
  * @created 7/24/2021
  */
 @LeetCode(
-	id = 1943,
-	name = "Describe the Painting",
-	url = "https://leetcode.com/problems/describe-the-painting/",
-	difficulty = Difficulty.MEDIUM
+		id = 1943,
+		name = "Describe the Painting",
+		url = "https://leetcode.com/problems/describe-the-painting/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DescribeThePainting
 {
@@ -46,7 +46,7 @@ public class DescribeThePainting
 			{
 				if (prev != null && sum != 0)
 				{
-					answer.add(Arrays.asList(Long.valueOf(prev), (long)i, sum));
+					answer.add(Arrays.asList(Long.valueOf(prev), (long) i, sum));
 				}
 
 				for (Integer add : memo[i])

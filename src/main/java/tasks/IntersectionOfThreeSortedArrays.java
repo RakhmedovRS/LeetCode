@@ -11,11 +11,11 @@ import java.util.List;
  * @created 12/17/2020
  */
 @LeetCode(
-	id = 1213,
-	name = "Intersection of Three Sorted Arrays",
-	url = "https://leetcode.com/problems/intersection-of-three-sorted-arrays/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1213,
+		name = "Intersection of Three Sorted Arrays",
+		url = "https://leetcode.com/problems/intersection-of-three-sorted-arrays/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class IntersectionOfThreeSortedArrays
 {

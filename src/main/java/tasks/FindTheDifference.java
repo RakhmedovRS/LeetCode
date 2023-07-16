@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 9/24/2020
  */
 @LeetCode(
-	id = 389,
-	name = "Find the Difference",
-	url = "https://leetcode.com/problems/find-the-difference/",
-	difficulty = Difficulty.EASY
+		id = 389,
+		name = "Find the Difference",
+		url = "https://leetcode.com/problems/find-the-difference/",
+		difficulty = Difficulty.EASY
 )
 public class FindTheDifference
 {

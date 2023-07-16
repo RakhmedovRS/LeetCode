@@ -11,10 +11,10 @@ import java.util.Comparator;
  * @created 7/4/2021
  */
 @LeetCode(
-	id = 1921,
-	name = "Eliminate Maximum Number of Monsters",
-	url = "https://leetcode.com/problems/eliminate-maximum-number-of-monsters/",
-	difficulty = Difficulty.MEDIUM
+		id = 1921,
+		name = "Eliminate Maximum Number of Monsters",
+		url = "https://leetcode.com/problems/eliminate-maximum-number-of-monsters/",
+		difficulty = Difficulty.MEDIUM
 )
 public class EliminateMaximumNumberOfMonsters
 {

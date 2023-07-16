@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 4/25/2021
  */
 @LeetCode(
-	id = 1838,
-	name = "Frequency of the Most Frequent Element",
-	url = "https://leetcode.com/problems/frequency-of-the-most-frequent-element/",
-	difficulty = Difficulty.MEDIUM
+		id = 1838,
+		name = "Frequency of the Most Frequent Element",
+		url = "https://leetcode.com/problems/frequency-of-the-most-frequent-element/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FrequencyOfTheMostFrequentElement
 {

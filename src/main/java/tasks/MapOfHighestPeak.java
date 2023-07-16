@@ -12,10 +12,10 @@ import java.util.Queue;
  * @created 2/20/2021
  */
 @LeetCode(
-	id = 1765,
-	name = "Map of Highest Peak",
-	url = "https://leetcode.com/problems/map-of-highest-peak/",
-	difficulty = Difficulty.MEDIUM
+		id = 1765,
+		name = "Map of Highest Peak",
+		url = "https://leetcode.com/problems/map-of-highest-peak/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MapOfHighestPeak
 {
@@ -104,41 +104,41 @@ public class MapOfHighestPeak
 		}
 
 		System.out.println(Arrays.deepToString(clazz.highestPeak(
-			new int[][]
-				{
-					{0, 0, 0, 0, 0, 0, 1, 0},
-					{0, 1, 0, 0, 0, 0, 0, 0},
-					{0, 0, 0, 0, 0, 0, 0, 0},
-					{0, 0, 0, 0, 0, 0, 0, 0},
-					{0, 0, 0, 0, 0, 0, 0, 0},
-					{0, 0, 0, 0, 0, 0, 0, 0},
-					{0, 0, 0, 0, 0, 0, 1, 0},
-					{0, 0, 1, 0, 0, 0, 0, 0}
-				}
+				new int[][]
+						{
+								{0, 0, 0, 0, 0, 0, 1, 0},
+								{0, 1, 0, 0, 0, 0, 0, 0},
+								{0, 0, 0, 0, 0, 0, 0, 0},
+								{0, 0, 0, 0, 0, 0, 0, 0},
+								{0, 0, 0, 0, 0, 0, 0, 0},
+								{0, 0, 0, 0, 0, 0, 0, 0},
+								{0, 0, 0, 0, 0, 0, 1, 0},
+								{0, 0, 1, 0, 0, 0, 0, 0}
+						}
 		)));
 
 		System.out.println(Arrays.deepToString(clazz.highestPeak(
-			new int[][]
-				{
-					{1}
-				}
+				new int[][]
+						{
+								{1}
+						}
 		)));
 
 		System.out.println(Arrays.deepToString(clazz.highestPeak(
-			new int[][]
-				{
-					{0, 1},
-					{0, 0}
-				}
+				new int[][]
+						{
+								{0, 1},
+								{0, 0}
+						}
 		)));
 
 		System.out.println(Arrays.deepToString(clazz.highestPeak(
-			new int[][]
-				{
-					{0, 0, 1},
-					{1, 0, 0},
-					{0, 0, 0}
-				}
+				new int[][]
+						{
+								{0, 0, 1},
+								{1, 0, 0},
+								{0, 0, 0}
+						}
 		)));
 	}
 }

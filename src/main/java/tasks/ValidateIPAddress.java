@@ -11,10 +11,10 @@ import java.util.Set;
  * @created 16-Jun-20
  */
 @LeetCode(
-	id = 468,
-	name = "Validate IP Address",
-	url = "https://leetcode.com/problems/validate-ip-address/",
-	difficulty = Difficulty.MEDIUM
+		id = 468,
+		name = "Validate IP Address",
+		url = "https://leetcode.com/problems/validate-ip-address/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ValidateIPAddress
 {

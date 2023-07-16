@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 14-Jun-20
  */
 @LeetCode(
-	id = 1480,
-	name = "Running Sum of 1d Array",
-	url = "https://leetcode.com/problems/running-sum-of-1d-array/",
-	difficulty = Difficulty.EASY
+		id = 1480,
+		name = "Running Sum of 1d Array",
+		url = "https://leetcode.com/problems/running-sum-of-1d-array/",
+		difficulty = Difficulty.EASY
 )
 public class RunningSumOf1dArray
 {

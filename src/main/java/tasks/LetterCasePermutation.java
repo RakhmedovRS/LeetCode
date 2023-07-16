@@ -11,10 +11,10 @@ import java.util.List;
  * @created 30-May-20
  */
 @LeetCode(
-	id = 784,
-	name = "Letter Case Permutation",
-	url = "https://leetcode.com/problems/letter-case-permutation/",
-	difficulty = Difficulty.MEDIUM
+		id = 784,
+		name = "Letter Case Permutation",
+		url = "https://leetcode.com/problems/letter-case-permutation/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LetterCasePermutation
 {

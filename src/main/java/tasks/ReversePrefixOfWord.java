@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 9/12/2021
  */
 @LeetCode(
-	id = 2000,
-	name = "Reverse Prefix of Word",
-	url = "https://leetcode.com/problems/reverse-prefix-of-word/",
-	difficulty = Difficulty.EASY
+		id = 2000,
+		name = "Reverse Prefix of Word",
+		url = "https://leetcode.com/problems/reverse-prefix-of-word/",
+		difficulty = Difficulty.EASY
 )
 public class ReversePrefixOfWord
 {

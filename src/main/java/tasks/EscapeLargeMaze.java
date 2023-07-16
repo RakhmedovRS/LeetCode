@@ -32,7 +32,7 @@ public class EscapeLargeMaze
 		}
 
 		return isEscapePossible(blocks, source, target, new HashSet<>())
-			&& isEscapePossible(blocks, target, source, new HashSet<>());
+				&& isEscapePossible(blocks, target, source, new HashSet<>());
 	}
 
 	private boolean isEscapePossible(Map<Integer, Set<Integer>> blocks, int[] source, int[] target, Set<String> visited)
@@ -55,7 +55,7 @@ public class EscapeLargeMaze
 				row = current[0] + direction[0];
 				column = current[1] + direction[1];
 				if (row < 0 || row == (int) 1e9 || column < 0 || column == (int) 1e9 || visited.contains(row + "-" + column)
-					|| (blocks.containsKey(row) && blocks.get(row).contains(column)))
+						|| (blocks.containsKey(row) && blocks.get(row).contains(column)))
 				{
 					continue;
 				}

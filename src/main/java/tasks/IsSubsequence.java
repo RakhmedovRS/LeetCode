@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 09-May-20
  */
 @LeetCode(
-	id = 392,
-	name = "Is Subsequence",
-	url = "https://leetcode.com/problems/is-subsequence/",
-	difficulty = Difficulty.EASY
+		id = 392,
+		name = "Is Subsequence",
+		url = "https://leetcode.com/problems/is-subsequence/",
+		difficulty = Difficulty.EASY
 )
 public class IsSubsequence
 {

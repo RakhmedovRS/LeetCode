@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 04-Sep-20
  */
 @LeetCode(
-	id = 899,
-	name = "Orderly Queue",
-	url = "https://leetcode.com/problems/orderly-queue/",
-	difficulty = Difficulty.HARD
+		id = 899,
+		name = "Orderly Queue",
+		url = "https://leetcode.com/problems/orderly-queue/",
+		difficulty = Difficulty.HARD
 )
 public class OrderlyQueue
 {

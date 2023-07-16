@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 10/15/2020
  */
 @LeetCode(
-	id = 1073,
-	name = "Adding Two Negabinary Numbers",
-	url = "https://leetcode.com/problems/adding-two-negabinary-numbers/",
-	difficulty = Difficulty.MEDIUM
+		id = 1073,
+		name = "Adding Two Negabinary Numbers",
+		url = "https://leetcode.com/problems/adding-two-negabinary-numbers/",
+		difficulty = Difficulty.MEDIUM
 )
 public class AddingTwoNegabinaryNumbers
 {

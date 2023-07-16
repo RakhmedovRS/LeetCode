@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 24-Aug-20
  */
 @LeetCode(
-	id = 404,
-	name = "Sum of Left Leaves",
-	url = "https://leetcode.com/problems/sum-of-left-leaves/",
-	difficulty = Difficulty.EASY
+		id = 404,
+		name = "Sum of Left Leaves",
+		url = "https://leetcode.com/problems/sum-of-left-leaves/",
+		difficulty = Difficulty.EASY
 )
 public class SumOfLeftLeaves
 {

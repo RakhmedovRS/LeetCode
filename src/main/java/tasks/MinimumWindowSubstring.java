@@ -9,10 +9,10 @@ import common.LeetCode;
  * @created 10-Mar-20
  */
 @LeetCode(
-	id = 76,
-	name = "Minimum Window Substring",
-	url = "https://leetcode.com/problems/minimum-window-substring/",
-	difficulty = Difficulty.HARD
+		id = 76,
+		name = "Minimum Window Substring",
+		url = "https://leetcode.com/problems/minimum-window-substring/",
+		difficulty = Difficulty.HARD
 )
 public class MinimumWindowSubstring
 {

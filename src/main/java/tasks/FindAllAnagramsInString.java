@@ -11,10 +11,10 @@ import java.util.List;
  * @created 17-May-20
  */
 @LeetCode(
-	id = 438,
-	name = "Find All Anagrams in a String",
-	url = "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
-	difficulty = Difficulty.MEDIUM
+		id = 438,
+		name = "Find All Anagrams in a String",
+		url = "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindAllAnagramsInString
 {

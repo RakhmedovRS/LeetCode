@@ -11,10 +11,10 @@ import java.util.LinkedList;
  * @created 15-Mar-20
  */
 @LeetCode(
-	id = 104,
-	name = "Maximum Depth of Binary Tree",
-	url = "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
-	difficulty = Difficulty.EASY
+		id = 104,
+		name = "Maximum Depth of Binary Tree",
+		url = "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+		difficulty = Difficulty.EASY
 )
 public class MaximumDepthOfBinaryTree
 {

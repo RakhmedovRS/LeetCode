@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 7/3/2021
  */
 @LeetCode(
-	id = 363,
-	name = "Max Sum of Rectangle No Larger Than K",
-	url = "https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/",
-	difficulty = Difficulty.HARD
+		id = 363,
+		name = "Max Sum of Rectangle No Larger Than K",
+		url = "https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/",
+		difficulty = Difficulty.HARD
 )
 public class MaxSumOfRectangleNoLargerThanK
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 08-Mar-20
  */
 @LeetCode(
-	id = 693,
-	name = "Binary Number with Alternating Bits",
-	url = "https://leetcode.com/problems/binary-number-with-alternating-bits/",
-	difficulty = Difficulty.MEDIUM
+		id = 693,
+		name = "Binary Number with Alternating Bits",
+		url = "https://leetcode.com/problems/binary-number-with-alternating-bits/",
+		difficulty = Difficulty.MEDIUM
 )
 public class BinaryNumberWithAlternatingBits
 {

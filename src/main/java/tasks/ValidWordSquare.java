@@ -10,11 +10,11 @@ import java.util.List;
  * @created 12/22/2020
  */
 @LeetCode(
-	id = 422,
-	name = "Valid Word Square",
-	url = "https://leetcode.com/problems/valid-word-square/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 422,
+		name = "Valid Word Square",
+		url = "https://leetcode.com/problems/valid-word-square/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class ValidWordSquare
 {

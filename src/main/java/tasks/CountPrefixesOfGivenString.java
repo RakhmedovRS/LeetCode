@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 4/30/2022
  */
 @LeetCode(
-	id = 2255,
-	name = "Count Prefixes of a Given String",
-	url = "https://leetcode.com/problems/count-prefixes-of-a-given-string/",
-	difficulty = Difficulty.EASY
+		id = 2255,
+		name = "Count Prefixes of a Given String",
+		url = "https://leetcode.com/problems/count-prefixes-of-a-given-string/",
+		difficulty = Difficulty.EASY
 )
 public class CountPrefixesOfGivenString
 {

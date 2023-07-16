@@ -15,17 +15,18 @@ import common.LeetCode;
 )
 public class FindTheDistanceValueBetweenTwoArrays
 {
-	public int findTheDistanceValue(int[] arr1, int[] arr2, int d) {
+	public int findTheDistanceValue(int[] arr1, int[] arr2, int d)
+	{
 		int count = 0;
-		if(arr1 == null || arr1.length == 0 || arr2 == null || arr2.length == 0)
+		if (arr1 == null || arr1.length == 0 || arr2 == null || arr2.length == 0)
 		{
 			return count;
 		}
 
-		for(int num1: arr1)
+		for (int num1 : arr1)
 		{
 			boolean valid = true;
-			for(int num2: arr2)
+			for (int num2 : arr2)
 			{
 				if (Math.abs(num1 - num2) <= d)
 				{

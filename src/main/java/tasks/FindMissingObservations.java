@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 10/3/2021
  */
 @LeetCode(
-	id = 2028,
-	name = "Find Missing Observations",
-	url = "https://leetcode.com/problems/find-missing-observations/",
-	difficulty = Difficulty.MEDIUM
+		id = 2028,
+		name = "Find Missing Observations",
+		url = "https://leetcode.com/problems/find-missing-observations/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindMissingObservations
 {

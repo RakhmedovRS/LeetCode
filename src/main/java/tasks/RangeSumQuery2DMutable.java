@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/16/2020
  */
 @LeetCode(
-	id = 308,
-	name = "Range Sum Query 2D - Mutable",
-	url = "https://leetcode.com/problems/range-sum-query-2d-mutable/",
-	difficulty = Difficulty.HARD,
-	premium = true
+		id = 308,
+		name = "Range Sum Query 2D - Mutable",
+		url = "https://leetcode.com/problems/range-sum-query-2d-mutable/",
+		difficulty = Difficulty.HARD,
+		premium = true
 )
 public class RangeSumQuery2DMutable
 {

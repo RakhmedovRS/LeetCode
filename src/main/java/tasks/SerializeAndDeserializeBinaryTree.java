@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 03-Apr-20
  */
 @LeetCode(
-	id = 297,
-	name = "Serialize and Deserialize Binary Tree",
-	url = "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
-	difficulty = Difficulty.HARD
+		id = 297,
+		name = "Serialize and Deserialize Binary Tree",
+		url = "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+		difficulty = Difficulty.HARD
 )
 public class SerializeAndDeserializeBinaryTree
 {

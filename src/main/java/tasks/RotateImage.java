@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 29-Mar-20
  */
 @LeetCode(
-	id = 48,
-	name = "Rotate Image",
-	url = "https://leetcode.com/problems/rotate-image/",
-	difficulty = Difficulty.MEDIUM
+		id = 48,
+		name = "Rotate Image",
+		url = "https://leetcode.com/problems/rotate-image/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RotateImage
 {

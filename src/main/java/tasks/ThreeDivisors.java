@@ -11,10 +11,10 @@ import java.util.Set;
  * @created 8/1/2021
  */
 @LeetCode(
-	id = 1952,
-	name = "Three Divisors",
-	url = "https://leetcode.com/problems/three-divisors/",
-	difficulty = Difficulty.EASY
+		id = 1952,
+		name = "Three Divisors",
+		url = "https://leetcode.com/problems/three-divisors/",
+		difficulty = Difficulty.EASY
 )
 public class ThreeDivisors
 {

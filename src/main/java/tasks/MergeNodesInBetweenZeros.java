@@ -9,10 +9,10 @@ import common.ListNode;
  * @created 2/20/2022
  */
 @LeetCode(
-	id = 2181,
-	name = "Merge Nodes in Between Zeros",
-	url = "https://leetcode.com/problems/merge-nodes-in-between-zeros/",
-	difficulty = Difficulty.MEDIUM
+		id = 2181,
+		name = "Merge Nodes in Between Zeros",
+		url = "https://leetcode.com/problems/merge-nodes-in-between-zeros/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MergeNodesInBetweenZeros
 {

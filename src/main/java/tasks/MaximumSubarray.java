@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 07-Mar-20
  */
 @LeetCode(
-	id = 53,
-	name = "Maximum Subarray",
-	url = "https://leetcode.com/problems/maximum-subarray/",
-	difficulty = Difficulty.EASY
+		id = 53,
+		name = "Maximum Subarray",
+		url = "https://leetcode.com/problems/maximum-subarray/",
+		difficulty = Difficulty.EASY
 )
 public class MaximumSubarray
 {

@@ -11,10 +11,10 @@ import java.util.List;
  * @created 12/16/2020
  */
 @LeetCode(
-	id = 386,
-	name = "Lexicographical Numbers",
-	url = "https://leetcode.com/problems/lexicographical-numbers/",
-	difficulty = Difficulty.MEDIUM
+		id = 386,
+		name = "Lexicographical Numbers",
+		url = "https://leetcode.com/problems/lexicographical-numbers/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LexicographicalNumbers
 {

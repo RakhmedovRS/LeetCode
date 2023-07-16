@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 12/12/2020
  */
 @LeetCode(
-	id = 1685,
-	name = "Sum of Absolute Differences in a Sorted Array",
-	url = "https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 1685,
+		name = "Sum of Absolute Differences in a Sorted Array",
+		url = "https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SumOfAbsoluteDifferencesInSortedArray
 {

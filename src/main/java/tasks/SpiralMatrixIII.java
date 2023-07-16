@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 13-Jun-20
  */
 @LeetCode(
-	id = 885,
-	name = "Spiral Matrix III",
-	url = "https://leetcode.com/problems/spiral-matrix-iii/",
-	difficulty = Difficulty.MEDIUM
+		id = 885,
+		name = "Spiral Matrix III",
+		url = "https://leetcode.com/problems/spiral-matrix-iii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SpiralMatrixIII
 {

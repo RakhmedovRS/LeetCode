@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 11/21/2021
  */
 @LeetCode(
-	id = 2019,
-	name = "Sum of k-Mirror Numbers",
-	url = "https://leetcode.com/problems/sum-of-k-mirror-numbers/",
-	difficulty = Difficulty.HARD
+		id = 2019,
+		name = "Sum of k-Mirror Numbers",
+		url = "https://leetcode.com/problems/sum-of-k-mirror-numbers/",
+		difficulty = Difficulty.HARD
 )
 public class SumOfKMirrorNumbers
 {

@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 26-Apr-20
  */
 @LeetCode(
-	id = 32,
-	name = "Longest Valid Parentheses",
-	url = "https://leetcode.com/problems/longest-valid-parentheses/",
-	difficulty = Difficulty.HARD
+		id = 32,
+		name = "Longest Valid Parentheses",
+		url = "https://leetcode.com/problems/longest-valid-parentheses/",
+		difficulty = Difficulty.HARD
 )
 public class LongestValidParentheses
 {

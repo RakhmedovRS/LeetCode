@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 04-Jun-20
  */
 @LeetCode(
-	id = 1457,
-	name = "Pseudo-Palindromic Paths in a Binary Tree",
-	url = "https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/",
-	difficulty = Difficulty.MEDIUM
+		id = 1457,
+		name = "Pseudo-Palindromic Paths in a Binary Tree",
+		url = "https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PseudoPalindromicPathsInBinaryTree
 {

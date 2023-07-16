@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 06-Aug-20
  */
 @LeetCode(
-	id = 458,
-	name = "Poor Pigs",
-	url = "https://leetcode.com/problems/poor-pigs/",
-	difficulty = Difficulty.HARD
+		id = 458,
+		name = "Poor Pigs",
+		url = "https://leetcode.com/problems/poor-pigs/",
+		difficulty = Difficulty.HARD
 )
 public class PoorPigs
 {

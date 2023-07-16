@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 1/23/2022
  */
 @LeetCode(
-	id = 2149,
-	name = "Rearrange Array Elements by Sign",
-	url = "https://leetcode.com/problems/rearrange-array-elements-by-sign/",
-	difficulty = Difficulty.MEDIUM
+		id = 2149,
+		name = "Rearrange Array Elements by Sign",
+		url = "https://leetcode.com/problems/rearrange-array-elements-by-sign/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RearrangeArrayElementsBySign
 {

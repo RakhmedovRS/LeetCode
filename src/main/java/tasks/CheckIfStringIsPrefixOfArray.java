@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 8/8/2021
  */
 @LeetCode(
-	id = 1961,
-	name = "Check If String Is a Prefix of Array",
-	url = "https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/",
-	difficulty = Difficulty.EASY
+		id = 1961,
+		name = "Check If String Is a Prefix of Array",
+		url = "https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/",
+		difficulty = Difficulty.EASY
 )
 public class CheckIfStringIsPrefixOfArray
 {

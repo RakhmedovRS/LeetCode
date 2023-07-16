@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 10/2/2021
  */
 @LeetCode(
-	id = 2022,
-	name = "Convert 1D Array Into 2D Array",
-	url = "https://leetcode.com/problems/convert-1d-array-into-2d-array/",
-	difficulty = Difficulty.EASY
+		id = 2022,
+		name = "Convert 1D Array Into 2D Array",
+		url = "https://leetcode.com/problems/convert-1d-array-into-2d-array/",
+		difficulty = Difficulty.EASY
 )
 public class Convert1DArrayInto2DArray
 {

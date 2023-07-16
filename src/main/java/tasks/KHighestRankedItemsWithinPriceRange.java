@@ -10,10 +10,10 @@ import java.util.*;
  * @created 1/22/2022
  */
 @LeetCode(
-	id = 2146,
-	name = "K Highest Ranked Items Within a Price Range",
-	url = "https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/",
-	difficulty = Difficulty.MEDIUM
+		id = 2146,
+		name = "K Highest Ranked Items Within a Price Range",
+		url = "https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/",
+		difficulty = Difficulty.MEDIUM
 )
 public class KHighestRankedItemsWithinPriceRange
 {

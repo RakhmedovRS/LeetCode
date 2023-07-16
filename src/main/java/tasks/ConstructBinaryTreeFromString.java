@@ -11,11 +11,11 @@ import java.util.LinkedList;
  * @created 12/11/2020
  */
 @LeetCode(
-	id = 536,
-	name = "Construct Binary Tree from String",
-	url = "https://leetcode.com/problems/construct-binary-tree-from-string/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 536,
+		name = "Construct Binary Tree from String",
+		url = "https://leetcode.com/problems/construct-binary-tree-from-string/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class ConstructBinaryTreeFromString
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/7/2021
  */
 @LeetCode(
-	id = 2062,
-	name = "Count Vowel Substrings of a String",
-	url = "https://leetcode.com/problems/count-vowel-substrings-of-a-string/",
-	difficulty = Difficulty.EASY
+		id = 2062,
+		name = "Count Vowel Substrings of a String",
+		url = "https://leetcode.com/problems/count-vowel-substrings-of-a-string/",
+		difficulty = Difficulty.EASY
 )
 public class CountVowelSubstringsOfString
 {

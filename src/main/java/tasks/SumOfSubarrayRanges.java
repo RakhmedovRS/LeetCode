@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/12/2021
  */
 @LeetCode(
-	id = 2104,
-	name = "Sum of Subarray Ranges",
-	url = "https://leetcode.com/problems/sum-of-subarray-ranges/",
-	difficulty = Difficulty.MEDIUM
+		id = 2104,
+		name = "Sum of Subarray Ranges",
+		url = "https://leetcode.com/problems/sum-of-subarray-ranges/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SumOfSubarrayRanges
 {

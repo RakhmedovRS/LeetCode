@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 18-Feb-20
  */
 @LeetCode(
-	id = 814,
-	name = "Binary Tree Pruning",
-	url = "https://leetcode.com/problems/binary-tree-pruning/",
-	difficulty = Difficulty.MEDIUM
+		id = 814,
+		name = "Binary Tree Pruning",
+		url = "https://leetcode.com/problems/binary-tree-pruning/",
+		difficulty = Difficulty.MEDIUM
 )
 public class BinaryTreePruning
 {

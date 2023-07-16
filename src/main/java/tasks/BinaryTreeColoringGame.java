@@ -12,10 +12,10 @@ import java.util.Map;
  * @created 10/20/2020
  */
 @LeetCode(
-	id = 1145,
-	name = "Binary Tree Coloring Game",
-	url = "https://leetcode.com/problems/binary-tree-coloring-game/",
-	difficulty = Difficulty.MEDIUM
+		id = 1145,
+		name = "Binary Tree Coloring Game",
+		url = "https://leetcode.com/problems/binary-tree-coloring-game/",
+		difficulty = Difficulty.MEDIUM
 )
 public class BinaryTreeColoringGame
 {

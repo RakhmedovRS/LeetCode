@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 4/3/2022
  */
 @LeetCode(
-	id = 2220,
-	name  = "Minimum Bit Flips to Convert Number",
-	url = "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/",
-	difficulty = Difficulty.EASY
+		id = 2220,
+		name = "Minimum Bit Flips to Convert Number",
+		url = "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/",
+		difficulty = Difficulty.EASY
 )
 public class MinimumBitFlipsToConvertNumber
 {

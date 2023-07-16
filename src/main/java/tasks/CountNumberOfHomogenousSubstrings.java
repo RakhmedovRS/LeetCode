@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 2/14/2021
  */
 @LeetCode(
-	id = 1759,
-	name = "Count Number of Homogenous Substrings",
-	url = "https://leetcode.com/problems/count-number-of-homogenous-substrings/",
-	difficulty = Difficulty.MEDIUM
+		id = 1759,
+		name = "Count Number of Homogenous Substrings",
+		url = "https://leetcode.com/problems/count-number-of-homogenous-substrings/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CountNumberOfHomogenousSubstrings
 {

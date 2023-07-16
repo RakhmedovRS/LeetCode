@@ -11,11 +11,11 @@ import java.util.List;
  * @created 12/18/2020
  */
 @LeetCode(
-	id = 1273,
-	name = "Delete Tree Nodes",
-	url = "https://leetcode.com/problems/delete-tree-nodes/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1273,
+		name = "Delete Tree Nodes",
+		url = "https://leetcode.com/problems/delete-tree-nodes/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class DeleteTreeNodes
 {

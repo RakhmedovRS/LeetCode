@@ -53,7 +53,7 @@ public class MinimumASCIIDeleteSumForTwoStrings
 		else
 		{
 			memo[pos1][pos2] = Math.min(chars1[pos1] + dfs(chars1, chars2, pos1 + 1, pos2, memo),
-				chars2[pos2] + dfs(chars1, chars2, pos1, pos2 + 1, memo));
+					chars2[pos2] + dfs(chars1, chars2, pos1, pos2 + 1, memo));
 		}
 		return memo[pos1][pos2];
 	}

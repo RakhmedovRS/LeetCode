@@ -12,11 +12,11 @@ import java.util.TreeMap;
  * @created 5/18/2021
  */
 @LeetCode(
-	id = 635,
-	name = "Design Log Storage System",
-	url = "https://leetcode.com/problems/design-log-storage-system/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 635,
+		name = "Design Log Storage System",
+		url = "https://leetcode.com/problems/design-log-storage-system/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class DesignLogStorageSystem
 {
@@ -183,12 +183,12 @@ public class DesignLogStorageSystem
 			String[] parts = timestamp.split(":");
 
 			return new Log(
-				Integer.parseInt(parts[0]),
-				Integer.parseInt(parts[1]),
-				Integer.parseInt(parts[2]),
-				Integer.parseInt(parts[3]),
-				Integer.parseInt(parts[4]),
-				Integer.parseInt(parts[5])
+					Integer.parseInt(parts[0]),
+					Integer.parseInt(parts[1]),
+					Integer.parseInt(parts[2]),
+					Integer.parseInt(parts[3]),
+					Integer.parseInt(parts[4]),
+					Integer.parseInt(parts[5])
 			);
 		}
 	}

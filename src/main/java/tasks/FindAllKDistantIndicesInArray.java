@@ -11,10 +11,10 @@ import java.util.List;
  * @created 3/13/2022
  */
 @LeetCode(
-	id = 2200,
-	name = "Find All K-Distant Indices in an Array",
-	url = "https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/",
-	difficulty = Difficulty.EASY
+		id = 2200,
+		name = "Find All K-Distant Indices in an Array",
+		url = "https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/",
+		difficulty = Difficulty.EASY
 )
 public class FindAllKDistantIndicesInArray
 {

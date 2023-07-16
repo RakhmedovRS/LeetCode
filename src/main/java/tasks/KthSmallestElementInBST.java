@@ -12,10 +12,10 @@ import java.util.LinkedList;
  * @created 08-Feb-20
  */
 @LeetCode(
-	id = 230,
-	name = "Kth Smallest Element in a BST",
-	url = "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
-	difficulty = Difficulty.MEDIUM
+		id = 230,
+		name = "Kth Smallest Element in a BST",
+		url = "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+		difficulty = Difficulty.MEDIUM
 )
 public class KthSmallestElementInBST
 {

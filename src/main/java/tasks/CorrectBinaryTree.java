@@ -12,11 +12,11 @@ import java.util.Map;
  * @created 12/30/2020
  */
 @LeetCode(
-	id = 1660,
-	name = "Correct a Binary Tree",
-	url = "https://leetcode.com/problems/correct-a-binary-tree/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1660,
+		name = "Correct a Binary Tree",
+		url = "https://leetcode.com/problems/correct-a-binary-tree/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class CorrectBinaryTree
 {

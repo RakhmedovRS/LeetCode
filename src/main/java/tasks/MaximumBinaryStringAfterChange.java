@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 12/26/2020
  */
 @LeetCode(
-	id = 1702,
-	name = "Maximum Binary String After Change",
-	url = "https://leetcode.com/problems/maximum-binary-string-after-change/",
-	difficulty = Difficulty.MEDIUM
+		id = 1702,
+		name = "Maximum Binary String After Change",
+		url = "https://leetcode.com/problems/maximum-binary-string-after-change/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumBinaryStringAfterChange
 {

@@ -12,10 +12,10 @@ import java.util.List;
  * @created 2/19/2022
  */
 @LeetCode(
-	id = 2178,
-	name = "Maximum Split of Positive Even Integers",
-	url = "https://leetcode.com/problems/maximum-split-of-positive-even-integers/",
-	difficulty = Difficulty.MEDIUM
+		id = 2178,
+		name = "Maximum Split of Positive Even Integers",
+		url = "https://leetcode.com/problems/maximum-split-of-positive-even-integers/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumSplitOfPositiveEvenIntegers
 {

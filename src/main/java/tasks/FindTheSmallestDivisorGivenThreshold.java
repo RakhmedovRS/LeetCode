@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 10/30/2020
  */
 @LeetCode(
-	id = 1283,
-	name = "Find the Smallest Divisor Given a Threshold",
-	url = "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
-	difficulty = Difficulty.MEDIUM
+		id = 1283,
+		name = "Find the Smallest Divisor Given a Threshold",
+		url = "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindTheSmallestDivisorGivenThreshold
 {

@@ -11,10 +11,10 @@ import java.util.TreeSet;
  * @created 5/29/2021
  */
 @LeetCode(
-	id = 1878,
-	name = "Get Biggest Three Rhombus Sums in a Grid",
-	url = "https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/",
-	difficulty = Difficulty.MEDIUM
+		id = 1878,
+		name = "Get Biggest Three Rhombus Sums in a Grid",
+		url = "https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/",
+		difficulty = Difficulty.MEDIUM
 )
 public class GetBiggestThreeRhombusSumsInGrid
 {

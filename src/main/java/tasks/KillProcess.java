@@ -10,11 +10,11 @@ import java.util.*;
  * @created 1/18/2021
  */
 @LeetCode(
-	id = 582,
-	name = "Kill Process",
-	url = "https://leetcode.com/problems/kill-process/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 582,
+		name = "Kill Process",
+		url = "https://leetcode.com/problems/kill-process/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class KillProcess
 {

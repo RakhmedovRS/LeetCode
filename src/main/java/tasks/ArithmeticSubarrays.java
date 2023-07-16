@@ -11,10 +11,10 @@ import java.util.List;
  * @created 10/25/2020
  */
 @LeetCode(
-	id = 1630,
-	name = "Arithmetic Subarrays",
-	url = "https://leetcode.com/problems/arithmetic-subarrays/",
-	difficulty = Difficulty.MEDIUM
+		id = 1630,
+		name = "Arithmetic Subarrays",
+		url = "https://leetcode.com/problems/arithmetic-subarrays/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ArithmeticSubarrays
 {

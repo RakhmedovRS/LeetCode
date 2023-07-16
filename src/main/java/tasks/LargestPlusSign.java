@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 08-Jul-20
  */
 @LeetCode(
-	id = 764,
-	name = "Largest Plus Sign",
-	url = "https://leetcode.com/problems/largest-plus-sign/",
-	difficulty = Difficulty.MEDIUM
+		id = 764,
+		name = "Largest Plus Sign",
+		url = "https://leetcode.com/problems/largest-plus-sign/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LargestPlusSign
 {

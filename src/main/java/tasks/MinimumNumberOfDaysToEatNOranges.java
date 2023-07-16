@@ -33,7 +33,7 @@ public class MinimumNumberOfDaysToEatNOranges
 
 				if (val % 3 == 0)
 				{
-					list.addLast(val - 2*(val/3));
+					list.addLast(val - 2 * (val / 3));
 				}
 
 				if (val % 2 == 0)

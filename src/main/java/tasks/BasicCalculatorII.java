@@ -10,10 +10,10 @@ import java.util.LinkedList;
  * @created 03-May-20
  */
 @LeetCode(
-	id = 227,
-	name = "Basic Calculator II",
-	url = "https://leetcode.com/problems/basic-calculator-ii/",
-	difficulty = Difficulty.MEDIUM
+		id = 227,
+		name = "Basic Calculator II",
+		url = "https://leetcode.com/problems/basic-calculator-ii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class BasicCalculatorII
 {

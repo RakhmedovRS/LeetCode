@@ -11,11 +11,11 @@ import java.util.Set;
  * @created 2/12/2021
  */
 @LeetCode(
-	id = 489,
-	name = "Robot Room Cleaner",
-	url = "https://leetcode.com/problems/robot-room-cleaner/",
-	difficulty = Difficulty.HARD,
-	premium = true
+		id = 489,
+		name = "Robot Room Cleaner",
+		url = "https://leetcode.com/problems/robot-room-cleaner/",
+		difficulty = Difficulty.HARD,
+		premium = true
 )
 public class RobotRoomCleaner
 {

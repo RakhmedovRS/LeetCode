@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 06-Apr-20
  */
 @LeetCode(
-	id = 334,
-	name = "Increasing Triplet Subsequence",
-	url = "https://leetcode.com/problems/increasing-triplet-subsequence/",
-	difficulty = Difficulty.MEDIUM)
+		id = 334,
+		name = "Increasing Triplet Subsequence",
+		url = "https://leetcode.com/problems/increasing-triplet-subsequence/",
+		difficulty = Difficulty.MEDIUM)
 public class IncreasingTripletSubsequence
 {
 	public boolean increasingTriplet(int[] nums)

@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/2/2020
  */
 @LeetCode(
-	id = 616,
-	name = "Add Bold Tag in String",
-	url = "https://leetcode.com/problems/add-bold-tag-in-string/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 616,
+		name = "Add Bold Tag in String",
+		url = "https://leetcode.com/problems/add-bold-tag-in-string/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class AddBoldTagInString
 {

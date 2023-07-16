@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 1/8/2022
  */
 @LeetCode(
-	id = 2129,
-	name = "Capitalize the Title",
-	url = "https://leetcode.com/problems/capitalize-the-title/",
-	difficulty = Difficulty.EASY
+		id = 2129,
+		name = "Capitalize the Title",
+		url = "https://leetcode.com/problems/capitalize-the-title/",
+		difficulty = Difficulty.EASY
 )
 public class CapitalizeTheTitle
 {

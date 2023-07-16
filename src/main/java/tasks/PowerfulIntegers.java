@@ -13,10 +13,10 @@ import java.util.Set;
  * @created 10/9/2020
  */
 @LeetCode(
-	id = 970,
-	name = "Powerful Integers",
-	url = "https://leetcode.com/problems/powerful-integers/",
-	difficulty = Difficulty.MEDIUM
+		id = 970,
+		name = "Powerful Integers",
+		url = "https://leetcode.com/problems/powerful-integers/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PowerfulIntegers
 {

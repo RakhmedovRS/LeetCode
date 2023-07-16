@@ -10,10 +10,10 @@ import java.util.*;
  * @created 29-May-20
  */
 @LeetCode(
-	id = 819,
-	name = "Most Common Word",
-	url = "https://leetcode.com/problems/most-common-word/",
-	difficulty = Difficulty.EASY
+		id = 819,
+		name = "Most Common Word",
+		url = "https://leetcode.com/problems/most-common-word/",
+		difficulty = Difficulty.EASY
 )
 public class MostCommonWord
 {

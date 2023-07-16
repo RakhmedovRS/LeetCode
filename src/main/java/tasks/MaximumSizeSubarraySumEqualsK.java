@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 9/30/2021
  */
 @LeetCode(
-	id = 325,
-	name = "Maximum Size Subarray Sum Equals k",
-	url = "https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/",
-	difficulty = Difficulty.MEDIUM
+		id = 325,
+		name = "Maximum Size Subarray Sum Equals k",
+		url = "https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumSizeSubarraySumEqualsK
 {

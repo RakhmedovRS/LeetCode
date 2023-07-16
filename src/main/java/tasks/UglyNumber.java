@@ -13,7 +13,7 @@ public class UglyNumber
 {
 	public boolean isUgly(int num)
 	{
-		return getPrimes(num).contains((long)num);
+		return getPrimes(num).contains((long) num);
 	}
 
 	private Set<Long> getPrimes(long number)

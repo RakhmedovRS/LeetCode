@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12-Jun-20
  */
 @LeetCode(
-	id = 1138,
-	name = "Alphabet Board Path",
-	url = "https://leetcode.com/problems/alphabet-board-path/",
-	difficulty = Difficulty.MEDIUM
+		id = 1138,
+		name = "Alphabet Board Path",
+		url = "https://leetcode.com/problems/alphabet-board-path/",
+		difficulty = Difficulty.MEDIUM
 )
 public class AlphabetBoardPath
 {

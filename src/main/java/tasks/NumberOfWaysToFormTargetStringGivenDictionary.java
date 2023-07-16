@@ -42,23 +42,23 @@ public class NumberOfWaysToFormTargetStringGivenDictionary
 
 		int matches = charFreq[i][target.charAt(j) - 'a'];
 		long res = dfs(i + 1, j, words, target, charFreq, memo) + matches * dfs(i + 1, j + 1, words, target, charFreq, memo);
-		memo[i][j] = (int)(res % 1_000_000_007);
+		memo[i][j] = (int) (res % 1_000_000_007);
 		return memo[i][j];
 	}
 
 	public static void main(String[] args)
 	{
 		System.out.println(new NumberOfWaysToFormTargetStringGivenDictionary().numWays(new String[]
-				{"cbabddddbc", "addbaacbbd", "cccbacdccd", "cdcaccacac", "dddbacabbd", "bdbdadbccb",
-					"ddadbacddd", "bbccdddadd", "dcabaccbbd", "ddddcddadc", "bdcaaaabdd", "adacdcdcdd",
-					"cbaaadbdbb", "bccbabcbab", "accbdccadd", "dcccaaddbc", "cccccacabd", "acacdbcbbc",
-					"dbbdbaccca", "bdbddbddda", "daabadbacb", "baccdbaada", "ccbabaabcb", "dcaabccbbb",
-					"bcadddaacc", "acddbbdccb", "adbddbadab", "dbbcdcbcdd", "ddbabbadbb", "bccbcbbbab",
-					"dabbbdbbcb", "dacdabadbb", "addcbbabab", "bcbbccadda", "abbcacadac", "ccdadcaada",
-					"bcacdbccdb"},
-			"bcbbcccc"));
+						{"cbabddddbc", "addbaacbbd", "cccbacdccd", "cdcaccacac", "dddbacabbd", "bdbdadbccb",
+								"ddadbacddd", "bbccdddadd", "dcabaccbbd", "ddddcddadc", "bdcaaaabdd", "adacdcdcdd",
+								"cbaaadbdbb", "bccbabcbab", "accbdccadd", "dcccaaddbc", "cccccacabd", "acacdbcbbc",
+								"dbbdbaccca", "bdbddbddda", "daabadbacb", "baccdbaada", "ccbabaabcb", "dcaabccbbb",
+								"bcadddaacc", "acddbbdccb", "adbddbadab", "dbbcdcbcdd", "ddbabbadbb", "bccbcbbbab",
+								"dabbbdbbcb", "dacdabadbb", "addcbbabab", "bcbbccadda", "abbcacadac", "ccdadcaada",
+								"bcacdbccdb"},
+				"bcbbcccc"));
 
 		System.out.println(new NumberOfWaysToFormTargetStringGivenDictionary().numWays(new String[]
-			{"acca", "bbbb", "caca"}, "aba"));
+				{"acca", "bbbb", "caca"}, "aba"));
 	}
 }

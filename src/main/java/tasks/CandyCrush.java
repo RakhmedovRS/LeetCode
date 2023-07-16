@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 2/12/2021
  */
 @LeetCode(
-	id = 723,
-	name = "Candy Crush",
-	url = "https://leetcode.com/problems/candy-crush/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 723,
+		name = "Candy Crush",
+		url = "https://leetcode.com/problems/candy-crush/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class CandyCrush
 {

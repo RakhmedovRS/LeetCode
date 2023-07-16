@@ -10,10 +10,10 @@ import java.util.TreeMap;
  * @created 1/21/2021
  */
 @LeetCode(
-	id = 915,
-	name = "Partition Array into Disjoint Intervals",
-	url = "https://leetcode.com/problems/partition-array-into-disjoint-intervals/",
-	difficulty = Difficulty.MEDIUM
+		id = 915,
+		name = "Partition Array into Disjoint Intervals",
+		url = "https://leetcode.com/problems/partition-array-into-disjoint-intervals/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PartitionArrayIntoDisjointIntervals
 {

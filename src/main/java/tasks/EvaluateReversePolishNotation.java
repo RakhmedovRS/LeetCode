@@ -13,10 +13,10 @@ import java.util.function.IntBinaryOperator;
  * @created 11-Apr-20
  */
 @LeetCode(
-	id = 150,
-	name = "Evaluate Reverse Polish Notation",
-	url = "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
-	difficulty = Difficulty.MEDIUM
+		id = 150,
+		name = "Evaluate Reverse Polish Notation",
+		url = "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+		difficulty = Difficulty.MEDIUM
 )
 public class EvaluateReversePolishNotation
 {

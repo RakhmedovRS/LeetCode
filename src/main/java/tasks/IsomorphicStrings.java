@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 11-Jul-20
  */
 @LeetCode(
-	id = 205,
-	name = "Isomorphic Strings",
-	url = "https://leetcode.com/problems/isomorphic-strings/",
-	difficulty = Difficulty.EASY)
+		id = 205,
+		name = "Isomorphic Strings",
+		url = "https://leetcode.com/problems/isomorphic-strings/",
+		difficulty = Difficulty.EASY)
 public class IsomorphicStrings
 {
 	public boolean isIsomorphic(String s, String t)

@@ -10,11 +10,11 @@ import java.util.LinkedList;
  * @created 1/22/2021
  */
 @LeetCode(
-	id = 1628,
-	name = "Design an Expression Tree With Evaluate Function",
-	url = "https://leetcode.com/problems/design-an-expression-tree-with-evaluate-function/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1628,
+		name = "Design an Expression Tree With Evaluate Function",
+		url = "https://leetcode.com/problems/design-an-expression-tree-with-evaluate-function/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class DesignExpressionTreeWithEvaluateFunction
 {

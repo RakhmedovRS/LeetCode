@@ -11,10 +11,10 @@ import java.util.List;
  * @created 30-Mar-20
  */
 @LeetCode(
-	id = 989,
-	name = "Add to Array-Form of Integer",
-	url = "https://leetcode.com/problems/add-to-array-form-of-integer/",
-	difficulty = Difficulty.EASY
+		id = 989,
+		name = "Add to Array-Form of Integer",
+		url = "https://leetcode.com/problems/add-to-array-form-of-integer/",
+		difficulty = Difficulty.EASY
 )
 public class AddToArrayFormOfInteger
 {

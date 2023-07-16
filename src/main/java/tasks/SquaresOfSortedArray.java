@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 21-Apr-20
  */
 @LeetCode(
-	id = 977,
-	name = "Squares of a Sorted Array",
-	url = "https://leetcode.com/problems/squares-of-a-sorted-array/",
-	difficulty = Difficulty.EASY
+		id = 977,
+		name = "Squares of a Sorted Array",
+		url = "https://leetcode.com/problems/squares-of-a-sorted-array/",
+		difficulty = Difficulty.EASY
 )
 public class SquaresOfSortedArray
 {

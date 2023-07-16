@@ -38,10 +38,10 @@ public class ThreeSum
 				if (right != -1)
 				{
 					if (answer.isEmpty() ||
-						(answer.get(answer.size() - 1).get(0) != nums[left]
-							|| answer.get(answer.size() - 1).get(1) != nums[middle]
-							|| answer.get(answer.size() - 1).get(2) != nums[right]
-						)
+							(answer.get(answer.size() - 1).get(0) != nums[left]
+									|| answer.get(answer.size() - 1).get(1) != nums[middle]
+									|| answer.get(answer.size() - 1).get(2) != nums[right]
+							)
 					)
 					{
 						answer.add(Arrays.asList(nums[left], nums[middle], nums[right]));

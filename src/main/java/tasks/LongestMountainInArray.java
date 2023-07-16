@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/16/2020
  */
 @LeetCode(
-	id = 845,
-	name = "Longest Mountain in Array",
-	url = "https://leetcode.com/problems/longest-mountain-in-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 845,
+		name = "Longest Mountain in Array",
+		url = "https://leetcode.com/problems/longest-mountain-in-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LongestMountainInArray
 {

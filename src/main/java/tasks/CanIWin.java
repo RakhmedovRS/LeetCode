@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 11/5/2020
  */
 @LeetCode(
-	id = 464,
-	name = "Can I Win",
-	url = "https://leetcode.com/problems/can-i-win/",
-	difficulty = Difficulty.MEDIUM
+		id = 464,
+		name = "Can I Win",
+		url = "https://leetcode.com/problems/can-i-win/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CanIWin
 {

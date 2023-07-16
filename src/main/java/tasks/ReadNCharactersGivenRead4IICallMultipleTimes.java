@@ -11,11 +11,11 @@ import java.util.List;
  * @created 12/8/2020
  */
 @LeetCode(
-	id = 158,
-	name = "Read N Characters Given Read4 II - Call multiple times",
-	url = "https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/",
-	difficulty = Difficulty.HARD,
-	premium = true
+		id = 158,
+		name = "Read N Characters Given Read4 II - Call multiple times",
+		url = "https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/",
+		difficulty = Difficulty.HARD,
+		premium = true
 )
 public class ReadNCharactersGivenRead4IICallMultipleTimes
 {

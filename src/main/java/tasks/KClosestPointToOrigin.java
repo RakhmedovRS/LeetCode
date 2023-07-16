@@ -10,10 +10,10 @@ import java.util.PriorityQueue;
  * @created 30-May-20
  */
 @LeetCode(
-	id = 973,
-	name = "K Closest Points to Origin",
-	url = "https://leetcode.com/problems/k-closest-points-to-origin/",
-	difficulty = Difficulty.MEDIUM
+		id = 973,
+		name = "K Closest Points to Origin",
+		url = "https://leetcode.com/problems/k-closest-points-to-origin/",
+		difficulty = Difficulty.MEDIUM
 )
 public class KClosestPointToOrigin
 {

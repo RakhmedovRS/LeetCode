@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 1/13/2021
  */
 @LeetCode(
-	id = 510,
-	name = "Inorder Successor in BST II",
-	url = "https://leetcode.com/problems/inorder-successor-in-bst-ii/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 510,
+		name = "Inorder Successor in BST II",
+		url = "https://leetcode.com/problems/inorder-successor-in-bst-ii/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class InorderSuccessorInBSTII
 {

@@ -39,23 +39,23 @@ public class MatrixDiagonalSum
 	public static void main(String[] args)
 	{
 		System.out.println(new MatrixDiagonalSum().diagonalSum(new int[][]
-			{
-				{1, 1, 1, 1},
-				{1, 1, 1, 1},
-				{1, 1, 1, 1},
-				{1, 1, 1, 1}
-			}));
+				{
+						{1, 1, 1, 1},
+						{1, 1, 1, 1},
+						{1, 1, 1, 1},
+						{1, 1, 1, 1}
+				}));
 
 		System.out.println(new MatrixDiagonalSum().diagonalSum(new int[][]
-			{
-				{1, 2, 3},
-				{4, 5, 6},
-				{7, 8, 9}
-			}));
+				{
+						{1, 2, 3},
+						{4, 5, 6},
+						{7, 8, 9}
+				}));
 
 		System.out.println(new MatrixDiagonalSum().diagonalSum(new int[][]
-			{
-				{5}
-			}));
+				{
+						{5}
+				}));
 	}
 }

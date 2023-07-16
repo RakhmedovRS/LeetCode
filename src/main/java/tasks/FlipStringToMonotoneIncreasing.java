@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 25-Aug-20
  */
 @LeetCode(
-	id = 926,
-	name = "Flip String to Monotone Increasing",
-	url = "https://leetcode.com/problems/flip-string-to-monotone-increasing/",
-	difficulty = Difficulty.MEDIUM
+		id = 926,
+		name = "Flip String to Monotone Increasing",
+		url = "https://leetcode.com/problems/flip-string-to-monotone-increasing/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FlipStringToMonotoneIncreasing
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 1/22/2021
  */
 @LeetCode(
-	id = 807,
-	name = "Max Increase to Keep City Skyline",
-	url = "https://leetcode.com/problems/max-increase-to-keep-city-skyline/",
-	difficulty = Difficulty.MEDIUM
+		id = 807,
+		name = "Max Increase to Keep City Skyline",
+		url = "https://leetcode.com/problems/max-increase-to-keep-city-skyline/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaxIncreaseToKeepCitySkyline
 {

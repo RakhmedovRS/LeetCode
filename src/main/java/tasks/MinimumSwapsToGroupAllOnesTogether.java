@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/14/2020
  */
 @LeetCode(
-	id = 1151,
-	name = "Minimum Swaps to Group All 1's Together",
-	url = "https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1151,
+		name = "Minimum Swaps to Group All 1's Together",
+		url = "https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class MinimumSwapsToGroupAllOnesTogether
 {

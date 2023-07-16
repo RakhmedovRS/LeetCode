@@ -10,11 +10,11 @@ import java.util.*;
  * @created 12/5/2020
  */
 @LeetCode(
-	id = 1244,
-	name = "Design A Leaderboard",
-	url = "https://leetcode.com/problems/design-a-leaderboard/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1244,
+		name = "Design A Leaderboard",
+		url = "https://leetcode.com/problems/design-a-leaderboard/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class DesignLeaderboard
 {

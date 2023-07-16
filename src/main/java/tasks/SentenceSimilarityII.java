@@ -10,11 +10,11 @@ import java.util.*;
  * @created 1/20/2021
  */
 @LeetCode(
-	id = 737,
-	name = "Sentence Similarity II",
-	url = "https://leetcode.com/problems/sentence-similarity-ii/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 737,
+		name = "Sentence Similarity II",
+		url = "https://leetcode.com/problems/sentence-similarity-ii/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class SentenceSimilarityII
 {

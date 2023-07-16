@@ -13,11 +13,11 @@ import java.util.Map;
  * @created 1/11/2021
  */
 @LeetCode(
-	id = 249,
-	name = "Group Shifted Strings",
-	url = "https://leetcode.com/problems/group-shifted-strings/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 249,
+		name = "Group Shifted Strings",
+		url = "https://leetcode.com/problems/group-shifted-strings/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class GroupShiftedStrings
 {

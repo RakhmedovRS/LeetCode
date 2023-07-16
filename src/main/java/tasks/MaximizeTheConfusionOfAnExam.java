@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 10/2/2021
  */
 @LeetCode(
-	id = 2024,
-	name = "Maximize the Confusion of an Exam",
-	url = "https://leetcode.com/problems/maximize-the-confusion-of-an-exam/",
-	difficulty = Difficulty.MEDIUM
+		id = 2024,
+		name = "Maximize the Confusion of an Exam",
+		url = "https://leetcode.com/problems/maximize-the-confusion-of-an-exam/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximizeTheConfusionOfAnExam
 {

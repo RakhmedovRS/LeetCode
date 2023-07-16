@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 8/22/2021
  */
 @LeetCode(
-	id = 1975,
-	name = "Maximum Matrix Sum",
-	url = "https://leetcode.com/problems/maximum-matrix-sum/",
-	difficulty = Difficulty.MEDIUM
+		id = 1975,
+		name = "Maximum Matrix Sum",
+		url = "https://leetcode.com/problems/maximum-matrix-sum/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumMatrixSum
 {

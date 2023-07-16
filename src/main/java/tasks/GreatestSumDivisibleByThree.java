@@ -31,11 +31,11 @@ public class GreatestSumDivisibleByThree
 
 		if (sum % 3 == 1)
 		{
-			return sum - (int)one;
+			return sum - (int) one;
 		}
 		else if (sum % 3 == 2)
 		{
-			return sum - (int)two;
+			return sum - (int) two;
 		}
 		return sum;
 	}

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 1/22/2022
  */
 @LeetCode(
-	id = 2145,
-	name = "Count the Hidden Sequences",
-	url = "https://leetcode.com/problems/count-the-hidden-sequences/",
-	difficulty = Difficulty.MEDIUM
+		id = 2145,
+		name = "Count the Hidden Sequences",
+		url = "https://leetcode.com/problems/count-the-hidden-sequences/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CountTheHiddenSequences
 {

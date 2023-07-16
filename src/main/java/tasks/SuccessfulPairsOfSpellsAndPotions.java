@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 6/15/2022
  */
 @LeetCode(
-	id = 2300,
-	name = "Successful Pairs of Spells and Potions",
-	url = "https://leetcode.com/problems/successful-pairs-of-spells-and-potions/",
-	difficulty = Difficulty.MEDIUM
+		id = 2300,
+		name = "Successful Pairs of Spells and Potions",
+		url = "https://leetcode.com/problems/successful-pairs-of-spells-and-potions/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SuccessfulPairsOfSpellsAndPotions
 {

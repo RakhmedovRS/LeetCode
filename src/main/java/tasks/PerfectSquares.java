@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 09-May-20
  */
 @LeetCode(
-	id = 279,
-	name = "Perfect Squares",
-	url = "https://leetcode.com/problems/perfect-squares/",
-	difficulty = Difficulty.MEDIUM
+		id = 279,
+		name = "Perfect Squares",
+		url = "https://leetcode.com/problems/perfect-squares/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PerfectSquares
 {

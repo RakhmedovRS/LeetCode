@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/15/2020
  */
 @LeetCode(
-	id = 992,
-	name = "Subarrays with K Different Integers",
-	url = "https://leetcode.com/problems/subarrays-with-k-different-integers/",
-	difficulty = Difficulty.HARD
+		id = 992,
+		name = "Subarrays with K Different Integers",
+		url = "https://leetcode.com/problems/subarrays-with-k-different-integers/",
+		difficulty = Difficulty.HARD
 )
 public class SubarraysWithKDifferentIntegers
 {

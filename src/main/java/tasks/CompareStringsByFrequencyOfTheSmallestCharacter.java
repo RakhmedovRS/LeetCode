@@ -84,18 +84,18 @@ public class CompareStringsByFrequencyOfTheSmallestCharacter
 	public static void main(String[] args)
 	{
 		System.out.println(Arrays.toString(
-			new CompareStringsByFrequencyOfTheSmallestCharacter().numSmallerByFrequency(
-				new String[]{"aabbabbb", "abbbabaa", "aabbbabaa", "aabba", "abb", "a", "ba", "aa", "ba", "baabbbaaaa", "babaa", "bbbbabaa"},
-				new String[]{"b", "aaaba", "aaaabba", "aa", "aabaabab", "aabbaaabbb", "ababb", "bbb", "aabbbabb", "aab", "bbaaababba", "baaaaa"})));
+				new CompareStringsByFrequencyOfTheSmallestCharacter().numSmallerByFrequency(
+						new String[]{"aabbabbb", "abbbabaa", "aabbbabaa", "aabba", "abb", "a", "ba", "aa", "ba", "baabbbaaaa", "babaa", "bbbbabaa"},
+						new String[]{"b", "aaaba", "aaaabba", "aa", "aabaabab", "aabbaaabbb", "ababb", "bbb", "aabbbabb", "aab", "bbaaababba", "baaaaa"})));
 
 		System.out.println(Arrays.toString(
-			new CompareStringsByFrequencyOfTheSmallestCharacter().numSmallerByFrequency(
-				new String[]{"bbb", "cc"},
-				new String[]{"a", "aa", "aaa", "aaaa"})));
+				new CompareStringsByFrequencyOfTheSmallestCharacter().numSmallerByFrequency(
+						new String[]{"bbb", "cc"},
+						new String[]{"a", "aa", "aaa", "aaaa"})));
 
 		System.out.println(Arrays.toString(
-			new CompareStringsByFrequencyOfTheSmallestCharacter().numSmallerByFrequency(
-				new String[]{"cbd"},
-				new String[]{"zaaaz"})));
+				new CompareStringsByFrequencyOfTheSmallestCharacter().numSmallerByFrequency(
+						new String[]{"cbd"},
+						new String[]{"zaaaz"})));
 	}
 }

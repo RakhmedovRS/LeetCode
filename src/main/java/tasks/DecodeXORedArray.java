@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 1/10/2021
  */
 @LeetCode(
-	id = 1720,
-	name = "Decode XORed Array",
-	url = "https://leetcode.com/problems/decode-xored-array/",
-	difficulty = Difficulty.EASY
+		id = 1720,
+		name = "Decode XORed Array",
+		url = "https://leetcode.com/problems/decode-xored-array/",
+		difficulty = Difficulty.EASY
 )
 public class DecodeXORedArray
 {

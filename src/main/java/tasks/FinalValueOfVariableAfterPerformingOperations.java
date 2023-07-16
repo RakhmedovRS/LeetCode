@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 9/19/2021
  */
 @LeetCode(
-	id = 2011,
-	name = "Final Value of Variable After Performing Operations",
-	url = "https://leetcode.com/problems/final-value-of-variable-after-performing-operations/",
-	difficulty = Difficulty.EASY
+		id = 2011,
+		name = "Final Value of Variable After Performing Operations",
+		url = "https://leetcode.com/problems/final-value-of-variable-after-performing-operations/",
+		difficulty = Difficulty.EASY
 )
 public class FinalValueOfVariableAfterPerformingOperations
 {

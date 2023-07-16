@@ -12,10 +12,10 @@ import java.util.List;
  * @created 1/7/2021
  */
 @LeetCode(
-	id = 937,
-	name = "Reorder Data in Log Files",
-	url = "https://leetcode.com/problems/reorder-data-in-log-files/",
-	difficulty = Difficulty.EASY
+		id = 937,
+		name = "Reorder Data in Log Files",
+		url = "https://leetcode.com/problems/reorder-data-in-log-files/",
+		difficulty = Difficulty.EASY
 )
 public class ReorderDataInLogFiles
 {
@@ -71,6 +71,6 @@ public class ReorderDataInLogFiles
 	{
 		ReorderDataInLogFiles clazz = new ReorderDataInLogFiles();
 		System.out.println(Arrays.toString(clazz.reorderLogFiles(new String[]
-			{"dig1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero"})));
+				{"dig1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero"})));
 	}
 }

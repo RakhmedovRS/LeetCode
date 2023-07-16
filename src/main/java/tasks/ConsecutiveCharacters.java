@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 17-May-20
  */
 @LeetCode(
-	id = 1446,
-	name = "Consecutive Characters",
-	url = "https://leetcode.com/problems/consecutive-characters/",
-	difficulty = Difficulty.EASY
+		id = 1446,
+		name = "Consecutive Characters",
+		url = "https://leetcode.com/problems/consecutive-characters/",
+		difficulty = Difficulty.EASY
 )
 public class ConsecutiveCharacters
 {

@@ -11,10 +11,10 @@ import java.util.TreeMap;
  * @created 11/19/2020
  */
 @LeetCode(
-	id = 846,
-	name = "Hand of Straights",
-	url = "https://leetcode.com/problems/hand-of-straights/",
-	difficulty = Difficulty.MEDIUM
+		id = 846,
+		name = "Hand of Straights",
+		url = "https://leetcode.com/problems/hand-of-straights/",
+		difficulty = Difficulty.MEDIUM
 )
 public class HandOfStraights
 {

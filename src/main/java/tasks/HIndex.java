@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 11-Aug-20
  */
 @LeetCode(
-	id = 274,
-	name = "H-Index",
-	url = "https://leetcode.com/problems/h-index/",
-	difficulty = Difficulty.MEDIUM
+		id = 274,
+		name = "H-Index",
+		url = "https://leetcode.com/problems/h-index/",
+		difficulty = Difficulty.MEDIUM
 )
 public class HIndex
 {

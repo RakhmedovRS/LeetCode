@@ -11,10 +11,10 @@ import java.util.LinkedList;
  * @created 27-May-20
  */
 @LeetCode(
-	id = 538,
-	name = "Convert BST to Greater Tree",
-	url = "https://leetcode.com/problems/convert-bst-to-greater-tree/",
-	difficulty = Difficulty.MEDIUM
+		id = 538,
+		name = "Convert BST to Greater Tree",
+		url = "https://leetcode.com/problems/convert-bst-to-greater-tree/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ConvertBSTToGreaterTree
 {

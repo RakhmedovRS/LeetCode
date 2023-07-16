@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 3/19/2022
  */
 @LeetCode(
-	id = 2207,
-	name = "Maximize Number of Subsequences in a String",
-	url = "https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string/",
-	difficulty = Difficulty.MEDIUM
+		id = 2207,
+		name = "Maximize Number of Subsequences in a String",
+		url = "https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximizeNumberOfSubsequencesInString
 {

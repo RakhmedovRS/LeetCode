@@ -12,11 +12,11 @@ import java.util.TreeSet;
  * @created 12/1/2020
  */
 @LeetCode(
-	id = 1055,
-	name = "Shortest Way to Form String",
-	url = "https://leetcode.com/problems/shortest-way-to-form-string/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1055,
+		name = "Shortest Way to Form String",
+		url = "https://leetcode.com/problems/shortest-way-to-form-string/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class ShortestWayToFormString
 {

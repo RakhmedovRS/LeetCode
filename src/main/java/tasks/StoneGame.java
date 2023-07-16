@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 23-Jul-20
  */
 @LeetCode(
-	id = 877,
-	name = "Stone Game",
-	url = "https://leetcode.com/problems/stone-game/",
-	difficulty = Difficulty.MEDIUM
+		id = 877,
+		name = "Stone Game",
+		url = "https://leetcode.com/problems/stone-game/",
+		difficulty = Difficulty.MEDIUM
 )
 public class StoneGame
 {

@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 8/29/2021
  */
 @LeetCode(
-	id = 1984,
-	name = "Minimum Difference Between Highest and Lowest of K Scores",
-	url = "https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/",
-	difficulty = Difficulty.EASY
+		id = 1984,
+		name = "Minimum Difference Between Highest and Lowest of K Scores",
+		url = "https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/",
+		difficulty = Difficulty.EASY
 )
 public class MinimumDifferenceBetweenHighestAndLowestOfKScores
 {

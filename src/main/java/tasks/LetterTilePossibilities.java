@@ -23,7 +23,7 @@ public class LetterTilePossibilities
 		}
 
 		int[] memo = new int[26];
-		for (char ch: tiles.toCharArray())
+		for (char ch : tiles.toCharArray())
 		{
 			memo[ch - 'A']++;
 		}

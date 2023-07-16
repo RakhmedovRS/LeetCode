@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/6/2020
  */
 @LeetCode(
-	id = 1678,
-	name = "Goal Parser Interpretation",
-	url = "https://leetcode.com/problems/goal-parser-interpretation/",
-	difficulty = Difficulty.EASY
+		id = 1678,
+		name = "Goal Parser Interpretation",
+		url = "https://leetcode.com/problems/goal-parser-interpretation/",
+		difficulty = Difficulty.EASY
 )
 public class GoalParserInterpretation
 {

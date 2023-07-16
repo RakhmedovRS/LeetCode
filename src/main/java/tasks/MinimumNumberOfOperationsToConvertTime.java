@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 4/16/2022
  */
 @LeetCode(
-	id = 2224,
-	name = "Minimum Number of Operations to Convert Time",
-	url = "https://leetcode.com/problems/minimum-number-of-operations-to-convert-time/",
-	difficulty = Difficulty.EASY
+		id = 2224,
+		name = "Minimum Number of Operations to Convert Time",
+		url = "https://leetcode.com/problems/minimum-number-of-operations-to-convert-time/",
+		difficulty = Difficulty.EASY
 )
 public class MinimumNumberOfOperationsToConvertTime
 {

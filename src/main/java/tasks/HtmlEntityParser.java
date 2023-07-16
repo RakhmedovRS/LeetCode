@@ -13,10 +13,10 @@ import java.util.Map;
  * @created 3/11/2021
  */
 @LeetCode(
-	id = 1410,
-	name = "HTML Entity Parser",
-	url = "https://leetcode.com/problems/html-entity-parser/",
-	difficulty = Difficulty.MEDIUM
+		id = 1410,
+		name = "HTML Entity Parser",
+		url = "https://leetcode.com/problems/html-entity-parser/",
+		difficulty = Difficulty.MEDIUM
 )
 public class HtmlEntityParser
 {

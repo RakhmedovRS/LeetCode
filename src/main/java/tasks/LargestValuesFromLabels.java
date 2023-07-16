@@ -13,10 +13,10 @@ import java.util.PriorityQueue;
  * @created 3/15/2021
  */
 @LeetCode(
-	id = 1090,
-	name = "Largest Values From Labels",
-	url = "https://leetcode.com/problems/largest-values-from-labels/",
-	difficulty = Difficulty.MEDIUM
+		id = 1090,
+		name = "Largest Values From Labels",
+		url = "https://leetcode.com/problems/largest-values-from-labels/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LargestValuesFromLabels
 {

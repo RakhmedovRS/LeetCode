@@ -45,18 +45,18 @@ public class NonOverlappingIntervals
 	public static void main(String[] args)
 	{
 		System.out.println(new NonOverlappingIntervals().eraseOverlapIntervals(new int[][]
-			{
-				{1,2},
-				{2,3},
-				{3,4},
-				{1,3}
-			}));
+				{
+						{1, 2},
+						{2, 3},
+						{3, 4},
+						{1, 3}
+				}));
 
 		System.out.println(new NonOverlappingIntervals().eraseOverlapIntervals(new int[][]
-			{
-				{1,2},
-				{1,2},
-				{1,2}
-			}));
+				{
+						{1, 2},
+						{1, 2},
+						{1, 2}
+				}));
 	}
 }

@@ -11,11 +11,11 @@ import java.util.TreeMap;
  * @created 6/17/2021
  */
 @LeetCode(
-	id = 1902,
-	name = "Depth of BST Given Insertion Order",
-	url = "https://leetcode.com/problems/depth-of-bst-given-insertion-order/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1902,
+		name = "Depth of BST Given Insertion Order",
+		url = "https://leetcode.com/problems/depth-of-bst-given-insertion-order/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class DepthOfBSTGivenInsertionOrder
 {

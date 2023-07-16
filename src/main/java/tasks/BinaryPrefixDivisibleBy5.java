@@ -12,10 +12,10 @@ import java.util.List;
  * @created 10-Jul-20
  */
 @LeetCode(
-	id = 1018,
-	name = "Binary Prefix Divisible By 5",
-	url = "https://leetcode.com/problems/binary-prefix-divisible-by-5/",
-	difficulty = Difficulty.EASY
+		id = 1018,
+		name = "Binary Prefix Divisible By 5",
+		url = "https://leetcode.com/problems/binary-prefix-divisible-by-5/",
+		difficulty = Difficulty.EASY
 )
 public class BinaryPrefixDivisibleBy5
 {

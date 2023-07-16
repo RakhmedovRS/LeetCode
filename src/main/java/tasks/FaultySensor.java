@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 4/15/2021
  */
 @LeetCode(
-	id = 1826,
-	name = "Faulty Sensor",
-	url = "https://leetcode.com/problems/faulty-sensor/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1826,
+		name = "Faulty Sensor",
+		url = "https://leetcode.com/problems/faulty-sensor/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class FaultySensor
 {

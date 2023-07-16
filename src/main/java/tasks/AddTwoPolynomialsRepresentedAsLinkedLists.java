@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 1/5/2021
  */
 @LeetCode(
-	id = 1634,
-	name = "Add Two Polynomials Represented as Linked Lists",
-	url = "https://leetcode.com/problems/add-two-polynomials-represented-as-linked-lists/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1634,
+		name = "Add Two Polynomials Represented as Linked Lists",
+		url = "https://leetcode.com/problems/add-two-polynomials-represented-as-linked-lists/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class AddTwoPolynomialsRepresentedAsLinkedLists
 {
@@ -22,7 +22,9 @@ public class AddTwoPolynomialsRepresentedAsLinkedLists
 
 		PolyNode next = null;
 
-		PolyNode(){}
+		PolyNode()
+		{
+		}
 
 		PolyNode(int x, int y)
 		{

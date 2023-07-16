@@ -10,10 +10,10 @@ import java.util.*;
  * @created 2/16/2021
  */
 @LeetCode(
-	id = 1284,
-	name = "Minimum Number of Flips to Convert Binary Matrix to Zero Matrix",
-	url = "https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/",
-	difficulty = Difficulty.HARD
+		id = 1284,
+		name = "Minimum Number of Flips to Convert Binary Matrix to Zero Matrix",
+		url = "https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/",
+		difficulty = Difficulty.HARD
 )
 public class MinimumNumberOfFlipsToConvertBinaryMatrixToZeroMatrix
 {

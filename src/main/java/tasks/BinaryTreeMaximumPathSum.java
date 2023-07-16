@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 21-Feb-20
  */
 @LeetCode(
-	id = 124,
-	name = "Binary Tree Maximum Path Sum",
-	url = "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
-	difficulty = Difficulty.HARD
+		id = 124,
+		name = "Binary Tree Maximum Path Sum",
+		url = "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+		difficulty = Difficulty.HARD
 )
 public class BinaryTreeMaximumPathSum
 {

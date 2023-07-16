@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 5/16/2021
  */
 @LeetCode(
-	id = 1864,
-	name = "Minimum Number of Swaps to Make the Binary String Alternating",
-	url = "https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/",
-	difficulty = Difficulty.MEDIUM
+		id = 1864,
+		name = "Minimum Number of Swaps to Make the Binary String Alternating",
+		url = "https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumNumberOfSwapsToMakeTheBinaryStringAlternating
 {

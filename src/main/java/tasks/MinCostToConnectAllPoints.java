@@ -10,10 +10,10 @@ import java.util.*;
  * @created 13-Sep-20
  */
 @LeetCode(
-	id = 1584,
-	name = "Min Cost to Connect All Points",
-	url = "https://leetcode.com/problems/min-cost-to-connect-all-points/",
-	difficulty = Difficulty.MEDIUM
+		id = 1584,
+		name = "Min Cost to Connect All Points",
+		url = "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinCostToConnectAllPoints
 {
@@ -105,12 +105,12 @@ public class MinCostToConnectAllPoints
 	public static void main(String[] args)
 	{
 		System.out.println(new MinCostToConnectAllPoints().minCostConnectPoints(new int[][]
-			{
-				{0, 0},
-				{2, 2},
-				{3, 10},
-				{5, 2},
-				{7, 0}
-			}));
+				{
+						{0, 0},
+						{2, 2},
+						{3, 10},
+						{5, 2},
+						{7, 0}
+				}));
 	}
 }

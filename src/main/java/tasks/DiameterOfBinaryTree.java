@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 11-Apr-20
  */
 @LeetCode(
-	id = 543,
-	name = "Diameter of Binary Tree",
-	url = "https://leetcode.com/problems/diameter-of-binary-tree/",
-	difficulty = Difficulty.EASY
+		id = 543,
+		name = "Diameter of Binary Tree",
+		url = "https://leetcode.com/problems/diameter-of-binary-tree/",
+		difficulty = Difficulty.EASY
 )
 public class DiameterOfBinaryTree
 {

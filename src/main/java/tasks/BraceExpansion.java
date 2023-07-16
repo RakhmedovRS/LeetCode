@@ -12,11 +12,11 @@ import java.util.List;
  * @created 1/16/2021
  */
 @LeetCode(
-	id = 1087,
-	name = "Brace Expansion",
-	url = "https://leetcode.com/problems/brace-expansion/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1087,
+		name = "Brace Expansion",
+		url = "https://leetcode.com/problems/brace-expansion/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class BraceExpansion
 {

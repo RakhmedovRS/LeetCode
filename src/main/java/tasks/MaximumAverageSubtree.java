@@ -9,11 +9,11 @@ import common.TreeNode;
  * @created 12/15/2020
  */
 @LeetCode(
-	id = 1120,
-	name = "Maximum Average Subtree",
-	url = "https://leetcode.com/problems/maximum-average-subtree/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1120,
+		name = "Maximum Average Subtree",
+		url = "https://leetcode.com/problems/maximum-average-subtree/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class MaximumAverageSubtree
 {

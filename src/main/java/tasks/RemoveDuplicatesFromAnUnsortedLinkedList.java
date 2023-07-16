@@ -9,11 +9,11 @@ import common.ListNode;
  * @created 4/23/2021
  */
 @LeetCode(
-	id = 1836,
-	name = "Remove Duplicates From an Unsorted Linked List",
-	url = "https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1836,
+		name = "Remove Duplicates From an Unsorted Linked List",
+		url = "https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class RemoveDuplicatesFromAnUnsortedLinkedList
 {

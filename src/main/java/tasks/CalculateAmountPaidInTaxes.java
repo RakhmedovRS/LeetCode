@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/16/2022
  */
 @LeetCode(
-	id = 2303,
-	name = "Calculate Amount Paid in Taxes",
-	url = "https://leetcode.com/problems/calculate-amount-paid-in-taxes/",
-	difficulty = Difficulty.EASY
+		id = 2303,
+		name = "Calculate Amount Paid in Taxes",
+		url = "https://leetcode.com/problems/calculate-amount-paid-in-taxes/",
+		difficulty = Difficulty.EASY
 )
 public class CalculateAmountPaidInTaxes
 {

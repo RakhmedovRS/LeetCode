@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 24-Jun-20
  */
 @LeetCode(
-	id = 1413,
-	name = "Minimum Value to Get Positive Step by Step Sum",
-	url = "https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/",
-	difficulty = Difficulty.EASY
+		id = 1413,
+		name = "Minimum Value to Get Positive Step by Step Sum",
+		url = "https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/",
+		difficulty = Difficulty.EASY
 )
 public class MinimumValueoToGetPositiveStepByStepSum
 {

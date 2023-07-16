@@ -10,10 +10,10 @@ import java.util.*;
  * @created 12/2/2020
  */
 @LeetCode(
-	id = 1443,
-	name = "Minimum Time to Collect All Apples in a Tree",
-	url = "https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/",
-	difficulty = Difficulty.MEDIUM
+		id = 1443,
+		name = "Minimum Time to Collect All Apples in a Tree",
+		url = "https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumTimeToCollectAllApplesInTree
 {

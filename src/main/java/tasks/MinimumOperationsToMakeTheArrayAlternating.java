@@ -11,10 +11,10 @@ import java.util.List;
  * @created 2/13/2022
  */
 @LeetCode(
-	id = 2170,
-	name = "Minimum Operations to Make the Array Alternating",
-	url = "https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/",
-	difficulty = Difficulty.MEDIUM
+		id = 2170,
+		name = "Minimum Operations to Make the Array Alternating",
+		url = "https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumOperationsToMakeTheArrayAlternating
 {

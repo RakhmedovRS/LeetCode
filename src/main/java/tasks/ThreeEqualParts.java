@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 7/17/2021
  */
 @LeetCode(
-	id = 927,
-	name = "Three Equal Parts",
-	url = "https://leetcode.com/problems/three-equal-parts/",
-	difficulty = Difficulty.HARD
+		id = 927,
+		name = "Three Equal Parts",
+		url = "https://leetcode.com/problems/three-equal-parts/",
+		difficulty = Difficulty.HARD
 )
 public class ThreeEqualParts
 {

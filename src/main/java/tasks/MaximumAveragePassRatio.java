@@ -11,10 +11,10 @@ import java.util.PriorityQueue;
  * @created 3/14/2021
  */
 @LeetCode(
-	id = 1792,
-	name = "Maximum Average Pass Ratio",
-	url = "https://leetcode.com/problems/maximum-average-pass-ratio/",
-	difficulty = Difficulty.MEDIUM
+		id = 1792,
+		name = "Maximum Average Pass Ratio",
+		url = "https://leetcode.com/problems/maximum-average-pass-ratio/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumAveragePassRatio
 {
@@ -60,20 +60,20 @@ public class MaximumAveragePassRatio
 	{
 		MaximumAveragePassRatio clazz = new MaximumAveragePassRatio();
 		System.out.println(clazz.maxAverageRatio(new int[][]
-			{
-				{2, 4},
-				{3, 9},
-				{4, 5},
-				{2, 10}
-			}, 4
+				{
+						{2, 4},
+						{3, 9},
+						{4, 5},
+						{2, 10}
+				}, 4
 		));
 
 		System.out.println(clazz.maxAverageRatio(new int[][]
-			{
-				{1, 2},
-				{3, 5},
-				{2, 2}
-			}, 2
+				{
+						{1, 2},
+						{3, 5},
+						{2, 2}
+				}, 2
 		));
 	}
 }

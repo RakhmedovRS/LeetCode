@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 1/13/2021
  */
 @LeetCode(
-	id = 1373,
-	name = "Maximum Sum BST in Binary Tree",
-	url = "https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/",
-	difficulty = Difficulty.HARD
+		id = 1373,
+		name = "Maximum Sum BST in Binary Tree",
+		url = "https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/",
+		difficulty = Difficulty.HARD
 )
 public class MaximumSumBSTInBinaryTree
 {

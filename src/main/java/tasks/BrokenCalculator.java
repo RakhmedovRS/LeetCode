@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 15-Sep-20
  */
 @LeetCode(
-	id = 991,
-	name = "Broken Calculator",
-	url = "https://leetcode.com/problems/broken-calculator/",
-	difficulty = Difficulty.MEDIUM
+		id = 991,
+		name = "Broken Calculator",
+		url = "https://leetcode.com/problems/broken-calculator/",
+		difficulty = Difficulty.MEDIUM
 )
 public class BrokenCalculator
 {

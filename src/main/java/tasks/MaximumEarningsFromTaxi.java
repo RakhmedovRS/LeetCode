@@ -10,10 +10,10 @@ import java.util.*;
  * @created 9/18/2021
  */
 @LeetCode(
-	id = 2008,
-	name = "Maximum Earnings From Taxi",
-	url = "https://leetcode.com/problems/maximum-earnings-from-taxi/",
-	difficulty = Difficulty.MEDIUM
+		id = 2008,
+		name = "Maximum Earnings From Taxi",
+		url = "https://leetcode.com/problems/maximum-earnings-from-taxi/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumEarningsFromTaxi
 {

@@ -11,10 +11,10 @@ import java.util.Set;
  * @created 3/28/2021
  */
 @LeetCode(
-	id = 1805,
-	name = "Number of Different Integers in a String",
-	url = "https://leetcode.com/problems/number-of-different-integers-in-a-string/",
-	difficulty = Difficulty.EASY
+		id = 1805,
+		name = "Number of Different Integers in a String",
+		url = "https://leetcode.com/problems/number-of-different-integers-in-a-string/",
+		difficulty = Difficulty.EASY
 )
 public class NumberOfDifferentIntegersInString
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/23/2022
  */
 @LeetCode(
-	id = 2140,
-	name = "Solving Questions With Brainpower",
-	url = "https://leetcode.com/problems/solving-questions-with-brainpower/",
-	difficulty = Difficulty.MEDIUM
+		id = 2140,
+		name = "Solving Questions With Brainpower",
+		url = "https://leetcode.com/problems/solving-questions-with-brainpower/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SolvingQuestionsWithBrainpower
 {

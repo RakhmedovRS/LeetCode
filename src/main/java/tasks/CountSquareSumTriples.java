@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 7/10/2021
  */
 @LeetCode(
-	id = 1925,
-	name = "Count Square Sum Triples",
-	url = "https://leetcode.com/problems/count-square-sum-triples/",
-	difficulty = Difficulty.EASY
+		id = 1925,
+		name = "Count Square Sum Triples",
+		url = "https://leetcode.com/problems/count-square-sum-triples/",
+		difficulty = Difficulty.EASY
 )
 public class CountSquareSumTriples
 {
@@ -22,7 +22,7 @@ public class CountSquareSumTriples
 		{
 			for (int b = 1; b <= n; b++)
 			{
-				int c = (int)Math.sqrt(a * a + b * b);
+				int c = (int) Math.sqrt(a * a + b * b);
 				if (a * a + b * b == c * c && c <= n)
 				{
 					count++;

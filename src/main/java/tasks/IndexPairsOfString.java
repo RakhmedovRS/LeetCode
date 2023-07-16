@@ -11,11 +11,11 @@ import java.util.List;
  * @created 12/4/2020
  */
 @LeetCode(
-	id = 1065,
-	name = "Index Pairs of a String",
-	url = "https://leetcode.com/problems/index-pairs-of-a-string/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1065,
+		name = "Index Pairs of a String",
+		url = "https://leetcode.com/problems/index-pairs-of-a-string/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class IndexPairsOfString
 {

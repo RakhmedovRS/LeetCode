@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 11/21/2020
  */
 @LeetCode(
-	id = 1368,
-	name = "Minimum Cost to Make at Least One Valid Path in a Grid",
-	url = "https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/",
-	difficulty = Difficulty.HARD
+		id = 1368,
+		name = "Minimum Cost to Make at Least One Valid Path in a Grid",
+		url = "https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/",
+		difficulty = Difficulty.HARD
 )
 public class MinimumCostToMakeAtLeastOneValidPathInGrid
 {

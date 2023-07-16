@@ -11,10 +11,10 @@ import java.util.LinkedList;
  * @created 12/5/2021
  */
 @LeetCode(
-	id = 2095,
-	name = "Delete the Middle Node of a Linked List",
-	url = "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/",
-	difficulty = Difficulty.MEDIUM
+		id = 2095,
+		name = "Delete the Middle Node of a Linked List",
+		url = "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DeleteTheMiddleNodeOfLinkedList
 {

@@ -11,10 +11,10 @@ import java.util.*;
  * @created 26-Mar-20
  */
 @LeetCode(
-	id = 133,
-	name = "Clone Graph",
-	url = "https://leetcode.com/problems/clone-graph/",
-	difficulty = Difficulty.MEDIUM
+		id = 133,
+		name = "Clone Graph",
+		url = "https://leetcode.com/problems/clone-graph/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CloneGraph
 {

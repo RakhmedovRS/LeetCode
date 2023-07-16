@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/20/2022
  */
 @LeetCode(
-	id = 2222,
-	name = "Number of Ways to Select Buildings",
-	url = "https://leetcode.com/problems/number-of-ways-to-select-buildings/",
-	difficulty = Difficulty.MEDIUM
+		id = 2222,
+		name = "Number of Ways to Select Buildings",
+		url = "https://leetcode.com/problems/number-of-ways-to-select-buildings/",
+		difficulty = Difficulty.MEDIUM
 )
 public class NumberOfWaysToSelectBuildings
 {

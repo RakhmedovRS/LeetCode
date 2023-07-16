@@ -10,10 +10,10 @@ import java.util.*;
  * @created 2/14/2021
  */
 @LeetCode(
-	id = 785,
-	name = "Is Graph Bipartite?",
-	url = "https://leetcode.com/problems/is-graph-bipartite/",
-	difficulty = Difficulty.MEDIUM
+		id = 785,
+		name = "Is Graph Bipartite?",
+		url = "https://leetcode.com/problems/is-graph-bipartite/",
+		difficulty = Difficulty.MEDIUM
 )
 public class IsGraphBipartite
 {
@@ -56,19 +56,19 @@ public class IsGraphBipartite
 		IsGraphBipartite clazz = new IsGraphBipartite();
 
 		System.out.println(clazz.isBipartite(new int[][]
-			{
-				{1},
-				{0, 3},
-				{3},
-				{1, 2}
-			}));
+				{
+						{1},
+						{0, 3},
+						{3},
+						{1, 2}
+				}));
 
 		System.out.println(clazz.isBipartite(new int[][]
-			{
-				{1, 3},
-				{0, 2},
-				{1, 3},
-				{0, 2}
-			}));
+				{
+						{1, 3},
+						{0, 2},
+						{1, 3},
+						{0, 2}
+				}));
 	}
 }

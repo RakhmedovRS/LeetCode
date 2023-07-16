@@ -10,11 +10,11 @@ import java.util.*;
  * @created 12/4/2020
  */
 @LeetCode(
-	id = 1086,
-	name = "High Five",
-	url = "https://leetcode.com/problems/high-five/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1086,
+		name = "High Five",
+		url = "https://leetcode.com/problems/high-five/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class HighFive
 {

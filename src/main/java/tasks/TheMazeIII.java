@@ -10,11 +10,11 @@ import java.util.Map;
  * @created 1/12/2021
  */
 @LeetCode(
-	id = 499,
-	name = "The Maze III",
-	url = "https://leetcode.com/problems/the-maze-iii/",
-	difficulty = Difficulty.HARD,
-	premium = true
+		id = 499,
+		name = "The Maze III",
+		url = "https://leetcode.com/problems/the-maze-iii/",
+		difficulty = Difficulty.HARD,
+		premium = true
 )
 public class TheMazeIII
 {
@@ -35,9 +35,9 @@ public class TheMazeIII
 	}
 
 	private void dfs(int row, int column, int rows, int columns,
-	                 int[][] maze, Map.Entry<Integer, String>[][][] memo,
-	                 int targetRow, int targetColumn, String way, int steps,
-	                 Map.Entry<Integer, String>[] min)
+					 int[][] maze, Map.Entry<Integer, String>[][][] memo,
+					 int targetRow, int targetColumn, String way, int steps,
+					 Map.Entry<Integer, String>[] min)
 	{
 		String left;
 		String right;
@@ -49,8 +49,8 @@ public class TheMazeIII
 
 		//left
 		if (memo[row][column][0] == null
-			|| memo[row][column][0].getKey() > steps
-			|| (memo[row][column][0].getKey() == steps && memo[row][column][0].getValue().compareTo(way) > 0))
+				|| memo[row][column][0].getKey() > steps
+				|| (memo[row][column][0].getKey() == steps && memo[row][column][0].getValue().compareTo(way) > 0))
 		{
 			found = false;
 			additionalSteps = 0;
@@ -77,8 +77,8 @@ public class TheMazeIII
 
 		//right
 		if (memo[row][column][1] == null
-			|| memo[row][column][1].getKey() > steps
-			|| (memo[row][column][1].getKey() == steps && memo[row][column][1].getValue().compareTo(way) > 0))
+				|| memo[row][column][1].getKey() > steps
+				|| (memo[row][column][1].getKey() == steps && memo[row][column][1].getValue().compareTo(way) > 0))
 		{
 			found = false;
 			additionalSteps = 0;
@@ -105,8 +105,8 @@ public class TheMazeIII
 
 		//up
 		if (memo[row][column][2] == null
-			|| memo[row][column][2].getKey() > steps
-			|| (memo[row][column][2].getKey() == steps && memo[row][column][2].getValue().compareTo(way) > 0))
+				|| memo[row][column][2].getKey() > steps
+				|| (memo[row][column][2].getKey() == steps && memo[row][column][2].getValue().compareTo(way) > 0))
 		{
 			found = false;
 			additionalSteps = 0;
@@ -133,8 +133,8 @@ public class TheMazeIII
 
 		//down
 		if (memo[row][column][3] == null
-			|| memo[row][column][3].getKey() > steps
-			|| (memo[row][column][3].getKey() == steps && memo[row][column][3].getValue().compareTo(way) > 0))
+				|| memo[row][column][3].getKey() > steps
+				|| (memo[row][column][3].getKey() == steps && memo[row][column][3].getValue().compareTo(way) > 0))
 		{
 			found = false;
 			additionalSteps = 0;

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 3/17/2021
  */
 @LeetCode(
-	id = 478,
-	name = "Generate Random Point in a Circle",
-	url = "https://leetcode.com/problems/generate-random-point-in-a-circle/",
-	difficulty = Difficulty.MEDIUM
+		id = 478,
+		name = "Generate Random Point in a Circle",
+		url = "https://leetcode.com/problems/generate-random-point-in-a-circle/",
+		difficulty = Difficulty.MEDIUM
 )
 public class GenerateRandomPointInCircle
 {
@@ -20,6 +20,7 @@ public class GenerateRandomPointInCircle
 		double radius;
 		double x_center;
 		double y_center;
+
 		public Solution(double radius, double x_center, double y_center)
 		{
 			this.radius = radius;

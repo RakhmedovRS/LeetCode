@@ -12,10 +12,10 @@ import java.util.Map;
  * @created 06-May-20
  */
 @LeetCode(
-	id = 1339,
-	name = "Maximum Product of Splitted Binary Tree",
-	url = "https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/",
-	difficulty = Difficulty.MEDIUM
+		id = 1339,
+		name = "Maximum Product of Splitted Binary Tree",
+		url = "https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumProductOfSplittedBinaryTree
 {

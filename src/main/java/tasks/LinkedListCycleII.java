@@ -9,10 +9,10 @@ import common.ListNode;
  * @created 10/27/2020
  */
 @LeetCode(
-	id = 142,
-	name = "Linked List Cycle II",
-	url = "https://leetcode.com/problems/linked-list-cycle-ii/",
-	difficulty = Difficulty.MEDIUM
+		id = 142,
+		name = "Linked List Cycle II",
+		url = "https://leetcode.com/problems/linked-list-cycle-ii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LinkedListCycleII
 {

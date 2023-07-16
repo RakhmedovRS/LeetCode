@@ -10,10 +10,10 @@ import java.util.*;
  * @created 10/6/2020
  */
 @LeetCode(
-	id = 895,
-	name = "Maximum Frequency Stack",
-	url = "https://leetcode.com/problems/maximum-frequency-stack/",
-	difficulty = Difficulty.HARD
+		id = 895,
+		name = "Maximum Frequency Stack",
+		url = "https://leetcode.com/problems/maximum-frequency-stack/",
+		difficulty = Difficulty.HARD
 )
 public class MaximumFrequencyStack
 {

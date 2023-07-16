@@ -11,10 +11,10 @@ import java.util.List;
  * @created 1/18/2022
  */
 @LeetCode(
-	id = 2138,
-	name = "Divide a String Into Groups of Size k",
-	url = "https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/",
-	difficulty = Difficulty.EASY
+		id = 2138,
+		name = "Divide a String Into Groups of Size k",
+		url = "https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/",
+		difficulty = Difficulty.EASY
 )
 public class DivideStringIntoGroupsOfSizeK
 {

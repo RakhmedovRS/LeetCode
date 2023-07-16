@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/10/2020
  */
 @LeetCode(
-	id = 490,
-	name = "The Maze",
-	url = "https://leetcode.com/problems/the-maze/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 490,
+		name = "The Maze",
+		url = "https://leetcode.com/problems/the-maze/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class TheMaze
 {
@@ -46,8 +46,8 @@ public class TheMaze
 			int xStep = directions[i][0];
 			int yStep = directions[i][1];
 			while (x + xStep >= 0 && x + xStep < maze.length
-				&& y + yStep >= 0 && y + yStep < maze[x].length
-				&& maze[x + xStep][y + yStep] == 0)
+					&& y + yStep >= 0 && y + yStep < maze[x].length
+					&& maze[x + xStep][y + yStep] == 0)
 			{
 				x += xStep;
 				y += yStep;

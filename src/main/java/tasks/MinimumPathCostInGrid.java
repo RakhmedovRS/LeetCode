@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 6/18/2022
  */
 @LeetCode(
-	id = 2304,
-	name = "Minimum Path Cost in a Grid",
-	url = "https://leetcode.com/problems/minimum-path-cost-in-a-grid/",
-	difficulty = Difficulty.MEDIUM
+		id = 2304,
+		name = "Minimum Path Cost in a Grid",
+		url = "https://leetcode.com/problems/minimum-path-cost-in-a-grid/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumPathCostInGrid
 {

@@ -10,10 +10,10 @@ import java.util.*;
  * @created 9/30/2021
  */
 @LeetCode(
-	id = 1971,
-	name = "Find if Path Exists in Graph",
-	url = "https://leetcode.com/problems/find-if-path-exists-in-graph/",
-	difficulty = Difficulty.EASY
+		id = 1971,
+		name = "Find if Path Exists in Graph",
+		url = "https://leetcode.com/problems/find-if-path-exists-in-graph/",
+		difficulty = Difficulty.EASY
 )
 public class FindIfPathExistsInGraph
 {

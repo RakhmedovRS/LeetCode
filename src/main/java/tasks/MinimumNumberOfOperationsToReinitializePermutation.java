@@ -11,10 +11,10 @@ import java.util.Set;
  * @created 3/28/2021
  */
 @LeetCode(
-	id = 1806,
-	name = "Minimum Number of Operations to Reinitialize a Permutation",
-	url = "https://leetcode.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation/",
-	difficulty = Difficulty.MEDIUM
+		id = 1806,
+		name = "Minimum Number of Operations to Reinitialize a Permutation",
+		url = "https://leetcode.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumNumberOfOperationsToReinitializePermutation
 {

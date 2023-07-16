@@ -10,11 +10,11 @@ import java.util.Arrays;
  * @created 3/5/2021
  */
 @LeetCode(
-	id = 259,
-	name = "3Sum Smaller",
-	url = "https://leetcode.com/problems/3sum-smaller/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 259,
+		name = "3Sum Smaller",
+		url = "https://leetcode.com/problems/3sum-smaller/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class ThreeSumSmaller
 {

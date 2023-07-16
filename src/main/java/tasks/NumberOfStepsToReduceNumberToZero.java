@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 09-Feb-20
  */
 @LeetCode(
-	id = 1342,
-	name = "Number of Steps to Reduce a Number to Zero",
-	url = "https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/",
-	difficulty = Difficulty.EASY
+		id = 1342,
+		name = "Number of Steps to Reduce a Number to Zero",
+		url = "https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/",
+		difficulty = Difficulty.EASY
 )
 public class NumberOfStepsToReduceNumberToZero
 {

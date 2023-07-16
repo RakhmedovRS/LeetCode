@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 11/28/2020
  */
 @LeetCode(
-	id = 910,
-	name = "Smallest Range II",
-	url = "https://leetcode.com/problems/smallest-range-ii/",
-	difficulty = Difficulty.MEDIUM
+		id = 910,
+		name = "Smallest Range II",
+		url = "https://leetcode.com/problems/smallest-range-ii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SmallestRangeII
 {

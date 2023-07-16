@@ -11,10 +11,10 @@ import java.util.LinkedList;
  * @created 17-Feb-20
  */
 @LeetCode(
-	id = 1161,
-	name = "Maximum Level Sum of a Binary Tree",
-	url = "https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/",
-	difficulty = Difficulty.MEDIUM
+		id = 1161,
+		name = "Maximum Level Sum of a Binary Tree",
+		url = "https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumLevelSumBinaryTree
 {

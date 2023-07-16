@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/11/2020
  */
 @LeetCode(
-	id = 80,
-	name = "Remove Duplicates from Sorted Array II",
-	url = "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/",
-	difficulty = Difficulty.MEDIUM
+		id = 80,
+		name = "Remove Duplicates from Sorted Array II",
+		url = "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RemoveDuplicatesFromSortedArrayII
 {

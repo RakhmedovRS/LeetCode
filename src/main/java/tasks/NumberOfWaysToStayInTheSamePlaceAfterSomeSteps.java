@@ -41,6 +41,6 @@ public class NumberOfWaysToStayInTheSamePlaceAfterSomeSteps
 	{
 		System.out.println(new NumberOfWaysToStayInTheSamePlaceAfterSomeSteps().numWays(3, 2));
 		System.out.println(new NumberOfWaysToStayInTheSamePlaceAfterSomeSteps().numWays(430, 148488));
-		System.out.println(new NumberOfWaysToStayInTheSamePlaceAfterSomeSteps().numWays(27,7));
+		System.out.println(new NumberOfWaysToStayInTheSamePlaceAfterSomeSteps().numWays(27, 7));
 	}
 }

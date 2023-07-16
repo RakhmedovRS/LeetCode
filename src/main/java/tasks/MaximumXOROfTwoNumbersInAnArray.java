@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 20-Jul-20
  */
 @LeetCode(
-	id = 421,
-	name = "Maximum XOR of Two Numbers in an Array",
-	url = "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 421,
+		name = "Maximum XOR of Two Numbers in an Array",
+		url = "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumXOROfTwoNumbersInAnArray
 {

@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 1/5/2021
  */
 @LeetCode(
-	id = 944,
-	name = "Delete Columns to Make Sorted",
-	url = "https://leetcode.com/problems/delete-columns-to-make-sorted/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 944,
+		name = "Delete Columns to Make Sorted",
+		url = "https://leetcode.com/problems/delete-columns-to-make-sorted/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class DeleteColumnsToMakeSorted
 {

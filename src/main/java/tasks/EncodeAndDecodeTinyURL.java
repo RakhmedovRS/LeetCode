@@ -12,10 +12,10 @@ import java.util.Random;
  * @created 03-Jun-20
  */
 @LeetCode(
-	id = 535,
-	name = "Encode and Decode TinyURL",
-	url = "https://leetcode.com/problems/encode-and-decode-tinyurl/",
-	difficulty = Difficulty.MEDIUM
+		id = 535,
+		name = "Encode and Decode TinyURL",
+		url = "https://leetcode.com/problems/encode-and-decode-tinyurl/",
+		difficulty = Difficulty.MEDIUM
 )
 public class EncodeAndDecodeTinyURL
 {

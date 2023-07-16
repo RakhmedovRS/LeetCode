@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 1/15/2021
  */
 @LeetCode(
-	id = 702,
-	name = "Search in a Sorted Array of Unknown Size",
-	url = "https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 702,
+		name = "Search in a Sorted Array of Unknown Size",
+		url = "https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class SearchInSortedArrayOfUnknownSize
 {

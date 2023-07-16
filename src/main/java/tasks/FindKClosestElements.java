@@ -11,10 +11,10 @@ import java.util.List;
  * @created 5/19/2021
  */
 @LeetCode(
-	id = 658,
-	name = "Find K Closest Elements",
-	url = "https://leetcode.com/problems/find-k-closest-elements/",
-	difficulty = Difficulty.MEDIUM
+		id = 658,
+		name = "Find K Closest Elements",
+		url = "https://leetcode.com/problems/find-k-closest-elements/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindKClosestElements
 {

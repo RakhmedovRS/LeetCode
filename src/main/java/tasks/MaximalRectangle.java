@@ -11,10 +11,10 @@ import java.util.LinkedList;
  * @created 26-Feb-20
  */
 @LeetCode(
-	id = 85,
-	name = "Maximal Rectangle",
-	url = "https://leetcode.com/problems/maximal-rectangle/",
-	difficulty = Difficulty.HARD
+		id = 85,
+		name = "Maximal Rectangle",
+		url = "https://leetcode.com/problems/maximal-rectangle/",
+		difficulty = Difficulty.HARD
 )
 public class MaximalRectangle
 {

@@ -10,10 +10,10 @@ import java.util.*;
  * @created 10/16/2021
  */
 @LeetCode(
-	id = 2039,
-	name = "The Time When the Network Becomes Idle",
-	url = "https://leetcode.com/problems/the-time-when-the-network-becomes-idle/",
-	difficulty = Difficulty.MEDIUM
+		id = 2039,
+		name = "The Time When the Network Becomes Idle",
+		url = "https://leetcode.com/problems/the-time-when-the-network-becomes-idle/",
+		difficulty = Difficulty.MEDIUM
 )
 public class TheTimeWhenTheNetworkBecomesIdle
 {

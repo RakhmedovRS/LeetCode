@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 3/5/2022
  */
 @LeetCode(
-	id = 2190,
-	name = "Most Frequent Number Following Key In an Array",
-	url = "https://leetcode.com/contest/biweekly-contest-73/problems/most-frequent-number-following-key-in-an-array/",
-	difficulty = Difficulty.EASY
+		id = 2190,
+		name = "Most Frequent Number Following Key In an Array",
+		url = "https://leetcode.com/contest/biweekly-contest-73/problems/most-frequent-number-following-key-in-an-array/",
+		difficulty = Difficulty.EASY
 )
 public class MostFrequentNumberFollowingKeyInArray
 {
@@ -20,9 +20,9 @@ public class MostFrequentNumberFollowingKeyInArray
 		int[] memo = new int[1001];
 		for (int i = 0; i < nums.length; i++)
 		{
-			if(nums[i] == key && i+ 1 < nums.length)
+			if (nums[i] == key && i + 1 < nums.length)
 			{
-				memo[nums[i+1]]++;
+				memo[nums[i + 1]]++;
 			}
 		}
 

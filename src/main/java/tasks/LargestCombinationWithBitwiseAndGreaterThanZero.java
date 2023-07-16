@@ -12,10 +12,10 @@ import java.util.List;
  * @created 5/15/2022
  */
 @LeetCode(
-	id = 2275,
-	name = "Largest Combination With Bitwise AND Greater Than Zero",
-	url = "https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/",
-	difficulty = Difficulty.MEDIUM
+		id = 2275,
+		name = "Largest Combination With Bitwise AND Greater Than Zero",
+		url = "https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LargestCombinationWithBitwiseAndGreaterThanZero
 {

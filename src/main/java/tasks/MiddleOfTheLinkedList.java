@@ -10,7 +10,7 @@ import common.ListNode;
 @LeetCode(id = 876, name = "Middle of the Linked List", url = "https://leetcode.com/problems/middle-of-the-linked-list/")
 public class MiddleOfTheLinkedList
 {
-public ListNode middleNode(ListNode head)
+	public ListNode middleNode(ListNode head)
 	{
 		if (head == null || head.next == null)
 		{

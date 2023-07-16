@@ -11,16 +11,17 @@ import java.util.Map;
  * @created 1/4/2021
  */
 @LeetCode(
-	id = 1570,
-	name = "Dot Product of Two Sparse Vectors",
-	url = "https://leetcode.com/problems/dot-product-of-two-sparse-vectors/",
-	difficulty = Difficulty.MEDIUM
+		id = 1570,
+		name = "Dot Product of Two Sparse Vectors",
+		url = "https://leetcode.com/problems/dot-product-of-two-sparse-vectors/",
+		difficulty = Difficulty.MEDIUM
 )
 public class DotProductOfTwoSparseVectors
 {
 	class SparseVector
 	{
 		Map<Integer, Integer> positions;
+
 		SparseVector(int[] nums)
 		{
 			positions = new HashMap<>();

@@ -32,7 +32,7 @@ public class CheapestFlightsWithinKStops
 	}
 
 	private void traverse(Map<Integer, List<int[]>> graph, int[] minCost,
-	                      int currentCost, int dst, int K, int next)
+						  int currentCost, int dst, int K, int next)
 	{
 		if (next == dst)
 		{

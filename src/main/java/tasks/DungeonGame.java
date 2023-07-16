@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 21-Jun-20
  */
 @LeetCode(
-	id = 174,
-	name = "Dungeon Game",
-	url = "https://leetcode.com/problems/dungeon-game/",
-	difficulty = Difficulty.HARD
+		id = 174,
+		name = "Dungeon Game",
+		url = "https://leetcode.com/problems/dungeon-game/",
+		difficulty = Difficulty.HARD
 )
 public class DungeonGame
 {

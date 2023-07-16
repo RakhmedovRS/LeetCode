@@ -13,10 +13,10 @@ import java.util.Map;
  * @created 11/15/2020
  */
 @LeetCode(
-	id = 1656,
-	name = "Design an Ordered Stream",
-	url = "https://leetcode.com/problems/design-an-ordered-stream/",
-	difficulty = Difficulty.EASY
+		id = 1656,
+		name = "Design an Ordered Stream",
+		url = "https://leetcode.com/problems/design-an-ordered-stream/",
+		difficulty = Difficulty.EASY
 )
 public class DesignAnOrderedStream
 {

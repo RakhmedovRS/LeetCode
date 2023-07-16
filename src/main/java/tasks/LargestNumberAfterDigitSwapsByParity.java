@@ -11,10 +11,10 @@ import java.util.PriorityQueue;
  * @created 4/10/2022
  */
 @LeetCode(
-	id = 2231,
-	name = "Largest Number After Digit Swaps by Parity",
-	url = "https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/",
-	difficulty = Difficulty.EASY
+		id = 2231,
+		name = "Largest Number After Digit Swaps by Parity",
+		url = "https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/",
+		difficulty = Difficulty.EASY
 )
 public class LargestNumberAfterDigitSwapsByParity
 {

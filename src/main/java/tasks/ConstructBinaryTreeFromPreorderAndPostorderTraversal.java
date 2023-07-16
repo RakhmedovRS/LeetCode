@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 9/26/2020
  */
 @LeetCode(
-	id = 889,
-	name = "Construct Binary Tree from Preorder and Postorder Traversal",
-	url = "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/",
-	difficulty = Difficulty.MEDIUM
+		id = 889,
+		name = "Construct Binary Tree from Preorder and Postorder Traversal",
+		url = "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ConstructBinaryTreeFromPreorderAndPostorderTraversal
 {
@@ -40,7 +40,7 @@ public class ConstructBinaryTreeFromPreorderAndPostorderTraversal
 	public static void main(String[] args)
 	{
 		TreeNode root = new ConstructBinaryTreeFromPreorderAndPostorderTraversal().constructFromPrePost(new int[]{1, 2, 4, 5, 3, 6, 7},
-			new int[]{4, 5, 2, 6, 7, 3, 1});
+				new int[]{4, 5, 2, 6, 7, 3, 1});
 
 		new PrintBinaryTree().printTree(root).forEach(System.out::println);
 	}

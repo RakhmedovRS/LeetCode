@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 29-Jul-20
  */
 @LeetCode(
-	id = 452,
-	name = "Minimum Number of Arrows to Burst Balloons",
-	url = "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/",
-	difficulty = Difficulty.MEDIUM
+		id = 452,
+		name = "Minimum Number of Arrows to Burst Balloons",
+		url = "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimumNumberOfArrowsToBurstBalloons
 {
@@ -55,29 +55,29 @@ public class MinimumNumberOfArrowsToBurstBalloons
 	public static void main(String[] args)
 	{
 		System.out.println(new MinimumNumberOfArrowsToBurstBalloons().findMinArrowShots(new int[][]{
-			{Integer.MIN_VALUE,Integer.MIN_VALUE},
-			{Integer.MAX_VALUE,Integer.MAX_VALUE},
+				{Integer.MIN_VALUE, Integer.MIN_VALUE},
+				{Integer.MAX_VALUE, Integer.MAX_VALUE},
 		}));
 
 		System.out.println(new MinimumNumberOfArrowsToBurstBalloons().findMinArrowShots(new int[][]{
-			{1,2},
-			{2,3},
-			{3,4},
-			{4,5}
+				{1, 2},
+				{2, 3},
+				{3, 4},
+				{4, 5}
 		}));
 
 		System.out.println(new MinimumNumberOfArrowsToBurstBalloons().findMinArrowShots(new int[][]{
-			{1,2},
-			{3,4},
-			{5,6},
-			{7,8}
+				{1, 2},
+				{3, 4},
+				{5, 6},
+				{7, 8}
 		}));
 
 		System.out.println(new MinimumNumberOfArrowsToBurstBalloons().findMinArrowShots(new int[][]{
-			{10,16},
-			{2,8},
-			{1,6},
-			{7,12}
+				{10, 16},
+				{2, 8},
+				{1, 6},
+				{7, 12}
 		}));
 	}
 }

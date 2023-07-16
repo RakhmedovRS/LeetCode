@@ -9,11 +9,11 @@ import common.ListNode;
  * @created 12/15/2020
  */
 @LeetCode(
-	id = 369,
-	name = "Plus One Linked List",
-	url = "https://leetcode.com/problems/plus-one-linked-list/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 369,
+		name = "Plus One Linked List",
+		url = "https://leetcode.com/problems/plus-one-linked-list/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class PlusOneLinkedList
 {

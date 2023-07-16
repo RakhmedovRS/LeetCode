@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/28/2021
  */
 @LeetCode(
-	id = 2091,
-	name = "Removing Minimum and Maximum From Array",
-	url = "https://leetcode.com/problems/removing-minimum-and-maximum-from-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 2091,
+		name = "Removing Minimum and Maximum From Array",
+		url = "https://leetcode.com/problems/removing-minimum-and-maximum-from-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RemovingMinimumAndMaximumFromArray
 {

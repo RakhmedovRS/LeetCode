@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 8/22/2021
  */
 @LeetCode(
-	id = 1981,
-	name = "Minimize the Difference Between Target and Chosen Elements",
-	url = "https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/",
-	difficulty = Difficulty.MEDIUM
+		id = 1981,
+		name = "Minimize the Difference Between Target and Chosen Elements",
+		url = "https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MinimizeTheDifferenceBetweenTargetAndChosenElements
 {

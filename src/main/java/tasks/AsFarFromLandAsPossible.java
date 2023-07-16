@@ -11,10 +11,10 @@ import java.util.Queue;
  * @created 24-Jul-20
  */
 @LeetCode(
-	id = 1162,
-	name = "As Far from Land as Possible",
-	url = "https://leetcode.com/problems/as-far-from-land-as-possible/",
-	difficulty = Difficulty.MEDIUM
+		id = 1162,
+		name = "As Far from Land as Possible",
+		url = "https://leetcode.com/problems/as-far-from-land-as-possible/",
+		difficulty = Difficulty.MEDIUM
 )
 public class AsFarFromLandAsPossible
 {
@@ -60,10 +60,10 @@ public class AsFarFromLandAsPossible
 					nextRow = row + direction[0];
 					nextColumn = column + direction[1];
 					if (nextRow < 0
-						|| nextRow == rows
-						|| nextColumn < 0
-						|| nextColumn == columns
-						|| grid[nextRow][nextColumn] == 1)
+							|| nextRow == rows
+							|| nextColumn < 0
+							|| nextColumn == columns
+							|| grid[nextRow][nextColumn] == 1)
 					{
 						continue;
 					}
@@ -100,31 +100,31 @@ public class AsFarFromLandAsPossible
 	public static void main(String[] args)
 	{
 		System.out.println(new AsFarFromLandAsPossible().maxDistance(new int[][]
-			{
-				{1, 0, 0, 0, 0, 1, 0, 0, 0, 1},
-				{1, 1, 0, 1, 1, 1, 0, 1, 1, 0},
-				{0, 1, 1, 0, 1, 0, 0, 1, 0, 0},
-				{1, 0, 1, 0, 1, 0, 0, 0, 0, 0},
-				{0, 1, 0, 0, 0, 1, 1, 0, 1, 1},
-				{0, 0, 1, 0, 0, 1, 0, 1, 0, 1},
-				{0, 0, 0, 1, 1, 1, 1, 0, 0, 1},
-				{0, 1, 0, 0, 1, 0, 0, 1, 0, 0},
-				{0, 0, 0, 0, 0, 1, 1, 1, 0, 0},
-				{1, 1, 0, 1, 1, 1, 1, 1, 0, 0},
-			}));
+				{
+						{1, 0, 0, 0, 0, 1, 0, 0, 0, 1},
+						{1, 1, 0, 1, 1, 1, 0, 1, 1, 0},
+						{0, 1, 1, 0, 1, 0, 0, 1, 0, 0},
+						{1, 0, 1, 0, 1, 0, 0, 0, 0, 0},
+						{0, 1, 0, 0, 0, 1, 1, 0, 1, 1},
+						{0, 0, 1, 0, 0, 1, 0, 1, 0, 1},
+						{0, 0, 0, 1, 1, 1, 1, 0, 0, 1},
+						{0, 1, 0, 0, 1, 0, 0, 1, 0, 0},
+						{0, 0, 0, 0, 0, 1, 1, 1, 0, 0},
+						{1, 1, 0, 1, 1, 1, 1, 1, 0, 0},
+				}));
 
 		System.out.println(new AsFarFromLandAsPossible().maxDistance(new int[][]
-			{
-				{1, 0, 0},
-				{0, 0, 0},
-				{0, 0, 0}
-			}));
+				{
+						{1, 0, 0},
+						{0, 0, 0},
+						{0, 0, 0}
+				}));
 
 		System.out.println(new AsFarFromLandAsPossible().maxDistance(new int[][]
-			{
-				{1, 0, 1},
-				{0, 0, 0},
-				{1, 0, 1}
-			}));
+				{
+						{1, 0, 1},
+						{0, 0, 0},
+						{1, 0, 1}
+				}));
 	}
 }

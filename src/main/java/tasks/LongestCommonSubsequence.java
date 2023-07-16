@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 16-Feb-20
  */
 @LeetCode(
-	id = 1143,
-	name = "Longest Common Subsequence",
-	url = "https://leetcode.com/problems/longest-common-subsequence/",
-	difficulty = Difficulty.MEDIUM
+		id = 1143,
+		name = "Longest Common Subsequence",
+		url = "https://leetcode.com/problems/longest-common-subsequence/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LongestCommonSubsequence
 {
@@ -38,14 +38,14 @@ public class LongestCommonSubsequence
 		if (chars1[pos1] == chars2[pos2])
 		{
 			memo[pos1][pos2] = Math.max(1 + dfs(pos1 + 1, pos2 + 1, chars1, chars2, memo),
-				Math.max(dfs(pos1 + 1, pos2, chars1, chars2, memo),
-					dfs(pos1, pos2 + 1, chars1, chars2, memo)
-				));
+					Math.max(dfs(pos1 + 1, pos2, chars1, chars2, memo),
+							dfs(pos1, pos2 + 1, chars1, chars2, memo)
+					));
 		}
 		else
 		{
 			memo[pos1][pos2] = Math.max(dfs(pos1 + 1, pos2, chars1, chars2, memo),
-				dfs(pos1, pos2 + 1, chars1, chars2, memo)
+					dfs(pos1, pos2 + 1, chars1, chars2, memo)
 			);
 		}
 

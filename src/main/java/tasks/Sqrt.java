@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12-Apr-20
  */
 @LeetCode(
-	id = 69,
-	name = "Sqrt(x)",
-	url = "https://leetcode.com/problems/sqrtx/",
-	difficulty = Difficulty.EASY
+		id = 69,
+		name = "Sqrt(x)",
+		url = "https://leetcode.com/problems/sqrtx/",
+		difficulty = Difficulty.EASY
 )
 public class Sqrt
 {

@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/16/2020
  */
 @LeetCode(
-	id = 251,
-	name = "Flatten 2D Vector",
-	url = "https://leetcode.com/problems/flatten-2d-vector/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 251,
+		name = "Flatten 2D Vector",
+		url = "https://leetcode.com/problems/flatten-2d-vector/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class Flatten2DVector
 {

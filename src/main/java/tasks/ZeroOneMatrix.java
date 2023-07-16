@@ -12,10 +12,10 @@ import java.util.Queue;
  * @created 21-May-20
  */
 @LeetCode(
-	id = 542,
-	name = "01 Matrix",
-	url = "https://leetcode.com/problems/01-matrix/",
-	difficulty = Difficulty.MEDIUM
+		id = 542,
+		name = "01 Matrix",
+		url = "https://leetcode.com/problems/01-matrix/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ZeroOneMatrix
 {

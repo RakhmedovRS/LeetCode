@@ -46,7 +46,7 @@ public class GetTheMaximumScore
 		}
 
 		answer += Math.max(map1.get(nums1[nums1.length - 1]) - map1.get(prev),
-			map2.get(nums2[nums2.length - 1]) - map2.get(prev));
+				map2.get(nums2[nums2.length - 1]) - map2.get(prev));
 
 		return (int) (answer % mod);
 	}

@@ -12,6 +12,7 @@ public class KthAncestorOfTreeNode
 	class TreeAncestor
 	{
 		int[] parent;
+
 		public TreeAncestor(int n, int[] parent)
 		{
 			this.parent = parent;

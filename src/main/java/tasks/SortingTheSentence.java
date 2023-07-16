@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 5/15/2021
  */
 @LeetCode(
-	id = 1859,
-	name = "Sorting the Sentence",
-	url = "https://leetcode.com/problems/sorting-the-sentence/",
-	difficulty = Difficulty.EASY
+		id = 1859,
+		name = "Sorting the Sentence",
+		url = "https://leetcode.com/problems/sorting-the-sentence/",
+		difficulty = Difficulty.EASY
 )
 public class SortingTheSentence
 {

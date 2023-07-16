@@ -10,10 +10,10 @@ import java.util.*;
  * @created 1/7/2021
  */
 @LeetCode(
-	id = 721,
-	name = "Accounts Merge",
-	url = "https://leetcode.com/problems/accounts-merge/",
-	difficulty = Difficulty.MEDIUM
+		id = 721,
+		name = "Accounts Merge",
+		url = "https://leetcode.com/problems/accounts-merge/",
+		difficulty = Difficulty.MEDIUM
 )
 public class AccountsMerge
 {

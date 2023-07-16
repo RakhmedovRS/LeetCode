@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 12/6/2020
  */
 @LeetCode(
-	id = 1679,
-	name = "Max Number of K-Sum Pairs",
-	url = "https://leetcode.com/problems/max-number-of-k-sum-pairs/",
-	difficulty = Difficulty.MEDIUM
+		id = 1679,
+		name = "Max Number of K-Sum Pairs",
+		url = "https://leetcode.com/problems/max-number-of-k-sum-pairs/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaxNumberOfKSumPairs
 {

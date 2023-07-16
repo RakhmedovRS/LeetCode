@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/6/2020
  */
 @LeetCode(
-	id = 1680,
-	name = "Concatenation of Consecutive Binary Numbers",
-	url = "https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/",
-	difficulty = Difficulty.MEDIUM
+		id = 1680,
+		name = "Concatenation of Consecutive Binary Numbers",
+		url = "https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ConcatenationOfConsecutiveBinaryNumbers
 {
@@ -21,7 +21,7 @@ public class ConcatenationOfConsecutiveBinaryNumbers
 		int result = 0;
 		for (int i = 1; i <= n; i++)
 		{
-			for(char bit : Integer.toBinaryString(i).toCharArray())
+			for (char bit : Integer.toBinaryString(i).toCharArray())
 			{
 				result = (result * 2 + (bit - '0')) % mod;
 			}

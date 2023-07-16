@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/11/2020
  */
 @LeetCode(
-	id = 1119,
-	name = "Remove Vowels from a String",
-	url = "https://leetcode.com/problems/remove-vowels-from-a-string/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1119,
+		name = "Remove Vowels from a String",
+		url = "https://leetcode.com/problems/remove-vowels-from-a-string/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class RemoveVowelsFromString
 {

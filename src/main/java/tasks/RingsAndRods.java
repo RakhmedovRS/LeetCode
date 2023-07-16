@@ -13,10 +13,10 @@ import java.util.Set;
  * @created 12/12/2021
  */
 @LeetCode(
-	id = 2103,
-	name = "Rings and Rods",
-	url = "https://leetcode.com/problems/rings-and-rods/",
-	difficulty = Difficulty.EASY
+		id = 2103,
+		name = "Rings and Rods",
+		url = "https://leetcode.com/problems/rings-and-rods/",
+		difficulty = Difficulty.EASY
 )
 public class RingsAndRods
 {
@@ -26,7 +26,7 @@ public class RingsAndRods
 		for (int i = 0; i < rings.length(); i += 2)
 		{
 			char color = rings.charAt(i);
-			int rod = rings.charAt(i+1) - '0';
+			int rod = rings.charAt(i + 1) - '0';
 
 			map.putIfAbsent(rod, new HashSet<>());
 			map.get(rod).add(color);

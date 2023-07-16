@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 15-Apr-20
  */
 @LeetCode(
-	id = 41,
-	name = "First Missing Positive",
-	url = "https://leetcode.com/problems/first-missing-positive/",
-	difficulty = Difficulty.HARD
+		id = 41,
+		name = "First Missing Positive",
+		url = "https://leetcode.com/problems/first-missing-positive/",
+		difficulty = Difficulty.HARD
 )
 public class FirstMissingPositive
 {
@@ -22,7 +22,7 @@ public class FirstMissingPositive
 			return 1;
 		}
 
-		for (int i = 0; i < nums.length;)
+		for (int i = 0; i < nums.length; )
 		{
 			int num = nums[i];
 			int pos = num - 1;

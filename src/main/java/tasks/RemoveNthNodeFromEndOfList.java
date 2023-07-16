@@ -12,16 +12,16 @@ import java.util.List;
  * @created 14-Mar-20
  */
 @LeetCode(
-	id = 19,
-	name = "Remove Nth Node From End of List",
-	url = "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
-	difficulty = Difficulty.MEDIUM
+		id = 19,
+		name = "Remove Nth Node From End of List",
+		url = "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RemoveNthNodeFromEndOfList
 {
 	public ListNode removeNthFromEnd(ListNode head, int n)
 	{
-		List<ListNode> list  = new ArrayList<>();
+		List<ListNode> list = new ArrayList<>();
 		list.add(new ListNode());
 		list.get(0).next = head;
 

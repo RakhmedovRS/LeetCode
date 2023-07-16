@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/22/2020
  */
 @LeetCode(
-	id = 660,
-	name = "Remove 9",
-	url = "https://leetcode.com/problems/remove-9/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 660,
+		name = "Remove 9",
+		url = "https://leetcode.com/problems/remove-9/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class Remove9
 {

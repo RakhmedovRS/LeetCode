@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/9/2020
  */
 @LeetCode(
-	id = 1150,
-	name = "Check If a Number Is Majority Element in a Sorted Array",
-	url = "https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1150,
+		name = "Check If a Number Is Majority Element in a Sorted Array",
+		url = "https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class CheckIfNumberIsMajorityElementInSortedArray
 {

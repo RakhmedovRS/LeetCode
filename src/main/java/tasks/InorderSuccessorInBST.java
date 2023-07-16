@@ -12,11 +12,11 @@ import java.util.Map;
  * @created 1/13/2021
  */
 @LeetCode(
-	id = 285,
-	name = "Inorder Successor in BST",
-	url = "https://leetcode.com/problems/inorder-successor-in-bst/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 285,
+		name = "Inorder Successor in BST",
+		url = "https://leetcode.com/problems/inorder-successor-in-bst/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class InorderSuccessorInBST
 {

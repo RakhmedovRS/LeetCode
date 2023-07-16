@@ -18,7 +18,9 @@ public class MaximumDepthOfNaryTree
 		public int val;
 		public List<Node> children;
 
-		public Node(){}
+		public Node()
+		{
+		}
 
 		public Node(int val)
 		{

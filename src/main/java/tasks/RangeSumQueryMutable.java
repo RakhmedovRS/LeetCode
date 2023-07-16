@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/19/2020
  */
 @LeetCode(
-	id = 307,
-	name = "Range Sum Query - Mutable",
-	url = "https://leetcode.com/problems/range-sum-query-mutable/",
-	difficulty = Difficulty.MEDIUM
+		id = 307,
+		name = "Range Sum Query - Mutable",
+		url = "https://leetcode.com/problems/range-sum-query-mutable/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RangeSumQueryMutable
 {

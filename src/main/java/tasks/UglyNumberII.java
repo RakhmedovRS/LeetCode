@@ -10,10 +10,10 @@ import java.util.TreeSet;
  * @created 04-Jul-20
  */
 @LeetCode(
-	id = 264,
-	name = "Ugly Number II",
-	url = "https://leetcode.com/problems/ugly-number-ii/",
-	difficulty = Difficulty.MEDIUM
+		id = 264,
+		name = "Ugly Number II",
+		url = "https://leetcode.com/problems/ugly-number-ii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class UglyNumberII
 {

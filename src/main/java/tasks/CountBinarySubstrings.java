@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12-Jul-20
  */
 @LeetCode(
-	id = 696,
-	name = "Count Binary Substrings",
-	url = "https://leetcode.com/problems/count-binary-substrings/",
-	difficulty = Difficulty.EASY
+		id = 696,
+		name = "Count Binary Substrings",
+		url = "https://leetcode.com/problems/count-binary-substrings/",
+		difficulty = Difficulty.EASY
 )
 public class CountBinarySubstrings
 {

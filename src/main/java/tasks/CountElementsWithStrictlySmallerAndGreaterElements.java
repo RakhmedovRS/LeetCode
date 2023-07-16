@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 1/23/2022
  */
 @LeetCode(
-	id = 2148,
-	name = "Count Elements With Strictly Smaller and Greater Elements",
-	url = "https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/",
-	difficulty = Difficulty.EASY
+		id = 2148,
+		name = "Count Elements With Strictly Smaller and Greater Elements",
+		url = "https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/",
+		difficulty = Difficulty.EASY
 )
 public class CountElementsWithStrictlySmallerAndGreaterElements
 {

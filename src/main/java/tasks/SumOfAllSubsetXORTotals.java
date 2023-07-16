@@ -11,10 +11,10 @@ import java.util.List;
  * @created 5/16/2021
  */
 @LeetCode(
-	id = 1863,
-	name = "Sum of All Subset XOR Totals",
-	url = "https://leetcode.com/problems/sum-of-all-subset-xor-totals/",
-	difficulty = Difficulty.EASY
+		id = 1863,
+		name = "Sum of All Subset XOR Totals",
+		url = "https://leetcode.com/problems/sum-of-all-subset-xor-totals/",
+		difficulty = Difficulty.EASY
 )
 public class SumOfAllSubsetXORTotals
 {

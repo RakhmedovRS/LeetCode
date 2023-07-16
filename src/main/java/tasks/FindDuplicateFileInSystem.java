@@ -13,10 +13,10 @@ import java.util.Map;
  * @created 02-Aug-20
  */
 @LeetCode(
-	id = 609,
-	name = "Find Duplicate File in System",
-	url = "https://leetcode.com/problems/find-duplicate-file-in-system/",
-	difficulty = Difficulty.MEDIUM
+		id = 609,
+		name = "Find Duplicate File in System",
+		url = "https://leetcode.com/problems/find-duplicate-file-in-system/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindDuplicateFileInSystem
 {
@@ -52,10 +52,10 @@ public class FindDuplicateFileInSystem
 	public static void main(String[] args)
 	{
 		System.out.println(new FindDuplicateFileInSystem().findDuplicate(
-			new String[]{
-				"root/a 1.txt(abcd) 2.txt(efgh)",
-				"root/c 3.txt(abcd)",
-				"root/c/d 4.txt(efgh)",
-				"root 4.txt(efgh)"}));
+				new String[]{
+						"root/a 1.txt(abcd) 2.txt(efgh)",
+						"root/c 3.txt(abcd)",
+						"root/c/d 4.txt(efgh)",
+						"root 4.txt(efgh)"}));
 	}
 }

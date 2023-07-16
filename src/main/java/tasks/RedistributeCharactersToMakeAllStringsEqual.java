@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 6/16/2021
  */
 @LeetCode(
-	id = 1897,
-	name = "Redistribute Characters to Make All Strings Equal",
-	url = "https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/",
-	difficulty = Difficulty.EASY
+		id = 1897,
+		name = "Redistribute Characters to Make All Strings Equal",
+		url = "https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/",
+		difficulty = Difficulty.EASY
 )
 public class RedistributeCharactersToMakeAllStringsEqual
 {

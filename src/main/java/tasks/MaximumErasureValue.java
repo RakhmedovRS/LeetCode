@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 12/20/2020
  */
 @LeetCode(
-	id = 1695,
-	name = "Maximum Erasure Value",
-	url = "https://leetcode.com/problems/maximum-erasure-value/",
-	difficulty = Difficulty.MEDIUM
+		id = 1695,
+		name = "Maximum Erasure Value",
+		url = "https://leetcode.com/problems/maximum-erasure-value/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumErasureValue
 {

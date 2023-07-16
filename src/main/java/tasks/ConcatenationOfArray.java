@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 7/12/2021
  */
 @LeetCode(
-	id = 1929,
-	name = "Concatenation of Array",
-	url = "https://leetcode.com/problems/concatenation-of-array/",
-	difficulty = Difficulty.EASY
+		id = 1929,
+		name = "Concatenation of Array",
+		url = "https://leetcode.com/problems/concatenation-of-array/",
+		difficulty = Difficulty.EASY
 )
 public class ConcatenationOfArray
 {

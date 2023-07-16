@@ -10,11 +10,11 @@ import java.util.*;
  * @created 1/19/2021
  */
 @LeetCode(
-	id = 320,
-	name = "Generalized Abbreviation",
-	url = "https://leetcode.com/problems/generalized-abbreviation/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 320,
+		name = "Generalized Abbreviation",
+		url = "https://leetcode.com/problems/generalized-abbreviation/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class GeneralizedAbbreviation
 {

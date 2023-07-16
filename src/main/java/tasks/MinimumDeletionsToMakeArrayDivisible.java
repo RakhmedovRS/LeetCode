@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 7/20/2022
  */
 @LeetCode(
-	id = 2344,
-	name = "Minimum Deletions to Make Array Divisible",
-	url = "https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/",
-	difficulty = Difficulty.HARD
+		id = 2344,
+		name = "Minimum Deletions to Make Array Divisible",
+		url = "https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/",
+		difficulty = Difficulty.HARD
 )
 public class MinimumDeletionsToMakeArrayDivisible
 {

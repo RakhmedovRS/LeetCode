@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 23-May-20
  */
 @LeetCode(
-	id = 1189,
-	name = "Maximum Number of Balloons",
-	url = "https://leetcode.com/problems/maximum-number-of-balloons/",
-	difficulty = Difficulty.EASY
+		id = 1189,
+		name = "Maximum Number of Balloons",
+		url = "https://leetcode.com/problems/maximum-number-of-balloons/",
+		difficulty = Difficulty.EASY
 )
 public class MaximumNumberOfBalloons
 {

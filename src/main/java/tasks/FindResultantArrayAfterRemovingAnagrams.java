@@ -11,10 +11,10 @@ import java.util.List;
  * @created 5/15/2022
  */
 @LeetCode(
-	id = 2273,
-	name = "Find Resultant Array After Removing Anagrams",
-	url = "https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/",
-	difficulty = Difficulty.EASY
+		id = 2273,
+		name = "Find Resultant Array After Removing Anagrams",
+		url = "https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/",
+		difficulty = Difficulty.EASY
 )
 public class FindResultantArrayAfterRemovingAnagrams
 {

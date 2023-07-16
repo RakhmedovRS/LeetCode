@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 3/21/2021
  */
 @LeetCode(
-	id = 1802,
-	name = "Maximum Value at a Given Index in a Bounded Array",
-	url = "https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/",
-	difficulty = Difficulty.MEDIUM
+		id = 1802,
+		name = "Maximum Value at a Given Index in a Bounded Array",
+		url = "https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumValueAtGivenIndexInBoundedArray
 {

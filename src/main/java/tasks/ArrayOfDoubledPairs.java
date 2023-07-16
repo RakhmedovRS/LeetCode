@@ -12,10 +12,10 @@ import java.util.Map;
  * @created 22-Jul-20
  */
 @LeetCode(
-	id = 954,
-	name = "Array of Doubled Pairs",
-	url = "https://leetcode.com/problems/array-of-doubled-pairs/",
-	difficulty = Difficulty.MEDIUM
+		id = 954,
+		name = "Array of Doubled Pairs",
+		url = "https://leetcode.com/problems/array-of-doubled-pairs/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ArrayOfDoubledPairs
 {

@@ -11,10 +11,10 @@ import java.util.LinkedList;
  * @created 10/7/2020
  */
 @LeetCode(
-	id = 61,
-	name = "Rotate List",
-	url = "https://leetcode.com/problems/rotate-list/",
-	difficulty = Difficulty.MEDIUM
+		id = 61,
+		name = "Rotate List",
+		url = "https://leetcode.com/problems/rotate-list/",
+		difficulty = Difficulty.MEDIUM
 )
 public class RotateList
 {

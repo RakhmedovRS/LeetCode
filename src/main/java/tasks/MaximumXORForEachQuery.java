@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 4/17/2021
  */
 @LeetCode(
-	id = 1829,
-	name = "Maximum XOR for Each Query",
-	url = "https://leetcode.com/problems/maximum-xor-for-each-query/",
-	difficulty = Difficulty.MEDIUM
+		id = 1829,
+		name = "Maximum XOR for Each Query",
+		url = "https://leetcode.com/problems/maximum-xor-for-each-query/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumXORForEachQuery
 {

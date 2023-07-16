@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/14/2020
  */
 @LeetCode(
-	id = 161,
-	name = "One Edit Distance",
-	url = "https://leetcode.com/problems/one-edit-distance/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 161,
+		name = "One Edit Distance",
+		url = "https://leetcode.com/problems/one-edit-distance/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class OneEditDistance
 {
@@ -55,8 +55,8 @@ public class OneEditDistance
 		else if (!seenMismatch)
 		{
 			result = dfs(posA + 1, posB + 1, aChars, bChars, memo, true)
-				|| dfs(posA + 1, posB, aChars, bChars, memo, true)
-				|| dfs(posA, posB + 1, aChars, bChars, memo, true);
+					|| dfs(posA + 1, posB, aChars, bChars, memo, true)
+					|| dfs(posA, posB + 1, aChars, bChars, memo, true);
 		}
 
 		memo[posA][posB] = result;

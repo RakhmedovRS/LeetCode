@@ -8,7 +8,7 @@ import java.util.*;
  * @author RakhmedovRS
  * @created 03-May-20
  */
-@LeetCode(id= 373, name = "Find K Pairs with Smallest Sums", url = "https://leetcode.com/problems/find-k-pairs-with-smallest-sums/")
+@LeetCode(id = 373, name = "Find K Pairs with Smallest Sums", url = "https://leetcode.com/problems/find-k-pairs-with-smallest-sums/")
 public class FindKPairsWithSmallestSums
 {
 	public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k)

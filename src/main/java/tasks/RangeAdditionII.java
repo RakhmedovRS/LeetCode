@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 11/18/2020
  */
 @LeetCode(
-	id = 598,
-	name = "Range Addition II",
-	url = "https://leetcode.com/problems/range-addition-ii/",
-	difficulty = Difficulty.EASY
+		id = 598,
+		name = "Range Addition II",
+		url = "https://leetcode.com/problems/range-addition-ii/",
+		difficulty = Difficulty.EASY
 )
 public class RangeAdditionII
 {

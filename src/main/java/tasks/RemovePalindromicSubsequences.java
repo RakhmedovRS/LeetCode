@@ -9,9 +9,9 @@ import common.LeetCode;
  */
 @LeetCode(
 		id = 1332,
-        name = "Remove Palindromic Subsequences",
-        url = "https://leetcode.com/problems/remove-palindromic-subsequences/",
-        difficulty = Difficulty.EASY
+		name = "Remove Palindromic Subsequences",
+		url = "https://leetcode.com/problems/remove-palindromic-subsequences/",
+		difficulty = Difficulty.EASY
 )
 public class RemovePalindromicSubsequences
 {

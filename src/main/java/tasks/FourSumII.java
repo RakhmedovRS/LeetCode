@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 19-Aug-20
  */
 @LeetCode(
-	id = 454,
-	name = "4Sum II",
-	url = "https://leetcode.com/problems/4sum-ii/",
-	difficulty = Difficulty.MEDIUM
+		id = 454,
+		name = "4Sum II",
+		url = "https://leetcode.com/problems/4sum-ii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FourSumII
 {

@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 08-Apr-20
  */
 @LeetCode(
-	id = 105,
-	name = "Construct Binary Tree from Preorder and Inorder Traversal",
-	url = "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
-	difficulty = Difficulty.MEDIUM
+		id = 105,
+		name = "Construct Binary Tree from Preorder and Inorder Traversal",
+		url = "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+		difficulty = Difficulty.MEDIUM
 )
 public class ConstructBinaryTreeFromPreorderAndInorderTraversal
 {

@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 04-Jul-20
  */
 @LeetCode(
-	id = 377,
-	name = "Combination Sum IV",
-	url = "https://leetcode.com/problems/combination-sum-iv/",
-	difficulty = Difficulty.MEDIUM
+		id = 377,
+		name = "Combination Sum IV",
+		url = "https://leetcode.com/problems/combination-sum-iv/",
+		difficulty = Difficulty.MEDIUM
 )
 public class CombinationSumIV
 {

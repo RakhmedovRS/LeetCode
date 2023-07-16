@@ -10,10 +10,10 @@ import java.util.*;
  * @created 18-Mar-20
  */
 @LeetCode(
-	id = 127,
-	name = "Word Ladder",
-	url = "https://leetcode.com/problems/word-ladder/",
-	difficulty = Difficulty.HARD
+		id = 127,
+		name = "Word Ladder",
+		url = "https://leetcode.com/problems/word-ladder/",
+		difficulty = Difficulty.HARD
 )
 public class WordLadder
 {
@@ -81,14 +81,14 @@ public class WordLadder
 		WordLadder clazz = new WordLadder();
 
 		System.out.println(clazz.ladderLength("coder", "goner",
-			Arrays.asList("lover", "coder", "comer", "toner", "cover", "tower", "coyer", "bower",
-				"honer", "poles", "hover", "lower", "homer", "boyer", "goner", "loner", "boner",
-				"cower", "never", "sower", "asian")));
+				Arrays.asList("lover", "coder", "comer", "toner", "cover", "tower", "coyer", "bower",
+						"honer", "poles", "hover", "lower", "homer", "boyer", "goner", "loner", "boner",
+						"cower", "never", "sower", "asian")));
 
 		System.out.println(clazz.ladderLength("hit", "cog",
-			Arrays.asList("hot", "dot", "dog", "lot", "log", "cog")));
+				Arrays.asList("hot", "dot", "dog", "lot", "log", "cog")));
 
 		System.out.println(clazz.ladderLength("hit", "cog",
-			Arrays.asList("hot", "dot", "dog", "lot", "log")));
+				Arrays.asList("hot", "dot", "dog", "lot", "log")));
 	}
 }

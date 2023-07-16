@@ -11,10 +11,10 @@ import java.util.Map;
  * @created 04-Apr-20
  */
 @LeetCode(
-	id = 3,
-	name = "Longest Substring Without Repeating Characters",
-	url = "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
-	difficulty = Difficulty.MEDIUM
+		id = 3,
+		name = "Longest Substring Without Repeating Characters",
+		url = "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+		difficulty = Difficulty.MEDIUM
 )
 public class LongestSubstringWithoutRepeatingCharacters
 {

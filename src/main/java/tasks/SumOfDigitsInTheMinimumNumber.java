@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 11/30/2020
  */
 @LeetCode(
-	id = 1085,
-	name = "Sum of Digits in the Minimum Number",
-	url = "https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/",
-	difficulty = Difficulty.EASY,
-	premium = true
+		id = 1085,
+		name = "Sum of Digits in the Minimum Number",
+		url = "https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/",
+		difficulty = Difficulty.EASY,
+		premium = true
 )
 public class SumOfDigitsInTheMinimumNumber
 {

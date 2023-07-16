@@ -9,10 +9,10 @@ import common.LeetCode;
  * @created 04-Apr-20
  */
 @LeetCode(
-	id = 117, 
-	name = "Populating Next Right Pointers in Each Node II", 
-	url = "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/",
-	difficulty = Difficulty.MEDIUM
+		id = 117,
+		name = "Populating Next Right Pointers in Each Node II",
+		url = "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PopulatingNextRightPointersInEachNodeII
 {
@@ -23,7 +23,9 @@ public class PopulatingNextRightPointersInEachNodeII
 		public Node right;
 		public Node next;
 
-		public Node(){}
+		public Node()
+		{
+		}
 
 		public Node(int _val)
 		{

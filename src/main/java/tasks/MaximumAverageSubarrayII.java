@@ -8,11 +8,11 @@ import common.LeetCode;
  * @created 12/1/2020
  */
 @LeetCode(
-	id = 644,
-	name = "Maximum Average Subarray II",
-	url = "https://leetcode.com/problems/maximum-average-subarray-ii/",
-	difficulty = Difficulty.HARD,
-	premium = true
+		id = 644,
+		name = "Maximum Average Subarray II",
+		url = "https://leetcode.com/problems/maximum-average-subarray-ii/",
+		difficulty = Difficulty.HARD,
+		premium = true
 )
 public class MaximumAverageSubarrayII
 {

@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 25-Jul-20
  */
 @LeetCode(
-	id = 154,
-	name = "Find Minimum in Rotated Sorted Array II",
-	url = "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/",
-	difficulty = Difficulty.HARD
+		id = 154,
+		name = "Find Minimum in Rotated Sorted Array II",
+		url = "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/",
+		difficulty = Difficulty.HARD
 )
 public class FindMinimumInRotatedSortedArrayII
 {

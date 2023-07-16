@@ -12,10 +12,10 @@ import java.util.Map;
  * @created 08-Aug-20
  */
 @LeetCode(
-	id = 437,
-	name = "Path Sum III",
-	url = "https://leetcode.com/problems/path-sum-iii/",
-	difficulty = Difficulty.MEDIUM
+		id = 437,
+		name = "Path Sum III",
+		url = "https://leetcode.com/problems/path-sum-iii/",
+		difficulty = Difficulty.MEDIUM
 )
 public class PathSumIII
 {

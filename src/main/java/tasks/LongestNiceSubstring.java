@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 2/20/2021
  */
 @LeetCode(
-	id = 1763,
-	name = "Longest Nice Substring",
-	url = "https://leetcode.com/problems/longest-nice-substring/",
-	difficulty = Difficulty.EASY
+		id = 1763,
+		name = "Longest Nice Substring",
+		url = "https://leetcode.com/problems/longest-nice-substring/",
+		difficulty = Difficulty.EASY
 )
 public class LongestNiceSubstring
 {

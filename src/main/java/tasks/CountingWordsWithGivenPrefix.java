@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 2/27/2022
  */
 @LeetCode(
-	id = 2185,
-	name = "Counting Words With a Given Prefix",
-	url = "https://leetcode.com/problems/counting-words-with-a-given-prefix/",
-	difficulty = Difficulty.EASY
+		id = 2185,
+		name = "Counting Words With a Given Prefix",
+		url = "https://leetcode.com/problems/counting-words-with-a-given-prefix/",
+		difficulty = Difficulty.EASY
 )
 public class CountingWordsWithGivenPrefix
 {

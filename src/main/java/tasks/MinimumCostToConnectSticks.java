@@ -10,11 +10,11 @@ import java.util.PriorityQueue;
  * @created 12/11/2020
  */
 @LeetCode(
-	id = 1167,
-	name = "Minimum Cost to Connect Sticks",
-	url = "https://leetcode.com/problems/minimum-cost-to-connect-sticks/",
-	difficulty = Difficulty.MEDIUM,
-	premium = true
+		id = 1167,
+		name = "Minimum Cost to Connect Sticks",
+		url = "https://leetcode.com/problems/minimum-cost-to-connect-sticks/",
+		difficulty = Difficulty.MEDIUM,
+		premium = true
 )
 public class MinimumCostToConnectSticks
 {

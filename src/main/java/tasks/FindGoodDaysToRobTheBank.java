@@ -11,10 +11,10 @@ import java.util.List;
  * @created 12/11/2021
  */
 @LeetCode(
-	id = 2100,
-	name = "Find Good Days to Rob the Bank",
-	url = "https://leetcode.com/problems/find-good-days-to-rob-the-bank/",
-	difficulty = Difficulty.MEDIUM
+		id = 2100,
+		name = "Find Good Days to Rob the Bank",
+		url = "https://leetcode.com/problems/find-good-days-to-rob-the-bank/",
+		difficulty = Difficulty.MEDIUM
 )
 public class FindGoodDaysToRobTheBank
 {

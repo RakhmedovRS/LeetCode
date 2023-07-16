@@ -9,10 +9,10 @@ import common.TreeNode;
  * @created 17-May-20
  */
 @LeetCode(
-	id = 701,
-	name = "Insert into a Binary Search Tree",
-	url = "https://leetcode.com/problems/insert-into-a-binary-search-tree/",
-	difficulty = Difficulty.MEDIUM
+		id = 701,
+		name = "Insert into a Binary Search Tree",
+		url = "https://leetcode.com/problems/insert-into-a-binary-search-tree/",
+		difficulty = Difficulty.MEDIUM
 )
 public class InsertIntoBinarySearchTree
 {

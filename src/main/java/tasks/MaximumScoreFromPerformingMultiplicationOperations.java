@@ -8,10 +8,10 @@ import common.LeetCode;
  * @created 2/21/2021
  */
 @LeetCode(
-	id = 1770,
-	name = "Maximum Score from Performing Multiplication Operations",
-	url = "https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/",
-	difficulty = Difficulty.MEDIUM
+		id = 1770,
+		name = "Maximum Score from Performing Multiplication Operations",
+		url = "https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumScoreFromPerformingMultiplicationOperations
 {

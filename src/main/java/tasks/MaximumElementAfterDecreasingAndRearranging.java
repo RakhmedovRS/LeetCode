@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 5/1/2021
  */
 @LeetCode(
-	id = 1846,
-	name = "Maximum Element After Decreasing and Rearranging",
-	url = "https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/",
-	difficulty = Difficulty.MEDIUM
+		id = 1846,
+		name = "Maximum Element After Decreasing and Rearranging",
+		url = "https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/",
+		difficulty = Difficulty.MEDIUM
 )
 public class MaximumElementAfterDecreasingAndRearranging
 {

@@ -46,9 +46,9 @@ public class ShortestBridge
 					int nextRow = point[0] + direction[0];
 					int nextColumn = point[1] + direction[1];
 					if (nextRow < 0
-						|| nextRow == rows
-						|| nextColumn < 0
-						|| nextColumn == columns)
+							|| nextRow == rows
+							|| nextColumn < 0
+							|| nextColumn == columns)
 					{
 						continue;
 					}
@@ -74,11 +74,11 @@ public class ShortestBridge
 	private void eraseIsland(int[][] A, int row, int column, int rows, int columns, boolean[][] visited, Queue<int[]> queue)
 	{
 		if (row < 0
-			|| row == rows
-			|| column < 0
-			|| column == columns
-			|| A[row][column] == 0
-			|| visited[row][column])
+				|| row == rows
+				|| column < 0
+				|| column == columns
+				|| A[row][column] == 0
+				|| visited[row][column])
 		{
 			return;
 		}

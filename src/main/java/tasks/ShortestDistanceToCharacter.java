@@ -10,10 +10,10 @@ import java.util.TreeSet;
  * @created 24-Mar-20
  */
 @LeetCode(
-	id = 821,
-	name = "Shortest Distance to a Character",
-	url = "https://leetcode.com/problems/shortest-distance-to-a-character/",
-	difficulty = Difficulty.EASY
+		id = 821,
+		name = "Shortest Distance to a Character",
+		url = "https://leetcode.com/problems/shortest-distance-to-a-character/",
+		difficulty = Difficulty.EASY
 )
 public class ShortestDistanceToCharacter
 {

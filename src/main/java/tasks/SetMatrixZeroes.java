@@ -10,10 +10,10 @@ import java.util.Arrays;
  * @created 01-Apr-20
  */
 @LeetCode(
-	id = 73,
-	name = "Set Matrix Zeroes",
-	url = "https://leetcode.com/problems/set-matrix-zeroes/",
-	difficulty = Difficulty.MEDIUM
+		id = 73,
+		name = "Set Matrix Zeroes",
+		url = "https://leetcode.com/problems/set-matrix-zeroes/",
+		difficulty = Difficulty.MEDIUM
 )
 public class SetMatrixZeroes
 {
@@ -52,16 +52,16 @@ public class SetMatrixZeroes
 	public static void main(String[] args)
 	{
 		int[][] matrix = new int[][]{
-			{0, 1, 2, 0},
-			{3, 4, 5, 2},
-			{1, 3, 1, 5}
+				{0, 1, 2, 0},
+				{3, 4, 5, 2},
+				{1, 3, 1, 5}
 		};
 
 		new SetMatrixZeroes().setZeroes(matrix);
 		System.out.println(Arrays.deepToString(matrix));
 
 		matrix = new int[][]{
-			{0, 1}
+				{0, 1}
 		};
 
 		new SetMatrixZeroes().setZeroes(matrix);
