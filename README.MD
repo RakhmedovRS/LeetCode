@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1798
+Count of solved tasks: 1799
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1607,7 +1607,8 @@ Count of solved tasks: 1798
 |2771|Medium|[Longest Non-decreasing Subarray From Two Arrays](https://leetcode.com/problems/longest-non-decreasing-subarray-from-two-arrays/)|[Longest Non-decreasing Subarray From Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestNonDecreasingSubarrayFromTwoArrays.java)|
 |2778|Easy|[Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-special-elements/)|[Sum of Squares of Special Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfSquaresOfSpecialElements.java)|
 |2779|Medium|[Maximum Beauty of an Array After Applying Operation](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/)|[Maximum Beauty of an Array After Applying Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumBeautyOfArrayAfterApplyingOperation.java)|
-|2780|Medium|[Minimum Index of a Valid Split](https://leetcode.com/problems/minimum-index-of-a-valid-split/)|[Minimum Index of a Valid Split.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumIndexOfValidSplit.java)|</p>
+|2780|Medium|[Minimum Index of a Valid Split](https://leetcode.com/problems/minimum-index-of-a-valid-split/)|[Minimum Index of a Valid Split.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumIndexOfValidSplit.java)|
+|2784|Easy|[Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/)|[Check if Array is Good.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfArrayIsGood.java)|</p>
 </details>
 
 <details>
@@ -1989,7 +1990,8 @@ Count of solved tasks: 1798
 |2760|Easy|[Longest Even Odd Subarray With Threshold](https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/)|[Longest Even Odd Subarray With Threshold.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestEvenOddSubarrayWithThreshold.java)|
 |2765|Easy|[Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/)|[Longest Alternating Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestAlternatingSubarray.java)|
 |2769|Easy|[Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/)|[Find the Maximum Achievable Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumAchievableNumber.java)|
-|2778|Easy|[Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-special-elements/)|[Sum of Squares of Special Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfSquaresOfSpecialElements.java)|</p>
+|2778|Easy|[Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-special-elements/)|[Sum of Squares of Special Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfSquaresOfSpecialElements.java)|
+|2784|Easy|[Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/)|[Check if Array is Good.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfArrayIsGood.java)|</p>
 </details>
 
 <details>
