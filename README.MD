@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1801
+Count of solved tasks: 1802
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1610,7 +1610,10 @@ Count of solved tasks: 1801
 |2780|Medium|[Minimum Index of a Valid Split](https://leetcode.com/problems/minimum-index-of-a-valid-split/)|[Minimum Index of a Valid Split.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumIndexOfValidSplit.java)|
 |2784|Easy|[Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/)|[Check if Array is Good.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfArrayIsGood.java)|
 |2785|Medium|[Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/)|[Sort Vowels in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortVowelsInString.java)|
-|2786|Medium|[Visit Array Positions to Maximize Score](https://leetcode.com/problems/visit-array-positions-to-maximize-score/)|[Visit Array Positions to Maximize Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VisitArrayPositionsToMaximizeScore.java)|</p>
+|2786|Medium|[Visit Array Positions to Maximize Score](https://leetcode.com/problems/visit-array-positions-to-maximize-score/)|[Visit Array Positions to Maximize Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VisitArrayPositionsToMaximizeScore.java)|
+|2788|Easy|[Split Strings by Separator
+](https://leetcode.com/problems/split-strings-by-separator/)|[Split Strings by Separator
+.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitStringsBySeparator.java)|</p>
 </details>
 
 <details>
@@ -1993,7 +1996,10 @@ Count of solved tasks: 1801
 |2765|Easy|[Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/)|[Longest Alternating Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestAlternatingSubarray.java)|
 |2769|Easy|[Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/)|[Find the Maximum Achievable Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumAchievableNumber.java)|
 |2778|Easy|[Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-special-elements/)|[Sum of Squares of Special Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfSquaresOfSpecialElements.java)|
-|2784|Easy|[Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/)|[Check if Array is Good.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfArrayIsGood.java)|</p>
+|2784|Easy|[Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/)|[Check if Array is Good.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfArrayIsGood.java)|
+|2788|Easy|[Split Strings by Separator
+](https://leetcode.com/problems/split-strings-by-separator/)|[Split Strings by Separator
+.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitStringsBySeparator.java)|</p>
 </details>
 
 <details>
