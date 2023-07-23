@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1802
+Count of solved tasks: 1803
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1613,7 +1613,8 @@ Count of solved tasks: 1802
 |2786|Medium|[Visit Array Positions to Maximize Score](https://leetcode.com/problems/visit-array-positions-to-maximize-score/)|[Visit Array Positions to Maximize Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VisitArrayPositionsToMaximizeScore.java)|
 |2788|Easy|[Split Strings by Separator
 ](https://leetcode.com/problems/split-strings-by-separator/)|[Split Strings by Separator
-.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitStringsBySeparator.java)|</p>
+.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitStringsBySeparator.java)|
+|2789|Medium|[Largest Element in an Array after Merge Operations](https://leetcode.com/problems/largest-element-in-an-array-after-merge-operations/)|[Largest Element in an Array after Merge Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestElementInArrayAfterMergeOperations.java)|</p>
 </details>
 
 <details>
@@ -2728,7 +2729,8 @@ Count of solved tasks: 1802
 |2779|Medium|[Maximum Beauty of an Array After Applying Operation](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/)|[Maximum Beauty of an Array After Applying Operation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumBeautyOfArrayAfterApplyingOperation.java)|
 |2780|Medium|[Minimum Index of a Valid Split](https://leetcode.com/problems/minimum-index-of-a-valid-split/)|[Minimum Index of a Valid Split.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumIndexOfValidSplit.java)|
 |2785|Medium|[Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/)|[Sort Vowels in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortVowelsInString.java)|
-|2786|Medium|[Visit Array Positions to Maximize Score](https://leetcode.com/problems/visit-array-positions-to-maximize-score/)|[Visit Array Positions to Maximize Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VisitArrayPositionsToMaximizeScore.java)|</p>
+|2786|Medium|[Visit Array Positions to Maximize Score](https://leetcode.com/problems/visit-array-positions-to-maximize-score/)|[Visit Array Positions to Maximize Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VisitArrayPositionsToMaximizeScore.java)|
+|2789|Medium|[Largest Element in an Array after Merge Operations](https://leetcode.com/problems/largest-element-in-an-array-after-merge-operations/)|[Largest Element in an Array after Merge Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestElementInArrayAfterMergeOperations.java)|</p>
 </details>
 
 <details>
