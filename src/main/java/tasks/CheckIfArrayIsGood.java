@@ -19,20 +19,28 @@ public class CheckIfArrayIsGood
 {
 	public boolean isGood(int[] nums)
 	{
-		if (nums.length < 2)
+		if (nums.length == 1)
 		{
 			return false;
 		}
 
-		Arrays.sort(nums);
-		for (int i = 1; i < nums.length - 2; i++)
+		int[] arr = new int[nums.length];
+		for (int i = 0; i < nums.length; i++)
 		{
-			if (nums[i - 1] + 1 != nums[i])
+			arr[i] = i + 1;
+		}
+
+		arr[arr.length - 2] = arr[arr.length - 1] = arr.length - 1;
+
+		Arrays.sort(nums);
+		for (int i = 0; i < nums.length; i++)
+		{
+			if (arr[i] != nums[i])
 			{
 				return false;
 			}
 		}
 
-		return nums[nums.length - 2] == nums[nums.length - 1] && nums[nums.length - 1] == nums.length - 1;
+		return true;
 	}
 }
