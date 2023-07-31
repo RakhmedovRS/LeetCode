@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1803
+Count of solved tasks: 1804
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1614,7 +1614,8 @@ Count of solved tasks: 1803
 |2788|Easy|[Split Strings by Separator
 ](https://leetcode.com/problems/split-strings-by-separator/)|[Split Strings by Separator
 .java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitStringsBySeparator.java)|
-|2789|Medium|[Largest Element in an Array after Merge Operations](https://leetcode.com/problems/largest-element-in-an-array-after-merge-operations/)|[Largest Element in an Array after Merge Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestElementInArrayAfterMergeOperations.java)|</p>
+|2789|Medium|[Largest Element in an Array after Merge Operations](https://leetcode.com/problems/largest-element-in-an-array-after-merge-operations/)|[Largest Element in an Array after Merge Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestElementInArrayAfterMergeOperations.java)|
+|2798|Easy|[Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/description/)|[Number of Employees Who Met the Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfEmployeesWhoMetTheTarget.java)|</p>
 </details>
 
 <details>
@@ -2000,7 +2001,8 @@ Count of solved tasks: 1803
 |2784|Easy|[Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/)|[Check if Array is Good.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfArrayIsGood.java)|
 |2788|Easy|[Split Strings by Separator
 ](https://leetcode.com/problems/split-strings-by-separator/)|[Split Strings by Separator
-.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitStringsBySeparator.java)|</p>
+.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitStringsBySeparator.java)|
+|2798|Easy|[Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/description/)|[Number of Employees Who Met the Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfEmployeesWhoMetTheTarget.java)|</p>
 </details>
 
 <details>
