@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1805
+Count of solved tasks: 1806
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1616,7 +1616,8 @@ Count of solved tasks: 1805
 .java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitStringsBySeparator.java)|
 |2789|Medium|[Largest Element in an Array after Merge Operations](https://leetcode.com/problems/largest-element-in-an-array-after-merge-operations/)|[Largest Element in an Array after Merge Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestElementInArrayAfterMergeOperations.java)|
 |2798|Easy|[Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/description/)|[Number of Employees Who Met the Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfEmployeesWhoMetTheTarget.java)|
-|2799|Medium|[Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/)|[Count Complete Subarrays in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCompleteSubarraysInArray.java)|</p>
+|2799|Medium|[Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/)|[Count Complete Subarrays in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCompleteSubarraysInArray.java)|
+|2806|Easy|[Account Balance After Rounded Purchase](https://leetcode.com/problems/account-balance-after-rounded-purchase/description/)|[Account Balance After Rounded Purchase.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AccountBalanceAfterRoundedPurchase.java)|</p>
 </details>
 
 <details>
@@ -2003,7 +2004,8 @@ Count of solved tasks: 1805
 |2788|Easy|[Split Strings by Separator
 ](https://leetcode.com/problems/split-strings-by-separator/)|[Split Strings by Separator
 .java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitStringsBySeparator.java)|
-|2798|Easy|[Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/description/)|[Number of Employees Who Met the Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfEmployeesWhoMetTheTarget.java)|</p>
+|2798|Easy|[Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/description/)|[Number of Employees Who Met the Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfEmployeesWhoMetTheTarget.java)|
+|2806|Easy|[Account Balance After Rounded Purchase](https://leetcode.com/problems/account-balance-after-rounded-purchase/description/)|[Account Balance After Rounded Purchase.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AccountBalanceAfterRoundedPurchase.java)|</p>
 </details>
 
 <details>
