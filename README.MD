@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1808
+Count of solved tasks: 1809
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1619,7 +1619,8 @@ Count of solved tasks: 1808
 |2799|Medium|[Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/)|[Count Complete Subarrays in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCompleteSubarraysInArray.java)|
 |2806|Easy|[Account Balance After Rounded Purchase](https://leetcode.com/problems/account-balance-after-rounded-purchase/description/)|[Account Balance After Rounded Purchase.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AccountBalanceAfterRoundedPurchase.java)|
 |2807|Medium|[Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/)|[Insert Greatest Common Divisors in Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/InsertGreatestCommonDivisorsInLinkedList.java)|
-|2810|Easy|[Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/description/)|[Faulty Keyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FaultyKeyboard.java)|</p>
+|2810|Easy|[Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/description/)|[Faulty Keyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FaultyKeyboard.java)|
+|2811|Medium|[Check if it is Possible to Split Array](https://leetcode.com/problems/check-if-it-is-possible-to-split-array/description/)|[Check if it is Possible to Split Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfItIsPossibleToSplitArray.java)|</p>
 </details>
 
 <details>
@@ -2740,7 +2741,8 @@ Count of solved tasks: 1808
 |2786|Medium|[Visit Array Positions to Maximize Score](https://leetcode.com/problems/visit-array-positions-to-maximize-score/)|[Visit Array Positions to Maximize Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VisitArrayPositionsToMaximizeScore.java)|
 |2789|Medium|[Largest Element in an Array after Merge Operations](https://leetcode.com/problems/largest-element-in-an-array-after-merge-operations/)|[Largest Element in an Array after Merge Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestElementInArrayAfterMergeOperations.java)|
 |2799|Medium|[Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/)|[Count Complete Subarrays in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCompleteSubarraysInArray.java)|
-|2807|Medium|[Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/)|[Insert Greatest Common Divisors in Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/InsertGreatestCommonDivisorsInLinkedList.java)|</p>
+|2807|Medium|[Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/)|[Insert Greatest Common Divisors in Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/InsertGreatestCommonDivisorsInLinkedList.java)|
+|2811|Medium|[Check if it is Possible to Split Array](https://leetcode.com/problems/check-if-it-is-possible-to-split-array/description/)|[Check if it is Possible to Split Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfItIsPossibleToSplitArray.java)|</p>
 </details>
 
 <details>
