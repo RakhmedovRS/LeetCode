@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1812
+Count of solved tasks: 1813
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1623,7 +1623,8 @@ Count of solved tasks: 1812
 |2810|Easy|[Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/description/)|[Faulty Keyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FaultyKeyboard.java)|
 |2811|Medium|[Check if it is Possible to Split Array](https://leetcode.com/problems/check-if-it-is-possible-to-split-array/description/)|[Check if it is Possible to Split Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfItIsPossibleToSplitArray.java)|
 |2815|Easy|[Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/)|[Max Pair Sum in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxPairSumInArray.java)|
-|2816|Medium|[Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/)|[Double a Number Represented as a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DoubleNumberRepresentedLinkedList.java)|</p>
+|2816|Medium|[Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/)|[Double a Number Represented as a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DoubleNumberRepresentedLinkedList.java)|
+|2817|Medium|[Minimum Absolute Difference Between Elements With Constraint](https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint/)|[Minimum Absolute Difference Between Elements With Constraint.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDifferenceBetweenElementsWithConstraint.java)|</p>
 </details>
 
 <details>
@@ -2748,7 +2749,8 @@ Count of solved tasks: 1812
 |2799|Medium|[Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/)|[Count Complete Subarrays in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCompleteSubarraysInArray.java)|
 |2807|Medium|[Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/)|[Insert Greatest Common Divisors in Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/InsertGreatestCommonDivisorsInLinkedList.java)|
 |2811|Medium|[Check if it is Possible to Split Array](https://leetcode.com/problems/check-if-it-is-possible-to-split-array/description/)|[Check if it is Possible to Split Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfItIsPossibleToSplitArray.java)|
-|2816|Medium|[Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/)|[Double a Number Represented as a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DoubleNumberRepresentedLinkedList.java)|</p>
+|2816|Medium|[Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/)|[Double a Number Represented as a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DoubleNumberRepresentedLinkedList.java)|
+|2817|Medium|[Minimum Absolute Difference Between Elements With Constraint](https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint/)|[Minimum Absolute Difference Between Elements With Constraint.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDifferenceBetweenElementsWithConstraint.java)|</p>
 </details>
 
 <details>
