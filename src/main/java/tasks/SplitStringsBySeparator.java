@@ -12,7 +12,7 @@ import java.util.List;
  */
 @LeetCode(
 		id = 2788,
-		name = "Split Strings by Separator\n",
+		name = "Split Strings by Separator",
 		url = "https://leetcode.com/problems/split-strings-by-separator/",
 		difficulty = Difficulty.EASY
 )

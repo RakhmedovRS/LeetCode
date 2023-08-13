@@ -1612,9 +1612,7 @@ Count of solved tasks: 1813
 |2784|Easy|[Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/)|[Check if Array is Good.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfArrayIsGood.java)|
 |2785|Medium|[Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/)|[Sort Vowels in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortVowelsInString.java)|
 |2786|Medium|[Visit Array Positions to Maximize Score](https://leetcode.com/problems/visit-array-positions-to-maximize-score/)|[Visit Array Positions to Maximize Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VisitArrayPositionsToMaximizeScore.java)|
-|2788|Easy|[Split Strings by Separator
-](https://leetcode.com/problems/split-strings-by-separator/)|[Split Strings by Separator
-.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitStringsBySeparator.java)|
+|2788|Easy|[Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/)|[Split Strings by Separator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitStringsBySeparator.java)|
 |2789|Medium|[Largest Element in an Array after Merge Operations](https://leetcode.com/problems/largest-element-in-an-array-after-merge-operations/)|[Largest Element in an Array after Merge Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestElementInArrayAfterMergeOperations.java)|
 |2798|Easy|[Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/description/)|[Number of Employees Who Met the Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfEmployeesWhoMetTheTarget.java)|
 |2799|Medium|[Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/)|[Count Complete Subarrays in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountCompleteSubarraysInArray.java)|
@@ -2008,9 +2006,7 @@ Count of solved tasks: 1813
 |2769|Easy|[Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/)|[Find the Maximum Achievable Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumAchievableNumber.java)|
 |2778|Easy|[Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-special-elements/)|[Sum of Squares of Special Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfSquaresOfSpecialElements.java)|
 |2784|Easy|[Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/)|[Check if Array is Good.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfArrayIsGood.java)|
-|2788|Easy|[Split Strings by Separator
-](https://leetcode.com/problems/split-strings-by-separator/)|[Split Strings by Separator
-.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitStringsBySeparator.java)|
+|2788|Easy|[Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/)|[Split Strings by Separator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitStringsBySeparator.java)|
 |2798|Easy|[Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/description/)|[Number of Employees Who Met the Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfEmployeesWhoMetTheTarget.java)|
 |2806|Easy|[Account Balance After Rounded Purchase](https://leetcode.com/problems/account-balance-after-rounded-purchase/description/)|[Account Balance After Rounded Purchase.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AccountBalanceAfterRoundedPurchase.java)|
 |2810|Easy|[Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/description/)|[Faulty Keyboard.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FaultyKeyboard.java)|
