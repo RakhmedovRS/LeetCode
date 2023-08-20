@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1815
+Count of solved tasks: 1816
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1624,7 +1624,8 @@ Count of solved tasks: 1815
 |2816|Medium|[Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/)|[Double a Number Represented as a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DoubleNumberRepresentedLinkedList.java)|
 |2817|Medium|[Minimum Absolute Difference Between Elements With Constraint](https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint/)|[Minimum Absolute Difference Between Elements With Constraint.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDifferenceBetweenElementsWithConstraint.java)|
 |2828|Easy|[Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/)|[Check if a String Is an Acronym of Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringIsAcronymOfWords.java)|
-|2829|Medium|[Determine the Minimum Sum of a k-avoiding Array](https://leetcode.com/problems/determine-the-minimum-sum-of-a-k-avoiding-array/)|[Determine the Minimum Sum of a k-avoiding Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineTheMinimumSumOfKAvoidingArray.java)|</p>
+|2829|Medium|[Determine the Minimum Sum of a k-avoiding Array](https://leetcode.com/problems/determine-the-minimum-sum-of-a-k-avoiding-array/)|[Determine the Minimum Sum of a k-avoiding Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineTheMinimumSumOfKAvoidingArray.java)|
+|2830|Medium|[Maximize the Profit as the Salesman](https://leetcode.com/problems/maximize-the-profit-as-the-salesman/)|[Maximize the Profit as the Salesman.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheProfitAsTheSalesman.java)|</p>
 </details>
 
 <details>
@@ -2750,7 +2751,8 @@ Count of solved tasks: 1815
 |2811|Medium|[Check if it is Possible to Split Array](https://leetcode.com/problems/check-if-it-is-possible-to-split-array/description/)|[Check if it is Possible to Split Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfItIsPossibleToSplitArray.java)|
 |2816|Medium|[Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/)|[Double a Number Represented as a Linked List.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DoubleNumberRepresentedLinkedList.java)|
 |2817|Medium|[Minimum Absolute Difference Between Elements With Constraint](https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint/)|[Minimum Absolute Difference Between Elements With Constraint.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDifferenceBetweenElementsWithConstraint.java)|
-|2829|Medium|[Determine the Minimum Sum of a k-avoiding Array](https://leetcode.com/problems/determine-the-minimum-sum-of-a-k-avoiding-array/)|[Determine the Minimum Sum of a k-avoiding Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineTheMinimumSumOfKAvoidingArray.java)|</p>
+|2829|Medium|[Determine the Minimum Sum of a k-avoiding Array](https://leetcode.com/problems/determine-the-minimum-sum-of-a-k-avoiding-array/)|[Determine the Minimum Sum of a k-avoiding Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineTheMinimumSumOfKAvoidingArray.java)|
+|2830|Medium|[Maximize the Profit as the Salesman](https://leetcode.com/problems/maximize-the-profit-as-the-salesman/)|[Maximize the Profit as the Salesman.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheProfitAsTheSalesman.java)|</p>
 </details>
 
 <details>
