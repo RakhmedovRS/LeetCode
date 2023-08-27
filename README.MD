@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1819
+Count of solved tasks: 1820
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1628,7 +1628,8 @@ Count of solved tasks: 1819
 |2829|Medium|[Determine the Minimum Sum of a k-avoiding Array](https://leetcode.com/problems/determine-the-minimum-sum-of-a-k-avoiding-array/)|[Determine the Minimum Sum of a k-avoiding Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineTheMinimumSumOfKAvoidingArray.java)|
 |2830|Medium|[Maximize the Profit as the Salesman](https://leetcode.com/problems/maximize-the-profit-as-the-salesman/)|[Maximize the Profit as the Salesman.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheProfitAsTheSalesman.java)|
 |2831|Medium|[Find the Longest Equal Subarray](https://leetcode.com/problems/find-the-longest-equal-subarray/)|[Find the Longest Equal Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLongestEqualSubarray.java)|
-|2833|Easy|[Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/)|[Furthest Point From Origin.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FurthestPointFromOrigin.java)|</p>
+|2833|Easy|[Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/)|[Furthest Point From Origin.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FurthestPointFromOrigin.java)|
+|2834|Medium|[Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/)|[Find the Minimum Possible Sum of a Beautiful Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMinimumPossibleSumOfBeautifulArray.java)|</p>
 </details>
 
 <details>
@@ -2758,7 +2759,8 @@ Count of solved tasks: 1819
 |2817|Medium|[Minimum Absolute Difference Between Elements With Constraint](https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint/)|[Minimum Absolute Difference Between Elements With Constraint.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDifferenceBetweenElementsWithConstraint.java)|
 |2829|Medium|[Determine the Minimum Sum of a k-avoiding Array](https://leetcode.com/problems/determine-the-minimum-sum-of-a-k-avoiding-array/)|[Determine the Minimum Sum of a k-avoiding Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineTheMinimumSumOfKAvoidingArray.java)|
 |2830|Medium|[Maximize the Profit as the Salesman](https://leetcode.com/problems/maximize-the-profit-as-the-salesman/)|[Maximize the Profit as the Salesman.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheProfitAsTheSalesman.java)|
-|2831|Medium|[Find the Longest Equal Subarray](https://leetcode.com/problems/find-the-longest-equal-subarray/)|[Find the Longest Equal Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLongestEqualSubarray.java)|</p>
+|2831|Medium|[Find the Longest Equal Subarray](https://leetcode.com/problems/find-the-longest-equal-subarray/)|[Find the Longest Equal Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLongestEqualSubarray.java)|
+|2834|Medium|[Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/)|[Find the Minimum Possible Sum of a Beautiful Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMinimumPossibleSumOfBeautifulArray.java)|</p>
 </details>
 
 <details>
