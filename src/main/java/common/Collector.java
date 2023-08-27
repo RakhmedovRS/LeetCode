@@ -1,6 +1,5 @@
 package common;
 
-import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -24,12 +23,13 @@ public class Collector
 	public static void main(String[] args) throws Exception
 	{
 		Set<Integer> seenIds = new HashSet<>();
-		try (Stream<Path> pathStream = Files.list(Paths.get("").toAbsolutePath().resolve("src").resolve("main").resolve("java").resolve("tasks")))
+		Path path = Paths.get("");
+		try (Stream<Path> pathStream = Files.list(path.toAbsolutePath().resolve("src").resolve("main").resolve("java").resolve("tasks")))
 		{
 			List<Map.Entry<LeetCode, String>> annotations = getAnnotations(pathStream, seenIds);
 
-			Path output = Paths.get("").resolve("README.MD");
-			try (OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(output.toFile()));)
+			Path output = path.resolve("README.MD");
+			try (OutputStreamWriter osw = new OutputStreamWriter(Files.newOutputStream(output.toFile().toPath()));)
 			{
 				osw.write(preprocess("![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)"));
 				osw.write(preprocess(String.format(GENERAL_INFO_PATTERN, Collector.class.getSimpleName(), Collector.class.getSimpleName())));
