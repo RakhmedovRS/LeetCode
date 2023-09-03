@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1822
+Count of solved tasks: 1823
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1631,7 +1631,8 @@ Count of solved tasks: 1822
 |2833|Easy|[Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/)|[Furthest Point From Origin.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FurthestPointFromOrigin.java)|
 |2834|Medium|[Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/)|[Find the Minimum Possible Sum of a Beautiful Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMinimumPossibleSumOfBeautifulArray.java)|
 |2835|Medium|[Minimum Operations to Form Subsequence With Target Sum](https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/description/)|[Minimum Operations to Form Subsequence With Target Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToFormSubsequenceWithTargetSum.java)|
-|2839|Easy|[Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/)|[Check if Strings Can be Made Equal With Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringsCanBeMadeEqualWithOperationsI.java)|</p>
+|2839|Easy|[Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/)|[Check if Strings Can be Made Equal With Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringsCanBeMadeEqualWithOperationsI.java)|
+|2840|Medium|[Check if Strings Can be Made Equal With Operations II](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/)|[Check if Strings Can be Made Equal With Operations II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringsCanBeMadeEqualWithOperationsII.java)|</p>
 </details>
 
 <details>
@@ -2764,7 +2765,8 @@ Count of solved tasks: 1822
 |2830|Medium|[Maximize the Profit as the Salesman](https://leetcode.com/problems/maximize-the-profit-as-the-salesman/)|[Maximize the Profit as the Salesman.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheProfitAsTheSalesman.java)|
 |2831|Medium|[Find the Longest Equal Subarray](https://leetcode.com/problems/find-the-longest-equal-subarray/)|[Find the Longest Equal Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLongestEqualSubarray.java)|
 |2834|Medium|[Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/)|[Find the Minimum Possible Sum of a Beautiful Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMinimumPossibleSumOfBeautifulArray.java)|
-|2835|Medium|[Minimum Operations to Form Subsequence With Target Sum](https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/description/)|[Minimum Operations to Form Subsequence With Target Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToFormSubsequenceWithTargetSum.java)|</p>
+|2835|Medium|[Minimum Operations to Form Subsequence With Target Sum](https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/description/)|[Minimum Operations to Form Subsequence With Target Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToFormSubsequenceWithTargetSum.java)|
+|2840|Medium|[Check if Strings Can be Made Equal With Operations II](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/)|[Check if Strings Can be Made Equal With Operations II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringsCanBeMadeEqualWithOperationsII.java)|</p>
 </details>
 
 <details>
