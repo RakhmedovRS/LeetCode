@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1824
+Count of solved tasks: 1825
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1633,7 +1633,8 @@ Count of solved tasks: 1824
 |2835|Medium|[Minimum Operations to Form Subsequence With Target Sum](https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/description/)|[Minimum Operations to Form Subsequence With Target Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToFormSubsequenceWithTargetSum.java)|
 |2839|Easy|[Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/)|[Check if Strings Can be Made Equal With Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringsCanBeMadeEqualWithOperationsI.java)|
 |2840|Medium|[Check if Strings Can be Made Equal With Operations II](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/)|[Check if Strings Can be Made Equal With Operations II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringsCanBeMadeEqualWithOperationsII.java)|
-|2841|Medium|[Maximum Sum of Almost Unique Subarray](https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/)|[Maximum Sum of Almost Unique Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumOfAlmostUniqueSubarray.java)|</p>
+|2841|Medium|[Maximum Sum of Almost Unique Subarray](https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/)|[Maximum Sum of Almost Unique Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumOfAlmostUniqueSubarray.java)|
+|2843|Easy|[Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/)|[Count Symmetric Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSymmetricIntegers.java)|</p>
 </details>
 
 <details>
@@ -2025,7 +2026,8 @@ Count of solved tasks: 1824
 |2824|Easy|[Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/)|[Count Pairs Whose Sum is Less than Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsWhoseSumIsLessThanTarget.java)|
 |2828|Easy|[Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/)|[Check if a String Is an Acronym of Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringIsAcronymOfWords.java)|
 |2833|Easy|[Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/)|[Furthest Point From Origin.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FurthestPointFromOrigin.java)|
-|2839|Easy|[Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/)|[Check if Strings Can be Made Equal With Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringsCanBeMadeEqualWithOperationsI.java)|</p>
+|2839|Easy|[Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/)|[Check if Strings Can be Made Equal With Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringsCanBeMadeEqualWithOperationsI.java)|
+|2843|Easy|[Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/)|[Count Symmetric Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSymmetricIntegers.java)|</p>
 </details>
 
 <details>
