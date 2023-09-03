@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1821
+Count of solved tasks: 1822
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1630,7 +1630,8 @@ Count of solved tasks: 1821
 |2831|Medium|[Find the Longest Equal Subarray](https://leetcode.com/problems/find-the-longest-equal-subarray/)|[Find the Longest Equal Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLongestEqualSubarray.java)|
 |2833|Easy|[Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/)|[Furthest Point From Origin.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FurthestPointFromOrigin.java)|
 |2834|Medium|[Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/)|[Find the Minimum Possible Sum of a Beautiful Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMinimumPossibleSumOfBeautifulArray.java)|
-|2835|Medium|[Minimum Operations to Form Subsequence With Target Sum](https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/description/)|[Minimum Operations to Form Subsequence With Target Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToFormSubsequenceWithTargetSum.java)|</p>
+|2835|Medium|[Minimum Operations to Form Subsequence With Target Sum](https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/description/)|[Minimum Operations to Form Subsequence With Target Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToFormSubsequenceWithTargetSum.java)|
+|2839|Easy|[Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/)|[Check if Strings Can be Made Equal With Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringsCanBeMadeEqualWithOperationsI.java)|</p>
 </details>
 
 <details>
@@ -2021,7 +2022,8 @@ Count of solved tasks: 1821
 |2815|Easy|[Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/)|[Max Pair Sum in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaxPairSumInArray.java)|
 |2824|Easy|[Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/)|[Count Pairs Whose Sum is Less than Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsWhoseSumIsLessThanTarget.java)|
 |2828|Easy|[Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/)|[Check if a String Is an Acronym of Words.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringIsAcronymOfWords.java)|
-|2833|Easy|[Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/)|[Furthest Point From Origin.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FurthestPointFromOrigin.java)|</p>
+|2833|Easy|[Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/)|[Furthest Point From Origin.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FurthestPointFromOrigin.java)|
+|2839|Easy|[Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/)|[Check if Strings Can be Made Equal With Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringsCanBeMadeEqualWithOperationsI.java)|</p>
 </details>
 
 <details>
