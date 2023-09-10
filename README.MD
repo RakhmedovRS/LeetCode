@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1827
+Count of solved tasks: 1828
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1636,7 +1636,8 @@ Count of solved tasks: 1827
 |2841|Medium|[Maximum Sum of Almost Unique Subarray](https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/)|[Maximum Sum of Almost Unique Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumOfAlmostUniqueSubarray.java)|
 |2843|Easy|[Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/)|[Count Symmetric Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSymmetricIntegers.java)|
 |2844|Medium|[Minimum Operations to Make a Special Number](https://leetcode.com/problems/minimum-operations-to-make-a-special-number/)|[Minimum Operations to Make a Special Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeSpecialNumber.java)|
-|2848|Easy|[Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/)|[Points That Intersect With Cars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PointsThatIntersectWithCars.java)|</p>
+|2848|Easy|[Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/)|[Points That Intersect With Cars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PointsThatIntersectWithCars.java)|
+|2849|Medium|[Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/)|[Determine if a Cell Is Reachable at a Given Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineIfCellIsReachableAtGivenTime.java)|</p>
 </details>
 
 <details>
@@ -2774,7 +2775,8 @@ Count of solved tasks: 1827
 |2835|Medium|[Minimum Operations to Form Subsequence With Target Sum](https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/description/)|[Minimum Operations to Form Subsequence With Target Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToFormSubsequenceWithTargetSum.java)|
 |2840|Medium|[Check if Strings Can be Made Equal With Operations II](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/)|[Check if Strings Can be Made Equal With Operations II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringsCanBeMadeEqualWithOperationsII.java)|
 |2841|Medium|[Maximum Sum of Almost Unique Subarray](https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/)|[Maximum Sum of Almost Unique Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumOfAlmostUniqueSubarray.java)|
-|2844|Medium|[Minimum Operations to Make a Special Number](https://leetcode.com/problems/minimum-operations-to-make-a-special-number/)|[Minimum Operations to Make a Special Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeSpecialNumber.java)|</p>
+|2844|Medium|[Minimum Operations to Make a Special Number](https://leetcode.com/problems/minimum-operations-to-make-a-special-number/)|[Minimum Operations to Make a Special Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeSpecialNumber.java)|
+|2849|Medium|[Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/)|[Determine if a Cell Is Reachable at a Given Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineIfCellIsReachableAtGivenTime.java)|</p>
 </details>
 
 <details>
