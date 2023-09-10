@@ -61,6 +61,13 @@ public final class Helper
 		return Math.abs(a[0] - b[0]) + Math.abs(a[1] - b[1]);
 	}
 
+	public static int euclideanDistance(int[] a, int[] b)
+	{
+		double xDiff = a[0] - b[0];
+		double yDiff = a[1] - b[1];
+		return (int)Math.sqrt(xDiff * xDiff + yDiff * yDiff);
+	}
+
 	public static List<int[]> getCommonDivisors(int k)
 	{
 		List<int[]> answer = new ArrayList<>();
