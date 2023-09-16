@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1829
+Count of solved tasks: 1830
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1638,7 +1638,8 @@ Count of solved tasks: 1829
 |2844|Medium|[Minimum Operations to Make a Special Number](https://leetcode.com/problems/minimum-operations-to-make-a-special-number/)|[Minimum Operations to Make a Special Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeSpecialNumber.java)|
 |2848|Easy|[Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/)|[Points That Intersect With Cars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PointsThatIntersectWithCars.java)|
 |2849|Medium|[Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/)|[Determine if a Cell Is Reachable at a Given Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineIfCellIsReachableAtGivenTime.java)|
-|2850|Medium|[Minimum Moves to Spread Stones Over Grid](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/description/)|[Minimum Moves to Spread Stones Over Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToSpreadStonesOverGrid.java)|</p>
+|2850|Medium|[Minimum Moves to Spread Stones Over Grid](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/description/)|[Minimum Moves to Spread Stones Over Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToSpreadStonesOverGrid.java)|
+|2855|Easy|[Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/)|[Minimum Right Shifts to Sort the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRightShiftsToSortTheArray.java)|</p>
 </details>
 
 <details>
@@ -2032,7 +2033,8 @@ Count of solved tasks: 1829
 |2833|Easy|[Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/)|[Furthest Point From Origin.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FurthestPointFromOrigin.java)|
 |2839|Easy|[Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/)|[Check if Strings Can be Made Equal With Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfStringsCanBeMadeEqualWithOperationsI.java)|
 |2843|Easy|[Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/)|[Count Symmetric Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSymmetricIntegers.java)|
-|2848|Easy|[Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/)|[Points That Intersect With Cars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PointsThatIntersectWithCars.java)|</p>
+|2848|Easy|[Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/)|[Points That Intersect With Cars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PointsThatIntersectWithCars.java)|
+|2855|Easy|[Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/)|[Minimum Right Shifts to Sort the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRightShiftsToSortTheArray.java)|</p>
 </details>
 
 <details>
