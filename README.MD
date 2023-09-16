@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1830
+Count of solved tasks: 1831
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1639,7 +1639,8 @@ Count of solved tasks: 1830
 |2848|Easy|[Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/)|[Points That Intersect With Cars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PointsThatIntersectWithCars.java)|
 |2849|Medium|[Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/)|[Determine if a Cell Is Reachable at a Given Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineIfCellIsReachableAtGivenTime.java)|
 |2850|Medium|[Minimum Moves to Spread Stones Over Grid](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/description/)|[Minimum Moves to Spread Stones Over Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToSpreadStonesOverGrid.java)|
-|2855|Easy|[Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/)|[Minimum Right Shifts to Sort the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRightShiftsToSortTheArray.java)|</p>
+|2855|Easy|[Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/)|[Minimum Right Shifts to Sort the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRightShiftsToSortTheArray.java)|
+|2856|Medium|[Minimum Array Length After Pair Removals](https://leetcode.com/problems/minimum-array-length-after-pair-removals/)|[Minimum Array Length After Pair Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumArrayLengthAfterPairRemovals.java)|</p>
 </details>
 
 <details>
@@ -2780,7 +2781,8 @@ Count of solved tasks: 1830
 |2841|Medium|[Maximum Sum of Almost Unique Subarray](https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/)|[Maximum Sum of Almost Unique Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumOfAlmostUniqueSubarray.java)|
 |2844|Medium|[Minimum Operations to Make a Special Number](https://leetcode.com/problems/minimum-operations-to-make-a-special-number/)|[Minimum Operations to Make a Special Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeSpecialNumber.java)|
 |2849|Medium|[Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/)|[Determine if a Cell Is Reachable at a Given Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineIfCellIsReachableAtGivenTime.java)|
-|2850|Medium|[Minimum Moves to Spread Stones Over Grid](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/description/)|[Minimum Moves to Spread Stones Over Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToSpreadStonesOverGrid.java)|</p>
+|2850|Medium|[Minimum Moves to Spread Stones Over Grid](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/description/)|[Minimum Moves to Spread Stones Over Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToSpreadStonesOverGrid.java)|
+|2856|Medium|[Minimum Array Length After Pair Removals](https://leetcode.com/problems/minimum-array-length-after-pair-removals/)|[Minimum Array Length After Pair Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumArrayLengthAfterPairRemovals.java)|</p>
 </details>
 
 <details>
