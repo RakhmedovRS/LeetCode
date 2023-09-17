@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1832
+Count of solved tasks: 1833
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1641,7 +1641,8 @@ Count of solved tasks: 1832
 |2850|Medium|[Minimum Moves to Spread Stones Over Grid](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/description/)|[Minimum Moves to Spread Stones Over Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToSpreadStonesOverGrid.java)|
 |2855|Easy|[Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/)|[Minimum Right Shifts to Sort the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRightShiftsToSortTheArray.java)|
 |2856|Medium|[Minimum Array Length After Pair Removals](https://leetcode.com/problems/minimum-array-length-after-pair-removals/)|[Minimum Array Length After Pair Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumArrayLengthAfterPairRemovals.java)|
-|2859|Easy|[Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/)|[Sum of Values at Indices With K Set Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfValuesAtIndicesWithKSetBits.java)|</p>
+|2859|Easy|[Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/)|[Sum of Values at Indices With K Set Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfValuesAtIndicesWithKSetBits.java)|
+|2860|Medium|[Happy Students](https://leetcode.com/problems/happy-students/)|[Happy Students.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HappyStudents.java)|</p>
 </details>
 
 <details>
@@ -2784,7 +2785,8 @@ Count of solved tasks: 1832
 |2844|Medium|[Minimum Operations to Make a Special Number](https://leetcode.com/problems/minimum-operations-to-make-a-special-number/)|[Minimum Operations to Make a Special Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeSpecialNumber.java)|
 |2849|Medium|[Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/)|[Determine if a Cell Is Reachable at a Given Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineIfCellIsReachableAtGivenTime.java)|
 |2850|Medium|[Minimum Moves to Spread Stones Over Grid](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/description/)|[Minimum Moves to Spread Stones Over Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToSpreadStonesOverGrid.java)|
-|2856|Medium|[Minimum Array Length After Pair Removals](https://leetcode.com/problems/minimum-array-length-after-pair-removals/)|[Minimum Array Length After Pair Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumArrayLengthAfterPairRemovals.java)|</p>
+|2856|Medium|[Minimum Array Length After Pair Removals](https://leetcode.com/problems/minimum-array-length-after-pair-removals/)|[Minimum Array Length After Pair Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumArrayLengthAfterPairRemovals.java)|
+|2860|Medium|[Happy Students](https://leetcode.com/problems/happy-students/)|[Happy Students.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HappyStudents.java)|</p>
 </details>
 
 <details>
