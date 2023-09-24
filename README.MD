@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1835
+Count of solved tasks: 1836
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1644,7 +1644,8 @@ Count of solved tasks: 1835
 |2859|Easy|[Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/)|[Sum of Values at Indices With K Set Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfValuesAtIndicesWithKSetBits.java)|
 |2860|Medium|[Happy Students](https://leetcode.com/problems/happy-students/)|[Happy Students.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HappyStudents.java)|
 |2861|Medium|[Maximum Number of Alloys](https://leetcode.com/problems/maximum-number-of-alloys/)|[Maximum Number of Alloys.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfAlloys.java)|
-|2864|Easy|[Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/)|[Maximum Odd Binary Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumOddBinaryNumber.java)|</p>
+|2864|Easy|[Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/)|[Maximum Odd Binary Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumOddBinaryNumber.java)|
+|2865|Medium|[Beautiful Towers I](https://leetcode.com/problems/beautiful-towers-i/)|[Beautiful Towers I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BeautifulTowersI.java)|</p>
 </details>
 
 <details>
@@ -2790,7 +2791,8 @@ Count of solved tasks: 1835
 |2850|Medium|[Minimum Moves to Spread Stones Over Grid](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/description/)|[Minimum Moves to Spread Stones Over Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToSpreadStonesOverGrid.java)|
 |2856|Medium|[Minimum Array Length After Pair Removals](https://leetcode.com/problems/minimum-array-length-after-pair-removals/)|[Minimum Array Length After Pair Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumArrayLengthAfterPairRemovals.java)|
 |2860|Medium|[Happy Students](https://leetcode.com/problems/happy-students/)|[Happy Students.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HappyStudents.java)|
-|2861|Medium|[Maximum Number of Alloys](https://leetcode.com/problems/maximum-number-of-alloys/)|[Maximum Number of Alloys.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfAlloys.java)|</p>
+|2861|Medium|[Maximum Number of Alloys](https://leetcode.com/problems/maximum-number-of-alloys/)|[Maximum Number of Alloys.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfAlloys.java)|
+|2865|Medium|[Beautiful Towers I](https://leetcode.com/problems/beautiful-towers-i/)|[Beautiful Towers I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BeautifulTowersI.java)|</p>
 </details>
 
 <details>
