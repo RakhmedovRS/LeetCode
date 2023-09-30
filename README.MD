@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1836
+Count of solved tasks: 1837
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1645,7 +1645,8 @@ Count of solved tasks: 1836
 |2860|Medium|[Happy Students](https://leetcode.com/problems/happy-students/)|[Happy Students.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HappyStudents.java)|
 |2861|Medium|[Maximum Number of Alloys](https://leetcode.com/problems/maximum-number-of-alloys/)|[Maximum Number of Alloys.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfAlloys.java)|
 |2864|Easy|[Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/)|[Maximum Odd Binary Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumOddBinaryNumber.java)|
-|2865|Medium|[Beautiful Towers I](https://leetcode.com/problems/beautiful-towers-i/)|[Beautiful Towers I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BeautifulTowersI.java)|</p>
+|2865|Medium|[Beautiful Towers I](https://leetcode.com/problems/beautiful-towers-i/)|[Beautiful Towers I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BeautifulTowersI.java)|
+|2869|Easy|[Minimum Operations to Collect Elements](https://leetcode.com/problems/minimum-operations-to-collect-elements/description/)|[Minimum Operations to Collect Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToCollectElements.java)|</p>
 </details>
 
 <details>
@@ -2042,7 +2043,8 @@ Count of solved tasks: 1836
 |2848|Easy|[Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/)|[Points That Intersect With Cars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PointsThatIntersectWithCars.java)|
 |2855|Easy|[Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/)|[Minimum Right Shifts to Sort the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRightShiftsToSortTheArray.java)|
 |2859|Easy|[Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/)|[Sum of Values at Indices With K Set Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfValuesAtIndicesWithKSetBits.java)|
-|2864|Easy|[Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/)|[Maximum Odd Binary Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumOddBinaryNumber.java)|</p>
+|2864|Easy|[Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/)|[Maximum Odd Binary Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumOddBinaryNumber.java)|
+|2869|Easy|[Minimum Operations to Collect Elements](https://leetcode.com/problems/minimum-operations-to-collect-elements/description/)|[Minimum Operations to Collect Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToCollectElements.java)|</p>
 </details>
 
 <details>
