@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1837
+Count of solved tasks: 1838
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1646,7 +1646,8 @@ Count of solved tasks: 1837
 |2861|Medium|[Maximum Number of Alloys](https://leetcode.com/problems/maximum-number-of-alloys/)|[Maximum Number of Alloys.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfAlloys.java)|
 |2864|Easy|[Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/)|[Maximum Odd Binary Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumOddBinaryNumber.java)|
 |2865|Medium|[Beautiful Towers I](https://leetcode.com/problems/beautiful-towers-i/)|[Beautiful Towers I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BeautifulTowersI.java)|
-|2869|Easy|[Minimum Operations to Collect Elements](https://leetcode.com/problems/minimum-operations-to-collect-elements/description/)|[Minimum Operations to Collect Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToCollectElements.java)|</p>
+|2869|Easy|[Minimum Operations to Collect Elements](https://leetcode.com/problems/minimum-operations-to-collect-elements/description/)|[Minimum Operations to Collect Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToCollectElements.java)|
+|2870|Medium|[Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/description/)|[Minimum Number of Operations to Make Array Empty.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeArrayEmpty.java)|</p>
 </details>
 
 <details>
@@ -2794,7 +2795,8 @@ Count of solved tasks: 1837
 |2856|Medium|[Minimum Array Length After Pair Removals](https://leetcode.com/problems/minimum-array-length-after-pair-removals/)|[Minimum Array Length After Pair Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumArrayLengthAfterPairRemovals.java)|
 |2860|Medium|[Happy Students](https://leetcode.com/problems/happy-students/)|[Happy Students.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HappyStudents.java)|
 |2861|Medium|[Maximum Number of Alloys](https://leetcode.com/problems/maximum-number-of-alloys/)|[Maximum Number of Alloys.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfAlloys.java)|
-|2865|Medium|[Beautiful Towers I](https://leetcode.com/problems/beautiful-towers-i/)|[Beautiful Towers I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BeautifulTowersI.java)|</p>
+|2865|Medium|[Beautiful Towers I](https://leetcode.com/problems/beautiful-towers-i/)|[Beautiful Towers I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BeautifulTowersI.java)|
+|2870|Medium|[Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/description/)|[Minimum Number of Operations to Make Array Empty.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeArrayEmpty.java)|</p>
 </details>
 
 <details>
