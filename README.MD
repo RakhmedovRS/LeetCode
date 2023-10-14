@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1840
+Count of solved tasks: 1841
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1649,6 +1649,7 @@ Count of solved tasks: 1840
 |2869|Easy|[Minimum Operations to Collect Elements](https://leetcode.com/problems/minimum-operations-to-collect-elements/description/)|[Minimum Operations to Collect Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToCollectElements.java)|
 |2870|Medium|[Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/description/)|[Minimum Number of Operations to Make Array Empty.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeArrayEmpty.java)|
 |2899|Easy|[Last Visited Integers](https://leetcode.com/problems/last-visited-integers/)|[Last Visited Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LastVisitedIntegers.java)|
+|2900|Medium|[Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/)|[Longest Unequal Adjacent Groups Subsequence I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestUnequalAdjacentGroupsSubsequenceI.java)|
 |2971|Medium|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/)|[Split Array Into Maximum Number of Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayIntoMaximumNumberOfSubarrays.java)|</p>
 </details>
 
@@ -2800,6 +2801,7 @@ Count of solved tasks: 1840
 |2861|Medium|[Maximum Number of Alloys](https://leetcode.com/problems/maximum-number-of-alloys/)|[Maximum Number of Alloys.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfAlloys.java)|
 |2865|Medium|[Beautiful Towers I](https://leetcode.com/problems/beautiful-towers-i/)|[Beautiful Towers I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BeautifulTowersI.java)|
 |2870|Medium|[Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/description/)|[Minimum Number of Operations to Make Array Empty.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeArrayEmpty.java)|
+|2900|Medium|[Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/)|[Longest Unequal Adjacent Groups Subsequence I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestUnequalAdjacentGroupsSubsequenceI.java)|
 |2971|Medium|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/)|[Split Array Into Maximum Number of Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayIntoMaximumNumberOfSubarrays.java)|</p>
 </details>
 
