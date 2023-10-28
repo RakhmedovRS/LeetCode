@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1844
+Count of solved tasks: 1845
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1653,6 +1653,7 @@ Count of solved tasks: 1844
 |2901|Medium|[Longest Unequal Adjacent Groups Subsequence II](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii/description/)|[Longest Unequal Adjacent Groups Subsequence II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestUnequalAdjacentGroupsSubsequenceII.java)|
 |2908|Easy|[Minimum Sum of Mountain Triplets I](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/)|[Minimum Sum of Mountain Triplets I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSumOfMountainTripletsI.java)|
 |2909|Medium|[Minimum Sum of Mountain Triplets II](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii/)|[Minimum Sum of Mountain Triplets II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSumOfMountainTripletsII.java)|
+|2913|Easy|[Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/)|[Subarrays Distinct Element Sum of Squares I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubarraysDistinctElementSumOfSquaresI.java)|
 |2971|Medium|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/)|[Split Array Into Maximum Number of Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayIntoMaximumNumberOfSubarrays.java)|</p>
 </details>
 
@@ -2053,7 +2054,8 @@ Count of solved tasks: 1844
 |2864|Easy|[Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/)|[Maximum Odd Binary Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumOddBinaryNumber.java)|
 |2869|Easy|[Minimum Operations to Collect Elements](https://leetcode.com/problems/minimum-operations-to-collect-elements/description/)|[Minimum Operations to Collect Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToCollectElements.java)|
 |2899|Easy|[Last Visited Integers](https://leetcode.com/problems/last-visited-integers/)|[Last Visited Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LastVisitedIntegers.java)|
-|2908|Easy|[Minimum Sum of Mountain Triplets I](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/)|[Minimum Sum of Mountain Triplets I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSumOfMountainTripletsI.java)|</p>
+|2908|Easy|[Minimum Sum of Mountain Triplets I](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/)|[Minimum Sum of Mountain Triplets I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSumOfMountainTripletsI.java)|
+|2913|Easy|[Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/)|[Subarrays Distinct Element Sum of Squares I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubarraysDistinctElementSumOfSquaresI.java)|</p>
 </details>
 
 <details>
