@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1849
+Count of solved tasks: 1850
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1658,6 +1658,7 @@ Count of solved tasks: 1849
 |2915|Medium|[Length of the Longest Subsequence That Sums to Target](https://leetcode.com/problems/length-of-the-longest-subsequence-that-sums-to-target/)|[Length of the Longest Subsequence That Sums to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LengthOfTheLongestSubsequenceThatSumsToTarget.java)|
 |2918|Medium|[Minimum Equal Sum of Two Arrays After Replacing Zeros](https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros/description/)|[Minimum Equal Sum of Two Arrays After Replacing Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumEqualSumOfTwoArraysAfterReplacingZeros.java)|
 |2923|Easy|[Find Champion I](https://leetcode.com/problems/find-champion-i/)|[Find Champion I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindChampionI.java)|
+|2924|Medium|[Find Champion II](https://leetcode.com/problems/find-champion-ii/)|[Find Champion II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindChampionII.java)|
 |2971|Medium|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/)|[Split Array Into Maximum Number of Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayIntoMaximumNumberOfSubarrays.java)|</p>
 </details>
 
@@ -2818,6 +2819,7 @@ Count of solved tasks: 1849
 |2914|Medium|[Minimum Number of Changes to Make Binary String Beautiful](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/)|[Minimum Number of Changes to Make Binary String Beautiful.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfChangesToMakeBinaryStringBeautiful.java)|
 |2915|Medium|[Length of the Longest Subsequence That Sums to Target](https://leetcode.com/problems/length-of-the-longest-subsequence-that-sums-to-target/)|[Length of the Longest Subsequence That Sums to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LengthOfTheLongestSubsequenceThatSumsToTarget.java)|
 |2918|Medium|[Minimum Equal Sum of Two Arrays After Replacing Zeros](https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros/description/)|[Minimum Equal Sum of Two Arrays After Replacing Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumEqualSumOfTwoArraysAfterReplacingZeros.java)|
+|2924|Medium|[Find Champion II](https://leetcode.com/problems/find-champion-ii/)|[Find Champion II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindChampionII.java)|
 |2971|Medium|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/)|[Split Array Into Maximum Number of Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayIntoMaximumNumberOfSubarrays.java)|</p>
 </details>
 
