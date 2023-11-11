@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1850
+Count of solved tasks: 1851
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1659,6 +1659,7 @@ Count of solved tasks: 1850
 |2918|Medium|[Minimum Equal Sum of Two Arrays After Replacing Zeros](https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros/description/)|[Minimum Equal Sum of Two Arrays After Replacing Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumEqualSumOfTwoArraysAfterReplacingZeros.java)|
 |2923|Easy|[Find Champion I](https://leetcode.com/problems/find-champion-i/)|[Find Champion I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindChampionI.java)|
 |2924|Medium|[Find Champion II](https://leetcode.com/problems/find-champion-ii/)|[Find Champion II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindChampionII.java)|
+|2928|Easy|[Distribute Candies Among Children I](https://leetcode.com/problems/distribute-candies-among-children-i/description/)|[Distribute Candies Among Children I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DistributeCandiesAmongChildrenI.java)|
 |2971|Medium|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/)|[Split Array Into Maximum Number of Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayIntoMaximumNumberOfSubarrays.java)|</p>
 </details>
 
@@ -2061,7 +2062,8 @@ Count of solved tasks: 1850
 |2899|Easy|[Last Visited Integers](https://leetcode.com/problems/last-visited-integers/)|[Last Visited Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LastVisitedIntegers.java)|
 |2908|Easy|[Minimum Sum of Mountain Triplets I](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/)|[Minimum Sum of Mountain Triplets I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSumOfMountainTripletsI.java)|
 |2913|Easy|[Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/)|[Subarrays Distinct Element Sum of Squares I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubarraysDistinctElementSumOfSquaresI.java)|
-|2923|Easy|[Find Champion I](https://leetcode.com/problems/find-champion-i/)|[Find Champion I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindChampionI.java)|</p>
+|2923|Easy|[Find Champion I](https://leetcode.com/problems/find-champion-i/)|[Find Champion I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindChampionI.java)|
+|2928|Easy|[Distribute Candies Among Children I](https://leetcode.com/problems/distribute-candies-among-children-i/description/)|[Distribute Candies Among Children I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DistributeCandiesAmongChildrenI.java)|</p>
 </details>
 
 <details>
