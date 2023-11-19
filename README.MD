@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1857
+Count of solved tasks: 1858
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1666,6 +1666,7 @@ Count of solved tasks: 1857
 |2934|Medium|[Minimum Operations to Maximize Last Elements in Arrays](https://leetcode.com/problems/minimum-operations-to-maximize-last-elements-in-arrays/)|[Minimum Operations to Maximize Last Elements in Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMaximizeLastElementsInArrays.java)|
 |2937|Easy|[Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/)|[Make Three Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeThreeStringsEqual.java)|
 |2938|Medium|[Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/)|[Separate Black and White Balls.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SeparateBlackAndWhiteBalls.java)|
+|2939|Medium|[Maximum Xor Product](https://leetcode.com/problems/maximum-xor-product/description/)|[Maximum Xor Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumXorProduct.java)|
 |2971|Medium|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/)|[Split Array Into Maximum Number of Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayIntoMaximumNumberOfSubarrays.java)|</p>
 </details>
 
@@ -2834,6 +2835,7 @@ Count of solved tasks: 1857
 |2933|Medium|[High-Access Employees](https://leetcode.com/problems/high-access-employees/)|[High-Access Employees.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HighAccessEmployees.java)|
 |2934|Medium|[Minimum Operations to Maximize Last Elements in Arrays](https://leetcode.com/problems/minimum-operations-to-maximize-last-elements-in-arrays/)|[Minimum Operations to Maximize Last Elements in Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMaximizeLastElementsInArrays.java)|
 |2938|Medium|[Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/)|[Separate Black and White Balls.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SeparateBlackAndWhiteBalls.java)|
+|2939|Medium|[Maximum Xor Product](https://leetcode.com/problems/maximum-xor-product/description/)|[Maximum Xor Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumXorProduct.java)|
 |2971|Medium|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/)|[Split Array Into Maximum Number of Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayIntoMaximumNumberOfSubarrays.java)|</p>
 </details>
 
