@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1858
+Count of solved tasks: 1859
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1135,6 +1135,7 @@ Count of solved tasks: 1858
 |1806|Medium|[Minimum Number of Operations to Reinitialize a Permutation](https://leetcode.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation/)|[Minimum Number of Operations to Reinitialize a Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToReinitializePermutation.java)|
 |1807|Medium|[Evaluate the Bracket Pairs of a String](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/)|[Evaluate the Bracket Pairs of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateTheBracketPairsOfString.java)|
 |1812|Easy|[Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)|[Determine Color of a Chessboard Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DetermineColorOfChessboardSquare.java)|
+|1814|Medium|[Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/)|[Count Nice Pairs in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNicePairsInArray.java)|
 |1822|Easy|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[Sign of the Product of an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SignOfTheProductOfArray.java)|
 |1823|Medium|[Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[Find the Winner of the Circular Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheWinnerOfTheCircularGame.java)|
 |1824|Medium|[Minimum Sideway Jumps](https://leetcode.com/problems/minimum-sideway-jumps/)|[Minimum Sideway Jumps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSidewayJumps.java)|
@@ -2525,6 +2526,7 @@ Count of solved tasks: 1858
 |1802|Medium|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|[Maximum Value at a Given Index in a Bounded Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumValueAtGivenIndexInBoundedArray.java)|
 |1806|Medium|[Minimum Number of Operations to Reinitialize a Permutation](https://leetcode.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation/)|[Minimum Number of Operations to Reinitialize a Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToReinitializePermutation.java)|
 |1807|Medium|[Evaluate the Bracket Pairs of a String](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/)|[Evaluate the Bracket Pairs of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvaluateTheBracketPairsOfString.java)|
+|1814|Medium|[Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/)|[Count Nice Pairs in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNicePairsInArray.java)|
 |1823|Medium|[Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[Find the Winner of the Circular Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheWinnerOfTheCircularGame.java)|
 |1824|Medium|[Minimum Sideway Jumps](https://leetcode.com/problems/minimum-sideway-jumps/)|[Minimum Sideway Jumps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSidewayJumps.java)|
 |1828|Medium|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|[Queries on Number of Points Inside a Circle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/QueriesOnNumberOfPointsInsideCircle.java)|
