@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1862
+Count of solved tasks: 1863
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1671,6 +1671,7 @@ Count of solved tasks: 1862
 |2942|Easy|[Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/)|[Find Words Containing Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindWordsContainingCharacter.java)|
 |2943|Medium|[Maximize Area of Square Hole in Grid](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/)|[Maximize Area of Square Hole in Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeAreaOfSquareHoleInGrid.java)|
 |2946|Easy|[Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/)|[Matrix Similarity After Cyclic Shifts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MatrixSimilarityAfterCyclicShifts.java)|
+|2947|Medium|[Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/)|[Count Beautiful Substrings I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountBeautifulSubstringsI.java)|
 |2971|Medium|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/)|[Split Array Into Maximum Number of Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayIntoMaximumNumberOfSubarrays.java)|</p>
 </details>
 
@@ -2844,6 +2845,7 @@ Count of solved tasks: 1862
 |2938|Medium|[Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/)|[Separate Black and White Balls.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SeparateBlackAndWhiteBalls.java)|
 |2939|Medium|[Maximum Xor Product](https://leetcode.com/problems/maximum-xor-product/description/)|[Maximum Xor Product.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumXorProduct.java)|
 |2943|Medium|[Maximize Area of Square Hole in Grid](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/)|[Maximize Area of Square Hole in Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeAreaOfSquareHoleInGrid.java)|
+|2947|Medium|[Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/)|[Count Beautiful Substrings I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountBeautifulSubstringsI.java)|
 |2971|Medium|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/)|[Split Array Into Maximum Number of Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayIntoMaximumNumberOfSubarrays.java)|</p>
 </details>
 
