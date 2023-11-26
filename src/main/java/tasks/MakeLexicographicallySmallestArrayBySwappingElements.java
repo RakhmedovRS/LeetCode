@@ -24,35 +24,32 @@ public class MakeLexicographicallySmallestArrayBySwappingElements
 	{
 		int[] copy = Arrays.copyOf(nums, nums.length);
 		Arrays.sort(copy);
-		Map<Integer, LinkedList<Integer>> subs = new HashMap<>((int) (nums.length * 1.4D));
-		for (int i = 0; i < copy.length; )
+		Map<Integer, LinkedList<Integer>> subGroups = new HashMap<>((int) (nums.length * 1.4D));
+		for (int i = 0; i < copy.length; i++)
 		{
-			LinkedList<Integer> list = new LinkedList<>();
-			list.add(copy[i]);
-			subs.put(copy[i], list);
+			LinkedList<Integer> subGroup = new LinkedList<>();
+			subGroup.add(copy[i]);
+			subGroups.put(copy[i], subGroup);
 			int prev = copy[i];
-			int steps = 0;
 			for (int j = i + 1; j < nums.length; j++)
 			{
 				if (copy[j] - prev <= limit)
 				{
-					list.add(copy[j]);
+					subGroup.add(copy[j]);
 					i = j;
 					prev = copy[j];
-					subs.put(copy[j], list);
+					subGroups.put(copy[j], subGroup);
 				}
 				else
 				{
 					break;
 				}
 			}
-
-			i += steps + 1;
 		}
 
 		for (int i = 0; i < nums.length; i++)
 		{
-			LinkedList<Integer> list = subs.get(nums[i]);
+			LinkedList<Integer> list = subGroups.get(nums[i]);
 			nums[i] = list.removeFirst();
 		}
 
