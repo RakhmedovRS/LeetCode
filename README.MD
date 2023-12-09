@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1868
+Count of solved tasks: 1869
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1677,6 +1677,7 @@ Count of solved tasks: 1868
 |2952|Medium|[Minimum Number of Coins to be Added](https://leetcode.com/problems/minimum-number-of-coins-to-be-added/description/)|[Minimum Number of Coins to be Added.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfCoinsToBeAdded.java)|
 |2956|Easy|[Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/)|[Find Common Elements Between Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindCommonElementsBetweenTwoArrays.java)|
 |2957|Medium|[Remove Adjacent Almost-Equal Characters](https://leetcode.com/problems/remove-adjacent-almost-equal-characters/)|[Remove Adjacent Almost-Equal Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveAdjacentAlmostEqualCharacters.java)|
+|2958|Medium|[Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/)|[Length of Longest Subarray With at Most K Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LengthOfLongestSubarrayWithAtMostKFrequency.java)|
 |2971|Medium|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/)|[Split Array Into Maximum Number of Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayIntoMaximumNumberOfSubarrays.java)|</p>
 </details>
 
@@ -2856,6 +2857,7 @@ Count of solved tasks: 1868
 |2948|Medium|[Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/)|[Make Lexicographically Smallest Array by Swapping Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeLexicographicallySmallestArrayBySwappingElements.java)|
 |2952|Medium|[Minimum Number of Coins to be Added](https://leetcode.com/problems/minimum-number-of-coins-to-be-added/description/)|[Minimum Number of Coins to be Added.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfCoinsToBeAdded.java)|
 |2957|Medium|[Remove Adjacent Almost-Equal Characters](https://leetcode.com/problems/remove-adjacent-almost-equal-characters/)|[Remove Adjacent Almost-Equal Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveAdjacentAlmostEqualCharacters.java)|
+|2958|Medium|[Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/)|[Length of Longest Subarray With at Most K Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LengthOfLongestSubarrayWithAtMostKFrequency.java)|
 |2971|Medium|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/)|[Split Array Into Maximum Number of Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayIntoMaximumNumberOfSubarrays.java)|</p>
 </details>
 
