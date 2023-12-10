@@ -15,24 +15,19 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/statistics-from-a-large-sample/",
 		difficulty = Difficulty.MEDIUM
 )
-public class StatisticsFromLargeSample
-{
-	public double[] sampleStats(int[] count)
-	{
+public class StatisticsFromLargeSample {
+	public double[] sampleStats(int[] count) {
 		double min = Double.MAX_VALUE;
 		double max = Double.MIN_VALUE;
 		double sum = 0;
 		int mean = 0;
 		int numbersCount = 0;
-		for (int i = 0; i < count.length; i++)
-		{
-			if (count[i] != 0)
-			{
+		for (int i = 0; i < count.length; i++) {
+			if (count[i] != 0) {
 				min = Math.min(min, i);
 				max = Math.max(min, i);
 				numbersCount += count[i];
-				if (count[i] > count[mean])
-				{
+				if (count[i] > count[mean]) {
 					mean = i;
 				}
 			}
@@ -40,26 +35,19 @@ public class StatisticsFromLargeSample
 
 		int elements = 0;
 		double sumOfMiddle = 0;
-		for (int i = 0; i < count.length; i++)
-		{
-			if (count[i] != 0)
-			{
+		for (int i = 0; i < count.length; i++) {
+			if (count[i] != 0) {
 				sum += count[i] * i;
-				if (numbersCount % 2 == 0)
-				{
-					if (elements < numbersCount / 2 && elements + count[i] > numbersCount / 2)
-					{
+				if (numbersCount % 2 == 0) {
+					if (elements < numbersCount / 2 && elements + count[i] > numbersCount / 2) {
 						sumOfMiddle += i * 2;
 					}
-					else if ((elements <= (numbersCount / 2) && elements + count[i] >= (numbersCount / 2) - 1))
-					{
+					else if ((elements <= (numbersCount / 2) && elements + count[i] >= (numbersCount / 2) - 1)) {
 						sumOfMiddle += i;
 					}
 				}
-				else
-				{
-					if (elements < numbersCount / 2 && elements + count[i] >= numbersCount / 2)
-					{
+				else {
+					if (elements < numbersCount / 2 && elements + count[i] >= numbersCount / 2) {
 						sumOfMiddle += i;
 					}
 				}
@@ -73,8 +61,7 @@ public class StatisticsFromLargeSample
 		return new double[]{min, max, sum / numbersCount, median, mean};
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		StatisticsFromLargeSample clazz = new StatisticsFromLargeSample();
 
 		System.out.println(Arrays.toString(clazz.sampleStats(new int[]{0, 1, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,

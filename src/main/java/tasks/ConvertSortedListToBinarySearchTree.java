@@ -18,13 +18,10 @@ import java.util.List;
 		url = "https://leetcode.com/problems/minimum-window-substring/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ConvertSortedListToBinarySearchTree
-{
-	public TreeNode sortedListToBST(ListNode head)
-	{
+public class ConvertSortedListToBinarySearchTree {
+	public TreeNode sortedListToBST(ListNode head) {
 		List<Integer> values = new ArrayList<>();
-		while (head != null)
-		{
+		while (head != null) {
 			values.add(head.val);
 			head = head.next;
 		}
@@ -32,15 +29,12 @@ public class ConvertSortedListToBinarySearchTree
 		return sortedListToBST(0, values.size() - 1, values);
 	}
 
-	public TreeNode sortedListToBST(int left, int right, List<Integer> values)
-	{
-		if (left > right)
-		{
+	public TreeNode sortedListToBST(int left, int right, List<Integer> values) {
+		if (left > right) {
 			return null;
 		}
 
-		if (left == right)
-		{
+		if (left == right) {
 			return new TreeNode(values.get(left));
 		}
 

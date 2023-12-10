@@ -13,16 +13,12 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/",
 		difficulty = Difficulty.EASY
 )
-public class FindTheWidthOfColumnsOfGrid
-{
-	public int[] findColumnWidth(int[][] grid)
-	{
+public class FindTheWidthOfColumnsOfGrid {
+	public int[] findColumnWidth(int[][] grid) {
 		int[] ans = new int[grid[0].length];
-		for (int column = 0; column < grid[0].length; column++)
-		{
+		for (int column = 0; column < grid[0].length; column++) {
 			int max = 0;
-			for (int[] row : grid)
-			{
+			for (int[] row : grid) {
 				max = Math.max(max, String.valueOf(row[column]).length());
 			}
 			ans[column] = max;

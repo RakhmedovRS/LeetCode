@@ -13,13 +13,10 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/sum-of-digits-in-base-k/",
 		difficulty = Difficulty.EASY
 )
-public class SumOfDigitsInBaseK
-{
-	public int sumBase(int n, int k)
-	{
+public class SumOfDigitsInBaseK {
+	public int sumBase(int n, int k) {
 		int sum = 0;
-		while (n >= k)
-		{
+		while (n >= k) {
 			sum += n % k;
 			n /= k;
 		}

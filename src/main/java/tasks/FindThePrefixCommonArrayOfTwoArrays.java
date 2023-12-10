@@ -13,15 +13,12 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindThePrefixCommonArrayOfTwoArrays
-{
-	public int[] findThePrefixCommonArray(int[] A, int[] B)
-	{
+public class FindThePrefixCommonArrayOfTwoArrays {
+	public int[] findThePrefixCommonArray(int[] A, int[] B) {
 		boolean[] arr1 = new boolean[51];
 		boolean[] arr2 = new boolean[51];
 		int[] ans = new int[A.length];
-		for (int i = 0; i < A.length; i++)
-		{
+		for (int i = 0; i < A.length; i++) {
 			arr1[A[i]] = true;
 			arr2[B[i]] = true;
 			ans[i] = common(arr1, arr2);
@@ -30,13 +27,10 @@ public class FindThePrefixCommonArrayOfTwoArrays
 		return ans;
 	}
 
-	private int common(boolean[] arr1, boolean[] arr2)
-	{
+	private int common(boolean[] arr1, boolean[] arr2) {
 		int count = 0;
-		for (int i = 0; i < arr1.length; i++)
-		{
-			if (arr1[i] && arr2[i])
-			{
+		for (int i = 0; i < arr1.length; i++) {
+			if (arr1[i] && arr2[i]) {
 				count++;
 			}
 		}

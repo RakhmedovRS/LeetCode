@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/watering-plants-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class WateringPlantsII
-{
-	public int minimumRefill(int[] plants, int capacityA, int capacityB)
-	{
+public class WateringPlantsII {
+	public int minimumRefill(int[] plants, int capacityA, int capacityB) {
 		int alicePos = 0;
 		int bobPos = plants.length - 1;
 
@@ -26,42 +24,32 @@ public class WateringPlantsII
 
 		boolean alice = true;
 		boolean bob = true;
-		while (alicePos <= bobPos)
-		{
-			if (alicePos == bobPos)
-			{
-				if (aliceCapacity >= bobCapacity)
-				{
+		while (alicePos <= bobPos) {
+			if (alicePos == bobPos) {
+				if (aliceCapacity >= bobCapacity) {
 					bob = false;
 				}
-				else
-				{
+				else {
 					alice = false;
 				}
 			}
 
-			while (alice && plants[alicePos] > 0)
-			{
-				if (aliceCapacity >= plants[alicePos])
-				{
+			while (alice && plants[alicePos] > 0) {
+				if (aliceCapacity >= plants[alicePos]) {
 					aliceCapacity -= plants[alicePos];
 				}
-				else
-				{
+				else {
 					refills++;
 					aliceCapacity = capacityA - plants[alicePos];
 				}
 				plants[alicePos] = 0;
 			}
 
-			while (bob && plants[bobPos] > 0)
-			{
-				if (bobCapacity >= plants[bobPos])
-				{
+			while (bob && plants[bobPos] > 0) {
+				if (bobCapacity >= plants[bobPos]) {
 					bobCapacity -= plants[bobPos];
 				}
-				else
-				{
+				else {
 					refills++;
 					bobCapacity = capacityB - plants[bobPos];
 				}

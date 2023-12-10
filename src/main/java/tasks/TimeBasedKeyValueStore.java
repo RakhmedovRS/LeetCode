@@ -11,28 +11,22 @@ import java.util.TreeMap;
  * @created 30-Jul-20
  */
 @LeetCode(id = 981, name = "Time Based Key-Value Store", url = "https://leetcode.com/problems/time-based-key-value-store/")
-public class TimeBasedKeyValueStore
-{
-	class TimeMap
-	{
+public class TimeBasedKeyValueStore {
+	class TimeMap {
 
 		Map<String, TreeMap<Integer, String>> map;
 
-		public TimeMap()
-		{
+		public TimeMap() {
 			map = new HashMap<>();
 		}
 
-		public void set(String key, String value, int timestamp)
-		{
+		public void set(String key, String value, int timestamp) {
 			map.putIfAbsent(key, new TreeMap<>());
 			map.get(key).put(timestamp, value);
 		}
 
-		public String get(String key, int timestamp)
-		{
-			if (!map.containsKey(key))
-			{
+		public String get(String key, int timestamp) {
+			if (!map.containsKey(key)) {
 				return "";
 			}
 

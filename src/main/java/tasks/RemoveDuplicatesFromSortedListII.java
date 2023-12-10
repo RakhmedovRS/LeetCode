@@ -14,26 +14,21 @@ import common.ListNode;
 		url = "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class RemoveDuplicatesFromSortedListII
-{
-	public ListNode deleteDuplicates(ListNode head)
-	{
+public class RemoveDuplicatesFromSortedListII {
+	public ListNode deleteDuplicates(ListNode head) {
 		ListNode dummy = new ListNode();
 		int[] keep = new int[601];
 		ListNode temp = head;
-		while (temp != null)
-		{
+		while (temp != null) {
 			keep[temp.val + 300]++;
 			temp = temp.next;
 		}
 
 		temp = dummy;
 		ListNode next;
-		while (head != null)
-		{
+		while (head != null) {
 			next = head.next;
-			if (keep[head.val + 300] == 1)
-			{
+			if (keep[head.val + 300] == 1) {
 				temp.next = head;
 				temp = temp.next;
 				temp.next = null;

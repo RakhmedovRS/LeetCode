@@ -16,20 +16,16 @@ import java.util.List;
 		url = "https://leetcode.com/problems/spiral-matrix/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SpiralMatrix
-{
-	enum Direction
-	{
+public class SpiralMatrix {
+	enum Direction {
 		UP,
 		DOWN,
 		LEFT,
-		RIGHT;
+		RIGHT
 	}
 
-	public List<Integer> spiralOrder(int[][] matrix)
-	{
-		if (matrix == null || matrix.length == 0)
-		{
+	public List<Integer> spiralOrder(int[][] matrix) {
+		if (matrix == null || matrix.length == 0) {
 			return new ArrayList<>();
 		}
 
@@ -40,44 +36,34 @@ public class SpiralMatrix
 		int rightBound = matrix[0].length - 1;
 		Direction currentDirection = Direction.RIGHT;
 
-		while (leftBound <= rightBound && topBound <= bottomBound)
-		{
-			switch (currentDirection)
-			{
-				case RIGHT:
-				{
-					for (int i = leftBound; i <= rightBound; i++)
-					{
+		while (leftBound <= rightBound && topBound <= bottomBound) {
+			switch (currentDirection) {
+				case RIGHT: {
+					for (int i = leftBound; i <= rightBound; i++) {
 						result.add(matrix[topBound][i]);
 					}
 					currentDirection = Direction.DOWN;
 					topBound++;
 					break;
 				}
-				case DOWN:
-				{
-					for (int i = topBound; i <= bottomBound; i++)
-					{
+				case DOWN: {
+					for (int i = topBound; i <= bottomBound; i++) {
 						result.add(matrix[i][rightBound]);
 					}
 					currentDirection = Direction.LEFT;
 					rightBound--;
 					break;
 				}
-				case LEFT:
-				{
-					for (int i = rightBound; i >= leftBound; i--)
-					{
+				case LEFT: {
+					for (int i = rightBound; i >= leftBound; i--) {
 						result.add(matrix[bottomBound][i]);
 					}
 					currentDirection = Direction.UP;
 					bottomBound--;
 					break;
 				}
-				case UP:
-				{
-					for (int i = bottomBound; i >= topBound; i--)
-					{
+				case UP: {
+					for (int i = bottomBound; i >= topBound; i--) {
 						result.add(matrix[i][leftBound]);
 					}
 					currentDirection = Direction.RIGHT;

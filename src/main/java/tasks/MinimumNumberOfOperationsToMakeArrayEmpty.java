@@ -16,35 +16,27 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/description/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumNumberOfOperationsToMakeArrayEmpty
-{
-	public int minOperations(int[] nums)
-	{
+public class MinimumNumberOfOperationsToMakeArrayEmpty {
+	public int minOperations(int[] nums) {
 		Map<Integer, Integer> map = new HashMap<>();
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			map.put(num, map.getOrDefault(num, 0) + 1);
 		}
 
 		int count = 0;
-		for (Map.Entry<Integer, Integer> entry : map.entrySet())
-		{
+		for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
 			int c = entry.getValue();
-			if (c == 1)
-			{
+			if (c == 1) {
 				return -1;
 			}
-			else if (c % 3 == 0)
-			{
+			else if (c % 3 == 0) {
 				count += c / 3;
 				continue;
 			}
 
 			int start = c / 3;
-			while (start >= 0)
-			{
-				if ((c - (start * 3)) % 2 == 0)
-				{
+			while (start >= 0) {
+				if ((c - (start * 3)) % 2 == 0) {
 					count += start;
 					count += (c - (start * 3)) / 2;
 					break;

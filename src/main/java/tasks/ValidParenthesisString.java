@@ -12,31 +12,23 @@ import java.util.Map;
  * @created 16-Apr-20
  */
 @LeetCode(id = 678, name = "Valid Parenthesis String", url = "https://leetcode.com/problems/valid-parenthesis-string/")
-public class ValidParenthesisString
-{
-	public boolean checkValidString(String expression)
-	{
-		if (expression == null || expression.length() == 0)
-		{
+public class ValidParenthesisString {
+	public boolean checkValidString(String expression) {
+		if (expression == null || expression.length() == 0) {
 			return true;
 		}
 
 		Deque<Character> stack = new LinkedList<>();
-		for (int i = 0; i < expression.length(); i++)
-		{
+		for (int i = 0; i < expression.length(); i++) {
 			char ch = expression.charAt(i);
-			if (ch == '*' || ch == '(')
-			{
+			if (ch == '*' || ch == '(') {
 				stack.push(ch);
 			}
-			else
-			{
-				if (!stack.isEmpty() && stack.peek() == '(')
-				{
+			else {
+				if (!stack.isEmpty() && stack.peek() == '(') {
 					stack.pop();
 				}
-				else
-				{
+				else {
 					stack.push(ch);
 				}
 			}
@@ -45,44 +37,34 @@ public class ValidParenthesisString
 		Deque<Map.Entry<Integer, Character>> parenthesis = new LinkedList<>();
 		Deque<Map.Entry<Integer, Character>> stars = new LinkedList<>();
 		int i = 0;
-		while (!stack.isEmpty())
-		{
+		while (!stack.isEmpty()) {
 			Character ch = stack.removeLast();
-			if (ch == '*')
-			{
+			if (ch == '*') {
 				stars.push(new AbstractMap.SimpleEntry<>(i++, ch));
 			}
-			else if (ch == '(')
-			{
+			else if (ch == '(') {
 				parenthesis.push(new AbstractMap.SimpleEntry<>(i++, ch));
 			}
-			else
-			{
-				if (!parenthesis.isEmpty())
-				{
+			else {
+				if (!parenthesis.isEmpty()) {
 					parenthesis.pop();
 				}
-				else if (!stars.isEmpty())
-				{
+				else if (!stars.isEmpty()) {
 					stars.pop();
 				}
-				else
-				{
+				else {
 					return false;
 				}
 			}
 		}
 
-		while (!parenthesis.isEmpty())
-		{
+		while (!parenthesis.isEmpty()) {
 			Map.Entry<Integer, Character> pair = parenthesis.pop();
-			if (stars.isEmpty())
-			{
+			if (stars.isEmpty()) {
 				return false;
 			}
 
-			if (stars.pop().getKey() < pair.getKey())
-			{
+			if (stars.pop().getKey() < pair.getKey()) {
 				return false;
 			}
 		}

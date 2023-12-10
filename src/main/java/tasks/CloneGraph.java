@@ -16,12 +16,9 @@ import java.util.*;
 		url = "https://leetcode.com/problems/clone-graph/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CloneGraph
-{
-	public Node cloneGraph(Node node)
-	{
-		if (node == null)
-		{
+public class CloneGraph {
+	public Node cloneGraph(Node node) {
+		if (node == null) {
 			return null;
 		}
 
@@ -30,18 +27,15 @@ public class CloneGraph
 		return nodes.get(node);
 	}
 
-	private Map<Node, Node> createCopies(Node node)
-	{
+	private Map<Node, Node> createCopies(Node node) {
 		Map<Node, Node> nodes = new HashMap<>();
 		Set<Node> visited = new HashSet<>();
 		Queue<Node> queue = new LinkedList<>();
 		queue.add(node);
 		Node current;
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			current = queue.remove();
-			if (!visited.add(current))
-			{
+			if (!visited.add(current)) {
 				continue;
 			}
 
@@ -54,24 +48,20 @@ public class CloneGraph
 		return nodes;
 	}
 
-	private void createEdges(Node node, Map<Node, Node> nodes)
-	{
+	private void createEdges(Node node, Map<Node, Node> nodes) {
 		Set<Node> visited = new HashSet<>();
 		Queue<Node> queue = new LinkedList<>();
 		queue.add(node);
 		Node current;
 		Node clone;
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			current = queue.remove();
-			if (!visited.add(current))
-			{
+			if (!visited.add(current)) {
 				continue;
 			}
 
 			clone = nodes.get(current);
-			for (Node neighbor : current.neighbors)
-			{
+			for (Node neighbor : current.neighbors) {
 				clone.neighbors.add(nodes.get(neighbor));
 			}
 

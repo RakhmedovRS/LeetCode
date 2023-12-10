@@ -15,18 +15,13 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CountNumberOfMaximumBitwiseORSubsets
-{
-	public int countMaxOrSubsets(int[] nums)
-	{
+public class CountNumberOfMaximumBitwiseORSubsets {
+	public int countMaxOrSubsets(int[] nums) {
 		Arrays.sort(nums);
 		int max = 0;
-		for (int i = 30; i >= 0; i--)
-		{
-			for (int num : nums)
-			{
-				if (((num & (1 << i)) != 0) && (max & (1 << i)) == 0)
-				{
+		for (int i = 30; i >= 0; i--) {
+			for (int num : nums) {
+				if (((num & (1 << i)) != 0) && (max & (1 << i)) == 0) {
 					max |= num;
 				}
 			}
@@ -39,20 +34,16 @@ public class CountNumberOfMaximumBitwiseORSubsets
 		return count[0];
 	}
 
-	private void dfs(int pos, int curr, int[] nums, int max, int[] count)
-	{
-		if (curr == max)
-		{
+	private void dfs(int pos, int curr, int[] nums, int max, int[] count) {
+		if (curr == max) {
 			count[0]++;
 		}
 
-		if (pos == nums.length)
-		{
+		if (pos == nums.length) {
 			return;
 		}
 
-		for (int i = pos; i < nums.length; i++)
-		{
+		for (int i = pos; i < nums.length; i++) {
 			dfs(i + 1, curr | nums[i], nums, max, count);
 		}
 	}

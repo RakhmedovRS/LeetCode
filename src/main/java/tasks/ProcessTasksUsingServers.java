@@ -16,62 +16,51 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/process-tasks-using-servers/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ProcessTasksUsingServers
-{
-	class Server
-	{
+public class ProcessTasksUsingServers {
+	class Server {
 		int weight;
 		int index;
 		int nextFree;
 
-		public Server(int weight, int index, int nextFree)
-		{
+		public Server(int weight, int index, int nextFree) {
 			this.weight = weight;
 			this.index = index;
 			this.nextFree = nextFree;
 		}
 
-		public int getNextFree()
-		{
+		public int getNextFree() {
 			return nextFree;
 		}
 	}
 
-	public int[] assignTasks(int[] servers, int[] tasks)
-	{
+	public int[] assignTasks(int[] servers, int[] tasks) {
 		PriorityQueue<Server> free = new PriorityQueue<>((a, b) ->
 		{
-			if (a.weight == b.weight)
-			{
+			if (a.weight == b.weight) {
 				return a.index - b.index;
 			}
-			else
-			{
+			else {
 				return a.weight - b.weight;
 			}
 		});
 
 		PriorityQueue<Server> busy = new PriorityQueue<>(Comparator.comparingInt(Server::getNextFree));
 
-		for (int i = 0; i < servers.length; i++)
-		{
+		for (int i = 0; i < servers.length; i++) {
 			free.add(new Server(servers[i], i, 0));
 		}
 
 		int[] answer = new int[tasks.length];
 		int time = 0;
-		for (int i = 0; i < tasks.length; )
-		{
+		for (int i = 0; i < tasks.length; ) {
 			time = Math.max(time, i);
 
-			while (!busy.isEmpty() && busy.peek().nextFree <= time)
-			{
+			while (!busy.isEmpty() && busy.peek().nextFree <= time) {
 				Server server = busy.remove();
 				free.add(server);
 			}
 
-			if (free.isEmpty())
-			{
+			if (free.isEmpty()) {
 				time = busy.peek().nextFree;
 				continue;
 			}

@@ -19,16 +19,13 @@ import java.util.TreeSet;
 		url = "https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ClosestNodesQueriesInBinarySearchTree
-{
-	public List<List<Integer>> closestNodes(TreeNode root, List<Integer> queries)
-	{
+public class ClosestNodesQueriesInBinarySearchTree {
+	public List<List<Integer>> closestNodes(TreeNode root, List<Integer> queries) {
 		TreeSet<Integer> ints = new TreeSet<>();
 		dfs(root, ints);
 
 		List<List<Integer>> answer = new ArrayList<>();
-		for (int q : queries)
-		{
+		for (int q : queries) {
 			Integer left = ints.floor(q);
 			Integer right = ints.ceiling(q);
 
@@ -38,10 +35,8 @@ public class ClosestNodesQueriesInBinarySearchTree
 		return answer;
 	}
 
-	private void dfs(TreeNode root, TreeSet<Integer> ints)
-	{
-		if (root == null)
-		{
+	private void dfs(TreeNode root, TreeSet<Integer> ints) {
+		if (root == null) {
 			return;
 		}
 

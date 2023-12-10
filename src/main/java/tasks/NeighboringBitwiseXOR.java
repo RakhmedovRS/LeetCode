@@ -13,12 +13,9 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/neighboring-bitwise-xor/",
 		difficulty = Difficulty.MEDIUM
 )
-public class NeighboringBitwiseXOR
-{
-	public boolean doesValidArrayExist(int[] derived)
-	{
-		if (derived.length == 1)
-		{
+public class NeighboringBitwiseXOR {
+	public boolean doesValidArrayExist(int[] derived) {
+		if (derived.length == 1) {
 			return derived[0] == 0;
 		}
 
@@ -28,81 +25,60 @@ public class NeighboringBitwiseXOR
 
 		boolean validA = true;
 		boolean validB = true;
-		for (int i = 1; i < derived.length && (validA || validB); i++)
-		{
-			if (validA)
-			{
-				if ((A[i - 1] ^ 1) == derived[i - 1])
-				{
+		for (int i = 1; i < derived.length && (validA || validB); i++) {
+			if (validA) {
+				if ((A[i - 1] ^ 1) == derived[i - 1]) {
 					A[i] = 1;
 				}
-				else if ((A[i - 1] ^ 0) == derived[i - 1])
-				{
+				else if ((A[i - 1] ^ 0) == derived[i - 1]) {
 					A[i] = 0;
 				}
-				else
-				{
+				else {
 					validA = false;
 				}
 			}
 
-			if (validB)
-			{
-				if ((B[i - 1] ^ 1) == derived[i - 1])
-				{
+			if (validB) {
+				if ((B[i - 1] ^ 1) == derived[i - 1]) {
 					B[i] = 1;
 				}
-				else if ((B[i - 1] ^ 0) == derived[i - 1])
-				{
+				else if ((B[i - 1] ^ 0) == derived[i - 1]) {
 					B[i] = 0;
 				}
-				else
-				{
+				else {
 					validB = false;
 				}
 			}
 		}
 
-		if (validA)
-		{
-			if ((A[derived.length - 1] ^ A[0]) == derived[derived.length - 1])
-			{
+		if (validA) {
+			if ((A[derived.length - 1] ^ A[0]) == derived[derived.length - 1]) {
 			}
-			else
-			{
+			else {
 				validA = false;
 			}
 		}
 
-		if (validB)
-		{
-			if ((B[derived.length - 1] ^ B[0]) == derived[derived.length - 1])
-			{
+		if (validB) {
+			if ((B[derived.length - 1] ^ B[0]) == derived[derived.length - 1]) {
 			}
-			else
-			{
+			else {
 				validB = false;
 			}
 		}
 
-		if (validA)
-		{
-			if ((A[0] ^ A[1]) == derived[0])
-			{
+		if (validA) {
+			if ((A[0] ^ A[1]) == derived[0]) {
 			}
-			else
-			{
+			else {
 				validA = false;
 			}
 		}
 
-		if (validB)
-		{
-			if ((B[0] ^ B[1]) == derived[0])
-			{
+		if (validB) {
+			if ((B[0] ^ B[1]) == derived[0]) {
 			}
-			else
-			{
+			else {
 				validB = false;
 			}
 		}

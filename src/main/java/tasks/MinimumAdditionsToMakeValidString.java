@@ -15,81 +15,61 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/minimum-additions-to-make-valid-string/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumAdditionsToMakeValidString
-{
-	public int addMinimum(String word)
-	{
+public class MinimumAdditionsToMakeValidString {
+	public int addMinimum(String word) {
 		int add = 0;
 		LinkedList<Character> chars = new LinkedList<>();
-		for (char ch : word.toCharArray())
-		{
+		for (char ch : word.toCharArray()) {
 			chars.addLast(ch);
 		}
 
-		while (!chars.isEmpty())
-		{
+		while (!chars.isEmpty()) {
 			char ch = chars.removeFirst();
-			if (ch == 'a')
-			{
-				if (chars.isEmpty())
-				{
+			if (ch == 'a') {
+				if (chars.isEmpty()) {
 					add += 2;
 				}
-				else
-				{
-					if (chars.getFirst() == 'b')
-					{
+				else {
+					if (chars.getFirst() == 'b') {
 						chars.removeFirst();
-						if (chars.isEmpty())
-						{
+						if (chars.isEmpty()) {
 							add++;
 						}
-						else
-						{
-							if (chars.getFirst() == 'c')
-							{
+						else {
+							if (chars.getFirst() == 'c') {
 								chars.removeFirst();
 							}
-							else
-							{
+							else {
 								add++;
 							}
 						}
 					}
-					else if (chars.getFirst() == 'c')
-					{
+					else if (chars.getFirst() == 'c') {
 						chars.removeFirst();
 						add++;
 					}
-					else
-					{
+					else {
 						add += 2;
 					}
 				}
 			}
 
-			if (ch == 'b')
-			{
-				if (chars.isEmpty())
-				{
+			if (ch == 'b') {
+				if (chars.isEmpty()) {
 					add += 2;
 				}
-				else
-				{
+				else {
 					add++;
-					if (chars.getFirst() == 'c')
-					{
+					if (chars.getFirst() == 'c') {
 						chars.removeFirst();
 					}
-					else
-					{
+					else {
 						add++;
 					}
 				}
 			}
 
-			if (ch == 'c')
-			{
+			if (ch == 'c') {
 				add += 2;
 			}
 		}

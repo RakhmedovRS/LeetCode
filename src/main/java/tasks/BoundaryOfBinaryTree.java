@@ -19,24 +19,19 @@ import java.util.List;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class BoundaryOfBinaryTree
-{
-	public List<Integer> boundaryOfBinaryTree(TreeNode root)
-	{
+public class BoundaryOfBinaryTree {
+	public List<Integer> boundaryOfBinaryTree(TreeNode root) {
 		List<Integer> answer = new ArrayList<>();
-		if (root == null)
-		{
+		if (root == null) {
 			return answer;
 		}
 
-		if (!isLeaf(root))
-		{
+		if (!isLeaf(root)) {
 			answer.add(root.val);
 		}
 
 		TreeNode current = root.left;
-		while (current != null && !isLeaf(current))
-		{
+		while (current != null && !isLeaf(current)) {
 			answer.add(current.val);
 			current = current.left == null ? current.right : current.left;
 		}
@@ -46,38 +41,31 @@ public class BoundaryOfBinaryTree
 		LinkedList<Integer> list = new LinkedList<>();
 
 		current = root.right;
-		while (current != null && !isLeaf(current))
-		{
+		while (current != null && !isLeaf(current)) {
 			list.addFirst(current.val);
 			current = current.right == null ? current.left : current.right;
 		}
 
-		while (!list.isEmpty())
-		{
+		while (!list.isEmpty()) {
 			answer.add(list.removeFirst());
 		}
 
 		return answer;
 	}
 
-	private boolean isLeaf(TreeNode treeNode)
-	{
+	private boolean isLeaf(TreeNode treeNode) {
 		return treeNode.left == null && treeNode.right == null;
 	}
 
-	private void dfs(TreeNode treeNode, List<Integer> list)
-	{
-		if (treeNode == null)
-		{
+	private void dfs(TreeNode treeNode, List<Integer> list) {
+		if (treeNode == null) {
 			return;
 		}
 
-		if (isLeaf(treeNode))
-		{
+		if (isLeaf(treeNode)) {
 			list.add(treeNode.val);
 		}
-		else
-		{
+		else {
 			dfs(treeNode.left, list);
 			dfs(treeNode.right, list);
 		}

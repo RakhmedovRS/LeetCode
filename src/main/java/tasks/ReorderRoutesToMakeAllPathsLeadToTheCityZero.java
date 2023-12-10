@@ -16,16 +16,13 @@ import java.util.*;
 		url = "https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ReorderRoutesToMakeAllPathsLeadToTheCityZero
-{
-	public int minReorder(int n, int[][] connections)
-	{
+public class ReorderRoutesToMakeAllPathsLeadToTheCityZero {
+	public int minReorder(int n, int[][] connections) {
 		Map<Integer, List<Integer>> graph = new HashMap<>();
 		Map<Integer, Set<Integer>> conn = new HashMap<>();
 		int a;
 		int b;
-		for (int[] connection : connections)
-		{
+		for (int[] connection : connections) {
 			a = connection[0];
 			b = connection[1];
 
@@ -41,16 +38,12 @@ public class ReorderRoutesToMakeAllPathsLeadToTheCityZero
 		return dfs(0, graph, conn, new boolean[n]);
 	}
 
-	private int dfs(int node, Map<Integer, List<Integer>> graph, Map<Integer, Set<Integer>> conn, boolean[] visited)
-	{
+	private int dfs(int node, Map<Integer, List<Integer>> graph, Map<Integer, Set<Integer>> conn, boolean[] visited) {
 		visited[node] = true;
 		int result = 0;
-		for (int neighbor : graph.getOrDefault(node, Collections.emptyList()))
-		{
-			if (!visited[neighbor])
-			{
-				if (conn.getOrDefault(node, Collections.emptySet()).contains(neighbor))
-				{
+		for (int neighbor : graph.getOrDefault(node, Collections.emptyList())) {
+			if (!visited[neighbor]) {
+				if (conn.getOrDefault(node, Collections.emptySet()).contains(neighbor)) {
 					result++;
 				}
 				result += dfs(neighbor, graph, conn, visited);

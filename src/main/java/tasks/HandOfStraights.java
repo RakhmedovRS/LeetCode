@@ -16,45 +16,35 @@ import java.util.TreeMap;
 		url = "https://leetcode.com/problems/hand-of-straights/",
 		difficulty = Difficulty.MEDIUM
 )
-public class HandOfStraights
-{
-	public boolean isNStraightHand(int[] hand, int W)
-	{
+public class HandOfStraights {
+	public boolean isNStraightHand(int[] hand, int W) {
 		TreeMap<Integer, Integer> handToCount = new TreeMap<>();
-		for (int h : hand)
-		{
+		for (int h : hand) {
 			handToCount.put(h, handToCount.getOrDefault(h, 0) + 1);
 		}
-		while (!handToCount.isEmpty())
-		{
+		while (!handToCount.isEmpty()) {
 			int count = 1;
 			Map.Entry<Integer, Integer> entry = handToCount.pollFirstEntry();
 			int current = entry.getKey();
-			if (entry.getValue() > 1)
-			{
+			if (entry.getValue() > 1) {
 				handToCount.put(entry.getKey(), entry.getValue() - 1);
 			}
 
-			while (count < W && !handToCount.isEmpty())
-			{
+			while (count < W && !handToCount.isEmpty()) {
 				int numbersOfKeys = handToCount.getOrDefault(++current, 0);
-				if (numbersOfKeys == 1)
-				{
+				if (numbersOfKeys == 1) {
 					handToCount.remove(current);
 				}
-				else if (numbersOfKeys > 1)
-				{
+				else if (numbersOfKeys > 1) {
 					handToCount.put(current, handToCount.get(current) - 1);
 				}
-				else
-				{
+				else {
 					break;
 				}
 				count++;
 			}
 
-			if (count != W)
-			{
+			if (count != W) {
 				return false;
 			}
 		}

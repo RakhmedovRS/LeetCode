@@ -15,25 +15,20 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/jump-game-vi/",
 		difficulty = Difficulty.MEDIUM
 )
-public class JumpGameVI
-{
-	public int maxResult(int[] nums, int k)
-	{
+public class JumpGameVI {
+	public int maxResult(int[] nums, int k) {
 		int[] dp = new int[nums.length];
 		dp[0] = nums[0];
 
 		LinkedList<Integer> deque = new LinkedList<>();
 		deque.add(0);
-		for (int i = 1; i < nums.length; i++)
-		{
-			while (deque.getFirst() < i - k)
-			{
+		for (int i = 1; i < nums.length; i++) {
+			while (deque.getFirst() < i - k) {
 				deque.removeFirst();
 			}
 
 			dp[i] = nums[i] + dp[deque.getFirst()];
-			while (!deque.isEmpty() && dp[deque.getLast()] <= dp[i])
-			{
+			while (!deque.isEmpty() && dp[deque.getLast()] <= dp[i]) {
 				deque.removeLast();
 			}
 
@@ -43,8 +38,7 @@ public class JumpGameVI
 		return dp[dp.length - 1];
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		JumpGameVI clazz = new JumpGameVI();
 		System.out.println(clazz.maxResult(new int[]{100, -1, -100, -1, 100}, 2));
 		System.out.println(clazz.maxResult(new int[]{1, -5, -20, 4, -1, 3, -6, -3}, 2));

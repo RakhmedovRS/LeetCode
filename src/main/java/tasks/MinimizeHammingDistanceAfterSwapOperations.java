@@ -16,36 +16,29 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimizeHammingDistanceAfterSwapOperations
-{
-	class UnionFind
-	{
+public class MinimizeHammingDistanceAfterSwapOperations {
+	class UnionFind {
 		int[] parents;
 		int[] rank;
 
-		public UnionFind(int n)
-		{
+		public UnionFind(int n) {
 			parents = new int[n];
 			rank = new int[n];
 
-			for (int i = 0; i < n; i++)
-			{
+			for (int i = 0; i < n; i++) {
 				parents[i] = i;
 				rank[i] = 1;
 			}
 		}
 
-		private int parent(int nodeA)
-		{
+		private int parent(int nodeA) {
 			int root = nodeA;
-			while (parents[root] != root)
-			{
+			while (parents[root] != root) {
 				root = parents[root];
 			}
 
 			int temp;
-			while (parents[nodeA] != nodeA)
-			{
+			while (parents[nodeA] != nodeA) {
 				temp = parents[nodeA];
 				parents[nodeA] = root;
 				nodeA = temp;
@@ -54,20 +47,16 @@ public class MinimizeHammingDistanceAfterSwapOperations
 			return root;
 		}
 
-		private void join(int nodeA, int nodeB)
-		{
+		private void join(int nodeA, int nodeB) {
 			int parentA = parent(nodeA);
 			int parentB = parent(nodeB);
 
-			if (parentA != parentB)
-			{
-				if (rank[parentA] >= rank[parentB])
-				{
+			if (parentA != parentB) {
+				if (rank[parentA] >= rank[parentB]) {
 					rank[parentA] += rank[parentB];
 					parents[parentB] = parentA;
 				}
-				else
-				{
+				else {
 					rank[parentB] += rank[parentA];
 					parents[parentA] = parentB;
 				}
@@ -75,17 +64,14 @@ public class MinimizeHammingDistanceAfterSwapOperations
 		}
 	}
 
-	public int minimumHammingDistance(int[] source, int[] target, int[][] allowedSwaps)
-	{
+	public int minimumHammingDistance(int[] source, int[] target, int[][] allowedSwaps) {
 		UnionFind uf = new UnionFind(source.length);
-		for (int[] swap : allowedSwaps)
-		{
+		for (int[] swap : allowedSwaps) {
 			uf.join(swap[0], swap[1]);
 		}
 
 		Map<Integer, Map<Integer, Integer>> map = new HashMap<>();
-		for (int i = 0; i < source.length; i++)
-		{
+		for (int i = 0; i < source.length; i++) {
 			int parent = uf.parent(i);
 			Map<Integer, Integer> innerMap = map.getOrDefault(parent, new HashMap<>());
 			innerMap.put(source[i], innerMap.getOrDefault(source[i], 0) + 1);
@@ -94,19 +80,15 @@ public class MinimizeHammingDistanceAfterSwapOperations
 
 		int diff = 0;
 
-		for (int i = 0; i < target.length; i++)
-		{
+		for (int i = 0; i < target.length; i++) {
 			int parent = uf.parent(i);
 			Map<Integer, Integer> innerMap = map.get(parent);
-			if (!innerMap.containsKey(target[i]))
-			{
+			if (!innerMap.containsKey(target[i])) {
 				diff++;
 			}
-			else
-			{
+			else {
 				int count = innerMap.remove(target[i]) - 1;
-				if (count > 0)
-				{
+				if (count > 0) {
 					innerMap.put(target[i], count);
 				}
 			}
@@ -115,8 +97,7 @@ public class MinimizeHammingDistanceAfterSwapOperations
 		return diff;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		MinimizeHammingDistanceAfterSwapOperations clazz = new MinimizeHammingDistanceAfterSwapOperations();
 
 		System.out.println(clazz.minimumHammingDistance(

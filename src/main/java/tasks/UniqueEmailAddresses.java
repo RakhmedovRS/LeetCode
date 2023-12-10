@@ -18,13 +18,10 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/unique-email-addresses/",
 		difficulty = Difficulty.EASY
 )
-public class UniqueEmailAddresses
-{
-	public int numUniqueEmails(String[] emails)
-	{
+public class UniqueEmailAddresses {
+	public int numUniqueEmails(String[] emails) {
 		Map<String, Set<String>> emailsMap = new HashMap<>();
-		for (String email : emails)
-		{
+		for (String email : emails) {
 			String[] emailParts = email.split("@");
 			String name = emailParts[0].replace(".", "");
 			String domain = emailParts[1];
@@ -37,8 +34,7 @@ public class UniqueEmailAddresses
 
 
 		int count = 0;
-		for (Set<String> names : emailsMap.values())
-		{
+		for (Set<String> names : emailsMap.values()) {
 			count += names.size();
 		}
 

@@ -14,39 +14,30 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/recover-binary-search-tree/",
 		difficulty = Difficulty.MEDIUM
 )
-public class RecoverBinarySearchTree
-{
-	public void recoverTree(TreeNode root)
-	{
+public class RecoverBinarySearchTree {
+	public void recoverTree(TreeNode root) {
 		TreeNode firstWrong = null;
 		TreeNode secondWrong = null;
 		TreeNode prev = new TreeNode(Integer.MIN_VALUE);
-		while (root != null)
-		{
+		while (root != null) {
 			TreeNode node = root.left;
-			if (node != null)
-			{
-				while (node.right != null && node.right != root)
-				{
+			if (node != null) {
+				while (node.right != null && node.right != root) {
 					node = node.right;
 				}
 
-				if (node.right == null)
-				{
+				if (node.right == null) {
 					node.right = root;
 					root = root.left;
 					continue;
 				}
-				else
-				{
+				else {
 					node.right = null;
 				}
 			}
 
-			if (root.val < prev.val)
-			{
-				if (firstWrong == null)
-				{
+			if (root.val < prev.val) {
+				if (firstWrong == null) {
 					firstWrong = prev;
 				}
 
@@ -62,8 +53,7 @@ public class RecoverBinarySearchTree
 		secondWrong.val = temp;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		TreeNode root = new TreeNode(1);
 		root.left = new TreeNode(2);
 		root.right = new TreeNode(3);

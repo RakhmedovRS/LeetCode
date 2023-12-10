@@ -15,13 +15,10 @@ import java.util.List;
 		url = "https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/",
 		difficulty = Difficulty.EASY
 )
-public class CheckIfStringIsAcronymOfWords
-{
-	public boolean isAcronym(List<String> words, String s)
-	{
+public class CheckIfStringIsAcronymOfWords {
+	public boolean isAcronym(List<String> words, String s) {
 		StringBuilder sb = new StringBuilder();
-		for (String w : words)
-		{
+		for (String w : words) {
 			sb.append(w.charAt(0));
 		}
 

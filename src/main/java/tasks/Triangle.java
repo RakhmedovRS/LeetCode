@@ -17,45 +17,36 @@ import java.util.List;
 		url = "https://leetcode.com/problems/triangle/",
 		difficulty = Difficulty.MEDIUM
 )
-public class Triangle
-{
-	public int minimumTotal(List<List<Integer>> triangle)
-	{
+public class Triangle {
+	public int minimumTotal(List<List<Integer>> triangle) {
 		List<Integer> level;
-		for (int row = 1; row < triangle.size(); row++)
-		{
+		for (int row = 1; row < triangle.size(); row++) {
 			level = triangle.get(row);
-			for (int column = 0; column < level.size(); column++)
-			{
+			for (int column = 0; column < level.size(); column++) {
 				level.set(column, getMin(triangle.get(row - 1), column) + level.get(column));
 			}
 		}
 
 		int min = Integer.MAX_VALUE;
-		for (int total : triangle.get(triangle.size() - 1))
-		{
+		for (int total : triangle.get(triangle.size() - 1)) {
 			min = Math.min(min, total);
 		}
 
 		return min;
 	}
 
-	private int getMin(List<Integer> level, int pos)
-	{
-		if (pos == 0)
-		{
+	private int getMin(List<Integer> level, int pos) {
+		if (pos == 0) {
 			return level.get(pos);
 		}
-		else if (pos == level.size())
-		{
+		else if (pos == level.size()) {
 			return level.get(pos - 1);
 		}
 
 		return Math.min(level.get(pos - 1), level.get(pos));
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		List<List<Integer>> triangle = new ArrayList<>();
 		triangle.add(Arrays.asList(2));
 		triangle.add(Arrays.asList(3, 4));

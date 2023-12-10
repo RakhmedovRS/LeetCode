@@ -17,17 +17,13 @@ import java.util.List;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class FlipGame
-{
-	public List<String> generatePossibleNextMoves(String s)
-	{
+public class FlipGame {
+	public List<String> generatePossibleNextMoves(String s) {
 		List<String> answer = new ArrayList<>();
 		StringBuilder sb = new StringBuilder();
-		for (int i = 0; i < s.length(); i++)
-		{
-			if (i + 1 < s.length() && s.charAt(i) == '+' && s.charAt(i + 1) == '+')
-			{
-				answer.add(sb.toString() + "--" + s.substring(i + 2));
+		for (int i = 0; i < s.length(); i++) {
+			if (i + 1 < s.length() && s.charAt(i) == '+' && s.charAt(i + 1) == '+') {
+				answer.add(sb + "--" + s.substring(i + 2));
 			}
 			sb.append(s.charAt(i));
 		}

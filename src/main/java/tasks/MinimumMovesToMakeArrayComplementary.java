@@ -13,13 +13,10 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-moves-to-make-array-complementary/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumMovesToMakeArrayComplementary
-{
-	public int minMoves(int[] nums, int limit)
-	{
+public class MinimumMovesToMakeArrayComplementary {
+	public int minMoves(int[] nums, int limit) {
 		int[] diffs = new int[2 * limit + 2];
-		for (int i = 0, j = nums.length - 1; i < j; i++, j--)
-		{
+		for (int i = 0, j = nums.length - 1; i < j; i++, j--) {
 			diffs[2] += 2;
 			diffs[Math.min(nums[i], nums[j]) + 1]--;
 			diffs[nums[i] + nums[j]]--;
@@ -29,8 +26,7 @@ public class MinimumMovesToMakeArrayComplementary
 
 		int minSteps = 2 * nums.length;
 		int current = 0;
-		for (int i = 2; i <= 2 * limit; i++)
-		{
+		for (int i = 2; i <= 2 * limit; i++) {
 			current += diffs[i];
 			minSteps = Math.min(minSteps, current);
 		}
@@ -38,8 +34,7 @@ public class MinimumMovesToMakeArrayComplementary
 		return minSteps;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new MinimumMovesToMakeArrayComplementary().minMoves(new int[]{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, 1)); //0
 		System.out.println(new MinimumMovesToMakeArrayComplementary().minMoves(new int[]{1, 3, 1, 1, 1, 2, 3, 2, 3, 1, 3, 2, 1, 3}, 3)); //4
 		System.out.println(new MinimumMovesToMakeArrayComplementary().minMoves(new int[]{1, 2, 2, 2, 2, 2, 2, 2}, 2)); //1

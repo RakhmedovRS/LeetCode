@@ -13,41 +13,31 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/orderly-queue/",
 		difficulty = Difficulty.HARD
 )
-public class OrderlyQueue
-{
-	public String orderlyQueue(String S, int K)
-	{
+public class OrderlyQueue {
+	public String orderlyQueue(String S, int K) {
 		char[] chars = S.toCharArray();
-		if (K > 1)
-		{
+		if (K > 1) {
 			int[] memo = new int[26];
-			for (char ch : chars)
-			{
+			for (char ch : chars) {
 				memo[ch - 'a']++;
 			}
 			int i = 0;
-			for (int pos = 0; pos < 26; pos++)
-			{
-				while (memo[pos]-- > 0)
-				{
+			for (int pos = 0; pos < 26; pos++) {
+				while (memo[pos]-- > 0) {
 					chars[i++] = (char) (pos + 'a');
 				}
 			}
 
 			return String.copyValueOf(chars);
 		}
-		else
-		{
+		else {
 			String temp = S;
-			for (int i = 1; i < S.length(); i++)
-			{
-				if (S.charAt(i) > temp.charAt(0))
-				{
+			for (int i = 1; i < S.length(); i++) {
+				if (S.charAt(i) > temp.charAt(0)) {
 					continue;
 				}
 				String tempC = S.substring(i) + S.substring(0, i);
-				if (tempC.compareTo(temp) < 0)
-				{
+				if (tempC.compareTo(temp) < 0) {
 					temp = tempC;
 				}
 			}
@@ -55,8 +45,7 @@ public class OrderlyQueue
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new OrderlyQueue().orderlyQueue("nhtq", 1)); //"htqn"
 		System.out.println(new OrderlyQueue().orderlyQueue("cba", 1));
 		System.out.println(new OrderlyQueue().orderlyQueue("baaca", 3));

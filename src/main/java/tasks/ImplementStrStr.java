@@ -7,29 +7,22 @@ import common.LeetCode;
  * @created 27-Mar-20
  */
 @LeetCode(id = 28, name = "Implement strStr()", url = "https://leetcode.com/problems/implement-strstr/")
-public class ImplementStrStr
-{
-	private int[] kmp(String needle)
-	{
+public class ImplementStrStr {
+	private int[] kmp(String needle) {
 		int left = 0;
 		int right = 1;
 		int[] kmp = new int[needle.length()];
 
-		while (right < needle.length())
-		{
-			if (needle.charAt(left) == needle.charAt(right))
-			{
+		while (right < needle.length()) {
+			if (needle.charAt(left) == needle.charAt(right)) {
 				kmp[right] = ++left;
 				right++;
 			}
-			else
-			{
-				if (left == 0)
-				{
+			else {
+				if (left == 0) {
 					right++;
 				}
-				else
-				{
+				else {
 					left = kmp[left - 1];
 				}
 			}
@@ -38,45 +31,35 @@ public class ImplementStrStr
 		return kmp;
 	}
 
-	public int strStr(String haystack, String needle)
-	{
-		if (needle == null || needle.length() == 0)
-		{
+	public int strStr(String haystack, String needle) {
+		if (needle == null || needle.length() == 0) {
 			return 0;
 		}
 
-		if (needle.length() > haystack.length())
-		{
+		if (needle.length() > haystack.length()) {
 			return -1;
 		}
 
-		if (needle.length() == haystack.length())
-		{
+		if (needle.length() == haystack.length()) {
 			return haystack.equals(needle) ? 0 : -1;
 		}
 
 		int[] kmp = kmp(needle);
 		int haystackPosition = 0;
 		int needlePosition = 0;
-		while (haystackPosition < haystack.length())
-		{
-			if (haystack.charAt(haystackPosition) == needle.charAt(needlePosition))
-			{
+		while (haystackPosition < haystack.length()) {
+			if (haystack.charAt(haystackPosition) == needle.charAt(needlePosition)) {
 				haystackPosition++;
 				needlePosition++;
-				if (needlePosition == needle.length())
-				{
+				if (needlePosition == needle.length()) {
 					return haystackPosition - needlePosition;
 				}
 			}
-			else
-			{
-				if (needlePosition == 0)
-				{
+			else {
+				if (needlePosition == 0) {
 					haystackPosition++;
 				}
-				else
-				{
+				else {
 					needlePosition = kmp[needlePosition - 1];
 				}
 			}

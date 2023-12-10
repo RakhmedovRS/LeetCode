@@ -15,18 +15,14 @@ import java.util.*;
 		url = "https://leetcode.com/problems/top-k-frequent-elements/",
 		difficulty = Difficulty.MEDIUM
 )
-public class TopKFrequentElements
-{
-	public List<Integer> topKFrequent(int[] values, int k)
-	{
-		if (values == null || values.length == 0 || k == 0)
-		{
+public class TopKFrequentElements {
+	public List<Integer> topKFrequent(int[] values, int k) {
+		if (values == null || values.length == 0 || k == 0) {
 			return new ArrayList<>();
 		}
 
 		Map<Integer, Integer> cache = new HashMap<>();
-		for (int value : values)
-		{
+		for (int value : values) {
 			cache.put(value, cache.getOrDefault(value, 0) + 1);
 		}
 
@@ -34,16 +30,14 @@ public class TopKFrequentElements
 		sortedValues.addAll(cache.keySet());
 
 		List<Integer> result = new ArrayList<>(k);
-		for (int i = 0; i < k; i++)
-		{
+		for (int i = 0; i < k; i++) {
 			result.add(sortedValues.poll());
 		}
 
 		return result;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new TopKFrequentElements().topKFrequent(new int[]{1, 2}, 2));
 	}
 }

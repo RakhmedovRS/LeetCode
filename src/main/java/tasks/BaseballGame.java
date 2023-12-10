@@ -15,30 +15,22 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/baseball-game/",
 		difficulty = Difficulty.EASY
 )
-public class BaseballGame
-{
-	public int calPoints(String[] ops)
-	{
+public class BaseballGame {
+	public int calPoints(String[] ops) {
 		LinkedList<Integer> list = new LinkedList<>();
-		for (String op : ops)
-		{
-			if (Character.isDigit(op.charAt(op.length() - 1)))
-			{
+		for (String op : ops) {
+			if (Character.isDigit(op.charAt(op.length() - 1))) {
 				list.addLast(Integer.parseInt(op));
 			}
-			else if ("C".equals(op))
-			{
-				if (!list.isEmpty())
-				{
+			else if ("C".equals(op)) {
+				if (!list.isEmpty()) {
 					list.removeLast();
 				}
 			}
-			else if ("D".equals(op))
-			{
+			else if ("D".equals(op)) {
 				list.addLast(list.getLast() * 2);
 			}
-			else
-			{
+			else {
 				int prev = list.removeLast();
 				int prevPrev = list.removeLast();
 				list.addLast(prevPrev);
@@ -48,8 +40,7 @@ public class BaseballGame
 		}
 
 		int res = 0;
-		while (!list.isEmpty())
-		{
+		while (!list.isEmpty()) {
 			res += list.removeFirst();
 		}
 

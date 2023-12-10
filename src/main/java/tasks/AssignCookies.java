@@ -15,23 +15,18 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/assign-cookies/",
 		difficulty = Difficulty.EASY
 )
-public class AssignCookies
-{
-	public int findContentChildren(int[] greed, int[] size)
-	{
+public class AssignCookies {
+	public int findContentChildren(int[] greed, int[] size) {
 		Arrays.sort(greed);
 		Arrays.sort(size);
 		int iGreed = 0;
 		int iSize = 0;
 		int happyChild = 0;
-		while (iGreed < greed.length && iSize < size.length)
-		{
-			if (greed[iGreed] > size[iSize])
-			{
+		while (iGreed < greed.length && iSize < size.length) {
+			if (greed[iGreed] > size[iSize]) {
 				iSize++;
 			}
-			else
-			{
+			else {
 				iGreed++;
 				iSize++;
 				happyChild++;

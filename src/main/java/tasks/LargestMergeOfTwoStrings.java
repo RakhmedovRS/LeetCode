@@ -13,33 +13,25 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/largest-merge-of-two-strings/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LargestMergeOfTwoStrings
-{
-	public String largestMerge(String word1, String word2)
-	{
+public class LargestMergeOfTwoStrings {
+	public String largestMerge(String word1, String word2) {
 		StringBuilder sb = new StringBuilder();
 		int pos1 = 0;
 		int pos2 = 0;
-		while (pos1 < word1.length() || pos2 < word2.length())
-		{
-			if (pos1 < word1.length() && pos2 < word2.length())
-			{
-				if (word1.substring(pos1).compareTo(word2.substring(pos2)) >= 0)
-				{
+		while (pos1 < word1.length() || pos2 < word2.length()) {
+			if (pos1 < word1.length() && pos2 < word2.length()) {
+				if (word1.substring(pos1).compareTo(word2.substring(pos2)) >= 0) {
 
 					sb.append(word1.charAt(pos1++));
 				}
-				else
-				{
+				else {
 					sb.append(word2.charAt(pos2++));
 				}
 			}
-			else if (pos1 < word1.length())
-			{
+			else if (pos1 < word1.length()) {
 				sb.append(word1.charAt(pos1++));
 			}
-			else
-			{
+			else {
 				sb.append(word2.charAt(pos2++));
 			}
 		}

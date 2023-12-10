@@ -13,37 +13,28 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumNumbersOfFunctionCallsToMakeTargetArray
-{
-	public int minOperations(int[] nums)
-	{
+public class MinimumNumbersOfFunctionCallsToMakeTargetArray {
+	public int minOperations(int[] nums) {
 		boolean zeroOuted = false;
 		int steps = 0;
-		while (!zeroOuted)
-		{
+		while (!zeroOuted) {
 			zeroOuted = true;
-			for (int i = 0; i < nums.length; i++)
-			{
-				if (nums[i] % 2 != 0)
-				{
+			for (int i = 0; i < nums.length; i++) {
+				if (nums[i] % 2 != 0) {
 					steps++;
 					nums[i]--;
-					if (zeroOuted)
-					{
+					if (zeroOuted) {
 						zeroOuted = nums[i] == 0;
 					}
 				}
-				else if (nums[i] != 0)
-				{
+				else if (nums[i] != 0) {
 					zeroOuted = false;
 				}
 			}
 
-			if (!zeroOuted)
-			{
+			if (!zeroOuted) {
 				steps++;
-				for (int i = 0; i < nums.length; i++)
-				{
+				for (int i = 0; i < nums.length; i++) {
 					nums[i] /= 2;
 				}
 			}

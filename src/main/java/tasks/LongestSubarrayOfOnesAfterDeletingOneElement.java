@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LongestSubarrayOfOnesAfterDeletingOneElement
-{
-	public int longestSubarray(int[] nums)
-	{
+public class LongestSubarrayOfOnesAfterDeletingOneElement {
+	public int longestSubarray(int[] nums) {
 		int ones = 0;
 		int zeroes = 0;
 		int left = 0;
@@ -24,22 +22,17 @@ public class LongestSubarrayOfOnesAfterDeletingOneElement
 		int max = 0;
 
 		boolean containsZero = false;
-		for (int num : nums)
-		{
-			if (num == 0)
-			{
+		for (int num : nums) {
+			if (num == 0) {
 				containsZero = true;
 				break;
 			}
 		}
 
-		while (left < nums.length && right < nums.length)
-		{
-			while (right < nums.length && zeroes <= 1)
-			{
+		while (left < nums.length && right < nums.length) {
+			while (right < nums.length && zeroes <= 1) {
 				ones += nums[right];
-				if (nums[right] == 0)
-				{
+				if (nums[right] == 0) {
 					zeroes++;
 				}
 				right++;
@@ -47,11 +40,9 @@ public class LongestSubarrayOfOnesAfterDeletingOneElement
 
 			max = Math.max(max, ones);
 
-			while (left < nums.length && zeroes > 1)
-			{
+			while (left < nums.length && zeroes > 1) {
 				ones -= nums[left];
-				if (nums[left] == 0)
-				{
+				if (nums[left] == 0) {
 					zeroes--;
 				}
 				left++;

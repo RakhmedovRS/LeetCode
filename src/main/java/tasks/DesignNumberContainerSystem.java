@@ -19,35 +19,28 @@ import java.util.TreeSet;
 		url = "https://leetcode.com/problems/design-a-number-container-system/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DesignNumberContainerSystem
-{
-	class NumberContainers
-	{
+public class DesignNumberContainerSystem {
+	class NumberContainers {
 		Map<Integer, TreeSet<Integer>> map;
 		Map<Integer, Integer> indexToValue;
 		TreeSet<Integer> EMPTY;
 
-		public NumberContainers()
-		{
+		public NumberContainers() {
 			map = new HashMap<>();
 			indexToValue = new HashMap<>();
 			EMPTY = new TreeSet<>();
 		}
 
-		public void change(int index, int number)
-		{
-			if (indexToValue.containsKey(index))
-			{
+		public void change(int index, int number) {
+			if (indexToValue.containsKey(index)) {
 				int oldNumber = indexToValue.get(index);
 				indexToValue.put(index, number);
 
-				if (number != oldNumber || !map.getOrDefault(oldNumber, EMPTY).contains(index))
-				{
+				if (number != oldNumber || !map.getOrDefault(oldNumber, EMPTY).contains(index)) {
 					map.get(oldNumber).remove(index);
 				}
 			}
-			else
-			{
+			else {
 				indexToValue.put(index, number);
 			}
 
@@ -55,11 +48,9 @@ public class DesignNumberContainerSystem
 			map.get(number).add(index);
 		}
 
-		public int find(int number)
-		{
+		public int find(int number) {
 			TreeSet<Integer> treeSet = map.getOrDefault(number, EMPTY);
-			if (!treeSet.isEmpty())
-			{
+			if (!treeSet.isEmpty()) {
 				return treeSet.first();
 			}
 

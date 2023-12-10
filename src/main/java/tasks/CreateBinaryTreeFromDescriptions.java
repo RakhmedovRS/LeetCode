@@ -17,24 +17,19 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/create-binary-tree-from-descriptions/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CreateBinaryTreeFromDescriptions
-{
-	public TreeNode createBinaryTree(int[][] descriptions)
-	{
+public class CreateBinaryTreeFromDescriptions {
+	public TreeNode createBinaryTree(int[][] descriptions) {
 		Map<Integer, TreeNode> treeNodeMap = new HashMap<>();
 		Map<TreeNode, TreeNode> parents = new HashMap<>();
-		for (int[] description : descriptions)
-		{
+		for (int[] description : descriptions) {
 			treeNodeMap.putIfAbsent(description[0], new TreeNode(description[0]));
 			treeNodeMap.putIfAbsent(description[1], new TreeNode(description[1]));
 			TreeNode parent = treeNodeMap.get(description[0]);
 			TreeNode child = treeNodeMap.get(description[1]);
-			if (description[2] == 1)
-			{
+			if (description[2] == 1) {
 				parent.left = child;
 			}
-			else
-			{
+			else {
 				parent.right = child;
 			}
 
@@ -42,8 +37,7 @@ public class CreateBinaryTreeFromDescriptions
 		}
 
 		TreeNode root = treeNodeMap.get(descriptions[0][0]);
-		while (parents.containsKey(root))
-		{
+		while (parents.containsKey(root)) {
 			root = parents.get(root);
 		}
 

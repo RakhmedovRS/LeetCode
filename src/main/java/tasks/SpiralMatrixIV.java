@@ -16,13 +16,10 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/spiral-matrix-iv/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SpiralMatrixIV
-{
-	public int[][] spiralMatrix(int m, int n, ListNode head)
-	{
+public class SpiralMatrixIV {
+	public int[][] spiralMatrix(int m, int n, ListNode head) {
 		int[][] matrix = new int[m][n];
-		for (int[] row : matrix)
-		{
+		for (int[] row : matrix) {
 			Arrays.fill(row, -1);
 		}
 
@@ -30,35 +27,30 @@ public class SpiralMatrixIV
 		int down = m - 1;
 		int left = 0;
 		int right = n - 1;
-		while (head != null)
-		{
+		while (head != null) {
 			int l = left;
-			while (l <= right && head != null)
-			{
+			while (l <= right && head != null) {
 				matrix[up][l++] = head.val;
 				head = head.next;
 			}
 			up++;
 
 			int u = up;
-			while (u <= down && head != null)
-			{
+			while (u <= down && head != null) {
 				matrix[u++][right] = head.val;
 				head = head.next;
 			}
 			right--;
 
 			int r = right;
-			while (r >= left && head != null)
-			{
+			while (r >= left && head != null) {
 				matrix[down][r--] = head.val;
 				head = head.next;
 			}
 			down--;
 
 			int d = down;
-			while (d >= up && head != null)
-			{
+			while (d >= up && head != null) {
 				matrix[d--][left] = head.val;
 				head = head.next;
 			}

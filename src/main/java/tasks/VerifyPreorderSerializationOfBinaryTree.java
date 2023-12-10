@@ -16,59 +16,47 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/",
 		difficulty = Difficulty.MEDIUM
 )
-public class VerifyPreorderSerializationOfBinaryTree
-{
-	class TreeNode
-	{
+public class VerifyPreorderSerializationOfBinaryTree {
+	class TreeNode {
 		public String val;
 		public TreeNode left;
 		public TreeNode right;
 
-		public TreeNode(String x)
-		{
+		public TreeNode(String x) {
 			val = x;
 		}
 	}
 
-	public boolean isValidSerialization(String preorder)
-	{
+	public boolean isValidSerialization(String preorder) {
 		String[] parts = preorder.split(",");
 
 		Map<TreeNode, TreeNode> parents = new HashMap<>();
 		TreeNode root = new TreeNode(parts[0]);
 		TreeNode current = root;
 		parents.put(current, null);
-		for (int i = 1; i < parts.length; i++)
-		{
-			while (true)
-			{
-				if (current == null)
-				{
+		for (int i = 1; i < parts.length; i++) {
+			while (true) {
+				if (current == null) {
 					return false;
 				}
 
-				if (current.left == null)
-				{
+				if (current.left == null) {
 					current.left = new TreeNode(parts[i]);
 					parents.put(current.left, current);
-					if (!"#".equals(parts[i]))
-					{
+					if (!"#".equals(parts[i])) {
 						current = current.left;
 					}
 					break;
 				}
-				else if (current.right == null)
-				{
+				else if (current.right == null) {
 					current.right = new TreeNode(parts[i]);
 					parents.put(current.right, current);
-					if (!"#".equals(parts[i]))
-					{
+					if (!"#".equals(parts[i])) {
 						current = current.right;
 					}
 					break;
 				}
-				else
-				{
+				else {
 					current = parents.get(current);
 				}
 			}
@@ -77,15 +65,12 @@ public class VerifyPreorderSerializationOfBinaryTree
 		return validate(root);
 	}
 
-	private boolean validate(TreeNode node)
-	{
-		if (node == null)
-		{
+	private boolean validate(TreeNode node) {
+		if (node == null) {
 			return false;
 		}
 
-		if ("#".equals(node.val))
-		{
+		if ("#".equals(node.val)) {
 			return node.left == null && node.right == null;
 		}
 

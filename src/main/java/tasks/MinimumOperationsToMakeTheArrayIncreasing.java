@@ -13,26 +13,20 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/",
 		difficulty = Difficulty.EASY
 )
-public class MinimumOperationsToMakeTheArrayIncreasing
-{
-	public int minOperations(int[] nums)
-	{
+public class MinimumOperationsToMakeTheArrayIncreasing {
+	public int minOperations(int[] nums) {
 		int adds = 0;
 		int num = nums[0];
-		for (int i = 1; i < nums.length; i++)
-		{
-			if (num > nums[i])
-			{
+		for (int i = 1; i < nums.length; i++) {
+			if (num > nums[i]) {
 				adds += 1 + num - nums[i];
 				num++;
 			}
-			else if (num == nums[i])
-			{
+			else if (num == nums[i]) {
 				adds++;
 				num++;
 			}
-			else
-			{
+			else {
 				num = nums[i];
 			}
 		}

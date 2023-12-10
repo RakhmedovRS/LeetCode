@@ -18,24 +18,18 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/find-common-characters/",
 		difficulty = Difficulty.EASY
 )
-public class FindCommonCharacters
-{
-	public List<String> commonChars(String[] A)
-	{
+public class FindCommonCharacters {
+	public List<String> commonChars(String[] A) {
 		List<String> answer = new ArrayList<>();
-		if (A == null || A.length <= 0)
-		{
+		if (A == null || A.length <= 0) {
 			return answer;
 		}
 
 		Map<Character, int[]> memo = new HashMap<>();
-		for (int i = 0; i < A.length; i++)
-		{
-			for (Character ch : A[i].toCharArray())
-			{
+		for (int i = 0; i < A.length; i++) {
+			for (Character ch : A[i].toCharArray()) {
 				int[] arr = memo.get(ch);
-				if (arr == null)
-				{
+				if (arr == null) {
 					arr = new int[A.length];
 				}
 
@@ -46,24 +40,19 @@ public class FindCommonCharacters
 		}
 
 		outer:
-		for (Map.Entry<Character, int[]> entry : memo.entrySet())
-		{
+		for (Map.Entry<Character, int[]> entry : memo.entrySet()) {
 			int[] arr = entry.getValue();
 			int min = Integer.MAX_VALUE;
-			for (Integer value : arr)
-			{
-				if (value == 0)
-				{
+			for (Integer value : arr) {
+				if (value == 0) {
 					continue outer;
 				}
-				if (min > value)
-				{
+				if (min > value) {
 					min = value;
 				}
 			}
 
-			while (min-- > 0)
-			{
+			while (min-- > 0) {
 				answer.add(String.valueOf(entry.getKey()));
 			}
 		}
@@ -71,8 +60,7 @@ public class FindCommonCharacters
 		return answer;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new FindCommonCharacters().commonChars(new String[]{"bella", "label", "roller"}));
 		System.out.println(new FindCommonCharacters().commonChars(new String[]{"acabcddd", "bcbdbcbd", "baddbadb", "cbdddcac", "aacbcccd", "ccccddda", "cababaab", "addcaccd"}));
 	}

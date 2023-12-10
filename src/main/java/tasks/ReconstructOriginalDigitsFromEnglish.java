@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/reconstruct-original-digits-from-english/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ReconstructOriginalDigitsFromEnglish
-{
-	public String originalDigits(String s)
-	{
+public class ReconstructOriginalDigitsFromEnglish {
+	public String originalDigits(String s) {
 		int[] numbers = new int[10];
 		int[][] tables = new int[10][];
 		tables[0] = buildTable("zero");
@@ -34,38 +32,30 @@ public class ReconstructOriginalDigitsFromEnglish
 		dfs(table, tables, numbers);
 
 		StringBuilder sb = new StringBuilder();
-		for (int i = 0; i < numbers.length; i++)
-		{
-			while (numbers[i]-- > 0)
-			{
+		for (int i = 0; i < numbers.length; i++) {
+			while (numbers[i]-- > 0) {
 				sb.append(i);
 			}
 		}
 		return sb.toString();
 	}
 
-	private boolean dfs(int[] table, int[][] tables, int[] numbers)
-	{
+	private boolean dfs(int[] table, int[][] tables, int[] numbers) {
 		boolean contains = false;
-		for (int i = 0; i < 26; i++)
-		{
-			if (table[i] != 0)
-			{
+		for (int i = 0; i < 26; i++) {
+			if (table[i] != 0) {
 				contains = true;
 				break;
 			}
 		}
 
 		int ways;
-		for (int i = 0; i < tables.length; i++)
-		{
+		for (int i = 0; i < tables.length; i++) {
 			ways = waysToCreateNumber(table, tables[i]);
-			if (ways > 0)
-			{
+			if (ways > 0) {
 				process(table, tables[i], -ways);
 				numbers[i] += ways;
-				if (dfs(table, tables, numbers))
-				{
+				if (dfs(table, tables, numbers)) {
 					return true;
 				}
 				process(table, tables[i], ways);
@@ -77,24 +67,19 @@ public class ReconstructOriginalDigitsFromEnglish
 		return !contains;
 	}
 
-	private int[] buildTable(String word)
-	{
+	private int[] buildTable(String word) {
 		int[] table = new int[26];
-		for (char ch : word.toCharArray())
-		{
+		for (char ch : word.toCharArray()) {
 			table[ch - 'a']++;
 		}
 
 		return table;
 	}
 
-	private int waysToCreateNumber(int[] tableA, int[] tableB)
-	{
+	private int waysToCreateNumber(int[] tableA, int[] tableB) {
 		int ways = Integer.MAX_VALUE;
-		for (int i = 0; i < tableA.length; i++)
-		{
-			if (tableB[i] == 0)
-			{
+		for (int i = 0; i < tableA.length; i++) {
+			if (tableB[i] == 0) {
 				continue;
 			}
 			ways = Math.min(ways, tableA[i] / tableB[i]);
@@ -103,10 +88,8 @@ public class ReconstructOriginalDigitsFromEnglish
 		return ways;
 	}
 
-	private void process(int[] tableA, int[] tableB, int add)
-	{
-		for (int i = 0; i < tableA.length; i++)
-		{
+	private void process(int[] tableA, int[] tableB, int add) {
+		for (int i = 0; i < tableA.length; i++) {
 			tableA[i] += add * tableB[i];
 		}
 	}

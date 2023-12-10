@@ -16,24 +16,19 @@ import java.util.LinkedList;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class OutputContestMatches
-{
-	public String findContestMatch(int n)
-	{
+public class OutputContestMatches {
+	public String findContestMatch(int n) {
 		String pattern = "(%s,%s)";
 		LinkedList<String> current = new LinkedList<>();
 		LinkedList<String> next;
 
-		for (int i = 1; i <= n; i++)
-		{
+		for (int i = 1; i <= n; i++) {
 			current.addLast(String.valueOf(i));
 		}
 
-		while (current.size() > 2)
-		{
+		while (current.size() > 2) {
 			next = new LinkedList<>();
-			while (!current.isEmpty())
-			{
+			while (!current.isEmpty()) {
 				next.addLast(String.format(pattern, current.removeFirst(), current.removeLast()));
 			}
 

@@ -17,14 +17,11 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/longest-string-chain/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LongestStringChain
-{
-	public int longestStrChain(String[] words)
-	{
+public class LongestStringChain {
+	public int longestStrChain(String[] words) {
 		Arrays.sort(words, (a, b) ->
 		{
-			if (a.length() == b.length())
-			{
+			if (a.length() == b.length()) {
 				return a.compareTo(b);
 			}
 
@@ -36,16 +33,12 @@ public class LongestStringChain
 		String tempWord;
 		Map<String, Integer> wordToCount = new HashMap<>();
 
-		for (String word : words)
-		{
+		for (String word : words) {
 			count = 0;
-			for (int i = 0; i < word.length(); i++)
-			{
+			for (int i = 0; i < word.length(); i++) {
 				StringBuilder sb = new StringBuilder();
-				for (int j = 0; j < word.length(); j++)
-				{
-					if (i != j)
-					{
+				for (int j = 0; j < word.length(); j++) {
+					if (i != j) {
 						sb.append(word.charAt(j));
 					}
 				}

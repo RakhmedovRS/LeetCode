@@ -16,10 +16,8 @@ import java.util.*;
 		url = "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
 		difficulty = Difficulty.HARD
 )
-public class VerticalOrderTraversalOfBinaryTree
-{
-	public List<List<Integer>> verticalTraversal(TreeNode root)
-	{
+public class VerticalOrderTraversalOfBinaryTree {
+	public List<List<Integer>> verticalTraversal(TreeNode root) {
 		TreeMap<Integer, TreeMap<Integer, TreeSet<Integer>>> map = new TreeMap<>();
 		dfs(root, 0, 0, map);
 
@@ -27,11 +25,9 @@ public class VerticalOrderTraversalOfBinaryTree
 		keys.sort(null);
 
 		List<List<Integer>> answer = new ArrayList<>();
-		for (Map.Entry<Integer, TreeMap<Integer, TreeSet<Integer>>> entry : map.entrySet())
-		{
+		for (Map.Entry<Integer, TreeMap<Integer, TreeSet<Integer>>> entry : map.entrySet()) {
 			List<Integer> list = new ArrayList<>();
-			for (Map.Entry<Integer, TreeSet<Integer>> e : entry.getValue().entrySet())
-			{
+			for (Map.Entry<Integer, TreeSet<Integer>> e : entry.getValue().entrySet()) {
 				list.addAll(e.getValue());
 			}
 
@@ -41,10 +37,8 @@ public class VerticalOrderTraversalOfBinaryTree
 		return answer;
 	}
 
-	private void dfs(TreeNode root, int balance, int level, TreeMap<Integer, TreeMap<Integer, TreeSet<Integer>>> map)
-	{
-		if (root == null)
-		{
+	private void dfs(TreeNode root, int balance, int level, TreeMap<Integer, TreeMap<Integer, TreeSet<Integer>>> map) {
+		if (root == null) {
 			return;
 		}
 

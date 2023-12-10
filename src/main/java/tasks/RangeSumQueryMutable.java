@@ -13,54 +13,44 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/range-sum-query-mutable/",
 		difficulty = Difficulty.MEDIUM
 )
-public class RangeSumQueryMutable
-{
-	class NumArray
-	{
+public class RangeSumQueryMutable {
+	class NumArray {
 		int[] original;
 		int[] table;
 
-		public NumArray(int[] nums)
-		{
+		public NumArray(int[] nums) {
 			original = new int[nums.length + 1];
 			table = new int[nums.length + 1];
 			System.arraycopy(nums, 0, original, 1, nums.length);
 
 			int nextPos;
-			for (int i = 1; i < table.length; i++)
-			{
+			for (int i = 1; i < table.length; i++) {
 				table[i] += nums[i - 1];
 				nextPos = i + (1 << getLeastSignificantBit(i));
-				if (nextPos < table.length)
-				{
+				if (nextPos < table.length) {
 					table[nextPos] += table[i];
 				}
 			}
 		}
 
-		public void update(int pos, int value)
-		{
+		public void update(int pos, int value) {
 			int prev = original[pos + 1];
 			original[pos + 1] = value;
 			pos++;
-			while (pos < table.length)
-			{
+			while (pos < table.length) {
 				table[pos] -= prev;
 				table[pos] += value;
 				pos += 1 << getLeastSignificantBit(pos);
 			}
 		}
 
-		public int sumRange(int i, int j)
-		{
+		public int sumRange(int i, int j) {
 			return calcSum(j + 1) - calcSum(i);
 		}
 
-		private int calcSum(int pos)
-		{
+		private int calcSum(int pos) {
 			int sum = 0;
-			while (pos != 0)
-			{
+			while (pos != 0) {
 				sum += table[pos];
 				pos -= 1 << getLeastSignificantBit(pos);
 			}
@@ -68,11 +58,9 @@ public class RangeSumQueryMutable
 			return sum;
 		}
 
-		private int getLeastSignificantBit(int number)
-		{
+		private int getLeastSignificantBit(int number) {
 			int i = 0;
-			while ((number & (1 << i)) == 0)
-			{
+			while ((number & (1 << i)) == 0) {
 				i++;
 			}
 
@@ -80,8 +68,7 @@ public class RangeSumQueryMutable
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		NumArray numArray = new RangeSumQueryMutable().new NumArray(new int[]{0, 9, 5, 7, 3});
 		System.out.println(numArray.sumRange(4, 4)); //3
 		System.out.println(numArray.sumRange(2, 4)); //15

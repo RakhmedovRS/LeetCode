@@ -15,32 +15,26 @@ import common.ListNode;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class DeleteNNodesAfterMNodesOfLinkedList
-{
-	public ListNode deleteNodes(ListNode head, int m, int n)
-	{
-		if (head == null)
-		{
+public class DeleteNNodesAfterMNodesOfLinkedList {
+	public ListNode deleteNodes(ListNode head, int m, int n) {
+		if (head == null) {
 			return null;
 		}
 
 		ListNode temp = head;
 		int counter = 1;
-		while (temp != null && counter < m)
-		{
+		while (temp != null && counter < m) {
 			temp = temp.next;
 			counter++;
 		}
 
 		ListNode prev = temp;
-		if (prev == null)
-		{
+		if (prev == null) {
 			return head;
 		}
 
 		counter = 0;
-		while (temp != null && counter <= n)
-		{
+		while (temp != null && counter <= n) {
 			temp = temp.next;
 			counter++;
 		}
@@ -50,12 +44,10 @@ public class DeleteNNodesAfterMNodesOfLinkedList
 		return head;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		ListNode head = new ListNode(1);
 		ListNode prev = head;
-		for (int i = 2; i <= 7; i++)
-		{
+		for (int i = 2; i <= 7; i++) {
 			prev.next = new ListNode(i);
 			prev = prev.next;
 		}

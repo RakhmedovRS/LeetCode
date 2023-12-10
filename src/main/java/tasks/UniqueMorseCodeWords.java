@@ -16,10 +16,8 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/unique-morse-code-words/",
 		difficulty = Difficulty.EASY
 )
-public class UniqueMorseCodeWords
-{
-	public int uniqueMorseRepresentations(String[] words)
-	{
+public class UniqueMorseCodeWords {
+	public int uniqueMorseRepresentations(String[] words) {
 		String[] codes = new String[]
 				{
 						".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..",
@@ -28,11 +26,9 @@ public class UniqueMorseCodeWords
 				};
 
 		Set<String> set = new HashSet<>();
-		for (String word : words)
-		{
+		for (String word : words) {
 			StringBuilder sb = new StringBuilder();
-			for (char ch : word.toCharArray())
-			{
+			for (char ch : word.toCharArray()) {
 				sb.append(codes[ch - 'a']);
 			}
 

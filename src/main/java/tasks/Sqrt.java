@@ -13,12 +13,9 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/sqrtx/",
 		difficulty = Difficulty.EASY
 )
-public class Sqrt
-{
-	public int mySqrt(int x)
-	{
-		if (x < 2)
-		{
+public class Sqrt {
+	public int mySqrt(int x) {
+		if (x < 2) {
 			return x;
 		}
 
@@ -26,20 +23,16 @@ public class Sqrt
 		int right = x / 2;
 		int mid;
 		long pivot;
-		while (left <= right)
-		{
+		while (left <= right) {
 			mid = left + (right - left) / 2;
 			pivot = 1l * mid * mid;
-			if (pivot == x)
-			{
+			if (pivot == x) {
 				return mid;
 			}
-			else if (pivot > x)
-			{
+			else if (pivot > x) {
 				right = mid - 1;
 			}
-			else
-			{
+			else {
 				left = mid + 1;
 			}
 		}
@@ -47,8 +40,7 @@ public class Sqrt
 		return right;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new Sqrt().mySqrt(9));
 		System.out.println(new Sqrt().mySqrt(2147395599));
 		System.out.println(new Sqrt().mySqrt(4));

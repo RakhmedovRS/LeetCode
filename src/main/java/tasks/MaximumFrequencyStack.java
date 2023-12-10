@@ -15,37 +15,29 @@ import java.util.*;
 		url = "https://leetcode.com/problems/maximum-frequency-stack/",
 		difficulty = Difficulty.HARD
 )
-public class MaximumFrequencyStack
-{
-	class FreqStack
-	{
+public class MaximumFrequencyStack {
+	class FreqStack {
 		int counter;
 		TreeSet<Integer> treeSet;
 		Map<Integer, List<Integer>> map;
 
-		public FreqStack()
-		{
+		public FreqStack() {
 			treeSet = new TreeSet<>((a, b) ->
 			{
 				List<Integer> listA = map.get(a);
 				List<Integer> listB = map.get(b);
-				if (listA == null && listB == null)
-				{
+				if (listA == null && listB == null) {
 					return 0;
 				}
-				else if (listA == null)
-				{
+				else if (listA == null) {
 					return 1;
 				}
-				else if (listB == null)
-				{
+				else if (listB == null) {
 					return -1;
 				}
 
-				if (listA.size() == listB.size())
-				{
-					if (!listA.isEmpty())
-					{
+				if (listA.size() == listB.size()) {
+					if (!listA.isEmpty()) {
 						return listB.get(listB.size() - 1) - listA.get(listA.size() - 1);
 					}
 					return 0;
@@ -57,8 +49,7 @@ public class MaximumFrequencyStack
 			map = new HashMap<>();
 		}
 
-		public void push(int x)
-		{
+		public void push(int x) {
 			treeSet.remove(x);
 			List<Integer> list = map.getOrDefault(x, new ArrayList<>());
 			list.add(counter++);
@@ -66,8 +57,7 @@ public class MaximumFrequencyStack
 			treeSet.add(x);
 		}
 
-		public int pop()
-		{
+		public int pop() {
 			int first = treeSet.first();
 			treeSet.remove(first);
 			List<Integer> list = map.remove(first);
@@ -78,8 +68,7 @@ public class MaximumFrequencyStack
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		MaximumFrequencyStack clazz = new MaximumFrequencyStack();
 		FreqStack freqStack = clazz.new FreqStack();
 		freqStack.push(5);

@@ -13,36 +13,30 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/detect-squares/",
 		difficulty = Difficulty.MEDIUM
 )
-class DetectSquares
-{
+class DetectSquares {
 	int[][] grid;
 
 	int size = 1001;
 
-	public DetectSquares()
-	{
+	public DetectSquares() {
 		grid = new int[size][size];
 	}
 
-	public void add(int[] point)
-	{
+	public void add(int[] point) {
 		int x = point[0];
 		int y = point[1];
 		grid[x][y]++;
 	}
 
-	public int count(int[] point)
-	{
+	public int count(int[] point) {
 		int count = 0;
 		int x = point[0];
 		int y = point[1];
 
 		int center = 1;
-		for (int step = 1; step < size; step++)
-		{
+		for (int step = 1; step < size; step++) {
 			//up left
-			if (x - step >= 0 && y - step >= 0)
-			{
+			if (x - step >= 0 && y - step >= 0) {
 				int upLeftCorner = grid[x - step][y - step];
 				int centerUp = grid[x - step][y];
 				int leftCenter = grid[x][y - step];
@@ -50,8 +44,7 @@ class DetectSquares
 			}
 
 			//up right
-			if (x - step >= 0 && y + step < size)
-			{
+			if (x - step >= 0 && y + step < size) {
 				int centerUp = grid[x - step][y];
 				int upRightCorner = grid[x - step][y + step];
 				int rightCenter = grid[x][y + step];
@@ -59,8 +52,7 @@ class DetectSquares
 			}
 
 			//left down
-			if (x + step < size && y - step >= 0)
-			{
+			if (x + step < size && y - step >= 0) {
 				int leftCenter = grid[x][y - step];
 				int downLeftCorner = grid[x + step][y - step];
 				int downCenter = grid[x + step][y];
@@ -68,8 +60,7 @@ class DetectSquares
 			}
 
 			//right down
-			if (x + step < size && y + step < size)
-			{
+			if (x + step < size && y + step < size) {
 				int downCenter = grid[x + step][y];
 				int rightCenter = grid[x][y + step];
 				int downRightCorner = grid[x + step][y + step];

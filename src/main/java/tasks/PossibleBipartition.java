@@ -12,18 +12,14 @@ import java.util.Queue;
  * @created 27-May-20
  */
 @LeetCode(id = 886, name = "Possible Bipartition", url = "https://leetcode.com/problems/possible-bipartition/")
-public class PossibleBipartition
-{
-	public boolean possibleBipartition(int n, int[][] dislikes)
-	{
+public class PossibleBipartition {
+	public boolean possibleBipartition(int n, int[][] dislikes) {
 		List<Integer>[] graph = new ArrayList[n];
-		for (int i = 0; i < n; i++)
-		{
+		for (int i = 0; i < n; i++) {
 			graph[i] = new ArrayList<>();
 		}
 
-		for (int[] dislike : dislikes)
-		{
+		for (int[] dislike : dislikes) {
 			int u = dislike[0] - 1;
 			int v = dislike[1] - 1;
 
@@ -33,10 +29,8 @@ public class PossibleBipartition
 
 		int[] colors = new int[n];
 
-		for (int i = 0; i < n; i++)
-		{
-			if (colors[i] != 0)
-			{
+		for (int i = 0; i < n; i++) {
+			if (colors[i] != 0) {
 				continue;
 			}
 
@@ -45,19 +39,15 @@ public class PossibleBipartition
 			Queue<Integer> queue = new LinkedList<>();
 			queue.add(i);
 
-			while (!queue.isEmpty())
-			{
+			while (!queue.isEmpty()) {
 				int node = queue.poll();
 
-				for (int adj : graph[node])
-				{
-					if (colors[adj] == colors[node])
-					{
+				for (int adj : graph[node]) {
+					if (colors[adj] == colors[node]) {
 						return false;
 					}
 
-					if (colors[adj] == 0)
-					{
+					if (colors[adj] == 0) {
 						colors[adj] = -colors[node];
 						queue.add(adj);
 					}

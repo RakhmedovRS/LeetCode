@@ -15,12 +15,9 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/rotate-array/",
 		difficulty = Difficulty.MEDIUM
 )
-public class RotateArray
-{
-	public void rotate(int[] nums, int k)
-	{
-		if (k == 0)
-		{
+public class RotateArray {
+	public void rotate(int[] nums, int k) {
+		if (k == 0) {
 			return;
 		}
 
@@ -30,11 +27,9 @@ public class RotateArray
 		reverseInRange(nums, k, nums.length - 1);
 	}
 
-	private void reverseInRange(int[] nums, int start, int end)
-	{
+	private void reverseInRange(int[] nums, int start, int end) {
 		int temp;
-		while (start < end)
-		{
+		while (start < end) {
 			temp = nums[start];
 			nums[start] = nums[end];
 			nums[end] = temp;
@@ -43,8 +38,7 @@ public class RotateArray
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		int[] arr = new int[]{1, 2, 3, 4, 5, 6, 7};
 		new RotateArray().rotate(arr, 3);
 		System.out.println(Arrays.toString(arr));

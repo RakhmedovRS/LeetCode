@@ -11,29 +11,23 @@ import java.util.Set;
  * @created 17-Aug-20
  */
 @LeetCode(id = 1261, name = "Find Elements in a Contaminated Binary Tree", url = "https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/")
-public class FindElementsInContaminatedBinaryTree
-{
-	class FindElements
-	{
+public class FindElementsInContaminatedBinaryTree {
+	class FindElements {
 		TreeNode root;
 		Set<Integer> integerSet;
 
-		public FindElements(TreeNode root)
-		{
+		public FindElements(TreeNode root) {
 			this.root = root;
 			integerSet = new HashSet<>();
 			recover(root, 0, integerSet);
 		}
 
-		public boolean find(int target)
-		{
+		public boolean find(int target) {
 			return find(root, target);
 		}
 
-		private void recover(TreeNode root, int val, Set<Integer> integerSet)
-		{
-			if (root == null)
-			{
+		private void recover(TreeNode root, int val, Set<Integer> integerSet) {
+			if (root == null) {
 				return;
 			}
 
@@ -43,8 +37,7 @@ public class FindElementsInContaminatedBinaryTree
 			recover(root.right, 2 * val + 2, integerSet);
 		}
 
-		private boolean find(TreeNode root, int val)
-		{
+		private boolean find(TreeNode root, int val) {
 			return integerSet.contains(val);
 		}
 	}

@@ -17,20 +17,15 @@ import java.util.List;
 		url = "https://leetcode.com/problems/sort-even-and-odd-indices-independently/",
 		difficulty = Difficulty.EASY
 )
-public class SortEvenAndOddIndicesIndependently
-{
-	public int[] sortEvenOdd(int[] nums)
-	{
+public class SortEvenAndOddIndicesIndependently {
+	public int[] sortEvenOdd(int[] nums) {
 		List<Integer> evens = new ArrayList<>();
 		List<Integer> odds = new ArrayList<>();
-		for (int i = 0; i < nums.length; i++)
-		{
-			if (i % 2 == 0)
-			{
+		for (int i = 0; i < nums.length; i++) {
+			if (i % 2 == 0) {
 				evens.add(nums[i]);
 			}
-			else
-			{
+			else {
 				odds.add(nums[i]);
 			}
 		}
@@ -39,14 +34,11 @@ public class SortEvenAndOddIndicesIndependently
 		odds.sort(Comparator.reverseOrder());
 		int evensPos = 0;
 		int oddsPos = 0;
-		for (int i = 0; i < nums.length; i++)
-		{
-			if (i % 2 == 0)
-			{
+		for (int i = 0; i < nums.length; i++) {
+			if (i % 2 == 0) {
 				nums[i] = evens.get(evensPos++);
 			}
-			else
-			{
+			else {
 				nums[i] = odds.get(oddsPos++);
 			}
 		}

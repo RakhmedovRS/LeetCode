@@ -18,34 +18,27 @@ import java.util.List;
 		url = "https://leetcode.com/problems/n-ary-tree-level-order-traversal/",
 		difficulty = Difficulty.MEDIUM
 )
-public class NaryTreeLevelOrderTraversal
-{
-	static class Node
-	{
+public class NaryTreeLevelOrderTraversal {
+	static class Node {
 		public int val;
 		public List<Node> children;
 
-		public Node()
-		{
+		public Node() {
 		}
 
-		public Node(int val)
-		{
+		public Node(int val) {
 			this.val = val;
 			this.children = new ArrayList<>();
 		}
 
-		public Node(int val, List<Node> children)
-		{
+		public Node(int val, List<Node> children) {
 			this.val = val;
 			this.children = children;
 		}
 	}
 
-	public List<List<Integer>> levelOrder(Node root)
-	{
-		if (root == null)
-		{
+	public List<List<Integer>> levelOrder(Node root) {
+		if (root == null) {
 			return new ArrayList<>();
 		}
 
@@ -54,17 +47,13 @@ public class NaryTreeLevelOrderTraversal
 		tempo.addLast(root);
 		int currentLevelSize;
 		List<Integer> currentLevelNodes;
-		while (!tempo.isEmpty())
-		{
+		while (!tempo.isEmpty()) {
 			currentLevelSize = tempo.size();
 			currentLevelNodes = new LinkedList<>();
-			while (currentLevelSize > 0)
-			{
+			while (currentLevelSize > 0) {
 				Node node = tempo.removeFirst();
-				for (Node successor : node.children)
-				{
-					if (successor != null)
-					{
+				for (Node successor : node.children) {
+					if (successor != null) {
 						tempo.addLast(successor);
 					}
 				}
@@ -77,8 +66,7 @@ public class NaryTreeLevelOrderTraversal
 		return result;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		Node child = new Node(3, Arrays.asList(new Node(5), new Node(6)));
 		Node root = new Node(1, Arrays.asList(child, new Node(2), new Node(4)));
 		new NaryTreeLevelOrderTraversal().levelOrder(root);

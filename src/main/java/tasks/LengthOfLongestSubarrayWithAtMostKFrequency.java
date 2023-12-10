@@ -16,24 +16,19 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LengthOfLongestSubarrayWithAtMostKFrequency
-{
-	public int maxSubarrayLength(int[] nums, int k)
-	{
+public class LengthOfLongestSubarrayWithAtMostKFrequency {
+	public int maxSubarrayLength(int[] nums, int k) {
 		Map<Integer, Integer> freq = new HashMap<>();
 		int ans = 0;
 		int left = 0;
 		int right = 0;
-		while (right < nums.length)
-		{
+		while (right < nums.length) {
 			int num = nums[right++];
 			freq.put(num, freq.getOrDefault(num, 0) + 1);
-			while (freq.get(num) > k)
-			{
+			while (freq.get(num) > k) {
 				int leftNum = nums[left++];
 				int count = freq.remove(leftNum);
-				if (--count > 0)
-				{
+				if (--count > 0) {
 					freq.put(leftNum, count);
 				}
 			}

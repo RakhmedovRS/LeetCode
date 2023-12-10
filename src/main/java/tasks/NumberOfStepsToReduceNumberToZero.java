@@ -13,19 +13,14 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/",
 		difficulty = Difficulty.EASY
 )
-public class NumberOfStepsToReduceNumberToZero
-{
-	public int numberOfSteps(int num)
-	{
+public class NumberOfStepsToReduceNumberToZero {
+	public int numberOfSteps(int num) {
 		int steps = 0;
-		while (num != 0)
-		{
-			if (num % 2 == 0)
-			{
+		while (num != 0) {
+			if (num % 2 == 0) {
 				num /= 2;
 			}
-			else
-			{
+			else {
 				num--;
 			}
 

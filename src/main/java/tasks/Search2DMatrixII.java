@@ -13,24 +13,18 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/search-a-2d-matrix-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class Search2DMatrixII
-{
-	public boolean searchMatrix(int[][] matrix, int target)
-	{
+public class Search2DMatrixII {
+	public boolean searchMatrix(int[][] matrix, int target) {
 		int row = 0;
 		int column = matrix[row].length - 1;
-		while (row >= 0 && row < matrix.length && column >= 0 && column < matrix[row].length)
-		{
-			if (matrix[row][column] == target)
-			{
+		while (row >= 0 && row < matrix.length && column >= 0 && column < matrix[row].length) {
+			if (matrix[row][column] == target) {
 				return true;
 			}
-			if (matrix[row][column] < target)
-			{
+			if (matrix[row][column] < target) {
 				row++;
 			}
-			else
-			{
+			else {
 				column--;
 			}
 		}

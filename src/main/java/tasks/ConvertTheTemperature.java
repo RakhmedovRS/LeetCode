@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/convert-the-temperature/",
 		difficulty = Difficulty.EASY
 )
-public class ConvertTheTemperature
-{
-	public double[] convertTemperature(double celsius)
-	{
+public class ConvertTheTemperature {
+	public double[] convertTemperature(double celsius) {
 		return new double[]{celsius + 273.15D, celsius * 1.8D + 32};
 	}
 }

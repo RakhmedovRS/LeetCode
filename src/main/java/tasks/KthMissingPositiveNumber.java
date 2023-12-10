@@ -13,23 +13,17 @@ import common.LeetCode;
 		name = "Kth Missing Positive Number",
 		url = "https://leetcode.com/problems/kth-missing-positive-number/",
 		difficulty = Difficulty.EASY)
-public class KthMissingPositiveNumber
-{
-	public int findKthPositive(int[] arr, int k)
-	{
+public class KthMissingPositiveNumber {
+	public int findKthPositive(int[] arr, int k) {
 		int diff;
 		int prev = 0;
-		for (int curr : arr)
-		{
+		for (int curr : arr) {
 			diff = curr - prev;
-			if (diff != 1)
-			{
-				if (diff > k)
-				{
+			if (diff != 1) {
+				if (diff > k) {
 					return prev + k;
 				}
-				else
-				{
+				else {
 					k -= diff - 1;
 				}
 			}
@@ -40,8 +34,7 @@ public class KthMissingPositiveNumber
 		return prev + k;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		KthMissingPositiveNumber clazz = new KthMissingPositiveNumber();
 		System.out.println(clazz.findKthPositive(new int[]{8, 17, 23, 34, 37, 42}, 16)); //18
 		System.out.println(clazz.findKthPositive(new int[]{2, 3, 4, 7, 11}, 5)); //9

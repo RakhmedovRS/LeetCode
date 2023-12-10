@@ -18,37 +18,29 @@ import java.util.Queue;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class FindNearestRightNodeInBinaryTree
-{
-	public TreeNode findNearestRightNode(TreeNode root, TreeNode u)
-	{
+public class FindNearestRightNodeInBinaryTree {
+	public TreeNode findNearestRightNode(TreeNode root, TreeNode u) {
 		int size;
 		Queue<TreeNode> queue = new LinkedList<>();
 		queue.add(root);
 		TreeNode current;
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			size = queue.size();
-			while (size-- > 0)
-			{
+			while (size-- > 0) {
 				current = queue.remove();
-				if (current == u)
-				{
-					if (size == 0 || queue.isEmpty())
-					{
+				if (current == u) {
+					if (size == 0 || queue.isEmpty()) {
 						return null;
 					}
 
 					return queue.remove();
 				}
 
-				if (current.left != null)
-				{
+				if (current.left != null) {
 					queue.add(current.left);
 				}
 
-				if (current.right != null)
-				{
+				if (current.right != null) {
 					queue.add(current.right);
 				}
 			}

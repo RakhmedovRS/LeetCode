@@ -13,15 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/",
 		difficulty = Difficulty.EASY
 )
-public class NumberOfStringsThatAppearAsSubstringsInWord
-{
-	public int numOfStrings(String[] patterns, String word)
-	{
+public class NumberOfStringsThatAppearAsSubstringsInWord {
+	public int numOfStrings(String[] patterns, String word) {
 		int count = 0;
-		for (String pattern : patterns)
-		{
-			if (word.contains(pattern))
-			{
+		for (String pattern : patterns) {
+			if (word.contains(pattern)) {
 				count++;
 			}
 		}

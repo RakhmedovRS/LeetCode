@@ -15,37 +15,29 @@ import java.util.*;
 		url = "https://leetcode.com/problems/find-champion-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindChampionII
-{
-	public int findChampion(int n, int[][] grid)
-	{
+public class FindChampionII {
+	public int findChampion(int n, int[][] grid) {
 		Map<Integer, List<Integer>> map = new HashMap<>();
-		for (int[] edge: grid) {
+		for (int[] edge : grid) {
 			map.putIfAbsent(edge[0], new ArrayList<>());
 			map.get(edge[0]).add(edge[1]);
 		}
 
 		boolean[] winner = new boolean[n];
 		Arrays.fill(winner, true);
-		for (List<Integer> weak : map.values())
-		{
-			for (int w : weak)
-			{
+		for (List<Integer> weak : map.values()) {
+			for (int w : weak) {
 				winner[w] = false;
 			}
 		}
 
 		int candidate = -1;
-		for (int i = 0; i < winner.length; i++)
-		{
-			if (winner[i])
-			{
-				if (candidate != - 1)
-				{
+		for (int i = 0; i < winner.length; i++) {
+			if (winner[i]) {
+				if (candidate != -1) {
 					return -1;
 				}
-				else
-				{
+				else {
 					candidate = i;
 				}
 			}

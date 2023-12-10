@@ -16,17 +16,14 @@ import java.util.*;
 		url = "https://leetcode.com/problems/binary-tree-level-order-traversal-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class BinaryTreeLevelOrderTraversalII
-{
-	public List<List<Integer>> levelOrderBottom(TreeNode root)
-	{
+public class BinaryTreeLevelOrderTraversalII {
+	public List<List<Integer>> levelOrderBottom(TreeNode root) {
 		Map<Integer, List<Integer>> cache = new HashMap<>();
 		levelOrderBottom(root, cache, 1);
 
 		int i = 1;
 		LinkedList<List<Integer>> result = new LinkedList<>();
-		while (cache.containsKey(i))
-		{
+		while (cache.containsKey(i)) {
 			result.addFirst(cache.get(i));
 			i++;
 		}
@@ -34,10 +31,8 @@ public class BinaryTreeLevelOrderTraversalII
 		return result;
 	}
 
-	private void levelOrderBottom(TreeNode root, Map<Integer, List<Integer>> cache, int level)
-	{
-		if (root == null)
-		{
+	private void levelOrderBottom(TreeNode root, Map<Integer, List<Integer>> cache, int level) {
+		if (root == null) {
 			return;
 		}
 

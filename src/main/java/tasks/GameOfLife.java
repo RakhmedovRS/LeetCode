@@ -13,64 +13,48 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/game-of-life/",
 		difficulty = Difficulty.MEDIUM
 )
-public class GameOfLife
-{
-	public void gameOfLife(int[][] board)
-	{
+public class GameOfLife {
+	public void gameOfLife(int[][] board) {
 		int rows = board.length;
-		if (rows == 0)
-		{
+		if (rows == 0) {
 			return;
 		}
 		int columns = board[0].length;
 
 		boolean result;
-		for (int row = 0; row < rows; row++)
-		{
-			for (int column = 0; column < columns; column++)
-			{
+		for (int row = 0; row < rows; row++) {
+			for (int column = 0; column < columns; column++) {
 				result = survivedOrNewCell(row, column, rows, columns, board);
-				if (board[row][column] == 1)
-				{
+				if (board[row][column] == 1) {
 					board[row][column] = result ? 1 : -1;
 				}
-				else if (board[row][column] == 0)
-				{
+				else if (board[row][column] == 0) {
 					board[row][column] = result ? 2 : 0;
 				}
 			}
 		}
 
-		for (int row = 0; row < rows; row++)
-		{
-			for (int column = 0; column < columns; column++)
-			{
-				if (board[row][column] > 0)
-				{
+		for (int row = 0; row < rows; row++) {
+			for (int column = 0; column < columns; column++) {
+				if (board[row][column] > 0) {
 					board[row][column] = 1;
 				}
-				else
-				{
+				else {
 					board[row][column] = 0;
 				}
 			}
 		}
 	}
 
-	private boolean survivedOrNewCell(int row, int column, int rows, int columns, int[][] board)
-	{
+	private boolean survivedOrNewCell(int row, int column, int rows, int columns, int[][] board) {
 		int neighbors = 0;
-		for (int r = -1; r <= 1; r++)
-		{
-			for (int c = -1; c <= 1; c++)
-			{
-				if (r + row == row && c + column == column)
-				{
+		for (int r = -1; r <= 1; r++) {
+			for (int c = -1; c <= 1; c++) {
+				if (r + row == row && c + column == column) {
 					continue;
 				}
 
-				if (r + row < 0 || r + row == rows || c + column < 0 || c + column == columns)
-				{
+				if (r + row < 0 || r + row == rows || c + column < 0 || c + column == columns) {
 					continue;
 				}
 
@@ -78,12 +62,10 @@ public class GameOfLife
 			}
 		}
 
-		if (board[row][column] == 1)
-		{
+		if (board[row][column] == 1) {
 			return neighbors == 2 || neighbors == 3;
 		}
-		else
-		{
+		else {
 			return neighbors == 3;
 		}
 	}

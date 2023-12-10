@@ -15,10 +15,8 @@ import java.util.Stack;
 		url = "https://leetcode.com/problems/sum-of-subarray-minimums/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SumOfSubarrayMinimums
-{
-	public int sumSubarrayMins(int[] numbers)
-	{
+public class SumOfSubarrayMinimums {
+	public int sumSubarrayMins(int[] numbers) {
 		long sum = 0;
 		Stack<int[]> lStack = new Stack<>();
 		Stack<int[]> rStack = new Stack<>();
@@ -26,11 +24,9 @@ public class SumOfSubarrayMinimums
 		int[] right = new int[numbers.length];
 		int count;
 
-		for (int i = 0; i < numbers.length; i++)
-		{
+		for (int i = 0; i < numbers.length; i++) {
 			count = 1;
-			while (!lStack.isEmpty() && lStack.peek()[0] > numbers[i])
-			{
+			while (!lStack.isEmpty() && lStack.peek()[0] > numbers[i]) {
 				count += lStack.pop()[1];
 			}
 
@@ -38,11 +34,9 @@ public class SumOfSubarrayMinimums
 			left[i] = count;
 		}
 
-		for (int i = numbers.length - 1; i >= 0; i--)
-		{
+		for (int i = numbers.length - 1; i >= 0; i--) {
 			count = 1;
-			while (!rStack.isEmpty() && rStack.peek()[0] >= numbers[i])
-			{
+			while (!rStack.isEmpty() && rStack.peek()[0] >= numbers[i]) {
 				count += rStack.pop()[1];
 			}
 
@@ -50,8 +44,7 @@ public class SumOfSubarrayMinimums
 			right[i] = count;
 		}
 
-		for (int i = 0; i < numbers.length; i++)
-		{
+		for (int i = 0; i < numbers.length; i++) {
 			sum = (sum + numbers[i] * left[i] * right[i]) % 1_000_000_007;
 		}
 

@@ -13,54 +13,44 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumOperationsToReduceXToZero
-{
-	public int minOperations(int[] nums, int x)
-	{
+public class MinimumOperationsToReduceXToZero {
+	public int minOperations(int[] nums, int x) {
 		int n = nums.length;
 		boolean[] used = new boolean[n];
 		int i = 0;
 		int j = 0;
 
 		int totalSum = 0;
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			totalSum += num;
 		}
 
-		if (totalSum < x)
-		{
+		if (totalSum < x) {
 			return -1;
 		}
-		else if (totalSum == x)
-		{
+		else if (totalSum == x) {
 			return n;
 		}
 
 		int steps = 0;
 		int minSteps = Integer.MAX_VALUE;
 		int sum = 0;
-		while (j < n * 2)
-		{
-			while (sum <= x && !used[j % n])
-			{
+		while (j < n * 2) {
+			while (sum <= x && !used[j % n]) {
 				sum += nums[j % n];
 				used[j++ % n] = true;
 				steps++;
 
-				if (sum == x && (used[0] || used[n - 1]))
-				{
+				if (sum == x && (used[0] || used[n - 1])) {
 					minSteps = Math.min(minSteps, steps);
 				}
 			}
 
-			while (sum > x)
-			{
+			while (sum > x) {
 				sum -= nums[i % n];
 				used[i++ % n] = false;
 				steps--;
-				if (sum == x && (used[0] || used[n - 1]))
-				{
+				if (sum == x && (used[0] || used[n - 1])) {
 					minSteps = Math.min(minSteps, steps);
 				}
 			}
@@ -69,8 +59,7 @@ public class MinimumOperationsToReduceXToZero
 		return minSteps == Integer.MAX_VALUE ? -1 : minSteps;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new MinimumOperationsToReduceXToZero().minOperations(new int[]{5, 2, 3, 1, 1}, 5)); //1
 		System.out.println(new MinimumOperationsToReduceXToZero().minOperations(new int[]{1, 1}, 3)); //-1
 		System.out.println(new MinimumOperationsToReduceXToZero().minOperations(new int[]{5, 6, 7, 8, 9}, 4)); //-1

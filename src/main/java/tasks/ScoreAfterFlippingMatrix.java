@@ -13,43 +13,33 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/score-after-flipping-matrix/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ScoreAfterFlippingMatrix
-{
-	public int matrixScore(int[][] matrix)
-	{
+public class ScoreAfterFlippingMatrix {
+	public int matrixScore(int[][] matrix) {
 
-		for (int[] row : matrix)
-		{
-			if (row[0] == 0)
-			{
+		for (int[] row : matrix) {
+			if (row[0] == 0) {
 				flip(row);
 			}
 		}
 
 		int minOnesCount = matrix.length % 2 == 0 ? matrix.length / 2 : (matrix.length + 1) / 2;
-		for (int column = 1; column < matrix[0].length; column++)
-		{
+		for (int column = 1; column < matrix[0].length; column++) {
 			int count = 0;
-			for (int[] row : matrix)
-			{
+			for (int[] row : matrix) {
 				count += row[column];
 			}
 
-			if (count < minOnesCount)
-			{
-				for (int[] row : matrix)
-				{
+			if (count < minOnesCount) {
+				for (int[] row : matrix) {
 					row[column] = (row[column] + 1) % 2;
 				}
 			}
 		}
 
 		int result = 0;
-		for (int[] row : matrix)
-		{
+		for (int[] row : matrix) {
 			int rowRes = 0;
-			for (int value : row)
-			{
+			for (int value : row) {
 				rowRes <<= 1;
 				rowRes ^= value;
 			}
@@ -59,10 +49,8 @@ public class ScoreAfterFlippingMatrix
 		return result;
 	}
 
-	private void flip(int[] arr)
-	{
-		for (int i = 0; i < arr.length; i++)
-		{
+	private void flip(int[] arr) {
+		for (int i = 0; i < arr.length; i++) {
 			arr[i] = (arr[i] + 1) % 2;
 		}
 	}

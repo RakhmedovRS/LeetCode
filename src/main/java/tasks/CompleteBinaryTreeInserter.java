@@ -19,37 +19,30 @@ import java.util.Queue;
 		url = "https://leetcode.com/problems/complete-binary-tree-inserter/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CompleteBinaryTreeInserter
-{
-	class CBTInserter
-	{
+public class CompleteBinaryTreeInserter {
+	class CBTInserter {
 		List<List<TreeNode>> levels;
 		int nodes;
 
-		public CBTInserter(TreeNode root)
-		{
+		public CBTInserter(TreeNode root) {
 			levels = new ArrayList<>();
 			nodes = 0;
 			Queue<TreeNode> queue = new LinkedList<>();
 			queue.add(root);
 			int size;
 			TreeNode current;
-			while (!queue.isEmpty())
-			{
+			while (!queue.isEmpty()) {
 				size = queue.size();
 				List<TreeNode> list = new ArrayList<>();
-				while (size-- > 0)
-				{
+				while (size-- > 0) {
 					current = queue.remove();
 					list.add(current);
 					nodes++;
-					if (current.left != null)
-					{
+					if (current.left != null) {
 						queue.add(current.left);
 					}
 
-					if (current.right != null)
-					{
+					if (current.right != null) {
 						queue.add(current.right);
 					}
 				}
@@ -58,11 +51,9 @@ public class CompleteBinaryTreeInserter
 			}
 		}
 
-		public int insert(int v)
-		{
+		public int insert(int v) {
 			int size = levels.size();
-			if (Math.pow(2, size) - 1 == nodes)
-			{
+			if (Math.pow(2, size) - 1 == nodes) {
 				levels.add(new ArrayList<>());
 			}
 
@@ -75,12 +66,10 @@ public class CompleteBinaryTreeInserter
 			int parentPos = pos / 2;
 			boolean leftChild = pos % 2 == 0;
 			TreeNode parent = parentLevel.get(parentPos);
-			if (leftChild)
-			{
+			if (leftChild) {
 				parent.left = node;
 			}
-			else
-			{
+			else {
 				parent.right = node;
 			}
 
@@ -89,14 +78,12 @@ public class CompleteBinaryTreeInserter
 			return parent.val;
 		}
 
-		public TreeNode get_root()
-		{
+		public TreeNode get_root() {
 			return levels.get(0).get(0);
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		TreeNode root = new TreeNode(1);
 		root.left = new TreeNode(2);
 		root.right = new TreeNode(3);

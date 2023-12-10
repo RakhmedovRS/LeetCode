@@ -13,25 +13,19 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/",
 		difficulty = Difficulty.EASY
 )
-public class MinimumSumOfFourDigitNumberAfterSplittingDigits
-{
-	public int minimumSum(int num)
-	{
+public class MinimumSumOfFourDigitNumberAfterSplittingDigits {
+	public int minimumSum(int num) {
 		int[] memo = new int[10];
-		for (int i = 0; i < 4; i++)
-		{
+		for (int i = 0; i < 4; i++) {
 			memo[num % 10]++;
 			num /= 10;
 		}
 
 		int result = 0;
 		int seen = 0;
-		while (seen < 2)
-		{
-			for (int i = 0; i < memo.length; i++)
-			{
-				if (memo[i] > 0)
-				{
+		while (seen < 2) {
+			for (int i = 0; i < memo.length; i++) {
+				if (memo[i] > 0) {
 					result += i * 10;
 					seen++;
 					memo[i]--;
@@ -40,8 +34,7 @@ public class MinimumSumOfFourDigitNumberAfterSplittingDigits
 			}
 		}
 
-		for (int i = 0; i < memo.length; i++)
-		{
+		for (int i = 0; i < memo.length; i++) {
 			result += i * memo[i];
 		}
 		return result;

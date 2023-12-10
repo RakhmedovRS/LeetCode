@@ -14,24 +14,17 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class WiggleSort
-{
-	public void wiggleSort(int[] nums)
-	{
+public class WiggleSort {
+	public void wiggleSort(int[] nums) {
 		boolean min = true;
-		for (int i = 0; i < nums.length - 1; i++)
-		{
-			if (min)
-			{
-				if (nums[i] > nums[i + 1])
-				{
+		for (int i = 0; i < nums.length - 1; i++) {
+			if (min) {
+				if (nums[i] > nums[i + 1]) {
 					swap(nums, i, i + 1);
 				}
 			}
-			else
-			{
-				if (nums[i] < nums[i + 1])
-				{
+			else {
+				if (nums[i] < nums[i + 1]) {
 					swap(nums, i, i + 1);
 				}
 			}
@@ -40,8 +33,7 @@ public class WiggleSort
 		}
 	}
 
-	private void swap(int[] nums, int a, int b)
-	{
+	private void swap(int[] nums, int a, int b) {
 		int temp = nums[a];
 		nums[a] = nums[b];
 		nums[b] = temp;

@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-number-of-operations-to-convert-time/",
 		difficulty = Difficulty.EASY
 )
-public class MinimumNumberOfOperationsToConvertTime
-{
-	public int convertTime(String current, String correct)
-	{
+public class MinimumNumberOfOperationsToConvertTime {
+	public int convertTime(String current, String correct) {
 		int hours = (current.charAt(0) - '0') * 10 + (current.charAt(1) - '0');
 		int minutes = (current.charAt(3) - '0') * 10 + (current.charAt(4) - '0');
 		int currentTime = hours * 60 + minutes;

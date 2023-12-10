@@ -17,13 +17,10 @@ import java.util.Set;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class DistributeCandies
-{
-	public int distributeCandies(int[] candyTypes)
-	{
+public class DistributeCandies {
+	public int distributeCandies(int[] candyTypes) {
 		Set<Integer> set = new HashSet<>(candyTypes.length * 3);
-		for (int candyType : candyTypes)
-		{
+		for (int candyType : candyTypes) {
 			set.add(candyType);
 		}
 

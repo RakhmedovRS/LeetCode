@@ -15,45 +15,34 @@ import java.util.*;
 		url = "https://leetcode.com/problems/get-watched-videos-by-your-friends/",
 		difficulty = Difficulty.MEDIUM
 )
-public class GetWatchedVideosByYourFriends
-{
-	public List<String> watchedVideosByFriends(List<List<String>> watchedVideos, int[][] friends, int id, int level)
-	{
+public class GetWatchedVideosByYourFriends {
+	public List<String> watchedVideosByFriends(List<List<String>> watchedVideos, int[][] friends, int id, int level) {
 		Map<String, Integer> freqMap = new HashMap<>();
 		Set<Integer> visited = new HashSet<>();
 		visited.add(id);
 		Queue<Integer> queue = new LinkedList<>();
-		for (int friendId : friends[id])
-		{
+		for (int friendId : friends[id]) {
 			queue.add(friendId);
 		}
 		int currentLevel = 1;
 		int size;
-		while (!queue.isEmpty() && currentLevel <= level)
-		{
+		while (!queue.isEmpty() && currentLevel <= level) {
 			size = queue.size();
-			while (size-- > 0)
-			{
+			while (size-- > 0) {
 				int currentId = queue.remove();
-				if (!visited.add(currentId))
-				{
+				if (!visited.add(currentId)) {
 					continue;
 				}
 				int[] current = friends[currentId];
-				if (currentLevel == level)
-				{
-					for (String video : watchedVideos.get(currentId))
-					{
+				if (currentLevel == level) {
+					for (String video : watchedVideos.get(currentId)) {
 						freqMap.put(video, freqMap.getOrDefault(video, 0) + 1);
 					}
 				}
 
-				if (currentLevel + 1 <= level)
-				{
-					for (int nextId : current)
-					{
-						if (!visited.contains(nextId))
-						{
+				if (currentLevel + 1 <= level) {
+					for (int nextId : current) {
+						if (!visited.contains(nextId)) {
 							queue.add(nextId);
 						}
 					}
@@ -65,8 +54,7 @@ public class GetWatchedVideosByYourFriends
 
 		PriorityQueue<String> minHeap = new PriorityQueue<>((video1, video2) ->
 		{
-			if (freqMap.get(video1).equals(freqMap.get(video2)))
-			{
+			if (freqMap.get(video1).equals(freqMap.get(video2))) {
 				return video1.compareTo(video2);
 			}
 
@@ -75,8 +63,7 @@ public class GetWatchedVideosByYourFriends
 		minHeap.addAll(freqMap.keySet());
 
 		List<String> answer = new ArrayList<>(minHeap.size());
-		while (!minHeap.isEmpty())
-		{
+		while (!minHeap.isEmpty()) {
 			answer.add(minHeap.remove());
 		}
 

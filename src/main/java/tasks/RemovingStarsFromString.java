@@ -15,29 +15,22 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/removing-stars-from-a-string/",
 		difficulty = Difficulty.MEDIUM
 )
-public class RemovingStarsFromString
-{
-	public String removeStars(String s)
-	{
+public class RemovingStarsFromString {
+	public String removeStars(String s) {
 		LinkedList<Character> list = new LinkedList<>();
-		for (char ch : s.toCharArray())
-		{
-			if (ch == '*')
-			{
-				if (!list.isEmpty())
-				{
+		for (char ch : s.toCharArray()) {
+			if (ch == '*') {
+				if (!list.isEmpty()) {
 					list.removeLast();
 				}
 			}
-			else
-			{
+			else {
 				list.addLast(ch);
 			}
 		}
 
 		StringBuilder sb = new StringBuilder();
-		while (!list.isEmpty())
-		{
+		while (!list.isEmpty()) {
 			sb.append(list.removeFirst());
 		}
 

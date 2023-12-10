@@ -13,23 +13,18 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumNestingDepthOfTwoValidParenthesesStrings
-{
-	public int[] maxDepthAfterSplit(String seq)
-	{
+public class MaximumNestingDepthOfTwoValidParenthesesStrings {
+	public int[] maxDepthAfterSplit(String seq) {
 		int[] answer = new int[seq.length()];
 		int c = 0;
-		for (int i = 0; i < seq.length(); i++)
-		{
-			if (seq.charAt(i) == '(')
-			{
+		for (int i = 0; i < seq.length(); i++) {
+			if (seq.charAt(i) == '(') {
 				c++;
 			}
 
 			answer[i] = c % 2;
 
-			if (seq.charAt(i) == ')')
-			{
+			if (seq.charAt(i) == ')') {
 				c--;
 			}
 

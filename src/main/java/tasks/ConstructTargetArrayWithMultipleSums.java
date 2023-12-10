@@ -16,31 +16,25 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/construct-target-array-with-multiple-sums/",
 		difficulty = Difficulty.HARD
 )
-public class ConstructTargetArrayWithMultipleSums
-{
-	public boolean isPossible(int[] target)
-	{
+public class ConstructTargetArrayWithMultipleSums {
+	public boolean isPossible(int[] target) {
 		PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Comparator.reverseOrder());
 		long sum = 0;
-		for (int val : target)
-		{
+		for (int val : target) {
 			maxHeap.add(val);
 			sum += val;
 		}
 
 		long curr;
 		long prev;
-		while (sum > 1 && maxHeap.peek() > sum / 2)
-		{
+		while (sum > 1 && maxHeap.peek() > sum / 2) {
 			curr = maxHeap.remove();
 			sum -= curr;
-			if (curr == 1 || sum == 1)
-			{
+			if (curr == 1 || sum == 1) {
 				return true;
 			}
 
-			if (curr < sum || sum == 0 || curr % sum == 0)
-			{
+			if (curr < sum || sum == 0 || curr % sum == 0) {
 				return false;
 			}
 

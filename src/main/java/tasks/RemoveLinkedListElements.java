@@ -14,16 +14,12 @@ import common.ListNode;
 		url = "https://leetcode.com/problems/remove-linked-list-elements/",
 		difficulty = Difficulty.EASY
 )
-public class RemoveLinkedListElements
-{
-	public ListNode removeElements(ListNode head, int val)
-	{
+public class RemoveLinkedListElements {
+	public ListNode removeElements(ListNode head, int val) {
 		ListNode dummy = new ListNode(0);
 		ListNode current = dummy;
-		while (head != null)
-		{
-			if (head.val != val)
-			{
+		while (head != null) {
+			if (head.val != val) {
 				current.next = head;
 				current = current.next;
 			}

@@ -13,17 +13,13 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/add-digits/",
 		difficulty = Difficulty.EASY
 )
-public class AddDigits
-{
-	public int addDigits(int num)
-	{
-		if (num == 0)
-		{
+public class AddDigits {
+	public int addDigits(int num) {
+		if (num == 0) {
 			return 0;
 		}
 
-		if (num % 9 == 0)
-		{
+		if (num % 9 == 0) {
 			return 9;
 		}
 

@@ -17,34 +17,25 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/finding-3-digit-even-numbers/",
 		difficulty = Difficulty.EASY
 )
-public class FindingTreeDigitEvenNumbers
-{
-	public int[] findEvenNumbers(int[] digits)
-	{
+public class FindingTreeDigitEvenNumbers {
+	public int[] findEvenNumbers(int[] digits) {
 		Set<Integer> set = new HashSet<>();
-		for (int a = 0; a < digits.length; a++)
-		{
-			if (digits[a] == 0)
-			{
+		for (int a = 0; a < digits.length; a++) {
+			if (digits[a] == 0) {
 				continue;
 			}
 
-			for (int b = 0; b < digits.length; b++)
-			{
-				if (a == b)
-				{
+			for (int b = 0; b < digits.length; b++) {
+				if (a == b) {
 					continue;
 				}
-				for (int c = 0; c < digits.length; c++)
-				{
-					if (a == c || b == c)
-					{
+				for (int c = 0; c < digits.length; c++) {
+					if (a == c || b == c) {
 						continue;
 					}
 
 					int val = digits[a] * 100 + digits[b] * 10 + digits[c];
-					if (val % 2 == 0)
-					{
+					if (val % 2 == 0) {
 						set.add(val);
 					}
 				}
@@ -53,8 +44,7 @@ public class FindingTreeDigitEvenNumbers
 
 		int i = 0;
 		int[] arr = new int[set.size()];
-		for (Integer val : set)
-		{
+		for (Integer val : set) {
 			arr[i++] = val;
 		}
 

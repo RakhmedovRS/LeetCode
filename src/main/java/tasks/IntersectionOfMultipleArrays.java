@@ -16,33 +16,25 @@ import java.util.List;
 		url = "https://leetcode.com/problems/intersection-of-multiple-arrays/",
 		difficulty = Difficulty.EASY
 )
-public class IntersectionOfMultipleArrays
-{
-	public List<Integer> intersection(int[][] nums)
-	{
+public class IntersectionOfMultipleArrays {
+	public List<Integer> intersection(int[][] nums) {
 		int[] count = new int[1001];
-		for (int[] numss : nums)
-		{
+		for (int[] numss : nums) {
 			boolean[] b = new boolean[1001];
-			for (int num : numss)
-			{
+			for (int num : numss) {
 				b[num] = true;
 			}
 
-			for (int i = 0; i < b.length; i++)
-			{
-				if (b[i])
-				{
+			for (int i = 0; i < b.length; i++) {
+				if (b[i]) {
 					count[i]++;
 				}
 			}
 		}
 
 		List<Integer> answer = new ArrayList<>();
-		for (int i = 0; i < count.length; i++)
-		{
-			if (count[i] == nums.length)
-			{
+		for (int i = 0; i < count.length; i++) {
+			if (count[i] == nums.length) {
 				answer.add(i);
 			}
 		}

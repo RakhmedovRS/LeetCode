@@ -13,25 +13,19 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/find-the-difference/",
 		difficulty = Difficulty.EASY
 )
-public class FindTheDifference
-{
-	public char findTheDifference(String s, String t)
-	{
+public class FindTheDifference {
+	public char findTheDifference(String s, String t) {
 		char[] memo = new char[26];
-		for (int i = 0; i < s.length(); i++)
-		{
+		for (int i = 0; i < s.length(); i++) {
 			memo[s.charAt(i) - 'a']--;
 		}
 
-		for (int i = 0; i < t.length(); i++)
-		{
+		for (int i = 0; i < t.length(); i++) {
 			memo[t.charAt(i) - 'a']++;
 		}
 
-		for (int i = 0; i < 26; i++)
-		{
-			if (memo[i] == 1)
-			{
+		for (int i = 0; i < 26; i++) {
+			if (memo[i] == 1) {
 				return (char) (i + 'a');
 			}
 		}

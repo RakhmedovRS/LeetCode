@@ -10,26 +10,21 @@ import java.util.Queue;
  * @created 04-Apr-20
  */
 @LeetCode(id = 116, name = "Populating Next Right Pointers in Each Node", url = "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/")
-public class PopulatingNextRightPointersInEachNode
-{
-	static class Node
-	{
+public class PopulatingNextRightPointersInEachNode {
+	static class Node {
 		public int val;
 		public Node left;
 		public Node right;
 		public Node next;
 
-		public Node()
-		{
+		public Node() {
 		}
 
-		public Node(int _val)
-		{
+		public Node(int _val) {
 			val = _val;
 		}
 
-		public Node(int _val, Node _left, Node _right, Node _next)
-		{
+		public Node(int _val, Node _left, Node _right, Node _next) {
 			val = _val;
 			left = _left;
 			right = _right;
@@ -37,10 +32,8 @@ public class PopulatingNextRightPointersInEachNode
 		}
 	}
 
-	public Node connect(Node root)
-	{
-		if (root == null)
-		{
+	public Node connect(Node root) {
+		if (root == null) {
 			return null;
 		}
 
@@ -48,24 +41,19 @@ public class PopulatingNextRightPointersInEachNode
 		queue.add(root);
 		int size;
 		Node current;
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			size = queue.size();
-			while (size-- > 0)
-			{
+			while (size-- > 0) {
 				current = queue.remove();
-				if (size > 0)
-				{
+				if (size > 0) {
 					current.next = queue.peek();
 				}
 
-				if (current.left != null)
-				{
+				if (current.left != null) {
 					queue.add(current.left);
 				}
 
-				if (current.right != null)
-				{
+				if (current.right != null) {
 					queue.add(current.right);
 				}
 			}
@@ -74,8 +62,7 @@ public class PopulatingNextRightPointersInEachNode
 		return root;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		Node root = new Node(1);
 		root.left = new Node(2);
 		root.right = new Node(3);

@@ -14,13 +14,10 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/arithmetic-slices/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ArithmeticSlices
-{
-	public int numberOfArithmeticSlices(int[] A)
-	{
+public class ArithmeticSlices {
+	public int numberOfArithmeticSlices(int[] A) {
 		int count = 0;
-		if (A.length < 3)
-		{
+		if (A.length < 3) {
 			return count;
 		}
 
@@ -28,24 +25,19 @@ public class ArithmeticSlices
 		int left = 0;
 		int right = 1;
 		int max;
-		while (left < A.length - 2)
-		{
+		while (left < A.length - 2) {
 			max = 0;
 			diff = A[right] - A[left];
 			int prev = left;
 			int current = right;
-			while (current < A.length)
-			{
-				if (diff == A[current] - A[prev])
-				{
+			while (current < A.length) {
+				if (diff == A[current] - A[prev]) {
 					max = 1 + current - left;
 					prev++;
 					current++;
 				}
-				else
-				{
-					if (max >= 3)
-					{
+				else {
+					if (max >= 3) {
 						count += ((max - 2) * (max - 1)) / 2;
 					}
 					left = prev;
@@ -54,8 +46,7 @@ public class ArithmeticSlices
 				}
 			}
 
-			if (max >= 3)
-			{
+			if (max >= 3) {
 				count += ((max - 2) * (max - 1)) / 2;
 			}
 

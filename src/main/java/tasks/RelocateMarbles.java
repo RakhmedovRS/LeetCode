@@ -18,18 +18,14 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/relocate-marbles/",
 		difficulty = Difficulty.MEDIUM
 )
-public class RelocateMarbles
-{
-	public List<Integer> relocateMarbles(int[] nums, int[] moveFrom, int[] moveTo)
-	{
+public class RelocateMarbles {
+	public List<Integer> relocateMarbles(int[] nums, int[] moveFrom, int[] moveTo) {
 		Set<Integer> set = new HashSet<>();
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			set.add(num);
 		}
 
-		for (int i = 0; i < moveTo.length; i++)
-		{
+		for (int i = 0; i < moveTo.length; i++) {
 			set.remove(moveFrom[i]);
 			set.add(moveTo[i]);
 		}

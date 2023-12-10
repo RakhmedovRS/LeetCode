@@ -15,37 +15,29 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/maximum-number-of-eaten-apples/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumNumberOfEatenApples
-{
-	public int eatenApples(int[] apples, int[] days)
-	{
+public class MaximumNumberOfEatenApples {
+	public int eatenApples(int[] apples, int[] days) {
 		int eaten = 0;
 		PriorityQueue<int[]> minHeap = new PriorityQueue<>((a, b) -> a[1] - b[1]);
 		int[] current;
-		for (int i = 0; i < apples.length || !minHeap.isEmpty(); i++)
-		{
-			if (i < apples.length && apples[i] != 0)
-			{
+		for (int i = 0; i < apples.length || !minHeap.isEmpty(); i++) {
+			if (i < apples.length && apples[i] != 0) {
 				minHeap.add(new int[]{apples[i], i + days[i]});
 			}
 
-			while (!minHeap.isEmpty() && i >= minHeap.peek()[1])
-			{
+			while (!minHeap.isEmpty() && i >= minHeap.peek()[1]) {
 				minHeap.remove();
 			}
 
-			if (!minHeap.isEmpty())
-			{
+			if (!minHeap.isEmpty()) {
 				current = minHeap.remove();
-				if (i >= apples.length && minHeap.isEmpty())
-				{
+				if (i >= apples.length && minHeap.isEmpty()) {
 					eaten += Math.min(current[0], Math.abs(i - current[1]));
 					continue;
 				}
 
 				current[0]--;
-				if (current[0] > 0)
-				{
+				if (current[0] > 0) {
 					minHeap.add(current);
 				}
 
@@ -56,8 +48,7 @@ public class MaximumNumberOfEatenApples
 		return eaten;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		MaximumNumberOfEatenApples clazz = new MaximumNumberOfEatenApples();
 		System.out.println(clazz.eatenApples(new int[]{1, 2, 3, 5, 2}, new int[]{3, 2, 1, 4, 2}));
 		System.out.println(clazz.eatenApples(new int[]{10_000}, new int[]{10_000}));

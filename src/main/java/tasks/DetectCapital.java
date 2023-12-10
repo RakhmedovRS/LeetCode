@@ -13,22 +13,17 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/detect-capital/submissions/",
 		difficulty = Difficulty.EASY
 )
-public class DetectCapital
-{
-	public boolean detectCapitalUse(String word)
-	{
+public class DetectCapital {
+	public boolean detectCapitalUse(String word) {
 		boolean allCapital = Character.isUpperCase(word.charAt(0));
 		boolean fistCapital = Character.isUpperCase(word.charAt(0));
 		boolean allSmall = Character.isLowerCase(word.charAt(0));
-		for (int i = 1; i < word.length(); i++)
-		{
-			if (Character.isUpperCase(word.charAt(i)))
-			{
+		for (int i = 1; i < word.length(); i++) {
+			if (Character.isUpperCase(word.charAt(i))) {
 				allSmall = false;
 				fistCapital = false;
 			}
-			else
-			{
+			else {
 				allCapital = false;
 			}
 		}

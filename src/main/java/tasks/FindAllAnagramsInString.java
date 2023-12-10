@@ -16,28 +16,22 @@ import java.util.List;
 		url = "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindAllAnagramsInString
-{
-	public List<Integer> findAnagrams(String s, String p)
-	{
+public class FindAllAnagramsInString {
+	public List<Integer> findAnagrams(String s, String p) {
 		List<Integer> answer = new ArrayList<>();
 		int[] origin = createCharFrequencyTable(p);
 		int[] current = new int[26];
 		int left = 0;
 		int right = 0;
-		while (right <= s.length())
-		{
-			if (right - left == p.length())
-			{
-				if (containsSameChars(origin, current))
-				{
+		while (right <= s.length()) {
+			if (right - left == p.length()) {
+				if (containsSameChars(origin, current)) {
 					answer.add(left);
 				}
 				current[s.charAt(left++) - 'a']--;
 			}
 
-			if (right < s.length())
-			{
+			if (right < s.length()) {
 				current[s.charAt(right) - 'a']++;
 			}
 			right++;
@@ -46,12 +40,9 @@ public class FindAllAnagramsInString
 		return answer;
 	}
 
-	private boolean containsSameChars(int[] origin, int[] current)
-	{
-		for (int i = 0; i < origin.length; i++)
-		{
-			if (origin[i] > current[i])
-			{
+	private boolean containsSameChars(int[] origin, int[] current) {
+		for (int i = 0; i < origin.length; i++) {
+			if (origin[i] > current[i]) {
 				return false;
 			}
 		}
@@ -59,13 +50,10 @@ public class FindAllAnagramsInString
 		return true;
 	}
 
-	public int[] createCharFrequencyTable(String word)
-	{
+	public int[] createCharFrequencyTable(String word) {
 		int[] pattern = new int[26];
-		for (char ch : word.toCharArray())
-		{
-			if (Character.isAlphabetic(ch))
-			{
+		for (char ch : word.toCharArray()) {
+			if (Character.isAlphabetic(ch)) {
 				pattern[Character.toLowerCase(ch) - 'a']++;
 			}
 		}
@@ -73,8 +61,7 @@ public class FindAllAnagramsInString
 		return pattern;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new FindAllAnagramsInString().findAnagrams("cbaebabacd", "abc"));
 	}
 }

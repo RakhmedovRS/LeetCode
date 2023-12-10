@@ -13,12 +13,9 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/",
 		difficulty = Difficulty.HARD
 )
-public class MaximumNumberOfNonOverlappingPalindromeSubstrings
-{
-	public int maxPalindromes(String s, int k)
-	{
-		if (k == 1)
-		{
+public class MaximumNumberOfNonOverlappingPalindromeSubstrings {
+	public int maxPalindromes(String s, int k) {
+		if (k == 1) {
 			return s.length();
 		}
 
@@ -27,23 +24,18 @@ public class MaximumNumberOfNonOverlappingPalindromeSubstrings
 		return memo[0];
 	}
 
-	private int dfs(char[] chars, int start, int k, Integer[] memo)
-	{
-		if (start >= chars.length)
-		{
+	private int dfs(char[] chars, int start, int k, Integer[] memo) {
+		if (start >= chars.length) {
 			return 0;
 		}
 
-		if (memo[start] != null)
-		{
+		if (memo[start] != null) {
 			return memo[start];
 		}
 
 		int max = 0;
-		for (int end = start + k - 1, shift = 1; end < chars.length; end++, shift++)
-		{
-			if (isPalindrome(chars, start, end))
-			{
+		for (int end = start + k - 1, shift = 1; end < chars.length; end++, shift++) {
+			if (isPalindrome(chars, start, end)) {
 				max = Math.max(max, 1 + dfs(chars, end + 1, k, memo));
 			}
 
@@ -54,12 +46,9 @@ public class MaximumNumberOfNonOverlappingPalindromeSubstrings
 		return max;
 	}
 
-	private boolean isPalindrome(char[] chars, int left, int right)
-	{
-		while (left <= right)
-		{
-			if (chars[left++] != chars[right--])
-			{
+	private boolean isPalindrome(char[] chars, int left, int right) {
+		while (left <= right) {
+			if (chars[left++] != chars[right--]) {
 				return false;
 			}
 		}

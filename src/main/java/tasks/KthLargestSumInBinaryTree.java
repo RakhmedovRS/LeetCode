@@ -19,16 +19,13 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/",
 		difficulty = Difficulty.MEDIUM
 )
-public class KthLargestSumInBinaryTree
-{
-	public long kthLargestLevelSum(TreeNode root, int k)
-	{
+public class KthLargestSumInBinaryTree {
+	public long kthLargestLevelSum(TreeNode root, int k) {
 		Map<Integer, Long> map = new HashMap<>();
 		dfs(root, 1, map);
 
 		List<Integer> levels = new ArrayList<>(map.keySet());
-		if (levels.size() < k)
-		{
+		if (levels.size() < k) {
 			return -1;
 		}
 
@@ -36,10 +33,8 @@ public class KthLargestSumInBinaryTree
 		return map.get(levels.get(k - 1));
 	}
 
-	private void dfs(TreeNode root, int level, Map<Integer, Long> map)
-	{
-		if (root == null)
-		{
+	private void dfs(TreeNode root, int level, Map<Integer, Long> map) {
+		if (root == null) {
 			return;
 		}
 

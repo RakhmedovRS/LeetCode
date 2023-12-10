@@ -17,16 +17,12 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/vowels-of-all-substrings/",
 		difficulty = Difficulty.MEDIUM
 )
-public class VowelsOfAllSubstrings
-{
-	public long countVowels(String word)
-	{
+public class VowelsOfAllSubstrings {
+	public long countVowels(String word) {
 		long count = 0;
 		Set<Character> vowels = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u'));
-		for (int i = 0; i < word.length(); i++)
-		{
-			if (vowels.contains(word.charAt(i)))
-			{
+		for (int i = 0; i < word.length(); i++) {
+			if (vowels.contains(word.charAt(i))) {
 				count += (i + 1L) * (word.length() - i);
 			}
 		}

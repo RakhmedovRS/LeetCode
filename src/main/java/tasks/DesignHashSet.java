@@ -13,30 +13,24 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/design-hashset/",
 		difficulty = Difficulty.EASY
 )
-public class DesignHashSet
-{
+public class DesignHashSet {
 
-	class MyHashSet
-	{
+	class MyHashSet {
 		boolean[] bucket;
 
-		public MyHashSet()
-		{
+		public MyHashSet() {
 			bucket = new boolean[1000000];
 		}
 
-		public void add(int key)
-		{
+		public void add(int key) {
 			bucket[key] = true;
 		}
 
-		public void remove(int key)
-		{
+		public void remove(int key) {
 			bucket[key] = false;
 		}
 
-		public boolean contains(int key)
-		{
+		public boolean contains(int key) {
 			return bucket[key];
 		}
 	}

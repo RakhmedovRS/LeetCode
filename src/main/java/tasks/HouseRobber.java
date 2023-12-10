@@ -13,29 +13,22 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/house-robber/",
 		difficulty = Difficulty.MEDIUM
 )
-public class HouseRobber
-{
-	public int rob(int[] nums)
-	{
-		if (nums == null || nums.length == 0)
-		{
+public class HouseRobber {
+	public int rob(int[] nums) {
+		if (nums == null || nums.length == 0) {
 			return 0;
 		}
-		else if (nums.length == 1)
-		{
+		else if (nums.length == 1) {
 			return nums[0];
 		}
-		else if (nums.length == 2)
-		{
+		else if (nums.length == 2) {
 			return Math.max(nums[0], nums[1]);
 		}
-		else
-		{
+		else {
 			int[] skip = new int[nums.length];
 			int[] take = new int[nums.length];
 			take[0] = nums[0];
-			for (int i = 1; i < nums.length; i++)
-			{
+			for (int i = 1; i < nums.length; i++) {
 				take[i] = nums[i] + skip[i - 1];
 				skip[i] = Math.max(take[i - 1], skip[i - 1]);
 			}
@@ -44,8 +37,7 @@ public class HouseRobber
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new HouseRobber().rob(new int[]{2, 7, 9, 3, 1}));
 		System.out.println(new HouseRobber().rob(new int[]{1, 2, 3, 1}));
 		System.out.println(new HouseRobber().rob(new int[]{2, 1, 1, 2}));

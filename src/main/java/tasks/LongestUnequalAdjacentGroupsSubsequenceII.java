@@ -18,15 +18,12 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii/description/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LongestUnequalAdjacentGroupsSubsequenceII
-{
-	public List<String> getWordsInLongestSubsequence(int n, String[] words, int[] groups)
-	{
+public class LongestUnequalAdjacentGroupsSubsequenceII {
+	public List<String> getWordsInLongestSubsequence(int n, String[] words, int[] groups) {
 		Map<String, String> prev = new HashMap<>();
 		Map<String, Integer> longest = new HashMap<>();
 		Map<String, Integer> group = new HashMap<>();
-		for (int i = 0; i < n; i++)
-		{
+		for (int i = 0; i < n; i++) {
 			String word = words[i];
 			int g = groups[i];
 
@@ -36,37 +33,30 @@ public class LongestUnequalAdjacentGroupsSubsequenceII
 
 		int maxLen = 0;
 		String w = null;
-		for (int i = 0; i < n; i++)
-		{
+		for (int i = 0; i < n; i++) {
 			String word = words[i];
 			int g = groups[i];
 
 			Map<String, Integer> l = new HashMap<>();
 			Map<String, String> p = new HashMap<>();
 
-			for (Map.Entry<String, Integer> entry : longest.entrySet())
-			{
+			for (Map.Entry<String, Integer> entry : longest.entrySet()) {
 				String wrd = entry.getKey();
 				int len = entry.getValue();
 
-				if (word.length() == wrd.length() && g != group.get(wrd) && distOne(word, wrd))
-				{
-					if (l.containsKey(word))
-					{
-						if (l.get(word) < len + 1)
-						{
+				if (word.length() == wrd.length() && g != group.get(wrd) && distOne(word, wrd)) {
+					if (l.containsKey(word)) {
+						if (l.get(word) < len + 1) {
 							l.put(word, len + 1);
 							p.put(word, wrd);
 						}
 					}
-					else
-					{
+					else {
 						l.put(word, len + 1);
 						p.put(word, wrd);
 					}
 
-					if (maxLen < l.get(word))
-					{
+					if (maxLen < l.get(word)) {
 						w = word;
 						maxLen = l.get(word);
 					}
@@ -74,8 +64,7 @@ public class LongestUnequalAdjacentGroupsSubsequenceII
 			}
 
 			l.putIfAbsent(word, 1);
-			if (w == null)
-			{
+			if (w == null) {
 				w = word;
 			}
 
@@ -84,8 +73,7 @@ public class LongestUnequalAdjacentGroupsSubsequenceII
 		}
 
 		LinkedList<String> answer = new LinkedList<>();
-		while (w != null)
-		{
+		while (w != null) {
 			answer.addFirst(w);
 			w = prev.get(w);
 		}
@@ -94,21 +82,16 @@ public class LongestUnequalAdjacentGroupsSubsequenceII
 		return answer;
 	}
 
-	private boolean distOne(String a, String b)
-	{
-		if (a.length() != b.length())
-		{
+	private boolean distOne(String a, String b) {
+		if (a.length() != b.length()) {
 			return false;
 		}
 
 		int diff = 0;
-		for (int i = 0; i < a.length(); i++)
-		{
-			if (a.charAt(i) != b.charAt(i))
-			{
+		for (int i = 0; i < a.length(); i++) {
+			if (a.charAt(i) != b.charAt(i)) {
 				diff++;
-				if (diff > 1)
-				{
+				if (diff > 1) {
 					return false;
 				}
 			}

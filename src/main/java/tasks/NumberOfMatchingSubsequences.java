@@ -15,31 +15,24 @@ import java.util.TreeSet;
 		url = "https://leetcode.com/problems/number-of-matching-subsequences/",
 		difficulty = Difficulty.MEDIUM
 )
-public class NumberOfMatchingSubsequences
-{
-	public int numMatchingSubseq(String s, String[] words)
-	{
+public class NumberOfMatchingSubsequences {
+	public int numMatchingSubseq(String s, String[] words) {
 		TreeSet<Integer>[] positions = new TreeSet[26];
-		for (int i = 0; i < 26; i++)
-		{
+		for (int i = 0; i < 26; i++) {
 			positions[i] = new TreeSet<>();
 		}
 
-		for (int i = 0; i < s.length(); i++)
-		{
+		for (int i = 0; i < s.length(); i++) {
 			positions[s.charAt(i) - 'a'].add(i);
 		}
 
 		int numberOfMatchingSeq = 0;
 		outer:
-		for (String word : words)
-		{
+		for (String word : words) {
 			int prev = -1;
-			for (char ch : word.toCharArray())
-			{
+			for (char ch : word.toCharArray()) {
 				Integer next = positions[ch - 'a'].ceiling(prev + 1);
-				if (next == null)
-				{
+				if (next == null) {
 					continue outer;
 				}
 				prev = next;
@@ -50,8 +43,7 @@ public class NumberOfMatchingSubsequences
 		return numberOfMatchingSeq;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new NumberOfMatchingSubsequences().numMatchingSubseq("abcde", new String[]{"a", "bb", "acd", "ace"}));
 	}
 }

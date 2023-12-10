@@ -20,36 +20,29 @@ import java.util.TreeSet;
 		url = "https://leetcode.com/problems/maximum-segment-sum-after-removals/",
 		difficulty = Difficulty.HARD
 )
-public class MaximumSegmentSumAfterRemovals
-{
-	class Segment
-	{
+public class MaximumSegmentSumAfterRemovals {
+	class Segment {
 		int start;
 		int end;
 
-		public Segment(int start, int end)
-		{
+		public Segment(int start, int end) {
 			this.start = start;
 			this.end = end;
 		}
 	}
 
-	private Segment findParent(Segment segment, Map<Segment, Segment> connections)
-	{
-		while (connections.containsKey(segment))
-		{
+	private Segment findParent(Segment segment, Map<Segment, Segment> connections) {
+		while (connections.containsKey(segment)) {
 			segment = connections.get(segment);
 		}
 
 		return segment;
 	}
 
-	public long[] maximumSegmentSum(int[] nums, int[] removeQueries)
-	{
+	public long[] maximumSegmentSum(int[] nums, int[] removeQueries) {
 		long[] cummulativeSum = new long[nums.length];
 		cummulativeSum[0] = nums[0];
-		for (int i = 1; i < nums.length; i++)
-		{
+		for (int i = 1; i < nums.length; i++) {
 			cummulativeSum[i] += nums[i] + cummulativeSum[i - 1];
 		}
 
@@ -61,12 +54,10 @@ public class MaximumSegmentSumAfterRemovals
 		maxSums.put(0L, 1);
 
 		long[] answer = new long[nums.length];
-		for (int i = 0; i < removeQueries.length; i++)
-		{
+		for (int i = 0; i < removeQueries.length; i++) {
 			int pos = removeQueries[i];
 			Segment segment = segments.floor(new Segment(pos, pos));
-			if (segment == null || segment.start > pos || segment.end < pos)
-			{
+			if (segment == null || segment.start > pos || segment.end < pos) {
 				segment = segments.ceiling(new Segment(pos, pos));
 			}
 			segments.remove(segment);
@@ -76,13 +67,11 @@ public class MaximumSegmentSumAfterRemovals
 
 			long sum = cummulativeSum[end] - (start == 0 ? 0 : cummulativeSum[start - 1]);
 			int count = maxSums.remove(sum) - 1;
-			if (count > 0)
-			{
+			if (count > 0) {
 				maxSums.put(sum, count);
 			}
 
-			if (start < pos && pos < end)
-			{
+			if (start < pos && pos < end) {
 				segments.add(new Segment(start, pos - 1));
 				sum = cummulativeSum[pos - 1] - (start == 0 ? 0 : cummulativeSum[segment.start - 1]);
 				maxSums.put(sum, maxSums.getOrDefault(sum, 0) + 1);
@@ -91,14 +80,12 @@ public class MaximumSegmentSumAfterRemovals
 				sum = cummulativeSum[end] - cummulativeSum[pos];
 				maxSums.put(sum, maxSums.getOrDefault(sum, 0) + 1);
 			}
-			else if (start == pos)
-			{
+			else if (start == pos) {
 				segments.add(new Segment(pos + 1, end));
 				sum = cummulativeSum[end] - cummulativeSum[pos];
 				maxSums.put(sum, maxSums.getOrDefault(sum, 0) + 1);
 			}
-			else
-			{
+			else {
 				segments.add(new Segment(start, pos - 1));
 				sum = cummulativeSum[pos - 1] - (start == 0 ? 0 : cummulativeSum[segment.start - 1]);
 				maxSums.put(sum, maxSums.getOrDefault(sum, 0) + 1);

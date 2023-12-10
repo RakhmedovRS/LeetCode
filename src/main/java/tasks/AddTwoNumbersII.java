@@ -14,16 +14,12 @@ import common.ListNode;
 		url = "https://leetcode.com/problems/add-two-numbers-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class AddTwoNumbersII
-{
-	public ListNode addTwoNumbers(ListNode l1, ListNode l2)
-	{
-		if (l1 == null)
-		{
+public class AddTwoNumbersII {
+	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+		if (l1 == null) {
 			return l2;
 		}
-		else if (l2 == null)
-		{
+		else if (l2 == null) {
 			return l1;
 		}
 
@@ -34,17 +30,14 @@ public class AddTwoNumbersII
 		ListNode prev = dummy;
 		int rest = 0;
 		int sum;
-		while (h1 != null || h2 != null || rest > 0)
-		{
+		while (h1 != null || h2 != null || rest > 0) {
 			sum = rest;
-			if (h1 != null)
-			{
+			if (h1 != null) {
 				sum += h1.val;
 				h1 = h1.next;
 			}
 
-			if (h2 != null)
-			{
+			if (h2 != null) {
 				sum += h2.val;
 				h2 = h2.next;
 			}
@@ -58,12 +51,10 @@ public class AddTwoNumbersII
 		return reverse(dummy.next);
 	}
 
-	private ListNode reverse(ListNode head)
-	{
+	private ListNode reverse(ListNode head) {
 		ListNode prev = null;
 		ListNode next;
-		while (head != null)
-		{
+		while (head != null) {
 			next = head.next;
 			head.next = prev;
 			prev = head;
@@ -73,8 +64,7 @@ public class AddTwoNumbersII
 		return prev;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		ListNode l1 = new ListNode(7);
 		l1.next = new ListNode(2);
 		l1.next.next = new ListNode(4);

@@ -10,26 +10,19 @@ import java.util.List;
  * @created 05-Jun-20
  */
 @LeetCode(id = 443, name = "String Compression", url = "https://leetcode.com/problems/string-compression/")
-public class StringCompression
-{
-	public int compress(char[] chars)
-	{
+public class StringCompression {
+	public int compress(char[] chars) {
 		int count = 0;
 		char prev = chars[0];
 		List<Character> compressed = new ArrayList<>();
-		for (char ch : chars)
-		{
-			if (prev == ch)
-			{
+		for (char ch : chars) {
+			if (prev == ch) {
 				count++;
 			}
-			else
-			{
+			else {
 				compressed.add(prev);
-				if (count > 1)
-				{
-					for (char c : String.valueOf(count).toCharArray())
-					{
+				if (count > 1) {
+					for (char c : String.valueOf(count).toCharArray()) {
 						compressed.add(c);
 					}
 				}
@@ -39,31 +32,25 @@ public class StringCompression
 		}
 
 		compressed.add(prev);
-		if (count > 1)
-		{
-			for (char c : String.valueOf(count).toCharArray())
-			{
+		if (count > 1) {
+			for (char c : String.valueOf(count).toCharArray()) {
 				compressed.add(c);
 			}
 		}
 
-		if (chars.length >= compressed.size())
-		{
-			for (int i = 0; i < compressed.size(); i++)
-			{
+		if (chars.length >= compressed.size()) {
+			for (int i = 0; i < compressed.size(); i++) {
 				chars[i] = compressed.get(i);
 			}
 
 			return compressed.size();
 		}
-		else
-		{
+		else {
 			return chars.length;
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new StringCompression().compress("aabbccc".toCharArray()));
 		System.out.println(new StringCompression().compress("a".toCharArray()));
 		System.out.println(new StringCompression().compress("abbbbbbbbbbb".toCharArray()));

@@ -13,23 +13,18 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/find-the-pivot-integer/",
 		difficulty = Difficulty.EASY
 )
-public class FindThePivotInteger
-{
-	public int pivotInteger(int n)
-	{
+public class FindThePivotInteger {
+	public int pivotInteger(int n) {
 		int sum = 0;
-		for (int i = 1; i <= n; i++)
-		{
+		for (int i = 1; i <= n; i++) {
 			sum += i;
 		}
 
 		int s = 0;
-		for (int i = 1; i <= n; i++)
-		{
+		for (int i = 1; i <= n; i++) {
 			s += i;
 
-			if (s == sum)
-			{
+			if (s == sum) {
 				return i;
 			}
 

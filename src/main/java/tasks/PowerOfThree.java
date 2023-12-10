@@ -13,17 +13,13 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/power-of-three/",
 		difficulty = Difficulty.EASY
 )
-public class PowerOfThree
-{
-	public boolean isPowerOfThree(int n)
-	{
-		if (n == 0 || n == 2)
-		{
+public class PowerOfThree {
+	public boolean isPowerOfThree(int n) {
+		if (n == 0 || n == 2) {
 			return false;
 		}
 
-		if (n == 1 || n == 3)
-		{
+		if (n == 1 || n == 3) {
 			return true;
 		}
 

@@ -18,28 +18,22 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/sum-of-distances/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SumOfDistances
-{
-	public long[] distance(int[] nums)
-	{
+public class SumOfDistances {
+	public long[] distance(int[] nums) {
 		Map<Integer, List<Integer>> map = new HashMap<>();
-		for (int i = 0; i < nums.length; i++)
-		{
+		for (int i = 0; i < nums.length; i++) {
 			map.putIfAbsent(nums[i], new ArrayList<>());
 			map.get(nums[i]).add(i);
 		}
 
 
 		long[] ans = new long[nums.length];
-		for (Map.Entry<Integer, List<Integer>> entry : map.entrySet())
-		{
+		for (Map.Entry<Integer, List<Integer>> entry : map.entrySet()) {
 			List<Integer> list = entry.getValue();
-			if (list.size() > 1)
-			{
+			if (list.size() > 1) {
 				int count = 0;
 				long sum = 0;
-				for (int i = 1; i < list.size(); i++)
-				{
+				for (int i = 1; i < list.size(); i++) {
 					sum += (long) Math.abs(list.get(i - 1) - list.get(i)) + ((long) Math.abs(list.get(i - 1) - list.get(i)) * count);
 					count++;
 					ans[list.get(i)] = sum;
@@ -47,8 +41,7 @@ public class SumOfDistances
 
 				count = 0;
 				sum = 0;
-				for (int i = list.size() - 2; i >= 0; i--)
-				{
+				for (int i = list.size() - 2; i >= 0; i--) {
 					sum += (long) Math.abs(list.get(i + 1) - list.get(i)) + ((long) Math.abs(list.get(i + 1) - list.get(i)) * count);
 					count++;
 					ans[list.get(i)] += sum;

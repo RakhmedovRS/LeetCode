@@ -14,10 +14,8 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/cousins-in-binary-tree/",
 		difficulty = Difficulty.EASY
 )
-public class CousinsInBinaryTree
-{
-	public boolean isCousins(TreeNode root, int x, int y)
-	{
+public class CousinsInBinaryTree {
+	public boolean isCousins(TreeNode root, int x, int y) {
 		int[] xParent = new int[1];
 		int[] xLevel = new int[1];
 
@@ -29,21 +27,17 @@ public class CousinsInBinaryTree
 		return xLevel[0] == yLevel[0] && xParent[0] != yParent[0];
 	}
 
-	private void dfs(int level, int parent, TreeNode root, int x, int y, int[] xParent, int[] yParent, int[] xLevel, int[] yLevel)
-	{
-		if (root == null)
-		{
+	private void dfs(int level, int parent, TreeNode root, int x, int y, int[] xParent, int[] yParent, int[] xLevel, int[] yLevel) {
+		if (root == null) {
 			return;
 		}
 
-		if (root.val == x)
-		{
+		if (root.val == x) {
 			xLevel[0] = level;
 			xParent[0] = parent;
 		}
 
-		if (root.val == y)
-		{
+		if (root.val == y) {
 			yLevel[0] = level;
 			yParent[0] = parent;
 		}

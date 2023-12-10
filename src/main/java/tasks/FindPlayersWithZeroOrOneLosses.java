@@ -17,15 +17,12 @@ import java.util.List;
 		url = "https://leetcode.com/problems/find-players-with-zero-or-one-losses/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindPlayersWithZeroOrOneLosses
-{
-	public List<List<Integer>> findWinners(int[][] matches)
-	{
+public class FindPlayersWithZeroOrOneLosses {
+	public List<List<Integer>> findWinners(int[][] matches) {
 		int[] winners = new int[100_001];
 		int[] losers = new int[100_001];
 
-		for (int[] match : matches)
-		{
+		for (int[] match : matches) {
 			winners[match[0]]++;
 			losers[match[1]]++;
 		}
@@ -33,15 +30,12 @@ public class FindPlayersWithZeroOrOneLosses
 		List<Integer> neverLost = new ArrayList<>();
 		List<Integer> lostOnce = new ArrayList<>();
 
-		for (int i = 0; i < winners.length; i++)
-		{
-			if (winners[i] > 0 && losers[i] == 0)
-			{
+		for (int i = 0; i < winners.length; i++) {
+			if (winners[i] > 0 && losers[i] == 0) {
 				neverLost.add(i);
 			}
 
-			if (winners[i] >= 0 && losers[i] == 1)
-			{
+			if (winners[i] >= 0 && losers[i] == 1) {
 				lostOnce.add(i);
 			}
 		}

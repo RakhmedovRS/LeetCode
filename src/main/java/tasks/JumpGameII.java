@@ -13,30 +13,23 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/jump-game-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class JumpGameII
-{
-	public int jump(int[] nums)
-	{
+public class JumpGameII {
+	public int jump(int[] nums) {
 		Integer[] memo = new Integer[nums.length];
 		memo[0] = 0;
 
 		int jumps;
-		for (int i = 0; i < nums.length; i++)
-		{
-			if (memo[i] == null)
-			{
+		for (int i = 0; i < nums.length; i++) {
+			if (memo[i] == null) {
 				continue;
 			}
 
 			jumps = memo[i] + 1;
-			for (int j = i + 1; j <= Math.min(nums.length - 1, i + nums[i]); j++)
-			{
-				if (memo[j] == null)
-				{
+			for (int j = i + 1; j <= Math.min(nums.length - 1, i + nums[i]); j++) {
+				if (memo[j] == null) {
 					memo[j] = jumps;
 				}
-				else
-				{
+				else {
 					memo[j] = Math.min(memo[j], jumps);
 				}
 			}
@@ -45,8 +38,7 @@ public class JumpGameII
 		return memo[memo.length - 1];
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new JumpGameII().jump(new int[]{
 				8, 2, 4, 4, 4, 9, 5, 2, 5, 8, 8, 0, 8, 6, 9, 1,
 				1, 6, 3, 5, 1, 2, 6, 6, 0, 4, 8, 6, 0, 3, 2, 8,

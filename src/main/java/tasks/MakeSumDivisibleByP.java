@@ -16,18 +16,14 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/make-sum-divisible-by-p/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MakeSumDivisibleByP
-{
-	public int minSubarray(int[] nums, int p)
-	{
+public class MakeSumDivisibleByP {
+	public int minSubarray(int[] nums, int p) {
 		int totalReminder = 0;
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			totalReminder = (totalReminder + num) % p;
 		}
 
-		if (totalReminder == 0)
-		{
+		if (totalReminder == 0) {
 			return 0;
 		}
 
@@ -35,12 +31,10 @@ public class MakeSumDivisibleByP
 		map.put(0, -1);
 		int currentReminder = 0;
 		int result = nums.length;
-		for (int i = 0; i < nums.length; i++)
-		{
+		for (int i = 0; i < nums.length; i++) {
 			currentReminder = (currentReminder + nums[i]) % p;
 			int desire = (currentReminder - totalReminder + p) % p;
-			if (map.containsKey(desire))
-			{
+			if (map.containsKey(desire)) {
 
 				result = Math.min(result, i - map.get(desire));
 			}

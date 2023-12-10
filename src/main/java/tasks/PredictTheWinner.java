@@ -15,19 +15,15 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/predict-the-winner/",
 		difficulty = Difficulty.MEDIUM
 )
-public class PredictTheWinner
-{
-	public boolean PredictTheWinner(int[] nums)
-	{
+public class PredictTheWinner {
+	public boolean PredictTheWinner(int[] nums) {
 		int[][] memo = new int[nums.length][nums.length];
-		for (int[] row : memo)
-		{
+		for (int[] row : memo) {
 			Arrays.fill(row, -1);
 		}
 
 		int totalSum = 0;
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			totalSum += num;
 		}
 
@@ -35,20 +31,16 @@ public class PredictTheWinner
 		return firstPlayerResult >= totalSum - firstPlayerResult;
 	}
 
-	private int PredictTheWinner(int[] nums, int left, int right, int[][] memo)
-	{
-		if (left == right)
-		{
+	private int PredictTheWinner(int[] nums, int left, int right, int[][] memo) {
+		if (left == right) {
 			return nums[left];
 		}
 
-		if (left > right)
-		{
+		if (left > right) {
 			return 0;
 		}
 
-		if (memo[left][right] != -1)
-		{
+		if (memo[left][right] != -1) {
 			return memo[left][right];
 		}
 

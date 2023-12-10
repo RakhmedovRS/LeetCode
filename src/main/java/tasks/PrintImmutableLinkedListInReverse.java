@@ -16,26 +16,21 @@ import java.util.LinkedList;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class PrintImmutableLinkedListInReverse
-{
-	interface ImmutableListNode
-	{
+public class PrintImmutableLinkedListInReverse {
+	interface ImmutableListNode {
 		void printValue();
 
 		ImmutableListNode getNext();
 	}
 
-	public void printLinkedListInReverse(ImmutableListNode head)
-	{
+	public void printLinkedListInReverse(ImmutableListNode head) {
 		LinkedList<ImmutableListNode> nodes = new LinkedList<>();
-		while (head != null)
-		{
+		while (head != null) {
 			nodes.add(head);
 			head = head.getNext();
 		}
 
-		while (!nodes.isEmpty())
-		{
+		while (!nodes.isEmpty()) {
 			nodes.removeLast().printValue();
 		}
 	}

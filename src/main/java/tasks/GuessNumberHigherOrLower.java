@@ -13,30 +13,24 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/guess-number-higher-or-lower/",
 		difficulty = Difficulty.EASY
 )
-public abstract class GuessNumberHigherOrLower
-{
+public abstract class GuessNumberHigherOrLower {
 	abstract int guess(int num);
 
-	public int guessNumber(int n)
-	{
+	public int guessNumber(int n) {
 		long left = 1;
 		long right = n;
 		long middle;
 		int res;
-		while (left <= right)
-		{
+		while (left <= right) {
 			middle = (left + right) / 2;
 			res = guess((int) middle);
-			if (res == 0)
-			{
+			if (res == 0) {
 				return (int) middle;
 			}
-			else if (res < 0)
-			{
+			else if (res < 0) {
 				right = middle - 1;
 			}
-			else
-			{
+			else {
 				left = middle + 1;
 			}
 		}

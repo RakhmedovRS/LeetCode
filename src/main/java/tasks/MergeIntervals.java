@@ -16,14 +16,11 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/merge-intervals/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MergeIntervals
-{
-	public int[][] merge(int[][] intervals)
-	{
+public class MergeIntervals {
+	public int[][] merge(int[][] intervals) {
 		Arrays.sort(intervals, (a, b) ->
 		{
-			if (a[1] == b[1])
-			{
+			if (a[1] == b[1]) {
 				return a[0] - b[0];
 			}
 
@@ -31,13 +28,10 @@ public class MergeIntervals
 		});
 
 		LinkedList<int[]> list = new LinkedList<>();
-		for (int[] interval : intervals)
-		{
-			if (!list.isEmpty() && list.getLast()[1] >= interval[0])
-			{
+		for (int[] interval : intervals) {
+			if (!list.isEmpty() && list.getLast()[1] >= interval[0]) {
 
-				while (!list.isEmpty() && list.getLast()[1] >= interval[0])
-				{
+				while (!list.isEmpty() && list.getLast()[1] >= interval[0]) {
 					interval[0] = Math.min(list.getLast()[0], interval[0]);
 					interval[1] = Math.max(list.getLast()[1], interval[1]);
 					list.removeLast();
@@ -49,16 +43,14 @@ public class MergeIntervals
 
 		int pos = 0;
 		int[][] answer = new int[list.size()][];
-		for (int[] inteval : list)
-		{
+		for (int[] inteval : list) {
 			answer[pos++] = inteval;
 		}
 
 		return answer;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(Arrays.deepToString(new MergeIntervals().merge(new int[][]{{1, 4}, {2, 3}})));
 		System.out.println(Arrays.deepToString(new MergeIntervals().merge(new int[][]{{1, 4}, {0, 4}})));
 		System.out.println(Arrays.deepToString(new MergeIntervals().merge(new int[][]{{1, 3}, {2, 6}, {8, 10}, {15, 18}})));

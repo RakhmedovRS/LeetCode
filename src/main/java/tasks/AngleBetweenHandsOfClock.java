@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/angle-between-hands-of-a-clock/",
 		difficulty = Difficulty.EASY
 )
-public class AngleBetweenHandsOfClock
-{
-	public double angleClock(int hour, int minutes)
-	{
+public class AngleBetweenHandsOfClock {
+	public double angleClock(int hour, int minutes) {
 		double h = (hour + minutes / 60D) * 30 % 360;
 		double m = minutes * 6;
 

@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/sum-of-beauty-in-the-array/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SumOfBeautyInTheArray
-{
-	public int sumOfBeauties(int[] nums)
-	{
+public class SumOfBeautyInTheArray {
+	public int sumOfBeauties(int[] nums) {
 		int n = nums.length;
 		int sum = 0;
 		int[] maxFromLeft = new int[n];
@@ -25,24 +23,19 @@ public class SumOfBeautyInTheArray
 		maxFromLeft[0] = nums[0];
 		minFromRight[n - 1] = nums[n - 1];
 
-		for (int i = 1; i < n; i++)
-		{
+		for (int i = 1; i < n; i++) {
 			maxFromLeft[i] = Math.max(maxFromLeft[i - 1], nums[i]);
 		}
 
-		for (int i = n - 2; i >= 0; i--)
-		{
+		for (int i = n - 2; i >= 0; i--) {
 			minFromRight[i] = Math.min(minFromRight[i + 1], nums[i]);
 		}
 
-		for (int i = 1; i < n - 1; i++)
-		{
-			if (maxFromLeft[i - 1] < nums[i] && nums[i] < minFromRight[i + 1])
-			{
+		for (int i = 1; i < n - 1; i++) {
+			if (maxFromLeft[i - 1] < nums[i] && nums[i] < minFromRight[i + 1]) {
 				sum += 2;
 			}
-			else if (nums[i - 1] < nums[i] && nums[i] < nums[i + 1])
-			{
+			else if (nums[i - 1] < nums[i] && nums[i] < nums[i + 1]) {
 				sum += 1;
 			}
 		}

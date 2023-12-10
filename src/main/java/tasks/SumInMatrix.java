@@ -17,18 +17,14 @@ import java.util.List;
 		url = "https://leetcode.com/problems/sum-in-a-matrix/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SumInMatrix
-{
-	public int matrixSum(int[][] nums)
-	{
+public class SumInMatrix {
+	public int matrixSum(int[][] nums) {
 		List<List<Integer>> lists = new ArrayList<>();
 		int rows = nums.length;
 		int columns = nums[0].length;
-		for (int row = 0; row < rows; row++)
-		{
+		for (int row = 0; row < rows; row++) {
 			List<Integer> list = new ArrayList<>();
-			for (int val : nums[row])
-			{
+			for (int val : nums[row]) {
 				list.add(val);
 			}
 			list.sort(Comparator.reverseOrder());
@@ -36,11 +32,9 @@ public class SumInMatrix
 		}
 
 		int s = 0;
-		for (int column = 0; column < columns; column++)
-		{
+		for (int column = 0; column < columns; column++) {
 			int max = 0;
-			for (int row = 0; row < rows; row++)
-			{
+			for (int row = 0; row < rows; row++) {
 				max = Math.max(max, lists.get(row).get(column));
 			}
 			s += max;

@@ -17,26 +17,21 @@ import java.util.TreeSet;
 		url = "https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/",
 		difficulty = Difficulty.EASY
 )
-public class MakeArrayZeroBySubtractingEqualAmounts
-{
-	public int minimumOperations(int[] nums)
-	{
+public class MakeArrayZeroBySubtractingEqualAmounts {
+	public int minimumOperations(int[] nums) {
 		TreeSet<Integer> treeSet = new TreeSet<>();
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			treeSet.add(num);
 		}
 
 
 		int count = 0;
 		int sum = 0;
-		while (!treeSet.isEmpty())
-		{
+		while (!treeSet.isEmpty()) {
 			int current = treeSet.first();
 			treeSet.remove(current);
 			int reminder = current - sum;
-			if (reminder > 0)
-			{
+			if (reminder > 0) {
 				count++;
 				sum += reminder;
 			}

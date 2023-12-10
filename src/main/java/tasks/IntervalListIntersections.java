@@ -17,55 +17,45 @@ import java.util.List;
 		url = "https://leetcode.com/problems/interval-list-intersections/",
 		difficulty = Difficulty.MEDIUM
 )
-public class IntervalListIntersections
-{
-	public int[][] intervalIntersection(int[][] A, int[][] B)
-	{
-		if (A == null || A.length == 0)
-		{
+public class IntervalListIntersections {
+	public int[][] intervalIntersection(int[][] A, int[][] B) {
+		if (A == null || A.length == 0) {
 			return new int[0][];
 		}
-		else if (B == null || B.length == 0)
-		{
+		else if (B == null || B.length == 0) {
 			return new int[0][];
 		}
 
 		int aCounter = 0;
 		int bCounter = 0;
 		List<int[]> intersections = new ArrayList<>();
-		while (aCounter < A.length && bCounter < B.length)
-		{
+		while (aCounter < A.length && bCounter < B.length) {
 			int[] a = A[aCounter];
 			int[] b = B[bCounter];
 
 			int[] intersection = new int[]{Math.max(a[0], b[0]), Math.min(a[1], b[1])};
 
-			if (intersection[0] <= intersection[1])
-			{
+			if (intersection[0] <= intersection[1]) {
 				intersections.add(intersection);
 			}
 
-			if (a[1] == intersection[1])
-			{
+			if (a[1] == intersection[1]) {
 				aCounter++;
 			}
-			else
-			{
+			else {
 				bCounter++;
 			}
 		}
 
 		int[][] answer = new int[intersections.size()][];
-		for (int i = 0; i < intersections.size(); i++)
-		{
+		for (int i = 0; i < intersections.size(); i++) {
 			answer[i] = intersections.get(i);
 		}
 
 		return answer;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		int[][] A = new int[][]{{0, 2}, {5, 10}, {13, 23}, {24, 25}};
 		int[][] B = new int[][]{{1, 5}, {8, 12}, {15, 24}, {25, 25}};
 

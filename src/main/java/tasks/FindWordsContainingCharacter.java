@@ -16,15 +16,11 @@ import java.util.List;
 		url = "https://leetcode.com/problems/find-words-containing-character/",
 		difficulty = Difficulty.EASY
 )
-public class FindWordsContainingCharacter
-{
-	public List<Integer> findWordsContaining(String[] words, char x)
-	{
+public class FindWordsContainingCharacter {
+	public List<Integer> findWordsContaining(String[] words, char x) {
 		List<Integer> ans = new ArrayList<>();
-		for (int i = 0; i < words.length; i++)
-		{
-			if (words[i].contains("" + x))
-			{
+		for (int i = 0; i < words.length; i++) {
+			if (words[i].contains("" + x)) {
 				ans.add(i);
 			}
 		}

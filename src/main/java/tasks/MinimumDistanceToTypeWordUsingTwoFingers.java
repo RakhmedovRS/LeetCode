@@ -16,13 +16,10 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/",
 		difficulty = Difficulty.HARD
 )
-public class MinimumDistanceToTypeWordUsingTwoFingers
-{
-	public int minimumDistance(String word)
-	{
+public class MinimumDistanceToTypeWordUsingTwoFingers {
+	public int minimumDistance(String word) {
 		Map<Character, int[]> positions = new HashMap<>();
-		for (int i = 0; i < 26; i++)
-		{
+		for (int i = 0; i < 26; i++) {
 			positions.put((char) ('A' + i), new int[]{i / 6, i % 6});
 		}
 
@@ -31,15 +28,12 @@ public class MinimumDistanceToTypeWordUsingTwoFingers
 	}
 
 	private int dfs(int pos, char[] chars, int f1Pos, int[] firstFinger,
-					int f2Pos, int[] secondFinger, Map<Character, int[]> positions, Integer[][] memo)
-	{
-		if (pos == chars.length)
-		{
+					int f2Pos, int[] secondFinger, Map<Character, int[]> positions, Integer[][] memo) {
+		if (pos == chars.length) {
 			return 0;
 		}
 
-		if (memo[f1Pos][f2Pos] != null)
-		{
+		if (memo[f1Pos][f2Pos] != null) {
 			return memo[f1Pos][f2Pos];
 		}
 
@@ -54,10 +48,8 @@ public class MinimumDistanceToTypeWordUsingTwoFingers
 		return memo[f1Pos][f2Pos];
 	}
 
-	private int manhattanDistance(int[] a, int[] b)
-	{
-		if (a[0] == -1 || b[0] == -1)
-		{
+	private int manhattanDistance(int[] a, int[] b) {
+		if (a[0] == -1 || b[0] == -1) {
 			return 0;
 		}
 

@@ -13,26 +13,21 @@ import java.util.Map;
  * @created 10/12/2020
  */
 @LeetCode(id = 652, name = "Find Duplicate Subtrees", url = "https://leetcode.com/problems/find-duplicate-subtrees/")
-public class FindDuplicateSubtrees
-{
-	public List<TreeNode> findDuplicateSubtrees(TreeNode root)
-	{
+public class FindDuplicateSubtrees {
+	public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
 		Map<String, Integer> memo = new HashMap<>();
 		List<TreeNode> answer = new ArrayList<>();
 		postOrder(root, memo, answer);
 		return answer;
 	}
 
-	private String postOrder(TreeNode root, Map<String, Integer> memo, List<TreeNode> answer)
-	{
-		if (root == null)
-		{
+	private String postOrder(TreeNode root, Map<String, Integer> memo, List<TreeNode> answer) {
+		if (root == null) {
 			return "#";
 		}
 
 		String serial = root.val + "," + postOrder(root.left, memo, answer) + "," + postOrder(root.right, memo, answer);
-		if (memo.getOrDefault(serial, 0) == 1)
-		{
+		if (memo.getOrDefault(serial, 0) == 1) {
 			answer.add(root);
 		}
 

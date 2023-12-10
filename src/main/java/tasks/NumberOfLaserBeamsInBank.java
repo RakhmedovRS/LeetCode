@@ -13,26 +13,20 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/number-of-laser-beams-in-a-bank/",
 		difficulty = Difficulty.MEDIUM
 )
-public class NumberOfLaserBeamsInBank
-{
-	public int numberOfBeams(String[] bank)
-	{
+public class NumberOfLaserBeamsInBank {
+	public int numberOfBeams(String[] bank) {
 		int total = 0;
 		int prev = 0;
 		int current = 0;
-		for (String row : bank)
-		{
+		for (String row : bank) {
 			current = 0;
-			for (char ch : row.toCharArray())
-			{
-				if (ch == '1')
-				{
+			for (char ch : row.toCharArray()) {
+				if (ch == '1') {
 					current++;
 				}
 			}
 
-			if (current != 0)
-			{
+			if (current != 0) {
 				total += prev * current;
 				prev = current;
 			}

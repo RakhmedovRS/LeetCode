@@ -11,54 +11,43 @@ import java.util.Queue;
  * @created 22-Mar-20
  */
 @LeetCode(id = 559, name = "Maximum Depth of N-ary Tree", url = "https://leetcode.com/problems/maximum-depth-of-n-ary-tree/")
-public class MaximumDepthOfNaryTree
-{
-	class Node
-	{
+public class MaximumDepthOfNaryTree {
+	class Node {
 		public int val;
 		public List<Node> children;
 
-		public Node()
-		{
+		public Node() {
 		}
 
-		public Node(int val)
-		{
+		public Node(int val) {
 			this.val = val;
 		}
 
-		public Node(int val, List<Node> children)
-		{
+		public Node(int val, List<Node> children) {
 			this.val = val;
 			this.children = children;
 		}
 	}
 
-	public int maxDepth(Node root)
-	{
+	public int maxDepth(Node root) {
 		int[] answer = {0};
 		dfs(root, 1, answer);
 		return answer[0];
 	}
 
-	private void dfs(Node root, int currentLevel, int[] answer)
-	{
-		if (root == null)
-		{
+	private void dfs(Node root, int currentLevel, int[] answer) {
+		if (root == null) {
 			return;
 		}
 
 		answer[0] = Math.max(answer[0], currentLevel);
-		for (Node node : root.children)
-		{
+		for (Node node : root.children) {
 			dfs(node, currentLevel + 1, answer);
 		}
 	}
 
-	public int maxDepth1(Node root)
-	{
-		if (root == null)
-		{
+	public int maxDepth1(Node root) {
+		if (root == null) {
 			return 0;
 		}
 
@@ -66,16 +55,12 @@ public class MaximumDepthOfNaryTree
 		int levelSize;
 		Queue<Node> levels = new LinkedList<>();
 		levels.add(root);
-		while (!levels.isEmpty())
-		{
+		while (!levels.isEmpty()) {
 			levelSize = levels.size();
-			while (levelSize-- > 0)
-			{
+			while (levelSize-- > 0) {
 				Node currentNode = levels.poll();
-				for (Node child : currentNode.children)
-				{
-					if (child != null)
-					{
+				for (Node child : currentNode.children) {
+					if (child != null) {
 						levels.add(child);
 					}
 				}

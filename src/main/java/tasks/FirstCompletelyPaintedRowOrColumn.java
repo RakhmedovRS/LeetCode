@@ -16,10 +16,8 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/first-completely-painted-row-or-column/description/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FirstCompletelyPaintedRowOrColumn
-{
-	public int firstCompleteIndex(int[] arr, int[][] mat)
-	{
+public class FirstCompletelyPaintedRowOrColumn {
+	public int firstCompleteIndex(int[] arr, int[][] mat) {
 		int rows = mat.length;
 		int columns = mat[0].length;
 
@@ -27,23 +25,19 @@ public class FirstCompletelyPaintedRowOrColumn
 		int[] cs = new int[columns];
 
 		Map<Integer, int[]> map = new HashMap<>();
-		for (int row = 0; row < rows; row++)
-		{
-			for (int column = 0; column < columns; column++)
-			{
+		for (int row = 0; row < rows; row++) {
+			for (int column = 0; column < columns; column++) {
 				map.put(mat[row][column], new int[]{row, column});
 			}
 		}
 
-		for (int i = 0; i < arr.length; i++)
-		{
+		for (int i = 0; i < arr.length; i++) {
 			int[] pos = map.get(arr[i]);
 
 			rs[pos[0]]++;
 			cs[pos[1]]++;
 
-			if (rs[pos[0]] == columns || cs[pos[1]] == rows)
-			{
+			if (rs[pos[0]] == columns || cs[pos[1]] == rows) {
 				return i;
 			}
 		}

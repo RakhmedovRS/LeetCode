@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/",
 		difficulty = Difficulty.EASY
 )
-public class CountOddNumbersInIntervalRange
-{
-	public int countOdds(int low, int high)
-	{
+public class CountOddNumbersInIntervalRange {
+	public int countOdds(int low, int high) {
 		int add = (low % 2 != 0 || high % 2 != 0) ? 1 : 0;
 		return (high - low) / 2 + add;
 	}

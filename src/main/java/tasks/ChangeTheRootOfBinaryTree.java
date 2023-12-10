@@ -14,37 +14,29 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class ChangeTheRootOfBinaryTree
-{
-	class Node
-	{
+public class ChangeTheRootOfBinaryTree {
+	class Node {
 		public int val;
 		public Node left;
 		public Node right;
 		public Node parent;
 
-		public Node(int val)
-		{
+		public Node(int val) {
 			this.val = val;
 		}
 	}
 
-	public Node flipBinaryTree(Node root, Node leaf)
-	{
+	public Node flipBinaryTree(Node root, Node leaf) {
 		dfs(leaf, null);
 		return leaf;
 	}
 
-	private void dfs(Node node, Node prev)
-	{
-		if (node.parent == null)
-		{
-			if (prev == node.left)
-			{
+	private void dfs(Node node, Node prev) {
+		if (node.parent == null) {
+			if (prev == node.left) {
 				node.left = null;
 			}
-			else
-			{
+			else {
 				node.right = null;
 			}
 
@@ -52,8 +44,7 @@ public class ChangeTheRootOfBinaryTree
 			return;
 		}
 
-		if (prev == node.right)
-		{
+		if (prev == node.right) {
 			node.right = node.left;
 		}
 
@@ -63,8 +54,7 @@ public class ChangeTheRootOfBinaryTree
 		dfs(next, node);
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		ChangeTheRootOfBinaryTree clazz = new ChangeTheRootOfBinaryTree();
 
 		Node root = clazz.new Node(3);

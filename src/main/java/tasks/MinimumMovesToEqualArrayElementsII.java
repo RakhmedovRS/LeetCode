@@ -15,24 +15,19 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumMovesToEqualArrayElementsII
-{
-	public int minMoves2(int[] nums)
-	{
+public class MinimumMovesToEqualArrayElementsII {
+	public int minMoves2(int[] nums) {
 		Arrays.sort(nums);
 		int median;
-		if (nums.length % 2 == 0)
-		{
+		if (nums.length % 2 == 0) {
 			median = (nums[nums.length / 2 - 1] + nums[nums.length / 2]) / 2;
 		}
-		else
-		{
+		else {
 			median = nums[nums.length / 2];
 		}
 
 		int steps = 0;
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			steps += Math.abs(median - num);
 		}
 

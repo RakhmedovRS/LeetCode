@@ -13,15 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumNumberOfChangesToMakeBinaryStringBeautiful
-{
-	public int minChanges(String s)
-	{
+public class MinimumNumberOfChangesToMakeBinaryStringBeautiful {
+	public int minChanges(String s) {
 		int diff = 0;
-		for (int i = 1; i < s.length(); i += 2)
-		{
-			if (s.charAt(i -1) != s.charAt(i))
-			{
+		for (int i = 1; i < s.length(); i += 2) {
+			if (s.charAt(i - 1) != s.charAt(i)) {
 				diff++;
 			}
 		}

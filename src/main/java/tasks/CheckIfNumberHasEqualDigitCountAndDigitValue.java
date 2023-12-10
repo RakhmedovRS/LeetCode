@@ -13,21 +13,16 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/",
 		difficulty = Difficulty.EASY
 )
-public class CheckIfNumberHasEqualDigitCountAndDigitValue
-{
-	public boolean digitCount(String num)
-	{
+public class CheckIfNumberHasEqualDigitCountAndDigitValue {
+	public boolean digitCount(String num) {
 		int[] memo = new int[10];
 		char[] chars = num.toCharArray();
-		for (char ch : chars)
-		{
+		for (char ch : chars) {
 			memo[ch - '0']++;
 		}
 
-		for (int i = 0; i < chars.length; i++)
-		{
-			if (memo[i] != chars[i] - '0')
-			{
+		for (int i = 0; i < chars.length; i++) {
+			if (memo[i] != chars[i] - '0') {
 				return false;
 			}
 		}

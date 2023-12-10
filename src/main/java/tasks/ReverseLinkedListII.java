@@ -14,18 +14,14 @@ import common.ListNode;
 		url = "https://leetcode.com/problems/reverse-linked-list-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ReverseLinkedListII
-{
-	public ListNode reverseBetween(ListNode head, int left, int right)
-	{
-		if (head == null)
-		{
+public class ReverseLinkedListII {
+	public ListNode reverseBetween(ListNode head, int left, int right) {
+		if (head == null) {
 			return null;
 		}
 		ListNode prev = null;
 		ListNode current = head;
-		while (left > 1)
-		{
+		while (left > 1) {
 			prev = current;
 			current = current.next;
 			left--;
@@ -35,8 +31,7 @@ public class ReverseLinkedListII
 		ListNode conn = prev;
 		ListNode tail = current;
 		ListNode next;
-		while (right > 0)
-		{
+		while (right > 0) {
 			next = current.next;
 			current.next = prev;
 			prev = current;
@@ -44,12 +39,10 @@ public class ReverseLinkedListII
 			right--;
 		}
 
-		if (conn != null)
-		{
+		if (conn != null) {
 			conn.next = prev;
 		}
-		else
-		{
+		else {
 			head = prev;
 		}
 

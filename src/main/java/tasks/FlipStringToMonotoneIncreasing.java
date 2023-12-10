@@ -13,21 +13,16 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/flip-string-to-monotone-increasing/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FlipStringToMonotoneIncreasing
-{
-	public int minFlipsMonoIncr(String S)
-	{
+public class FlipStringToMonotoneIncreasing {
+	public int minFlipsMonoIncr(String S) {
 		int ones = S.charAt(0) == '1' ? 1 : 0;
 		int[] memo = new int[S.length()];
-		for (int i = 1; i < S.length(); i++)
-		{
-			if (S.charAt(i) == '1')
-			{
+		for (int i = 1; i < S.length(); i++) {
+			if (S.charAt(i) == '1') {
 				memo[i] = memo[i - 1];
 				ones++;
 			}
-			else
-			{
+			else {
 				memo[i] = Math.min(1 + memo[i - 1], ones);
 			}
 		}
@@ -35,8 +30,7 @@ public class FlipStringToMonotoneIncreasing
 		return memo[memo.length - 1];
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new FlipStringToMonotoneIncreasing().minFlipsMonoIncr("100000001010000"));
 		System.out.println(new FlipStringToMonotoneIncreasing().minFlipsMonoIncr("00011000"));
 		System.out.println(new FlipStringToMonotoneIncreasing().minFlipsMonoIncr("010110"));

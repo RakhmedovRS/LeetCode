@@ -18,39 +18,29 @@ import java.util.List;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class RemoveInterval
-{
-	public List<List<Integer>> removeInterval(int[][] intervals, int[] toBeRemoved)
-	{
+public class RemoveInterval {
+	public List<List<Integer>> removeInterval(int[][] intervals, int[] toBeRemoved) {
 		List<List<Integer>> answer = new ArrayList<>();
-		for (int[] interval : intervals)
-		{
-			if (toBeRemoved[0] <= interval[0] && interval[1] <= toBeRemoved[1])
-			{
+		for (int[] interval : intervals) {
+			if (toBeRemoved[0] <= interval[0] && interval[1] <= toBeRemoved[1]) {
 				continue;
 			}
-			else if (interval[0] <= toBeRemoved[0] && toBeRemoved[1] <= interval[1])
-			{
-				if (interval[0] != toBeRemoved[0])
-				{
+			else if (interval[0] <= toBeRemoved[0] && toBeRemoved[1] <= interval[1]) {
+				if (interval[0] != toBeRemoved[0]) {
 					answer.add(Arrays.asList(interval[0], toBeRemoved[0]));
 				}
 
-				if (toBeRemoved[1] != interval[1])
-				{
+				if (toBeRemoved[1] != interval[1]) {
 					answer.add(Arrays.asList(toBeRemoved[1], interval[1]));
 				}
 			}
-			else if (interval[1] >= toBeRemoved[0] && interval[1] <= toBeRemoved[1])
-			{
+			else if (interval[1] >= toBeRemoved[0] && interval[1] <= toBeRemoved[1]) {
 				answer.add(Arrays.asList(interval[0], toBeRemoved[0]));
 			}
-			else if (toBeRemoved[0] <= interval[0] && interval[0] <= toBeRemoved[1])
-			{
+			else if (toBeRemoved[0] <= interval[0] && interval[0] <= toBeRemoved[1]) {
 				answer.add(Arrays.asList(toBeRemoved[1], interval[1]));
 			}
-			else
-			{
+			else {
 				answer.add(Arrays.asList(interval[0], interval[1]));
 			}
 		}
@@ -58,8 +48,7 @@ public class RemoveInterval
 		return answer;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new RemoveInterval().removeInterval(new int[][]
 				{
 						{0, 100}

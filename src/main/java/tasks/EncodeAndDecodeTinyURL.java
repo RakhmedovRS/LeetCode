@@ -17,19 +17,15 @@ import java.util.Random;
 		url = "https://leetcode.com/problems/encode-and-decode-tinyurl/",
 		difficulty = Difficulty.MEDIUM
 )
-public class EncodeAndDecodeTinyURL
-{
-	public class Codec
-	{
+public class EncodeAndDecodeTinyURL {
+	public class Codec {
 		Random random = new Random();
 		Map<String, String> encoded = new HashMap<>();
 		Map<String, String> decoded = new HashMap<>();
 
 		// Encodes a URL to a shortened URL.
-		public String encode(String longUrl)
-		{
-			if (encoded.containsKey(longUrl))
-			{
+		public String encode(String longUrl) {
+			if (encoded.containsKey(longUrl)) {
 				return encoded.get(longUrl);
 			}
 
@@ -41,23 +37,18 @@ public class EncodeAndDecodeTinyURL
 		}
 
 		// Decodes a shortened URL to its original URL.
-		public String decode(String shortUrl)
-		{
+		public String decode(String shortUrl) {
 			return decoded.get(shortUrl);
 		}
 
-		private String generate()
-		{
+		private String generate() {
 			char[] chars = new char[6];
-			while (true)
-			{
-				for (int i = 0; i < chars.length; i++)
-				{
+			while (true) {
+				for (int i = 0; i < chars.length; i++) {
 					chars[i] = (char) (random.nextInt(27) + 'a');
 				}
 
-				if (!decoded.containsKey(String.valueOf(chars)))
-				{
+				if (!decoded.containsKey(String.valueOf(chars))) {
 					break;
 				}
 			}

@@ -13,25 +13,18 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/",
 		difficulty = Difficulty.EASY
 )
-public class CheckIfNumbersAreAscendingInSentence
-{
-	public boolean areNumbersAscending(String s)
-	{
+public class CheckIfNumbersAreAscendingInSentence {
+	public boolean areNumbersAscending(String s) {
 		String[] strings = s.split(" ");
 		Integer prev = null;
-		for (String string : strings)
-		{
-			if (Character.isDigit(string.charAt(0)))
-			{
-				if (prev == null)
-				{
+		for (String string : strings) {
+			if (Character.isDigit(string.charAt(0))) {
+				if (prev == null) {
 					prev = Integer.parseInt(string);
 				}
-				else
-				{
+				else {
 					int curr = Integer.parseInt(string);
-					if (prev >= curr)
-					{
+					if (prev >= curr) {
 						return false;
 					}
 

@@ -18,14 +18,11 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/count-number-of-bad-pairs/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CountNumberOfBadPairs
-{
-	public long countBadPairs(int[] nums)
-	{
+public class CountNumberOfBadPairs {
+	public long countBadPairs(int[] nums) {
 		long answer = 0;
 		Map<Integer, Long> map = new HashMap<>();
-		for (int i = 0; i < nums.length; i++)
-		{
+		for (int i = 0; i < nums.length; i++) {
 			int res = i - nums[i];
 			answer += i;
 			answer -= map.getOrDefault(res, 0L);

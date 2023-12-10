@@ -13,25 +13,19 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/valid-anagram/",
 		difficulty = Difficulty.EASY
 )
-public class ValidAnagram
-{
-	public boolean isAnagram(String s, String t)
-	{
+public class ValidAnagram {
+	public boolean isAnagram(String s, String t) {
 		int[] table = new int[26];
-		for (char ch : s.toCharArray())
-		{
+		for (char ch : s.toCharArray()) {
 			table[ch - 'a']++;
 		}
 
-		for (char ch : t.toCharArray())
-		{
+		for (char ch : t.toCharArray()) {
 			table[ch - 'a']--;
 		}
 
-		for (int value : table)
-		{
-			if (value != 0)
-			{
+		for (int value : table) {
+			if (value != 0) {
 				return false;
 			}
 		}

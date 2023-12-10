@@ -17,47 +17,37 @@ import java.util.Map;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class DesignFileSystem
-{
-	class Path
-	{
+public class DesignFileSystem {
+	class Path {
 		int value;
 		Map<String, Path> data;
 
-		public Path()
-		{
+		public Path() {
 			value = -1;
 			data = new HashMap<>();
 		}
 
-		Path getChild(String name)
-		{
+		Path getChild(String name) {
 			return data.get(name);
 		}
 
-		public Map<String, Path> getData()
-		{
+		public Map<String, Path> getData() {
 			return data;
 		}
 	}
 
-	class FileSystem
-	{
+	class FileSystem {
 		Path root;
 
-		public FileSystem()
-		{
+		public FileSystem() {
 			root = new Path();
 		}
 
-		public boolean createPath(String path, int value)
-		{
+		public boolean createPath(String path, int value) {
 			String[] paths = path.split("/");
 			Path current = root;
-			for (int i = 1; i < paths.length - 1; i++)
-			{
-				if (current == null)
-				{
+			for (int i = 1; i < paths.length - 1; i++) {
+				if (current == null) {
 					return false;
 				}
 
@@ -66,8 +56,7 @@ public class DesignFileSystem
 
 			String name = paths[paths.length - 1];
 
-			if (current == null || current.getChild(name) != null)
-			{
+			if (current == null || current.getChild(name) != null) {
 				return false;
 			}
 
@@ -77,22 +66,18 @@ public class DesignFileSystem
 			return true;
 		}
 
-		public int get(String path)
-		{
+		public int get(String path) {
 			String[] paths = path.split("/");
 			Path current = root;
-			for (int i = 1; i < paths.length; i++)
-			{
-				if (current == null)
-				{
+			for (int i = 1; i < paths.length; i++) {
+				if (current == null) {
 					return -1;
 				}
 
 				current = current.getChild(paths[i]);
 			}
 
-			if (current == null)
-			{
+			if (current == null) {
 				return -1;
 			}
 
@@ -100,8 +85,7 @@ public class DesignFileSystem
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		FileSystem fs = new DesignFileSystem().new FileSystem();
 		System.out.println(fs.createPath("/leet", 1));
 		System.out.println(fs.createPath("/leet/code", 2));

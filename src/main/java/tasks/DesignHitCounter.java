@@ -17,18 +17,15 @@ import java.util.TreeMap;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class DesignHitCounter
-{
-	class HitCounter
-	{
+public class DesignHitCounter {
+	class HitCounter {
 
 		/**
 		 * Initialize your data structure here.
 		 */
 		TreeMap<Integer, Integer> map;
 
-		public HitCounter()
-		{
+		public HitCounter() {
 			map = new TreeMap<>();
 		}
 
@@ -37,8 +34,7 @@ public class DesignHitCounter
 		 *
 		 * @param timestamp - The current timestamp (in seconds granularity).
 		 */
-		public void hit(int timestamp)
-		{
+		public void hit(int timestamp) {
 			map.put(timestamp, map.getOrDefault(timestamp, 0) + 1);
 		}
 
@@ -47,12 +43,10 @@ public class DesignHitCounter
 		 *
 		 * @param timestamp - The current timestamp (in seconds granularity).
 		 */
-		public int getHits(int timestamp)
-		{
+		public int getHits(int timestamp) {
 			int hits = 0;
 			Map<Integer, Integer> sub = map.subMap(Math.max(0, timestamp - 300), false, timestamp, true);
-			for (int count : sub.values())
-			{
+			for (int count : sub.values()) {
 				hits += count;
 			}
 

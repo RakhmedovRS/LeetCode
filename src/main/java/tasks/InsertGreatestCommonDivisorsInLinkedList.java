@@ -14,16 +14,12 @@ import common.ListNode;
 		url = "https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/",
 		difficulty = Difficulty.MEDIUM
 )
-public class InsertGreatestCommonDivisorsInLinkedList
-{
-	public ListNode insertGreatestCommonDivisors(ListNode head)
-	{
+public class InsertGreatestCommonDivisorsInLinkedList {
+	public ListNode insertGreatestCommonDivisors(ListNode head) {
 		ListNode dummy = new ListNode();
 		ListNode current = dummy;
-		while (head != null)
-		{
-			if (current.val != 0)
-			{
+		while (head != null) {
+			if (current.val != 0) {
 				current.next = new ListNode(gcd(current.val, head.val));
 				current = current.next;
 			}
@@ -36,8 +32,7 @@ public class InsertGreatestCommonDivisorsInLinkedList
 		return dummy.next;
 	}
 
-	public static int gcd(int a, int b)
-	{
+	public static int gcd(int a, int b) {
 		return a == 0 ? b : gcd(b % a, a);
 	}
 }

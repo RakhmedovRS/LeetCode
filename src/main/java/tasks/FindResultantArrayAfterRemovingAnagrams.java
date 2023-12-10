@@ -16,35 +16,27 @@ import java.util.List;
 		url = "https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/",
 		difficulty = Difficulty.EASY
 )
-public class FindResultantArrayAfterRemovingAnagrams
-{
-	public List<String> removeAnagrams(String[] words)
-	{
+public class FindResultantArrayAfterRemovingAnagrams {
+	public List<String> removeAnagrams(String[] words) {
 		LinkedList<String> list = new LinkedList<>();
-		for (String word : words)
-		{
-			if (list.isEmpty())
-			{
+		for (String word : words) {
+			if (list.isEmpty()) {
 				list.addLast(word);
 			}
-			else
-			{
+			else {
 				String prev = list.getLast();
 				int[] a = createFreqTable(prev);
 				int[] b = createFreqTable(word);
 
 				boolean same = true;
-				for (int i = 0; i < 26; i++)
-				{
-					if (a[i] != b[i])
-					{
+				for (int i = 0; i < 26; i++) {
+					if (a[i] != b[i]) {
 						same = false;
 						break;
 					}
 				}
 
-				if (!same)
-				{
+				if (!same) {
 					list.addLast(word);
 				}
 			}
@@ -53,11 +45,9 @@ public class FindResultantArrayAfterRemovingAnagrams
 		return list;
 	}
 
-	private int[] createFreqTable(String word)
-	{
+	private int[] createFreqTable(String word) {
 		int[] chars = new int[26];
-		for (int i = 0; i < word.length(); i++)
-		{
+		for (int i = 0; i < word.length(); i++) {
 			chars[word.charAt(i) - 'a']++;
 		}
 		return chars;

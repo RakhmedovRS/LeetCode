@@ -13,20 +13,16 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/reverse-integer/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ReverseInteger
-{
-	public int reverse(int x)
-	{
+public class ReverseInteger {
+	public int reverse(int x) {
 		long value = 0;
-		while (x != 0)
-		{
+		while (x != 0) {
 			value *= 10;
 			value += x % 10;
 			x /= 10;
 		}
 
-		if (Math.abs(value) > Integer.MAX_VALUE)
-		{
+		if (Math.abs(value) > Integer.MAX_VALUE) {
 			return 0;
 		}
 

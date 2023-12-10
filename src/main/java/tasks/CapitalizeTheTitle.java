@@ -13,22 +13,17 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/capitalize-the-title/",
 		difficulty = Difficulty.EASY
 )
-public class CapitalizeTheTitle
-{
-	public String capitalizeTitle(String title)
-	{
+public class CapitalizeTheTitle {
+	public String capitalizeTitle(String title) {
 		StringBuilder sb = new StringBuilder();
-		for (String word : title.split(" "))
-		{
-			if (sb.length() > 0)
-			{
+		for (String word : title.split(" ")) {
+			if (sb.length() > 0) {
 				sb.append(" ");
 			}
 
 			char[] chars = word.toLowerCase().toCharArray();
 
-			if (word.length() > 2)
-			{
+			if (word.length() > 2) {
 				chars[0] = Character.toUpperCase(chars[0]);
 			}
 

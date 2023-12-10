@@ -13,23 +13,17 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/goal-parser-interpretation/",
 		difficulty = Difficulty.EASY
 )
-public class GoalParserInterpretation
-{
-	public String interpret(String command)
-	{
+public class GoalParserInterpretation {
+	public String interpret(String command) {
 		StringBuilder sb = new StringBuilder();
-		for (int i = 0; i < command.length(); i++)
-		{
-			if (command.charAt(i) == 'G')
-			{
+		for (int i = 0; i < command.length(); i++) {
+			if (command.charAt(i) == 'G') {
 				sb.append('G');
 			}
-			else if (command.charAt(i) == ')' && command.charAt(i - 1) == '(')
-			{
+			else if (command.charAt(i) == ')' && command.charAt(i - 1) == '(') {
 				sb.append('o');
 			}
-			else if (command.charAt(i) == ')' && command.charAt(i - 1) != '(')
-			{
+			else if (command.charAt(i) == ')' && command.charAt(i - 1) != '(') {
 				sb.append("al");
 			}
 		}

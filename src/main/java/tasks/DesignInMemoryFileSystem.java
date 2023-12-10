@@ -16,10 +16,8 @@ import java.util.*;
 		difficulty = Difficulty.HARD,
 		premium = true
 )
-public class DesignInMemoryFileSystem
-{
-	interface Entry
-	{
+public class DesignInMemoryFileSystem {
+	interface Entry {
 		boolean isFile();
 
 		String getName();
@@ -33,146 +31,119 @@ public class DesignInMemoryFileSystem
 		void append(String data);
 	}
 
-	class Path implements Entry
-	{
+	class Path implements Entry {
 		TreeMap<String, Entry> data;
 		String name;
 
-		public Path(String name)
-		{
+		public Path(String name) {
 			this.name = name;
 			data = new TreeMap<>();
 		}
 
 		@Override
-		public boolean isFile()
-		{
+		public boolean isFile() {
 			return false;
 		}
 
 		@Override
-		public String getName()
-		{
+		public String getName() {
 			return name;
 		}
 
 		@Override
-		public String getContent()
-		{
+		public String getContent() {
 			return null;
 		}
 
 		@Override
-		public Entry getChild(String name)
-		{
+		public Entry getChild(String name) {
 			return data.get(name);
 		}
 
 		@Override
-		public Map<String, Entry> getData()
-		{
+		public Map<String, Entry> getData() {
 			return data;
 		}
 
 		@Override
-		public void append(String data)
-		{
+		public void append(String data) {
 
 		}
 	}
 
-	class File implements Entry
-	{
+	class File implements Entry {
 		String name;
 		StringBuilder content;
 
-		public File(String name)
-		{
+		public File(String name) {
 			this.name = name;
 			content = new StringBuilder();
 		}
 
 		@Override
-		public boolean isFile()
-		{
+		public boolean isFile() {
 			return true;
 		}
 
 		@Override
-		public String getName()
-		{
+		public String getName() {
 			return name;
 		}
 
 		@Override
-		public String getContent()
-		{
+		public String getContent() {
 			return content.toString();
 		}
 
 		@Override
-		public Entry getChild(String name)
-		{
+		public Entry getChild(String name) {
 			return null;
 		}
 
 		@Override
-		public Map<String, Entry> getData()
-		{
+		public Map<String, Entry> getData() {
 			return null;
 		}
 
 		@Override
-		public void append(String data)
-		{
+		public void append(String data) {
 			content.append(data);
 		}
 	}
 
-	class FileSystem
-	{
+	class FileSystem {
 		Entry root;
 
-		public FileSystem()
-		{
+		public FileSystem() {
 			root = new Path("/");
 		}
 
-		public List<String> ls(String path)
-		{
+		public List<String> ls(String path) {
 			String[] paths = path.split("/");
 			Entry current = root;
-			for (String p : paths)
-			{
-				if (p.isEmpty())
-				{
+			for (String p : paths) {
+				if (p.isEmpty()) {
 					continue;
 				}
 				current = current.getChild(p);
 			}
 
-			if (current.isFile())
-			{
+			if (current.isFile()) {
 				return Arrays.asList(current.getName());
 			}
-			else
-			{
+			else {
 				return new ArrayList<>(current.getData().keySet());
 			}
 		}
 
-		public void mkdir(String path)
-		{
+		public void mkdir(String path) {
 			String[] paths = path.split("/");
 			Entry current = root;
-			for (String p : paths)
-			{
-				if (p.isEmpty())
-				{
+			for (String p : paths) {
+				if (p.isEmpty()) {
 					continue;
 				}
-				if (current.getChild(p) == null)
-				{
+				if (current.getChild(p) == null) {
 					current.getData().put(p, new Path(p));
 				}
 
@@ -180,18 +151,14 @@ public class DesignInMemoryFileSystem
 			}
 		}
 
-		public void addContentToFile(String filePath, String content)
-		{
+		public void addContentToFile(String filePath, String content) {
 			String[] paths = filePath.split("/");
 			Entry current = root;
-			for (int i = 0; i < paths.length - 1; i++)
-			{
-				if (paths[i].isEmpty())
-				{
+			for (int i = 0; i < paths.length - 1; i++) {
+				if (paths[i].isEmpty()) {
 					continue;
 				}
-				if (current.getChild(paths[i]) == null)
-				{
+				if (current.getChild(paths[i]) == null) {
 					current.getData().put(paths[i], new Path(paths[i]));
 				}
 
@@ -201,8 +168,7 @@ public class DesignInMemoryFileSystem
 			current.append(content);
 
 			String fileName = paths[paths.length - 1];
-			if (current.getChild(fileName) == null)
-			{
+			if (current.getChild(fileName) == null) {
 
 				current.getData().put(fileName, new File(fileName));
 			}
@@ -210,14 +176,11 @@ public class DesignInMemoryFileSystem
 			current.getChild(fileName).append(content);
 		}
 
-		public String readContentFromFile(String filePath)
-		{
+		public String readContentFromFile(String filePath) {
 			String[] paths = filePath.split("/");
 			Entry current = root;
-			for (String p : paths)
-			{
-				if (p.isEmpty())
-				{
+			for (String p : paths) {
+				if (p.isEmpty()) {
 					continue;
 				}
 				current = current.getChild(p);
@@ -227,8 +190,7 @@ public class DesignInMemoryFileSystem
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		FileSystem fs = new DesignInMemoryFileSystem().new FileSystem();
 		fs.ls("/");
 		fs.mkdir("/a/b/c");

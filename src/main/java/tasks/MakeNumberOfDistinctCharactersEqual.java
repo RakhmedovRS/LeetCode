@@ -13,27 +13,20 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/make-number-of-distinct-characters-equal/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MakeNumberOfDistinctCharactersEqual
-{
-	public boolean isItPossible(String word1, String word2)
-	{
+public class MakeNumberOfDistinctCharactersEqual {
+	public boolean isItPossible(String word1, String word2) {
 		int[] freq1 = createCharFrequencyTable(word1);
 		int[] freq2 = createCharFrequencyTable(word2);
 
-		for (int a = 0; a < freq1.length; a++)
-		{
-			if (freq1[a] > 0)
-			{
+		for (int a = 0; a < freq1.length; a++) {
+			if (freq1[a] > 0) {
 				freq1[a]--;
-				for (int b = 0; b < freq2.length; b++)
-				{
-					if (freq2[b] > 0)
-					{
+				for (int b = 0; b < freq2.length; b++) {
+					if (freq2[b] > 0) {
 						freq2[a]++;
 						freq1[b]++;
 						freq2[b]--;
-						if (distinct(freq1) == distinct(freq2))
-						{
+						if (distinct(freq1) == distinct(freq2)) {
 							return true;
 						}
 						freq2[a]--;
@@ -45,20 +38,15 @@ public class MakeNumberOfDistinctCharactersEqual
 			}
 		}
 
-		for (int b = 0; b < freq2.length; b++)
-		{
-			if (freq2[b] > 0)
-			{
+		for (int b = 0; b < freq2.length; b++) {
+			if (freq2[b] > 0) {
 				freq2[b]--;
-				for (int a = 0; a < freq1.length; a++)
-				{
-					if (freq1[a] > 0)
-					{
+				for (int a = 0; a < freq1.length; a++) {
+					if (freq1[a] > 0) {
 						freq1[b]++;
 						freq2[a]++;
 						freq1[a]--;
-						if (distinct(freq1) == distinct(freq2))
-						{
+						if (distinct(freq1) == distinct(freq2)) {
 							return true;
 						}
 						freq1[b]--;
@@ -73,13 +61,10 @@ public class MakeNumberOfDistinctCharactersEqual
 		return false;
 	}
 
-	int distinct(int[] freq)
-	{
+	int distinct(int[] freq) {
 		int c = 0;
-		for (int f : freq)
-		{
-			if (f >= 1)
-			{
+		for (int f : freq) {
+			if (f >= 1) {
 				c++;
 			}
 		}
@@ -87,13 +72,10 @@ public class MakeNumberOfDistinctCharactersEqual
 		return c;
 	}
 
-	public int[] createCharFrequencyTable(String word)
-	{
+	public int[] createCharFrequencyTable(String word) {
 		int[] pattern = new int[26];
-		for (char ch : word.toCharArray())
-		{
-			if (Character.isAlphabetic(ch))
-			{
+		for (char ch : word.toCharArray()) {
+			if (Character.isAlphabetic(ch)) {
 				pattern[Character.toLowerCase(ch) - 'a']++;
 			}
 		}

@@ -16,41 +16,33 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/remove-k-digits/",
 		difficulty = Difficulty.MEDIUM
 )
-public class RemoveKDigits
-{
-	public String removeKdigits(String num, int k)
-	{
-		if (num == null || num.length() == 0 || num.length() == k)
-		{
+public class RemoveKDigits {
+	public String removeKdigits(String num, int k) {
+		if (num == null || num.length() == 0 || num.length() == k) {
 			return "0";
 		}
 
 		Deque<Character> stack = new LinkedList<>();
-		for (int i = 0; i < num.length(); i++)
-		{
+		for (int i = 0; i < num.length(); i++) {
 			char ch = num.charAt(i);
-			while (k > 0 && !stack.isEmpty() && stack.peek() > ch)
-			{
+			while (k > 0 && !stack.isEmpty() && stack.peek() > ch) {
 				stack.removeFirst();
 				k--;
 			}
 
-			if (stack.isEmpty() && ch == '0')
-			{
+			if (stack.isEmpty() && ch == '0') {
 				continue;
 			}
 			stack.addFirst(num.charAt(i));
 		}
 
-		while (k > 0)
-		{
+		while (k > 0) {
 			stack.removeFirst();
 			k--;
 		}
 
 		StringBuilder stringBuilder = new StringBuilder();
-		while (!stack.isEmpty())
-		{
+		while (!stack.isEmpty()) {
 			stringBuilder.append(stack.removeFirst());
 		}
 

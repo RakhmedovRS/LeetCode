@@ -13,14 +13,10 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/smallest-index-with-equal-value/",
 		difficulty = Difficulty.EASY
 )
-public class SmallestIndexWithEqualValue
-{
-	public int smallestEqual(int[] nums)
-	{
-		for (int i = 0; i < nums.length; i++)
-		{
-			if ((i % 10) == nums[i])
-			{
+public class SmallestIndexWithEqualValue {
+	public int smallestEqual(int[] nums) {
+		for (int i = 0; i < nums.length; i++) {
+			if ((i % 10) == nums[i]) {
 				return i;
 			}
 		}

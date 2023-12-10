@@ -16,22 +16,18 @@ import java.util.Random;
 		url = "https://leetcode.com/problems/linked-list-random-node/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LinkedListRandomNode
-{
-	class Solution
-	{
+public class LinkedListRandomNode {
+	class Solution {
 		ListNode head;
 		ListNode current;
 		int size;
 		Random random;
 
-		public Solution(ListNode head)
-		{
+		public Solution(ListNode head) {
 			this.head = head;
 			current = head;
 			size = 1;
-			while (head.next != null)
-			{
+			while (head.next != null) {
 				head = head.next;
 				size++;
 			}
@@ -41,11 +37,9 @@ public class LinkedListRandomNode
 			random = new Random();
 		}
 
-		public int getRandom()
-		{
+		public int getRandom() {
 			int pos = random.nextInt(size);
-			while (pos-- > 0)
-			{
+			while (pos-- > 0) {
 				current = current.next;
 			}
 
@@ -54,8 +48,7 @@ public class LinkedListRandomNode
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		Solution solution = new LinkedListRandomNode().new Solution(new ListNode(1));
 
 		System.out.println(solution.getRandom());

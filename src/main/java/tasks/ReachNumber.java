@@ -13,21 +13,17 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/reach-a-number/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ReachNumber
-{
-	public int reachNumber(int target)
-	{
+public class ReachNumber {
+	public int reachNumber(int target) {
 		int steps = 0;
 		int sum = 0;
 		target = Math.abs(target);
-		for (int i = 1; sum < target; i++)
-		{
+		for (int i = 1; sum < target; i++) {
 			steps++;
 			sum += i;
 		}
 
-		while ((sum - target) % 2 != 0)
-		{
+		while ((sum - target) % 2 != 0) {
 			steps++;
 			sum += steps;
 		}

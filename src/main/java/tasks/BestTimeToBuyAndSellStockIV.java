@@ -13,17 +13,12 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
 		difficulty = Difficulty.HARD
 )
-public class BestTimeToBuyAndSellStockIV
-{
-	public int maxProfit(int k, int[] prices)
-	{
-		if (2 * k >= prices.length)
-		{
+public class BestTimeToBuyAndSellStockIV {
+	public int maxProfit(int k, int[] prices) {
+		if (2 * k >= prices.length) {
 			int max = 0;
-			for (int i = 1; i < prices.length; i++)
-			{
-				if (prices[i] > prices[i - 1])
-				{
+			for (int i = 1; i < prices.length; i++) {
+				if (prices[i] > prices[i - 1]) {
 					max += prices[i] - prices[i - 1];
 				}
 			}
@@ -38,26 +33,21 @@ public class BestTimeToBuyAndSellStockIV
 	 * state = 0 -> can buy or skip;
 	 * state = 1 -> can sell or skip;
 	 */
-	private int dfs(int day, int k, int[] prices, int state, Integer[][][] memo)
-	{
-		if (day >= prices.length || (k == 0 && state == 1))
-		{
+	private int dfs(int day, int k, int[] prices, int state, Integer[][][] memo) {
+		if (day >= prices.length || (k == 0 && state == 1)) {
 			return 0;
 		}
 
-		if (memo[day][k][state] != null)
-		{
+		if (memo[day][k][state] != null) {
 			return memo[day][k][state];
 		}
 
 		int doNothing = dfs(day + 1, k, prices, state, memo);
 		int buyOrSell;
-		if (state == 0)
-		{
+		if (state == 0) {
 			buyOrSell = -prices[day] + dfs(day + 1, k, prices, 1, memo);
 		}
-		else
-		{
+		else {
 			buyOrSell = prices[day] + dfs(day, k - 1, prices, 0, memo);
 		}
 
@@ -66,8 +56,7 @@ public class BestTimeToBuyAndSellStockIV
 		return memo[day][k][state];
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new BestTimeToBuyAndSellStockIV().maxProfit(2, new int[]{6, 1, 3, 2, 4, 7}));
 		System.out.println(new BestTimeToBuyAndSellStockIV().maxProfit(2, new int[]{1, 2, 4}));
 		System.out.println(new BestTimeToBuyAndSellStockIV().maxProfit(2, new int[]{3, 2, 6, 5, 0, 3}));

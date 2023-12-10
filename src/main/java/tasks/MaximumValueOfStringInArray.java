@@ -13,28 +13,21 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/description/",
 		difficulty = Difficulty.EASY
 )
-public class MaximumValueOfStringInArray
-{
-	public int maximumValue(String[] strs)
-	{
+public class MaximumValueOfStringInArray {
+	public int maximumValue(String[] strs) {
 		int max = 0;
-		for (String str : strs)
-		{
+		for (String str : strs) {
 			boolean seenChar = false;
-			for (char ch : str.toCharArray())
-			{
-				if (!Character.isDigit(ch))
-				{
+			for (char ch : str.toCharArray()) {
+				if (!Character.isDigit(ch)) {
 					seenChar = true;
 				}
 			}
 
-			if (seenChar)
-			{
+			if (seenChar) {
 				max = Math.max(max, str.length());
 			}
-			else
-			{
+			else {
 				max = Math.max(max, Integer.parseInt(str));
 			}
 		}

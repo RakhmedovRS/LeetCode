@@ -14,17 +14,13 @@ import common.LeetCode;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class RemoveVowelsFromString
-{
-	public String removeVowels(String S)
-	{
+public class RemoveVowelsFromString {
+	public String removeVowels(String S) {
 		StringBuilder sb = new StringBuilder();
 		char ch;
-		for (int i = 0; i < S.length(); i++)
-		{
+		for (int i = 0; i < S.length(); i++) {
 			ch = S.charAt(i);
-			if (ch != 'a' && ch != 'e' && ch != 'i' && ch != 'o' && ch != 'u')
-			{
+			if (ch != 'a' && ch != 'e' && ch != 'i' && ch != 'o' && ch != 'u') {
 				sb.append(ch);
 			}
 		}

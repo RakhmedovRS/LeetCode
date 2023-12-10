@@ -17,29 +17,23 @@ import java.util.List;
 		url = "https://leetcode.com/problems/palindrome-partitioning/",
 		difficulty = Difficulty.MEDIUM
 )
-public class PalindromePartitioning
-{
-	public List<List<String>> partition(String s)
-	{
+public class PalindromePartitioning {
+	public List<List<String>> partition(String s) {
 		List<List<String>> answer = new ArrayList<>();
 		dfs(0, s, new LinkedList<>(), answer);
 		return answer;
 	}
 
-	private void dfs(int pos, String s, LinkedList<String> list, List<List<String>> answer)
-	{
-		if (pos == s.length())
-		{
+	private void dfs(int pos, String s, LinkedList<String> list, List<List<String>> answer) {
+		if (pos == s.length()) {
 			answer.add(new ArrayList<>(list));
 			return;
 		}
 
 		String sub;
-		for (int i = pos + 1; i <= s.length(); i++)
-		{
+		for (int i = pos + 1; i <= s.length(); i++) {
 			sub = s.substring(pos, i);
-			if (isPalindrome(sub))
-			{
+			if (isPalindrome(sub)) {
 				list.addLast(sub);
 				dfs(i, s, list, answer);
 				list.removeLast();
@@ -47,14 +41,11 @@ public class PalindromePartitioning
 		}
 	}
 
-	private boolean isPalindrome(String string)
-	{
+	private boolean isPalindrome(String string) {
 		int left = 0;
 		int right = string.length() - 1;
-		while (left <= right)
-		{
-			if (string.charAt(left++) != string.charAt(right--))
-			{
+		while (left <= right) {
+			if (string.charAt(left++) != string.charAt(right--)) {
 				return false;
 			}
 		}

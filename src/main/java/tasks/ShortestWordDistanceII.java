@@ -19,31 +19,24 @@ import java.util.Map;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class ShortestWordDistanceII
-{
-	class WordDistance
-	{
+public class ShortestWordDistanceII {
+	class WordDistance {
 		Map<String, List<Integer>> positions;
 
-		public WordDistance(String[] words)
-		{
+		public WordDistance(String[] words) {
 			positions = new HashMap<>();
-			for (int i = 0; i < words.length; i++)
-			{
+			for (int i = 0; i < words.length; i++) {
 				positions.putIfAbsent(words[i], new ArrayList<>());
 				positions.get(words[i]).add(i);
 			}
 		}
 
-		public int shortest(String word1, String word2)
-		{
+		public int shortest(String word1, String word2) {
 			List<Integer> ids1 = positions.get(word1);
 			List<Integer> ids2 = positions.get(word2);
 			int min = Integer.MAX_VALUE;
-			for (int id1 : ids1)
-			{
-				for (int id2 : ids2)
-				{
+			for (int id1 : ids1) {
+				for (int id2 : ids2) {
 					min = Math.min(min, Math.abs(id1 - id2));
 				}
 			}

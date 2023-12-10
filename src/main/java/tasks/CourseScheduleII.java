@@ -9,14 +9,11 @@ import java.util.*;
  * @created 18-Jul-20
  */
 @LeetCode(id = 210, name = "Course Schedule II", url = "https://leetcode.com/problems/course-schedule-ii/")
-public class CourseScheduleII
-{
-	public int[] findOrder(int numCourses, int[][] prerequisites)
-	{
+public class CourseScheduleII {
+	public int[] findOrder(int numCourses, int[][] prerequisites) {
 		Map<Integer, List<Integer>> graph = new HashMap<>();
 		int[] income = new int[numCourses];
-		for (int[] pre : prerequisites)
-		{
+		for (int[] pre : prerequisites) {
 			List<Integer> list = graph.getOrDefault(pre[1], new ArrayList<>());
 			list.add(pre[0]);
 			income[pre[0]]++;
@@ -25,21 +22,17 @@ public class CourseScheduleII
 
 		Queue<Integer> queue = new LinkedList<>();
 		Set<Integer> visited = new HashSet<>();
-		for (int i = 0; i < income.length; i++)
-		{
-			if (income[i] == 0)
-			{
+		for (int i = 0; i < income.length; i++) {
+			if (income[i] == 0) {
 				queue.add(i);
 			}
 		}
 
 		int i = 0;
 		int[] answer = new int[numCourses];
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			int course = queue.remove();
-			if (!visited.add(course))
-			{
+			if (!visited.add(course)) {
 				continue;
 			}
 
@@ -47,18 +40,15 @@ public class CourseScheduleII
 
 			List<Integer> nexts = graph.remove(course);
 			nexts = nexts == null ? Collections.emptyList() : nexts;
-			for (int next : nexts)
-			{
+			for (int next : nexts) {
 				income[next]--;
-				if (income[next] == 0)
-				{
+				if (income[next] == 0) {
 					queue.add(next);
 				}
 			}
 		}
 
-		if (i != numCourses)
-		{
+		if (i != numCourses) {
 			return new int[0];
 		}
 		return answer;

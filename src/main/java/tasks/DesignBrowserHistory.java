@@ -7,51 +7,41 @@ import common.LeetCode;
  * @created 09-Jun-20
  */
 @LeetCode(id = 1472, name = "Design Browser History", url = "https://leetcode.com/problems/design-browser-history/")
-public class DesignBrowserHistory
-{
-	class BrowserHistory
-	{
-		private class Link
-		{
+public class DesignBrowserHistory {
+	class BrowserHistory {
+		private class Link {
 			private Link previous;
 			private Link next;
-			private String url;
+			private final String url;
 
-			public Link(String url)
-			{
+			public Link(String url) {
 				this.url = url;
 			}
 		}
 
 		private Link current;
 
-		public BrowserHistory(String homepage)
-		{
+		public BrowserHistory(String homepage) {
 			current = new Link(homepage);
 		}
 
-		public void visit(String url)
-		{
+		public void visit(String url) {
 			Link visit = new Link(url);
 			visit.previous = current;
 			current.next = visit;
 			current = visit;
 		}
 
-		public String back(int steps)
-		{
-			while (current.previous != null && steps-- > 0)
-			{
+		public String back(int steps) {
+			while (current.previous != null && steps-- > 0) {
 				current = current.previous;
 			}
 
 			return current.url;
 		}
 
-		public String forward(int steps)
-		{
-			while (current.next != null && steps-- > 0)
-			{
+		public String forward(int steps) {
+			while (current.next != null && steps-- > 0) {
 				current = current.next;
 			}
 
@@ -59,8 +49,7 @@ public class DesignBrowserHistory
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		BrowserHistory browserHistory = new DesignBrowserHistory().new BrowserHistory("leetcode.com");
 		browserHistory.visit("google.com");       // You are in "leetcode.com". Visit "google.com"
 		browserHistory.visit("facebook.com");     // You are in "google.com". Visit "facebook.com"

@@ -13,12 +13,9 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/removing-minimum-and-maximum-from-array/",
 		difficulty = Difficulty.MEDIUM
 )
-public class RemovingMinimumAndMaximumFromArray
-{
-	public int minimumDeletions(int[] nums)
-	{
-		if (nums.length <= 2)
-		{
+public class RemovingMinimumAndMaximumFromArray {
+	public int minimumDeletions(int[] nums) {
+		if (nums.length <= 2) {
 			return nums.length;
 		}
 
@@ -26,16 +23,13 @@ public class RemovingMinimumAndMaximumFromArray
 		int max = Integer.MIN_VALUE;
 		int minIndex = -1;
 		int maxIndex = -1;
-		for (int i = 0; i < nums.length; i++)
-		{
-			if (nums[i] < min)
-			{
+		for (int i = 0; i < nums.length; i++) {
+			if (nums[i] < min) {
 				min = nums[i];
 				minIndex = i;
 			}
 
-			if (nums[i] > max)
-			{
+			if (nums[i] > max) {
 				max = nums[i];
 				maxIndex = i;
 			}

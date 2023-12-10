@@ -18,39 +18,31 @@ import java.util.List;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class MissingRanges
-{
-	public List<String> findMissingRanges(int[] nums, int lower, int upper)
-	{
-		if (nums.length == 0)
-		{
+public class MissingRanges {
+	public List<String> findMissingRanges(int[] nums, int lower, int upper) {
+		if (nums.length == 0) {
 			return Arrays.asList(getRange(lower, upper));
 		}
 
 		List<String> answer = new ArrayList<>();
-		if (lower < nums[0])
-		{
+		if (lower < nums[0]) {
 			answer.add(getRange(lower, nums[0] - 1));
 		}
 
-		for (int i = 1; i < nums.length; i++)
-		{
-			if (nums[i] - nums[i - 1] != 1)
-			{
+		for (int i = 1; i < nums.length; i++) {
+			if (nums[i] - nums[i - 1] != 1) {
 				answer.add(getRange(nums[i - 1] + 1, nums[i] - 1));
 			}
 		}
 
-		if (nums[nums.length - 1] < upper)
-		{
+		if (nums[nums.length - 1] < upper) {
 			answer.add(getRange(nums[nums.length - 1] + 1, upper));
 		}
 
 		return answer;
 	}
 
-	private String getRange(int lower, int upper)
-	{
+	private String getRange(int lower, int upper) {
 		return lower == upper ? "" + lower : lower + "->" + upper;
 	}
 }

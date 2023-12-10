@@ -14,41 +14,33 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class LongestRepeatingSubstring
-{
-	class Trie
-	{
+public class LongestRepeatingSubstring {
+	class Trie {
 		Trie[] children = new Trie[26];
 	}
 
-	public int longestRepeatingSubstring(String s)
-	{
+	public int longestRepeatingSubstring(String s) {
 		int max = 0;
 		Trie root = new Trie();
-		for (int i = 0; i < s.length(); i++)
-		{
+		for (int i = 0; i < s.length(); i++) {
 			max = Math.max(max, addToTrieAndCalcRepeats(root, i, s));
 		}
 
 		return max;
 	}
 
-	private int addToTrieAndCalcRepeats(Trie root, int startPos, String s)
-	{
+	private int addToTrieAndCalcRepeats(Trie root, int startPos, String s) {
 		int repeats = 0;
 		boolean seeMismatch = false;
 		int index;
-		for (; startPos < s.length(); startPos++)
-		{
+		for (; startPos < s.length(); startPos++) {
 			index = s.charAt(startPos) - 'a';
-			if (root.children[index] == null)
-			{
+			if (root.children[index] == null) {
 				seeMismatch = true;
 				root.children[index] = new Trie();
 			}
 
-			if (!seeMismatch)
-			{
+			if (!seeMismatch) {
 				repeats++;
 			}
 

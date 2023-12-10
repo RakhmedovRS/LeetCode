@@ -13,13 +13,10 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/single-number/",
 		difficulty = Difficulty.EASY
 )
-public class SingleNumber
-{
-	public int singleNumber(int[] nums)
-	{
+public class SingleNumber {
+	public int singleNumber(int[] nums) {
 		int a = 0;
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			a ^= num;
 		}
 		return a;

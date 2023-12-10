@@ -7,22 +7,17 @@ import common.LeetCode;
  * @created 25-Jul-20
  */
 @LeetCode(id = 1524, name = "Number of Sub-arrays With Odd Sum", url = "https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/")
-public class NumberOfSubArraysWithOddSum
-{
-	public int numOfSubarrays(int[] arr)
-	{
+public class NumberOfSubArraysWithOddSum {
+	public int numOfSubarrays(int[] arr) {
 		long sum = 0;
 		long even = 1;
 		long odd = 0;
-		for (int value : arr)
-		{
+		for (int value : arr) {
 			sum += value;
-			if (sum % 2 == 0)
-			{
+			if (sum % 2 == 0) {
 				even++;
 			}
-			else
-			{
+			else {
 				odd++;
 			}
 		}

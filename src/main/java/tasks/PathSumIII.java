@@ -17,19 +17,15 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/path-sum-iii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class PathSumIII
-{
-	public int pathSum(TreeNode root, int sum)
-	{
+public class PathSumIII {
+	public int pathSum(TreeNode root, int sum) {
 		Map<Integer, Integer> memo = new HashMap<>();
 		memo.put(0, 1);
 		return dfs(root, 0, sum, memo);
 	}
 
-	private int dfs(TreeNode root, int currentSum, int targetSum, Map<Integer, Integer> memo)
-	{
-		if (root == null)
-		{
+	private int dfs(TreeNode root, int currentSum, int targetSum, Map<Integer, Integer> memo) {
+		if (root == null) {
 			return 0;
 		}
 

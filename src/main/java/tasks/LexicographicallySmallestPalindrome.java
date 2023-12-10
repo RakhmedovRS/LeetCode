@@ -13,21 +13,15 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/lexicographically-smallest-palindrome/",
 		difficulty = Difficulty.EASY
 )
-public class LexicographicallySmallestPalindrome
-{
-	public String makeSmallestPalindrome(String s)
-	{
+public class LexicographicallySmallestPalindrome {
+	public String makeSmallestPalindrome(String s) {
 		char[] chars = s.toCharArray();
-		for (int left = 0, right = chars.length - 1; left < right; left++, right--)
-		{
-			if (chars[left] != chars[right])
-			{
-				if (chars[left] <= chars[right])
-				{
+		for (int left = 0, right = chars.length - 1; left < right; left++, right--) {
+			if (chars[left] != chars[right]) {
+				if (chars[left] <= chars[right]) {
 					chars[right] = chars[left];
 				}
-				else
-				{
+				else {
 					chars[left] = chars[right];
 				}
 			}

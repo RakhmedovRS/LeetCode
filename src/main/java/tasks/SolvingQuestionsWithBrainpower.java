@@ -13,21 +13,17 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/solving-questions-with-brainpower/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SolvingQuestionsWithBrainpower
-{
-	public long mostPoints(int[][] questions)
-	{
+public class SolvingQuestionsWithBrainpower {
+	public long mostPoints(int[][] questions) {
 		long max = 0;
 		long[] memo = new long[questions.length];
-		for (int i = 0; i < questions.length; i++)
-		{
+		for (int i = 0; i < questions.length; i++) {
 			memo[i] = Math.max(i > 0 ? memo[i - 1] : 0, memo[i]);
 			int points = questions[i][0];
 			int skip = questions[i][1] + 1;
 
 			max = Math.max(max, memo[i] + points);
-			if (i + skip < memo.length)
-			{
+			if (i + skip < memo.length) {
 				memo[i + skip] = Math.max(memo[i + skip], memo[i] + points);
 			}
 		}

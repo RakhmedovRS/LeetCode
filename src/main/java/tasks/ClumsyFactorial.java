@@ -13,17 +13,13 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/clumsy-factorial/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ClumsyFactorial
-{
-	public int clumsy(int N)
-	{
+public class ClumsyFactorial {
+	public int clumsy(int N) {
 		int sum = calSub(N) * 2;
-		while (N > 0)
-		{
+		while (N > 0) {
 			sum -= calSub(N);
 			N -= 3;
-			if (N > 0)
-			{
+			if (N > 0) {
 				sum += N;
 				N--;
 			}
@@ -32,13 +28,11 @@ public class ClumsyFactorial
 		return sum;
 	}
 
-	private int calSub(int N)
-	{
+	private int calSub(int N) {
 		return N * (N > 1 ? N - 1 : 1) / (N > 2 ? N - 2 : 1);
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new ClumsyFactorial().clumsy(1));
 		System.out.println(new ClumsyFactorial().clumsy(10));
 		System.out.println(new ClumsyFactorial().clumsy(4));

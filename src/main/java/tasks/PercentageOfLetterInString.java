@@ -13,15 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/percentage-of-letter-in-string/",
 		difficulty = Difficulty.EASY
 )
-public class PercentageOfLetterInString
-{
-	public int percentageLetter(String s, char letter)
-	{
+public class PercentageOfLetterInString {
+	public int percentageLetter(String s, char letter) {
 		double count = 0;
-		for (char ch : s.toCharArray())
-		{
-			if (ch == letter)
-			{
+		for (char ch : s.toCharArray()) {
+			if (ch == letter) {
 				count++;
 			}
 		}

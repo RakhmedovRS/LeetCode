@@ -13,17 +13,12 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/sort-array-by-parity-ii/",
 		difficulty = Difficulty.EASY
 )
-public class SortArrayByParityII
-{
-	public int[] sortArrayByParityII(int[] nums)
-	{
+public class SortArrayByParityII {
+	public int[] sortArrayByParityII(int[] nums) {
 		int j = 1;
-		for (int i = 0; i < nums.length; i += 2)
-		{
-			if (nums[i] % 2 != 0)
-			{
-				while (j < nums.length && nums[j] % 2 != 0)
-				{
+		for (int i = 0; i < nums.length; i += 2) {
+			if (nums[i] % 2 != 0) {
+				while (j < nums.length && nums[j] % 2 != 0) {
 					j += 2;
 				}
 
@@ -36,8 +31,7 @@ public class SortArrayByParityII
 		return nums;
 	}
 
-	private void swap(int[] nums, int left, int right)
-	{
+	private void swap(int[] nums, int left, int right) {
 		int temp = nums[left];
 		nums[left] = nums[right];
 		nums[right] = temp;

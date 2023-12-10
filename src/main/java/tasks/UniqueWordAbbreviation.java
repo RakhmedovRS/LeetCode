@@ -19,44 +19,35 @@ import java.util.Set;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class UniqueWordAbbreviation
-{
-	class ValidWordAbbr
-	{
+public class UniqueWordAbbreviation {
+	class ValidWordAbbr {
 
 		Map<String, Set<String>> map;
 
-		public ValidWordAbbr(String[] dictionary)
-		{
+		public ValidWordAbbr(String[] dictionary) {
 			map = new HashMap<>();
 			String abbreviation;
-			for (String word : dictionary)
-			{
+			for (String word : dictionary) {
 				abbreviation = createAbbreviation(word);
 				map.putIfAbsent(abbreviation, new HashSet<>());
 				map.get(abbreviation).add(word);
 			}
 		}
 
-		public boolean isUnique(String word)
-		{
+		public boolean isUnique(String word) {
 			String abbreviation = createAbbreviation(word);
-			if (!map.containsKey(abbreviation))
-			{
+			if (!map.containsKey(abbreviation)) {
 				return true;
 			}
 
 			return map.get(abbreviation).contains(word) && map.get(abbreviation).size() == 1;
 		}
 
-		private String createAbbreviation(String word)
-		{
-			if (word.length() == 2)
-			{
+		private String createAbbreviation(String word) {
+			if (word.length() == 2) {
 				return word;
 			}
-			else
-			{
+			else {
 				return "" + word.charAt(0) + (word.length() - 2) + word.charAt(word.length() - 1);
 			}
 		}

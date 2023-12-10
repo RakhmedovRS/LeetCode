@@ -7,15 +7,12 @@ import common.LeetCode;
  * @created 10/11/2020
  */
 @LeetCode(id = 1616, name = "Split Two Strings to Make Palindrome", url = "https://leetcode.com/problems/split-two-strings-to-make-palindrome/")
-public class SplitTwoStringsToMakePalindrome
-{
-	public boolean checkPalindromeFormation(String a, String b)
-	{
+public class SplitTwoStringsToMakePalindrome {
+	public boolean checkPalindromeFormation(String a, String b) {
 		char[] charsA = a.toCharArray();
 		char[] charsB = b.toCharArray();
 
-		if (isPalindrome(charsA, 0, a.length() - 1) || isPalindrome(charsB, 0, b.length() - 1))
-		{
+		if (isPalindrome(charsA, 0, a.length() - 1) || isPalindrome(charsB, 0, b.length() - 1)) {
 			return true;
 		}
 
@@ -24,16 +21,13 @@ public class SplitTwoStringsToMakePalindrome
 		int charsBLeft = 0;
 		int charBRight = charsB.length - 1;
 
-		for (int i = 0; i < charsA.length / 2; i++)
-		{
-			if (charsA[charsALeft] == charsB[charBRight])
-			{
+		for (int i = 0; i < charsA.length / 2; i++) {
+			if (charsA[charsALeft] == charsB[charBRight]) {
 				charsALeft++;
 				charBRight--;
 			}
 
-			if (charsB[charsBLeft] == charsA[charARight])
-			{
+			if (charsB[charsBLeft] == charsA[charARight]) {
 				charsBLeft++;
 				charARight--;
 			}
@@ -45,12 +39,9 @@ public class SplitTwoStringsToMakePalindrome
 				|| isPalindrome(charsB, charsBLeft, charARight);
 	}
 
-	private boolean isPalindrome(char[] chars, int left, int right)
-	{
-		while (left < right)
-		{
-			if (chars[left++] != chars[right--])
-			{
+	private boolean isPalindrome(char[] chars, int left, int right) {
+		while (left < right) {
+			if (chars[left++] != chars[right--]) {
 				return false;
 			}
 		}
@@ -58,8 +49,7 @@ public class SplitTwoStringsToMakePalindrome
 		return true;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new SplitTwoStringsToMakePalindrome().checkPalindromeFormation(
 				"aejbaalflrmkswrydwdkdwdyrwskmrlfqizjezd",
 				"uvebspqckawkhbrtlqwblfwzfptanhiglaabjea"));

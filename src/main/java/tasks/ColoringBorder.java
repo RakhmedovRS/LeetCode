@@ -18,10 +18,8 @@ import java.util.Queue;
 		url = "https://leetcode.com/problems/coloring-a-border/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ColoringBorder
-{
-	public int[][] colorBorder(int[][] grid, int r0, int c0, int color)
-	{
+public class ColoringBorder {
+	public int[][] colorBorder(int[][] grid, int r0, int c0, int color) {
 		int rows = grid.length;
 		int columns = grid[0].length;
 		Queue<int[]> queue = new LinkedList<>();
@@ -30,16 +28,13 @@ public class ColoringBorder
 		boolean[][] visited = new boolean[rows][columns];
 		int size;
 		List<int[]> recolor = new ArrayList<>();
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			size = queue.size();
-			while (size-- > 0)
-			{
+			while (size-- > 0) {
 				int[] pos = queue.remove();
 				int x = pos[0];
 				int y = pos[1];
-				if (visited[x][y])
-				{
+				if (visited[x][y]) {
 					continue;
 				}
 
@@ -47,30 +42,24 @@ public class ColoringBorder
 
 				int nextX;
 				int nextY;
-				for (int[] direction : directions)
-				{
+				for (int[] direction : directions) {
 					nextX = x + direction[0];
 					nextY = y + direction[1];
-					if (nextX < 0 || nextX == rows || nextY < 0 || nextY == columns || visited[nextX][nextY] || grid[x][y] != grid[nextX][nextY])
-					{
+					if (nextX < 0 || nextX == rows || nextY < 0 || nextY == columns || visited[nextX][nextY] || grid[x][y] != grid[nextX][nextY]) {
 						continue;
 					}
 
 					queue.add(new int[]{nextX, nextY});
 				}
 
-				if (x == 0 || x == rows - 1 || y == 0 || y == columns - 1)
-				{
+				if (x == 0 || x == rows - 1 || y == 0 || y == columns - 1) {
 					recolor.add(pos);
 				}
-				else
-				{
-					for (int[] direction : directions)
-					{
+				else {
+					for (int[] direction : directions) {
 						nextX = x + direction[0];
 						nextY = y + direction[1];
-						if (nextX < 0 || nextX == rows || nextY < 0 || nextY == columns || grid[x][y] != grid[nextX][nextY])
-						{
+						if (nextX < 0 || nextX == rows || nextY < 0 || nextY == columns || grid[x][y] != grid[nextX][nextY]) {
 							recolor.add(pos);
 							break;
 						}
@@ -79,8 +68,7 @@ public class ColoringBorder
 			}
 		}
 
-		for (int[] position : recolor)
-		{
+		for (int[] position : recolor) {
 			grid[position[0]][position[1]] = color;
 		}
 

@@ -3,7 +3,10 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
 
 /**
  * @author RakhmedovRS
@@ -16,10 +19,8 @@ import java.util.*;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class MeetingScheduler
-{
-	public List<Integer> minAvailableDuration(int[][] slots1, int[][] slots2, int duration)
-	{
+public class MeetingScheduler {
+	public List<Integer> minAvailableDuration(int[][] slots1, int[][] slots2, int duration) {
 		int s1Index = 0;
 		int s2Index = 0;
 
@@ -28,32 +29,25 @@ public class MeetingScheduler
 		Arrays.sort(slots1, comparator);
 		Arrays.sort(slots2, comparator);
 
-		while (s1Index < slots1.length && s2Index < slots2.length)
-		{
-			if (slots1[s1Index][1] < slots2[s2Index][0])
-			{
+		while (s1Index < slots1.length && s2Index < slots2.length) {
+			if (slots1[s1Index][1] < slots2[s2Index][0]) {
 				s1Index++;
 			}
-			else if (slots2[s2Index][1] < slots1[s1Index][0])
-			{
+			else if (slots2[s2Index][1] < slots1[s1Index][0]) {
 				s2Index++;
 			}
-			else
-			{
+			else {
 				int start = Math.max(slots1[s1Index][0], slots2[s2Index][0]);
 				int end = Math.min(slots1[s1Index][1], slots2[s2Index][1]);
 
-				if (end - start >= duration)
-				{
+				if (end - start >= duration) {
 					return Arrays.asList(start, start + duration);
 				}
 
-				if (slots1[s1Index][1] == end)
-				{
+				if (slots1[s1Index][1] == end) {
 					s1Index++;
 				}
-				else
-				{
+				else {
 					s2Index++;
 				}
 			}
@@ -62,8 +56,7 @@ public class MeetingScheduler
 		return new ArrayList<>();
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		MeetingScheduler clazz = new MeetingScheduler();
 
 		System.out.println(clazz.minAvailableDuration(

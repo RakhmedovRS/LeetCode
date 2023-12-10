@@ -14,18 +14,14 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class LongestSubstringWithAtMostTwoDistinctCharacters
-{
-	public int lengthOfLongestSubstringTwoDistinct(String s)
-	{
+public class LongestSubstringWithAtMostTwoDistinctCharacters {
+	public int lengthOfLongestSubstringTwoDistinct(String s) {
 		int[] table = new int[1 + 'z' - 'A'];
 		int max = 0;
-		for (int left = 0, right = 0; right < s.length(); right++)
-		{
+		for (int left = 0, right = 0; right < s.length(); right++) {
 			table[s.charAt(right) - 'A']++;
 
-			while (!isValid(table))
-			{
+			while (!isValid(table)) {
 				table[s.charAt(left++) - 'A']--;
 			}
 
@@ -35,13 +31,10 @@ public class LongestSubstringWithAtMostTwoDistinctCharacters
 		return max;
 	}
 
-	private boolean isValid(int[] table)
-	{
+	private boolean isValid(int[] table) {
 		int count = 0;
-		for (int i = 0; i < table.length && count <= 2; i++)
-		{
-			if (table[i] > 0)
-			{
+		for (int i = 0; i < table.length && count <= 2; i++) {
+			if (table[i] > 0) {
 				count++;
 			}
 		}
@@ -49,8 +42,7 @@ public class LongestSubstringWithAtMostTwoDistinctCharacters
 		return count <= 2;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new LongestSubstringWithAtMostTwoDistinctCharacters().lengthOfLongestSubstringTwoDistinct("abZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZYX"));
 		System.out.println(new LongestSubstringWithAtMostTwoDistinctCharacters().lengthOfLongestSubstringTwoDistinct("ababffzzeee"));
 		System.out.println(new LongestSubstringWithAtMostTwoDistinctCharacters().lengthOfLongestSubstringTwoDistinct("ccaabbb"));

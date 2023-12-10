@@ -14,21 +14,16 @@ import common.Node;
 		url = "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FlattenMultilevelDoublyLinkedList
-{
-	public Node flatten(Node head)
-	{
+public class FlattenMultilevelDoublyLinkedList {
+	public Node flatten(Node head) {
 		return getHeadAndTail(head)[0];
 	}
 
-	private Node[] getHeadAndTail(Node node)
-	{
+	private Node[] getHeadAndTail(Node node) {
 		Node[] headAndTail = new Node[]{node, null};
 		Node curr = node;
-		while (curr != null)
-		{
-			if (curr.child != null)
-			{
+		while (curr != null) {
+			if (curr.child != null) {
 				Node next = curr.next;
 				Node[] temp = getHeadAndTail(curr.child);
 				curr.child = null;
@@ -36,15 +31,13 @@ public class FlattenMultilevelDoublyLinkedList
 				temp[0].prev = curr;
 
 				temp[1].next = next;
-				if (next != null)
-				{
+				if (next != null) {
 					next.prev = temp[1];
 				}
 				curr = next == null ? temp[1] : next;
 			}
 
-			if (curr.next == null)
-			{
+			if (curr.next == null) {
 				headAndTail[1] = curr;
 			}
 

@@ -15,15 +15,12 @@ import java.util.*;
 		url = "https://leetcode.com/problems/course-schedule/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CourseSchedule
-{
-	public boolean canFinish(int numCourses, int[][] prerequisites)
-	{
+public class CourseSchedule {
+	public boolean canFinish(int numCourses, int[][] prerequisites) {
 		int count = 0;
 		int[] inDegree = new int[numCourses];
 		Map<Integer, List<Integer>> graph = new HashMap<>();
-		for (int[] edge : prerequisites)
-		{
+		for (int[] edge : prerequisites) {
 			inDegree[edge[0]]++;
 			List<Integer> child = graph.getOrDefault(edge[1], new ArrayList<>());
 			child.add(edge[0]);
@@ -31,23 +28,18 @@ public class CourseSchedule
 		}
 
 		LinkedList<Integer> stack = new LinkedList<>();
-		for (int i = 0; i < numCourses; i++)
-		{
-			if (inDegree[i] == 0)
-			{
+		for (int i = 0; i < numCourses; i++) {
+			if (inDegree[i] == 0) {
 				stack.push(i);
 			}
 		}
 
-		while (!stack.isEmpty())
-		{
+		while (!stack.isEmpty()) {
 			int current = stack.pop();
 			count++;
-			for (int node : graph.getOrDefault(current, Collections.emptyList()))
-			{
+			for (int node : graph.getOrDefault(current, Collections.emptyList())) {
 				inDegree[node]--;
-				if (inDegree[node] == 0)
-				{
+				if (inDegree[node] == 0) {
 					stack.push(node);
 				}
 			}

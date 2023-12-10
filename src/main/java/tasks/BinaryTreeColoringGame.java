@@ -17,16 +17,12 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/binary-tree-coloring-game/",
 		difficulty = Difficulty.MEDIUM
 )
-public class BinaryTreeColoringGame
-{
-	public boolean btreeGameWinningMove(TreeNode root, int n, int x)
-	{
+public class BinaryTreeColoringGame {
+	public boolean btreeGameWinningMove(TreeNode root, int n, int x) {
 		Map<TreeNode, Integer> nodeCount = new HashMap<>();
 		dfs(root, nodeCount, x);
-		for (int count : nodeCount.values())
-		{
-			if (count > n / 2)
-			{
+		for (int count : nodeCount.values()) {
+			if (count > n / 2) {
 				return true;
 			}
 		}
@@ -34,15 +30,12 @@ public class BinaryTreeColoringGame
 		return false;
 	}
 
-	private int dfs(TreeNode root, Map<TreeNode, Integer> nodeCount, int x)
-	{
-		if (root == null)
-		{
+	private int dfs(TreeNode root, Map<TreeNode, Integer> nodeCount, int x) {
+		if (root == null) {
 			return 0;
 		}
 
-		if (root.val == x)
-		{
+		if (root.val == x) {
 			dfs(root.left, nodeCount, x);
 			dfs(root.right, nodeCount, x);
 			return 0;

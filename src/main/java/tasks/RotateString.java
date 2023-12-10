@@ -16,52 +16,40 @@ import java.util.List;
 		url = "https://leetcode.com/problems/rotate-string/",
 		difficulty = Difficulty.EASY
 )
-public class RotateString
-{
-	public boolean rotateString(String A, String B)
-	{
-		if (A == null && B == null)
-		{
+public class RotateString {
+	public boolean rotateString(String A, String B) {
+		if (A == null && B == null) {
 			return true;
 		}
-		else if (A == null || B == null)
-		{
+		else if (A == null || B == null) {
 			return false;
 		}
-		else if (A.isEmpty() && B.isEmpty())
-		{
+		else if (A.isEmpty() && B.isEmpty()) {
 			return true;
 		}
-		else if (A.length() != B.length())
-		{
+		else if (A.length() != B.length()) {
 			return false;
 		}
 
 		List<Integer> startPositions = new ArrayList<>();
 		char firstLetter = A.charAt(0);
-		for (int i = 0; i < B.length(); i++)
-		{
-			if (B.charAt(i) == firstLetter)
-			{
+		for (int i = 0; i < B.length(); i++) {
+			if (B.charAt(i) == firstLetter) {
 				startPositions.add(i);
 			}
 		}
 
-		for (int index : startPositions)
-		{
+		for (int index : startPositions) {
 			int aIndex = 0;
 			int bIndex = index;
-			while (bIndex < B.length() && A.charAt(aIndex) == B.charAt(bIndex))
-			{
+			while (bIndex < B.length() && A.charAt(aIndex) == B.charAt(bIndex)) {
 				aIndex++;
 				bIndex++;
-				if (bIndex == B.length())
-				{
+				if (bIndex == B.length()) {
 					bIndex = 0;
 				}
 
-				if (bIndex == index)
-				{
+				if (bIndex == index) {
 					return true;
 				}
 			}

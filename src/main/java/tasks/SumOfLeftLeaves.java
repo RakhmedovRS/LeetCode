@@ -14,22 +14,17 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/sum-of-left-leaves/",
 		difficulty = Difficulty.EASY
 )
-public class SumOfLeftLeaves
-{
-	public int sumOfLeftLeaves(TreeNode root)
-	{
+public class SumOfLeftLeaves {
+	public int sumOfLeftLeaves(TreeNode root) {
 		return sumOfLeftLeaves(root, false);
 	}
 
-	public int sumOfLeftLeaves(TreeNode root, boolean left)
-	{
-		if (root == null)
-		{
+	public int sumOfLeftLeaves(TreeNode root, boolean left) {
+		if (root == null) {
 			return 0;
 		}
 
-		if (root.left == null && root.right == null)
-		{
+		if (root.left == null && root.right == null) {
 			return left ? root.val : 0;
 		}
 

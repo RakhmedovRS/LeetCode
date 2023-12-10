@@ -13,13 +13,10 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/trapping-rain-water/",
 		difficulty = Difficulty.HARD
 )
-public class TrappingRainWater
-{
-	public int trap(int[] height)
-	{
+public class TrappingRainWater {
+	public int trap(int[] height) {
 		int water = 0;
-		if (height == null || height.length == 0)
-		{
+		if (height == null || height.length == 0) {
 			return water;
 		}
 
@@ -28,10 +25,8 @@ public class TrappingRainWater
 
 		int max = height[0];
 		maxFromLeft[0] = max;
-		for (int i = 1; i < height.length; i++)
-		{
-			if (height[i] > max)
-			{
+		for (int i = 1; i < height.length; i++) {
+			if (height[i] > max) {
 				max = height[i];
 			}
 
@@ -40,18 +35,15 @@ public class TrappingRainWater
 
 		max = height[height.length - 1];
 		maxFromRight[height.length - 1] = max;
-		for (int i = height.length - 2; i >= 0; i--)
-		{
-			if (height[i] > max)
-			{
+		for (int i = height.length - 2; i >= 0; i--) {
+			if (height[i] > max) {
 				max = height[i];
 			}
 
 			maxFromRight[i] = max;
 		}
 
-		for (int i = 0; i < height.length; i++)
-		{
+		for (int i = 0; i < height.length; i++) {
 			water += Math.min(maxFromLeft[i], maxFromRight[i]) - height[i];
 		}
 

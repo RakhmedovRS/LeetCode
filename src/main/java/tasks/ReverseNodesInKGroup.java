@@ -14,20 +14,16 @@ import common.ListNode;
 		url = "https://leetcode.com/problems/reverse-nodes-in-k-group/",
 		difficulty = Difficulty.HARD
 )
-public class ReverseNodesInKGroup
-{
-	public ListNode reverseKGroup(ListNode head, int k)
-	{
+public class ReverseNodesInKGroup {
+	public ListNode reverseKGroup(ListNode head, int k) {
 		ListNode dummy = new ListNode();
 		ListNode current = dummy;
 		int i = 0;
-		while (head != null)
-		{
+		while (head != null) {
 			current.next = head;
 			current = current.next;
 			head = head.next;
-			if (++i == k)
-			{
+			if (++i == k) {
 				current.next = null;
 				ListNode h = dummy.next;
 				dummy.next = reverse(dummy.next);
@@ -39,12 +35,10 @@ public class ReverseNodesInKGroup
 		return dummy.next;
 	}
 
-	private ListNode reverse(ListNode head)
-	{
+	private ListNode reverse(ListNode head) {
 		ListNode prev = null;
 		ListNode next;
-		while (head != null)
-		{
+		while (head != null) {
 			next = head.next;
 			head.next = prev;
 			prev = head;
@@ -54,8 +48,7 @@ public class ReverseNodesInKGroup
 		return prev;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		ReverseNodesInKGroup clazz = new ReverseNodesInKGroup();
 
 		ListNode head = new ListNode(1);

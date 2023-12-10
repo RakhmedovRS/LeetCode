@@ -18,22 +18,17 @@ import java.util.PriorityQueue;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class MeetingRoomsII
-{
-	public int minMeetingRooms(int[][] intervals)
-	{
-		if (intervals.length == 0)
-		{
+public class MeetingRoomsII {
+	public int minMeetingRooms(int[][] intervals) {
+		if (intervals.length == 0) {
 			return 0;
 		}
 
 		Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
 		PriorityQueue<Integer> minHeap = new PriorityQueue<>();
 		minHeap.add(intervals[0][1]);
-		for (int i = 1; i < intervals.length; i++)
-		{
-			if (intervals[i][0] >= minHeap.peek())
-			{
+		for (int i = 1; i < intervals.length; i++) {
+			if (intervals[i][0] >= minHeap.peek()) {
 				minHeap.remove();
 			}
 

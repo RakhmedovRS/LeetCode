@@ -13,30 +13,23 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/best-poker-hand/",
 		difficulty = Difficulty.EASY
 )
-public class BestPokerHand
-{
-	public String bestHand(int[] ranks, char[] suits)
-	{
-		if (suits[0] == suits[1] && suits[1] == suits[2] && suits[2] == suits[3] && suits[3] == suits[4])
-		{
+public class BestPokerHand {
+	public String bestHand(int[] ranks, char[] suits) {
+		if (suits[0] == suits[1] && suits[1] == suits[2] && suits[2] == suits[3] && suits[3] == suits[4]) {
 			return "Flush";
 		}
 
 		int[] r = new int[14];
-		for (int rank : ranks)
-		{
+		for (int rank : ranks) {
 			r[rank]++;
 		}
 
 		boolean seenPair = false;
-		for (int c : r)
-		{
-			if (c > 2)
-			{
+		for (int c : r) {
+			if (c > 2) {
 				return "Three of a Kind";
 			}
-			else if (c == 2)
-			{
+			else if (c == 2) {
 				seenPair = true;
 			}
 		}

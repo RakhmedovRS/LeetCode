@@ -18,19 +18,15 @@ import java.util.List;
 		url = "https://leetcode.com/problems/equal-row-and-column-pairs/",
 		difficulty = Difficulty.MEDIUM
 )
-public class EqualRowAndColumnPairs
-{
-	public int equalPairs(int[][] grid)
-	{
+public class EqualRowAndColumnPairs {
+	public int equalPairs(int[][] grid) {
 		int answer = 0;
 
 		List<List<Integer>> rows = new ArrayList<>();
 
-		for (int[] row : grid)
-		{
+		for (int[] row : grid) {
 			List<Integer> r = new ArrayList<>();
-			for (int val : row)
-			{
+			for (int val : row) {
 				r.add(val);
 			}
 
@@ -38,26 +34,20 @@ public class EqualRowAndColumnPairs
 		}
 
 		List<List<Integer>> columns = new ArrayList<>();
-		for (int column = 0; column < grid[0].length; column++)
-		{
+		for (int column = 0; column < grid[0].length; column++) {
 			List<Integer> c = new ArrayList<>();
-			for (int row = 0; row < grid.length; row++)
-			{
+			for (int row = 0; row < grid.length; row++) {
 				c.add(grid[row][column]);
 			}
 
 			columns.add(c);
 		}
 
-		for (List<Integer> row : rows)
-		{
+		for (List<Integer> row : rows) {
 			inner:
-			for (List<Integer> column : columns)
-			{
-				for (int i = 0; i < row.size(); i++)
-				{
-					if (!row.get(i).equals(column.get(i)))
-					{
+			for (List<Integer> column : columns) {
+				for (int i = 0; i < row.size(); i++) {
+					if (!row.get(i).equals(column.get(i))) {
 						continue inner;
 					}
 				}

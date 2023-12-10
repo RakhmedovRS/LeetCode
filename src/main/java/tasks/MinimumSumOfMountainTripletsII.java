@@ -13,31 +13,25 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumSumOfMountainTripletsII
-{
-	public int minimumSum(int[] nums)
-	{
+public class MinimumSumOfMountainTripletsII {
+	public int minimumSum(int[] nums) {
 		int min = Integer.MAX_VALUE;
 		int[] ltr = new int[nums.length];
 		int[] rtl = new int[nums.length];
 		int curr = Integer.MAX_VALUE;
-		for (int i = 0; i < nums.length; i++)
-		{
+		for (int i = 0; i < nums.length; i++) {
 			curr = Math.min(curr, nums[i]);
 			ltr[i] = curr;
 		}
 
 		curr = Integer.MAX_VALUE;
-		for (int i = nums.length - 1; i >= 0; i--)
-		{
+		for (int i = nums.length - 1; i >= 0; i--) {
 			curr = Math.min(curr, nums[i]);
 			rtl[i] = curr;
 		}
 
-		for (int i = 1; i < nums.length - 1; i++)
-		{
-			if (nums[i] > ltr[i - 1] && nums[i] > rtl[i + 1])
-			{
+		for (int i = 1; i < nums.length - 1; i++) {
+			if (nums[i] > ltr[i - 1] && nums[i] > rtl[i + 1]) {
 				min = Math.min(min, ltr[i - 1] + nums[i] + rtl[i + 1]);
 			}
 		}

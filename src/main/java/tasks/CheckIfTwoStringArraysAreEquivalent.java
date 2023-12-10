@@ -13,18 +13,14 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/",
 		difficulty = Difficulty.EASY
 )
-public class CheckIfTwoStringArraysAreEquivalent
-{
-	public boolean arrayStringsAreEqual(String[] word1, String[] word2)
-	{
+public class CheckIfTwoStringArraysAreEquivalent {
+	public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
 		return convertToString(word1).equals(convertToString(word2));
 	}
 
-	private String convertToString(String[] words)
-	{
+	private String convertToString(String[] words) {
 		StringBuilder sb = new StringBuilder();
-		for (String word : words)
-		{
+		for (String word : words) {
 			sb.append(word);
 		}
 		return sb.toString();

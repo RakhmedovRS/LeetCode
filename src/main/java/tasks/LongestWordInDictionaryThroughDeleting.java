@@ -15,24 +15,19 @@ import java.util.List;
 		url = "https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LongestWordInDictionaryThroughDeleting
-{
-	public String findLongestWord(String s, List<String> d)
-	{
+public class LongestWordInDictionaryThroughDeleting {
+	public String findLongestWord(String s, List<String> d) {
 		d.sort((a, b) ->
 		{
-			if (a.length() == b.length())
-			{
+			if (a.length() == b.length()) {
 				return a.compareTo(b);
 			}
 
 			return b.length() - a.length();
 		});
 
-		for (String word : d)
-		{
-			if (canCreate(s, word))
-			{
+		for (String word : d) {
+			if (canCreate(s, word)) {
 				return word;
 			}
 		}
@@ -40,13 +35,10 @@ public class LongestWordInDictionaryThroughDeleting
 		return "";
 	}
 
-	private boolean canCreate(String current, String target)
-	{
+	private boolean canCreate(String current, String target) {
 		int tPos = 0;
-		for (int cPos = 0; cPos < current.length() && tPos < target.length(); cPos++)
-		{
-			if (current.charAt(cPos) == target.charAt(tPos))
-			{
+		for (int cPos = 0; cPos < current.length() && tPos < target.length(); cPos++) {
+			if (current.charAt(cPos) == target.charAt(tPos)) {
 				tPos++;
 			}
 		}

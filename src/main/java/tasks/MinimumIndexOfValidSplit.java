@@ -18,12 +18,9 @@ import java.util.TreeSet;
 		url = "https://leetcode.com/problems/minimum-index-of-a-valid-split/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumIndexOfValidSplit
-{
-	public int minimumIndex(List<Integer> nums)
-	{
-		if (nums.size() == 1)
-		{
+public class MinimumIndexOfValidSplit {
+	public int minimumIndex(List<Integer> nums) {
+		if (nums.size() == 1) {
 			return -1;
 		}
 
@@ -35,22 +32,19 @@ public class MinimumIndexOfValidSplit
 		lMap.put(nums.get(0), 1);
 
 		Map<Integer, Integer> rMap = new HashMap<>();
-		for (int i = right; i < nums.size(); i++)
-		{
+		for (int i = right; i < nums.size(); i++) {
 			rMap.put(nums.get(i), rMap.getOrDefault(nums.get(i), 0) + 1);
 		}
 
 		TreeSet<Integer> lSet = new TreeSet<>((a, b) -> {
-			if (lMap.getOrDefault(a, 0).equals(lMap.getOrDefault(b, 0)))
-			{
+			if (lMap.getOrDefault(a, 0).equals(lMap.getOrDefault(b, 0))) {
 				return b - a;
 			}
 
 			return lMap.getOrDefault(b, 0) - lMap.getOrDefault(a, 0);
 		});
 		TreeSet<Integer> rSet = new TreeSet<>((a, b) -> {
-			if (rMap.getOrDefault(a, 0).equals(rMap.getOrDefault(b, 0)))
-			{
+			if (rMap.getOrDefault(a, 0).equals(rMap.getOrDefault(b, 0))) {
 				return b - a;
 			}
 
@@ -60,13 +54,11 @@ public class MinimumIndexOfValidSplit
 		lSet.addAll(lMap.keySet());
 		rSet.addAll(rMap.keySet());
 
-		while (right < nums.size())
-		{
+		while (right < nums.size()) {
 			int lFreq = lMap.get(lSet.first());
 			int rFreq = rMap.get(rSet.first());
 
-			if (lFreq * 2 > leftC && rFreq * 2 > rightC && lSet.first().equals(rSet.first()))
-			{
+			if (lFreq * 2 > leftC && rFreq * 2 > rightC && lSet.first().equals(rSet.first())) {
 				return left;
 			}
 
@@ -83,8 +75,7 @@ public class MinimumIndexOfValidSplit
 
 			rSet.remove(next);
 			int c = rMap.remove(next) - 1;
-			if (c > 0)
-			{
+			if (c > 0) {
 				rMap.put(next, c);
 				rSet.add(next);
 			}

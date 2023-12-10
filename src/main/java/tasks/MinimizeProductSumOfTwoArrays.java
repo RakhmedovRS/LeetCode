@@ -16,16 +16,13 @@ import java.util.Arrays;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class MinimizeProductSumOfTwoArrays
-{
-	public int minProductSum(int[] nums1, int[] nums2)
-	{
+public class MinimizeProductSumOfTwoArrays {
+	public int minProductSum(int[] nums1, int[] nums2) {
 		Arrays.sort(nums1);
 		Arrays.sort(nums2);
 
 		int sum = 0;
-		for (int i = 0, j = nums2.length - 1; i < nums1.length && j >= 0; i++, j--)
-		{
+		for (int i = 0, j = nums2.length - 1; i < nums1.length && j >= 0; i++, j--) {
 			sum += nums1[i] * nums2[j];
 		}
 

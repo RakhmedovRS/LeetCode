@@ -16,20 +16,16 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/largest-rectangle-in-histogram/",
 		difficulty = Difficulty.HARD
 )
-public class LargestRectangleInHistogram
-{
-	public int largestRectangleArea(int[] heights)
-	{
+public class LargestRectangleInHistogram {
+	public int largestRectangleArea(int[] heights) {
 		int n = heights.length;
 		int maxArea = 0;
 		Deque<Integer> deque = new LinkedList<>();
 		deque.addLast(-1);
 		int height;
 		int width;
-		for (int i = 0; i < n; i++)
-		{
-			while (deque.getLast() != -1 && heights[deque.getLast()] >= heights[i])
-			{
+		for (int i = 0; i < n; i++) {
+			while (deque.getLast() != -1 && heights[deque.getLast()] >= heights[i]) {
 				height = heights[deque.removeLast()];
 				width = i - deque.getLast() - 1;
 				maxArea = Math.max(maxArea, height * width);
@@ -38,8 +34,7 @@ public class LargestRectangleInHistogram
 			deque.addLast(i);
 		}
 
-		while (deque.getLast() != -1)
-		{
+		while (deque.getLast() != -1) {
 			height = heights[deque.removeLast()];
 			width = n - deque.getLast() - 1;
 			maxArea = Math.max(maxArea, height * width);

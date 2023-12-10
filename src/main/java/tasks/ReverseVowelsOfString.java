@@ -10,12 +10,9 @@ import java.util.Set;
  * @created 11-Apr-20
  */
 @LeetCode(id = 345, name = "Reverse Vowels of a String", url = "https://leetcode.com/problems/reverse-vowels-of-a-string/")
-public class ReverseVowelsOfString
-{
-	public String reverseVowels(String s)
-	{
-		if (s == null || s.length() <= 0)
-		{
+public class ReverseVowelsOfString {
+	public String reverseVowels(String s) {
+		if (s == null || s.length() <= 0) {
 			return s;
 		}
 
@@ -34,19 +31,15 @@ public class ReverseVowelsOfString
 		int leftVowel = 0;
 		int rightVowel = s.length() - 1;
 		char[] chars = s.toCharArray();
-		while (leftVowel < rightVowel)
-		{
-			while (leftVowel < chars.length && !vowels.contains(chars[leftVowel]))
-			{
+		while (leftVowel < rightVowel) {
+			while (leftVowel < chars.length && !vowels.contains(chars[leftVowel])) {
 				leftVowel++;
 			}
-			if (leftVowel == chars.length - 1 || leftVowel >= rightVowel)
-			{
+			if (leftVowel == chars.length - 1 || leftVowel >= rightVowel) {
 				break;
 			}
 
-			while (rightVowel >= 0 && !vowels.contains(chars[rightVowel]))
-			{
+			while (rightVowel >= 0 && !vowels.contains(chars[rightVowel])) {
 				rightVowel--;
 			}
 
@@ -60,8 +53,7 @@ public class ReverseVowelsOfString
 		return new String(chars);
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new ReverseVowelsOfString().reverseVowels("aA"));
 		System.out.println(new ReverseVowelsOfString().reverseVowels("hello"));
 		System.out.println(new ReverseVowelsOfString().reverseVowels("leetcode"));

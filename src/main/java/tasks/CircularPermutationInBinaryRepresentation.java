@@ -16,10 +16,8 @@ import java.util.List;
 		url = "https://leetcode.com/problems/circular-permutation-in-binary-representation/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CircularPermutationInBinaryRepresentation
-{
-	public List<Integer> circularPermutation(int n, int start)
-	{
+public class CircularPermutationInBinaryRepresentation {
+	public List<Integer> circularPermutation(int n, int start) {
 		boolean[] used = new boolean[(int) Math.pow(2, n)];
 		int[] store = new int[used.length];
 		store[0] = start;
@@ -28,33 +26,27 @@ public class CircularPermutationInBinaryRepresentation
 		dfs(1, store, used);
 
 		List<Integer> answer = new ArrayList<>(store.length);
-		for (int i = 0; i < store.length; i++)
-		{
+		for (int i = 0; i < store.length; i++) {
 			answer.add(store[i]);
 		}
 
 		return answer;
 	}
 
-	private boolean dfs(int pos, int[] store, boolean[] used)
-	{
-		if (pos == store.length)
-		{
+	private boolean dfs(int pos, int[] store, boolean[] used) {
+		if (pos == store.length) {
 			return oneBitDifference(store[0], store[pos - 1]);
 		}
 
 		int prev = store[pos - 1];
 		int candidate;
-		for (int i = 0; i < store.length; i++)
-		{
+		for (int i = 0; i < store.length; i++) {
 			candidate = prev ^ (1 << i);
-			if (!used[candidate])
-			{
+			if (!used[candidate]) {
 				store[pos] = candidate;
 				used[candidate] = true;
 
-				if (dfs(pos + 1, store, used))
-				{
+				if (dfs(pos + 1, store, used)) {
 					return true;
 				}
 
@@ -65,13 +57,10 @@ public class CircularPermutationInBinaryRepresentation
 		return false;
 	}
 
-	private boolean oneBitDifference(int a, int b)
-	{
+	private boolean oneBitDifference(int a, int b) {
 		int diff = 0;
-		while (a != 0 || b != 0)
-		{
-			if ((a & 1) != (b & 1))
-			{
+		while (a != 0 || b != 0) {
+			if ((a & 1) != (b & 1)) {
 				diff++;
 			}
 			a >>= 1;

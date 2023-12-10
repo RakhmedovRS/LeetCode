@@ -18,46 +18,37 @@ import java.util.List;
 		url = "https://leetcode.com/problems/all-elements-in-two-binary-search-trees/",
 		difficulty = Difficulty.MEDIUM
 )
-public class AllElementInTwoBinarySearchTrees
-{
-	public List<Integer> getAllElements(TreeNode root1, TreeNode root2)
-	{
+public class AllElementInTwoBinarySearchTrees {
+	public List<Integer> getAllElements(TreeNode root1, TreeNode root2) {
 		LinkedList<Integer> list1 = new LinkedList<>();
 		LinkedList<Integer> list2 = new LinkedList<>();
 		dfs(root1, list1);
 		dfs(root2, list2);
 
 		List<Integer> answer = new ArrayList<>();
-		while (!list1.isEmpty() && !list2.isEmpty())
-		{
-			if (list1.getFirst() <= list2.getFirst())
-			{
+		while (!list1.isEmpty() && !list2.isEmpty()) {
+			if (list1.getFirst() <= list2.getFirst()) {
 				answer.add(list1.removeFirst());
 			}
-			else
-			{
+			else {
 				answer.add(list2.removeFirst());
 			}
 		}
 
-		while (!list1.isEmpty())
-		{
+		while (!list1.isEmpty()) {
 			answer.add(list1.removeFirst());
 		}
 
 
-		while (!list2.isEmpty())
-		{
+		while (!list2.isEmpty()) {
 			answer.add(list2.removeFirst());
 		}
 
 		return answer;
 	}
 
-	private void dfs(TreeNode treeNode, List<Integer> list)
-	{
-		if (treeNode == null)
-		{
+	private void dfs(TreeNode treeNode, List<Integer> list) {
+		if (treeNode == null) {
 			return;
 		}
 

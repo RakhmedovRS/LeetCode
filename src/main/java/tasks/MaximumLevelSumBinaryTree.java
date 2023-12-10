@@ -16,10 +16,8 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumLevelSumBinaryTree
-{
-	public int maxLevelSum(TreeNode root)
-	{
+public class MaximumLevelSumBinaryTree {
+	public int maxLevelSum(TreeNode root) {
 		int maxLevel = 0;
 		int currentLevel = 1;
 		int max = Integer.MIN_VALUE;
@@ -28,24 +26,19 @@ public class MaximumLevelSumBinaryTree
 
 		int levelQuantity;
 		int levelSum;
-		while (!nodes.isEmpty())
-		{
+		while (!nodes.isEmpty()) {
 			levelQuantity = nodes.size();
 			levelSum = 0;
-			while (levelQuantity > 0)
-			{
+			while (levelQuantity > 0) {
 				TreeNode node = nodes.removeFirst();
-				if (node != null)
-				{
+				if (node != null) {
 					levelSum += node.val;
 
-					if (node.left != null)
-					{
+					if (node.left != null) {
 						nodes.addLast(node.left);
 					}
 
-					if (node.right != null)
-					{
+					if (node.right != null) {
 						nodes.addLast(node.right);
 					}
 				}
@@ -53,8 +46,7 @@ public class MaximumLevelSumBinaryTree
 				levelQuantity--;
 			}
 
-			if (levelSum > max)
-			{
+			if (levelSum > max) {
 				max = levelSum;
 				maxLevel = currentLevel;
 			}

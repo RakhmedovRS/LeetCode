@@ -19,36 +19,28 @@ import java.util.Map;
 		difficulty = Difficulty.HARD,
 		premium = true
 )
-public class SerializeAndDeserializeNaryTree
-{
-	class Node
-	{
+public class SerializeAndDeserializeNaryTree {
+	class Node {
 		public int val;
 		public List<Node> children;
 
-		public Node()
-		{
+		public Node() {
 		}
 
-		public Node(int _val)
-		{
+		public Node(int _val) {
 			val = _val;
 		}
 
-		public Node(int _val, List<Node> _children)
-		{
+		public Node(int _val, List<Node> _children) {
 			val = _val;
 			children = _children;
 		}
 	}
 
-	class Codec
-	{
+	class Codec {
 		// Encodes a tree to a single string.
-		public String serialize(Node root)
-		{
-			if (root == null)
-			{
+		public String serialize(Node root) {
+			if (root == null) {
 				return "null";
 			}
 
@@ -60,41 +52,32 @@ public class SerializeAndDeserializeNaryTree
 		private void dfs(Node parent, Node current,
 						 Map<Integer, Integer> nodes,
 						 Map<Node, Integer> nodeIds,
-						 StringBuilder sb)
-		{
-			if (current == null)
-			{
+						 StringBuilder sb) {
+			if (current == null) {
 				return;
 			}
 
-			if (current.children != null)
-			{
-				for (Node child : current.children)
-				{
+			if (current.children != null) {
+				for (Node child : current.children) {
 					dfs(current, child, nodes, nodeIds, sb);
 				}
 			}
 
-			if (sb.length() != 0)
-			{
+			if (sb.length() != 0) {
 				sb.append("|");
 			}
 
-			if (parent == null)
-			{
+			if (parent == null) {
 				sb.append("null");
 			}
-			else
-			{
+			else {
 				int pid;
-				if (!nodeIds.containsKey(parent))
-				{
+				if (!nodeIds.containsKey(parent)) {
 					pid = nodes.getOrDefault(parent.val, 0) + 1;
 					nodes.put(parent.val, pid);
 					nodeIds.put(parent, pid);
 				}
-				else
-				{
+				else {
 					pid = nodeIds.get(parent);
 				}
 
@@ -104,14 +87,12 @@ public class SerializeAndDeserializeNaryTree
 			}
 
 			int cid;
-			if (!nodeIds.containsKey(current))
-			{
+			if (!nodeIds.containsKey(current)) {
 				cid = nodes.getOrDefault(current.val, 0) + 1;
 				nodes.put(current.val, cid);
 				nodeIds.put(current, cid);
 			}
-			else
-			{
+			else {
 				cid = nodeIds.get(current);
 			}
 
@@ -122,10 +103,8 @@ public class SerializeAndDeserializeNaryTree
 		}
 
 		// Decodes your encoded data to tree.
-		public Node deserialize(String data)
-		{
-			if (data == null || data.equals("null"))
-			{
+		public Node deserialize(String data) {
+			if (data == null || data.equals("null")) {
 				return null;
 			}
 
@@ -137,11 +116,9 @@ public class SerializeAndDeserializeNaryTree
 			int pid;
 			int cValue;
 			int cid;
-			for (String childToParent : childToParents)
-			{
+			for (String childToParent : childToParents) {
 				String[] parts = childToParent.split(",");
-				if (parts[0].equals("null"))
-				{
+				if (parts[0].equals("null")) {
 					cValue = Integer.parseInt(parts[1]);
 					cid = Integer.parseInt(parts[2]);
 
@@ -150,8 +127,7 @@ public class SerializeAndDeserializeNaryTree
 
 					root = map.get(cValue).get(cid);
 				}
-				else
-				{
+				else {
 					pValue = Integer.parseInt(parts[0]);
 					pid = Integer.parseInt(parts[1]);
 					cValue = Integer.parseInt(parts[2]);
@@ -174,8 +150,7 @@ public class SerializeAndDeserializeNaryTree
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		SerializeAndDeserializeNaryTree clazz = new SerializeAndDeserializeNaryTree();
 		Codec codec = clazz.new Codec();
 

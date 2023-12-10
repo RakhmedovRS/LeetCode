@@ -13,13 +13,10 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/build-array-from-permutation/",
 		difficulty = Difficulty.EASY
 )
-public class BuildArrayFromPermutation
-{
-	public int[] buildArray(int[] nums)
-	{
+public class BuildArrayFromPermutation {
+	public int[] buildArray(int[] nums) {
 		int[] answer = new int[nums.length];
-		for (int i = 0; i < nums.length; i++)
-		{
+		for (int i = 0; i < nums.length; i++) {
 			answer[i] = nums[nums[i]];
 		}
 

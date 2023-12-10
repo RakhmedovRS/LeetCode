@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/check-knight-tour-configuration/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CheckKnightTourConfiguration
-{
-	public boolean checkValidGrid(int[][] grid)
-	{
+public class CheckKnightTourConfiguration {
+	public boolean checkValidGrid(int[][] grid) {
 		int rows = grid.length;
 		int columns = grid[0].length;
 
@@ -37,15 +35,12 @@ public class CheckKnightTourConfiguration
 		boolean[][] seen = new boolean[rows][columns];
 
 		boolean hasNextStep = true;
-		while (hasNextStep)
-		{
+		while (hasNextStep) {
 			hasNextStep = false;
-			for (int[] step : steps)
-			{
+			for (int[] step : steps) {
 				int r = row + step[0];
 				int c = column + step[1];
-				if (r >= 0 && r < rows && c >= 0 && c < columns && grid[r][c] == grid[row][column] + 1 && !seen[r][c])
-				{
+				if (r >= 0 && r < rows && c >= 0 && c < columns && grid[r][c] == grid[row][column] + 1 && !seen[r][c]) {
 					hasNextStep = true;
 					visited++;
 					row = r;

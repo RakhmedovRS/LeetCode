@@ -13,28 +13,21 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/binary-number-with-alternating-bits/",
 		difficulty = Difficulty.MEDIUM
 )
-public class BinaryNumberWithAlternatingBits
-{
-	public boolean hasAlternatingBits(int n)
-	{
+public class BinaryNumberWithAlternatingBits {
+	public boolean hasAlternatingBits(int n) {
 		StringBuilder cache = new StringBuilder(32);
-		while (n > 0)
-		{
-			if ((n & 1) != 0)
-			{
+		while (n > 0) {
+			if ((n & 1) != 0) {
 				cache.append('1');
 			}
-			else
-			{
+			else {
 				cache.append('0');
 			}
 			n = n >> 1;
 		}
 
-		for (int i = 1; i <= cache.length() - 1; i++)
-		{
-			if (cache.charAt(i) == cache.charAt(i - 1))
-			{
+		for (int i = 1; i <= cache.length() - 1; i++) {
+			if (cache.charAt(i) == cache.charAt(i - 1)) {
 				return false;
 			}
 		}
@@ -42,8 +35,7 @@ public class BinaryNumberWithAlternatingBits
 		return true;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new BinaryNumberWithAlternatingBits().hasAlternatingBits(4));
 	}
 }

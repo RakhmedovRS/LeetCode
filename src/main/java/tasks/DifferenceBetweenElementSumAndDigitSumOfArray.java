@@ -13,17 +13,13 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/",
 		difficulty = Difficulty.EASY
 )
-public class DifferenceBetweenElementSumAndDigitSumOfArray
-{
-	public int differenceOfSum(int[] nums)
-	{
+public class DifferenceBetweenElementSumAndDigitSumOfArray {
+	public int differenceOfSum(int[] nums) {
 		int eSum = 0;
 		int dSum = 0;
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			eSum += num;
-			while (num > 0)
-			{
+			while (num > 0) {
 				dSum += num % 10;
 				num /= 10;
 			}

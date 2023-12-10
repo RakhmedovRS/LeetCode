@@ -17,34 +17,27 @@ import java.util.Map;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class FlipGameII
-{
-	public boolean canWin(String s)
-	{
+public class FlipGameII {
+	public boolean canWin(String s) {
 		Map<String, Boolean[]> memo = new HashMap<>();
 		return dfs(0, s.toCharArray(), memo);
 	}
 
-	private boolean dfs(int player, char[] state, Map<String, Boolean[]> memo)
-	{
+	private boolean dfs(int player, char[] state, Map<String, Boolean[]> memo) {
 		String key = String.valueOf(state);
-		if (memo.containsKey(key) && memo.get(key)[player] != null)
-		{
+		if (memo.containsKey(key) && memo.get(key)[player] != null) {
 			return memo.get(key)[player];
 		}
 
 		boolean current = false;
 		boolean next;
-		for (int i = 1; i < state.length; i++)
-		{
-			if (state[i - 1] == '+' && state[i] == '+')
-			{
+		for (int i = 1; i < state.length; i++) {
+			if (state[i - 1] == '+' && state[i] == '+') {
 				state[i - 1] = '-';
 				state[i] = '-';
 
 				next = dfs((player + 1) % 2, state, memo);
-				if (!next)
-				{
+				if (!next) {
 					current = true;
 				}
 

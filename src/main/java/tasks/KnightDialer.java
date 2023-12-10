@@ -15,12 +15,10 @@ import java.util.*;
 		url = "https://leetcode.com/problems/knight-dialer/",
 		difficulty = Difficulty.MEDIUM
 )
-public class KnightDialer
-{
+public class KnightDialer {
 	int MOD = 1_000_000_007;
 
-	public int knightDialer(int n)
-	{
+	public int knightDialer(int n) {
 		int[][] grid = new int[][]{
 				{1, 2, 3},
 				{4, 5, 6},
@@ -58,19 +56,15 @@ public class KnightDialer
 		moves.put(0, Arrays.asList(new int[]{1, 0}, new int[]{1, 2}));
 
 		int res = 0;
-		for (int i = 2; i <= n; i++)
-		{
+		for (int i = 2; i <= n; i++) {
 			int[][] nextMemo = new int[4][3];
-			for (int row = 0; row < 4; row++)
-			{
-				for (int column = 0; column < 3; column++)
-				{
+			for (int row = 0; row < 4; row++) {
+				for (int column = 0; column < 3; column++) {
 					int currNum = grid[row][column];
 
 					List<int[]> movesToNextNum = moves.get(currNum);
 
-					for (int[] moveToNextNum : movesToNextNum)
-					{
+					for (int[] moveToNextNum : movesToNextNum) {
 						int nextRow = moveToNextNum[0];
 						int nextColumn = moveToNextNum[1];
 
@@ -82,10 +76,8 @@ public class KnightDialer
 			memo = nextMemo;
 		}
 
-		for (int row = 0; row < 4; row++)
-		{
-			for (int column = 0; column < 3; column++)
-			{
+		for (int row = 0; row < 4; row++) {
+			for (int column = 0; column < 3; column++) {
 				res = (res + memo[row][column]) % MOD;
 			}
 		}
@@ -93,8 +85,7 @@ public class KnightDialer
 		return res;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new KnightDialer().knightDialer(161));
 		System.out.println(new KnightDialer().knightDialer(1));
 		System.out.println(new KnightDialer().knightDialer(2));

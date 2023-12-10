@@ -13,14 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/best-sightseeing-pair/",
 		difficulty = Difficulty.MEDIUM
 )
-public class BestSightseeingPair
-{
-	public int maxScoreSightseeingPair(int[] A)
-	{
+public class BestSightseeingPair {
+	public int maxScoreSightseeingPair(int[] A) {
 		int max = 0;
 		int current = 0;
-		for (int a : A)
-		{
+		for (int a : A) {
 			max = Math.max(max, current + a);
 			current = Math.max(current, a) - 1;
 		}

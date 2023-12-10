@@ -17,19 +17,15 @@ import java.util.List;
 		url = "https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LargestCombinationWithBitwiseAndGreaterThanZero
-{
-	public int largestCombination(int[] candidates)
-	{
+public class LargestCombinationWithBitwiseAndGreaterThanZero {
+	public int largestCombination(int[] candidates) {
 		List<char[]> bits = new ArrayList<>();
-		for (int candidate : candidates)
-		{
+		for (int candidate : candidates) {
 			char[] bit = new char[31];
 			Arrays.fill(bit, '0');
 			String bs = Integer.toBinaryString(candidate);
 			int pos = 30;
-			for (int i = bs.length() - 1; i >= 0; i--)
-			{
+			for (int i = bs.length() - 1; i >= 0; i--) {
 				bit[pos--] = bs.charAt(i);
 			}
 
@@ -37,13 +33,10 @@ public class LargestCombinationWithBitwiseAndGreaterThanZero
 		}
 
 		int max = 0;
-		for (int i = 0; i < 31; i++)
-		{
+		for (int i = 0; i < 31; i++) {
 			int current = 0;
-			for (char[] bit : bits)
-			{
-				if (bit[i] == '1')
-				{
+			for (char[] bit : bits) {
+				if (bit[i] == '1') {
 					current++;
 				}
 			}

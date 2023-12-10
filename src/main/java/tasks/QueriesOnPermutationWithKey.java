@@ -13,32 +13,25 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/queries-on-a-permutation-with-key/",
 		difficulty = Difficulty.MEDIUM
 )
-public class QueriesOnPermutationWithKey
-{
-	public int[] processQueries(int[] queries, int m)
-	{
+public class QueriesOnPermutationWithKey {
+	public int[] processQueries(int[] queries, int m) {
 		int[] answer = new int[queries.length];
 		int[] numbers = new int[m];
-		for (int i = 0; i < m; i++)
-		{
+		for (int i = 0; i < m; i++) {
 			numbers[i] = i + 1;
 		}
 
-		for (int i = 0; i < queries.length; i++)
-		{
+		for (int i = 0; i < queries.length; i++) {
 			int j = 0;
-			for (; j < numbers.length; j++)
-			{
-				if (numbers[j] == queries[i])
-				{
+			for (; j < numbers.length; j++) {
+				if (numbers[j] == queries[i]) {
 					break;
 				}
 			}
 
 			int temp = numbers[j];
 			answer[i] = j;
-			while (j > 0)
-			{
+			while (j > 0) {
 				numbers[j] = numbers[j - 1];
 				j--;
 			}

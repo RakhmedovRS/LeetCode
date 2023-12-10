@@ -15,24 +15,18 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/minimum-moves-to-convert-string/",
 		difficulty = Difficulty.EASY
 )
-public class MinimumMovesToConvertString
-{
-	public int minimumMoves(String s)
-	{
+public class MinimumMovesToConvertString {
+	public int minimumMoves(String s) {
 		int moves = 0;
 		char[] chars = s.toCharArray();
 		LinkedList<Character> list = new LinkedList<>();
-		for (char ch : chars)
-		{
-			if (list.size() == 3)
-			{
-				while (!list.isEmpty() && list.getFirst() == 'O')
-				{
+		for (char ch : chars) {
+			if (list.size() == 3) {
+				while (!list.isEmpty() && list.getFirst() == 'O') {
 					list.removeFirst();
 				}
 
-				if (list.size() == 3)
-				{
+				if (list.size() == 3) {
 					list.clear();
 					moves++;
 				}
@@ -41,13 +35,11 @@ public class MinimumMovesToConvertString
 			list.addLast(ch);
 		}
 
-		while (!list.isEmpty() && list.getFirst() == 'O')
-		{
+		while (!list.isEmpty() && list.getFirst() == 'O') {
 			list.removeFirst();
 		}
 
-		if (!list.isEmpty())
-		{
+		if (!list.isEmpty()) {
 			moves++;
 		}
 

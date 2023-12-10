@@ -16,27 +16,21 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/maximal-score-after-applying-k-operations/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximalScoreAfterApplyingKOperations
-{
-	public long maxKelements(int[] nums, int k)
-	{
+public class MaximalScoreAfterApplyingKOperations {
+	public long maxKelements(int[] nums, int k) {
 		PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			pq.add(num);
 		}
 
 		long score = 0;
-		while (k-- > 0)
-		{
+		while (k-- > 0) {
 			int n = pq.remove();
 			score += n;
-			if (n % 3 == 0)
-			{
+			if (n % 3 == 0) {
 				pq.add(n / 3);
 			}
-			else
-			{
+			else {
 				pq.add(1 + n / 3);
 			}
 		}

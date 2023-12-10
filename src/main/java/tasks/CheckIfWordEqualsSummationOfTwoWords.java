@@ -13,18 +13,14 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/",
 		difficulty = Difficulty.EASY
 )
-public class CheckIfWordEqualsSummationOfTwoWords
-{
-	public boolean isSumEqual(String firstWord, String secondWord, String targetWord)
-	{
+public class CheckIfWordEqualsSummationOfTwoWords {
+	public boolean isSumEqual(String firstWord, String secondWord, String targetWord) {
 		return getNumber(firstWord) + getNumber(secondWord) == getNumber(targetWord);
 	}
 
-	private int getNumber(String string)
-	{
+	private int getNumber(String string) {
 		StringBuilder sb = new StringBuilder();
-		for (char ch : string.toCharArray())
-		{
+		for (char ch : string.toCharArray()) {
 			sb.append(ch - 'a');
 		}
 

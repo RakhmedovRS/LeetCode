@@ -17,18 +17,15 @@ import java.util.Map;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class LoggerRateLimiter
-{
-	class Logger
-	{
+public class LoggerRateLimiter {
+	class Logger {
 
 		/**
 		 * Initialize your data structure here.
 		 */
 		Map<String, Integer> map;
 
-		public Logger()
-		{
+		public Logger() {
 			map = new HashMap<>();
 		}
 
@@ -36,11 +33,9 @@ public class LoggerRateLimiter
 		 * Returns true if the message should be printed in the given timestamp, otherwise returns false. If this method returns false, the message will not be printed. The timestamp is in seconds
 		 * granularity.
 		 */
-		public boolean shouldPrintMessage(int timestamp, String message)
-		{
+		public boolean shouldPrintMessage(int timestamp, String message) {
 			boolean result = timestamp - map.getOrDefault(message, -10) >= 10;
-			if (result)
-			{
+			if (result) {
 				map.put(message, timestamp);
 			}
 			return result;

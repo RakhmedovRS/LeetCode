@@ -18,15 +18,11 @@ import java.util.Map;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class InorderSuccessorInBST
-{
-	public TreeNode inorderSuccessor(TreeNode root, TreeNode p)
-	{
-		if (p.right != null)
-		{
+public class InorderSuccessorInBST {
+	public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
+		if (p.right != null) {
 			p = p.right;
-			while (p.left != null)
-			{
+			while (p.left != null) {
 				p = p.left;
 			}
 
@@ -37,10 +33,8 @@ public class InorderSuccessorInBST
 		dfs(null, root, parents);
 
 		TreeNode parent = parents.get(p);
-		while (parent != null)
-		{
-			if (parent.val > p.val)
-			{
+		while (parent != null) {
+			if (parent.val > p.val) {
 				return parent;
 			}
 
@@ -50,10 +44,8 @@ public class InorderSuccessorInBST
 		return null;
 	}
 
-	private void dfs(TreeNode parent, TreeNode current, Map<TreeNode, TreeNode> parents)
-	{
-		if (current == null)
-		{
+	private void dfs(TreeNode parent, TreeNode current, Map<TreeNode, TreeNode> parents) {
+		if (current == null) {
 			return;
 		}
 

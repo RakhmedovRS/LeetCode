@@ -14,8 +14,7 @@ import static java.lang.annotation.ElementType.TYPE;
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
 @Target(value = {TYPE})
-public @interface LeetCode
-{
+public @interface LeetCode {
 	int id();
 
 	String name() default "";

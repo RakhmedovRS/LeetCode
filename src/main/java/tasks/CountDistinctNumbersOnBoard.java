@@ -16,31 +16,24 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/count-distinct-numbers-on-board/",
 		difficulty = Difficulty.EASY
 )
-public class CountDistinctNumbersOnBoard
-{
-	public int distinctIntegers(int n)
-	{
+public class CountDistinctNumbersOnBoard {
+	public int distinctIntegers(int n) {
 		Set<Integer> set = new HashSet<>();
 		set.add(n);
 
 		Set<Integer> copy = new HashSet<>();
 		Set<String> seen = new HashSet<>();
-		while (true)
-		{
+		while (true) {
 			copy = new HashSet<>(set);
-			for (int num : set)
-			{
-				for (int i = 1; i <= n; i++)
-				{
-					if (num % i == 1)
-					{
+			for (int num : set) {
+				for (int i = 1; i <= n; i++) {
+					if (num % i == 1) {
 						copy.add(i);
 					}
 				}
 			}
 
-			if (!seen.add(copy.toString()))
-			{
+			if (!seen.add(copy.toString())) {
 				break;
 			}
 

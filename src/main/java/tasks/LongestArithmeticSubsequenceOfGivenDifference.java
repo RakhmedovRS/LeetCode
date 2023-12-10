@@ -16,14 +16,11 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LongestArithmeticSubsequenceOfGivenDifference
-{
-	public int longestSubsequence(int[] arr, int difference)
-	{
+public class LongestArithmeticSubsequenceOfGivenDifference {
+	public int longestSubsequence(int[] arr, int difference) {
 		Map<Integer, Integer> memo = new HashMap<>();
 		int max = 1;
-		for (int value : arr)
-		{
+		for (int value : arr) {
 			int count = memo.getOrDefault(value - difference, 0) + 1;
 			memo.put(value, count);
 			max = Math.max(max, count);

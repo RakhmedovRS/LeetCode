@@ -15,18 +15,14 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/",
 		difficulty = Difficulty.HARD
 )
-public class MinimumInitialEnergyToFinishTasks
-{
-	public int minimumEffort(int[][] tasks)
-	{
+public class MinimumInitialEnergyToFinishTasks {
+	public int minimumEffort(int[][] tasks) {
 		Arrays.sort(tasks, (a, b) -> (b[1] - b[0]) - (a[1] - a[0]));
 
 		int result = 0;
 		int current = 0;
-		for (int[] task : tasks)
-		{
-			if (current < task[1])
-			{
+		for (int[] task : tasks) {
+			if (current < task[1]) {
 				result += (task[1] - current);
 				current += (task[1] - current);
 			}

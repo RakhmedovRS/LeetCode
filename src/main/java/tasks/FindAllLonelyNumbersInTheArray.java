@@ -16,30 +16,22 @@ import java.util.List;
 		url = "https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindAllLonelyNumbersInTheArray
-{
-	public List<Integer> findLonely(int[] nums)
-	{
+public class FindAllLonelyNumbersInTheArray {
+	public List<Integer> findLonely(int[] nums) {
 		int[] memo = new int[1_000_002];
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			memo[num]++;
 		}
 
 		List<Integer> answer = new ArrayList<>();
-		for (int num : nums)
-		{
-			if (num != 0)
-			{
-				if (memo[num] == 1 && memo[num - 1] == 0 && memo[num + 1] == 0)
-				{
+		for (int num : nums) {
+			if (num != 0) {
+				if (memo[num] == 1 && memo[num - 1] == 0 && memo[num + 1] == 0) {
 					answer.add(num);
 				}
 			}
-			else
-			{
-				if (memo[num] == 1 && memo[num + 1] == 0)
-				{
+			else {
+				if (memo[num] == 1 && memo[num + 1] == 0) {
 					answer.add(num);
 				}
 			}

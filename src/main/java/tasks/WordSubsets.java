@@ -16,30 +16,23 @@ import java.util.List;
 		url = "https://leetcode.com/problems/word-subsets/",
 		difficulty = Difficulty.MEDIUM
 )
-public class WordSubsets
-{
-	public List<String> wordSubsets(String[] words1, String[] words2)
-	{
+public class WordSubsets {
+	public List<String> wordSubsets(String[] words1, String[] words2) {
 		List<String> answer = new ArrayList<>();
 		int[] memo = new int[26];
-		for (String word : words2)
-		{
+		for (String word : words2) {
 			int[] temp = createCharFrequencyTable(word);
-			for (int i = 0; i < 26; i++)
-			{
+			for (int i = 0; i < 26; i++) {
 				memo[i] = Math.max(memo[i], temp[i]);
 			}
 		}
 
 		outer:
-		for (String word : words1)
-		{
+		for (String word : words1) {
 			int[] current = createCharFrequencyTable(word);
 
-			for (int i = 0; i < 26; i++)
-			{
-				if (memo[i] > current[i])
-				{
+			for (int i = 0; i < 26; i++) {
+				if (memo[i] > current[i]) {
 					continue outer;
 				}
 			}
@@ -50,13 +43,10 @@ public class WordSubsets
 		return answer;
 	}
 
-	public int[] createCharFrequencyTable(String word)
-	{
+	public int[] createCharFrequencyTable(String word) {
 		int[] pattern = new int[26];
-		for (char ch : word.toCharArray())
-		{
-			if (Character.isAlphabetic(ch))
-			{
+		for (char ch : word.toCharArray()) {
+			if (Character.isAlphabetic(ch)) {
 				pattern[Character.toLowerCase(ch) - 'a']++;
 			}
 		}

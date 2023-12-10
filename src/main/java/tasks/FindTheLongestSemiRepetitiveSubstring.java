@@ -15,46 +15,35 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/find-the-longest-semi-repetitive-substring/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindTheLongestSemiRepetitiveSubstring
-{
-	public int longestSemiRepetitiveSubstring(String s)
-	{
+public class FindTheLongestSemiRepetitiveSubstring {
+	public int longestSemiRepetitiveSubstring(String s) {
 		int max = 0;
 		outer:
-		for (int i = 0; i < s.length(); i++)
-		{
+		for (int i = 0; i < s.length(); i++) {
 			boolean seen = false;
 			LinkedList<Character> list = new LinkedList<>();
-			for (int j = i; j < s.length(); j++)
-			{
-				if (list.isEmpty())
-				{
+			for (int j = i; j < s.length(); j++) {
+				if (list.isEmpty()) {
 					list.addLast(s.charAt(j));
 				}
-				else
-				{
-					if (list.getLast().equals(s.charAt(j)))
-					{
-						if (seen)
-						{
+				else {
+					if (list.getLast().equals(s.charAt(j))) {
+						if (seen) {
 							continue outer;
 						}
 
 						seen = true;
 
 						char tmp = list.removeLast();
-						if (list.isEmpty() || !list.getLast().equals(s.charAt(j)))
-						{
+						if (list.isEmpty() || !list.getLast().equals(s.charAt(j))) {
 							list.addLast(tmp);
 							list.addLast(s.charAt(j));
 						}
-						else
-						{
+						else {
 							continue outer;
 						}
 					}
-					else
-					{
+					else {
 						list.addLast(s.charAt(j));
 					}
 				}

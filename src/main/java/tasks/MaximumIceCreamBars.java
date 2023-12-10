@@ -15,17 +15,13 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/maximum-ice-cream-bars/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumIceCreamBars
-{
-	public int maxIceCream(int[] costs, int coins)
-	{
+public class MaximumIceCreamBars {
+	public int maxIceCream(int[] costs, int coins) {
 		Arrays.sort(costs);
 		int count = 0;
-		for (int cost : costs)
-		{
+		for (int cost : costs) {
 			coins -= cost;
-			if (coins < 0)
-			{
+			if (coins < 0) {
 				break;
 			}
 			count++;

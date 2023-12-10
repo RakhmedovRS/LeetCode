@@ -7,18 +7,14 @@ import common.LeetCode;
  * @created 14-May-20
  */
 @LeetCode(id = 707, name = "Design Linked List", url = "https://leetcode.com/problems/design-linked-list/")
-public class DesignLinkedList
-{
-	class MyLinkedList
-	{
-		class Link
-		{
+public class DesignLinkedList {
+	class MyLinkedList {
+		class Link {
 			Link prev;
 			Link next;
 			int value;
 
-			public Link(int value)
-			{
+			public Link(int value) {
 				this.value = value;
 			}
 		}
@@ -30,8 +26,7 @@ public class DesignLinkedList
 		Link tail;
 		int size;
 
-		public MyLinkedList()
-		{
+		public MyLinkedList() {
 			head = new Link(Integer.MIN_VALUE);
 			tail = new Link(Integer.MAX_VALUE);
 			head.next = tail;
@@ -41,16 +36,13 @@ public class DesignLinkedList
 		/**
 		 * Get the value of the index-th node in the linked list. If the index is invalid, return -1.
 		 */
-		public int get(int index)
-		{
-			if (index < 0 || index >= size)
-			{
+		public int get(int index) {
+			if (index < 0 || index >= size) {
 				return -1;
 			}
 
 			Link current = head;
-			while (index-- >= 0)
-			{
+			while (index-- >= 0) {
 				current = current.next;
 			}
 			return current.value;
@@ -59,8 +51,7 @@ public class DesignLinkedList
 		/**
 		 * Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list.
 		 */
-		public void addAtHead(int val)
-		{
+		public void addAtHead(int val) {
 			Link link = new Link(val);
 			//-->
 			head.next.prev = link;
@@ -74,8 +65,7 @@ public class DesignLinkedList
 		/**
 		 * Append a node of value val to the last element of the linked list.
 		 */
-		public void addAtTail(int val)
-		{
+		public void addAtTail(int val) {
 			Link link = new Link(val);
 			//<--
 			tail.prev.next = link;
@@ -90,27 +80,22 @@ public class DesignLinkedList
 		 * Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater
 		 * than the length, the node will not be inserted.
 		 */
-		public void addAtIndex(int index, int val)
-		{
-			if (index < 0 || index > size)
-			{
+		public void addAtIndex(int index, int val) {
+			if (index < 0 || index > size) {
 				return;
 			}
-			else if (index == 0)
-			{
+			else if (index == 0) {
 				addAtHead(val);
 				return;
 			}
-			else if (index == size)
-			{
+			else if (index == size) {
 				addAtTail(val);
 				return;
 			}
 
 			Link current = head;
 			Link link = new Link(val);
-			while (index-- > 0)
-			{
+			while (index-- > 0) {
 				current = current.next;
 			}
 
@@ -127,16 +112,13 @@ public class DesignLinkedList
 		/**
 		 * Delete the index-th node in the linked list, if the index is valid.
 		 */
-		public void deleteAtIndex(int index)
-		{
-			if (index < 0 || index >= size)
-			{
+		public void deleteAtIndex(int index) {
+			if (index < 0 || index >= size) {
 				return;
 			}
 
 			Link current = head;
-			while (index-- >= 0)
-			{
+			while (index-- >= 0) {
 				current = current.next;
 			}
 

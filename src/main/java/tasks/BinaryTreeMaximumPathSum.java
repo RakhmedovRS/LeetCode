@@ -14,19 +14,15 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
 		difficulty = Difficulty.HARD
 )
-public class BinaryTreeMaximumPathSum
-{
-	public int maxPathSum(TreeNode root)
-	{
+public class BinaryTreeMaximumPathSum {
+	public int maxPathSum(TreeNode root) {
 		int[] max = new int[]{Integer.MIN_VALUE};
 		dfs(root, max);
 		return max[0];
 	}
 
-	private int dfs(TreeNode root, int[] max)
-	{
-		if (root == null)
-		{
+	private int dfs(TreeNode root, int[] max) {
+		if (root == null) {
 			return 0;
 		}
 

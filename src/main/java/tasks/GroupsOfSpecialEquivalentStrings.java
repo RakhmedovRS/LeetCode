@@ -16,14 +16,11 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/groups-of-special-equivalent-strings/",
 		difficulty = Difficulty.EASY
 )
-public class GroupsOfSpecialEquivalentStrings
-{
-	public int numSpecialEquivGroups(String[] A)
-	{
+public class GroupsOfSpecialEquivalentStrings {
+	public int numSpecialEquivGroups(String[] A) {
 		Map<String, Integer> map = new HashMap<>();
 		String sortedWord;
-		for (String word : A)
-		{
+		for (String word : A) {
 			sortedWord = sortWord(word);
 			map.put(sortedWord, map.getOrDefault(sortedWord, 0) + 1);
 		}
@@ -31,21 +28,17 @@ public class GroupsOfSpecialEquivalentStrings
 		return map.size();
 	}
 
-	private String sortWord(String word)
-	{
+	private String sortWord(String word) {
 		int[][] table = new int[2][26];
-		for (int i = 0; i < word.length(); i++)
-		{
+		for (int i = 0; i < word.length(); i++) {
 			table[i % 2][word.charAt(i) - 'a']++;
 		}
 
 		StringBuilder sb = new StringBuilder();
 		int[] pos = new int[]{0, 0};
 		int even = 0;
-		for (int i = 0; i < word.length(); i++)
-		{
-			while (table[even % 2][pos[even % 2]] == 0)
-			{
+		for (int i = 0; i < word.length(); i++) {
+			while (table[even % 2][pos[even % 2]] == 0) {
 				pos[even % 2]++;
 			}
 
@@ -57,8 +50,7 @@ public class GroupsOfSpecialEquivalentStrings
 		return sb.toString();
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		GroupsOfSpecialEquivalentStrings clazz = new GroupsOfSpecialEquivalentStrings();
 		System.out.println(clazz.numSpecialEquivGroups(new String[]{"abc", "acb", "bac", "bca", "cab", "cba"}));
 		System.out.println(clazz.numSpecialEquivGroups(new String[]{"abcd", "cdab", "cbad", "xyzz", "zzxy", "zzyx"}));

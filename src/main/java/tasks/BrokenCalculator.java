@@ -13,20 +13,15 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/broken-calculator/",
 		difficulty = Difficulty.MEDIUM
 )
-public class BrokenCalculator
-{
-	public int brokenCalc(int source, int target)
-	{
+public class BrokenCalculator {
+	public int brokenCalc(int source, int target) {
 		int operations = 0;
-		while (target > source)
-		{
+		while (target > source) {
 			operations++;
-			if (target % 2 != 0)
-			{
+			if (target % 2 != 0) {
 				target++;
 			}
-			else
-			{
+			else {
 				target /= 2;
 			}
 		}

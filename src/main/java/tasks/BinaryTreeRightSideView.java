@@ -19,13 +19,10 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/binary-tree-right-side-view/",
 		difficulty = Difficulty.MEDIUM
 )
-public class BinaryTreeRightSideView
-{
-	public List<Integer> rightSideView(TreeNode root)
-	{
+public class BinaryTreeRightSideView {
+	public List<Integer> rightSideView(TreeNode root) {
 		List<Integer> result = new ArrayList<>();
-		if (root == null)
-		{
+		if (root == null) {
 			return result;
 		}
 
@@ -35,15 +32,12 @@ public class BinaryTreeRightSideView
 		return result;
 	}
 
-	private void rightSideView(TreeNode root, List<Integer> result, Map<Integer, Boolean> visited, int currentLevel)
-	{
-		if (root == null)
-		{
+	private void rightSideView(TreeNode root, List<Integer> result, Map<Integer, Boolean> visited, int currentLevel) {
+		if (root == null) {
 			return;
 		}
 
-		if (!visited.getOrDefault(currentLevel, false))
-		{
+		if (!visited.getOrDefault(currentLevel, false)) {
 			visited.put(currentLevel, true);
 			result.add(root.val);
 		}

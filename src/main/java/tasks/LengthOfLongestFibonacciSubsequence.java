@@ -16,34 +16,27 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LengthOfLongestFibonacciSubsequence
-{
-	public int lenLongestFibSubseq(int[] A)
-	{
+public class LengthOfLongestFibonacciSubsequence {
+	public int lenLongestFibSubseq(int[] A) {
 		int max = 0;
 		Set<Integer> set = new HashSet<>();
-		for (int number : A)
-		{
+		for (int number : A) {
 			set.add(number);
 		}
 
-		for (int left = 0; left < A.length; left++)
-		{
-			for (int right = left + 1; right < A.length; right++)
-			{
+		for (int left = 0; left < A.length; left++) {
+			for (int right = left + 1; right < A.length; right++) {
 				int length = 2;
 				int x = A[left];
 				int y = A[right];
-				while (set.contains(x + y))
-				{
+				while (set.contains(x + y)) {
 					int temp = x + y;
 					x = y;
 					y = temp;
 					length++;
 				}
 
-				if (length > max)
-				{
+				if (length > max) {
 					max = length;
 				}
 			}

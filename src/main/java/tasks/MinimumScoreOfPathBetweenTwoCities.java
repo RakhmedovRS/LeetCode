@@ -15,18 +15,14 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumScoreOfPathBetweenTwoCities
-{
-	class UnionFind
-	{
+public class MinimumScoreOfPathBetweenTwoCities {
+	class UnionFind {
 		int[] parents;
 		int[] mins;
 
-		public UnionFind(int n)
-		{
+		public UnionFind(int n) {
 			parents = new int[n + 1];
-			for (int i = 0; i < n; i++)
-			{
+			for (int i = 0; i < n; i++) {
 				parents[i] = i;
 			}
 
@@ -34,17 +30,14 @@ public class MinimumScoreOfPathBetweenTwoCities
 			Arrays.fill(mins, Integer.MAX_VALUE);
 		}
 
-		public int findParent(int node)
-		{
+		public int findParent(int node) {
 			int parent = node;
-			while (parent != parents[parent])
-			{
+			while (parent != parents[parent]) {
 				parent = parents[parent];
 			}
 
 			int temp;
-			while (node != parents[node])
-			{
+			while (node != parents[node]) {
 				temp = parents[node];
 				parents[node] = parent;
 				node = temp;
@@ -53,12 +46,10 @@ public class MinimumScoreOfPathBetweenTwoCities
 			return parent;
 		}
 
-		public void join(int nodeA, int nodeB, int val)
-		{
+		public void join(int nodeA, int nodeB, int val) {
 			int parentA = findParent(nodeA);
 			int parentB = findParent(nodeB);
-			if (parentA != parentB)
-			{
+			if (parentA != parentB) {
 				parents[parentB] = parentA;
 			}
 
@@ -67,19 +58,15 @@ public class MinimumScoreOfPathBetweenTwoCities
 		}
 	}
 
-	public int minScore(int n, int[][] roads)
-	{
+	public int minScore(int n, int[][] roads) {
 		UnionFind uf = new UnionFind(n);
-		for (int[] road : roads)
-		{
+		for (int[] road : roads) {
 			uf.join(road[0], road[1], road[2]);
 		}
 
 		int min = uf.mins[1];
-		for (int i = 2; i <= n; i++)
-		{
-			if (uf.findParent(1) == uf.findParent(i))
-			{
+		for (int i = 2; i <= n; i++) {
+			if (uf.findParent(1) == uf.findParent(i)) {
 				min = Math.min(min, uf.mins[i]);
 			}
 		}

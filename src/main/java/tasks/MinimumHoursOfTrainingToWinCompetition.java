@@ -15,29 +15,23 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/",
 		difficulty = Difficulty.EASY
 )
-public class MinimumHoursOfTrainingToWinCompetition
-{
-	public int minNumberOfHours(int initialEnergy, int initialExperience, int[] energy, int[] experience)
-	{
+public class MinimumHoursOfTrainingToWinCompetition {
+	public int minNumberOfHours(int initialEnergy, int initialExperience, int[] energy, int[] experience) {
 
 		int add = 0;
 		outer:
-		while (true)
-		{
+		while (true) {
 			int exp = initialExperience;
 			int en = initialEnergy;
 
-			for (int i = 0; i < energy.length; i++)
-			{
-				if (en <= energy[i])
-				{
+			for (int i = 0; i < energy.length; i++) {
+				if (en <= energy[i]) {
 					initialEnergy++;
 					add++;
 					continue outer;
 				}
 
-				if (exp <= experience[i])
-				{
+				if (exp <= experience[i]) {
 					initialExperience++;
 					add++;
 					continue outer;

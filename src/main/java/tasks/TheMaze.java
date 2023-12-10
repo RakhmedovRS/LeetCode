@@ -14,10 +14,8 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class TheMaze
-{
-	public boolean hasPath(int[][] maze, int[] start, int[] destination)
-	{
+public class TheMaze {
+	public boolean hasPath(int[][] maze, int[] start, int[] destination) {
 		int rows = maze.length;
 		int columns = maze[0].length;
 		Boolean[][][] memo = new Boolean[rows][columns][4];
@@ -25,19 +23,15 @@ public class TheMaze
 	}
 
 	//0 - up, 1 - down, 2 - left, 3 - right
-	private boolean dfs(int row, int column, int[][] maze, int[] destination, Boolean[][][] memo, int[][] directions)
-	{
-		if (row == destination[0] && column == destination[1])
-		{
+	private boolean dfs(int row, int column, int[][] maze, int[] destination, Boolean[][][] memo, int[][] directions) {
+		if (row == destination[0] && column == destination[1]) {
 			return true;
 		}
 
 		int x;
 		int y;
-		for (int i = 0; i < directions.length; i++)
-		{
-			if (memo[row][column][i] != null)
-			{
+		for (int i = 0; i < directions.length; i++) {
+			if (memo[row][column][i] != null) {
 				continue;
 			}
 			memo[row][column][i] = false;
@@ -47,15 +41,13 @@ public class TheMaze
 			int yStep = directions[i][1];
 			while (x + xStep >= 0 && x + xStep < maze.length
 					&& y + yStep >= 0 && y + yStep < maze[x].length
-					&& maze[x + xStep][y + yStep] == 0)
-			{
+					&& maze[x + xStep][y + yStep] == 0) {
 				x += xStep;
 				y += yStep;
 			}
 
 			memo[row][column][i] = dfs(x, y, maze, destination, memo, directions);
-			if (memo[row][column][i])
-			{
+			if (memo[row][column][i]) {
 				return true;
 			}
 		}

@@ -14,29 +14,23 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/insert-into-a-binary-search-tree/",
 		difficulty = Difficulty.MEDIUM
 )
-public class InsertIntoBinarySearchTree
-{
-	public TreeNode insertIntoBST(TreeNode root, int val)
-	{
-		if (root == null)
-		{
+public class InsertIntoBinarySearchTree {
+	public TreeNode insertIntoBST(TreeNode root, int val) {
+		if (root == null) {
 			return new TreeNode(val);
 		}
 
-		if (val > root.val)
-		{
+		if (val > root.val) {
 			root.right = insertIntoBST(root.right, val);
 		}
-		else if (val < root.val)
-		{
+		else if (val < root.val) {
 			root.left = insertIntoBST(root.left, val);
 		}
 
 		return root;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 
 	}
 }

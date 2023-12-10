@@ -17,14 +17,11 @@ import java.util.List;
 		url = "https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/",
 		difficulty = Difficulty.MEDIUM
 )
-public class NumberOfBurgersWithNoWasteOfIngredients
-{
-	public List<Integer> numOfBurgers(int tomatoSlices, int cheeseSlices)
-	{
+public class NumberOfBurgersWithNoWasteOfIngredients {
+	public List<Integer> numOfBurgers(int tomatoSlices, int cheeseSlices) {
 		if ((tomatoSlices == 0 && cheeseSlices != 0)
 				|| (tomatoSlices != 0 && cheeseSlices == 0)
-				|| tomatoSlices % 2 != 0)
-		{
+				|| tomatoSlices % 2 != 0) {
 			return Collections.emptyList();
 		}
 
@@ -32,12 +29,10 @@ public class NumberOfBurgersWithNoWasteOfIngredients
 		int high = cheeseSlices;
 		int jumbo;
 		int small;
-		while (low <= cheeseSlices)
-		{
+		while (low <= cheeseSlices) {
 			jumbo = low * 4;
 			small = high * 2;
-			if (jumbo + small == tomatoSlices)
-			{
+			if (jumbo + small == tomatoSlices) {
 				return Arrays.asList(low, high);
 			}
 

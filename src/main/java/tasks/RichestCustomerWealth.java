@@ -13,17 +13,13 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/richest-customer-wealth/",
 		difficulty = Difficulty.EASY
 )
-public class RichestCustomerWealth
-{
-	public int maximumWealth(int[][] accounts)
-	{
+public class RichestCustomerWealth {
+	public int maximumWealth(int[][] accounts) {
 		int max = 0;
 		int sum;
-		for (int[] account : accounts)
-		{
+		for (int[] account : accounts) {
 			sum = 0;
-			for (int amount : account)
-			{
+			for (int amount : account) {
 				sum += amount;
 			}
 

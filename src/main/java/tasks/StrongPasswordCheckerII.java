@@ -13,12 +13,9 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/strong-password-checker-ii/",
 		difficulty = Difficulty.EASY
 )
-public class StrongPasswordCheckerII
-{
-	public boolean strongPasswordCheckerII(String password)
-	{
-		if (password.length() < 8)
-		{
+public class StrongPasswordCheckerII {
+	public boolean strongPasswordCheckerII(String password) {
+		if (password.length() < 8) {
 			return false;
 		}
 
@@ -27,30 +24,24 @@ public class StrongPasswordCheckerII
 		boolean seenDigit = false;
 		boolean seenSpecialCharacter = false;
 		Character prev = null;
-		for (char ch : password.toCharArray())
-		{
-			if (Character.isDigit(ch))
-			{
+		for (char ch : password.toCharArray()) {
+			if (Character.isDigit(ch)) {
 				seenDigit = true;
 			}
 
-			if (Character.isLowerCase(ch))
-			{
+			if (Character.isLowerCase(ch)) {
 				seenLowerCase = true;
 			}
 
-			if (Character.isUpperCase(ch))
-			{
+			if (Character.isUpperCase(ch)) {
 				seenUpperCase = true;
 			}
 
-			if ("!@#$%^&*()-+".contains("" + ch))
-			{
+			if ("!@#$%^&*()-+".contains("" + ch)) {
 				seenSpecialCharacter = true;
 			}
 
-			if (prev != null && prev == ch)
-			{
+			if (prev != null && prev == ch) {
 				return false;
 			}
 

@@ -13,29 +13,22 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/find-the-distance-value-between-two-arrays/",
 		difficulty = Difficulty.EASY
 )
-public class FindTheDistanceValueBetweenTwoArrays
-{
-	public int findTheDistanceValue(int[] arr1, int[] arr2, int d)
-	{
+public class FindTheDistanceValueBetweenTwoArrays {
+	public int findTheDistanceValue(int[] arr1, int[] arr2, int d) {
 		int count = 0;
-		if (arr1 == null || arr1.length == 0 || arr2 == null || arr2.length == 0)
-		{
+		if (arr1 == null || arr1.length == 0 || arr2 == null || arr2.length == 0) {
 			return count;
 		}
 
-		for (int num1 : arr1)
-		{
+		for (int num1 : arr1) {
 			boolean valid = true;
-			for (int num2 : arr2)
-			{
-				if (Math.abs(num1 - num2) <= d)
-				{
+			for (int num2 : arr2) {
+				if (Math.abs(num1 - num2) <= d) {
 					valid = false;
 					break;
 				}
 			}
-			if (valid)
-			{
+			if (valid) {
 				count++;
 			}
 		}

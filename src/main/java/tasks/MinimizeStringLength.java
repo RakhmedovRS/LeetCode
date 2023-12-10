@@ -16,13 +16,10 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/minimize-string-length/description/",
 		difficulty = Difficulty.EASY
 )
-public class MinimizeStringLength
-{
-	public int minimizedStringLength(String s)
-	{
+public class MinimizeStringLength {
+	public int minimizedStringLength(String s) {
 		Set<Character> characters = new HashSet<>();
-		for (char ch : s.toCharArray())
-		{
+		for (char ch : s.toCharArray()) {
 			characters.add(ch);
 		}
 

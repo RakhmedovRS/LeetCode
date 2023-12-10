@@ -14,19 +14,15 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/count-complete-tree-nodes/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CountCompleteTreeNodes
-{
-	public int countNodes(TreeNode root)
-	{
+public class CountCompleteTreeNodes {
+	public int countNodes(TreeNode root) {
 		int[] count = new int[]{0};
 		traverse(root, count);
 		return count[0];
 	}
 
-	private void traverse(TreeNode root, int[] count)
-	{
-		if (root == null)
-		{
+	private void traverse(TreeNode root, int[] count) {
+		if (root == null) {
 			return;
 		}
 

@@ -13,15 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/number-of-employees-who-met-the-target/description/",
 		difficulty = Difficulty.EASY
 )
-public class NumberOfEmployeesWhoMetTheTarget
-{
-	public int numberOfEmployeesWhoMetTarget(int[] hours, int target)
-	{
+public class NumberOfEmployeesWhoMetTheTarget {
+	public int numberOfEmployeesWhoMetTarget(int[] hours, int target) {
 		int c = 0;
-		for (int h : hours)
-		{
-			if (h >= target)
-			{
+		for (int h : hours) {
+			if (h >= target) {
 				c++;
 			}
 		}

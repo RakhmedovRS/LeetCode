@@ -15,12 +15,9 @@ import common.ListNode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class PlusOneLinkedList
-{
-	public ListNode plusOne(ListNode head)
-	{
-		if (head == null)
-		{
+public class PlusOneLinkedList {
+	public ListNode plusOne(ListNode head) {
+		if (head == null) {
 			return null;
 		}
 
@@ -28,20 +25,16 @@ public class PlusOneLinkedList
 		head = tail;
 		boolean hasRest = true;
 		ListNode prev = null;
-		while (hasRest)
-		{
-			if (head == null)
-			{
+		while (hasRest) {
+			if (head == null) {
 				prev.next = new ListNode(1);
 				break;
 			}
 
-			if (head.val + 1 == 10)
-			{
+			if (head.val + 1 == 10) {
 				head.val = 0;
 			}
-			else
-			{
+			else {
 				head.val++;
 				hasRest = false;
 			}
@@ -53,12 +46,10 @@ public class PlusOneLinkedList
 		return reverse(tail);
 	}
 
-	private ListNode reverse(ListNode head)
-	{
+	private ListNode reverse(ListNode head) {
 		ListNode prev = null;
 		ListNode temp;
-		while (head != null)
-		{
+		while (head != null) {
 			temp = head.next;
 			head.next = prev;
 			prev = head;

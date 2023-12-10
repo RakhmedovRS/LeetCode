@@ -15,37 +15,29 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/longest-word-with-all-prefixes/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LongestWordWithAllPrefixes
-{
-	class Trie
-	{
-		class Node
-		{
+public class LongestWordWithAllPrefixes {
+	class Trie {
+		class Node {
 			Node[] children = new Node[26];
 			boolean seen;
 		}
 
-		private Node root;
+		private final Node root;
 
-		public Trie()
-		{
+		public Trie() {
 			root = new Node();
 			root.seen = true;
 		}
 
-		private boolean addWord(String s)
-		{
+		private boolean addWord(String s) {
 			Node current = root;
 
 			char ch;
-			for (int i = 0; i < s.length(); i++)
-			{
+			for (int i = 0; i < s.length(); i++) {
 				ch = s.charAt(i);
-				if (current.children[ch - 'a'] == null)
-				{
+				if (current.children[ch - 'a'] == null) {
 					current.children[ch - 'a'] = new Node();
-					if (current.seen && i == s.length() - 1)
-					{
+					if (current.seen && i == s.length() - 1) {
 						current.children[ch - 'a'].seen = true;
 					}
 				}
@@ -56,12 +48,10 @@ public class LongestWordWithAllPrefixes
 		}
 	}
 
-	public String longestWord(String[] words)
-	{
+	public String longestWord(String[] words) {
 		Arrays.sort(words, (a, b) ->
 		{
-			if (a.length() == b.length())
-			{
+			if (a.length() == b.length()) {
 				return a.compareTo(b);
 			}
 
@@ -71,12 +61,9 @@ public class LongestWordWithAllPrefixes
 		Trie trie = new Trie();
 
 		String answer = "";
-		for (String word : words)
-		{
-			if (trie.addWord(word))
-			{
-				if (word.length() > answer.length())
-				{
+		for (String word : words) {
+			if (trie.addWord(word)) {
+				if (word.length() > answer.length()) {
 					answer = word;
 				}
 			}
@@ -85,8 +72,7 @@ public class LongestWordWithAllPrefixes
 		return answer;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		LongestWordWithAllPrefixes clazz = new LongestWordWithAllPrefixes();
 
 		System.out.println(clazz.longestWord(new String[]{"abc", "bc", "ab", "qwe"}));

@@ -13,16 +13,13 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/",
 		difficulty = Difficulty.HARD
 )
-public class MinimumNumberOfKConsecutiveBitFlips
-{
-	public int minKBitFlips(int[] A, int K)
-	{
+public class MinimumNumberOfKConsecutiveBitFlips {
+	public int minKBitFlips(int[] A, int K) {
 		int[] memo = new int[A.length];
 		int flips = 0;
 		int right = 0;
 		int[] bits = new int[2];
-		while (right < K)
-		{
+		while (right < K) {
 			bits[A[right]]++;
 			right++;
 		}
@@ -30,10 +27,8 @@ public class MinimumNumberOfKConsecutiveBitFlips
 
 		int left = 0;
 		int add = 0;
-		while (right < A.length)
-		{
-			while (right + 1 < A.length && (A[left] + add) % 2 == 1)
-			{
+		while (right < A.length) {
+			while (right + 1 < A.length && (A[left] + add) % 2 == 1) {
 				bits[(A[left] + add) % 2]--;
 				bits[A[right + 1]]++;
 				left++;
@@ -41,11 +36,9 @@ public class MinimumNumberOfKConsecutiveBitFlips
 				add += memo[left];
 			}
 
-			if (bits[0] != 0)
-			{
+			if (bits[0] != 0) {
 				add++;
-				if (right + 1 < A.length)
-				{
+				if (right + 1 < A.length) {
 					memo[right + 1]--;
 				}
 				int temp = bits[0];
@@ -54,10 +47,8 @@ public class MinimumNumberOfKConsecutiveBitFlips
 				flips++;
 			}
 
-			if (right == A.length - 1)
-			{
-				if (bits[0] != 0)
-				{
+			if (right == A.length - 1) {
+				if (bits[0] != 0) {
 					return -1;
 				}
 
@@ -68,8 +59,7 @@ public class MinimumNumberOfKConsecutiveBitFlips
 		return flips;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new MinimumNumberOfKConsecutiveBitFlips().minKBitFlips(new int[]{0, 0, 0, 0, 0, 0}, 2)); //3
 		System.out.println(new MinimumNumberOfKConsecutiveBitFlips().minKBitFlips(new int[]{0, 1, 0}, 3)); //-1
 		System.out.println(new MinimumNumberOfKConsecutiveBitFlips().minKBitFlips(new int[]{1, 1, 0}, 2)); //-1

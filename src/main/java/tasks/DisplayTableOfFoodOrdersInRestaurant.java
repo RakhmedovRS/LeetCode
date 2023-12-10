@@ -9,16 +9,13 @@ import java.util.*;
  * @created 24-Jun-20
  */
 @LeetCode(id = 1418, name = "Display Table of Food Orders in a Restaurant", url = "https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/")
-public class DisplayTableOfFoodOrdersInRestaurant
-{
-	public List<List<String>> displayTable(List<List<String>> orders)
-	{
+public class DisplayTableOfFoodOrdersInRestaurant {
+	public List<List<String>> displayTable(List<List<String>> orders) {
 		TreeSet<String> dishes = new TreeSet<>();
 		TreeSet<Integer> tables = new TreeSet<>();
 		Map<String, Integer> tableToDishes = new HashMap<>();
 
-		for (List<String> order : orders)
-		{
+		for (List<String> order : orders) {
 			String dish = order.get(2);
 			String table = order.get(1);
 
@@ -30,8 +27,7 @@ public class DisplayTableOfFoodOrdersInRestaurant
 		}
 
 		List<List<String>> result = new ArrayList<>();
-		if (dishes.isEmpty())
-		{
+		if (dishes.isEmpty()) {
 			return result;
 		}
 
@@ -40,13 +36,11 @@ public class DisplayTableOfFoodOrdersInRestaurant
 		header.addAll(dishes);
 		result.add(header);
 
-		for (int tableInt : tables)
-		{
+		for (int tableInt : tables) {
 			String table = String.valueOf(tableInt);
 			List<String> row = new ArrayList<>();
 			row.add(table);
-			for (String dish : dishes)
-			{
+			for (String dish : dishes) {
 				row.add(String.valueOf(tableToDishes.getOrDefault(table + "_" + dish, 0)));
 			}
 			result.add(row);

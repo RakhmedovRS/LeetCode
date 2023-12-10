@@ -13,27 +13,21 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/koko-eating-bananas/",
 		difficulty = Difficulty.MEDIUM
 )
-public class KokoEatingBananas
-{
-	public int minEatingSpeed(int[] piles, int H)
-	{
+public class KokoEatingBananas {
+	public int minEatingSpeed(int[] piles, int H) {
 		int min = 1;
 		int max = Integer.MIN_VALUE;
-		for (int num : piles)
-		{
+		for (int num : piles) {
 			max = Math.max(max, num);
 		}
 
 		int middle;
-		while (min < max)
-		{
+		while (min < max) {
 			middle = (min + max) / 2;
-			if (check(piles, H, middle))
-			{
+			if (check(piles, H, middle)) {
 				max = middle;
 			}
-			else
-			{
+			else {
 				min = middle + 1;
 			}
 		}
@@ -41,14 +35,11 @@ public class KokoEatingBananas
 		return max;
 	}
 
-	private boolean check(int[] piles, int h, int size)
-	{
+	private boolean check(int[] piles, int h, int size) {
 		int needHours = 0;
-		for (int pile : piles)
-		{
+		for (int pile : piles) {
 			needHours += pile / size;
-			if (pile % size != 0)
-			{
+			if (pile % size != 0) {
 				needHours++;
 			}
 		}

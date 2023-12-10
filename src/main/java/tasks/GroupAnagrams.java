@@ -3,7 +3,10 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @author RakhmedovRS
@@ -15,13 +18,10 @@ import java.util.*;
 		url = "https://leetcode.com/problems/group-anagrams/",
 		difficulty = Difficulty.MEDIUM
 )
-public class GroupAnagrams
-{
-	public List<List<String>> groupAnagrams(String[] strs)
-	{
+public class GroupAnagrams {
+	public List<List<String>> groupAnagrams(String[] strs) {
 		Map<String, List<String>> map = new HashMap<>();
-		for (String str : strs)
-		{
+		for (String str : strs) {
 			String sorted = sort(str);
 			map.putIfAbsent(sorted, new ArrayList<>());
 			map.get(sorted).add(str);
@@ -30,19 +30,15 @@ public class GroupAnagrams
 		return new ArrayList<>(map.values());
 	}
 
-	private String sort(String str)
-	{
+	private String sort(String str) {
 		int[] memo = new int[26];
-		for (char ch : str.toCharArray())
-		{
+		for (char ch : str.toCharArray()) {
 			memo[ch - 'a']++;
 		}
 
 		StringBuilder sb = new StringBuilder();
-		for (int i = 0; i < memo.length; i++)
-		{
-			while (memo[i]-- != 0)
-			{
+		for (int i = 0; i < memo.length; i++) {
+			while (memo[i]-- != 0) {
 				sb.append((char) (i + 'a'));
 			}
 		}

@@ -16,28 +16,22 @@ import java.util.List;
 		url = "https://leetcode.com/problems/lexicographical-numbers/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LexicographicalNumbers
-{
-	public List<Integer> lexicalOrder(int n)
-	{
+public class LexicographicalNumbers {
+	public List<Integer> lexicalOrder(int n) {
 		List<Integer> answer = new ArrayList<>();
 		dfs(answer, n, 0);
 		return answer;
 	}
 
-	private void dfs(List<Integer> answer, int n, int num)
-	{
+	private void dfs(List<Integer> answer, int n, int num) {
 		int next;
-		for (int i = 0; i <= 9; i++)
-		{
+		for (int i = 0; i <= 9; i++) {
 			next = num * 10 + i;
-			if (next == 0)
-			{
+			if (next == 0) {
 				continue;
 			}
 
-			if (next > n)
-			{
+			if (next > n) {
 				return;
 			}
 

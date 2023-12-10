@@ -13,23 +13,17 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/complement-of-base-10-integer/",
 		difficulty = Difficulty.EASY
 )
-public class ComplementOfBase10Integer
-{
-	public int bitwiseComplement(int N)
-	{
-		if (N == 0)
-		{
+public class ComplementOfBase10Integer {
+	public int bitwiseComplement(int N) {
+		if (N == 0) {
 			return 1;
 		}
 
 		boolean seen = false;
 		int complement = 0;
-		for (int i = 31; i >= 0; i--)
-		{
-			if (seen || (N & (N & 1 << i)) != 0)
-			{
-				if ((N & (1 << i)) == 0)
-				{
+		for (int i = 31; i >= 0; i--) {
+			if (seen || (N & (N & 1 << i)) != 0) {
+				if ((N & (1 << i)) == 0) {
 					complement ^= 1 << i;
 				}
 				seen = true;

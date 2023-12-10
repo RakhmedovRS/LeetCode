@@ -14,32 +14,25 @@ import common.LeetCode;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class DesignCompressedStringIterator
-{
-	class StringIterator
-	{
+public class DesignCompressedStringIterator {
+	class StringIterator {
 		char[] chars;
 		int pos;
 		char current;
 		int count;
 
-		public StringIterator(String compressedString)
-		{
+		public StringIterator(String compressedString) {
 			chars = compressedString.toCharArray();
 		}
 
-		public char next()
-		{
-			if (count == 0)
-			{
-				if (pos == chars.length)
-				{
+		public char next() {
+			if (count == 0) {
+				if (pos == chars.length) {
 					return ' ';
 				}
 
 				current = chars[pos++];
-				while (pos < chars.length && Character.isDigit(chars[pos]))
-				{
+				while (pos < chars.length && Character.isDigit(chars[pos])) {
 					count *= 10;
 					count += chars[pos++] - '0';
 				}
@@ -49,14 +42,12 @@ public class DesignCompressedStringIterator
 			return current;
 		}
 
-		public boolean hasNext()
-		{
+		public boolean hasNext() {
 			return count > 0 || pos < chars.length;
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		StringIterator stringIterator = new DesignCompressedStringIterator().new StringIterator("x6");
 		stringIterator.next();
 		stringIterator.next();

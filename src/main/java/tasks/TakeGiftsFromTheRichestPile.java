@@ -16,26 +16,21 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/take-gifts-from-the-richest-pile/",
 		difficulty = Difficulty.EASY
 )
-public class TakeGiftsFromTheRichestPile
-{
-	public long pickGifts(int[] gifts, int k)
-	{
+public class TakeGiftsFromTheRichestPile {
+	public long pickGifts(int[] gifts, int k) {
 		long res = 0;
 		PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());
-		for (int g : gifts)
-		{
+		for (int g : gifts) {
 			pq.add(g);
 		}
 
-		for (int i = 0; i < k; i++)
-		{
+		for (int i = 0; i < k; i++) {
 			int val = pq.remove();
 			val = (int) Math.sqrt(val);
 			pq.add(val);
 		}
 
-		while (!pq.isEmpty())
-		{
+		while (!pq.isEmpty()) {
 			res += pq.remove();
 		}
 

@@ -16,21 +16,17 @@ import java.util.PriorityQueue;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class MinimumCostToConnectSticks
-{
-	public int connectSticks(int[] sticks)
-	{
+public class MinimumCostToConnectSticks {
+	public int connectSticks(int[] sticks) {
 		PriorityQueue<Integer> minHeap = new PriorityQueue<>();
-		for (int stick : sticks)
-		{
+		for (int stick : sticks) {
 			minHeap.add(stick);
 		}
 
 		int cost = 0;
 		int x;
 		int y;
-		while (minHeap.size() > 1)
-		{
+		while (minHeap.size() > 1) {
 			x = minHeap.remove();
 			y = minHeap.remove();
 

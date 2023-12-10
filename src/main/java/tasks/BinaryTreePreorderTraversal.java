@@ -13,29 +13,23 @@ import java.util.List;
  * @created 12-Apr-20
  */
 @LeetCode(id = 144, name = "Binary Tree Preorder Traversal", url = "https://leetcode.com/problems/binary-tree-preorder-traversal/")
-public class BinaryTreePreorderTraversal
-{
-	public List<Integer> preorderTraversal(TreeNode root)
-	{
+public class BinaryTreePreorderTraversal {
+	public List<Integer> preorderTraversal(TreeNode root) {
 		List<Integer> result = new ArrayList<>();
-		if (root == null)
-		{
+		if (root == null) {
 			return result;
 		}
 
 		Deque<TreeNode> stack = new LinkedList<>();
 		stack.addFirst(root);
-		while (!stack.isEmpty())
-		{
+		while (!stack.isEmpty()) {
 			TreeNode node = stack.removeFirst();
 			result.add(node.val);
-			if (node.right != null)
-			{
+			if (node.right != null) {
 				stack.addFirst(node.right);
 			}
 
-			if (node.left != null)
-			{
+			if (node.left != null) {
 				stack.addFirst(node.left);
 			}
 		}

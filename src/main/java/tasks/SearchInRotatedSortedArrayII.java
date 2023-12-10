@@ -13,51 +13,39 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SearchInRotatedSortedArrayII
-{
-	public boolean search(int[] nums, int target)
-	{
-		if (nums.length == 0)
-		{
+public class SearchInRotatedSortedArrayII {
+	public boolean search(int[] nums, int target) {
+		if (nums.length == 0) {
 			return false;
 		}
 
 		int left = 0;
 		int right = nums.length - 1;
 		int middle;
-		while (left <= right)
-		{
+		while (left <= right) {
 			middle = left + (right - left) / 2;
-			if (nums[middle] == target)
-			{
+			if (nums[middle] == target) {
 				return true;
 			}
 
-			if (nums[middle] == nums[left])
-			{
+			if (nums[middle] == nums[left]) {
 				left++;
 				continue;
 			}
 
-			if (nums[left] < nums[middle])
-			{
-				if (nums[left] <= target && target < nums[middle])
-				{
+			if (nums[left] < nums[middle]) {
+				if (nums[left] <= target && target < nums[middle]) {
 					right = middle - 1;
 				}
-				else
-				{
+				else {
 					left = middle + 1;
 				}
 			}
-			else
-			{
-				if (nums[middle] < target && target <= nums[right])
-				{
+			else {
+				if (nums[middle] < target && target <= nums[right]) {
 					left = middle + 1;
 				}
-				else
-				{
+				else {
 					right = middle - 1;
 				}
 			}

@@ -16,14 +16,11 @@ import java.util.List;
 		url = "https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/",
 		difficulty = Difficulty.EASY
 )
-public class MinimumRightShiftsToSortTheArray
-{
-	public int minimumRightShifts(List<Integer> nums)
-	{
+public class MinimumRightShiftsToSortTheArray {
+	public int minimumRightShifts(List<Integer> nums) {
 		LinkedList<Integer> list = new LinkedList<>();
 		LinkedList<Integer> sortedList = new LinkedList<>();
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			list.addLast(num);
 			sortedList.addLast(num);
 		}
@@ -31,10 +28,8 @@ public class MinimumRightShiftsToSortTheArray
 		sortedList.sort(null);
 
 		int shifts = 0;
-		for (int i = 0; i < nums.size(); i++)
-		{
-			if (list.equals(sortedList))
-			{
+		for (int i = 0; i < nums.size(); i++) {
+			if (list.equals(sortedList)) {
 				return shifts;
 			}
 

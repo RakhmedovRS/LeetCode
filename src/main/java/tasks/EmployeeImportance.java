@@ -18,36 +18,29 @@ import java.util.Map;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class EmployeeImportance
-{
-	class Employee
-	{
+public class EmployeeImportance {
+	class Employee {
 		public int id;
 		public int importance;
 		public List<Integer> subordinates;
 	}
 
-	public int getImportance(List<Employee> employees, int id)
-	{
+	public int getImportance(List<Employee> employees, int id) {
 		Map<Integer, Employee> map = new HashMap<>();
-		for (Employee employee : employees)
-		{
+		for (Employee employee : employees) {
 			map.put(employee.id, employee);
 		}
 
 		return calcImportance(map.get(id), map, new HashMap<>());
 	}
 
-	private int calcImportance(Employee employee, Map<Integer, Employee> map, Map<Integer, Integer> memo)
-	{
-		if (memo.containsKey(employee.id))
-		{
+	private int calcImportance(Employee employee, Map<Integer, Employee> map, Map<Integer, Integer> memo) {
+		if (memo.containsKey(employee.id)) {
 			return memo.get(employee.id);
 		}
 
 		int total = employee.importance;
-		for (Integer subId : map.get(employee.id).subordinates)
-		{
+		for (Integer subId : map.get(employee.id).subordinates) {
 			total += calcImportance(map.get(subId), map, memo);
 		}
 

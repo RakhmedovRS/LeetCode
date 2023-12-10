@@ -16,21 +16,16 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/majority-element/",
 		difficulty = Difficulty.EASY
 )
-public class MajorityElement
-{
-	public int majorityElement(int[] nums)
-	{
-		if (nums == null || nums.length == 0)
-		{
+public class MajorityElement {
+	public int majorityElement(int[] nums) {
+		if (nums == null || nums.length == 0) {
 			return 0;
 		}
 
 		int candidate = nums[0];
 		int count = 1;
-		for (int i = 1; i < nums.length; i++)
-		{
-			if (count == 0)
-			{
+		for (int i = 1; i < nums.length; i++) {
+			if (count == 0) {
 				candidate = nums[i];
 			}
 
@@ -40,17 +35,14 @@ public class MajorityElement
 		return candidate;
 	}
 
-	public int majorityElement3(int[] nums)
-	{
+	public int majorityElement3(int[] nums) {
 		Map<Integer, Integer> cache = new HashMap<>();
 		int max = Integer.MIN_VALUE;
 		int majorityElementIndex = 0;
-		for (int i = 0; i < nums.length; i++)
-		{
+		for (int i = 0; i < nums.length; i++) {
 			int newValue = cache.getOrDefault(nums[i], 0) + 1;
 			cache.put(nums[i], newValue);
-			if (newValue > max)
-			{
+			if (newValue > max) {
 				max = newValue;
 				majorityElementIndex = i;
 			}
@@ -59,23 +51,18 @@ public class MajorityElement
 		return nums[majorityElementIndex];
 	}
 
-	public int majorityElement1(int[] nums)
-	{
+	public int majorityElement1(int[] nums) {
 		int count = 1;
 		int majorityElement = nums[0];
-		for (int i = 1; i < nums.length; i++)
-		{
-			if (nums[i] == majorityElement)
-			{
+		for (int i = 1; i < nums.length; i++) {
+			if (nums[i] == majorityElement) {
 				count++;
 			}
-			else
-			{
+			else {
 				count--;
 			}
 
-			if (count == 0)
-			{
+			if (count == 0) {
 				majorityElement = nums[i];
 				count++;
 			}
@@ -84,8 +71,7 @@ public class MajorityElement
 		return majorityElement;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new MajorityElement().majorityElement(new int[]{10, 9, 9, 9, 10}));
 	}
 }

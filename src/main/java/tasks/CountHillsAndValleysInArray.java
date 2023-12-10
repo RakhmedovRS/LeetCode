@@ -16,16 +16,12 @@ import java.util.List;
 		url = "https://leetcode.com/problems/count-hills-and-valleys-in-an-array/",
 		difficulty = Difficulty.EASY
 )
-public class CountHillsAndValleysInArray
-{
-	public int countHillValley(int[] nums)
-	{
+public class CountHillsAndValleysInArray {
+	public int countHillValley(int[] nums) {
 
 		List<Integer> list = new ArrayList<>();
-		for (int num : nums)
-		{
-			if (list.isEmpty() || list.get(list.size() - 1) != num)
-			{
+		for (int num : nums) {
+			if (list.isEmpty() || list.get(list.size() - 1) != num) {
 				list.add(num);
 			}
 		}
@@ -33,20 +29,16 @@ public class CountHillsAndValleysInArray
 		nums = list.stream().mapToInt(Integer::intValue).toArray();
 
 		int count = 0;
-		for (int i = 1; i < nums.length - 1; i++)
-		{
-			if (nums[i - 1] == nums[i] || nums[i] == nums[i + 1])
-			{
+		for (int i = 1; i < nums.length - 1; i++) {
+			if (nums[i - 1] == nums[i] || nums[i] == nums[i + 1]) {
 				continue;
 			}
 
-			if (nums[i - 1] < nums[i] && nums[i] > nums[i + 1])
-			{
+			if (nums[i - 1] < nums[i] && nums[i] > nums[i + 1]) {
 				count++;
 			}
 
-			if (nums[i - 1] > nums[i] && nums[i] < nums[i + 1])
-			{
+			if (nums[i - 1] > nums[i] && nums[i] < nums[i + 1]) {
 				count++;
 			}
 

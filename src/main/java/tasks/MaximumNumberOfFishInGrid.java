@@ -13,20 +13,15 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumNumberOfFishInGrid
-{
-	public int findMaxFish(int[][] grid)
-	{
+public class MaximumNumberOfFishInGrid {
+	public int findMaxFish(int[][] grid) {
 		int rows = grid.length;
 		int columns = grid[0].length;
 		boolean[][] visited = new boolean[rows][columns];
 		int max = 0;
-		for (int row = 0; row < rows; row++)
-		{
-			for (int column = 0; column < columns; column++)
-			{
-				if (visited[row][column])
-				{
+		for (int row = 0; row < rows; row++) {
+			for (int column = 0; column < columns; column++) {
+				if (visited[row][column]) {
 					continue;
 				}
 
@@ -37,10 +32,8 @@ public class MaximumNumberOfFishInGrid
 		return max;
 	}
 
-	private int dfs(int[][] grid, int row, int column, boolean[][] visited, int rows, int columns)
-	{
-		if (row < 0 || row >= rows || column < 0 || column >= columns || visited[row][column] || grid[row][column] == 0)
-		{
+	private int dfs(int[][] grid, int row, int column, boolean[][] visited, int rows, int columns) {
+		if (row < 0 || row >= rows || column < 0 || column >= columns || visited[row][column] || grid[row][column] == 0) {
 			return 0;
 		}
 

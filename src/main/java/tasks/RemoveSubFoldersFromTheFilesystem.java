@@ -17,16 +17,12 @@ import java.util.List;
 		url = "https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/",
 		difficulty = Difficulty.MEDIUM
 )
-public class RemoveSubFoldersFromTheFilesystem
-{
-	public List<String> removeSubfolders(String[] folders)
-	{
+public class RemoveSubFoldersFromTheFilesystem {
+	public List<String> removeSubfolders(String[] folders) {
 		List<String> answer = new ArrayList<>();
 		Arrays.sort(folders);
-		for (String folder : folders)
-		{
-			if (answer.isEmpty() || !folder.startsWith(answer.get(answer.size() - 1) + "/"))
-			{
+		for (String folder : folders) {
+			if (answer.isEmpty() || !folder.startsWith(answer.get(answer.size() - 1) + "/")) {
 				answer.add(folder);
 			}
 		}

@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumAmountOfTimeToCollectGarbage
-{
-	public int garbageCollection(String[] garbage, int[] travel)
-	{
+public class MinimumAmountOfTimeToCollectGarbage {
+	public int garbageCollection(String[] garbage, int[] travel) {
 		boolean[] seenPaper = new boolean[garbage.length];
 		boolean[] seenGlass = new boolean[garbage.length];
 		boolean[] seenMetal = new boolean[garbage.length];
@@ -24,8 +22,7 @@ public class MinimumAmountOfTimeToCollectGarbage
 		boolean paper;
 		boolean glass;
 		boolean metal;
-		for (int i = garbage.length - 1; i >= 0; i--)
-		{
+		for (int i = garbage.length - 1; i >= 0; i--) {
 			paper = garbage[i].contains("P");
 			glass = garbage[i].contains("G");
 			metal = garbage[i].contains("M");
@@ -37,66 +34,51 @@ public class MinimumAmountOfTimeToCollectGarbage
 
 		int result = 0;
 		int timeToCollectPaper = 0;
-		for (int i = 0; i < garbage.length; i++)
-		{
-			if (!seenPaper[i])
-			{
+		for (int i = 0; i < garbage.length; i++) {
+			if (!seenPaper[i]) {
 				break;
 			}
 
-			if (i > 0)
-			{
+			if (i > 0) {
 				timeToCollectPaper += travel[i - 1];
 			}
 
-			for (int j = 0; j < garbage[i].length(); j++)
-			{
-				if (garbage[i].charAt(j) == 'P')
-				{
+			for (int j = 0; j < garbage[i].length(); j++) {
+				if (garbage[i].charAt(j) == 'P') {
 					timeToCollectPaper++;
 				}
 			}
 		}
 
 		int timeToCollectGlass = 0;
-		for (int i = 0; i < garbage.length; i++)
-		{
-			if (!seenGlass[i])
-			{
+		for (int i = 0; i < garbage.length; i++) {
+			if (!seenGlass[i]) {
 				break;
 			}
 
-			if (i > 0)
-			{
+			if (i > 0) {
 				timeToCollectGlass += travel[i - 1];
 			}
 
-			for (int j = 0; j < garbage[i].length(); j++)
-			{
-				if (garbage[i].charAt(j) == 'G')
-				{
+			for (int j = 0; j < garbage[i].length(); j++) {
+				if (garbage[i].charAt(j) == 'G') {
 					timeToCollectGlass++;
 				}
 			}
 		}
 
 		int timeToCollectMetal = 0;
-		for (int i = 0; i < garbage.length; i++)
-		{
-			if (!seenMetal[i])
-			{
+		for (int i = 0; i < garbage.length; i++) {
+			if (!seenMetal[i]) {
 				break;
 			}
 
-			if (i > 0)
-			{
+			if (i > 0) {
 				timeToCollectMetal += travel[i - 1];
 			}
 
-			for (int j = 0; j < garbage[i].length(); j++)
-			{
-				if (garbage[i].charAt(j) == 'M')
-				{
+			for (int j = 0; j < garbage[i].length(); j++) {
+				if (garbage[i].charAt(j) == 'M') {
 					timeToCollectMetal++;
 				}
 			}

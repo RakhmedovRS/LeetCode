@@ -17,16 +17,12 @@ import java.util.List;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class CampusBikes
-{
-	public int[] assignBikes(int[][] workers, int[][] bikes)
-	{
+public class CampusBikes {
+	public int[] assignBikes(int[][] workers, int[][] bikes) {
 		int[] answer = new int[workers.length];
 		List<int[]> pairs = new ArrayList<>();
-		for (int i = 0; i < workers.length; i++)
-		{
-			for (int j = 0; j < bikes.length; j++)
-			{
+		for (int i = 0; i < workers.length; i++) {
+			for (int j = 0; j < bikes.length; j++) {
 				pairs.add(new int[]{i, j});
 			}
 		}
@@ -41,14 +37,11 @@ public class CampusBikes
 			int[] b2 = bikes[b[1]];
 			int m2 = manhattanDistance(w2, b2);
 
-			if (m1 == m2)
-			{
-				if (a[0] == b[0])
-				{
+			if (m1 == m2) {
+				if (a[0] == b[0]) {
 					return a[1] - b[1];
 				}
-				else
-				{
+				else {
 					return a[0] - b[0];
 				}
 			}
@@ -59,15 +52,12 @@ public class CampusBikes
 		int left = workers.length;
 		boolean[] usedWorkers = new boolean[workers.length];
 		boolean[] usedBikes = new boolean[bikes.length];
-		for (int[] pair : pairs)
-		{
-			if (left == 0)
-			{
+		for (int[] pair : pairs) {
+			if (left == 0) {
 				break;
 			}
 
-			if (!usedWorkers[pair[0]] && !usedBikes[pair[1]])
-			{
+			if (!usedWorkers[pair[0]] && !usedBikes[pair[1]]) {
 				usedWorkers[pair[0]] = true;
 				usedBikes[pair[1]] = true;
 				answer[pair[0]] = pair[1];
@@ -78,8 +68,7 @@ public class CampusBikes
 		return answer;
 	}
 
-	private int manhattanDistance(int[] a, int[] b)
-	{
+	private int manhattanDistance(int[] a, int[] b) {
 		return Math.abs(a[0] - b[0]) + Math.abs(a[1] - b[1]);
 	}
 }

@@ -15,15 +15,11 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/jump-game/",
 		difficulty = Difficulty.MEDIUM
 )
-public class JumpGame
-{
-	public boolean canJump(int[] nums)
-	{
+public class JumpGame {
+	public boolean canJump(int[] nums) {
 		int goodPos = nums.length - 1;
-		for (int i = nums.length - 1; i >= 0; i--)
-		{
-			if (i + nums[i] >= goodPos)
-			{
+		for (int i = nums.length - 1; i >= 0; i--) {
+			if (i + nums[i] >= goodPos) {
 				goodPos = i;
 			}
 		}
@@ -31,22 +27,17 @@ public class JumpGame
 		return goodPos == 0;
 	}
 
-	public boolean canJump1(int[] nums)
-	{
+	public boolean canJump1(int[] nums) {
 		return canJump(nums, nums.length - 1);
 	}
 
-	private boolean canJump(int[] nums, int currentPos)
-	{
-		if (currentPos == 0)
-		{
+	private boolean canJump(int[] nums, int currentPos) {
+		if (currentPos == 0) {
 			return true;
 		}
 
-		for (int i = 0; i < currentPos; i++)
-		{
-			if (nums[i] >= currentPos - i)
-			{
+		for (int i = 0; i < currentPos; i++) {
+			if (nums[i] >= currentPos - i) {
 				return canJump(nums, i);
 			}
 		}
@@ -54,33 +45,26 @@ public class JumpGame
 		return false;
 	}
 
-	public boolean canJump2(int[] nums)
-	{
+	public boolean canJump2(int[] nums) {
 		boolean[] memo = new boolean[nums.length];
 		Arrays.fill(memo, true);
 		return canJump(nums, 0, memo);
 	}
 
-	private boolean canJump(int[] nums, int startPos, boolean[] memo)
-	{
-		if (startPos >= nums.length - 1)
-		{
+	private boolean canJump(int[] nums, int startPos, boolean[] memo) {
+		if (startPos >= nums.length - 1) {
 			return true;
 		}
 
-		if (!memo[startPos])
-		{
+		if (!memo[startPos]) {
 			return false;
 		}
 
-		for (int i = nums[startPos]; i > 0; i--)
-		{
-			if (!canJump(nums, startPos + i, memo))
-			{
+		for (int i = nums[startPos]; i > 0; i--) {
+			if (!canJump(nums, startPos + i, memo)) {
 				memo[startPos] = false;
 			}
-			else
-			{
+			else {
 				return true;
 			}
 		}
@@ -88,8 +72,7 @@ public class JumpGame
 		return false;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new JumpGame().canJump(new int[]{2, 3, 1, 1, 4}));
 		System.out.println(new JumpGame().canJump(new int[]{3, 2, 1, 0, 4}));
 	}

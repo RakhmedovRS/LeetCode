@@ -13,24 +13,18 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/count-the-number-of-consistent-strings/",
 		difficulty = Difficulty.EASY
 )
-public class CountTheNumberOfConsistentStrings
-{
-	public int countConsistentStrings(String allowed, String[] words)
-	{
+public class CountTheNumberOfConsistentStrings {
+	public int countConsistentStrings(String allowed, String[] words) {
 		char[] table = new char[26];
-		for (char ch : allowed.toCharArray())
-		{
+		for (char ch : allowed.toCharArray()) {
 			table[ch - 'a']++;
 		}
 
 		int count = 0;
 		outer:
-		for (String word : words)
-		{
-			for (char ch : word.toCharArray())
-			{
-				if (table[ch - 'a'] == 0)
-				{
+		for (String word : words) {
+			for (char ch : word.toCharArray()) {
+				if (table[ch - 'a'] == 0) {
 					continue outer;
 				}
 			}

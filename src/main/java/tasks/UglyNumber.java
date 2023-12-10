@@ -2,22 +2,22 @@ package tasks;
 
 import common.LeetCode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 /**
  * @author RakhmedovRS
  * @created 04-Jul-20
  */
 @LeetCode(id = 263, name = "Ugly Number", url = "https://leetcode.com/problems/ugly-number/")
-public class UglyNumber
-{
-	public boolean isUgly(int num)
-	{
+public class UglyNumber {
+	public boolean isUgly(int num) {
 		return getPrimes(num).contains((long) num);
 	}
 
-	private Set<Long> getPrimes(long number)
-	{
+	private Set<Long> getPrimes(long number) {
 		number = Math.abs(number);
 		Set<Long> ugly = new HashSet<>();
 		ugly.add(1L);
@@ -27,8 +27,7 @@ public class UglyNumber
 		int three = 0;
 		int five = 0;
 		long prime = 0;
-		while (prime <= number)
-		{
+		while (prime <= number) {
 			prime = Math.min(primes.get(two) * 2, Math.min(primes.get(three) * 3, primes.get(five) * 5));
 			primes.add(prime);
 			two += prime == primes.get(two) * 2 ? 1 : 0;
@@ -41,8 +40,7 @@ public class UglyNumber
 		return ugly;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new UglyNumber().isUgly(6));
 		System.out.println(new UglyNumber().isUgly(Integer.MIN_VALUE));
 		System.out.println(new UglyNumber().isUgly(8));

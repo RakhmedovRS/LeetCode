@@ -14,12 +14,9 @@ import common.ListNode;
 		url = "https://leetcode.com/problems/swap-nodes-in-pairs/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SwapNodesInPairs
-{
-	public ListNode swapPairs(ListNode head)
-	{
-		if (head == null || head.next == null)
-		{
+public class SwapNodesInPairs {
+	public ListNode swapPairs(ListNode head) {
+		if (head == null || head.next == null) {
 			return head;
 		}
 
@@ -31,8 +28,7 @@ public class SwapNodesInPairs
 		return next;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		ListNode root = new ListNode(1);
 		root.next = new ListNode(2);
 		root.next.next = new ListNode(3);

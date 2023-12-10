@@ -15,17 +15,13 @@ import java.util.*;
 		url = "https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaxSumOfPairWithEqualSumOfDigits
-{
-	public int maximumSum(int[] nums)
-	{
+public class MaxSumOfPairWithEqualSumOfDigits {
+	public int maximumSum(int[] nums) {
 		int[] copy = Arrays.copyOf(nums, nums.length);
 		Map<Integer, List<Integer>> sumToIndex = new HashMap<>();
-		for (int i = 0; i < nums.length; i++)
-		{
+		for (int i = 0; i < nums.length; i++) {
 			int sum = 0;
-			while (copy[i] > 0)
-			{
+			while (copy[i] > 0) {
 				sum += copy[i] % 10;
 				copy[i] /= 10;
 			}
@@ -35,10 +31,8 @@ public class MaxSumOfPairWithEqualSumOfDigits
 		}
 
 		int max = -1;
-		for (Map.Entry<Integer, List<Integer>> entry : sumToIndex.entrySet())
-		{
-			if (entry.getValue().size() > 1)
-			{
+		for (Map.Entry<Integer, List<Integer>> entry : sumToIndex.entrySet()) {
+			if (entry.getValue().size() > 1) {
 				List<Integer> list = entry.getValue();
 				list.sort((a, b) -> nums[b] - nums[a]);
 

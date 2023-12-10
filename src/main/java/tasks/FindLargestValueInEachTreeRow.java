@@ -18,12 +18,9 @@ import java.util.List;
 		url = "https://leetcode.com/problems/find-largest-value-in-each-tree-row/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindLargestValueInEachTreeRow
-{
-	public List<Integer> largestValues(TreeNode root)
-	{
-		if (root == null)
-		{
+public class FindLargestValueInEachTreeRow {
+	public List<Integer> largestValues(TreeNode root) {
+		if (root == null) {
 			return new ArrayList<>();
 		}
 
@@ -33,22 +30,18 @@ public class FindLargestValueInEachTreeRow
 		int max;
 		int nodesCount;
 		TreeNode temp;
-		while (!nodes.isEmpty())
-		{
+		while (!nodes.isEmpty()) {
 			max = Integer.MIN_VALUE;
 			nodesCount = nodes.size();
-			while (nodesCount > 0)
-			{
+			while (nodesCount > 0) {
 				temp = nodes.removeFirst();
 				max = Math.max(max, temp.val);
 
-				if (temp.left != null)
-				{
+				if (temp.left != null) {
 					nodes.addLast(temp.left);
 				}
 
-				if (temp.right != null)
-				{
+				if (temp.right != null) {
 					nodes.addLast(temp.right);
 				}
 

@@ -11,13 +11,10 @@ import java.util.List;
  * @created 09-Jul-20
  */
 @LeetCode(id = 282, name = "Expression Add Operators", url = "https://leetcode.com/problems/expression-add-operators/")
-public class ExpressionAddOperators
-{
-	public List<String> addOperators(String num, int target)
-	{
+public class ExpressionAddOperators {
+	public List<String> addOperators(String num, int target) {
 		List<String> operations = new ArrayList<>();
-		if (num == null || num.length() == 0)
-		{
+		if (num == null || num.length() == 0) {
 			return operations;
 		}
 
@@ -26,38 +23,30 @@ public class ExpressionAddOperators
 		return operations;
 	}
 
-	private void explore(char[] values, int pos, List<String> operations, LinkedList<String> candidates, long target)
-	{
-		if (pos == values.length)
-		{
+	private void explore(char[] values, int pos, List<String> operations, LinkedList<String> candidates, long target) {
+		if (pos == values.length) {
 			StringBuilder sb = new StringBuilder();
-			for (String op : candidates)
-			{
+			for (String op : candidates) {
 				sb.append(op);
 			}
 			String expression = sb.toString();
-			if (target == evaluate(expression))
-			{
+			if (target == evaluate(expression)) {
 				operations.add(expression);
 			}
 			return;
 		}
 
-		for (int step = 1; step + pos <= values.length; step++)
-		{
+		for (int step = 1; step + pos <= values.length; step++) {
 			String sVal = String.valueOf(values, pos, step);
-			if (sVal.length() > 1 && sVal.charAt(0) == '0')
-			{
+			if (sVal.length() > 1 && sVal.charAt(0) == '0') {
 				break;
 			}
-			if (candidates.isEmpty())
-			{
+			if (candidates.isEmpty()) {
 				candidates.add(sVal);
 				explore(values, pos + step, operations, candidates, target);
 				candidates.removeLast();
 			}
-			else
-			{
+			else {
 				candidates.add("+");
 				candidates.add(sVal);
 				explore(values, pos + step, operations, candidates, target);
@@ -79,20 +68,15 @@ public class ExpressionAddOperators
 		}
 	}
 
-	private long evaluate(String expression)
-	{
-		if (expression.contains("+"))
-		{
+	private long evaluate(String expression) {
+		if (expression.contains("+")) {
 			String[] parts = expression.split("\\+");
 			Long res = null;
-			for (String part : parts)
-			{
-				if (res != null)
-				{
+			for (String part : parts) {
+				if (res != null) {
 					res += evaluate(part);
 				}
-				else
-				{
+				else {
 					res = evaluate(part);
 				}
 			}
@@ -100,18 +84,14 @@ public class ExpressionAddOperators
 			return res;
 		}
 
-		if (expression.contains("-"))
-		{
+		if (expression.contains("-")) {
 			String[] parts = expression.split("\\-");
 			Long res = null;
-			for (String part : parts)
-			{
-				if (res != null)
-				{
+			for (String part : parts) {
+				if (res != null) {
 					res -= evaluate(part);
 				}
-				else
-				{
+				else {
 					res = evaluate(part);
 				}
 			}
@@ -119,18 +99,14 @@ public class ExpressionAddOperators
 			return res;
 		}
 
-		if (expression.contains("*"))
-		{
+		if (expression.contains("*")) {
 			String[] parts = expression.split("\\*");
 			Long res = null;
-			for (String part : parts)
-			{
-				if (res != null)
-				{
+			for (String part : parts) {
+				if (res != null) {
 					res *= evaluate(part);
 				}
-				else
-				{
+				else {
 					res = evaluate(part);
 				}
 			}
@@ -141,8 +117,7 @@ public class ExpressionAddOperators
 		return Long.parseLong(expression);
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new ExpressionAddOperators().addOperators("232", 8));
 		System.out.println(new ExpressionAddOperators().addOperators("105", 5));
 		System.out.println(new ExpressionAddOperators().addOperators("123", 6));

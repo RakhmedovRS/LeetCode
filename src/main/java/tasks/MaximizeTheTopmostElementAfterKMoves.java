@@ -13,23 +13,18 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximize-the-topmost-element-after-k-moves/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximizeTheTopmostElementAfterKMoves
-{
-	public int maximumTop(int[] nums, int k)
-	{
+public class MaximizeTheTopmostElementAfterKMoves {
+	public int maximumTop(int[] nums, int k) {
 		int max = -1;
-		if (nums.length == 1 && k % 2 != 0)
-		{
+		if (nums.length == 1 && k % 2 != 0) {
 			return max;
 		}
 
-		for (int i = 0; i < Math.min(nums.length, k - 1); i++)
-		{
+		for (int i = 0; i < Math.min(nums.length, k - 1); i++) {
 			max = Math.max(max, nums[i]);
 		}
 
-		if (k < nums.length)
-		{
+		if (k < nums.length) {
 			max = Math.max(max, nums[k]);
 		}
 

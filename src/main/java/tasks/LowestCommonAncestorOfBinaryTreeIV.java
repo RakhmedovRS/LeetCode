@@ -4,7 +4,9 @@ import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * @author RakhmedovRS
@@ -17,38 +19,30 @@ import java.util.*;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class LowestCommonAncestorOfBinaryTreeIV
-{
-	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode[] nodes)
-	{
+public class LowestCommonAncestorOfBinaryTreeIV {
+	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode[] nodes) {
 		Set<TreeNode> set = new HashSet<>(Arrays.asList(nodes));
 		TreeNode[] answer = new TreeNode[1];
 		lca(root, set, answer);
 		return answer[0];
 	}
 
-	private int lca(TreeNode node, Set<TreeNode> set, TreeNode[] answer)
-	{
-		if (node == null)
-		{
+	private int lca(TreeNode node, Set<TreeNode> set, TreeNode[] answer) {
+		if (node == null) {
 			return 0;
 		}
 
 		int left = lca(node.left, set, answer);
 		int right = lca(node.right, set, answer);
-		if (set.contains(node))
-		{
-			if (left + right + 1 == set.size() && answer[0] == null)
-			{
+		if (set.contains(node)) {
+			if (left + right + 1 == set.size() && answer[0] == null) {
 				answer[0] = node;
 			}
 
 			return left + right + 1;
 		}
-		else
-		{
-			if (left + right == set.size() && answer[0] == null)
-			{
+		else {
+			if (left + right == set.size() && answer[0] == null) {
 				answer[0] = node;
 			}
 

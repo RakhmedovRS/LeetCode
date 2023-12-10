@@ -13,12 +13,9 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/projection-area-of-3d-shapes/",
 		difficulty = Difficulty.EASY
 )
-public class ProjectionAreaOf3DShapes
-{
-	public int projectionArea(int[][] grid)
-	{
-		if (grid.length == 0)
-		{
+public class ProjectionAreaOf3DShapes {
+	public int projectionArea(int[][] grid) {
+		if (grid.length == 0) {
 			return 0;
 		}
 
@@ -27,12 +24,9 @@ public class ProjectionAreaOf3DShapes
 		int area = 0;
 		int[] rowMaxes = new int[rows];
 		int[] columnMaxes = new int[columns];
-		for (int row = 0; row < rows; row++)
-		{
-			for (int column = 0; column < columns; column++)
-			{
-				if (grid[row][column] != 0)
-				{
+		for (int row = 0; row < rows; row++) {
+			for (int column = 0; column < columns; column++) {
+				if (grid[row][column] != 0) {
 					rowMaxes[row] = Math.max(rowMaxes[row], grid[row][column]);
 					columnMaxes[column] = Math.max(columnMaxes[column], grid[row][column]);
 					area++;
@@ -40,21 +34,18 @@ public class ProjectionAreaOf3DShapes
 			}
 		}
 
-		for (int rowMax : rowMaxes)
-		{
+		for (int rowMax : rowMaxes) {
 			area += rowMax;
 		}
 
-		for (int colMax : columnMaxes)
-		{
+		for (int colMax : columnMaxes) {
 			area += colMax;
 		}
 
 		return area;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new ProjectionAreaOf3DShapes().projectionArea(new int[][]
 				{
 						{1, 0},

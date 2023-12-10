@@ -17,43 +17,35 @@ import java.util.List;
 		url = "https://leetcode.com/problems/leaf-similar-trees/",
 		difficulty = Difficulty.EASY
 )
-public class LeafSimilarTrees
-{
-	public boolean leafSimilar(TreeNode root1, TreeNode root2)
-	{
+public class LeafSimilarTrees {
+	public boolean leafSimilar(TreeNode root1, TreeNode root2) {
 		List<Integer> leftTreeLeafs = new ArrayList<>();
 		List<Integer> rightTreeLeafs = new ArrayList<>();
 
 		getLeafs(root1, leftTreeLeafs);
 		getLeafs(root2, rightTreeLeafs);
 
-		if (leftTreeLeafs.size() != rightTreeLeafs.size())
-		{
+		if (leftTreeLeafs.size() != rightTreeLeafs.size()) {
 			return false;
 		}
 
 		return leftTreeLeafs.equals(rightTreeLeafs);
 	}
 
-	private void getLeafs(TreeNode treeNode, List<Integer> result)
-	{
-		if (treeNode == null)
-		{
+	private void getLeafs(TreeNode treeNode, List<Integer> result) {
+		if (treeNode == null) {
 			return;
 		}
 
-		if (treeNode.left == null && treeNode.right == null)
-		{
+		if (treeNode.left == null && treeNode.right == null) {
 			result.add(treeNode.val);
 		}
 
-		if (treeNode.left != null)
-		{
+		if (treeNode.left != null) {
 			getLeafs(treeNode.left, result);
 		}
 
-		if (treeNode.right != null)
-		{
+		if (treeNode.right != null) {
 			getLeafs(treeNode.right, result);
 		}
 	}

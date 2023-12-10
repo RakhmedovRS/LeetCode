@@ -14,17 +14,13 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/max-chunks-to-make-sorted/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaxChunksToMakeSorted
-{
-	public int maxChunksToSorted(int[] arr)
-	{
+public class MaxChunksToMakeSorted {
+	public int maxChunksToSorted(int[] arr) {
 		int chunks = 0;
 		int max = 0;
-		for (int i = 0; i < arr.length; i++)
-		{
+		for (int i = 0; i < arr.length; i++) {
 			max = Math.max(max, arr[i]);
-			if (i == max)
-			{
+			if (i == max) {
 				chunks++;
 			}
 		}

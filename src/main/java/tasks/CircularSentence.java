@@ -13,20 +13,15 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/circular-sentence/",
 		difficulty = Difficulty.EASY
 )
-public class CircularSentence
-{
-	public boolean isCircularSentence(String sentence)
-	{
+public class CircularSentence {
+	public boolean isCircularSentence(String sentence) {
 		String[] words = sentence.split(" ");
-		if (words[0].charAt(0) != words[words.length - 1].charAt(words[words.length - 1].length() - 1))
-		{
+		if (words[0].charAt(0) != words[words.length - 1].charAt(words[words.length - 1].length() - 1)) {
 			return false;
 		}
 
-		for (int i = 1; i < words.length; i++)
-		{
-			if (words[i - 1].charAt(words[i - 1].length() - 1) != words[i].charAt(0))
-			{
+		for (int i = 1; i < words.length; i++) {
+			if (words[i - 1].charAt(words[i - 1].length() - 1) != words[i].charAt(0)) {
 				return false;
 			}
 		}

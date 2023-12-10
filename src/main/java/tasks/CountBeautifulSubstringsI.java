@@ -16,10 +16,8 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/count-beautiful-substrings-i/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CountBeautifulSubstringsI
-{
-	public int beautifulSubstrings(String s, int k)
-	{
+public class CountBeautifulSubstringsI {
+	public int beautifulSubstrings(String s, int k) {
 		Set<Character> vowels = new HashSet<>();
 		vowels.add('a');
 		vowels.add('e');
@@ -29,33 +27,26 @@ public class CountBeautifulSubstringsI
 
 		int res = 0;
 		char[] chars = s.toCharArray();
-		for (int left = 0; left < chars.length; left++)
-		{
+		for (int left = 0; left < chars.length; left++) {
 			int v = 0;
 			int c = 0;
 
-			if (vowels.contains(chars[left]))
-			{
+			if (vowels.contains(chars[left])) {
 				v++;
 			}
-			else
-			{
+			else {
 				c++;
 			}
 
-			for (int right = left + 1; right < chars.length; right++)
-			{
-				if (vowels.contains(chars[right]))
-				{
+			for (int right = left + 1; right < chars.length; right++) {
+				if (vowels.contains(chars[right])) {
 					v++;
 				}
-				else
-				{
+				else {
 					c++;
 				}
 
-				if (v == c && ((v * c) % k == 0))
-				{
+				if (v == c && ((v * c) % k == 0)) {
 					res++;
 				}
 			}

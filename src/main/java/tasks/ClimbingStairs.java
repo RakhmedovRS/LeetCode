@@ -13,12 +13,9 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/climbing-stairs/",
 		difficulty = Difficulty.EASY
 )
-public class ClimbingStairs
-{
-	public int climbStairs(int n)
-	{
-		if (n <= 2)
-		{
+public class ClimbingStairs {
+	public int climbStairs(int n) {
+		if (n <= 2) {
 			return n;
 		}
 
@@ -26,8 +23,7 @@ public class ClimbingStairs
 		memo[0] = 1;
 		memo[1] = 2;
 
-		for (int i = 2; i < n; i++)
-		{
+		for (int i = 2; i < n; i++) {
 			memo[i] = memo[i - 2] + memo[i - 1];
 		}
 

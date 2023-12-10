@@ -17,10 +17,8 @@ import java.util.*;
 		url = "https://leetcode.com/problems/closest-leaf-in-a-binary-tree/",
 		premium = true
 )
-public class ClosestLeafInBinaryTree
-{
-	public int findClosestLeaf(TreeNode root, int k)
-	{
+public class ClosestLeafInBinaryTree {
+	public int findClosestLeaf(TreeNode root, int k) {
 		Map<Integer, List<Integer>> graph = new HashMap<>();
 		buildGraph(null, root, graph);
 
@@ -30,22 +28,17 @@ public class ClosestLeafInBinaryTree
 		int current;
 		List<Integer> neighbors;
 		Set<Integer> seen = new HashSet<>();
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			size = queue.size();
-			while (size-- > 0)
-			{
+			while (size-- > 0) {
 				current = queue.remove();
 				neighbors = graph.get(current);
-				if (neighbors.isEmpty() || current != root.val && neighbors.size() == 1)
-				{
+				if (neighbors.isEmpty() || current != root.val && neighbors.size() == 1) {
 					return current;
 				}
 
-				for (int neighbor : graph.get(current))
-				{
-					if (seen.add(neighbor))
-					{
+				for (int neighbor : graph.get(current)) {
+					if (seen.add(neighbor)) {
 						queue.add(neighbor);
 					}
 				}
@@ -55,26 +48,21 @@ public class ClosestLeafInBinaryTree
 		return root.val;
 	}
 
-	private void buildGraph(Integer parent, TreeNode root, Map<Integer, List<Integer>> graph)
-	{
-		if (root == null)
-		{
+	private void buildGraph(Integer parent, TreeNode root, Map<Integer, List<Integer>> graph) {
+		if (root == null) {
 			return;
 		}
 
 		List<Integer> neighbors = new ArrayList<>();
-		if (parent != null)
-		{
+		if (parent != null) {
 			neighbors.add(parent);
 		}
 
-		if (root.left != null)
-		{
+		if (root.left != null) {
 			neighbors.add(root.left.val);
 		}
 
-		if (root.right != null)
-		{
+		if (root.right != null) {
 			neighbors.add(root.right.val);
 		}
 

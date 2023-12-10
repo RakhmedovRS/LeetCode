@@ -17,36 +17,28 @@ import java.util.List;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class ArmstrongNumber
-{
-	public boolean isArmstrong(int n)
-	{
+public class ArmstrongNumber {
+	public boolean isArmstrong(int n) {
 		List<Integer> nums = new ArrayList<>();
 		int temp = n;
-		while (temp > 0)
-		{
+		while (temp > 0) {
 			nums.add(temp % 10);
 			temp /= 10;
 		}
 
-		for (int i = 0; i < 100; i++)
-		{
+		for (int i = 0; i < 100; i++) {
 			long number = 0;
-			for (int num : nums)
-			{
+			for (int num : nums) {
 				number += Math.pow(num, i);
-				if (number > n)
-				{
+				if (number > n) {
 					return false;
 				}
 			}
 
-			if (number > n)
-			{
+			if (number > n) {
 				return false;
 			}
-			else if (number == n)
-			{
+			else if (number == n) {
 				return true;
 			}
 		}

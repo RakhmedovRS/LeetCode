@@ -13,15 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/shortest-palindrome/",
 		difficulty = Difficulty.HARD
 )
-public class ShortestPalindrome
-{
-	public String shortestPalindrome(String origin)
-	{
+public class ShortestPalindrome {
+	public String shortestPalindrome(String origin) {
 		String reversed = new StringBuilder(origin).reverse().toString();
-		for (int i = 0; i <= reversed.length(); i++)
-		{
-			if (origin.startsWith(reversed.substring(i)))
-			{
+		for (int i = 0; i <= reversed.length(); i++) {
+			if (origin.startsWith(reversed.substring(i))) {
 				return reversed.substring(0, i) + origin;
 			}
 		}

@@ -3,7 +3,9 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * @author RakhmedovRS
@@ -15,40 +17,32 @@ import java.util.*;
 		url = "https://leetcode.com/problems/n-ary-tree-preorder-traversal/",
 		difficulty = Difficulty.EASY
 )
-public class N_aryTreePreorderTraversal
-{
-	class Node
-	{
+public class N_aryTreePreorderTraversal {
+	class Node {
 		public int val;
 		public List<Node> children;
 
-		public Node()
-		{
+		public Node() {
 		}
 
-		public Node(int val)
-		{
+		public Node(int val) {
 			this.val = val;
 		}
 
-		public Node(int val, List<Node> children)
-		{
+		public Node(int val, List<Node> children) {
 			this.val = val;
 			this.children = children;
 		}
 	}
 
-	public List<Integer> preorder(Node root)
-	{
-		if (root == null)
-		{
+	public List<Integer> preorder(Node root) {
+		if (root == null) {
 			return Collections.emptyList();
 		}
 
 		List<Integer> list = new ArrayList<>();
 		list.add(root.val);
-		for (Node child : root.children)
-		{
+		for (Node child : root.children) {
 			list.addAll(preorder(child));
 		}
 

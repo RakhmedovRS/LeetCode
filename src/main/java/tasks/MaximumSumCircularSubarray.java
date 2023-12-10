@@ -13,17 +13,14 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximum-sum-circular-subarray/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumSumCircularSubarray
-{
-	public int maxSubarraySumCircular(int[] A)
-	{
+public class MaximumSumCircularSubarray {
+	public int maxSubarraySumCircular(int[] A) {
 		int max = Integer.MIN_VALUE;
 		int min = Integer.MAX_VALUE;
 		int currentMin = 0;
 		int currentMax = 0;
 		int total = 0;
-		for (int num : A)
-		{
+		for (int num : A) {
 			currentMax = Math.max(currentMax + num, num);
 			currentMin = Math.min(currentMin + num, num);
 			max = Math.max(max, currentMax);

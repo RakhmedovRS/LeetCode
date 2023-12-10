@@ -14,14 +14,11 @@ import common.ListNode;
 		url = "https://leetcode.com/problems/sort-list/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SortList
-{
-	public ListNode sortList(ListNode head)
-	{
+public class SortList {
+	public ListNode sortList(ListNode head) {
 		int size = 0;
 		ListNode temp = head;
-		while (temp != null)
-		{
+		while (temp != null) {
 			size++;
 			temp = temp.next;
 		}
@@ -29,10 +26,8 @@ public class SortList
 		return sortList(head, 0, size - 1);
 	}
 
-	private ListNode sortList(ListNode head, int left, int right)
-	{
-		if (left >= right)
-		{
+	private ListNode sortList(ListNode head, int left, int right) {
+		if (left >= right) {
 			return head;
 		}
 
@@ -41,13 +36,11 @@ public class SortList
 		ListNode nodeB = null;
 		int middle = left + (right - left) / 2;
 
-		for (int i = left; i < middle; i++)
-		{
+		for (int i = left; i < middle; i++) {
 			currentA = currentA.next;
 		}
 
-		if (currentA != null)
-		{
+		if (currentA != null) {
 			nodeB = currentA.next;
 			currentA.next = null;
 		}
@@ -58,45 +51,37 @@ public class SortList
 		return merge(nodeA, nodeB);
 	}
 
-	private ListNode merge(ListNode nodeA, ListNode nodeB)
-	{
-		if (nodeA == null)
-		{
+	private ListNode merge(ListNode nodeA, ListNode nodeB) {
+		if (nodeA == null) {
 			return nodeB;
 		}
 
-		if (nodeB == null)
-		{
+		if (nodeB == null) {
 			return nodeA;
 		}
 
 		ListNode dummy = new ListNode();
 		ListNode current = dummy;
-		while (nodeA != null && nodeB != null)
-		{
-			if (nodeA.val < nodeB.val)
-			{
+		while (nodeA != null && nodeB != null) {
+			if (nodeA.val < nodeB.val) {
 				current.next = nodeA;
 				current = current.next;
 				nodeA = nodeA.next;
 			}
-			else
-			{
+			else {
 				current.next = nodeB;
 				current = current.next;
 				nodeB = nodeB.next;
 			}
 		}
 
-		while (nodeA != null)
-		{
+		while (nodeA != null) {
 			current.next = nodeA;
 			current = current.next;
 			nodeA = nodeA.next;
 		}
 
-		while (nodeB != null)
-		{
+		while (nodeB != null) {
 			current.next = nodeB;
 			current = current.next;
 			nodeB = nodeB.next;

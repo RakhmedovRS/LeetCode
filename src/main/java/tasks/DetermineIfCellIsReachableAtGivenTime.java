@@ -13,43 +13,29 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DetermineIfCellIsReachableAtGivenTime
-{
-	public boolean isReachableAtTime(int sx, int sy, int fx, int fy, int t)
-	{
+public class DetermineIfCellIsReachableAtGivenTime {
+	public boolean isReachableAtTime(int sx, int sy, int fx, int fy, int t) {
 		int dist = eucDistance(new int[]{sx, sy}, new int[]{fx, fy});
-		if (dist == 0)
-		{
+		if (dist == 0) {
 			return t == 0 || t > 1;
 		}
 
 		int xDiff = Math.abs(sx - fx);
 		int yDiff = Math.abs(sy - fy);
 
-		if (xDiff >= yDiff)
-		{
+		if (xDiff >= yDiff) {
 			xDiff -= yDiff;
-			if (xDiff + yDiff > t)
-			{
-				return false;
-			}
+			return xDiff + yDiff <= t;
 		}
-		else
-		{
+		else {
 			yDiff -= xDiff;
-			if (xDiff + yDiff > t)
-			{
-				return false;
-			}
+			return xDiff + yDiff <= t;
 		}
-
-		return true;
 	}
 
-	private int eucDistance(int[] a, int[] b)
-	{
+	private int eucDistance(int[] a, int[] b) {
 		double xX = a[0] - b[0];
 		double yY = a[1] - b[1];
-		return (int)Math.sqrt(xX * xX + yY * yY);
+		return (int) Math.sqrt(xX * xX + yY * yY);
 	}
 }

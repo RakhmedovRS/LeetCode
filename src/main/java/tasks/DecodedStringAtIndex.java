@@ -13,30 +13,22 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/decoded-string-at-index/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DecodedStringAtIndex
-{
-	public String decodeAtIndex(String S, long K)
-	{
+public class DecodedStringAtIndex {
+	public String decodeAtIndex(String S, long K) {
 		return decodeAtIndex(S, K, 0);
 	}
 
-	private String decodeAtIndex(String S, long K, long len)
-	{
+	private String decodeAtIndex(String S, long K, long len) {
 		char ch;
-		for (int i = 0; i < S.length(); i++)
-		{
+		for (int i = 0; i < S.length(); i++) {
 			ch = S.charAt(i);
-			if (Character.isLetter(ch))
-			{
-				if (++len == K)
-				{
+			if (Character.isLetter(ch)) {
+				if (++len == K) {
 					return "" + ch;
 				}
 			}
-			else
-			{
-				if (len * (ch - '0') >= K)
-				{
+			else {
+				if (len * (ch - '0') >= K) {
 					return decodeAtIndex(S, K % len == 0 ? len : K % len);
 				}
 				len *= ch - '0';
@@ -46,8 +38,7 @@ public class DecodedStringAtIndex
 		return "";
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		DecodedStringAtIndex clazz = new DecodedStringAtIndex();
 		System.out.println(clazz.decodeAtIndex("y959q969u3hb22odq595", 222280369));
 		System.out.println(clazz.decodeAtIndex("ha22", 5));

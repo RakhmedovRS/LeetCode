@@ -15,10 +15,8 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumBeautyOfArrayAfterApplyingOperation
-{
-	public int maximumBeauty(int[] nums, int k)
-	{
+public class MaximumBeautyOfArrayAfterApplyingOperation {
+	public int maximumBeauty(int[] nums, int k) {
 		Arrays.sort(nums);
 
 		int left = 0;
@@ -26,17 +24,14 @@ public class MaximumBeautyOfArrayAfterApplyingOperation
 
 		int curr = 0;
 		int max = 1;
-		while (right < nums.length)
-		{
-			while (right < nums.length && nums[right] - nums[left] <= k * 2)
-			{
+		while (right < nums.length) {
+			while (right < nums.length && nums[right] - nums[left] <= k * 2) {
 				right++;
 				curr++;
 				max = Math.max(max, curr);
 			}
 
-			while (right < nums.length && nums[right] - nums[left] > k * 2)
-			{
+			while (right < nums.length && nums[right] - nums[left] > k * 2) {
 				left++;
 				curr--;
 			}

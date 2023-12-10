@@ -15,14 +15,11 @@ import java.util.TreeSet;
 		url = "https://leetcode.com/problems/ugly-number-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class UglyNumberII
-{
-	public int nthUglyNumber(int n)
-	{
+public class UglyNumberII {
+	public int nthUglyNumber(int n) {
 		TreeSet<Long> treeSet = new TreeSet<>();
 		treeSet.add(1L);
-		while (--n > 0)
-		{
+		while (--n > 0) {
 			Long first = treeSet.pollFirst();
 			treeSet.add(first * 2);
 			treeSet.add(first * 3);

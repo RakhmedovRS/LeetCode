@@ -15,23 +15,19 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/",
 		difficulty = Difficulty.MEDIUM
 )
-public class TakeKOfEachCharacterFromLeftAndRight
-{
-	public int takeCharacters(String s, int k)
-	{
+public class TakeKOfEachCharacterFromLeftAndRight {
+	public int takeCharacters(String s, int k) {
 		int min = Integer.MAX_VALUE;
 		int current = 0;
 		int[] memo = new int[3];
 		Arrays.fill(memo, k);
 		int pos = 0;
-		for (; pos < s.length() && !isValid(memo); pos++)
-		{
+		for (; pos < s.length() && !isValid(memo); pos++) {
 			memo[s.charAt(pos) - 'a']--;
 			current++;
 		}
 
-		if (!isValid(memo))
-		{
+		if (!isValid(memo)) {
 			return -1;
 		}
 
@@ -39,10 +35,8 @@ public class TakeKOfEachCharacterFromLeftAndRight
 
 		pos--;
 
-		for (int i = s.length() - 1; i >= 0; i--)
-		{
-			while (isValid(memo) && pos >= 0)
-			{
+		for (int i = s.length() - 1; i >= 0; i--) {
+			while (isValid(memo) && pos >= 0) {
 				min = Math.min(min, current--);
 				memo[s.charAt(pos--) - 'a']++;
 			}
@@ -50,20 +44,17 @@ public class TakeKOfEachCharacterFromLeftAndRight
 			memo[s.charAt(i) - 'a']--;
 			current++;
 
-			while (isValid(memo) && pos >= 0)
-			{
+			while (isValid(memo) && pos >= 0) {
 				min = Math.min(min, current--);
 				memo[s.charAt(pos--) - 'a']++;
 			}
 
-			if (isValid(memo))
-			{
+			if (isValid(memo)) {
 				min = Math.min(min, current);
 			}
 		}
 
-		while (isValid(memo) && pos >= 0)
-		{
+		while (isValid(memo) && pos >= 0) {
 			min = Math.min(min, current--);
 			memo[s.charAt(pos--) - 'a']++;
 		}
@@ -71,8 +62,7 @@ public class TakeKOfEachCharacterFromLeftAndRight
 		return min;
 	}
 
-	boolean isValid(int[] memo)
-	{
+	boolean isValid(int[] memo) {
 		return memo[0] <= 0 && memo[1] <= 0 && memo[2] <= 0;
 	}
 }

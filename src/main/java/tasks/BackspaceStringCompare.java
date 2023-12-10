@@ -3,8 +3,6 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.LinkedList;
-
 /**
  * @author RakhmedovRS
  * @created 09-Apr-20
@@ -15,27 +13,20 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/backspace-string-compare/",
 		difficulty = Difficulty.EASY
 )
-public class BackspaceStringCompare
-{
-	public boolean backspaceCompare(String S, String T)
-	{
+public class BackspaceStringCompare {
+	public boolean backspaceCompare(String S, String T) {
 		return processString(S).equals(processString(T));
 	}
 
-	private String processString(String string)
-	{
+	private String processString(String string) {
 		StringBuilder sb = new StringBuilder();
-		for (int i = 0; i < string.length(); i++)
-		{
-			if (string.charAt(i) == '#')
-			{
-				if (sb.length() != 0)
-				{
+		for (int i = 0; i < string.length(); i++) {
+			if (string.charAt(i) == '#') {
+				if (sb.length() != 0) {
 					sb.deleteCharAt(sb.length() - 1);
 				}
 			}
-			else
-			{
+			else {
 				sb.append(string.charAt(i));
 			}
 		}

@@ -16,17 +16,13 @@ import java.util.List;
 		url = "https://leetcode.com/problems/sum-of-all-subset-xor-totals/",
 		difficulty = Difficulty.EASY
 )
-public class SumOfAllSubsetXORTotals
-{
-	public int subsetXORSum(int[] nums)
-	{
+public class SumOfAllSubsetXORTotals {
+	public int subsetXORSum(int[] nums) {
 		List<List<Integer>> powerSet = new ArrayList<>();
 		powerSet.add(new ArrayList<>());
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			int size = powerSet.size();
-			for (int i = 0; i < size; i++)
-			{
+			for (int i = 0; i < size; i++) {
 				List<Integer> set = new ArrayList<>(powerSet.get(i));
 				set.add(num);
 				powerSet.add(set);
@@ -34,11 +30,9 @@ public class SumOfAllSubsetXORTotals
 		}
 
 		int sum = 0;
-		for (List<Integer> sub : powerSet)
-		{
+		for (List<Integer> sub : powerSet) {
 			int xor = 0;
-			for (int val : sub)
-			{
+			for (int val : sub) {
 				xor ^= val;
 			}
 

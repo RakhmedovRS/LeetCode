@@ -18,37 +18,29 @@ import java.util.function.Consumer;
 		url = "https://leetcode.com/problems/permutations-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class PermutationsII
-{
-	class Trie
-	{
+public class PermutationsII {
+	class Trie {
 		Trie[] children = new Trie[21];
 	}
 
-	public List<List<Integer>> permuteUnique(int[] nums)
-	{
+	public List<List<Integer>> permuteUnique(int[] nums) {
 		List<List<Integer>> answer = new ArrayList<>();
 		Trie root = new Trie();
 		permute(0, nums, new LinkedList<>(), root, answer::add);
 		return answer;
 	}
 
-	private void permute(int used, int[] nums, LinkedList<Integer> current, Trie root, Consumer<List<Integer>> consumer)
-	{
-		if (current.size() == nums.length)
-		{
-			if (addToTrie(root, current))
-			{
+	private void permute(int used, int[] nums, LinkedList<Integer> current, Trie root, Consumer<List<Integer>> consumer) {
+		if (current.size() == nums.length) {
+			if (addToTrie(root, current)) {
 				consumer.accept(new ArrayList<>(current));
 			}
 
 			return;
 		}
 
-		for (int i = 0; i < nums.length; i++)
-		{
-			if ((used & (1 << i)) == 0)
-			{
+		for (int i = 0; i < nums.length; i++) {
+			if ((used & (1 << i)) == 0) {
 				current.addLast(nums[i]);
 				permute(used ^ (1 << i), nums, current, root, consumer);
 				current.removeLast();
@@ -56,13 +48,10 @@ public class PermutationsII
 		}
 	}
 
-	private boolean addToTrie(Trie root, LinkedList<Integer> current)
-	{
+	private boolean addToTrie(Trie root, LinkedList<Integer> current) {
 		boolean added = false;
-		for (int val : current)
-		{
-			if (root.children[val + 10] == null)
-			{
+		for (int val : current) {
+			if (root.children[val + 10] == null) {
 				added = true;
 				root.children[val + 10] = new Trie();
 			}

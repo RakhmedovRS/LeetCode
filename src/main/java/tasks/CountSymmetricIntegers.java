@@ -15,33 +15,26 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/count-symmetric-integers/",
 		difficulty = Difficulty.EASY
 )
-public class CountSymmetricIntegers
-{
-	public int countSymmetricIntegers(int low, int high)
-	{
+public class CountSymmetricIntegers {
+	public int countSymmetricIntegers(int low, int high) {
 		int count = 0;
-		while (low <= high)
-		{
+		while (low <= high) {
 			LinkedList<Integer> list = new LinkedList<>();
 			int tmp = low;
-			while (tmp > 0)
-			{
+			while (tmp > 0) {
 				list.addFirst(tmp % 10);
 				tmp /= 10;
 			}
 
-			if (list.size() % 2 == 0)
-			{
+			if (list.size() % 2 == 0) {
 				int left = 0;
 				int right = 0;
 				int size = list.size();
-				for (int i = 0; i < size / 2; i++)
-				{
+				for (int i = 0; i < size / 2; i++) {
 					left += list.removeFirst();
 				}
 
-				while (!list.isEmpty())
-				{
+				while (!list.isEmpty()) {
 					right += list.removeFirst();
 				}
 

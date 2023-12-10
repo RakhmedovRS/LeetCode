@@ -15,44 +15,36 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/min-stack/",
 		difficulty = Difficulty.EASY
 )
-class MinStack
-{
+class MinStack {
 
 	LinkedList<Integer> stack;
 	LinkedList<Integer> mStack;
 
-	public MinStack()
-	{
+	public MinStack() {
 		stack = new LinkedList<>();
 		mStack = new LinkedList<>();
 	}
 
-	public void push(int val)
-	{
-		if (!mStack.isEmpty())
-		{
+	public void push(int val) {
+		if (!mStack.isEmpty()) {
 			mStack.addLast(Math.min(mStack.getLast(), val));
 		}
-		else
-		{
+		else {
 			mStack.addLast(val);
 		}
 		stack.addLast(val);
 	}
 
-	public void pop()
-	{
+	public void pop() {
 		stack.removeLast();
 		mStack.removeLast();
 	}
 
-	public int top()
-	{
+	public int top() {
 		return stack.getLast();
 	}
 
-	public int getMin()
-	{
+	public int getMin() {
 		return mStack.getLast();
 	}
 }

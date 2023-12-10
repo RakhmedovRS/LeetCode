@@ -19,29 +19,24 @@ import java.util.TreeSet;
 		url = "https://leetcode.com/problems/design-a-food-rating-system/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DesignFoodRatingSystem
-{
-	class FoodRatings
-	{
+public class DesignFoodRatingSystem {
+	class FoodRatings {
 		Map<String, String> foodToCuisine;
 		Map<String, Integer> foodToRating;
 		Map<String, TreeSet<String>> rating;
 
-		public FoodRatings(String[] foods, String[] cuisines, int[] ratings)
-		{
+		public FoodRatings(String[] foods, String[] cuisines, int[] ratings) {
 			foodToCuisine = new HashMap<>();
 			foodToRating = new HashMap<>();
 			rating = new HashMap<>();
 
-			for (int i = 0; i < foods.length; i++)
-			{
+			for (int i = 0; i < foods.length; i++) {
 				foodToCuisine.put(foods[i], cuisines[i]);
 				foodToRating.put(foods[i], ratings[i]);
 
 				rating.putIfAbsent(cuisines[i], new TreeSet<>((a, b) ->
 				{
-					if (foodToRating.getOrDefault(a, 0).equals(foodToRating.getOrDefault(b, 0)))
-					{
+					if (foodToRating.getOrDefault(a, 0).equals(foodToRating.getOrDefault(b, 0))) {
 						return a.compareTo(b);
 					}
 
@@ -53,16 +48,14 @@ public class DesignFoodRatingSystem
 
 		}
 
-		public void changeRating(String food, int newRating)
-		{
+		public void changeRating(String food, int newRating) {
 			String cuisine = foodToCuisine.get(food);
 			rating.get(cuisine).remove(food);
 			foodToRating.put(food, newRating);
 			rating.get(cuisine).add(food);
 		}
 
-		public String highestRated(String cuisine)
-		{
+		public String highestRated(String cuisine) {
 			return rating.get(cuisine).first();
 		}
 	}

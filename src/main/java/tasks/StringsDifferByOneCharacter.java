@@ -14,27 +14,21 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class StringsDifferByOneCharacter
-{
-	class Trie
-	{
+public class StringsDifferByOneCharacter {
+	class Trie {
 		Trie[] children = new Trie[26];
 	}
 
-	public boolean differByOne(String[] dict)
-	{
+	public boolean differByOne(String[] dict) {
 		Trie root = new Trie();
 
 		char[] word;
-		for (int i = 0; i < dict.length; i++)
-		{
+		for (int i = 0; i < dict.length; i++) {
 			word = dict[i].toCharArray();
-			if (findWord(root, false, word, 0))
-			{
+			if (findWord(root, false, word, 0)) {
 				return true;
 			}
-			else
-			{
+			else {
 				addToTrie(root, word);
 			}
 		}
@@ -42,39 +36,28 @@ public class StringsDifferByOneCharacter
 		return false;
 	}
 
-	private boolean findWord(Trie root, boolean seenMismatch, char[] word, int wordPos)
-	{
-		if (wordPos == word.length)
-		{
+	private boolean findWord(Trie root, boolean seenMismatch, char[] word, int wordPos) {
+		if (wordPos == word.length) {
 			return true;
 		}
 
-		if (root.children[word[wordPos] - 'a'] == null)
-		{
-			if (!seenMismatch)
-			{
-				for (Trie child : root.children)
-				{
-					if (child != null && findWord(child, true, word, wordPos + 1))
-					{
+		if (root.children[word[wordPos] - 'a'] == null) {
+			if (!seenMismatch) {
+				for (Trie child : root.children) {
+					if (child != null && findWord(child, true, word, wordPos + 1)) {
 						return true;
 					}
 				}
 			}
 			return false;
 		}
-		else
-		{
-			if (findWord(root.children[word[wordPos] - 'a'], seenMismatch, word, wordPos + 1))
-			{
+		else {
+			if (findWord(root.children[word[wordPos] - 'a'], seenMismatch, word, wordPos + 1)) {
 				return true;
 			}
-			else if (!seenMismatch)
-			{
-				for (Trie child : root.children)
-				{
-					if (child != null && findWord(child, true, word, wordPos + 1))
-					{
+			else if (!seenMismatch) {
+				for (Trie child : root.children) {
+					if (child != null && findWord(child, true, word, wordPos + 1)) {
 						return true;
 					}
 				}
@@ -84,12 +67,9 @@ public class StringsDifferByOneCharacter
 		}
 	}
 
-	private void addToTrie(Trie root, char[] word)
-	{
-		for (char ch : word)
-		{
-			if (root.children[ch - 'a'] == null)
-			{
+	private void addToTrie(Trie root, char[] word) {
+		for (char ch : word) {
+			if (root.children[ch - 'a'] == null) {
 				root.children[ch - 'a'] = new Trie();
 			}
 
@@ -97,8 +77,7 @@ public class StringsDifferByOneCharacter
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new StringsDifferByOneCharacter().differByOne(new String[]{"abcde", "abaaa", "aaade"}));
 		System.out.println(new StringsDifferByOneCharacter().differByOne(new String[]{"abcd", "cccc", "abyd", "abab"}));
 		System.out.println(new StringsDifferByOneCharacter().differByOne(new String[]{"ab", "cd", "yz"}));

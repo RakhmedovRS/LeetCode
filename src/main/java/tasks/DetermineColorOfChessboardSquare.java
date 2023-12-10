@@ -13,16 +13,12 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/determine-color-of-a-chessboard-square/",
 		difficulty = Difficulty.EASY
 )
-public class DetermineColorOfChessboardSquare
-{
-	public boolean squareIsWhite(String coordinates)
-	{
-		if ((coordinates.charAt(0) - 'a') % 2 == 0)
-		{
+public class DetermineColorOfChessboardSquare {
+	public boolean squareIsWhite(String coordinates) {
+		if ((coordinates.charAt(0) - 'a') % 2 == 0) {
 			return (coordinates.charAt(1) - '0') % 2 == 0;
 		}
-		else
-		{
+		else {
 			return (coordinates.charAt(1) - '0') % 2 != 0;
 		}
 	}

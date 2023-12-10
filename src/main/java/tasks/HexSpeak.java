@@ -14,29 +14,22 @@ import common.LeetCode;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class HexSpeak
-{
-	public String toHexspeak(String num)
-	{
+public class HexSpeak {
+	public String toHexspeak(String num) {
 		String hex = Long.toHexString(Long.parseLong(num));
 
 		StringBuilder sb = new StringBuilder();
-		for (char ch : hex.toCharArray())
-		{
-			if (ch == '0')
-			{
+		for (char ch : hex.toCharArray()) {
+			if (ch == '0') {
 				sb.append('O');
 			}
-			else if (ch == '1')
-			{
+			else if (ch == '1') {
 				sb.append('I');
 			}
-			else if (Character.isDigit(ch))
-			{
+			else if (Character.isDigit(ch)) {
 				return "ERROR";
 			}
-			else
-			{
+			else {
 				sb.append(Character.toUpperCase(ch));
 			}
 		}
@@ -44,8 +37,7 @@ public class HexSpeak
 		return sb.toString();
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new HexSpeak().toHexspeak("619879596177"));
 		System.out.println(new HexSpeak().toHexspeak("257"));
 		System.out.println(new HexSpeak().toHexspeak("3"));

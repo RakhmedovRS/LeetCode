@@ -15,57 +15,44 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/shifting-letters-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ShiftingLettersII
-{
-	public String shiftingLetters(String s, int[][] shifts)
-	{
+public class ShiftingLettersII {
+	public String shiftingLetters(String s, int[][] shifts) {
 		char[] chars = s.toCharArray();
 		int[] shiftArr = new int[chars.length];
-		for (int[] shift : shifts)
-		{
+		for (int[] shift : shifts) {
 			int start = shift[0];
 			int end = shift[1];
 			int dir = shift[2] == 1 ? 1 : -1;
 
 			shiftArr[start] += dir;
-			if (end + 1 < shiftArr.length)
-			{
+			if (end + 1 < shiftArr.length) {
 				shiftArr[end + 1] += dir * -1;
 			}
 		}
 
-		for (int i = 1; i < shiftArr.length; i++)
-		{
+		for (int i = 1; i < shiftArr.length; i++) {
 			shiftArr[i] += shiftArr[i - 1];
 		}
 
 
-		for (int i = 0; i < shiftArr.length; i++)
-		{
+		for (int i = 0; i < shiftArr.length; i++) {
 			shiftArr[i] %= 26;
 			char ch = chars[i];
-			while (shiftArr[i] != 0)
-			{
-				if (shiftArr[i] < 0)
-				{
-					if (ch == 'a')
-					{
+			while (shiftArr[i] != 0) {
+				if (shiftArr[i] < 0) {
+					if (ch == 'a') {
 						ch = 'z';
 					}
-					else
-					{
+					else {
 						ch--;
 					}
 					shiftArr[i]++;
 				}
-				else
-				{
-					if (ch == 'z')
-					{
+				else {
+					if (ch == 'z') {
 						ch = 'a';
 					}
-					else
-					{
+					else {
 						ch++;
 					}
 					shiftArr[i]--;

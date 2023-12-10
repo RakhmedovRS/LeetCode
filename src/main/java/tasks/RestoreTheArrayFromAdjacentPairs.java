@@ -17,45 +17,36 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/",
 		difficulty = Difficulty.MEDIUM
 )
-public class RestoreTheArrayFromAdjacentPairs
-{
-	class Link
-	{
+public class RestoreTheArrayFromAdjacentPairs {
+	class Link {
 		Link left;
 		Link right;
 		int value;
 
-		public Link(int value)
-		{
+		public Link(int value) {
 			this.value = value;
 		}
 	}
 
-	public int[] restoreArray(int[][] adjacentPairs)
-	{
+	public int[] restoreArray(int[][] adjacentPairs) {
 		Map<Integer, Link> map = new HashMap<>();
 		Link aLink;
 		Link bLink;
-		for (int[] pair : adjacentPairs)
-		{
+		for (int[] pair : adjacentPairs) {
 			aLink = map.getOrDefault(pair[0], new Link(pair[0]));
 			bLink = map.getOrDefault(pair[1], new Link(pair[1]));
 
-			if (aLink.right == null)
-			{
+			if (aLink.right == null) {
 				aLink.right = bLink;
 			}
-			else
-			{
+			else {
 				aLink.left = bLink;
 			}
 
-			if (bLink.left == null)
-			{
+			if (bLink.left == null) {
 				bLink.left = aLink;
 			}
-			else
-			{
+			else {
 				bLink.right = aLink;
 			}
 
@@ -65,23 +56,18 @@ public class RestoreTheArrayFromAdjacentPairs
 
 		int pos = 0;
 		int[] answer = new int[adjacentPairs.length + 1];
-		for (Map.Entry<Integer, Link> entry : map.entrySet())
-		{
-			if (entry.getValue().left == null || entry.getValue().right == null)
-			{
+		for (Map.Entry<Integer, Link> entry : map.entrySet()) {
+			if (entry.getValue().left == null || entry.getValue().right == null) {
 				Link prev = entry.getValue();
 				Link current = prev.left == null ? prev.right : prev.left;
 				answer[pos++] = prev.value;
-				while (current != null)
-				{
+				while (current != null) {
 					answer[pos++] = current.value;
-					if (current.left != null && current.left == prev)
-					{
+					if (current.left != null && current.left == prev) {
 						prev = current;
 						current = current.right;
 					}
-					else
-					{
+					else {
 						prev = current;
 						current = current.left;
 					}
@@ -96,8 +82,7 @@ public class RestoreTheArrayFromAdjacentPairs
 		return answer;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		RestoreTheArrayFromAdjacentPairs clazz = new RestoreTheArrayFromAdjacentPairs();
 		System.out.println(Arrays.toString(clazz.restoreArray(new int[][]
 				{

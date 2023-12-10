@@ -16,32 +16,26 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/",
 		difficulty = Difficulty.MEDIUM
 )
-public class NumberOfWaysToReachPositionAfterExactlyKSteps
-{
+public class NumberOfWaysToReachPositionAfterExactlyKSteps {
 	int MOD = 1_000_000_007;
 
-	public int numberOfWays(int startPos, int endPos, int k)
-	{
+	public int numberOfWays(int startPos, int endPos, int k) {
 		Map<Integer, Map<Integer, Long>> memo = new HashMap<>();
 		dfs(startPos, endPos, k, memo);
 		return (int) (memo.get(startPos).get(k) % MOD);
 	}
 
-	private long dfs(int pos, int endPos, int k, Map<Integer, Map<Integer, Long>> memo)
-	{
-		if (k < 0)
-		{
+	private long dfs(int pos, int endPos, int k, Map<Integer, Map<Integer, Long>> memo) {
+		if (k < 0) {
 			return 0;
 		}
 
-		if (k == 0)
-		{
+		if (k == 0) {
 			return pos == endPos ? 1 : 0;
 		}
 
 		memo.putIfAbsent(pos, new HashMap<>());
-		if (memo.get(pos).containsKey(k))
-		{
+		if (memo.get(pos).containsKey(k)) {
 			return memo.get(pos).get(k);
 		}
 

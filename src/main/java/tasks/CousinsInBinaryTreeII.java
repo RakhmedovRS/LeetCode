@@ -17,10 +17,8 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/cousins-in-binary-tree-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CousinsInBinaryTreeII
-{
-	public TreeNode replaceValueInTree(TreeNode root)
-	{
+public class CousinsInBinaryTreeII {
+	public TreeNode replaceValueInTree(TreeNode root) {
 		Map<Integer, Integer> levels = new HashMap<>();
 		Map<TreeNode, TreeNode> parents = new HashMap<>();
 		TreeNode clone = cloneTree(root);
@@ -29,28 +27,22 @@ public class CousinsInBinaryTreeII
 		return root;
 	}
 
-	private void dfs2(int level, TreeNode root, TreeNode clone, Map<Integer, Integer> levels, Map<TreeNode, TreeNode> parents)
-	{
-		if (root == null)
-		{
+	private void dfs2(int level, TreeNode root, TreeNode clone, Map<Integer, Integer> levels, Map<TreeNode, TreeNode> parents) {
+		if (root == null) {
 			return;
 		}
 
 		int levelSum = levels.getOrDefault(level, 0);
 		TreeNode parent = parents.get(clone);
-		if (parent == null)
-		{
+		if (parent == null) {
 			levelSum -= clone.val;
 		}
-		else
-		{
-			if (parent.left != null)
-			{
+		else {
+			if (parent.left != null) {
 				levelSum -= parent.left.val;
 			}
 
-			if (parent.right != null)
-			{
+			if (parent.right != null) {
 				levelSum -= parent.right.val;
 			}
 		}
@@ -61,10 +53,8 @@ public class CousinsInBinaryTreeII
 		dfs2(level + 1, root.right, clone.right, levels, parents);
 	}
 
-	private TreeNode cloneTree(TreeNode root)
-	{
-		if (root == null)
-		{
+	private TreeNode cloneTree(TreeNode root) {
+		if (root == null) {
 			return null;
 		}
 
@@ -74,10 +64,8 @@ public class CousinsInBinaryTreeII
 		return newNode;
 	}
 
-	private void dfs(int level, TreeNode prev, TreeNode root, Map<Integer, Integer> levels, Map<TreeNode, TreeNode> parents)
-	{
-		if (root == null)
-		{
+	private void dfs(int level, TreeNode prev, TreeNode root, Map<Integer, Integer> levels, Map<TreeNode, TreeNode> parents) {
+		if (root == null) {
 			return;
 		}
 

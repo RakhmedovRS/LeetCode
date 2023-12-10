@@ -16,47 +16,36 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/validate-ip-address/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ValidateIPAddress
-{
-	public String validIPAddress(String IP)
-	{
-		if (isIPV4(IP))
-		{
+public class ValidateIPAddress {
+	public String validIPAddress(String IP) {
+		if (isIPV4(IP)) {
 			return "IPv4";
 		}
-		else if (isIPV6(IP))
-		{
+		else if (isIPV6(IP)) {
 			return "IPv6";
 		}
-		else
-		{
+		else {
 			return "Neither";
 		}
 	}
 
-	private boolean isIPV4(String ip)
-	{
-		if (countOfChar(ip, '.') != 3)
-		{
+	private boolean isIPV4(String ip) {
+		if (countOfChar(ip, '.') != 3) {
 			return false;
 		}
 
 		String[] parts = ip.split("\\.");
-		if (parts.length != 4)
-		{
+		if (parts.length != 4) {
 			return false;
 		}
 
 		Set<String> valid = new HashSet<>();
-		for (int i = 0; i < 256; i++)
-		{
+		for (int i = 0; i < 256; i++) {
 			valid.add("" + i);
 		}
 
-		for (String part : parts)
-		{
-			if (!valid.contains(part))
-			{
+		for (String part : parts) {
+			if (!valid.contains(part)) {
 				return false;
 			}
 		}
@@ -64,31 +53,24 @@ public class ValidateIPAddress
 		return true;
 	}
 
-	private boolean isIPV6(String ip)
-	{
-		if (countOfChar(ip, ':') != 7)
-		{
+	private boolean isIPV6(String ip) {
+		if (countOfChar(ip, ':') != 7) {
 			return false;
 		}
 
 		String[] parts = ip.split(":");
-		if (parts.length != 8)
-		{
+		if (parts.length != 8) {
 			return false;
 		}
 
-		for (String part : parts)
-		{
-			if (part.isEmpty() || part.length() > 4)
-			{
+		for (String part : parts) {
+			if (part.isEmpty() || part.length() > 4) {
 				return false;
 			}
 
-			for (int i = 0; i < part.length(); i++)
-			{
+			for (int i = 0; i < part.length(); i++) {
 				char ch = Character.toLowerCase(part.charAt(i));
-				if (ch < '0' || ch > 'f')
-				{
+				if (ch < '0' || ch > 'f') {
 					return false;
 				}
 			}
@@ -97,13 +79,10 @@ public class ValidateIPAddress
 		return true;
 	}
 
-	private int countOfChar(String ip, char ch)
-	{
+	private int countOfChar(String ip, char ch) {
 		int count = 0;
-		for (int i = 0; i < ip.length(); i++)
-		{
-			if (ip.charAt(i) == ch)
-			{
+		for (int i = 0; i < ip.length(); i++) {
+			if (ip.charAt(i) == ch) {
 				count++;
 			}
 		}

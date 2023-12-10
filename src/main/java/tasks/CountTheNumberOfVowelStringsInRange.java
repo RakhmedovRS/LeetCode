@@ -16,10 +16,8 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/",
 		difficulty = Difficulty.EASY
 )
-public class CountTheNumberOfVowelStringsInRange
-{
-	public int vowelStrings(String[] words, int left, int right)
-	{
+public class CountTheNumberOfVowelStringsInRange {
+	public int vowelStrings(String[] words, int left, int right) {
 		Set<Character> vowels = new HashSet<>();
 		vowels.add('a');
 		vowels.add('e');
@@ -28,10 +26,8 @@ public class CountTheNumberOfVowelStringsInRange
 		vowels.add('u');
 
 		int count = 0;
-		while (left <= right)
-		{
-			if (vowels.contains(words[left].charAt(0)) && vowels.contains(words[left].charAt(words[left].length() - 1)))
-			{
+		while (left <= right) {
+			if (vowels.contains(words[left].charAt(0)) && vowels.contains(words[left].charAt(words[left].length() - 1))) {
 				count++;
 			}
 

@@ -17,34 +17,27 @@ import java.util.List;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class ArrayTransformation
-{
-	public List<Integer> transformArray(int[] arr)
-	{
+public class ArrayTransformation {
+	public List<Integer> transformArray(int[] arr) {
 		List<Integer> answer = new ArrayList<>();
 		boolean changed = true;
 		int add;
 		int n = arr.length;
-		while (changed)
-		{
+		while (changed) {
 			changed = false;
 			add = 0;
-			for (int i = 1; i < n - 1; i++)
-			{
-				if (arr[i - 1] < arr[i] && arr[i] > arr[i + 1])
-				{
+			for (int i = 1; i < n - 1; i++) {
+				if (arr[i - 1] < arr[i] && arr[i] > arr[i + 1]) {
 					changed = true;
 					arr[i - 1] += add;
 					add = -1;
 				}
-				else if (arr[i - 1] > arr[i] && arr[i] < arr[i + 1])
-				{
+				else if (arr[i - 1] > arr[i] && arr[i] < arr[i + 1]) {
 					changed = true;
 					arr[i - 1] += add;
 					add = 1;
 				}
-				else
-				{
+				else {
 					arr[i - 1] += add;
 					add = 0;
 				}
@@ -53,16 +46,14 @@ public class ArrayTransformation
 			arr[n - 2] += add;
 		}
 
-		for (int num : arr)
-		{
+		for (int num : arr) {
 			answer.add(num);
 		}
 
 		return answer;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		ArrayTransformation clazz = new ArrayTransformation();
 		System.out.println(clazz.transformArray(new int[]{1, 6, 3, 4, 3, 5}));
 		System.out.println(clazz.transformArray(new int[]{2, 1, 2, 1, 1, 2, 2, 1}));

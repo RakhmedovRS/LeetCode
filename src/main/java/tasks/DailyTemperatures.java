@@ -3,7 +3,6 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.Deque;
 import java.util.LinkedList;
 
 /**
@@ -16,16 +15,12 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/daily-temperatures/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DailyTemperatures
-{
-	public int[] dailyTemperatures(int[] temperatures)
-	{
+public class DailyTemperatures {
+	public int[] dailyTemperatures(int[] temperatures) {
 		int[] answer = new int[temperatures.length];
 		LinkedList<Integer> list = new LinkedList<>();
-		for (int i = 0; i < temperatures.length; i++)
-		{
-			while (!list.isEmpty() && temperatures[i] > temperatures[list.getLast()])
-			{
+		for (int i = 0; i < temperatures.length; i++) {
+			while (!list.isEmpty() && temperatures[i] > temperatures[list.getLast()]) {
 				int prev = list.removeLast();
 				answer[prev] = i - prev;
 			}

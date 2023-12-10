@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/airplane-seat-assignment-probability/",
 		difficulty = Difficulty.MEDIUM
 )
-public class AirplaneSeatAssignmentProbability
-{
-	public double nthPersonGetsNthSeat(int n)
-	{
+public class AirplaneSeatAssignmentProbability {
+	public double nthPersonGetsNthSeat(int n) {
 		return n == 0 ? 0 : n == 1 ? 1D : 0.5D;
 	}
 }

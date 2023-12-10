@@ -16,14 +16,10 @@ import java.util.LinkedList;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class ReadNCharactersGivenRead4
-{
-	class Reader4
-	{
-		int read4(char[] buf4)
-		{
-			for (int i = 0; i < 4; i++)
-			{
+public class ReadNCharactersGivenRead4 {
+	class Reader4 {
+		int read4(char[] buf4) {
+			for (int i = 0; i < 4; i++) {
 				buf4[i] = (char) ('a' + i);
 			}
 
@@ -31,8 +27,7 @@ public class ReadNCharactersGivenRead4
 		}
 	}
 
-	class Solution extends Reader4
-	{
+	class Solution extends Reader4 {
 		LinkedList<Character> buffer = new LinkedList<>();
 
 		/**
@@ -40,24 +35,19 @@ public class ReadNCharactersGivenRead4
 		 * @param n   Number of characters to read
 		 * @return The number of actual characters read
 		 */
-		public int read(char[] buf, int n)
-		{
+		public int read(char[] buf, int n) {
 			int count = 0;
 			int r4;
 			char[] arr4 = new char[4];
-			for (int i = 0; i < n; i++)
-			{
-				if (buffer.isEmpty())
-				{
+			for (int i = 0; i < n; i++) {
+				if (buffer.isEmpty()) {
 					r4 = read4(arr4);
-					for (int j = 0; j < r4; j++)
-					{
+					for (int j = 0; j < r4; j++) {
 						buffer.addLast(arr4[j]);
 					}
 				}
 
-				if (buffer.isEmpty())
-				{
+				if (buffer.isEmpty()) {
 					break;
 				}
 
@@ -69,8 +59,7 @@ public class ReadNCharactersGivenRead4
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		char[] buf = new char[4];
 		new ReadNCharactersGivenRead4().new Solution().read(buf, 4);
 		System.out.println(String.valueOf(buf));

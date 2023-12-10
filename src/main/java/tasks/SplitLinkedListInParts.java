@@ -16,13 +16,10 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/split-linked-list-in-parts/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SplitLinkedListInParts
-{
-	public ListNode[] splitListToParts(ListNode head, int k)
-	{
+public class SplitLinkedListInParts {
+	public ListNode[] splitListToParts(ListNode head, int k) {
 		LinkedList<ListNode> nodes = new LinkedList<>();
-		while (head != null)
-		{
+		while (head != null) {
 			nodes.addLast(head);
 			head = head.next;
 		}
@@ -31,19 +28,16 @@ public class SplitLinkedListInParts
 		int rest = nodes.size() % k;
 
 		ListNode[] asnwer = new ListNode[k];
-		for (int pos = 0; pos < asnwer.length; pos++)
-		{
+		for (int pos = 0; pos < asnwer.length; pos++) {
 			ListNode dummy = new ListNode();
 			ListNode prev = dummy;
-			for (int i = 0; i < parts; i++)
-			{
+			for (int i = 0; i < parts; i++) {
 				prev.next = nodes.removeFirst();
 				prev = prev.next;
 				prev.next = null;
 			}
 
-			if (rest > 0)
-			{
+			if (rest > 0) {
 				prev.next = nodes.removeFirst();
 				prev = prev.next;
 				prev.next = null;
@@ -56,8 +50,7 @@ public class SplitLinkedListInParts
 		return asnwer;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		ListNode root = new ListNode(1);
 		root.next = new ListNode(2);
 		root.next.next = new ListNode(3);

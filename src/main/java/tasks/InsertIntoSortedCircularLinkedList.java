@@ -17,63 +17,50 @@ import java.util.Set;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class InsertIntoSortedCircularLinkedList
-{
-	class Node
-	{
+public class InsertIntoSortedCircularLinkedList {
+	class Node {
 		public int val;
 		public Node next;
 
-		public Node()
-		{
+		public Node() {
 		}
 
-		public Node(int _val)
-		{
+		public Node(int _val) {
 			val = _val;
 		}
 
-		public Node(int _val, Node _next)
-		{
+		public Node(int _val, Node _next) {
 			val = _val;
 			next = _next;
 		}
 	}
 
-	public Node insert(Node head, int insertVal)
-	{
+	public Node insert(Node head, int insertVal) {
 		Node node = new Node(insertVal);
-		if (head == null)
-		{
+		if (head == null) {
 			node.next = node;
 			return node;
 		}
 
 		Node current;
 		Node maxNode;
-		if (head == head.next)
-		{
+		if (head == head.next) {
 			current = head;
 			maxNode = head;
 		}
-		else
-		{
+		else {
 			Node[] minMaxNodes = findMinMaxNodes(head);
 			current = minMaxNodes[0];
 			maxNode = minMaxNodes[1];
 		}
 
-		if (insertVal < current.val || insertVal > maxNode.val)
-		{
+		if (insertVal < current.val || insertVal > maxNode.val) {
 			maxNode.next = node;
 			node.next = current;
 		}
-		else
-		{
-			while (true)
-			{
-				if (current.val <= insertVal && insertVal <= current.next.val)
-				{
+		else {
+			while (true) {
+				if (current.val <= insertVal && insertVal <= current.next.val) {
 					Node next = current.next;
 
 					current.next = node;
@@ -88,13 +75,11 @@ public class InsertIntoSortedCircularLinkedList
 		return head;
 	}
 
-	private Node[] findMinMaxNodes(Node node)
-	{
+	private Node[] findMinMaxNodes(Node node) {
 		Node prev = node;
 		Node curr = node.next;
 		Set<Node> seen = new HashSet<>();
-		while (prev.val <= curr.val && seen.add(curr))
-		{
+		while (prev.val <= curr.val && seen.add(curr)) {
 			prev = curr;
 			curr = curr.next;
 		}
@@ -102,8 +87,7 @@ public class InsertIntoSortedCircularLinkedList
 		return new Node[]{curr, prev};
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		InsertIntoSortedCircularLinkedList clazz = new InsertIntoSortedCircularLinkedList();
 
 		Node head = clazz.new Node(1);

@@ -15,26 +15,20 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/find-the-maximum-divisibility-score/",
 		difficulty = Difficulty.EASY
 )
-public class FindTheMaximumDivisibilityScore
-{
-	public int maxDivScore(int[] nums, int[] divisors)
-	{
+public class FindTheMaximumDivisibilityScore {
+	public int maxDivScore(int[] nums, int[] divisors) {
 		Arrays.sort(divisors);
 		int max = 0;
 		int div = divisors[0];
-		for (int divis : divisors)
-		{
+		for (int divis : divisors) {
 			int curr = 0;
-			for (int num : nums)
-			{
-				if (num % divis == 0)
-				{
+			for (int num : nums) {
+				if (num % divis == 0) {
 					curr++;
 				}
 			}
 
-			if (curr > max)
-			{
+			if (curr > max) {
 				max = curr;
 				div = divis;
 			}

@@ -13,24 +13,18 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/max-area-of-island/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaxAreaOfIsland
-{
-	public int maxAreaOfIsland(int[][] grid)
-	{
+public class MaxAreaOfIsland {
+	public int maxAreaOfIsland(int[][] grid) {
 		int rows = grid.length;
-		if (rows == 0)
-		{
+		if (rows == 0) {
 			return 0;
 		}
 		int columns = grid[0].length;
 
 		int max = 0;
-		for (int row = 0; row < rows; row++)
-		{
-			for (int column = 0; column < columns; column++)
-			{
-				if (grid[row][column] == 1)
-				{
+		for (int row = 0; row < rows; row++) {
+			for (int column = 0; column < columns; column++) {
+				if (grid[row][column] == 1) {
 					max = Math.max(max, dfs(row, column, rows, columns, grid));
 				}
 			}
@@ -39,10 +33,8 @@ public class MaxAreaOfIsland
 		return max;
 	}
 
-	private int dfs(int row, int column, int rows, int columns, int[][] grid)
-	{
-		if (row < 0 || row == rows || column < 0 || column == columns || grid[row][column] == 0)
-		{
+	private int dfs(int row, int column, int rows, int columns, int[][] grid) {
+		if (row < 0 || row == rows || column < 0 || column == columns || grid[row][column] == 0) {
 			return 0;
 		}
 

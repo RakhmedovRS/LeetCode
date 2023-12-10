@@ -16,13 +16,10 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DeleteTheMiddleNodeOfLinkedList
-{
-	public ListNode deleteMiddle(ListNode head)
-	{
+public class DeleteTheMiddleNodeOfLinkedList {
+	public ListNode deleteMiddle(ListNode head) {
 		LinkedList<ListNode> list = new LinkedList<>();
-		while (head != null)
-		{
+		while (head != null) {
 			list.add(head);
 			ListNode next = head.next;
 			head.next = null;
@@ -32,8 +29,7 @@ public class DeleteTheMiddleNodeOfLinkedList
 		ListNode dummy = new ListNode();
 		ListNode current = dummy;
 		list.remove(list.size() / 2);
-		while (!list.isEmpty())
-		{
+		while (!list.isEmpty()) {
 			current.next = list.removeFirst();
 			current = current.next;
 		}

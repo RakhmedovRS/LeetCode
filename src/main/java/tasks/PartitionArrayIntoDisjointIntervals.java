@@ -15,27 +15,21 @@ import java.util.TreeMap;
 		url = "https://leetcode.com/problems/partition-array-into-disjoint-intervals/",
 		difficulty = Difficulty.MEDIUM
 )
-public class PartitionArrayIntoDisjointIntervals
-{
-	public int partitionDisjoint(int[] nums)
-	{
+public class PartitionArrayIntoDisjointIntervals {
+	public int partitionDisjoint(int[] nums) {
 		TreeMap<Integer, Integer> map = new TreeMap<>();
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			map.put(num, map.getOrDefault(num, 0) + 1);
 		}
 
 		Integer max = null;
-		for (int i = 0; i < nums.length; i++)
-		{
-			if (max != null && max <= map.firstKey())
-			{
+		for (int i = 0; i < nums.length; i++) {
+			if (max != null && max <= map.firstKey()) {
 				return i;
 			}
 
 			int count = map.remove(nums[i]);
-			if (--count > 0)
-			{
+			if (--count > 0) {
 				map.put(nums[i], count);
 			}
 

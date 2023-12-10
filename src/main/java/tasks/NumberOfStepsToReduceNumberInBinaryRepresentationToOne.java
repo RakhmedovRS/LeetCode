@@ -15,46 +15,35 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/",
 		difficulty = Difficulty.MEDIUM
 )
-public class NumberOfStepsToReduceNumberInBinaryRepresentationToOne
-{
-	public int numSteps(String s)
-	{
+public class NumberOfStepsToReduceNumberInBinaryRepresentationToOne {
+	public int numSteps(String s) {
 		int steps = 0;
 		LinkedList<Boolean> binaryRepresentation = new LinkedList<>();
-		for (char ch : s.toCharArray())
-		{
+		for (char ch : s.toCharArray()) {
 			binaryRepresentation.addFirst(ch == '1');
 		}
 
-		while (binaryRepresentation.size() != 1)
-		{
-			if (!binaryRepresentation.getFirst())
-			{
+		while (binaryRepresentation.size() != 1) {
+			if (!binaryRepresentation.getFirst()) {
 				binaryRepresentation.removeFirst();
 			}
-			else
-			{
+			else {
 				LinkedList<Boolean> list = new LinkedList<>();
 				boolean hasRest = true;
-				for (boolean bit : binaryRepresentation)
-				{
-					if (bit && hasRest)
-					{
+				for (boolean bit : binaryRepresentation) {
+					if (bit && hasRest) {
 						list.add(false);
 					}
-					else if (bit || hasRest)
-					{
+					else if (bit || hasRest) {
 						list.add(true);
 						hasRest = false;
 					}
-					else
-					{
+					else {
 						list.add(false);
 					}
 				}
 
-				if (hasRest)
-				{
+				if (hasRest) {
 					list.add(true);
 				}
 				binaryRepresentation = list;
@@ -65,8 +54,7 @@ public class NumberOfStepsToReduceNumberInBinaryRepresentationToOne
 		return steps;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new NumberOfStepsToReduceNumberInBinaryRepresentationToOne().numSteps("1101"));
 		System.out.println(new NumberOfStepsToReduceNumberInBinaryRepresentationToOne().numSteps("10"));
 	}

@@ -15,37 +15,29 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/",
 		difficulty = Difficulty.EASY
 )
-public class MinimumAmountOfTimeToFillCups
-{
-	public int fillCups(int[] amount)
-	{
+public class MinimumAmountOfTimeToFillCups {
+	public int fillCups(int[] amount) {
 		int sec = 0;
 		PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> amount[b] - amount[a]);
-		for (int i = 0; i < 3; i++)
-		{
-			if (amount[i] > 0)
-			{
+		for (int i = 0; i < 3; i++) {
+			if (amount[i] > 0) {
 				pq.add(i);
 			}
 		}
 
-		while (!pq.isEmpty())
-		{
+		while (!pq.isEmpty()) {
 			int a = pq.remove();
 			amount[a]--;
 
-			if (!pq.isEmpty())
-			{
+			if (!pq.isEmpty()) {
 				int b = pq.remove();
 				amount[b]--;
-				if (amount[b] > 0)
-				{
+				if (amount[b] > 0) {
 					pq.add(b);
 				}
 			}
 
-			if (amount[a] > 0)
-			{
+			if (amount[a] > 0) {
 				pq.add(a);
 			}
 

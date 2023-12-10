@@ -13,12 +13,9 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/interleaving-string/",
 		difficulty = Difficulty.MEDIUM
 )
-public class InterleavingString
-{
-	public boolean isInterleave(String s1, String s2, String s3)
-	{
-		if (s1.length() + s2.length() != s3.length())
-		{
+public class InterleavingString {
+	public boolean isInterleave(String s1, String s2, String s3) {
+		if (s1.length() + s2.length() != s3.length()) {
 			return false;
 		}
 
@@ -27,20 +24,16 @@ public class InterleavingString
 		return dfs(0, s1, 0, s2, 0, s3, memo);
 	}
 
-	private boolean dfs(int s1Pos, String s1, int s2Pos, String s2, int s3Pos, String s3, Boolean[][] memo)
-	{
-		if (s1Pos == s1.length())
-		{
+	private boolean dfs(int s1Pos, String s1, int s2Pos, String s2, int s3Pos, String s3, Boolean[][] memo) {
+		if (s1Pos == s1.length()) {
 			return s2.substring(s2Pos).equals(s3.substring(s3Pos));
 		}
 
-		if (s2Pos == s2.length())
-		{
+		if (s2Pos == s2.length()) {
 			return s1.substring(s1Pos).equals(s3.substring(s3Pos));
 		}
 
-		if (memo[s1Pos][s2Pos] != null)
-		{
+		if (memo[s1Pos][s2Pos] != null) {
 			return memo[s1Pos][s2Pos];
 		}
 

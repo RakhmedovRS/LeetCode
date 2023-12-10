@@ -15,33 +15,25 @@ import java.util.List;
 		url = "https://leetcode.com/problems/length-of-the-longest-subsequence-that-sums-to-target/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LengthOfTheLongestSubsequenceThatSumsToTarget
-{
-	public int lengthOfLongestSubsequence(List<Integer> nums, int target)
-	{
+public class LengthOfTheLongestSubsequenceThatSumsToTarget {
+	public int lengthOfLongestSubsequence(List<Integer> nums, int target) {
 		Integer[] memo = new Integer[target + 1];
 		memo[0] = 0;
-		for (Integer num : nums)
-		{
+		for (Integer num : nums) {
 			Integer[] nextMemo = new Integer[target + 1];
 			System.arraycopy(memo, 0, nextMemo, 0, memo.length);
 
-			for (int i = 0; i < memo.length; i++)
-			{
-				if (memo[i] != null)
-				{
+			for (int i = 0; i < memo.length; i++) {
+				if (memo[i] != null) {
 					int val = i + num;
-					if (val >= memo.length)
-					{
+					if (val >= memo.length) {
 						break;
 					}
 
-					if (memo[val] != null)
-					{
+					if (memo[val] != null) {
 						nextMemo[val] = Math.max(memo[val], memo[i] + 1);
 					}
-					else
-					{
+					else {
 						nextMemo[val] = memo[i] + 1;
 					}
 				}

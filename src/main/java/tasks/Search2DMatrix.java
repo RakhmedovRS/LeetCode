@@ -13,25 +13,19 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/search-a-2d-matrix/",
 		difficulty = Difficulty.MEDIUM
 )
-public class Search2DMatrix
-{
+public class Search2DMatrix {
 
-	public boolean searchMatrix(int[][] matrix, int target)
-	{
+	public boolean searchMatrix(int[][] matrix, int target) {
 		int row = 0;
 		int column = matrix[row].length - 1;
-		while (row >= 0 && row < matrix.length && column >= 0 && column < matrix[row].length)
-		{
-			if (matrix[row][column] == target)
-			{
+		while (row >= 0 && row < matrix.length && column >= 0 && column < matrix[row].length) {
+			if (matrix[row][column] == target) {
 				return true;
 			}
-			else if (matrix[row][column] > target)
-			{
+			else if (matrix[row][column] > target) {
 				column--;
 			}
-			else
-			{
+			else {
 				row++;
 			}
 		}
@@ -39,8 +33,7 @@ public class Search2DMatrix
 		return false;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		int[][] matrix = new int[][]
 				{
 						{1, 3, 5, 7},

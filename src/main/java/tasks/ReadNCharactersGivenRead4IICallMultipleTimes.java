@@ -17,14 +17,10 @@ import java.util.List;
 		difficulty = Difficulty.HARD,
 		premium = true
 )
-public class ReadNCharactersGivenRead4IICallMultipleTimes
-{
-	class Reader4
-	{
-		int read4(char[] buf4)
-		{
-			for (int i = 0; i < 4; i++)
-			{
+public class ReadNCharactersGivenRead4IICallMultipleTimes {
+	class Reader4 {
+		int read4(char[] buf4) {
+			for (int i = 0; i < 4; i++) {
 				buf4[i] = (char) ('a' + i);
 			}
 
@@ -32,8 +28,7 @@ public class ReadNCharactersGivenRead4IICallMultipleTimes
 		}
 	}
 
-	public class Solution extends Reader4
-	{
+	public class Solution extends Reader4 {
 		/**
 		 * @param buf Destination buffer
 		 * @param n   Number of characters to read
@@ -42,29 +37,24 @@ public class ReadNCharactersGivenRead4IICallMultipleTimes
 		int pos = 0;
 		List<Character> characters = new ArrayList<>();
 
-		public int read(char[] buf, int n)
-		{
+		public int read(char[] buf, int n) {
 			int read;
 			char[] r4 = new char[4];
 			int len = n;
-			while (len > 0)
-			{
+			while (len > 0) {
 				read = read4(r4);
-				if (read == 0)
-				{
+				if (read == 0) {
 					break;
 				}
 
-				for (int i = 0; i < read; i++)
-				{
+				for (int i = 0; i < read; i++) {
 					characters.add(r4[i]);
 					len--;
 				}
 			}
 
 			int count = 0;
-			for (int i = 0; pos < characters.size() && n > 0; i++, n--)
-			{
+			for (int i = 0; pos < characters.size() && n > 0; i++, n--) {
 				buf[i] = characters.get(pos++);
 				count++;
 			}

@@ -17,32 +17,25 @@ import java.util.Set;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class NumberOfConnectedComponentsInUndirectedGraph
-{
-	class UnionFind
-	{
+public class NumberOfConnectedComponentsInUndirectedGraph {
+	class UnionFind {
 		int[] parents;
 
-		public UnionFind(int n)
-		{
+		public UnionFind(int n) {
 			parents = new int[n];
-			for (int i = 0; i < n; i++)
-			{
+			for (int i = 0; i < n; i++) {
 				parents[i] = i;
 			}
 		}
 
-		public int findParent(int node)
-		{
+		public int findParent(int node) {
 			int parent = node;
-			while (parents[parent] != parent)
-			{
+			while (parents[parent] != parent) {
 				parent = parents[parent];
 			}
 
 			int temp;
-			while (parents[node] != parent)
-			{
+			while (parents[node] != parent) {
 				temp = parents[node];
 				parents[node] = parent;
 				node = temp;
@@ -51,28 +44,23 @@ public class NumberOfConnectedComponentsInUndirectedGraph
 			return parent;
 		}
 
-		public void connect(int nodeA, int nodeB)
-		{
+		public void connect(int nodeA, int nodeB) {
 			int parentA = findParent(nodeA);
 			int parentB = findParent(nodeB);
 
-			if (parentA != parentB)
-			{
+			if (parentA != parentB) {
 				parents[parentB] = parentA;
 			}
 		}
 
-		public int numberOfComponents()
-		{
+		public int numberOfComponents() {
 			Set<Integer> set = new HashSet<>();
 
-			for (int i = 0; i < parents.length; i++)
-			{
+			for (int i = 0; i < parents.length; i++) {
 				findParent(i);
 			}
 
-			for (int p : parents)
-			{
+			for (int p : parents) {
 				set.add(p);
 			}
 
@@ -81,11 +69,9 @@ public class NumberOfConnectedComponentsInUndirectedGraph
 	}
 
 
-	public int countComponents(int n, int[][] edges)
-	{
+	public int countComponents(int n, int[][] edges) {
 		UnionFind uf = new UnionFind(n);
-		for (int[] edge : edges)
-		{
+		for (int[] edge : edges) {
 			uf.connect(edge[0], edge[1]);
 		}
 

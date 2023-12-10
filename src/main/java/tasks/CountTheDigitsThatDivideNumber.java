@@ -13,15 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/count-the-digits-that-divide-a-number/",
 		difficulty = Difficulty.EASY
 )
-public class CountTheDigitsThatDivideNumber
-{
-	public int countDigits(int num)
-	{
+public class CountTheDigitsThatDivideNumber {
+	public int countDigits(int num) {
 		int cnt = 0;
-		for (char ch : ("" + num).toCharArray())
-		{
-			if (num % (ch - '0') == 0)
-			{
+		for (char ch : ("" + num).toCharArray()) {
+			if (num % (ch - '0') == 0) {
 				cnt++;
 			}
 		}

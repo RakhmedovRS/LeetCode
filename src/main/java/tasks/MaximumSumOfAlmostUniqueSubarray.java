@@ -17,13 +17,10 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumSumOfAlmostUniqueSubarray
-{
-	public long maxSum(List<Integer> nums, int m, int k)
-	{
+public class MaximumSumOfAlmostUniqueSubarray {
+	public long maxSum(List<Integer> nums, int m, int k) {
 		long max = 0;
-		if (k > nums.size())
-		{
+		if (k > nums.size()) {
 			return max;
 		}
 
@@ -31,26 +28,21 @@ public class MaximumSumOfAlmostUniqueSubarray
 		int left = 0;
 		int right = 0;
 		long sum = 0;
-		while (right < nums.size())
-		{
+		while (right < nums.size()) {
 			int r = nums.get(right++);
 			map.put(r, map.getOrDefault(r, 0) + 1);
 			sum += r;
-			if (right - left >= k)
-			{
-				if (right - left > k)
-				{
+			if (right - left >= k) {
+				if (right - left > k) {
 					int l = nums.get(left++);
 					int c = map.remove(l);
-					if (c > 1)
-					{
+					if (c > 1) {
 						map.put(l, c - 1);
 					}
 					sum -= l;
 				}
 
-				if (map.size() >= m)
-				{
+				if (map.size() >= m) {
 					max = Math.max(max, sum);
 				}
 			}

@@ -13,14 +13,10 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/",
 		difficulty = Difficulty.EASY
 )
-public class ConvertIntegerToTheSumOfTwoNoZeroIntegers
-{
-	private boolean containsZero(int n)
-	{
-		while (n > 0)
-		{
-			if (n % 10 == 0)
-			{
+public class ConvertIntegerToTheSumOfTwoNoZeroIntegers {
+	private boolean containsZero(int n) {
+		while (n > 0) {
+			if (n % 10 == 0) {
 				return true;
 			}
 			n /= 10;
@@ -28,12 +24,9 @@ public class ConvertIntegerToTheSumOfTwoNoZeroIntegers
 		return false;
 	}
 
-	public int[] getNoZeroIntegers(int n)
-	{
-		for (int i = 1; i < n; i++)
-		{
-			if (!containsZero(n - i) && !containsZero(i))
-			{
+	public int[] getNoZeroIntegers(int n) {
+		for (int i = 1; i < n; i++) {
+			if (!containsZero(n - i) && !containsZero(i)) {
 				return new int[]{i, n - i};
 			}
 		}

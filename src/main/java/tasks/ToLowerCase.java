@@ -13,13 +13,10 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/to-lower-case/",
 		difficulty = Difficulty.EASY
 )
-public class ToLowerCase
-{
-	public String toLowerCase(String s)
-	{
+public class ToLowerCase {
+	public String toLowerCase(String s) {
 		StringBuilder sb = new StringBuilder();
-		for (char ch : s.toCharArray())
-		{
+		for (char ch : s.toCharArray()) {
 			sb.append(Character.toLowerCase(ch));
 		}
 

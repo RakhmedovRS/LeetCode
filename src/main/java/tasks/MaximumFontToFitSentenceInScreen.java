@@ -14,10 +14,8 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class MaximumFontToFitSentenceInScreen
-{
-	interface FontInfo
-	{
+public class MaximumFontToFitSentenceInScreen {
+	interface FontInfo {
 		// Return the width of char ch when fontSize is used.
 		int getWidth(int fontSize, char ch);
 
@@ -25,11 +23,9 @@ public class MaximumFontToFitSentenceInScreen
 		int getHeight(int fontSize);
 	}
 
-	public int maxFont(String text, int w, int h, int[] fonts, FontInfo fontInfo)
-	{
+	public int maxFont(String text, int w, int h, int[] fonts, FontInfo fontInfo) {
 		int[] memo = new int[26];
-		for (char ch : text.toCharArray())
-		{
+		for (char ch : text.toCharArray()) {
 			memo[ch - 'a']++;
 		}
 
@@ -39,18 +35,15 @@ public class MaximumFontToFitSentenceInScreen
 		int candidate = -1;
 		int width;
 		int height;
-		while (left <= right)
-		{
+		while (left <= right) {
 			middle = (left + right) / 2;
 			width = calculateTotalWidth(memo, getWidths(fonts[middle], fontInfo));
 			height = fontInfo.getHeight(fonts[middle]);
-			if (height <= h && width <= w)
-			{
+			if (height <= h && width <= w) {
 				candidate = fonts[middle];
 				left = middle + 1;
 			}
-			else
-			{
+			else {
 				right = middle - 1;
 			}
 		}
@@ -58,43 +51,35 @@ public class MaximumFontToFitSentenceInScreen
 		return candidate;
 	}
 
-	private int[] getWidths(int fontSize, FontInfo fontInfo)
-	{
+	private int[] getWidths(int fontSize, FontInfo fontInfo) {
 		int[] w = new int[26];
-		for (char ch = 'a'; ch <= 'z'; ch++)
-		{
+		for (char ch = 'a'; ch <= 'z'; ch++) {
 			w[ch - 'a'] = fontInfo.getWidth(fontSize, ch);
 		}
 
 		return w;
 	}
 
-	private int calculateTotalWidth(int[] memo, int[] widths)
-	{
+	private int calculateTotalWidth(int[] memo, int[] widths) {
 		int res = 0;
-		for (int i = 0; i < 26; i++)
-		{
+		for (int i = 0; i < 26; i++) {
 			res += memo[i] * widths[i];
 		}
 
 		return res;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		MaximumFontToFitSentenceInScreen clazz = new MaximumFontToFitSentenceInScreen();
 
-		FontInfo fontInfo = new FontInfo()
-		{
+		FontInfo fontInfo = new FontInfo() {
 			@Override
-			public int getWidth(int fontSize, char ch)
-			{
+			public int getWidth(int fontSize, char ch) {
 				return fontSize;
 			}
 
 			@Override
-			public int getHeight(int fontSize)
-			{
+			public int getHeight(int fontSize) {
 				return fontSize;
 			}
 		};

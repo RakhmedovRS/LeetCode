@@ -16,18 +16,14 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/keep-multiplying-found-values-by-two/",
 		difficulty = Difficulty.EASY
 )
-public class KeepMultiplyingFoundValuesByTwo
-{
-	public int findFinalValue(int[] nums, int original)
-	{
+public class KeepMultiplyingFoundValuesByTwo {
+	public int findFinalValue(int[] nums, int original) {
 		Set<Integer> vals = new HashSet<>();
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			vals.add(num);
 		}
 
-		while (vals.contains(original))
-		{
+		while (vals.contains(original)) {
 			original *= 2;
 		}
 

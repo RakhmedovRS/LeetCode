@@ -16,59 +16,46 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/maximal-rectangle/",
 		difficulty = Difficulty.HARD
 )
-public class MaximalRectangle
-{
-	public int largestRectangleArea(int[] heights)
-	{
+public class MaximalRectangle {
+	public int largestRectangleArea(int[] heights) {
 		int n = heights.length;
 		int pos = 0;
 		int max = 0;
 
 		Deque<Integer> stack = new LinkedList<>();
 
-		while (pos < n)
-		{
-			while (!stack.isEmpty() && heights[pos] < heights[stack.peek()])
-			{
+		while (pos < n) {
+			while (!stack.isEmpty() && heights[pos] < heights[stack.peek()]) {
 				max = Math.max(max, heights[stack.pop()] * (pos - (stack.isEmpty() ? 0 : stack.peek() + 1)));
 			}
 			stack.push(pos++);
 		}
 
-		while (!stack.isEmpty())
-		{
+		while (!stack.isEmpty()) {
 			max = Math.max(max, heights[stack.pop()] * (n - (stack.isEmpty() ? 0 : stack.peek() + 1)));
 		}
 
 		return max;
 	}
 
-	public int maximalRectangle(char[][] matrix)
-	{
+	public int maximalRectangle(char[][] matrix) {
 		int max = 0;
-		if (matrix == null || matrix.length == 0)
-		{
+		if (matrix == null || matrix.length == 0) {
 			return max;
 		}
 
 		int[] histogram = new int[matrix[0].length];
-		for (int row = 0; row < matrix.length; row++)
-		{
-			for (int column = 0; column < matrix[row].length; column++)
-			{
-				if (row == 0)
-				{
+		for (int row = 0; row < matrix.length; row++) {
+			for (int column = 0; column < matrix[row].length; column++) {
+				if (row == 0) {
 					histogram[column] = matrix[row][column] - '0';
 				}
-				else
-				{
+				else {
 					int current = matrix[row][column] - '0';
-					if (current == 0)
-					{
+					if (current == 0) {
 						histogram[column] = 0;
 					}
-					else
-					{
+					else {
 						histogram[column] += current;
 					}
 				}

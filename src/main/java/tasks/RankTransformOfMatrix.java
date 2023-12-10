@@ -15,33 +15,26 @@ import java.util.*;
 		url = "https://leetcode.com/problems/rank-transform-of-a-matrix/",
 		difficulty = Difficulty.HARD
 )
-public class RankTransformOfMatrix
-{
-	class UF
-	{
+public class RankTransformOfMatrix {
+	class UF {
 		int[] parents;
 
-		public UF(int nodes)
-		{
+		public UF(int nodes) {
 			parents = new int[nodes];
-			for (int i = 0; i < parents.length; i++)
-			{
+			for (int i = 0; i < parents.length; i++) {
 				parents[i] = i;
 			}
 		}
 
-		public int findParent(int node)
-		{
+		public int findParent(int node) {
 			int parent = node;
 
-			while (parents[parent] != parent)
-			{
+			while (parents[parent] != parent) {
 				parent = parents[parent];
 			}
 
 			int temp;
-			while (parents[node] != node)
-			{
+			while (parents[node] != node) {
 				temp = parents[node];
 				parents[node] = parent;
 				node = temp;
@@ -50,24 +43,20 @@ public class RankTransformOfMatrix
 			return parent;
 		}
 
-		private void join(int nodeA, int nodeB)
-		{
+		private void join(int nodeA, int nodeB) {
 			int parentA = findParent(nodeA);
 			int parentB = findParent(nodeB);
 			parents[parentB] = parentA;
 		}
 	}
 
-	public int[][] matrixRankTransform(int[][] matrix)
-	{
+	public int[][] matrixRankTransform(int[][] matrix) {
 		int rows = matrix.length;
 		int columns = matrix[0].length;
 		int[][] answer = new int[rows][columns];
 		TreeMap<Integer, List<int[]>> map = new TreeMap<>();
-		for (int row = 0; row < rows; row++)
-		{
-			for (int column = 0; column < columns; column++)
-			{
+		for (int row = 0; row < rows; row++) {
+			for (int column = 0; column < columns; column++) {
 				map.putIfAbsent(matrix[row][column], new ArrayList<>());
 				map.get(matrix[row][column]).add(new int[]{row, column});
 			}
@@ -75,15 +64,13 @@ public class RankTransformOfMatrix
 
 		int[] minX = new int[rows];
 		int[] minY = new int[columns];
-		for (Map.Entry<Integer, List<int[]>> entry : map.entrySet())
-		{
+		for (Map.Entry<Integer, List<int[]>> entry : map.entrySet()) {
 			List<int[]> coordinates = entry.getValue();
 			UF uf = new UF(coordinates.size());
 
 			Map<Integer, List<Integer>> xMap = new HashMap<>();
 			Map<Integer, List<Integer>> yMap = new HashMap<>();
-			for (int i = 0; i < coordinates.size(); i++)
-			{
+			for (int i = 0; i < coordinates.size(); i++) {
 				int[] xy = coordinates.get(i);
 				int x = xy[0];
 				int y = xy[1];
@@ -96,42 +83,35 @@ public class RankTransformOfMatrix
 			}
 
 			// union by X
-			for (Integer xKey : xMap.keySet())
-			{
+			for (Integer xKey : xMap.keySet()) {
 				List<Integer> xList = xMap.get(xKey);
-				for (int i = 1; i < xList.size(); i++)
-				{
+				for (int i = 1; i < xList.size(); i++) {
 					uf.join(xList.get(i - 1), xList.get(i));
 				}
 			}
 
 			// union by Y
-			for (Integer yKey : yMap.keySet())
-			{
+			for (Integer yKey : yMap.keySet()) {
 				List<Integer> yList = yMap.get(yKey);
-				for (int i = 1; i < yList.size(); i++)
-				{
+				for (int i = 1; i < yList.size(); i++) {
 					uf.join(yList.get(i - 1), yList.get(i));
 				}
 			}
 
 			Map<Integer, List<int[]>> group = new HashMap<>();
-			for (int i = 0; i < coordinates.size(); i++)
-			{
+			for (int i = 0; i < coordinates.size(); i++) {
 				int grp = uf.findParent(i);
 				group.putIfAbsent(grp, new ArrayList<>());
 				group.get(grp).add(coordinates.get(i));
 			}
 
 			// SET ANSWER FOR EACH GROUP
-			for (Integer grpKey : group.keySet())
-			{
+			for (Integer grpKey : group.keySet()) {
 				int max = 1;
 				List<int[]> sublist = group.get(grpKey);
 
 				// FIND MAX-RANK FOR THIS GROUP
-				for (int[] xy : sublist)
-				{
+				for (int[] xy : sublist) {
 					int x = xy[0];
 					int y = xy[1];
 
@@ -139,8 +119,7 @@ public class RankTransformOfMatrix
 				}
 
 				// UPDATE ANSWER = MAX-RANK AND SET NEW MIN-RANK FOR ROW/COL = MAX-RANK+1
-				for (int[] xy : sublist)
-				{
+				for (int[] xy : sublist) {
 					int x = xy[0];
 					int y = xy[1];
 					answer[x][y] = max;

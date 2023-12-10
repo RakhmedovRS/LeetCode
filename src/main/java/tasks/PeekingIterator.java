@@ -15,21 +15,17 @@ import java.util.Iterator;
 		url = "https://leetcode.com/problems/peeking-iterator/",
 		difficulty = Difficulty.MEDIUM
 )
-class PeekingIterator implements Iterator<Integer>
-{
+class PeekingIterator implements Iterator<Integer> {
 	Integer current;
 	Iterator<Integer> iterator;
 
-	public PeekingIterator(Iterator<Integer> iterator)
-	{
+	public PeekingIterator(Iterator<Integer> iterator) {
 		this.iterator = iterator;
 	}
 
 	// Returns the next element in the iteration without advancing the iterator.
-	public Integer peek()
-	{
-		if (current == null)
-		{
+	public Integer peek() {
+		if (current == null) {
 			current = iterator.next();
 		}
 		return current;
@@ -38,14 +34,11 @@ class PeekingIterator implements Iterator<Integer>
 	// hasNext() and next() should behave the same as in the Iterator interface.
 	// Override them if needed.
 	@Override
-	public Integer next()
-	{
-		if (current == null)
-		{
+	public Integer next() {
+		if (current == null) {
 			return iterator.next();
 		}
-		else
-		{
+		else {
 			Integer ret = current;
 			current = null;
 			return ret;
@@ -53,8 +46,7 @@ class PeekingIterator implements Iterator<Integer>
 	}
 
 	@Override
-	public boolean hasNext()
-	{
+	public boolean hasNext() {
 		return current != null || iterator.hasNext();
 	}
 }

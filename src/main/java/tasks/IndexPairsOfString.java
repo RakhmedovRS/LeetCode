@@ -17,20 +17,15 @@ import java.util.List;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class IndexPairsOfString
-{
-	public int[][] indexPairs(String text, String[] words)
-	{
+public class IndexPairsOfString {
+	public int[][] indexPairs(String text, String[] words) {
 		int currentPos;
 		boolean[][] memo = new boolean[101][101];
-		for (String word : words)
-		{
+		for (String word : words) {
 			currentPos = 0;
-			while (currentPos != -1)
-			{
+			while (currentPos != -1) {
 				currentPos = text.indexOf(word, currentPos);
-				if (currentPos == -1)
-				{
+				if (currentPos == -1) {
 					break;
 				}
 				memo[currentPos][currentPos + word.length() - 1] = true;
@@ -39,20 +34,16 @@ public class IndexPairsOfString
 		}
 
 		List<int[]> pairs = new ArrayList<>();
-		for (int i = 0; i < memo.length; i++)
-		{
-			for (int j = 0; j < memo[i].length; j++)
-			{
-				if (memo[i][j])
-				{
+		for (int i = 0; i < memo.length; i++) {
+			for (int j = 0; j < memo[i].length; j++) {
+				if (memo[i][j]) {
 					pairs.add(new int[]{i, j});
 				}
 			}
 		}
 
 		int[][] answer = new int[pairs.size()][];
-		for (int i = 0; i < pairs.size(); i++)
-		{
+		for (int i = 0; i < pairs.size(); i++) {
 			answer[i] = pairs.get(i);
 		}
 

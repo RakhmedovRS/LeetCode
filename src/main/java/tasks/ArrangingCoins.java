@@ -13,38 +13,31 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/arranging-coins/",
 		difficulty = Difficulty.EASY
 )
-public class ArrangingCoins
-{
-	public int arrangeCoins(int n)
-	{
+public class ArrangingCoins {
+	public int arrangeCoins(int n) {
 		long left = 0;
 		long right = n;
 		long k;
 		long current;
-		while (left <= right)
-		{
+		while (left <= right) {
 			k = left + (right - left) / 2;
 			current = k * (k + 1) / 2;
 
-			if (current == n)
-			{
+			if (current == n) {
 				return (int) k;
 			}
 
-			if (n < current)
-			{
+			if (n < current) {
 				right = k - 1;
 			}
-			else
-			{
+			else {
 				left = k + 1;
 			}
 		}
 		return (int) right;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new ArrangingCoins().arrangeCoins(5));
 		System.out.println(new ArrangingCoins().arrangeCoins(8));
 	}

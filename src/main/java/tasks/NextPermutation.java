@@ -15,20 +15,14 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/next-permutation/",
 		difficulty = Difficulty.MEDIUM
 )
-public class NextPermutation
-{
-	public void nextPermutation(int[] nums)
-	{
+public class NextPermutation {
+	public void nextPermutation(int[] nums) {
 		int max = nums[nums.length - 1];
-		for (int i = nums.length - 1; i >= 0; i--)
-		{
-			if (nums[i] < max)
-			{
+		for (int i = nums.length - 1; i >= 0; i--) {
+			if (nums[i] < max) {
 				int minGreaterCurrentPos = i + 1;
-				for (int j = minGreaterCurrentPos; j < nums.length; j++)
-				{
-					if (nums[j] > nums[i] && nums[j] < nums[minGreaterCurrentPos])
-					{
+				for (int j = minGreaterCurrentPos; j < nums.length; j++) {
+					if (nums[j] > nums[i] && nums[j] < nums[minGreaterCurrentPos]) {
 						minGreaterCurrentPos = j;
 					}
 				}

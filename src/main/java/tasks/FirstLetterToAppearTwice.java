@@ -15,16 +15,12 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/first-letter-to-appear-twice/",
 		difficulty = Difficulty.EASY
 )
-public class FirstLetterToAppearTwice
-{
-	public char repeatedCharacter(String s)
-	{
+public class FirstLetterToAppearTwice {
+	public char repeatedCharacter(String s) {
 		char[] memo = new char[26];
-		for (char ch : s.toCharArray())
-		{
+		for (char ch : s.toCharArray()) {
 			memo[ch - 'a']++;
-			if (memo[ch - 'a'] == 2)
-			{
+			if (memo[ch - 'a'] == 2) {
 				return ch;
 			}
 		}

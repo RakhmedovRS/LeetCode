@@ -16,18 +16,14 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CheckIfStringContainsAllBinaryCodesOfSizeK
-{
-	public boolean hasAllCodes(String s, int k)
-	{
+public class CheckIfStringContainsAllBinaryCodesOfSizeK {
+	public boolean hasAllCodes(String s, int k) {
 		char[] chars = s.toCharArray();
 		Set<Integer> set = new HashSet<>();
 		int num;
-		for (int left = 0, right = k - 1; right < chars.length; left++, right++)
-		{
+		for (int left = 0, right = k - 1; right < chars.length; left++, right++) {
 			num = 0;
-			for (int i = right; i >= left; i--)
-			{
+			for (int i = right; i >= left; i--) {
 				num = (num << 1);
 				num ^= (chars[i] - '0');
 			}

@@ -19,25 +19,20 @@ import java.util.Queue;
 		url = "https://leetcode.com/problems/binary-tree-level-order-traversal/",
 		difficulty = Difficulty.MEDIUM
 )
-public class BinaryTreeLevelOrderTraversal
-{
-	public List<List<Integer>> levelOrder(TreeNode root)
-	{
+public class BinaryTreeLevelOrderTraversal {
+	public List<List<Integer>> levelOrder(TreeNode root) {
 		List<List<Integer>> answer = new ArrayList<>();
 		Queue<TreeNode> queue = new LinkedList<>();
 		queue.add(root);
 
 		int size;
 		TreeNode current;
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			size = queue.size();
 			List<Integer> list = new ArrayList<>();
-			while (size-- > 0)
-			{
+			while (size-- > 0) {
 				current = queue.remove();
-				if (current == null)
-				{
+				if (current == null) {
 					continue;
 				}
 
@@ -48,8 +43,7 @@ public class BinaryTreeLevelOrderTraversal
 
 			}
 
-			if (!list.isEmpty())
-			{
+			if (!list.isEmpty()) {
 				answer.add(list);
 			}
 		}

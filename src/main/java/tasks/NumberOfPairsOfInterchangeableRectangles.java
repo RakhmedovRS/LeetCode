@@ -16,22 +16,18 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/",
 		difficulty = Difficulty.MEDIUM
 )
-public class NumberOfPairsOfInterchangeableRectangles
-{
-	public long interchangeableRectangles(int[][] rectangles)
-	{
+public class NumberOfPairsOfInterchangeableRectangles {
+	public long interchangeableRectangles(int[][] rectangles) {
 		Map<String, Long> map = new HashMap<>();
 		long answer = 0;
-		for (int[] rectangle : rectangles)
-		{
+		for (int[] rectangle : rectangles) {
 			int gcd = gcd(rectangle[0], rectangle[1]);
 
 			String ratio = (rectangle[0] / gcd) + "/" + (rectangle[1] / gcd);
 			map.put(ratio, map.getOrDefault(ratio, 0L) + 1);
 
 			long count = map.get(ratio);
-			if (count > 1)
-			{
+			if (count > 1) {
 				answer += count - 1;
 			}
 		}
@@ -39,10 +35,8 @@ public class NumberOfPairsOfInterchangeableRectangles
 		return answer;
 	}
 
-	private int gcd(int x, int y)
-	{
-		if (y == 0)
-		{
+	private int gcd(int x, int y) {
+		if (y == 0) {
 			return x;
 		}
 		return gcd(y, x % y);

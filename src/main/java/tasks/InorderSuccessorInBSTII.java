@@ -14,36 +14,28 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class InorderSuccessorInBSTII
-{
-	class Node
-	{
+public class InorderSuccessorInBSTII {
+	class Node {
 		public int val;
 		public Node left;
 		public Node right;
 		public Node parent;
 	}
 
-	public Node inorderSuccessor(Node node)
-	{
-		if (node.right != null)
-		{
+	public Node inorderSuccessor(Node node) {
+		if (node.right != null) {
 			Node n = node.right;
-			while (n.left != null)
-			{
+			while (n.left != null) {
 				n = n.left;
 			}
 
 			return n;
 		}
-		else
-		{
+		else {
 			Node parent;
-			while (node != null)
-			{
+			while (node != null) {
 				parent = node.parent;
-				if (parent != null && parent.left == node)
-				{
+				if (parent != null && parent.left == node) {
 					return parent;
 				}
 

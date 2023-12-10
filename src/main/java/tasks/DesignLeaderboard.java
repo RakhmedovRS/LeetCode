@@ -3,7 +3,9 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeSet;
 
 /**
  * @author RakhmedovRS
@@ -16,20 +18,16 @@ import java.util.*;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class DesignLeaderboard
-{
-	class Leaderboard
-	{
+public class DesignLeaderboard {
+	class Leaderboard {
 		Map<Integer, Integer> idToScore;
 		TreeSet<Integer> board;
 
-		public Leaderboard()
-		{
+		public Leaderboard() {
 			idToScore = new HashMap<>();
 			board = new TreeSet<>((id1, id2) ->
 			{
-				if (idToScore.get(id2).equals(idToScore.get(id1)))
-				{
+				if (idToScore.get(id2).equals(idToScore.get(id1))) {
 					return id1 - id2;
 				}
 
@@ -37,10 +35,8 @@ public class DesignLeaderboard
 			});
 		}
 
-		public void addScore(int playerId, int score)
-		{
-			if (idToScore.containsKey(playerId))
-			{
+		public void addScore(int playerId, int score) {
+			if (idToScore.containsKey(playerId)) {
 				board.remove(playerId);
 			}
 
@@ -49,14 +45,11 @@ public class DesignLeaderboard
 			board.add(playerId);
 		}
 
-		public int top(int K)
-		{
+		public int top(int K) {
 			int sum = 0;
-			for (Integer id : board)
-			{
+			for (Integer id : board) {
 				sum += idToScore.get(id);
-				if (--K == 0)
-				{
+				if (--K == 0) {
 					break;
 				}
 			}
@@ -64,15 +57,13 @@ public class DesignLeaderboard
 			return sum;
 		}
 
-		public void reset(int playerId)
-		{
+		public void reset(int playerId) {
 			board.remove(playerId);
 			idToScore.remove(playerId);
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		Leaderboard leaderboard = new DesignLeaderboard().new Leaderboard();
 		leaderboard.addScore(1, 73);   // leaderboard = [[1,73]];
 		leaderboard.addScore(2, 56);   // leaderboard = [[1,73],[2,56]];

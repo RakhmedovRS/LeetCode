@@ -13,12 +13,9 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/get-maximum-in-generated-array/",
 		difficulty = Difficulty.EASY
 )
-public class GetMaximumInGeneratedArray
-{
-	public int getMaximumGenerated(int n)
-	{
-		if (n <= 1)
-		{
+public class GetMaximumInGeneratedArray {
+	public int getMaximumGenerated(int n) {
+		if (n <= 1) {
 			return n;
 		}
 
@@ -26,14 +23,11 @@ public class GetMaximumInGeneratedArray
 		int[] memo = new int[n + 1];
 		memo[0] = 0;
 		memo[1] = 1;
-		for (int i = 2; i <= n; i++)
-		{
-			if (i % 2 == 0)
-			{
+		for (int i = 2; i <= n; i++) {
+			if (i % 2 == 0) {
 				memo[i] = memo[i / 2];
 			}
-			else
-			{
+			else {
 				memo[i] = memo[i / 2] + memo[i / 2 + 1];
 			}
 

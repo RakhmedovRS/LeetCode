@@ -16,21 +16,16 @@ import java.util.List;
 		url = "https://leetcode.com/problems/find-all-duplicates-in-an-array/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindAllDuplicatesInArray
-{
-	public List<Integer> findDuplicates(int[] nums)
-	{
+public class FindAllDuplicatesInArray {
+	public List<Integer> findDuplicates(int[] nums) {
 		int[] memo = new int[100_001];
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			memo[num]++;
 		}
 
 		List<Integer> answer = new ArrayList<>();
-		for (int i = 0; i < memo.length; i++)
-		{
-			if (memo[i] == 2)
-			{
+		for (int i = 0; i < memo.length; i++) {
+			if (memo[i] == 2) {
 				answer.add(i);
 			}
 		}

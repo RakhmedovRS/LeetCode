@@ -16,23 +16,17 @@ import java.util.List;
 		url = "https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/",
 		difficulty = Difficulty.EASY
 )
-public class DivideStringIntoGroupsOfSizeK
-{
-	public String[] divideString(String s, int k, char fill)
-	{
+public class DivideStringIntoGroupsOfSizeK {
+	public String[] divideString(String s, int k, char fill) {
 		int pos = 0;
 		List<String> list = new ArrayList<>();
-		while (pos < s.length())
-		{
+		while (pos < s.length()) {
 			StringBuilder sb = new StringBuilder();
-			for (int i = 0; i < k; i++)
-			{
-				if (pos < s.length())
-				{
+			for (int i = 0; i < k; i++) {
+				if (pos < s.length()) {
 					sb.append(s.charAt(pos++));
 				}
-				else
-				{
+				else {
 					sb.append(fill);
 				}
 			}

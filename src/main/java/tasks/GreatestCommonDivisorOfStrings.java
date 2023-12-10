@@ -13,17 +13,13 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/greatest-common-divisor-of-strings/",
 		difficulty = Difficulty.EASY
 )
-public class GreatestCommonDivisorOfStrings
-{
-	public String gcdOfStrings(String str1, String str2)
-	{
+public class GreatestCommonDivisorOfStrings {
+	public String gcdOfStrings(String str1, String str2) {
 		String sub;
 		String candidate = "";
-		for (int pos = 1; pos <= str2.length(); pos++)
-		{
+		for (int pos = 1; pos <= str2.length(); pos++) {
 			sub = str2.substring(0, pos);
-			if (canBeDivided(str2, sub) && canBeDivided(str1, sub))
-			{
+			if (canBeDivided(str2, sub) && canBeDivided(str1, sub)) {
 				candidate = sub;
 			}
 		}
@@ -31,17 +27,13 @@ public class GreatestCommonDivisorOfStrings
 		return candidate;
 	}
 
-	private boolean canBeDivided(String a, String b)
-	{
-		if (a.length() % b.length() != 0 || a.length() < b.length())
-		{
+	private boolean canBeDivided(String a, String b) {
+		if (a.length() % b.length() != 0 || a.length() < b.length()) {
 			return false;
 		}
 
-		for (int iA = 0, iB = 0; iA < a.length(); iA++, iB++)
-		{
-			if (a.charAt(iA) != b.charAt(iB % b.length()))
-			{
+		for (int iA = 0, iB = 0; iA < a.length(); iA++, iB++) {
+			if (a.charAt(iA) != b.charAt(iB % b.length())) {
 				return false;
 			}
 		}

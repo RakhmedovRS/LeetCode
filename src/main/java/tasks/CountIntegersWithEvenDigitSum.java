@@ -13,22 +13,17 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/count-integers-with-even-digit-sum/",
 		difficulty = Difficulty.EASY
 )
-public class CountIntegersWithEvenDigitSum
-{
-	public int countEven(int num)
-	{
+public class CountIntegersWithEvenDigitSum {
+	public int countEven(int num) {
 		int count = 0;
 		outer:
-		for (int i = 1; i <= num; i++)
-		{
+		for (int i = 1; i <= num; i++) {
 			int sum = 0;
-			for (char ch : String.valueOf(i).toCharArray())
-			{
+			for (char ch : String.valueOf(i).toCharArray()) {
 				sum += (ch - '0');
 			}
 
-			if (sum % 2 == 0)
-			{
+			if (sum % 2 == 0) {
 				count++;
 			}
 		}

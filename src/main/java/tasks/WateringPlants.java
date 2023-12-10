@@ -13,25 +13,19 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/watering-plants/",
 		difficulty = Difficulty.MEDIUM
 )
-public class WateringPlants
-{
-	public int wateringPlants(int[] plants, int capacity)
-	{
+public class WateringPlants {
+	public int wateringPlants(int[] plants, int capacity) {
 		int steps = 0;
 		int currentCapacity = capacity;
-		for (int i = 0; i < plants.length; i++)
-		{
-			while (plants[i] > 0)
-			{
-				if (currentCapacity >= plants[i])
-				{
+		for (int i = 0; i < plants.length; i++) {
+			while (plants[i] > 0) {
+				if (currentCapacity >= plants[i]) {
 					int temp = plants[i];
 					plants[i] = Math.max(0, plants[i] - currentCapacity);
 					currentCapacity -= temp;
 					steps++;
 				}
-				else
-				{
+				else {
 					currentCapacity = capacity;
 					steps += i * 2;
 				}

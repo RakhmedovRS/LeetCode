@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/construct-quad-tree/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ConstructQuadTree
-{
-	class Node
-	{
+public class ConstructQuadTree {
+	class Node {
 		public boolean val;
 		public boolean isLeaf;
 		public Node topLeft;
@@ -24,8 +22,7 @@ public class ConstructQuadTree
 		public Node bottomLeft;
 		public Node bottomRight;
 
-		public Node()
-		{
+		public Node() {
 			this.val = false;
 			this.isLeaf = false;
 			this.topLeft = null;
@@ -34,8 +31,7 @@ public class ConstructQuadTree
 			this.bottomRight = null;
 		}
 
-		public Node(boolean val, boolean isLeaf)
-		{
+		public Node(boolean val, boolean isLeaf) {
 			this.val = val;
 			this.isLeaf = isLeaf;
 			this.topLeft = null;
@@ -44,8 +40,7 @@ public class ConstructQuadTree
 			this.bottomRight = null;
 		}
 
-		public Node(boolean val, boolean isLeaf, Node topLeft, Node topRight, Node bottomLeft, Node bottomRight)
-		{
+		public Node(boolean val, boolean isLeaf, Node topLeft, Node topRight, Node bottomLeft, Node bottomRight) {
 			this.val = val;
 			this.isLeaf = isLeaf;
 			this.topLeft = topLeft;
@@ -55,8 +50,7 @@ public class ConstructQuadTree
 		}
 	}
 
-	public Node construct(int[][] grid)
-	{
+	public Node construct(int[][] grid) {
 		int left = 0;
 		int right = grid[0].length - 1;
 		int up = 0;
@@ -65,10 +59,8 @@ public class ConstructQuadTree
 		return constructReq(grid, left, right, up, bottom);
 	}
 
-	private Node constructReq(int[][] grid, int left, int right, int up, int bottom)
-	{
-		if (isContainedOneChar(grid, left, right, up, bottom))
-		{
+	private Node constructReq(int[][] grid, int left, int right, int up, int bottom) {
+		if (isContainedOneChar(grid, left, right, up, bottom)) {
 			return new Node(grid[up][left] == 1, true);
 		}
 
@@ -84,15 +76,11 @@ public class ConstructQuadTree
 		return node;
 	}
 
-	private boolean isContainedOneChar(int[][] grid, int left, int right, int up, int bottom)
-	{
+	private boolean isContainedOneChar(int[][] grid, int left, int right, int up, int bottom) {
 		int val = grid[up][left];
-		for (int row = up; row <= bottom; row++)
-		{
-			for (int column = left; column <= right; column++)
-			{
-				if (grid[row][column] != val)
-				{
+		for (int row = up; row <= bottom; row++) {
+			for (int column = left; column <= right; column++) {
+				if (grid[row][column] != val) {
 					return false;
 				}
 			}

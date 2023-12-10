@@ -14,23 +14,18 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class FindKLengthSubstringsWithNoRepeatedCharacters
-{
-	public int numKLenSubstrNoRepeats(String S, int K)
-	{
+public class FindKLengthSubstringsWithNoRepeatedCharacters {
+	public int numKLenSubstrNoRepeats(String S, int K) {
 		int count = 0;
 		int[] table = new int[26];
 		int left = 0;
 		int right = 0;
 		char[] chars = S.toCharArray();
 
-		while (right < chars.length)
-		{
+		while (right < chars.length) {
 			table[chars[right++] - 'a']++;
-			if (right - left >= K)
-			{
-				if (right - left > K)
-				{
+			if (right - left >= K) {
+				if (right - left > K) {
 					table[chars[left++] - 'a']--;
 				}
 				count += isValid(table) ? 1 : 0;
@@ -40,12 +35,9 @@ public class FindKLengthSubstringsWithNoRepeatedCharacters
 		return count;
 	}
 
-	private boolean isValid(int[] table)
-	{
-		for (int c : table)
-		{
-			if (c > 1)
-			{
+	private boolean isValid(int[] table) {
+		for (int c : table) {
+			if (c > 1) {
 				return false;
 			}
 		}
@@ -53,8 +45,7 @@ public class FindKLengthSubstringsWithNoRepeatedCharacters
 		return true;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new FindKLengthSubstringsWithNoRepeatedCharacters().numKLenSubstrNoRepeats("home", 5));
 		System.out.println(new FindKLengthSubstringsWithNoRepeatedCharacters().numKLenSubstrNoRepeats("havefunonleetcode", 5));
 	}

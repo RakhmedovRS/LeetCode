@@ -13,18 +13,14 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/letter-tile-possibilities/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LetterTilePossibilities
-{
-	public int numTilePossibilities(String tiles)
-	{
-		if (tiles.length() < 2)
-		{
+public class LetterTilePossibilities {
+	public int numTilePossibilities(String tiles) {
+		if (tiles.length() < 2) {
 			return tiles.length();
 		}
 
 		int[] memo = new int[26];
-		for (char ch : tiles.toCharArray())
-		{
+		for (char ch : tiles.toCharArray()) {
 			memo[ch - 'A']++;
 		}
 		int[] res = new int[]{0};
@@ -32,12 +28,9 @@ public class LetterTilePossibilities
 		return res[0];
 	}
 
-	private void calc(int[] memo, int[] res)
-	{
-		for (int i = 0; i < 26; i++)
-		{
-			if (memo[i] > 0)
-			{
+	private void calc(int[] memo, int[] res) {
+		for (int i = 0; i < 26; i++) {
+			if (memo[i] > 0) {
 				memo[i]--;
 				res[0]++;
 				calc(memo, res);

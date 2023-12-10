@@ -18,49 +18,38 @@ import java.util.List;
 		difficulty = Difficulty.HARD,
 		premium = true
 )
-public class ClosestBinarySearchTreeValueII
-{
-	public List<Integer> closestKValues(TreeNode root, double target, int k)
-	{
+public class ClosestBinarySearchTreeValueII {
+	public List<Integer> closestKValues(TreeNode root, double target, int k) {
 		List<TreeNode> list = new ArrayList<>();
 		inorder(root, list);
 		int left = 0;
-		while (left + 1 < list.size() && list.get(left + 1).val < target)
-		{
+		while (left + 1 < list.size() && list.get(left + 1).val < target) {
 			left++;
 		}
 		int right = left + 1;
 
 		List<Integer> answer = new ArrayList<>();
-		while (answer.size() < k)
-		{
-			if (left >= 0 && right < list.size())
-			{
-				if (Math.abs(target - list.get(left).val) <= Math.abs(target - list.get(right).val))
-				{
+		while (answer.size() < k) {
+			if (left >= 0 && right < list.size()) {
+				if (Math.abs(target - list.get(left).val) <= Math.abs(target - list.get(right).val)) {
 					answer.add(list.get(left--).val);
 				}
-				else
-				{
+				else {
 					answer.add(list.get(right++).val);
 				}
 			}
-			else if (left >= 0)
-			{
+			else if (left >= 0) {
 				answer.add(list.get(left--).val);
 			}
-			else
-			{
+			else {
 				answer.add(list.get(right++).val);
 			}
 		}
 		return answer;
 	}
 
-	private void inorder(TreeNode root, List<TreeNode> list)
-	{
-		if (root == null)
-		{
+	private void inorder(TreeNode root, List<TreeNode> list) {
+		if (root == null) {
 			return;
 		}
 

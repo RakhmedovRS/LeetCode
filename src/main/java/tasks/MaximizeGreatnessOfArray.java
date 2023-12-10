@@ -16,29 +16,22 @@ import java.util.TreeMap;
 		url = "https://leetcode.com/problems/maximize-greatness-of-an-array/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximizeGreatnessOfArray
-{
-	public int maximizeGreatness(int[] nums)
-	{
+public class MaximizeGreatnessOfArray {
+	public int maximizeGreatness(int[] nums) {
 		TreeMap<Integer, Integer> map = new TreeMap<>();
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			map.put(num, map.getOrDefault(num, 0) + 1);
 		}
 
 		int c = 0;
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			Map.Entry<Integer, Integer> entry = map.ceilingEntry(num + 1);
-			if (entry != null)
-			{
+			if (entry != null) {
 				c++;
-				if (entry.getValue() == 1)
-				{
+				if (entry.getValue() == 1) {
 					map.remove(entry.getKey());
 				}
-				else
-				{
+				else {
 					map.put(entry.getKey(), entry.getValue() - 1);
 				}
 			}

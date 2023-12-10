@@ -16,27 +16,21 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/single-number-iii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SingleNumberIII
-{
-	public int[] singleNumber(int[] nums)
-	{
+public class SingleNumberIII {
+	public int[] singleNumber(int[] nums) {
 		Set<Integer> set = new HashSet<>();
-		for (int num : nums)
-		{
-			if (set.contains(num))
-			{
+		for (int num : nums) {
+			if (set.contains(num)) {
 				set.remove(num);
 			}
-			else
-			{
+			else {
 				set.add(num);
 			}
 		}
 
 		int i = 0;
 		int[] answer = new int[set.size()];
-		for (int num : set)
-		{
+		for (int num : set) {
 			answer[i++] = num;
 		}
 

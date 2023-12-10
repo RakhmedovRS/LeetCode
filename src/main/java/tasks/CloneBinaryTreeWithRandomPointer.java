@@ -17,26 +17,21 @@ import java.util.Map;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class CloneBinaryTreeWithRandomPointer
-{
-	public class Node
-	{
+public class CloneBinaryTreeWithRandomPointer {
+	public class Node {
 		int val;
 		Node left;
 		Node right;
 		Node random;
 
-		Node()
-		{
+		Node() {
 		}
 
-		Node(int val)
-		{
+		Node(int val) {
 			this.val = val;
 		}
 
-		Node(int val, Node left, Node right, Node random)
-		{
+		Node(int val, Node left, Node right, Node random) {
 			this.val = val;
 			this.left = left;
 			this.right = right;
@@ -44,18 +39,14 @@ public class CloneBinaryTreeWithRandomPointer
 		}
 	}
 
-	public class NodeCopy extends Node
-	{
-		public NodeCopy(int val)
-		{
+	public class NodeCopy extends Node {
+		public NodeCopy(int val) {
 			super(val);
 		}
 	}
 
-	public NodeCopy copyRandomBinaryTree(Node root)
-	{
-		if (root == null)
-		{
+	public NodeCopy copyRandomBinaryTree(Node root) {
+		if (root == null) {
 			return null;
 		}
 
@@ -65,60 +56,48 @@ public class CloneBinaryTreeWithRandomPointer
 		return copies.get(root);
 	}
 
-	private void dfs(Node root, Map<Node, NodeCopy> copies)
-	{
-		if (root == null)
-		{
+	private void dfs(Node root, Map<Node, NodeCopy> copies) {
+		if (root == null) {
 			return;
 		}
 
 		NodeCopy current = copies.get(root);
-		if (current == null)
-		{
+		if (current == null) {
 			current = new NodeCopy(root.val);
 			copies.put(root, current);
 		}
 
 		NodeCopy leftChild;
-		if (root.left == null)
-		{
+		if (root.left == null) {
 			leftChild = null;
 		}
-		else
-		{
+		else {
 			leftChild = copies.get(root.left);
-			if (leftChild == null)
-			{
+			if (leftChild == null) {
 				leftChild = new NodeCopy(root.left.val);
 				copies.put(root.left, leftChild);
 			}
 		}
 
 		NodeCopy rightChild;
-		if (root.right == null)
-		{
+		if (root.right == null) {
 			rightChild = null;
 		}
-		else
-		{
+		else {
 			rightChild = copies.get(root.right);
-			if (rightChild == null)
-			{
+			if (rightChild == null) {
 				rightChild = new NodeCopy(root.right.val);
 				copies.put(root.right, rightChild);
 			}
 		}
 
 		NodeCopy random;
-		if (root.random == null)
-		{
+		if (root.random == null) {
 			random = null;
 		}
-		else
-		{
+		else {
 			random = copies.get(root.random);
-			if (random == null)
-			{
+			if (random == null) {
 				random = new NodeCopy(root.random.val);
 				copies.put(root.random, random);
 			}

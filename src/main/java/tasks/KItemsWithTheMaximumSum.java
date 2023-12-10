@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/k-items-with-the-maximum-sum/",
 		difficulty = Difficulty.EASY
 )
-public class KItemsWithTheMaximumSum
-{
-	public int kItemsWithMaximumSum(int numOnes, int numZeros, int numNegOnes, int k)
-	{
+public class KItemsWithTheMaximumSum {
+	public int kItemsWithMaximumSum(int numOnes, int numZeros, int numNegOnes, int k) {
 		int res = 0;
 		res += Math.min(numOnes, k);
 		k -= res;

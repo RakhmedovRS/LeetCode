@@ -14,31 +14,25 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/smallest-string-starting-from-leaf/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SmallestStringStartingFromLeaf
-{
-	public String smallestFromLeaf(TreeNode root)
-	{
+public class SmallestStringStartingFromLeaf {
+	public String smallestFromLeaf(TreeNode root) {
 		String[] min = new String[]{null};
 		dfs(root, new StringBuilder(), min);
 		return min[0];
 	}
 
-	private void dfs(TreeNode root, StringBuilder current, String[] min)
-	{
-		if (root == null)
-		{
+	private void dfs(TreeNode root, StringBuilder current, String[] min) {
+		if (root == null) {
 			return;
 		}
 
 		current.append((char) (root.val + 'a'));
 
-		if (root.left == null && root.right == null)
-		{
+		if (root.left == null && root.right == null) {
 			String word = current.reverse().toString();
 			current.reverse();
 
-			if (min[0] == null || min[0].isEmpty() || word.compareTo(min[0]) < 0)
-			{
+			if (min[0] == null || min[0].isEmpty() || word.compareTo(min[0]) < 0) {
 				min[0] = word;
 			}
 			current.deleteCharAt(current.length() - 1);

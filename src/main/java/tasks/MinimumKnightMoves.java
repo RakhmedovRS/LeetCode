@@ -16,10 +16,8 @@ import java.util.*;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class MinimumKnightMoves
-{
-	public int minKnightMoves(int x, int y)
-	{
+public class MinimumKnightMoves {
+	public int minKnightMoves(int x, int y) {
 		Map<Integer, Set<Integer>> visited = new HashMap<>();
 		Queue<int[]> queue = new LinkedList<>();
 		queue.add(new int[]{0, 0});
@@ -33,27 +31,22 @@ public class MinimumKnightMoves
 		int nextColumn;
 
 		int[][] moves = new int[][]{{-1, -2}, {-2, -1}, {-2, 1}, {-1, 2}, {1, -2}, {2, -1}, {2, 1}, {1, 2}};
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			size = queue.size();
-			while (size-- > 0)
-			{
+			while (size-- > 0) {
 				current = queue.remove();
 				row = current[0];
 				column = current[1];
 
-				if (row == x && column == y)
-				{
+				if (row == x && column == y) {
 					return steps;
 				}
 
-				for (int[] move : moves)
-				{
+				for (int[] move : moves) {
 					nextRow = row + move[0];
 					nextColumn = column + move[1];
 
-					if (visited.getOrDefault(nextRow, Collections.emptySet()).contains(nextColumn))
-					{
+					if (visited.getOrDefault(nextRow, Collections.emptySet()).contains(nextColumn)) {
 						continue;
 					}
 

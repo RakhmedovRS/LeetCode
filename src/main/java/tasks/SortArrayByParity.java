@@ -13,17 +13,12 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/sort-array-by-parity/",
 		difficulty = Difficulty.EASY
 )
-public class SortArrayByParity
-{
-	public int[] sortArrayByParity(int[] A)
-	{
+public class SortArrayByParity {
+	public int[] sortArrayByParity(int[] A) {
 		int right = A.length - 1;
-		for (int left = 0; left < right; left++)
-		{
-			if (A[left] % 2 != 0)
-			{
-				while (right > left && A[right] % 2 != 0)
-				{
+		for (int left = 0; left < right; left++) {
+			if (A[left] % 2 != 0) {
+				while (right > left && A[right] % 2 != 0) {
 					right--;
 				}
 

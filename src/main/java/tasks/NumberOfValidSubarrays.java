@@ -17,21 +17,16 @@ import java.util.LinkedList;
 		difficulty = Difficulty.HARD,
 		premium = true
 )
-public class NumberOfValidSubarrays
-{
-	public int validSubarrays(int[] nums)
-	{
-		if (nums.length <= 1)
-		{
+public class NumberOfValidSubarrays {
+	public int validSubarrays(int[] nums) {
+		if (nums.length <= 1) {
 			return nums.length;
 		}
 
 		int count = 0;
 		Deque<Integer> deque = new LinkedList<>();
-		for (int num : nums)
-		{
-			while (!deque.isEmpty() && deque.peek() > num)
-			{
+		for (int num : nums) {
+			while (!deque.isEmpty() && deque.peek() > num) {
 				deque.pop();
 			}
 

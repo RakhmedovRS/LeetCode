@@ -14,10 +14,8 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class LonelyPixelI
-{
-	public int findLonelyPixel(char[][] picture)
-	{
+public class LonelyPixelI {
+	public int findLonelyPixel(char[][] picture) {
 		int rows = picture.length;
 		int columns = picture[0].length;
 		int lonelyPixels = 0;
@@ -25,24 +23,18 @@ public class LonelyPixelI
 		int[] row = new int[rows];
 		int[] column = new int[columns];
 
-		for (int r = 0; r < rows; r++)
-		{
-			for (int c = 0; c < columns; c++)
-			{
-				if (picture[r][c] == 'B')
-				{
+		for (int r = 0; r < rows; r++) {
+			for (int c = 0; c < columns; c++) {
+				if (picture[r][c] == 'B') {
 					row[r]++;
 					column[c]++;
 				}
 			}
 		}
 
-		for (int r = 0; r < rows; r++)
-		{
-			for (int c = 0; c < columns; c++)
-			{
-				if (picture[r][c] == 'B' && row[r] == 1 && column[c] == 1)
-				{
+		for (int r = 0; r < rows; r++) {
+			for (int c = 0; c < columns; c++) {
+				if (picture[r][c] == 'B' && row[r] == 1 && column[c] == 1) {
 					lonelyPixels++;
 				}
 			}
@@ -51,8 +43,7 @@ public class LonelyPixelI
 		return lonelyPixels;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		char[][] picture = new char[][]
 				{
 						{'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W'},

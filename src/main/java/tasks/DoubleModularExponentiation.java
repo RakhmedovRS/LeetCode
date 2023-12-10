@@ -16,12 +16,10 @@ import java.util.List;
 		url = "https://leetcode.com/problems/double-modular-exponentiation/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DoubleModularExponentiation
-{
+public class DoubleModularExponentiation {
 	public List<Integer> getGoodIndices(int[][] variables, int target) {
 		List<Integer> ans = new ArrayList<>();
-		for (int i = 0; i < variables.length; i++)
-		{
+		for (int i = 0; i < variables.length; i++) {
 			java.math.BigInteger a = java.math.BigInteger.valueOf(variables[i][0]);
 			java.math.BigInteger b = java.math.BigInteger.valueOf(variables[i][1]);
 			int c = variables[i][2];

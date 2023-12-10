@@ -15,15 +15,11 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/divide-array-into-equal-pairs/",
 		difficulty = Difficulty.EASY
 )
-public class DivideArrayIntoEqualPairs
-{
-	public boolean divideArray(int[] nums)
-	{
+public class DivideArrayIntoEqualPairs {
+	public boolean divideArray(int[] nums) {
 		Arrays.sort(nums);
-		for (int i = 1; i < nums.length; i += 2)
-		{
-			if (nums[i - 1] != nums[i])
-			{
+		for (int i = 1; i < nums.length; i += 2) {
+			if (nums[i - 1] != nums[i]) {
 				return false;
 			}
 		}

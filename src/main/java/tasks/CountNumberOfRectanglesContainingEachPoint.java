@@ -15,13 +15,10 @@ import java.util.*;
 		url = "https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CountNumberOfRectanglesContainingEachPoint
-{
-	public int[] countRectangles(int[][] rectangles, int[][] points)
-	{
+public class CountNumberOfRectanglesContainingEachPoint {
+	public int[] countRectangles(int[][] rectangles, int[][] points) {
 		TreeMap<Integer, List<Integer>> map = new TreeMap<>(Comparator.reverseOrder());
-		for (int[] rectangle : rectangles)
-		{
+		for (int[] rectangle : rectangles) {
 			int l = rectangle[0];
 			int h = rectangle[1];
 
@@ -29,21 +26,17 @@ public class CountNumberOfRectanglesContainingEachPoint
 			map.get(h).add(l);
 		}
 
-		for (List<Integer> list : map.values())
-		{
+		for (List<Integer> list : map.values()) {
 			list.add(0);
 			list.sort(null);
 		}
 
 		int[] answer = new int[points.length];
-		for (int i = 0; i < points.length; i++)
-		{
+		for (int i = 0; i < points.length; i++) {
 			int x = points[i][0];
 			int y = points[i][1];
-			for (Integer j : map.keySet())
-			{
-				if (j < y)
-				{
+			for (Integer j : map.keySet()) {
+				if (j < y) {
 					break;
 				}
 
@@ -51,15 +44,12 @@ public class CountNumberOfRectanglesContainingEachPoint
 				int left = 0;
 				int mid;
 				int right = list.size() - 1;
-				while (left <= right)
-				{
+				while (left <= right) {
 					mid = (left + right) / 2;
-					if (list.get(mid) < x)
-					{
+					if (list.get(mid) < x) {
 						left = mid + 1;
 					}
-					else
-					{
+					else {
 						right = mid - 1;
 					}
 				}

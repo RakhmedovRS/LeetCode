@@ -13,31 +13,24 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/",
 		difficulty = Difficulty.HARD
 )
-public class MinimumXORSumOfTwoArrays
-{
-	public int minimumXORSum(int[] nums1, int[] nums2)
-	{
+public class MinimumXORSumOfTwoArrays {
+	public int minimumXORSum(int[] nums1, int[] nums2) {
 		Integer[][] memo = new Integer[nums1.length][1 << nums1.length];
 		return dfs(0, 0, nums1, nums2, memo);
 	}
 
-	private int dfs(int pos, int mask, int[] nums1, int[] nums2, Integer[][] memo)
-	{
-		if (pos >= nums1.length)
-		{
+	private int dfs(int pos, int mask, int[] nums1, int[] nums2, Integer[][] memo) {
+		if (pos >= nums1.length) {
 			return 0;
 		}
 
-		if (memo[pos][mask] != null)
-		{
+		if (memo[pos][mask] != null) {
 			return memo[pos][mask];
 		}
 
 		memo[pos][mask] = Integer.MAX_VALUE;
-		for (int i = 0; i < nums2.length; i++)
-		{
-			if ((mask & (1 << i)) == 0)
-			{
+		for (int i = 0; i < nums2.length; i++) {
+			if ((mask & (1 << i)) == 0) {
 				memo[pos][mask] = Math.min(memo[pos][mask], (nums1[pos] ^ nums2[i]) + dfs(pos + 1, mask + (1 << i), nums1, nums2, memo));
 			}
 		}

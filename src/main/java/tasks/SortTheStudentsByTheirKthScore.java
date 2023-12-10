@@ -17,16 +17,13 @@ import java.util.List;
 		url = "https://leetcode.com/problems/sort-the-students-by-their-kth-score/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SortTheStudentsByTheirKthScore
-{
-	public int[][] sortTheStudents(int[][] score, int k)
-	{
+public class SortTheStudentsByTheirKthScore {
+	public int[][] sortTheStudents(int[][] score, int k) {
 		List<int[]> list = new ArrayList<>(Arrays.asList(score));
 		list.sort((a, b) -> b[k] - a[k]);
 
 		int[][] res = new int[list.size()][];
-		for (int i = 0; i < list.size(); i++)
-		{
+		for (int i = 0; i < list.size(); i++) {
 			res[i] = list.get(i);
 		}
 

@@ -13,26 +13,20 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/",
 		difficulty = Difficulty.MEDIUM
 )
-public class NumberOfSmoothDescentPeriodsOfStock
-{
-	public long getDescentPeriods(int[] prices)
-	{
-		if (prices.length == 1)
-		{
+public class NumberOfSmoothDescentPeriodsOfStock {
+	public long getDescentPeriods(int[] prices) {
+		if (prices.length == 1) {
 			return 1;
 		}
 
 		long answer = 0;
 		int pos = 1;
 		long current = 1;
-		while (pos < prices.length)
-		{
-			if (prices[pos - 1] - prices[pos] == 1)
-			{
+		while (pos < prices.length) {
+			if (prices[pos - 1] - prices[pos] == 1) {
 				current++;
 			}
-			else
-			{
+			else {
 				answer += (current * (current + 1)) / 2;
 				current = 1;
 			}

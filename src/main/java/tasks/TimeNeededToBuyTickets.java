@@ -15,28 +15,22 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/time-needed-to-buy-tickets/",
 		difficulty = Difficulty.EASY
 )
-public class TimeNeededToBuyTickets
-{
-	public int timeRequiredToBuy(int[] tickets, int k)
-	{
+public class TimeNeededToBuyTickets {
+	public int timeRequiredToBuy(int[] tickets, int k) {
 		LinkedList<Integer> list = new LinkedList<>();
-		for (int i = 0; i < tickets.length; i++)
-		{
+		for (int i = 0; i < tickets.length; i++) {
 			list.addLast(i);
 		}
 
 		int time = 0;
-		while (!list.isEmpty())
-		{
+		while (!list.isEmpty()) {
 			time++;
 			int i = list.removeFirst();
 			tickets[i]--;
-			if (tickets[i] != 0)
-			{
+			if (tickets[i] != 0) {
 				list.addLast(i);
 			}
-			else if (i == k)
-			{
+			else if (i == k) {
 				break;
 			}
 		}

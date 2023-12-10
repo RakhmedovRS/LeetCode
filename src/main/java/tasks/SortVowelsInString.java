@@ -18,10 +18,8 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/sort-vowels-in-a-string/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SortVowelsInString
-{
-	public String sortVowels(String s)
-	{
+public class SortVowelsInString {
+	public String sortVowels(String s) {
 		Set<Character> vowels = new HashSet<>();
 		vowels.add('a');
 		vowels.add('e');
@@ -36,20 +34,16 @@ public class SortVowelsInString
 
 		char[] chars = s.toCharArray();
 		List<Character> list = new ArrayList<>();
-		for (char ch : chars)
-		{
-			if (vowels.contains(ch))
-			{
+		for (char ch : chars) {
+			if (vowels.contains(ch)) {
 				list.add(ch);
 			}
 		}
 
 		list.sort(null);
 
-		for (int i = 0, j = 0; i < chars.length; i++)
-		{
-			if (vowels.contains(chars[i]))
-			{
+		for (int i = 0, j = 0; i < chars.length; i++) {
+			if (vowels.contains(chars[i])) {
 				chars[i] = list.get(j++);
 			}
 		}

@@ -15,14 +15,11 @@ import java.util.*;
 		url = "https://leetcode.com/problems/jump-game-iv/",
 		difficulty = Difficulty.HARD
 )
-public class JumpGameIV
-{
-	public int minJumps(int[] arr)
-	{
+public class JumpGameIV {
+	public int minJumps(int[] arr) {
 		int n = arr.length;
 		Map<Integer, List<Integer>> positions = new HashMap<>();
-		for (int i = 0; i < n; i++)
-		{
+		for (int i = 0; i < n; i++) {
 			positions.putIfAbsent(arr[i], new ArrayList<>());
 			positions.get(arr[i]).add(i);
 		}
@@ -34,47 +31,37 @@ public class JumpGameIV
 		int steps = 0;
 		int current;
 		int id;
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			size = queue.size();
-			while (size-- > 0)
-			{
+			while (size-- > 0) {
 				current = queue.remove();
-				if (visited[current])
-				{
+				if (visited[current]) {
 					continue;
 				}
 
 				visited[current] = true;
 
-				if (current == n - 1)
-				{
+				if (current == n - 1) {
 					return steps;
 				}
 
-				if (current + 1 < n)
-				{
-					if (current + 1 == n - 1)
-					{
+				if (current + 1 < n) {
+					if (current + 1 == n - 1) {
 						return steps + 1;
 					}
 
 					queue.add(current + 1);
 				}
 
-				if (current - 1 >= 0)
-				{
+				if (current - 1 >= 0) {
 					queue.add(current - 1);
 				}
 
 				List<Integer> ids = positions.get(arr[current]);
-				for (int i = ids.size() - 1; i >= 0; i--)
-				{
+				for (int i = ids.size() - 1; i >= 0; i--) {
 					id = ids.get(i);
-					if (id != current)
-					{
-						if (id == n - 1)
-						{
+					if (id != current) {
+						if (id == n - 1) {
 							return steps + 1;
 						}
 						queue.add(id);
@@ -87,8 +74,7 @@ public class JumpGameIV
 		return n;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		JumpGameIV clazz = new JumpGameIV();
 		System.out.println(clazz.minJumps(new int[]{6, 1, 9}));
 		System.out.println(clazz.minJumps(new int[]{11, 22, 7, 7, 7, 7, 7, 7, 7, 22, 13}));

@@ -16,10 +16,8 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/making-a-large-island/",
 		difficulty = Difficulty.HARD
 )
-public class MakingLargeIsland
-{
-	public int largestIsland(int[][] grid)
-	{
+public class MakingLargeIsland {
+	public int largestIsland(int[][] grid) {
 		int rows = grid.length;
 		int columns = grid[0].length;
 
@@ -27,12 +25,9 @@ public class MakingLargeIsland
 		boolean[][] visited = new boolean[rows][columns];
 		int[][] ids = new int[rows][columns];
 		int id = 1;
-		for (int row = 0; row < rows; row++)
-		{
-			for (int column = 0; column < columns; column++)
-			{
-				if (grid[row][column] == 1)
-				{
+		for (int row = 0; row < rows; row++) {
+			for (int column = 0; column < columns; column++) {
+				if (grid[row][column] == 1) {
 					int count = dfs(row, column, rows, columns, grid, visited);
 					setArea(row, column, rows, columns, grid, count, id++, ids);
 					max = Math.max(max, count);
@@ -40,31 +35,24 @@ public class MakingLargeIsland
 			}
 		}
 
-		for (int row = 0; row < rows; row++)
-		{
-			for (int column = 0; column < columns; column++)
-			{
-				if (grid[row][column] == 0)
-				{
+		for (int row = 0; row < rows; row++) {
+			for (int column = 0; column < columns; column++) {
+				if (grid[row][column] == 0) {
 					int sum = 1;
 					Set<Integer> usedIds = new HashSet<>();
-					if (row - 1 >= 0 && usedIds.add(ids[row - 1][column]))
-					{
+					if (row - 1 >= 0 && usedIds.add(ids[row - 1][column])) {
 						sum += grid[row - 1][column];
 					}
 
-					if (row + 1 < rows && usedIds.add(ids[row + 1][column]))
-					{
+					if (row + 1 < rows && usedIds.add(ids[row + 1][column])) {
 						sum += grid[row + 1][column];
 					}
 
-					if (column - 1 >= 0 && usedIds.add(ids[row][column - 1]))
-					{
+					if (column - 1 >= 0 && usedIds.add(ids[row][column - 1])) {
 						sum += grid[row][column - 1];
 					}
 
-					if (column + 1 < columns && usedIds.add(ids[row][column + 1]))
-					{
+					if (column + 1 < columns && usedIds.add(ids[row][column + 1])) {
 						sum += grid[row][column + 1];
 					}
 
@@ -76,10 +64,8 @@ public class MakingLargeIsland
 		return max;
 	}
 
-	private int dfs(int row, int column, int rows, int columns, int[][] grid, boolean[][] visited)
-	{
-		if (row < 0 || row == rows || column < 0 || column == columns || visited[row][column] || grid[row][column] != 1)
-		{
+	private int dfs(int row, int column, int rows, int columns, int[][] grid, boolean[][] visited) {
+		if (row < 0 || row == rows || column < 0 || column == columns || visited[row][column] || grid[row][column] != 1) {
 			return 0;
 		}
 
@@ -90,10 +76,8 @@ public class MakingLargeIsland
 				+ dfs(row, column + 1, rows, columns, grid, visited);
 	}
 
-	private void setArea(int row, int column, int rows, int columns, int[][] grid, int count, int id, int[][] ids)
-	{
-		if (row < 0 || row == rows || column < 0 || column == columns || grid[row][column] != 1)
-		{
+	private void setArea(int row, int column, int rows, int columns, int[][] grid, int count, int id, int[][] ids) {
+		if (row < 0 || row == rows || column < 0 || column == columns || grid[row][column] != 1) {
 			return;
 		}
 

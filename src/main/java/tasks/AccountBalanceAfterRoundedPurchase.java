@@ -13,18 +13,14 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/account-balance-after-rounded-purchase/description/",
 		difficulty = Difficulty.EASY
 )
-public class AccountBalanceAfterRoundedPurchase
-{
-	public int accountBalanceAfterPurchase(int purchaseAmount)
-	{
+public class AccountBalanceAfterRoundedPurchase {
+	public int accountBalanceAfterPurchase(int purchaseAmount) {
 		int rem = purchaseAmount % 10;
-		if (rem == 0)
-		{
+		if (rem == 0) {
 			return 100 - purchaseAmount;
 		}
 
-		if (rem >= 5)
-		{
+		if (rem >= 5) {
 			return 100 - (purchaseAmount + (10 - rem));
 		}
 

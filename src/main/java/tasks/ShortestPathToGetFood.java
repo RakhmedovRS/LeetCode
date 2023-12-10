@@ -17,13 +17,10 @@ import java.util.Queue;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class ShortestPathToGetFood
-{
-	public int getFood(char[][] grid)
-	{
+public class ShortestPathToGetFood {
+	public int getFood(char[][] grid) {
 		int rows = grid.length;
-		if (rows == 0)
-		{
+		if (rows == 0) {
 			return -1;
 		}
 		int columns = grid[0].length;
@@ -31,12 +28,9 @@ public class ShortestPathToGetFood
 		int[][] steps = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 		boolean[][] visited = new boolean[rows][columns];
 		Queue<int[]> queue = new LinkedList<>();
-		for (int row = 0; row < rows; row++)
-		{
-			for (int column = 0; column < columns; column++)
-			{
-				if (grid[row][column] == '*')
-				{
+		for (int row = 0; row < rows; row++) {
+			for (int column = 0; column < columns; column++) {
+				if (grid[row][column] == '*') {
 					queue.add(new int[]{row, column});
 					break;
 				}
@@ -50,31 +44,25 @@ public class ShortestPathToGetFood
 		int column;
 		int nextRow;
 		int nextColumn;
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			size = queue.size();
-			while (size-- > 0)
-			{
+			while (size-- > 0) {
 				current = queue.remove();
 				row = current[0];
 				column = current[1];
-				if (visited[row][column])
-				{
+				if (visited[row][column]) {
 					continue;
 				}
 
 				visited[row][column] = true;
-				if (grid[row][column] == '#')
-				{
+				if (grid[row][column] == '#') {
 					return way;
 				}
 
-				for (int[] step : steps)
-				{
+				for (int[] step : steps) {
 					nextRow = row + step[0];
 					nextColumn = column + step[1];
-					if (nextRow < 0 || nextRow == rows || nextColumn < 0 || nextColumn == columns || grid[nextRow][nextColumn] == 'X' || visited[nextRow][nextColumn])
-					{
+					if (nextRow < 0 || nextRow == rows || nextColumn < 0 || nextColumn == columns || grid[nextRow][nextColumn] == 'X' || visited[nextRow][nextColumn]) {
 						continue;
 					}
 					queue.add(new int[]{nextRow, nextColumn});

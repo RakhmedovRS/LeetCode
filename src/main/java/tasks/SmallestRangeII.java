@@ -15,16 +15,13 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/smallest-range-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SmallestRangeII
-{
-	public int smallestRangeII(int[] A, int K)
-	{
+public class SmallestRangeII {
+	public int smallestRangeII(int[] A, int K) {
 		Arrays.sort(A);
 		int min = A[0];
 		int max = A[A.length - 1];
 		int minGap = max - min;
-		for (int i = 0; i < A.length - 1; i++)
-		{
+		for (int i = 0; i < A.length - 1; i++) {
 			min = Math.min(A[0] + K, A[i + 1] - K);
 			max = Math.max(A[A.length - 1] - K, A[i] + K);
 
@@ -34,8 +31,7 @@ public class SmallestRangeII
 		return minGap;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new SmallestRangeII().smallestRangeII(new int[]{0, 0, 10}, 2));
 		System.out.println(new SmallestRangeII().smallestRangeII(new int[]{0, 0, 0, 10}, 2));
 		System.out.println(new SmallestRangeII().smallestRangeII(new int[]{0, 10}, 2));

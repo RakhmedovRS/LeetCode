@@ -13,14 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/find-the-highest-altitude/",
 		difficulty = Difficulty.EASY
 )
-public class FindTheHighestAltitude
-{
-	public int largestAltitude(int[] gain)
-	{
+public class FindTheHighestAltitude {
+	public int largestAltitude(int[] gain) {
 		int max = 0;
 		int sum = 0;
-		for (int g : gain)
-		{
+		for (int g : gain) {
 			sum += g;
 			max = Math.max(max, sum);
 		}

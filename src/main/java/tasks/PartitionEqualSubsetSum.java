@@ -15,39 +15,31 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/partition-equal-subset-sum/",
 		difficulty = Difficulty.MEDIUM
 )
-public class PartitionEqualSubsetSum
-{
-	public boolean canPartition(int[] nums)
-	{
+public class PartitionEqualSubsetSum {
+	public boolean canPartition(int[] nums) {
 		int sum = 0;
 		Arrays.sort(nums);
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			sum += num;
 		}
 
-		if (sum % 2 != 0)
-		{
+		if (sum % 2 != 0) {
 			return false;
 		}
 
 		return dfs(0, sum / 2, nums, new Boolean[201][10001]);
 	}
 
-	private boolean dfs(int pos, int sum, int[] nums, Boolean[][] memo)
-	{
-		if (sum == 0)
-		{
+	private boolean dfs(int pos, int sum, int[] nums, Boolean[][] memo) {
+		if (sum == 0) {
 			return true;
 		}
 
-		if (pos == nums.length || sum < 0)
-		{
+		if (pos == nums.length || sum < 0) {
 			return false;
 		}
 
-		if (memo[pos][sum] != null)
-		{
+		if (memo[pos][sum] != null) {
 			return memo[pos][sum];
 		}
 

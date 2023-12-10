@@ -15,19 +15,16 @@ import java.util.*;
 		url = "https://leetcode.com/problems/insert-delete-getrandom-o1/",
 		difficulty = Difficulty.MEDIUM
 )
-public class InsertDeleteGetRandom
-{
-	class RandomizedSet
-	{
+public class InsertDeleteGetRandom {
+	class RandomizedSet {
 		/**
 		 * Initialize your data structure here.
 		 */
-		private Map<Integer, Integer> map;
-		private List<Integer> list;
-		private Random random;
+		private final Map<Integer, Integer> map;
+		private final List<Integer> list;
+		private final Random random;
 
-		public RandomizedSet()
-		{
+		public RandomizedSet() {
 			map = new HashMap<>();
 			list = new ArrayList<>();
 			random = new Random();
@@ -36,10 +33,8 @@ public class InsertDeleteGetRandom
 		/**
 		 * Inserts a value to the set. Returns true if the set did not already contain the specified element.
 		 */
-		public boolean insert(int val)
-		{
-			if (map.containsKey(val))
-			{
+		public boolean insert(int val) {
+			if (map.containsKey(val)) {
 				return false;
 			}
 
@@ -51,17 +46,14 @@ public class InsertDeleteGetRandom
 		/**
 		 * Removes a value from the set. Returns true if the set contained the specified element.
 		 */
-		public boolean remove(int val)
-		{
-			if (!map.containsKey(val))
-			{
+		public boolean remove(int val) {
+			if (!map.containsKey(val)) {
 				return false;
 			}
 
 			int idx = map.remove(val);
 			int last = list.remove(list.size() - 1);
-			if (val != last)
-			{
+			if (val != last) {
 				list.set(idx, last);
 				map.put(last, idx);
 			}
@@ -71,14 +63,12 @@ public class InsertDeleteGetRandom
 		/**
 		 * Get a random element from the set.
 		 */
-		public int getRandom()
-		{
+		public int getRandom() {
 			return list.get(random.nextInt(list.size()));
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		RandomizedSet set = new InsertDeleteGetRandom().new RandomizedSet();
 		System.out.println(set.insert(1));
 		System.out.println(set.remove(2));

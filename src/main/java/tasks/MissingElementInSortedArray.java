@@ -14,23 +14,17 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class MissingElementInSortedArray
-{
-	public int missingElement(int[] nums, int k)
-	{
+public class MissingElementInSortedArray {
+	public int missingElement(int[] nums, int k) {
 		int prev = nums[0];
 		int diff;
-		for (int i = 1; i < nums.length; i++)
-		{
+		for (int i = 1; i < nums.length; i++) {
 			diff = nums[i] - prev - 1;
-			if (diff > 0)
-			{
-				if (k > diff)
-				{
+			if (diff > 0) {
+				if (k > diff) {
 					k -= diff;
 				}
-				else
-				{
+				else {
 					return prev + k;
 				}
 			}

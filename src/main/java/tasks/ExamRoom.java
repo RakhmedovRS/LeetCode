@@ -17,26 +17,21 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/exam-room/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ExamRoom
-{
+public class ExamRoom {
 	int n;
 
-	class Interval
-	{
+	class Interval {
 		int start;
 		int end;
 		int length;
 
-		public Interval(int start, int end)
-		{
+		public Interval(int start, int end) {
 			this.start = start;
 			this.end = end;
-			if (start == 0 || end == n - 1)
-			{
+			if (start == 0 || end == n - 1) {
 				length = end - start;
 			}
-			else
-			{
+			else {
 				length = (end - start) / 2;
 			}
 		}
@@ -44,14 +39,12 @@ public class ExamRoom
 
 	PriorityQueue<Interval> seats;
 
-	public ExamRoom(int N)
-	{
+	public ExamRoom(int N) {
 		n = N;
 		seats = new PriorityQueue<>((i1, i2) ->
 		{
 			int distance = i2.length - i1.length;
-			if (distance != 0)
-			{
+			if (distance != 0) {
 				return distance;
 			}
 			return i1.start - i2.start;
@@ -60,49 +53,39 @@ public class ExamRoom
 		seats.add(new Interval(0, N - 1));
 	}
 
-	public int seat()
-	{
+	public int seat() {
 		Interval interval = seats.remove();
 		int seat;
-		if (interval.start == 0)
-		{
+		if (interval.start == 0) {
 			seat = 0;
 		}
-		else if (interval.end == n - 1)
-		{
+		else if (interval.end == n - 1) {
 			seat = n - 1;
 		}
-		else
-		{
+		else {
 			seat = interval.start + interval.length;
 		}
 
-		if (seat > interval.start)
-		{
+		if (seat > interval.start) {
 			seats.add(new Interval(interval.start, seat - 1));
 		}
-		if (seat < interval.end)
-		{
+		if (seat < interval.end) {
 			seats.add(new Interval(seat + 1, interval.end));
 		}
 
 		return seat;
 	}
 
-	public void leave(int p)
-	{
+	public void leave(int p) {
 		List<Interval> intervals = new ArrayList<>(seats);
 		Interval prev = null;
 		Interval next = null;
-		for (Interval interval : intervals)
-		{
-			if (interval.start == p + 1)
-			{
+		for (Interval interval : intervals) {
+			if (interval.start == p + 1) {
 				next = interval;
 			}
 
-			if (interval.end == p - 1)
-			{
+			if (interval.end == p - 1) {
 				prev = interval;
 			}
 		}

@@ -13,34 +13,26 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/find-pivot-index/",
 		difficulty = Difficulty.EASY
 )
-public class FindPivotIndex
-{
-	public int pivotIndex(int[] nums)
-	{
+public class FindPivotIndex {
+	public int pivotIndex(int[] nums) {
 		int[] leftToRight = new int[nums.length];
 		int[] rightToLeft = new int[nums.length];
-		for (int i = 0; i < leftToRight.length; i++)
-		{
+		for (int i = 0; i < leftToRight.length; i++) {
 			leftToRight[i] += nums[i];
-			if (i != 0)
-			{
+			if (i != 0) {
 				leftToRight[i] += leftToRight[i - 1];
 			}
 		}
 
-		for (int i = rightToLeft.length - 1; i >= 0; i--)
-		{
+		for (int i = rightToLeft.length - 1; i >= 0; i--) {
 			rightToLeft[i] += nums[i];
-			if (i != rightToLeft.length - 1)
-			{
+			if (i != rightToLeft.length - 1) {
 				rightToLeft[i] += rightToLeft[i + 1];
 			}
 		}
 
-		for (int i = 0; i < leftToRight.length; i++)
-		{
-			if (leftToRight[i] == rightToLeft[i])
-			{
+		for (int i = 0; i < leftToRight.length; i++) {
+			if (leftToRight[i] == rightToLeft[i]) {
 				return i;
 			}
 		}

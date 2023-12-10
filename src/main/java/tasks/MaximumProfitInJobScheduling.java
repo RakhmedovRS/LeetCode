@@ -17,27 +17,22 @@ import java.util.List;
 		url = "https://leetcode.com/problems/maximum-profit-in-job-scheduling/",
 		difficulty = Difficulty.HARD
 )
-public class MaximumProfitInJobScheduling
-{
-	class Job
-	{
+public class MaximumProfitInJobScheduling {
+	class Job {
 		int startTime;
 		int endTime;
 		int profit;
 
-		public Job(int startTime, int endTime, int profit)
-		{
+		public Job(int startTime, int endTime, int profit) {
 			this.startTime = startTime;
 			this.endTime = endTime;
 			this.profit = profit;
 		}
 	}
 
-	public int jobScheduling(int[] startTime, int[] endTime, int[] profit)
-	{
+	public int jobScheduling(int[] startTime, int[] endTime, int[] profit) {
 		List<Job> jobList = new ArrayList<>();
-		for (int i = 0; i < startTime.length; i++)
-		{
+		for (int i = 0; i < startTime.length; i++) {
 			jobList.add(new Job(startTime[i], endTime[i], profit[i]));
 		}
 
@@ -46,15 +41,12 @@ public class MaximumProfitInJobScheduling
 		return dfs(0, jobList, new Integer[jobList.size()]);
 	}
 
-	private int dfs(int pos, List<Job> jobList, Integer[] memo)
-	{
-		if (pos == jobList.size() || pos == -1)
-		{
+	private int dfs(int pos, List<Job> jobList, Integer[] memo) {
+		if (pos == jobList.size() || pos == -1) {
 			return 0;
 		}
 
-		if (memo[pos] != null)
-		{
+		if (memo[pos] != null) {
 			return memo[pos];
 		}
 
@@ -64,20 +56,16 @@ public class MaximumProfitInJobScheduling
 		return memo[pos];
 	}
 
-	private int binarySearch(List<Job> jobList, int left, int right, int end)
-	{
+	private int binarySearch(List<Job> jobList, int left, int right, int end) {
 		int pos = -1;
 		int middle;
-		while (left <= right)
-		{
+		while (left <= right) {
 			middle = (left + right) / 2;
-			if (jobList.get(middle).startTime >= end)
-			{
+			if (jobList.get(middle).startTime >= end) {
 				pos = middle;
 				right = middle - 1;
 			}
-			else
-			{
+			else {
 				left = middle + 1;
 			}
 		}

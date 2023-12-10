@@ -16,12 +16,9 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/",
 		difficulty = Difficulty.MEDIUM
 )
-public class EqualSumArraysWithMinimumNumberOfOperations
-{
-	public int minOperations(int[] nums1, int[] nums2)
-	{
-		if (nums1.length > nums2.length * 6 || nums1.length * 6 < nums2.length)
-		{
+public class EqualSumArraysWithMinimumNumberOfOperations {
+	public int minOperations(int[] nums1, int[] nums2) {
+		if (nums1.length > nums2.length * 6 || nums1.length * 6 < nums2.length) {
 			return -1;
 		}
 
@@ -31,27 +28,21 @@ public class EqualSumArraysWithMinimumNumberOfOperations
 		PriorityQueue<Integer> minHeap = new PriorityQueue<>();
 		PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Comparator.reverseOrder());
 
-		if (sum1 < sum2)
-		{
-			for (int num : nums1)
-			{
+		if (sum1 < sum2) {
+			for (int num : nums1) {
 				minHeap.add(num);
 			}
 
-			for (int num : nums2)
-			{
+			for (int num : nums2) {
 				maxHeap.add(num);
 			}
 		}
-		else if (sum1 > sum2)
-		{
-			for (int num : nums2)
-			{
+		else if (sum1 > sum2) {
+			for (int num : nums2) {
 				minHeap.add(num);
 			}
 
-			for (int num : nums1)
-			{
+			for (int num : nums1) {
 				maxHeap.add(num);
 			}
 
@@ -61,14 +52,11 @@ public class EqualSumArraysWithMinimumNumberOfOperations
 		}
 
 		int steps = 0;
-		while (sum1 < sum2)
-		{
-			if (maxHeap.isEmpty() || 6 - minHeap.peek() > maxHeap.peek() - 1)
-			{
+		while (sum1 < sum2) {
+			if (maxHeap.isEmpty() || 6 - minHeap.peek() > maxHeap.peek() - 1) {
 				sum1 += 6 - minHeap.remove();
 			}
-			else
-			{
+			else {
 				sum2 -= maxHeap.remove() - 1;
 			}
 
@@ -78,18 +66,15 @@ public class EqualSumArraysWithMinimumNumberOfOperations
 		return steps;
 	}
 
-	private int sum(int[] nums)
-	{
+	private int sum(int[] nums) {
 		int sum = 0;
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			sum += num;
 		}
 		return sum;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		EqualSumArraysWithMinimumNumberOfOperations clazz = new EqualSumArraysWithMinimumNumberOfOperations();
 
 		System.out.println(clazz.minOperations(new int[]{5, 6, 4, 3, 1, 2}, new int[]{6, 3, 3, 1, 4, 5, 3, 4, 1, 3, 4}));

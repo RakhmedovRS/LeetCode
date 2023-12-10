@@ -15,14 +15,11 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/find-the-value-of-the-partition/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindTheValueOfThePartition
-{
-	public int findValueOfPartition(int[] nums)
-	{
+public class FindTheValueOfThePartition {
+	public int findValueOfPartition(int[] nums) {
 		Arrays.sort(nums);
 		int diff = Integer.MAX_VALUE;
-		for (int i = 1; i < nums.length; i++)
-		{
+		for (int i = 1; i < nums.length; i++) {
 			diff = Math.min(diff, nums[i] - nums[i - 1]);
 		}
 

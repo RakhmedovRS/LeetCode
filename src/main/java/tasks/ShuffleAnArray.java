@@ -17,43 +17,35 @@ import java.util.Random;
 		url = "https://leetcode.com/problems/shuffle-an-array/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ShuffleAnArray
-{
-	class Solution
-	{
+public class ShuffleAnArray {
+	class Solution {
 		private int[] array;
 		private int[] original;
 
-		private Random rand = new Random();
+		private final Random rand = new Random();
 
-		private List<Integer> getArrayCopy()
-		{
+		private List<Integer> getArrayCopy() {
 			List<Integer> asList = new ArrayList<>();
-			for (int i = 0; i < array.length; i++)
-			{
+			for (int i = 0; i < array.length; i++) {
 				asList.add(array[i]);
 			}
 			return asList;
 		}
 
-		public Solution(int[] nums)
-		{
+		public Solution(int[] nums) {
 			array = nums;
 			original = nums.clone();
 		}
 
-		public int[] reset()
-		{
+		public int[] reset() {
 			array = original;
 			original = original.clone();
 			return array;
 		}
 
-		public int[] shuffle()
-		{
+		public int[] shuffle() {
 			List<Integer> aux = getArrayCopy();
-			for (int i = 0; i < array.length; i++)
-			{
+			for (int i = 0; i < array.length; i++) {
 				array[i] = aux.remove(rand.nextInt(aux.size()));
 			}
 

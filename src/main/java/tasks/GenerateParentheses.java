@@ -16,40 +16,33 @@ import java.util.List;
 		url = "https://leetcode.com/problems/generate-parentheses/",
 		difficulty = Difficulty.MEDIUM
 )
-public class GenerateParentheses
-{
-	public List<String> generateParenthesis(int n)
-	{
+public class GenerateParentheses {
+	public List<String> generateParenthesis(int n) {
 		List<String> list = new ArrayList<>();
 		dfs(n, n, new StringBuilder(), list);
 		return list;
 	}
 
-	private void dfs(int left, int right, StringBuilder sb, List<String> list)
-	{
-		if (right == 0)
-		{
+	private void dfs(int left, int right, StringBuilder sb, List<String> list) {
+		if (right == 0) {
 			list.add(sb.toString());
 			return;
 		}
 
-		if (left > 0)
-		{
+		if (left > 0) {
 			sb.append('(');
 			dfs(left - 1, right, sb, list);
 			sb.deleteCharAt(sb.length() - 1);
 		}
 
-		if (left < right)
-		{
+		if (left < right) {
 			sb.append(')');
 			dfs(left, right - 1, sb, list);
 			sb.deleteCharAt(sb.length() - 1);
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new GenerateParentheses().generateParenthesis(1));
 		System.out.println(new GenerateParentheses().generateParenthesis(2));
 		System.out.println(new GenerateParentheses().generateParenthesis(3));

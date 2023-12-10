@@ -13,21 +13,16 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/calculate-digit-sum-of-a-string/",
 		difficulty = Difficulty.EASY
 )
-public class CalculateDigitSumOfString
-{
-	public String digitSum(String s, int k)
-	{
-		if (s.length() <= k)
-		{
+public class CalculateDigitSumOfString {
+	public String digitSum(String s, int k) {
+		if (s.length() <= k) {
 			return s;
 		}
 
 		int sum = 0;
 		StringBuilder sb = new StringBuilder();
-		for (int i = 0; i < s.length(); i += k)
-		{
-			for (int j = i; j < Math.min(s.length(), i + k); j++)
-			{
+		for (int i = 0; i < s.length(); i += k) {
+			for (int j = i; j < Math.min(s.length(), i + k); j++) {
 				sum += s.charAt(j) - '0';
 			}
 

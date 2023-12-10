@@ -15,21 +15,15 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/",
 		difficulty = Difficulty.EASY
 )
-public class CheckIfArrayIsSortedAndRotated
-{
-	public boolean check(int[] nums)
-	{
+public class CheckIfArrayIsSortedAndRotated {
+	public boolean check(int[] nums) {
 		int[] copy = Arrays.copyOf(nums, nums.length);
 		Arrays.sort(copy);
 		outer:
-		for (int pos = 0; pos < nums.length; pos++)
-		{
-			if (copy[0] == nums[pos])
-			{
-				for (int i = 0, j = pos; i < nums.length; i++, j++)
-				{
-					if (copy[i] != nums[j % nums.length])
-					{
+		for (int pos = 0; pos < nums.length; pos++) {
+			if (copy[0] == nums[pos]) {
+				for (int i = 0, j = pos; i < nums.length; i++, j++) {
+					if (copy[i] != nums[j % nums.length]) {
 						continue outer;
 					}
 				}
@@ -40,8 +34,7 @@ public class CheckIfArrayIsSortedAndRotated
 		return false;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		CheckIfArrayIsSortedAndRotated clazz = new CheckIfArrayIsSortedAndRotated();
 		System.out.println(clazz.check(new int[]{6, 10, 6}));
 		System.out.println(clazz.check(new int[]{3, 4, 5, 1, 2}));

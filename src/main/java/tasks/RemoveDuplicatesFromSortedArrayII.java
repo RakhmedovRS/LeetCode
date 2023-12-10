@@ -13,21 +13,16 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class RemoveDuplicatesFromSortedArrayII
-{
-	public int removeDuplicates(int[] nums)
-	{
+public class RemoveDuplicatesFromSortedArrayII {
+	public int removeDuplicates(int[] nums) {
 		markBadPositions(nums);
 		int i = 0;
-		while (i < nums.length && nums[i] != Integer.MIN_VALUE)
-		{
+		while (i < nums.length && nums[i] != Integer.MIN_VALUE) {
 			i++;
 		}
 
-		for (int j = i + 1; j < nums.length; j++)
-		{
-			if (nums[j] != Integer.MIN_VALUE)
-			{
+		for (int j = i + 1; j < nums.length; j++) {
+			if (nums[j] != Integer.MIN_VALUE) {
 				nums[i++] = nums[j];
 			}
 		}
@@ -35,25 +30,20 @@ public class RemoveDuplicatesFromSortedArrayII
 		return i;
 	}
 
-	private void markBadPositions(int[] nums)
-	{
+	private void markBadPositions(int[] nums) {
 		int prev = Integer.MIN_VALUE;
 		int prevCount = 0;
 		int pos = 0;
-		while (pos < nums.length)
-		{
-			if (nums[pos] != prev)
-			{
+		while (pos < nums.length) {
+			if (nums[pos] != prev) {
 				prev = nums[pos];
 				prevCount = 1;
 			}
-			else
-			{
+			else {
 				prevCount++;
 			}
 
-			if (prevCount > 2)
-			{
+			if (prevCount > 2) {
 				nums[pos] = Integer.MIN_VALUE;
 			}
 

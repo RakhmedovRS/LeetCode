@@ -16,17 +16,13 @@ import java.util.List;
 		url = "https://leetcode.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/",
 		difficulty = Difficulty.MEDIUM
 )
-public class AllDivisionsWithTheHighestScoreOfBinaryArray
-{
-	public List<Integer> maxScoreIndices(int[] nums)
-	{
+public class AllDivisionsWithTheHighestScoreOfBinaryArray {
+	public List<Integer> maxScoreIndices(int[] nums) {
 		int[] zeros = new int[nums.length];
 		int[] ones = new int[nums.length];
 		int score = 0;
-		for (int i = 0; i < nums.length; i++)
-		{
-			if (nums[i] == 0)
-			{
+		for (int i = 0; i < nums.length; i++) {
+			if (nums[i] == 0) {
 				score++;
 			}
 
@@ -34,10 +30,8 @@ public class AllDivisionsWithTheHighestScoreOfBinaryArray
 		}
 
 		score = 0;
-		for (int i = nums.length - 1; i >= 0; i--)
-		{
-			if (nums[i] == 1)
-			{
+		for (int i = nums.length - 1; i >= 0; i--) {
+			if (nums[i] == 1) {
 				score++;
 			}
 
@@ -48,8 +42,7 @@ public class AllDivisionsWithTheHighestScoreOfBinaryArray
 
 		int z;
 		int o;
-		for (int i = 0; i <= nums.length; i++)
-		{
+		for (int i = 0; i <= nums.length; i++) {
 			z = (i - 1 >= 0 ? zeros[i - 1] : 0);
 			o = (i < ones.length ? ones[i] : 0);
 
@@ -58,13 +51,11 @@ public class AllDivisionsWithTheHighestScoreOfBinaryArray
 		}
 
 		List<Integer> answer = new ArrayList<>();
-		for (int i = 0; i <= nums.length; i++)
-		{
+		for (int i = 0; i <= nums.length; i++) {
 			z = (i - 1 >= 0 ? zeros[i - 1] : 0);
 			o = (i < ones.length ? ones[i] : 0);
 
-			if (max == z + o)
-			{
+			if (max == z + o) {
 				answer.add(i);
 			}
 		}

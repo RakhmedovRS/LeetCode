@@ -14,35 +14,28 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class ConvertBinarySearchTreeToSortedDoublyLinkedList
-{
-	class Node
-	{
+public class ConvertBinarySearchTreeToSortedDoublyLinkedList {
+	class Node {
 		public int val;
 		public Node left;
 		public Node right;
 
-		public Node()
-		{
+		public Node() {
 		}
 
-		public Node(int _val)
-		{
+		public Node(int _val) {
 			val = _val;
 		}
 
-		public Node(int _val, Node _left, Node _right)
-		{
+		public Node(int _val, Node _left, Node _right) {
 			val = _val;
 			left = _left;
 			right = _right;
 		}
 	}
 
-	public Node treeToDoublyList(Node root)
-	{
-		if (root == null)
-		{
+	public Node treeToDoublyList(Node root) {
+		if (root == null) {
 			return null;
 		}
 
@@ -63,10 +56,8 @@ public class ConvertBinarySearchTreeToSortedDoublyLinkedList
 		return realHead;
 	}
 
-	private void inorder(Node node, Node[] prev)
-	{
-		if (node == null)
-		{
+	private void inorder(Node node, Node[] prev) {
+		if (node == null) {
 			return;
 		}
 

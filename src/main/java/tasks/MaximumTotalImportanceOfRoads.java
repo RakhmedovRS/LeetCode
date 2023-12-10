@@ -17,13 +17,10 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/maximum-total-importance-of-roads/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumTotalImportanceOfRoads
-{
-	public long maximumImportance(int n, int[][] roads)
-	{
+public class MaximumTotalImportanceOfRoads {
+	public long maximumImportance(int n, int[][] roads) {
 		Map<Integer, Long> map = new HashMap<>();
-		for (int[] road : roads)
-		{
+		for (int[] road : roads) {
 			int a = road[0];
 			int b = road[1];
 
@@ -34,19 +31,16 @@ public class MaximumTotalImportanceOfRoads
 		long result = 0;
 
 		PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> (int) (map.getOrDefault(b, 0L) - map.getOrDefault(a, 0L)));
-		for (int i = 0; i < n; i++)
-		{
+		for (int i = 0; i < n; i++) {
 			pq.add(i);
 		}
 
 		Map<Integer, Integer> values = new HashMap<>();
-		while (!pq.isEmpty())
-		{
+		while (!pq.isEmpty()) {
 			values.put(pq.remove(), n--);
 		}
 
-		for (int[] road : roads)
-		{
+		for (int[] road : roads) {
 			int a = road[0];
 			int b = road[1];
 

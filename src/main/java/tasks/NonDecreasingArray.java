@@ -13,17 +13,12 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/non-decreasing-array/",
 		difficulty = Difficulty.MEDIUM
 )
-public class NonDecreasingArray
-{
-	public boolean checkPossibility(int[] nums)
-	{
+public class NonDecreasingArray {
+	public boolean checkPossibility(int[] nums) {
 		Integer miss = null;
-		for (int i = 0; i < nums.length - 1; i++)
-		{
-			if (nums[i] > nums[i + 1])
-			{
-				if (miss != null)
-				{
+		for (int i = 0; i < nums.length - 1; i++) {
+			if (nums[i] > nums[i + 1]) {
+				if (miss != null) {
 					return false;
 				}
 				miss = i;

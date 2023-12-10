@@ -13,16 +13,12 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/valid-perfect-square/",
 		difficulty = Difficulty.EASY
 )
-public class ValidPerfectSquare
-{
-	public boolean isPerfectSquare(int num)
-	{
-		if (num == 1)
-		{
+public class ValidPerfectSquare {
+	public boolean isPerfectSquare(int num) {
+		if (num == 1) {
 			return true;
 		}
-		else if (num == 2 || num == 3)
-		{
+		else if (num == 2 || num == 3) {
 			return false;
 		}
 
@@ -30,20 +26,16 @@ public class ValidPerfectSquare
 		long right = num / 2;
 		long middle;
 		long square;
-		while (left <= right)
-		{
+		while (left <= right) {
 			middle = left + (right - left) / 2;
 			square = middle * middle;
-			if (square == num)
-			{
+			if (square == num) {
 				return true;
 			}
-			else if (square > num)
-			{
+			else if (square > num) {
 				right = middle - 1;
 			}
-			else
-			{
+			else {
 				left = middle + 1;
 			}
 		}

@@ -14,24 +14,17 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class FindTheCelebrity
-{
-	class Relation
-	{
-		boolean knows(int a, int b)
-		{
+public class FindTheCelebrity {
+	class Relation {
+		boolean knows(int a, int b) {
 			return true;
 		}
 	}
 
-	public class Solution extends Relation
-	{
-		public int findCelebrity(int n)
-		{
-			for (int candidate = 0; candidate < n; candidate++)
-			{
-				if (isCelebrity(candidate, n))
-				{
+	public class Solution extends Relation {
+		public int findCelebrity(int n) {
+			for (int candidate = 0; candidate < n; candidate++) {
+				if (isCelebrity(candidate, n)) {
 					return candidate;
 				}
 			}
@@ -39,14 +32,10 @@ public class FindTheCelebrity
 			return -1;
 		}
 
-		private boolean isCelebrity(int candidate, int n)
-		{
-			for (int i = 0; i < n; i++)
-			{
-				if (candidate != i)
-				{
-					if (knows(candidate, i) || !knows(i, candidate))
-					{
+		private boolean isCelebrity(int candidate, int n) {
+			for (int i = 0; i < n; i++) {
+				if (candidate != i) {
+					if (knows(candidate, i) || !knows(i, candidate)) {
 						return false;
 					}
 				}

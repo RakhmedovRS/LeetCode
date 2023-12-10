@@ -15,24 +15,19 @@ import java.util.TreeSet;
 		url = "https://leetcode.com/problems/determine-the-minimum-sum-of-a-k-avoiding-array/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DetermineTheMinimumSumOfKAvoidingArray
-{
-	public int minimumSum(int n, int k)
-	{
+public class DetermineTheMinimumSumOfKAvoidingArray {
+	public int minimumSum(int n, int k) {
 		TreeSet<Integer> set = new TreeSet<>();
-		for (int i = 1; i <= 1000; i++)
-		{
+		for (int i = 1; i <= 1000; i++) {
 			set.add(i);
 		}
 
-		for (int i = 1; i < (k % 2 == 0 ? k / 2 : k / 2 + 1); i++)
-		{
+		for (int i = 1; i < (k % 2 == 0 ? k / 2 : k / 2 + 1); i++) {
 			set.remove(k - i);
 		}
 
 		int sum = 0;
-		for (int i = 0; i < n; i++)
-		{
+		for (int i = 0; i < n; i++) {
 			sum += set.first();
 			set.remove(set.first());
 		}

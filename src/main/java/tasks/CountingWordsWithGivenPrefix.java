@@ -13,15 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/counting-words-with-a-given-prefix/",
 		difficulty = Difficulty.EASY
 )
-public class CountingWordsWithGivenPrefix
-{
-	public int prefixCount(String[] words, String pref)
-	{
+public class CountingWordsWithGivenPrefix {
+	public int prefixCount(String[] words, String pref) {
 		int count = 0;
-		for (String word : words)
-		{
-			if (word.startsWith(pref))
-			{
+		for (String word : words) {
+			if (word.startsWith(pref)) {
 				count++;
 			}
 		}

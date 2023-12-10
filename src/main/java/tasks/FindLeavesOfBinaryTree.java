@@ -17,31 +17,25 @@ import java.util.*;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class FindLeavesOfBinaryTree
-{
-	public List<List<Integer>> findLeaves(TreeNode root)
-	{
+public class FindLeavesOfBinaryTree {
+	public List<List<Integer>> findLeaves(TreeNode root) {
 		Map<Integer, List<Integer>> layers = new HashMap<>();
 		dfs(root, layers);
 
 		LinkedList<List<Integer>> answer = new LinkedList<>();
-		for (int i = 0; layers.containsKey(i); i++)
-		{
+		for (int i = 0; layers.containsKey(i); i++) {
 			answer.add(layers.get(i));
 		}
 
 		return answer;
 	}
 
-	private int dfs(TreeNode root, Map<Integer, List<Integer>> layers)
-	{
-		if (root == null)
-		{
+	private int dfs(TreeNode root, Map<Integer, List<Integer>> layers) {
+		if (root == null) {
 			return 0;
 		}
 
-		if (root.left == null && root.right == null)
-		{
+		if (root.left == null && root.right == null) {
 			layers.putIfAbsent(0, new ArrayList<>());
 			layers.get(0).add(root.val);
 			return 0;

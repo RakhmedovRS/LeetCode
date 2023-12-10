@@ -16,36 +16,29 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/find-common-elements-between-two-arrays/",
 		difficulty = Difficulty.EASY
 )
-public class FindCommonElementsBetweenTwoArrays
-{
+public class FindCommonElementsBetweenTwoArrays {
 	public int[] findIntersectionValues(int[] nums1, int[] nums2) {
 
 		Set<Integer> A = new HashSet<>();
 		Set<Integer> B = new HashSet<>();
-		for (int num: nums1)
-		{
+		for (int num : nums1) {
 			A.add(num);
 		}
 
-		for (int num: nums2)
-		{
+		for (int num : nums2) {
 			B.add(num);
 		}
 
 		int[] ans = new int[2];
 
-		for (int j : nums1)
-		{
-			if (B.contains(j))
-			{
+		for (int j : nums1) {
+			if (B.contains(j)) {
 				ans[0]++;
 			}
 		}
 
-		for (int j : nums2)
-		{
-			if (A.contains(j))
-			{
+		for (int j : nums2) {
+			if (A.contains(j)) {
 				ans[1]++;
 			}
 		}

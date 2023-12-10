@@ -16,14 +16,11 @@ import java.util.*;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class ParallelCourses
-{
-	public int minimumSemesters(int n, int[][] relations)
-	{
+public class ParallelCourses {
+	public int minimumSemesters(int n, int[][] relations) {
 		int[] indegree = new int[n + 1];
 		Map<Integer, List<Integer>> graph = new HashMap<>();
-		for (int[] relation : relations)
-		{
+		for (int[] relation : relations) {
 			graph.putIfAbsent(relation[0], new ArrayList<>());
 			graph.get(relation[0]).add(relation[1]);
 			indegree[relation[1]]++;
@@ -31,10 +28,8 @@ public class ParallelCourses
 
 		int longestWay = Integer.MIN_VALUE;
 		Integer[] memo = new Integer[n + 1];
-		for (int i = 1; i <= n; i++)
-		{
-			if (indegree[i] == 0)
-			{
+		for (int i = 1; i <= n; i++) {
+			if (indegree[i] == 0) {
 				longestWay = Math.max(longestWay, dfs(i, new char[n + 1], memo, graph));
 			}
 		}
@@ -42,30 +37,24 @@ public class ParallelCourses
 		return longestWay == Integer.MIN_VALUE ? -1 : longestWay;
 	}
 
-	private int dfs(int node, char[] visited, Integer[] memo, Map<Integer, List<Integer>> graph)
-	{
-		if (visited[node] == 'P')
-		{
+	private int dfs(int node, char[] visited, Integer[] memo, Map<Integer, List<Integer>> graph) {
+		if (visited[node] == 'P') {
 			return -1;
 		}
 
-		if (memo[node] != null)
-		{
+		if (memo[node] != null) {
 			return memo[node];
 		}
 
 		visited[node] = 'P';
 
 		int longest = 1;
-		for (int child : graph.getOrDefault(node, Collections.emptyList()))
-		{
+		for (int child : graph.getOrDefault(node, Collections.emptyList())) {
 			int temp = dfs(child, visited, memo, graph);
-			if (temp == -1)
-			{
+			if (temp == -1) {
 				return -1;
 			}
-			else
-			{
+			else {
 				longest = Math.max(longest, temp + 1);
 			}
 		}

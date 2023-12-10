@@ -16,19 +16,15 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/minimum-impossible-or/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumImpossibleOR
-{
-	public int minImpossibleOR(int[] nums)
-	{
+public class MinimumImpossibleOR {
+	public int minImpossibleOR(int[] nums) {
 		Set<Integer> set = new HashSet<>();
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			set.add(num);
 		}
 
 		int num = 1;
-		while (set.contains(num))
-		{
+		while (set.contains(num)) {
 			num <<= 1;
 		}
 

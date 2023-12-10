@@ -15,26 +15,21 @@ import java.util.*;
 		url = "https://leetcode.com/problems/accounts-merge/",
 		difficulty = Difficulty.MEDIUM
 )
-public class AccountsMerge
-{
-	class Account
-	{
+public class AccountsMerge {
+	class Account {
 		String name;
 		Set<String> emails;
 
-		public Account(String name, Set<String> emails)
-		{
+		public Account(String name, Set<String> emails) {
 			this.name = name;
 			this.emails = emails;
 		}
 	}
 
-	public List<List<String>> accountsMerge(List<List<String>> accountsList)
-	{
+	public List<List<String>> accountsMerge(List<List<String>> accountsList) {
 		List<Account> accounts = new ArrayList<>();
 		Set<Account> accountsSet = new HashSet<>();
-		for (List<String> acc : accountsList)
-		{
+		for (List<String> acc : accountsList) {
 			String name = acc.get(0);
 			Set<String> emails = new HashSet<>(acc);
 			emails.remove(name);
@@ -43,28 +38,22 @@ public class AccountsMerge
 
 		Map<String, Account> union = new HashMap<>();
 		Set<Account> heirs;
-		for (Account account : accounts)
-		{
+		for (Account account : accounts) {
 			heirs = new HashSet<>();
-			for (String email : account.emails)
-			{
-				if (union.containsKey(email))
-				{
+			for (String email : account.emails) {
+				if (union.containsKey(email)) {
 					heirs.add(union.get(email));
 				}
 			}
 
-			if (!heirs.isEmpty())
-			{
-				for (Account heir : heirs)
-				{
+			if (!heirs.isEmpty()) {
+				for (Account heir : heirs) {
 					accountsSet.remove(heir);
 					account.emails.addAll(heir.emails);
 				}
 			}
 
-			for (String email : account.emails)
-			{
+			for (String email : account.emails) {
 				union.put(email, account);
 			}
 
@@ -74,11 +63,9 @@ public class AccountsMerge
 		return buildAnswer(accountsSet);
 	}
 
-	private List<List<String>> buildAnswer(Set<Account> accountSet)
-	{
+	private List<List<String>> buildAnswer(Set<Account> accountSet) {
 		List<List<String>> answer = new ArrayList<>();
-		for (Account account : accountSet)
-		{
+		for (Account account : accountSet) {
 			List<String> accountString = new ArrayList<>();
 			accountString.add(account.name);
 

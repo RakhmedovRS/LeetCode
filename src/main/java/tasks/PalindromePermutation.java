@@ -14,28 +14,21 @@ import common.LeetCode;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class PalindromePermutation
-{
-	public boolean canPermutePalindrome(String s)
-	{
+public class PalindromePermutation {
+	public boolean canPermutePalindrome(String s) {
 		int[] table = new int[Character.MAX_VALUE + 1];
-		for (char ch : s.toCharArray())
-		{
+		for (char ch : s.toCharArray()) {
 			table[ch]++;
 		}
 
 		return canPermutePalindrome(table);
 	}
 
-	private boolean canPermutePalindrome(int[] table)
-	{
+	private boolean canPermutePalindrome(int[] table) {
 		boolean seenOdd = false;
-		for (int count : table)
-		{
-			if (count % 2 == 1)
-			{
-				if (seenOdd)
-				{
+		for (int count : table) {
+			if (count % 2 == 1) {
+				if (seenOdd) {
 					return false;
 				}
 

@@ -16,29 +16,22 @@ import java.util.TreeSet;
 		url = "https://leetcode.com/problems/closest-prime-numbers-in-range/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ClosestPrimeNumbersInRange
-{
-	public int[] closestPrimes(int left, int right)
-	{
+public class ClosestPrimeNumbersInRange {
+	public int[] closestPrimes(int left, int right) {
 		boolean[] primes = new boolean[right + 1];
 		Arrays.fill(primes, true);
 
-		for (int i = 2; i * i <= right; i++)
-		{
-			if (primes[i])
-			{
-				for (int j = i * i; j <= right; j += i)
-				{
+		for (int i = 2; i * i <= right; i++) {
+			if (primes[i]) {
+				for (int j = i * i; j <= right; j += i) {
 					primes[j] = false;
 				}
 			}
 		}
 
 		TreeSet<Integer> treeSet = new TreeSet<>();
-		for (int i = 2; i < primes.length; i++)
-		{
-			if (primes[i])
-			{
+		for (int i = 2; i < primes.length; i++) {
+			if (primes[i]) {
 				treeSet.add(i);
 			}
 		}
@@ -48,12 +41,9 @@ public class ClosestPrimeNumbersInRange
 		int l = -1;
 		int r = -1;
 		Integer prev = null;
-		for (int val : treeSet.subSet(left, true, right, true))
-		{
-			if (prev != null)
-			{
-				if (val - prev < diff)
-				{
+		for (int val : treeSet.subSet(left, true, right, true)) {
+			if (prev != null) {
+				if (val - prev < diff) {
 					diff = val - prev;
 					l = prev;
 					r = val;

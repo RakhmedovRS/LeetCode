@@ -18,10 +18,8 @@ import java.util.Map;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class DesignSnakeGame
-{
-	class SnakeGame
-	{
+public class DesignSnakeGame {
+	class SnakeGame {
 		boolean[][] grid;
 		int width;
 		int height;
@@ -40,8 +38,7 @@ public class DesignSnakeGame
 		 * @param height - screen height
 		 * @param food   - A list of food positions E.g food = [[1,1], [1,0]] means the first food is positioned at [1,1], the second is at [1,0].
 		 */
-		public SnakeGame(int width, int height, int[][] food)
-		{
+		public SnakeGame(int width, int height, int[][] food) {
 			this.height = height;
 			this.width = width;
 			this.food = food;
@@ -66,18 +63,15 @@ public class DesignSnakeGame
 		 * @param direction - 'U' = Up, 'L' = Left, 'R' = Right, 'D' = Down
 		 * @return The game's score after the move. Return -1 if game over. Game over when snake crosses the screen boundary or bites its body.
 		 */
-		public int move(String direction)
-		{
-			if (head[0] < 0 || head[0] >= height || head[1] < 0 || head[1] >= width)
-			{
+		public int move(String direction) {
+			if (head[0] < 0 || head[0] >= height || head[1] < 0 || head[1] >= width) {
 				return -1;
 			}
 
 			head[0] += directions.get(direction)[0];
 			head[1] += directions.get(direction)[1];
 
-			if (head[0] < 0 || head[0] >= height || head[1] < 0 || head[1] >= width || grid[head[0]][head[1]])
-			{
+			if (head[0] < 0 || head[0] >= height || head[1] < 0 || head[1] >= width || grid[head[0]][head[1]]) {
 				return -1;
 			}
 
@@ -85,12 +79,10 @@ public class DesignSnakeGame
 
 			grid[head[0]][head[1]] = true;
 
-			if (addFood(head[0], head[1]))
-			{
+			if (addFood(head[0], head[1])) {
 				score++;
 			}
-			else
-			{
+			else {
 				String move = moves.removeFirst();
 
 				tail[0] += directions.get(move)[0];
@@ -102,12 +94,9 @@ public class DesignSnakeGame
 			return score;
 		}
 
-		private boolean addFood(int row, int column)
-		{
-			if (foodPos < food.length)
-			{
-				if (food[foodPos][0] == row && food[foodPos][1] == column)
-				{
+		private boolean addFood(int row, int column) {
+			if (foodPos < food.length) {
+				if (food[foodPos][0] == row && food[foodPos][1] == column) {
 					foodPos++;
 					return true;
 				}
@@ -117,8 +106,7 @@ public class DesignSnakeGame
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		SnakeGame snakeGame = new DesignSnakeGame().new SnakeGame(3, 3,
 				new int[][]{
 						{0, 1},

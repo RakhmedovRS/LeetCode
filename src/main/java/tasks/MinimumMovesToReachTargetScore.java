@@ -13,32 +13,25 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-moves-to-reach-target-score/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumMovesToReachTargetScore
-{
-	public int minMoves(int target, int maxDoubles)
-	{
+public class MinimumMovesToReachTargetScore {
+	public int minMoves(int target, int maxDoubles) {
 		int moves = 0;
-		if (maxDoubles == 0)
-		{
+		if (maxDoubles == 0) {
 			return target - 1;
 		}
 
-		while (maxDoubles > 0 && target > 1)
-		{
-			if (target % 2 == 0)
-			{
+		while (maxDoubles > 0 && target > 1) {
+			if (target % 2 == 0) {
 				maxDoubles--;
 				target /= 2;
 			}
-			else
-			{
+			else {
 				target--;
 			}
 			moves++;
 		}
 
-		if (target > 0)
-		{
+		if (target > 0) {
 			moves += target - 1;
 		}
 

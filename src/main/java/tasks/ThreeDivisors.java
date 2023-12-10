@@ -16,15 +16,11 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/three-divisors/",
 		difficulty = Difficulty.EASY
 )
-public class ThreeDivisors
-{
-	public boolean isThree(int n)
-	{
+public class ThreeDivisors {
+	public boolean isThree(int n) {
 		Set<Integer> set = new HashSet<>();
-		for (int i = 1; i <= n; i++)
-		{
-			if (n % i == 0 && !set.add(i))
-			{
+		for (int i = 1; i <= n; i++) {
+			if (n % i == 0 && !set.add(i)) {
 				break;
 			}
 		}

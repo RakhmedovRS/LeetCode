@@ -13,26 +13,20 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/search-insert-position/",
 		difficulty = Difficulty.EASY
 )
-public class SearchInsertPosition
-{
-	public int searchInsert(int[] nums, int target)
-	{
+public class SearchInsertPosition {
+	public int searchInsert(int[] nums, int target) {
 		int left = 0;
 		int right = nums.length;
 		int middle;
-		while (left < right)
-		{
+		while (left < right) {
 			middle = left + (right - left) / 2;
-			if (nums[middle] == target)
-			{
+			if (nums[middle] == target) {
 				return middle;
 			}
-			else if (nums[middle] > target)
-			{
+			else if (nums[middle] > target) {
 				right = middle;
 			}
-			else
-			{
+			else {
 				left = middle + 1;
 			}
 		}

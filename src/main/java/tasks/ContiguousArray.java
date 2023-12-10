@@ -16,24 +16,19 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/contiguous-array/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ContiguousArray
-{
-	public int findMaxLength(int[] nums)
-	{
+public class ContiguousArray {
+	public int findMaxLength(int[] nums) {
 		Map<Integer, Integer> memo = new HashMap<>();
 		memo.put(0, -1);
 		int count = 0;
 		int maxLen = 0;
-		for (int i = 0; i < nums.length; i++)
-		{
+		for (int i = 0; i < nums.length; i++) {
 			count += nums[i] == 1 ? 1 : -1;
 			Integer prevIndex = memo.get(count);
-			if (prevIndex != null)
-			{
+			if (prevIndex != null) {
 				maxLen = Math.max(maxLen, i - prevIndex);
 			}
-			else
-			{
+			else {
 				memo.put(count, i);
 			}
 		}

@@ -13,44 +13,34 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-speed-to-arrive-on-time/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumSpeedToArriveOnTime
-{
-	public int minSpeedOnTime(int[] dist, double hour)
-	{
+public class MinimumSpeedToArriveOnTime {
+	public int minSpeedOnTime(int[] dist, double hour) {
 		int answer = Integer.MAX_VALUE;
 		int min = 1;
 		int max = 1_000_000_000;
 		int mid;
-		while (min <= max)
-		{
+		while (min <= max) {
 			mid = (max + min) / 2;
 			double time = 0;
-			for (int i = 0; i < dist.length; i++)
-			{
-				if (i == dist.length - 1)
-				{
+			for (int i = 0; i < dist.length; i++) {
+				if (i == dist.length - 1) {
 					time += (double) dist[i] / mid;
 				}
-				else
-				{
-					if (dist[i] % mid == 0)
-					{
+				else {
+					if (dist[i] % mid == 0) {
 						time += dist[i] / mid;
 					}
-					else
-					{
+					else {
 						time += dist[i] / mid + 1;
 					}
 				}
 			}
 
-			if (time <= hour)
-			{
+			if (time <= hour) {
 				max = mid - 1;
 				answer = mid;
 			}
-			else
-			{
+			else {
 				min = mid + 1;
 			}
 		}

@@ -13,15 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/number-of-senior-citizens/",
 		difficulty = Difficulty.EASY
 )
-public class NumberOfSeniorCitizens
-{
-	public int countSeniors(String[] details)
-	{
+public class NumberOfSeniorCitizens {
+	public int countSeniors(String[] details) {
 		int count = 0;
-		for (String d : details)
-		{
-			if (Integer.parseInt(d.substring(11, 13)) > 60)
-			{
+		for (String d : details) {
+			if (Integer.parseInt(d.substring(11, 13)) > 60) {
 				count++;
 			}
 		}

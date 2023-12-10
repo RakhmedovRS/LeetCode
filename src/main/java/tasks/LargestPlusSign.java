@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/largest-plus-sign/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LargestPlusSign
-{
-	public int orderOfLargestPlusSign(int N, int[][] mines)
-	{
+public class LargestPlusSign {
+	public int orderOfLargestPlusSign(int N, int[][] mines) {
 		int max = 0;
 		boolean found = true;
 		int row = 0;
@@ -24,26 +22,20 @@ public class LargestPlusSign
 		int steps = 0;
 		int[][] grid = createGridAndSetMines(N, mines);
 		outer:
-		while (found)
-		{
+		while (found) {
 			found = false;
-			for (int r = row; r < N - steps; r++)
-			{
-				for (int c = column; c < N - steps; c++)
-				{
-					if (grid[r][c] == 0)
-					{
+			for (int r = row; r < N - steps; r++) {
+				for (int c = column; c < N - steps; c++) {
+					if (grid[r][c] == 0) {
 						int R = r;
 						int C = c;
 						int S = steps + 1;
 						//left
-						while (C >= 0 && grid[R][C] == 0 && S != 0)
-						{
+						while (C >= 0 && grid[R][C] == 0 && S != 0) {
 							C--;
 							S--;
 						}
-						if (S != 0)
-						{
+						if (S != 0) {
 							continue;
 						}
 
@@ -51,13 +43,11 @@ public class LargestPlusSign
 						C = c;
 						S = steps + 1;
 						//right
-						while (C < grid[R].length && grid[R][C] == 0 && S != 0)
-						{
+						while (C < grid[R].length && grid[R][C] == 0 && S != 0) {
 							C++;
 							S--;
 						}
-						if (S != 0)
-						{
+						if (S != 0) {
 							continue;
 						}
 
@@ -65,13 +55,11 @@ public class LargestPlusSign
 						C = c;
 						S = steps + 1;
 						//down
-						while (R < grid.length && grid[R][C] == 0 && S != 0)
-						{
+						while (R < grid.length && grid[R][C] == 0 && S != 0) {
 							R++;
 							S--;
 						}
-						if (S != 0)
-						{
+						if (S != 0) {
 							continue;
 						}
 
@@ -79,13 +67,11 @@ public class LargestPlusSign
 						C = c;
 						S = steps + 1;
 						//up
-						while (R >= 0 && grid[R][C] == 0 && S != 0)
-						{
+						while (R >= 0 && grid[R][C] == 0 && S != 0) {
 							R--;
 							S--;
 						}
-						if (S != 0)
-						{
+						if (S != 0) {
 							continue;
 						}
 
@@ -103,11 +89,9 @@ public class LargestPlusSign
 		return max;
 	}
 
-	private int[][] createGridAndSetMines(int N, int[][] mines)
-	{
+	private int[][] createGridAndSetMines(int N, int[][] mines) {
 		int[][] grid = new int[N][N];
-		for (int[] mine : mines)
-		{
+		for (int[] mine : mines) {
 			grid[mine[0]][mine[1]] = 1;
 		}
 

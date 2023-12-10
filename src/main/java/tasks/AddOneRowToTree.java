@@ -14,32 +14,25 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/add-one-row-to-tree/",
 		difficulty = Difficulty.MEDIUM
 )
-public class AddOneRowToTree
-{
-	public TreeNode addOneRow(TreeNode root, int v, int d)
-	{
+public class AddOneRowToTree {
+	public TreeNode addOneRow(TreeNode root, int v, int d) {
 		return dfs(root, v, d, true);
 	}
 
-	private TreeNode dfs(TreeNode node, int v, int d, boolean leftSubTree)
-	{
-		if (d == 1)
-		{
+	private TreeNode dfs(TreeNode node, int v, int d, boolean leftSubTree) {
+		if (d == 1) {
 			TreeNode newNode = new TreeNode(v);
-			if (leftSubTree)
-			{
+			if (leftSubTree) {
 				newNode.left = node;
 			}
-			else
-			{
+			else {
 				newNode.right = node;
 			}
 
 			return newNode;
 		}
 
-		if (node == null)
-		{
+		if (node == null) {
 			return null;
 		}
 

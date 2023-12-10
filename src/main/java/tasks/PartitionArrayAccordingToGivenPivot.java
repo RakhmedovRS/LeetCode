@@ -16,43 +16,34 @@ import java.util.List;
 		url = "https://leetcode.com/problems/partition-array-according-to-given-pivot/",
 		difficulty = Difficulty.MEDIUM
 )
-public class PartitionArrayAccordingToGivenPivot
-{
-	public int[] pivotArray(int[] nums, int pivot)
-	{
+public class PartitionArrayAccordingToGivenPivot {
+	public int[] pivotArray(int[] nums, int pivot) {
 		List<Integer> less = new ArrayList<>();
 		List<Integer> equal = new ArrayList<>();
 		List<Integer> greater = new ArrayList<>();
 
-		for (int num : nums)
-		{
-			if (num < pivot)
-			{
+		for (int num : nums) {
+			if (num < pivot) {
 				less.add(num);
 			}
-			else if (num == pivot)
-			{
+			else if (num == pivot) {
 				equal.add(num);
 			}
-			else
-			{
+			else {
 				greater.add(num);
 			}
 		}
 
 		int pos = 0;
-		for (int num : less)
-		{
+		for (int num : less) {
 			nums[pos++] = num;
 		}
 
-		for (int num : equal)
-		{
+		for (int num : equal) {
 			nums[pos++] = num;
 		}
 
-		for (int num : greater)
-		{
+		for (int num : greater) {
 			nums[pos++] = num;
 		}
 

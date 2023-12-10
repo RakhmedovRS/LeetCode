@@ -16,38 +16,31 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/apply-discount-every-n-orders/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ApplyDiscountEveryNOrders
-{
-	class Cashier
-	{
+public class ApplyDiscountEveryNOrders {
+	class Cashier {
 		int currentCustomer;
 		int happyCustomer;
 		double discount;
 		Map<Integer, Integer> productToPrice;
 
-		public Cashier(int n, int discount, int[] products, int[] prices)
-		{
+		public Cashier(int n, int discount, int[] products, int[] prices) {
 			currentCustomer = 0;
 			happyCustomer = n;
 			this.discount = discount / 100D;
 			productToPrice = new HashMap<>();
-			for (int i = 0; i < products.length; i++)
-			{
+			for (int i = 0; i < products.length; i++) {
 				productToPrice.put(products[i], prices[i]);
 			}
 		}
 
-		public double getBill(int[] product, int[] amount)
-		{
+		public double getBill(int[] product, int[] amount) {
 			double bill = 0;
-			for (int pos = 0; pos < product.length; pos++)
-			{
+			for (int pos = 0; pos < product.length; pos++) {
 				bill += productToPrice.get(product[pos]) * amount[pos];
 			}
 
 			currentCustomer++;
-			if (currentCustomer == happyCustomer)
-			{
+			if (currentCustomer == happyCustomer) {
 				bill -= bill * discount;
 				currentCustomer = 0;
 			}

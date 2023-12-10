@@ -7,42 +7,34 @@ import common.LeetCode;
  * @created 20-Sep-20
  */
 @LeetCode(id = 1594, name = "Maximum Non Negative Product in a Matrix", url = "https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/")
-public class MaximumNonNegativeProductInMatrix
-{
-	public int maxProductPath(int[][] grid)
-	{
+public class MaximumNonNegativeProductInMatrix {
+	public int maxProductPath(int[][] grid) {
 		long[] max = new long[]{-1};
 		dfs(grid, 0, 0, max, grid[0][0]);
 		return (int) (max[0] % 1_000_000_007);
 	}
 
-	private void dfs(int[][] grid, int row, int column, long[] max, long current)
-	{
-		if (row == grid.length - 1 && column == grid[row].length - 1)
-		{
+	private void dfs(int[][] grid, int row, int column, long[] max, long current) {
+		if (row == grid.length - 1 && column == grid[row].length - 1) {
 			max[0] = Math.max(max[0], current);
 			return;
 		}
 
-		if (grid[row][column] == 0)
-		{
+		if (grid[row][column] == 0) {
 			max[0] = Math.max(max[0], 0);
 			return;
 		}
 
-		if (row + 1 < grid.length)
-		{
+		if (row + 1 < grid.length) {
 			dfs(grid, row + 1, column, max, current * grid[row + 1][column]);
 		}
 
-		if (column + 1 < grid[row].length)
-		{
+		if (column + 1 < grid[row].length) {
 			dfs(grid, row, column + 1, max, current * grid[row][column + 1]);
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new MaximumNonNegativeProductInMatrix().maxProductPath(new int[][]
 				{
 						{1, -1, 2, 1, -1, 0, 0, 4, 3, 2, 0, -2, -2},

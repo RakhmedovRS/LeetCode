@@ -13,29 +13,23 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/separate-black-and-white-balls/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SeparateBlackAndWhiteBalls
-{
-	public long minimumSteps(String s)
-	{
+public class SeparateBlackAndWhiteBalls {
+	public long minimumSteps(String s) {
 		long res = 0;
 		char[] chars = s.toCharArray();
 		int left = 0;
 		int right = chars.length - 1;
 
-		while (left < right)
-		{
-			while (left <= right && chars[left] == '0')
-			{
+		while (left < right) {
+			while (left <= right && chars[left] == '0') {
 				left++;
 			}
 
-			while (right >= left && chars[right] == '1')
-			{
+			while (right >= left && chars[right] == '1') {
 				right--;
 			}
 
-			if (left < right)
-			{
+			if (left < right) {
 				res += right - left;
 				chars[left++] = '0';
 				chars[right--] = '1';

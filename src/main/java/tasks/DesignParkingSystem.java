@@ -13,20 +13,16 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/design-parking-system/",
 		difficulty = Difficulty.EASY
 )
-public class DesignParkingSystem
-{
-	class ParkingSystem
-	{
+public class DesignParkingSystem {
+	class ParkingSystem {
 
 		int[] slots;
 
-		public ParkingSystem(int big, int medium, int small)
-		{
+		public ParkingSystem(int big, int medium, int small) {
 			slots = new int[]{0, big, medium, small};
 		}
 
-		public boolean addCar(int carType)
-		{
+		public boolean addCar(int carType) {
 			slots[carType]--;
 			return slots[carType] >= 0;
 		}

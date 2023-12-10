@@ -13,14 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/diagonal-traverse/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DiagonalTraverse
-{
-	public int[] findDiagonalOrder(int[][] matrix)
-	{
+public class DiagonalTraverse {
+	public int[] findDiagonalOrder(int[][] matrix) {
 		int pos = 0;
 		int rows = matrix.length;
-		if (rows == 0)
-		{
+		if (rows == 0) {
 			return new int[0];
 		}
 		int columns = matrix[0].length;
@@ -28,42 +25,33 @@ public class DiagonalTraverse
 		int row = 0;
 		int column = 0;
 		boolean goingUp = true;
-		while (pos < answer.length)
-		{
+		while (pos < answer.length) {
 			answer[pos++] = matrix[row][column];
 
-			if (goingUp)
-			{
-				if (column == columns - 1)
-				{
+			if (goingUp) {
+				if (column == columns - 1) {
 					row++;
 					goingUp = false;
 				}
-				else if (row == 0)
-				{
+				else if (row == 0) {
 					column++;
 					goingUp = false;
 				}
-				else
-				{
+				else {
 					row--;
 					column++;
 				}
 			}
-			else
-			{
-				if (row == rows - 1)
-				{
+			else {
+				if (row == rows - 1) {
 					column++;
 					goingUp = true;
 				}
-				else if (column == 0)
-				{
+				else if (column == 0) {
 					row++;
 					goingUp = true;
 				}
-				else
-				{
+				else {
 					row++;
 					column--;
 				}

@@ -15,10 +15,8 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximizeAreaOfSquareHoleInGrid
-{
-	public int maximizeSquareHoleArea(int n, int m, int[] hBars, int[] vBars)
-	{
+public class MaximizeAreaOfSquareHoleInGrid {
+	public int maximizeSquareHoleArea(int n, int m, int[] hBars, int[] vBars) {
 		Arrays.sort(hBars);
 		Arrays.sort(vBars);
 		int hMax = maxConsecutive(hBars);
@@ -29,19 +27,15 @@ public class MaximizeAreaOfSquareHoleInGrid
 		return res * res;
 	}
 
-	private int maxConsecutive(int[] vals)
-	{
+	private int maxConsecutive(int[] vals) {
 		int max = 0;
 		int prev = vals[0];
 		int curr = 1;
-		for (int val : vals)
-		{
-			if (val == prev + 1)
-			{
+		for (int val : vals) {
+			if (val == prev + 1) {
 				curr++;
 			}
-			else
-			{
+			else {
 				curr = 1;
 			}
 

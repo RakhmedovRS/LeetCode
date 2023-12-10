@@ -15,23 +15,18 @@ import java.util.*;
 		url = "https://leetcode.com/problems/minimum-height-trees/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumHeightTrees
-{
-	public List<Integer> findMinHeightTrees(int n, int[][] edges)
-	{
+public class MinimumHeightTrees {
+	public List<Integer> findMinHeightTrees(int n, int[][] edges) {
 		List<Integer> answer = new ArrayList<>();
-		if (edges.length == 0)
-		{
-			for (int i = 0; i < n; i++)
-			{
+		if (edges.length == 0) {
+			for (int i = 0; i < n; i++) {
 				answer.add(i);
 			}
 			return answer;
 		}
 
 		Map<Integer, Set<Integer>> graph = new HashMap<>();
-		for (int[] edge : edges)
-		{
+		for (int[] edge : edges) {
 			graph.putIfAbsent(edge[0], new HashSet<>());
 			graph.putIfAbsent(edge[1], new HashSet<>());
 
@@ -40,10 +35,8 @@ public class MinimumHeightTrees
 		}
 
 		Queue<Integer> queue = new LinkedList<>();
-		for (int i = 0; i < n; i++)
-		{
-			if (graph.get(i).size() == 1)
-			{
+		for (int i = 0; i < n; i++) {
+			if (graph.get(i).size() == 1) {
 				queue.add(i);
 			}
 		}
@@ -51,18 +44,15 @@ public class MinimumHeightTrees
 		int size;
 		int current;
 		int next;
-		while (n > 2)
-		{
+		while (n > 2) {
 			size = queue.size();
 			n -= size;
-			while (size-- > 0)
-			{
+			while (size-- > 0) {
 				current = queue.remove();
 				next = graph.get(current).iterator().next();
 				graph.get(current).remove(next);
 				graph.get(next).remove(current);
-				if (graph.get(next).size() == 1)
-				{
+				if (graph.get(next).size() == 1) {
 					queue.add(next);
 				}
 			}
@@ -71,8 +61,7 @@ public class MinimumHeightTrees
 		return new ArrayList<>(queue);
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new MinimumHeightTrees().findMinHeightTrees(3, new int[][]
 				{
 						{0, 1},

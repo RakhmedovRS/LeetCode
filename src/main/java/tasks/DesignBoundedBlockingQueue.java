@@ -16,41 +16,33 @@ import java.util.LinkedList;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class DesignBoundedBlockingQueue
-{
-	class BoundedBlockingQueue
-	{
+public class DesignBoundedBlockingQueue {
+	class BoundedBlockingQueue {
 		int capacity;
 		LinkedList<Integer> list;
 
-		public BoundedBlockingQueue(int capacity)
-		{
+		public BoundedBlockingQueue(int capacity) {
 			this.capacity = capacity;
 			list = new LinkedList<>();
 		}
 
-		public void enqueue(int element) throws InterruptedException
-		{
-			while (capacity == list.size())
-			{
+		public void enqueue(int element) throws InterruptedException {
+			while (capacity == list.size()) {
 				Thread.sleep(10);
 			}
 
 			list.addFirst(element);
 		}
 
-		public int dequeue() throws InterruptedException
-		{
-			while (list.isEmpty())
-			{
+		public int dequeue() throws InterruptedException {
+			while (list.isEmpty()) {
 				Thread.sleep(10);
 			}
 
 			return list.removeLast();
 		}
 
-		public int size()
-		{
+		public int size() {
 			return list.size();
 		}
 	}

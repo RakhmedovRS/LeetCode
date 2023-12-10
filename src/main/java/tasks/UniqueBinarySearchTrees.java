@@ -13,28 +13,22 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/unique-binary-search-trees/",
 		difficulty = Difficulty.MEDIUM
 )
-public class UniqueBinarySearchTrees
-{
-	public int numTrees(int n)
-	{
+public class UniqueBinarySearchTrees {
+	public int numTrees(int n) {
 		return dfs(n, new Integer[n + 1]);
 	}
 
-	private int dfs(int n, Integer[] memo)
-	{
-		if (n <= 1)
-		{
+	private int dfs(int n, Integer[] memo) {
+		if (n <= 1) {
 			return 1;
 		}
 
-		if (memo[n] != null)
-		{
+		if (memo[n] != null) {
 			return memo[n];
 		}
 
 		memo[n] = 0;
-		for (int i = 1; i <= n; i++)
-		{
+		for (int i = 1; i <= n; i++) {
 			memo[n] += (dfs(i - 1, memo) * dfs(n - i, memo));
 		}
 

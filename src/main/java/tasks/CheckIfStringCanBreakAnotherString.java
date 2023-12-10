@@ -15,10 +15,8 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/check-if-a-string-can-break-another-string/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CheckIfStringCanBreakAnotherString
-{
-	public boolean checkIfCanBreak(String s1, String s2)
-	{
+public class CheckIfStringCanBreakAnotherString {
+	public boolean checkIfCanBreak(String s1, String s2) {
 		int[] table1 = new int[26];
 		int[] table2 = new int[26];
 
@@ -28,30 +26,24 @@ public class CheckIfStringCanBreakAnotherString
 		return canBeat(Arrays.copyOf(table1, 26), Arrays.copyOf(table2, 26)) || canBeat(table2, table1);
 	}
 
-	private boolean canBeat(int[] table1, int[] table2)
-	{
+	private boolean canBeat(int[] table1, int[] table2) {
 		int t1 = 25;
 		int t2 = 25;
 		int min;
-		while (t1 >= 0 && t2 >= 0)
-		{
-			while (t1 >= 0 && table1[t1] == 0)
-			{
+		while (t1 >= 0 && t2 >= 0) {
+			while (t1 >= 0 && table1[t1] == 0) {
 				t1--;
 			}
 
-			while (t2 >= 0 && table2[t2] == 0)
-			{
+			while (t2 >= 0 && table2[t2] == 0) {
 				t2--;
 			}
 
-			if (t1 < t2)
-			{
+			if (t1 < t2) {
 				return false;
 			}
 
-			if (t1 < 0 || t2 < 0)
-			{
+			if (t1 < 0 || t2 < 0) {
 				break;
 			}
 
@@ -63,10 +55,8 @@ public class CheckIfStringCanBreakAnotherString
 		return t1 == t2;
 	}
 
-	private void fillTable(String s, int[] table)
-	{
-		for (char ch : s.toCharArray())
-		{
+	private void fillTable(String s, int[] table) {
+		for (char ch : s.toCharArray()) {
 			table[ch - 'a']++;
 		}
 	}

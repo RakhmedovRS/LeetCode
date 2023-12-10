@@ -14,22 +14,17 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/",
 		difficulty = Difficulty.EASY
 )
-public class ConvertSortedArrayToBinarySearchTree
-{
-	public TreeNode sortedArrayToBST(int[] nums)
-	{
+public class ConvertSortedArrayToBinarySearchTree {
+	public TreeNode sortedArrayToBST(int[] nums) {
 		return sortedArrayToBST(nums, 0, nums.length - 1);
 	}
 
-	private TreeNode sortedArrayToBST(int[] nums, int left, int right)
-	{
-		if (left > right)
-		{
+	private TreeNode sortedArrayToBST(int[] nums, int left, int right) {
+		if (left > right) {
 			return null;
 		}
 
-		if (left == right)
-		{
+		if (left == right) {
 			return new TreeNode(nums[left]);
 		}
 

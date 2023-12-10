@@ -13,19 +13,15 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximum-erasure-value/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumErasureValue
-{
-	public int maximumUniqueSubarray(int[] nums)
-	{
+public class MaximumErasureValue {
+	public int maximumUniqueSubarray(int[] nums) {
 		int max = 0;
 		boolean[] used = new boolean[10_000];
 		int left = 0;
 		int right = 0;
 		int sum = 0;
-		while (right < nums.length)
-		{
-			while (used[nums[right]])
-			{
+		while (right < nums.length) {
+			while (used[nums[right]]) {
 				used[nums[left]] = false;
 				sum -= nums[left++];
 			}
@@ -39,8 +35,7 @@ public class MaximumErasureValue
 		return max;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		MaximumErasureValue clazz = new MaximumErasureValue();
 
 		System.out.println(clazz.maximumUniqueSubarray(new int[]{1, 2, 3, 4, 5}));

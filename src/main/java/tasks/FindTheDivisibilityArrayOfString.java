@@ -13,20 +13,16 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/find-the-divisibility-array-of-a-string/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindTheDivisibilityArrayOfString
-{
-	public int[] divisibilityArray(String word, int m)
-	{
+public class FindTheDivisibilityArrayOfString {
+	public int[] divisibilityArray(String word, int m) {
 		long val = 0;
 		int[] answer = new int[word.length()];
-		for (int i = 0; i < word.length(); i++)
-		{
+		for (int i = 0; i < word.length(); i++) {
 			val *= 10;
 			val += word.charAt(i) - '0';
 			val %= m;
 
-			if (val == 0)
-			{
+			if (val == 0) {
 				answer[i] = 1;
 			}
 		}

@@ -13,17 +13,13 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximum-repeating-substring/",
 		difficulty = Difficulty.EASY
 )
-public class MaximumRepeatingSubstring
-{
-	public int maxRepeating(String sequence, String word)
-	{
+public class MaximumRepeatingSubstring {
+	public int maxRepeating(String sequence, String word) {
 		int count = 0;
 		StringBuilder sb = new StringBuilder(word);
 		int i = 1;
-		while (sb.length() <= sequence.length())
-		{
-			if (sequence.contains(sb.toString()))
-			{
+		while (sb.length() <= sequence.length()) {
+			if (sequence.contains(sb.toString())) {
 				count = i;
 			}
 			i++;

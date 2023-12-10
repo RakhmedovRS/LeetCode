@@ -15,25 +15,19 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/maximum-binary-string-after-change/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumBinaryStringAfterChange
-{
-	public String maximumBinaryString(String binary)
-	{
+public class MaximumBinaryStringAfterChange {
+	public String maximumBinaryString(String binary) {
 		int zeroes = 0;
 		char[] chars = new char[binary.length()];
 		Arrays.fill(chars, '1');
-		for (char ch : binary.toCharArray())
-		{
-			if (ch == '0')
-			{
+		for (char ch : binary.toCharArray()) {
+			if (ch == '0') {
 				zeroes++;
 			}
 		}
 
-		for (int i = 0; i < binary.length(); i++)
-		{
-			if (binary.charAt(i) == '0')
-			{
+		for (int i = 0; i < binary.length(); i++) {
+			if (binary.charAt(i) == '0') {
 				chars[i + zeroes - 1] = '0';
 				break;
 			}
@@ -42,8 +36,7 @@ public class MaximumBinaryStringAfterChange
 		return String.valueOf(chars);
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		MaximumBinaryStringAfterChange clazz = new MaximumBinaryStringAfterChange();
 		System.out.println(clazz.maximumBinaryString("101010111011001101000110010001100001111")); //"111111111111111111101111111111111111111"
 		System.out.println(clazz.maximumBinaryString("01111001100000110010")); //"11111111110111111111"

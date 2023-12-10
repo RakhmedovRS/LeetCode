@@ -13,19 +13,14 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/final-value-of-variable-after-performing-operations/",
 		difficulty = Difficulty.EASY
 )
-public class FinalValueOfVariableAfterPerformingOperations
-{
-	public int finalValueAfterOperations(String[] operations)
-	{
+public class FinalValueOfVariableAfterPerformingOperations {
+	public int finalValueAfterOperations(String[] operations) {
 		int value = 0;
-		for (String operation : operations)
-		{
-			if (operation.startsWith("+") || operation.endsWith("+"))
-			{
+		for (String operation : operations) {
+			if (operation.startsWith("+") || operation.endsWith("+")) {
 				value++;
 			}
-			else
-			{
+			else {
 				value--;
 			}
 		}

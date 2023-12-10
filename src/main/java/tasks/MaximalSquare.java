@@ -13,26 +13,19 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximal-square/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximalSquare
-{
-	public int maximalSquare(char[][] matrix)
-	{
+public class MaximalSquare {
+	public int maximalSquare(char[][] matrix) {
 		int rows = matrix.length;
-		if (rows == 0)
-		{
+		if (rows == 0) {
 			return 0;
 		}
 		int columns = matrix[0].length;
 
 		int max = 0;
-		for (int row = 0; row < rows; row++)
-		{
-			for (int column = 0; column < columns; column++)
-			{
-				if (matrix[row][column] == '1')
-				{
-					if (row > 0 && column > 0)
-					{
+		for (int row = 0; row < rows; row++) {
+			for (int column = 0; column < columns; column++) {
+				if (matrix[row][column] == '1') {
+					if (row > 0 && column > 0) {
 						matrix[row][column] = (char) ('1' + Math.min(matrix[row - 1][column - 1] - '0',
 								Math.min(matrix[row - 1][column] - '0',
 										matrix[row][column - 1] - '0')));

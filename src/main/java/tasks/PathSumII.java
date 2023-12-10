@@ -18,28 +18,23 @@ import java.util.List;
 		url = "https://leetcode.com/problems/path-sum-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class PathSumII
-{
-	public List<List<Integer>> pathSum(TreeNode root, int targetSum)
-	{
+public class PathSumII {
+	public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
 		List<List<Integer>> answer = new ArrayList<>();
 		LinkedList<Integer> current = new LinkedList<>();
 		dfs(root, targetSum, current, answer);
 		return answer;
 	}
 
-	private void dfs(TreeNode root, int targetSum, LinkedList<Integer> current, List<List<Integer>> answer)
-	{
-		if (root == null)
-		{
+	private void dfs(TreeNode root, int targetSum, LinkedList<Integer> current, List<List<Integer>> answer) {
+		if (root == null) {
 			return;
 		}
 
 		current.addLast(root.val);
 
 		targetSum -= root.val;
-		if (root.left == null && root.right == null && targetSum == 0)
-		{
+		if (root.left == null && root.right == null && targetSum == 0) {
 			answer.add(new ArrayList<>(current));
 		}
 

@@ -17,19 +17,14 @@ import java.util.LinkedList;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class SortLinkedListAlreadySortedUsingAbsoluteValues
-{
-	public ListNode sortLinkedList(ListNode head)
-	{
+public class SortLinkedListAlreadySortedUsingAbsoluteValues {
+	public ListNode sortLinkedList(ListNode head) {
 		LinkedList<ListNode> list = new LinkedList<>();
-		while (head != null)
-		{
-			if (head.val < 0)
-			{
+		while (head != null) {
+			if (head.val < 0) {
 				list.addFirst(head);
 			}
-			else
-			{
+			else {
 				list.addLast(head);
 			}
 
@@ -38,8 +33,7 @@ public class SortLinkedListAlreadySortedUsingAbsoluteValues
 
 		ListNode dummy = new ListNode();
 		ListNode current = dummy;
-		while (!list.isEmpty())
-		{
+		while (!list.isEmpty()) {
 			current.next = list.removeFirst();
 			current = current.next;
 			current.next = null;

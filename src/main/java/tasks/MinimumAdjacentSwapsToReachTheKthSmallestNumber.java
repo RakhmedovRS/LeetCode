@@ -15,22 +15,16 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumAdjacentSwapsToReachTheKthSmallestNumber
-{
-	public int getMinSwaps(String num, int k)
-	{
+public class MinimumAdjacentSwapsToReachTheKthSmallestNumber {
+	public int getMinSwaps(String num, int k) {
 		char[] original = num.toCharArray();
 		char[] swapped = num.toCharArray();
 		getMinSwaps(swapped, k);
 		int swaps = 0;
-		for (int i = 0; i < original.length; i++)
-		{
-			if (original[i] != swapped[i])
-			{
-				for (int j = i + 1; j < original.length; j++)
-				{
-					if (swapped[i] == original[j])
-					{
+		for (int i = 0; i < original.length; i++) {
+			if (original[i] != swapped[i]) {
+				for (int j = i + 1; j < original.length; j++) {
+					if (swapped[i] == original[j]) {
 						swaps += j - i;
 						swap(original, i, j);
 						break;
@@ -42,10 +36,8 @@ public class MinimumAdjacentSwapsToReachTheKthSmallestNumber
 		return swaps;
 	}
 
-	private void swap(char[] original, int left, int right)
-	{
-		while (right > left)
-		{
+	private void swap(char[] original, int left, int right) {
+		while (right > left) {
 			char temp = original[right - 1];
 			original[right - 1] = original[right];
 			original[right] = temp;
@@ -53,22 +45,16 @@ public class MinimumAdjacentSwapsToReachTheKthSmallestNumber
 		}
 	}
 
-	public void getMinSwaps(char[] chars, int k)
-	{
-		if (k == 0)
-		{
+	public void getMinSwaps(char[] chars, int k) {
+		if (k == 0) {
 			return;
 		}
 
-		for (int left = chars.length - 1; left >= 0; left--)
-		{
-			if (chars[left] > chars[left - 1])
-			{
+		for (int left = chars.length - 1; left >= 0; left--) {
+			if (chars[left] > chars[left - 1]) {
 				int pos = left;
-				for (int right = left; right < chars.length; right++)
-				{
-					if (chars[left - 1] < chars[right] && chars[right] < chars[pos])
-					{
+				for (int right = left; right < chars.length; right++) {
+					if (chars[left - 1] < chars[right] && chars[right] < chars[pos]) {
 						pos = right;
 					}
 				}

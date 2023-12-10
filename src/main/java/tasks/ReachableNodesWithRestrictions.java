@@ -17,14 +17,11 @@ import java.util.*;
 		url = "https://leetcode.com/problems/reachable-nodes-with-restrictions/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ReachableNodesWithRestrictions
-{
-	public int reachableNodes(int n, int[][] edges, int[] restricted)
-	{
+public class ReachableNodesWithRestrictions {
+	public int reachableNodes(int n, int[][] edges, int[] restricted) {
 		int max = 0;
 		Map<Integer, List<Integer>> graph = new HashMap<>();
-		for (int[] edge : edges)
-		{
+		for (int[] edge : edges) {
 			int nodeA = edge[0];
 			int nodeB = edge[1];
 
@@ -36,24 +33,20 @@ public class ReachableNodesWithRestrictions
 		}
 
 		boolean[] visited = new boolean[n + 1];
-		for (int rest : restricted)
-		{
+		for (int rest : restricted) {
 			visited[rest] = true;
 		}
 		visited[0] = true;
 
 		Queue<Integer> queue = new LinkedList<>();
 		queue.add(0);
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			int node = queue.remove();
 
 			max++;
 
-			for (int next : graph.getOrDefault(node, Collections.emptyList()))
-			{
-				if (!visited[next])
-				{
+			for (int next : graph.getOrDefault(node, Collections.emptyList())) {
+				if (!visited[next]) {
 					queue.add(next);
 					visited[next] = true;
 				}

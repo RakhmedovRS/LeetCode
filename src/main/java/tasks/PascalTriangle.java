@@ -17,29 +17,22 @@ import java.util.List;
 		url = "https://leetcode.com/problems/pascals-triangle/",
 		difficulty = Difficulty.EASY
 )
-public class PascalTriangle
-{
-	public List<List<Integer>> generate(int numRows)
-	{
+public class PascalTriangle {
+	public List<List<Integer>> generate(int numRows) {
 		List<List<Integer>> lists = new ArrayList<>();
-		if (numRows >= 1)
-		{
+		if (numRows >= 1) {
 			lists.add(Arrays.asList(1));
 		}
 
-		if (numRows >= 2)
-		{
+		if (numRows >= 2) {
 			lists.add(Arrays.asList(1, 1));
 		}
 
-		if (numRows >= 3)
-		{
-			for (int i = 2; i < numRows; i++)
-			{
+		if (numRows >= 3) {
+			for (int i = 2; i < numRows; i++) {
 				lists.add(new ArrayList<>());
 				lists.get(i).add(1);
-				for (int j = 1; j < i; j++)
-				{
+				for (int j = 1; j < i; j++) {
 					lists.get(i).add(lists.get(i - 1).get(j - 1) + lists.get(i - 1).get(j));
 				}
 
@@ -50,8 +43,7 @@ public class PascalTriangle
 		return lists;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		new PascalTriangle().generate(5).forEach(System.out::println);
 	}
 }

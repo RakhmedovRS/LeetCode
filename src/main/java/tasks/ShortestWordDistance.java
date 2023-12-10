@@ -14,27 +14,21 @@ import common.LeetCode;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class ShortestWordDistance
-{
-	public int shortestDistance(String[] words, String word1, String word2)
-	{
+public class ShortestWordDistance {
+	public int shortestDistance(String[] words, String word1, String word2) {
 		int distance = Integer.MAX_VALUE;
 		Integer lastIndexOfWord1 = null;
 		Integer lastIndexOfWord2 = null;
-		for (int i = 0; i < words.length; i++)
-		{
-			if (words[i].equals(word1))
-			{
+		for (int i = 0; i < words.length; i++) {
+			if (words[i].equals(word1)) {
 				lastIndexOfWord1 = i;
 			}
 
-			if (words[i].equals(word2))
-			{
+			if (words[i].equals(word2)) {
 				lastIndexOfWord2 = i;
 			}
 
-			if (lastIndexOfWord1 != null && lastIndexOfWord2 != null)
-			{
+			if (lastIndexOfWord1 != null && lastIndexOfWord2 != null) {
 				distance = Math.min(distance, Math.abs(lastIndexOfWord1 - lastIndexOfWord2));
 			}
 		}

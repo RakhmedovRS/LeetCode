@@ -13,29 +13,24 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/design-circular-queue/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DesignCircularQueue
-{
-	class Node
-	{
+public class DesignCircularQueue {
+	class Node {
 		Node next;
 		Node prev;
 		int value;
 
-		public Node(int value)
-		{
+		public Node(int value) {
 			this.value = value;
 		}
 	}
 
-	class MyCircularQueue
-	{
+	class MyCircularQueue {
 		int currentSize;
 		int maxSize;
 		Node head;
 		Node tail;
 
-		public MyCircularQueue(int k)
-		{
+		public MyCircularQueue(int k) {
 			currentSize = 0;
 			maxSize = k;
 
@@ -46,10 +41,8 @@ public class DesignCircularQueue
 			tail.prev = head;
 		}
 
-		public boolean enQueue(int value)
-		{
-			if (currentSize == maxSize)
-			{
+		public boolean enQueue(int value) {
+			if (currentSize == maxSize) {
 				return false;
 			}
 
@@ -67,10 +60,8 @@ public class DesignCircularQueue
 			return true;
 		}
 
-		public boolean deQueue()
-		{
-			if (currentSize == 0)
-			{
+		public boolean deQueue() {
+			if (currentSize == 0) {
 				return false;
 			}
 
@@ -85,39 +76,32 @@ public class DesignCircularQueue
 			return true;
 		}
 
-		public int Front()
-		{
-			if (isEmpty())
-			{
+		public int Front() {
+			if (isEmpty()) {
 				return -1;
 			}
 
 			return tail.prev.value;
 		}
 
-		public int Rear()
-		{
-			if (isEmpty())
-			{
+		public int Rear() {
+			if (isEmpty()) {
 				return -1;
 			}
 
 			return head.next.value;
 		}
 
-		public boolean isEmpty()
-		{
+		public boolean isEmpty() {
 			return currentSize == 0;
 		}
 
-		public boolean isFull()
-		{
+		public boolean isFull() {
 			return currentSize == maxSize;
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		MyCircularQueue circularQueue = new DesignCircularQueue().new MyCircularQueue(6);
 		System.out.println(circularQueue.enQueue(6));
 		System.out.println(circularQueue.Rear());

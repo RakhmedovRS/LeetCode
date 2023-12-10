@@ -17,23 +17,17 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/k-divisible-elements-subarrays/",
 		difficulty = Difficulty.MEDIUM
 )
-public class KDivisibleElementsSubarrays
-{
-	public int countDistinct(int[] nums, int k, int p)
-	{
+public class KDivisibleElementsSubarrays {
+	public int countDistinct(int[] nums, int k, int p) {
 		Set<String> set = new HashSet<>();
-		for (int i = 0; i < nums.length; i++)
-		{
+		for (int i = 0; i < nums.length; i++) {
 			int count = 0;
-			for (int j = i; j < nums.length; j++)
-			{
-				if (nums[j] % p == 0)
-				{
+			for (int j = i; j < nums.length; j++) {
+				if (nums[j] % p == 0) {
 					count++;
 				}
 
-				if (count > k)
-				{
+				if (count > k) {
 					break;
 				}
 

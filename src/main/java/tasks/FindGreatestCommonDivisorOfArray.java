@@ -13,14 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/find-greatest-common-divisor-of-array/",
 		difficulty = Difficulty.EASY
 )
-public class FindGreatestCommonDivisorOfArray
-{
-	public int findGCD(int[] nums)
-	{
+public class FindGreatestCommonDivisorOfArray {
+	public int findGCD(int[] nums) {
 		int min = Integer.MAX_VALUE;
 		int max = Integer.MIN_VALUE;
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			min = Math.min(min, num);
 			max = Math.max(max, num);
 		}
@@ -28,10 +25,8 @@ public class FindGreatestCommonDivisorOfArray
 		return gcd(min, max);
 	}
 
-	private int gcd(int x, int y)
-	{
-		if (y == 0)
-		{
+	private int gcd(int x, int y) {
+		if (y == 0) {
 			return x;
 		}
 		return gcd(y, x % y);

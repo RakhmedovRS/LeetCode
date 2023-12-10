@@ -13,30 +13,23 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/prefix-and-suffix-search/",
 		difficulty = Difficulty.HARD
 )
-public class PrefixAndSuffixSearch
-{
-	class Trie
-	{
-		private Node root;
+public class PrefixAndSuffixSearch {
+	class Trie {
+		private final Node root;
 
-		class Node
-		{
+		class Node {
 			Node[] children = new Node[28];
 			int maxIndex = -1;
 		}
 
-		public Trie()
-		{
+		public Trie() {
 			root = new Node();
 		}
 
-		public void addWord(char[] chars, int index)
-		{
+		public void addWord(char[] chars, int index) {
 			Node current = root;
-			for (char ch : chars)
-			{
-				if (current.children[ch - '_'] == null)
-				{
+			for (char ch : chars) {
+				if (current.children[ch - '_'] == null) {
 					current.children[ch - '_'] = new Node();
 				}
 
@@ -45,13 +38,10 @@ public class PrefixAndSuffixSearch
 			}
 		}
 
-		public int find(char[] chars)
-		{
+		public int find(char[] chars) {
 			Node current = root;
-			for (char ch : chars)
-			{
-				if (current.children[ch - '_'] == null)
-				{
+			for (char ch : chars) {
+				if (current.children[ch - '_'] == null) {
 					return -1;
 				}
 
@@ -62,22 +52,17 @@ public class PrefixAndSuffixSearch
 		}
 	}
 
-	class WordFilter
-	{
+	class WordFilter {
 		Trie trie;
 
-		public WordFilter(String[] words)
-		{
+		public WordFilter(String[] words) {
 			trie = new Trie();
 			String word;
-			for (int index = 0; index < words.length; index++)
-			{
+			for (int index = 0; index < words.length; index++) {
 				word = words[index];
-				for (int i = 0; i < word.length(); i++)
-				{
+				for (int i = 0; i < word.length(); i++) {
 					StringBuilder sb = new StringBuilder();
-					for (int j = word.length() - i - 1; j < word.length(); j++)
-					{
+					for (int j = word.length() - i - 1; j < word.length(); j++) {
 						sb.append(word.charAt(j));
 					}
 
@@ -89,14 +74,12 @@ public class PrefixAndSuffixSearch
 			}
 		}
 
-		public int f(String prefix, String suffix)
-		{
+		public int f(String prefix, String suffix) {
 			return trie.find((suffix + "_" + prefix).toCharArray());
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		//[9,4,5,0,8,1,2,5,3,1]
 		WordFilter wordFilter = new PrefixAndSuffixSearch().new WordFilter(new String[]{"cabaabaaaa", "ccbcababac", "bacaabccba", "bcbbcbacaa", "abcaccbcaa", "accabaccaa", "cabcbbbcca", "ababccabcb", "caccbbcbab", "bccbacbcba"});
 		System.out.println(wordFilter.f("bccbacbcba", "a"));

@@ -15,14 +15,11 @@ import common.ListNode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class RemoveDuplicatesFromAnUnsortedLinkedList
-{
-	public ListNode deleteDuplicatesUnsorted(ListNode head)
-	{
+public class RemoveDuplicatesFromAnUnsortedLinkedList {
+	public ListNode deleteDuplicatesUnsorted(ListNode head) {
 		int[] seen = new int[100_001];
 		ListNode temp = head;
-		while (temp != null)
-		{
+		while (temp != null) {
 			seen[temp.val]++;
 			temp = temp.next;
 		}
@@ -30,12 +27,10 @@ public class RemoveDuplicatesFromAnUnsortedLinkedList
 		ListNode dummy = new ListNode();
 		ListNode prev = dummy;
 		ListNode next;
-		while (head != null)
-		{
+		while (head != null) {
 			next = head.next;
 
-			if (seen[head.val] == 1)
-			{
+			if (seen[head.val] == 1) {
 				prev.next = head;
 				head.next = null;
 				prev = prev.next;

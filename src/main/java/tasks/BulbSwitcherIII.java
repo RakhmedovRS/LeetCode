@@ -13,32 +13,25 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/bulb-switcher-iii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class BulbSwitcherIII
-{
-	public int numTimesAllBlue(int[] light)
-	{
+public class BulbSwitcherIII {
+	public int numTimesAllBlue(int[] light) {
 		char[] line = new char[50_002];
 		int moments = 0;
 		int max = 0;
-		for (int k : light)
-		{
+		for (int k : light) {
 			max = Math.max(max, k);
 			line[k] = 'E';
-			if (k - 1 == 0 || line[k - 1] == 'B')
-			{
+			if (k - 1 == 0 || line[k - 1] == 'B') {
 				line[k] = 'B';
 			}
 
-			if (line[k] == 'B')
-			{
-				while (k + 1 < line.length && line[k + 1] == 'E')
-				{
+			if (line[k] == 'B') {
+				while (k + 1 < line.length && line[k + 1] == 'E') {
 					line[++k] = 'B';
 				}
 			}
 
-			if (k == max && line[k] == 'B')
-			{
+			if (k == max && line[k] == 'B') {
 				moments++;
 			}
 		}
@@ -46,8 +39,7 @@ public class BulbSwitcherIII
 		return moments;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new BulbSwitcherIII().numTimesAllBlue(new int[]{2, 1, 3, 5, 4})); //3
 		System.out.println(new BulbSwitcherIII().numTimesAllBlue(new int[]{3, 2, 4, 1, 5})); //2
 		System.out.println(new BulbSwitcherIII().numTimesAllBlue(new int[]{4, 1, 2, 3})); //1

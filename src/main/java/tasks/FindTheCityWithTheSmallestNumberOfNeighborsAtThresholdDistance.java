@@ -15,14 +15,11 @@ import java.util.*;
 		url = "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindTheCityWithTheSmallestNumberOfNeighborsAtThresholdDistance
-{
-	public int findTheCity(int n, int[][] edges, int distanceThreshold)
-	{
+public class FindTheCityWithTheSmallestNumberOfNeighborsAtThresholdDistance {
+	public int findTheCity(int n, int[][] edges, int distanceThreshold) {
 		int[][] distances = new int[n][n];
 		List<int[]>[] neighbors = new ArrayList[n];
-		for (int i = 0; i < n; i++)
-		{
+		for (int i = 0; i < n; i++) {
 			Arrays.fill(distances[i], 1_000_000_007);
 			distances[i][i] = 0;
 			neighbors[i] = new ArrayList<>();
@@ -31,8 +28,7 @@ public class FindTheCityWithTheSmallestNumberOfNeighborsAtThresholdDistance
 		int edgeA;
 		int edgeB;
 		int distance;
-		for (int[] edge : edges)
-		{
+		for (int[] edge : edges) {
 			edgeA = edge[0];
 			edgeB = edge[1];
 			distance = edge[2];
@@ -43,25 +39,20 @@ public class FindTheCityWithTheSmallestNumberOfNeighborsAtThresholdDistance
 		PriorityQueue<int[]> minHeap = new PriorityQueue<>(Comparator.comparing(arr -> arr[1]));
 		int a;
 		int b;
-		for (int vertex = 0; vertex < n; vertex++)
-		{
+		for (int vertex = 0; vertex < n; vertex++) {
 			minHeap.clear();
 			minHeap.add(new int[]{vertex, 0});
-			while (!minHeap.isEmpty())
-			{
+			while (!minHeap.isEmpty()) {
 				a = minHeap.peek()[0];
 				distance = minHeap.remove()[1];
 
-				if (distance > distances[vertex][a])
-				{
+				if (distance > distances[vertex][a]) {
 					continue;
 				}
 
-				for (int[] neighbor : neighbors[a])
-				{
+				for (int[] neighbor : neighbors[a]) {
 					b = neighbor[0];
-					if (distances[vertex][b] > distance + neighbor[1])
-					{
+					if (distances[vertex][b] > distance + neighbor[1]) {
 						distances[vertex][b] = distance + neighbor[1];
 						minHeap.add(new int[]{b, distances[vertex][b]});
 					}
@@ -72,22 +63,17 @@ public class FindTheCityWithTheSmallestNumberOfNeighborsAtThresholdDistance
 		int minCount = Integer.MAX_VALUE;
 		int city = 0;
 		int currentCount;
-		for (int i = 0; i < n; i++)
-		{
+		for (int i = 0; i < n; i++) {
 			currentCount = 0;
-			for (int j = 0; j < n; j++)
-			{
-				if (i != j)
-				{
-					if (distances[i][j] <= distanceThreshold)
-					{
+			for (int j = 0; j < n; j++) {
+				if (i != j) {
+					if (distances[i][j] <= distanceThreshold) {
 						currentCount++;
 					}
 				}
 			}
 
-			if (currentCount <= minCount)
-			{
+			if (currentCount <= minCount) {
 				minCount = currentCount;
 				city = i;
 			}
@@ -96,8 +82,7 @@ public class FindTheCityWithTheSmallestNumberOfNeighborsAtThresholdDistance
 		return city;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new FindTheCityWithTheSmallestNumberOfNeighborsAtThresholdDistance().findTheCity(8, new int[][]
 				{
 						{3, 5, 9558},

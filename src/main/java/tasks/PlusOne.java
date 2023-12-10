@@ -13,37 +13,28 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/plus-one/",
 		difficulty = Difficulty.EASY
 )
-public class PlusOne
-{
-	public int[] plusOne(int[] digits)
-	{
+public class PlusOne {
+	public int[] plusOne(int[] digits) {
 		boolean inPlace = false;
-		for (int digit : digits)
-		{
-			if (digit != 9)
-			{
+		for (int digit : digits) {
+			if (digit != 9) {
 				inPlace = true;
 				break;
 			}
 		}
 
-		if (!inPlace)
-		{
+		if (!inPlace) {
 			int[] result = new int[digits.length + 1];
 			result[0] = 1;
 			return result;
 		}
-		else
-		{
+		else {
 			int add = 1;
-			for (int i = digits.length - 1; i >= 0; i--)
-			{
-				if (digits[i] + add >= 10)
-				{
+			for (int i = digits.length - 1; i >= 0; i--) {
+				if (digits[i] + add >= 10) {
 					digits[i] = 0;
 				}
-				else
-				{
+				else {
 					digits[i] += 1;
 					break;
 				}

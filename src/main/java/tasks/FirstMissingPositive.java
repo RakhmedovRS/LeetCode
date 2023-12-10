@@ -13,33 +13,25 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/first-missing-positive/",
 		difficulty = Difficulty.HARD
 )
-public class FirstMissingPositive
-{
-	public int firstMissingPositive(int[] nums)
-	{
-		if (nums.length == 0)
-		{
+public class FirstMissingPositive {
+	public int firstMissingPositive(int[] nums) {
+		if (nums.length == 0) {
 			return 1;
 		}
 
-		for (int i = 0; i < nums.length; )
-		{
+		for (int i = 0; i < nums.length; ) {
 			int num = nums[i];
 			int pos = num - 1;
-			if (0 <= pos && pos < nums.length && nums[pos] != num)
-			{
+			if (0 <= pos && pos < nums.length && nums[pos] != num) {
 				swap(nums, i, pos);
 			}
-			else
-			{
+			else {
 				i++;
 			}
 		}
 
-		for (int i = 0; i < nums.length; i++)
-		{
-			if (nums[i] != i + 1)
-			{
+		for (int i = 0; i < nums.length; i++) {
+			if (nums[i] != i + 1) {
 				return i + 1;
 			}
 		}
@@ -47,15 +39,13 @@ public class FirstMissingPositive
 		return nums.length + 1;
 	}
 
-	private void swap(int[] nums, int i, int j)
-	{
+	private void swap(int[] nums, int i, int j) {
 		int temp = nums[i];
 		nums[i] = nums[j];
 		nums[j] = temp;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new FirstMissingPositive().firstMissingPositive(new int[]{})); //1
 		System.out.println(new FirstMissingPositive().firstMissingPositive(new int[]{1})); //2
 		System.out.println(new FirstMissingPositive().firstMissingPositive(new int[]{2})); //1

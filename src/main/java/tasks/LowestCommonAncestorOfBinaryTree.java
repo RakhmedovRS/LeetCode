@@ -14,32 +14,25 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LowestCommonAncestorOfBinaryTree
-{
-	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
-	{
-		if (root == null)
-		{
+public class LowestCommonAncestorOfBinaryTree {
+	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+		if (root == null) {
 			return null;
 		}
 
-		if (root.val == p.val || root.val == q.val)
-		{
+		if (root.val == p.val || root.val == q.val) {
 			return root;
 		}
 
 		TreeNode left = lowestCommonAncestor(root.left, p, q);
 		TreeNode right = lowestCommonAncestor(root.right, p, q);
-		if (right != null && left != null)
-		{
+		if (right != null && left != null) {
 			return root;
 		}
-		else if (left != null)
-		{
+		else if (left != null) {
 			return left;
 		}
-		else
-		{
+		else {
 			return right;
 		}
 	}

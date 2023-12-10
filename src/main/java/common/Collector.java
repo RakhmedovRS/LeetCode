@@ -12,25 +12,21 @@ import java.util.stream.Stream;
  * @author RakhmedovRS
  * @created 29-Mar-20
  */
-public class Collector
-{
+public class Collector {
 	private static final String HEADER = "| LeetCode ID | Difficulty  | Name           | Solution       |";
-	private static final String LINE =   "|:-----------:|:-----------:|:--------------:|:--------------:|";
+	private static final String LINE = "|:-----------:|:-----------:|:--------------:|:--------------:|";
 	private static final String GENERAL_INFO_PATTERN = "### This file was created automatically by [%s.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/%s.java)";
 	private static final String GENERAL_PATTERN = "|%d|%s|[%s](%s)|%s|";
 	private static final String URL_PATTERN = "[%s.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/%s.java)";
 
-	public static void main(String[] args) throws Exception
-	{
+	public static void main(String[] args) throws Exception {
 		Set<Integer> seenIds = new HashSet<>();
 		Path path = Paths.get("");
-		try (Stream<Path> pathStream = Files.list(path.toAbsolutePath().resolve("src").resolve("main").resolve("java").resolve("tasks")))
-		{
+		try (Stream<Path> pathStream = Files.list(path.toAbsolutePath().resolve("src").resolve("main").resolve("java").resolve("tasks"))) {
 			List<Map.Entry<LeetCode, String>> annotations = getAnnotations(pathStream, seenIds);
 
 			Path output = path.resolve("README.MD");
-			try (OutputStreamWriter osw = new OutputStreamWriter(Files.newOutputStream(output.toFile().toPath()));)
-			{
+			try (OutputStreamWriter osw = new OutputStreamWriter(Files.newOutputStream(output.toFile().toPath()))) {
 				osw.write(preprocess("![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)"));
 				osw.write(preprocess(String.format(GENERAL_INFO_PATTERN, Collector.class.getSimpleName(), Collector.class.getSimpleName())));
 				osw.write(preprocess(String.format("Count of solved tasks: %s", annotations.size())));
@@ -48,10 +44,8 @@ public class Collector
 				osw.write(System.lineSeparator());
 
 				//Table for each difficulty
-				for (Difficulty difficulty : Difficulty.values())
-				{
-					if (difficulty == Difficulty.UNDEFINED)
-					{
+				for (Difficulty difficulty : Difficulty.values()) {
+					if (difficulty == Difficulty.UNDEFINED) {
 						continue;
 					}
 					osw.write(preprocess("<details>"));
@@ -82,59 +76,51 @@ public class Collector
 	}
 
 	private static String buildTasksTable(List<Map.Entry<LeetCode, String>> annotations,
-	                                      Difficulty difficulty,
-	                                      boolean needToCheckDifficulty,
-	                                      boolean isPremium
-	)
-	{
+										  Difficulty difficulty,
+										  boolean needToCheckDifficulty,
+										  boolean isPremium
+	) {
 		return annotations
-			.stream()
-			.filter(entry -> !needToCheckDifficulty || entry.getKey().difficulty() == difficulty)
-			.filter(entry -> entry.getKey().premium() == isPremium)
-			.map(entry ->
-			{
-				try
+				.stream()
+				.filter(entry -> !needToCheckDifficulty || entry.getKey().difficulty() == difficulty)
+				.filter(entry -> entry.getKey().premium() == isPremium)
+				.map(entry ->
 				{
-					String url = String.format(URL_PATTERN, entry.getKey().name(), entry.getValue());
-					LeetCode leetCode = entry.getKey();
-					return String.format(GENERAL_PATTERN, leetCode.id(), leetCode.difficulty().name, leetCode.name(), leetCode.url(), url);
-				}
-				catch (Exception ignore)
-				{
-					return "";
-				}
-			})
-			.collect(Collectors.joining(System.lineSeparator()));
+					try {
+						String url = String.format(URL_PATTERN, entry.getKey().name(), entry.getValue());
+						LeetCode leetCode = entry.getKey();
+						return String.format(GENERAL_PATTERN, leetCode.id(), leetCode.difficulty().name, leetCode.name(), leetCode.url(), url);
+					}
+					catch (Exception ignore) {
+						return "";
+					}
+				})
+				.collect(Collectors.joining(System.lineSeparator()));
 	}
 
-	private static List<Map.Entry<LeetCode, String>> getAnnotations(Stream<Path> pathStream, Set<Integer> seenIds)
-	{
+	private static List<Map.Entry<LeetCode, String>> getAnnotations(Stream<Path> pathStream, Set<Integer> seenIds) {
 		return
-			pathStream.map(path ->
-				{
-					try
-					{
-						return Class.forName("tasks." + path.getFileName().toString().replaceAll(".java", ""));
-					}
-					catch (Exception ignore)
-					{
-						return null;
-					}
-				})
-				.filter(clazz -> clazz != null && clazz.isAnnotationPresent(LeetCode.class))
-				.map(clazz -> new AbstractMap.SimpleEntry<>(clazz.getAnnotation(LeetCode.class), clazz.getSimpleName()))
-				.sorted(Comparator.comparingInt(entry -> entry.getKey().id()))
-				.peek(entry -> {
-					if (!seenIds.add(entry.getKey().id()))
-					{
-						System.out.println("Found duplicated ID - " + entry.getKey().id());
-					}
-				})
-				.collect(Collectors.toList());
+				pathStream.map(path ->
+						{
+							try {
+								return Class.forName("tasks." + path.getFileName().toString().replaceAll(".java", ""));
+							}
+							catch (Exception ignore) {
+								return null;
+							}
+						})
+						.filter(clazz -> clazz != null && clazz.isAnnotationPresent(LeetCode.class))
+						.map(clazz -> new AbstractMap.SimpleEntry<>(clazz.getAnnotation(LeetCode.class), clazz.getSimpleName()))
+						.sorted(Comparator.comparingInt(entry -> entry.getKey().id()))
+						.peek(entry -> {
+							if (!seenIds.add(entry.getKey().id())) {
+								System.out.println("Found duplicated ID - " + entry.getKey().id());
+							}
+						})
+						.collect(Collectors.toList());
 	}
 
-	private static String preprocess(String string)
-	{
+	private static String preprocess(String string) {
 		return string + System.lineSeparator();
 	}
 }

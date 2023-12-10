@@ -16,23 +16,17 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/kth-distinct-string-in-an-array/",
 		difficulty = Difficulty.EASY
 )
-public class KthDistinctStringInArray
-{
-	public String kthDistinct(String[] arr, int k)
-	{
+public class KthDistinctStringInArray {
+	public String kthDistinct(String[] arr, int k) {
 		Map<String, Integer> map = new HashMap<>();
-		for (String s : arr)
-		{
+		for (String s : arr) {
 			map.put(s, map.getOrDefault(s, 0) + 1);
 		}
 
-		for (String s : arr)
-		{
-			if (map.get(s) == 1)
-			{
+		for (String s : arr) {
+			if (map.get(s) == 1) {
 				k--;
-				if (k == 0)
-				{
+				if (k == 0) {
 					return s;
 				}
 			}

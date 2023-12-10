@@ -10,29 +10,22 @@ import java.util.List;
  * @created 10-Jul-20
  */
 @LeetCode(id = 648, name = "Replace Words", url = "https://leetcode.com/problems/replace-words/")
-public class ReplaceWords
-{
-	class TrieNode
-	{
+public class ReplaceWords {
+	class TrieNode {
 		TrieNode[] child;
 		boolean end;
 
-		public TrieNode()
-		{
+		public TrieNode() {
 			this.child = new TrieNode[26];
 		}
 	}
 
-	public String replaceWords(List<String> dict, String sentence)
-	{
+	public String replaceWords(List<String> dict, String sentence) {
 		TrieNode root = new TrieNode();
-		for (String word : dict)
-		{
+		for (String word : dict) {
 			TrieNode current = root;
-			for (char ch : word.toCharArray())
-			{
-				if (current.child[ch - 'a'] == null)
-				{
+			for (char ch : word.toCharArray()) {
+				if (current.child[ch - 'a'] == null) {
 					current.child[ch - 'a'] = new TrieNode();
 				}
 
@@ -42,32 +35,26 @@ public class ReplaceWords
 		}
 
 		List<String> words = new ArrayList<>();
-		for (String word : sentence.split(" "))
-		{
+		for (String word : sentence.split(" ")) {
 			TrieNode current = root;
 			StringBuilder sb = new StringBuilder();
 			boolean found = false;
-			for (char ch : word.toCharArray())
-			{
-				if (current == null)
-				{
+			for (char ch : word.toCharArray()) {
+				if (current == null) {
 					break;
 				}
 				sb.append(ch);
 				current = current.child[ch - 'a'];
-				if (current != null && current.end)
-				{
+				if (current != null && current.end) {
 					found = true;
 					break;
 				}
 			}
 
-			if (found)
-			{
+			if (found) {
 				words.add(sb.toString());
 			}
-			else
-			{
+			else {
 				words.add(word);
 			}
 		}

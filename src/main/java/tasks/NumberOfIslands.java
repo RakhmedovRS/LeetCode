@@ -13,22 +13,16 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/number-of-islands/",
 		difficulty = Difficulty.MEDIUM
 )
-public class NumberOfIslands
-{
-	public int numIslands(char[][] grid)
-	{
-		if (grid == null || grid.length == 0)
-		{
+public class NumberOfIslands {
+	public int numIslands(char[][] grid) {
+		if (grid == null || grid.length == 0) {
 			return 0;
 		}
 
 		int islands = 0;
-		for (int row = 0; row < grid.length; row++)
-		{
-			for (int column = 0; column < grid[row].length; column++)
-			{
-				if (grid[row][column] == '1')
-				{
+		for (int row = 0; row < grid.length; row++) {
+			for (int column = 0; column < grid[row].length; column++) {
+				if (grid[row][column] == '1') {
 					islands += dfs(grid, row, column);
 				}
 			}
@@ -37,10 +31,8 @@ public class NumberOfIslands
 		return islands;
 	}
 
-	private int dfs(char[][] grid, int row, int column)
-	{
-		if (row < 0 || column < 0 || row >= grid.length || column >= grid[row].length || grid[row][column] == '0')
-		{
+	private int dfs(char[][] grid, int row, int column) {
+		if (row < 0 || column < 0 || row >= grid.length || column >= grid[row].length || grid[row][column] == '0') {
 			return 0;
 		}
 

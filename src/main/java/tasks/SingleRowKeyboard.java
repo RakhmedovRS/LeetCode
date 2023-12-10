@@ -14,20 +14,16 @@ import common.LeetCode;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class SingleRowKeyboard
-{
-	public int calculateTime(String keyboard, String word)
-	{
+public class SingleRowKeyboard {
+	public int calculateTime(String keyboard, String word) {
 		int[] keyBoardPositions = new int[26];
-		for (int i = 0; i < 26; i++)
-		{
+		for (int i = 0; i < 26; i++) {
 			keyBoardPositions[keyboard.charAt(i) - 'a'] = i;
 		}
 
 		int pos = 0;
 		int cost = 0;
-		for (char ch : word.toCharArray())
-		{
+		for (char ch : word.toCharArray()) {
 			cost += Math.abs(pos - keyBoardPositions[ch - 'a']);
 			pos = keyBoardPositions[ch - 'a'];
 		}

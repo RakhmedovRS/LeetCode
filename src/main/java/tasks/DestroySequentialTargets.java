@@ -17,23 +17,18 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/destroy-sequential-targets/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DestroySequentialTargets
-{
-	public int destroyTargets(int[] nums, int space)
-	{
+public class DestroySequentialTargets {
+	public int destroyTargets(int[] nums, int space) {
 		Arrays.sort(nums);
 		Map<Integer, Integer> map = new HashMap<>();
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			map.put(num % space, map.getOrDefault(num % space, 0) + 1);
 		}
 
 		int min = nums[0];
 		int count = 0;
-		for (int num : nums)
-		{
-			if (map.getOrDefault(num % space, 0) > count)
-			{
+		for (int num : nums) {
+			if (map.getOrDefault(num % space, 0) > count) {
 				min = num;
 				count = map.get(num % space);
 			}

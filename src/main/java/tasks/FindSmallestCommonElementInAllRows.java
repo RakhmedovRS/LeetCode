@@ -14,24 +14,18 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class FindSmallestCommonElementInAllRows
-{
-	public int smallestCommonElement(int[][] mat)
-	{
+public class FindSmallestCommonElementInAllRows {
+	public int smallestCommonElement(int[][] mat) {
 		int min = Integer.MAX_VALUE;
 		int[] map = new int[10_001];
-		for (int[] row : mat)
-		{
-			for (int i = 0; i < row.length; i++)
-			{
-				if (i > 0 && row[i - 1] == row[i])
-				{
+		for (int[] row : mat) {
+			for (int i = 0; i < row.length; i++) {
+				if (i > 0 && row[i - 1] == row[i]) {
 					continue;
 				}
 
 				map[row[i]]++;
-				if (map[row[i]] >= mat.length)
-				{
+				if (map[row[i]] >= mat.length) {
 					min = Math.min(min, row[i]);
 				}
 			}

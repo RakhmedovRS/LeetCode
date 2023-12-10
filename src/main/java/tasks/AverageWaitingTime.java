@@ -13,21 +13,16 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/average-waiting-time/",
 		difficulty = Difficulty.MEDIUM
 )
-public class AverageWaitingTime
-{
-	public double averageWaitingTime(int[][] customers)
-	{
+public class AverageWaitingTime {
+	public double averageWaitingTime(int[][] customers) {
 		double idle = 0;
 		int prev = -1;
-		for (int[] customer : customers)
-		{
-			if (prev <= customer[0])
-			{
+		for (int[] customer : customers) {
+			if (prev <= customer[0]) {
 				idle += customer[1];
 				prev = customer[0] + customer[1];
 			}
-			else
-			{
+			else {
 				idle += customer[1] + prev - customer[0];
 				prev += customer[1];
 			}
@@ -36,8 +31,7 @@ public class AverageWaitingTime
 		return idle / customers.length;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		AverageWaitingTime clazz = new AverageWaitingTime();
 		System.out.println(clazz.averageWaitingTime(new int[][]
 				{

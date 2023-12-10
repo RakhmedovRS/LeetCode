@@ -15,19 +15,15 @@ import java.util.TreeSet;
 		url = "https://leetcode.com/problems/heaters/",
 		difficulty = Difficulty.MEDIUM
 )
-public class Heaters
-{
-	public int findRadius(int[] houses, int[] heaters)
-	{
+public class Heaters {
+	public int findRadius(int[] houses, int[] heaters) {
 		TreeSet<Integer> treeSet = new TreeSet<>();
-		for (int heater : heaters)
-		{
+		for (int heater : heaters) {
 			treeSet.add(heater);
 		}
 
 		int max = 0;
-		for (int house : houses)
-		{
+		for (int house : houses) {
 			Integer ceil = treeSet.ceiling(house);
 			Integer floor = treeSet.floor(house);
 			max = Math.max(max,

@@ -17,26 +17,21 @@ import java.util.List;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class StrobogrammaticNumberII
-{
-	public List<String> findStrobogrammatic(int n)
-	{
+public class StrobogrammaticNumberII {
+	public List<String> findStrobogrammatic(int n) {
 		char[] chars = new char[n];
 		List<String> answer = new ArrayList<>();
 		dfs(0, n - 1, chars, answer);
 		return answer;
 	}
 
-	private void dfs(int left, int right, char[] chars, List<String> answer)
-	{
-		if (left > right)
-		{
+	private void dfs(int left, int right, char[] chars, List<String> answer) {
+		if (left > right) {
 			answer.add(new String(chars));
 			return;
 		}
 
-		if (left == right)
-		{
+		if (left == right) {
 			chars[left] = '0';
 			answer.add(new String(chars));
 
@@ -48,8 +43,7 @@ public class StrobogrammaticNumberII
 			return;
 		}
 
-		if (left > 0)
-		{
+		if (left > 0) {
 			chars[left] = '0';
 			chars[right] = '0';
 			dfs(left + 1, right - 1, chars, answer);

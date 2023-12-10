@@ -18,10 +18,8 @@ import java.util.*;
 		url = "https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/",
 		difficulty = Difficulty.MEDIUM
 )
-public class AmountOfTimeForBinaryTreeToBeInfected
-{
-	public int amountOfTime(TreeNode root, int start)
-	{
+public class AmountOfTimeForBinaryTreeToBeInfected {
+	public int amountOfTime(TreeNode root, int start) {
 		Map<TreeNode, TreeNode> parents = new HashMap<>();
 		TreeNode[] infected = new TreeNode[1];
 		dfs(null, root, parents, infected, start);
@@ -32,31 +30,25 @@ public class AmountOfTimeForBinaryTreeToBeInfected
 
 		Set<TreeNode> visited = new HashSet<>();
 		visited.add(infected[0]);
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			int size = queue.size();
-			while (size-- > 0)
-			{
+			while (size-- > 0) {
 				TreeNode current = queue.remove();
 
-				if (parents.containsKey(current) && parents.get(current) != null && visited.add(parents.get(current)))
-				{
+				if (parents.containsKey(current) && parents.get(current) != null && visited.add(parents.get(current))) {
 					queue.add(parents.get(current));
 				}
 
-				if (current.left != null && visited.add(current.left))
-				{
+				if (current.left != null && visited.add(current.left)) {
 					queue.add(current.left);
 				}
 
-				if (current.right != null && visited.add(current.right))
-				{
+				if (current.right != null && visited.add(current.right)) {
 					queue.add(current.right);
 				}
 			}
 
-			if (!queue.isEmpty())
-			{
+			if (!queue.isEmpty()) {
 				time++;
 			}
 		}
@@ -65,15 +57,12 @@ public class AmountOfTimeForBinaryTreeToBeInfected
 		return time;
 	}
 
-	private void dfs(TreeNode parent, TreeNode node, Map<TreeNode, TreeNode> parents, TreeNode[] infected, int value)
-	{
-		if (node == null)
-		{
+	private void dfs(TreeNode parent, TreeNode node, Map<TreeNode, TreeNode> parents, TreeNode[] infected, int value) {
+		if (node == null) {
 			return;
 		}
 
-		if (node.val == value)
-		{
+		if (node.val == value) {
 			infected[0] = node;
 		}
 

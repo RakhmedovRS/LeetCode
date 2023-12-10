@@ -13,17 +13,13 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/alphabet-board-path/",
 		difficulty = Difficulty.MEDIUM
 )
-public class AlphabetBoardPath
-{
-	public String alphabetBoardPath(String target)
-	{
+public class AlphabetBoardPath {
+	public String alphabetBoardPath(String target) {
 		int[][] charToPos = new int[26][2];
 		int row = 0;
 		int column = 0;
-		for (char ch = 'a'; ch <= 'z'; ch++)
-		{
-			if (column == 5)
-			{
+		for (char ch = 'a'; ch <= 'z'; ch++) {
+			if (column == 5) {
 				row++;
 				column = 0;
 			}
@@ -39,33 +35,27 @@ public class AlphabetBoardPath
 		column = 0;
 		int targetRow;
 		int targetColumn;
-		for (char ch : target.toCharArray())
-		{
+		for (char ch : target.toCharArray()) {
 			targetRow = charToPos[ch - 'a'][0];
 			targetColumn = charToPos[ch - 'a'][1];
 
-			while (row != targetRow || column != targetColumn)
-			{
-				while (row > targetRow)
-				{
+			while (row != targetRow || column != targetColumn) {
+				while (row > targetRow) {
 					row--;
 					path.append("U");
 				}
 
-				while (column > targetColumn)
-				{
+				while (column > targetColumn) {
 					column--;
 					path.append("L");
 				}
 
-				while (row < targetRow)
-				{
+				while (row < targetRow) {
 					row++;
 					path.append("D");
 				}
 
-				while (column < targetColumn)
-				{
+				while (column < targetColumn) {
 					column++;
 					path.append("R");
 				}
@@ -78,8 +68,7 @@ public class AlphabetBoardPath
 		return path.toString();
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new AlphabetBoardPath().alphabetBoardPath("code"));
 		System.out.println(new AlphabetBoardPath().alphabetBoardPath("leet"));
 	}

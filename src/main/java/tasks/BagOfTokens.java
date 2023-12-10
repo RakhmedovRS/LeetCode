@@ -15,29 +15,23 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/bag-of-tokens/",
 		difficulty = Difficulty.MEDIUM
 )
-public class BagOfTokens
-{
-	public int bagOfTokensScore(int[] tokens, int power)
-	{
+public class BagOfTokens {
+	public int bagOfTokensScore(int[] tokens, int power) {
 		int maxScore = 0;
 		int score = 0;
 		Arrays.sort(tokens);
 		int left = 0;
 		int right = tokens.length - 1;
-		while (left <= right)
-		{
-			if (power >= tokens[left])
-			{
+		while (left <= right) {
+			if (power >= tokens[left]) {
 				power -= tokens[left++];
 				score++;
 			}
-			else if (score > 0)
-			{
+			else if (score > 0) {
 				power += tokens[right--];
 				score--;
 			}
-			else
-			{
+			else {
 				break;
 			}
 

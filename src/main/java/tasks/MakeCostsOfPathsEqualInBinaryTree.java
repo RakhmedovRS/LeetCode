@@ -13,19 +13,15 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MakeCostsOfPathsEqualInBinaryTree
-{
-	public int minIncrements(int n, int[] cost)
-	{
+public class MakeCostsOfPathsEqualInBinaryTree {
+	public int minIncrements(int n, int[] cost) {
 		int[] ans = new int[]{0};
 		dfs(0, cost, ans);
 		return ans[0];
 	}
 
-	private int dfs(int pos, int[] cost, int[] res)
-	{
-		if (pos >= cost.length)
-		{
+	private int dfs(int pos, int[] cost, int[] res) {
+		if (pos >= cost.length) {
 			return 0;
 		}
 

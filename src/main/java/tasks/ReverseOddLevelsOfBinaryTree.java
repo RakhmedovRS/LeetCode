@@ -19,24 +19,18 @@ import java.util.List;
 		url = "https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ReverseOddLevelsOfBinaryTree
-{
-	public TreeNode reverseOddLevels(TreeNode root)
-	{
+public class ReverseOddLevelsOfBinaryTree {
+	public TreeNode reverseOddLevels(TreeNode root) {
 		List<List<TreeNode>> levels = new ArrayList<>();
 		dfs(0, root, levels);
-		for (int i = 0; i < levels.size(); i++)
-		{
-			if (i % 2 == 1)
-			{
+		for (int i = 0; i < levels.size(); i++) {
+			if (i % 2 == 1) {
 				Collections.reverse(levels.get(i));
 			}
 		}
 
-		for (int i = 0; i < levels.size() - 1; i++)
-		{
-			for (int j = 0; j < levels.get(i).size(); j++)
-			{
+		for (int i = 0; i < levels.size() - 1; i++) {
+			for (int j = 0; j < levels.get(i).size(); j++) {
 				levels.get(i).get(j).left = levels.get(i + 1).get(j * 2);
 				levels.get(i).get(j).right = levels.get(i + 1).get(j * 2 + 1);
 			}
@@ -46,15 +40,12 @@ public class ReverseOddLevelsOfBinaryTree
 	}
 
 
-	private void dfs(int level, TreeNode root, List<List<TreeNode>> levels)
-	{
-		if (root == null)
-		{
+	private void dfs(int level, TreeNode root, List<List<TreeNode>> levels) {
+		if (root == null) {
 			return;
 		}
 
-		if (level >= levels.size())
-		{
+		if (level >= levels.size()) {
 			levels.add(new LinkedList<>());
 		}
 

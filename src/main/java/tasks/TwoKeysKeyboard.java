@@ -13,12 +13,9 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/2-keys-keyboard/",
 		difficulty = Difficulty.MEDIUM
 )
-public class TwoKeysKeyboard
-{
-	public int minSteps(int n)
-	{
-		if (n == 1)
-		{
+public class TwoKeysKeyboard {
+	public int minSteps(int n) {
+		if (n == 1) {
 			return 0;
 		}
 
@@ -26,23 +23,18 @@ public class TwoKeysKeyboard
 		return dfs(n, memo);
 	}
 
-	private int dfs(int n, Integer[] memo)
-	{
-		if (n == 1)
-		{
+	private int dfs(int n, Integer[] memo) {
+		if (n == 1) {
 			return 0;
 		}
 
-		if (memo[n] != null)
-		{
+		if (memo[n] != null) {
 			return memo[n];
 		}
 
 		memo[n] = Integer.MAX_VALUE;
-		for (int i = 1; i < n; i++)
-		{
-			if (n % i == 0)
-			{
+		for (int i = 1; i < n; i++) {
+			if (n % i == 0) {
 				memo[n] = Math.min(memo[n], dfs(i, memo) + n / i);
 			}
 		}

@@ -13,26 +13,20 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximum-matrix-sum/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumMatrixSum
-{
-	public long maxMatrixSum(int[][] matrix)
-	{
+public class MaximumMatrixSum {
+	public long maxMatrixSum(int[][] matrix) {
 		long sum = 0;
 		int negativeCount = 0;
 		boolean seenZero = false;
 		int min = Integer.MAX_VALUE;
-		for (int row = 0; row < matrix.length; row++)
-		{
-			for (int column = 0; column < matrix[row].length; column++)
-			{
+		for (int row = 0; row < matrix.length; row++) {
+			for (int column = 0; column < matrix[row].length; column++) {
 				sum += Math.abs(matrix[row][column]);
-				if (matrix[row][column] < 0)
-				{
+				if (matrix[row][column] < 0) {
 					negativeCount++;
 				}
 
-				if (matrix[row][column] == 0)
-				{
+				if (matrix[row][column] == 0) {
 					seenZero = true;
 				}
 
@@ -40,13 +34,11 @@ public class MaximumMatrixSum
 			}
 		}
 
-		if (seenZero)
-		{
+		if (seenZero) {
 			return sum;
 		}
 
-		if (negativeCount % 2 != 0)
-		{
+		if (negativeCount % 2 != 0) {
 			sum -= min * 2L;
 		}
 

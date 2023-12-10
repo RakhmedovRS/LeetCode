@@ -15,29 +15,23 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/seat-reservation-manager/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SeatReservationManager
-{
-	class SeatManager
-	{
+public class SeatReservationManager {
+	class SeatManager {
 
 		PriorityQueue<Integer> seats;
 
-		public SeatManager(int n)
-		{
+		public SeatManager(int n) {
 			seats = new PriorityQueue<>();
-			for (int i = 1; i <= n; i++)
-			{
+			for (int i = 1; i <= n; i++) {
 				seats.add(i);
 			}
 		}
 
-		public int reserve()
-		{
+		public int reserve() {
 			return seats.remove();
 		}
 
-		public void unreserve(int seatNumber)
-		{
+		public void unreserve(int seatNumber) {
 			seats.add(seatNumber);
 		}
 	}

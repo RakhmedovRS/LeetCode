@@ -15,31 +15,25 @@ import java.util.TreeSet;
 		url = "https://leetcode.com/problems/smallest-number-in-infinite-set/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SmallestNumberInInfiniteSet
-{
-	class SmallestInfiniteSet
-	{
+public class SmallestNumberInInfiniteSet {
+	class SmallestInfiniteSet {
 
 		TreeSet<Integer> set;
 
-		public SmallestInfiniteSet()
-		{
+		public SmallestInfiniteSet() {
 			set = new TreeSet<>();
-			for (int i = 1; i < 1001; i++)
-			{
+			for (int i = 1; i < 1001; i++) {
 				set.add(i);
 			}
 		}
 
-		public int popSmallest()
-		{
+		public int popSmallest() {
 			int val = set.first();
 			set.remove(val);
 			return val;
 		}
 
-		public void addBack(int num)
-		{
+		public void addBack(int num) {
 			set.add(num);
 		}
 	}

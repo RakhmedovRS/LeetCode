@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximum-profit-of-operating-a-centennial-wheel/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumProfitOfOperatingCentennialWheel
-{
-	public int minOperationsMaxProfit(int[] customers, int boardingCost, int runningCost)
-	{
+public class MaximumProfitOfOperatingCentennialWheel {
+	public int minOperationsMaxProfit(int[] customers, int boardingCost, int runningCost) {
 		int maxProfit = -1;
 		int maxSteps = 0;
 		int currentProfit = 0;
@@ -24,18 +22,15 @@ public class MaximumProfitOfOperatingCentennialWheel
 		int wait = 0;
 		int i = 0;
 		int passengers;
-		while (i < customers.length || wait > 0)
-		{
+		while (i < customers.length || wait > 0) {
 			currentSteps++;
-			if (i < customers.length)
-			{
+			if (i < customers.length) {
 				wait += customers[i++];
 			}
 
 			passengers = Math.min(4, wait);
 			currentProfit += passengers * boardingCost - runningCost;
-			if (currentProfit > maxProfit)
-			{
+			if (currentProfit > maxProfit) {
 				currentProfit = maxProfit;
 				maxSteps = currentSteps;
 			}

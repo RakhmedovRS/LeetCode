@@ -13,14 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximum-number-of-balloons/",
 		difficulty = Difficulty.EASY
 )
-public class MaximumNumberOfBalloons
-{
-	public int maxNumberOfBalloons(String text)
-	{
+public class MaximumNumberOfBalloons {
+	public int maxNumberOfBalloons(String text) {
 		int[] current = new int[26];
 		int answer = Integer.MAX_VALUE;
-		for (char ch : text.toCharArray())
-		{
+		for (char ch : text.toCharArray()) {
 			current[ch - 'a']++;
 		}
 
@@ -33,8 +30,7 @@ public class MaximumNumberOfBalloons
 		return answer;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new MaximumNumberOfBalloons().maxNumberOfBalloons("loonbalxballpoon"));
 		System.out.println(new MaximumNumberOfBalloons().maxNumberOfBalloons("krhizmmgmcrecekgyljqkldocicziihtgpqwbticmvuyznragqoyrukzopfmjhjjxemsxmrsxuqmnkrzhgvtgdgtykhcglurvppvcwhrhrjoislonvvglhdciilduvuiebmffaagxerjeewmtcwmhmtwlxtvlbocczlrppmpjbpnifqtlninyzjtmazxdbzwxthpvrfulvrspycqcghuopjirzoeuqhetnbrcdakilzmklxwudxxhwilasbjjhhfgghogqoofsufysmcqeilaivtmfziumjloewbkjvaahsaaggteppqyuoylgpbdwqubaalfwcqrjeycjbbpifjbpigjdnnswocusuprydgrtxuaojeriigwumlovafxnpibjopjfqzrwemoinmptxddgcszmfprdrichjeqcvikynzigleaajcysusqasqadjemgnyvmzmbcfrttrzonwafrnedglhpudovigwvpimttiketopkvqw"));
 	}

@@ -13,13 +13,10 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/",
 		difficulty = Difficulty.EASY
 )
-public class MaximumNumberOfWordsFoundInSentences
-{
-	public int mostWordsFound(String[] sentences)
-	{
+public class MaximumNumberOfWordsFoundInSentences {
+	public int mostWordsFound(String[] sentences) {
 		int max = 0;
-		for (String s : sentences)
-		{
+		for (String s : sentences) {
 			max = Math.max(max, s.split(" ").length);
 		}
 

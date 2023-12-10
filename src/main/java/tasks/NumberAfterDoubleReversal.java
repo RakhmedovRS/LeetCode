@@ -13,25 +13,20 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/a-number-after-a-double-reversal/",
 		difficulty = Difficulty.EASY
 )
-public class NumberAfterDoubleReversal
-{
-	public boolean isSameAfterReversals(int num)
-	{
+public class NumberAfterDoubleReversal {
+	public boolean isSameAfterReversals(int num) {
 		return num == reverse(reverse(num));
 	}
 
-	public int reverse(int x)
-	{
+	public int reverse(int x) {
 		long value = 0;
-		while (x != 0)
-		{
+		while (x != 0) {
 			value *= 10;
 			value += x % 10;
 			x /= 10;
 		}
 
-		if (Math.abs(value) > Integer.MAX_VALUE)
-		{
+		if (Math.abs(value) > Integer.MAX_VALUE) {
 			return 0;
 		}
 

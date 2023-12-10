@@ -13,28 +13,22 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LexicographicallySmallestStringAfterSubstringOperation
-{
-	public String smallestString(String s)
-	{
+public class LexicographicallySmallestStringAfterSubstringOperation {
+	public String smallestString(String s) {
 		char[] chars = s.toCharArray();
-		if (s.length() == 1)
-		{
+		if (s.length() == 1) {
 			shift(chars, 0);
 			return String.valueOf(chars);
 		}
 
 		int posA = 0;
-		while (posA < chars.length - 1 && chars[posA] == 'a')
-		{
+		while (posA < chars.length - 1 && chars[posA] == 'a') {
 			posA++;
 		}
 
 		boolean changed = false;
-		while (posA < chars.length)
-		{
-			if (chars[posA] == 'a' && changed)
-			{
+		while (posA < chars.length) {
+			if (chars[posA] == 'a' && changed) {
 				break;
 			}
 
@@ -45,14 +39,11 @@ public class LexicographicallySmallestStringAfterSubstringOperation
 		return String.valueOf(chars);
 	}
 
-	private void shift(char[] chars, int pos)
-	{
-		if (chars[pos] == 'a')
-		{
+	private void shift(char[] chars, int pos) {
+		if (chars[pos] == 'a') {
 			chars[pos] = 'z';
 		}
-		else
-		{
+		else {
 			chars[pos] -= 1;
 		}
 	}

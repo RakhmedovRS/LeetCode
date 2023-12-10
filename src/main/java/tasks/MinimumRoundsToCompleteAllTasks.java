@@ -17,13 +17,10 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumRoundsToCompleteAllTasks
-{
-	public int minimumRounds(int[] tasks)
-	{
+public class MinimumRoundsToCompleteAllTasks {
+	public int minimumRounds(int[] tasks) {
 		Map<Integer, Integer> map = new HashMap<>();
-		for (int task : tasks)
-		{
+		for (int task : tasks) {
 			map.put(task, map.getOrDefault(task, 0) + 1);
 		}
 
@@ -31,26 +28,21 @@ public class MinimumRoundsToCompleteAllTasks
 		pq.addAll(map.keySet());
 
 		int rounds = 0;
-		while (!pq.isEmpty())
-		{
+		while (!pq.isEmpty()) {
 			int key = pq.remove();
 			int count = map.remove(key);
-			if (count >= 5 || count == 3)
-			{
+			if (count >= 5 || count == 3) {
 				count -= 3;
 			}
-			else if (count != 1)
-			{
+			else if (count != 1) {
 				count -= 2;
 			}
 
-			if (count == 1)
-			{
+			if (count == 1) {
 				return -1;
 			}
 
-			if (count > 0)
-			{
+			if (count > 0) {
 				map.put(key, count);
 				pq.add(key);
 			}

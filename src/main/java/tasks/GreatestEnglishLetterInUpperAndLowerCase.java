@@ -13,29 +13,22 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/",
 		difficulty = Difficulty.EASY
 )
-public class GreatestEnglishLetterInUpperAndLowerCase
-{
-	public String greatestLetter(String s)
-	{
+public class GreatestEnglishLetterInUpperAndLowerCase {
+	public String greatestLetter(String s) {
 		boolean[] lower = new boolean[26];
 		boolean[] upper = new boolean[26];
 
-		for (char ch : s.toCharArray())
-		{
-			if (Character.isUpperCase(ch))
-			{
+		for (char ch : s.toCharArray()) {
+			if (Character.isUpperCase(ch)) {
 				upper[ch - 'A'] = true;
 			}
-			else
-			{
+			else {
 				lower[ch - 'a'] = true;
 			}
 		}
 
-		for (int i = 25; i >= 0; i--)
-		{
-			if (lower[i] && upper[i])
-			{
+		for (int i = 25; i >= 0; i--) {
+			if (lower[i] && upper[i]) {
 				return "" + (char) (i + 'A');
 			}
 		}

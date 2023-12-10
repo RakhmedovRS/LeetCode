@@ -19,20 +19,16 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LowestCommonAncestorOfDeepestLeaves
-{
-	public TreeNode lcaDeepestLeaves(TreeNode root)
-	{
+public class LowestCommonAncestorOfDeepestLeaves {
+	public TreeNode lcaDeepestLeaves(TreeNode root) {
 		TreeNode[] parents = new TreeNode[1001];
 		int[] max = new int[1];
 		LinkedList<TreeNode> deepestLeafs = new LinkedList<>();
 		dfs(null, root, 0, parents, max, deepestLeafs);
 		TreeNode node;
-		while (deepestLeafs.size() > 1)
-		{
+		while (deepestLeafs.size() > 1) {
 			Set<TreeNode> p = new HashSet<>();
-			while (!deepestLeafs.isEmpty())
-			{
+			while (!deepestLeafs.isEmpty()) {
 				node = deepestLeafs.removeFirst();
 				p.add(parents[node.val]);
 			}
@@ -43,25 +39,20 @@ public class LowestCommonAncestorOfDeepestLeaves
 		return deepestLeafs.getFirst();
 	}
 
-	private void dfs(TreeNode prev, TreeNode node, int currentDepth, TreeNode[] parents, int[] max, List<TreeNode> deepestLeafs)
-	{
-		if (node == null)
-		{
+	private void dfs(TreeNode prev, TreeNode node, int currentDepth, TreeNode[] parents, int[] max, List<TreeNode> deepestLeafs) {
+		if (node == null) {
 			return;
 		}
 
 		parents[node.val] = prev;
 
-		if (node.left == null && node.right == null)
-		{
-			if (currentDepth > max[0])
-			{
+		if (node.left == null && node.right == null) {
+			if (currentDepth > max[0]) {
 				max[0] = currentDepth;
 				deepestLeafs.clear();
 				deepestLeafs.add(node);
 			}
-			else if (currentDepth == max[0])
-			{
+			else if (currentDepth == max[0]) {
 				deepestLeafs.add(node);
 			}
 			return;

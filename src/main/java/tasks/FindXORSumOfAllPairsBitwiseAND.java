@@ -13,19 +13,15 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/",
 		difficulty = Difficulty.HARD
 )
-public class FindXORSumOfAllPairsBitwiseAND
-{
-	public int getXORSum(int[] A, int[] B)
-	{
+public class FindXORSumOfAllPairsBitwiseAND {
+	public int getXORSum(int[] A, int[] B) {
 		int xorA = 0;
 		int xorB = 0;
-		for (int a : A)
-		{
+		for (int a : A) {
 			xorA ^= a;
 		}
 
-		for (int b : B)
-		{
+		for (int b : B) {
 			xorB ^= b;
 		}
 		return xorA & xorB;

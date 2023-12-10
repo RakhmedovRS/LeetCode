@@ -16,65 +16,52 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/number-of-orders-in-the-backlog/",
 		difficulty = Difficulty.MEDIUM
 )
-public class NumberOfOrdersInTheBacklog
-{
-	public int getNumberOfBacklogOrders(int[][] orders)
-	{
+public class NumberOfOrdersInTheBacklog {
+	public int getNumberOfBacklogOrders(int[][] orders) {
 		PriorityQueue<int[]> buys = new PriorityQueue<>((a, b) -> b[0] - a[0]);
 		PriorityQueue<int[]> sells = new PriorityQueue<>(Comparator.comparingInt(a -> a[0]));
-		for (int[] order : orders)
-		{
+		for (int[] order : orders) {
 			//buy
-			if (order[2] == 0)
-			{
-				while (order[1] > 0 && !sells.isEmpty() && sells.peek()[0] <= order[0])
-				{
+			if (order[2] == 0) {
+				while (order[1] > 0 && !sells.isEmpty() && sells.peek()[0] <= order[0]) {
 					int[] sellOrder = sells.remove();
 					int min = Math.min(sellOrder[1], order[1]);
 					order[1] -= min;
 					sellOrder[1] -= min;
-					if (sellOrder[1] > 0)
-					{
+					if (sellOrder[1] > 0) {
 						sells.add(sellOrder);
 					}
 				}
 
-				if (order[1] > 0)
-				{
+				if (order[1] > 0) {
 					buys.add(order);
 				}
 			}
 			//sell
-			else
-			{
-				while (order[1] > 0 && !buys.isEmpty() && buys.peek()[0] >= order[0])
-				{
+			else {
+				while (order[1] > 0 && !buys.isEmpty() && buys.peek()[0] >= order[0]) {
 					int[] buyOrder = buys.remove();
 					int min = Math.min(buyOrder[1], order[1]);
 					order[1] -= min;
 					buyOrder[1] -= min;
-					if (buyOrder[1] > 0)
-					{
+					if (buyOrder[1] > 0) {
 						buys.add(buyOrder);
 					}
 				}
 
-				if (order[1] > 0)
-				{
+				if (order[1] > 0) {
 					sells.add(order);
 				}
 			}
 		}
 
 		long count = 0;
-		for (int[] order : buys)
-		{
+		for (int[] order : buys) {
 			count += order[1];
 			count %= 1_000_000_007;
 		}
 
-		for (int[] order : sells)
-		{
+		for (int[] order : sells) {
 			count += order[1];
 			count %= 1_000_000_007;
 		}
@@ -82,8 +69,7 @@ public class NumberOfOrdersInTheBacklog
 		return (int) count;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		NumberOfOrdersInTheBacklog clazz = new NumberOfOrdersInTheBacklog();
 
 		System.out.println(clazz.getNumberOfBacklogOrders(new int[][]

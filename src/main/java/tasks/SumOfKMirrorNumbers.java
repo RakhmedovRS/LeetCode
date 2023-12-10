@@ -16,10 +16,8 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/sum-of-k-mirror-numbers/",
 		difficulty = Difficulty.HARD
 )
-public class SumOfKMirrorNumbers
-{
-	public long kMirror(int k, int n)
-	{
+public class SumOfKMirrorNumbers {
+	public long kMirror(int k, int n) {
 		Map<Integer, long[]> map = new HashMap<>();
 
 		//https://oeis.org/A007632
@@ -48,8 +46,7 @@ public class SumOfKMirrorNumbers
 
 		long answer = 0;
 		long[] arr = map.get(k);
-		for (int i = 0; i < arr.length && n > 0; i++, n--)
-		{
+		for (int i = 0; i < arr.length && n > 0; i++, n--) {
 			answer += arr[i];
 		}
 

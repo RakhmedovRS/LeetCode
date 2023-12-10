@@ -13,34 +13,27 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/numbers-at-most-n-given-digit-set/",
 		difficulty = Difficulty.HARD
 )
-public class NumbersAtMostNGivenDigitSet
-{
-	public int atMostNGivenDigitSet(String[] digits, int n)
-	{
+public class NumbersAtMostNGivenDigitSet {
+	public int atMostNGivenDigitSet(String[] digits, int n) {
 		String N = String.valueOf(n);
 		int len = N.length();
 		int[] memo = new int[len + 1];
 		memo[len] = 1;
 		int num;
-		for (int i = len - 1; i >= 0; i--)
-		{
+		for (int i = len - 1; i >= 0; i--) {
 			int current = N.charAt(i) - '0';
-			for (String digit : digits)
-			{
+			for (String digit : digits) {
 				num = Integer.parseInt(digit);
-				if (num < current)
-				{
+				if (num < current) {
 					memo[i] += Math.pow(digits.length, len - i - 1);
 				}
-				else if (num == current)
-				{
+				else if (num == current) {
 					memo[i] += memo[i + 1];
 				}
 			}
 		}
 
-		for (int i = 1; i < len; i++)
-		{
+		for (int i = 1; i < len; i++) {
 			memo[0] += Math.pow(digits.length, i);
 		}
 

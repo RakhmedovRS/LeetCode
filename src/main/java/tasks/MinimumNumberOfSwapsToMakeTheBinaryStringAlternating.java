@@ -13,36 +13,29 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumNumberOfSwapsToMakeTheBinaryStringAlternating
-{
-	public int minSwaps(String s)
-	{
+public class MinimumNumberOfSwapsToMakeTheBinaryStringAlternating {
+	public int minSwaps(String s) {
 		char[] chars = s.toCharArray();
 		int[] onesAndZeroes = new int[2];
-		for (char ch : chars)
-		{
+		for (char ch : chars) {
 			onesAndZeroes[ch - '0']++;
 		}
 
-		if (Math.abs(onesAndZeroes[0] - onesAndZeroes[1]) > 1)
-		{
+		if (Math.abs(onesAndZeroes[0] - onesAndZeroes[1]) > 1) {
 			return -1;
 		}
 
 		int steps = 0;
 		char[] mask;
-		if (onesAndZeroes[0] > onesAndZeroes[1])
-		{
+		if (onesAndZeroes[0] > onesAndZeroes[1]) {
 			mask = createMask(chars.length, 0);
 			steps = countSteps(chars, mask);
 		}
-		else if (onesAndZeroes[0] < onesAndZeroes[1])
-		{
+		else if (onesAndZeroes[0] < onesAndZeroes[1]) {
 			mask = createMask(chars.length, 1);
 			steps = countSteps(chars, mask);
 		}
-		else
-		{
+		else {
 			int steps1 = 0;
 			int steps2 = 0;
 			mask = createMask(chars.length, 0);
@@ -57,37 +50,29 @@ public class MinimumNumberOfSwapsToMakeTheBinaryStringAlternating
 		return steps;
 	}
 
-	private void swap(char[] chars, int a, int b)
-	{
+	private void swap(char[] chars, int a, int b) {
 		char temp = chars[a];
 		chars[a] = chars[b];
 		chars[b] = temp;
 	}
 
-	private char[] createMask(int n, int firstBit)
-	{
+	private char[] createMask(int n, int firstBit) {
 		char[] mask = new char[n];
-		for (int bit = firstBit, i = 0; i < n; i++, bit++)
-		{
+		for (int bit = firstBit, i = 0; i < n; i++, bit++) {
 			mask[i] = bit % 2 == 0 ? '0' : '1';
 		}
 
 		return mask;
 	}
 
-	private int countSteps(char[] chars, char[] mask)
-	{
+	private int countSteps(char[] chars, char[] mask) {
 		int steps = 0;
-		for (int i = 0; i < chars.length; i++)
-		{
-			if (chars[i] != mask[i])
-			{
+		for (int i = 0; i < chars.length; i++) {
+			if (chars[i] != mask[i]) {
 				steps++;
 
-				for (int j = i + 1; j < chars.length; j++)
-				{
-					if (chars[j] != mask[j] && chars[j] != chars[i])
-					{
+				for (int j = i + 1; j < chars.length; j++) {
+					if (chars[j] != mask[j] && chars[j] != chars[i]) {
 						swap(chars, i, j);
 						break;
 					}

@@ -19,23 +19,18 @@ import java.util.TreeSet;
 		url = "https://leetcode.com/problems/remove-nodes-from-linked-list/",
 		difficulty = Difficulty.MEDIUM
 )
-public class RemoveNodesFromLinkedList
-{
-	public ListNode removeNodes(ListNode head)
-	{
+public class RemoveNodesFromLinkedList {
+	public ListNode removeNodes(ListNode head) {
 		List<Integer> list = new ArrayList<>();
-		while (head != null)
-		{
+		while (head != null) {
 			list.add(head.val);
 			head = head.next;
 		}
 
 		TreeSet<Integer> set = new TreeSet<>();
 		LinkedList<Integer> linkedList = new LinkedList<>();
-		for (int i = list.size() - 1; i >= 0; i--)
-		{
-			if (set.isEmpty() || set.ceiling(list.get(i) + 1) == null)
-			{
+		for (int i = list.size() - 1; i >= 0; i--) {
+			if (set.isEmpty() || set.ceiling(list.get(i) + 1) == null) {
 				linkedList.addFirst(list.get(i));
 			}
 
@@ -44,8 +39,7 @@ public class RemoveNodesFromLinkedList
 
 		ListNode dummy = new ListNode();
 		ListNode newHead = dummy;
-		while (!linkedList.isEmpty())
-		{
+		while (!linkedList.isEmpty()) {
 			newHead.next = new ListNode(linkedList.removeFirst());
 			newHead = newHead.next;
 		}

@@ -7,18 +7,14 @@ import common.LeetCode;
  * @created 12-Jun-20
  */
 @LeetCode(id = 641, name = "Design Circular Deque", url = "https://leetcode.com/problems/design-circular-deque/")
-public class DesignCircularDeque
-{
-	class MyCircularDeque
-	{
-		private class Link
-		{
+public class DesignCircularDeque {
+	class MyCircularDeque {
+		private class Link {
 			private Link prev;
 			private Link next;
-			private int value;
+			private final int value;
 
-			public Link(int value)
-			{
+			public Link(int value) {
 				this.value = value;
 			}
 		}
@@ -31,8 +27,7 @@ public class DesignCircularDeque
 		Link head;
 		Link tail;
 
-		public MyCircularDeque(int k)
-		{
+		public MyCircularDeque(int k) {
 			this.k = k;
 			capacity = k;
 			head = new Link(Integer.MIN_VALUE);
@@ -44,10 +39,8 @@ public class DesignCircularDeque
 		/**
 		 * Adds an item at the front of Deque. Return true if the operation is successful.
 		 */
-		public boolean insertFront(int value)
-		{
-			if (capacity == 0)
-			{
+		public boolean insertFront(int value) {
+			if (capacity == 0) {
 				return false;
 			}
 
@@ -64,10 +57,8 @@ public class DesignCircularDeque
 		/**
 		 * Adds an item at the rear of Deque. Return true if the operation is successful.
 		 */
-		public boolean insertLast(int value)
-		{
-			if (capacity == 0)
-			{
+		public boolean insertLast(int value) {
+			if (capacity == 0) {
 				return false;
 			}
 
@@ -84,10 +75,8 @@ public class DesignCircularDeque
 		/**
 		 * Deletes an item from the front of Deque. Return true if the operation is successful.
 		 */
-		public boolean deleteFront()
-		{
-			if (isEmpty())
-			{
+		public boolean deleteFront() {
+			if (isEmpty()) {
 				return false;
 			}
 
@@ -101,10 +90,8 @@ public class DesignCircularDeque
 		/**
 		 * Deletes an item from the rear of Deque. Return true if the operation is successful.
 		 */
-		public boolean deleteLast()
-		{
-			if (isEmpty())
-			{
+		public boolean deleteLast() {
+			if (isEmpty()) {
 				return false;
 			}
 
@@ -118,10 +105,8 @@ public class DesignCircularDeque
 		/**
 		 * Get the front item from the deque.
 		 */
-		public int getFront()
-		{
-			if (isEmpty())
-			{
+		public int getFront() {
+			if (isEmpty()) {
 				return -1;
 			}
 			return head.next.value;
@@ -130,10 +115,8 @@ public class DesignCircularDeque
 		/**
 		 * Get the last item from the deque.
 		 */
-		public int getRear()
-		{
-			if (isEmpty())
-			{
+		public int getRear() {
+			if (isEmpty()) {
 				return -1;
 			}
 			return tail.prev.value;
@@ -142,22 +125,19 @@ public class DesignCircularDeque
 		/**
 		 * Checks whether the circular deque is empty or not.
 		 */
-		public boolean isEmpty()
-		{
+		public boolean isEmpty() {
 			return capacity == k;
 		}
 
 		/**
 		 * Checks whether the circular deque is full or not.
 		 */
-		public boolean isFull()
-		{
+		public boolean isFull() {
 			return capacity == 0;
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		MyCircularDeque circularDeque = new DesignCircularDeque().new MyCircularDeque(8);
 		System.out.println(circularDeque.insertFront(5));
 		System.out.println(circularDeque.getFront());

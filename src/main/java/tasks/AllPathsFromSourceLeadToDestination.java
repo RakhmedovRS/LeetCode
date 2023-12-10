@@ -16,17 +16,13 @@ import java.util.*;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class AllPathsFromSourceLeadToDestination
-{
-	public boolean leadsToDestination(int n, int[][] edges, int source, int destination)
-	{
+public class AllPathsFromSourceLeadToDestination {
+	public boolean leadsToDestination(int n, int[][] edges, int source, int destination) {
 		Map<Integer, List<Integer>> graph = new HashMap<>();
-		for (int[] edge : edges)
-		{
+		for (int[] edge : edges) {
 			graph.putIfAbsent(edge[0], new ArrayList<>());
 			graph.get(edge[0]).add(edge[1]);
-			if (edge[0] == destination)
-			{
+			if (edge[0] == destination) {
 				return false;
 			}
 		}
@@ -35,23 +31,18 @@ public class AllPathsFromSourceLeadToDestination
 		queue.add(new java.util.AbstractMap.SimpleEntry<>(source, new HashSet<>()));
 
 		Map.Entry<Integer, Set<Integer>> current;
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			current = queue.remove();
-			if (!graph.containsKey(current.getKey()))
-			{
-				if (current.getKey() != destination)
-				{
+			if (!graph.containsKey(current.getKey())) {
+				if (current.getKey() != destination) {
 					return false;
 				}
 
 				continue;
 			}
 
-			for (Integer next : graph.get(current.getKey()))
-			{
-				if (current.getValue().contains(next))
-				{
+			for (Integer next : graph.get(current.getKey())) {
+				if (current.getValue().contains(next)) {
 					return false;
 				}
 

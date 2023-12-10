@@ -15,10 +15,8 @@ import java.util.*;
 		url = "https://leetcode.com/problems/open-the-lock/",
 		difficulty = Difficulty.MEDIUM
 )
-public class OpenTheLock
-{
-	public int openLock(String[] deadends, String target)
-	{
+public class OpenTheLock {
+	public int openLock(String[] deadends, String target) {
 		Set<String> visited = new HashSet<>(Arrays.asList(deadends));
 
 		Queue<String> queue = new LinkedList<>();
@@ -27,39 +25,32 @@ public class OpenTheLock
 		int steps = 0;
 		String current;
 		char[] chars;
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			size = queue.size();
-			while (size-- > 0)
-			{
+			while (size-- > 0) {
 				current = queue.remove();
-				if (!visited.add(current))
-				{
+				if (!visited.add(current)) {
 					continue;
 				}
 
-				if (current.equals(target))
-				{
+				if (current.equals(target)) {
 					return steps;
 				}
 
 				chars = current.toCharArray();
 				char original;
-				for (int i = 0; i < chars.length; i++)
-				{
+				for (int i = 0; i < chars.length; i++) {
 					original = chars[i];
 
 					chars[i] = chars[i] == '9' ? '0' : (char) (chars[i] + 1);
-					if (!visited.contains(String.valueOf(chars)))
-					{
+					if (!visited.contains(String.valueOf(chars))) {
 						queue.add(String.valueOf(chars));
 					}
 
 					chars[i] = original;
 
 					chars[i] = chars[i] == '0' ? '9' : (char) (chars[i] - 1);
-					if (!visited.contains(String.valueOf(chars)))
-					{
+					if (!visited.contains(String.valueOf(chars))) {
 						queue.add(String.valueOf(chars));
 					}
 

@@ -15,18 +15,15 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/mean-of-array-after-removing-some-elements/",
 		difficulty = Difficulty.EASY
 )
-public class MeanIOfArrayAfterRemovingSomeElements
-{
-	public double trimMean(int[] arr)
-	{
+public class MeanIOfArrayAfterRemovingSomeElements {
+	public double trimMean(int[] arr) {
 		Arrays.sort(arr);
 		int left = arr.length / 20;
 		int right = arr.length - left - 1;
 
 		double sum = 0D;
 		int count = 0;
-		while (left <= right)
-		{
+		while (left <= right) {
 			sum += arr[left++];
 			count++;
 		}

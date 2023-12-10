@@ -13,28 +13,22 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindThreeConsecutiveIntegersThatSumToGivenNumber
-{
-	public long[] sumOfThree(long num)
-	{
+public class FindThreeConsecutiveIntegersThatSumToGivenNumber {
+	public long[] sumOfThree(long num) {
 		long left = 0;
 		long right = num;
 		long mid;
 		long res;
-		while (left <= right)
-		{
+		while (left <= right) {
 			mid = (left + right) / 2;
 			res = mid - 1 + mid + mid + 1;
-			if (res == num)
-			{
+			if (res == num) {
 				return new long[]{mid - 1, mid, mid + 1};
 			}
-			else if (res < num)
-			{
+			else if (res < num) {
 				left = mid + 1;
 			}
-			else
-			{
+			else {
 				right = mid - 1;
 			}
 		}

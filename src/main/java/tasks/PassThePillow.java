@@ -13,32 +13,25 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/pass-the-pillow/",
 		difficulty = Difficulty.EASY
 )
-public class PassThePillow
-{
-	public int passThePillow(int n, int time)
-	{
+public class PassThePillow {
+	public int passThePillow(int n, int time) {
 		//time %= n * 2;
 
 		int pos = 1;
 		boolean forward = true;
-		while (time-- > 0)
-		{
-			if (pos == n)
-			{
+		while (time-- > 0) {
+			if (pos == n) {
 				forward = !forward;
 			}
 
-			if (!forward && pos == 1)
-			{
+			if (!forward && pos == 1) {
 				forward = true;
 			}
 
-			if (forward)
-			{
+			if (forward) {
 				pos++;
 			}
-			else
-			{
+			else {
 				pos--;
 			}
 		}

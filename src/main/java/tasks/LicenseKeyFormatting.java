@@ -13,42 +13,33 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/license-key-formatting/",
 		difficulty = Difficulty.EASY
 )
-public class LicenseKeyFormatting
-{
-	public String licenseKeyFormatting(String S, int K)
-	{
-		if (S == null || S.isEmpty() || K == 0)
-		{
+public class LicenseKeyFormatting {
+	public String licenseKeyFormatting(String S, int K) {
+		if (S == null || S.isEmpty() || K == 0) {
 			return S;
 		}
 
 		StringBuilder stringBuilder = new StringBuilder();
 		int groupSize = 0;
-		for (int i = S.length() - 1; i >= 0; i--)
-		{
+		for (int i = S.length() - 1; i >= 0; i--) {
 			char ch = S.charAt(i);
-			if (ch == '-')
-			{
+			if (ch == '-') {
 				continue;
 			}
-			else if (Character.isAlphabetic(ch))
-			{
+			else if (Character.isAlphabetic(ch)) {
 				stringBuilder.append(Character.toUpperCase(ch));
 			}
-			else
-			{
+			else {
 				stringBuilder.append(ch);
 			}
 			groupSize++;
-			if (groupSize % K == 0)
-			{
+			if (groupSize % K == 0) {
 				stringBuilder.append('-');
 			}
 
 		}
 
-		if (stringBuilder.length() != 0 && stringBuilder.charAt(stringBuilder.length() - 1) == '-')
-		{
+		if (stringBuilder.length() != 0 && stringBuilder.charAt(stringBuilder.length() - 1) == '-') {
 			stringBuilder.deleteCharAt(stringBuilder.length() - 1);
 		}
 

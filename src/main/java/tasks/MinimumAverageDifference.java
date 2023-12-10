@@ -13,17 +13,14 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-average-difference/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumAverageDifference
-{
-	public int minimumAverageDifference(int[] nums)
-	{
+public class MinimumAverageDifference {
+	public int minimumAverageDifference(int[] nums) {
 		int leftCount = 0;
 		long leftSum = 0;
 		int rightCount = 0;
 		long rightSum = 0;
 
-		for (int i = 0; i < nums.length; i++)
-		{
+		for (int i = 0; i < nums.length; i++) {
 			rightCount++;
 			rightSum += nums[i];
 		}
@@ -31,8 +28,7 @@ public class MinimumAverageDifference
 		int minIndex = 0;
 		long minDiff = Integer.MAX_VALUE;
 
-		for (int i = 0; i < nums.length; i++)
-		{
+		for (int i = 0; i < nums.length; i++) {
 			leftCount++;
 			leftSum += nums[i];
 
@@ -42,8 +38,7 @@ public class MinimumAverageDifference
 			long left = leftSum / leftCount;
 			long right = rightCount == 0 ? 0 : rightSum / rightCount;
 			long diff = Math.abs(left - right);
-			if (diff < minDiff)
-			{
+			if (diff < minDiff) {
 				minDiff = diff;
 				minIndex = i;
 			}

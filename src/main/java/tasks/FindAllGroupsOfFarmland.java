@@ -16,20 +16,15 @@ import java.util.List;
 		url = "https://leetcode.com/problems/find-all-groups-of-farmland/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindAllGroupsOfFarmland
-{
-	public int[][] findFarmland(int[][] land)
-	{
+public class FindAllGroupsOfFarmland {
+	public int[][] findFarmland(int[][] land) {
 		int rows = land.length;
 		int columns = land[0].length;
 
 		List<int[]> list = new ArrayList<>();
-		for (int row = 0; row < rows; row++)
-		{
-			for (int column = 0; column < columns; column++)
-			{
-				if (land[row][column] == 1)
-				{
+		for (int row = 0; row < rows; row++) {
+			for (int column = 0; column < columns; column++) {
+				if (land[row][column] == 1) {
 					int[] tmp = new int[]{Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MIN_VALUE, Integer.MAX_VALUE};
 					dfs(row, column, rows, columns, land, tmp);
 					list.add(tmp);
@@ -39,40 +34,33 @@ public class FindAllGroupsOfFarmland
 
 		int[][] answer = new int[list.size()][];
 
-		for (int i = 0; i < list.size(); i++)
-		{
+		for (int i = 0; i < list.size(); i++) {
 			answer[i] = list.get(i);
 		}
 
 		return answer;
 	}
 
-	private void dfs(int row, int column, int rows, int columns, int[][] land, int[] tmp)
-	{
-		if (row < 0 || row == rows || column < 0 || column == columns || land[row][column] == 0)
-		{
+	private void dfs(int row, int column, int rows, int columns, int[][] land, int[] tmp) {
+		if (row < 0 || row == rows || column < 0 || column == columns || land[row][column] == 0) {
 			return;
 		}
 
-		if (row < tmp[0])
-		{
+		if (row < tmp[0]) {
 			tmp[0] = row;
 			tmp[1] = column;
 		}
 
-		if (row == tmp[0])
-		{
+		if (row == tmp[0]) {
 			tmp[1] = Math.min(tmp[1], column);
 		}
 
-		if (row > tmp[2])
-		{
+		if (row > tmp[2]) {
 			tmp[2] = row;
 			tmp[3] = column;
 		}
 
-		if (row == tmp[2])
-		{
+		if (row == tmp[2]) {
 			tmp[3] = Math.max(tmp[3], column);
 		}
 

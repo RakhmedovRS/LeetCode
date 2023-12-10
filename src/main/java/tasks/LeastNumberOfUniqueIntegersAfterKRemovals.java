@@ -12,24 +12,19 @@ import java.util.PriorityQueue;
  * @created 14-Jun-20
  */
 @LeetCode(id = 1481, name = "Least Number of Unique Integers after K Removals", url = "https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/")
-public class LeastNumberOfUniqueIntegersAfterKRemovals
-{
-	public int findLeastNumOfUniqueInts(int[] arr, int k)
-	{
+public class LeastNumberOfUniqueIntegersAfterKRemovals {
+	public int findLeastNumOfUniqueInts(int[] arr, int k) {
 		Map<Integer, Integer> map = new HashMap<>();
-		for (int num : arr)
-		{
+		for (int num : arr) {
 			map.put(num, map.getOrDefault(num, 0) + 1);
 		}
 
 		PriorityQueue<int[]> priorityQueue = new PriorityQueue<>(Comparator.comparingInt(arr2 -> arr2[1]));
-		for (Map.Entry<Integer, Integer> entry : map.entrySet())
-		{
+		for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
 			priorityQueue.add(new int[]{entry.getKey(), entry.getValue()});
 		}
 
-		while (!priorityQueue.isEmpty() && k > 0)
-		{
+		while (!priorityQueue.isEmpty() && k > 0) {
 			k -= priorityQueue.remove()[1];
 		}
 

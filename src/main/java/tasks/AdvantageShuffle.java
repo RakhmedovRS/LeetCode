@@ -18,41 +18,33 @@ import java.util.TreeMap;
 		url = "https://leetcode.com/problems/advantage-shuffle/",
 		difficulty = Difficulty.MEDIUM
 )
-public class AdvantageShuffle
-{
-	public int[] advantageCount(int[] A, int[] B)
-	{
+public class AdvantageShuffle {
+	public int[] advantageCount(int[] A, int[] B) {
 		int[] answer = new int[A.length];
 		PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.comparingInt(i -> B[i]));
-		for (int i = 0; i < B.length; i++)
-		{
+		for (int i = 0; i < B.length; i++) {
 			pq.add(i);
 		}
 
 		TreeMap<Integer, Integer> treeMap = new TreeMap<>();
-		for (int num : A)
-		{
+		for (int num : A) {
 			treeMap.put(num, treeMap.getOrDefault(num, 0) + 1);
 		}
 
 		int index;
 		Map.Entry<Integer, Integer> entry;
-		while (!pq.isEmpty())
-		{
+		while (!pq.isEmpty()) {
 			index = pq.remove();
 			entry = treeMap.ceilingEntry(B[index] + 1);
-			if (entry == null)
-			{
+			if (entry == null) {
 				entry = treeMap.firstEntry();
 			}
 
 			answer[index] = entry.getKey();
-			if (entry.getValue() == 1)
-			{
+			if (entry.getValue() == 1) {
 				treeMap.remove(entry.getKey());
 			}
-			else
-			{
+			else {
 				treeMap.put(entry.getKey(), entry.getValue() - 1);
 			}
 		}

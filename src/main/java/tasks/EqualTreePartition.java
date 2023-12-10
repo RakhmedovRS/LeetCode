@@ -17,23 +17,18 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/equal-tree-partition/",
 		difficulty = Difficulty.MEDIUM
 )
-public class EqualTreePartition
-{
-	public boolean checkEqualTree(TreeNode root)
-	{
+public class EqualTreePartition {
+	public boolean checkEqualTree(TreeNode root) {
 		Map<Integer, Integer> map = new HashMap<>();
 		int sum = getSum(root, map);
-		if (sum == 0)
-		{
+		if (sum == 0) {
 			return map.getOrDefault(sum, 0) > 1;
 		}
 		return sum % 2 == 0 && map.containsKey(sum / 2);
 	}
 
-	public int getSum(TreeNode root, Map<Integer, Integer> map)
-	{
-		if (root == null)
-		{
+	public int getSum(TreeNode root, Map<Integer, Integer> map) {
+		if (root == null) {
 			return 0;
 		}
 		int cur = root.val + getSum(root.left, map) + getSum(root.right, map);

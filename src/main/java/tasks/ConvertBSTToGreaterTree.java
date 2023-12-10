@@ -16,16 +16,13 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/convert-bst-to-greater-tree/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ConvertBSTToGreaterTree
-{
-	public TreeNode convertBST(TreeNode root)
-	{
+public class ConvertBSTToGreaterTree {
+	public TreeNode convertBST(TreeNode root) {
 		LinkedList<TreeNode> nodes = new LinkedList<>();
 		inorder(root, nodes);
 
 		int sum = 0;
-		while (!nodes.isEmpty())
-		{
+		while (!nodes.isEmpty()) {
 			TreeNode current = nodes.removeLast();
 			int temp = current.val;
 			current.val += sum;
@@ -35,10 +32,8 @@ public class ConvertBSTToGreaterTree
 		return root;
 	}
 
-	private void inorder(TreeNode root, LinkedList<TreeNode> nodes)
-	{
-		if (root == null)
-		{
+	private void inorder(TreeNode root, LinkedList<TreeNode> nodes) {
+		if (root == null) {
 			return;
 		}
 

@@ -15,32 +15,26 @@ import java.util.*;
 		url = "https://leetcode.com/problems/design-graph-with-shortest-path-calculator/",
 		difficulty = Difficulty.HARD
 )
-public class DesignGraphWithShortestPathCalculator
-{
-	class Graph
-	{
+public class DesignGraphWithShortestPathCalculator {
+	class Graph {
 		Map<Integer, Map<Integer, Integer>> cost;
 		int n;
 
-		public Graph(int n, int[][] edges)
-		{
+		public Graph(int n, int[][] edges) {
 			cost = new HashMap<>();
-			for (int[] edge : edges)
-			{
+			for (int[] edge : edges) {
 				cost.putIfAbsent(edge[0], new HashMap<>());
 				cost.get(edge[0]).put(edge[1], edge[2]);
 			}
 			this.n = n;
 		}
 
-		public void addEdge(int[] edge)
-		{
+		public void addEdge(int[] edge) {
 			cost.putIfAbsent(edge[0], new HashMap<>());
 			cost.get(edge[0]).put(edge[1], edge[2]);
 		}
 
-		public int shortestPath(int node1, int node2)
-		{
+		public int shortestPath(int node1, int node2) {
 			int[] distance = new int[n];
 			Arrays.fill(distance, Integer.MAX_VALUE);
 			distance[node1] = 0;
@@ -49,16 +43,13 @@ public class DesignGraphWithShortestPathCalculator
 			pq.add(new int[]{node1, 0});
 
 			Set<Integer> set = new HashSet<>();
-			while (set.size() < n)
-			{
-				if (pq.isEmpty())
-				{
+			while (set.size() < n) {
+				if (pq.isEmpty()) {
 					break;
 				}
 
 				int[] min = pq.remove();
-				if (set.contains(min[0]))
-				{
+				if (set.contains(min[0])) {
 					continue;
 				}
 
@@ -69,18 +60,14 @@ public class DesignGraphWithShortestPathCalculator
 			return distance[node2] == Integer.MAX_VALUE ? -1 : distance[node2];
 		}
 
-		private void relatives(int[] min, PriorityQueue<int[]> pq, Set<Integer> set, int[] distance)
-		{
-			for (Map.Entry<Integer, Integer> entry : cost.getOrDefault(min[0], Collections.emptyMap()).entrySet())
-			{
+		private void relatives(int[] min, PriorityQueue<int[]> pq, Set<Integer> set, int[] distance) {
+			for (Map.Entry<Integer, Integer> entry : cost.getOrDefault(min[0], Collections.emptyMap()).entrySet()) {
 				int node = entry.getKey();
 				int cost = entry.getValue();
 
-				if (!set.contains(node))
-				{
+				if (!set.contains(node)) {
 					int newCost = cost + min[1];
-					if (newCost < distance[node])
-					{
+					if (newCost < distance[node]) {
 						distance[node] = newCost;
 					}
 

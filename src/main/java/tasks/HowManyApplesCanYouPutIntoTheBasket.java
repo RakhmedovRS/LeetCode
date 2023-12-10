@@ -16,18 +16,14 @@ import java.util.Arrays;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class HowManyApplesCanYouPutIntoTheBasket
-{
-	public int maxNumberOfApples(int[] arr)
-	{
+public class HowManyApplesCanYouPutIntoTheBasket {
+	public int maxNumberOfApples(int[] arr) {
 		Arrays.sort(arr);
 		int count = 0;
 		int sum = 5000;
-		for (int i = 0; i < arr.length && sum > 0; i++)
-		{
+		for (int i = 0; i < arr.length && sum > 0; i++) {
 			sum -= arr[i];
-			if (sum >= 0)
-			{
+			if (sum >= 0) {
 				count++;
 			}
 		}

@@ -16,45 +16,34 @@ import java.util.Arrays;
 		difficulty = Difficulty.HARD,
 		premium = true
 )
-public class NextPalindromeUsingSameDigits
-{
-	public String nextPalindrome(String num)
-	{
+public class NextPalindromeUsingSameDigits {
+	public String nextPalindrome(String num) {
 		char[] chars = num.toCharArray();
-		if (isMaximumPalindrome(chars))
-		{
+		if (isMaximumPalindrome(chars)) {
 			return "";
 		}
 
 		char[] leftPart = new char[chars.length / 2];
-		for (int i = 0; i < leftPart.length; i++)
-		{
+		for (int i = 0; i < leftPart.length; i++) {
 			leftPart[i] = chars[i];
 		}
 
 		nextPermutation(leftPart);
 
-		if (num.length() % 2 == 0)
-		{
-			return String.valueOf(leftPart) + new StringBuilder(String.valueOf(leftPart)).reverse().toString();
+		if (num.length() % 2 == 0) {
+			return String.valueOf(leftPart) + new StringBuilder(String.valueOf(leftPart)).reverse();
 		}
-		else
-		{
-			return String.valueOf(leftPart) + num.charAt(num.length() / 2) + new StringBuilder(String.valueOf(leftPart)).reverse().toString();
+		else {
+			return String.valueOf(leftPart) + num.charAt(num.length() / 2) + new StringBuilder(String.valueOf(leftPart)).reverse();
 		}
 	}
 
-	private void nextPermutation(char[] leftPart)
-	{
-		for (int i = leftPart.length - 1; i > 0; i--)
-		{
-			if (leftPart[i - 1] < leftPart[i])
-			{
+	private void nextPermutation(char[] leftPart) {
+		for (int i = leftPart.length - 1; i > 0; i--) {
+			if (leftPart[i - 1] < leftPart[i]) {
 				int pos = i;
-				for (int j = i; j < leftPart.length; j++)
-				{
-					if (leftPart[j] > leftPart[i - 1] && leftPart[j] < leftPart[pos])
-					{
+				for (int j = i; j < leftPart.length; j++) {
+					if (leftPart[j] > leftPart[i - 1] && leftPart[j] < leftPart[pos]) {
 						pos = j;
 					}
 				}
@@ -69,12 +58,9 @@ public class NextPalindromeUsingSameDigits
 		}
 	}
 
-	private boolean isMaximumPalindrome(char[] chars)
-	{
-		for (int i = 0; i < chars.length / 2 - 1; i++)
-		{
-			if (chars[i] < chars[i + 1])
-			{
+	private boolean isMaximumPalindrome(char[] chars) {
+		for (int i = 0; i < chars.length / 2 - 1; i++) {
+			if (chars[i] < chars[i + 1]) {
 				return false;
 			}
 		}
@@ -82,8 +68,7 @@ public class NextPalindromeUsingSameDigits
 		return true;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		NextPalindromeUsingSameDigits clazz = new NextPalindromeUsingSameDigits();
 		System.out.println(clazz.nextPalindrome("23143034132"));
 		System.out.println(clazz.nextPalindrome("23143034132"));

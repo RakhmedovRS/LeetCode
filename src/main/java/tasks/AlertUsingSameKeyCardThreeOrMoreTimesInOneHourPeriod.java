@@ -15,17 +15,14 @@ import java.util.*;
 		url = "https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/",
 		difficulty = Difficulty.MEDIUM
 )
-public class AlertUsingSameKeyCardThreeOrMoreTimesInOneHourPeriod
-{
-	public List<String> alertNames(String[] keyNames, String[] keyTime)
-	{
+public class AlertUsingSameKeyCardThreeOrMoreTimesInOneHourPeriod {
+	public List<String> alertNames(String[] keyNames, String[] keyTime) {
 		TreeSet<String> names = new TreeSet<>();
 		Map<String, List<Integer>> map = new HashMap<>();
 		String[] parts;
 		int hour;
 		int minutes;
-		for (int i = 0; i < keyNames.length; i++)
-		{
+		for (int i = 0; i < keyNames.length; i++) {
 			parts = keyTime[i].split(":");
 			hour = Integer.parseInt(parts[0]);
 			minutes = Integer.parseInt(parts[1]);
@@ -34,22 +31,18 @@ public class AlertUsingSameKeyCardThreeOrMoreTimesInOneHourPeriod
 		}
 
 		List<Integer> time;
-		for (Map.Entry<String, List<Integer>> entry : map.entrySet())
-		{
+		for (Map.Entry<String, List<Integer>> entry : map.entrySet()) {
 			int left = 0;
 			int right = 0;
 			time = entry.getValue();
 			Collections.sort(time);
-			while (right < time.size())
-			{
-				while (left < right && Math.abs(time.get(right) - time.get(left)) > 60)
-				{
+			while (right < time.size()) {
+				while (left < right && Math.abs(time.get(right) - time.get(left)) > 60) {
 					left++;
 				}
 
 				right++;
-				if (right - left > 2)
-				{
+				if (right - left > 2) {
 					names.add(entry.getKey());
 					break;
 				}

@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/find-the-maximum-achievable-number/",
 		difficulty = Difficulty.EASY
 )
-public class FindTheMaximumAchievableNumber
-{
-	public int theMaximumAchievableX(int num, int t)
-	{
+public class FindTheMaximumAchievableNumber {
+	public int theMaximumAchievableX(int num, int t) {
 		return num + t * 2;
 	}
 }

@@ -16,10 +16,8 @@ import java.util.List;
 		url = "https://leetcode.com/problems/all-paths-from-source-to-target/",
 		difficulty = Difficulty.MEDIUM
 )
-public class AllPathsFromSourceToTarget
-{
-	public List<List<Integer>> allPathsSourceTarget(int[][] graph)
-	{
+public class AllPathsFromSourceToTarget {
+	public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
 		List<List<Integer>> result = new ArrayList<>();
 		List<Integer> currentPath = new ArrayList<>();
 		currentPath.add(0);
@@ -29,16 +27,13 @@ public class AllPathsFromSourceToTarget
 	}
 
 	private void dfs(int[][] graph, int currentNode,
-					 List<Integer> currentPath, List<List<Integer>> result)
-	{
-		if (currentNode == graph.length - 1)
-		{
+					 List<Integer> currentPath, List<List<Integer>> result) {
+		if (currentNode == graph.length - 1) {
 			result.add(new ArrayList<>(currentPath));
 			return;
 		}
 
-		for (int node : graph[currentNode])
-		{
+		for (int node : graph[currentNode]) {
 			currentPath.add(node);
 			dfs(graph, node, currentPath, result);
 			currentPath.remove(currentPath.size() - 1);

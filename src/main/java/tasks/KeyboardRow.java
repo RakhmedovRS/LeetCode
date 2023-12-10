@@ -15,19 +15,14 @@ import java.util.*;
 		url = "https://leetcode.com/problems/keyboard-row/",
 		difficulty = Difficulty.EASY
 )
-public class KeyboardRow
-{
-	public String[] findWords(String[] words)
-	{
+public class KeyboardRow {
+	public String[] findWords(String[] words) {
 		List<Set<Character>> lines = getLines();
 		List<String> oneLineWords = new ArrayList<>();
 
-		for (String word : words)
-		{
-			for (Set<Character> set : lines)
-			{
-				if (contains(set, word))
-				{
+		for (String word : words) {
+			for (Set<Character> set : lines) {
+				if (contains(set, word)) {
 					oneLineWords.add(word);
 					break;
 				}
@@ -36,33 +31,28 @@ public class KeyboardRow
 
 
 		String[] result = new String[oneLineWords.size()];
-		for (int i = 0; i < oneLineWords.size(); i++)
-		{
+		for (int i = 0; i < oneLineWords.size(); i++) {
 			result[i] = oneLineWords.get(i);
 		}
 
 		return result;
 	}
 
-	private List<Set<Character>> getLines()
-	{
+	private List<Set<Character>> getLines() {
 		Set<Character> line1 = new HashSet<>();
-		for (char ch : "qwertyuiop".toCharArray())
-		{
+		for (char ch : "qwertyuiop".toCharArray()) {
 			line1.add(ch);
 			line1.add((char) (ch - 32));
 		}
 
 		Set<Character> line2 = new HashSet<>();
-		for (char ch : "asdfghjkl".toCharArray())
-		{
+		for (char ch : "asdfghjkl".toCharArray()) {
 			line2.add(ch);
 			line2.add((char) (ch - 32));
 		}
 
 		Set<Character> line3 = new HashSet<>();
-		for (char ch : "zxcvbnm".toCharArray())
-		{
+		for (char ch : "zxcvbnm".toCharArray()) {
 			line3.add(ch);
 			line3.add((char) (ch - 32));
 		}
@@ -70,12 +60,9 @@ public class KeyboardRow
 		return Arrays.asList(line1, line2, line3);
 	}
 
-	private boolean contains(Set<Character> set, String word)
-	{
-		for (char ch : word.toCharArray())
-		{
-			if (!set.contains(ch))
-			{
+	private boolean contains(Set<Character> set, String word) {
+		for (char ch : word.toCharArray()) {
+			if (!set.contains(ch)) {
 				return false;
 			}
 		}

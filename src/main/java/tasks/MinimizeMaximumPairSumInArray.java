@@ -15,16 +15,13 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimizeMaximumPairSumInArray
-{
-	public int minPairSum(int[] nums)
-	{
+public class MinimizeMaximumPairSumInArray {
+	public int minPairSum(int[] nums) {
 		int max = 0;
 		Arrays.sort(nums);
 		int left = 0;
 		int right = nums.length - 1;
-		while (left < right)
-		{
+		while (left < right) {
 			max = Math.max(max, nums[left++] + nums[right--]);
 		}
 

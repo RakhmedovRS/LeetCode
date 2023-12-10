@@ -13,24 +13,19 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/slowest-key/",
 		difficulty = Difficulty.EASY
 )
-public class SlowestKey
-{
-	public char slowestKey(int[] releaseTimes, String keysPressed)
-	{
+public class SlowestKey {
+	public char slowestKey(int[] releaseTimes, String keysPressed) {
 		int current;
 		int max = 0;
 		char answer = ' ';
 		char[] chars = keysPressed.toCharArray();
-		for (int i = 0; i < chars.length; i++)
-		{
+		for (int i = 0; i < chars.length; i++) {
 			current = releaseTimes[i] - (i == 0 ? 0 : releaseTimes[i - 1]);
-			if (current > max)
-			{
+			if (current > max) {
 				max = current;
 				answer = chars[i];
 			}
-			else if (current == max && chars[i] > answer)
-			{
+			else if (current == max && chars[i] > answer) {
 				answer = chars[i];
 			}
 		}

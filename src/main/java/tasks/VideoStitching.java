@@ -15,19 +15,14 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/video-stitching/",
 		difficulty = Difficulty.MEDIUM
 )
-public class VideoStitching
-{
-	public int videoStitching(int[][] clips, int T)
-	{
+public class VideoStitching {
+	public int videoStitching(int[][] clips, int T) {
 		int[] memo = new int[T + 1];
 		Arrays.fill(memo, T + 1);
 		memo[0] = 0;
-		for (int i = 0; i <= T; i++)
-		{
-			for (int[] clip : clips)
-			{
-				if (clip[0] <= i && i <= clip[1])
-				{
+		for (int i = 0; i <= T; i++) {
+			for (int[] clip : clips) {
+				if (clip[0] <= i && i <= clip[1]) {
 					memo[i] = Math.min(memo[i], memo[clip[0]] + 1);
 				}
 			}

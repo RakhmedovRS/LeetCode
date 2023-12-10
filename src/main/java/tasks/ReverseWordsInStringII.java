@@ -14,22 +14,17 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class ReverseWordsInStringII
-{
-	public void reverseWords(char[] s)
-	{
+public class ReverseWordsInStringII {
+	public void reverseWords(char[] s) {
 		reverse(0, s.length - 1, s);
 		int left = 0;
 		int right = 0;
-		while (right < s.length)
-		{
-			if (s[right] == ' ')
-			{
+		while (right < s.length) {
+			if (s[right] == ' ') {
 				reverse(left, right - 1, s);
 				left = right + 1;
 			}
-			else if (right + 1 == s.length)
-			{
+			else if (right + 1 == s.length) {
 				reverse(left, right, s);
 			}
 
@@ -37,11 +32,9 @@ public class ReverseWordsInStringII
 		}
 	}
 
-	private void reverse(int left, int right, char[] s)
-	{
+	private void reverse(int left, int right, char[] s) {
 		char temp;
-		while (left < right)
-		{
+		while (left < right) {
 			temp = s[left];
 			s[left] = s[right];
 			s[right] = temp;

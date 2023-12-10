@@ -15,13 +15,10 @@ import java.util.TreeSet;
 		url = "https://leetcode.com/problems/maximum-tastiness-of-candy-basket/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumTastinessOfCandyBasket
-{
-	public int maximumTastiness(int[] prices, int k)
-	{
+public class MaximumTastinessOfCandyBasket {
+	public int maximumTastiness(int[] prices, int k) {
 		TreeSet<Long> treeSet = new TreeSet<>();
-		for (long price : prices)
-		{
+		for (long price : prices) {
 			treeSet.add(price);
 		}
 
@@ -30,15 +27,12 @@ public class MaximumTastinessOfCandyBasket
 		long right = Integer.MAX_VALUE;
 		long mid;
 		outer:
-		while (left <= right)
-		{
+		while (left <= right) {
 			mid = (left + right) / 2;
 			Long val = treeSet.last();
-			for (int i = 0; i < k - 1; i++)
-			{
+			for (int i = 0; i < k - 1; i++) {
 				val = treeSet.floor(val - mid);
-				if (val == null)
-				{
+				if (val == null) {
 					right = mid - 1;
 					continue outer;
 				}

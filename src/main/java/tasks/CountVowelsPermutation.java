@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/count-vowels-permutation/",
 		difficulty = Difficulty.HARD
 )
-public class CountVowelsPermutation
-{
-	public int countVowelPermutation(int n)
-	{
+public class CountVowelsPermutation {
+	public int countVowelPermutation(int n) {
 		int mod = 1_000_000_007;
 		long[] aS = new long[n];
 		long[] eS = new long[n];
@@ -26,8 +24,7 @@ public class CountVowelsPermutation
 
 		aS[0] = eS[0] = iS[0] = oS[0] = uS[0] = 1;
 
-		for (int i = 1; i < n; i++)
-		{
+		for (int i = 1; i < n; i++) {
 			aS[i] = ((uS[i - 1] % mod) + (eS[i - 1] % mod) + (iS[i - 1] % mod)) % mod;
 			eS[i] = ((aS[i - 1] % mod) + (iS[i - 1] % mod)) % mod;
 			iS[i] = ((eS[i - 1] % mod) + (oS[i - 1] % mod)) % mod;

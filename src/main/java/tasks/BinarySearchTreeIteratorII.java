@@ -14,16 +14,13 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/binary-search-tree-iterator-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class BinarySearchTreeIteratorII
-{
-	class BSTIterator
-	{
+public class BinarySearchTreeIteratorII {
+	class BSTIterator {
 		TreeNode head;
 		TreeNode tail;
 		TreeNode current;
 
-		public BSTIterator(TreeNode root)
-		{
+		public BSTIterator(TreeNode root) {
 			head = new TreeNode(Integer.MIN_VALUE);
 			tail = new TreeNode(Integer.MAX_VALUE);
 			head.right = tail;
@@ -32,32 +29,26 @@ public class BinarySearchTreeIteratorII
 			inorder(root, new TreeNode[]{head});
 		}
 
-		public boolean hasNext()
-		{
+		public boolean hasNext() {
 			return current.right != null && current.right.val != Integer.MAX_VALUE;
 		}
 
-		public int next()
-		{
+		public int next() {
 			current = current.right;
 			return current.val;
 		}
 
-		public boolean hasPrev()
-		{
+		public boolean hasPrev() {
 			return current.left != null && current.left.val != Integer.MIN_VALUE;
 		}
 
-		public int prev()
-		{
+		public int prev() {
 			current = current.left;
 			return current.val;
 		}
 
-		private void inorder(TreeNode node, TreeNode[] curr)
-		{
-			if (node == null)
-			{
+		private void inorder(TreeNode node, TreeNode[] curr) {
+			if (node == null) {
 				return;
 			}
 
@@ -73,8 +64,7 @@ public class BinarySearchTreeIteratorII
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		TreeNode root = new TreeNode(7);
 		root.left = new TreeNode(3);
 		root.right = new TreeNode(15);

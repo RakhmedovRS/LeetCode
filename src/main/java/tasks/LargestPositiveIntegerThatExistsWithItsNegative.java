@@ -15,21 +15,16 @@ import java.util.TreeSet;
 		url = "https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/",
 		difficulty = Difficulty.EASY
 )
-public class LargestPositiveIntegerThatExistsWithItsNegative
-{
-	public int findMaxK(int[] nums)
-	{
+public class LargestPositiveIntegerThatExistsWithItsNegative {
+	public int findMaxK(int[] nums) {
 		TreeSet<Integer> set = new TreeSet<>();
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			set.add(num);
 		}
 
 		int max = -1;
-		for (Integer val : set)
-		{
-			if (val > 0 && set.contains(-val))
-			{
+		for (Integer val : set) {
+			if (val > 0 && set.contains(-val)) {
 				max = Math.max(max, val);
 			}
 		}

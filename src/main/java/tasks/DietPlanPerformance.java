@@ -14,30 +14,23 @@ import common.LeetCode;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class DietPlanPerformance
-{
-	public int dietPlanPerformance(int[] calories, int k, int lower, int upper)
-	{
+public class DietPlanPerformance {
+	public int dietPlanPerformance(int[] calories, int k, int lower, int upper) {
 		int balance = 0;
 		int left = 0;
 		int right = 0;
 		int sum = 0;
-		while (right < calories.length)
-		{
+		while (right < calories.length) {
 			sum += calories[right];
-			if (1 + right - left >= k)
-			{
-				if (1 + right - left > k)
-				{
+			if (1 + right - left >= k) {
+				if (1 + right - left > k) {
 					sum -= calories[left++];
 				}
 
-				if (sum < lower)
-				{
+				if (sum < lower) {
 					balance--;
 				}
-				else if (sum > upper)
-				{
+				else if (sum > upper) {
 					balance++;
 				}
 			}
@@ -48,8 +41,7 @@ public class DietPlanPerformance
 		return balance;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		DietPlanPerformance clazz = new DietPlanPerformance();
 		System.out.println(clazz.dietPlanPerformance(new int[]{1, 2, 3, 4, 5}, 1, 3, 3));
 		System.out.println(clazz.dietPlanPerformance(new int[]{3, 2}, 2, 0, 1));

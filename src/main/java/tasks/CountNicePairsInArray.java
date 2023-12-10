@@ -16,14 +16,11 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/count-nice-pairs-in-an-array/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CountNicePairsInArray
-{
-	public int countNicePairs(int[] nums)
-	{
+public class CountNicePairsInArray {
+	public int countNicePairs(int[] nums) {
 		Map<Integer, Integer> map = new HashMap<>();
 		int ans = 0;
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			int res = num - reverse(num);
 			ans = (ans + map.getOrDefault(res, 0)) % 1_000_000_007;
 			map.put(res, map.getOrDefault(res, 0) + 1);
@@ -32,11 +29,9 @@ public class CountNicePairsInArray
 		return ans;
 	}
 
-	private int reverse(int num)
-	{
+	private int reverse(int num) {
 		int res = 0;
-		while (num > 0)
-		{
+		while (num > 0) {
 			res *= 10;
 			res += num % 10;
 			num /= 10;

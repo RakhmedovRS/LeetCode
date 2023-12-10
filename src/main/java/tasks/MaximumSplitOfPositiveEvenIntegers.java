@@ -17,34 +17,26 @@ import java.util.List;
 		url = "https://leetcode.com/problems/maximum-split-of-positive-even-integers/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumSplitOfPositiveEvenIntegers
-{
-	public List<Long> maximumEvenSplit(long finalSum)
-	{
-		if (finalSum % 2 != 0)
-		{
+public class MaximumSplitOfPositiveEvenIntegers {
+	public List<Long> maximumEvenSplit(long finalSum) {
+		if (finalSum % 2 != 0) {
 			return new ArrayList<>();
 		}
 
 		LinkedList<Long> answer = new LinkedList<>();
-		if (finalSum == 2 || finalSum == 4)
-		{
+		if (finalSum == 2 || finalSum == 4) {
 			answer.addLast(finalSum);
 		}
-		else
-		{
+		else {
 			answer.addLast(2L);
 			long sum = 2;
-			while (finalSum != sum)
-			{
-				if (sum > finalSum)
-				{
+			while (finalSum != sum) {
+				if (sum > finalSum) {
 					long diff = sum - finalSum;
 					answer.remove(diff);
 					sum -= diff;
 				}
-				else
-				{
+				else {
 					sum += answer.getLast() + 2;
 					answer.addLast(answer.getLast() + 2);
 				}

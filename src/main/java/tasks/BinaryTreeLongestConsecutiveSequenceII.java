@@ -15,19 +15,15 @@ import common.TreeNode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class BinaryTreeLongestConsecutiveSequenceII
-{
-	public int longestConsecutive(TreeNode root)
-	{
+public class BinaryTreeLongestConsecutiveSequenceII {
+	public int longestConsecutive(TreeNode root) {
 		int[] max = new int[]{0};
 		dfs(root, max);
 		return max[0];
 	}
 
-	private int[] dfs(TreeNode root, int[] max)
-	{
-		if (root == null)
-		{
+	private int[] dfs(TreeNode root, int[] max) {
+		if (root == null) {
 			return new int[]{10_000_000, 0, -10_000_000, 0};
 		}
 
@@ -37,53 +33,43 @@ public class BinaryTreeLongestConsecutiveSequenceII
 		max[0] = Math.max(max[0], Math.max(left[1], left[3]));
 		max[0] = Math.max(max[0], Math.max(right[1], right[3]));
 
-		if (left[0] == root.val - 1 && root.val + 1 == right[2])
-		{
+		if (left[0] == root.val - 1 && root.val + 1 == right[2]) {
 			max[0] = Math.max(max[0], 1 + left[1] + right[3]);
 		}
 
-		if (left[2] == root.val + 1 && root.val - 1 == right[0])
-		{
+		if (left[2] == root.val + 1 && root.val - 1 == right[0]) {
 			max[0] = Math.max(max[0], 1 + left[3] + right[1]);
 		}
 
 		//increase
-		if (left[0] == root.val - 1)
-		{
+		if (left[0] == root.val - 1) {
 			left[1]++;
 		}
-		else
-		{
+		else {
 			left[1] = 1;
 		}
 
 		//decrease
-		if (left[2] == root.val + 1)
-		{
+		if (left[2] == root.val + 1) {
 			left[3]++;
 		}
-		else
-		{
+		else {
 			left[3] = 1;
 		}
 
 		//increase
-		if (right[0] == root.val - 1)
-		{
+		if (right[0] == root.val - 1) {
 			right[1]++;
 		}
-		else
-		{
+		else {
 			right[1] = 1;
 		}
 
 		//decrease
-		if (right[2] == root.val + 1)
-		{
+		if (right[2] == root.val + 1) {
 			right[3]++;
 		}
-		else
-		{
+		else {
 			right[3] = 1;
 		}
 

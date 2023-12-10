@@ -15,23 +15,17 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/contest/biweekly-contest-73/problems/sort-the-jumbled-numbers/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SortTheJumbledNumbers
-{
-	public int[] sortJumbled(int[] mapping, int[] nums)
-	{
+public class SortTheJumbledNumbers {
+	public int[] sortJumbled(int[] mapping, int[] nums) {
 		int[] memo = new int[nums.length];
-		for (int i = 0; i < nums.length; i++)
-		{
+		for (int i = 0; i < nums.length; i++) {
 			StringBuilder sb = new StringBuilder();
 			int num = nums[i];
-			if (num == 0)
-			{
+			if (num == 0) {
 				sb.append(mapping[num]);
 			}
-			else
-			{
-				while (num > 0)
-				{
+			else {
+				while (num > 0) {
 					sb.append(mapping[num % 10]);
 					num /= 10;
 				}
@@ -42,22 +36,19 @@ public class SortTheJumbledNumbers
 
 		PriorityQueue<Integer> pqq = new PriorityQueue<>((i, j) ->
 		{
-			if (memo[i] == memo[j])
-			{
+			if (memo[i] == memo[j]) {
 				return i - j;
 			}
 
 			return memo[i] - memo[j];
 		});
 
-		for (int i = 0; i < nums.length; i++)
-		{
+		for (int i = 0; i < nums.length; i++) {
 			pqq.add(i);
 		}
 
 		int[] answer = new int[nums.length];
-		for (int i = 0; i < nums.length; i++)
-		{
+		for (int i = 0; i < nums.length; i++) {
 			answer[i] = nums[pqq.remove()];
 		}
 

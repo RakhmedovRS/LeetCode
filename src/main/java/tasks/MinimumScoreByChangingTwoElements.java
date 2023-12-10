@@ -15,12 +15,9 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/minimum-score-by-changing-two-elements/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumScoreByChangingTwoElements
-{
-	public int minimizeSum(int[] nums)
-	{
-		if (nums.length == 3)
-		{
+public class MinimumScoreByChangingTwoElements {
+	public int minimizeSum(int[] nums) {
+		if (nums.length == 3) {
 			return 0;
 		}
 

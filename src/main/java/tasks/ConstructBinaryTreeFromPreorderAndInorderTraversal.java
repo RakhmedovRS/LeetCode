@@ -14,27 +14,21 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ConstructBinaryTreeFromPreorderAndInorderTraversal
-{
-	public TreeNode buildTree(int[] preorder, int[] inorder)
-	{
+public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
+	public TreeNode buildTree(int[] preorder, int[] inorder) {
 		int[] pos = new int[]{0};
 
 		return buildTree(preorder, inorder, pos, 0, preorder.length - 1);
 	}
 
-	private TreeNode buildTree(int[] preorder, int[] inorder, int[] pos, int left, int right)
-	{
-		if (left > right)
-		{
+	private TreeNode buildTree(int[] preorder, int[] inorder, int[] pos, int left, int right) {
+		if (left > right) {
 			return null;
 		}
 
 		TreeNode treeNode = new TreeNode(preorder[pos[0]++]);
-		for (int i = left; i <= right; i++)
-		{
-			if (inorder[i] == treeNode.val)
-			{
+		for (int i = left; i <= right; i++) {
+			if (inorder[i] == treeNode.val) {
 				treeNode.left = buildTree(preorder, inorder, pos, left, i - 1);
 				treeNode.right = buildTree(preorder, inorder, pos, i + 1, right);
 				break;

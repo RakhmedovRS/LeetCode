@@ -20,24 +20,19 @@ import java.util.Set;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class LowestCommonAncestorOfBinaryTreeII
-{
-	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
-	{
+public class LowestCommonAncestorOfBinaryTreeII {
+	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 		Map<TreeNode, TreeNode> parents = new HashMap<>();
 		dfs(root, null, parents);
 
 		Set<TreeNode> visited = new HashSet<>();
-		while (p != null)
-		{
+		while (p != null) {
 			visited.add(p);
 			p = parents.get(p);
 		}
 
-		while (q != null)
-		{
-			if (!visited.add(q))
-			{
+		while (q != null) {
+			if (!visited.add(q)) {
 				return q;
 			}
 
@@ -47,10 +42,8 @@ public class LowestCommonAncestorOfBinaryTreeII
 		return null;
 	}
 
-	private void dfs(TreeNode treeNode, TreeNode parent, Map<TreeNode, TreeNode> parents)
-	{
-		if (treeNode == null)
-		{
+	private void dfs(TreeNode treeNode, TreeNode parent, Map<TreeNode, TreeNode> parents) {
+		if (treeNode == null) {
 			return;
 		}
 

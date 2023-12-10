@@ -17,16 +17,12 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/binary-tree-cameras/",
 		difficulty = Difficulty.HARD
 )
-public class BinaryTreeCameras
-{
-	public int minCameraCover(TreeNode root)
-	{
-		if (root == null)
-		{
+public class BinaryTreeCameras {
+	public int minCameraCover(TreeNode root) {
+		if (root == null) {
 			return 0;
 		}
-		else if (root.left == null && root.right == null)
-		{
+		else if (root.left == null && root.right == null) {
 			return 1;
 		}
 
@@ -36,15 +32,12 @@ public class BinaryTreeCameras
 	}
 
 	// 0 - uncovered, 1 - covered, 2 - camera
-	private int dfs(TreeNode root, int state, Map<TreeNode, Integer[]> memo)
-	{
-		if (root == null)
-		{
+	private int dfs(TreeNode root, int state, Map<TreeNode, Integer[]> memo) {
+		if (root == null) {
 			return 0;
 		}
 
-		if (memo.containsKey(root) && memo.get(root)[state] != null)
-		{
+		if (memo.containsKey(root) && memo.get(root)[state] != null) {
 			return memo.get(root)[state];
 		}
 
@@ -53,22 +46,19 @@ public class BinaryTreeCameras
 		int result;
 
 		//uncovered
-		if (state == 0)
-		{
+		if (state == 0) {
 			int camera = 1 + dfs(root.left, 1, memo) + dfs(root.right, 1, memo);
 			int leftCamera = root.left == null ? Integer.MAX_VALUE : 1 + dfs(root.left, 2, memo) + dfs(root.right, 0, memo);
 			int rightCamera = root.right == null ? Integer.MAX_VALUE : 1 + dfs(root.right, 2, memo) + dfs(root.left, 0, memo);
 			result = Math.min(camera, Math.min(leftCamera, rightCamera));
 		}
 		//covered
-		else if (state == 1)
-		{
+		else if (state == 1) {
 			result = Math.min(1 + dfs(root.left, 1, memo) + dfs(root.right, 1, memo),
 					dfs(root.left, 0, memo) + dfs(root.right, 0, memo));
 		}
 		//camera
-		else
-		{
+		else {
 			result = dfs(root.left, 1, memo) + dfs(root.right, 1, memo);
 		}
 

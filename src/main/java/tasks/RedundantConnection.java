@@ -13,32 +13,25 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/redundant-connection/",
 		difficulty = Difficulty.MEDIUM
 )
-public class RedundantConnection
-{
-	class UnionFind
-	{
+public class RedundantConnection {
+	class UnionFind {
 		int[] parents;
 
-		public UnionFind(int n)
-		{
+		public UnionFind(int n) {
 			parents = new int[n + 1];
-			for (int i = 1; i <= n; i++)
-			{
+			for (int i = 1; i <= n; i++) {
 				parents[i] = i;
 			}
 		}
 
-		public int getParent(int node)
-		{
+		public int getParent(int node) {
 			int parent = node;
-			while (parents[parent] != parent)
-			{
+			while (parents[parent] != parent) {
 				parent = parents[parent];
 			}
 
 			int temp;
-			while (parents[node] != parent)
-			{
+			while (parents[node] != parent) {
 				temp = parents[node];
 				parents[node] = parent;
 				node = temp;
@@ -47,13 +40,11 @@ public class RedundantConnection
 			return parent;
 		}
 
-		public boolean connect(int nodeA, int nodeB)
-		{
+		public boolean connect(int nodeA, int nodeB) {
 			int parentA = getParent(nodeA);
 			int parentB = getParent(nodeB);
 
-			if (parentA == parentB)
-			{
+			if (parentA == parentB) {
 				return false;
 			}
 
@@ -63,14 +54,11 @@ public class RedundantConnection
 		}
 	}
 
-	public int[] findRedundantConnection(int[][] edges)
-	{
+	public int[] findRedundantConnection(int[][] edges) {
 		UnionFind unionFind = new UnionFind(edges.length);
 		int[] candidate = new int[]{};
-		for (int[] edge : edges)
-		{
-			if (!unionFind.connect(edge[0], edge[1]))
-			{
+		for (int[] edge : edges) {
+			if (!unionFind.connect(edge[0], edge[1])) {
 				candidate = edge;
 			}
 		}

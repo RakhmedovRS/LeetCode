@@ -18,20 +18,15 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SumOfNumbersWithUnitsDigitK
-{
-	public int minimumNumbers(int num, int k)
-	{
-		if (num == 0)
-		{
+public class SumOfNumbersWithUnitsDigitK {
+	public int minimumNumbers(int num, int k) {
+		if (num == 0) {
 			return 0;
 		}
 
 		List<Integer> digits = new ArrayList<>();
-		for (int i = 1; i <= num; i++)
-		{
-			if (i % 10 == k)
-			{
+		for (int i = 1; i <= num; i++) {
+			if (i % 10 == k) {
 				digits.add(i);
 			}
 		}
@@ -39,29 +34,23 @@ public class SumOfNumbersWithUnitsDigitK
 		return dfs(num, digits, new HashMap<>());
 	}
 
-	private int dfs(int sum, List<Integer> digits, Map<Integer, Integer> memo)
-	{
-		if (sum < 0)
-		{
+	private int dfs(int sum, List<Integer> digits, Map<Integer, Integer> memo) {
+		if (sum < 0) {
 			return -1;
 		}
 
-		if (sum == 0)
-		{
+		if (sum == 0) {
 			return 0;
 		}
 
-		if (memo.containsKey(sum))
-		{
+		if (memo.containsKey(sum)) {
 			return memo.get(sum);
 		}
 
 		int min = Integer.MAX_VALUE;
-		for (int i = 0; i < digits.size(); i++)
-		{
+		for (int i = 0; i < digits.size(); i++) {
 			int res = dfs(sum - digits.get(i), digits, memo);
-			if (res != -1)
-			{
+			if (res != -1) {
 				min = Math.min(min, res + 1);
 			}
 		}

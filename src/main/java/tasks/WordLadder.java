@@ -15,14 +15,11 @@ import java.util.*;
 		url = "https://leetcode.com/problems/word-ladder/",
 		difficulty = Difficulty.HARD
 )
-public class WordLadder
-{
-	public int ladderLength(String beginWord, String endWord, List<String> wordList)
-	{
+public class WordLadder {
+	public int ladderLength(String beginWord, String endWord, List<String> wordList) {
 		int steps = 0;
 		Set<String> dictionary = new HashSet<>(wordList);
-		if (!dictionary.contains(endWord))
-		{
+		if (!dictionary.contains(endWord)) {
 			return 0;
 		}
 
@@ -32,23 +29,17 @@ public class WordLadder
 		Set<String> visited = new HashSet<>();
 		String current;
 		int size;
-		while (!words.isEmpty())
-		{
+		while (!words.isEmpty()) {
 			size = words.size();
-			while (size-- > 0)
-			{
+			while (size-- > 0) {
 				current = words.remove();
-				if (!visited.add(current))
-				{
+				if (!visited.add(current)) {
 					continue;
 				}
 
-				for (String word : wordList)
-				{
-					if (difference(current, word) < 2 && dictionary.contains(word) && !visited.contains(word))
-					{
-						if (word.equals(endWord))
-						{
+				for (String word : wordList) {
+					if (difference(current, word) < 2 && dictionary.contains(word) && !visited.contains(word)) {
+						if (word.equals(endWord)) {
 							return steps + 2;
 						}
 						words.add(word);
@@ -62,13 +53,10 @@ public class WordLadder
 		return 0;
 	}
 
-	private int difference(String wordA, String wordB)
-	{
+	private int difference(String wordA, String wordB) {
 		int diff = 0;
-		for (int i = 0; i < wordA.length() && diff <= 1; i++)
-		{
-			if (wordA.charAt(i) != wordB.charAt(i))
-			{
+		for (int i = 0; i < wordA.length() && diff <= 1; i++) {
+			if (wordA.charAt(i) != wordB.charAt(i)) {
 				diff++;
 			}
 		}
@@ -76,8 +64,7 @@ public class WordLadder
 		return diff;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		WordLadder clazz = new WordLadder();
 
 		System.out.println(clazz.ladderLength("coder", "goner",

@@ -13,22 +13,18 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-operations-to-make-array-equal/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumOperationsToMakeArrayEqual
-{
-	public int minOperations(int n)
-	{
+public class MinimumOperationsToMakeArrayEqual {
+	public int minOperations(int n) {
 		int operations = 0;
 
-		for (int i = 0, j = n - 1; i < j; i++, j--)
-		{
+		for (int i = 0, j = n - 1; i < j; i++, j--) {
 			operations += ((2 * j + 1) - (2 * i + 1)) / 2;
 		}
 
 		return operations;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new MinimumOperationsToMakeArrayEqual().minOperations(3));
 	}
 }

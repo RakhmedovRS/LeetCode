@@ -15,36 +15,28 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/score-of-parentheses/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ScoreOfParentheses
-{
-	public int scoreOfParentheses(String S)
-	{
-		if (S.isEmpty())
-		{
+public class ScoreOfParentheses {
+	public int scoreOfParentheses(String S) {
+		if (S.isEmpty()) {
 			return 0;
 		}
 
-		if (S.equals("()"))
-		{
+		if (S.equals("()")) {
 			return 1;
 		}
 
 		int sum = 0;
 		LinkedList<Integer> linkedList = new LinkedList<>();
 		int balance = 0;
-		for (int i = 0; i < S.length(); i++)
-		{
-			if (S.charAt(i) == '(')
-			{
+		for (int i = 0; i < S.length(); i++) {
+			if (S.charAt(i) == '(') {
 				linkedList.addLast(i);
 				balance++;
 			}
-			else
-			{
+			else {
 				balance--;
 
-				if (balance == 0)
-				{
+				if (balance == 0) {
 					int start = linkedList.removeFirst();
 					sum += Math.max(1, 2 * scoreOfParentheses(S.substring(start + 1, i)));
 					linkedList.clear();

@@ -16,16 +16,12 @@ import java.util.List;
 		url = "https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/",
 		difficulty = Difficulty.EASY
 )
-public class CellsInRangeOnExcelSheet
-{
-	public List<String> cellsInRange(String s)
-	{
+public class CellsInRangeOnExcelSheet {
+	public List<String> cellsInRange(String s) {
 		List<String> answer = new ArrayList<>();
 		String[] parts = s.split(":");
-		for (char ch = parts[0].charAt(0); ch <= parts[1].charAt(0); ch++)
-		{
-			for (char ch2 = parts[0].charAt(1); ch2 <= parts[1].charAt(1); ch2++)
-			{
+		for (char ch = parts[0].charAt(0); ch <= parts[1].charAt(0); ch++) {
+			for (char ch2 = parts[0].charAt(1); ch2 <= parts[1].charAt(1); ch2++) {
 				answer.add("" + ch + ch2);
 			}
 		}

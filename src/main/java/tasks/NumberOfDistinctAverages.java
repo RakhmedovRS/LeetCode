@@ -17,14 +17,11 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/number-of-distinct-averages/",
 		difficulty = Difficulty.EASY
 )
-public class NumberOfDistinctAverages
-{
-	public int distinctAverages(int[] nums)
-	{
+public class NumberOfDistinctAverages {
+	public int distinctAverages(int[] nums) {
 		Arrays.sort(nums);
 		Set<Double> set = new HashSet<>();
-		for (int left = 0, right = nums.length - 1; left < right; left++, right--)
-		{
+		for (int left = 0, right = nums.length - 1; left < right; left++, right--) {
 			set.add((((double) nums[left]) + nums[right]) / 2);
 		}
 

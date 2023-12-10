@@ -13,27 +13,20 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/stream-of-characters/",
 		difficulty = Difficulty.HARD
 )
-public class StreamOfCharacters
-{
-	class StreamChecker
-	{
-		class TrieNode
-		{
+public class StreamOfCharacters {
+	class StreamChecker {
+		class TrieNode {
 			TrieNode[] child = new TrieNode[26];
 			boolean end = false;
 		}
 
-		private TrieNode buildTrie(String[] words)
-		{
+		private TrieNode buildTrie(String[] words) {
 			TrieNode root = new TrieNode();
-			for (String word : words)
-			{
+			for (String word : words) {
 				TrieNode current = root;
-				for (int i = word.length() - 1; i >= 0; i--)
-				{
+				for (int i = word.length() - 1; i >= 0; i--) {
 					char ch = word.charAt(i);
-					if (current.child[ch - 'a'] == null)
-					{
+					if (current.child[ch - 'a'] == null) {
 						current.child[ch - 'a'] = new TrieNode();
 					}
 					current = current.child[ch - 'a'];
@@ -46,22 +39,18 @@ public class StreamOfCharacters
 		TrieNode root;
 		StringBuilder sb;
 
-		public StreamChecker(String[] words)
-		{
+		public StreamChecker(String[] words) {
 			root = buildTrie(words);
 			sb = new StringBuilder();
 		}
 
-		public boolean query(char letter)
-		{
+		public boolean query(char letter) {
 			sb.append(letter);
 			TrieNode current = root;
-			for (int i = sb.length() - 1; i >= 0 && current != null; i--)
-			{
+			for (int i = sb.length() - 1; i >= 0 && current != null; i--) {
 				char ch = sb.charAt(i);
 				current = current.child[ch - 'a'];
-				if (current != null && current.end)
-				{
+				if (current != null && current.end) {
 					return true;
 				}
 			}

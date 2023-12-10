@@ -15,40 +15,31 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
 		difficulty = Difficulty.EASY
 )
-public class KthLargestElementInStream
-{
-	class KthLargest
-	{
+public class KthLargestElementInStream {
+	class KthLargest {
 
-		private PriorityQueue<Integer> minHeap = new PriorityQueue<>();
-		private int k;
+		private final PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+		private final int k;
 
-		public KthLargest(int k, int[] nums)
-		{
+		public KthLargest(int k, int[] nums) {
 			this.k = k;
-			for (int num : nums)
-			{
+			for (int num : nums) {
 				minHeap.add(num);
-				if (minHeap.size() > k)
-				{
+				if (minHeap.size() > k) {
 					minHeap.remove();
 				}
 			}
 		}
 
-		public int add(int val)
-		{
-			if (minHeap.size() == k)
-			{
-				if (val > minHeap.peek())
-				{
+		public int add(int val) {
+			if (minHeap.size() == k) {
+				if (val > minHeap.peek()) {
 					minHeap.remove();
 					minHeap.add(val);
 				}
 				return minHeap.peek();
 			}
-			else
-			{
+			else {
 				minHeap.add(val);
 				return minHeap.peek();
 			}

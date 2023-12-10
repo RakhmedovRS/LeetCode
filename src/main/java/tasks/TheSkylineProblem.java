@@ -15,17 +15,14 @@ import java.util.*;
 		url = "https://leetcode.com/problems/the-skyline-problem/",
 		difficulty = Difficulty.HARD
 )
-public class TheSkylineProblem
-{
-	public List<List<Integer>> getSkyline(int[][] buildings)
-	{
+public class TheSkylineProblem {
+	public List<List<Integer>> getSkyline(int[][] buildings) {
 		List<List<Integer>> answer = new ArrayList<>();
 		List<int[]> points = new ArrayList<>();
 		int startPos;
 		int endPos;
 		int height;
-		for (int[] building : buildings)
-		{
+		for (int[] building : buildings) {
 			startPos = building[0];
 			endPos = building[1];
 			height = building[2];
@@ -39,24 +36,19 @@ public class TheSkylineProblem
 		PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Comparator.reverseOrder());
 		maxHeap.add(0);
 		int current = 0;
-		for (int i = 0; i < points.size(); )
-		{
+		for (int i = 0; i < points.size(); ) {
 			int add = 0;
-			while (i + add < points.size() && points.get(i + add)[0] == points.get(i)[0])
-			{
-				if (points.get(i + add)[2] == 1)
-				{
+			while (i + add < points.size() && points.get(i + add)[0] == points.get(i)[0]) {
+				if (points.get(i + add)[2] == 1) {
 					maxHeap.add(points.get(i + add)[1]);
 				}
-				else
-				{
+				else {
 					maxHeap.remove(points.get(i + add)[1]);
 				}
 				add++;
 			}
 
-			if (current != maxHeap.peek())
-			{
+			if (current != maxHeap.peek()) {
 				current = maxHeap.peek();
 				answer.add(Arrays.asList(points.get(i)[0], current));
 			}
@@ -67,8 +59,7 @@ public class TheSkylineProblem
 		return answer;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new TheSkylineProblem().getSkyline(new int[][]
 				{
 						{0, 2, 3},

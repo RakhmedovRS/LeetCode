@@ -16,18 +16,14 @@ import java.util.List;
 		url = "https://leetcode.com/problems/find-the-losers-of-the-circular-game/",
 		difficulty = Difficulty.EASY
 )
-public class FindTheLosersOfTheCircularGame
-{
-	public int[] circularGameLosers(int n, int k)
-	{
+public class FindTheLosersOfTheCircularGame {
+	public int[] circularGameLosers(int n, int k) {
 		int[] game = new int[n];
 		int i = 0;
 		int step = 1;
-		while (true)
-		{
+		while (true) {
 			game[i]++;
-			if (game[i] > 1)
-			{
+			if (game[i] > 1) {
 				break;
 			}
 
@@ -37,17 +33,14 @@ public class FindTheLosersOfTheCircularGame
 		}
 
 		List<Integer> loosers = new ArrayList<>();
-		for (int j = 0; j < n; j++)
-		{
-			if (game[j] == 0)
-			{
+		for (int j = 0; j < n; j++) {
+			if (game[j] == 0) {
 				loosers.add(j);
 			}
 		}
 
 		int[] ans = new int[loosers.size()];
-		for (int j = 0; j < loosers.size(); j++)
-		{
+		for (int j = 0; j < loosers.size(); j++) {
 			ans[j] = loosers.get(j) + 1;
 		}
 

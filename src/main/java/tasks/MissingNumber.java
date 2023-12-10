@@ -13,25 +13,19 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/missing-number/",
 		difficulty = Difficulty.EASY
 )
-public class MissingNumber
-{
-	public int missingNumber(int[] nums)
-	{
+public class MissingNumber {
+	public int missingNumber(int[] nums) {
 		int temp;
-		for (int i = 0; i < nums.length; i++)
-		{
-			while (nums[i] != i && nums[i] < nums.length && nums[nums[i]] != nums[i])
-			{
+		for (int i = 0; i < nums.length; i++) {
+			while (nums[i] != i && nums[i] < nums.length && nums[nums[i]] != nums[i]) {
 				temp = nums[nums[i]];
 				nums[nums[i]] = nums[i];
 				nums[i] = temp;
 			}
 		}
 
-		for (int i = 0; i < nums.length; i++)
-		{
-			if (nums[i] != i)
-			{
+		for (int i = 0; i < nums.length; i++) {
+			if (nums[i] != i) {
 				return i;
 			}
 		}

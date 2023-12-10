@@ -13,17 +13,12 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/",
 		difficulty = Difficulty.EASY
 )
-public class CountNumberOfPairsWithAbsoluteDifferenceK
-{
-	public int countKDifference(int[] nums, int k)
-	{
+public class CountNumberOfPairsWithAbsoluteDifferenceK {
+	public int countKDifference(int[] nums, int k) {
 		int count = 0;
-		for (int j = 1; j < nums.length; j++)
-		{
-			for (int i = 0; i < j; i++)
-			{
-				if (Math.abs(nums[i] - nums[j]) == k)
-				{
+		for (int j = 1; j < nums.length; j++) {
+			for (int i = 0; i < j; i++) {
+				if (Math.abs(nums[i] - nums[j]) == k) {
 					count++;
 				}
 			}

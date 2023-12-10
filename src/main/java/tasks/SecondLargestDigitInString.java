@@ -13,26 +13,19 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/second-largest-digit-in-a-string/",
 		difficulty = Difficulty.EASY
 )
-public class SecondLargestDigitInString
-{
-	public int secondHighest(String s)
-	{
+public class SecondLargestDigitInString {
+	public int secondHighest(String s) {
 		boolean[] digits = new boolean[10];
-		for (char ch : s.toCharArray())
-		{
-			if (Character.isDigit(ch))
-			{
+		for (char ch : s.toCharArray()) {
+			if (Character.isDigit(ch)) {
 				digits[ch - '0'] = true;
 			}
 		}
 
 		boolean seenNumber = false;
-		for (int i = 9; i >= 0; i--)
-		{
-			if (digits[i])
-			{
-				if (seenNumber)
-				{
+		for (int i = 9; i >= 0; i--) {
+			if (digits[i]) {
+				if (seenNumber) {
 					return i;
 				}
 

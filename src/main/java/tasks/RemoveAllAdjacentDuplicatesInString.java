@@ -16,26 +16,20 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/",
 		difficulty = Difficulty.EASY
 )
-public class RemoveAllAdjacentDuplicatesInString
-{
-	public String removeDuplicates(String S)
-	{
+public class RemoveAllAdjacentDuplicatesInString {
+	public String removeDuplicates(String S) {
 		Deque<Character> stack = new LinkedList<>();
-		for (char ch : S.toCharArray())
-		{
-			if (stack.isEmpty() || stack.peek() != ch)
-			{
+		for (char ch : S.toCharArray()) {
+			if (stack.isEmpty() || stack.peek() != ch) {
 				stack.addFirst(ch);
 			}
-			else
-			{
+			else {
 				stack.pop();
 			}
 		}
 
 		StringBuilder sb = new StringBuilder(stack.size());
-		while (!stack.isEmpty())
-		{
+		while (!stack.isEmpty()) {
 			sb.append(stack.pop());
 		}
 

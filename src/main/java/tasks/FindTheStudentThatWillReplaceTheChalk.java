@@ -13,23 +13,18 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindTheStudentThatWillReplaceTheChalk
-{
-	public int chalkReplacer(int[] chalk, int k)
-	{
+public class FindTheStudentThatWillReplaceTheChalk {
+	public int chalkReplacer(int[] chalk, int k) {
 		long sum = 0;
-		for (int ch : chalk)
-		{
+		for (int ch : chalk) {
 			sum += ch;
 		}
 
 		k %= sum;
 
-		for (int i = 0; i < chalk.length; i++)
-		{
+		for (int i = 0; i < chalk.length; i++) {
 			k -= chalk[i];
-			if (k < 0)
-			{
+			if (k < 0) {
 				return i;
 			}
 		}

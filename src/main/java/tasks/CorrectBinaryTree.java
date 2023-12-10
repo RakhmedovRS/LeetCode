@@ -18,12 +18,9 @@ import java.util.Map;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class CorrectBinaryTree
-{
-	public TreeNode correctBinaryTree(TreeNode root)
-	{
-		if (root == null || root.right == root)
-		{
+public class CorrectBinaryTree {
+	public TreeNode correctBinaryTree(TreeNode root) {
+		if (root == null || root.right == root) {
 			return null;
 		}
 
@@ -34,10 +31,8 @@ public class CorrectBinaryTree
 		return root;
 	}
 
-	private void dfs(TreeNode root, TreeNode parent, Map<TreeNode, TreeNode> parents)
-	{
-		if (root == null)
-		{
+	private void dfs(TreeNode root, TreeNode parent, Map<TreeNode, TreeNode> parents) {
+		if (root == null) {
 			return;
 		}
 
@@ -46,23 +41,17 @@ public class CorrectBinaryTree
 		dfs(root.right, root, parents);
 	}
 
-	private void checkAndDeleteInvalidSubTree(TreeNode root, Map<TreeNode, TreeNode> parents)
-	{
-		if (root == null)
-		{
+	private void checkAndDeleteInvalidSubTree(TreeNode root, Map<TreeNode, TreeNode> parents) {
+		if (root == null) {
 			return;
 		}
 
-		if (root.right != null)
-		{
-			if (parents.get(root.right) != root)
-			{
-				if (parents.get(root).left == root)
-				{
+		if (root.right != null) {
+			if (parents.get(root.right) != root) {
+				if (parents.get(root).left == root) {
 					parents.get(root).left = null;
 				}
-				else
-				{
+				else {
 					parents.get(root).right = null;
 				}
 			}

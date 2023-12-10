@@ -13,22 +13,17 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/number-of-ways-to-buy-pens-and-pencils/",
 		difficulty = Difficulty.MEDIUM
 )
-public class NumberOfWaysToBuyPensAndPencils
-{
-	public long waysToBuyPensPencils(int total, int cost1, int cost2)
-	{
-		if (total < cost1 && total < cost2)
-		{
+public class NumberOfWaysToBuyPensAndPencils {
+	public long waysToBuyPensPencils(int total, int cost1, int cost2) {
+		if (total < cost1 && total < cost2) {
 			return 1;
 		}
 
 		long answer = 0;
-		while (true)
-		{
+		while (true) {
 			answer += total / cost2 + 1;
 			total -= cost1;
-			if (total < 0)
-			{
+			if (total < 0) {
 				break;
 			}
 		}

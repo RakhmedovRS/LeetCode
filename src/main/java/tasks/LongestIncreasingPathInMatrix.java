@@ -13,23 +13,18 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
 		difficulty = Difficulty.HARD
 )
-public class LongestIncreasingPathInMatrix
-{
-	public int longestIncreasingPath(int[][] matrix)
-	{
+public class LongestIncreasingPathInMatrix {
+	public int longestIncreasingPath(int[][] matrix) {
 		int rows = matrix.length;
-		if (rows == 0)
-		{
+		if (rows == 0) {
 			return 0;
 		}
 		int columns = matrix[0].length;
 
 		int max = 0;
 
-		for (int row = 0; row < rows; row++)
-		{
-			for (int column = 0; column < columns; column++)
-			{
+		for (int row = 0; row < rows; row++) {
+			for (int column = 0; column < columns; column++) {
 				max = Math.max(max, dfs(Long.MAX_VALUE, row, column, rows, columns, matrix, new Integer[rows][columns]));
 			}
 		}
@@ -37,15 +32,12 @@ public class LongestIncreasingPathInMatrix
 		return max;
 	}
 
-	private int dfs(long value, int row, int column, int rows, int columns, int[][] matrix, Integer[][] memo)
-	{
-		if (row < 0 || row == rows || column < 0 || column == columns || value <= matrix[row][column])
-		{
+	private int dfs(long value, int row, int column, int rows, int columns, int[][] matrix, Integer[][] memo) {
+		if (row < 0 || row == rows || column < 0 || column == columns || value <= matrix[row][column]) {
 			return 0;
 		}
 
-		if (memo[row][column] != null)
-		{
+		if (memo[row][column] != null) {
 			return memo[row][column];
 		}
 
@@ -59,8 +51,7 @@ public class LongestIncreasingPathInMatrix
 		return memo[row][column];
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		int[][] matrix = new int[][]{
 				{0, 1, 2, 3, 4, 5, 6, 7, 8, 9},
 				{19, 18, 17, 16, 15, 14, 13, 12, 11, 10},

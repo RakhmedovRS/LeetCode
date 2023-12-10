@@ -10,13 +10,10 @@ import java.util.List;
  * @created 9/28/2020
  */
 @LeetCode(id = 638, name = "Shopping Offers", url = "https://leetcode.com/problems/shopping-offers/")
-public class ShoppingOffers
-{
-	public int shoppingOffers(List<Integer> prices, List<List<Integer>> special, List<Integer> needs)
-	{
+public class ShoppingOffers {
+	public int shoppingOffers(List<Integer> prices, List<List<Integer>> special, List<Integer> needs) {
 		int[] needsMemo = new int[needs.size()];
-		for (int i = 0; i < prices.size(); i++)
-		{
+		for (int i = 0; i < prices.size(); i++) {
 			needsMemo[i] += needs.get(i);
 		}
 
@@ -25,26 +22,21 @@ public class ShoppingOffers
 		return minPrice[0];
 	}
 
-	private void dfs(List<Integer> prices, List<List<Integer>> special, int specialPos, int[] needsMemo, int price, int[] minPrice)
-	{
-		if (boughtEverything(needsMemo))
-		{
+	private void dfs(List<Integer> prices, List<List<Integer>> special, int specialPos, int[] needsMemo, int price, int[] minPrice) {
+		if (boughtEverything(needsMemo)) {
 			minPrice[0] = Math.min(minPrice[0], price);
 			return;
 		}
 
-		if (!stillCanBuy(needsMemo))
-		{
+		if (!stillCanBuy(needsMemo)) {
 			return;
 		}
 
 		int[] tempMemo;
-		if (specialPos == special.size())
-		{
+		if (specialPos == special.size()) {
 			int normalPrice = price;
 			tempMemo = Arrays.copyOfRange(needsMemo, 0, needsMemo.length);
-			for (int i = 0; i < tempMemo.length; i++)
-			{
+			for (int i = 0; i < tempMemo.length; i++) {
 				normalPrice += needsMemo[i] * prices.get(i);
 				tempMemo[i] = 0;
 			}
@@ -56,8 +48,7 @@ public class ShoppingOffers
 
 		int specialPrice = price + special.get(specialPos).get(special.get(specialPos).size() - 1);
 		tempMemo = Arrays.copyOfRange(needsMemo, 0, needsMemo.length);
-		for (int i = 0; i < special.get(specialPos).size() - 1; i++)
-		{
+		for (int i = 0; i < special.get(specialPos).size() - 1; i++) {
 			tempMemo[i] -= special.get(specialPos).get(i);
 		}
 		dfs(prices, special, specialPos, tempMemo, specialPrice, minPrice);
@@ -65,32 +56,25 @@ public class ShoppingOffers
 
 		int normalPrice = price;
 		tempMemo = Arrays.copyOfRange(needsMemo, 0, needsMemo.length);
-		for (int i = 0; i < tempMemo.length; i++)
-		{
+		for (int i = 0; i < tempMemo.length; i++) {
 			normalPrice += needsMemo[i] * prices.get(i);
 			tempMemo[i] = 0;
 		}
 		dfs(prices, special, specialPos, tempMemo, normalPrice, minPrice);
 	}
 
-	private boolean stillCanBuy(int[] needsMemo)
-	{
-		for (int value : needsMemo)
-		{
-			if (value < 0)
-			{
+	private boolean stillCanBuy(int[] needsMemo) {
+		for (int value : needsMemo) {
+			if (value < 0) {
 				return false;
 			}
 		}
 		return true;
 	}
 
-	private boolean boughtEverything(int[] needsMemo)
-	{
-		for (int value : needsMemo)
-		{
-			if (value != 0)
-			{
+	private boolean boughtEverything(int[] needsMemo) {
+		for (int value : needsMemo) {
+			if (value != 0) {
 				return false;
 			}
 		}

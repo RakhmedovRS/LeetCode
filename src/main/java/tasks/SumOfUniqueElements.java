@@ -13,21 +13,16 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/sum-of-unique-elements/",
 		difficulty = Difficulty.EASY
 )
-public class SumOfUniqueElements
-{
-	public int sumOfUnique(int[] nums)
-	{
+public class SumOfUniqueElements {
+	public int sumOfUnique(int[] nums) {
 		int[] memo = new int[101];
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			memo[num]++;
 		}
 
 		int sum = 0;
-		for (int i = 0; i < memo.length; i++)
-		{
-			if (memo[i] == 1)
-			{
+		for (int i = 0; i < memo.length; i++) {
+			if (memo[i] == 1) {
 				sum += i;
 			}
 		}

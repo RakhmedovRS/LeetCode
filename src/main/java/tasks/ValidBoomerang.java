@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/valid-boomerang/",
 		difficulty = Difficulty.EASY
 )
-public class ValidBoomerang
-{
-	public boolean isBoomerang(int[][] points)
-	{
+public class ValidBoomerang {
+	public boolean isBoomerang(int[][] points) {
 		int[] a = points[0];
 		int[] b = points[1];
 		int[] c = points[2];

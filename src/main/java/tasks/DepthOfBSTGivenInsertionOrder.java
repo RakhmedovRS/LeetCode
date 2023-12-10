@@ -17,15 +17,12 @@ import java.util.TreeMap;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class DepthOfBSTGivenInsertionOrder
-{
-	public int maxDepthBST(int[] order)
-	{
+public class DepthOfBSTGivenInsertionOrder {
+	public int maxDepthBST(int[] order) {
 		TreeMap<Integer, Integer> treeMap = new TreeMap<>();
 		treeMap.put(order[0], 1);
 		int max = 1;
-		for (int i = 1; i < order.length; i++)
-		{
+		for (int i = 1; i < order.length; i++) {
 			Map.Entry<Integer, Integer> left = treeMap.ceilingEntry(order[i]);
 			Map.Entry<Integer, Integer> right = treeMap.floorEntry(order[i]);
 

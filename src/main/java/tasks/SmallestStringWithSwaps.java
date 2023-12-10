@@ -17,32 +17,25 @@ import java.util.List;
 		url = "https://leetcode.com/problems/smallest-string-with-swaps/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SmallestStringWithSwaps
-{
-	class DSU
-	{
+public class SmallestStringWithSwaps {
+	class DSU {
 		int[] parent;
 
-		public DSU(int n)
-		{
+		public DSU(int n) {
 			parent = new int[n];
-			for (int i = 0; i < n; i++)
-			{
+			for (int i = 0; i < n; i++) {
 				parent[i] = i;
 			}
 		}
 
-		public int findParent(int node)
-		{
+		public int findParent(int node) {
 			int p = node;
-			while (p != parent[p])
-			{
+			while (p != parent[p]) {
 				p = parent[p];
 			}
 
 			int temp;
-			while (node != p)
-			{
+			while (node != p) {
 				temp = parent[node];
 				parent[node] = p;
 				node = temp;
@@ -51,59 +44,46 @@ public class SmallestStringWithSwaps
 			return p;
 		}
 
-		public void connect(int nodeA, int nodeB)
-		{
+		public void connect(int nodeA, int nodeB) {
 			int parentA = findParent(nodeA);
 			int parentB = findParent(nodeB);
 
-			if (parentA == parentB)
-			{
+			if (parentA == parentB) {
 				return;
 			}
 
-			if (parentA < parentB)
-			{
+			if (parentA < parentB) {
 				parent[parentB] = parentA;
 			}
-			else
-			{
+			else {
 				parent[parentA] = parentB;
 			}
 		}
 
-		public void performSwaps(char[] chars)
-		{
-			for (int i = 0; i < parent.length; i++)
-			{
+		public void performSwaps(char[] chars) {
+			for (int i = 0; i < parent.length; i++) {
 				findParent(i);
 			}
 
 			List<Integer>[] connects = new ArrayList[chars.length];
-			for (int i = 0; i < parent.length; i++)
-			{
-				if (connects[parent[i]] == null)
-				{
+			for (int i = 0; i < parent.length; i++) {
+				if (connects[parent[i]] == null) {
 					connects[parent[i]] = new ArrayList<>();
 				}
 
 				connects[parent[i]].add(i);
 			}
 
-			for (List<Integer> indices : connects)
-			{
-				if (indices != null && indices.size() > 1)
-				{
+			for (List<Integer> indices : connects) {
+				if (indices != null && indices.size() > 1) {
 					int[] table = new int[26];
-					for (int index : indices)
-					{
+					for (int index : indices) {
 						table[chars[index] - 'a']++;
 					}
 
 					int i = 0;
-					for (int j = 0; j < 26; j++)
-					{
-						while (table[j] > 0)
-						{
+					for (int j = 0; j < 26; j++) {
+						while (table[j] > 0) {
 							chars[indices.get(i++)] = (char) (j + 'a');
 							table[j]--;
 						}
@@ -113,12 +93,10 @@ public class SmallestStringWithSwaps
 		}
 	}
 
-	public String smallestStringWithSwaps(String s, List<List<Integer>> pairs)
-	{
+	public String smallestStringWithSwaps(String s, List<List<Integer>> pairs) {
 		char[] chars = s.toCharArray();
 		DSU dsu = new DSU(chars.length);
-		for (List<Integer> pair : pairs)
-		{
+		for (List<Integer> pair : pairs) {
 			dsu.connect(pair.get(0), pair.get(1));
 		}
 
@@ -127,8 +105,7 @@ public class SmallestStringWithSwaps
 		return String.valueOf(chars);
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new SmallestStringWithSwaps().smallestStringWithSwaps("zbxxxdgmbz", Arrays.asList(
 				Arrays.asList(1, 0),
 				Arrays.asList(7, 1),

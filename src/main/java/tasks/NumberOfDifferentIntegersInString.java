@@ -16,50 +16,39 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/number-of-different-integers-in-a-string/",
 		difficulty = Difficulty.EASY
 )
-public class NumberOfDifferentIntegersInString
-{
-	public int numDifferentIntegers(String word)
-	{
+public class NumberOfDifferentIntegersInString {
+	public int numDifferentIntegers(String word) {
 		Set<String> set = new HashSet<>();
 		StringBuilder number = null;
 		int digit;
-		for (int i = 0; i < word.length(); i++)
-		{
-			if (Character.isDigit(word.charAt(i)))
-			{
+		for (int i = 0; i < word.length(); i++) {
+			if (Character.isDigit(word.charAt(i))) {
 
-				if (number == null)
-				{
+				if (number == null) {
 					number = new StringBuilder();
 				}
 
 				number.append(word.charAt(i) - '0');
 			}
-			else
-			{
-				if (number != null)
-				{
+			else {
+				if (number != null) {
 					set.add(getActualNumber(number));
 					number = null;
 				}
 			}
 		}
 
-		if (number != null)
-		{
+		if (number != null) {
 			set.add(getActualNumber(number));
 		}
 
 		return set.size();
 	}
 
-	private String getActualNumber(StringBuilder stringBuilder)
-	{
+	private String getActualNumber(StringBuilder stringBuilder) {
 		int i = 0;
-		for (; i < stringBuilder.length() - 1; i++)
-		{
-			if (stringBuilder.charAt(i) != '0')
-			{
+		for (; i < stringBuilder.length() - 1; i++) {
+			if (stringBuilder.charAt(i) != '0') {
 				break;
 			}
 		}

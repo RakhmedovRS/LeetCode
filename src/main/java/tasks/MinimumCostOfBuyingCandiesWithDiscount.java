@@ -16,27 +16,21 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/",
 		difficulty = Difficulty.EASY
 )
-public class MinimumCostOfBuyingCandiesWithDiscount
-{
-	public int minimumCost(int[] cost)
-	{
+public class MinimumCostOfBuyingCandiesWithDiscount {
+	public int minimumCost(int[] cost) {
 		PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());
-		for (int c : cost)
-		{
+		for (int c : cost) {
 			pq.add(c);
 		}
 
 		int result = 0;
 		int num = 0;
-		while (!pq.isEmpty())
-		{
+		while (!pq.isEmpty()) {
 			num++;
-			if (num % 3 == 0)
-			{
+			if (num % 3 == 0) {
 				pq.remove();
 			}
-			else
-			{
+			else {
 				result += pq.remove();
 			}
 

@@ -16,32 +16,26 @@ import java.util.List;
 		url = "https://leetcode.com/problems/letter-case-permutation/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LetterCasePermutation
-{
-	public List<String> letterCasePermutation(String S)
-	{
+public class LetterCasePermutation {
+	public List<String> letterCasePermutation(String S) {
 		StringBuilder sb = new StringBuilder();
 		List<String> answer = new ArrayList<>();
 		dfs(0, S.toCharArray(), sb, answer);
 		return answer;
 	}
 
-	private void dfs(int pos, char[] chars, StringBuilder sb, List<String> answer)
-	{
-		if (pos == chars.length)
-		{
+	private void dfs(int pos, char[] chars, StringBuilder sb, List<String> answer) {
+		if (pos == chars.length) {
 			answer.add(sb.toString());
 			return;
 		}
 
-		if (Character.isDigit(chars[pos]))
-		{
+		if (Character.isDigit(chars[pos])) {
 			sb.append(chars[pos]);
 			dfs(pos + 1, chars, sb, answer);
 			sb.deleteCharAt(sb.length() - 1);
 		}
-		else
-		{
+		else {
 			sb.append(Character.toUpperCase(chars[pos]));
 			dfs(pos + 1, chars, sb, answer);
 			sb.deleteCharAt(sb.length() - 1);
@@ -52,8 +46,7 @@ public class LetterCasePermutation
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new LetterCasePermutation().letterCasePermutation("a1b2"));
 	}
 }

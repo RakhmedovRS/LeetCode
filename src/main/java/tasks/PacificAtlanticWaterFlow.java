@@ -15,14 +15,11 @@ import java.util.*;
 		url = "https://leetcode.com/problems/pacific-atlantic-water-flow/",
 		difficulty = Difficulty.MEDIUM
 )
-public class PacificAtlanticWaterFlow
-{
-	public List<List<Integer>> pacificAtlantic(int[][] matrix)
-	{
+public class PacificAtlanticWaterFlow {
+	public List<List<Integer>> pacificAtlantic(int[][] matrix) {
 		List<List<Integer>> answer = new ArrayList<>();
 		int rows = matrix.length;
-		if (rows == 0)
-		{
+		if (rows == 0) {
 			return answer;
 		}
 		int columns = matrix[0].length;
@@ -31,8 +28,7 @@ public class PacificAtlanticWaterFlow
 		boolean[][][] flows = new boolean[rows][columns][2];
 		Queue<int[]> pacific = new LinkedList<>();
 		Queue<int[]> atlantic = new LinkedList<>();
-		for (int i = 0; i < columns; i++)
-		{
+		for (int i = 0; i < columns; i++) {
 			flows[0][i][0] = true;
 			flows[rows - 1][i][1] = true;
 
@@ -40,8 +36,7 @@ public class PacificAtlanticWaterFlow
 			atlantic.add(new int[]{rows - 1, i});
 		}
 
-		for (int i = 0; i < rows; i++)
-		{
+		for (int i = 0; i < rows; i++) {
 			flows[i][0][0] = true;
 			flows[i][columns - 1][1] = true;
 
@@ -52,12 +47,9 @@ public class PacificAtlanticWaterFlow
 		process(pacific, 0, flows, matrix, rows, columns);
 		process(atlantic, 1, flows, matrix, rows, columns);
 
-		for (int row = 0; row < rows; row++)
-		{
-			for (int column = 0; column < columns; column++)
-			{
-				if (flows[row][column][0] && flows[row][column][1])
-				{
+		for (int row = 0; row < rows; row++) {
+			for (int column = 0; column < columns; column++) {
+				if (flows[row][column][0] && flows[row][column][1]) {
 					answer.add(Arrays.asList(row, column));
 				}
 			}
@@ -66,22 +58,19 @@ public class PacificAtlanticWaterFlow
 		return answer;
 	}
 
-	private void process(Queue<int[]> ocean, int oceanType, boolean[][][] flows, int[][] matrix, int rows, int columns)
-	{
+	private void process(Queue<int[]> ocean, int oceanType, boolean[][][] flows, int[][] matrix, int rows, int columns) {
 		int[][] directions = new int[][]{{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
 		int[] current;
 		int currentRow;
 		int currentColumn;
 		int nextRow;
 		int nextColumn;
-		while (!ocean.isEmpty())
-		{
+		while (!ocean.isEmpty()) {
 			current = ocean.remove();
 			currentRow = current[0];
 			currentColumn = current[1];
 
-			for (int[] direction : directions)
-			{
+			for (int[] direction : directions) {
 				nextRow = currentRow + direction[0];
 				nextColumn = currentColumn + direction[1];
 				if (nextRow < 0
@@ -90,8 +79,7 @@ public class PacificAtlanticWaterFlow
 						|| nextColumn == columns
 						|| matrix[currentRow][currentColumn] > matrix[nextRow][nextColumn]
 						|| flows[nextRow][nextColumn][oceanType]
-				)
-				{
+				) {
 					continue;
 				}
 
@@ -102,8 +90,7 @@ public class PacificAtlanticWaterFlow
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		PacificAtlanticWaterFlow clazz = new PacificAtlanticWaterFlow();
 
 		System.out.println(clazz.pacificAtlantic(new int[][]

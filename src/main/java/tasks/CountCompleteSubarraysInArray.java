@@ -16,25 +16,19 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CountCompleteSubarraysInArray
-{
-	public int countCompleteSubarrays(int[] nums)
-	{
+public class CountCompleteSubarraysInArray {
+	public int countCompleteSubarrays(int[] nums) {
 		Set<Integer> set = new HashSet<>();
-		for (int num: nums)
-		{
+		for (int num : nums) {
 			set.add(num);
 		}
 
 		int count = 0;
-		for (int i = 0; i < nums.length; i++)
-		{
+		for (int i = 0; i < nums.length; i++) {
 			Set<Integer> s = new HashSet<>();
-			for (int j = i; j < nums.length; j++)
-			{
+			for (int j = i; j < nums.length; j++) {
 				s.add(nums[j]);
-				if (s.size() == set.size())
-				{
+				if (s.size() == set.size()) {
 					count++;
 				}
 			}

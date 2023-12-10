@@ -16,37 +16,29 @@ import java.util.*;
 		url = "https://leetcode.com/problems/all-possible-full-binary-trees/",
 		difficulty = Difficulty.MEDIUM
 )
-public class AllPossibleFullBinaryTrees
-{
-	private Map<Integer, List<TreeNode>> cache = new HashMap<>();
+public class AllPossibleFullBinaryTrees {
+	private final Map<Integer, List<TreeNode>> cache = new HashMap<>();
 
-	public List<TreeNode> allPossibleFBT(int N)
-	{
-		if (N % 2 == 0)
-		{
+	public List<TreeNode> allPossibleFBT(int N) {
+		if (N % 2 == 0) {
 			return Collections.emptyList();
 		}
 
-		if (N == 1)
-		{
+		if (N == 1) {
 			return Arrays.asList(new TreeNode(0));
 		}
 
-		if (cache.containsKey(N))
-		{
+		if (cache.containsKey(N)) {
 			return cache.get(N);
 		}
 
 		List<TreeNode> result = new ArrayList<>();
-		for (int i = 1; i < N; i += 2)
-		{
+		for (int i = 1; i < N; i += 2) {
 			List<TreeNode> leftNodes = allPossibleFBT(i);
 			List<TreeNode> rightNodes = allPossibleFBT(N - i - 1);
 
-			for (TreeNode left : leftNodes)
-			{
-				for (TreeNode right : rightNodes)
-				{
+			for (TreeNode left : leftNodes) {
+				for (TreeNode right : rightNodes) {
 					TreeNode node = new TreeNode(0, left, right);
 					result.add(node);
 				}

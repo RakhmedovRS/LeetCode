@@ -16,29 +16,25 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/lru-cache/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LRUCache
-{
-	private class Entry
-	{
+public class LRUCache {
+	private class Entry {
 		private Entry prev;
 		private Entry next;
-		private int key;
+		private final int key;
 		private int value;
 
-		public Entry(int key, int value)
-		{
+		public Entry(int key, int value) {
 			this.key = key;
 			this.value = value;
 		}
 	}
 
-	private Entry head;
-	private Entry tail;
-	private Map<Integer, Entry> map;
+	private final Entry head;
+	private final Entry tail;
+	private final Map<Integer, Entry> map;
 	int size;
 
-	public LRUCache(int capacity)
-	{
+	public LRUCache(int capacity) {
 		head = new Entry(0, 0);
 		tail = new Entry(0, 0);
 		map = new HashMap<>();
@@ -47,11 +43,9 @@ public class LRUCache
 		tail.prev = head;
 	}
 
-	public int get(int key)
-	{
+	public int get(int key) {
 		Entry entry = map.get(key);
-		if (entry == null)
-		{
+		if (entry == null) {
 			return -1;
 		}
 
@@ -65,31 +59,26 @@ public class LRUCache
 		return entry.value;
 	}
 
-	public void put(int key, int value)
-	{
+	public void put(int key, int value) {
 		Entry entry = map.get(key);
-		if (entry == null)
-		{
+		if (entry == null) {
 			entry = new Entry(key, value);
 			head.next.prev = entry;
 			entry.next = head.next;
 			head.next = entry;
 			entry.prev = head;
-			if (size == 0)
-			{
+			if (size == 0) {
 				Entry removedLink = tail.prev;
 				removedLink.prev.next = tail;
 				tail.prev = removedLink.prev;
 				map.remove(removedLink.key);
 			}
-			else
-			{
+			else {
 				size--;
 			}
 			map.put(key, entry);
 		}
-		else
-		{
+		else {
 			entry.value = value;
 
 			entry.prev.next = entry.next;
@@ -102,8 +91,7 @@ public class LRUCache
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		LRUCache lruCache = new LRUCache(2);
 		lruCache.put(2, 1);
 		lruCache.put(1, 1);

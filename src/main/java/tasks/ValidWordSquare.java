@@ -16,23 +16,17 @@ import java.util.List;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class ValidWordSquare
-{
-	public boolean validWordSquare(List<String> words)
-	{
-		for (int i = 0; i < words.size(); i++)
-		{
+public class ValidWordSquare {
+	public boolean validWordSquare(List<String> words) {
+		for (int i = 0; i < words.size(); i++) {
 			StringBuilder sb = new StringBuilder();
-			for (String word : words)
-			{
-				if (i < word.length())
-				{
+			for (String word : words) {
+				if (i < word.length()) {
 					sb.append(word.charAt(i));
 				}
 			}
 
-			if (!words.get(i).equals(sb.toString()))
-			{
+			if (!words.get(i).equals(sb.toString())) {
 				return false;
 			}
 		}

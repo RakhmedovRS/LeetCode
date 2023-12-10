@@ -18,24 +18,19 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/find-the-town-judge/",
 		difficulty = Difficulty.EASY
 )
-public class FindTheTownJudge
-{
-	public int findJudge(int N, int[][] trust)
-	{
-		if (trust == null || trust.length == 0)
-		{
+public class FindTheTownJudge {
+	public int findJudge(int N, int[][] trust) {
+		if (trust == null || trust.length == 0) {
 			return 1;
 		}
 
 		Map<Integer, List<Integer>> graph = new HashMap<>();
 		Map<Integer, List<Integer>> ancestors = new HashMap<>();
-		for (int[] node : trust)
-		{
+		for (int[] node : trust) {
 			List<Integer> list = graph.getOrDefault(node[0], new ArrayList<>());
 			list.add(node[1]);
 			graph.put(node[0], list);
-			if (!graph.containsKey(node[1]))
-			{
+			if (!graph.containsKey(node[1])) {
 				graph.put(node[1], new ArrayList<>());
 			}
 
@@ -44,10 +39,8 @@ public class FindTheTownJudge
 			ancestors.put(node[1], list);
 		}
 
-		for (Map.Entry<Integer, List<Integer>> entry : graph.entrySet())
-		{
-			if (entry.getValue().isEmpty() && ancestors.get(entry.getKey()).size() == N - 1)
-			{
+		for (Map.Entry<Integer, List<Integer>> entry : graph.entrySet()) {
+			if (entry.getValue().isEmpty() && ancestors.get(entry.getKey()).size() == N - 1) {
 				return entry.getKey();
 			}
 		}

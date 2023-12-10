@@ -14,14 +14,11 @@ import common.ListNode;
 		url = "https://leetcode.com/problems/insertion-sort-list/",
 		difficulty = Difficulty.MEDIUM
 )
-public class InsertionSortList
-{
-	public ListNode insertionSortList(ListNode head)
-	{
+public class InsertionSortList {
+	public ListNode insertionSortList(ListNode head) {
 		ListNode dummy = new ListNode(Integer.MIN_VALUE);
 		ListNode next;
-		while (head != null)
-		{
+		while (head != null) {
 			next = head.next;
 			head.next = null;
 			insert(dummy, head);
@@ -31,14 +28,11 @@ public class InsertionSortList
 		return dummy.next;
 	}
 
-	private void insert(ListNode dummy, ListNode node)
-	{
+	private void insert(ListNode dummy, ListNode node) {
 		ListNode prev = dummy;
 		dummy = dummy.next;
-		while (dummy != null)
-		{
-			if (node.val <= dummy.val)
-			{
+		while (dummy != null) {
+			if (node.val <= dummy.val) {
 				node.next = dummy;
 				prev.next = node;
 				return;

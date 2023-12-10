@@ -13,13 +13,10 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/bitwise-and-of-numbers-range/",
 		difficulty = Difficulty.MEDIUM
 )
-public class BitwiseANDOfNumbersRange
-{
-	public int rangeBitwiseAnd(int m, int n)
-	{
+public class BitwiseANDOfNumbersRange {
+	public int rangeBitwiseAnd(int m, int n) {
 		int count = 0;
-		while (m != n)
-		{
+		while (m != n) {
 			m = m >> 1;
 			n = n >> 1;
 			count++;

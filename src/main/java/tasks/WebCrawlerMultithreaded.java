@@ -18,19 +18,15 @@ import java.util.stream.Stream;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class WebCrawlerMultithreaded
-{
-	interface HtmlParser
-	{
+public class WebCrawlerMultithreaded {
+	interface HtmlParser {
 		List<String> getUrls(String url);
 	}
 
-	class HtmlParserImpl implements HtmlParser
-	{
+	class HtmlParserImpl implements HtmlParser {
 		Map<String, List<String>> map;
 
-		public HtmlParserImpl()
-		{
+		public HtmlParserImpl() {
 			map = new HashMap<>();
 			map.put("http://news.google.com", Arrays.asList("http://news.yahoo.com/news",
 					"http://news.yahoo.com/news/topics/",
@@ -41,23 +37,18 @@ public class WebCrawlerMultithreaded
 		}
 
 		@Override
-		public List<String> getUrls(String url)
-		{
+		public List<String> getUrls(String url) {
 			return map.get(url);
 		}
 	}
 
-	public List<String> crawl(String startUrl, HtmlParser htmlParser)
-	{
+	public List<String> crawl(String startUrl, HtmlParser htmlParser) {
 		StringBuilder sb = new StringBuilder();
-		for (int i = startUrl.contains("http://") ? 7 : 0; i < startUrl.length(); i++)
-		{
-			if (Character.isLetter(startUrl.charAt(i)) || startUrl.charAt(i) == '.')
-			{
+		for (int i = startUrl.contains("http://") ? 7 : 0; i < startUrl.length(); i++) {
+			if (Character.isLetter(startUrl.charAt(i)) || startUrl.charAt(i) == '.') {
 				sb.append(startUrl.charAt(i));
 			}
-			else
-			{
+			else {
 				break;
 			}
 		}
@@ -70,8 +61,7 @@ public class WebCrawlerMultithreaded
 		return crawl(hostName, startUrl, htmlParser, visited).collect(Collectors.toList());
 	}
 
-	private Stream<String> crawl(String hostName, String startURL, HtmlParser htmlParser, Set<String> visited)
-	{
+	private Stream<String> crawl(String hostName, String startURL, HtmlParser htmlParser, Set<String> visited) {
 		Stream<String> stream = htmlParser
 				.getUrls(startURL)
 				.parallelStream()

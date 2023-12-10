@@ -15,32 +15,24 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/rearrange-array-elements-by-sign/",
 		difficulty = Difficulty.MEDIUM
 )
-public class RearrangeArrayElementsBySign
-{
-	public int[] rearrangeArray(int[] nums)
-	{
+public class RearrangeArrayElementsBySign {
+	public int[] rearrangeArray(int[] nums) {
 		LinkedList<Integer> positive = new LinkedList<>();
 		LinkedList<Integer> negative = new LinkedList<>();
-		for (int num : nums)
-		{
-			if (num < 0)
-			{
+		for (int num : nums) {
+			if (num < 0) {
 				negative.addLast(num);
 			}
-			else
-			{
+			else {
 				positive.addLast(num);
 			}
 		}
 
-		for (int i = 0; i < nums.length; i++)
-		{
-			if (i % 2 == 0)
-			{
+		for (int i = 0; i < nums.length; i++) {
+			if (i % 2 == 0) {
 				nums[i] = positive.removeFirst();
 			}
-			else
-			{
+			else {
 				nums[i] = negative.removeFirst();
 			}
 		}

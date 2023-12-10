@@ -14,26 +14,21 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class PopulatingNextRightPointersInEachNodeII
-{
-	static class Node
-	{
+public class PopulatingNextRightPointersInEachNodeII {
+	static class Node {
 		public int val;
 		public Node left;
 		public Node right;
 		public Node next;
 
-		public Node()
-		{
+		public Node() {
 		}
 
-		public Node(int _val)
-		{
+		public Node(int _val) {
 			val = _val;
 		}
 
-		public Node(int _val, Node _left, Node _right, Node _next)
-		{
+		public Node(int _val, Node _left, Node _right, Node _next) {
 			val = _val;
 			left = _left;
 			right = _right;
@@ -41,37 +36,29 @@ public class PopulatingNextRightPointersInEachNodeII
 		}
 	}
 
-	public Node connect(Node root)
-	{
+	public Node connect(Node root) {
 		Node prev;
 		Node curr;
 		Node next = root;
-		while (next != null)
-		{
+		while (next != null) {
 			prev = null;
 			curr = next;
 			next = null;
-			while (curr != null)
-			{
-				if (next == null)
-				{
+			while (curr != null) {
+				if (next == null) {
 					next = curr.left == null ? curr.right : curr.left;
 				}
 
-				if (curr.left != null)
-				{
-					if (prev != null)
-					{
+				if (curr.left != null) {
+					if (prev != null) {
 						prev.next = curr.left;
 					}
 
 					prev = curr.left;
 				}
 
-				if (curr.right != null)
-				{
-					if (prev != null)
-					{
+				if (curr.right != null) {
+					if (prev != null) {
 						prev.next = curr.right;
 					}
 

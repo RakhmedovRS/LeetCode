@@ -14,29 +14,23 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class Flatten2DVector
-{
-	class Vector2D
-	{
+public class Flatten2DVector {
+	class Vector2D {
 
 		int row;
 		int column;
 		int[][] matrix;
 		int elements;
 
-		public Vector2D(int[][] v)
-		{
+		public Vector2D(int[][] v) {
 			matrix = v;
-			for (int[] row : v)
-			{
+			for (int[] row : v) {
 				elements += row.length;
 			}
 		}
 
-		public int next()
-		{
-			if (column >= matrix[row].length)
-			{
+		public int next() {
+			if (column >= matrix[row].length) {
 				row++;
 				column = 0;
 				return next();
@@ -44,8 +38,7 @@ public class Flatten2DVector
 
 			int val = matrix[row][column++];
 
-			if (column == matrix[row].length)
-			{
+			if (column == matrix[row].length) {
 				row++;
 				column = 0;
 			}
@@ -54,8 +47,7 @@ public class Flatten2DVector
 			return val;
 		}
 
-		public boolean hasNext()
-		{
+		public boolean hasNext() {
 			return elements > 0;
 		}
 	}

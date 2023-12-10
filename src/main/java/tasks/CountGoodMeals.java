@@ -16,18 +16,14 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/count-good-meals/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CountGoodMeals
-{
-	public int countPairs(int[] deliciousness)
-	{
+public class CountGoodMeals {
+	public int countPairs(int[] deliciousness) {
 		int mod = 1_000_000_007;
 		long count = 0;
 		Map<Integer, Integer> map = new HashMap<>();
 		int search;
-		for (int num : deliciousness)
-		{
-			for (int i = 0; i <= 31; i++)
-			{
+		for (int num : deliciousness) {
+			for (int i = 0; i <= 31; i++) {
 				search = (1 << i) - num;
 				count = (count + map.getOrDefault(search, 0)) % mod;
 			}
@@ -38,8 +34,7 @@ public class CountGoodMeals
 		return (int) count;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		CountGoodMeals clazz = new CountGoodMeals();
 
 		System.out.println(clazz.countPairs(new int[]{64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64,

@@ -15,16 +15,12 @@ import common.TreeNode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class ClosestBinarySearchTreeValue
-{
-	public int closestValue(TreeNode root, double target)
-	{
+public class ClosestBinarySearchTreeValue {
+	public int closestValue(TreeNode root, double target) {
 		double diff = Double.MAX_VALUE;
 		int closest = Integer.MAX_VALUE;
-		while (root != null)
-		{
-			if (diff > Math.abs(target - root.val))
-			{
+		while (root != null) {
+			if (diff > Math.abs(target - root.val)) {
 				diff = Math.abs(target - root.val);
 				closest = root.val;
 			}

@@ -13,14 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/count-total-number-of-colored-cells/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CountTotalNumberOfColoredCells
-{
-	public long coloredCells(int n)
-	{
+public class CountTotalNumberOfColoredCells {
+	public long coloredCells(int n) {
 		long res = 1 + (n - 1) * 2;
 		long x = res;
-		while (x > 1)
-		{
+		while (x > 1) {
 			res += (x - 2) * 2;
 			x -= 2;
 		}

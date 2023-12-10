@@ -18,51 +18,42 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/frequency-tracker/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FrequencyTracker
-{
+public class FrequencyTracker {
 	Map<Integer, Integer> freq;
 	Map<Integer, Set<Integer>> freqSorted;
 
-	public FrequencyTracker()
-	{
+	public FrequencyTracker() {
 		freq = new HashMap<>();
 		freqSorted = new HashMap<>();
 	}
 
-	public void add(int number)
-	{
-		if (freq.containsKey(number))
-		{
+	public void add(int number) {
+		if (freq.containsKey(number)) {
 			int count = freq.remove(number);
 			freqSorted.get(count).remove(number);
 			freq.put(number, ++count);
 			freqSorted.putIfAbsent(count, new HashSet<>());
 			freqSorted.get(count).add(number);
 		}
-		else
-		{
+		else {
 			freq.put(number, 1);
 			freqSorted.putIfAbsent(1, new HashSet<>());
 			freqSorted.get(1).add(number);
 		}
 	}
 
-	public void deleteOne(int number)
-	{
-		if (freq.containsKey(number))
-		{
+	public void deleteOne(int number) {
+		if (freq.containsKey(number)) {
 			int count = freq.remove(number);
 			freqSorted.get(count).remove(number);
-			if (count - 1 > 0)
-			{
+			if (count - 1 > 0) {
 				freq.put(number, count - 1);
 				freqSorted.get(count - 1).add(number);
 			}
 		}
 	}
 
-	public boolean hasFrequency(int frequency)
-	{
+	public boolean hasFrequency(int frequency) {
 		return freqSorted.containsKey(frequency) && !freqSorted.get(frequency).isEmpty();
 	}
 }

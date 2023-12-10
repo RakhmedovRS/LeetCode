@@ -15,17 +15,13 @@ import java.util.*;
 		url = "https://leetcode.com/problems/odd-string-difference/",
 		difficulty = Difficulty.EASY
 )
-public class OddStringDifference
-{
-	public String oddString(String[] words)
-	{
+public class OddStringDifference {
+	public String oddString(String[] words) {
 		Map<String, List<String>> map = new HashMap<>();
 
-		for (String word : words)
-		{
+		for (String word : words) {
 			int[] nums = new int[word.length() - 1];
-			for (int i = 1; i < word.length(); i++)
-			{
+			for (int i = 1; i < word.length(); i++) {
 				nums[i - 1] = (word.charAt(i) - 'a') - (word.charAt(i - 1) - 'a');
 			}
 
@@ -34,10 +30,8 @@ public class OddStringDifference
 			map.get(key).add(word);
 		}
 
-		for (Map.Entry<String, List<String>> entry : map.entrySet())
-		{
-			if (entry.getValue().size() == 1)
-			{
+		for (Map.Entry<String, List<String>> entry : map.entrySet()) {
+			if (entry.getValue().size() == 1) {
 				return entry.getValue().get(0);
 			}
 		}

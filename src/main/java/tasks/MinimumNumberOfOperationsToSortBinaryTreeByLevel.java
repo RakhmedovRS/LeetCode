@@ -16,29 +16,23 @@ import java.util.*;
 		url = "https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumNumberOfOperationsToSortBinaryTreeByLevel
-{
-	public int minimumOperations(TreeNode root)
-	{
+public class MinimumNumberOfOperationsToSortBinaryTreeByLevel {
+	public int minimumOperations(TreeNode root) {
 		Map<Integer, List<Integer>> levels = new HashMap<>();
 		dfs(0, root, levels);
 		int ops = 0;
 		int level = 1;
-		while (levels.containsKey(level))
-		{
+		while (levels.containsKey(level)) {
 			List<Integer> origin = levels.get(level);
 			Map<Integer, Integer> valueToIndex = new HashMap<>();
 			PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> a - b);
-			for (int i = 0; i < origin.size(); i++)
-			{
+			for (int i = 0; i < origin.size(); i++) {
 				valueToIndex.put(origin.get(i), i);
 				pq.add(origin.get(i));
 			}
 
-			for (int i = 0; i < origin.size(); i++)
-			{
-				if (!origin.get(i).equals(origin.get(valueToIndex.get(pq.peek()))))
-				{
+			for (int i = 0; i < origin.size(); i++) {
+				if (!origin.get(i).equals(origin.get(valueToIndex.get(pq.peek())))) {
 					int val = pq.remove();
 					int index = valueToIndex.remove(val);
 					int a = origin.get(i);
@@ -50,8 +44,7 @@ public class MinimumNumberOfOperationsToSortBinaryTreeByLevel
 
 					ops++;
 				}
-				else if (origin.get(i).equals(origin.get(valueToIndex.get(pq.peek()))))
-				{
+				else if (origin.get(i).equals(origin.get(valueToIndex.get(pq.peek())))) {
 					pq.remove();
 				}
 			}
@@ -63,10 +56,8 @@ public class MinimumNumberOfOperationsToSortBinaryTreeByLevel
 		return ops;
 	}
 
-	private void dfs(int level, TreeNode root, Map<Integer, List<Integer>> levels)
-	{
-		if (root == null)
-		{
+	private void dfs(int level, TreeNode root, Map<Integer, List<Integer>> levels) {
+		if (root == null) {
 			return;
 		}
 

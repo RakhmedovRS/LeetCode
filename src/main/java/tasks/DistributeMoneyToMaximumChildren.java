@@ -15,12 +15,9 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/distribute-money-to-maximum-children/description/",
 		difficulty = Difficulty.EASY
 )
-public class DistributeMoneyToMaximumChildren
-{
-	public int distMoney(int money, int children)
-	{
-		if (money < children)
-		{
+public class DistributeMoneyToMaximumChildren {
+	public int distMoney(int money, int children) {
+		if (money < children) {
 			return -1;
 		}
 
@@ -30,34 +27,27 @@ public class DistributeMoneyToMaximumChildren
 
 		int count = 0;
 		int pos = 0;
-		while (money > 0)
-		{
-			if (child[pos] < 8)
-			{
+		while (money > 0) {
+			if (child[pos] < 8) {
 				int diff = Math.max(8 - child[pos], 8 - money);
 				diff = Math.min(diff, money);
 				child[pos] += diff;
 				money -= diff;
-				if (child[pos] == 8)
-				{
+				if (child[pos] == 8) {
 					count++;
 				}
 			}
-			else
-			{
-				if (child[pos] == 8)
-				{
+			else {
+				if (child[pos] == 8) {
 					count--;
 				}
 				child[pos] += money;
 				money = 0;
 			}
 
-			if (child[pos] == 4)
-			{
+			if (child[pos] == 4) {
 				int nextPos = (pos + 1) % child.length;
-				if (child[nextPos] == 8)
-				{
+				if (child[nextPos] == 8) {
 					count--;
 				}
 				child[nextPos]--;
@@ -69,10 +59,8 @@ public class DistributeMoneyToMaximumChildren
 			pos %= child.length;
 		}
 
-		for (int num : child)
-		{
-			if (num != 4)
-			{
+		for (int num : child) {
+			if (num != 4) {
 				return count;
 			}
 		}

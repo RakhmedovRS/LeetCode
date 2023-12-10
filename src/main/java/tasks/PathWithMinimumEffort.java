@@ -16,10 +16,8 @@ import java.util.Queue;
 		url = "https://leetcode.com/problems/path-with-minimum-effort/",
 		difficulty = Difficulty.MEDIUM
 )
-public class PathWithMinimumEffort
-{
-	public int minimumEffortPath(int[][] heights)
-	{
+public class PathWithMinimumEffort {
+	public int minimumEffortPath(int[][] heights) {
 		int rows = heights.length;
 		int columns = heights[0].length;
 
@@ -34,25 +32,21 @@ public class PathWithMinimumEffort
 		int[][] ways = new int[][]{{-1, 0}, {0, -1}, {1, 0}, {0, 1}};
 		int nextRow;
 		int nextColumn;
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			current = queue.remove();
 			row = current[0];
 			column = current[1];
 			diff = current[2];
-			if (matrix[row][column] != null && diff >= matrix[row][column])
-			{
+			if (matrix[row][column] != null && diff >= matrix[row][column]) {
 				continue;
 			}
 
 			matrix[row][column] = diff;
 
-			for (int[] way : ways)
-			{
+			for (int[] way : ways) {
 				nextRow = row + way[0];
 				nextColumn = column + way[1];
-				if (nextRow < 0 || nextRow == rows || nextColumn < 0 || nextColumn == columns)
-				{
+				if (nextRow < 0 || nextRow == rows || nextColumn < 0 || nextColumn == columns) {
 					continue;
 				}
 

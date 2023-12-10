@@ -9,10 +9,8 @@ import java.util.Arrays;
  * @created 04-Jul-20
  */
 @LeetCode(id = 1432, name = "Max Difference You Can Get From Changing an Integer", url = "https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/")
-public class MaxDifferenceYouCanGetFromChangingInteger
-{
-	public int maxDiff(int num)
-	{
+public class MaxDifferenceYouCanGetFromChangingInteger {
+	public int maxDiff(int num) {
 		char[] number = String.valueOf(num).toCharArray();
 		char[] max = increase(number);
 		char[] min = decrease(number);
@@ -20,26 +18,20 @@ public class MaxDifferenceYouCanGetFromChangingInteger
 		return Integer.parseInt(String.valueOf(max)) - Integer.parseInt(String.valueOf(min));
 	}
 
-	private char[] increase(char[] number)
-	{
+	private char[] increase(char[] number) {
 		char[] max = new char[number.length];
 		int pos = 0;
-		while (pos < number.length && number[pos] == '9')
-		{
+		while (pos < number.length && number[pos] == '9') {
 			max[pos++] = '9';
 		}
 
-		if (pos < number.length)
-		{
+		if (pos < number.length) {
 			char ch = number[pos];
-			for (; pos < number.length; pos++)
-			{
-				if (number[pos] == ch)
-				{
+			for (; pos < number.length; pos++) {
+				if (number[pos] == ch) {
 					max[pos] = '9';
 				}
-				else
-				{
+				else {
 					max[pos] = number[pos];
 				}
 			}
@@ -48,10 +40,8 @@ public class MaxDifferenceYouCanGetFromChangingInteger
 		return max;
 	}
 
-	private char[] decrease(char[] number)
-	{
-		if (containsRepetitiveDigit(number))
-		{
+	private char[] decrease(char[] number) {
+		if (containsRepetitiveDigit(number)) {
 			char[] min = new char[number.length];
 			Arrays.fill(min, '1');
 			return min;
@@ -59,33 +49,25 @@ public class MaxDifferenceYouCanGetFromChangingInteger
 
 		char[] min = Arrays.copyOf(number, number.length);
 
-		if (min[0] == '1')
-		{
+		if (min[0] == '1') {
 			int pos = 1;
-			while (pos < number.length && (number[pos] == '0' || number[pos] == '1'))
-			{
+			while (pos < number.length && (number[pos] == '0' || number[pos] == '1')) {
 				pos++;
 			}
 
-			if (pos < number.length)
-			{
+			if (pos < number.length) {
 				char ch = min[pos];
-				for (; pos < number.length; pos++)
-				{
-					if (min[pos] == ch)
-					{
+				for (; pos < number.length; pos++) {
+					if (min[pos] == ch) {
 						min[pos] = '0';
 					}
 				}
 			}
 		}
-		else
-		{
+		else {
 			char ch = min[0];
-			for (int i = 0; i < number.length; i++)
-			{
-				if (min[i] == ch)
-				{
+			for (int i = 0; i < number.length; i++) {
+				if (min[i] == ch) {
 					min[i] = '1';
 				}
 			}
@@ -94,19 +76,16 @@ public class MaxDifferenceYouCanGetFromChangingInteger
 		return min;
 	}
 
-	private boolean containsRepetitiveDigit(char[] number)
-	{
+	private boolean containsRepetitiveDigit(char[] number) {
 		int pos = 0;
-		while (pos < number.length && number[pos] == number[0])
-		{
+		while (pos < number.length && number[pos] == number[0]) {
 			pos++;
 		}
 
 		return pos == number.length;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new MaxDifferenceYouCanGetFromChangingInteger().maxDiff(1101057));
 		System.out.println(new MaxDifferenceYouCanGetFromChangingInteger().maxDiff(111));
 		System.out.println(new MaxDifferenceYouCanGetFromChangingInteger().maxDiff(9));

@@ -17,24 +17,19 @@ import java.util.List;
 		url = "https://leetcode.com/problems/reorder-data-in-log-files/",
 		difficulty = Difficulty.EASY
 )
-public class ReorderDataInLogFiles
-{
-	public String[] reorderLogFiles(String[] logs)
-	{
+public class ReorderDataInLogFiles {
+	public String[] reorderLogFiles(String[] logs) {
 		char separator = ' ';
 		List<String> letterLogs = new ArrayList<>();
 		List<String> digitLogs = new ArrayList<>();
 
 		int index;
-		for (String log : logs)
-		{
+		for (String log : logs) {
 			index = log.indexOf(separator);
-			if (Character.isDigit(log.charAt(index + 1)))
-			{
+			if (Character.isDigit(log.charAt(index + 1))) {
 				digitLogs.add(log);
 			}
-			else
-			{
+			else {
 				letterLogs.add(log);
 			}
 		}
@@ -45,8 +40,7 @@ public class ReorderDataInLogFiles
 			int i2 = b.indexOf(separator);
 			String sub1 = a.substring(i1 + 1);
 			String sub2 = b.substring(i2 + 1);
-			if (sub1.equals(sub2))
-			{
+			if (sub1.equals(sub2)) {
 				return a.compareTo(b);
 			}
 			return sub1.compareTo(sub2);
@@ -54,21 +48,18 @@ public class ReorderDataInLogFiles
 
 		int pos = 0;
 		String[] answer = new String[logs.length];
-		for (String letterLog : letterLogs)
-		{
+		for (String letterLog : letterLogs) {
 			answer[pos++] = letterLog;
 		}
 
-		for (String digitLog : digitLogs)
-		{
+		for (String digitLog : digitLogs) {
 			answer[pos++] = digitLog;
 		}
 
 		return answer;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		ReorderDataInLogFiles clazz = new ReorderDataInLogFiles();
 		System.out.println(Arrays.toString(clazz.reorderLogFiles(new String[]
 				{"dig1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero"})));

@@ -13,12 +13,9 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/binary-gap/",
 		difficulty = Difficulty.EASY
 )
-public class BinaryGap
-{
-	public int binaryGap(int N)
-	{
-		if (N == 2)
-		{
+public class BinaryGap {
+	public int binaryGap(int N) {
+		if (N == 2) {
 			return 0;
 		}
 
@@ -26,16 +23,13 @@ public class BinaryGap
 		String binary = Integer.toBinaryString(N);
 		int counts = 0;
 		int ones = 0;
-		for (int i = 0; i < binary.length(); i++)
-		{
-			if (binary.charAt(i) == '1')
-			{
+		for (int i = 0; i < binary.length(); i++) {
+			if (binary.charAt(i) == '1') {
 				ones++;
 				max = Math.max(max, counts);
 				counts = 0;
 			}
-			else if (ones > 0)
-			{
+			else if (ones > 0) {
 				counts++;
 			}
 		}

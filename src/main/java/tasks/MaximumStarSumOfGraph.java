@@ -18,13 +18,10 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/maximum-star-sum-of-a-graph/description/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumStarSumOfGraph
-{
-	public int maxStarSum(int[] vals, int[][] edges, int k)
-	{
+public class MaximumStarSumOfGraph {
+	public int maxStarSum(int[] vals, int[][] edges, int k) {
 		Map<Integer, PriorityQueue<Integer>> pqs = new HashMap<>();
-		for (int[] edge : edges)
-		{
+		for (int[] edge : edges) {
 			pqs.putIfAbsent(edge[0], new PriorityQueue<>(Comparator.reverseOrder()));
 			pqs.putIfAbsent(edge[1], new PriorityQueue<>(Comparator.reverseOrder()));
 
@@ -34,15 +31,13 @@ public class MaximumStarSumOfGraph
 
 		int max = Integer.MIN_VALUE;
 
-		for (int i = 0; i < vals.length; i++)
-		{
+		for (int i = 0; i < vals.length; i++) {
 			max = Math.max(max, vals[i]);
 
 			Integer sum = vals[i];
 			int r = k;
 
-			while (r-- > 0 && pqs.containsKey(i) && !pqs.get(i).isEmpty() && pqs.get(i).peek() > 0)
-			{
+			while (r-- > 0 && pqs.containsKey(i) && !pqs.get(i).isEmpty() && pqs.get(i).peek() > 0) {
 				sum += pqs.get(i).remove();
 			}
 

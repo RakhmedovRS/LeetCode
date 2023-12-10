@@ -16,57 +16,44 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/find-median-from-data-stream/",
 		difficulty = Difficulty.HARD
 )
-public class FindMedianFromDataStream
-{
-	class MedianFinder
-	{
+public class FindMedianFromDataStream {
+	class MedianFinder {
 		PriorityQueue<Integer> minHeap;
 		PriorityQueue<Integer> maxHeap;
 
-		public MedianFinder()
-		{
+		public MedianFinder() {
 			minHeap = new PriorityQueue<>(Comparator.naturalOrder());
 			maxHeap = new PriorityQueue<>(Comparator.reverseOrder());
 			minHeap.add(Integer.MAX_VALUE);
 			maxHeap.add(Integer.MIN_VALUE);
 		}
 
-		public void addNum(int num)
-		{
-			if (num >= maxHeap.peek())
-			{
+		public void addNum(int num) {
+			if (num >= maxHeap.peek()) {
 				minHeap.add(num);
 			}
-			else
-			{
+			else {
 				maxHeap.add(num);
 			}
 
-			if (Math.abs(maxHeap.size() - minHeap.size()) >= 2)
-			{
-				if (maxHeap.size() > minHeap.size())
-				{
+			if (Math.abs(maxHeap.size() - minHeap.size()) >= 2) {
+				if (maxHeap.size() > minHeap.size()) {
 					minHeap.add(maxHeap.remove());
 				}
-				else
-				{
+				else {
 					maxHeap.add(minHeap.remove());
 				}
 			}
 		}
 
-		public double findMedian()
-		{
-			if (minHeap.size() == maxHeap.size())
-			{
+		public double findMedian() {
+			if (minHeap.size() == maxHeap.size()) {
 				return (maxHeap.peek() + minHeap.peek()) / 2D;
 			}
-			else if (minHeap.size() > maxHeap.size())
-			{
+			else if (minHeap.size() > maxHeap.size()) {
 				return minHeap.peek();
 			}
-			else
-			{
+			else {
 				return maxHeap.peek();
 			}
 		}

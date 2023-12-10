@@ -13,20 +13,15 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/count-of-matches-in-tournament/",
 		difficulty = Difficulty.EASY
 )
-public class CountOfMatchesInTournament
-{
-	public int numberOfMatches(int n)
-	{
+public class CountOfMatchesInTournament {
+	public int numberOfMatches(int n) {
 		int sum = 0;
-		while (n != 1)
-		{
-			if (n % 2 == 0)
-			{
+		while (n != 1) {
+			if (n % 2 == 0) {
 				sum += n / 2;
 				n /= 2;
 			}
-			else
-			{
+			else {
 				sum += n / 2;
 				n /= 2;
 				n++;

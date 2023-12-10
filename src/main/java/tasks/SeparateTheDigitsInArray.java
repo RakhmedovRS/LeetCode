@@ -16,23 +16,18 @@ import java.util.List;
 		url = "https://leetcode.com/problems/separate-the-digits-in-an-array/",
 		difficulty = Difficulty.EASY
 )
-public class SeparateTheDigitsInArray
-{
-	public int[] separateDigits(int[] nums)
-	{
+public class SeparateTheDigitsInArray {
+	public int[] separateDigits(int[] nums) {
 		List<Integer> list = new ArrayList<>();
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			char[] chars = (num + "").toCharArray();
-			for (char ch : chars)
-			{
+			for (char ch : chars) {
 				list.add(ch - '0');
 			}
 		}
 
 		int[] answer = new int[list.size()];
-		for (int i = 0; i < answer.length; i++)
-		{
+		for (int i = 0; i < answer.length; i++) {
 			answer[i] = list.get(i);
 		}
 

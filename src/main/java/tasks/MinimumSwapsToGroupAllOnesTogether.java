@@ -14,18 +14,14 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class MinimumSwapsToGroupAllOnesTogether
-{
-	public int minSwaps(int[] data)
-	{
+public class MinimumSwapsToGroupAllOnesTogether {
+	public int minSwaps(int[] data) {
 		int onesCount = 0;
-		for (int d : data)
-		{
+		for (int d : data) {
 			onesCount += d;
 		}
 
-		if (onesCount == 0)
-		{
+		if (onesCount == 0) {
 			return 0;
 		}
 
@@ -33,18 +29,15 @@ public class MinimumSwapsToGroupAllOnesTogether
 		int currentCount = 0;
 		int left = 0;
 		int right = 0;
-		while (right < data.length)
-		{
+		while (right < data.length) {
 			currentCount += data[right++];
 
-			if (right - left > onesCount)
-			{
+			if (right - left > onesCount) {
 				currentCount -= data[left++];
 			}
 
 
-			if (right - left == onesCount)
-			{
+			if (right - left == onesCount) {
 				min = Math.min(min, onesCount - currentCount);
 			}
 		}

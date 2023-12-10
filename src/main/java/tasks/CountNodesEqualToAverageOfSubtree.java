@@ -14,18 +14,14 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CountNodesEqualToAverageOfSubtree
-{
-	public int averageOfSubtree(TreeNode root)
-	{
+public class CountNodesEqualToAverageOfSubtree {
+	public int averageOfSubtree(TreeNode root) {
 		int[] arr = dfs(root);
 		return arr[0];
 	}
 
-	private int[] dfs(TreeNode root)
-	{
-		if (root == null)
-		{
+	private int[] dfs(TreeNode root) {
+		if (root == null) {
 			return new int[]{0, 0, 0};
 		}
 
@@ -37,8 +33,7 @@ public class CountNodesEqualToAverageOfSubtree
 		answer[1] = 1 + left[1] + right[1];
 		answer[2] = root.val + left[2] + right[2];
 
-		if (answer[2] / answer[1] == root.val)
-		{
+		if (answer[2] / answer[1] == root.val) {
 			answer[0]++;
 		}
 

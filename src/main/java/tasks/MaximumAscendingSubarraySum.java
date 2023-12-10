@@ -13,16 +13,12 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximum-ascending-subarray-sum/",
 		difficulty = Difficulty.EASY
 )
-public class MaximumAscendingSubarraySum
-{
-	public int maxAscendingSum(int[] nums)
-	{
+public class MaximumAscendingSubarraySum {
+	public int maxAscendingSum(int[] nums) {
 		int max = 0;
 		int sum = 0;
-		for (int i = 0; i < nums.length; i++)
-		{
-			if (i > 0 && nums[i] <= nums[i - 1])
-			{
+		for (int i = 0; i < nums.length; i++) {
+			if (i > 0 && nums[i] <= nums[i - 1]) {
 				sum = 0;
 			}
 
@@ -34,8 +30,7 @@ public class MaximumAscendingSubarraySum
 		return max;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		MaximumAscendingSubarraySum clazz = new MaximumAscendingSubarraySum();
 
 		System.out.println(clazz.maxAscendingSum(new int[]{3, 6, 10, 1, 8, 9, 9, 8, 9}));

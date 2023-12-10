@@ -17,31 +17,24 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/",
 		difficulty = Difficulty.MEDIUM
 )
-public class EvaluateTheBracketPairsOfString
-{
-	public String evaluate(String s, List<List<String>> knowledge)
-	{
+public class EvaluateTheBracketPairsOfString {
+	public String evaluate(String s, List<List<String>> knowledge) {
 		StringBuilder sb = new StringBuilder();
 		Map<String, String> map = new HashMap<>();
-		for (List<String> pair : knowledge)
-		{
+		for (List<String> pair : knowledge) {
 			map.put(pair.get(0), pair.get(1));
 		}
 
 		Integer prev = null;
-		for (int i = 0; i < s.length(); i++)
-		{
-			if (s.charAt(i) == '(')
-			{
+		for (int i = 0; i < s.length(); i++) {
+			if (s.charAt(i) == '(') {
 				prev = i;
 			}
-			else if (s.charAt(i) == ')')
-			{
+			else if (s.charAt(i) == ')') {
 				sb.append(map.getOrDefault(s.substring(prev + 1, i), "?"));
 				prev = null;
 			}
-			else if (prev == null)
-			{
+			else if (prev == null) {
 				sb.append(s.charAt(i));
 			}
 		}

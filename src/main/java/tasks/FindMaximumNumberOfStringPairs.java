@@ -16,22 +16,17 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/find-maximum-number-of-string-pairs/description/",
 		difficulty = Difficulty.EASY
 )
-public class FindMaximumNumberOfStringPairs
-{
-	public int maximumNumberOfStringPairs(String[] words)
-	{
+public class FindMaximumNumberOfStringPairs {
+	public int maximumNumberOfStringPairs(String[] words) {
 		Set<String> rev = new HashSet<>();
 		int count = 0;
-		for (String w : words)
-		{
+		for (String w : words) {
 			String r = new StringBuilder(w).reverse().toString();
-			if (rev.contains(w))
-			{
+			if (rev.contains(w)) {
 				count++;
 				rev.remove(w);
 			}
-			else
-			{
+			else {
 				rev.add(r);
 			}
 		}

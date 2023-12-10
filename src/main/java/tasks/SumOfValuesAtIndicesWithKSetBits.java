@@ -15,15 +15,11 @@ import java.util.List;
 		url = "https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/",
 		difficulty = Difficulty.EASY
 )
-public class SumOfValuesAtIndicesWithKSetBits
-{
-	public int sumIndicesWithKSetBits(List<Integer> nums, int k)
-	{
+public class SumOfValuesAtIndicesWithKSetBits {
+	public int sumIndicesWithKSetBits(List<Integer> nums, int k) {
 		int sum = 0;
-		for (int i = 0; i < nums.size(); i++)
-		{
-			if (Integer.bitCount(i) == k)
-			{
+		for (int i = 0; i < nums.size(); i++) {
+			if (Integer.bitCount(i) == k) {
 				sum += nums.get(i);
 			}
 		}

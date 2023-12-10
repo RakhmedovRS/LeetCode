@@ -16,30 +16,24 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/find-palindrome-with-fixed-length/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindPalindromeWithFixedLength
-{
-	public long[] kthPalindrome(int[] queries, int intLength)
-	{
+public class FindPalindromeWithFixedLength {
+	public long[] kthPalindrome(int[] queries, int intLength) {
 		long[] answer = new long[queries.length];
 		Arrays.fill(answer, -1);
 		PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) ->
 		{
-			if (queries[a] == queries[b])
-			{
+			if (queries[a] == queries[b]) {
 				return a - b;
 			}
 			return queries[a] - queries[b];
 		});
 
-		for (int i = 0; i < queries.length; i++)
-		{
+		for (int i = 0; i < queries.length; i++) {
 			pq.add(i);
 		}
 
-		if (intLength == 1)
-		{
-			while (!pq.isEmpty() && queries[pq.peek()] <= 9)
-			{
+		if (intLength == 1) {
+			while (!pq.isEmpty() && queries[pq.peek()] <= 9) {
 				int pos = pq.remove();
 				answer[pos] = queries[pos];
 			}
@@ -48,32 +42,27 @@ public class FindPalindromeWithFixedLength
 		}
 
 		int startNumber = 1;
-		for (int i = 0; i < intLength / 2 - (intLength % 2 == 0 ? 1 : 0); i++)
-		{
+		for (int i = 0; i < intLength / 2 - (intLength % 2 == 0 ? 1 : 0); i++) {
 			startNumber *= 10;
 		}
 
 		int currentNumber = startNumber;
 		int iteration = 1;
-		while (!pq.isEmpty() && currentNumber <= startNumber * 10 - 1)
-		{
+		while (!pq.isEmpty() && currentNumber <= startNumber * 10 - 1) {
 
-			if (currentNumber < queries[pq.peek()])
-			{
+			if (currentNumber < queries[pq.peek()]) {
 				int diff = queries[pq.peek()] - currentNumber;
 				iteration += diff;
 				currentNumber += diff;
 				continue;
 			}
 
-			if (iteration == queries[pq.peek()])
-			{
+			if (iteration == queries[pq.peek()]) {
 				int index = pq.remove();
 
 				answer[index] = createNumber(currentNumber, intLength);
 
-				while (!pq.isEmpty() && queries[pq.peek()] == queries[index])
-				{
+				while (!pq.isEmpty() && queries[pq.peek()] == queries[index]) {
 					answer[pq.remove()] = answer[index];
 				}
 			}
@@ -85,16 +74,13 @@ public class FindPalindromeWithFixedLength
 		return answer;
 	}
 
-	private long createNumber(int num, int intLength)
-	{
+	private long createNumber(int num, int intLength) {
 		long result = num;
-		if (intLength % 2 != 0)
-		{
+		if (intLength % 2 != 0) {
 			num /= 10;
 		}
 
-		while (num > 0)
-		{
+		while (num > 0) {
 			result *= 10;
 			result += num % 10;
 			num /= 10;

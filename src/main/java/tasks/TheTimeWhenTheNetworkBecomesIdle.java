@@ -15,13 +15,10 @@ import java.util.*;
 		url = "https://leetcode.com/problems/the-time-when-the-network-becomes-idle/",
 		difficulty = Difficulty.MEDIUM
 )
-public class TheTimeWhenTheNetworkBecomesIdle
-{
-	public int networkBecomesIdle(int[][] edges, int[] patience)
-	{
+public class TheTimeWhenTheNetworkBecomesIdle {
+	public int networkBecomesIdle(int[][] edges, int[] patience) {
 		Map<Integer, List<Integer>> graph = new HashMap<>();
-		for (int[] edge : edges)
-		{
+		for (int[] edge : edges) {
 			int nodeA = edge[0];
 			int nodeB = edge[1];
 
@@ -40,14 +37,11 @@ public class TheTimeWhenTheNetworkBecomesIdle
 		Queue<Integer> queue = new LinkedList<>();
 		queue.add(0);
 
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			size = queue.size();
-			while (size-- > 0)
-			{
+			while (size-- > 0) {
 				int node = queue.remove();
-				if (shortest[node] <= steps)
-				{
+				if (shortest[node] <= steps) {
 					continue;
 				}
 
@@ -60,8 +54,7 @@ public class TheTimeWhenTheNetworkBecomesIdle
 		}
 
 		int max = 0;
-		for (int i = 1; i < patience.length; i++)
-		{
+		for (int i = 1; i < patience.length; i++) {
 			int distance = shortest[i] * 2;
 			int messages = distance / patience[i] - (distance % patience[i] == 0 ? 1 : 0);
 			max = Math.max(max, messages * patience[i] + distance);

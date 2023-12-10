@@ -13,14 +13,10 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/smallest-even-multiple/",
 		difficulty = Difficulty.EASY
 )
-public class SmallestEvenMultiple
-{
-	public int smallestEvenMultiple(int n)
-	{
-		for (int i = 1; i < Integer.MAX_VALUE; i++)
-		{
-			if (i % 2 == 0 && i % n == 0)
-			{
+public class SmallestEvenMultiple {
+	public int smallestEvenMultiple(int n) {
+		for (int i = 1; i < Integer.MAX_VALUE; i++) {
+			if (i % 2 == 0 && i % n == 0) {
 				return i;
 			}
 		}

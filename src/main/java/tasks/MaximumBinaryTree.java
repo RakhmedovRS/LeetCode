@@ -14,18 +14,14 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/maximum-binary-tree/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumBinaryTree
-{
-	public TreeNode constructMaximumBinaryTree(int[] nums)
-	{
+public class MaximumBinaryTree {
+	public TreeNode constructMaximumBinaryTree(int[] nums) {
 		return constructMaximumBinaryTree(nums, 0, nums.length - 1);
 	}
 
-	public TreeNode constructMaximumBinaryTree(int[] nums, int left, int right)
-	{
+	public TreeNode constructMaximumBinaryTree(int[] nums, int left, int right) {
 		int index = findMaxIndex(nums, left, right);
-		if (index == -1)
-		{
+		if (index == -1) {
 			return null;
 		}
 
@@ -35,23 +31,18 @@ public class MaximumBinaryTree
 		return node;
 	}
 
-	private int findMaxIndex(int[] nums, int left, int right)
-	{
-		if (left == right)
-		{
+	private int findMaxIndex(int[] nums, int left, int right) {
+		if (left == right) {
 			return left;
 		}
 
-		if (left > right)
-		{
+		if (left > right) {
 			return -1;
 		}
 
 		int idx = left;
-		for (int i = left; i <= right; i++)
-		{
-			if (nums[i] > nums[idx])
-			{
+		for (int i = left; i <= right; i++) {
+			if (nums[i] > nums[idx]) {
 				idx = i;
 			}
 		}

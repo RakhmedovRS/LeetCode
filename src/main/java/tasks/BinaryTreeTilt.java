@@ -14,19 +14,15 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/binary-tree-tilt/",
 		difficulty = Difficulty.EASY
 )
-public class BinaryTreeTilt
-{
-	public int findTilt(TreeNode root)
-	{
+public class BinaryTreeTilt {
+	public int findTilt(TreeNode root) {
 		int[] answer = new int[]{0};
 		findTilt(root, answer);
 		return answer[0];
 	}
 
-	public int findTilt(TreeNode root, int[] answer)
-	{
-		if (root == null)
-		{
+	public int findTilt(TreeNode root, int[] answer) {
+		if (root == null) {
 			return 0;
 		}
 

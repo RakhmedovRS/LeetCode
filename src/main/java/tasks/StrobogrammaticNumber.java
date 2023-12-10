@@ -14,10 +14,8 @@ import common.LeetCode;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class StrobogrammaticNumber
-{
-	public boolean isStrobogrammatic(String num)
-	{
+public class StrobogrammaticNumber {
+	public boolean isStrobogrammatic(String num) {
 		int left = 0;
 		int right = num.length() - 1;
 		char leftChar;
@@ -29,13 +27,10 @@ public class StrobogrammaticNumber
 		invalid[5] = true;
 		invalid[7] = true;
 
-		while (left <= right)
-		{
-			if (left == right)
-			{
+		while (left <= right) {
+			if (left == right) {
 				leftChar = num.charAt(left++);
-				if (leftChar == '6' || leftChar == '9' || invalid[leftChar - '0'])
-				{
+				if (leftChar == '6' || leftChar == '9' || invalid[leftChar - '0']) {
 					return false;
 				}
 				continue;
@@ -44,31 +39,25 @@ public class StrobogrammaticNumber
 			leftChar = num.charAt(left++);
 			rightChar = num.charAt(right--);
 
-			if (invalid[leftChar - '0'] || invalid[rightChar - '0'])
-			{
+			if (invalid[leftChar - '0'] || invalid[rightChar - '0']) {
 				return false;
 			}
 
-			if (leftChar == '6')
-			{
-				if (rightChar != '9')
-				{
+			if (leftChar == '6') {
+				if (rightChar != '9') {
 					return false;
 				}
 				continue;
 			}
 
-			if (leftChar == '9')
-			{
-				if (rightChar != '6')
-				{
+			if (leftChar == '9') {
+				if (rightChar != '6') {
 					return false;
 				}
 				continue;
 			}
 
-			if (leftChar != rightChar)
-			{
+			if (leftChar != rightChar) {
 				return false;
 			}
 		}

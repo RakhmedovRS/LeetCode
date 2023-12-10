@@ -16,19 +16,14 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/dot-product-of-two-sparse-vectors/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DotProductOfTwoSparseVectors
-{
-	class SparseVector
-	{
+public class DotProductOfTwoSparseVectors {
+	class SparseVector {
 		Map<Integer, Integer> positions;
 
-		SparseVector(int[] nums)
-		{
+		SparseVector(int[] nums) {
 			positions = new HashMap<>();
-			for (int i = 0; i < nums.length; i++)
-			{
-				if (nums[i] != 0)
-				{
+			for (int i = 0; i < nums.length; i++) {
+				if (nums[i] != 0) {
 					positions.put(i, nums[i]);
 				}
 			}
@@ -36,20 +31,17 @@ public class DotProductOfTwoSparseVectors
 		}
 
 		// Return the dotProduct of two sparse vectors
-		public int dotProduct(SparseVector vec)
-		{
+		public int dotProduct(SparseVector vec) {
 			int result = 0;
 			Map<Integer, Integer> vecPositions = vec.getPositions();
-			for (Map.Entry<Integer, Integer> entry : positions.entrySet())
-			{
+			for (Map.Entry<Integer, Integer> entry : positions.entrySet()) {
 				result += entry.getValue() * vecPositions.getOrDefault(entry.getKey(), 0);
 			}
 
 			return result;
 		}
 
-		public Map<Integer, Integer> getPositions()
-		{
+		public Map<Integer, Integer> getPositions() {
 			return positions;
 		}
 	}

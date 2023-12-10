@@ -16,20 +16,15 @@ import java.util.List;
 		url = "https://leetcode.com/problems/split-strings-by-separator/",
 		difficulty = Difficulty.EASY
 )
-public class SplitStringsBySeparator
-{
-	public List<String> splitWordsBySeparator(List<String> words, char separator)
-	{
+public class SplitStringsBySeparator {
+	public List<String> splitWordsBySeparator(List<String> words, char separator) {
 		List<String> an = new ArrayList<>();
 		StringBuilder sb = new StringBuilder();
 		sb.append("\\");
 		sb.append(separator);
-		for (String s : words)
-		{
-			for (String ss : s.split(sb.toString()))
-			{
-				if (!ss.isEmpty())
-				{
+		for (String s : words) {
+			for (String ss : s.split(sb.toString())) {
+				if (!ss.isEmpty()) {
 					an.add(ss);
 				}
 			}

@@ -17,16 +17,13 @@ import java.util.List;
 		url = "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
 		difficulty = Difficulty.MEDIUM
 )
-public class RemoveNthNodeFromEndOfList
-{
-	public ListNode removeNthFromEnd(ListNode head, int n)
-	{
+public class RemoveNthNodeFromEndOfList {
+	public ListNode removeNthFromEnd(ListNode head, int n) {
 		List<ListNode> list = new ArrayList<>();
 		list.add(new ListNode());
 		list.get(0).next = head;
 
-		while (head != null)
-		{
+		while (head != null) {
 			list.add(head);
 			head = head.next;
 		}
@@ -36,8 +33,7 @@ public class RemoveNthNodeFromEndOfList
 		return list.get(0).next;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		ListNode head = new ListNode(1);
 		head.next = new ListNode(2);
 		head.next.next = new ListNode(3);

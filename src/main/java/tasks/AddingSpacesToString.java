@@ -16,21 +16,16 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/adding-spaces-to-a-string/",
 		difficulty = Difficulty.MEDIUM
 )
-public class AddingSpacesToString
-{
-	public String addSpaces(String s, int[] spaces)
-	{
+public class AddingSpacesToString {
+	public String addSpaces(String s, int[] spaces) {
 		StringBuilder sb = new StringBuilder();
 		Set<Integer> set = new HashSet<>();
-		for (int i : spaces)
-		{
+		for (int i : spaces) {
 			set.add(i);
 		}
 
-		for (int i = 0; i < s.length(); i++)
-		{
-			if (set.contains(i))
-			{
+		for (int i = 0; i < s.length(); i++) {
+			if (set.contains(i)) {
 				sb.append(" ");
 			}
 			sb.append(s.charAt(i));

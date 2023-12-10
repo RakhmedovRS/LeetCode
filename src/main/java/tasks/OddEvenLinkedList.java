@@ -14,12 +14,9 @@ import common.ListNode;
 		url = "https://leetcode.com/problems/odd-even-linked-list/",
 		difficulty = Difficulty.MEDIUM
 )
-public class OddEvenLinkedList
-{
-	public ListNode oddEvenList(ListNode head)
-	{
-		if (head == null || head.next == null)
-		{
+public class OddEvenLinkedList {
+	public ListNode oddEvenList(ListNode head) {
+		if (head == null || head.next == null) {
 			return head;
 		}
 
@@ -29,17 +26,14 @@ public class OddEvenLinkedList
 		boolean isOdd = true;
 		ListNode odd = dummyOdd;
 		ListNode even = dummyEven;
-		while (head != null)
-		{
-			if (isOdd)
-			{
+		while (head != null) {
+			if (isOdd) {
 				odd.next = head;
 				odd = odd.next;
 				head = head.next;
 				odd.next = null;
 			}
-			else
-			{
+			else {
 				even.next = head;
 				even = even.next;
 				head = head.next;

@@ -15,18 +15,14 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/partition-to-k-equal-sum-subsets/",
 		difficulty = Difficulty.MEDIUM
 )
-public class PartitionToKEqualSumSubsets
-{
-	public boolean canPartitionKSubsets(int[] nums, int k)
-	{
-		if (k == 0)
-		{
+public class PartitionToKEqualSumSubsets {
+	public boolean canPartitionKSubsets(int[] nums, int k) {
+		if (k == 0) {
 			return false;
 		}
 
 		int sum = Arrays.stream(nums).sum();
-		if (sum % k != 0)
-		{
+		if (sum % k != 0) {
 			return false;
 		}
 
@@ -34,25 +30,19 @@ public class PartitionToKEqualSumSubsets
 	}
 
 	private boolean canPartitionKSubsets(int start, int[] arr, boolean[] used,
-										 int k, int currentSum, int targetSum)
-	{
-		if (k == 0)
-		{
+										 int k, int currentSum, int targetSum) {
+		if (k == 0) {
 			return true;
 		}
 
-		if (currentSum == targetSum)
-		{
+		if (currentSum == targetSum) {
 			return canPartitionKSubsets(0, arr, used, k - 1, 0, targetSum);
 		}
 
-		for (int i = start; i < arr.length; i++)
-		{
-			if (!used[i] && currentSum + arr[i] <= targetSum)
-			{
+		for (int i = start; i < arr.length; i++) {
+			if (!used[i] && currentSum + arr[i] <= targetSum) {
 				used[i] = true;
-				if (canPartitionKSubsets(i + 1, arr, used, k, currentSum + arr[i], targetSum))
-				{
+				if (canPartitionKSubsets(i + 1, arr, used, k, currentSum + arr[i], targetSum)) {
 					return true;
 				}
 				used[i] = false;

@@ -15,19 +15,15 @@ import java.util.*;
 		url = "https://leetcode.com/problems/online-election/",
 		difficulty = Difficulty.MEDIUM
 )
-public class OnlineElection
-{
-	class TopVotedCandidate
-	{
+public class OnlineElection {
+	class TopVotedCandidate {
 		TreeMap<Integer, Integer> table;
 
-		public TopVotedCandidate(int[] persons, int[] times)
-		{
+		public TopVotedCandidate(int[] persons, int[] times) {
 			table = new TreeMap<>();
 
 			Map<Integer, LinkedList<Integer>> map = new HashMap<>();
-			for (int i = 0; i < times.length; i++)
-			{
+			for (int i = 0; i < times.length; i++) {
 				map.putIfAbsent(persons[i], new LinkedList<>());
 				map.get(persons[i]).addLast(times[i]);
 			}
@@ -41,28 +37,24 @@ public class OnlineElection
 			int time;
 			int max = 0;
 			int votes;
-			while (!pq.isEmpty())
-			{
+			while (!pq.isEmpty()) {
 				candidate = pq.remove();
 				current = map.get(candidate);
 				time = current.removeFirst();
 				counts.put(candidate, counts.getOrDefault(candidate, 0) + 1);
 				votes = counts.get(candidate);
-				if (votes >= max)
-				{
+				if (votes >= max) {
 					table.put(time, candidate);
 					max = votes;
 				}
 
-				if (!current.isEmpty())
-				{
+				if (!current.isEmpty()) {
 					pq.add(candidate);
 				}
 			}
 		}
 
-		public int q(int t)
-		{
+		public int q(int t) {
 			return table.floorEntry(t).getValue();
 		}
 	}

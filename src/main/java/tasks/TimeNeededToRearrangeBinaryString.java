@@ -15,21 +15,16 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/",
 		difficulty = Difficulty.MEDIUM
 )
-public class TimeNeededToRearrangeBinaryString
-{
-	public int secondsToRemoveOccurrences(String s)
-	{
+public class TimeNeededToRearrangeBinaryString {
+	public int secondsToRemoveOccurrences(String s) {
 		return secondsToRemoveOccurrences(s.toCharArray());
 	}
 
-	public int secondsToRemoveOccurrences(char[] chars)
-	{
+	public int secondsToRemoveOccurrences(char[] chars) {
 		boolean seen = false;
 
-		for (int i = chars.length - 1; i > 0; i--)
-		{
-			if (chars[i - 1] == '0' && chars[i] == '1')
-			{
+		for (int i = chars.length - 1; i > 0; i--) {
+			if (chars[i - 1] == '0' && chars[i] == '1') {
 				seen = true;
 				chars[i - 1] = '1';
 				chars[i] = '0';
@@ -37,8 +32,7 @@ public class TimeNeededToRearrangeBinaryString
 			}
 		}
 
-		if (seen)
-		{
+		if (seen) {
 			return 1 + secondsToRemoveOccurrences(chars);
 		}
 

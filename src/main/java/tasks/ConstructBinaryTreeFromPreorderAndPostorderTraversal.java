@@ -14,22 +14,17 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ConstructBinaryTreeFromPreorderAndPostorderTraversal
-{
-	public TreeNode constructFromPrePost(int[] pre, int[] post)
-	{
+public class ConstructBinaryTreeFromPreorderAndPostorderTraversal {
+	public TreeNode constructFromPrePost(int[] pre, int[] post) {
 		return constructFromPrePost(pre, new int[]{0}, post, new int[]{0});
 	}
 
-	public TreeNode constructFromPrePost(int[] pre, int[] prePos, int[] post, int[] postPos)
-	{
+	public TreeNode constructFromPrePost(int[] pre, int[] prePos, int[] post, int[] postPos) {
 		TreeNode root = new TreeNode(pre[prePos[0]++]);
-		if (root.val != post[postPos[0]])
-		{
+		if (root.val != post[postPos[0]]) {
 			root.left = constructFromPrePost(pre, prePos, post, postPos);
 		}
-		if (root.val != post[postPos[0]])
-		{
+		if (root.val != post[postPos[0]]) {
 			root.right = constructFromPrePost(pre, prePos, post, postPos);
 		}
 		postPos[0]++;
@@ -37,8 +32,7 @@ public class ConstructBinaryTreeFromPreorderAndPostorderTraversal
 		return root;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		TreeNode root = new ConstructBinaryTreeFromPreorderAndPostorderTraversal().constructFromPrePost(new int[]{1, 2, 4, 5, 3, 6, 7},
 				new int[]{4, 5, 2, 6, 7, 3, 1});
 

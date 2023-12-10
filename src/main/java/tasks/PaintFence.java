@@ -14,21 +14,16 @@ import common.LeetCode;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class PaintFence
-{
-	public int numWays(int n, int k)
-	{
-		if (n == 0 || k == 0)
-		{
+public class PaintFence {
+	public int numWays(int n, int k) {
+		if (n == 0 || k == 0) {
 			return 0;
 		}
 
-		if (n == 1)
-		{
+		if (n == 1) {
 			return k;
 		}
-		else if (n == 2)
-		{
+		else if (n == 2) {
 			return k * k;
 		}
 
@@ -36,8 +31,7 @@ public class PaintFence
 		memo[0] = 0;
 		memo[1] = k;
 		memo[2] = k * k;
-		for (int i = 3; i <= n; i++)
-		{
+		for (int i = 3; i <= n; i++) {
 			memo[i] = (memo[i - 2] + memo[i - 1]) * (k - 1);
 		}
 

@@ -16,10 +16,8 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/roman-to-integer/",
 		difficulty = Difficulty.EASY
 )
-public class RomanToInteger
-{
-	public int romanToInt(String s)
-	{
+public class RomanToInteger {
+	public int romanToInt(String s) {
 		Map<Character, Integer> map = new HashMap<>();
 		map.put('I', 1);
 		map.put('V', 5);
@@ -31,20 +29,16 @@ public class RomanToInteger
 
 		int number = 0;
 		char[] chars = s.toCharArray();
-		for (int i = 0; i < chars.length; )
-		{
-			if (i + 1 < chars.length && map.get(chars[i]) < map.get(chars[i + 1]))
-			{
+		for (int i = 0; i < chars.length; ) {
+			if (i + 1 < chars.length && map.get(chars[i]) < map.get(chars[i + 1])) {
 				number += map.get(chars[i + 1]) - map.get(chars[i]);
 				i += 2;
 			}
-			else if (i + 2 < chars.length && chars[i] == 'I' && chars[i + 1] == 'I' && chars[i + 2] == 'I')
-			{
+			else if (i + 2 < chars.length && chars[i] == 'I' && chars[i + 1] == 'I' && chars[i + 2] == 'I') {
 				number += 3;
 				i += 3;
 			}
-			else
-			{
+			else {
 				number += map.get(chars[i]);
 				i++;
 			}

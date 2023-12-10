@@ -15,15 +15,11 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/remove-element/",
 		difficulty = Difficulty.EASY
 )
-public class RemoveElement
-{
-	public int removeElement(int[] nums, int val)
-	{
+public class RemoveElement {
+	public int removeElement(int[] nums, int val) {
 		int i = 0;
-		for (int j = 0; j < nums.length; j++)
-		{
-			if (nums[j] != val)
-			{
+		for (int j = 0; j < nums.length; j++) {
+			if (nums[j] != val) {
 				nums[i++] = nums[j];
 			}
 		}
@@ -31,8 +27,7 @@ public class RemoveElement
 		return i;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		int[] arr = new int[]{3, 2, 2, 3};
 		int pos = new RemoveElement().removeElement(arr, 3);
 		System.out.println(Arrays.toString(Arrays.copyOf(arr, pos)));

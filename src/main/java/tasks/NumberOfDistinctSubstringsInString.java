@@ -3,9 +3,6 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.HashSet;
-import java.util.Set;
-
 /**
  * @author RakhmedovRS
  * @created 1/2/2021
@@ -17,26 +14,20 @@ import java.util.Set;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class NumberOfDistinctSubstringsInString
-{
-	class Trie
-	{
+public class NumberOfDistinctSubstringsInString {
+	class Trie {
 		Trie[] children = new Trie[26];
 	}
 
-	public int countDistinct(String s)
-	{
+	public int countDistinct(String s) {
 		Trie root = new Trie();
 		Trie current;
 		int count = 0;
-		for (int i = 0; i < s.length(); i++)
-		{
+		for (int i = 0; i < s.length(); i++) {
 			current = root;
-			for (int j = i; j < s.length(); j++)
-			{
+			for (int j = i; j < s.length(); j++) {
 
-				if (current.children[s.charAt(j) - 'a'] == null)
-				{
+				if (current.children[s.charAt(j) - 'a'] == null) {
 					current.children[s.charAt(j) - 'a'] = new Trie();
 					count++;
 				}

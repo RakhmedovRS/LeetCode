@@ -13,8 +13,7 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/remove-adjacent-almost-equal-characters/",
 		difficulty = Difficulty.MEDIUM
 )
-public class RemoveAdjacentAlmostEqualCharacters
-{
+public class RemoveAdjacentAlmostEqualCharacters {
 	public int removeAlmostEqualCharacters(String word) {
 		char[] charsA = word.toCharArray();
 		char[] charsB = word.toCharArray();

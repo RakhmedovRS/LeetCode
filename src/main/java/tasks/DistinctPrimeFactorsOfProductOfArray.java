@@ -16,23 +16,17 @@ import java.util.TreeSet;
 		url = "https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DistinctPrimeFactorsOfProductOfArray
-{
-	public int[] closestPrimes(int left, int right)
-	{
+public class DistinctPrimeFactorsOfProductOfArray {
+	public int[] closestPrimes(int left, int right) {
 		TreeSet<Integer> primes = new TreeSet<>(Arrays.asList(2, 3, 5, 7, 11));
 		outer:
-		for (int i = 12; i <= right; i++)
-		{
-			if (i % 2 == 0 || i % 3 == 0 || i % 5 == 0 || i % 7 == 0)
-			{
+		for (int i = 12; i <= right; i++) {
+			if (i % 2 == 0 || i % 3 == 0 || i % 5 == 0 || i % 7 == 0) {
 				continue;
 			}
 
-			for (int prime : primes)
-			{
-				if (prime % i == 0 || i % prime == 0)
-				{
+			for (int prime : primes) {
+				if (prime % i == 0 || i % prime == 0) {
 					continue outer;
 				}
 			}
@@ -44,12 +38,9 @@ public class DistinctPrimeFactorsOfProductOfArray
 		int l = -1;
 		int r = -1;
 		Integer prev = null;
-		for (int val : primes.subSet(left, true, right, true))
-		{
-			if (prev != null)
-			{
-				if (val - prev < diff)
-				{
+		for (int val : primes.subSet(left, true, right, true)) {
+			if (prev != null) {
+				if (val - prev < diff) {
 					diff = val - prev;
 					l = prev;
 					r = val;

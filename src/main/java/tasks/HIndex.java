@@ -15,20 +15,15 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/h-index/",
 		difficulty = Difficulty.MEDIUM
 )
-public class HIndex
-{
-	public int hIndex(int[] citations)
-	{
+public class HIndex {
+	public int hIndex(int[] citations) {
 		Arrays.sort(citations);
 		int count = 0;
-		for (int i = citations.length - 1; i >= 0; i--)
-		{
-			if (citations[i] > count)
-			{
+		for (int i = citations.length - 1; i >= 0; i--) {
+			if (citations[i] > count) {
 				count++;
 			}
-			else
-			{
+			else {
 				break;
 			}
 		}

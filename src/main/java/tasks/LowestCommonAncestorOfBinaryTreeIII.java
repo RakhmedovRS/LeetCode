@@ -17,29 +17,23 @@ import java.util.Set;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class LowestCommonAncestorOfBinaryTreeIII
-{
-	class Node
-	{
+public class LowestCommonAncestorOfBinaryTreeIII {
+	class Node {
 		public int val;
 		public Node left;
 		public Node right;
 		public Node parent;
 	}
 
-	public Node lowestCommonAncestor(Node p, Node q)
-	{
+	public Node lowestCommonAncestor(Node p, Node q) {
 		Set<Node> visited = new HashSet<>();
-		while (p != null)
-		{
+		while (p != null) {
 			visited.add(p);
 			p = p.parent;
 		}
 
-		while (q != null)
-		{
-			if (!visited.add(q))
-			{
+		while (q != null) {
+			if (!visited.add(q)) {
 				return q;
 			}
 

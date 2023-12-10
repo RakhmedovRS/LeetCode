@@ -16,15 +16,12 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/number-of-ways-to-earn-points/",
 		difficulty = Difficulty.HARD
 )
-public class NumberOfWaysToEarnPoints
-{
+public class NumberOfWaysToEarnPoints {
 	int MOD = 1_000_000_007;
 
-	public int waysToReachTarget(int target, int[][] types)
-	{
+	public int waysToReachTarget(int target, int[][] types) {
 		Map<Integer, Integer>[] map = new HashMap[types.length];
-		for (int i = 0; i < types.length; i++)
-		{
+		for (int i = 0; i < types.length; i++) {
 			map[i] = new HashMap<>();
 		}
 
@@ -33,20 +30,16 @@ public class NumberOfWaysToEarnPoints
 		return res;
 	}
 
-	private int dfs(int typePos, int target, int[][] types, Map<Integer, Integer>[] map)
-	{
-		if (target == 0)
-		{
+	private int dfs(int typePos, int target, int[][] types, Map<Integer, Integer>[] map) {
+		if (target == 0) {
 			return 1;
 		}
 
-		if (typePos >= types.length || target < 0)
-		{
+		if (typePos >= types.length || target < 0) {
 			return 0;
 		}
 
-		if (map[typePos].containsKey(target))
-		{
+		if (map[typePos].containsKey(target)) {
 			return map[typePos].get(target);
 		}
 
@@ -55,8 +48,7 @@ public class NumberOfWaysToEarnPoints
 		int count = type[0];
 		int cost = type[1];
 		int t = target;
-		while (count-- > 0)
-		{
+		while (count-- > 0) {
 			t -= cost;
 			res = (res + dfs(typePos + 1, t, types, map)) % MOD;
 		}

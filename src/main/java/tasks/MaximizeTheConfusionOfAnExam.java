@@ -13,26 +13,20 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximize-the-confusion-of-an-exam/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximizeTheConfusionOfAnExam
-{
-	public int maxConsecutiveAnswers(String answerKey, int k)
-	{
+public class MaximizeTheConfusionOfAnExam {
+	public int maxConsecutiveAnswers(String answerKey, int k) {
 		int max = 0;
 		int left = 0;
 		int right = 0;
 		char[] chars = answerKey.toCharArray();
 		int miss = 0;
-		while (right < chars.length)
-		{
-			if (chars[right++] == 'T')
-			{
+		while (right < chars.length) {
+			if (chars[right++] == 'T') {
 				miss++;
 			}
 
-			while (miss > k)
-			{
-				if (chars[left++] == 'T')
-				{
+			while (miss > k) {
+				if (chars[left++] == 'T') {
 					miss--;
 				}
 			}
@@ -43,17 +37,13 @@ public class MaximizeTheConfusionOfAnExam
 		left = 0;
 		right = 0;
 		miss = 0;
-		while (right < chars.length)
-		{
-			if (chars[right++] == 'F')
-			{
+		while (right < chars.length) {
+			if (chars[right++] == 'F') {
 				miss++;
 			}
 
-			while (miss > k)
-			{
-				if (chars[left++] == 'F')
-				{
+			while (miss > k) {
+				if (chars[left++] == 'F') {
 					miss--;
 				}
 			}

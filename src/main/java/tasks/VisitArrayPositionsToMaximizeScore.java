@@ -13,28 +13,22 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/visit-array-positions-to-maximize-score/",
 		difficulty = Difficulty.MEDIUM
 )
-public class VisitArrayPositionsToMaximizeScore
-{
-	public long maxScore(int[] nums, int x)
-	{
+public class VisitArrayPositionsToMaximizeScore {
+	public long maxScore(int[] nums, int x) {
 		long[] e = new long[nums.length];
 		long[] o = new long[nums.length];
 		long sum = 0;
-		for (int i = e.length - 1; i >= 0; i--)
-		{
+		for (int i = e.length - 1; i >= 0; i--) {
 			e[i] = sum;
-			if (nums[i] % 2 == 0)
-			{
+			if (nums[i] % 2 == 0) {
 				sum += nums[i];
 			}
 		}
 
 		sum = 0;
-		for (int i = o.length - 1; i >= 0; i--)
-		{
+		for (int i = o.length - 1; i >= 0; i--) {
 			o[i] = sum;
-			if (nums[i] % 2 != 0)
-			{
+			if (nums[i] % 2 != 0) {
 				sum += nums[i];
 			}
 		}
@@ -44,12 +38,9 @@ public class VisitArrayPositionsToMaximizeScore
 		long odd = 0;
 		boolean seenEven = false;
 		boolean seenOdd = false;
-		for (int i = 0; i < nums.length; i++)
-		{
-			if (nums[i] % 2 == 0)
-			{
-				if (nums[0] % 2 != 0 && !seenEven)
-				{
+		for (int i = 0; i < nums.length; i++) {
+			if (nums[i] % 2 == 0) {
+				if (nums[0] % 2 != 0 && !seenEven) {
 					even = odd - x;
 				}
 
@@ -58,10 +49,8 @@ public class VisitArrayPositionsToMaximizeScore
 				max = Math.max(max, even + o[i] - x);
 				seenEven = true;
 			}
-			else
-			{
-				if (nums[0] % 2 == 0 && !seenOdd)
-				{
+			else {
+				if (nums[0] % 2 == 0 && !seenOdd) {
 					odd = even - x;
 				}
 

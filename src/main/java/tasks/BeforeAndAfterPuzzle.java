@@ -3,7 +3,9 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.TreeSet;
 
 /**
  * @author RakhmedovRS
@@ -16,36 +18,28 @@ import java.util.*;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class BeforeAndAfterPuzzle
-{
-	public List<String> beforeAndAfterPuzzles(String[] phrases)
-	{
+public class BeforeAndAfterPuzzle {
+	public List<String> beforeAndAfterPuzzles(String[] phrases) {
 		TreeSet<String> answer = new TreeSet<>();
 		String a;
 		String b;
 		String[] aParts;
 		String[] bParts;
-		for (int i = 0; i < phrases.length; i++)
-		{
+		for (int i = 0; i < phrases.length; i++) {
 			a = phrases[i];
 			aParts = a.split(" ");
-			for (int j = 0; j < phrases.length; j++)
-			{
-				if (i != j)
-				{
+			for (int j = 0; j < phrases.length; j++) {
+				if (i != j) {
 					b = phrases[j];
 					bParts = b.split(" ");
 
-					if (aParts[aParts.length - 1].equals(bParts[0]))
-					{
+					if (aParts[aParts.length - 1].equals(bParts[0])) {
 						List<String> list = new ArrayList<>();
-						for (int x = 0; x < aParts.length - 1; x++)
-						{
+						for (int x = 0; x < aParts.length - 1; x++) {
 							list.add(aParts[x]);
 						}
 
-						for (String bPart : bParts)
-						{
+						for (String bPart : bParts) {
 							list.add(bPart);
 						}
 
@@ -58,8 +52,7 @@ public class BeforeAndAfterPuzzle
 		return new ArrayList<>(answer);
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		BeforeAndAfterPuzzle clazz = new BeforeAndAfterPuzzle();
 
 		System.out.println(clazz.beforeAndAfterPuzzles(new String[]

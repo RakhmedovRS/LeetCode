@@ -14,22 +14,17 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class LargestSubarrayLengthK
-{
-	public int[] largestSubarray(int[] nums, int k)
-	{
+public class LargestSubarrayLengthK {
+	public int[] largestSubarray(int[] nums, int k) {
 		int maxPos = 0;
-		for (int i = 0; i <= nums.length - k; i++)
-		{
-			if (nums[i] > nums[maxPos])
-			{
+		for (int i = 0; i <= nums.length - k; i++) {
+			if (nums[i] > nums[maxPos]) {
 				maxPos = i;
 			}
 		}
 
 		int[] answer = new int[k];
-		for (int i = 0; i < k; i++)
-		{
+		for (int i = 0; i < k; i++) {
 			answer[i] = nums[maxPos++];
 		}
 

@@ -13,23 +13,17 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/",
 		difficulty = Difficulty.MEDIUM
 )
-public class NumberOfSubarraysWithGCDEqualToK
-{
-	public int subarrayGCD(int[] nums, int k)
-	{
+public class NumberOfSubarraysWithGCDEqualToK {
+	public int subarrayGCD(int[] nums, int k) {
 		int answer = 0;
-		for (int i = 0; i < nums.length; i++)
-		{
-			if (nums[i] == k)
-			{
+		for (int i = 0; i < nums.length; i++) {
+			if (nums[i] == k) {
 				answer++;
 			}
 			int gcd = nums[i];
-			for (int j = i + 1; j < nums.length; j++)
-			{
+			for (int j = i + 1; j < nums.length; j++) {
 				gcd = gcd(gcd, nums[j]);
-				if (gcd == k)
-				{
+				if (gcd == k) {
 					answer++;
 				}
 			}
@@ -38,10 +32,8 @@ public class NumberOfSubarraysWithGCDEqualToK
 		return answer;
 	}
 
-	private int gcd(int x, int y)
-	{
-		if (y == 0)
-		{
+	private int gcd(int x, int y) {
+		if (y == 0) {
 			return x;
 		}
 		return gcd(y, x % y);

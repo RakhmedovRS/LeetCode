@@ -13,25 +13,19 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/number-of-even-and-odd-bits/",
 		difficulty = Difficulty.EASY
 )
-public class NumbeOfEvenAndOddBits
-{
-	public int[] evenOddBit(int n)
-	{
+public class NumbeOfEvenAndOddBits {
+	public int[] evenOddBit(int n) {
 		int even = 0;
 		int odd = 0;
 
 		boolean ev = true;
 		String bits = Integer.toBinaryString(n);
-		for (int i = bits.length() - 1; i >= 0; i--)
-		{
-			if (bits.charAt(i) == '1')
-			{
-				if (ev)
-				{
+		for (int i = bits.length() - 1; i >= 0; i--) {
+			if (bits.charAt(i) == '1') {
+				if (ev) {
 					even++;
 				}
-				else
-				{
+				else {
 					odd++;
 				}
 			}

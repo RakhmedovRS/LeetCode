@@ -11,19 +11,15 @@ import java.util.List;
  * @created 14-Jul-20
  */
 @LeetCode(id = 655, name = "Print Binary Tree", url = "https://leetcode.com/problems/print-binary-tree/")
-public class PrintBinaryTree
-{
-	public List<List<String>> printTree(TreeNode root)
-	{
+public class PrintBinaryTree {
+	public List<List<String>> printTree(TreeNode root) {
 		int maxDepth = getMaxDepth(root);
 
 		List<List<String>> levels = new ArrayList<>();
 		int levelSize = (int) Math.pow(2, maxDepth) - 1;
-		for (int i = 0; i < maxDepth; i++)
-		{
+		for (int i = 0; i < maxDepth; i++) {
 			List<String> level = new ArrayList<>();
-			for (int pos = 0; pos < levelSize; pos++)
-			{
+			for (int pos = 0; pos < levelSize; pos++) {
 				level.add("");
 			}
 			levels.add(level);
@@ -34,10 +30,8 @@ public class PrintBinaryTree
 		return levels;
 	}
 
-	private void fillLevels(TreeNode treeNode, int left, int right, int level, List<List<String>> levels)
-	{
-		if (treeNode == null)
-		{
+	private void fillLevels(TreeNode treeNode, int left, int right, int level, List<List<String>> levels) {
+		if (treeNode == null) {
 			return;
 		}
 
@@ -46,10 +40,8 @@ public class PrintBinaryTree
 		fillLevels(treeNode.right, (left + right + 1) / 2, right, level + 1, levels);
 	}
 
-	private int getMaxDepth(TreeNode treeNode)
-	{
-		if (treeNode == null)
-		{
+	private int getMaxDepth(TreeNode treeNode) {
+		if (treeNode == null) {
 			return 0;
 		}
 

@@ -13,15 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/find-the-punishment-number-of-an-integer/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindThePunishmentNumberOfInteger
-{
-	public int punishmentNumber(int n)
-	{
+public class FindThePunishmentNumberOfInteger {
+	public int punishmentNumber(int n) {
 		int num = 0;
-		for (int i = 1; i <= n; i++)
-		{
-			if (canSplit(0, String.valueOf(i * i).toCharArray(), 0, i))
-			{
+		for (int i = 1; i <= n; i++) {
+			if (canSplit(0, String.valueOf(i * i).toCharArray(), 0, i)) {
 				num += i * i;
 			}
 		}
@@ -29,20 +25,16 @@ public class FindThePunishmentNumberOfInteger
 		return num;
 	}
 
-	private boolean canSplit(int pos, char[] num, int sum, int target)
-	{
-		if (pos >= num.length)
-		{
+	private boolean canSplit(int pos, char[] num, int sum, int target) {
+		if (pos >= num.length) {
 			return sum == target;
 		}
 
 		int curr = 0;
-		while (pos < num.length)
-		{
+		while (pos < num.length) {
 			curr *= 10;
 			curr += (num[pos] - '0');
-			if (canSplit(pos + 1, num, sum + curr, target))
-			{
+			if (canSplit(pos + 1, num, sum + curr, target)) {
 				return true;
 			}
 			pos++;

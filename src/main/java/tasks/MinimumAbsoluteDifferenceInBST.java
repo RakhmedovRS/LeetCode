@@ -11,23 +11,18 @@ import java.util.List;
  * @created 04-May-20
  */
 @LeetCode(id = 530, name = "Minimum Absolute Difference in BST", url = "https://leetcode.com/problems/minimum-absolute-difference-in-bst/")
-public class MinimumAbsoluteDifferenceInBST
-{
-	public int getMinimumDifference(TreeNode root)
-	{
+public class MinimumAbsoluteDifferenceInBST {
+	public int getMinimumDifference(TreeNode root) {
 		List<Integer> inorder = new ArrayList<>();
 		inorder(root, inorder);
 		int minDiff = Integer.MAX_VALUE;
-		if (inorder.size() < 2)
-		{
+		if (inorder.size() < 2) {
 			return 0;
 		}
 
-		for (int i = 1; i < inorder.size(); i++)
-		{
+		for (int i = 1; i < inorder.size(); i++) {
 			int diff = inorder.get(i) - inorder.get(i - 1);
-			if (minDiff > diff)
-			{
+			if (minDiff > diff) {
 				minDiff = diff;
 			}
 		}
@@ -35,10 +30,8 @@ public class MinimumAbsoluteDifferenceInBST
 		return minDiff;
 	}
 
-	private void inorder(TreeNode root, List<Integer> inorder)
-	{
-		if (root == null)
-		{
+	private void inorder(TreeNode root, List<Integer> inorder) {
+		if (root == null) {
 			return;
 		}
 
@@ -47,8 +40,7 @@ public class MinimumAbsoluteDifferenceInBST
 		inorder(root.right, inorder);
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		TreeNode treeNode = new TreeNode(1);
 		treeNode.right = new TreeNode(3);
 		treeNode.right.left = new TreeNode(2);

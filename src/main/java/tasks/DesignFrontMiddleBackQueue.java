@@ -13,28 +13,23 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/design-front-middle-back-queue/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DesignFrontMiddleBackQueue
-{
-	class Link
-	{
+public class DesignFrontMiddleBackQueue {
+	class Link {
 		int value;
 		Link prev;
 		Link next;
 
-		public Link(int value)
-		{
+		public Link(int value) {
 			this.value = value;
 		}
 	}
 
-	class FrontMiddleBackQueue
-	{
+	class FrontMiddleBackQueue {
 		Link front;
 		Link back;
 		int elements;
 
-		public FrontMiddleBackQueue()
-		{
+		public FrontMiddleBackQueue() {
 			front = new Link(0);
 			back = new Link(0);
 
@@ -44,8 +39,7 @@ public class DesignFrontMiddleBackQueue
 			elements = 0;
 		}
 
-		public void pushFront(int val)
-		{
+		public void pushFront(int val) {
 			Link newLink = new Link(val);
 			Link next = front.next;
 
@@ -58,11 +52,9 @@ public class DesignFrontMiddleBackQueue
 			elements++;
 		}
 
-		public void pushMiddle(int val)
-		{
+		public void pushMiddle(int val) {
 			Link current = front;
-			for (int i = 0; i < elements / 2; i++)
-			{
+			for (int i = 0; i < elements / 2; i++) {
 				current = current.next;
 			}
 
@@ -77,8 +69,7 @@ public class DesignFrontMiddleBackQueue
 			elements++;
 		}
 
-		public void pushBack(int val)
-		{
+		public void pushBack(int val) {
 			Link newLink = new Link(val);
 			Link prev = back.prev;
 
@@ -91,10 +82,8 @@ public class DesignFrontMiddleBackQueue
 			elements++;
 		}
 
-		public int popFront()
-		{
-			if (elements == 0)
-			{
+		public int popFront() {
+			if (elements == 0) {
 				return -1;
 			}
 
@@ -107,20 +96,16 @@ public class DesignFrontMiddleBackQueue
 			return removed.value;
 		}
 
-		public int popMiddle()
-		{
-			if (elements == 0)
-			{
+		public int popMiddle() {
+			if (elements == 0) {
 				return -1;
 			}
-			else if (elements == 1)
-			{
+			else if (elements == 1) {
 				return popFront();
 			}
 
 			Link removed = elements % 2 == 0 ? front : front.next;
-			for (int i = 0; i < elements / 2; i++)
-			{
+			for (int i = 0; i < elements / 2; i++) {
 				removed = removed.next;
 			}
 
@@ -135,10 +120,8 @@ public class DesignFrontMiddleBackQueue
 			return removed.value;
 		}
 
-		public int popBack()
-		{
-			if (elements == 0)
-			{
+		public int popBack() {
+			if (elements == 0) {
 				return -1;
 			}
 
@@ -152,8 +135,7 @@ public class DesignFrontMiddleBackQueue
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		FrontMiddleBackQueue q = new DesignFrontMiddleBackQueue().new FrontMiddleBackQueue();
 		q.pushMiddle(1);
 		q.pushMiddle(2);

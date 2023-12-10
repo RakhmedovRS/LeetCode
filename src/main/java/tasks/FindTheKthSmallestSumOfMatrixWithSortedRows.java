@@ -16,25 +16,19 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/",
 		difficulty = Difficulty.HARD
 )
-public class FindTheKthSmallestSumOfMatrixWithSortedRows
-{
-	public int kthSmallest(int[][] mat, int k)
-	{
+public class FindTheKthSmallestSumOfMatrixWithSortedRows {
+	public int kthSmallest(int[][] mat, int k) {
 		PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Comparator.reverseOrder());
 		maxHeap.add(0);
-		for (int[] row : mat)
-		{
+		for (int[] row : mat) {
 			int currentSum;
 			PriorityQueue<Integer> nextLevelMaxHeap = new PriorityQueue<>(Comparator.reverseOrder());
-			while (!maxHeap.isEmpty())
-			{
+			while (!maxHeap.isEmpty()) {
 				currentSum = maxHeap.remove();
 
-				for (int val : row)
-				{
+				for (int val : row) {
 					nextLevelMaxHeap.add(currentSum + val);
-					if (nextLevelMaxHeap.size() > k)
-					{
+					if (nextLevelMaxHeap.size() > k) {
 						nextLevelMaxHeap.remove();
 					}
 				}

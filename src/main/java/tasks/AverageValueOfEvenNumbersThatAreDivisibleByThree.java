@@ -13,16 +13,12 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/",
 		difficulty = Difficulty.EASY
 )
-public class AverageValueOfEvenNumbersThatAreDivisibleByThree
-{
-	public int averageValue(int[] nums)
-	{
+public class AverageValueOfEvenNumbersThatAreDivisibleByThree {
+	public int averageValue(int[] nums) {
 		int sum = 0;
 		int count = 0;
-		for (int num : nums)
-		{
-			if (num % 3 == 0 && num % 2 == 0)
-			{
+		for (int num : nums) {
+			if (num % 3 == 0 && num % 2 == 0) {
 				sum += num;
 				count++;
 			}

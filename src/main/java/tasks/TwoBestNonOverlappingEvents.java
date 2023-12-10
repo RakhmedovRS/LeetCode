@@ -18,33 +18,26 @@ import java.util.TreeMap;
 		url = "https://leetcode.com/problems/two-best-non-overlapping-events/",
 		difficulty = Difficulty.MEDIUM
 )
-public class TwoBestNonOverlappingEvents
-{
-	public int maxTwoEvents(int[][] events)
-	{
+public class TwoBestNonOverlappingEvents {
+	public int maxTwoEvents(int[][] events) {
 		Arrays.sort(events, (a, b) ->
 		{
-			if (a[0] == b[0])
-			{
-				if (a[1] == b[1])
-				{
+			if (a[0] == b[0]) {
+				if (a[1] == b[1]) {
 					return b[2] - a[2];
 				}
-				else
-				{
+				else {
 					return a[1] - b[1];
 				}
 			}
-			else
-			{
+			else {
 				return a[0] - b[0];
 			}
 		});
 
 		TreeMap<Integer, Integer> treeMap = new TreeMap<>();
 
-		for (int[] event : events)
-		{
+		for (int[] event : events) {
 			int end = event[1];
 			int cost = event[2];
 
@@ -53,15 +46,13 @@ public class TwoBestNonOverlappingEvents
 
 		int max = 0;
 		Set<Integer> keys = treeMap.keySet();
-		for (Integer key : keys)
-		{
+		for (Integer key : keys) {
 			max = Math.max(max, treeMap.get(key));
 			treeMap.put(key, max);
 		}
 
 		int answer = 0;
-		for (int[] event : events)
-		{
+		for (int[] event : events) {
 			int start = event[0];
 			int cost = event[2];
 			Map.Entry<Integer, Integer> floorEntry = treeMap.floorEntry(start - 1);

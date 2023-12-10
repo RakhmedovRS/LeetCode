@@ -15,17 +15,14 @@ import java.util.*;
 		url = "https://leetcode.com/problems/most-popular-video-creator/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MostPopularVideoCreator
-{
-	public List<List<String>> mostPopularCreator(String[] creators, String[] ids, int[] views)
-	{
+public class MostPopularVideoCreator {
+	public List<List<String>> mostPopularCreator(String[] creators, String[] ids, int[] views) {
 		Map<String, List<String>> creatorToID = new HashMap<>();
 		Map<String, Long> creatorToViews = new HashMap<>();
 		Map<String, Map<String, Long>> idToViews = new HashMap<>();
 
 		long max = 0L;
-		for (int i = 0; i < creators.length; i++)
-		{
+		for (int i = 0; i < creators.length; i++) {
 			idToViews.putIfAbsent(creators[i], new HashMap<>());
 			Map<String, Long> map = idToViews.get(creators[i]);
 
@@ -40,16 +37,13 @@ public class MostPopularVideoCreator
 		}
 
 		List<List<String>> answer = new ArrayList<>();
-		for (Map.Entry<String, Long> entry : creatorToViews.entrySet())
-		{
-			if (entry.getValue().equals(max))
-			{
+		for (Map.Entry<String, Long> entry : creatorToViews.entrySet()) {
+			if (entry.getValue().equals(max)) {
 				Map<String, Long> map = idToViews.get(entry.getKey());
 
 				creatorToID.get(entry.getKey()).sort((a, b) ->
 				{
-					if (map.getOrDefault(a, 0L).equals(map.getOrDefault(b, 0L)))
-					{
+					if (map.getOrDefault(a, 0L).equals(map.getOrDefault(b, 0L))) {
 						return a.compareTo(b);
 					}
 

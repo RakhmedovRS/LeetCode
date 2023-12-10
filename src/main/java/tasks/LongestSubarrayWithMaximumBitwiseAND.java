@@ -13,27 +13,21 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LongestSubarrayWithMaximumBitwiseAND
-{
-	public int longestSubarray(int[] nums)
-	{
+public class LongestSubarrayWithMaximumBitwiseAND {
+	public int longestSubarray(int[] nums) {
 		int max = 0;
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			max = Math.max(max, num);
 		}
 
 		int maxLen = 0;
 		int currentLen = 0;
 
-		for (int num : nums)
-		{
-			if (max == num)
-			{
+		for (int num : nums) {
+			if (max == num) {
 				currentLen++;
 			}
-			else
-			{
+			else {
 				currentLen = 0;
 			}
 

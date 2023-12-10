@@ -13,29 +13,23 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumLimitOfBallsInBag
-{
-	public int minimumSize(int[] nums, int maxOperations)
-	{
+public class MinimumLimitOfBallsInBag {
+	public int minimumSize(int[] nums, int maxOperations) {
 		int left = 1;
 		int mid;
 		int right = 1_000_000_000;
 		int count;
-		while (left < right)
-		{
+		while (left < right) {
 			count = 0;
 			mid = (left + right) / 2;
-			for (int num : nums)
-			{
+			for (int num : nums) {
 				count += (num - 1) / mid;
 			}
 
-			if (count > maxOperations)
-			{
+			if (count > maxOperations) {
 				left = mid + 1;
 			}
-			else
-			{
+			else {
 				right = mid;
 			}
 		}
@@ -43,8 +37,7 @@ public class MinimumLimitOfBallsInBag
 		return left;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		MinimumLimitOfBallsInBag clazz = new MinimumLimitOfBallsInBag();
 		System.out.println(clazz.minimumSize(new int[]{9}, 2));
 		System.out.println(clazz.minimumSize(new int[]{2, 4, 8, 2}, 4));

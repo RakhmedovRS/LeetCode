@@ -16,16 +16,12 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/minimize-deviation-in-array/",
 		difficulty = Difficulty.HARD
 )
-public class MinimizeDeviationInArray
-{
-	public int minimumDeviation(int[] nums)
-	{
+public class MinimizeDeviationInArray {
+	public int minimumDeviation(int[] nums) {
 		int min = Integer.MAX_VALUE;
 		PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());
-		for (int num : nums)
-		{
-			if (num % 2 != 0)
-			{
+		for (int num : nums) {
+			if (num % 2 != 0) {
 				num *= 2;
 			}
 
@@ -35,12 +31,10 @@ public class MinimizeDeviationInArray
 
 		int minDeviation = Integer.MAX_VALUE;
 		int current;
-		while (!pq.isEmpty())
-		{
+		while (!pq.isEmpty()) {
 			current = pq.remove();
 			minDeviation = Math.min(minDeviation, current - min);
-			if (current % 2 != 0)
-			{
+			if (current % 2 != 0) {
 				break;
 			}
 
@@ -52,8 +46,7 @@ public class MinimizeDeviationInArray
 		return minDeviation;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		MinimizeDeviationInArray clazz = new MinimizeDeviationInArray();
 		System.out.println(clazz.minimumDeviation(new int[]{4, 9, 4, 5}));
 		System.out.println(clazz.minimumDeviation(new int[]{3, 5}));

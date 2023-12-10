@@ -15,16 +15,12 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumNumberOfConsecutiveValuesYouCanMake
-{
-	public int getMaximumConsecutive(int[] coins)
-	{
+public class MaximumNumberOfConsecutiveValuesYouCanMake {
+	public int getMaximumConsecutive(int[] coins) {
 		Arrays.sort(coins);
 		int count = 1;
-		for (int i = 0; i < coins.length; i++)
-		{
-			if (coins[i] > count)
-			{
+		for (int i = 0; i < coins.length; i++) {
+			if (coins[i] > count) {
 				break;
 			}
 
@@ -33,8 +29,7 @@ public class MaximumNumberOfConsecutiveValuesYouCanMake
 		return count;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		MaximumNumberOfConsecutiveValuesYouCanMake clazz = new MaximumNumberOfConsecutiveValuesYouCanMake();
 		System.out.println(clazz.getMaximumConsecutive(new int[]{1, 3}));
 		System.out.println(clazz.getMaximumConsecutive(new int[]{1, 1, 1, 4}));

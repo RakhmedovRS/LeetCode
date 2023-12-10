@@ -19,10 +19,8 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/submissions/",
 		difficulty = Difficulty.MEDIUM
 )
-public class StepByStepDirectionsFromBinaryTreeNodeToAnother
-{
-	public String getDirections(TreeNode root, int startValue, int destValue)
-	{
+public class StepByStepDirectionsFromBinaryTreeNodeToAnother {
+	public String getDirections(TreeNode root, int startValue, int destValue) {
 		Map<TreeNode, TreeNode> parents = new HashMap<>();
 		TreeNode[] start = new TreeNode[1];
 		TreeNode[] end = new TreeNode[1];
@@ -31,22 +29,18 @@ public class StepByStepDirectionsFromBinaryTreeNodeToAnother
 
 		Set<TreeNode> valid = new HashSet<>();
 		TreeNode temp = start[0];
-		while (temp != null)
-		{
+		while (temp != null) {
 			valid.add(temp);
-			if (temp == lca)
-			{
+			if (temp == lca) {
 				break;
 			}
 			temp = parents.get(temp);
 		}
 
 		temp = end[0];
-		while (temp != null && temp != lca)
-		{
+		while (temp != null && temp != lca) {
 			valid.add(temp);
-			if (temp == lca)
-			{
+			if (temp == lca) {
 				break;
 			}
 			temp = parents.get(temp);
@@ -55,21 +49,17 @@ public class StepByStepDirectionsFromBinaryTreeNodeToAnother
 		StringBuilder sb = new StringBuilder();
 		TreeNode s = start[0];
 		TreeNode e = end[0];
-		while (s != e)
-		{
+		while (s != e) {
 			valid.remove(s);
-			if (parents.get(s) != null && valid.contains(parents.get(s)))
-			{
+			if (parents.get(s) != null && valid.contains(parents.get(s))) {
 				sb.append('U');
 				s = parents.get(s);
 			}
-			else if (s.left != null && valid.contains(s.left))
-			{
+			else if (s.left != null && valid.contains(s.left)) {
 				sb.append('L');
 				s = s.left;
 			}
-			else if (s.right != null && valid.contains(s.right))
-			{
+			else if (s.right != null && valid.contains(s.right)) {
 				sb.append('R');
 				s = s.right;
 			}
@@ -79,20 +69,16 @@ public class StepByStepDirectionsFromBinaryTreeNodeToAnother
 		return sb.toString();
 	}
 
-	private void dfs(TreeNode root, TreeNode parent, Map<TreeNode, TreeNode> parents, TreeNode[] start, TreeNode[] end, int startValue, int destValue)
-	{
-		if (root == null)
-		{
+	private void dfs(TreeNode root, TreeNode parent, Map<TreeNode, TreeNode> parents, TreeNode[] start, TreeNode[] end, int startValue, int destValue) {
+		if (root == null) {
 			return;
 		}
 
-		if (root.val == startValue)
-		{
+		if (root.val == startValue) {
 			start[0] = root;
 		}
 
-		if (root.val == destValue)
-		{
+		if (root.val == destValue) {
 			end[0] = root;
 		}
 
@@ -101,30 +87,24 @@ public class StepByStepDirectionsFromBinaryTreeNodeToAnother
 		dfs(root.right, root, parents, start, end, startValue, destValue);
 	}
 
-	public TreeNode lowestCommonAncestor(TreeNode root, int p, int q)
-	{
-		if (root == null)
-		{
+	public TreeNode lowestCommonAncestor(TreeNode root, int p, int q) {
+		if (root == null) {
 			return null;
 		}
 
-		if (root.val == p || root.val == q)
-		{
+		if (root.val == p || root.val == q) {
 			return root;
 		}
 
 		TreeNode left = lowestCommonAncestor(root.left, p, q);
 		TreeNode right = lowestCommonAncestor(root.right, p, q);
-		if (right != null && left != null)
-		{
+		if (right != null && left != null) {
 			return root;
 		}
-		else if (left != null)
-		{
+		else if (left != null) {
 			return left;
 		}
-		else
-		{
+		else {
 			return right;
 		}
 	}

@@ -13,14 +13,10 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/can-place-flowers/",
 		difficulty = Difficulty.EASY
 )
-public class CanPlaceFlowers
-{
-	public boolean canPlaceFlowers(int[] flowerbed, int n)
-	{
-		for (int i = 0; i < flowerbed.length; i++)
-		{
-			if (canBeUsed(flowerbed, i))
-			{
+public class CanPlaceFlowers {
+	public boolean canPlaceFlowers(int[] flowerbed, int n) {
+		for (int i = 0; i < flowerbed.length; i++) {
+			if (canBeUsed(flowerbed, i)) {
 				n--;
 				flowerbed[i] = 1;
 			}
@@ -29,8 +25,7 @@ public class CanPlaceFlowers
 		return n <= 0;
 	}
 
-	boolean canBeUsed(int[] flowerbed, int pos)
-	{
+	boolean canBeUsed(int[] flowerbed, int pos) {
 		boolean prev = pos == 0 || flowerbed[pos - 1] == 0;
 		boolean curr = flowerbed[pos] == 0;
 		boolean next = pos == flowerbed.length - 1 || flowerbed[pos + 1] == 0;

@@ -15,31 +15,24 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/determine-if-two-strings-are-close/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DetermineIfTwoStringsAreClose
-{
-	public boolean closeStrings(String word1, String word2)
-	{
-		if (word1.length() != word2.length())
-		{
+public class DetermineIfTwoStringsAreClose {
+	public boolean closeStrings(String word1, String word2) {
+		if (word1.length() != word2.length()) {
 			return false;
 		}
 
 		int[] tableA = new int[26];
-		for (char ch : word1.toCharArray())
-		{
+		for (char ch : word1.toCharArray()) {
 			tableA[ch - 'a']++;
 		}
 
 		int[] tableB = new int[26];
-		for (char ch : word2.toCharArray())
-		{
+		for (char ch : word2.toCharArray()) {
 			tableB[ch - 'a']++;
 		}
 
-		for (int i = 0; i < 26; i++)
-		{
-			if ((tableA[i] == 0 && tableB[i] != 0) || (tableB[i] == 0 && tableA[i] != 0))
-			{
+		for (int i = 0; i < 26; i++) {
+			if ((tableA[i] == 0 && tableB[i] != 0) || (tableB[i] == 0 && tableA[i] != 0)) {
 				return false;
 			}
 		}
@@ -47,10 +40,8 @@ public class DetermineIfTwoStringsAreClose
 		Arrays.sort(tableA);
 		Arrays.sort(tableB);
 
-		for (int i = 0; i < 26; i++)
-		{
-			if (tableA[i] != tableB[i])
-			{
+		for (int i = 0; i < 26; i++) {
+			if (tableA[i] != tableB[i]) {
 				return false;
 			}
 		}

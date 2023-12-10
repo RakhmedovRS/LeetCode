@@ -13,18 +13,15 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/replace-the-substring-for-balanced-string/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ReplaceTheSubstringForBalancedString
-{
-	public int balancedString(String s)
-	{
+public class ReplaceTheSubstringForBalancedString {
+	public int balancedString(String s) {
 		int[] memo = new int[26];
 		char[] chars = s.toCharArray();
 		int qPos = 'Q' - 'A';
 		int wPos = 'W' - 'A';
 		int ePos = 'E' - 'A';
 		int rPos = 'R' - 'A';
-		for (char ch : chars)
-		{
+		for (char ch : chars) {
 			memo[ch - 'A']++;
 		}
 
@@ -33,8 +30,7 @@ public class ReplaceTheSubstringForBalancedString
 		memo[wPos] = Math.max(0, memo[wPos] - targetLength);
 		memo[ePos] = Math.max(0, memo[ePos] - targetLength);
 		memo[rPos] = Math.max(0, memo[rPos] - targetLength);
-		if (memo[qPos] == 0 && memo[wPos] == 0 && memo[ePos] == 0 && memo[rPos] == 0)
-		{
+		if (memo[qPos] == 0 && memo[wPos] == 0 && memo[ePos] == 0 && memo[rPos] == 0) {
 			return 0;
 		}
 
@@ -42,17 +38,13 @@ public class ReplaceTheSubstringForBalancedString
 		int right = 0;
 		int minLen = s.length();
 		int[] seen = new int[26];
-		while (left <= right)
-		{
-			if (seen[qPos] >= memo[qPos] && seen[wPos] >= memo[wPos] && seen[ePos] >= memo[ePos] && seen[rPos] >= memo[rPos])
-			{
+		while (left <= right) {
+			if (seen[qPos] >= memo[qPos] && seen[wPos] >= memo[wPos] && seen[ePos] >= memo[ePos] && seen[rPos] >= memo[rPos]) {
 				minLen = Math.min(minLen, right - left);
 				seen[chars[left++] - 'A']--;
 			}
-			else
-			{
-				if (right == chars.length)
-				{
+			else {
+				if (right == chars.length) {
 					break;
 				}
 				seen[chars[right++] - 'A']++;
@@ -62,8 +54,7 @@ public class ReplaceTheSubstringForBalancedString
 		return minLen;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new ReplaceTheSubstringForBalancedString().balancedString("QQWE"));
 		System.out.println(new ReplaceTheSubstringForBalancedString().balancedString("QQQQ"));
 		System.out.println(new ReplaceTheSubstringForBalancedString().balancedString("QWER"));

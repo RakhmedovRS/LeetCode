@@ -14,39 +14,32 @@ import common.ListNode;
 		url = "https://leetcode.com/problems/palindrome-linked-list/",
 		difficulty = Difficulty.EASY
 )
-public class PalindromeLinkedList
-{
-	public boolean isPalindrome(ListNode head)
-	{
-		if (head == null || head.next == null)
-		{
+public class PalindromeLinkedList {
+	public boolean isPalindrome(ListNode head) {
+		if (head == null || head.next == null) {
 			return true;
 		}
 
 		int size = 0;
 		ListNode temp = head;
-		while (temp != null)
-		{
+		while (temp != null) {
 			size++;
 			temp = temp.next;
 		}
 
 		temp = head;
 		ListNode prev = head;
-		for (int i = 0; i < size / 2; i++)
-		{
+		for (int i = 0; i < size / 2; i++) {
 			prev = temp;
 			temp = temp.next;
 		}
 
 		ListNode middle = null;
 		ListNode head2;
-		if (size % 2 == 0)
-		{
+		if (size % 2 == 0) {
 			head2 = reverse(temp);
 		}
-		else
-		{
+		else {
 			middle = prev.next;
 			head2 = reverse(middle.next);
 			middle.next = null;
@@ -56,10 +49,8 @@ public class PalindromeLinkedList
 		ListNode a = head;
 		ListNode b = head2;
 
-		while (a != null && b != null)
-		{
-			if (a.val != b.val)
-			{
+		while (a != null && b != null) {
+			if (a.val != b.val) {
 				break;
 			}
 
@@ -67,12 +58,10 @@ public class PalindromeLinkedList
 			b = b.next;
 		}
 
-		if (size % 2 == 0)
-		{
+		if (size % 2 == 0) {
 			prev.next = reverse(head2);
 		}
-		else
-		{
+		else {
 			prev.next = middle;
 			middle.next = reverse(head2);
 		}
@@ -80,12 +69,10 @@ public class PalindromeLinkedList
 		return a == null && b == null;
 	}
 
-	private ListNode reverse(ListNode head)
-	{
+	private ListNode reverse(ListNode head) {
 		ListNode prev = null;
 		ListNode next;
-		while (head != null)
-		{
+		while (head != null) {
 			next = head.next;
 			head.next = prev;
 			prev = head;
@@ -95,8 +82,7 @@ public class PalindromeLinkedList
 		return prev;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		ListNode root = new ListNode(1);
 		root.next = new ListNode(0);
 		root.next.next = new ListNode(1);

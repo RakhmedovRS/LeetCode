@@ -13,24 +13,20 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/base-7/",
 		difficulty = Difficulty.EASY
 )
-public class Base7
-{
-	public String convertToBase7(int num)
-	{
-		if (num == 0)
-		{
+public class Base7 {
+	public String convertToBase7(int num) {
+		if (num == 0) {
 			return "0";
 		}
 
 		StringBuilder sb = new StringBuilder();
 		String sign = num < 0 ? "-" : "";
 
-		while (num != 0)
-		{
+		while (num != 0) {
 			sb.append(Math.abs(num % 7));
 			num /= 7;
 		}
 
-		return sign + sb.reverse().toString();
+		return sign + sb.reverse();
 	}
 }

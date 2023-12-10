@@ -16,24 +16,19 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/word-pattern/",
 		difficulty = Difficulty.MEDIUM
 )
-public class WordPattern
-{
-	public boolean wordPattern(String pattern, String str)
-	{
+public class WordPattern {
+	public boolean wordPattern(String pattern, String str) {
 		String[] parts = str.split(" ");
-		if (parts.length != pattern.length())
-		{
+		if (parts.length != pattern.length()) {
 			return false;
 		}
 		Map<String, Character> wordToCharacter = new HashMap<>();
 		Map<Character, String> characterToWord = new HashMap<>();
-		for (int i = 0; i < parts.length; i++)
-		{
+		for (int i = 0; i < parts.length; i++) {
 			wordToCharacter.putIfAbsent(parts[i], pattern.charAt(i));
 			characterToWord.putIfAbsent(pattern.charAt(i), parts[i]);
 
-			if (wordToCharacter.get(parts[i]) != pattern.charAt(i) || !characterToWord.get(pattern.charAt(i)).equals(parts[i]))
-			{
+			if (wordToCharacter.get(parts[i]) != pattern.charAt(i) || !characterToWord.get(pattern.charAt(i)).equals(parts[i])) {
 				return false;
 			}
 		}
@@ -41,8 +36,7 @@ public class WordPattern
 		return true;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new WordPattern().wordPattern("abba", "dog dog dog dog"));
 		System.out.println(new WordPattern().wordPattern("abba", "dog cat cat dog"));
 		System.out.println(new WordPattern().wordPattern("abba", "dog cat cat fish"));

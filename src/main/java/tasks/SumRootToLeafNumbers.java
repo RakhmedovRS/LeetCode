@@ -14,25 +14,20 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/sum-root-to-leaf-numbers/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SumRootToLeafNumbers
-{
-	public int sumNumbers(TreeNode root)
-	{
+public class SumRootToLeafNumbers {
+	public int sumNumbers(TreeNode root) {
 		return sumNumbers(root, 0);
 	}
 
-	public int sumNumbers(TreeNode root, int current)
-	{
-		if (root == null)
-		{
+	public int sumNumbers(TreeNode root, int current) {
+		if (root == null) {
 			return 0;
 		}
 
 		current *= 10;
 		current += root.val;
 
-		if (root.left == null && root.right == null)
-		{
+		if (root.left == null && root.right == null) {
 			return current;
 		}
 

@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumNumberOfFlipsToMakeTheBinaryStringAlternating
-{
-	public int minFlips(String s)
-	{
+public class MinimumNumberOfFlipsToMakeTheBinaryStringAlternating {
+	public int minFlips(String s) {
 		int n = s.length();
 		s += s;
 
@@ -24,8 +22,7 @@ public class MinimumNumberOfFlipsToMakeTheBinaryStringAlternating
 		char[] validA = new char[s.length()];
 		char[] validB = new char[s.length()];
 
-		for (int i = 0, a = 0; i < chars.length; i++, a++)
-		{
+		for (int i = 0, a = 0; i < chars.length; i++, a++) {
 			validA[i] = a % 2 == 0 ? '0' : '1';
 			validB[i] = a % 2 == 0 ? '1' : '0';
 		}
@@ -33,27 +30,21 @@ public class MinimumNumberOfFlipsToMakeTheBinaryStringAlternating
 		int answer = Integer.MAX_VALUE;
 		int currentA = 0;
 		int currentB = 0;
-		for (int i = 0; i < chars.length; i++)
-		{
-			if (chars[i] != validA[i])
-			{
+		for (int i = 0; i < chars.length; i++) {
+			if (chars[i] != validA[i]) {
 				currentA++;
 			}
 
-			if (chars[i] != validB[i])
-			{
+			if (chars[i] != validB[i]) {
 				currentB++;
 			}
 
-			if (i >= n)
-			{
-				if (chars[i - n] != validA[i - n])
-				{
+			if (i >= n) {
+				if (chars[i - n] != validA[i - n]) {
 					currentA--;
 				}
 
-				if (chars[i - n] != validB[i - n])
-				{
+				if (chars[i - n] != validB[i - n]) {
 					currentB--;
 				}
 

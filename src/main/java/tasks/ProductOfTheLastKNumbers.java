@@ -16,53 +16,41 @@ import java.util.List;
 		url = "https://leetcode.com/problems/product-of-the-last-k-numbers/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ProductOfTheLastKNumbers
-{
-	class ProductOfNumbers
-	{
+public class ProductOfTheLastKNumbers {
+	class ProductOfNumbers {
 
 		List<Integer> numbers;
 
-		public ProductOfNumbers()
-		{
+		public ProductOfNumbers() {
 			numbers = new ArrayList<>();
 		}
 
-		public void add(int num)
-		{
-			if (num == 0)
-			{
+		public void add(int num) {
+			if (num == 0) {
 				numbers = new ArrayList<>();
 			}
-			else if (numbers.isEmpty())
-			{
+			else if (numbers.isEmpty()) {
 				numbers.add(num);
 			}
-			else
-			{
+			else {
 				numbers.add(num * numbers.get(numbers.size() - 1));
 			}
 		}
 
-		public int getProduct(int k)
-		{
-			if (k > numbers.size())
-			{
+		public int getProduct(int k) {
+			if (k > numbers.size()) {
 				return 0;
 			}
-			else if (k == numbers.size())
-			{
+			else if (k == numbers.size()) {
 				return numbers.get(numbers.size() - 1);
 			}
-			else
-			{
+			else {
 				return numbers.get(numbers.size() - 1) / numbers.get(numbers.size() - k - 1);
 			}
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		ProductOfNumbers productOfNumbers = new ProductOfTheLastKNumbers().new ProductOfNumbers();
 		productOfNumbers.add(3);        // [3]
 		productOfNumbers.add(0);        // [3,0]

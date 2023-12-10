@@ -16,38 +16,30 @@ import java.util.TreeMap;
 		url = "https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindTheMaximumNumberOfMarkedIndices
-{
-	public int maxNumOfMarkedIndices(int[] nums)
-	{
+public class FindTheMaximumNumberOfMarkedIndices {
+	public int maxNumOfMarkedIndices(int[] nums) {
 		Arrays.sort(nums);
 		TreeMap<Integer, Integer> map = new TreeMap<>();
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			map.put(num, map.getOrDefault(num, 0) + 1);
 		}
 
 		int answer = 0;
-		for (int i = nums.length / 2 - 1; i >= 0; i--)
-		{
+		for (int i = nums.length / 2 - 1; i >= 0; i--) {
 			int num = nums[i];
 			Integer c = map.remove(num);
-			if (c == null)
-			{
+			if (c == null) {
 				continue;
 			}
 
-			if (--c > 0)
-			{
+			if (--c > 0) {
 				map.put(num, c);
 			}
 
 			Integer ceil = map.ceilingKey(num * 2);
-			if (ceil != null)
-			{
+			if (ceil != null) {
 				c = map.remove(ceil);
-				if (--c > 0)
-				{
+				if (--c > 0) {
 					map.put(ceil, c);
 				}
 

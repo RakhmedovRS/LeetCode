@@ -15,12 +15,9 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/neither-minimum-nor-maximum/",
 		difficulty = Difficulty.EASY
 )
-public class NeitherMinimumNorMaximum
-{
-	public int findNonMinOrMax(int[] nums)
-	{
-		if (nums.length < 3)
-		{
+public class NeitherMinimumNorMaximum {
+	public int findNonMinOrMax(int[] nums) {
+		if (nums.length < 3) {
 			return -1;
 		}
 		Arrays.sort(nums);

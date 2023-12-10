@@ -13,14 +13,10 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/sum-of-number-and-its-reverse/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SumOfNumberAndItsReverse
-{
-	public boolean sumOfNumberAndReverse(int num)
-	{
-		for (int i = 0; i <= num; i++)
-		{
-			if (num == (i + reverse(i)))
-			{
+public class SumOfNumberAndItsReverse {
+	public boolean sumOfNumberAndReverse(int num) {
+		for (int i = 0; i <= num; i++) {
+			if (num == (i + reverse(i))) {
 				return true;
 			}
 		}
@@ -28,18 +24,15 @@ public class SumOfNumberAndItsReverse
 		return false;
 	}
 
-	public int reverse(int x)
-	{
+	public int reverse(int x) {
 		long value = 0;
-		while (x != 0)
-		{
+		while (x != 0) {
 			value *= 10;
 			value += x % 10;
 			x /= 10;
 		}
 
-		if (Math.abs(value) > Integer.MAX_VALUE)
-		{
+		if (Math.abs(value) > Integer.MAX_VALUE) {
 			return 0;
 		}
 

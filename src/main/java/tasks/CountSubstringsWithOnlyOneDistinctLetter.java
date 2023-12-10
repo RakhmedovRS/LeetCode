@@ -14,37 +14,30 @@ import common.LeetCode;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class CountSubstringsWithOnlyOneDistinctLetter
-{
-	public int countLetters(String S)
-	{
+public class CountSubstringsWithOnlyOneDistinctLetter {
+	public int countLetters(String S) {
 		int totalCount = 0;
 		int count = 0;
 		char prev = ' ';
-		for (char ch : S.toCharArray())
-		{
-			if (ch == prev)
-			{
+		for (char ch : S.toCharArray()) {
+			if (ch == prev) {
 				count++;
 			}
-			else
-			{
+			else {
 				totalCount += (count * (count + 1)) / 2;
 				prev = ch;
 				count = 1;
 			}
 		}
 
-		if (S.charAt(S.length() - 1) == prev)
-		{
+		if (S.charAt(S.length() - 1) == prev) {
 			totalCount += (count * (count + 1)) / 2;
 		}
 
 		return totalCount;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new CountSubstringsWithOnlyOneDistinctLetter().countLetters("aaaba"));
 		System.out.println(new CountSubstringsWithOnlyOneDistinctLetter().countLetters("aaaaaaaaaa"));
 	}

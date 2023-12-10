@@ -15,22 +15,17 @@ import common.TreeNode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class MaximumAverageSubtree
-{
-	public double maximumAverageSubtree(TreeNode root)
-	{
+public class MaximumAverageSubtree {
+	public double maximumAverageSubtree(TreeNode root) {
 		return dfs(root)[2];
 	}
 
-	public double[] dfs(TreeNode root)
-	{
-		if (root == null)
-		{
+	public double[] dfs(TreeNode root) {
+		if (root == null) {
 			return new double[3];
 		}
 
-		if (root.left == null && root.right == null)
-		{
+		if (root.left == null && root.right == null) {
 			return new double[]{root.val, 1, root.val};
 		}
 

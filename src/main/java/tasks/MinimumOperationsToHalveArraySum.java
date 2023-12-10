@@ -16,23 +16,19 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/minimum-operations-to-halve-array-sum/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumOperationsToHalveArraySum
-{
-	public int halveArray(int[] nums)
-	{
+public class MinimumOperationsToHalveArraySum {
+	public int halveArray(int[] nums) {
 		int steps = 0;
 		double initialSum = 0;
 		double currentSum = 0;
 		PriorityQueue<Double> pq = new PriorityQueue<>(Comparator.reverseOrder());
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			initialSum += num;
 			currentSum += num;
 			pq.add((double) num);
 		}
 
-		while (currentSum > initialSum / 2)
-		{
+		while (currentSum > initialSum / 2) {
 			double c = pq.remove();
 			c /= 2;
 			currentSum -= c;

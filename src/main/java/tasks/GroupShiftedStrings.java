@@ -19,14 +19,11 @@ import java.util.Map;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class GroupShiftedStrings
-{
-	public List<List<String>> groupStrings(String[] strings)
-	{
+public class GroupShiftedStrings {
+	public List<List<String>> groupStrings(String[] strings) {
 		Map<String, List<String>> map = new HashMap<>();
 		String key;
-		for (String string : strings)
-		{
+		for (String string : strings) {
 			key = getKey(string);
 			map.putIfAbsent(key, new ArrayList<>());
 			map.get(key).add(string);
@@ -35,13 +32,11 @@ public class GroupShiftedStrings
 		return new ArrayList<>(map.values());
 	}
 
-	private String getKey(String string)
-	{
+	private String getKey(String string) {
 		char[] chars = string.toCharArray();
 		int shift = chars[0] - 'a';
 
-		for (int i = 0; i < chars.length; i++)
-		{
+		for (int i = 0; i < chars.length; i++) {
 			chars[i] = (char) ((chars[i] - shift) % 26);
 		}
 

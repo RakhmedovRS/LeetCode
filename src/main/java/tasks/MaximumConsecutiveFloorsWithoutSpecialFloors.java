@@ -15,15 +15,12 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumConsecutiveFloorsWithoutSpecialFloors
-{
-	public int maxConsecutive(int bottom, int top, int[] special)
-	{
+public class MaximumConsecutiveFloorsWithoutSpecialFloors {
+	public int maxConsecutive(int bottom, int top, int[] special) {
 		int max = 0;
 		Arrays.sort(special);
 		max = Math.max(max, special[0] - bottom);
-		for (int i = 1; i < special.length; i++)
-		{
+		for (int i = 1; i < special.length; i++) {
 			max = Math.max(max, special[i] - special[i - 1] - 1);
 		}
 

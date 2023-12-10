@@ -14,10 +14,8 @@ import common.LeetCode;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class NumberOfDaysInMonth
-{
-	public int numberOfDays(int Y, int M)
-	{
+public class NumberOfDaysInMonth {
+	public int numberOfDays(int Y, int M) {
 		return java.time.YearMonth.of(Y, M).lengthOfMonth();
 	}
 }

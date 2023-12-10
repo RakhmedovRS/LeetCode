@@ -17,32 +17,25 @@ import java.util.List;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class IntersectionOfThreeSortedArrays
-{
-	public List<Integer> arraysIntersection(int[] arr1, int[] arr2, int[] arr3)
-	{
+public class IntersectionOfThreeSortedArrays {
+	public List<Integer> arraysIntersection(int[] arr1, int[] arr2, int[] arr3) {
 		List<Integer> answer = new ArrayList<>();
 		int[] table = new int[2001];
 
-		for (int num : arr1)
-		{
+		for (int num : arr1) {
 			table[num]++;
 		}
 
-		for (int num : arr2)
-		{
+		for (int num : arr2) {
 			table[num]++;
 		}
 
-		for (int num : arr3)
-		{
+		for (int num : arr3) {
 			table[num]++;
 		}
 
-		for (int i = 0; i < table.length; i++)
-		{
-			if (table[i] == 3)
-			{
+		for (int i = 0; i < table.length; i++) {
+			if (table[i] == 3) {
 				answer.add(i);
 			}
 		}

@@ -13,27 +13,21 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/longest-turbulent-subarray/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LongestTurbulentSubarray
-{
-	public int maxTurbulenceSize(int[] A)
-	{
+public class LongestTurbulentSubarray {
+	public int maxTurbulenceSize(int[] A) {
 		int increasing = 1;
 		int decreasing = 1;
 		int max = 1;
-		for (int i = 1; i < A.length; i++)
-		{
-			if (A[i - 1] > A[i])
-			{
+		for (int i = 1; i < A.length; i++) {
+			if (A[i - 1] > A[i]) {
 				decreasing = increasing + 1;
 				increasing = 1;
 			}
-			else if (A[i - 1] < A[i])
-			{
+			else if (A[i - 1] < A[i]) {
 				increasing = decreasing + 1;
 				decreasing = 1;
 			}
-			else
-			{
+			else {
 				increasing = 1;
 				decreasing = 1;
 			}

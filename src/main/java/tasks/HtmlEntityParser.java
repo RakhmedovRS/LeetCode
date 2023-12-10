@@ -18,10 +18,8 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/html-entity-parser/",
 		difficulty = Difficulty.MEDIUM
 )
-public class HtmlEntityParser
-{
-	public String entityParser(String text)
-	{
+public class HtmlEntityParser {
+	public String entityParser(String text) {
 		Map<String, String> map = new HashMap<>();
 		map.put("&quot;", "\"");
 		map.put("&apos;", "'");
@@ -33,51 +31,38 @@ public class HtmlEntityParser
 		StringBuilder sb = new StringBuilder();
 		int prevPos = 0;
 		Deque<Integer> deque = new LinkedList<>();
-		for (int i = 0; i < text.length(); i++)
-		{
-			if (text.charAt(i) == '&')
-			{
-				if (!deque.isEmpty())
-				{
+		for (int i = 0; i < text.length(); i++) {
+			if (text.charAt(i) == '&') {
+				if (!deque.isEmpty()) {
 					int curr = deque.pop();
-					for (int j = prevPos; j <= curr; j++)
-					{
+					for (int j = prevPos; j <= curr; j++) {
 						sb.append(text.charAt(j));
 					}
 					prevPos = curr + 1;
 				}
-				else
-				{
-					for (int j = prevPos; j < i; j++)
-					{
+				else {
+					for (int j = prevPos; j < i; j++) {
 						sb.append(text.charAt(j));
 					}
 				}
 
 				deque.push(i);
 			}
-			else if (text.charAt(i) == ';')
-			{
-				if (!deque.isEmpty())
-				{
+			else if (text.charAt(i) == ';') {
+				if (!deque.isEmpty()) {
 					int start = deque.pop();
 					String key = text.substring(start, i + 1);
-					if (map.containsKey(key))
-					{
+					if (map.containsKey(key)) {
 						sb.append(map.get(key));
 					}
-					else
-					{
-						while (start <= i)
-						{
+					else {
+						while (start <= i) {
 							sb.append(text.charAt(start++));
 						}
 					}
 				}
-				else
-				{
-					for (int j = prevPos; j <= i; j++)
-					{
+				else {
+					for (int j = prevPos; j <= i; j++) {
 						sb.append(text.charAt(j));
 					}
 				}
@@ -85,8 +70,7 @@ public class HtmlEntityParser
 			}
 		}
 
-		while (prevPos < text.length())
-		{
+		while (prevPos < text.length()) {
 			sb.append(text.charAt(prevPos++));
 		}
 

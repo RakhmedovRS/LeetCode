@@ -14,13 +14,10 @@ import common.LeetCode;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class CheckIfNumberIsMajorityElementInSortedArray
-{
-	public boolean isMajorityElement(int[] nums, int target)
-	{
+public class CheckIfNumberIsMajorityElementInSortedArray {
+	public boolean isMajorityElement(int[] nums, int target) {
 		int firstPos = binarySearch(nums, target, true);
-		if (firstPos == -1)
-		{
+		if (firstPos == -1) {
 			return false;
 		}
 		int lastPos = binarySearch(nums, target, false);
@@ -28,33 +25,26 @@ public class CheckIfNumberIsMajorityElementInSortedArray
 		return (1 + lastPos - firstPos) > nums.length / 2;
 	}
 
-	private int binarySearch(int[] nums, int target, boolean first)
-	{
+	private int binarySearch(int[] nums, int target, boolean first) {
 		int left = 0;
 		int right = nums.length - 1;
 		int middle;
 		int candidate = -1;
-		while (left <= right)
-		{
+		while (left <= right) {
 			middle = (left + right) / 2;
-			if (nums[middle] == target)
-			{
+			if (nums[middle] == target) {
 				candidate = middle;
-				if (first)
-				{
+				if (first) {
 					right = middle - 1;
 				}
-				else
-				{
+				else {
 					left = middle + 1;
 				}
 			}
-			else if (nums[middle] > target)
-			{
+			else if (nums[middle] > target) {
 				right = middle - 1;
 			}
-			else
-			{
+			else {
 				left = middle + 1;
 			}
 		}

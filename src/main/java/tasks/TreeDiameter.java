@@ -16,18 +16,14 @@ import java.util.*;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class TreeDiameter
-{
-	public int treeDiameter(int[][] edges)
-	{
+public class TreeDiameter {
+	public int treeDiameter(int[][] edges) {
 		Map<Integer, Set<Integer>> graph = new HashMap<>();
-		for (int i = 0; i <= edges.length; i++)
-		{
+		for (int i = 0; i <= edges.length; i++) {
 			graph.put(i, new HashSet<>());
 		}
 
-		for (int[] edge : edges)
-		{
+		for (int[] edge : edges) {
 			graph.get(edge[0]).add(edge[1]);
 			graph.get(edge[1]).add(edge[0]);
 		}
@@ -38,8 +34,7 @@ public class TreeDiameter
 		return distance[1];
 	}
 
-	private int[] bfs(int startNode, Map<Integer, Set<Integer>> graph)
-	{
+	private int[] bfs(int startNode, Map<Integer, Set<Integer>> graph) {
 		boolean[] visited = new boolean[graph.size()];
 		visited[startNode] = true;
 
@@ -50,16 +45,12 @@ public class TreeDiameter
 		int distance = -1;
 		int nextNode;
 		int size;
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			size = queue.size();
-			while (size-- > 0)
-			{
+			while (size-- > 0) {
 				nextNode = queue.removeFirst();
-				for (int neighbor : graph.get(nextNode))
-				{
-					if (!visited[neighbor])
-					{
+				for (int neighbor : graph.get(nextNode)) {
+					if (!visited[neighbor]) {
 						visited[neighbor] = true;
 						queue.addLast(neighbor);
 						lastNode = neighbor;

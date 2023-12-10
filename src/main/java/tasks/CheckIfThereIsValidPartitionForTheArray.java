@@ -13,33 +13,26 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/description/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CheckIfThereIsValidPartitionForTheArray
-{
-	public boolean validPartition(int[] nums)
-	{
+public class CheckIfThereIsValidPartitionForTheArray {
+	public boolean validPartition(int[] nums) {
 		return validPartition(0, nums, new Boolean[nums.length]);
 	}
 
-	private boolean validPartition(int start, int[] nums, Boolean[] memo)
-	{
-		if (start >= nums.length)
-		{
+	private boolean validPartition(int start, int[] nums, Boolean[] memo) {
+		if (start >= nums.length) {
 			return true;
 		}
 
-		if (memo[start] != null)
-		{
+		if (memo[start] != null) {
 			return memo[start];
 		}
 
-		if (start + 2 < nums.length)
-		{
+		if (start + 2 < nums.length) {
 			return memo[start] = (nums[start] == nums[start + 1] && validPartition(start + 2, nums, memo))
 					|| (nums[start] == nums[start + 1] && nums[start + 1] == nums[start + 2] && validPartition(start + 3, nums, memo))
 					|| (nums[start] == nums[start + 1] - 1 && nums[start + 1] == nums[start + 2] - 1 && validPartition(start + 3, nums, memo));
 		}
-		else if (start + 1 < nums.length)
-		{
+		else if (start + 1 < nums.length) {
 			return memo[start] = nums[start] == nums[start + 1] && validPartition(start + 2, nums, memo);
 		}
 

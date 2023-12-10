@@ -17,21 +17,17 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/sort-the-people/",
 		difficulty = Difficulty.EASY
 )
-public class SortThePeople
-{
-	public String[] sortPeople(String[] names, int[] heights)
-	{
+public class SortThePeople {
+	public String[] sortPeople(String[] names, int[] heights) {
 		List<Map.Entry<String, Integer>> list = new ArrayList<>();
-		for (int i = 0; i < names.length; i++)
-		{
+		for (int i = 0; i < names.length; i++) {
 			list.add(new java.util.AbstractMap.SimpleEntry<>(names[i], heights[i]));
 		}
 
 		list.sort((a, b) -> b.getValue().compareTo(a.getValue()));
 
 		String[] answer = new String[heights.length];
-		for (int i = 0; i < names.length; i++)
-		{
+		for (int i = 0; i < names.length; i++) {
 			answer[i] = list.get(i).getKey();
 		}
 

@@ -17,12 +17,9 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumNumberOfEventsThatCanBeAttended
-{
-	public int maxEvents(int[][] events)
-	{
-		if (events == null || events.length == 0)
-		{
+public class MaximumNumberOfEventsThatCanBeAttended {
+	public int maxEvents(int[][] events) {
+		if (events == null || events.length == 0) {
 			return 0;
 		}
 
@@ -32,20 +29,16 @@ public class MaximumNumberOfEventsThatCanBeAttended
 		int currentDay = 1;
 		PriorityQueue<Integer> pq = new PriorityQueue<>();
 		int count = 0;
-		while (!pq.isEmpty() || eventIndex < size)
-		{
-			while (!pq.isEmpty() && pq.peek() < currentDay)
-			{
+		while (!pq.isEmpty() || eventIndex < size) {
+			while (!pq.isEmpty() && pq.peek() < currentDay) {
 				pq.remove();
 			}
 
-			while (eventIndex < size && events[eventIndex][0] == currentDay)
-			{
+			while (eventIndex < size && events[eventIndex][0] == currentDay) {
 				pq.add(events[eventIndex++][1]);
 			}
 
-			if (!pq.isEmpty())
-			{
+			if (!pq.isEmpty()) {
 				pq.remove();
 				count++;
 			}

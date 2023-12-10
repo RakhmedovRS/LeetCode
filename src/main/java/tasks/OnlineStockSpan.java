@@ -9,24 +9,19 @@ import java.util.Stack;
  * @created 19-May-20
  */
 @LeetCode(id = 901, name = "Online Stock Span", url = "https://leetcode.com/problems/online-stock-span/")
-public class OnlineStockSpan
-{
-	class StockSpanner
-	{
+public class OnlineStockSpan {
+	class StockSpanner {
 
 		Stack<Integer> prices, weights;
 
-		public StockSpanner()
-		{
+		public StockSpanner() {
 			prices = new Stack();
 			weights = new Stack();
 		}
 
-		public int next(int price)
-		{
+		public int next(int price) {
 			int w = 1;
-			while (!prices.isEmpty() && prices.peek() <= price)
-			{
+			while (!prices.isEmpty() && prices.peek() <= price) {
 				prices.pop();
 				w += weights.pop();
 			}

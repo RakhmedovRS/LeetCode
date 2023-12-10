@@ -13,22 +13,16 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/max-consecutive-ones-iii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaxConsecutiveOnesIII
-{
-	public int longestOnes(int[] nums, int k)
-	{
+public class MaxConsecutiveOnesIII {
+	public int longestOnes(int[] nums, int k) {
 		int left = 0;
 		int right = 0;
 		int maxCountOfOnes = 0;
-		while (right < nums.length)
-		{
-			if (nums[right++] == 0)
-			{
+		while (right < nums.length) {
+			if (nums[right++] == 0) {
 				k--;
-				while (left < right && k < 0)
-				{
-					if (nums[left++] == 0)
-					{
+				while (left < right && k < 0) {
+					if (nums[left++] == 0) {
 						k++;
 					}
 				}

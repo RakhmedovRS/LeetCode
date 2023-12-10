@@ -13,14 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/smallest-range-i/",
 		difficulty = Difficulty.EASY
 )
-public class SmallestRangeI
-{
-	public int smallestRangeI(int[] A, int K)
-	{
+public class SmallestRangeI {
+	public int smallestRangeI(int[] A, int K) {
 		int min = Integer.MAX_VALUE;
 		int max = Integer.MIN_VALUE;
-		for (int num : A)
-		{
+		for (int num : A) {
 			min = Math.min(min, num);
 			max = Math.max(max, num);
 		}

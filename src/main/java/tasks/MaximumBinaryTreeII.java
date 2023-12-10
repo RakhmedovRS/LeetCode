@@ -10,33 +10,26 @@ import java.util.LinkedList;
  * @created 24-Aug-20
  */
 @LeetCode(id = 998, name = "Maximum Binary Tree II", url = "https://leetcode.com/problems/maximum-binary-tree-ii/")
-public class MaximumBinaryTreeII
-{
-	public TreeNode insertIntoMaxTree(TreeNode root, int val)
-	{
+public class MaximumBinaryTreeII {
+	public TreeNode insertIntoMaxTree(TreeNode root, int val) {
 		LinkedList<Integer> nodes = getNodes(root);
 		nodes.addLast(val);
 		Integer[] ints = nodes.toArray(new Integer[0]);
 		return buildTree(ints, 0, ints.length - 1);
 	}
 
-	private TreeNode buildTree(Integer[] ints, int left, int right)
-	{
-		if (left > right)
-		{
+	private TreeNode buildTree(Integer[] ints, int left, int right) {
+		if (left > right) {
 			return null;
 		}
 
-		if (left == right)
-		{
+		if (left == right) {
 			return new TreeNode(ints[left]);
 		}
 
 		int idx = left;
-		for (int i = left; i <= right; i++)
-		{
-			if (ints[i] > ints[idx])
-			{
+		for (int i = left; i <= right; i++) {
+			if (ints[i] > ints[idx]) {
 				idx = i;
 			}
 		}
@@ -47,10 +40,8 @@ public class MaximumBinaryTreeII
 		return node;
 	}
 
-	private LinkedList<Integer> getNodes(TreeNode root)
-	{
-		if (root == null)
-		{
+	private LinkedList<Integer> getNodes(TreeNode root) {
+		if (root == null) {
 			return new LinkedList<>();
 		}
 
@@ -59,13 +50,11 @@ public class MaximumBinaryTreeII
 		LinkedList<Integer> lefts = getNodes(root.left);
 		LinkedList<Integer> rights = getNodes(root.right);
 
-		while (!lefts.isEmpty())
-		{
+		while (!lefts.isEmpty()) {
 			nodes.addFirst(lefts.removeLast());
 		}
 
-		for (Integer node : rights)
-		{
+		for (Integer node : rights) {
 			nodes.addLast(node);
 		}
 

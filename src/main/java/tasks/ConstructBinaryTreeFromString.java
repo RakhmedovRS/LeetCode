@@ -17,25 +17,20 @@ import java.util.LinkedList;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class ConstructBinaryTreeFromString
-{
-	public TreeNode str2tree(String s)
-	{
+public class ConstructBinaryTreeFromString {
+	public TreeNode str2tree(String s) {
 		return str2tree(s.toCharArray(), 0, s.length() - 1);
 	}
 
-	public TreeNode str2tree(char[] chars, int left, int right)
-	{
-		if (left > right)
-		{
+	public TreeNode str2tree(char[] chars, int left, int right) {
+		if (left > right) {
 			return null;
 		}
 
 		boolean negative = chars[left] == '-';
 		int i = negative ? left + 1 : left;
 		int num = 0;
-		while (i <= right && Character.isDigit(chars[i]))
-		{
+		while (i <= right && Character.isDigit(chars[i])) {
 			num *= 10;
 			num += chars[i] - '0';
 			i++;
@@ -45,27 +40,20 @@ public class ConstructBinaryTreeFromString
 
 		TreeNode node = new TreeNode(num);
 		LinkedList<Integer> indices = new LinkedList<>();
-		for (; i <= right; i++)
-		{
-			if (chars[i] == '(')
-			{
+		for (; i <= right; i++) {
+			if (chars[i] == '(') {
 				indices.push(i);
 			}
-			else if (chars[i] == ')')
-			{
-				if (indices.size() == 1)
-				{
-					if (node.left == null)
-					{
+			else if (chars[i] == ')') {
+				if (indices.size() == 1) {
+					if (node.left == null) {
 						node.left = str2tree(chars, indices.pop() + 1, i - 1);
 					}
-					else
-					{
+					else {
 						node.right = str2tree(chars, indices.pop() + 1, i - 1);
 					}
 				}
-				else
-				{
+				else {
 					indices.pop();
 				}
 			}
@@ -74,8 +62,7 @@ public class ConstructBinaryTreeFromString
 		return node;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		ConstructBinaryTreeFromString clazz = new ConstructBinaryTreeFromString();
 		System.out.println(clazz.str2tree("4(2(3)(1))(6(5))"));
 	}

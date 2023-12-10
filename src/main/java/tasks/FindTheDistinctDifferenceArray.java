@@ -16,19 +16,15 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/find-the-distinct-difference-array/",
 		difficulty = Difficulty.EASY
 )
-public class FindTheDistinctDifferenceArray
-{
-	public int[] distinctDifferenceArray(int[] nums)
-	{
+public class FindTheDistinctDifferenceArray {
+	public int[] distinctDifferenceArray(int[] nums) {
 		Set<Integer> set = new HashSet<>();
 		int[] ans = new int[nums.length];
-		for (int i = 0; i < nums.length; i++)
-		{
+		for (int i = 0; i < nums.length; i++) {
 			set.add(nums[i]);
 
 			Set<Integer> set2 = new HashSet<>();
-			for (int j = i + 1; j < nums.length; j++)
-			{
+			for (int j = i + 1; j < nums.length; j++) {
 				set2.add(nums[j]);
 			}
 

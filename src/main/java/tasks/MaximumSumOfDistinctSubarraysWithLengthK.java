@@ -16,34 +16,27 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumSumOfDistinctSubarraysWithLengthK
-{
-	public long maximumSubarraySum(int[] nums, int k)
-	{
+public class MaximumSumOfDistinctSubarraysWithLengthK {
+	public long maximumSubarraySum(int[] nums, int k) {
 		Map<Integer, Integer> map = new HashMap<>();
 		int left = 0;
 		int right = 0;
 		long curr = 0L;
 		long max = 0L;
-		while (right < nums.length)
-		{
-			if (right - left < k)
-			{
+		while (right < nums.length) {
+			if (right - left < k) {
 				curr += nums[right];
 				map.put(nums[right], map.getOrDefault(nums[right], 0) + 1);
 				right++;
 			}
-			else
-			{
-				if (map.size() == k)
-				{
+			else {
+				if (map.size() == k) {
 					max = Math.max(max, curr);
 				}
 
 				int count = map.remove(nums[left]) - 1;
 				curr -= nums[left];
-				if (count > 0)
-				{
+				if (count > 0) {
 					map.put(nums[left], count);
 				}
 				left++;
@@ -55,8 +48,7 @@ public class MaximumSumOfDistinctSubarraysWithLengthK
 
 		}
 
-		if (map.size() == k)
-		{
+		if (map.size() == k) {
 			max = Math.max(max, curr);
 		}
 

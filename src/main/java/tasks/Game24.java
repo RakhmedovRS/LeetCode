@@ -16,79 +16,60 @@ import java.util.List;
 		url = "https://leetcode.com/problems/24-game/",
 		difficulty = Difficulty.HARD
 )
-public class Game24
-{
-	public boolean judgePoint24(int[] nums)
-	{
+public class Game24 {
+	public boolean judgePoint24(int[] nums) {
 		List<Double> doubles = new ArrayList<>();
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			doubles.add(1D * num);
 		}
 
 		return dfs(doubles);
 	}
 
-	private boolean dfs(List<Double> doubles)
-	{
-		if (doubles.isEmpty())
-		{
+	private boolean dfs(List<Double> doubles) {
+		if (doubles.isEmpty()) {
 			return false;
 		}
 
-		if (doubles.size() == 1)
-		{
+		if (doubles.size() == 1) {
 			return Math.abs(doubles.get(0) - 24) < 0.001;
 		}
 
-		for (int i = 0; i < doubles.size(); i++)
-		{
-			for (int j = 0; j < doubles.size(); j++)
-			{
-				if (i == j)
-				{
+		for (int i = 0; i < doubles.size(); i++) {
+			for (int j = 0; j < doubles.size(); j++) {
+				if (i == j) {
 					continue;
 				}
 
 				List<Double> next = new ArrayList<>();
-				for (int pos = 0; pos < doubles.size(); pos++)
-				{
-					if (pos != i && pos != j)
-					{
+				for (int pos = 0; pos < doubles.size(); pos++) {
+					if (pos != i && pos != j) {
 						next.add(doubles.get(pos));
 					}
 				}
 
-				for (int pos = 0; pos < 4; pos++)
-				{
-					if (pos < 2 && j > i)
-					{
+				for (int pos = 0; pos < 4; pos++) {
+					if (pos < 2 && j > i) {
 						continue;
 					}
-					if (pos == 0)
-					{
+					if (pos == 0) {
 						next.add(doubles.get(i) + doubles.get(j));
 					}
-					else if (pos == 1)
-					{
+					else if (pos == 1) {
 						next.add(doubles.get(i) * doubles.get(j));
 					}
-					else if (pos == 2)
-					{
+					else if (pos == 2) {
 						next.add(doubles.get(i) - doubles.get(j));
 					}
-					else
-					{
-						if (doubles.get(j) == 0)
-						{
+					else {
+						if (doubles.get(j) == 0) {
 							continue;
 						}
 
 						next.add(doubles.get(i) / doubles.get(j));
 					}
 
-					if (dfs(next))
-					{
+					if (dfs(next)) {
 						return true;
 					}
 

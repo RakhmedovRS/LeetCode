@@ -15,20 +15,15 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/destroying-asteroids/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DestroyingAsteroids
-{
-	public boolean asteroidsDestroyed(int mass, int[] asteroids)
-	{
+public class DestroyingAsteroids {
+	public boolean asteroidsDestroyed(int mass, int[] asteroids) {
 		Arrays.sort(asteroids);
 		long current = mass;
-		for (int asteroid : asteroids)
-		{
-			if (current >= asteroid)
-			{
+		for (int asteroid : asteroids) {
+			if (current >= asteroid) {
 				current += asteroid;
 			}
-			else
-			{
+			else {
 				return false;
 			}
 		}

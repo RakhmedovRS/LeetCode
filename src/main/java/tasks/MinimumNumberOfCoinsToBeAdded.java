@@ -15,31 +15,25 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/minimum-number-of-coins-to-be-added/description/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumNumberOfCoinsToBeAdded
-{
-	public int minimumAddedCoins(int[] coins, int target)
-	{
+public class MinimumNumberOfCoinsToBeAdded {
+	public int minimumAddedCoins(int[] coins, int target) {
 		int add = 0;
 		Arrays.sort(coins);
 		int max = 0;
-		for (int coin : coins)
-		{
-			while (coin > max + 1)
-			{
+		for (int coin : coins) {
+			while (coin > max + 1) {
 				max += max + 1;
 				add++;
 			}
 
 			max += coin;
 
-			if (max >= target)
-			{
+			if (max >= target) {
 				return add;
 			}
 		}
 
-		while (max < target)
-		{
+		while (max < target) {
 			max += max + 1;
 			add++;
 		}

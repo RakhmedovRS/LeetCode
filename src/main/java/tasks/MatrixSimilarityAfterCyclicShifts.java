@@ -17,43 +17,33 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/",
 		difficulty = Difficulty.EASY
 )
-public class MatrixSimilarityAfterCyclicShifts
-{
+public class MatrixSimilarityAfterCyclicShifts {
 	public boolean areSimilar(int[][] mat, int k) {
 		Map<Integer, LinkedList<Integer>> matrix = new HashMap<>();
-		for (int row = 0; row < mat.length; row++)
-		{
+		for (int row = 0; row < mat.length; row++) {
 			LinkedList<Integer> r = new LinkedList<>();
-			for (int col = 0; col < mat[row].length; col++)
-			{
+			for (int col = 0; col < mat[row].length; col++) {
 				r.addLast(mat[row][col]);
 			}
 
 			matrix.put(row, r);
 		}
 
-		for (Map.Entry<Integer, LinkedList<Integer>> entry: matrix.entrySet())
-		{
-			for (int i = 0; i < k; i++)
-			{
-				if (entry.getKey() % 2 == 0)
-				{
+		for (Map.Entry<Integer, LinkedList<Integer>> entry : matrix.entrySet()) {
+			for (int i = 0; i < k; i++) {
+				if (entry.getKey() % 2 == 0) {
 					entry.getValue().addLast(entry.getValue().removeFirst());
 				}
-				else
-				{
+				else {
 					entry.getValue().addFirst(entry.getValue().removeLast());
 				}
 			}
 		}
 
-		for (int row = 0; row < mat.length; row++)
-		{
+		for (int row = 0; row < mat.length; row++) {
 			LinkedList<Integer> r = matrix.get(row);
-			for (int col = 0; col < mat[row].length; col++)
-			{
-				if (mat[row][col] != r.removeFirst())
-				{
+			for (int col = 0; col < mat[row].length; col++) {
+				if (mat[row][col] != r.removeFirst()) {
 					return false;
 				}
 			}

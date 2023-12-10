@@ -13,24 +13,18 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/largest-number-after-mutating-substring/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LargestNumberAfterMutatingSubstring
-{
-	public String maximumNumber(String num, int[] change)
-	{
+public class LargestNumberAfterMutatingSubstring {
+	public String maximumNumber(String num, int[] change) {
 		char[] chars = num.toCharArray();
 		boolean seenGreater = false;
-		for (int i = 0; i < chars.length; i++)
-		{
-			if (chars[i] - '0' <= change[chars[i] - '0'])
-			{
-				if (chars[i] - '0' < change[chars[i] - '0'])
-				{
+		for (int i = 0; i < chars.length; i++) {
+			if (chars[i] - '0' <= change[chars[i] - '0']) {
+				if (chars[i] - '0' < change[chars[i] - '0']) {
 					seenGreater = true;
 				}
 				chars[i] = (char) (change[chars[i] - '0'] + '0');
 			}
-			else if (seenGreater)
-			{
+			else if (seenGreater) {
 				break;
 			}
 		}

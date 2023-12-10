@@ -13,18 +13,13 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/largest-3-same-digit-number-in-string/",
 		difficulty = Difficulty.EASY
 )
-public class Largest3SameDigitNumberInString
-{
-	public String largestGoodInteger(String num)
-	{
+public class Largest3SameDigitNumberInString {
+	public String largestGoodInteger(String num) {
 		String answer = "";
 
-		for (int i = 1; i < num.length() - 1; i++)
-		{
-			if (num.charAt(i - 1) == num.charAt(i) && num.charAt(i) == num.charAt(i + 1))
-			{
-				if (answer.equals("") || answer.charAt(0) < num.charAt(i))
-				{
+		for (int i = 1; i < num.length() - 1; i++) {
+			if (num.charAt(i - 1) == num.charAt(i) && num.charAt(i) == num.charAt(i + 1)) {
+				if (answer.equals("") || answer.charAt(0) < num.charAt(i)) {
 					answer = "" + num.charAt(i) + num.charAt(i) + num.charAt(i);
 				}
 			}

@@ -14,14 +14,11 @@ import common.ListNode;
 		url = "https://leetcode.com/problems/reverse-linked-list/",
 		difficulty = Difficulty.EASY
 )
-public class ReverseLinkedList
-{
-	public ListNode reverseList(ListNode head)
-	{
+public class ReverseLinkedList {
+	public ListNode reverseList(ListNode head) {
 		ListNode prev = null;
 		ListNode next = head;
-		while (next != null)
-		{
+		while (next != null) {
 			next = head.next;
 			head.next = prev;
 			prev = head;
@@ -31,8 +28,7 @@ public class ReverseLinkedList
 		return prev;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		ListNode head = new ListNode(1);
 		head.next = new ListNode(2);
 		head.next.next = new ListNode(3);

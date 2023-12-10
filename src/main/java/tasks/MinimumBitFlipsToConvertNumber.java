@@ -13,15 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/",
 		difficulty = Difficulty.EASY
 )
-public class MinimumBitFlipsToConvertNumber
-{
-	public int minBitFlips(int start, int goal)
-	{
+public class MinimumBitFlipsToConvertNumber {
+	public int minBitFlips(int start, int goal) {
 		int diff = 0;
-		while (start > 0 || goal > 0)
-		{
-			if ((start & 1) != (goal & 1))
-			{
+		while (start > 0 || goal > 0) {
+			if ((start & 1) != (goal & 1)) {
 				diff++;
 			}
 			start >>= 1;

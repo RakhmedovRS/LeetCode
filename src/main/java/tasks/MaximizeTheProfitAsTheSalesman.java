@@ -18,13 +18,10 @@ import java.util.TreeMap;
 		url = "https://leetcode.com/problems/maximize-the-profit-as-the-salesman/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximizeTheProfitAsTheSalesman
-{
-	public int maximizeTheProfit(int n, List<List<Integer>> offers)
-	{
+public class MaximizeTheProfitAsTheSalesman {
+	public int maximizeTheProfit(int n, List<List<Integer>> offers) {
 		TreeMap<Integer, List<int[]>> map = new TreeMap<>();
-		for (List<Integer> offer: offers)
-		{
+		for (List<Integer> offer : offers) {
 			map.putIfAbsent(offer.get(0), new ArrayList<>());
 			map.get(offer.get(0)).add(new int[]{offer.get(1), offer.get(2)});
 		}
@@ -36,17 +33,14 @@ public class MaximizeTheProfitAsTheSalesman
 		return memo.firstEntry().getValue();
 	}
 
-	private void dfs(Integer pos, TreeMap<Integer, List<int[]>> map, TreeMap<Integer, Integer> memo)
-	{
-		if (pos == null)
-		{
+	private void dfs(Integer pos, TreeMap<Integer, List<int[]>> map, TreeMap<Integer, Integer> memo) {
+		if (pos == null) {
 			return;
 		}
 
 		List<int[]> list = map.floorEntry(pos).getValue();
 		int max = 0;
-		for (int[] pair: list)
-		{
+		for (int[] pair : list) {
 			int end = pair[0];
 			int gold = pair[1];
 

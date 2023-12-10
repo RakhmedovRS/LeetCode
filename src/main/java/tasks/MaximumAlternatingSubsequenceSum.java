@@ -15,45 +15,35 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/maximum-alternating-subsequence-sum/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumAlternatingSubsequenceSum
-{
-	public long maxAlternatingSum(int[] nums)
-	{
-		if (nums.length == 1)
-		{
+public class MaximumAlternatingSubsequenceSum {
+	public long maxAlternatingSum(int[] nums) {
+		if (nums.length == 1) {
 			return nums[0];
 		}
-		else if (nums.length == 2)
-		{
+		else if (nums.length == 2) {
 			return Math.max(nums[0], nums[1]);
 		}
 
 		LinkedList<Integer> list = new LinkedList<>();
-		for (int i = 0; i < nums.length; i++)
-		{
+		for (int i = 0; i < nums.length; i++) {
 			list.addLast(nums[i]);
 		}
 
 		boolean lookingForBig = true;
 		long sum = 0;
 		long max = 0;
-		while (!list.isEmpty())
-		{
+		while (!list.isEmpty()) {
 			int current = list.removeFirst();
-			if (lookingForBig)
-			{
-				while (!list.isEmpty() && current <= list.getFirst())
-				{
+			if (lookingForBig) {
+				while (!list.isEmpty() && current <= list.getFirst()) {
 					current = list.removeFirst();
 				}
 
 				sum += current;
 				lookingForBig = false;
 			}
-			else
-			{
-				while (!list.isEmpty() && current >= list.getFirst())
-				{
+			else {
+				while (!list.isEmpty() && current >= list.getFirst()) {
 					current = list.removeFirst();
 				}
 

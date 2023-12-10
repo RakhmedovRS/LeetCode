@@ -19,39 +19,30 @@ import java.util.Map;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class ShortestWordDistanceIII
-{
-	public int shortestWordDistance(String[] words, String word1, String word2)
-	{
+public class ShortestWordDistanceIII {
+	public int shortestWordDistance(String[] words, String word1, String word2) {
 		Map<String, List<Integer>> map = new HashMap<>();
-		for (int i = 0; i < words.length; i++)
-		{
+		for (int i = 0; i < words.length; i++) {
 			map.putIfAbsent(words[i], new ArrayList<>());
 			map.get(words[i]).add(i);
 		}
 
 		int min = Integer.MAX_VALUE;
-		if (word1.equals(word2))
-		{
+		if (word1.equals(word2)) {
 			Integer prev = null;
-			for (Integer id : map.get(word1))
-			{
-				if (prev != null)
-				{
+			for (Integer id : map.get(word1)) {
+				if (prev != null) {
 					min = Math.min(min, id - prev);
 				}
 
 				prev = id;
 			}
 		}
-		else
-		{
+		else {
 			List<Integer> ids1 = map.get(word1);
 			List<Integer> ids2 = map.get(word2);
-			for (int id1 : ids1)
-			{
-				for (int id2 : ids2)
-				{
+			for (int id1 : ids1) {
+				for (int id2 : ids2) {
 					min = Math.min(min, Math.abs(id1 - id2));
 				}
 			}

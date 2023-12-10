@@ -16,28 +16,21 @@ import java.util.List;
 		url = "https://leetcode.com/problems/last-visited-integers/",
 		difficulty = Difficulty.EASY
 )
-public class LastVisitedIntegers
-{
-	public List<Integer> lastVisitedIntegers(List<String> words)
-	{
+public class LastVisitedIntegers {
+	public List<Integer> lastVisitedIntegers(List<String> words) {
 		List<Integer> list = new ArrayList<>();
 		List<Integer> answer = new ArrayList<>();
 		int pos = -1;
-		for (String word : words)
-		{
-			if (word.charAt(0) == 'p')
-			{
-				if (pos < 0)
-				{
+		for (String word : words) {
+			if (word.charAt(0) == 'p') {
+				if (pos < 0) {
 					answer.add(-1);
 				}
-				else
-				{
+				else {
 					answer.add(list.get(pos--));
 				}
 			}
-			else
-			{
+			else {
 				list.add(Integer.parseInt(word));
 				pos = list.size() - 1;
 			}

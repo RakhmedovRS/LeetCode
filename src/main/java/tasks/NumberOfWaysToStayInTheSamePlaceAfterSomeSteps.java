@@ -7,25 +7,20 @@ import common.LeetCode;
  * @created 03-Sep-20
  */
 @LeetCode(id = 1269, name = "Number of Ways to Stay in the Same Place After Some Steps", url = "https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/")
-public class NumberOfWaysToStayInTheSamePlaceAfterSomeSteps
-{
+public class NumberOfWaysToStayInTheSamePlaceAfterSomeSteps {
 	int MOD = (int) (Math.pow(10, 9) + 7);
 
-	public int numWays(int steps, int arrLen)
-	{
+	public int numWays(int steps, int arrLen) {
 		Integer[][] memo = new Integer[steps + 1][Math.min(steps / 2, arrLen - 1) + 1];
 		return dfs(0, steps, memo) % MOD;
 	}
 
-	private int dfs(int pos, int steps, Integer[][] memo)
-	{
-		if (steps == 0)
-		{
+	private int dfs(int pos, int steps, Integer[][] memo) {
+		if (steps == 0) {
 			return pos == 0 ? 1 : 0;
 		}
 
-		if (memo[steps][pos] != null)
-		{
+		if (memo[steps][pos] != null) {
 			return memo[steps][pos];
 		}
 
@@ -37,8 +32,7 @@ public class NumberOfWaysToStayInTheSamePlaceAfterSomeSteps
 		return memo[steps][pos];
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new NumberOfWaysToStayInTheSamePlaceAfterSomeSteps().numWays(3, 2));
 		System.out.println(new NumberOfWaysToStayInTheSamePlaceAfterSomeSteps().numWays(430, 148488));
 		System.out.println(new NumberOfWaysToStayInTheSamePlaceAfterSomeSteps().numWays(27, 7));

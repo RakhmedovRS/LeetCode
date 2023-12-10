@@ -15,34 +15,26 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/largest-submatrix-with-rearrangements/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LargestSubmatrixWithRearrangements
-{
-	public int largestSubmatrix(int[][] matrix)
-	{
+public class LargestSubmatrixWithRearrangements {
+	public int largestSubmatrix(int[][] matrix) {
 		int rows = matrix.length;
-		if (rows == 0)
-		{
+		if (rows == 0) {
 			return 0;
 		}
 		int columns = matrix[0].length;
 
 		int largest = 0;
-		for (int column = 0; column < columns; column++)
-		{
-			for (int row = 1; row < rows; row++)
-			{
-				if (matrix[row][column] == 1)
-				{
+		for (int column = 0; column < columns; column++) {
+			for (int row = 1; row < rows; row++) {
+				if (matrix[row][column] == 1) {
 					matrix[row][column] += matrix[row - 1][column];
 				}
 			}
 		}
 
-		for (int[] row : matrix)
-		{
+		for (int[] row : matrix) {
 			Arrays.sort(row);
-			for (int column = 1; column <= columns; column++)
-			{
+			for (int column = 1; column <= columns; column++) {
 				largest = Math.max(largest, column * row[columns - column]);
 			}
 		}

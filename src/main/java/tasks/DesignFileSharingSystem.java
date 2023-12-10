@@ -16,16 +16,13 @@ import java.util.*;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class DesignFileSharingSystem
-{
-	class FileSharing
-	{
+public class DesignFileSharingSystem {
+	class FileSharing {
 		PriorityQueue<Integer> ids;
 		Map<Integer, Set<Integer>> userToChunks;
 		Map<Integer, Set<Integer>> chunkToUsers;
 
-		public FileSharing(int m)
-		{
+		public FileSharing(int m) {
 			ids = new PriorityQueue<>();
 			ids.add(1);
 
@@ -33,19 +30,16 @@ public class DesignFileSharingSystem
 			chunkToUsers = new HashMap<>();
 		}
 
-		public int join(List<Integer> ownedChunks)
-		{
+		public int join(List<Integer> ownedChunks) {
 			int id = ids.remove();
-			if (ids.isEmpty())
-			{
+			if (ids.isEmpty()) {
 				ids.add(id + 1);
 			}
 
 			Set<Integer> set = userToChunks.getOrDefault(id, new HashSet<>());
 			set.addAll(ownedChunks);
 			userToChunks.put(id, set);
-			for (int chunk : ownedChunks)
-			{
+			for (int chunk : ownedChunks) {
 				chunkToUsers.putIfAbsent(chunk, new TreeSet<>());
 				chunkToUsers.get(chunk).add(id);
 			}
@@ -53,20 +47,16 @@ public class DesignFileSharingSystem
 			return id;
 		}
 
-		public void leave(int userID)
-		{
+		public void leave(int userID) {
 			ids.add(userID);
-			for (int chunk : userToChunks.remove(userID))
-			{
+			for (int chunk : userToChunks.remove(userID)) {
 				chunkToUsers.get(chunk).remove(userID);
 			}
 		}
 
-		public List<Integer> request(int userID, int chunkID)
-		{
+		public List<Integer> request(int userID, int chunkID) {
 			Set<Integer> set = chunkToUsers.getOrDefault(chunkID, Collections.emptySet());
-			if (!set.isEmpty())
-			{
+			if (!set.isEmpty()) {
 				List<Integer> list = new ArrayList<>(set);
 				set.add(userID);
 				userToChunks.putIfAbsent(userID, new HashSet<>());
@@ -78,8 +68,7 @@ public class DesignFileSharingSystem
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		DesignFileSharingSystem clazz = new DesignFileSharingSystem();
 		FileSharing fileSharing = clazz.new FileSharing(17);
 		System.out.println(fileSharing.join(Arrays.asList())); //1

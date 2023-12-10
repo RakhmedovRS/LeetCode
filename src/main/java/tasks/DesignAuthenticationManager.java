@@ -18,25 +18,20 @@ import java.util.TreeSet;
 		url = "https://leetcode.com/problems/design-authentication-manager/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DesignAuthenticationManager
-{
-	class AuthenticationManager
-	{
+public class DesignAuthenticationManager {
+	class AuthenticationManager {
 		int timeToLive;
 		Map<String, Integer> tokenToExpireTime;
 		TreeSet<String> expireTime;
 
-		public AuthenticationManager(int timeToLive)
-		{
+		public AuthenticationManager(int timeToLive) {
 			this.timeToLive = timeToLive;
 			tokenToExpireTime = new HashMap<>();
 			expireTime = new TreeSet<>(Comparator.comparingInt(a -> tokenToExpireTime.get(a)));
 		}
 
-		public void generate(String tokenId, int currentTime)
-		{
-			if (tokenToExpireTime.containsKey(tokenId))
-			{
+		public void generate(String tokenId, int currentTime) {
+			if (tokenToExpireTime.containsKey(tokenId)) {
 				expireTime.remove(tokenId);
 			}
 
@@ -44,27 +39,22 @@ public class DesignAuthenticationManager
 			expireTime.add(tokenId);
 		}
 
-		public void renew(String tokenId, int currentTime)
-		{
-			while (!expireTime.isEmpty() && tokenToExpireTime.get(expireTime.first()) <= currentTime)
-			{
+		public void renew(String tokenId, int currentTime) {
+			while (!expireTime.isEmpty() && tokenToExpireTime.get(expireTime.first()) <= currentTime) {
 				String token = expireTime.first();
 				expireTime.remove(token);
 				tokenToExpireTime.remove(token);
 			}
 
-			if (tokenToExpireTime.containsKey(tokenId))
-			{
+			if (tokenToExpireTime.containsKey(tokenId)) {
 				expireTime.remove(tokenId);
 				tokenToExpireTime.put(tokenId, currentTime + timeToLive);
 				expireTime.add(tokenId);
 			}
 		}
 
-		public int countUnexpiredTokens(int currentTime)
-		{
-			while (!expireTime.isEmpty() && tokenToExpireTime.get(expireTime.first()) <= currentTime)
-			{
+		public int countUnexpiredTokens(int currentTime) {
+			while (!expireTime.isEmpty() && tokenToExpireTime.get(expireTime.first()) <= currentTime) {
 				String token = expireTime.first();
 				expireTime.remove(token);
 				tokenToExpireTime.remove(token);
@@ -74,8 +64,7 @@ public class DesignAuthenticationManager
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		DesignAuthenticationManager clazz = new DesignAuthenticationManager();
 
 		AuthenticationManager authenticationManager = clazz.new AuthenticationManager(444);

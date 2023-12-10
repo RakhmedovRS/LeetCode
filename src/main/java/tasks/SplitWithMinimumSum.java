@@ -15,13 +15,10 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/split-with-minimum-sum/",
 		difficulty = Difficulty.EASY
 )
-public class SplitWithMinimumSum
-{
-	public int splitNum(int num)
-	{
+public class SplitWithMinimumSum {
+	public int splitNum(int num) {
 		LinkedList<Integer> list = new LinkedList<>();
-		while (num > 0)
-		{
+		while (num > 0) {
 			list.add(num % 10);
 			num /= 10;
 		}
@@ -30,12 +27,10 @@ public class SplitWithMinimumSum
 
 		int a = 0;
 		int b = 0;
-		while (!list.isEmpty())
-		{
+		while (!list.isEmpty()) {
 			a *= 10;
 			a += list.removeFirst();
-			if (!list.isEmpty())
-			{
+			if (!list.isEmpty()) {
 				b *= 10;
 				b += list.removeFirst();
 			}

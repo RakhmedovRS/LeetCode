@@ -16,27 +16,20 @@ import java.util.List;
 		url = "https://leetcode.com/problems/the-number-of-beautiful-subsets/",
 		difficulty = Difficulty.MEDIUM
 )
-public class TheNumberOfBeautifulSubsets
-{
-	public int beautifulSubsets(int[] nums, int k)
-	{
+public class TheNumberOfBeautifulSubsets {
+	public int beautifulSubsets(int[] nums, int k) {
 		int[] memo = new int[5000];
 		return dfs(0, nums, new ArrayList<>(), memo, k);
 	}
 
-	private int dfs(int pos, int[] nums, List<Integer> list, int[] memo, int k)
-	{
-		if (pos >= nums.length)
-		{
-			if (list.isEmpty())
-			{
+	private int dfs(int pos, int[] nums, List<Integer> list, int[] memo, int k) {
+		if (pos >= nums.length) {
+			if (list.isEmpty()) {
 				return 0;
 			}
 
-			for (Integer val : list)
-			{
-				if (memo[2000 + val + k] > 0 || memo[2000 + val - k] > 0)
-				{
+			for (Integer val : list) {
+				if (memo[2000 + val + k] > 0 || memo[2000 + val - k] > 0) {
 					return 0;
 				}
 			}

@@ -18,13 +18,10 @@ import java.util.TreeSet;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class ShortestWayToFormString
-{
-	public int shortestWay(String source, String target)
-	{
+public class ShortestWayToFormString {
+	public int shortestWay(String source, String target) {
 		Map<Character, TreeSet<Integer>> positions = new HashMap<>();
-		for (int i = 0; i < source.length(); i++)
-		{
+		for (int i = 0; i < source.length(); i++) {
 			char ch = source.charAt(i);
 			positions.putIfAbsent(ch, new TreeSet<>());
 			positions.get(ch).add(i);
@@ -33,21 +30,17 @@ public class ShortestWayToFormString
 		int steps = 1;
 		int currentPos = -1;
 		Integer nextPos;
-		for (char ch : target.toCharArray())
-		{
-			if (!positions.containsKey(ch))
-			{
+		for (char ch : target.toCharArray()) {
+			if (!positions.containsKey(ch)) {
 				return -1;
 			}
 
 			nextPos = positions.get(ch).ceiling(currentPos + 1);
-			if (nextPos == null)
-			{
+			if (nextPos == null) {
 				steps++;
 				currentPos = positions.get(ch).first();
 			}
-			else
-			{
+			else {
 				currentPos = nextPos;
 			}
 		}
@@ -55,8 +48,7 @@ public class ShortestWayToFormString
 		return steps;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new ShortestWayToFormString().shortestWay("aaaaa", "aaaaaaaaaaaaa"));
 		System.out.println(new ShortestWayToFormString().shortestWay("xyz", "xzyxz"));
 		System.out.println(new ShortestWayToFormString().shortestWay("abc", "acdbc"));

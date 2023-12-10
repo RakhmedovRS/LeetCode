@@ -17,42 +17,34 @@ import java.util.List;
 		url = "https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/",
 		difficulty = Difficulty.HARD
 )
-public class RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable
-{
-	class DSU
-	{
+public class RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable {
+	class DSU {
 		int[] parent;
 		int[] rank;
 
-		public DSU(int n)
-		{
+		public DSU(int n) {
 			parent = new int[n];
 			rank = new int[n];
 
-			for (int i = 0; i < n; i++)
-			{
+			for (int i = 0; i < n; i++) {
 				parent[i] = i;
 				rank[i] = 1;
 			}
 		}
 
-		public DSU(int[] parent, int[] rank)
-		{
+		public DSU(int[] parent, int[] rank) {
 			this.parent = parent;
 			this.rank = rank;
 		}
 
-		private int findParent(int node)
-		{
+		private int findParent(int node) {
 			int parent = this.parent[node];
-			while (parent != this.parent[parent])
-			{
+			while (parent != this.parent[parent]) {
 				parent = this.parent[parent];
 			}
 
 			int temp;
-			while (node != parent)
-			{
+			while (node != parent) {
 				temp = this.parent[node];
 				this.parent[node] = parent;
 				node = temp;
@@ -61,22 +53,18 @@ public class RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable
 			return parent;
 		}
 
-		private boolean connect(int nodeA, int nodeB)
-		{
+		private boolean connect(int nodeA, int nodeB) {
 			int parentA = findParent(nodeA);
 			int parentB = findParent(nodeB);
-			if (parentA == parentB)
-			{
+			if (parentA == parentB) {
 				return false;
 			}
 
-			if (rank[parentA] >= rank[parentB])
-			{
+			if (rank[parentA] >= rank[parentB]) {
 				parent[parentB] = parentA;
 				rank[parentA] += rank[parentB];
 			}
-			else
-			{
+			else {
 				parent[parentA] = parentB;
 				rank[parentB] += rank[parentA];
 			}
@@ -84,61 +72,49 @@ public class RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable
 			return true;
 		}
 
-		public DSU clone()
-		{
+		public DSU clone() {
 			return new DSU(Arrays.copyOf(parent, parent.length), Arrays.copyOf(rank, rank.length));
 		}
 	}
 
-	public int maxNumEdgesToRemove(int n, int[][] edges)
-	{
+	public int maxNumEdgesToRemove(int n, int[][] edges) {
 		DSU dsu = new DSU(n + 1);
 
 		List<int[]> alice = new ArrayList<>();
 		List<int[]> bob = new ArrayList<>();
 		int count = 0;
-		for (int[] edge : edges)
-		{
-			if (edge[0] == 1)
-			{
+		for (int[] edge : edges) {
+			if (edge[0] == 1) {
 				alice.add(edge);
 			}
-			else if (edge[0] == 2)
-			{
+			else if (edge[0] == 2) {
 				bob.add(edge);
 			}
-			else
-			{
+			else {
 				count += dsu.connect(edge[1], edge[2]) ? 0 : 1;
 			}
 		}
 
 		DSU aliceDSU = dsu.clone();
-		for (int[] edge : alice)
-		{
+		for (int[] edge : alice) {
 			count += aliceDSU.connect(edge[1], edge[2]) ? 0 : 1;
 		}
 
 		DSU bobDSU = dsu.clone();
-		for (int[] edge : bob)
-		{
+		for (int[] edge : bob) {
 			count += bobDSU.connect(edge[1], edge[2]) ? 0 : 1;
 		}
 
 		int aliceParent = aliceDSU.findParent(1);
-		for (int i = 1; i <= n; i++)
-		{
-			if (aliceParent != aliceDSU.findParent(i))
-			{
+		for (int i = 1; i <= n; i++) {
+			if (aliceParent != aliceDSU.findParent(i)) {
 				return -1;
 			}
 		}
 
 		int bobParent = bobDSU.findParent(1);
-		for (int i = 1; i <= n; i++)
-		{
-			if (bobParent != bobDSU.findParent(i))
-			{
+		for (int i = 1; i <= n; i++) {
+			if (bobParent != bobDSU.findParent(i)) {
 				return -1;
 			}
 		}
@@ -146,8 +122,7 @@ public class RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable
 		return count;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable().maxNumEdgesToRemove(13, new int[][]
 				{{1, 1, 2}, {2, 1, 3}, {3, 2, 4}, {3, 2, 5}, {1, 2, 6}, {3, 6, 7}, {3, 7, 8}, {3, 6, 9}, {3, 4, 10}, {2, 3, 11},
 						{1, 5, 12}, {3, 3, 13}, {2, 1, 10}, {2, 6, 11}, {3, 5, 13}, {1, 9, 12}, {1, 6, 8}, {3, 6, 13}, {2, 1, 4},

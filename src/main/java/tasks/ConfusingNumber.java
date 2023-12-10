@@ -17,12 +17,9 @@ import java.util.Map;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class ConfusingNumber
-{
-	public boolean confusingNumber(int N)
-	{
-		if (N == 0)
-		{
+public class ConfusingNumber {
+	public boolean confusingNumber(int N) {
+		if (N == 0) {
 			return false;
 		}
 
@@ -35,10 +32,8 @@ public class ConfusingNumber
 
 		String original = String.valueOf(N);
 		StringBuilder flipped = new StringBuilder(original.length());
-		while (N > 0)
-		{
-			if (!map.containsKey(N % 10))
-			{
+		while (N > 0) {
+			if (!map.containsKey(N % 10)) {
 				return false;
 			}
 
@@ -50,8 +45,7 @@ public class ConfusingNumber
 		return !original.equals(flipped.toString());
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new ConfusingNumber().confusingNumber(0));
 		System.out.println(new ConfusingNumber().confusingNumber(916));
 		System.out.println(new ConfusingNumber().confusingNumber(919));

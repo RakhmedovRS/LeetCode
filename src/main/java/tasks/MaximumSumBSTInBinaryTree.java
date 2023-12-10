@@ -14,19 +14,15 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/",
 		difficulty = Difficulty.HARD
 )
-public class MaximumSumBSTInBinaryTree
-{
-	public int maxSumBST(TreeNode root)
-	{
+public class MaximumSumBSTInBinaryTree {
+	public int maxSumBST(TreeNode root) {
 		int[] max = new int[]{0};
 		dfs(root, max);
 		return max[0];
 	}
 
-	private int[] dfs(TreeNode root, int[] max)
-	{
-		if (root == null)
-		{
+	private int[] dfs(TreeNode root, int[] max) {
+		if (root == null) {
 			return new int[]{1, Integer.MIN_VALUE, Integer.MAX_VALUE, 0};
 		}
 
@@ -35,8 +31,7 @@ public class MaximumSumBSTInBinaryTree
 
 		boolean isValid = left[0] == 1 && right[0] == 1 && left[1] < root.val && root.val < right[2];
 		int sum = root.val + left[3] + right[3];
-		if (isValid)
-		{
+		if (isValid) {
 			max[0] = Math.max(max[0], sum);
 		}
 

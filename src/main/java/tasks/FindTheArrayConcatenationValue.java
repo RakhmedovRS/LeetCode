@@ -13,17 +13,13 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/find-the-array-concatenation-value/description/",
 		difficulty = Difficulty.EASY
 )
-public class FindTheArrayConcatenationValue
-{
-	public long findTheArrayConcVal(int[] nums)
-	{
+public class FindTheArrayConcatenationValue {
+	public long findTheArrayConcVal(int[] nums) {
 		int left = 0;
 		int right = nums.length - 1;
 		long res = 0;
-		while (left <= right)
-		{
-			if (left == right)
-			{
+		while (left <= right) {
+			if (left == right) {
 				res += nums[left++];
 				continue;
 			}

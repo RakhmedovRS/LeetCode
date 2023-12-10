@@ -13,22 +13,16 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/",
 		difficulty = Difficulty.EASY
 )
-public class CheckIfAllAsAppearsBeforeAllBs
-{
-	public boolean checkString(String s)
-	{
+public class CheckIfAllAsAppearsBeforeAllBs {
+	public boolean checkString(String s) {
 		boolean seenB = false;
-		for (char ch : s.toCharArray())
-		{
-			if (ch == 'a')
-			{
-				if (seenB)
-				{
+		for (char ch : s.toCharArray()) {
+			if (ch == 'a') {
+				if (seenB) {
 					return false;
 				}
 			}
-			else
-			{
+			else {
 				seenB = true;
 			}
 		}

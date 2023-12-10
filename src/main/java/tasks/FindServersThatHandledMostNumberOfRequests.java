@@ -18,31 +18,25 @@ import java.util.TreeSet;
 		url = "https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/",
 		difficulty = Difficulty.HARD
 )
-public class FindServersThatHandledMostNumberOfRequests
-{
-	public List<Integer> busiestServers(int k, int[] arrival, int[] load)
-	{
+public class FindServersThatHandledMostNumberOfRequests {
+	public List<Integer> busiestServers(int k, int[] arrival, int[] load) {
 		List<Integer> answer = new ArrayList<>();
 		int[] servers = new int[k];
 		int[] loads = new int[k];
 		int max = 0;
 		TreeSet<Integer> freeServers = new TreeSet<>();
 		PriorityQueue<Integer> busyServers = new PriorityQueue<>((a, b) -> servers[a] - servers[b]);
-		for (int i = 0; i < k; i++)
-		{
+		for (int i = 0; i < k; i++) {
 			freeServers.add(i);
 		}
 
 		Integer index;
-		for (int i = 0; i < arrival.length; i++)
-		{
-			while (!busyServers.isEmpty() && servers[busyServers.peek()] <= arrival[i])
-			{
+		for (int i = 0; i < arrival.length; i++) {
+			while (!busyServers.isEmpty() && servers[busyServers.peek()] <= arrival[i]) {
 				freeServers.add(busyServers.remove());
 			}
 
-			if (freeServers.isEmpty())
-			{
+			if (freeServers.isEmpty()) {
 				continue;
 			}
 
@@ -55,10 +49,8 @@ public class FindServersThatHandledMostNumberOfRequests
 			max = Math.max(max, loads[index]);
 		}
 
-		for (int i = 0; i < loads.length; i++)
-		{
-			if (loads[i] == max)
-			{
+		for (int i = 0; i < loads.length; i++) {
+			if (loads[i] == max) {
 				answer.add(i);
 			}
 		}
@@ -66,8 +58,7 @@ public class FindServersThatHandledMostNumberOfRequests
 		return answer;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new FindServersThatHandledMostNumberOfRequests().busiestServers(3, new int[]{1, 2, 3, 4, 5}, new int[]{5, 2, 3, 3, 3}));
 	}
 }

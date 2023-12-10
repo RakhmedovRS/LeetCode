@@ -15,33 +15,26 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/find-closest-number-to-zero/",
 		difficulty = Difficulty.EASY
 )
-public class FindClosestNumberToZero
-{
-	public int findClosestNumber(int[] nums)
-	{
+public class FindClosestNumberToZero {
+	public int findClosestNumber(int[] nums) {
 		Arrays.sort(nums);
 		int min = nums[0];
 		int max = nums[nums.length - 1];
-		for (int num : nums)
-		{
-			if (num < 0)
-			{
+		for (int num : nums) {
+			if (num < 0) {
 				min = num;
 			}
-			if (num > 0)
-			{
+			if (num > 0) {
 				max = num;
 				break;
 			}
 
-			if (num == 0)
-			{
+			if (num == 0) {
 				return 0;
 			}
 		}
 
-		if (max <= Math.abs(min))
-		{
+		if (max <= Math.abs(min)) {
 			return max;
 		}
 		return min;

@@ -17,32 +17,27 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/snapshot-array/",
 		difficulty = Difficulty.MEDIUM
 )
-class SnapshotArray
-{
-	private Map<Integer, Map<Integer, Integer>> snapshots;
+class SnapshotArray {
+	private final Map<Integer, Map<Integer, Integer>> snapshots;
 	private int currentSnapShotId;
 	private Map<Integer, Integer> currentState;
 
-	public SnapshotArray(int length)
-	{
+	public SnapshotArray(int length) {
 		snapshots = new HashMap<>();
 		currentState = new HashMap<>();
 	}
 
-	public void set(int index, int val)
-	{
+	public void set(int index, int val) {
 		currentState.put(index, val);
 	}
 
-	public int snap()
-	{
+	public int snap() {
 		snapshots.put(currentSnapShotId, currentState);
 		currentState = new HashMap<>(currentState);
 		return currentSnapShotId++;
 	}
 
-	public int get(int index, int snap_id)
-	{
+	public int get(int index, int snap_id) {
 		Integer value = snapshots.getOrDefault(snap_id, Collections.emptyMap()).get(index);
 		return value == null ? 0 : value;
 	}

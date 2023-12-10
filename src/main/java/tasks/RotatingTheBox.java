@@ -13,22 +13,16 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/rotating-the-box/",
 		difficulty = Difficulty.MEDIUM
 )
-public class RotatingTheBox
-{
-	public char[][] rotateTheBox(char[][] box)
-	{
+public class RotatingTheBox {
+	public char[][] rotateTheBox(char[][] box) {
 		int prevObstacle;
-		for (char[] row : box)
-		{
+		for (char[] row : box) {
 			prevObstacle = row.length - 1;
-			for (int i = row.length - 1; i >= 0; i--)
-			{
-				if (row[i] == '*')
-				{
+			for (int i = row.length - 1; i >= 0; i--) {
+				if (row[i] == '*') {
 					prevObstacle = i - 1;
 				}
-				else if (row[i] == '#')
-				{
+				else if (row[i] == '#') {
 					row[i] = '.';
 					row[prevObstacle--] = '#';
 				}
@@ -38,10 +32,8 @@ public class RotatingTheBox
 		char[][] answer = new char[box[0].length][box.length];
 		int c = 0;
 		int r = 0;
-		for (int row = box.length - 1; row >= 0; row--)
-		{
-			for (int column = 0; column < box[row].length; column++)
-			{
+		for (int row = box.length - 1; row >= 0; row--) {
+			for (int column = 0; column < box[row].length; column++) {
 				answer[r++][c] = box[row][column];
 			}
 

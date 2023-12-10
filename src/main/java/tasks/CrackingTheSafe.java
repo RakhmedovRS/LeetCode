@@ -15,13 +15,10 @@ import java.util.Set;
 		name = "Cracking the Safe",
 		url = "https://leetcode.com/problems/cracking-the-safe/",
 		difficulty = Difficulty.HARD)
-public class CrackingTheSafe
-{
-	public String crackSafe(int maxPositions, int maxNumber)
-	{
+public class CrackingTheSafe {
+	public String crackSafe(int maxPositions, int maxNumber) {
 		StringBuilder password = new StringBuilder();
-		for (int i = 0; i < maxPositions; i++)
-		{
+		for (int i = 0; i < maxPositions; i++) {
 			password.append(0);
 		}
 
@@ -35,24 +32,19 @@ public class CrackingTheSafe
 		return password.toString();
 	}
 
-	private boolean canCrackTheSafe(StringBuilder password, Set<String> seen, int combinationNumbers, int maxPositions, int maxNumber)
-	{
+	private boolean canCrackTheSafe(StringBuilder password, Set<String> seen, int combinationNumbers, int maxPositions, int maxNumber) {
 		System.out.println(password);
-		if (seen.size() == combinationNumbers)
-		{
+		if (seen.size() == combinationNumbers) {
 			return true;
 		}
 
 		String lastNumbers = password.substring(1 + password.length() - maxPositions);
 		String newCombination;
-		for (char ch = '0'; ch < '0' + maxNumber; ch++)
-		{
+		for (char ch = '0'; ch < '0' + maxNumber; ch++) {
 			newCombination = lastNumbers + ch;
-			if (seen.add(newCombination))
-			{
+			if (seen.add(newCombination)) {
 				password.append(ch);
-				if (canCrackTheSafe(password, seen, combinationNumbers, maxPositions, maxNumber))
-				{
+				if (canCrackTheSafe(password, seen, combinationNumbers, maxPositions, maxNumber)) {
 					return true;
 				}
 				seen.remove(newCombination);
@@ -63,8 +55,7 @@ public class CrackingTheSafe
 		return false;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new CrackingTheSafe().crackSafe(2, 3));
 		System.out.println(new CrackingTheSafe().crackSafe(1, 2));
 		System.out.println(new CrackingTheSafe().crackSafe(2, 2));

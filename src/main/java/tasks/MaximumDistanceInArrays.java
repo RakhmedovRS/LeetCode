@@ -16,17 +16,14 @@ import java.util.List;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class MaximumDistanceInArrays
-{
-	public int maxDistance(List<List<Integer>> arrays)
-	{
+public class MaximumDistanceInArrays {
+	public int maxDistance(List<List<Integer>> arrays) {
 		int max = 0;
 		int globalMin = arrays.get(0).get(0);
 		int globalMax = arrays.get(0).get(arrays.get(0).size() - 1);
 		int first;
 		int last;
-		for (int i = 1; i < arrays.size(); i++)
-		{
+		for (int i = 1; i < arrays.size(); i++) {
 			first = arrays.get(i).get(0);
 			last = arrays.get(i).get(arrays.get(i).size() - 1);
 

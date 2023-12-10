@@ -13,13 +13,10 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/",
 		difficulty = Difficulty.MEDIUM
 )
-public class PartitioningIntoMinimumNumberOfDeciBinaryNumbers
-{
-	public int minPartitions(String n)
-	{
+public class PartitioningIntoMinimumNumberOfDeciBinaryNumbers {
+	public int minPartitions(String n) {
 		int max = 0;
-		for (char ch : n.toCharArray())
-		{
+		for (char ch : n.toCharArray()) {
 			max = Math.max(max, ch - '0');
 		}
 

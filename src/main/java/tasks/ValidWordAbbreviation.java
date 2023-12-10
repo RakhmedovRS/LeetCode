@@ -14,28 +14,20 @@ import common.LeetCode;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class ValidWordAbbreviation
-{
-	public boolean validWordAbbreviation(String word, String abbr)
-	{
+public class ValidWordAbbreviation {
+	public boolean validWordAbbreviation(String word, String abbr) {
 		int i = 0;
 		int j = 0;
-		while (i < word.length() && j < abbr.length())
-		{
-			if (Character.isLetter(abbr.charAt(j)))
-			{
-				if (word.charAt(i++) != abbr.charAt(j++))
-				{
+		while (i < word.length() && j < abbr.length()) {
+			if (Character.isLetter(abbr.charAt(j))) {
+				if (word.charAt(i++) != abbr.charAt(j++)) {
 					return false;
 				}
 			}
-			else
-			{
+			else {
 				int count = 0;
-				while (j < abbr.length() && Character.isDigit(abbr.charAt(j)))
-				{
-					if (abbr.charAt(j) - '0' == 0 && count == 0)
-					{
+				while (j < abbr.length() && Character.isDigit(abbr.charAt(j))) {
+					if (abbr.charAt(j) - '0' == 0 && count == 0) {
 						return false;
 					}
 					count *= 10;
@@ -44,8 +36,7 @@ public class ValidWordAbbreviation
 
 				i += count;
 
-				if (i > word.length())
-				{
+				if (i > word.length()) {
 					return false;
 				}
 			}

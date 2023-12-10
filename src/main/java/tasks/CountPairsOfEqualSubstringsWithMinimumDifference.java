@@ -16,49 +16,39 @@ import java.util.Arrays;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class CountPairsOfEqualSubstringsWithMinimumDifference
-{
-	public int countQuadruples(String firstString, String secondString)
-	{
+public class CountPairsOfEqualSubstringsWithMinimumDifference {
+	public int countQuadruples(String firstString, String secondString) {
 		int[] tableA = new int[26];
 		Arrays.fill(tableA, -1);
 		char ch;
-		for (int i = 0; i < firstString.length(); i++)
-		{
+		for (int i = 0; i < firstString.length(); i++) {
 			ch = firstString.charAt(i);
-			if (tableA[ch - 'a'] == -1)
-			{
+			if (tableA[ch - 'a'] == -1) {
 				tableA[ch - 'a'] = i;
 			}
 		}
 
 		int[] tableB = new int[26];
 		Arrays.fill(tableB, -1);
-		for (int i = secondString.length() - 1; i >= 0; i--)
-		{
+		for (int i = secondString.length() - 1; i >= 0; i--) {
 			ch = secondString.charAt(i);
-			if (tableB[ch - 'a'] == -1)
-			{
+			if (tableB[ch - 'a'] == -1) {
 				tableB[ch - 'a'] = i;
 			}
 		}
 
 		int min = Integer.MAX_VALUE;
 		int count = 0;
-		for (int i = 0; i < 26; i++)
-		{
-			if (tableA[i] == -1 || tableB[i] == -1)
-			{
+		for (int i = 0; i < 26; i++) {
+			if (tableA[i] == -1 || tableB[i] == -1) {
 				continue;
 			}
 
-			if (tableA[i] - tableB[i] < min)
-			{
+			if (tableA[i] - tableB[i] < min) {
 				min = tableA[i] - tableB[i];
 				count = 1;
 			}
-			else if (tableA[i] - tableB[i] == min)
-			{
+			else if (tableA[i] - tableB[i] == min) {
 				count++;
 			}
 		}

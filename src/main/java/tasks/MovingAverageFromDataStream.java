@@ -16,27 +16,22 @@ import java.util.LinkedList;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class MovingAverageFromDataStream
-{
-	class MovingAverage
-	{
+public class MovingAverageFromDataStream {
+	class MovingAverage {
 		LinkedList<Integer> linkedList;
 		int size;
 		int sum;
 
-		public MovingAverage(int size)
-		{
+		public MovingAverage(int size) {
 			linkedList = new LinkedList<>();
 			this.size = size;
 			sum = 0;
 		}
 
-		public double next(int val)
-		{
+		public double next(int val) {
 			sum += val;
 			linkedList.addLast(val);
-			if (linkedList.size() > size)
-			{
+			if (linkedList.size() > size) {
 				sum -= linkedList.removeFirst();
 			}
 

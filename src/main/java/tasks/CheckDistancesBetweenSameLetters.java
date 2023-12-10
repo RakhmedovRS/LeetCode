@@ -13,26 +13,18 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/check-distances-between-same-letters/",
 		difficulty = Difficulty.EASY
 )
-public class CheckDistancesBetweenSameLetters
-{
-	public boolean checkDistances(String s, int[] distance)
-	{
+public class CheckDistancesBetweenSameLetters {
+	public boolean checkDistances(String s, int[] distance) {
 		char[] chars = s.toCharArray();
-		for (int i = 0; i < 26; i++)
-		{
+		for (int i = 0; i < 26; i++) {
 			int prev = -1;
-			for (int pos = 0; pos < chars.length; pos++)
-			{
-				if (i == (chars[pos] - 'a'))
-				{
-					if (prev == -1)
-					{
+			for (int pos = 0; pos < chars.length; pos++) {
+				if (i == (chars[pos] - 'a')) {
+					if (prev == -1) {
 						prev = pos;
 					}
-					else
-					{
-						if ((pos - prev) - 1 != distance[i])
-						{
+					else {
+						if ((pos - prev) - 1 != distance[i]) {
 							return false;
 						}
 					}

@@ -16,27 +16,21 @@ import java.util.List;
 		url = "https://leetcode.com/problems/count-sub-islands/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CountSubIslands
-{
-	public int countSubIslands(int[][] grid1, int[][] grid2)
-	{
+public class CountSubIslands {
+	public int countSubIslands(int[][] grid1, int[][] grid2) {
 		int count = 0;
 		int rows = grid1.length;
 		int columns = grid1[0].length;
 		boolean[][] visited = new boolean[rows][columns];
 
-		for (int row = 0; row < rows; row++)
-		{
-			for (int column = 0; column < columns; column++)
-			{
-				if (grid1[row][column] == 1 && grid2[row][column] == 1)
-				{
+		for (int row = 0; row < rows; row++) {
+			for (int column = 0; column < columns; column++) {
+				if (grid1[row][column] == 1 && grid2[row][column] == 1) {
 					LinkedList<int[]> land = new LinkedList<>();
 					explore(row, column, rows, columns, grid2, visited, land);
 					count += dfs(row, column, rows, columns, grid1, grid2) ? 1 : 0;
 
-					while (!land.isEmpty())
-					{
+					while (!land.isEmpty()) {
 						grid2[land.peek()[0]][land.peek()[1]] = 0;
 						land.pop();
 					}
@@ -47,20 +41,16 @@ public class CountSubIslands
 		return count;
 	}
 
-	private boolean dfs(int row, int column, int rows, int columns, int[][] grid1, int[][] grid2)
-	{
-		if (row < 0 || row == rows || column < 0 || column == columns)
-		{
+	private boolean dfs(int row, int column, int rows, int columns, int[][] grid1, int[][] grid2) {
+		if (row < 0 || row == rows || column < 0 || column == columns) {
 			return true;
 		}
 
-		if (grid2[row][column] == 1 && grid1[row][column] == 0)
-		{
+		if (grid2[row][column] == 1 && grid1[row][column] == 0) {
 			return false;
 		}
 
-		if (grid2[row][column] == 0)
-		{
+		if (grid2[row][column] == 0) {
 			return true;
 		}
 
@@ -72,15 +62,12 @@ public class CountSubIslands
 				&& dfs(row, column + 1, rows, columns, grid1, grid2);
 	}
 
-	private void explore(int row, int column, int rows, int columns, int[][] grid, boolean[][] visited, List<int[]> land)
-	{
-		if (row < 0 || row == rows || column < 0 || column == columns)
-		{
+	private void explore(int row, int column, int rows, int columns, int[][] grid, boolean[][] visited, List<int[]> land) {
+		if (row < 0 || row == rows || column < 0 || column == columns) {
 			return;
 		}
 
-		if (grid[row][column] == 0 || visited[row][column])
-		{
+		if (grid[row][column] == 0 || visited[row][column]) {
 			return;
 		}
 

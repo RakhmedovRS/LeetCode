@@ -3,7 +3,8 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author RakhmedovRS
@@ -15,32 +16,25 @@ import java.util.*;
 		url = "https://leetcode.com/problems/path-with-maximum-minimum-value/",
 		difficulty = Difficulty.MEDIUM
 )
-public class PathWithMaximumMinimumValue
-{
-	class UnionFind
-	{
+public class PathWithMaximumMinimumValue {
+	class UnionFind {
 		int[] parents;
 
-		public UnionFind(int n)
-		{
+		public UnionFind(int n) {
 			parents = new int[n];
-			for (int i = 0; i < n; i++)
-			{
+			for (int i = 0; i < n; i++) {
 				parents[i] = i;
 			}
 		}
 
-		public int findParent(int node)
-		{
+		public int findParent(int node) {
 			int parent = node;
-			while (parent != parents[parent])
-			{
+			while (parent != parents[parent]) {
 				parent = parents[parent];
 			}
 
 			int temp;
-			while (node != parents[node])
-			{
+			while (node != parents[node]) {
 				temp = parents[node];
 				parents[node] = parent;
 				node = temp;
@@ -50,29 +44,24 @@ public class PathWithMaximumMinimumValue
 		}
 
 
-		public void union(int nodeA, int nodeB)
-		{
+		public void union(int nodeA, int nodeB) {
 			int parentA = findParent(nodeA);
 			int parentB = findParent(nodeB);
 
-			if (parentA != parentB)
-			{
+			if (parentA != parentB) {
 				parents[parentB] = parentA;
 			}
 		}
 	}
 
 
-	public int maximumMinimumPath(int[][] A)
-	{
+	public int maximumMinimumPath(int[][] A) {
 		int rows = A.length;
 		int columns = A[0].length;
 		int[][] steps = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 		List<int[]> coordinates = new ArrayList<>(rows * columns);
-		for (int row = 0; row < rows; row++)
-		{
-			for (int column = 0; column < columns; column++)
-			{
+		for (int row = 0; row < rows; row++) {
+			for (int column = 0; column < columns; column++) {
 				coordinates.add(new int[]{row, column});
 			}
 		}
@@ -85,22 +74,18 @@ public class PathWithMaximumMinimumValue
 		int nextRow;
 		int nextColumn;
 		UnionFind uf = new UnionFind(rows * columns);
-		for (int[] coordinate : coordinates)
-		{
+		for (int[] coordinate : coordinates) {
 			row = coordinate[0];
 			column = coordinate[1];
 			visited[row][column] = true;
-			for (int[] step : steps)
-			{
+			for (int[] step : steps) {
 				nextRow = row + step[0];
 				nextColumn = column + step[1];
-				if (nextRow >= 0 && nextRow < rows && nextColumn >= 0 && nextColumn < columns && visited[nextRow][nextColumn])
-				{
+				if (nextRow >= 0 && nextRow < rows && nextColumn >= 0 && nextColumn < columns && visited[nextRow][nextColumn]) {
 					uf.union(row * columns + column, nextRow * columns + nextColumn);
 				}
 
-				if (uf.findParent(0) == uf.findParent(rows * columns - 1))
-				{
+				if (uf.findParent(0) == uf.findParent(rows * columns - 1)) {
 					return A[row][column];
 				}
 			}
@@ -109,8 +94,7 @@ public class PathWithMaximumMinimumValue
 		return -1;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		PathWithMaximumMinimumValue clazz = new PathWithMaximumMinimumValue();
 		System.out.println(clazz.maximumMinimumPath(new int[][]
 				{

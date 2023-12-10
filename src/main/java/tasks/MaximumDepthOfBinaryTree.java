@@ -16,32 +16,25 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
 		difficulty = Difficulty.EASY
 )
-public class MaximumDepthOfBinaryTree
-{
-	public int maxDepth(TreeNode root)
-	{
+public class MaximumDepthOfBinaryTree {
+	public int maxDepth(TreeNode root) {
 		int depth = 0;
 		LinkedList<TreeNode> nodes = new LinkedList<>();
-		if (root != null)
-		{
+		if (root != null) {
 			nodes.addLast(root);
 		}
 
 		int size;
 		TreeNode node;
-		while (!nodes.isEmpty())
-		{
+		while (!nodes.isEmpty()) {
 			size = nodes.size();
-			while (size-- > 0)
-			{
+			while (size-- > 0) {
 				node = nodes.removeFirst();
-				if (node.left != null)
-				{
+				if (node.left != null) {
 					nodes.addLast(node.left);
 				}
 
-				if (node.right != null)
-				{
+				if (node.right != null) {
 					nodes.addLast(node.right);
 				}
 			}

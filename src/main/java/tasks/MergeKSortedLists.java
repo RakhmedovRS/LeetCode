@@ -17,34 +17,27 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/merge-k-sorted-lists/",
 		difficulty = Difficulty.HARD
 )
-public class MergeKSortedLists
-{
-	public ListNode mergeKLists(ListNode[] lists)
-	{
-		if (lists == null || lists.length == 0)
-		{
+public class MergeKSortedLists {
+	public ListNode mergeKLists(ListNode[] lists) {
+		if (lists == null || lists.length == 0) {
 			return null;
 		}
 
 		ListNode dummy = new ListNode(0);
 		ListNode prev = dummy;
 		PriorityQueue<ListNode> minHeap = new PriorityQueue<>(Comparator.comparingInt(head -> head.val));
-		for (ListNode node : lists)
-		{
-			if (node != null)
-			{
+		for (ListNode node : lists) {
+			if (node != null) {
 				minHeap.add(node);
 			}
 		}
 
 		ListNode current;
 		ListNode next;
-		while (!minHeap.isEmpty())
-		{
+		while (!minHeap.isEmpty()) {
 			current = minHeap.remove();
 
-			if (current == null)
-			{
+			if (current == null) {
 				continue;
 			}
 
@@ -52,8 +45,7 @@ public class MergeKSortedLists
 			current.next = null;
 			prev.next = current;
 			prev = current;
-			if (next != null)
-			{
+			if (next != null) {
 				minHeap.add(next);
 			}
 		}

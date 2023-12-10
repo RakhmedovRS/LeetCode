@@ -13,17 +13,13 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/",
 		difficulty = Difficulty.EASY
 )
-public class MinimumCutsЕoDivideCircle
-{
-	public int numberOfCuts(int n)
-	{
-		if (n <= 1)
-		{
+public class MinimumCutsЕoDivideCircle {
+	public int numberOfCuts(int n) {
+		if (n <= 1) {
 			return 0;
 		}
 
-		if (n % 2 == 0)
-		{
+		if (n % 2 == 0) {
 			return n / 2;
 		}
 

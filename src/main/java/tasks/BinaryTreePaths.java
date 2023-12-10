@@ -19,12 +19,9 @@ import java.util.stream.Collectors;
 		url = "https://leetcode.com/problems/binary-tree-paths/",
 		difficulty = Difficulty.EASY
 )
-public class BinaryTreePaths
-{
-	public List<String> binaryTreePaths(TreeNode root)
-	{
-		if (root == null)
-		{
+public class BinaryTreePaths {
+	public List<String> binaryTreePaths(TreeNode root) {
+		if (root == null) {
 			return new ArrayList<>();
 		}
 
@@ -35,10 +32,8 @@ public class BinaryTreePaths
 		return result;
 	}
 
-	private void binaryTreePaths(TreeNode root, List<String> result, LinkedList<Integer> current)
-	{
-		if (root == null)
-		{
+	private void binaryTreePaths(TreeNode root, List<String> result, LinkedList<Integer> current) {
+		if (root == null) {
 			return;
 		}
 
@@ -47,8 +42,7 @@ public class BinaryTreePaths
 		binaryTreePaths(root.left, result, current);
 		binaryTreePaths(root.right, result, current);
 
-		if (root.left == null && root.right == null)
-		{
+		if (root.left == null && root.right == null) {
 			result.add(current.stream().map(String::valueOf).collect(Collectors.joining("->")));
 		}
 

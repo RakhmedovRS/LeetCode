@@ -13,20 +13,15 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/check-if-the-sentence-is-pangram/",
 		difficulty = Difficulty.EASY
 )
-public class CheckIfTheSentenceIsPangram
-{
-	public boolean checkIfPangram(String sentence)
-	{
+public class CheckIfTheSentenceIsPangram {
+	public boolean checkIfPangram(String sentence) {
 		int[] memo = new int[26];
-		for (char ch : sentence.toCharArray())
-		{
+		for (char ch : sentence.toCharArray()) {
 			memo[ch - 'a']++;
 		}
 
-		for (int i = 0; i < 26; i++)
-		{
-			if (memo[i] == 0)
-			{
+		for (int i = 0; i < 26; i++) {
+			if (memo[i] == 0) {
 				return false;
 			}
 		}

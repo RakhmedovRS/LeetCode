@@ -13,16 +13,12 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/count-tested-devices-after-test-operations/",
 		difficulty = Difficulty.EASY
 )
-public class CountTestedDevicesAfterTestOperations
-{
-	public int countTestedDevices(int[] batteryPercentages)
-	{
+public class CountTestedDevicesAfterTestOperations {
+	public int countTestedDevices(int[] batteryPercentages) {
 		int ans = 0;
 		int balance = 0;
-		for (int i = 0; i < batteryPercentages.length; i++)
-		{
-			if (batteryPercentages[i] + balance > 0)
-			{
+		for (int i = 0; i < batteryPercentages.length; i++) {
+			if (batteryPercentages[i] + balance > 0) {
 				ans++;
 				balance--;
 			}

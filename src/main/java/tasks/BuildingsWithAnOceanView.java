@@ -17,16 +17,12 @@ import java.util.LinkedList;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class BuildingsWithAnOceanView
-{
-	public int[] findBuildings(int[] heights)
-	{
+public class BuildingsWithAnOceanView {
+	public int[] findBuildings(int[] heights) {
 		int max = -1;
 		LinkedList<Integer> linkedList = new LinkedList<>();
-		for (int i = heights.length - 1; i >= 0; i--)
-		{
-			if (heights[i] > max)
-			{
+		for (int i = heights.length - 1; i >= 0; i--) {
+			if (heights[i] > max) {
 				linkedList.addFirst(i);
 			}
 
@@ -34,8 +30,7 @@ public class BuildingsWithAnOceanView
 		}
 
 		int[] answer = new int[linkedList.size()];
-		for (int i = 0; i < answer.length; i++)
-		{
+		for (int i = 0; i < answer.length; i++) {
 			answer[i] = linkedList.removeFirst();
 		}
 		return answer;

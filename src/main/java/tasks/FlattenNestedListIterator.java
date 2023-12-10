@@ -17,55 +17,45 @@ import java.util.List;
 		url = "https://leetcode.com/problems/flatten-nested-list-iterator/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FlattenNestedListIterator
-{
-	public interface NestedInteger
-	{
+public class FlattenNestedListIterator {
+	public interface NestedInteger {
 		// @return true if this NestedInteger holds a single integer, rather than a nested list.
-		public boolean isInteger();
+		boolean isInteger();
 
 		// @return the single integer that this NestedInteger holds, if it holds a single integer
 		// Return null if this NestedInteger holds a nested list
-		public Integer getInteger();
+		Integer getInteger();
 
 		// @return the nested list that this NestedInteger holds, if it holds a nested list
 		// Return null if this NestedInteger holds a single integer
-		public List<NestedInteger> getList();
+		List<NestedInteger> getList();
 	}
 
-	public class NestedIterator implements Iterator<Integer>
-	{
+	public class NestedIterator implements Iterator<Integer> {
 
 		LinkedList<Integer> list;
 
-		public NestedIterator(List<NestedInteger> nestedList)
-		{
+		public NestedIterator(List<NestedInteger> nestedList) {
 			list = new LinkedList<>();
 			traverse(nestedList, list);
 		}
 
 		@Override
-		public Integer next()
-		{
+		public Integer next() {
 			return list.removeFirst();
 		}
 
 		@Override
-		public boolean hasNext()
-		{
+		public boolean hasNext() {
 			return !list.isEmpty();
 		}
 
-		private void traverse(List<NestedInteger> nestedList, LinkedList<Integer> list)
-		{
-			for (NestedInteger nestedInteger : nestedList)
-			{
-				if (nestedInteger.isInteger())
-				{
+		private void traverse(List<NestedInteger> nestedList, LinkedList<Integer> list) {
+			for (NestedInteger nestedInteger : nestedList) {
+				if (nestedInteger.isInteger()) {
 					list.addLast(nestedInteger.getInteger());
 				}
-				else
-				{
+				else {
 					traverse(nestedInteger.getList(), list);
 				}
 			}

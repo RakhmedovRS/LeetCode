@@ -18,17 +18,13 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/find-duplicate-file-in-system/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindDuplicateFileInSystem
-{
-	public List<List<String>> findDuplicate(String[] paths)
-	{
+public class FindDuplicateFileInSystem {
+	public List<List<String>> findDuplicate(String[] paths) {
 		String[] parts;
 		Map<String, List<String>> map = new HashMap<>();
-		for (String path : paths)
-		{
+		for (String path : paths) {
 			parts = path.split(" ");
-			for (int i = 1; i < parts.length; i++)
-			{
+			for (int i = 1; i < parts.length; i++) {
 				String fileName = parts[i].substring(0, parts[i].indexOf('('));
 				String fileContent = parts[i].substring(parts[i].indexOf('(') + 1, parts[i].indexOf(')'));
 
@@ -38,10 +34,8 @@ public class FindDuplicateFileInSystem
 		}
 
 		List<List<String>> answer = new ArrayList<>();
-		for (List<String> list : map.values())
-		{
-			if (list.size() > 1)
-			{
+		for (List<String> list : map.values()) {
+			if (list.size() > 1) {
 				answer.add(list);
 			}
 		}
@@ -49,8 +43,7 @@ public class FindDuplicateFileInSystem
 		return answer;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new FindDuplicateFileInSystem().findDuplicate(
 				new String[]{
 						"root/a 1.txt(abcd) 2.txt(efgh)",

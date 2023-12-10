@@ -18,23 +18,18 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumConsecutiveCardsToPickUp
-{
-	public int minimumCardPickup(int[] cards)
-	{
+public class MinimumConsecutiveCardsToPickUp {
+	public int minimumCardPickup(int[] cards) {
 		Map<Integer, List<Integer>> map = new HashMap<>();
-		for (int i = 0; i < cards.length; i++)
-		{
+		for (int i = 0; i < cards.length; i++) {
 			map.putIfAbsent(cards[i], new ArrayList<>());
 			map.get(cards[i]).add(i);
 		}
 
 		int min = Integer.MAX_VALUE;
-		for (List<Integer> indices : map.values())
-		{
+		for (List<Integer> indices : map.values()) {
 			int diff = Integer.MAX_VALUE;
-			for (int i = 1; i < indices.size(); i++)
-			{
+			for (int i = 1; i < indices.size(); i++) {
 				diff = Math.min(diff, 1 + indices.get(i) - indices.get(i - 1));
 				min = Math.min(min, diff);
 			}

@@ -15,13 +15,10 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/",
 		difficulty = Difficulty.EASY
 )
-public class SortIntegersByTheNumberOf1Bits
-{
-	public int[] sortByBits(int[] arr)
-	{
+public class SortIntegersByTheNumberOf1Bits {
+	public int[] sortByBits(int[] arr) {
 		Integer[] temp = new Integer[arr.length];
-		for (int i = 0; i < arr.length; i++)
-		{
+		for (int i = 0; i < arr.length; i++) {
 			temp[i] = arr[i];
 		}
 		Arrays.sort(temp, (a, b) ->
@@ -30,8 +27,7 @@ public class SortIntegersByTheNumberOf1Bits
 			return diff == 0 ? a - b : diff;
 		});
 
-		for (int i = 0; i < temp.length; i++)
-		{
+		for (int i = 0; i < temp.length; i++) {
 			arr[i] = temp[i];
 		}
 		return arr;

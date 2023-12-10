@@ -14,14 +14,11 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class SquirrelSimulation
-{
-	public int minDistance(int height, int width, int[] tree, int[] squirrel, int[][] nuts)
-	{
+public class SquirrelSimulation {
+	public int minDistance(int height, int width, int[] tree, int[] squirrel, int[][] nuts) {
 		int distance = 0;
 		int maxDistance = Integer.MIN_VALUE;
-		for (int[] nut : nuts)
-		{
+		for (int[] nut : nuts) {
 			distance += manhattanDistance(tree, nut) * 2;
 			maxDistance = Math.max(maxDistance, manhattanDistance(tree, nut) - manhattanDistance(nut, squirrel));
 		}
@@ -29,8 +26,7 @@ public class SquirrelSimulation
 		return distance - maxDistance;
 	}
 
-	private int manhattanDistance(int[] a, int[] b)
-	{
+	private int manhattanDistance(int[] a, int[] b) {
 		return Math.abs(a[0] - b[0]) + Math.abs(a[1] - b[1]);
 	}
 }

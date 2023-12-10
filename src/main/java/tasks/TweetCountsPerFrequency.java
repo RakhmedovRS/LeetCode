@@ -18,47 +18,39 @@ import java.util.TreeMap;
 		url = "https://leetcode.com/problems/tweet-counts-per-frequency/",
 		difficulty = Difficulty.MEDIUM
 )
-public class TweetCountsPerFrequency
-{
-	class TweetCounts
-	{
+public class TweetCountsPerFrequency {
+	class TweetCounts {
 		Map<String, TreeMap<Integer, Integer>> history;
 
-		public TweetCounts()
-		{
+		public TweetCounts() {
 			history = new TreeMap<>();
 		}
 
-		public void recordTweet(String tweetName, int time)
-		{
+		public void recordTweet(String tweetName, int time) {
 			history.putIfAbsent(tweetName, new TreeMap<>());
 			int count = history.get(tweetName).getOrDefault(time, 0);
 			history.get(tweetName).put(time, count + 1);
 		}
 
-		public List<Integer> getTweetCountsPerFrequency(String freq, String tweetName, int startTime, int endTime)
-		{
+		public List<Integer> getTweetCountsPerFrequency(String freq, String tweetName, int startTime, int endTime) {
 			List<Integer> answer = new ArrayList<>();
 			int interval = freq.equals("day") ? 60 * 60 * 24 : freq.equals("hour") ? 60 * 60 : 60;
 			int[] bucket = new int[(endTime - startTime) / interval + 1];
 
 			TreeMap<Integer, Integer> tweets = history.get(tweetName);
-			for (Map.Entry<Integer, Integer> tweet : tweets.subMap(startTime, endTime + 1).entrySet())
-			{
+			for (Map.Entry<Integer, Integer> tweet : tweets.subMap(startTime, endTime + 1).entrySet()) {
 				int index = (tweet.getKey() - startTime) / interval;
 				bucket[index] += tweet.getValue();
 			}
 
-			for (int count : bucket)
-			{
+			for (int count : bucket) {
 				answer.add(count);
 			}
 			return answer;
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		TweetCounts tweetCounts = new TweetCountsPerFrequency().new TweetCounts();
 		tweetCounts.recordTweet("tweet2", 61);
 		System.out.println(tweetCounts.getTweetCountsPerFrequency("minute", "tweet2", 78, 5374));

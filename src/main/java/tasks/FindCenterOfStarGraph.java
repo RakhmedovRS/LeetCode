@@ -13,21 +13,16 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/find-center-of-star-graph/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindCenterOfStarGraph
-{
-	public int findCenter(int[][] edges)
-	{
+public class FindCenterOfStarGraph {
+	public int findCenter(int[][] edges) {
 		int[] nodes = new int[edges.length + 2];
-		for (int[] edge : edges)
-		{
+		for (int[] edge : edges) {
 			nodes[edge[0]]++;
 			nodes[edge[1]]++;
 		}
 
-		for (int i = 1; i < nodes.length; i++)
-		{
-			if (nodes[i] == edges.length)
-			{
+		for (int i = 1; i < nodes.length; i++) {
+			if (nodes[i] == edges.length) {
 				return i;
 			}
 		}
@@ -35,8 +30,7 @@ public class FindCenterOfStarGraph
 		return -1;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		FindCenterOfStarGraph clazz = new FindCenterOfStarGraph();
 		System.out.println(clazz.findCenter(new int[][]
 				{

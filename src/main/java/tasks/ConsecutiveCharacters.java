@@ -13,21 +13,16 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/consecutive-characters/",
 		difficulty = Difficulty.EASY
 )
-public class ConsecutiveCharacters
-{
-	public int maxPower(String s)
-	{
+public class ConsecutiveCharacters {
+	public int maxPower(String s) {
 		int max = 0;
 		int currentCount = 0;
 		char ch = ' ';
-		for (char c : s.toCharArray())
-		{
-			if (c == ch)
-			{
+		for (char c : s.toCharArray()) {
+			if (c == ch) {
 				currentCount++;
 			}
-			else
-			{
+			else {
 				ch = c;
 				currentCount = 1;
 			}

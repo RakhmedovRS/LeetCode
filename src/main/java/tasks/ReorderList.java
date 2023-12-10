@@ -14,14 +14,11 @@ import common.ListNode;
 		url = "https://leetcode.com/problems/reorder-list/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ReorderList
-{
-	public void reorderList(ListNode head)
-	{
+public class ReorderList {
+	public void reorderList(ListNode head) {
 		int nodesCount = 0;
 		ListNode temp = head;
-		while (temp != null)
-		{
+		while (temp != null) {
 			nodesCount++;
 			temp = temp.next;
 		}
@@ -32,17 +29,14 @@ public class ReorderList
 		ListNode left = leftPart;
 		ListNode right = rightPart;
 		nodesCount = 0;
-		while (head != null)
-		{
+		while (head != null) {
 			temp = head.next;
-			if (nodesCount < half)
-			{
+			if (nodesCount < half) {
 				left.next = head;
 				left = left.next;
 				left.next = null;
 			}
-			else
-			{
+			else {
 				right.next = head;
 				right = right.next;
 				right.next = null;
@@ -55,8 +49,7 @@ public class ReorderList
 		ListNode prev = null;
 		ListNode oldHead = leftPart.next;
 		ListNode newHead = rightPart.next;
-		while (newHead != null)
-		{
+		while (newHead != null) {
 			temp = newHead.next;
 			newHead.next = prev;
 			prev = newHead;
@@ -64,18 +57,15 @@ public class ReorderList
 		}
 		newHead = prev;
 		prev = null;
-		while (oldHead != null)
-		{
+		while (oldHead != null) {
 			temp = oldHead.next;
-			if (prev != null)
-			{
+			if (prev != null) {
 				prev.next = oldHead;
 			}
 			prev = oldHead;
 			oldHead = temp;
 			prev.next = null;
-			if (newHead != null)
-			{
+			if (newHead != null) {
 				temp = newHead.next;
 				prev.next = newHead;
 				prev = newHead;

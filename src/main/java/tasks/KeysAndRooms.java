@@ -3,7 +3,9 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
 /**
  * @author RakhmedovRS
@@ -15,10 +17,8 @@ import java.util.*;
 		url = "https://leetcode.com/problems/keys-and-rooms/",
 		difficulty = Difficulty.MEDIUM
 )
-public class KeysAndRooms
-{
-	public boolean canVisitAllRooms(List<List<Integer>> rooms)
-	{
+public class KeysAndRooms {
+	public boolean canVisitAllRooms(List<List<Integer>> rooms) {
 		int requiredToVisit = rooms.size();
 		boolean[] visited = new boolean[requiredToVisit];
 		Queue<Integer> queue = new LinkedList<>();
@@ -27,13 +27,10 @@ public class KeysAndRooms
 		visited[0] = true;
 
 		int currentRoom;
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			currentRoom = queue.remove();
-			for (int nextRoom : rooms.get(currentRoom))
-			{
-				if (!visited[nextRoom])
-				{
+			for (int nextRoom : rooms.get(currentRoom)) {
+				if (!visited[nextRoom]) {
 					queue.add(nextRoom);
 					requiredToVisit--;
 					visited[nextRoom] = true;

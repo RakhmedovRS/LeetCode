@@ -14,12 +14,9 @@ import common.ListNode;
 		url = "https://leetcode.com/problems/intersection-of-two-linked-lists/",
 		difficulty = Difficulty.EASY
 )
-public class IntersectionOfTwoLinkedLists
-{
-	public ListNode getIntersectionNode(ListNode headA, ListNode headB)
-	{
-		if (headA == null || headB == null)
-		{
+public class IntersectionOfTwoLinkedLists {
+	public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+		if (headA == null || headB == null) {
 			return null;
 		}
 
@@ -27,39 +24,31 @@ public class IntersectionOfTwoLinkedLists
 		ListNode currentB = headB;
 		boolean currentAJumped = false;
 		boolean currentBJumped = false;
-		while (true)
-		{
-			if (currentA == currentB)
-			{
+		while (true) {
+			if (currentA == currentB) {
 				return currentA;
 			}
 
-			if (currentA.next == null)
-			{
-				if (currentAJumped)
-				{
+			if (currentA.next == null) {
+				if (currentAJumped) {
 					break;
 				}
 				currentA = headB;
 				currentAJumped = true;
 			}
-			else
-			{
+			else {
 				currentA = currentA.next;
 			}
 
-			if (currentB.next == null)
-			{
-				if (currentBJumped)
-				{
+			if (currentB.next == null) {
+				if (currentBJumped) {
 					break;
 				}
 
 				currentBJumped = true;
 				currentB = headA;
 			}
-			else
-			{
+			else {
 				currentB = currentB.next;
 			}
 		}

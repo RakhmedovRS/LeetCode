@@ -16,29 +16,24 @@ import java.util.*;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class HighFive
-{
-	public int[][] highFive(int[][] items)
-	{
+public class HighFive {
+	public int[][] highFive(int[][] items) {
 		Map<Integer, PriorityQueue<Integer>> map = new HashMap<>();
 		Set<Integer> ids = new HashSet<>();
 		int id;
 		int score;
-		for (int[] item : items)
-		{
+		for (int[] item : items) {
 			id = item[0];
 			score = item[1];
 			ids.add(id);
 			map.putIfAbsent(id, new PriorityQueue<>());
 
 			PriorityQueue<Integer> pq = map.get(id);
-			if (pq.size() == 5 && pq.peek() < score)
-			{
+			if (pq.size() == 5 && pq.peek() < score) {
 				pq.remove();
 				pq.add(score);
 			}
-			else if (pq.size() < 5)
-			{
+			else if (pq.size() < 5) {
 				pq.add(score);
 			}
 		}
@@ -47,13 +42,11 @@ public class HighFive
 		sortedIds.sort(null);
 
 		int[][] answer = new int[ids.size()][];
-		for (int i = 0; i < sortedIds.size(); i++)
-		{
+		for (int i = 0; i < sortedIds.size(); i++) {
 			id = sortedIds.get(i);
 			int sum = 0;
 			PriorityQueue<Integer> pq = map.get(id);
-			for (Integer s : pq)
-			{
+			for (Integer s : pq) {
 				sum += s;
 			}
 

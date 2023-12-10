@@ -7,14 +7,11 @@ import common.LeetCode;
  * @created 31-May-20
  */
 @LeetCode(id = 168, name = "Excel Sheet Column Title", url = "https://leetcode.com/problems/excel-sheet-column-title/")
-public class ExcelSheetColumnTitle
-{
-	public String convertToTitle(int n)
-	{
+public class ExcelSheetColumnTitle {
+	public String convertToTitle(int n) {
 		StringBuilder stringBuilder = new StringBuilder();
 		char[] chars = "_ABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
-		while (n > 0)
-		{
+		while (n > 0) {
 			n--;
 			stringBuilder.append(chars[1 + n % 26]);
 			n /= 26;
@@ -22,8 +19,7 @@ public class ExcelSheetColumnTitle
 		return stringBuilder.reverse().toString();
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new ExcelSheetColumnTitle().convertToTitle(701));
 	}
 }

@@ -18,53 +18,44 @@ import java.util.TreeMap;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class MaxStack
-{
+public class MaxStack {
 	LinkedList<Integer> stack;
 	TreeMap<Integer, Integer> treeMap;
 
-	public MaxStack()
-	{
+	public MaxStack() {
 		stack = new LinkedList<>();
 		treeMap = new TreeMap<>(Comparator.reverseOrder());
 	}
 
-	public void push(int x)
-	{
+	public void push(int x) {
 		stack.addFirst(x);
 		treeMap.put(x, treeMap.getOrDefault(x, 0) + 1);
 	}
 
-	public int pop()
-	{
+	public int pop() {
 		int top = stack.removeFirst();
 		int count = treeMap.remove(top);
-		if (count > 1)
-		{
+		if (count > 1) {
 			treeMap.put(top, count - 1);
 		}
 
 		return top;
 	}
 
-	public int top()
-	{
+	public int top() {
 		return stack.peek();
 	}
 
-	public int peekMax()
-	{
+	public int peekMax() {
 		return treeMap.firstKey();
 	}
 
-	public int popMax()
-	{
+	public int popMax() {
 		int top = treeMap.firstKey();
 		int count = treeMap.remove(top);
 		stack.removeFirstOccurrence(top);
 
-		if (count > 1)
-		{
+		if (count > 1) {
 			treeMap.put(top, count - 1);
 		}
 

@@ -17,10 +17,8 @@ import java.util.List;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class SimilarRGBColor
-{
-	public String similarRGB(String color)
-	{
+public class SimilarRGBColor {
+	public String similarRGB(String color) {
 		int minDiff = Integer.MAX_VALUE;
 		String answer = "";
 
@@ -31,15 +29,11 @@ public class SimilarRGBColor
 		List<String> rgb = Arrays.asList("00", "11", "22", "33", "44", "55", "66", "77", "88", "99", "aa", "bb", "cc", "dd", "ee", "ff");
 
 		int diff;
-		for (String r : rgb)
-		{
-			for (String g : rgb)
-			{
-				for (String b : rgb)
-				{
+		for (String r : rgb) {
+			for (String g : rgb) {
+				for (String b : rgb) {
 					diff = diff(rR, r) + diff(rG, g) + diff(rB, b);
-					if (minDiff > Math.abs(diff))
-					{
+					if (minDiff > Math.abs(diff)) {
 						minDiff = Math.abs(diff);
 						answer = r + g + b;
 					}
@@ -50,13 +44,11 @@ public class SimilarRGBColor
 		return "#" + answer;
 	}
 
-	private int diff(String X, String Y)
-	{
+	private int diff(String X, String Y) {
 		return -(int) (Math.pow((Integer.parseInt(X, 16) - Integer.parseInt(Y, 16)), 2));
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		SimilarRGBColor clazz = new SimilarRGBColor();
 		System.out.println(clazz.diff("09", "11"));
 	}

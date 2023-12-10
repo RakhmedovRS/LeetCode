@@ -14,12 +14,9 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/invert-binary-tree/",
 		difficulty = Difficulty.EASY
 )
-public class InvertBinaryTree
-{
-	public TreeNode invertTree(TreeNode root)
-	{
-		if (root == null)
-		{
+public class InvertBinaryTree {
+	public TreeNode invertTree(TreeNode root) {
+		if (root == null) {
 			return null;
 		}
 

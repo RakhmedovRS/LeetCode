@@ -16,32 +16,25 @@ import java.util.*;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class SynonymousSentences
-{
-	class UnionFind
-	{
+public class SynonymousSentences {
+	class UnionFind {
 		Map<String, String> parents;
 
-		public UnionFind(String[] uniqueWords)
-		{
+		public UnionFind(String[] uniqueWords) {
 			parents = new HashMap<>();
-			for (String uniqueWord : uniqueWords)
-			{
+			for (String uniqueWord : uniqueWords) {
 				parents.put(uniqueWord, uniqueWord);
 			}
 		}
 
-		public String findParent(String word)
-		{
+		public String findParent(String word) {
 			String parent = word;
-			while (!parent.equals(parents.get(parent)))
-			{
+			while (!parent.equals(parents.get(parent))) {
 				parent = parents.get(parent);
 			}
 
 			String temp;
-			while (!word.equals(parents.get(word)))
-			{
+			while (!word.equals(parents.get(word))) {
 				temp = parents.get(word);
 				parents.put(word, parent);
 				word = temp;
@@ -50,44 +43,37 @@ public class SynonymousSentences
 			return parent;
 		}
 
-		public void join(String wordA, String wordB)
-		{
+		public void join(String wordA, String wordB) {
 			String parentA = findParent(wordA);
 			String parentB = findParent(wordB);
 
-			if (!parentA.equals(parentB))
-			{
+			if (!parentA.equals(parentB)) {
 				parents.put(parentB, parentA);
 			}
 		}
 
-		public boolean exists(String word)
-		{
+		public boolean exists(String word) {
 			return parents.containsKey(word);
 		}
 	}
 
-	public List<String> generateSentences(List<List<String>> synonyms, String text)
-	{
+	public List<String> generateSentences(List<List<String>> synonyms, String text) {
 		Set<String> set = new HashSet<>();
-		for (List<String> synonymsList : synonyms)
-		{
+		for (List<String> synonymsList : synonyms) {
 			set.addAll(synonymsList);
 		}
 
 		String[] uniqueWords = set.toArray(new String[0]);
 		UnionFind unionFind = new UnionFind(uniqueWords);
 
-		for (List<String> synonymsList : synonyms)
-		{
+		for (List<String> synonymsList : synonyms) {
 			unionFind.join(synonymsList.get(0), synonymsList.get(1));
 		}
 
 		Map<String, TreeSet<String>> parentsMap = new HashMap<>();
 		String parent;
 		TreeSet<String> treeSet;
-		for (String uniqueWord : uniqueWords)
-		{
+		for (String uniqueWord : uniqueWords) {
 			parent = unionFind.findParent(uniqueWord);
 			treeSet = parentsMap.getOrDefault(parent, new TreeSet<>());
 			treeSet.add(uniqueWord);
@@ -99,25 +85,20 @@ public class SynonymousSentences
 		return answer;
 	}
 
-	private void dfs(int pos, String[] words, LinkedList<String> current, List<String> answer, UnionFind uf, Map<String, TreeSet<String>> parentsMap)
-	{
-		if (pos == words.length)
-		{
+	private void dfs(int pos, String[] words, LinkedList<String> current, List<String> answer, UnionFind uf, Map<String, TreeSet<String>> parentsMap) {
+		if (pos == words.length) {
 			answer.add(String.join(" ", current));
 			return;
 		}
 
-		if (uf.exists(words[pos]))
-		{
-			for (String synonym : parentsMap.get(uf.findParent(words[pos])))
-			{
+		if (uf.exists(words[pos])) {
+			for (String synonym : parentsMap.get(uf.findParent(words[pos]))) {
 				current.addLast(synonym);
 				dfs(pos + 1, words, current, answer, uf, parentsMap);
 				current.removeLast();
 			}
 		}
-		else
-		{
+		else {
 			current.addLast(words[pos]);
 			dfs(pos + 1, words, current, answer, uf, parentsMap);
 			current.removeLast();

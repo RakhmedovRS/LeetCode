@@ -13,21 +13,17 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/count-number-of-homogenous-substrings/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CountNumberOfHomogenousSubstrings
-{
-	public int countHomogenous(String s)
-	{
+public class CountNumberOfHomogenousSubstrings {
+	public int countHomogenous(String s) {
 		int left = 0;
 		int right = 0;
 		long count = 0;
 		char[] chars = s.toCharArray();
 		int temp;
 		int mod = 1_000_000_007;
-		while (right < s.length())
-		{
+		while (right < s.length()) {
 			temp = 0;
-			while (right < s.length() && chars[left] == chars[right])
-			{
+			while (right < s.length() && chars[left] == chars[right]) {
 				temp++;
 				right++;
 			}
@@ -39,8 +35,7 @@ public class CountNumberOfHomogenousSubstrings
 		return (int) count;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		CountNumberOfHomogenousSubstrings clazz = new CountNumberOfHomogenousSubstrings();
 		System.out.println(clazz.countHomogenous("xy"));
 		System.out.println(clazz.countHomogenous("zzzzz"));

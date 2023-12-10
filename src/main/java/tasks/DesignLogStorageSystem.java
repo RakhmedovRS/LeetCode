@@ -18,13 +18,10 @@ import java.util.TreeMap;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class DesignLogStorageSystem
-{
-	class LogSystem
-	{
+public class DesignLogStorageSystem {
+	class LogSystem {
 
-		class Log implements Comparable<Log>
-		{
+		class Log implements Comparable<Log> {
 			int year;
 			int month;
 			int day;
@@ -32,8 +29,7 @@ public class DesignLogStorageSystem
 			int minute;
 			int second;
 
-			public Log(int year, int month, int day, int hour, int minute, int second)
-			{
+			public Log(int year, int month, int day, int hour, int minute, int second) {
 				this.year = year;
 				this.month = month;
 				this.day = day;
@@ -43,42 +39,31 @@ public class DesignLogStorageSystem
 			}
 
 			@Override
-			public int compareTo(Log o)
-			{
-				if (year == o.year)
-				{
-					if (month == o.month)
-					{
-						if (day == o.day)
-						{
-							if (hour == o.hour)
-							{
-								if (minute == o.minute)
-								{
+			public int compareTo(Log o) {
+				if (year == o.year) {
+					if (month == o.month) {
+						if (day == o.day) {
+							if (hour == o.hour) {
+								if (minute == o.minute) {
 									return second - o.second;
 								}
-								else
-								{
+								else {
 									return minute - o.minute;
 								}
 							}
-							else
-							{
+							else {
 								return hour - o.hour;
 							}
 						}
-						else
-						{
+						else {
 							return day - o.day;
 						}
 					}
-					else
-					{
+					else {
 						return month - o.month;
 					}
 				}
-				else
-				{
+				else {
 					return year - o.year;
 				}
 			}
@@ -86,30 +71,25 @@ public class DesignLogStorageSystem
 
 		TreeMap<Log, List<Integer>> logs;
 
-		public LogSystem()
-		{
+		public LogSystem() {
 			logs = new TreeMap<>();
 		}
 
-		public void put(int id, String timestamp)
-		{
+		public void put(int id, String timestamp) {
 			Log log = parseLog(timestamp);
 
 			logs.putIfAbsent(log, new ArrayList<>());
 			logs.get(log).add(id);
 		}
 
-		public List<Integer> retrieve(String start, String end, String granularity)
-		{
+		public List<Integer> retrieve(String start, String end, String granularity) {
 			List<Integer> ids = new ArrayList<>();
 
 			Log startLog = parseLog(start);
 			Log endLog = parseLog(end);
 
-			switch (granularity)
-			{
-				case "Year":
-				{
+			switch (granularity) {
+				case "Year": {
 					startLog.month = 0;
 					startLog.day = 0;
 					startLog.hour = 0;
@@ -124,8 +104,7 @@ public class DesignLogStorageSystem
 
 					break;
 				}
-				case "Month":
-				{
+				case "Month": {
 					startLog.day = 0;
 					startLog.hour = 0;
 					startLog.minute = 0;
@@ -138,8 +117,7 @@ public class DesignLogStorageSystem
 
 					break;
 				}
-				case "Day":
-				{
+				case "Day": {
 					startLog.hour = 0;
 					startLog.minute = 0;
 					startLog.second = 0;
@@ -151,8 +129,7 @@ public class DesignLogStorageSystem
 					break;
 				}
 
-				case "Hour":
-				{
+				case "Hour": {
 					startLog.minute = 0;
 					startLog.second = 0;
 
@@ -161,8 +138,7 @@ public class DesignLogStorageSystem
 					break;
 				}
 
-				case "Minute":
-				{
+				case "Minute": {
 					startLog.second = 0;
 
 					endLog.second = 59;
@@ -170,16 +146,14 @@ public class DesignLogStorageSystem
 				}
 			}
 
-			for (List<Integer> idsList : logs.tailMap(startLog, true).headMap(endLog, true).values())
-			{
+			for (List<Integer> idsList : logs.tailMap(startLog, true).headMap(endLog, true).values()) {
 				ids.addAll(idsList);
 			}
 
 			return ids;
 		}
 
-		private Log parseLog(String timestamp)
-		{
+		private Log parseLog(String timestamp) {
 			String[] parts = timestamp.split(":");
 
 			return new Log(

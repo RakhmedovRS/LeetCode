@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/subarrays-with-k-different-integers/",
 		difficulty = Difficulty.HARD
 )
-public class SubarraysWithKDifferentIntegers
-{
-	public int subarraysWithKDistinct(int[] A, int K)
-	{
+public class SubarraysWithKDifferentIntegers {
+	public int subarraysWithKDistinct(int[] A, int K) {
 		int count = 0;
 		int left = 0;
 		int right = 0;
@@ -24,29 +22,24 @@ public class SubarraysWithKDifferentIntegers
 		int unique = 0;
 		int num;
 		int prefix = 0;
-		while (right < A.length)
-		{
+		while (right < A.length) {
 			num = A[right++];
-			if (table[num]++ == 0)
-			{
+			if (table[num]++ == 0) {
 				unique++;
 			}
 
-			if (unique > K)
-			{
+			if (unique > K) {
 				unique--;
 				table[A[left++]]--;
 				prefix = 0;
 			}
 
-			while (table[A[left]] > 1)
-			{
+			while (table[A[left]] > 1) {
 				table[A[left++]]--;
 				prefix++;
 			}
 
-			if (unique == K)
-			{
+			if (unique == K) {
 				count += prefix + 1;
 			}
 		}

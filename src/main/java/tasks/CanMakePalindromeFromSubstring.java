@@ -17,56 +17,46 @@ import java.util.List;
 		url = "https://leetcode.com/problems/can-make-palindrome-from-substring/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CanMakePalindromeFromSubstring
-{
-	public List<Boolean> canMakePaliQueries(String s, int[][] queries)
-	{
+public class CanMakePalindromeFromSubstring {
+	public List<Boolean> canMakePaliQueries(String s, int[][] queries) {
 		List<Boolean> answer = new ArrayList<>();
 		char[] chars = s.toCharArray();
 		int[][] table = createTable(chars);
-		for (int[] query : queries)
-		{
+		for (int[] query : queries) {
 			answer.add(check(table, query));
 		}
 
 		return answer;
 	}
 
-	private boolean check(int[][] table, int[] query)
-	{
+	private boolean check(int[][] table, int[] query) {
 		int left = query[0];
 		int right = query[1];
 		int replaces = query[2];
-		if (left == right || right - left <= replaces)
-		{
+		if (left == right || right - left <= replaces) {
 			return true;
 		}
 
 		int[] memo = Arrays.copyOf(table[right], 26);
-		if (left != 0)
-		{
-			for (int i = 0; i < 26; i++)
-			{
+		if (left != 0) {
+			for (int i = 0; i < 26; i++) {
 				memo[i] -= table[left - 1][i];
 			}
 		}
 
 		int sum = 0;
 		boolean even = (1 + right - left) % 2 == 0;
-		for (int count : memo)
-		{
+		for (int count : memo) {
 			sum += count % 2;
 		}
 
 		return (sum + (even ? 0 : -1)) / 2 <= replaces;
 	}
 
-	private int[][] createTable(char[] chars)
-	{
+	private int[][] createTable(char[] chars) {
 		int[][] table = new int[chars.length][];
 		int[] row = new int[26];
-		for (int i = 0; i < chars.length; i++)
-		{
+		for (int i = 0; i < chars.length; i++) {
 			row[chars[i] - 'a']++;
 			table[i] = row;
 			row = Arrays.copyOf(row, row.length);
@@ -75,8 +65,7 @@ public class CanMakePalindromeFromSubstring
 		return table;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new CanMakePalindromeFromSubstring().canMakePaliQueries("rkzavgdmdgt",
 				new int[][]{
 						{7, 9, 1}

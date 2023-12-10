@@ -13,22 +13,17 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/",
 		difficulty = Difficulty.MEDIUM
 )
-public class AppendCharactersToStringToMakeSubsequence
-{
-	public int appendCharacters(String s, String t)
-	{
+public class AppendCharactersToStringToMakeSubsequence {
+	public int appendCharacters(String s, String t) {
 		int res = 0;
 		int tPos = 0;
-		for (char ch : s.toCharArray())
-		{
-			if (tPos < t.length() && t.charAt(tPos) == ch)
-			{
+		for (char ch : s.toCharArray()) {
+			if (tPos < t.length() && t.charAt(tPos) == ch) {
 				tPos++;
 			}
 		}
 
-		if (tPos < t.length())
-		{
+		if (tPos < t.length()) {
 			res += t.length() - tPos;
 		}
 

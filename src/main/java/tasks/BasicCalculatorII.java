@@ -15,15 +15,11 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/basic-calculator-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class BasicCalculatorII
-{
-	public int calculate(String s)
-	{
+public class BasicCalculatorII {
+	public int calculate(String s) {
 		StringBuilder sb = new StringBuilder();
-		for (char ch : s.toCharArray())
-		{
-			if (Character.isDigit(ch) || ch == '*' || ch == '+' || ch == '-' || ch == '/')
-			{
+		for (char ch : s.toCharArray()) {
+			if (Character.isDigit(ch) || ch == '*' || ch == '+' || ch == '-' || ch == '/') {
 				sb.append(ch);
 			}
 		}
@@ -34,58 +30,47 @@ public class BasicCalculatorII
 		LinkedList<Character> operations = new LinkedList<>();
 		int number = 0;
 		char ch;
-		for (int i = 0; i < s.length(); i++)
-		{
+		for (int i = 0; i < s.length(); i++) {
 			ch = s.charAt(i);
-			if (Character.isDigit(ch))
-			{
+			if (Character.isDigit(ch)) {
 				number *= 10;
 				number += s.charAt(i) - '0';
 			}
-			else if (ch == '+' || ch == '-')
-			{
+			else if (ch == '+' || ch == '-') {
 				numbers.addLast(number);
 				number = 0;
 				operations.addLast(ch);
 			}
-			else
-			{
+			else {
 				int j = i;
 				int secondNumber = 0;
-				while (j + 1 < s.length() && Character.isDigit(s.charAt(j + 1)))
-				{
+				while (j + 1 < s.length() && Character.isDigit(s.charAt(j + 1))) {
 					secondNumber *= 10;
 					secondNumber += s.charAt(j + 1) - '0';
 					j++;
 				}
 
-				if (ch == '*')
-				{
+				if (ch == '*') {
 					number *= secondNumber;
 				}
-				else
-				{
+				else {
 					number /= secondNumber;
 				}
 
 				i = j;
 			}
 
-			if (i == s.length() - 1)
-			{
+			if (i == s.length() - 1) {
 				numbers.addLast(number);
 			}
 		}
 
-		while (numbers.size() != 1)
-		{
+		while (numbers.size() != 1) {
 			char op = operations.removeFirst();
-			if (op == '+')
-			{
+			if (op == '+') {
 				numbers.addFirst(numbers.removeFirst() + numbers.removeFirst());
 			}
-			else
-			{
+			else {
 				numbers.addFirst(numbers.removeFirst() - numbers.removeFirst());
 			}
 		}
@@ -93,8 +78,7 @@ public class BasicCalculatorII
 		return numbers.getFirst();
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new BasicCalculatorII().calculate("1+1-1"));
 		System.out.println(new BasicCalculatorII().calculate("1-1+1"));
 		System.out.println(new BasicCalculatorII().calculate("0-2147483647"));

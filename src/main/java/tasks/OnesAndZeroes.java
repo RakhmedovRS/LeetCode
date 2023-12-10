@@ -13,15 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/ones-and-zeroes/",
 		difficulty = Difficulty.MEDIUM
 )
-public class OnesAndZeroes
-{
-	public int findMaxForm(String[] strs, int zeroes, int ones)
-	{
+public class OnesAndZeroes {
+	public int findMaxForm(String[] strs, int zeroes, int ones) {
 		int[][] ints = new int[strs.length][2];
-		for (int i = 0; i < strs.length; i++)
-		{
-			for (char ch : strs[i].toCharArray())
-			{
+		for (int i = 0; i < strs.length; i++) {
+			for (char ch : strs[i].toCharArray()) {
 				ints[i][ch - '0']++;
 			}
 		}
@@ -29,20 +25,16 @@ public class OnesAndZeroes
 		return findMax(0, ints, zeroes, ones, new Integer[strs.length][zeroes + 1][ones + 1]);
 	}
 
-	private int findMax(int pos, int[][] ints, int zeroes, int ones, Integer[][][] memo)
-	{
-		if (zeroes < 0 || ones < 0)
-		{
+	private int findMax(int pos, int[][] ints, int zeroes, int ones, Integer[][][] memo) {
+		if (zeroes < 0 || ones < 0) {
 			return Integer.MIN_VALUE;
 		}
 
-		if (pos == ints.length)
-		{
+		if (pos == ints.length) {
 			return 0;
 		}
 
-		if (memo[pos][zeroes][ones] != null)
-		{
+		if (memo[pos][zeroes][ones] != null) {
 			return memo[pos][zeroes][ones];
 		}
 

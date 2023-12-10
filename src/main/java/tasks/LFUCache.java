@@ -17,10 +17,8 @@ import java.util.TreeMap;
 		url = "https://leetcode.com/problems/lfu-cache/",
 		difficulty = Difficulty.HARD
 )
-public class LFUCache
-{
-	class Link
-	{
+public class LFUCache {
+	class Link {
 		Link prev;
 		Link next;
 
@@ -28,21 +26,18 @@ public class LFUCache
 		int value;
 		int rank;
 
-		public Link(int key, int value)
-		{
+		public Link(int key, int value) {
 			this.key = key;
 			this.value = value;
 		}
 	}
 
-	class Level
-	{
+	class Level {
 		Link head;
 		Link tail;
 		int level;
 
-		public Level(int level)
-		{
+		public Level(int level) {
 			this.level = level;
 			head = new Link(Integer.MIN_VALUE, Integer.MIN_VALUE); // I use this value as a marker of the head
 			tail = new Link(Integer.MAX_VALUE, Integer.MAX_VALUE); // I use this value as a marker of the tail
@@ -58,19 +53,16 @@ public class LFUCache
 	int capacity;
 	int currentSize;
 
-	public LFUCache(int capacity)
-	{
+	public LFUCache(int capacity) {
 		this.capacity = capacity;
 		linkMap = new HashMap<>();
 		levelMap = new HashMap<>();
 		minHeap = new TreeMap<>();
 	}
 
-	public int get(int key)
-	{
+	public int get(int key) {
 		Link link = linkMap.get(key);
-		if (link == null)
-		{
+		if (link == null) {
 			return -1;
 		}
 
@@ -82,8 +74,7 @@ public class LFUCache
 		 * this section checks whether we need to delete entire level
 		 * here is possible bug
 		 */
-		if (prev.value == Integer.MIN_VALUE && next.value == Integer.MAX_VALUE)
-		{
+		if (prev.value == Integer.MIN_VALUE && next.value == Integer.MAX_VALUE) {
 			minHeap.remove(link.rank - 1);
 			levelMap.remove(link.rank - 1);
 		}
@@ -106,18 +97,14 @@ public class LFUCache
 		return link.value;
 	}
 
-	public void put(int key, int value)
-	{
-		if (capacity == 0)
-		{
+	public void put(int key, int value) {
+		if (capacity == 0) {
 			return;
 		}
 
 		Link link = linkMap.get(key);
-		if (currentSize < capacity || link != null)
-		{
-			if (link == null)
-			{
+		if (currentSize < capacity || link != null) {
+			if (link == null) {
 				link = new Link(key, value);
 				linkMap.put(key, link);
 
@@ -133,8 +120,7 @@ public class LFUCache
 				minHeap.put(level.level, level);
 				currentSize++;
 			}
-			else
-			{
+			else {
 				link.value = value;
 				link.rank++;
 
@@ -148,8 +134,7 @@ public class LFUCache
 				 * this section checks whether we need to delete entire level
 				 * here is possible bug
 				 */
-				if (prev.value == Integer.MIN_VALUE && next.value == Integer.MAX_VALUE)
-				{
+				if (prev.value == Integer.MIN_VALUE && next.value == Integer.MAX_VALUE) {
 					levelMap.remove(level.level);
 					minHeap.remove(level.level);
 				}
@@ -168,8 +153,7 @@ public class LFUCache
 				minHeap.put(level.level, level);
 			}
 		}
-		else
-		{
+		else {
 			currentSize--;
 			Map.Entry<Integer, Level> entry = minHeap.pollFirstEntry();
 			Level level = entry.getValue();
@@ -181,12 +165,10 @@ public class LFUCache
 
 			linkMap.remove(current.key);
 
-			if (prev.value != Integer.MIN_VALUE)
-			{
+			if (prev.value != Integer.MIN_VALUE) {
 				minHeap.put(entry.getKey(), level);
 			}
-			else
-			{
+			else {
 				levelMap.remove(entry.getKey());
 			}
 
@@ -194,8 +176,7 @@ public class LFUCache
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		LFUCache lfuCache = new LFUCache(10);
 		lfuCache.put(1, 1);
 		lfuCache.put(2, 2);

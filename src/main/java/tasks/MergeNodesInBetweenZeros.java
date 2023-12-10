@@ -14,32 +14,25 @@ import common.ListNode;
 		url = "https://leetcode.com/problems/merge-nodes-in-between-zeros/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MergeNodesInBetweenZeros
-{
-	public ListNode mergeNodes(ListNode head)
-	{
+public class MergeNodesInBetweenZeros {
+	public ListNode mergeNodes(ListNode head) {
 		ListNode dummy = new ListNode();
 		int sum = 0;
 		ListNode current = dummy;
 		boolean seenZero = false;
-		while (head != null)
-		{
-			if (head.val == 0)
-			{
-				if (seenZero)
-				{
+		while (head != null) {
+			if (head.val == 0) {
+				if (seenZero) {
 					current.next = new ListNode(sum);
 					current = current.next;
 					sum = 0;
 				}
-				else
-				{
+				else {
 					seenZero = true;
 				}
 			}
 
-			if (seenZero)
-			{
+			if (seenZero) {
 				sum += head.val;
 			}
 

@@ -16,23 +16,17 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/reverse-nodes-in-even-length-groups/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ReverseNodesInEvenLengthGroups
-{
-	public ListNode reverseEvenLengthGroups(ListNode head)
-	{
+public class ReverseNodesInEvenLengthGroups {
+	public ListNode reverseEvenLengthGroups(ListNode head) {
 		LinkedList<LinkedList<ListNode>> lists = new LinkedList<>();
-		for (int i = 1; i < Integer.MAX_VALUE; i++)
-		{
-			if (head == null)
-			{
+		for (int i = 1; i < Integer.MAX_VALUE; i++) {
+			if (head == null) {
 				break;
 			}
 
 			LinkedList<ListNode> list = new LinkedList<>();
-			for (int j = 0; j < i; j++)
-			{
-				if (head == null)
-				{
+			for (int j = 0; j < i; j++) {
+				if (head == null) {
 					break;
 				}
 				list.addLast(head);
@@ -45,18 +39,14 @@ public class ReverseNodesInEvenLengthGroups
 
 		ListNode dummy = new ListNode();
 		ListNode current = dummy;
-		while (!lists.isEmpty())
-		{
+		while (!lists.isEmpty()) {
 			LinkedList<ListNode> list = lists.removeFirst();
 			boolean reverse = list.size() % 2 == 0;
-			while (!list.isEmpty())
-			{
-				if (reverse)
-				{
+			while (!list.isEmpty()) {
+				if (reverse) {
 					current.next = list.removeLast();
 				}
-				else
-				{
+				else {
 					current.next = list.removeFirst();
 				}
 				current = current.next;

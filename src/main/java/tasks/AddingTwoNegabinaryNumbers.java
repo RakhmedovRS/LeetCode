@@ -13,17 +13,13 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/adding-two-negabinary-numbers/",
 		difficulty = Difficulty.MEDIUM
 )
-public class AddingTwoNegabinaryNumbers
-{
-	public int[] addNegabinary(int[] arr1, int[] arr2)
-	{
-		if (arr1.length == 0)
-		{
+public class AddingTwoNegabinaryNumbers {
+	public int[] addNegabinary(int[] arr1, int[] arr2) {
+		if (arr1.length == 0) {
 			return arr2;
 		}
 
-		if (arr2.length == 0)
-		{
+		if (arr2.length == 0) {
 			return arr1;
 		}
 
@@ -33,55 +29,44 @@ public class AddingTwoNegabinaryNumbers
 		int[] temp = new int[max];
 		int aPos = arr1.length - 1;
 		int bPos = arr2.length - 1;
-		for (int i = max - 1; i >= 0; i--)
-		{
-			if (aPos >= 0)
-			{
+		for (int i = max - 1; i >= 0; i--) {
+			if (aPos >= 0) {
 				a[i] = arr1[aPos--];
 			}
 
-			if (bPos >= 0)
-			{
+			if (bPos >= 0) {
 				b[i] = arr2[bPos--];
 			}
 		}
 
 		int carry = 0;
-		for (int i = max - 1; i >= 0; i--)
-		{
+		for (int i = max - 1; i >= 0; i--) {
 			carry += a[i] + b[i];
 			temp[i] = Math.abs(carry) % 2;
-			if (carry > 1)
-			{
+			if (carry > 1) {
 				carry = -1;
 			}
-			else if (carry < 0)
-			{
+			else if (carry < 0) {
 				carry = 1;
 			}
-			else
-			{
+			else {
 				carry = 0;
 			}
 		}
 
 		int i = 0;
-		for (; i < max; i++)
-		{
-			if (temp[i] != 0)
-			{
+		for (; i < max; i++) {
+			if (temp[i] != 0) {
 				break;
 			}
 		}
 
-		if (i == max)
-		{
+		if (i == max) {
 			return new int[1];
 		}
 
 		int[] answer = new int[max - i];
-		for (int j = 0; i < max; i++, j++)
-		{
+		for (int j = 0; i < max; i++, j++) {
 			answer[j] = temp[i];
 		}
 

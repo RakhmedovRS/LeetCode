@@ -13,21 +13,16 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/alternating-digit-sum/",
 		difficulty = Difficulty.EASY
 )
-public class AlternatingDigitSum
-{
-	public int alternateDigitSum(int n)
-	{
+public class AlternatingDigitSum {
+	public int alternateDigitSum(int n) {
 		int sum = 0;
 		boolean pos = true;
 		String s = "" + n;
-		for (char ch : s.toCharArray())
-		{
-			if (pos)
-			{
+		for (char ch : s.toCharArray()) {
+			if (pos) {
 				sum += ch - '0';
 			}
-			else
-			{
+			else {
 				sum -= ch - '0';
 			}
 

@@ -3,7 +3,6 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.Deque;
 import java.util.LinkedList;
 
 /**
@@ -16,32 +15,25 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/sliding-window-maximum/",
 		difficulty = Difficulty.HARD
 )
-public class SlidingWindowMaximum
-{
-	public int[] maxSlidingWindow(int[] nums, int k)
-	{
+public class SlidingWindowMaximum {
+	public int[] maxSlidingWindow(int[] nums, int k) {
 		int left = 0;
 		int right = 0;
 		int[] answer = new int[nums.length - (k - 1)];
 		int pos = 0;
 		LinkedList<Integer> linkedList = new LinkedList<>();
-		while (right < nums.length)
-		{
-			while (!linkedList.isEmpty() && linkedList.getLast() < nums[right])
-			{
+		while (right < nums.length) {
+			while (!linkedList.isEmpty() && linkedList.getLast() < nums[right]) {
 				linkedList.removeLast();
 			}
 
 			linkedList.addLast(nums[right++]);
 
-			if (right - left == k)
-			{
+			if (right - left == k) {
 				answer[pos++] = linkedList.getFirst();
 			}
-			else if (right - left > k)
-			{
-				if (linkedList.getFirst() == nums[left++])
-				{
+			else if (right - left > k) {
+				if (linkedList.getFirst() == nums[left++]) {
 					linkedList.removeFirst();
 				}
 				answer[pos++] = linkedList.getFirst();

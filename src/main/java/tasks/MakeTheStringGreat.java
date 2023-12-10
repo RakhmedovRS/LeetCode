@@ -10,44 +10,33 @@ import java.util.LinkedList;
  * @created 09-Aug-20
  */
 @LeetCode(id = 1544, name = "Make The String Great", url = "https://leetcode.com/problems/make-the-string-great/")
-public class MakeTheStringGreat
-{
-	public String makeGood(String s)
-	{
+public class MakeTheStringGreat {
+	public String makeGood(String s) {
 		Deque<Character> characters = new LinkedList<>();
-		for (int i = 0; i < s.length(); i++)
-		{
-			if (!characters.isEmpty())
-			{
-				if (Character.toLowerCase(characters.peek()) == Character.toLowerCase(s.charAt(i)))
-				{
-					if (Character.isUpperCase(characters.peek()) && !Character.isUpperCase(s.charAt(i)))
-					{
+		for (int i = 0; i < s.length(); i++) {
+			if (!characters.isEmpty()) {
+				if (Character.toLowerCase(characters.peek()) == Character.toLowerCase(s.charAt(i))) {
+					if (Character.isUpperCase(characters.peek()) && !Character.isUpperCase(s.charAt(i))) {
 						characters.pop();
 					}
-					else if (!Character.isUpperCase(characters.peek()) && Character.isUpperCase(s.charAt(i)))
-					{
+					else if (!Character.isUpperCase(characters.peek()) && Character.isUpperCase(s.charAt(i))) {
 						characters.pop();
 					}
-					else
-					{
+					else {
 						characters.push(s.charAt(i));
 					}
 				}
-				else
-				{
+				else {
 					characters.push(s.charAt(i));
 				}
 			}
-			else
-			{
+			else {
 				characters.push(s.charAt(i));
 			}
 		}
 
 		StringBuilder sb = new StringBuilder();
-		while (!characters.isEmpty())
-		{
+		while (!characters.isEmpty()) {
 			sb.append(characters.remove());
 		}
 

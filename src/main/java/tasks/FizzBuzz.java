@@ -16,42 +16,32 @@ import java.util.List;
 		url = "https://leetcode.com/problems/fizz-buzz/",
 		difficulty = Difficulty.EASY
 )
-public class FizzBuzz
-{
-	public List<String> fizzBuzz(int n)
-	{
-		if (n < 1)
-		{
+public class FizzBuzz {
+	public List<String> fizzBuzz(int n) {
+		if (n < 1) {
 			return Collections.emptyList();
 		}
 
-		return new java.util.AbstractList<String>()
-		{
+		return new java.util.AbstractList<String>() {
 			@Override
-			public String get(int i)
-			{
+			public String get(int i) {
 				i++;
-				if (i % 3 == 0 && i % 5 == 0)
-				{
+				if (i % 3 == 0 && i % 5 == 0) {
 					return "FizzBuzz";
 				}
-				else if (i % 3 == 0)
-				{
+				else if (i % 3 == 0) {
 					return "Fizz";
 				}
-				else if (i % 5 == 0)
-				{
+				else if (i % 5 == 0) {
 					return "Buzz";
 				}
-				else
-				{
+				else {
 					return String.valueOf(i);
 				}
 			}
 
 			@Override
-			public int size()
-			{
+			public int size() {
 				return n;
 			}
 		};

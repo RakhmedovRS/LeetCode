@@ -16,26 +16,20 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/4sum-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FourSumII
-{
-	public int fourSumCount(int[] A, int[] B, int[] C, int[] D)
-	{
+public class FourSumII {
+	public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
 		int count = 0;
 		Map<Integer, Integer> ab = new HashMap<>();
 		int sum;
-		for (int a : A)
-		{
-			for (int b : B)
-			{
+		for (int a : A) {
+			for (int b : B) {
 				sum = a + b;
 				ab.put(sum, ab.getOrDefault(sum, 0) + 1);
 			}
 		}
 
-		for (int c : C)
-		{
-			for (int d : D)
-			{
+		for (int c : C) {
+			for (int d : D) {
 				sum = c + d;
 				count += ab.getOrDefault(-sum, 0);
 			}

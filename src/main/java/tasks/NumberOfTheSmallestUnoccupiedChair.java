@@ -15,17 +15,14 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/",
 		difficulty = Difficulty.MEDIUM
 )
-public class NumberOfTheSmallestUnoccupiedChair
-{
-	public int smallestChair(int[][] times, int targetFriend)
-	{
+public class NumberOfTheSmallestUnoccupiedChair {
+	public int smallestChair(int[][] times, int targetFriend) {
 		PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) ->
 		{
 			return times[a][0] - times[b][0];
 		});
 
-		for (int i = 0; i < times.length; i++)
-		{
+		for (int i = 0; i < times.length; i++) {
 			pq.add(i);
 		}
 
@@ -37,23 +34,19 @@ public class NumberOfTheSmallestUnoccupiedChair
 		PriorityQueue<Integer> emptyChairs = new PriorityQueue<>();
 
 		int maxChair = 0;
-		while (!pq.isEmpty())
-		{
+		while (!pq.isEmpty()) {
 			int friend = pq.remove();
 
-			while (!occupiedChairs.isEmpty() && occupiedChairs.peek()[0] <= times[friend][0])
-			{
+			while (!occupiedChairs.isEmpty() && occupiedChairs.peek()[0] <= times[friend][0]) {
 				emptyChairs.add(occupiedChairs.remove()[1]);
 			}
 
-			if (emptyChairs.isEmpty())
-			{
+			if (emptyChairs.isEmpty()) {
 				emptyChairs.add(maxChair++);
 			}
 
 			int chair = emptyChairs.remove();
-			if (friend == targetFriend)
-			{
+			if (friend == targetFriend) {
 				return chair;
 			}
 

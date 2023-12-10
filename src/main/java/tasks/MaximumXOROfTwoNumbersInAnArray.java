@@ -13,25 +13,19 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumXOROfTwoNumbersInAnArray
-{
-	class Trie
-	{
+public class MaximumXOROfTwoNumbersInAnArray {
+	class Trie {
 		Trie[] bit = new Trie[2];
 	}
 
-	public int findMaximumXOR(int[] nums)
-	{
+	public int findMaximumXOR(int[] nums) {
 		Trie root = new Trie();
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			Trie current = root;
 			int bit;
-			for (int i = 31; i >= 0; i--)
-			{
+			for (int i = 31; i >= 0; i--) {
 				bit = (num >> i) & 1;
-				if (current.bit[bit] == null)
-				{
+				if (current.bit[bit] == null) {
 					current.bit[bit] = new Trie();
 				}
 				current = current.bit[bit];
@@ -40,21 +34,17 @@ public class MaximumXOROfTwoNumbersInAnArray
 
 		int max = 0;
 		int sum;
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			Trie current = root;
 			int bit;
 			sum = 0;
-			for (int i = 31; i >= 0; i--)
-			{
+			for (int i = 31; i >= 0; i--) {
 				bit = (num >> i) & 1;
-				if (current.bit[bit ^ 1] != null)
-				{
+				if (current.bit[bit ^ 1] != null) {
 					current = current.bit[bit ^ 1];
 					sum += (1 << i);
 				}
-				else
-				{
+				else {
 					current = current.bit[bit];
 				}
 			}

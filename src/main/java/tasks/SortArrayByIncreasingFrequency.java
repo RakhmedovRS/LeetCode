@@ -12,22 +12,18 @@ import java.util.Map;
  * @created 10/31/2020
  */
 @LeetCode(id = 1636, name = "Sort Array by Increasing Frequency", url = "https://leetcode.com/problems/sort-array-by-increasing-frequency/")
-public class SortArrayByIncreasingFrequency
-{
-	public int[] frequencySort(int[] nums)
-	{
+public class SortArrayByIncreasingFrequency {
+	public int[] frequencySort(int[] nums) {
 		Map<Integer, Integer> map = new HashMap<>();
 		List<Integer> list = new ArrayList<>();
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			map.put(num, map.getOrDefault(num, 0) + 1);
 			list.add(num);
 		}
 
 		list.sort((a, b) ->
 		{
-			if (map.get(a).equals(map.get(b)))
-			{
+			if (map.get(a).equals(map.get(b))) {
 				return b - a;
 			}
 
@@ -35,8 +31,7 @@ public class SortArrayByIncreasingFrequency
 		});
 
 		int[] answer = new int[list.size()];
-		for (int i = 0; i < list.size(); i++)
-		{
+		for (int i = 0; i < list.size(); i++) {
 			answer[i] = list.get(i);
 		}
 

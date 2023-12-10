@@ -10,10 +10,8 @@ import java.util.*;
  * @created 06-Aug-20
  */
 @LeetCode(id = 863, name = "All Nodes Distance K in Binary Tree", url = "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/")
-public class AllNodesDistanceKInBinaryTree
-{
-	public List<Integer> distanceK(TreeNode root, TreeNode target, int K)
-	{
+public class AllNodesDistanceKInBinaryTree {
+	public List<Integer> distanceK(TreeNode root, TreeNode target, int K) {
 		List<Integer> answer = new ArrayList<>();
 		Map<TreeNode, List<TreeNode>> graph = new HashMap<>();
 		buildGraph(root, null, graph);
@@ -23,19 +21,15 @@ public class AllNodesDistanceKInBinaryTree
 		int levelSize;
 		TreeNode current;
 		Set<TreeNode> visited = new HashSet<>();
-		while (!queue.isEmpty() && currentDistance <= K)
-		{
+		while (!queue.isEmpty() && currentDistance <= K) {
 			levelSize = queue.size();
-			while (levelSize-- > 0)
-			{
+			while (levelSize-- > 0) {
 				current = queue.remove();
-				if (!visited.add(current))
-				{
+				if (!visited.add(current)) {
 					continue;
 				}
 
-				if (currentDistance == K)
-				{
+				if (currentDistance == K) {
 					answer.add(current.val);
 				}
 
@@ -49,27 +43,22 @@ public class AllNodesDistanceKInBinaryTree
 		return answer;
 	}
 
-	private void buildGraph(TreeNode root, TreeNode prev, Map<TreeNode, List<TreeNode>> graph)
-	{
-		if (root == null)
-		{
+	private void buildGraph(TreeNode root, TreeNode prev, Map<TreeNode, List<TreeNode>> graph) {
+		if (root == null) {
 			return;
 		}
 
 		graph.putIfAbsent(root, new ArrayList<>());
 
-		if (prev != null)
-		{
+		if (prev != null) {
 			graph.get(root).add(prev);
 		}
 
-		if (root.left != null)
-		{
+		if (root.left != null) {
 			graph.get(root).add(root.left);
 		}
 
-		if (root.right != null)
-		{
+		if (root.right != null) {
 			graph.get(root).add(root.right);
 		}
 

@@ -17,15 +17,11 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/contains-duplicate/",
 		difficulty = Difficulty.EASY
 )
-public class ContainsDuplicate
-{
-	public boolean containsDuplicate(int[] nums)
-	{
+public class ContainsDuplicate {
+	public boolean containsDuplicate(int[] nums) {
 		Set<Integer> cache = new HashSet<>();
-		for (int num : nums)
-		{
-			if (!cache.add(num))
-			{
+		for (int num : nums) {
+			if (!cache.add(num)) {
 				return true;
 			}
 		}
@@ -33,13 +29,10 @@ public class ContainsDuplicate
 		return false;
 	}
 
-	public boolean containsDuplicate1(int[] nums)
-	{
+	public boolean containsDuplicate1(int[] nums) {
 		Arrays.sort(nums);
-		for (int i = 1; i < nums.length; i++)
-		{
-			if (nums[i - 1] == nums[i])
-			{
+		for (int i = 1; i < nums.length; i++) {
+			if (nums[i - 1] == nums[i]) {
 				return true;
 			}
 		}

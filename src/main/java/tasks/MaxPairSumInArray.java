@@ -13,18 +13,13 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/max-pair-sum-in-an-array/",
 		difficulty = Difficulty.EASY
 )
-public class MaxPairSumInArray
-{
-	public int maxSum(int[] nums)
-	{
+public class MaxPairSumInArray {
+	public int maxSum(int[] nums) {
 		int max = -1;
-		for (int i = 0; i < nums.length; i++)
-		{
+		for (int i = 0; i < nums.length; i++) {
 			int m = maxD(nums[i]);
-			for (int j = i + 1; j < nums.length; j++)
-			{
-				if (m == maxD(nums[j]))
-				{
+			for (int j = i + 1; j < nums.length; j++) {
+				if (m == maxD(nums[j])) {
 					max = Math.max(max, nums[i] + nums[j]);
 				}
 			}
@@ -33,11 +28,9 @@ public class MaxPairSumInArray
 		return max;
 	}
 
-	private int maxD(int val)
-	{
+	private int maxD(int val) {
 		int max = 0;
-		for (char ch : String.valueOf(val).toCharArray())
-		{
+		for (char ch : String.valueOf(val).toCharArray()) {
 			max = Math.max(max, (ch - '0'));
 		}
 

@@ -9,18 +9,15 @@ import java.util.*;
  * @created 14-Jul-20
  */
 @LeetCode(id = 1169, name = "Invalid Transactions", url = "https://leetcode.com/problems/invalid-transactions/")
-public class InvalidTransactions
-{
-	class Transaction
-	{
+public class InvalidTransactions {
+	class Transaction {
 		String name;
 		int time;
 		int amount;
 		String city;
 		String origin;
 
-		public Transaction(String name, int time, int amount, String city, String origin)
-		{
+		public Transaction(String name, int time, int amount, String city, String origin) {
 			this.name = name;
 			this.time = time;
 			this.amount = amount;
@@ -29,26 +26,20 @@ public class InvalidTransactions
 		}
 	}
 
-	public List<String> invalidTransactions(String[] origins)
-	{
+	public List<String> invalidTransactions(String[] origins) {
 		Set<String> answer = new HashSet<>();
 		Map<String, List<Transaction>> transactionMap = new HashMap<>();
-		for (String origin : origins)
-		{
+		for (String origin : origins) {
 			Transaction transaction = parseTransaction(origin);
 
-			if (transaction.amount > 1000)
-			{
+			if (transaction.amount > 1000) {
 				answer.add(origin);
 			}
 
 			List<Transaction> transactions = transactionMap.getOrDefault(transaction.name, new ArrayList<>());
-			if (!transactions.isEmpty())
-			{
-				for (Transaction oldTransaction : transactions)
-				{
-					if (!oldTransaction.city.equals(transaction.city) && Math.abs(transaction.time - oldTransaction.time) <= 60)
-					{
+			if (!transactions.isEmpty()) {
+				for (Transaction oldTransaction : transactions) {
+					if (!oldTransaction.city.equals(transaction.city) && Math.abs(transaction.time - oldTransaction.time) <= 60) {
 						answer.add(oldTransaction.origin);
 						answer.add(transaction.origin);
 					}
@@ -62,8 +53,7 @@ public class InvalidTransactions
 		return new ArrayList<>(answer);
 	}
 
-	private Transaction parseTransaction(String string)
-	{
+	private Transaction parseTransaction(String string) {
 		String[] info = string.split(",");
 		String name = info[0];
 		int time = Integer.parseInt(info[1]);

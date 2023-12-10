@@ -16,31 +16,25 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
 		difficulty = Difficulty.MEDIUM
 )
-public class KthSmallestElementInSortedMatrix
-{
-	public int kthSmallest(int[][] matrix, int k)
-	{
+public class KthSmallestElementInSortedMatrix {
+	public int kthSmallest(int[][] matrix, int k) {
 		PriorityQueue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(a -> matrix[a[0]][a[1]]));
-		for (int row = 0; row < matrix.length; row++)
-		{
+		for (int row = 0; row < matrix.length; row++) {
 			pq.add(new int[]{row, 0});
 		}
 
-		while (k-- > 0)
-		{
+		while (k-- > 0) {
 			int[] current = pq.remove();
 			int row = current[0];
 			int column = current[1];
 			int val = matrix[row][column];
 
-			if (k == 0)
-			{
+			if (k == 0) {
 				return val;
 			}
 
 			column++;
-			if (column < matrix[row].length)
-			{
+			if (column < matrix[row].length) {
 				pq.add(new int[]{row, column});
 			}
 		}

@@ -17,23 +17,18 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/minimum-operations-to-collect-elements/description/",
 		difficulty = Difficulty.EASY
 )
-public class MinimumOperationsToCollectElements
-{
-	public int minOperations(List<Integer> nums, int k)
-	{
+public class MinimumOperationsToCollectElements {
+	public int minOperations(List<Integer> nums, int k) {
 		Set<Integer> set = new HashSet<>();
-		for (int i = 1; i <= k; i++)
-		{
+		for (int i = 1; i <= k; i++) {
 			set.add(i);
 		}
 
 		int count = 0;
-		for (int i = nums.size() - 1; i >= 0; i--)
-		{
+		for (int i = nums.size() - 1; i >= 0; i--) {
 			count++;
 			set.remove(nums.get(i));
-			if (set.isEmpty())
-			{
+			if (set.isEmpty()) {
 				return count;
 			}
 		}

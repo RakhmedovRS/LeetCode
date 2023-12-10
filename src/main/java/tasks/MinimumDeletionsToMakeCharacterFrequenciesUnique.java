@@ -13,22 +13,17 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumDeletionsToMakeCharacterFrequenciesUnique
-{
-	public int minDeletions(String s)
-	{
+public class MinimumDeletionsToMakeCharacterFrequenciesUnique {
+	public int minDeletions(String s) {
 		int[] memo = new int[26];
-		for (char ch : s.toCharArray())
-		{
+		for (char ch : s.toCharArray()) {
 			memo[ch - 'a']++;
 		}
 
 		int deletions = 0;
 		boolean[] table = new boolean[10_001];
-		for (int count : memo)
-		{
-			while (table[count] && count > 0)
-			{
+		for (int count : memo) {
+			while (table[count] && count > 0) {
 				count--;
 				deletions++;
 			}

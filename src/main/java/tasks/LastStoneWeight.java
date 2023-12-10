@@ -15,21 +15,16 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/last-stone-weight/",
 		difficulty = Difficulty.EASY
 )
-public class LastStoneWeight
-{
-	public int lastStoneWeight(int[] stones)
-	{
+public class LastStoneWeight {
+	public int lastStoneWeight(int[] stones) {
 		PriorityQueue<Integer> values = new PriorityQueue<>((val1, val2) -> Integer.compare(val2, val1));
-		for (Integer value : stones)
-		{
+		for (Integer value : stones) {
 			values.add(value);
 		}
 
-		while (values.size() > 1)
-		{
+		while (values.size() > 1) {
 			int result = values.remove() - values.remove();
-			if (result != 0)
-			{
+			if (result != 0) {
 				values.add(result);
 			}
 		}

@@ -13,76 +13,56 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximum-score-from-removing-substrings/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumScoreFromRemovingSubstrings
-{
-	public int maximumGain(String s, int x, int y)
-	{
+public class MaximumScoreFromRemovingSubstrings {
+	public int maximumGain(String s, int x, int y) {
 		int points = 0;
 		boolean containsAB = s.contains("ab");
 		boolean containsBA = s.contains("ba");
 
-		while (containsAB || containsBA)
-		{
+		while (containsAB || containsBA) {
 			StringBuilder sb = new StringBuilder();
-			if (containsAB && containsBA)
-			{
-				if (x >= y)
-				{
-					for (int i = 0; i < s.length(); i++)
-					{
-						if (sb.length() > 0 && sb.charAt(sb.length() - 1) == 'a' && s.charAt(i) == 'b')
-						{
+			if (containsAB && containsBA) {
+				if (x >= y) {
+					for (int i = 0; i < s.length(); i++) {
+						if (sb.length() > 0 && sb.charAt(sb.length() - 1) == 'a' && s.charAt(i) == 'b') {
 							points += x;
 							sb.deleteCharAt(sb.length() - 1);
 						}
-						else
-						{
+						else {
 							sb.append(s.charAt(i));
 						}
 					}
 				}
-				else
-				{
-					for (int i = 0; i < s.length(); i++)
-					{
-						if (sb.length() > 0 && sb.charAt(sb.length() - 1) == 'b' && s.charAt(i) == 'a')
-						{
+				else {
+					for (int i = 0; i < s.length(); i++) {
+						if (sb.length() > 0 && sb.charAt(sb.length() - 1) == 'b' && s.charAt(i) == 'a') {
 							points += y;
 							sb.deleteCharAt(sb.length() - 1);
 						}
-						else
-						{
+						else {
 							sb.append(s.charAt(i));
 						}
 					}
 				}
 			}
-			else if (containsAB)
-			{
-				for (int i = 0; i < s.length(); i++)
-				{
-					if (sb.length() > 0 && sb.charAt(sb.length() - 1) == 'a' && s.charAt(i) == 'b')
-					{
+			else if (containsAB) {
+				for (int i = 0; i < s.length(); i++) {
+					if (sb.length() > 0 && sb.charAt(sb.length() - 1) == 'a' && s.charAt(i) == 'b') {
 						points += x;
 						sb.deleteCharAt(sb.length() - 1);
 					}
-					else
-					{
+					else {
 						sb.append(s.charAt(i));
 					}
 				}
 			}
-			else
-			{
-				for (int i = 0; i < s.length(); i++)
-				{
-					if (sb.length() > 0 && sb.charAt(sb.length() - 1) == 'b' && s.charAt(i) == 'a')
-					{
+			else {
+				for (int i = 0; i < s.length(); i++) {
+					if (sb.length() > 0 && sb.charAt(sb.length() - 1) == 'b' && s.charAt(i) == 'a') {
 						points += y;
 						sb.deleteCharAt(sb.length() - 1);
 					}
-					else
-					{
+					else {
 						sb.append(s.charAt(i));
 					}
 				}
@@ -97,8 +77,7 @@ public class MaximumScoreFromRemovingSubstrings
 		return points;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		MaximumScoreFromRemovingSubstrings clazz = new MaximumScoreFromRemovingSubstrings();
 		System.out.println(clazz.maximumGain("abab", 2, 2));
 		System.out.println(clazz.maximumGain("abab", 2, 3));

@@ -16,16 +16,12 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/decode-the-message/",
 		difficulty = Difficulty.EASY
 )
-public class DecodeTheMessage
-{
-	public String decodeMessage(String key, String message)
-	{
+public class DecodeTheMessage {
+	public String decodeMessage(String key, String message) {
 		Map<Character, Character> map = new HashMap<>();
 		char ch = 'a';
-		for (char c : key.toCharArray())
-		{
-			if (map.containsKey(c) || c == ' ')
-			{
+		for (char c : key.toCharArray()) {
+			if (map.containsKey(c) || c == ' ') {
 				continue;
 			}
 
@@ -36,8 +32,7 @@ public class DecodeTheMessage
 
 		StringBuilder sb = new StringBuilder();
 
-		for (char c : message.toCharArray())
-		{
+		for (char c : message.toCharArray()) {
 			sb.append(map.get(c));
 		}
 

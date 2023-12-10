@@ -19,31 +19,23 @@ import java.util.List;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class FactorCombinations
-{
-	public List<List<Integer>> getFactors(int n)
-	{
+public class FactorCombinations {
+	public List<List<Integer>> getFactors(int n) {
 		return dfs(n, n);
 	}
 
-	private List<List<Integer>> dfs(int n, int start)
-	{
-		if (n == 1)
-		{
+	private List<List<Integer>> dfs(int n, int start) {
+		if (n == 1) {
 			return Collections.emptyList();
 		}
 
 		List<List<Integer>> answer = new ArrayList<>();
 		List<List<Integer>> nexts;
-		for (int i = 2; i <= n; i++)
-		{
-			if (n % i == 0)
-			{
+		for (int i = 2; i <= n; i++) {
+			if (n % i == 0) {
 				nexts = dfs(n / i, start);
-				for (List<Integer> next : nexts)
-				{
-					if (next.isEmpty() || i > next.get(0))
-					{
+				for (List<Integer> next : nexts) {
+					if (next.isEmpty() || i > next.get(0)) {
 						continue;
 					}
 
@@ -55,8 +47,7 @@ public class FactorCombinations
 			}
 		}
 
-		if (n != start)
-		{
+		if (n != start) {
 			answer.add(Arrays.asList(n));
 		}
 

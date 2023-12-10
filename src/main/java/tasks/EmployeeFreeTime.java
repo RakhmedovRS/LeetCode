@@ -18,44 +18,35 @@ import java.util.List;
 		difficulty = Difficulty.HARD,
 		premium = true
 )
-public class EmployeeFreeTime
-{
-	static class Interval
-	{
+public class EmployeeFreeTime {
+	static class Interval {
 		public int start;
 		public int end;
 
-		public Interval()
-		{
+		public Interval() {
 		}
 
-		public Interval(int _start, int _end)
-		{
+		public Interval(int _start, int _end) {
 			start = _start;
 			end = _end;
 		}
 	}
 
-	class Point
-	{
+	class Point {
 		int value;
 		int openClose;
 
-		public Point(int value, int openClose)
-		{
+		public Point(int value, int openClose) {
 			this.value = value;
 			this.openClose = openClose;
 		}
 	}
 
-	public List<Interval> employeeFreeTime(List<List<Interval>> schedule)
-	{
+	public List<Interval> employeeFreeTime(List<List<Interval>> schedule) {
 		List<Interval> intervals = new ArrayList<>();
 		List<Point> points = new ArrayList<>();
-		for (List<Interval> intervalList : schedule)
-		{
-			for (Interval interval : intervalList)
-			{
+		for (List<Interval> intervalList : schedule) {
+			for (Interval interval : intervalList) {
 				points.add(new Point(interval.start, 0));
 				points.add(new Point(interval.end, 1));
 			}
@@ -63,8 +54,7 @@ public class EmployeeFreeTime
 
 		points.sort((a, b) ->
 		{
-			if (a.value == b.value)
-			{
+			if (a.value == b.value) {
 				return a.openClose - b.openClose;
 			}
 
@@ -74,11 +64,9 @@ public class EmployeeFreeTime
 		Point prev = null;
 		Point current;
 		int balance = 0;
-		for (Point point : points)
-		{
+		for (Point point : points) {
 			current = point;
-			if (balance == 0 && prev != null)
-			{
+			if (balance == 0 && prev != null) {
 				intervals.add(new Interval(prev.value, current.value));
 			}
 
@@ -89,8 +77,7 @@ public class EmployeeFreeTime
 		return intervals;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		EmployeeFreeTime clazz = new EmployeeFreeTime();
 		System.out.println(clazz.employeeFreeTime(
 				Arrays.asList(

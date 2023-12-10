@@ -7,12 +7,9 @@ import common.LeetCode;
  * @created 30-Mar-20
  */
 @LeetCode(id = 942, name = "DI String Match", url = "https://leetcode.com/problems/di-string-match/")
-public class DIStringMatch
-{
-	public int[] diStringMatch(String S)
-	{
-		if (S == null || S.length() == 0)
-		{
+public class DIStringMatch {
+	public int[] diStringMatch(String S) {
+		if (S == null || S.length() == 0) {
 			return new int[0];
 		}
 
@@ -20,14 +17,11 @@ public class DIStringMatch
 		int max = S.length();
 
 		int[] answer = new int[S.length() + 1];
-		for (int i = 0; i < S.length(); i++)
-		{
-			if (S.charAt(i) == 'D')
-			{
+		for (int i = 0; i < S.length(); i++) {
+			if (S.charAt(i) == 'D') {
 				answer[i] = max--;
 			}
-			else
-			{
+			else {
 				answer[i] = min++;
 			}
 		}

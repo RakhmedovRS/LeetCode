@@ -13,23 +13,18 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumScoreFromPerformingMultiplicationOperations
-{
-	public int maximumScore(int[] nums, int[] multipliers)
-	{
+public class MaximumScoreFromPerformingMultiplicationOperations {
+	public int maximumScore(int[] nums, int[] multipliers) {
 		Integer[][] memo = new Integer[1001][1001];
 		return dfs(0, 0, nums.length - 1, nums, multipliers, memo);
 	}
 
-	private int dfs(int mPos, int left, int right, int[] nums, int[] multipliers, Integer[][] memo)
-	{
-		if (mPos == multipliers.length || left > right)
-		{
+	private int dfs(int mPos, int left, int right, int[] nums, int[] multipliers, Integer[][] memo) {
+		if (mPos == multipliers.length || left > right) {
 			return 0;
 		}
 
-		if (memo[mPos][left] != null)
-		{
+		if (memo[mPos][left] != null) {
 			return memo[mPos][left];
 		}
 

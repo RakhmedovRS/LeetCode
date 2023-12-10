@@ -16,17 +16,12 @@ import java.util.List;
 		url = "https://leetcode.com/problems/ambiguous-coordinates/",
 		difficulty = Difficulty.MEDIUM
 )
-public class AmbiguousCoordinates
-{
-	public List<String> ambiguousCoordinates(String s)
-	{
+public class AmbiguousCoordinates {
+	public List<String> ambiguousCoordinates(String s) {
 		List<String> answer = new ArrayList<>();
-		for (int i = 2; i < s.length() - 1; i++)
-		{
-			for (String left : generatePossibleNumbers(1, i, s))
-			{
-				for (String right : generatePossibleNumbers(i, s.length() - 1, s))
-				{
+		for (int i = 2; i < s.length() - 1; i++) {
+			for (String left : generatePossibleNumbers(1, i, s)) {
+				for (String right : generatePossibleNumbers(i, s.length() - 1, s)) {
 					answer.add("(" + left + ", " + right + ")");
 				}
 			}
@@ -35,16 +30,13 @@ public class AmbiguousCoordinates
 		return answer;
 	}
 
-	private List<String> generatePossibleNumbers(int left, int right, String s)
-	{
+	private List<String> generatePossibleNumbers(int left, int right, String s) {
 		List<String> numbers = new ArrayList<>();
-		for (int divisor = 1; divisor <= right - left; divisor++)
-		{
+		for (int divisor = 1; divisor <= right - left; divisor++) {
 			String leftSub = s.substring(left, left + divisor);
 			String rightSub = s.substring(left + divisor, right);
 
-			if ((!leftSub.startsWith("0") || leftSub.equals("0")) && !rightSub.endsWith("0"))
-			{
+			if ((!leftSub.startsWith("0") || leftSub.equals("0")) && !rightSub.endsWith("0")) {
 				numbers.add(leftSub + (divisor < right - left ? "." : "") + rightSub);
 			}
 		}
@@ -52,8 +44,7 @@ public class AmbiguousCoordinates
 		return numbers;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		AmbiguousCoordinates clazz = new AmbiguousCoordinates();
 		System.out.println(clazz.ambiguousCoordinates("(0123)"));
 		System.out.println(clazz.ambiguousCoordinates("(123)"));

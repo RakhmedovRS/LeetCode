@@ -15,12 +15,9 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/the-k-strongest-values-in-an-array/",
 		difficulty = Difficulty.MEDIUM
 )
-public class TheKStrongestValuesInArray
-{
-	public int[] getStrongest(int[] arr, int k)
-	{
-		if (k == arr.length)
-		{
+public class TheKStrongestValuesInArray {
+	public int[] getStrongest(int[] arr, int k) {
+		if (k == arr.length) {
 			return arr;
 		}
 
@@ -31,14 +28,11 @@ public class TheKStrongestValuesInArray
 		int[] answer = new int[k];
 		int left = 0;
 		int right = arr.length - 1;
-		while (k-- > 0)
-		{
-			if (Math.abs(arr[left] - median) > Math.abs(arr[right] - median))
-			{
+		while (k-- > 0) {
+			if (Math.abs(arr[left] - median) > Math.abs(arr[right] - median)) {
 				answer[pos++] = arr[left++];
 			}
-			else if (Math.abs(arr[left] - median) <= Math.abs(arr[right] - median))
-			{
+			else if (Math.abs(arr[left] - median) <= Math.abs(arr[right] - median)) {
 				answer[pos++] = arr[right--];
 			}
 		}

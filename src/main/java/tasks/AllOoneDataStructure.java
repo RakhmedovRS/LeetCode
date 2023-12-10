@@ -16,30 +16,24 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/all-oone-data-structure/",
 		difficulty = Difficulty.HARD
 )
-public class AllOoneDataStructure
-{
-	class AllOne
-	{
-		class Link
-		{
+public class AllOoneDataStructure {
+	class AllOne {
+		class Link {
 			Link next;
 			Link prev;
 			String key;
 			Integer count;
 
-			public Link(String key, Integer count)
-			{
+			public Link(String key, Integer count) {
 				this.key = key;
 				this.count = count;
 			}
 
 			@Override
-			public String toString()
-			{
+			public String toString() {
 				StringBuilder sb = new StringBuilder();
 				Link temp = this;
-				while (temp != null)
-				{
+				while (temp != null) {
 					sb.append(String.format("[%s & %d] -> ", temp.key, temp.count));
 					temp = temp.next;
 				}
@@ -54,8 +48,7 @@ public class AllOoneDataStructure
 		String headKey;
 		String tailKey;
 
-		public AllOne()
-		{
+		public AllOne() {
 			keys = new HashMap<>();
 			headKey = this.getClass().toString() + ".head";
 			tailKey = this.getClass().toString() + ".tail";
@@ -71,22 +64,18 @@ public class AllOoneDataStructure
 		/**
 		 * Inserts a new key <Key> with value 1. Or increments an existing key by 1.
 		 */
-		public void inc(String key)
-		{
-			if (keys.containsKey(key))
-			{
+		public void inc(String key) {
+			if (keys.containsKey(key)) {
 				Link link = keys.get(key);
 				link.count++;
-				if (link.count > link.next.count)
-				{
+				if (link.count > link.next.count) {
 					Link prev = link.prev;
 					Link next = link.next;
 
 					prev.next = next;
 					next.prev = prev;
 
-					while (link.count > next.count)
-					{
+					while (link.count > next.count) {
 						prev = next;
 						next = next.next;
 					}
@@ -97,8 +86,7 @@ public class AllOoneDataStructure
 					prev.next = link;
 				}
 			}
-			else
-			{
+			else {
 				Link link = new Link(key, 1);
 				link.next = head.next;
 				head.next.prev = link;
@@ -111,18 +99,15 @@ public class AllOoneDataStructure
 		/**
 		 * Decrements an existing key by 1. If Key's value is 1, remove it from the data structure.
 		 */
-		public void dec(String key)
-		{
-			if (keys.containsKey(key))
-			{
+		public void dec(String key) {
+			if (keys.containsKey(key)) {
 				Link link = keys.get(key);
 				link.count--;
 
 				Link prev = link.prev;
 				Link next = link.next;
 
-				if (link.count == 0)
-				{
+				if (link.count == 0) {
 					prev.next = next;
 					next.prev = prev;
 
@@ -131,13 +116,11 @@ public class AllOoneDataStructure
 
 					keys.remove(key);
 				}
-				else if (link.count < prev.count)
-				{
+				else if (link.count < prev.count) {
 					prev.next = next;
 					next.prev = prev;
 
-					while (link.count < prev.count)
-					{
+					while (link.count < prev.count) {
 						next = prev;
 						prev = prev.prev;
 					}
@@ -153,16 +136,14 @@ public class AllOoneDataStructure
 		/**
 		 * Returns one of the keys with maximal value.
 		 */
-		public String getMaxKey()
-		{
+		public String getMaxKey() {
 			return tail.prev.key.equals(headKey) ? "" : tail.prev.key;
 		}
 
 		/**
 		 * Returns one of the keys with Minimal value.
 		 */
-		public String getMinKey()
-		{
+		public String getMinKey() {
 			return head.next.key.equals(tailKey) ? "" : head.next.key;
 		}
 	}

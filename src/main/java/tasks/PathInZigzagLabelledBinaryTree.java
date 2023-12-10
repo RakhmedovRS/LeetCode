@@ -17,30 +17,23 @@ import java.util.List;
 		url = "https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/",
 		difficulty = Difficulty.MEDIUM
 )
-public class PathInZigzagLabelledBinaryTree
-{
-	public List<Integer> pathInZigZagTree(int label)
-	{
+public class PathInZigzagLabelledBinaryTree {
+	public List<Integer> pathInZigZagTree(int label) {
 		LinkedList<Integer> answer = new LinkedList<>();
 		List<List<Integer>> lists = new ArrayList<>();
 		int pow = 0;
 		int current = 0;
 		boolean fromLeftToRight = true;
-		while (current < label)
-		{
+		while (current < label) {
 			List<Integer> list = new ArrayList<>();
-			if (fromLeftToRight)
-			{
-				for (int i = (int) Math.pow(2, pow); i < (int) Math.pow(2, pow + 1); i++)
-				{
+			if (fromLeftToRight) {
+				for (int i = (int) Math.pow(2, pow); i < (int) Math.pow(2, pow + 1); i++) {
 					list.add(i);
 				}
 			}
-			else
-			{
+			else {
 
-				for (int i = (int) Math.pow(2, pow + 1) - 1; i >= (int) Math.pow(2, pow); i--)
-				{
+				for (int i = (int) Math.pow(2, pow + 1) - 1; i >= (int) Math.pow(2, pow); i--) {
 					list.add(i);
 				}
 			}
@@ -54,21 +47,17 @@ public class PathInZigzagLabelledBinaryTree
 		int i = 0;
 		int level = lists.size() - 1;
 		List<Integer> list = lists.get(level);
-		for (; i < list.size(); i++)
-		{
-			if (list.get(i) == label)
-			{
+		for (; i < list.size(); i++) {
+			if (list.get(i) == label) {
 				break;
 			}
 		}
 
-		while (level >= 0)
-		{
+		while (level >= 0) {
 			answer.addFirst(label);
 			i /= 2;
 
-			if (level == 0)
-			{
+			if (level == 0) {
 				break;
 			}
 

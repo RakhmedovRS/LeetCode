@@ -14,28 +14,22 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
 		difficulty = Difficulty.HARD
 )
-public class SerializeAndDeserializeBinaryTree
-{
-	public class Codec
-	{
+public class SerializeAndDeserializeBinaryTree {
+	public class Codec {
 
 		// Encodes a tree to a single string.
-		public String serialize(TreeNode root)
-		{
+		public String serialize(TreeNode root) {
 			StringBuilder sb = new StringBuilder();
 			preorder(root, sb);
 			return sb.toString();
 		}
 
-		private void preorder(TreeNode root, StringBuilder sb)
-		{
-			if (sb.length() > 0)
-			{
+		private void preorder(TreeNode root, StringBuilder sb) {
+			if (sb.length() > 0) {
 				sb.append(',');
 			}
 
-			if (root == null)
-			{
+			if (root == null) {
 				sb.append('N');
 				return;
 			}
@@ -46,10 +40,8 @@ public class SerializeAndDeserializeBinaryTree
 		}
 
 		// Decodes your encoded data to tree.
-		public TreeNode deserialize(String data)
-		{
-			if (data.equals("N"))
-			{
+		public TreeNode deserialize(String data) {
+			if (data.equals("N")) {
 				return null;
 			}
 
@@ -58,15 +50,12 @@ public class SerializeAndDeserializeBinaryTree
 			return deserialize(nodes, new int[]{0});
 		}
 
-		private TreeNode deserialize(String[] nodes, int[] index)
-		{
-			if (index[0] >= nodes.length)
-			{
+		private TreeNode deserialize(String[] nodes, int[] index) {
+			if (index[0] >= nodes.length) {
 				return null;
 			}
 
-			if (nodes[index[0]].equals("N"))
-			{
+			if (nodes[index[0]].equals("N")) {
 				index[0]++;
 				return null;
 			}
@@ -79,8 +68,7 @@ public class SerializeAndDeserializeBinaryTree
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		TreeNode root = new TreeNode(5);
 		root.left = new TreeNode(2);
 		root.right = new TreeNode(3);

@@ -17,12 +17,9 @@ import java.util.*;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class CountUnivalueSubtrees
-{
-	public int countUnivalSubtrees(TreeNode root)
-	{
-		if (root == null)
-		{
+public class CountUnivalueSubtrees {
+	public int countUnivalSubtrees(TreeNode root) {
+		if (root == null) {
 			return 0;
 		}
 
@@ -36,19 +33,15 @@ public class CountUnivalueSubtrees
 		TreeNode parent;
 		TreeNode current;
 
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			current = queue.remove();
 			parent = parents.get(current);
-			if (parent != null && parent.val == current.val)
-			{
-				if (parent.left == null || parent.right == null)
-				{
+			if (parent != null && parent.val == current.val) {
+				if (parent.left == null || parent.right == null) {
 					count++;
 					queue.add(parent);
 				}
-				else if (!visited.add(parent))
-				{
+				else if (!visited.add(parent)) {
 					count++;
 					queue.add(parent);
 				}
@@ -58,17 +51,14 @@ public class CountUnivalueSubtrees
 		return count;
 	}
 
-	private void dfs(TreeNode parent, TreeNode current, Map<TreeNode, TreeNode> parents, List<TreeNode> leaves)
-	{
-		if (current == null)
-		{
+	private void dfs(TreeNode parent, TreeNode current, Map<TreeNode, TreeNode> parents, List<TreeNode> leaves) {
+		if (current == null) {
 			return;
 		}
 
 		parents.put(current, parent);
 
-		if (current.left == null && current.right == null)
-		{
+		if (current.left == null && current.right == null) {
 			leaves.add(current);
 			return;
 		}

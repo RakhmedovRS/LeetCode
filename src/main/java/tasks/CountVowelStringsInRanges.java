@@ -17,10 +17,8 @@ import java.util.TreeSet;
 		url = "https://leetcode.com/problems/count-vowel-strings-in-ranges/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CountVowelStringsInRanges
-{
-	public int[] vowelStrings(String[] words, int[][] queries)
-	{
+public class CountVowelStringsInRanges {
+	public int[] vowelStrings(String[] words, int[][] queries) {
 		TreeSet<Integer> set = new TreeSet<>();
 		Set<Character> vowels = new HashSet<>();
 		vowels.add('a');
@@ -29,18 +27,15 @@ public class CountVowelStringsInRanges
 		vowels.add('o');
 		vowels.add('u');
 
-		for (int i = 0; i < words.length; i++)
-		{
+		for (int i = 0; i < words.length; i++) {
 			String word = words[i];
-			if (vowels.contains(word.charAt(0)) && vowels.contains(word.charAt(word.length() - 1)))
-			{
+			if (vowels.contains(word.charAt(0)) && vowels.contains(word.charAt(word.length() - 1))) {
 				set.add(i);
 			}
 		}
 
 		int[] answer = new int[queries.length];
-		for (int i = 0; i < queries.length; i++)
-		{
+		for (int i = 0; i < queries.length; i++) {
 			int left = queries[i][0];
 			int right = queries[i][1];
 

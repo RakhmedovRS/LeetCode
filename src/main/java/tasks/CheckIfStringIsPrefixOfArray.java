@@ -13,24 +13,18 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/",
 		difficulty = Difficulty.EASY
 )
-public class CheckIfStringIsPrefixOfArray
-{
-	public boolean isPrefixString(String s, String[] words)
-	{
+public class CheckIfStringIsPrefixOfArray {
+	public boolean isPrefixString(String s, String[] words) {
 		char[] chars = s.toCharArray();
 		int pos = 0;
-		for (String word : words)
-		{
-			for (char ch : word.toCharArray())
-			{
-				if (pos == chars.length || chars[pos++] != ch)
-				{
+		for (String word : words) {
+			for (char ch : word.toCharArray()) {
+				if (pos == chars.length || chars[pos++] != ch) {
 					return false;
 				}
 			}
 
-			if (pos == chars.length)
-			{
+			if (pos == chars.length) {
 				return true;
 			}
 		}

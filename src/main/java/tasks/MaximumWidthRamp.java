@@ -15,20 +15,15 @@ import java.util.TreeMap;
 		url = "https://leetcode.com/problems/maximum-width-ramp/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumWidthRamp
-{
-	public int maxWidthRamp(int[] A)
-	{
+public class MaximumWidthRamp {
+	public int maxWidthRamp(int[] A) {
 		int max = 0;
 		TreeMap<Integer, Integer> treeMap = new TreeMap<>();
-		for (int i = 0; i < A.length; i++)
-		{
-			if (i == 0 || A[i] < treeMap.firstKey())
-			{
+		for (int i = 0; i < A.length; i++) {
+			if (i == 0 || A[i] < treeMap.firstKey()) {
 				treeMap.put(A[i], i);
 			}
-			else
-			{
+			else {
 				max = Math.max(max, i - treeMap.floorEntry(A[i]).getValue());
 			}
 		}

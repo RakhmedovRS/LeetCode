@@ -13,24 +13,18 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximum-value-after-insertion/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumValueAfterInsertion
-{
-	public String maxValue(String n, int x)
-	{
-		if (n.length() == 1 && n.charAt(0) == '-')
-		{
+public class MaximumValueAfterInsertion {
+	public String maxValue(String n, int x) {
+		if (n.length() == 1 && n.charAt(0) == '-') {
 			return "-" + x;
 		}
 
 		StringBuilder sb = new StringBuilder();
 		boolean xUsed = false;
-		if (n.charAt(0) == '-')
-		{
+		if (n.charAt(0) == '-') {
 			sb.append('-');
-			for (int i = 1; i < n.length(); i++)
-			{
-				if (!xUsed && x < n.charAt(i) - '0')
-				{
+			for (int i = 1; i < n.length(); i++) {
+				if (!xUsed && x < n.charAt(i) - '0') {
 					sb.append(x);
 					xUsed = true;
 				}
@@ -38,12 +32,9 @@ public class MaximumValueAfterInsertion
 				sb.append(n.charAt(i));
 			}
 		}
-		else
-		{
-			for (char ch : n.toCharArray())
-			{
-				if (!xUsed && x > ch - '0')
-				{
+		else {
+			for (char ch : n.toCharArray()) {
+				if (!xUsed && x > ch - '0') {
 					sb.append(x);
 					xUsed = true;
 				}
@@ -51,8 +42,7 @@ public class MaximumValueAfterInsertion
 			}
 		}
 
-		if (!xUsed)
-		{
+		if (!xUsed) {
 			sb.append(x);
 		}
 

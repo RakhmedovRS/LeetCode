@@ -16,17 +16,13 @@ import java.util.List;
 		url = "https://leetcode.com/problems/arithmetic-subarrays/",
 		difficulty = Difficulty.MEDIUM
 )
-public class ArithmeticSubarrays
-{
-	public List<Boolean> checkArithmeticSubarrays(int[] nums, int[] l, int[] r)
-	{
+public class ArithmeticSubarrays {
+	public List<Boolean> checkArithmeticSubarrays(int[] nums, int[] l, int[] r) {
 		List<Boolean> answer = new ArrayList<>();
 		List<Integer> list = new ArrayList<>();
-		for (int i = 0; i < l.length; i++)
-		{
+		for (int i = 0; i < l.length; i++) {
 			list.clear();
-			for (int a = l[i]; a <= r[i]; a++)
-			{
+			for (int a = l[i]; a <= r[i]; a++) {
 				list.add(nums[a]);
 			}
 			answer.add(canBeRearranged(list));
@@ -35,14 +31,11 @@ public class ArithmeticSubarrays
 		return answer;
 	}
 
-	private boolean canBeRearranged(List<Integer> list)
-	{
+	private boolean canBeRearranged(List<Integer> list) {
 		list.sort(null);
 		int diff = list.get(1) - list.get(0);
-		for (int i = 1; i < list.size(); i++)
-		{
-			if (list.get(i) - list.get(i - 1) != diff)
-			{
+		for (int i = 1; i < list.size(); i++) {
+			if (list.get(i) - list.get(i - 1) != diff) {
 				return false;
 			}
 		}

@@ -14,10 +14,8 @@ import common.ListNode;
 		url = "https://leetcode.com/problems/partition-list/",
 		difficulty = Difficulty.MEDIUM
 )
-public class PartitionList
-{
-	public ListNode partition(ListNode head, int x)
-	{
+public class PartitionList {
+	public ListNode partition(ListNode head, int x) {
 		ListNode lessHead = new ListNode();
 		ListNode lessCurrent = lessHead;
 
@@ -25,17 +23,14 @@ public class PartitionList
 		ListNode greaterCurrent = greaterHead;
 
 
-		while (head != null)
-		{
-			if (head.val < x)
-			{
+		while (head != null) {
+			if (head.val < x) {
 				lessCurrent.next = head;
 				head = head.next;
 				lessCurrent = lessCurrent.next;
 				lessCurrent.next = null;
 			}
-			else
-			{
+			else {
 				greaterCurrent.next = head;
 				head = head.next;
 				greaterCurrent = greaterCurrent.next;

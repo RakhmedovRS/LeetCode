@@ -13,22 +13,17 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/row-with-maximum-ones/",
 		difficulty = Difficulty.EASY
 )
-public class RowWithMaximumOnes
-{
-	public int[] rowAndMaximumOnes(int[][] mat)
-	{
+public class RowWithMaximumOnes {
+	public int[] rowAndMaximumOnes(int[][] mat) {
 		int max = 0;
 		int index = 0;
-		for (int row = 0; row < mat.length; row++)
-		{
+		for (int row = 0; row < mat.length; row++) {
 			int curr = 0;
-			for (int val : mat[row])
-			{
+			for (int val : mat[row]) {
 				curr += val;
 			}
 
-			if (curr > max)
-			{
+			if (curr > max) {
 				max = curr;
 				index = row;
 			}

@@ -13,13 +13,10 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindMinimumInRotatedSortedArray
-{
-	public int findMin(int[] nums)
-	{
+public class FindMinimumInRotatedSortedArray {
+	public int findMin(int[] nums) {
 		int min = Integer.MAX_VALUE;
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			min = Math.min(min, num);
 		}
 		return min;

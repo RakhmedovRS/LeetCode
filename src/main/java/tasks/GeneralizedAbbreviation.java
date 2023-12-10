@@ -16,39 +16,30 @@ import java.util.*;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class GeneralizedAbbreviation
-{
-	public List<String> generateAbbreviations(String word)
-	{
+public class GeneralizedAbbreviation {
+	public List<String> generateAbbreviations(String word) {
 		Map<Integer, List<String>> memo = new HashMap<>();
 		return dfs(0, word.toCharArray(), memo);
 	}
 
-	private List<String> dfs(int pos, char[] chars, Map<Integer, List<String>> memo)
-	{
-		if (pos == chars.length)
-		{
+	private List<String> dfs(int pos, char[] chars, Map<Integer, List<String>> memo) {
+		if (pos == chars.length) {
 			return Collections.singletonList("");
 		}
 
-		if (memo.containsKey(pos))
-		{
+		if (memo.containsKey(pos)) {
 			return memo.get(pos);
 		}
 
 		List<String> result = new ArrayList<>();
 		List<String> next;
-		for (int count = 1; pos + count <= chars.length; count++)
-		{
+		for (int count = 1; pos + count <= chars.length; count++) {
 			next = dfs(pos + count, chars, memo);
-			for (String str : next)
-			{
-				if (str.isEmpty() || Character.isLetter(str.charAt(0)))
-				{
+			for (String str : next) {
+				if (str.isEmpty() || Character.isLetter(str.charAt(0))) {
 					result.add(count + str);
 				}
-				if (str.isEmpty() || Character.isDigit(str.charAt(0)))
-				{
+				if (str.isEmpty() || Character.isDigit(str.charAt(0))) {
 					result.add(String.valueOf(chars, pos, count) + str);
 				}
 			}

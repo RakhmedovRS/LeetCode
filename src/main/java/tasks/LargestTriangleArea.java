@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/largest-triangle-area/",
 		difficulty = Difficulty.EASY
 )
-public class LargestTriangleArea
-{
-	public double largestTriangleArea(int[][] points)
-	{
+public class LargestTriangleArea {
+	public double largestTriangleArea(int[][] points) {
 		int xA;
 		int yA;
 		int xB;
@@ -24,12 +22,9 @@ public class LargestTriangleArea
 		int xC;
 		int yC;
 		double max = 0;
-		for (int a = 0; a < points.length; a++)
-		{
-			for (int b = a + 1; b < points.length; b++)
-			{
-				for (int c = b + 1; c < points.length; c++)
-				{
+		for (int a = 0; a < points.length; a++) {
+			for (int b = a + 1; b < points.length; b++) {
+				for (int c = b + 1; c < points.length; c++) {
 					xA = points[a][0];
 					yA = points[a][1];
 					xB = points[b][0];

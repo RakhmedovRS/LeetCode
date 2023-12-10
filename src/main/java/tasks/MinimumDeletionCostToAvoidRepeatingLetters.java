@@ -15,29 +15,22 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumDeletionCostToAvoidRepeatingLetters
-{
-	public int minCost(String s, int[] cost)
-	{
+public class MinimumDeletionCostToAvoidRepeatingLetters {
+	public int minCost(String s, int[] cost) {
 		LinkedList<int[]> pairs = new LinkedList<>();
 		int totalCost = 0;
-		for (int i = 0; i < s.length(); i++)
-		{
-			if (!pairs.isEmpty() && pairs.getLast()[0] == (int) s.charAt(i))
-			{
-				if (pairs.getLast()[1] < cost[i])
-				{
+		for (int i = 0; i < s.length(); i++) {
+			if (!pairs.isEmpty() && pairs.getLast()[0] == (int) s.charAt(i)) {
+				if (pairs.getLast()[1] < cost[i]) {
 					totalCost += pairs.getLast()[1];
 					pairs.removeLast();
 					pairs.addLast(new int[]{s.charAt(i), cost[i]});
 				}
-				else
-				{
+				else {
 					totalCost += cost[i];
 				}
 			}
-			else
-			{
+			else {
 				pairs.addLast(new int[]{s.charAt(i), cost[i]});
 			}
 		}

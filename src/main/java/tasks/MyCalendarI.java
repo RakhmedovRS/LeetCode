@@ -14,25 +14,20 @@ import java.util.TreeMap;
 		url = "https://leetcode.com/problems/my-calendar-i/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MyCalendarI
-{
-	class MyCalendar
-	{
+public class MyCalendarI {
+	class MyCalendar {
 
 		TreeMap<Integer, Integer> treeMap;
 
-		public MyCalendar()
-		{
+		public MyCalendar() {
 			treeMap = new TreeMap<>();
 		}
 
-		public boolean book(int start, int end)
-		{
+		public boolean book(int start, int end) {
 			Integer previous = treeMap.floorKey(start);
 			Integer next = treeMap.ceilingKey(start);
 			if ((previous == null || treeMap.get(previous) <= start)
-					&& (next == null || end <= next))
-			{
+					&& (next == null || end <= next)) {
 				treeMap.put(start, end);
 				return true;
 			}

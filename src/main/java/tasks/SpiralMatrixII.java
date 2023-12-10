@@ -15,10 +15,8 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/spiral-matrix-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SpiralMatrixII
-{
-	public int[][] generateMatrix(int n)
-	{
+public class SpiralMatrixII {
+	public int[][] generateMatrix(int n) {
 		int[][] matrix = new int[n][n];
 
 		int upperBound = 0;
@@ -28,28 +26,23 @@ public class SpiralMatrixII
 
 		int value = 1;
 		n *= n;
-		while (value <= n)
-		{
-			for (int row = upperBound, column = leftBound; column <= rightBound && value <= n; column++)
-			{
+		while (value <= n) {
+			for (int row = upperBound, column = leftBound; column <= rightBound && value <= n; column++) {
 				matrix[row][column] = value++;
 			}
 			upperBound++;
 
-			for (int row = upperBound, column = rightBound; row <= lowerBound && value <= n; row++)
-			{
+			for (int row = upperBound, column = rightBound; row <= lowerBound && value <= n; row++) {
 				matrix[row][column] = value++;
 			}
 			rightBound--;
 
-			for (int row = lowerBound, column = rightBound; column >= leftBound && value <= n; column--)
-			{
+			for (int row = lowerBound, column = rightBound; column >= leftBound && value <= n; column--) {
 				matrix[row][column] = value++;
 			}
 			lowerBound--;
 
-			for (int row = lowerBound, column = leftBound; row >= upperBound && value <= n; row--)
-			{
+			for (int row = lowerBound, column = leftBound; row >= upperBound && value <= n; row--) {
 				matrix[row][column] = value++;
 			}
 			leftBound++;
@@ -58,8 +51,7 @@ public class SpiralMatrixII
 		return matrix;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(Arrays.deepToString(new SpiralMatrixII().generateMatrix(4)));
 	}
 }

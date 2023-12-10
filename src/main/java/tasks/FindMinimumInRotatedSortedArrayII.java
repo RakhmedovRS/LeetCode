@@ -13,26 +13,20 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/",
 		difficulty = Difficulty.HARD
 )
-public class FindMinimumInRotatedSortedArrayII
-{
-	public int findMin(int[] nums)
-	{
+public class FindMinimumInRotatedSortedArrayII {
+	public int findMin(int[] nums) {
 		int left = 0;
 		int right = nums.length - 1;
 		int mid;
-		while (left < right)
-		{
+		while (left < right) {
 			mid = left + (right - left) / 2;
-			if (nums[mid] > nums[right])
-			{
+			if (nums[mid] > nums[right]) {
 				left = mid + 1;
 			}
-			else if (nums[left] < nums[mid])
-			{
+			else if (nums[left] < nums[mid]) {
 				right = mid - 1;
 			}
-			else
-			{
+			else {
 				right--;
 			}
 		}
@@ -40,8 +34,7 @@ public class FindMinimumInRotatedSortedArrayII
 		return nums[left];
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new FindMinimumInRotatedSortedArrayII().findMin(new int[]{3, 3, 1, 3}));
 		System.out.println(new FindMinimumInRotatedSortedArrayII().findMin(new int[]{2, 2, 2, 0, 1}));
 		System.out.println(new FindMinimumInRotatedSortedArrayII().findMin(new int[]{1, 2, 3}));

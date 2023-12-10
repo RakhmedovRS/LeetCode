@@ -11,24 +11,19 @@ import java.util.List;
  * @created 17-Jul-20
  */
 @LeetCode(id = 1382, name = "Balance a Binary Search Tree", url = "https://leetcode.com/problems/balance-a-binary-search-tree/")
-public class BalanceBinarySearchTree
-{
-	public TreeNode balanceBST(TreeNode root)
-	{
+public class BalanceBinarySearchTree {
+	public TreeNode balanceBST(TreeNode root) {
 		List<Integer> nodes = new ArrayList<>();
 		inOrder(root, nodes);
 		return rebuildTree(nodes, 0, nodes.size() - 1);
 	}
 
-	private TreeNode rebuildTree(List<Integer> nodes, int left, int right)
-	{
-		if (left == right)
-		{
+	private TreeNode rebuildTree(List<Integer> nodes, int left, int right) {
+		if (left == right) {
 			return new TreeNode(nodes.get(left));
 		}
 
-		if (left > right)
-		{
+		if (left > right) {
 			return null;
 		}
 
@@ -39,10 +34,8 @@ public class BalanceBinarySearchTree
 		return node;
 	}
 
-	private void inOrder(TreeNode treeNode, List<Integer> nodes)
-	{
-		if (treeNode == null)
-		{
+	private void inOrder(TreeNode treeNode, List<Integer> nodes) {
+		if (treeNode == null) {
 			return;
 		}
 

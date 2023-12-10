@@ -14,33 +14,26 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class SearchInSortedArrayOfUnknownSize
-{
-	interface ArrayReader
-	{
+public class SearchInSortedArrayOfUnknownSize {
+	interface ArrayReader {
 		int get(int index);
 	}
 
-	public int search(ArrayReader reader, int target)
-	{
+	public int search(ArrayReader reader, int target) {
 		int left = 0;
 		int right = 10_000;
 		int mid;
 		int val;
-		while (left <= right)
-		{
+		while (left <= right) {
 			mid = (left + right) / 2;
 			val = reader.get(mid);
-			if (val == target)
-			{
+			if (val == target) {
 				return mid;
 			}
-			else if (val > target)
-			{
+			else if (val > target) {
 				right = mid - 1;
 			}
-			else
-			{
+			else {
 				left = mid + 1;
 			}
 		}

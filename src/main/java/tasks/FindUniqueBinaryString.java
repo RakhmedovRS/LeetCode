@@ -13,24 +13,18 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/find-unique-binary-string/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindUniqueBinaryString
-{
-	public String findDifferentBinaryString(String[] nums)
-	{
+public class FindUniqueBinaryString {
+	public String findDifferentBinaryString(String[] nums) {
 		boolean[] used = new boolean[(int) Math.pow(2, 16) + 2];
-		for (String num : nums)
-		{
+		for (String num : nums) {
 			used[Integer.parseInt(num, 2)] = true;
 		}
 
-		for (int i = 0; i < used.length; i++)
-		{
-			if (!used[i])
-			{
+		for (int i = 0; i < used.length; i++) {
+			if (!used[i]) {
 				StringBuilder sb = new StringBuilder(Integer.toBinaryString(i));
 				sb.reverse();
-				while (sb.length() < nums[0].length())
-				{
+				while (sb.length() < nums[0].length()) {
 					sb.append("0");
 				}
 

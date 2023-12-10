@@ -16,55 +16,41 @@ import java.util.LinkedList;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class DesignExpressionTreeWithEvaluateFunction
-{
-	abstract class Node
-	{
+public class DesignExpressionTreeWithEvaluateFunction {
+	abstract class Node {
 		public abstract int evaluate();
 		// define your fields here
 	}
 
-	;
-
-	class NodeImpl extends Node
-	{
+	class NodeImpl extends Node {
 		String[] postfix;
 
-		public NodeImpl(String[] postfix)
-		{
+		public NodeImpl(String[] postfix) {
 			this.postfix = postfix;
 		}
 
 		@Override
-		public int evaluate()
-		{
+		public int evaluate() {
 			LinkedList<Integer> stack = new LinkedList<>();
 			int a;
 			int b;
-			for (int i = 0; i < postfix.length; i++)
-			{
-				if (Character.isDigit(postfix[i].charAt(0)))
-				{
+			for (int i = 0; i < postfix.length; i++) {
+				if (Character.isDigit(postfix[i].charAt(0))) {
 					stack.push(Integer.parseInt(postfix[i]));
 				}
-				else
-				{
+				else {
 					b = stack.pop();
 					a = stack.pop();
-					if ("+".equals(postfix[i]))
-					{
+					if ("+".equals(postfix[i])) {
 						stack.push(a + b);
 					}
-					else if ("-".equals(postfix[i]))
-					{
+					else if ("-".equals(postfix[i])) {
 						stack.push(a - b);
 					}
-					else if ("*".equals(postfix[i]))
-					{
+					else if ("*".equals(postfix[i])) {
 						stack.push(a * b);
 					}
-					else
-					{
+					else {
 						stack.push(a / b);
 					}
 				}
@@ -74,10 +60,8 @@ public class DesignExpressionTreeWithEvaluateFunction
 		}
 	}
 
-	class TreeBuilder
-	{
-		Node buildTree(String[] postfix)
-		{
+	class TreeBuilder {
+		Node buildTree(String[] postfix) {
 			return new NodeImpl(postfix);
 		}
 	}

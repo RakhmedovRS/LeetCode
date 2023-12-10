@@ -4,7 +4,10 @@ import common.Difficulty;
 import common.LeetCode;
 import common.TreeNode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @author RakhmedovRS
@@ -16,27 +19,22 @@ import java.util.*;
 		url = "https://leetcode.com/problems/average-of-levels-in-binary-tree/",
 		difficulty = Difficulty.EASY
 )
-public class AverageOfLevelsInBinaryTree
-{
-	public List<Double> averageOfLevels(TreeNode root)
-	{
+public class AverageOfLevelsInBinaryTree {
+	public List<Double> averageOfLevels(TreeNode root) {
 		List<Double> answer = new ArrayList<>();
 		Map<Integer, long[]> map = new HashMap<>();
 		dfs(0, root, map);
 
 		long[] current;
-		for (int i = 0; i < map.size(); i++)
-		{
+		for (int i = 0; i < map.size(); i++) {
 			current = map.get(i);
 			answer.add((current[0] * 1d) / current[1]);
 		}
 		return answer;
 	}
 
-	private void dfs(int level, TreeNode node, Map<Integer, long[]> map)
-	{
-		if (node == null)
-		{
+	private void dfs(int level, TreeNode node, Map<Integer, long[]> map) {
+		if (node == null) {
 			return;
 		}
 

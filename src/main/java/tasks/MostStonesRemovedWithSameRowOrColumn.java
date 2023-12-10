@@ -16,42 +16,34 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MostStonesRemovedWithSameRowOrColumn
-{
-	public int removeStones(int[][] stones)
-	{
+public class MostStonesRemovedWithSameRowOrColumn {
+	public int removeStones(int[][] stones) {
 		Map<Integer, Integer> dsu = new HashMap<>();
 		int[] islands = {0};
-		for (int[] stone : stones)
-		{
+		for (int[] stone : stones) {
 			union(dsu, stone[0], ~stone[1], islands);
 		}
 
 		return stones.length - islands[0];
 	}
 
-	private int findParent(Map<Integer, Integer> dsu, int x, int[] islands)
-	{
-		if (!dsu.containsKey(x))
-		{
+	private int findParent(Map<Integer, Integer> dsu, int x, int[] islands) {
+		if (!dsu.containsKey(x)) {
 			dsu.put(x, x);
 			islands[0]++;
 		}
 
-		if (x != dsu.get(x))
-		{
+		if (x != dsu.get(x)) {
 			dsu.put(x, findParent(dsu, dsu.get(x), islands));
 		}
 
 		return dsu.get(x);
 	}
 
-	private void union(Map<Integer, Integer> dsu, int x, int y, int[] islands)
-	{
+	private void union(Map<Integer, Integer> dsu, int x, int y, int[] islands) {
 		int xParent = findParent(dsu, x, islands);
 		int yParent = findParent(dsu, y, islands);
-		if (xParent != yParent)
-		{
+		if (xParent != yParent) {
 			islands[0]--;
 			dsu.put(xParent, yParent);
 		}

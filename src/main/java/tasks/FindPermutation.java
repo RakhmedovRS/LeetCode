@@ -16,41 +16,30 @@ import java.util.Arrays;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class FindPermutation
-{
-	public int[] findPermutation(String s)
-	{
+public class FindPermutation {
+	public int[] findPermutation(String s) {
 		int[] memo = new int[s.length() + 1];
-		for (int i = 0; i < s.length(); i++)
-		{
-			if (s.charAt(i) == 'D')
-			{
+		for (int i = 0; i < s.length(); i++) {
+			if (s.charAt(i) == 'D') {
 				memo[i + 1] = memo[i] - 1;
 			}
-			else
-			{
+			else {
 				memo[i + 1] = memo[i] + 1;
 			}
 		}
 
 		int[] answer = new int[s.length() + 1];
 		int num = 1;
-		for (int i = 0; i < memo.length; i++)
-		{
-			if (i + 1 < memo.length)
-			{
-				if (memo[i] < memo[i + 1])
-				{
-					for (int j = i; j >= 0 && answer[j] == 0; j--)
-					{
+		for (int i = 0; i < memo.length; i++) {
+			if (i + 1 < memo.length) {
+				if (memo[i] < memo[i + 1]) {
+					for (int j = i; j >= 0 && answer[j] == 0; j--) {
 						answer[j] = num++;
 					}
 				}
 			}
-			else
-			{
-				for (int j = i; j >= 0 && answer[j] == 0; j--)
-				{
+			else {
+				for (int j = i; j >= 0 && answer[j] == 0; j--) {
 					answer[j] = num++;
 				}
 			}
@@ -59,8 +48,7 @@ public class FindPermutation
 		return answer;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		FindPermutation clazz = new FindPermutation();
 		System.out.println(Arrays.toString(clazz.findPermutation("DDDDIIIIIIDDDDDDDD")));
 		System.out.println(Arrays.toString(clazz.findPermutation("DDIIDI")));

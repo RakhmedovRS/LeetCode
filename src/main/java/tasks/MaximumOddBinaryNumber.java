@@ -13,15 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximum-odd-binary-number/",
 		difficulty = Difficulty.EASY
 )
-public class MaximumOddBinaryNumber
-{
-	public String maximumOddBinaryNumber(String s)
-	{
+public class MaximumOddBinaryNumber {
+	public String maximumOddBinaryNumber(String s) {
 		int count = 0;
-		for (char ch : s.toCharArray())
-		{
-			if ('1' == ch)
-			{
+		for (char ch : s.toCharArray()) {
+			if ('1' == ch) {
 				count++;
 			}
 		}
@@ -29,13 +25,11 @@ public class MaximumOddBinaryNumber
 		StringBuilder sb = new StringBuilder();
 		sb.append('1');
 		count--;
-		for (int i = 1; i < s.length() - count; i++)
-		{
+		for (int i = 1; i < s.length() - count; i++) {
 			sb.append('0');
 		}
 
-		while (count-- > 0)
-		{
+		while (count-- > 0) {
 			sb.append('1');
 		}
 

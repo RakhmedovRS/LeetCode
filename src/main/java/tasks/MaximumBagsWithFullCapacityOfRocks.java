@@ -15,29 +15,22 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumBagsWithFullCapacityOfRocks
-{
-	public int maximumBags(int[] capacity, int[] rocks, int additionalRocks)
-	{
+public class MaximumBagsWithFullCapacityOfRocks {
+	public int maximumBags(int[] capacity, int[] rocks, int additionalRocks) {
 		PriorityQueue<Integer> pq = new PriorityQueue<>();
-		for (int i = 0; i < capacity.length; i++)
-		{
+		for (int i = 0; i < capacity.length; i++) {
 			pq.add(capacity[i] - rocks[i]);
 		}
 
 		int count = 0;
-		while (additionalRocks > 0 && !pq.isEmpty())
-		{
+		while (additionalRocks > 0 && !pq.isEmpty()) {
 			int b = pq.remove();
-			if (b == 0)
-			{
+			if (b == 0) {
 				count++;
 			}
-			else
-			{
+			else {
 				additionalRocks -= b;
-				if (additionalRocks >= 0)
-				{
+				if (additionalRocks >= 0) {
 					count++;
 				}
 			}

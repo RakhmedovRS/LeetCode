@@ -15,21 +15,16 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/evaluate-boolean-binary-tree/",
 		difficulty = Difficulty.EASY
 )
-public class EvaluateBooleanBinaryTree
-{
-	public boolean evaluateTree(TreeNode root)
-	{
-		if (root.left == null && root.right == null)
-		{
+public class EvaluateBooleanBinaryTree {
+	public boolean evaluateTree(TreeNode root) {
+		if (root.left == null && root.right == null) {
 			return root.val == 1;
 		}
 
-		if (root.val == 2)
-		{
+		if (root.val == 2) {
 			return evaluateTree(root.left) || evaluateTree(root.right);
 		}
-		else
-		{
+		else {
 			return evaluateTree(root.left) && evaluateTree(root.right);
 		}
 	}

@@ -7,22 +7,16 @@ import common.LeetCode;
  * @created 04-Aug-20
  */
 @LeetCode(id = 1020, name = "Number of Enclaves", url = "https://leetcode.com/problems/number-of-enclaves/")
-public class NumberOfEnclaves
-{
-	public int numEnclaves(int[][] A)
-	{
+public class NumberOfEnclaves {
+	public int numEnclaves(int[][] A) {
 		int answer = 0;
 		int rows = A.length;
 		int columns = A[0].length;
-		for (int row = 1; row < rows - 1; row++)
-		{
-			for (int column = 1; column < columns - 1; column++)
-			{
-				if (A[row][column] == 1)
-				{
+		for (int row = 1; row < rows - 1; row++) {
+			for (int column = 1; column < columns - 1; column++) {
+				if (A[row][column] == 1) {
 					int[] temp = new int[]{0};
-					if (!canWalkOffBoundaries(A, row, column, rows, columns, temp))
-					{
+					if (!canWalkOffBoundaries(A, row, column, rows, columns, temp)) {
 						answer += temp[0];
 					}
 				}
@@ -32,18 +26,15 @@ public class NumberOfEnclaves
 		return answer;
 	}
 
-	private boolean canWalkOffBoundaries(int[][] A, int row, int column, int rows, int columns, int[] count)
-	{
+	private boolean canWalkOffBoundaries(int[][] A, int row, int column, int rows, int columns, int[] count) {
 		if (row < 0
 				|| row == rows
 				|| column < 0
-				|| column == columns)
-		{
+				|| column == columns) {
 			return true;
 		}
 
-		if (A[row][column] == 0)
-		{
+		if (A[row][column] == 0) {
 			return false;
 		}
 

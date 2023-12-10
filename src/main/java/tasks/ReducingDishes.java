@@ -9,23 +9,18 @@ import java.util.Arrays;
  * @created 11/3/2020
  */
 @LeetCode(id = 1402, name = "Reducing Dishes", url = "https://leetcode.com/problems/reducing-dishes/")
-public class ReducingDishes
-{
-	public int maxSatisfaction(int[] satisfaction)
-	{
+public class ReducingDishes {
+	public int maxSatisfaction(int[] satisfaction) {
 		Arrays.sort(satisfaction);
 		return dfs(0, 0, satisfaction, new Integer[satisfaction.length][satisfaction.length]);
 	}
 
-	private int dfs(int pos, int used, int[] satisfaction, Integer[][] memo)
-	{
-		if (pos == satisfaction.length)
-		{
+	private int dfs(int pos, int used, int[] satisfaction, Integer[][] memo) {
+		if (pos == satisfaction.length) {
 			return 0;
 		}
 
-		if (memo[pos][used] != null)
-		{
+		if (memo[pos][used] != null) {
 			return memo[pos][used];
 		}
 

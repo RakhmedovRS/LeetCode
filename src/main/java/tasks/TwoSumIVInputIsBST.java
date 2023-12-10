@@ -17,22 +17,17 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/",
 		difficulty = Difficulty.EASY
 )
-public class TwoSumIVInputIsBST
-{
-	public boolean findTarget(TreeNode root, int k)
-	{
+public class TwoSumIVInputIsBST {
+	public boolean findTarget(TreeNode root, int k) {
 		return dfs(root, k, new HashSet<>());
 	}
 
-	private boolean dfs(TreeNode root, int k, Set<Integer> set)
-	{
-		if (root == null)
-		{
+	private boolean dfs(TreeNode root, int k, Set<Integer> set) {
+		if (root == null) {
 			return false;
 		}
 
-		if (set.contains(k - root.val))
-		{
+		if (set.contains(k - root.val)) {
 			return true;
 		}
 

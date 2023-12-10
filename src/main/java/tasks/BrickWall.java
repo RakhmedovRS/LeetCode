@@ -18,32 +18,26 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/brick-wall/",
 		difficulty = Difficulty.MEDIUM
 )
-public class BrickWall
-{
-	public int leastBricks(List<List<Integer>> walls)
-	{
+public class BrickWall {
+	public int leastBricks(List<List<Integer>> walls) {
 		Map<Integer, Integer> memo = new HashMap<>();
-		for (List<Integer> wall : walls)
-		{
+		for (List<Integer> wall : walls) {
 			int pos = 0;
-			for (int i = 0; i < wall.size() - 1; i++)
-			{
+			for (int i = 0; i < wall.size() - 1; i++) {
 				pos += wall.get(i);
 				memo.put(pos, memo.getOrDefault(pos, 0) + 1);
 			}
 		}
 
 		int min = walls.size();
-		for (Map.Entry<Integer, Integer> entry : memo.entrySet())
-		{
+		for (Map.Entry<Integer, Integer> entry : memo.entrySet()) {
 			min = Math.min(min, walls.size() - entry.getValue());
 		}
 
 		return min;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		BrickWall clazz = new BrickWall();
 		System.out.println(clazz.leastBricks(Arrays.asList(
 				Arrays.asList(1, 2, 2, 1),

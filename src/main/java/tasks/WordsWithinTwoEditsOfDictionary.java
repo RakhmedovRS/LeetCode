@@ -16,32 +16,25 @@ import java.util.List;
 		url = "https://leetcode.com/problems/words-within-two-edits-of-dictionary/",
 		difficulty = Difficulty.MEDIUM
 )
-public class WordsWithinTwoEditsOfDictionary
-{
-	class Node
-	{
+public class WordsWithinTwoEditsOfDictionary {
+	class Node {
 		Node[] children = new Node[26];
 		int end;
 	}
 
-	class Trie
-	{
-		private Node root;
+	class Trie {
+		private final Node root;
 
-		public Trie()
-		{
+		public Trie() {
 			root = new Node();
 		}
 
-		public void insert(String word)
-		{
+		public void insert(String word) {
 			Node current = root;
 			int pos;
-			for (char ch : word.toCharArray())
-			{
+			for (char ch : word.toCharArray()) {
 				pos = ch - 'a';
-				if (current.children[pos] == null)
-				{
+				if (current.children[pos] == null) {
 					current.children[pos] = new Node();
 				}
 
@@ -51,33 +44,24 @@ public class WordsWithinTwoEditsOfDictionary
 			current.end++;
 		}
 
-		public boolean find(Node node, char[] word, int pos, int mismatches)
-		{
-			if (mismatches > 2 || node == null)
-			{
+		public boolean find(Node node, char[] word, int pos, int mismatches) {
+			if (mismatches > 2 || node == null) {
 				return false;
 			}
 
-			if (pos == word.length)
-			{
+			if (pos == word.length) {
 				return true;
 			}
 
-			for (int i = 0; i < node.children.length; i++)
-			{
-				if (node.children[i] != null)
-				{
-					if (i == word[pos] - 'a')
-					{
-						if (find(node.children[i], word, pos + 1, mismatches))
-						{
+			for (int i = 0; i < node.children.length; i++) {
+				if (node.children[i] != null) {
+					if (i == word[pos] - 'a') {
+						if (find(node.children[i], word, pos + 1, mismatches)) {
 							return true;
 						}
 					}
-					else
-					{
-						if (find(node.children[i], word, pos + 1, mismatches + 1))
-						{
+					else {
+						if (find(node.children[i], word, pos + 1, mismatches + 1)) {
 							return true;
 						}
 					}
@@ -88,19 +72,15 @@ public class WordsWithinTwoEditsOfDictionary
 		}
 	}
 
-	public List<String> twoEditWords(String[] queries, String[] dictionary)
-	{
+	public List<String> twoEditWords(String[] queries, String[] dictionary) {
 		Trie root = new Trie();
-		for (String word : dictionary)
-		{
+		for (String word : dictionary) {
 			root.insert(word);
 		}
 
 		List<String> answer = new ArrayList<>();
-		for (String query : queries)
-		{
-			if (root.find(root.root, query.toCharArray(), 0, 0))
-			{
+		for (String query : queries) {
+			if (root.find(root.root, query.toCharArray(), 0, 0)) {
 				answer.add(query);
 			}
 		}

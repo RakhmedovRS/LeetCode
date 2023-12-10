@@ -17,12 +17,9 @@ import java.util.*;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class BinaryTreeVerticalOrderTraversal
-{
-	public List<List<Integer>> verticalOrder(TreeNode root)
-	{
-		if (root == null)
-		{
+public class BinaryTreeVerticalOrderTraversal {
+	public List<List<Integer>> verticalOrder(TreeNode root) {
+		if (root == null) {
 			return Collections.emptyList();
 		}
 		TreeMap<Integer, List<Integer>> treeMap = new TreeMap<>();
@@ -32,24 +29,20 @@ public class BinaryTreeVerticalOrderTraversal
 		Map.Entry<Integer, TreeNode> current;
 		TreeNode node;
 		int balance;
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			size = queue.size();
-			while (size-- > 0)
-			{
+			while (size-- > 0) {
 				current = queue.remove();
 				balance = current.getKey();
 				node = current.getValue();
 				treeMap.putIfAbsent(balance, new ArrayList<>());
 				treeMap.get(current.getKey()).add(node.val);
 
-				if (node.left != null)
-				{
+				if (node.left != null) {
 					queue.add(new java.util.AbstractMap.SimpleEntry<>(balance - 1, node.left));
 				}
 
-				if (node.right != null)
-				{
+				if (node.right != null) {
 					queue.add(new java.util.AbstractMap.SimpleEntry<>(balance + 1, node.right));
 				}
 			}

@@ -13,26 +13,20 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/remove-outermost-parentheses/",
 		difficulty = Difficulty.EASY
 )
-public class RemoveOutermostParentheses
-{
-	public String removeOuterParentheses(String S)
-	{
+public class RemoveOutermostParentheses {
+	public String removeOuterParentheses(String S) {
 		int balance = 0;
 		int i = 0;
 		StringBuilder sb = new StringBuilder();
-		for (int j = 0; j < S.length(); j++)
-		{
-			if (S.charAt(j) == '(')
-			{
+		for (int j = 0; j < S.length(); j++) {
+			if (S.charAt(j) == '(') {
 				balance++;
 			}
-			else
-			{
+			else {
 				balance--;
 			}
 
-			if (balance == 0)
-			{
+			if (balance == 0) {
 				sb.append(S, i + 1, j);
 				i = j + 1;
 			}
@@ -41,8 +35,7 @@ public class RemoveOutermostParentheses
 		return sb.toString();
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new RemoveOutermostParentheses().removeOuterParentheses("()()"));
 		System.out.println(new RemoveOutermostParentheses().removeOuterParentheses("(()())(())(()(()))"));
 		System.out.println(new RemoveOutermostParentheses().removeOuterParentheses("(()())(())"));

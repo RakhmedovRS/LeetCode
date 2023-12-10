@@ -19,21 +19,16 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/find-bottom-left-tree-value/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FindBottomLeftTreeValue
-{
-	public int findBottomLeftValue(TreeNode root)
-	{
+public class FindBottomLeftTreeValue {
+	public int findBottomLeftValue(TreeNode root) {
 		int answer = root.val;
 		Map<Integer, List<Integer>> levels = new HashMap<>();
 		findBottomLeftValue(root, 1, levels);
 		int level = 1;
-		while (levels.containsKey(level))
-		{
+		while (levels.containsKey(level)) {
 			List<Integer> list = levels.get(level++);
-			for (Integer entry : list)
-			{
-				if (entry != null)
-				{
+			for (Integer entry : list) {
+				if (entry != null) {
 					answer = entry;
 					break;
 				}
@@ -43,10 +38,8 @@ public class FindBottomLeftTreeValue
 		return answer;
 	}
 
-	public void findBottomLeftValue(TreeNode root, int level, Map<Integer, List<Integer>> levels)
-	{
-		if (root == null)
-		{
+	public void findBottomLeftValue(TreeNode root, int level, Map<Integer, List<Integer>> levels) {
+		if (root == null) {
 			return;
 		}
 

@@ -20,38 +20,30 @@ import java.util.Queue;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class FindAllTheLonelyNodes
-{
-	public List<Integer> getLonelyNodes(TreeNode root)
-	{
+public class FindAllTheLonelyNodes {
+	public List<Integer> getLonelyNodes(TreeNode root) {
 		List<Integer> answer = new ArrayList<>();
-		if (root == null)
-		{
+		if (root == null) {
 			return answer;
 		}
 		Queue<TreeNode> queue = new LinkedList<>();
 		queue.add(root);
 
 		TreeNode current;
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			current = queue.remove();
-			if (current.left == null && current.right != null)
-			{
+			if (current.left == null && current.right != null) {
 				answer.add(current.right.val);
 			}
-			else if (current.right == null && current.left != null)
-			{
+			else if (current.right == null && current.left != null) {
 				answer.add(current.left.val);
 			}
 
-			if (current.left != null)
-			{
+			if (current.left != null) {
 				queue.add(current.left);
 			}
 
-			if (current.right != null)
-			{
+			if (current.right != null) {
 				queue.add(current.right);
 			}
 

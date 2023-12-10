@@ -13,14 +13,11 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/",
 		difficulty = Difficulty.EASY
 )
-public class MinimumValueoToGetPositiveStepByStepSum
-{
-	public int minStartValue(int[] nums)
-	{
+public class MinimumValueoToGetPositiveStepByStepSum {
+	public int minStartValue(int[] nums) {
 		int sum = 0;
 		int min = Integer.MAX_VALUE;
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			sum += num;
 			min = Math.min(min, sum);
 		}

@@ -16,20 +16,16 @@ import java.util.LinkedList;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class DesignPhoneDirectory
-{
-	class PhoneDirectory
-	{
+public class DesignPhoneDirectory {
+	class PhoneDirectory {
 
 		boolean[] used;
 		LinkedList<Integer> free;
 
-		public PhoneDirectory(int maxNumbers)
-		{
+		public PhoneDirectory(int maxNumbers) {
 			used = new boolean[10_001];
 			free = new LinkedList<>();
-			for (int i = 0; i < maxNumbers; i++)
-			{
+			for (int i = 0; i < maxNumbers; i++) {
 				free.add(i);
 			}
 		}
@@ -39,10 +35,8 @@ public class DesignPhoneDirectory
 		 *
 		 * @return - Return an available number. Return -1 if none is available.
 		 */
-		public int get()
-		{
-			if (free.isEmpty())
-			{
+		public int get() {
+			if (free.isEmpty()) {
 				return -1;
 			}
 
@@ -54,18 +48,15 @@ public class DesignPhoneDirectory
 		/**
 		 * Check if a number is available or not.
 		 */
-		public boolean check(int number)
-		{
+		public boolean check(int number) {
 			return !used[number];
 		}
 
 		/**
 		 * Recycle or release a number.
 		 */
-		public void release(int number)
-		{
-			if (used[number])
-			{
+		public void release(int number) {
+			if (used[number]) {
 				used[number] = false;
 				free.addFirst(number);
 			}

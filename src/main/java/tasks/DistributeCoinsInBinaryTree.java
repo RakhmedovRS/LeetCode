@@ -14,19 +14,15 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/distribute-coins-in-binary-tree/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DistributeCoinsInBinaryTree
-{
-	public int distributeCoins(TreeNode root)
-	{
+public class DistributeCoinsInBinaryTree {
+	public int distributeCoins(TreeNode root) {
 		int[] answer = new int[]{0};
 		dfs(root, answer);
 		return answer[0];
 	}
 
-	private int dfs(TreeNode root, int[] answer)
-	{
-		if (root == null)
-		{
+	private int dfs(TreeNode root, int[] answer) {
+		if (root == null) {
 			return 0;
 		}
 
@@ -37,8 +33,7 @@ public class DistributeCoinsInBinaryTree
 		return root.val + left + right - 1;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		TreeNode root = new TreeNode(1);
 		root.left = new TreeNode(0);
 		root.right = new TreeNode(0);

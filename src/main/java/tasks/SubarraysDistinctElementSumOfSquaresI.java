@@ -17,16 +17,12 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/",
 		difficulty = Difficulty.EASY
 )
-public class SubarraysDistinctElementSumOfSquaresI
-{
-	public int sumCounts(List<Integer> nums)
-	{
+public class SubarraysDistinctElementSumOfSquaresI {
+	public int sumCounts(List<Integer> nums) {
 		int res = 0;
-		for (int i = 0; i < nums.size(); i++)
-		{
+		for (int i = 0; i < nums.size(); i++) {
 			Set<Integer> set = new HashSet<>();
-			for (int j = i; j < nums.size(); j++)
-			{
+			for (int j = i; j < nums.size(); j++) {
 				set.add(nums.get(j));
 				res += set.size() * set.size();
 			}

@@ -16,50 +16,39 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/can-i-win/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CanIWin
-{
-	public boolean canIWin(int maxChoosableInteger, int desiredTotal)
-	{
-		if (maxChoosableInteger >= desiredTotal)
-		{
+public class CanIWin {
+	public boolean canIWin(int maxChoosableInteger, int desiredTotal) {
+		if (maxChoosableInteger >= desiredTotal) {
 			return true;
 		}
 
-		if (possibleMax(maxChoosableInteger) < desiredTotal)
-		{
+		if (possibleMax(maxChoosableInteger) < desiredTotal) {
 			return false;
 		}
 
 		return dfs(1 << maxChoosableInteger + 2, maxChoosableInteger, desiredTotal, new HashMap<>());
 	}
 
-	private boolean dfs(int used, int maxChoosableInteger, int desiredTotal, Map<Integer, Boolean> memo)
-	{
-		if (desiredTotal <= 0)
-		{
+	private boolean dfs(int used, int maxChoosableInteger, int desiredTotal, Map<Integer, Boolean> memo) {
+		if (desiredTotal <= 0) {
 			return false;
 		}
 
-		if (memo.containsKey(used))
-		{
+		if (memo.containsKey(used)) {
 			return memo.get(used);
 		}
 
 		boolean canWin = false;
-		for (int i = maxChoosableInteger; i > 0; i--)
-		{
-			if ((used & (1 << i)) == 0)
-			{
+		for (int i = maxChoosableInteger; i > 0; i--) {
+			if ((used & (1 << i)) == 0) {
 				used ^= (1 << i);
-				if (!dfs(used, maxChoosableInteger, desiredTotal - i, memo))
-				{
+				if (!dfs(used, maxChoosableInteger, desiredTotal - i, memo)) {
 					canWin = true;
 				}
 
 				used ^= (1 << i);
 
-				if (canWin)
-				{
+				if (canWin) {
 					break;
 				}
 			}
@@ -70,11 +59,9 @@ public class CanIWin
 		return canWin;
 	}
 
-	private int possibleMax(int maxChoosableInteger)
-	{
+	private int possibleMax(int maxChoosableInteger) {
 		int sum = 0;
-		for (int i = 1; i <= maxChoosableInteger; i++)
-		{
+		for (int i = 1; i <= maxChoosableInteger; i++) {
 			sum += i;
 		}
 

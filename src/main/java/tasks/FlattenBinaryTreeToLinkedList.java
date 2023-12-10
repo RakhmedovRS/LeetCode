@@ -14,17 +14,13 @@ import common.TreeNode;
 		url = "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
 		difficulty = Difficulty.MEDIUM
 )
-public class FlattenBinaryTreeToLinkedList
-{
-	public void flatten(TreeNode root)
-	{
+public class FlattenBinaryTreeToLinkedList {
+	public void flatten(TreeNode root) {
 		dfs(root);
 	}
 
-	public TreeNode dfs(TreeNode root)
-	{
-		if (root == null)
-		{
+	public TreeNode dfs(TreeNode root) {
+		if (root == null) {
 			return null;
 		}
 
@@ -36,8 +32,7 @@ public class FlattenBinaryTreeToLinkedList
 		root.right = leftList;
 
 		TreeNode end = root;
-		while (end.right != null)
-		{
+		while (end.right != null) {
 			end = end.right;
 		}
 

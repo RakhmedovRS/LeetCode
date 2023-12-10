@@ -12,78 +12,61 @@ import java.util.List;
  * @created 14-Sep-20
  */
 @LeetCode(id = 385, name = "Mini Parser", url = "https://leetcode.com/problems/mini-parser/")
-public class MiniParser
-{
-	class NestedInteger
-	{
+public class MiniParser {
+	class NestedInteger {
 		private List<NestedInteger> list;
 		private Integer integer;
 
-		public NestedInteger(List<NestedInteger> list)
-		{
+		public NestedInteger(List<NestedInteger> list) {
 			this.list = list;
 		}
 
-		public void add(NestedInteger nestedInteger)
-		{
-			if (this.list != null)
-			{
+		public void add(NestedInteger nestedInteger) {
+			if (this.list != null) {
 				this.list.add(nestedInteger);
 			}
-			else
-			{
+			else {
 				this.list = new ArrayList<>();
 				this.list.add(nestedInteger);
 			}
 		}
 
-		public void setInteger(int num)
-		{
+		public void setInteger(int num) {
 			this.integer = num;
 		}
 
-		public NestedInteger(Integer integer)
-		{
+		public NestedInteger(Integer integer) {
 			this.integer = integer;
 		}
 
-		public NestedInteger()
-		{
+		public NestedInteger() {
 			this.list = new ArrayList<>();
 		}
 
-		public boolean isInteger()
-		{
+		public boolean isInteger() {
 			return integer != null;
 		}
 
-		public Integer getInteger()
-		{
+		public Integer getInteger() {
 			return integer;
 		}
 
-		public List<NestedInteger> getList()
-		{
+		public List<NestedInteger> getList() {
 			return list;
 		}
 
-		public String printNi(NestedInteger thisNi, StringBuilder sb)
-		{
-			if (thisNi.isInteger())
-			{
+		public String printNi(NestedInteger thisNi, StringBuilder sb) {
+			if (thisNi.isInteger()) {
 				sb.append(thisNi.integer);
 				sb.append(",");
 			}
 			sb.append("[");
-			for (NestedInteger ni : thisNi.list)
-			{
-				if (ni.isInteger())
-				{
+			for (NestedInteger ni : thisNi.list) {
+				if (ni.isInteger()) {
 					sb.append(ni.integer);
 					sb.append(",");
 				}
-				else
-				{
+				else {
 					printNi(ni, sb);
 				}
 			}
@@ -92,15 +75,12 @@ public class MiniParser
 		}
 	}
 
-	public NestedInteger deserialize(String s)
-	{
-		if (s.isEmpty())
-		{
+	public NestedInteger deserialize(String s) {
+		if (s.isEmpty()) {
 			return null;
 		}
 
-		if (s.charAt(0) != '[')
-		{
+		if (s.charAt(0) != '[') {
 			return new NestedInteger(Integer.parseInt(s));
 		}
 
@@ -108,29 +88,23 @@ public class MiniParser
 		Deque<NestedInteger> stack = new LinkedList<>();
 
 		int left = 0;
-		for (int right = 0; right < s.length(); right++)
-		{
+		for (int right = 0; right < s.length(); right++) {
 			char ch = s.charAt(right);
-			if (ch == '[')
-			{
-				if (current != null)
-				{
+			if (ch == '[') {
+				if (current != null) {
 					stack.push(current);
 				}
 
 				current = new NestedInteger();
 				left = right + 1;
 			}
-			else if (ch == ']')
-			{
+			else if (ch == ']') {
 				String sub = s.substring(left, right);
-				if (!sub.isEmpty())
-				{
+				if (!sub.isEmpty()) {
 					current.add(new NestedInteger(Integer.parseInt(sub)));
 				}
 
-				if (!stack.isEmpty())
-				{
+				if (!stack.isEmpty()) {
 					NestedInteger prev = stack.pop();
 					prev.add(current);
 					current = prev;
@@ -138,10 +112,8 @@ public class MiniParser
 
 				left = right + 1;
 			}
-			else if (ch == ',')
-			{
-				if (s.charAt(right - 1) != ']')
-				{
+			else if (ch == ',') {
+				if (s.charAt(right - 1) != ']') {
 					String sub = s.substring(left, right);
 					current.add(new NestedInteger(Integer.parseInt(sub)));
 				}

@@ -13,30 +13,23 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/",
 		difficulty = Difficulty.HARD
 )
-public class MinimumDifficultyOfJobSchedule
-{
-	public int minDifficulty(int[] jobDifficulty, int d)
-	{
-		if (jobDifficulty.length < d)
-		{
+public class MinimumDifficultyOfJobSchedule {
+	public int minDifficulty(int[] jobDifficulty, int d) {
+		if (jobDifficulty.length < d) {
 			return -1;
 		}
 		Integer[][] memo = new Integer[jobDifficulty.length][d + 1];
 		return dfs(0, d, jobDifficulty, memo);
 	}
 
-	private int dfs(int pos, int d, int[] jobDifficulty, Integer[][] memo)
-	{
-		if (pos == jobDifficulty.length)
-		{
+	private int dfs(int pos, int d, int[] jobDifficulty, Integer[][] memo) {
+		if (pos == jobDifficulty.length) {
 			return 0;
 		}
 
-		if (d == 1)
-		{
+		if (d == 1) {
 			int max = 0;
-			for (int i = pos; i < jobDifficulty.length; i++)
-			{
+			for (int i = pos; i < jobDifficulty.length; i++) {
 				max = Math.max(max, jobDifficulty[i]);
 			}
 
@@ -44,15 +37,13 @@ public class MinimumDifficultyOfJobSchedule
 			return max;
 		}
 
-		if (memo[pos][d] != null)
-		{
+		if (memo[pos][d] != null) {
 			return memo[pos][d];
 		}
 
 		int max = Integer.MIN_VALUE;
 		int min = Integer.MAX_VALUE;
-		for (int i = pos; i <= jobDifficulty.length - d; i++)
-		{
+		for (int i = pos; i <= jobDifficulty.length - d; i++) {
 			max = Math.max(max, jobDifficulty[i]);
 			min = Math.min(min, max + dfs(i + 1, d - 1, jobDifficulty, memo));
 		}

@@ -13,33 +13,25 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/merge-strings-alternately/",
 		difficulty = Difficulty.EASY
 )
-public class MergeStringsAlternately
-{
-	public String mergeAlternately(String word1, String word2)
-	{
+public class MergeStringsAlternately {
+	public String mergeAlternately(String word1, String word2) {
 		StringBuilder sb = new StringBuilder();
 		int i = 0;
 		int j = 0;
 		boolean first = true;
-		while (i < word1.length() || j < word2.length())
-		{
-			if (i < word1.length() && j < word2.length())
-			{
-				if (first)
-				{
+		while (i < word1.length() || j < word2.length()) {
+			if (i < word1.length() && j < word2.length()) {
+				if (first) {
 					sb.append(word1.charAt(i++));
 				}
-				else
-				{
+				else {
 					sb.append(word2.charAt(j++));
 				}
 			}
-			else if (i < word1.length())
-			{
+			else if (i < word1.length()) {
 				sb.append(word1.charAt(i++));
 			}
-			else
-			{
+			else {
 				sb.append(word2.charAt(j++));
 			}
 			first = !first;
@@ -48,8 +40,7 @@ public class MergeStringsAlternately
 		return sb.toString();
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		MergeStringsAlternately clazz = new MergeStringsAlternately();
 		System.out.println(clazz.mergeAlternately("abcd", "pq"));
 		System.out.println(clazz.mergeAlternately("abcd", ""));

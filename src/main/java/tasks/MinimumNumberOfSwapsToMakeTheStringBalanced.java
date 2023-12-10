@@ -15,29 +15,22 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumNumberOfSwapsToMakeTheStringBalanced
-{
-	public int minSwaps(String s)
-	{
+public class MinimumNumberOfSwapsToMakeTheStringBalanced {
+	public int minSwaps(String s) {
 		LinkedList<Character> characters = new LinkedList<>();
-		for (char ch : s.toCharArray())
-		{
-			if (ch == '[')
-			{
+		for (char ch : s.toCharArray()) {
+			if (ch == '[') {
 				characters.addLast(ch);
 			}
-			else if (ch == ']' && !characters.isEmpty() && characters.getLast() == '[')
-			{
+			else if (ch == ']' && !characters.isEmpty() && characters.getLast() == '[') {
 				characters.removeLast();
 			}
 		}
 
-		if (characters.size() % 2 == 0)
-		{
+		if (characters.size() % 2 == 0) {
 			return characters.size() / 2;
 		}
-		else
-		{
+		else {
 			return (characters.size() + 1) / 2;
 		}
 	}

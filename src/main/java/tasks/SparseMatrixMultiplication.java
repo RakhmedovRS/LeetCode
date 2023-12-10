@@ -14,10 +14,8 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class SparseMatrixMultiplication
-{
-	public int[][] multiply(int[][] A, int[][] B)
-	{
+public class SparseMatrixMultiplication {
+	public int[][] multiply(int[][] A, int[][] B) {
 		int rowsA = A.length;
 		int columnsA = A[0].length;
 		int rowsB = B.length;
@@ -25,13 +23,10 @@ public class SparseMatrixMultiplication
 
 		int[][] answer = new int[rowsA][columnsB];
 		int sum;
-		for (int row = 0; row < rowsA; row++)
-		{
-			for (int column = 0; column < columnsB; column++)
-			{
+		for (int row = 0; row < rowsA; row++) {
+			for (int column = 0; column < columnsB; column++) {
 				sum = 0;
-				for (int j = 0; j < columnsA; j++)
-				{
+				for (int j = 0; j < columnsA; j++) {
 					sum += A[row][j] * B[j][column];
 				}
 				answer[row][column] = sum;

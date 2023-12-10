@@ -14,19 +14,15 @@ import common.LeetCode;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class SumOfDigitsInTheMinimumNumber
-{
-	public int sumOfDigits(int[] A)
-	{
+public class SumOfDigitsInTheMinimumNumber {
+	public int sumOfDigits(int[] A) {
 		int min = Integer.MAX_VALUE;
 		int sum = 0;
-		for (int num : A)
-		{
+		for (int num : A) {
 			min = Math.min(min, num);
 		}
 
-		while (min > 0)
-		{
+		while (min > 0) {
 			sum += min % 10;
 			min /= 10;
 		}

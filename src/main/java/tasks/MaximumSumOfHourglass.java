@@ -13,17 +13,13 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximum-sum-of-an-hourglass/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumSumOfHourglass
-{
-	public int maxSum(int[][] grid)
-	{
+public class MaximumSumOfHourglass {
+	public int maxSum(int[][] grid) {
 		int rows = grid.length;
 		int columns = grid[0].length;
 		int max = 0;
-		for (int row = 1; row < rows - 1; row++)
-		{
-			for (int column = 1; column < columns - 1; column++)
-			{
+		for (int row = 1; row < rows - 1; row++) {
+			for (int column = 1; column < columns - 1; column++) {
 				int a = grid[row - 1][column - 1];
 				int b = grid[row - 1][column];
 				int c = grid[row - 1][column + 1];

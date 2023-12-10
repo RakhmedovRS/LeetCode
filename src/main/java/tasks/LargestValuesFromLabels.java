@@ -18,13 +18,10 @@ import java.util.PriorityQueue;
 		url = "https://leetcode.com/problems/largest-values-from-labels/",
 		difficulty = Difficulty.MEDIUM
 )
-public class LargestValuesFromLabels
-{
-	public int largestValsFromLabels(int[] values, int[] labels, int num_wanted, int use_limit)
-	{
+public class LargestValuesFromLabels {
+	public int largestValsFromLabels(int[] values, int[] labels, int num_wanted, int use_limit) {
 		Map<Integer, PriorityQueue<Integer>> labelsToValues = new HashMap<>();
-		for (int i = 0; i < values.length; i++)
-		{
+		for (int i = 0; i < values.length; i++) {
 			labelsToValues.putIfAbsent(labels[i], new PriorityQueue<>(Comparator.reverseOrder()));
 			labelsToValues.get(labels[i]).add(values[i]);
 		}
@@ -36,15 +33,13 @@ public class LargestValuesFromLabels
 		int[] labelsUsed = new int[20_001];
 		int label;
 		PriorityQueue<Integer> pq;
-		while (num_wanted-- > 0 && !sortedLabels.isEmpty())
-		{
+		while (num_wanted-- > 0 && !sortedLabels.isEmpty()) {
 			label = sortedLabels.remove();
 			pq = labelsToValues.remove(label);
 			sum += pq.remove();
 			labelsUsed[label]++;
 
-			if (!pq.isEmpty() && labelsUsed[label] < use_limit)
-			{
+			if (!pq.isEmpty() && labelsUsed[label] < use_limit) {
 				labelsToValues.put(label, pq);
 				sortedLabels.add(label);
 			}

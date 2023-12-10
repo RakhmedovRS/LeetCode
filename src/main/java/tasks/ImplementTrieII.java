@@ -14,33 +14,26 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class ImplementTrieII
-{
-	class Node
-	{
+public class ImplementTrieII {
+	class Node {
 		Node[] children = new Node[26];
 		int count;
 		int end;
 	}
 
-	class Trie
-	{
-		private Node root;
+	class Trie {
+		private final Node root;
 
-		public Trie()
-		{
+		public Trie() {
 			root = new Node();
 		}
 
-		public void insert(String word)
-		{
+		public void insert(String word) {
 			Node current = root;
 			int pos;
-			for (char ch : word.toCharArray())
-			{
+			for (char ch : word.toCharArray()) {
 				pos = ch - 'a';
-				if (current.children[pos] == null)
-				{
+				if (current.children[pos] == null) {
 					current.children[pos] = new Node();
 				}
 
@@ -51,15 +44,12 @@ public class ImplementTrieII
 			current.end++;
 		}
 
-		public int countWordsEqualTo(String word)
-		{
+		public int countWordsEqualTo(String word) {
 			Node current = root;
 			int pos;
-			for (char ch : word.toCharArray())
-			{
+			for (char ch : word.toCharArray()) {
 				pos = ch - 'a';
-				if (current.children[pos] == null)
-				{
+				if (current.children[pos] == null) {
 					return 0;
 				}
 
@@ -69,15 +59,12 @@ public class ImplementTrieII
 			return current.end;
 		}
 
-		public int countWordsStartingWith(String prefix)
-		{
+		public int countWordsStartingWith(String prefix) {
 			Node current = root;
 			int pos;
-			for (char ch : prefix.toCharArray())
-			{
+			for (char ch : prefix.toCharArray()) {
 				pos = ch - 'a';
-				if (current.children[pos] == null)
-				{
+				if (current.children[pos] == null) {
 					return 0;
 				}
 
@@ -87,12 +74,10 @@ public class ImplementTrieII
 			return current.count;
 		}
 
-		public void erase(String word)
-		{
+		public void erase(String word) {
 			Node current = root;
 			int pos;
-			for (char ch : word.toCharArray())
-			{
+			for (char ch : word.toCharArray()) {
 				pos = ch - 'a';
 				current = current.children[pos];
 				current.count--;

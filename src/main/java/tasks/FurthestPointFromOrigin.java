@@ -13,31 +13,24 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/furthest-point-from-origin/",
 		difficulty = Difficulty.EASY
 )
-public class FurthestPointFromOrigin
-{
+public class FurthestPointFromOrigin {
 	public int furthestDistanceFromOrigin(String moves) {
 		int pos1 = 0;
 		int pos2 = 0;
-		for (char ch: moves.toCharArray())
-		{
-			if (ch == 'L' || ch == '_')
-			{
+		for (char ch : moves.toCharArray()) {
+			if (ch == 'L' || ch == '_') {
 				pos1--;
 			}
-			else
-			{
+			else {
 				pos1++;
 			}
 		}
 
-		for (char ch: moves.toCharArray())
-		{
-			if (ch == 'R' || ch == '_')
-			{
+		for (char ch : moves.toCharArray()) {
+			if (ch == 'R' || ch == '_') {
 				pos2++;
 			}
-			else
-			{
+			else {
 				pos2--;
 			}
 		}

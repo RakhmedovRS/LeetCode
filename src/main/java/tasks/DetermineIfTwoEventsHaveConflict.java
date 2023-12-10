@@ -13,10 +13,8 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/determine-if-two-events-have-conflict/",
 		difficulty = Difficulty.EASY
 )
-public class DetermineIfTwoEventsHaveConflict
-{
-	public boolean haveConflict(String[] event1, String[] event2)
-	{
+public class DetermineIfTwoEventsHaveConflict {
+	public boolean haveConflict(String[] event1, String[] event2) {
 		boolean[] seen = new boolean[24 * 60 * 60 + 1];
 
 		String[] ev1S = event1[0].split(":");
@@ -25,8 +23,7 @@ public class DetermineIfTwoEventsHaveConflict
 		int ev1s = Integer.parseInt(ev1S[0]) * 60 + Integer.parseInt(ev1S[1]);
 		int ev1e = Integer.parseInt(ev1E[0]) * 60 + Integer.parseInt(ev1E[1]);
 
-		for (int i = ev1s; i <= ev1e; i++)
-		{
+		for (int i = ev1s; i <= ev1e; i++) {
 			seen[i] = true;
 		}
 
@@ -36,10 +33,8 @@ public class DetermineIfTwoEventsHaveConflict
 		int ev2s = Integer.parseInt(ev2S[0]) * 60 + Integer.parseInt(ev2S[1]);
 		int ev2e = Integer.parseInt(ev2E[0]) * 60 + Integer.parseInt(ev2E[1]);
 
-		for (int i = ev2s; i <= ev2e; i++)
-		{
-			if (seen[i])
-			{
+		for (int i = ev2s; i <= ev2e; i++) {
+			if (seen[i]) {
 				return true;
 			}
 		}

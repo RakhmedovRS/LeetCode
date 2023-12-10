@@ -18,13 +18,10 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/rings-and-rods/",
 		difficulty = Difficulty.EASY
 )
-public class RingsAndRods
-{
-	public int countPoints(String rings)
-	{
+public class RingsAndRods {
+	public int countPoints(String rings) {
 		Map<Integer, Set<Character>> map = new HashMap<>();
-		for (int i = 0; i < rings.length(); i += 2)
-		{
+		for (int i = 0; i < rings.length(); i += 2) {
 			char color = rings.charAt(i);
 			int rod = rings.charAt(i + 1) - '0';
 
@@ -33,10 +30,8 @@ public class RingsAndRods
 		}
 
 		int count = 0;
-		for (Map.Entry<Integer, Set<Character>> entry : map.entrySet())
-		{
-			if (entry.getValue().size() == 3)
-			{
+		for (Map.Entry<Integer, Set<Character>> entry : map.entrySet()) {
+			if (entry.getValue().size() == 3) {
 				count++;
 			}
 		}

@@ -13,16 +13,12 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/distribute-candies-among-children-ii/description/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DistributeCandiesAmongChildrenII
-{
-	public long distributeCandies(int n, int limit)
-	{
+public class DistributeCandiesAmongChildrenII {
+	public long distributeCandies(int n, int limit) {
 		long ans = 0;
-		for (int i = 0; i <= Math.min(n, limit); i++)
-		{
+		for (int i = 0; i <= Math.min(n, limit); i++) {
 			int toDistribute = n - i;
-			if (toDistribute > limit * 2)
-			{
+			if (toDistribute > limit * 2) {
 				continue;
 			}
 

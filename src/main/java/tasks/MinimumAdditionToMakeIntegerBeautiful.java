@@ -15,22 +15,18 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/minimum-addition-to-make-integer-beautiful/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumAdditionToMakeIntegerBeautiful
-{
-	public long makeIntegerBeautiful(long n, int target)
-	{
+public class MinimumAdditionToMakeIntegerBeautiful {
+	public long makeIntegerBeautiful(long n, int target) {
 		int sum = sum(n);
 		LinkedList<Long> list = new LinkedList<>();
-		while (n > 0)
-		{
+		while (n > 0) {
 			list.addFirst(n % 10);
 			n /= 10;
 		}
 
 		LinkedList<Long> vals = new LinkedList<>();
 		int rem = 0;
-		while (sum > target)
-		{
+		while (sum > target) {
 			long v = list.removeLast() + rem;
 			rem = 0;
 			sum -= v;
@@ -40,8 +36,7 @@ public class MinimumAdditionToMakeIntegerBeautiful
 		}
 
 		long answer = 0;
-		while (!vals.isEmpty())
-		{
+		while (!vals.isEmpty()) {
 			answer *= 10;
 			answer += vals.removeLast();
 		}
@@ -49,11 +44,9 @@ public class MinimumAdditionToMakeIntegerBeautiful
 		return answer;
 	}
 
-	public int sum(long n)
-	{
+	public int sum(long n) {
 		int sum = 0;
-		while (n > 0)
-		{
+		while (n > 0) {
 			sum += n % 10;
 			n /= 10;
 		}

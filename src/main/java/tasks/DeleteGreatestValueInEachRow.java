@@ -15,21 +15,16 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/delete-greatest-value-in-each-row/",
 		difficulty = Difficulty.EASY
 )
-public class DeleteGreatestValueInEachRow
-{
-	public int deleteGreatestValue(int[][] grid)
-	{
+public class DeleteGreatestValueInEachRow {
+	public int deleteGreatestValue(int[][] grid) {
 		int res = 0;
-		for (int[] row : grid)
-		{
+		for (int[] row : grid) {
 			Arrays.sort(row);
 		}
 
-		for (int column = grid[0].length - 1; column >= 0; column--)
-		{
+		for (int column = grid[0].length - 1; column >= 0; column--) {
 			int max = 0;
-			for (int row = 0; row < grid.length; row++)
-			{
+			for (int row = 0; row < grid.length; row++) {
 				max = Math.max(max, grid[row][column]);
 			}
 

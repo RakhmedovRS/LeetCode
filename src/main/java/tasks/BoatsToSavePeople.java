@@ -15,19 +15,15 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/boats-to-save-people/",
 		difficulty = Difficulty.MEDIUM
 )
-public class BoatsToSavePeople
-{
-	public int numRescueBoats(int[] people, int limit)
-	{
+public class BoatsToSavePeople {
+	public int numRescueBoats(int[] people, int limit) {
 		Arrays.sort(people);
 		int count = 0;
 		int left = 0;
 		int right = people.length - 1;
-		while (left <= right)
-		{
+		while (left <= right) {
 			count++;
-			if (people[left] + people[right] <= limit)
-			{
+			if (people[left] + people[right] <= limit) {
 				left++;
 			}
 			right--;

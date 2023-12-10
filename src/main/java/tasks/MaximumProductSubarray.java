@@ -13,13 +13,10 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/maximum-product-subarray/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumProductSubarray
-{
-	public int maxProduct(int[] nums)
-	{
+public class MaximumProductSubarray {
+	public int maxProduct(int[] nums) {
 		int maxProduct = 0;
-		if (nums == null || nums.length == 0)
-		{
+		if (nums == null || nums.length == 0) {
 			return maxProduct;
 		}
 
@@ -31,8 +28,7 @@ public class MaximumProductSubarray
 		positives[0] = nums[0];
 		negatives[0] = nums[0];
 		maxProduct = nums[0];
-		for (int i = 1; i < nums.length; i++)
-		{
+		for (int i = 1; i < nums.length; i++) {
 			positive = nums[i] * positives[i - 1];
 			negative = nums[i] * negatives[i - 1];
 
@@ -45,8 +41,7 @@ public class MaximumProductSubarray
 		return maxProduct;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new MaximumProductSubarray().maxProduct(new int[]{0, 2}));
 	}
 }

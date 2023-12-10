@@ -17,16 +17,12 @@ import java.util.List;
 		url = "https://leetcode.com/problems/find-target-indices-after-sorting-array/",
 		difficulty = Difficulty.EASY
 )
-public class FindTargetIndicesAfterSortingArray
-{
-	public List<Integer> targetIndices(int[] nums, int target)
-	{
+public class FindTargetIndicesAfterSortingArray {
+	public List<Integer> targetIndices(int[] nums, int target) {
 		List<Integer> list = new ArrayList<>();
 		Arrays.sort(nums);
-		for (int i = 0; i < nums.length; i++)
-		{
-			if (nums[i] == target)
-			{
+		for (int i = 0; i < nums.length; i++) {
+			if (nums[i] == target) {
 				list.add(i);
 			}
 		}

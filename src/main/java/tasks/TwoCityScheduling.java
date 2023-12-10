@@ -15,22 +15,17 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/two-city-scheduling/",
 		difficulty = Difficulty.MEDIUM
 )
-public class TwoCityScheduling
-{
-	public int twoCitySchedCost(int[][] costs)
-	{
+public class TwoCityScheduling {
+	public int twoCitySchedCost(int[][] costs) {
 		Arrays.sort(costs, ((a, b) -> a[0] - a[1] - (b[0] - b[1])));
 
 		int n = costs.length / 2;
 		int total = 0;
-		for (int i = 0; i < costs.length; i++)
-		{
-			if (i < n)
-			{
+		for (int i = 0; i < costs.length; i++) {
+			if (i < n) {
 				total += costs[i][0];
 			}
-			else
-			{
+			else {
 				total += costs[i][1];
 			}
 		}

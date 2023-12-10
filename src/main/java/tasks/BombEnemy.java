@@ -14,13 +14,10 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class BombEnemy
-{
-	public int maxKilledEnemies(char[][] grid)
-	{
+public class BombEnemy {
+	public int maxKilledEnemies(char[][] grid) {
 		int rows = grid.length;
-		if (rows == 0)
-		{
+		if (rows == 0) {
 			return 0;
 		}
 		int columns = grid[0].length;
@@ -30,17 +27,13 @@ public class BombEnemy
 		int[][] up = new int[rows][columns];
 		int[][] down = new int[rows][columns];
 
-		for (int row = 0; row < rows; row++)
-		{
+		for (int row = 0; row < rows; row++) {
 			int count = 0;
-			for (int column = 0; column < columns; column++)
-			{
-				if (grid[row][column] == 'W')
-				{
+			for (int column = 0; column < columns; column++) {
+				if (grid[row][column] == 'W') {
 					count = 0;
 				}
-				else if (grid[row][column] == 'E')
-				{
+				else if (grid[row][column] == 'E') {
 					count++;
 				}
 
@@ -48,14 +41,11 @@ public class BombEnemy
 			}
 
 			count = 0;
-			for (int column = columns - 1; column >= 0; column--)
-			{
-				if (grid[row][column] == 'W')
-				{
+			for (int column = columns - 1; column >= 0; column--) {
+				if (grid[row][column] == 'W') {
 					count = 0;
 				}
-				else if (grid[row][column] == 'E')
-				{
+				else if (grid[row][column] == 'E') {
 					count++;
 				}
 
@@ -63,17 +53,13 @@ public class BombEnemy
 			}
 		}
 
-		for (int column = 0; column < columns; column++)
-		{
+		for (int column = 0; column < columns; column++) {
 			int count = 0;
-			for (int row = 0; row < rows; row++)
-			{
-				if (grid[row][column] == 'W')
-				{
+			for (int row = 0; row < rows; row++) {
+				if (grid[row][column] == 'W') {
 					count = 0;
 				}
-				else if (grid[row][column] == 'E')
-				{
+				else if (grid[row][column] == 'E') {
 					count++;
 				}
 
@@ -81,14 +67,11 @@ public class BombEnemy
 			}
 
 			count = 0;
-			for (int row = rows - 1; row >= 0; row--)
-			{
-				if (grid[row][column] == 'W')
-				{
+			for (int row = rows - 1; row >= 0; row--) {
+				if (grid[row][column] == 'W') {
 					count = 0;
 				}
-				else if (grid[row][column] == 'E')
-				{
+				else if (grid[row][column] == 'E') {
 					count++;
 				}
 
@@ -97,12 +80,9 @@ public class BombEnemy
 		}
 
 		int max = 0;
-		for (int row = 0; row < rows; row++)
-		{
-			for (int column = 0; column < columns; column++)
-			{
-				if (grid[row][column] == '0')
-				{
+		for (int row = 0; row < rows; row++) {
+			for (int column = 0; column < columns; column++) {
+				if (grid[row][column] == '0') {
 					max = Math.max(max, left[row][column]
 							+ right[row][column]
 							+ up[row][column]

@@ -13,19 +13,14 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/faulty-keyboard/description/",
 		difficulty = Difficulty.EASY
 )
-public class FaultyKeyboard
-{
-	public String finalString(String s)
-	{
+public class FaultyKeyboard {
+	public String finalString(String s) {
 		StringBuilder sb = new StringBuilder();
-		for (char ch: s.toCharArray())
-		{
-			if (ch == 'i')
-			{
+		for (char ch : s.toCharArray()) {
+			if (ch == 'i') {
 				sb.reverse();
 			}
-			else
-			{
+			else {
 				sb.append(ch);
 			}
 		}

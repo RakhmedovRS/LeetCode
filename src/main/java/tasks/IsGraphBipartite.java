@@ -3,7 +3,8 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
 
 /**
  * @author RakhmedovRS
@@ -15,32 +16,24 @@ import java.util.*;
 		url = "https://leetcode.com/problems/is-graph-bipartite/",
 		difficulty = Difficulty.MEDIUM
 )
-public class IsGraphBipartite
-{
-	public boolean isBipartite(int[][] graph)
-	{
+public class IsGraphBipartite {
+	public boolean isBipartite(int[][] graph) {
 		Boolean[] colored = new Boolean[graph.length];
 		Queue<Integer> queue = new LinkedList<>();
 		int current;
-		for (int i = 0; i < graph.length; i++)
-		{
-			if (colored[i] == null)
-			{
+		for (int i = 0; i < graph.length; i++) {
+			if (colored[i] == null) {
 				colored[i] = true;
 				queue.add(i);
 
-				while (!queue.isEmpty())
-				{
+				while (!queue.isEmpty()) {
 					current = queue.remove();
-					for (int neighbor : graph[current])
-					{
-						if (colored[neighbor] == null)
-						{
+					for (int neighbor : graph[current]) {
+						if (colored[neighbor] == null) {
 							queue.add(neighbor);
 							colored[neighbor] = !colored[current];
 						}
-						else if (colored[current] == colored[neighbor])
-						{
+						else if (colored[current] == colored[neighbor]) {
 							return false;
 						}
 					}
@@ -51,8 +44,7 @@ public class IsGraphBipartite
 		return true;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		IsGraphBipartite clazz = new IsGraphBipartite();
 
 		System.out.println(clazz.isBipartite(new int[][]

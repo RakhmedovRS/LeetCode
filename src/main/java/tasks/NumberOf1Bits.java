@@ -13,13 +13,10 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/number-of-1-bits/",
 		difficulty = Difficulty.EASY
 )
-public class NumberOf1Bits
-{
-	public int hammingWeight(int n)
-	{
+public class NumberOf1Bits {
+	public int hammingWeight(int n) {
 		int bits = 0;
-		for (int i = 0; i < 32; i++)
-		{
+		for (int i = 0; i < 32; i++) {
 			bits += (n & 1);
 			n >>= 1;
 		}

@@ -13,24 +13,19 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/number-of-ways-to-split-array/",
 		difficulty = Difficulty.MEDIUM
 )
-public class NumberOfWaysToSplitArray
-{
-	public int waysToSplitArray(int[] nums)
-	{
+public class NumberOfWaysToSplitArray {
+	public int waysToSplitArray(int[] nums) {
 		int res = 0;
 		long totalSum = 0;
-		for (int num : nums)
-		{
+		for (int num : nums) {
 			totalSum += num;
 		}
 
 		long currentSum = 0;
-		for (int i = 0; i < nums.length - 1; i++)
-		{
+		for (int i = 0; i < nums.length - 1; i++) {
 			currentSum += nums[i];
 			totalSum -= nums[i];
-			if (currentSum >= totalSum)
-			{
+			if (currentSum >= totalSum) {
 				res++;
 			}
 		}

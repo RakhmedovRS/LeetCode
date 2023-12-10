@@ -19,49 +19,40 @@ import java.util.Map;
 		difficulty = Difficulty.MEDIUM,
 		premium = true
 )
-public class CloneNAryTree
-{
-	class Node
-	{
+public class CloneNAryTree {
+	class Node {
 		public int val;
 		public List<Node> children;
 
-		public Node()
-		{
+		public Node() {
 			children = new ArrayList<Node>();
 		}
 
-		public Node(int _val)
-		{
+		public Node(int _val) {
 			val = _val;
 			children = new ArrayList<Node>();
 		}
 
-		public Node(int _val, ArrayList<Node> _children)
-		{
+		public Node(int _val, ArrayList<Node> _children) {
 			val = _val;
 			children = _children;
 		}
 	}
 
-	public Node cloneTree(Node root)
-	{
+	public Node cloneTree(Node root) {
 		Map<Node, Node> nodeMap = new HashMap<>();
 		dfs(root, nodeMap);
 		return nodeMap.get(root);
 	}
 
-	private void dfs(Node root, Map<Node, Node> nodeMap)
-	{
-		if (root == null)
-		{
+	private void dfs(Node root, Map<Node, Node> nodeMap) {
+		if (root == null) {
 			return;
 		}
 		Node node = new Node();
 		node.val = root.val;
 
-		for (Node child : root.children)
-		{
+		for (Node child : root.children) {
 			dfs(child, nodeMap);
 			node.children.add(nodeMap.get(child));
 		}

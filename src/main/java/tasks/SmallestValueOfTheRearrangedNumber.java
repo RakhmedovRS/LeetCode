@@ -13,35 +13,27 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/smallest-value-of-the-rearranged-number/",
 		difficulty = Difficulty.MEDIUM
 )
-public class SmallestValueOfTheRearrangedNumber
-{
-	public long smallestNumber(long num)
-	{
-		if (num == 0)
-		{
+public class SmallestValueOfTheRearrangedNumber {
+	public long smallestNumber(long num) {
+		if (num == 0) {
 			return num;
 		}
 
 		boolean negative = false;
 		int[] digits = new int[10];
-		if (num < 0)
-		{
+		if (num < 0) {
 			negative = true;
 			num *= -1;
 		}
 
-		for (char ch : String.valueOf(num).toCharArray())
-		{
+		for (char ch : String.valueOf(num).toCharArray()) {
 			digits[ch - '0']++;
 		}
 
-		if (negative)
-		{
+		if (negative) {
 			long res = 0;
-			for (int i = digits.length - 1; i >= 0; i--)
-			{
-				while (digits[i]-- > 0)
-				{
+			for (int i = digits.length - 1; i >= 0; i--) {
+				while (digits[i]-- > 0) {
 					res *= 10;
 					res += i;
 				}
@@ -49,23 +41,18 @@ public class SmallestValueOfTheRearrangedNumber
 
 			return -1 * res;
 		}
-		else
-		{
+		else {
 			long res = 0;
-			for (int i = 1; i < digits.length; i++)
-			{
-				if (digits[i] > 0)
-				{
+			for (int i = 1; i < digits.length; i++) {
+				if (digits[i] > 0) {
 					res = i;
 					digits[i]--;
 					break;
 				}
 			}
 
-			for (int i = 0; i < digits.length; i++)
-			{
-				while (digits[i]-- > 0)
-				{
+			for (int i = 0; i < digits.length; i++) {
+				while (digits[i]-- > 0) {
 					res *= 10;
 					res += i;
 				}

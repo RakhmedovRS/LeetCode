@@ -15,28 +15,21 @@ import java.util.*;
 		url = "https://leetcode.com/problems/minimum-number-of-people-to-teach/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MinimumNumberOfPeopleToTeach
-{
-	public int minimumTeachings(int n, int[][] languages, int[][] friendships)
-	{
+public class MinimumNumberOfPeopleToTeach {
+	public int minimumTeachings(int n, int[][] languages, int[][] friendships) {
 		Map<Integer, Set<Integer>> knownLanguages = new HashMap<>();
-		for (int i = 0; i < languages.length; i++)
-		{
+		for (int i = 0; i < languages.length; i++) {
 			Set<Integer> collection = new HashSet<>();
-			for (int l : languages[i])
-			{
+			for (int l : languages[i]) {
 				collection.add(l);
 			}
 			knownLanguages.put(i + 1, collection);
 		}
 
 		boolean[] canCommunicate = new boolean[friendships.length];
-		for (int i = 0; i < friendships.length; i++)
-		{
-			for (int languageA : knownLanguages.getOrDefault(friendships[i][0], Collections.emptySet()))
-			{
-				if (knownLanguages.getOrDefault(friendships[i][1], Collections.emptySet()).contains(languageA))
-				{
+		for (int i = 0; i < friendships.length; i++) {
+			for (int languageA : knownLanguages.getOrDefault(friendships[i][0], Collections.emptySet())) {
+				if (knownLanguages.getOrDefault(friendships[i][1], Collections.emptySet()).contains(languageA)) {
 					canCommunicate[i] = true;
 					break;
 				}
@@ -44,23 +37,18 @@ public class MinimumNumberOfPeopleToTeach
 		}
 
 		int min = Integer.MAX_VALUE;
-		for (int language = 1; language <= n; language++)
-		{
+		for (int language = 1; language <= n; language++) {
 			Set<Integer> learned = new HashSet<>();
-			for (int i = 0; i < friendships.length; i++)
-			{
-				if (canCommunicate[i])
-				{
+			for (int i = 0; i < friendships.length; i++) {
+				if (canCommunicate[i]) {
 					continue;
 				}
 
-				if (!knownLanguages.getOrDefault(friendships[i][0], Collections.emptySet()).contains(language))
-				{
+				if (!knownLanguages.getOrDefault(friendships[i][0], Collections.emptySet()).contains(language)) {
 					learned.add(friendships[i][0]);
 				}
 
-				if (!knownLanguages.getOrDefault(friendships[i][1], Collections.emptySet()).contains(language))
-				{
+				if (!knownLanguages.getOrDefault(friendships[i][1], Collections.emptySet()).contains(language)) {
 					learned.add(friendships[i][1]);
 				}
 			}
@@ -71,8 +59,7 @@ public class MinimumNumberOfPeopleToTeach
 		return min;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		MinimumNumberOfPeopleToTeach clazz = new MinimumNumberOfPeopleToTeach();
 
 		System.out.println(clazz.minimumTeachings(3, new int[][]{{2}, {1, 3}, {1, 2}, {3}}, new int[][]{{1, 4}, {1, 2}, {3, 4}, {2, 3}}));//2

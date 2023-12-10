@@ -13,30 +13,24 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/count-ways-to-build-good-strings/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CountWaysToBuildGoodStrings
-{
+public class CountWaysToBuildGoodStrings {
 	int MOD = 1_000_000_007;
 
-	public int countGoodStrings(int low, int high, int zero, int one)
-	{
+	public int countGoodStrings(int low, int high, int zero, int one) {
 		long[] memo = new long[high + 1];
 		memo[0] = 1;
-		for (int i = 0; i <= high; i++)
-		{
-			if (i + zero < memo.length)
-			{
+		for (int i = 0; i <= high; i++) {
+			if (i + zero < memo.length) {
 				memo[i + zero] = (memo[i] + memo[i + zero]) % MOD;
 			}
 
-			if (i + one < memo.length)
-			{
+			if (i + one < memo.length) {
 				memo[i + one] = (memo[i] + memo[i + one]) % MOD;
 			}
 		}
 
 		long result = 0L;
-		while (low <= high)
-		{
+		while (low <= high) {
 			result = (result + memo[low++]) % MOD;
 		}
 

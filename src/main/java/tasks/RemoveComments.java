@@ -10,49 +10,39 @@ import java.util.List;
  * @created 25-Jun-20
  */
 @LeetCode(id = 722, name = "Remove Comments", url = "https://leetcode.com/problems/remove-comments/")
-public class RemoveComments
-{
-	public List<String> removeComments(String[] source)
-	{
+public class RemoveComments {
+	public List<String> removeComments(String[] source) {
 		List<String> answer = new ArrayList<>();
 		boolean inComment = false;
 		StringBuilder lineBuilder = new StringBuilder();
-		for (String line : source)
-		{
+		for (String line : source) {
 			char[] lineChars = line.toCharArray();
 
-			if (!inComment)
-			{
+			if (!inComment) {
 				lineBuilder = new StringBuilder();
 			}
 
 			int pos = 0;
-			while (pos < line.length())
-			{
-				if (!inComment && lineChars[pos] == '/' && pos + 1 < line.length() && lineChars[pos + 1] == '*')
-				{
+			while (pos < line.length()) {
+				if (!inComment && lineChars[pos] == '/' && pos + 1 < line.length() && lineChars[pos + 1] == '*') {
 					inComment = true;
 					pos++;
 				}
-				else if (inComment && lineChars[pos] == '*' && pos + 1 < line.length() && lineChars[pos + 1] == '/')
-				{
+				else if (inComment && lineChars[pos] == '*' && pos + 1 < line.length() && lineChars[pos + 1] == '/') {
 					inComment = false;
 					pos++;
 				}
-				else if (!inComment && lineChars[pos] == '/' && pos + 1 < line.length() && lineChars[pos + 1] == '/')
-				{
+				else if (!inComment && lineChars[pos] == '/' && pos + 1 < line.length() && lineChars[pos + 1] == '/') {
 					break;
 				}
-				else if (!inComment)
-				{
+				else if (!inComment) {
 					lineBuilder.append(lineChars[pos]);
 				}
 
 				pos++;
 			}
 
-			if (!inComment && lineBuilder.length() > 0)
-			{
+			if (!inComment && lineBuilder.length() > 0) {
 				answer.add(lineBuilder.toString());
 			}
 		}

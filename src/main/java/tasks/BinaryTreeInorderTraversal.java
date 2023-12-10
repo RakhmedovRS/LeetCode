@@ -19,26 +19,20 @@ import java.util.List;
 		url = "https://leetcode.com/problems/binary-tree-inorder-traversal/",
 		difficulty = Difficulty.EASY
 )
-public class BinaryTreeInorderTraversal
-{
-	public List<Integer> inorderTraversal(TreeNode root)
-	{
+public class BinaryTreeInorderTraversal {
+	public List<Integer> inorderTraversal(TreeNode root) {
 		Deque<TreeNode> deque = new LinkedList<>();
 		deque.add(root);
 		List<Integer> result = new ArrayList<>();
 
-		while (!deque.isEmpty())
-		{
+		while (!deque.isEmpty()) {
 			TreeNode node = deque.removeFirst();
-			if (node != null)
-			{
-				if (node.left == null)
-				{
+			if (node != null) {
+				if (node.left == null) {
 					result.add(node.val);
 					deque.addFirst(node.right);
 				}
-				else
-				{
+				else {
 					deque.addFirst(node);
 					deque.addFirst(node.left);
 					node.left = null;
@@ -49,17 +43,14 @@ public class BinaryTreeInorderTraversal
 		return result;
 	}
 
-	public List<Integer> inorderTraversal1(TreeNode root)
-	{
+	public List<Integer> inorderTraversal1(TreeNode root) {
 		List<Integer> result = new ArrayList<>();
 		inorder(root, result);
 		return result;
 	}
 
-	private void inorder(TreeNode root, List<Integer> list)
-	{
-		if (root == null)
-		{
+	private void inorder(TreeNode root, List<Integer> list) {
+		if (root == null) {
 			return;
 		}
 

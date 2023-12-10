@@ -13,29 +13,23 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/h-index-ii/",
 		difficulty = Difficulty.MEDIUM
 )
-public class HIndexII
-{
-	public int hIndex(int[] citations)
-	{
+public class HIndexII {
+	public int hIndex(int[] citations) {
 		int left = 0;
 		int middle;
 		int right = citations.length;
 		int n = right;
 		int x;
-		while (left < right)
-		{
+		while (left < right) {
 			middle = left + (right - left) / 2;
 			x = n - middle;
-			if (x == citations[middle])
-			{
+			if (x == citations[middle]) {
 				return x;
 			}
-			else if (x > citations[middle])
-			{
+			else if (x > citations[middle]) {
 				left = middle + 1;
 			}
-			else
-			{
+			else {
 				right = middle;
 			}
 		}

@@ -14,20 +14,15 @@ import common.LeetCode;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class LargestUniqueNumber
-{
-	public int largestUniqueNumber(int[] A)
-	{
+public class LargestUniqueNumber {
+	public int largestUniqueNumber(int[] A) {
 		int[] numbers = new int[1001];
-		for (int num : A)
-		{
+		for (int num : A) {
 			numbers[num]++;
 		}
 
-		for (int i = 1000; i >= 0; i--)
-		{
-			if (numbers[i] == 1)
-			{
+		for (int i = 1000; i >= 0; i--) {
+			if (numbers[i] == 1) {
 				return i;
 			}
 		}
@@ -35,8 +30,7 @@ public class LargestUniqueNumber
 		return -1;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		LargestUniqueNumber clazz = new LargestUniqueNumber();
 
 		System.out.println(clazz.largestUniqueNumber(new int[]{}));

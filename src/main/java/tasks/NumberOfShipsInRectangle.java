@@ -15,22 +15,17 @@ import common.LeetCode;
 		difficulty = Difficulty.HARD,
 		premium = true
 )
-public class NumberOfShipsInRectangle
-{
-	interface Sea
-	{
+public class NumberOfShipsInRectangle {
+	interface Sea {
 		boolean hasShips(int[] topRight, int[] bottomLeft);
 	}
 
-	public int countShips(Sea sea, int[] topRight, int[] bottomLeft)
-	{
-		if (!sea.hasShips(topRight, bottomLeft))
-		{
+	public int countShips(Sea sea, int[] topRight, int[] bottomLeft) {
+		if (!sea.hasShips(topRight, bottomLeft)) {
 			return 0;
 		}
 
-		if (topRight[0] == bottomLeft[0] && topRight[1] == bottomLeft[1])
-		{
+		if (topRight[0] == bottomLeft[0] && topRight[1] == bottomLeft[1]) {
 			return 1;
 		}
 

@@ -15,28 +15,22 @@ import java.util.List;
 		url = "https://leetcode.com/problems/happy-students/",
 		difficulty = Difficulty.MEDIUM
 )
-public class HappyStudents
-{
-	public int countWays(List<Integer> nums)
-	{
+public class HappyStudents {
+	public int countWays(List<Integer> nums) {
 		nums.sort(null);
 		int ways = nums.get(0) == 0 ? 0 : 1;
 		int selected = 0;
-		for (int i = 0; i < nums.size(); i++)
-		{
+		for (int i = 0; i < nums.size(); i++) {
 			selected++;
 			int n = nums.get(i);
-			if (selected > n)
-			{
-				if (i + 1 < nums.size() && selected < nums.get(i + 1))
-				{
+			if (selected > n) {
+				if (i + 1 < nums.size() && selected < nums.get(i + 1)) {
 					ways++;
 				}
 			}
 		}
 
-		if (selected > nums.get(nums.size() - 1))
-		{
+		if (selected > nums.get(nums.size() - 1)) {
 			ways++;
 		}
 

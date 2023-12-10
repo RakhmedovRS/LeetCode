@@ -13,30 +13,24 @@ import common.LeetCode;
 		url = "https://leetcode.com/problems/cutting-ribbons/",
 		difficulty = Difficulty.MEDIUM
 )
-public class CuttingRibbons
-{
-	public int maxLength(int[] ribbons, int k)
-	{
+public class CuttingRibbons {
+	public int maxLength(int[] ribbons, int k) {
 		int min = 1;
 		int middle;
 		int max = 1_000_000_000;
 		int candidate = 0;
-		while (min <= max)
-		{
+		while (min <= max) {
 			middle = (min + max) / 2;
 			int count = 0;
-			for (int ribbon : ribbons)
-			{
+			for (int ribbon : ribbons) {
 				count += ribbon / middle;
 			}
 
-			if (count >= k)
-			{
+			if (count >= k) {
 				candidate = middle;
 				min = middle + 1;
 			}
-			else
-			{
+			else {
 				max = middle - 1;
 			}
 		}

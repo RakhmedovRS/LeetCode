@@ -17,15 +17,11 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/points-that-intersect-with-cars/",
 		difficulty = Difficulty.EASY
 )
-public class PointsThatIntersectWithCars
-{
-	public int numberOfPoints(List<List<Integer>> nums)
-	{
+public class PointsThatIntersectWithCars {
+	public int numberOfPoints(List<List<Integer>> nums) {
 		Set<Integer> set = new HashSet<>();
-		for (List<Integer> list: nums)
-		{
-			for (int i = list.get(0); i <= list.get(1); i++)
-			{
+		for (List<Integer> list : nums) {
+			for (int i = list.get(0); i <= list.get(1); i++) {
 				set.add(i);
 			}
 		}

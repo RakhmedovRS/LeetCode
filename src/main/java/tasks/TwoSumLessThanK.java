@@ -3,7 +3,7 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
-import java.util.*;
+import java.util.Arrays;
 
 /**
  * @author RakhmedovRS
@@ -16,18 +16,14 @@ import java.util.*;
 		difficulty = Difficulty.EASY,
 		premium = true
 )
-public class TwoSumLessThanK
-{
-	public int twoSumLessThanK(int[] nums, int k)
-	{
+public class TwoSumLessThanK {
+	public int twoSumLessThanK(int[] nums, int k) {
 		int sum = -1;
 		Arrays.sort(nums);
 		int j;
-		for (int i = 0; i < nums.length && nums[i] < k; i++)
-		{
+		for (int i = 0; i < nums.length && nums[i] < k; i++) {
 			j = binarySearch(nums, i + 1, nums.length - 1, k - nums[i]);
-			if (j != -1)
-			{
+			if (j != -1) {
 				sum = Math.max(sum, nums[i] + nums[j]);
 			}
 		}
@@ -35,19 +31,15 @@ public class TwoSumLessThanK
 		return sum;
 	}
 
-	private int binarySearch(int[] nums, int left, int right, int target)
-	{
+	private int binarySearch(int[] nums, int left, int right, int target) {
 		int middle;
 		int i = -1;
-		while (left <= right)
-		{
+		while (left <= right) {
 			middle = (left + right) / 2;
-			if (nums[middle] >= target)
-			{
+			if (nums[middle] >= target) {
 				right = middle - 1;
 			}
-			else
-			{
+			else {
 				i = middle;
 				left = middle + 1;
 			}
@@ -56,8 +48,7 @@ public class TwoSumLessThanK
 		return i;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		System.out.println(new TwoSumLessThanK().twoSumLessThanK(new int[]{10, 20, 30}, 15));
 		System.out.println(new TwoSumLessThanK().twoSumLessThanK(new int[]{34, 23, 1, 24, 75, 33, 54, 8}, 60));
 	}

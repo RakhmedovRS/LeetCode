@@ -17,23 +17,17 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/",
 		difficulty = Difficulty.MEDIUM
 )
-public class MaximumWhiteTilesCoveredByCarpet
-{
-	public int maximumWhiteTiles(int[][] tiles, int carpetLen)
-	{
+public class MaximumWhiteTilesCoveredByCarpet {
+	public int maximumWhiteTiles(int[][] tiles, int carpetLen) {
 		int max = 0;
 		Arrays.sort(tiles, Comparator.comparing(a -> a[0]));
 		LinkedList<int[]> stack = new LinkedList<>();
-		for (int[] tile : tiles)
-		{
-			if (stack.isEmpty())
-			{
+		for (int[] tile : tiles) {
+			if (stack.isEmpty()) {
 				stack.addLast(tile);
 			}
-			else
-			{
-				if (stack.getLast()[1] + 1 == tile[0])
-				{
+			else {
+				if (stack.getLast()[1] + 1 == tile[0]) {
 					int start = stack.removeLast()[0];
 					tile[0] = start;
 				}
@@ -44,22 +38,18 @@ public class MaximumWhiteTilesCoveredByCarpet
 		LinkedList<int[]> list = new LinkedList<>();
 		int seenCarpet = 0;
 		int seenGap = 0;
-		for (int[] tile : stack)
-		{
+		for (int[] tile : stack) {
 			seenCarpet += 1 + tile[1] - tile[0];
-			if (!list.isEmpty())
-			{
+			if (!list.isEmpty()) {
 				seenGap += tile[0] - 1 - list.getLast()[1];
 			}
 
 			list.addLast(tile);
 			max = Math.max(max, Math.min(seenCarpet, carpetLen - seenGap));
-			while (seenCarpet + seenGap > carpetLen)
-			{
+			while (seenCarpet + seenGap > carpetLen) {
 				int[] first = list.removeFirst();
 				seenCarpet -= 1 + first[1] - first[0];
-				if (!list.isEmpty())
-				{
+				if (!list.isEmpty()) {
 					seenGap -= list.getFirst()[0] - 1 - first[1];
 				}
 

@@ -16,22 +16,16 @@ import java.util.LinkedList;
 		url = "https://leetcode.com/problems/crawler-log-folder/",
 		difficulty = Difficulty.EASY
 )
-public class CrawlerLogFolder
-{
-	public int minOperations(String[] logs)
-	{
+public class CrawlerLogFolder {
+	public int minOperations(String[] logs) {
 		Deque<String> stack = new LinkedList<>();
-		for (String log : logs)
-		{
-			if ("../".equals(log))
-			{
-				if (stack.size() > 0)
-				{
+		for (String log : logs) {
+			if ("../".equals(log)) {
+				if (stack.size() > 0) {
 					stack.pop();
 				}
 			}
-			else if (!"./".equals(log))
-			{
+			else if (!"./".equals(log)) {
 				stack.push(log);
 			}
 		}

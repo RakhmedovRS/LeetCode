@@ -15,13 +15,10 @@ import java.util.Arrays;
 		url = "https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/",
 		difficulty = Difficulty.MEDIUM
 )
-public class DivideIntervalsIntoMinimumNumberOfGroups
-{
-	public int minGroups(int[][] intervals)
-	{
+public class DivideIntervalsIntoMinimumNumberOfGroups {
+	public int minGroups(int[][] intervals) {
 		Arrays.sort(intervals, (a, b) -> {
-			if (a[0] == b[0])
-			{
+			if (a[0] == b[0]) {
 				return a[1] - b[1];
 			}
 
@@ -29,18 +26,15 @@ public class DivideIntervalsIntoMinimumNumberOfGroups
 		});
 
 		int[] memo = new int[(int) Math.pow(10, 6) + 1];
-		for (int[] interval : intervals)
-		{
+		for (int[] interval : intervals) {
 			memo[interval[0]]++;
-			if (interval[1] + 1 < memo.length)
-			{
+			if (interval[1] + 1 < memo.length) {
 				memo[interval[1] + 1]--;
 			}
 		}
 
 		int max = 0;
-		for (int i = 1; i < memo.length; i++)
-		{
+		for (int i = 1; i < memo.length; i++) {
 			memo[i] += memo[i - 1];
 			max = Math.max(max, memo[i]);
 		}

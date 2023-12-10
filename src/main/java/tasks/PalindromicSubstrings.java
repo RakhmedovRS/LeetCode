@@ -18,14 +18,11 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/palindromic-substrings/",
 		difficulty = Difficulty.MEDIUM
 )
-public class PalindromicSubstrings
-{
-	public int countSubstrings(String s)
-	{
+public class PalindromicSubstrings {
+	public int countSubstrings(String s) {
 		int count = 0;
 		Queue<int[]> queue = new LinkedList<>();
-		for (int i = 0; i < s.length(); i++)
-		{
+		for (int i = 0; i < s.length(); i++) {
 			queue.add(new int[]{i, i});
 		}
 
@@ -35,27 +32,22 @@ public class PalindromicSubstrings
 		int[] current;
 		char[] chars = s.toCharArray();
 		Set<String> seen = new HashSet<>();
-		while (!queue.isEmpty())
-		{
+		while (!queue.isEmpty()) {
 			count += queue.size();
 			size = queue.size();
-			while (size-- > 0)
-			{
+			while (size-- > 0) {
 				current = queue.remove();
 				left = current[0];
 				right = current[1];
-				if (left - 1 >= 0 && isPalindrome(left - 1, right, chars) && seen.add((left - 1) + "_" + right))
-				{
+				if (left - 1 >= 0 && isPalindrome(left - 1, right, chars) && seen.add((left - 1) + "_" + right)) {
 					queue.add(new int[]{left - 1, right});
 				}
 
-				if (right + 1 < chars.length && isPalindrome(left, right + 1, chars) && seen.add(left + "_" + (right + 1)))
-				{
+				if (right + 1 < chars.length && isPalindrome(left, right + 1, chars) && seen.add(left + "_" + (right + 1))) {
 					queue.add(new int[]{left, right + 1});
 				}
 
-				if (left - 1 >= 0 && right + 1 < chars.length && isPalindrome(left - 1, right + 1, chars) && seen.add((left - 1) + "_" + (right + 1)))
-				{
+				if (left - 1 >= 0 && right + 1 < chars.length && isPalindrome(left - 1, right + 1, chars) && seen.add((left - 1) + "_" + (right + 1))) {
 					queue.add(new int[]{left - 1, right + 1});
 				}
 			}
@@ -64,12 +56,9 @@ public class PalindromicSubstrings
 		return count;
 	}
 
-	private boolean isPalindrome(int left, int right, char[] chars)
-	{
-		while (left <= right)
-		{
-			if (chars[left++] != chars[right--])
-			{
+	private boolean isPalindrome(int left, int right, char[] chars) {
+		while (left <= right) {
+			if (chars[left++] != chars[right--]) {
 				return false;
 			}
 		}

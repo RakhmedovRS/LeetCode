@@ -18,16 +18,13 @@ import java.util.Map;
 		url = "https://leetcode.com/problems/evaluate-division/",
 		difficulty = Difficulty.MEDIUM
 )
-public class EvaluateDivision
-{
-	public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries)
-	{
+public class EvaluateDivision {
+	public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
 		double[] result = new double[queries.size()];
 		Arrays.fill(result, -1);
 		Map<String, String> parent = new HashMap<>();
 		Map<String, Double> rank = new HashMap<>();
-		for (int i = 0; i < equations.size(); i++)
-		{
+		for (int i = 0; i < equations.size(); i++) {
 			String a = equations.get(i).get(0);
 			String b = equations.get(i).get(1);
 			String aParent = findParent(parent, rank, a);
@@ -36,16 +33,13 @@ public class EvaluateDivision
 			rank.put(aParent, rank.get(b) * values[i] / rank.get(a));
 		}
 
-		for (int i = 0; i < queries.size(); i++)
-		{
+		for (int i = 0; i < queries.size(); i++) {
 			String a = queries.get(i).get(0);
 			String b = queries.get(i).get(1);
-			if (rank.containsKey(a) && rank.containsKey(b))
-			{
+			if (rank.containsKey(a) && rank.containsKey(b)) {
 				String aParent = findParent(parent, rank, a);
 				String bParent = findParent(parent, rank, b);
-				if (aParent.equals(bParent))
-				{
+				if (aParent.equals(bParent)) {
 					result[i] = rank.get(a) / rank.get(b);
 				}
 			}
@@ -54,17 +48,14 @@ public class EvaluateDivision
 		return result;
 	}
 
-	private String findParent(Map<String, String> parent, Map<String, Double> rank, String string)
-	{
-		if (!parent.containsKey(string))
-		{
+	private String findParent(Map<String, String> parent, Map<String, Double> rank, String string) {
+		if (!parent.containsKey(string)) {
 			parent.put(string, string);
 			rank.put(string, 1D);
 			return string;
 		}
 
-		if (string.equals(parent.get(string)))
-		{
+		if (string.equals(parent.get(string))) {
 			return string;
 		}
 

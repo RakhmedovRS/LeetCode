@@ -17,38 +17,29 @@ import java.util.Set;
 		url = "https://leetcode.com/problems/sudoku-solver/",
 		difficulty = Difficulty.HARD
 )
-public class SudokuSolver
-{
-	public void solveSudoku(char[][] board)
-	{
+public class SudokuSolver {
+	public void solveSudoku(char[][] board) {
 		solve(board, 0, 0);
 	}
 
-	private boolean solve(char[][] board, int row, int column)
-	{
-		if (column == 9)
-		{
+	private boolean solve(char[][] board, int row, int column) {
+		if (column == 9) {
 			row++;
 			column = 0;
 		}
 
-		if (row == board.length)
-		{
+		if (row == board.length) {
 			return true;
 		}
 
-		if (board[row][column] != '.')
-		{
+		if (board[row][column] != '.') {
 			return solve(board, row, column + 1);
 		}
 
-		for (int i = 1; i <= 9; i++)
-		{
+		for (int i = 1; i <= 9; i++) {
 			board[row][column] = (char) (i + '0');
-			if (isBoardValid(board, row, column))
-			{
-				if (solve(board, row, column))
-				{
+			if (isBoardValid(board, row, column)) {
+				if (solve(board, row, column)) {
 					return true;
 				}
 			}
@@ -58,42 +49,34 @@ public class SudokuSolver
 		return false;
 	}
 
-	private boolean isBoardValid(char[][] board, int row, int column)
-	{
+	private boolean isBoardValid(char[][] board, int row, int column) {
 		int r = row < 4 ? 0 : row < 7 ? 3 : 6;
 		int c = column < 4 ? 0 : column < 7 ? 3 : 6;
 
 		Set<Character> set = new HashSet<>();
 
 		//check row
-		for (char ch : board[row])
-		{
-			if (ch != '.' && !set.add(ch))
-			{
+		for (char ch : board[row]) {
+			if (ch != '.' && !set.add(ch)) {
 				return false;
 			}
 		}
 
 		//check column
 		set = new HashSet<>();
-		for (char[] chars : board)
-		{
+		for (char[] chars : board) {
 			char ch = chars[column];
-			if (ch != '.' && !set.add(ch))
-			{
+			if (ch != '.' && !set.add(ch)) {
 				return false;
 			}
 		}
 
 		//check sub square
 		set = new HashSet<>();
-		for (int i = r; i < r + 3; i++)
-		{
-			for (int j = c; j < c + 3; j++)
-			{
+		for (int i = r; i < r + 3; i++) {
+			for (int j = c; j < c + 3; j++) {
 				char ch = board[i][j];
-				if (ch != '.' && !set.add(ch))
-				{
+				if (ch != '.' && !set.add(ch)) {
 					return false;
 				}
 			}
@@ -102,8 +85,7 @@ public class SudokuSolver
 		return true;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		char[][] board = new char[][]
 				{
 						{'5', '3', '.', '.', '7', '.', '.', '.', '.'},
@@ -119,8 +101,7 @@ public class SudokuSolver
 
 		new SudokuSolver().solveSudoku(board);
 
-		for (char[] row : board)
-		{
+		for (char[] row : board) {
 			System.out.println(Arrays.toString(row));
 		}
 	}
