@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1869
+Count of solved tasks: 1870
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1678,6 +1678,7 @@ Count of solved tasks: 1869
 |2956|Easy|[Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/)|[Find Common Elements Between Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindCommonElementsBetweenTwoArrays.java)|
 |2957|Medium|[Remove Adjacent Almost-Equal Characters](https://leetcode.com/problems/remove-adjacent-almost-equal-characters/)|[Remove Adjacent Almost-Equal Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveAdjacentAlmostEqualCharacters.java)|
 |2958|Medium|[Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/)|[Length of Longest Subarray With at Most K Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LengthOfLongestSubarrayWithAtMostKFrequency.java)|
+|2960|Easy|[Count Tested Devices After Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/)|[Count Tested Devices After Test Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTestedDevicesAfterTestOperations.java)|
 |2971|Medium|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/)|[Split Array Into Maximum Number of Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayIntoMaximumNumberOfSubarrays.java)|</p>
 </details>
 
@@ -2087,7 +2088,8 @@ Count of solved tasks: 1869
 |2942|Easy|[Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/)|[Find Words Containing Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindWordsContainingCharacter.java)|
 |2946|Easy|[Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/)|[Matrix Similarity After Cyclic Shifts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MatrixSimilarityAfterCyclicShifts.java)|
 |2951|Easy|[Find the Peaks](https://leetcode.com/problems/find-the-peaks/)|[Find the Peaks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThePeaks.java)|
-|2956|Easy|[Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/)|[Find Common Elements Between Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindCommonElementsBetweenTwoArrays.java)|</p>
+|2956|Easy|[Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/)|[Find Common Elements Between Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindCommonElementsBetweenTwoArrays.java)|
+|2960|Easy|[Count Tested Devices After Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/)|[Count Tested Devices After Test Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTestedDevicesAfterTestOperations.java)|</p>
 </details>
 
 <details>
