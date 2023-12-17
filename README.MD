@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1872
+Count of solved tasks: 1873
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1681,6 +1681,7 @@ Count of solved tasks: 1872
 |2960|Easy|[Count Tested Devices After Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/)|[Count Tested Devices After Test Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTestedDevicesAfterTestOperations.java)|
 |2961|Medium|[Double Modular Exponentiation](https://leetcode.com/problems/double-modular-exponentiation/)|[Double Modular Exponentiation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DoubleModularExponentiation.java)|
 |2965|Easy|[Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/)|[Find Missing and Repeated Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMissingAndRepeatedValues.java)|
+|2966|Medium|[Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)|[Divide Array Into Arrays With Max Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideArrayIntoArraysWithMaxDifference.java)|
 |2971|Medium|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/)|[Split Array Into Maximum Number of Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayIntoMaximumNumberOfSubarrays.java)|</p>
 </details>
 
@@ -2864,6 +2865,7 @@ Count of solved tasks: 1872
 |2957|Medium|[Remove Adjacent Almost-Equal Characters](https://leetcode.com/problems/remove-adjacent-almost-equal-characters/)|[Remove Adjacent Almost-Equal Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveAdjacentAlmostEqualCharacters.java)|
 |2958|Medium|[Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/)|[Length of Longest Subarray With at Most K Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LengthOfLongestSubarrayWithAtMostKFrequency.java)|
 |2961|Medium|[Double Modular Exponentiation](https://leetcode.com/problems/double-modular-exponentiation/)|[Double Modular Exponentiation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DoubleModularExponentiation.java)|
+|2966|Medium|[Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)|[Divide Array Into Arrays With Max Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideArrayIntoArraysWithMaxDifference.java)|
 |2971|Medium|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/)|[Split Array Into Maximum Number of Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayIntoMaximumNumberOfSubarrays.java)|</p>
 </details>
 
