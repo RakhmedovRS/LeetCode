@@ -111,58 +111,48 @@ public final class Helper {
 		return primes;
 	}
 
-	public static List<Integer> generatePalindromes(int length) {
+	public static List<Integer> generatePalindromeNumbers(int length) {
 		List<Integer> palindromes = new ArrayList<>();
 		if (length == 1) {
-			for (int i = 0; i < 10; i++) {
-				palindromes.add(i);
-			}
-			return palindromes;
+			return Arrays.asList(0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
 		}
 
-		int left = 1;
-		if (length % 2 == 0) {
-			for (int i = 1; i < length / 2; i++) {
-				left *= 10;
-				left += 1;
-			}
-
-			while (numberLength(left) == length / 2) {
-				int val = left;
-				int temp = left;
-				while (temp > 0) {
-					val *= 10;
-					val += temp % 10;
-					temp /= 10;
-				}
-
-				palindromes.add(val);
-				left++;
-			}
+		int leftHalf = 1;
+		for (int i = 1; i < length / 2; i++) {
+			leftHalf *= 10;
+			leftHalf += 1;
 		}
-		else {
-			for (int i = 1; i < length / 2; i++) {
-				left *= 10;
-				left += 1;
-			}
 
-			while (numberLength(left) == length / 2) {
-				for (int v = 0; v < 10; v++) {
-					int val = left;
-					int temp = left;
+		while (numberLength(leftHalf) == length / 2) {
+			if (length % 2 != 0) {
+				for (int middleDigit = 0; middleDigit < 10; middleDigit++) {
+					int palindrome = leftHalf;
+					int temp = leftHalf;
 
-					val *= 10;
-					val += v;
+					palindrome *= 10;
+					palindrome += middleDigit;
 					while (temp > 0) {
-						val *= 10;
-						val += temp % 10;
+						palindrome *= 10;
+						palindrome += temp % 10;
 						temp /= 10;
 					}
 
-					palindromes.add(val);
+					palindromes.add(palindrome);
 				}
-				left++;
 			}
+			else {
+				int palindrome = leftHalf;
+				int temp = leftHalf;
+				while (temp > 0) {
+					palindrome *= 10;
+					palindrome += temp % 10;
+					temp /= 10;
+				}
+
+				palindromes.add(palindrome);
+			}
+
+			leftHalf++;
 		}
 
 		return palindromes;
