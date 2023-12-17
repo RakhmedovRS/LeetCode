@@ -89,6 +89,18 @@ public final class Helper {
 		return true;
 	}
 
+	public static boolean isPalindrome(long num) {
+		long temp = num;
+		long reversed = 0;
+		while (temp > 0) {
+			reversed *= 10;
+			reversed += temp % 10;
+			temp /= 10;
+		}
+
+		return reversed == num;
+	}
+
 	public static List<Integer> getPrimes(int maxValue) {
 		boolean[] sieveOfEratosthenes = new boolean[maxValue + 1];
 		Arrays.fill(sieveOfEratosthenes, true);
