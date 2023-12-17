@@ -110,4 +110,71 @@ public final class Helper {
 
 		return primes;
 	}
+
+	public static List<Integer> generatePalindromes(int length) {
+		List<Integer> palindromes = new ArrayList<>();
+		if (length == 1) {
+			for (int i = 0; i < 10; i++) {
+				palindromes.add(i);
+			}
+			return palindromes;
+		}
+
+		int left = 1;
+		if (length % 2 == 0) {
+			for (int i = 1; i < length / 2; i++) {
+				left *= 10;
+				left += 1;
+			}
+
+			while (numberLength(left) == length / 2) {
+				int val = left;
+				int temp = left;
+				while (temp > 0) {
+					val *= 10;
+					val += temp % 10;
+					temp /= 10;
+				}
+
+				palindromes.add(val);
+				left++;
+			}
+		}
+		else {
+			for (int i = 1; i < length / 2; i++) {
+				left *= 10;
+				left += 1;
+			}
+
+			while (numberLength(left) == length / 2) {
+				for (int v = 0; v < 10; v++) {
+					int val = left;
+					int temp = left;
+
+					val *= 10;
+					val += v;
+					while (temp > 0) {
+						val *= 10;
+						val += temp % 10;
+						temp /= 10;
+					}
+
+					palindromes.add(val);
+				}
+				left++;
+			}
+		}
+
+		return palindromes;
+	}
+
+	public static int numberLength(long val) {
+		int len = 0;
+		while (val > 0) {
+			val /= 10;
+			len++;
+		}
+
+		return len;
+	}
 }
