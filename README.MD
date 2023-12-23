@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1875
+Count of solved tasks: 1876
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1649,6 +1649,7 @@ Count of solved tasks: 1875
 |2865|Medium|[Beautiful Towers I](https://leetcode.com/problems/beautiful-towers-i/)|[Beautiful Towers I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BeautifulTowersI.java)|
 |2869|Easy|[Minimum Operations to Collect Elements](https://leetcode.com/problems/minimum-operations-to-collect-elements/description/)|[Minimum Operations to Collect Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToCollectElements.java)|
 |2870|Medium|[Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/description/)|[Minimum Number of Operations to Make Array Empty.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeArrayEmpty.java)|
+|2871|Medium|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/)|[Split Array Into Maximum Number of Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayIntoMaximumNumberOfSubarrays.java)|
 |2899|Easy|[Last Visited Integers](https://leetcode.com/problems/last-visited-integers/)|[Last Visited Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LastVisitedIntegers.java)|
 |2900|Medium|[Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/)|[Longest Unequal Adjacent Groups Subsequence I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestUnequalAdjacentGroupsSubsequenceI.java)|
 |2901|Medium|[Longest Unequal Adjacent Groups Subsequence II](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii/description/)|[Longest Unequal Adjacent Groups Subsequence II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestUnequalAdjacentGroupsSubsequenceII.java)|
@@ -1684,7 +1685,7 @@ Count of solved tasks: 1875
 |2966|Medium|[Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)|[Divide Array Into Arrays With Max Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideArrayIntoArraysWithMaxDifference.java)|
 |2967|Medium|[Minimum Cost to Make Array Equalindromic](https://leetcode.com/problems/minimum-cost-to-make-array-equalindromic/description/)|[Minimum Cost to Make Array Equalindromic.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToMakeArrayEqualindromic.java)|
 |2970|Easy|[Count the Number of Incremovable Subarrays I](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/)|[Count the Number of Incremovable Subarrays I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfIncremovableSubarraysI.java)|
-|2971|Medium|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/)|[Split Array Into Maximum Number of Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayIntoMaximumNumberOfSubarrays.java)|</p>
+|2971|Medium|[Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/)|[Find Polygon With the Largest Perimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindPolygonWithTheLargestPerimeter.java)|</p>
 </details>
 
 <details>
@@ -2849,6 +2850,7 @@ Count of solved tasks: 1875
 |2861|Medium|[Maximum Number of Alloys](https://leetcode.com/problems/maximum-number-of-alloys/)|[Maximum Number of Alloys.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfAlloys.java)|
 |2865|Medium|[Beautiful Towers I](https://leetcode.com/problems/beautiful-towers-i/)|[Beautiful Towers I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BeautifulTowersI.java)|
 |2870|Medium|[Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/description/)|[Minimum Number of Operations to Make Array Empty.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeArrayEmpty.java)|
+|2871|Medium|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/)|[Split Array Into Maximum Number of Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayIntoMaximumNumberOfSubarrays.java)|
 |2900|Medium|[Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/)|[Longest Unequal Adjacent Groups Subsequence I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestUnequalAdjacentGroupsSubsequenceI.java)|
 |2901|Medium|[Longest Unequal Adjacent Groups Subsequence II](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii/description/)|[Longest Unequal Adjacent Groups Subsequence II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestUnequalAdjacentGroupsSubsequenceII.java)|
 |2909|Medium|[Minimum Sum of Mountain Triplets II](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii/)|[Minimum Sum of Mountain Triplets II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSumOfMountainTripletsII.java)|
@@ -2870,7 +2872,7 @@ Count of solved tasks: 1875
 |2961|Medium|[Double Modular Exponentiation](https://leetcode.com/problems/double-modular-exponentiation/)|[Double Modular Exponentiation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DoubleModularExponentiation.java)|
 |2966|Medium|[Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)|[Divide Array Into Arrays With Max Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideArrayIntoArraysWithMaxDifference.java)|
 |2967|Medium|[Minimum Cost to Make Array Equalindromic](https://leetcode.com/problems/minimum-cost-to-make-array-equalindromic/description/)|[Minimum Cost to Make Array Equalindromic.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToMakeArrayEqualindromic.java)|
-|2971|Medium|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/)|[Split Array Into Maximum Number of Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayIntoMaximumNumberOfSubarrays.java)|</p>
+|2971|Medium|[Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/)|[Find Polygon With the Largest Perimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindPolygonWithTheLargestPerimeter.java)|</p>
 </details>
 
 <details>

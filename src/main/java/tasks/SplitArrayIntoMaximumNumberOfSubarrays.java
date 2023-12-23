@@ -8,7 +8,7 @@ import common.LeetCode;
  * @created 9/30/2023
  */
 @LeetCode(
-		id = 2971,
+		id = 2871,
 		name = "Split Array Into Maximum Number of Subarrays",
 		url = "https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/description/",
 		difficulty = Difficulty.MEDIUM
