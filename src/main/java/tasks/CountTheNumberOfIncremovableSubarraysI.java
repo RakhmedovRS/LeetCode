@@ -11,7 +11,7 @@ import common.LeetCode;
 		id = 2970,
 		name = "Count the Number of Incremovable Subarrays I",
 		url = "https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/",
-		difficulty = Difficulty.MEDIUM
+		difficulty = Difficulty.EASY
 )
 public class CountTheNumberOfIncremovableSubarraysI {
 	public int incremovableSubarrayCount(int[] nums) {
