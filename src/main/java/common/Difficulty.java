@@ -1,5 +1,8 @@
 package common;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author RakhmedovRS
  * @created 11/14/2020
@@ -10,9 +13,20 @@ public enum Difficulty {
 	HARD("Hard"),
 	UNDEFINED("Undefined");
 
-	String name;
+	final String name;
+	final static Map<String, Difficulty> stringMap = new HashMap<>();
+
+	static {
+		for (Difficulty difficulty : Difficulty.values()) {
+			stringMap.put(difficulty.name, difficulty);
+		}
+	}
 
 	Difficulty(String name) {
 		this.name = name;
+	}
+
+	public static Difficulty getByName(String name) {
+		return stringMap.getOrDefault(name, Difficulty.UNDEFINED);
 	}
 }
