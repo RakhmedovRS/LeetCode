@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1877
+Count of solved tasks: 1878
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1686,7 +1686,8 @@ Count of solved tasks: 1877
 |2967|Medium|[Minimum Cost to Make Array Equalindromic](https://leetcode.com/problems/minimum-cost-to-make-array-equalindromic/description/)|[Minimum Cost to Make Array Equalindromic.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToMakeArrayEqualindromic.java)|
 |2970|Easy|[Count the Number of Incremovable Subarrays I](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/)|[Count the Number of Incremovable Subarrays I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfIncremovableSubarraysI.java)|
 |2971|Medium|[Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/)|[Find Polygon With the Largest Perimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindPolygonWithTheLargestPerimeter.java)|
-|2974|Easy|[Minimum Number Game](https://leetcode.com/problems/minimum-number-game/)|[Minimum Number Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberGame.java)|</p>
+|2974|Easy|[Minimum Number Game](https://leetcode.com/problems/minimum-number-game/)|[Minimum Number Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberGame.java)|
+|2975|Medium|[Maximum Square Area by Removing Fences From a Field](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/)|[Maximum Square Area by Removing Fences From a Field.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSquareAreaByRemovingFencesFromField.java)|</p>
 </details>
 
 <details>
@@ -2874,7 +2875,8 @@ Count of solved tasks: 1877
 |2961|Medium|[Double Modular Exponentiation](https://leetcode.com/problems/double-modular-exponentiation/)|[Double Modular Exponentiation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DoubleModularExponentiation.java)|
 |2966|Medium|[Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)|[Divide Array Into Arrays With Max Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideArrayIntoArraysWithMaxDifference.java)|
 |2967|Medium|[Minimum Cost to Make Array Equalindromic](https://leetcode.com/problems/minimum-cost-to-make-array-equalindromic/description/)|[Minimum Cost to Make Array Equalindromic.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToMakeArrayEqualindromic.java)|
-|2971|Medium|[Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/)|[Find Polygon With the Largest Perimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindPolygonWithTheLargestPerimeter.java)|</p>
+|2971|Medium|[Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/)|[Find Polygon With the Largest Perimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindPolygonWithTheLargestPerimeter.java)|
+|2975|Medium|[Maximum Square Area by Removing Fences From a Field](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/)|[Maximum Square Area by Removing Fences From a Field.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSquareAreaByRemovingFencesFromField.java)|</p>
 </details>
 
 <details>
