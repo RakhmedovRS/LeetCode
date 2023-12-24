@@ -18,7 +18,8 @@ public class TaskInfoHelper {
 
 	public static void main(String[] args) {
 		processUls(Arrays.asList(
-				"https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/"
+				"https://leetcode.com/problems/minimum-number-game/",
+				"https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/"
 		));
 	}
 
@@ -29,8 +30,8 @@ public class TaskInfoHelper {
 			String questionId = substractQuestionId(pageContent);
 			String questionName = substractQuestionName(pageContent);
 			Difficulty questionDifficulty = substractQuestionDifficulty(pageContent);
-			System.out.printf("%s@LeetCode(%sid = %s,%s name = \"%s\",%s url = \"%s\",%s difficulty = %s%s)",
-					System.lineSeparator(),
+			System.out.println("Class name -> " + prepareClassName(questionName));
+			System.out.printf("@LeetCode(%sid = %s,%s name = \"%s\",%s url = \"%s\",%s difficulty = %s%s)",
 					System.lineSeparator(),
 					questionId,
 					System.lineSeparator(),
@@ -40,6 +41,7 @@ public class TaskInfoHelper {
 					System.lineSeparator(),
 					Difficulty.class.getSimpleName() + "." + questionDifficulty,
 					System.lineSeparator());
+			System.out.println();
 		});
 	}
 
@@ -79,5 +81,17 @@ public class TaskInfoHelper {
 		int startPosition = pageContent.indexOf(questionDifficultyFieldName) + questionDifficultyFieldName.length();
 		int endPosition = pageContent.indexOf("\"", startPosition + 1);
 		return Difficulty.getByName(pageContent.substring(startPosition, endPosition));
+	}
+
+	private static String prepareClassName(String questionName) {
+		questionName = questionName.replace(" a ", " ");
+		StringBuilder sb = new StringBuilder();
+		for (String sub: questionName.split(" ")) {
+			char[] chars = sub.toCharArray();
+			chars[0] = Character.toUpperCase(chars[0]);
+			sb.append(chars);
+		}
+
+		return sb.toString();
 	}
 }
