@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1876
+Count of solved tasks: 1877
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1685,7 +1685,8 @@ Count of solved tasks: 1876
 |2966|Medium|[Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)|[Divide Array Into Arrays With Max Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideArrayIntoArraysWithMaxDifference.java)|
 |2967|Medium|[Minimum Cost to Make Array Equalindromic](https://leetcode.com/problems/minimum-cost-to-make-array-equalindromic/description/)|[Minimum Cost to Make Array Equalindromic.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToMakeArrayEqualindromic.java)|
 |2970|Easy|[Count the Number of Incremovable Subarrays I](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/)|[Count the Number of Incremovable Subarrays I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfIncremovableSubarraysI.java)|
-|2971|Medium|[Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/)|[Find Polygon With the Largest Perimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindPolygonWithTheLargestPerimeter.java)|</p>
+|2971|Medium|[Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/)|[Find Polygon With the Largest Perimeter.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindPolygonWithTheLargestPerimeter.java)|
+|2974|Easy|[Minimum Number Game](https://leetcode.com/problems/minimum-number-game/)|[Minimum Number Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberGame.java)|</p>
 </details>
 
 <details>
@@ -2097,7 +2098,8 @@ Count of solved tasks: 1876
 |2956|Easy|[Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/)|[Find Common Elements Between Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindCommonElementsBetweenTwoArrays.java)|
 |2960|Easy|[Count Tested Devices After Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/)|[Count Tested Devices After Test Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTestedDevicesAfterTestOperations.java)|
 |2965|Easy|[Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/)|[Find Missing and Repeated Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMissingAndRepeatedValues.java)|
-|2970|Easy|[Count the Number of Incremovable Subarrays I](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/)|[Count the Number of Incremovable Subarrays I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfIncremovableSubarraysI.java)|</p>
+|2970|Easy|[Count the Number of Incremovable Subarrays I](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/)|[Count the Number of Incremovable Subarrays I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfIncremovableSubarraysI.java)|
+|2974|Easy|[Minimum Number Game](https://leetcode.com/problems/minimum-number-game/)|[Minimum Number Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberGame.java)|</p>
 </details>
 
 <details>
