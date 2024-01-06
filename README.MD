@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1880
+Count of solved tasks: 1881
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1689,7 +1689,8 @@ Count of solved tasks: 1880
 |2974|Easy|[Minimum Number Game](https://leetcode.com/problems/minimum-number-game/)|[Minimum Number Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberGame.java)|
 |2975|Medium|[Maximum Square Area by Removing Fences From a Field](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/)|[Maximum Square Area by Removing Fences From a Field.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSquareAreaByRemovingFencesFromField.java)|
 |2980|Easy|[Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/description/)|[Check if Bitwise OR Has Trailing Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfBitwiseORHasTrailingZeros.java)|
-|2981|Medium|[Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/)|[Find Longest Special Substring That Occurs Thrice I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindLongestSpecialSubstringThatOccursThriceI.java)|</p>
+|2981|Medium|[Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/)|[Find Longest Special Substring That Occurs Thrice I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindLongestSpecialSubstringThatOccursThriceI.java)|
+|2996|Easy|[Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/)|[Smallest Missing Integer Greater Than Sequential Prefix Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestMissingIntegerGreaterThanSequentialPrefixSum.java)|</p>
 </details>
 
 <details>
@@ -2103,7 +2104,8 @@ Count of solved tasks: 1880
 |2965|Easy|[Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/)|[Find Missing and Repeated Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMissingAndRepeatedValues.java)|
 |2970|Easy|[Count the Number of Incremovable Subarrays I](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/)|[Count the Number of Incremovable Subarrays I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfIncremovableSubarraysI.java)|
 |2974|Easy|[Minimum Number Game](https://leetcode.com/problems/minimum-number-game/)|[Minimum Number Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberGame.java)|
-|2980|Easy|[Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/description/)|[Check if Bitwise OR Has Trailing Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfBitwiseORHasTrailingZeros.java)|</p>
+|2980|Easy|[Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/description/)|[Check if Bitwise OR Has Trailing Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfBitwiseORHasTrailingZeros.java)|
+|2996|Easy|[Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/)|[Smallest Missing Integer Greater Than Sequential Prefix Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestMissingIntegerGreaterThanSequentialPrefixSum.java)|</p>
 </details>
 
 <details>
