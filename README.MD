@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1884
+Count of solved tasks: 1885
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1693,7 +1693,8 @@ Count of solved tasks: 1884
 |2996|Easy|[Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/)|[Smallest Missing Integer Greater Than Sequential Prefix Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestMissingIntegerGreaterThanSequentialPrefixSum.java)|
 |2997|Medium|[Minimum Number of Operations to Make Array XOR Equal to K](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/)|[Minimum Number of Operations to Make Array XOR Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeArrayXOREqualToK.java)|
 |2998|Medium|[Minimum Number of Operations to Make X and Y Equal](https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/)|[Minimum Number of Operations to Make X and Y Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeXAndYEqual.java)|
-|3000|Easy|[Maximum Area of Longest Diagonal Rectangle](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/)|[Maximum Area of Longest Diagonal Rectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAreaOfLongestDiagonalRectangle.java)|</p>
+|3000|Easy|[Maximum Area of Longest Diagonal Rectangle](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/)|[Maximum Area of Longest Diagonal Rectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAreaOfLongestDiagonalRectangle.java)|
+|3001|Medium|[Minimum Moves to Capture The Queen](https://leetcode.com/problems/minimum-moves-to-capture-the-queen/)|[Minimum Moves to Capture The Queen.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToCaptureTheQueen.java)|</p>
 </details>
 
 <details>
@@ -2888,7 +2889,8 @@ Count of solved tasks: 1884
 |2975|Medium|[Maximum Square Area by Removing Fences From a Field](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/)|[Maximum Square Area by Removing Fences From a Field.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSquareAreaByRemovingFencesFromField.java)|
 |2981|Medium|[Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/)|[Find Longest Special Substring That Occurs Thrice I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindLongestSpecialSubstringThatOccursThriceI.java)|
 |2997|Medium|[Minimum Number of Operations to Make Array XOR Equal to K](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/)|[Minimum Number of Operations to Make Array XOR Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeArrayXOREqualToK.java)|
-|2998|Medium|[Minimum Number of Operations to Make X and Y Equal](https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/)|[Minimum Number of Operations to Make X and Y Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeXAndYEqual.java)|</p>
+|2998|Medium|[Minimum Number of Operations to Make X and Y Equal](https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/)|[Minimum Number of Operations to Make X and Y Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeXAndYEqual.java)|
+|3001|Medium|[Minimum Moves to Capture The Queen](https://leetcode.com/problems/minimum-moves-to-capture-the-queen/)|[Minimum Moves to Capture The Queen.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToCaptureTheQueen.java)|</p>
 </details>
 
 <details>
