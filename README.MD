@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1883
+Count of solved tasks: 1884
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1692,7 +1692,8 @@ Count of solved tasks: 1883
 |2981|Medium|[Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/)|[Find Longest Special Substring That Occurs Thrice I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindLongestSpecialSubstringThatOccursThriceI.java)|
 |2996|Easy|[Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/)|[Smallest Missing Integer Greater Than Sequential Prefix Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestMissingIntegerGreaterThanSequentialPrefixSum.java)|
 |2997|Medium|[Minimum Number of Operations to Make Array XOR Equal to K](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/)|[Minimum Number of Operations to Make Array XOR Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeArrayXOREqualToK.java)|
-|2998|Medium|[Minimum Number of Operations to Make X and Y Equal](https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/)|[Minimum Number of Operations to Make X and Y Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeXAndYEqual.java)|</p>
+|2998|Medium|[Minimum Number of Operations to Make X and Y Equal](https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/)|[Minimum Number of Operations to Make X and Y Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeXAndYEqual.java)|
+|3000|Easy|[Maximum Area of Longest Diagonal Rectangle](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/)|[Maximum Area of Longest Diagonal Rectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAreaOfLongestDiagonalRectangle.java)|</p>
 </details>
 
 <details>
@@ -2107,7 +2108,8 @@ Count of solved tasks: 1883
 |2970|Easy|[Count the Number of Incremovable Subarrays I](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/)|[Count the Number of Incremovable Subarrays I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfIncremovableSubarraysI.java)|
 |2974|Easy|[Minimum Number Game](https://leetcode.com/problems/minimum-number-game/)|[Minimum Number Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberGame.java)|
 |2980|Easy|[Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/description/)|[Check if Bitwise OR Has Trailing Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfBitwiseORHasTrailingZeros.java)|
-|2996|Easy|[Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/)|[Smallest Missing Integer Greater Than Sequential Prefix Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestMissingIntegerGreaterThanSequentialPrefixSum.java)|</p>
+|2996|Easy|[Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/)|[Smallest Missing Integer Greater Than Sequential Prefix Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestMissingIntegerGreaterThanSequentialPrefixSum.java)|
+|3000|Easy|[Maximum Area of Longest Diagonal Rectangle](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/)|[Maximum Area of Longest Diagonal Rectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAreaOfLongestDiagonalRectangle.java)|</p>
 </details>
 
 <details>
