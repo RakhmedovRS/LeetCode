@@ -179,4 +179,19 @@ public final class Helper {
 
 		return len;
 	}
+
+	public static boolean[] vowels() {
+		boolean[] vowels = new boolean['z' - 'A' + 1];
+		vowels['a' - 'A'] = true;
+		vowels['e' - 'A'] = true;
+		vowels['i' - 'A'] = true;
+		vowels['o' - 'A'] = true;
+		vowels['u' - 'A'] = true;
+		vowels['A' - 'A'] = true;
+		vowels['E' - 'A'] = true;
+		vowels['I' - 'A'] = true;
+		vowels['O' - 'A'] = true;
+		vowels['U' - 'A'] = true;
+		return vowels;
+	}
 }
