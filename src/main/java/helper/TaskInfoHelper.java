@@ -15,14 +15,9 @@ import java.util.Scanner;
  */
 public class TaskInfoHelper {
 
-
 	public static void main(String[] args) {
-		processUls(Arrays.asList(
-				"https://leetcode.com/problems/minimum-number-game/",
-				"https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/"
-		));
+		processUls(Arrays.asList(args));
 	}
-
 
 	private static void processUls(List<String> urls) {
 		urls.forEach(questionUrl -> {
