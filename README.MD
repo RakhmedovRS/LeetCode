@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1888
+Count of solved tasks: 1889
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1697,7 +1697,8 @@ Count of solved tasks: 1888
 |3001|Medium|[Minimum Moves to Capture The Queen](https://leetcode.com/problems/minimum-moves-to-capture-the-queen/)|[Minimum Moves to Capture The Queen.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToCaptureTheQueen.java)|
 |3005|Easy|[Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/description/)|[Count Elements With Maximum Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountElementsWithMaximumFrequency.java)|
 |3006|Medium|[Find Beautiful Indices in the Given Array I](https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i/description/)|[Find Beautiful Indices in the Given Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindBeautifulIndicesInTheGivenArrayI.java)|
-|3010|Easy|[Divide an Array Into Subarrays With Minimum Cost I](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/description/)|[Divide an Array Into Subarrays With Minimum Cost I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideAnArrayIntoSubarraysWithMinimumCostI.java)|</p>
+|3010|Easy|[Divide an Array Into Subarrays With Minimum Cost I](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/description/)|[Divide an Array Into Subarrays With Minimum Cost I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideAnArrayIntoSubarraysWithMinimumCostI.java)|
+|3011|Medium|[Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/description/)|[Find if Array Can Be Sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindIfArrayCanBeSorted.java)|</p>
 </details>
 
 <details>
@@ -2896,7 +2897,8 @@ Count of solved tasks: 1888
 |2997|Medium|[Minimum Number of Operations to Make Array XOR Equal to K](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/)|[Minimum Number of Operations to Make Array XOR Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeArrayXOREqualToK.java)|
 |2998|Medium|[Minimum Number of Operations to Make X and Y Equal](https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/)|[Minimum Number of Operations to Make X and Y Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeXAndYEqual.java)|
 |3001|Medium|[Minimum Moves to Capture The Queen](https://leetcode.com/problems/minimum-moves-to-capture-the-queen/)|[Minimum Moves to Capture The Queen.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToCaptureTheQueen.java)|
-|3006|Medium|[Find Beautiful Indices in the Given Array I](https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i/description/)|[Find Beautiful Indices in the Given Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindBeautifulIndicesInTheGivenArrayI.java)|</p>
+|3006|Medium|[Find Beautiful Indices in the Given Array I](https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i/description/)|[Find Beautiful Indices in the Given Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindBeautifulIndicesInTheGivenArrayI.java)|
+|3011|Medium|[Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/description/)|[Find if Array Can Be Sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindIfArrayCanBeSorted.java)|</p>
 </details>
 
 <details>
