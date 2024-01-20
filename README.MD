@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1887
+Count of solved tasks: 1888
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1696,7 +1696,8 @@ Count of solved tasks: 1887
 |3000|Easy|[Maximum Area of Longest Diagonal Rectangle](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/)|[Maximum Area of Longest Diagonal Rectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAreaOfLongestDiagonalRectangle.java)|
 |3001|Medium|[Minimum Moves to Capture The Queen](https://leetcode.com/problems/minimum-moves-to-capture-the-queen/)|[Minimum Moves to Capture The Queen.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToCaptureTheQueen.java)|
 |3005|Easy|[Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/description/)|[Count Elements With Maximum Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountElementsWithMaximumFrequency.java)|
-|3006|Medium|[Find Beautiful Indices in the Given Array I](https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i/description/)|[Find Beautiful Indices in the Given Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindBeautifulIndicesInTheGivenArrayI.java)|</p>
+|3006|Medium|[Find Beautiful Indices in the Given Array I](https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i/description/)|[Find Beautiful Indices in the Given Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindBeautifulIndicesInTheGivenArrayI.java)|
+|3010|Easy|[Divide an Array Into Subarrays With Minimum Cost I](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/description/)|[Divide an Array Into Subarrays With Minimum Cost I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideAnArrayIntoSubarraysWithMinimumCostI.java)|</p>
 </details>
 
 <details>
@@ -2113,7 +2114,8 @@ Count of solved tasks: 1887
 |2980|Easy|[Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/description/)|[Check if Bitwise OR Has Trailing Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfBitwiseORHasTrailingZeros.java)|
 |2996|Easy|[Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/)|[Smallest Missing Integer Greater Than Sequential Prefix Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestMissingIntegerGreaterThanSequentialPrefixSum.java)|
 |3000|Easy|[Maximum Area of Longest Diagonal Rectangle](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/)|[Maximum Area of Longest Diagonal Rectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAreaOfLongestDiagonalRectangle.java)|
-|3005|Easy|[Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/description/)|[Count Elements With Maximum Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountElementsWithMaximumFrequency.java)|</p>
+|3005|Easy|[Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/description/)|[Count Elements With Maximum Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountElementsWithMaximumFrequency.java)|
+|3010|Easy|[Divide an Array Into Subarrays With Minimum Cost I](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/description/)|[Divide an Array Into Subarrays With Minimum Cost I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideAnArrayIntoSubarraysWithMinimumCostI.java)|</p>
 </details>
 
 <details>
