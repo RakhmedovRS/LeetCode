@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1893
+Count of solved tasks: 1894
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1702,7 +1702,8 @@ Count of solved tasks: 1893
 |3014|Easy|[Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/description/)|[Minimum Number of Pushes to Type Word I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfPushesToTypeWordI.java)|
 |3015|Medium|[Count the Number of Houses at a Certain Distance I](https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i/description/)|[Count the Number of Houses at a Certain Distance I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfHousesAtCertainDistanceI.java)|
 |3016|Medium|[Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/)|[Minimum Number of Pushes to Type Word II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfPushesToTypeWordII.java)|
-|3019|Easy|[Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/description/)|[Number of Changing Keys.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfChangingKeys.java)|</p>
+|3019|Easy|[Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/description/)|[Number of Changing Keys.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfChangingKeys.java)|
+|3020|Medium|[Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/description/)|[Find the Maximum Number of Elements in Subset.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumNumberOfElementsInSubset.java)|</p>
 </details>
 
 <details>
@@ -2906,7 +2907,8 @@ Count of solved tasks: 1893
 |3006|Medium|[Find Beautiful Indices in the Given Array I](https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i/description/)|[Find Beautiful Indices in the Given Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindBeautifulIndicesInTheGivenArrayI.java)|
 |3011|Medium|[Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/description/)|[Find if Array Can Be Sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindIfArrayCanBeSorted.java)|
 |3015|Medium|[Count the Number of Houses at a Certain Distance I](https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i/description/)|[Count the Number of Houses at a Certain Distance I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfHousesAtCertainDistanceI.java)|
-|3016|Medium|[Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/)|[Minimum Number of Pushes to Type Word II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfPushesToTypeWordII.java)|</p>
+|3016|Medium|[Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/)|[Minimum Number of Pushes to Type Word II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfPushesToTypeWordII.java)|
+|3020|Medium|[Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/description/)|[Find the Maximum Number of Elements in Subset.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumNumberOfElementsInSubset.java)|</p>
 </details>
 
 <details>
