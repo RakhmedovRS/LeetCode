@@ -42,9 +42,13 @@ public class TaskInfoHelper {
 	}
 
 	public static void main(String[] args) throws IOException {
-		for (LeetCodeTask leetCodeTask : processUrls(Arrays.asList(args))) {
+		Scanner myObj = new Scanner(System.in);  // Create a Scanner object
+		System.out.println("Enter task's urls using comma as separator");
+		String urls = myObj.nextLine();
+		for (LeetCodeTask leetCodeTask : processUrls(Arrays.asList(urls.split(",")))) {
 			createFile(leetCodeTask.getClassName(), leetCodeTask.getAnnotation());
 		}
+		System.out.println("All objects got generated successfully");
 	}
 
 	private static void createFile(String fileName, String leetCodeAnnotation) throws IOException {
