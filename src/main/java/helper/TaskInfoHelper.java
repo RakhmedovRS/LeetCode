@@ -61,9 +61,10 @@ public class TaskInfoHelper {
 
 	private static void fillInFile(File outputFile, String fileAndClassName, String leetCodeAnnotation) throws IOException {
 		try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(outputFile))) {
-			bufferedWriter.write("package tasks;");
-			bufferedWriter.write("import common.Difficulty;");
-			bufferedWriter.write("import common.LeetCode;");
+			bufferedWriter.write("package tasks;" + System.lineSeparator());
+			bufferedWriter.write("import common.Difficulty;" + System.lineSeparator());
+			bufferedWriter.write("import common.LeetCode;" + System.lineSeparator());
+			bufferedWriter.write("import java.util.*;" + System.lineSeparator());
 			bufferedWriter.newLine();
 			bufferedWriter.write(prepareCommentForClass());
 			bufferedWriter.newLine();
