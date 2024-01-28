@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1892
+Count of solved tasks: 1893
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1701,7 +1701,8 @@ Count of solved tasks: 1892
 |3011|Medium|[Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/description/)|[Find if Array Can Be Sorted.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindIfArrayCanBeSorted.java)|
 |3014|Easy|[Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/description/)|[Minimum Number of Pushes to Type Word I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfPushesToTypeWordI.java)|
 |3015|Medium|[Count the Number of Houses at a Certain Distance I](https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i/description/)|[Count the Number of Houses at a Certain Distance I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfHousesAtCertainDistanceI.java)|
-|3016|Medium|[Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/)|[Minimum Number of Pushes to Type Word II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfPushesToTypeWordII.java)|</p>
+|3016|Medium|[Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/)|[Minimum Number of Pushes to Type Word II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfPushesToTypeWordII.java)|
+|3019|Easy|[Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/description/)|[Number of Changing Keys.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfChangingKeys.java)|</p>
 </details>
 
 <details>
@@ -2120,7 +2121,8 @@ Count of solved tasks: 1892
 |3000|Easy|[Maximum Area of Longest Diagonal Rectangle](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/)|[Maximum Area of Longest Diagonal Rectangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAreaOfLongestDiagonalRectangle.java)|
 |3005|Easy|[Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/description/)|[Count Elements With Maximum Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountElementsWithMaximumFrequency.java)|
 |3010|Easy|[Divide an Array Into Subarrays With Minimum Cost I](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/description/)|[Divide an Array Into Subarrays With Minimum Cost I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideAnArrayIntoSubarraysWithMinimumCostI.java)|
-|3014|Easy|[Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/description/)|[Minimum Number of Pushes to Type Word I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfPushesToTypeWordI.java)|</p>
+|3014|Easy|[Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/description/)|[Minimum Number of Pushes to Type Word I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfPushesToTypeWordI.java)|
+|3019|Easy|[Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/description/)|[Number of Changing Keys.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfChangingKeys.java)|</p>
 </details>
 
 <details>
