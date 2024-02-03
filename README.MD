@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1896
+Count of solved tasks: 1897
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1705,7 +1705,8 @@ Count of solved tasks: 1896
 |3019|Easy|[Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/description/)|[Number of Changing Keys.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfChangingKeys.java)|
 |3020|Medium|[Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/description/)|[Find the Maximum Number of Elements in Subset.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumNumberOfElementsInSubset.java)|
 |3021|Medium|[Alice and Bob Playing Flower Game](https://leetcode.com/problems/alice-and-bob-playing-flower-game/description/)|[Alice and Bob Playing Flower Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AliceAndBobPlayingFlowerGame.java)|
-|3024|Easy|[Type of Triangle II](https://leetcode.com/problems/type-of-triangle-ii/)|[Type of Triangle II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TypeOfTriangleII.java)|</p>
+|3024|Easy|[Type of Triangle II](https://leetcode.com/problems/type-of-triangle-ii/)|[Type of Triangle II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TypeOfTriangleII.java)|
+|3025|Medium|[Find the Number of Ways to Place People I](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/)|[Find the Number of Ways to Place People I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheNumberOfWaysToPlacePeopleI.java)|</p>
 </details>
 
 <details>
@@ -2912,7 +2913,8 @@ Count of solved tasks: 1896
 |3015|Medium|[Count the Number of Houses at a Certain Distance I](https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i/description/)|[Count the Number of Houses at a Certain Distance I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfHousesAtCertainDistanceI.java)|
 |3016|Medium|[Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/)|[Minimum Number of Pushes to Type Word II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfPushesToTypeWordII.java)|
 |3020|Medium|[Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/description/)|[Find the Maximum Number of Elements in Subset.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumNumberOfElementsInSubset.java)|
-|3021|Medium|[Alice and Bob Playing Flower Game](https://leetcode.com/problems/alice-and-bob-playing-flower-game/description/)|[Alice and Bob Playing Flower Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AliceAndBobPlayingFlowerGame.java)|</p>
+|3021|Medium|[Alice and Bob Playing Flower Game](https://leetcode.com/problems/alice-and-bob-playing-flower-game/description/)|[Alice and Bob Playing Flower Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AliceAndBobPlayingFlowerGame.java)|
+|3025|Medium|[Find the Number of Ways to Place People I](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/)|[Find the Number of Ways to Place People I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheNumberOfWaysToPlacePeopleI.java)|</p>
 </details>
 
 <details>
