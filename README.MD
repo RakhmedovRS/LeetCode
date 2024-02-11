@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1900
+Count of solved tasks: 1901
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1709,7 +1709,8 @@ Count of solved tasks: 1900
 |3025|Medium|[Find the Number of Ways to Place People I](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/)|[Find the Number of Ways to Place People I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheNumberOfWaysToPlacePeopleI.java)|
 |3026|Medium|[Maximum Good Subarray Sum](https://leetcode.com/problems/maximum-good-subarray-sum/)|[Maximum Good Subarray Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumGoodSubarraySum.java)|
 |3033|Easy|[Modify the Matrix](https://leetcode.com/problems/modify-the-matrix/description/)|[Modify the Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ModifyTheMatrix.java)|
-|3034|Medium|[Number of Subarrays That Match a Pattern I](https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-i/description/)|[Number of Subarrays That Match a Pattern I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysThatMatchPatternI.java)|</p>
+|3034|Medium|[Number of Subarrays That Match a Pattern I](https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-i/description/)|[Number of Subarrays That Match a Pattern I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysThatMatchPatternI.java)|
+|3035|Medium|[Maximum Palindromes After Operations](https://leetcode.com/problems/maximum-palindromes-after-operations/description/)|[Maximum Palindromes After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPalindromesAfterOperations.java)|</p>
 </details>
 
 <details>
@@ -2920,7 +2921,8 @@ Count of solved tasks: 1900
 |3021|Medium|[Alice and Bob Playing Flower Game](https://leetcode.com/problems/alice-and-bob-playing-flower-game/description/)|[Alice and Bob Playing Flower Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AliceAndBobPlayingFlowerGame.java)|
 |3025|Medium|[Find the Number of Ways to Place People I](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/)|[Find the Number of Ways to Place People I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheNumberOfWaysToPlacePeopleI.java)|
 |3026|Medium|[Maximum Good Subarray Sum](https://leetcode.com/problems/maximum-good-subarray-sum/)|[Maximum Good Subarray Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumGoodSubarraySum.java)|
-|3034|Medium|[Number of Subarrays That Match a Pattern I](https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-i/description/)|[Number of Subarrays That Match a Pattern I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysThatMatchPatternI.java)|</p>
+|3034|Medium|[Number of Subarrays That Match a Pattern I](https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-i/description/)|[Number of Subarrays That Match a Pattern I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysThatMatchPatternI.java)|
+|3035|Medium|[Maximum Palindromes After Operations](https://leetcode.com/problems/maximum-palindromes-after-operations/description/)|[Maximum Palindromes After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPalindromesAfterOperations.java)|</p>
 </details>
 
 <details>
