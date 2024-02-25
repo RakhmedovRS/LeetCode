@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1901
+Count of solved tasks: 1902
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1710,7 +1710,8 @@ Count of solved tasks: 1901
 |3026|Medium|[Maximum Good Subarray Sum](https://leetcode.com/problems/maximum-good-subarray-sum/)|[Maximum Good Subarray Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumGoodSubarraySum.java)|
 |3033|Easy|[Modify the Matrix](https://leetcode.com/problems/modify-the-matrix/description/)|[Modify the Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ModifyTheMatrix.java)|
 |3034|Medium|[Number of Subarrays That Match a Pattern I](https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-i/description/)|[Number of Subarrays That Match a Pattern I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysThatMatchPatternI.java)|
-|3035|Medium|[Maximum Palindromes After Operations](https://leetcode.com/problems/maximum-palindromes-after-operations/description/)|[Maximum Palindromes After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPalindromesAfterOperations.java)|</p>
+|3035|Medium|[Maximum Palindromes After Operations](https://leetcode.com/problems/maximum-palindromes-after-operations/description/)|[Maximum Palindromes After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPalindromesAfterOperations.java)|
+|3046|Easy|[Split the Array](https://leetcode.com/problems/split-the-array/description/)|[Split the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitTheArray.java)|</p>
 </details>
 
 <details>
@@ -2132,7 +2133,8 @@ Count of solved tasks: 1901
 |3014|Easy|[Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/description/)|[Minimum Number of Pushes to Type Word I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfPushesToTypeWordI.java)|
 |3019|Easy|[Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/description/)|[Number of Changing Keys.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfChangingKeys.java)|
 |3024|Easy|[Type of Triangle II](https://leetcode.com/problems/type-of-triangle-ii/)|[Type of Triangle II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TypeOfTriangleII.java)|
-|3033|Easy|[Modify the Matrix](https://leetcode.com/problems/modify-the-matrix/description/)|[Modify the Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ModifyTheMatrix.java)|</p>
+|3033|Easy|[Modify the Matrix](https://leetcode.com/problems/modify-the-matrix/description/)|[Modify the Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ModifyTheMatrix.java)|
+|3046|Easy|[Split the Array](https://leetcode.com/problems/split-the-array/description/)|[Split the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitTheArray.java)|</p>
 </details>
 
 <details>
