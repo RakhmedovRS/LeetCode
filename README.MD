@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1907
+Count of solved tasks: 1908
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1716,7 +1716,8 @@ Count of solved tasks: 1907
 |3065|Easy|[Minimum Operations to Exceed Threshold Value I](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/description/)|[Minimum Operations to Exceed Threshold Value I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToExceedThresholdValueI.java)|
 |3066|Medium|[Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/)|[Minimum Operations to Exceed Threshold Value II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToExceedThresholdValueII.java)|
 |3069|Easy|[Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/)|[Distribute Elements Into Two Arrays I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DistributeElementsIntoTwoArraysI.java)|
-|3070|Medium|[Count Submatrices with Top-Left Element and Sum Less Than k](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/)|[Count Submatrices with Top-Left Element and Sum Less Than k.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubmatricesWithTopLeftElementAndSumLessThanK.java)|</p>
+|3070|Medium|[Count Submatrices with Top-Left Element and Sum Less Than k](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/)|[Count Submatrices with Top-Left Element and Sum Less Than k.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubmatricesWithTopLeftElementAndSumLessThanK.java)|
+|3071|Medium|[Minimum Operations to Write the Letter Y on a Grid](https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/)|[Minimum Operations to Write the Letter Y on a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToWriteTheLetterYOnGrid.java)|</p>
 </details>
 
 <details>
@@ -2934,7 +2935,8 @@ Count of solved tasks: 1907
 |3035|Medium|[Maximum Palindromes After Operations](https://leetcode.com/problems/maximum-palindromes-after-operations/description/)|[Maximum Palindromes After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPalindromesAfterOperations.java)|
 |3047|Medium|[Find the Largest Area of Square Inside Two Rectangles](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/description/)|[Find the Largest Area of Square Inside Two Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLargestAreaOfSquareInsideTwoRectangles.java)|
 |3066|Medium|[Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/)|[Minimum Operations to Exceed Threshold Value II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToExceedThresholdValueII.java)|
-|3070|Medium|[Count Submatrices with Top-Left Element and Sum Less Than k](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/)|[Count Submatrices with Top-Left Element and Sum Less Than k.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubmatricesWithTopLeftElementAndSumLessThanK.java)|</p>
+|3070|Medium|[Count Submatrices with Top-Left Element and Sum Less Than k](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/)|[Count Submatrices with Top-Left Element and Sum Less Than k.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubmatricesWithTopLeftElementAndSumLessThanK.java)|
+|3071|Medium|[Minimum Operations to Write the Letter Y on a Grid](https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/)|[Minimum Operations to Write the Letter Y on a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToWriteTheLetterYOnGrid.java)|</p>
 </details>
 
 <details>
