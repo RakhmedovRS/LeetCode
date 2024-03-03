@@ -141,6 +141,7 @@ public class TaskInfoHelper {
 
 	private static String prepareClassName(String questionName) {
 		questionName = questionName.replace(" a ", " ");
+		questionName = questionName.replace("-", "");
 		StringBuilder sb = new StringBuilder();
 		for (String sub : questionName.split(" ")) {
 			char[] chars = sub.toCharArray();
