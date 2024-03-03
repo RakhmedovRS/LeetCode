@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1904
+Count of solved tasks: 1905
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1713,7 +1713,8 @@ Count of solved tasks: 1904
 |3035|Medium|[Maximum Palindromes After Operations](https://leetcode.com/problems/maximum-palindromes-after-operations/description/)|[Maximum Palindromes After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPalindromesAfterOperations.java)|
 |3046|Easy|[Split the Array](https://leetcode.com/problems/split-the-array/description/)|[Split the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitTheArray.java)|
 |3047|Medium|[Find the Largest Area of Square Inside Two Rectangles](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/description/)|[Find the Largest Area of Square Inside Two Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLargestAreaOfSquareInsideTwoRectangles.java)|
-|3065|Easy|[Minimum Operations to Exceed Threshold Value I](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/description/)|[Minimum Operations to Exceed Threshold Value I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToExceedThresholdValueI.java)|</p>
+|3065|Easy|[Minimum Operations to Exceed Threshold Value I](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/description/)|[Minimum Operations to Exceed Threshold Value I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToExceedThresholdValueI.java)|
+|3066|Medium|[Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/)|[Minimum Operations to Exceed Threshold Value II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToExceedThresholdValueII.java)|</p>
 </details>
 
 <details>
@@ -2928,7 +2929,8 @@ Count of solved tasks: 1904
 |3026|Medium|[Maximum Good Subarray Sum](https://leetcode.com/problems/maximum-good-subarray-sum/)|[Maximum Good Subarray Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumGoodSubarraySum.java)|
 |3034|Medium|[Number of Subarrays That Match a Pattern I](https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-i/description/)|[Number of Subarrays That Match a Pattern I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubarraysThatMatchPatternI.java)|
 |3035|Medium|[Maximum Palindromes After Operations](https://leetcode.com/problems/maximum-palindromes-after-operations/description/)|[Maximum Palindromes After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPalindromesAfterOperations.java)|
-|3047|Medium|[Find the Largest Area of Square Inside Two Rectangles](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/description/)|[Find the Largest Area of Square Inside Two Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLargestAreaOfSquareInsideTwoRectangles.java)|</p>
+|3047|Medium|[Find the Largest Area of Square Inside Two Rectangles](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/description/)|[Find the Largest Area of Square Inside Two Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLargestAreaOfSquareInsideTwoRectangles.java)|
+|3066|Medium|[Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/)|[Minimum Operations to Exceed Threshold Value II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToExceedThresholdValueII.java)|</p>
 </details>
 
 <details>
