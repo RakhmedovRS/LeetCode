@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1909
+Count of solved tasks: 1910
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1718,7 +1718,8 @@ Count of solved tasks: 1909
 |3069|Easy|[Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/)|[Distribute Elements Into Two Arrays I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DistributeElementsIntoTwoArraysI.java)|
 |3070|Medium|[Count Submatrices with Top-Left Element and Sum Less Than k](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/)|[Count Submatrices with Top-Left Element and Sum Less Than k.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubmatricesWithTopLeftElementAndSumLessThanK.java)|
 |3071|Medium|[Minimum Operations to Write the Letter Y on a Grid](https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/)|[Minimum Operations to Write the Letter Y on a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToWriteTheLetterYOnGrid.java)|
-|3074|Easy|[Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/)|[Apple Redistribution into Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppleRedistributionIntoBoxes.java)|</p>
+|3074|Easy|[Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/)|[Apple Redistribution into Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppleRedistributionIntoBoxes.java)|
+|3075|Medium|[Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/description/)|[Maximize Happiness of Selected Children.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeHappinessOfSelectedChildren.java)|</p>
 </details>
 
 <details>
@@ -2938,7 +2939,8 @@ Count of solved tasks: 1909
 |3047|Medium|[Find the Largest Area of Square Inside Two Rectangles](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/description/)|[Find the Largest Area of Square Inside Two Rectangles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLargestAreaOfSquareInsideTwoRectangles.java)|
 |3066|Medium|[Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/)|[Minimum Operations to Exceed Threshold Value II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToExceedThresholdValueII.java)|
 |3070|Medium|[Count Submatrices with Top-Left Element and Sum Less Than k](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/)|[Count Submatrices with Top-Left Element and Sum Less Than k.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubmatricesWithTopLeftElementAndSumLessThanK.java)|
-|3071|Medium|[Minimum Operations to Write the Letter Y on a Grid](https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/)|[Minimum Operations to Write the Letter Y on a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToWriteTheLetterYOnGrid.java)|</p>
+|3071|Medium|[Minimum Operations to Write the Letter Y on a Grid](https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/)|[Minimum Operations to Write the Letter Y on a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToWriteTheLetterYOnGrid.java)|
+|3075|Medium|[Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/description/)|[Maximize Happiness of Selected Children.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeHappinessOfSelectedChildren.java)|</p>
 </details>
 
 <details>
