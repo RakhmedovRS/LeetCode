@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1908
+Count of solved tasks: 1909
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1717,7 +1717,8 @@ Count of solved tasks: 1908
 |3066|Medium|[Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/)|[Minimum Operations to Exceed Threshold Value II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToExceedThresholdValueII.java)|
 |3069|Easy|[Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/)|[Distribute Elements Into Two Arrays I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DistributeElementsIntoTwoArraysI.java)|
 |3070|Medium|[Count Submatrices with Top-Left Element and Sum Less Than k](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/)|[Count Submatrices with Top-Left Element and Sum Less Than k.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubmatricesWithTopLeftElementAndSumLessThanK.java)|
-|3071|Medium|[Minimum Operations to Write the Letter Y on a Grid](https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/)|[Minimum Operations to Write the Letter Y on a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToWriteTheLetterYOnGrid.java)|</p>
+|3071|Medium|[Minimum Operations to Write the Letter Y on a Grid](https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/)|[Minimum Operations to Write the Letter Y on a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToWriteTheLetterYOnGrid.java)|
+|3074|Easy|[Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/)|[Apple Redistribution into Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppleRedistributionIntoBoxes.java)|</p>
 </details>
 
 <details>
@@ -2142,7 +2143,8 @@ Count of solved tasks: 1908
 |3033|Easy|[Modify the Matrix](https://leetcode.com/problems/modify-the-matrix/description/)|[Modify the Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ModifyTheMatrix.java)|
 |3046|Easy|[Split the Array](https://leetcode.com/problems/split-the-array/description/)|[Split the Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitTheArray.java)|
 |3065|Easy|[Minimum Operations to Exceed Threshold Value I](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/description/)|[Minimum Operations to Exceed Threshold Value I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToExceedThresholdValueI.java)|
-|3069|Easy|[Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/)|[Distribute Elements Into Two Arrays I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DistributeElementsIntoTwoArraysI.java)|</p>
+|3069|Easy|[Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/)|[Distribute Elements Into Two Arrays I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DistributeElementsIntoTwoArraysI.java)|
+|3074|Easy|[Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/)|[Apple Redistribution into Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppleRedistributionIntoBoxes.java)|</p>
 </details>
 
 <details>
