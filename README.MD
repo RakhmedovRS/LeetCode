@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1912
+Count of solved tasks: 1913
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1721,6 +1721,7 @@ Count of solved tasks: 1912
 |3074|Easy|[Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/)|[Apple Redistribution into Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppleRedistributionIntoBoxes.java)|
 |3075|Medium|[Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/description/)|[Maximize Happiness of Selected Children.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeHappinessOfSelectedChildren.java)|
 |3076|Medium|[Shortest Uncommon Substring in an Array](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/description/)|[Shortest Uncommon Substring in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestUncommonSubstringInArray.java)|
+|3081|Medium|[Count Substrings Starting and Ending with Given Character](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/description/)|[Count Substrings Starting and Ending with Given Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsStartingAndEndingWithGivenCharacter.java)|
 |3083|Easy|[Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/description/)|[Existence of a Substring in a String and Its Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExistenceOfSubstringInStringAndItsReverse.java)|</p>
 </details>
 
@@ -2944,7 +2945,8 @@ Count of solved tasks: 1912
 |3070|Medium|[Count Submatrices with Top-Left Element and Sum Less Than k](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/)|[Count Submatrices with Top-Left Element and Sum Less Than k.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubmatricesWithTopLeftElementAndSumLessThanK.java)|
 |3071|Medium|[Minimum Operations to Write the Letter Y on a Grid](https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/)|[Minimum Operations to Write the Letter Y on a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToWriteTheLetterYOnGrid.java)|
 |3075|Medium|[Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/description/)|[Maximize Happiness of Selected Children.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeHappinessOfSelectedChildren.java)|
-|3076|Medium|[Shortest Uncommon Substring in an Array](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/description/)|[Shortest Uncommon Substring in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestUncommonSubstringInArray.java)|</p>
+|3076|Medium|[Shortest Uncommon Substring in an Array](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/description/)|[Shortest Uncommon Substring in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestUncommonSubstringInArray.java)|
+|3081|Medium|[Count Substrings Starting and Ending with Given Character](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/description/)|[Count Substrings Starting and Ending with Given Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsStartingAndEndingWithGivenCharacter.java)|</p>
 </details>
 
 <details>
