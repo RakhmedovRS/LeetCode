@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1913
+Count of solved tasks: 1914
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1722,7 +1722,8 @@ Count of solved tasks: 1913
 |3075|Medium|[Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/description/)|[Maximize Happiness of Selected Children.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeHappinessOfSelectedChildren.java)|
 |3076|Medium|[Shortest Uncommon Substring in an Array](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/description/)|[Shortest Uncommon Substring in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestUncommonSubstringInArray.java)|
 |3081|Medium|[Count Substrings Starting and Ending with Given Character](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/description/)|[Count Substrings Starting and Ending with Given Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsStartingAndEndingWithGivenCharacter.java)|
-|3083|Easy|[Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/description/)|[Existence of a Substring in a String and Its Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExistenceOfSubstringInStringAndItsReverse.java)|</p>
+|3083|Easy|[Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/description/)|[Existence of a Substring in a String and Its Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExistenceOfSubstringInStringAndItsReverse.java)|
+|3085|Medium|[Minimum Deletions to Make String K-Special](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/description/)|[Minimum Deletions to Make String K-Special.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeStringKSpecial.java)|</p>
 </details>
 
 <details>
@@ -2946,7 +2947,8 @@ Count of solved tasks: 1913
 |3071|Medium|[Minimum Operations to Write the Letter Y on a Grid](https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/)|[Minimum Operations to Write the Letter Y on a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToWriteTheLetterYOnGrid.java)|
 |3075|Medium|[Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/description/)|[Maximize Happiness of Selected Children.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeHappinessOfSelectedChildren.java)|
 |3076|Medium|[Shortest Uncommon Substring in an Array](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/description/)|[Shortest Uncommon Substring in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestUncommonSubstringInArray.java)|
-|3081|Medium|[Count Substrings Starting and Ending with Given Character](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/description/)|[Count Substrings Starting and Ending with Given Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsStartingAndEndingWithGivenCharacter.java)|</p>
+|3081|Medium|[Count Substrings Starting and Ending with Given Character](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/description/)|[Count Substrings Starting and Ending with Given Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsStartingAndEndingWithGivenCharacter.java)|
+|3085|Medium|[Minimum Deletions to Make String K-Special](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/description/)|[Minimum Deletions to Make String K-Special.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeStringKSpecial.java)|</p>
 </details>
 
 <details>
