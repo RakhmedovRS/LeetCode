@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1914
+Count of solved tasks: 1915
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1721,6 +1721,7 @@ Count of solved tasks: 1914
 |3074|Easy|[Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/)|[Apple Redistribution into Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppleRedistributionIntoBoxes.java)|
 |3075|Medium|[Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/description/)|[Maximize Happiness of Selected Children.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeHappinessOfSelectedChildren.java)|
 |3076|Medium|[Shortest Uncommon Substring in an Array](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/description/)|[Shortest Uncommon Substring in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestUncommonSubstringInArray.java)|
+|3079|Easy|[Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/description/)|[Find the Sum of Encrypted Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheSumOfEncryptedIntegers.java)|
 |3081|Medium|[Count Substrings Starting and Ending with Given Character](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/description/)|[Count Substrings Starting and Ending with Given Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsStartingAndEndingWithGivenCharacter.java)|
 |3083|Easy|[Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/description/)|[Existence of a Substring in a String and Its Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExistenceOfSubstringInStringAndItsReverse.java)|
 |3085|Medium|[Minimum Deletions to Make String K-Special](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/description/)|[Minimum Deletions to Make String K-Special.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeStringKSpecial.java)|</p>
@@ -2150,6 +2151,7 @@ Count of solved tasks: 1914
 |3065|Easy|[Minimum Operations to Exceed Threshold Value I](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/description/)|[Minimum Operations to Exceed Threshold Value I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToExceedThresholdValueI.java)|
 |3069|Easy|[Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/)|[Distribute Elements Into Two Arrays I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DistributeElementsIntoTwoArraysI.java)|
 |3074|Easy|[Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/)|[Apple Redistribution into Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppleRedistributionIntoBoxes.java)|
+|3079|Easy|[Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/description/)|[Find the Sum of Encrypted Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheSumOfEncryptedIntegers.java)|
 |3083|Easy|[Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/description/)|[Existence of a Substring in a String and Its Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExistenceOfSubstringInStringAndItsReverse.java)|</p>
 </details>
 

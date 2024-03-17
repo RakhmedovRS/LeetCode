@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -45,27 +46,6 @@ import java.util.stream.Collectors;
 public class Contest {
 	int MOD = 1_000_000_007;
 
-	public int sumOfEncryptedInt(int[] nums) {
-		int sum = 0;
-		for (int num : nums) {
-			int max = 0;
-			int count = 0;
-			while (num > 0) {
-				max = Math.max(max, num % 10);
-				num /= 10;
-				count++;
-			}
-			int newNum = 0;
-			while (count-- > 0) {
-				newNum *= 10;
-				newNum += max;
-			}
-
-
-			sum += newNum;
-		}
-		return sum;
-	}
 
 
 	public static void main(String[] args) throws Exception {
