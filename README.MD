@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1917
+Count of solved tasks: 1918
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1726,7 +1726,8 @@ Count of solved tasks: 1917
 |3081|Medium|[Count Substrings Starting and Ending with Given Character](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/description/)|[Count Substrings Starting and Ending with Given Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsStartingAndEndingWithGivenCharacter.java)|
 |3083|Easy|[Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/description/)|[Existence of a Substring in a String and Its Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExistenceOfSubstringInStringAndItsReverse.java)|
 |3085|Medium|[Minimum Deletions to Make String K-Special](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/description/)|[Minimum Deletions to Make String K-Special.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeStringKSpecial.java)|
-|3090|Easy|[Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/description/)|[Maximum Length Substring With Two Occurrences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumLengthSubstringWithTwoOccurrences.java)|</p>
+|3090|Easy|[Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/description/)|[Maximum Length Substring With Two Occurrences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumLengthSubstringWithTwoOccurrences.java)|
+|3091|Medium|[Apply Operations to Make Sum of Array Greater Than or Equal to k](https://leetcode.com/problems/apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/description/)|[Apply Operations to Make Sum of Array Greater Than or Equal to k.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyOperationsToMakeSumOfArrayGreaterThanOrEqualToK.java)|</p>
 </details>
 
 <details>
@@ -2954,7 +2955,8 @@ Count of solved tasks: 1917
 |3075|Medium|[Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/description/)|[Maximize Happiness of Selected Children.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeHappinessOfSelectedChildren.java)|
 |3076|Medium|[Shortest Uncommon Substring in an Array](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/description/)|[Shortest Uncommon Substring in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestUncommonSubstringInArray.java)|
 |3081|Medium|[Count Substrings Starting and Ending with Given Character](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/description/)|[Count Substrings Starting and Ending with Given Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsStartingAndEndingWithGivenCharacter.java)|
-|3085|Medium|[Minimum Deletions to Make String K-Special](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/description/)|[Minimum Deletions to Make String K-Special.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeStringKSpecial.java)|</p>
+|3085|Medium|[Minimum Deletions to Make String K-Special](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/description/)|[Minimum Deletions to Make String K-Special.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeStringKSpecial.java)|
+|3091|Medium|[Apply Operations to Make Sum of Array Greater Than or Equal to k](https://leetcode.com/problems/apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/description/)|[Apply Operations to Make Sum of Array Greater Than or Equal to k.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyOperationsToMakeSumOfArrayGreaterThanOrEqualToK.java)|</p>
 </details>
 
 <details>
