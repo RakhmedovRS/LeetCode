@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1919
+Count of solved tasks: 1920
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1728,7 +1728,8 @@ Count of solved tasks: 1919
 |3085|Medium|[Minimum Deletions to Make String K-Special](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/description/)|[Minimum Deletions to Make String K-Special.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeStringKSpecial.java)|
 |3090|Easy|[Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/description/)|[Maximum Length Substring With Two Occurrences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumLengthSubstringWithTwoOccurrences.java)|
 |3091|Medium|[Apply Operations to Make Sum of Array Greater Than or Equal to k](https://leetcode.com/problems/apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/description/)|[Apply Operations to Make Sum of Array Greater Than or Equal to k.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyOperationsToMakeSumOfArrayGreaterThanOrEqualToK.java)|
-|3092|Medium|[Most Frequent IDs](https://leetcode.com/problems/most-frequent-ids/description/)|[Most Frequent IDs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostFrequentIDs.java)|</p>
+|3092|Medium|[Most Frequent IDs](https://leetcode.com/problems/most-frequent-ids/description/)|[Most Frequent IDs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostFrequentIDs.java)|
+|3093|Hard|[Longest Common Suffix Queries](https://leetcode.com/problems/longest-common-suffix-queries/description/)|[Longest Common Suffix Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestCommonSuffixQueries.java)|</p>
 </details>
 
 <details>
@@ -3071,7 +3072,8 @@ Count of solved tasks: 1919
 |2493|Hard|[Divide Nodes Into the Maximum Number of Groups](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/)|[Divide Nodes Into the Maximum Number of Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivideNodesIntoTheMaximumNumberOfGroups.java)|
 |2547|Hard|[Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array/)|[Minimum Cost to Split an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToSplitArray.java)|
 |2585|Hard|[Number of Ways to Earn Points](https://leetcode.com/problems/number-of-ways-to-earn-points/)|[Number of Ways to Earn Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfWaysToEarnPoints.java)|
-|2642|Hard|[Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/)|[Design Graph With Shortest Path Calculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignGraphWithShortestPathCalculator.java)|</p>
+|2642|Hard|[Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/)|[Design Graph With Shortest Path Calculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignGraphWithShortestPathCalculator.java)|
+|3093|Hard|[Longest Common Suffix Queries](https://leetcode.com/problems/longest-common-suffix-queries/description/)|[Longest Common Suffix Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestCommonSuffixQueries.java)|</p>
 </details>
 
 <details>
