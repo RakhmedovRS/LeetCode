@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1916
+Count of solved tasks: 1917
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1725,7 +1725,8 @@ Count of solved tasks: 1916
 |3079|Easy|[Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/description/)|[Find the Sum of Encrypted Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheSumOfEncryptedIntegers.java)|
 |3081|Medium|[Count Substrings Starting and Ending with Given Character](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/description/)|[Count Substrings Starting and Ending with Given Character.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsStartingAndEndingWithGivenCharacter.java)|
 |3083|Easy|[Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/description/)|[Existence of a Substring in a String and Its Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExistenceOfSubstringInStringAndItsReverse.java)|
-|3085|Medium|[Minimum Deletions to Make String K-Special](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/description/)|[Minimum Deletions to Make String K-Special.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeStringKSpecial.java)|</p>
+|3085|Medium|[Minimum Deletions to Make String K-Special](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/description/)|[Minimum Deletions to Make String K-Special.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeStringKSpecial.java)|
+|3090|Easy|[Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/description/)|[Maximum Length Substring With Two Occurrences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumLengthSubstringWithTwoOccurrences.java)|</p>
 </details>
 
 <details>
@@ -2153,7 +2154,8 @@ Count of solved tasks: 1916
 |3069|Easy|[Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/)|[Distribute Elements Into Two Arrays I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DistributeElementsIntoTwoArraysI.java)|
 |3074|Easy|[Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/)|[Apple Redistribution into Boxes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AppleRedistributionIntoBoxes.java)|
 |3079|Easy|[Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/description/)|[Find the Sum of Encrypted Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheSumOfEncryptedIntegers.java)|
-|3083|Easy|[Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/description/)|[Existence of a Substring in a String and Its Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExistenceOfSubstringInStringAndItsReverse.java)|</p>
+|3083|Easy|[Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/description/)|[Existence of a Substring in a String and Its Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExistenceOfSubstringInStringAndItsReverse.java)|
+|3090|Easy|[Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/description/)|[Maximum Length Substring With Two Occurrences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumLengthSubstringWithTwoOccurrences.java)|</p>
 </details>
 
 <details>
