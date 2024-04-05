@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1924
+Count of solved tasks: 1925
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -3285,6 +3285,7 @@ Count of solved tasks: 1924
 |1874|Medium|[Minimize Product Sum of Two Arrays](https://leetcode.com/problems/minimize-product-sum-of-two-arrays/)|[Minimize Product Sum of Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeProductSumOfTwoArrays.java)|
 |1902|Medium|[Depth of BST Given Insertion Order](https://leetcode.com/problems/depth-of-bst-given-insertion-order/)|[Depth of BST Given Insertion Order.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DepthOfBSTGivenInsertionOrder.java)|
 |2046|Medium|[Sort Linked List Already Sorted Using Absolute Values](https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values/)|[Sort Linked List Already Sorted Using Absolute Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortLinkedListAlreadySortedUsingAbsoluteValues.java)|
+|3063|Easy|[Linked List Frequency](https://leetcode.com/problems/linked-list-frequency/description/)|[Linked List Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LinkedListFrequency.java)|
 |3064|Medium|[Guess the Number Using Bitwise Questions I](https://leetcode.com/problems/guess-the-number-using-bitwise-questions-i/description/)|[Guess the Number Using Bitwise Questions I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GuessTheNumberUsingBitwiseQuestionsI.java)|</p>
 </details>
 
