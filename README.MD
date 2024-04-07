@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1925
+Count of solved tasks: 1926
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1732,7 +1732,8 @@ Count of solved tasks: 1925
 |3093|Hard|[Longest Common Suffix Queries](https://leetcode.com/problems/longest-common-suffix-queries/description/)|[Longest Common Suffix Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestCommonSuffixQueries.java)|
 |3095|Easy|[Shortest Subarray With OR at Least K I](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-i/description/)|[Shortest Subarray With OR at Least K I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestSubarrayWithORAtLeastKI.java)|
 |3096|Medium|[Minimum Levels to Gain More Points](https://leetcode.com/problems/minimum-levels-to-gain-more-points/description/)|[Minimum Levels to Gain More Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumLevelsToGainMorePoints.java)|
-|3097|Medium|[Shortest Subarray With OR at Least K II](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/description/)|[Shortest Subarray With OR at Least K II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestSubarrayWithORAtLeastKII.java)|</p>
+|3097|Medium|[Shortest Subarray With OR at Least K II](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/description/)|[Shortest Subarray With OR at Least K II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestSubarrayWithORAtLeastKII.java)|
+|3105|Easy|[Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/description/)|[Longest Strictly Increasing or Strictly Decreasing Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestStrictlyIncreasingOrStrictlyDecreasingSubarray.java)|</p>
 </details>
 
 <details>
@@ -2162,7 +2163,8 @@ Count of solved tasks: 1925
 |3079|Easy|[Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/description/)|[Find the Sum of Encrypted Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheSumOfEncryptedIntegers.java)|
 |3083|Easy|[Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/description/)|[Existence of a Substring in a String and Its Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExistenceOfSubstringInStringAndItsReverse.java)|
 |3090|Easy|[Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/description/)|[Maximum Length Substring With Two Occurrences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumLengthSubstringWithTwoOccurrences.java)|
-|3095|Easy|[Shortest Subarray With OR at Least K I](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-i/description/)|[Shortest Subarray With OR at Least K I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestSubarrayWithORAtLeastKI.java)|</p>
+|3095|Easy|[Shortest Subarray With OR at Least K I](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-i/description/)|[Shortest Subarray With OR at Least K I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestSubarrayWithORAtLeastKI.java)|
+|3105|Easy|[Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/description/)|[Longest Strictly Increasing or Strictly Decreasing Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestStrictlyIncreasingOrStrictlyDecreasingSubarray.java)|</p>
 </details>
 
 <details>
