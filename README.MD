@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1927
+Count of solved tasks: 1928
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1734,7 +1734,8 @@ Count of solved tasks: 1927
 |3096|Medium|[Minimum Levels to Gain More Points](https://leetcode.com/problems/minimum-levels-to-gain-more-points/description/)|[Minimum Levels to Gain More Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumLevelsToGainMorePoints.java)|
 |3097|Medium|[Shortest Subarray With OR at Least K II](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/description/)|[Shortest Subarray With OR at Least K II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestSubarrayWithORAtLeastKII.java)|
 |3105|Easy|[Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/description/)|[Longest Strictly Increasing or Strictly Decreasing Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestStrictlyIncreasingOrStrictlyDecreasingSubarray.java)|
-|3106|Medium|[Lexicographically Smallest String After Operations With Constraint](https://leetcode.com/problems/lexicographically-smallest-string-after-operations-with-constraint/description/)|[Lexicographically Smallest String After Operations With Constraint.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterOperationsWithConstraint.java)|</p>
+|3106|Medium|[Lexicographically Smallest String After Operations With Constraint](https://leetcode.com/problems/lexicographically-smallest-string-after-operations-with-constraint/description/)|[Lexicographically Smallest String After Operations With Constraint.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterOperationsWithConstraint.java)|
+|3107|Medium|[Minimum Operations to Make Median of Array Equal to K](https://leetcode.com/problems/minimum-operations-to-make-median-of-array-equal-to-k/description/)|[Minimum Operations to Make Median of Array Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeMedianOfArrayEqualToK.java)|</p>
 </details>
 
 <details>
@@ -2969,7 +2970,8 @@ Count of solved tasks: 1927
 |3092|Medium|[Most Frequent IDs](https://leetcode.com/problems/most-frequent-ids/description/)|[Most Frequent IDs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MostFrequentIDs.java)|
 |3096|Medium|[Minimum Levels to Gain More Points](https://leetcode.com/problems/minimum-levels-to-gain-more-points/description/)|[Minimum Levels to Gain More Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumLevelsToGainMorePoints.java)|
 |3097|Medium|[Shortest Subarray With OR at Least K II](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/description/)|[Shortest Subarray With OR at Least K II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestSubarrayWithORAtLeastKII.java)|
-|3106|Medium|[Lexicographically Smallest String After Operations With Constraint](https://leetcode.com/problems/lexicographically-smallest-string-after-operations-with-constraint/description/)|[Lexicographically Smallest String After Operations With Constraint.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterOperationsWithConstraint.java)|</p>
+|3106|Medium|[Lexicographically Smallest String After Operations With Constraint](https://leetcode.com/problems/lexicographically-smallest-string-after-operations-with-constraint/description/)|[Lexicographically Smallest String After Operations With Constraint.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterOperationsWithConstraint.java)|
+|3107|Medium|[Minimum Operations to Make Median of Array Equal to K](https://leetcode.com/problems/minimum-operations-to-make-median-of-array-equal-to-k/description/)|[Minimum Operations to Make Median of Array Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeMedianOfArrayEqualToK.java)|</p>
 </details>
 
 <details>
