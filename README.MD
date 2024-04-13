@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1930
+Count of solved tasks: 1931
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1737,7 +1737,8 @@ Count of solved tasks: 1930
 |3106|Medium|[Lexicographically Smallest String After Operations With Constraint](https://leetcode.com/problems/lexicographically-smallest-string-after-operations-with-constraint/description/)|[Lexicographically Smallest String After Operations With Constraint.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterOperationsWithConstraint.java)|
 |3107|Medium|[Minimum Operations to Make Median of Array Equal to K](https://leetcode.com/problems/minimum-operations-to-make-median-of-array-equal-to-k/description/)|[Minimum Operations to Make Median of Array Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeMedianOfArrayEqualToK.java)|
 |3110|Easy|[Score of a String](https://leetcode.com/problems/score-of-a-string/description/)|[Score of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ScoreOfString.java)|
-|3111|Medium|[Minimum Rectangles to Cover Points](https://leetcode.com/problems/minimum-rectangles-to-cover-points/description/)|[Minimum Rectangles to Cover Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRectanglesToCoverPoints.java)|</p>
+|3111|Medium|[Minimum Rectangles to Cover Points](https://leetcode.com/problems/minimum-rectangles-to-cover-points/description/)|[Minimum Rectangles to Cover Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRectanglesToCoverPoints.java)|
+|3112|Medium|[Minimum Time to Visit Disappearing Nodes](https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/description/)|[Minimum Time to Visit Disappearing Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToVisitDisappearingNodes.java)|</p>
 </details>
 
 <details>
@@ -2975,7 +2976,8 @@ Count of solved tasks: 1930
 |3097|Medium|[Shortest Subarray With OR at Least K II](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/description/)|[Shortest Subarray With OR at Least K II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestSubarrayWithORAtLeastKII.java)|
 |3106|Medium|[Lexicographically Smallest String After Operations With Constraint](https://leetcode.com/problems/lexicographically-smallest-string-after-operations-with-constraint/description/)|[Lexicographically Smallest String After Operations With Constraint.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterOperationsWithConstraint.java)|
 |3107|Medium|[Minimum Operations to Make Median of Array Equal to K](https://leetcode.com/problems/minimum-operations-to-make-median-of-array-equal-to-k/description/)|[Minimum Operations to Make Median of Array Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeMedianOfArrayEqualToK.java)|
-|3111|Medium|[Minimum Rectangles to Cover Points](https://leetcode.com/problems/minimum-rectangles-to-cover-points/description/)|[Minimum Rectangles to Cover Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRectanglesToCoverPoints.java)|</p>
+|3111|Medium|[Minimum Rectangles to Cover Points](https://leetcode.com/problems/minimum-rectangles-to-cover-points/description/)|[Minimum Rectangles to Cover Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRectanglesToCoverPoints.java)|
+|3112|Medium|[Minimum Time to Visit Disappearing Nodes](https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/description/)|[Minimum Time to Visit Disappearing Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToVisitDisappearingNodes.java)|</p>
 </details>
 
 <details>
