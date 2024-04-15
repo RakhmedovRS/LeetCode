@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1932
+Count of solved tasks: 1933
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1739,7 +1739,8 @@ Count of solved tasks: 1932
 |3110|Easy|[Score of a String](https://leetcode.com/problems/score-of-a-string/description/)|[Score of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ScoreOfString.java)|
 |3111|Medium|[Minimum Rectangles to Cover Points](https://leetcode.com/problems/minimum-rectangles-to-cover-points/description/)|[Minimum Rectangles to Cover Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRectanglesToCoverPoints.java)|
 |3112|Medium|[Minimum Time to Visit Disappearing Nodes](https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/description/)|[Minimum Time to Visit Disappearing Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToVisitDisappearingNodes.java)|
-|3114|Easy|[Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/description/)|[Latest Time You Can Obtain After Replacing Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LatestTimeYouCanObtainAfterReplacingCharacters.java)|</p>
+|3114|Easy|[Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/description/)|[Latest Time You Can Obtain After Replacing Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LatestTimeYouCanObtainAfterReplacingCharacters.java)|
+|3115|Medium|[Maximum Prime Difference](https://leetcode.com/problems/maximum-prime-difference/description/)|[Maximum Prime Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPrimeDifference.java)|</p>
 </details>
 
 <details>
@@ -2979,7 +2980,8 @@ Count of solved tasks: 1932
 |3106|Medium|[Lexicographically Smallest String After Operations With Constraint](https://leetcode.com/problems/lexicographically-smallest-string-after-operations-with-constraint/description/)|[Lexicographically Smallest String After Operations With Constraint.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterOperationsWithConstraint.java)|
 |3107|Medium|[Minimum Operations to Make Median of Array Equal to K](https://leetcode.com/problems/minimum-operations-to-make-median-of-array-equal-to-k/description/)|[Minimum Operations to Make Median of Array Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeMedianOfArrayEqualToK.java)|
 |3111|Medium|[Minimum Rectangles to Cover Points](https://leetcode.com/problems/minimum-rectangles-to-cover-points/description/)|[Minimum Rectangles to Cover Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRectanglesToCoverPoints.java)|
-|3112|Medium|[Minimum Time to Visit Disappearing Nodes](https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/description/)|[Minimum Time to Visit Disappearing Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToVisitDisappearingNodes.java)|</p>
+|3112|Medium|[Minimum Time to Visit Disappearing Nodes](https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/description/)|[Minimum Time to Visit Disappearing Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToVisitDisappearingNodes.java)|
+|3115|Medium|[Maximum Prime Difference](https://leetcode.com/problems/maximum-prime-difference/description/)|[Maximum Prime Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPrimeDifference.java)|</p>
 </details>
 
 <details>
