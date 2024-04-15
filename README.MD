@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1931
+Count of solved tasks: 1932
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1738,7 +1738,8 @@ Count of solved tasks: 1931
 |3107|Medium|[Minimum Operations to Make Median of Array Equal to K](https://leetcode.com/problems/minimum-operations-to-make-median-of-array-equal-to-k/description/)|[Minimum Operations to Make Median of Array Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeMedianOfArrayEqualToK.java)|
 |3110|Easy|[Score of a String](https://leetcode.com/problems/score-of-a-string/description/)|[Score of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ScoreOfString.java)|
 |3111|Medium|[Minimum Rectangles to Cover Points](https://leetcode.com/problems/minimum-rectangles-to-cover-points/description/)|[Minimum Rectangles to Cover Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRectanglesToCoverPoints.java)|
-|3112|Medium|[Minimum Time to Visit Disappearing Nodes](https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/description/)|[Minimum Time to Visit Disappearing Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToVisitDisappearingNodes.java)|</p>
+|3112|Medium|[Minimum Time to Visit Disappearing Nodes](https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/description/)|[Minimum Time to Visit Disappearing Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToVisitDisappearingNodes.java)|
+|3114|Easy|[Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/description/)|[Latest Time You Can Obtain After Replacing Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LatestTimeYouCanObtainAfterReplacingCharacters.java)|</p>
 </details>
 
 <details>
@@ -2170,7 +2171,8 @@ Count of solved tasks: 1931
 |3090|Easy|[Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/description/)|[Maximum Length Substring With Two Occurrences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumLengthSubstringWithTwoOccurrences.java)|
 |3095|Easy|[Shortest Subarray With OR at Least K I](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-i/description/)|[Shortest Subarray With OR at Least K I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestSubarrayWithORAtLeastKI.java)|
 |3105|Easy|[Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/description/)|[Longest Strictly Increasing or Strictly Decreasing Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestStrictlyIncreasingOrStrictlyDecreasingSubarray.java)|
-|3110|Easy|[Score of a String](https://leetcode.com/problems/score-of-a-string/description/)|[Score of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ScoreOfString.java)|</p>
+|3110|Easy|[Score of a String](https://leetcode.com/problems/score-of-a-string/description/)|[Score of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ScoreOfString.java)|
+|3114|Easy|[Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/description/)|[Latest Time You Can Obtain After Replacing Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LatestTimeYouCanObtainAfterReplacingCharacters.java)|</p>
 </details>
 
 <details>
