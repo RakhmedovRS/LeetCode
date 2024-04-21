@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1935
+Count of solved tasks: 1936
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1742,7 +1742,8 @@ Count of solved tasks: 1935
 |3114|Easy|[Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/description/)|[Latest Time You Can Obtain After Replacing Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LatestTimeYouCanObtainAfterReplacingCharacters.java)|
 |3115|Medium|[Maximum Prime Difference](https://leetcode.com/problems/maximum-prime-difference/description/)|[Maximum Prime Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPrimeDifference.java)|
 |3120|Easy|[Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/description/)|[Count the Number of Special Characters I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfSpecialCharactersI.java)|
-|3121|Medium|[Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/)|[Count the Number of Special Characters II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfSpecialCharactersII.java)|</p>
+|3121|Medium|[Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/)|[Count the Number of Special Characters II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfSpecialCharactersII.java)|
+|3122|Medium|[Minimum Number of Operations to Satisfy Conditions](https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions/description/)|[Minimum Number of Operations to Satisfy Conditions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToSatisfyConditions.java)|</p>
 </details>
 
 <details>
@@ -2985,7 +2986,8 @@ Count of solved tasks: 1935
 |3111|Medium|[Minimum Rectangles to Cover Points](https://leetcode.com/problems/minimum-rectangles-to-cover-points/description/)|[Minimum Rectangles to Cover Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRectanglesToCoverPoints.java)|
 |3112|Medium|[Minimum Time to Visit Disappearing Nodes](https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/description/)|[Minimum Time to Visit Disappearing Nodes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToVisitDisappearingNodes.java)|
 |3115|Medium|[Maximum Prime Difference](https://leetcode.com/problems/maximum-prime-difference/description/)|[Maximum Prime Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPrimeDifference.java)|
-|3121|Medium|[Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/)|[Count the Number of Special Characters II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfSpecialCharactersII.java)|</p>
+|3121|Medium|[Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/)|[Count the Number of Special Characters II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfSpecialCharactersII.java)|
+|3122|Medium|[Minimum Number of Operations to Satisfy Conditions](https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions/description/)|[Minimum Number of Operations to Satisfy Conditions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToSatisfyConditions.java)|</p>
 </details>
 
 <details>
