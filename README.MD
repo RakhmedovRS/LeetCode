@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1936
+Count of solved tasks: 1937
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1743,7 +1743,8 @@ Count of solved tasks: 1936
 |3115|Medium|[Maximum Prime Difference](https://leetcode.com/problems/maximum-prime-difference/description/)|[Maximum Prime Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPrimeDifference.java)|
 |3120|Easy|[Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/description/)|[Count the Number of Special Characters I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfSpecialCharactersI.java)|
 |3121|Medium|[Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/)|[Count the Number of Special Characters II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfSpecialCharactersII.java)|
-|3122|Medium|[Minimum Number of Operations to Satisfy Conditions](https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions/description/)|[Minimum Number of Operations to Satisfy Conditions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToSatisfyConditions.java)|</p>
+|3122|Medium|[Minimum Number of Operations to Satisfy Conditions](https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions/description/)|[Minimum Number of Operations to Satisfy Conditions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToSatisfyConditions.java)|
+|3123|Hard|[Find Edges in Shortest Paths](https://leetcode.com/problems/find-edges-in-shortest-paths/description/)|[Find Edges in Shortest Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindEdgesInShortestPaths.java)|</p>
 </details>
 
 <details>
@@ -3101,7 +3102,8 @@ Count of solved tasks: 1936
 |2547|Hard|[Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array/)|[Minimum Cost to Split an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToSplitArray.java)|
 |2585|Hard|[Number of Ways to Earn Points](https://leetcode.com/problems/number-of-ways-to-earn-points/)|[Number of Ways to Earn Points.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfWaysToEarnPoints.java)|
 |2642|Hard|[Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/)|[Design Graph With Shortest Path Calculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignGraphWithShortestPathCalculator.java)|
-|3093|Hard|[Longest Common Suffix Queries](https://leetcode.com/problems/longest-common-suffix-queries/description/)|[Longest Common Suffix Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestCommonSuffixQueries.java)|</p>
+|3093|Hard|[Longest Common Suffix Queries](https://leetcode.com/problems/longest-common-suffix-queries/description/)|[Longest Common Suffix Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestCommonSuffixQueries.java)|
+|3123|Hard|[Find Edges in Shortest Paths](https://leetcode.com/problems/find-edges-in-shortest-paths/description/)|[Find Edges in Shortest Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindEdgesInShortestPaths.java)|</p>
 </details>
 
 <details>
