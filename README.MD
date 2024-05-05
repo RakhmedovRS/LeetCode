@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1940
+Count of solved tasks: 1941
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1747,7 +1747,8 @@ Count of solved tasks: 1940
 |3123|Hard|[Find Edges in Shortest Paths](https://leetcode.com/problems/find-edges-in-shortest-paths/description/)|[Find Edges in Shortest Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindEdgesInShortestPaths.java)|
 |3131|Medium|[Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/description/)|[Find the Integer Added to Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheIntegerAddedToArrayI.java)|
 |3132|Medium|[Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/description/)|[Find the Integer Added to Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheIntegerAddedToArrayII.java)|
-|3136|Easy|[Valid Word](https://leetcode.com/problems/valid-word/description/)|[Valid Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidWord.java)|</p>
+|3136|Easy|[Valid Word](https://leetcode.com/problems/valid-word/description/)|[Valid Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidWord.java)|
+|3137|Medium|[Minimum Number of Operations to Make Word K-Periodic](https://leetcode.com/problems/minimum-number-of-operations-to-make-word-k-periodic/description/)|[Minimum Number of Operations to Make Word K-Periodic.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeWordKPeriodic.java)|</p>
 </details>
 
 <details>
@@ -2994,7 +2995,8 @@ Count of solved tasks: 1940
 |3121|Medium|[Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/)|[Count the Number of Special Characters II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfSpecialCharactersII.java)|
 |3122|Medium|[Minimum Number of Operations to Satisfy Conditions](https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions/description/)|[Minimum Number of Operations to Satisfy Conditions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToSatisfyConditions.java)|
 |3131|Medium|[Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/description/)|[Find the Integer Added to Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheIntegerAddedToArrayI.java)|
-|3132|Medium|[Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/description/)|[Find the Integer Added to Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheIntegerAddedToArrayII.java)|</p>
+|3132|Medium|[Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/description/)|[Find the Integer Added to Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheIntegerAddedToArrayII.java)|
+|3137|Medium|[Minimum Number of Operations to Make Word K-Periodic](https://leetcode.com/problems/minimum-number-of-operations-to-make-word-k-periodic/description/)|[Minimum Number of Operations to Make Word K-Periodic.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeWordKPeriodic.java)|</p>
 </details>
 
 <details>
