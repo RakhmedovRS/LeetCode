@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1939
+Count of solved tasks: 1940
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1746,7 +1746,8 @@ Count of solved tasks: 1939
 |3122|Medium|[Minimum Number of Operations to Satisfy Conditions](https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions/description/)|[Minimum Number of Operations to Satisfy Conditions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToSatisfyConditions.java)|
 |3123|Hard|[Find Edges in Shortest Paths](https://leetcode.com/problems/find-edges-in-shortest-paths/description/)|[Find Edges in Shortest Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindEdgesInShortestPaths.java)|
 |3131|Medium|[Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/description/)|[Find the Integer Added to Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheIntegerAddedToArrayI.java)|
-|3132|Medium|[Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/description/)|[Find the Integer Added to Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheIntegerAddedToArrayII.java)|</p>
+|3132|Medium|[Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/description/)|[Find the Integer Added to Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheIntegerAddedToArrayII.java)|
+|3136|Easy|[Valid Word](https://leetcode.com/problems/valid-word/description/)|[Valid Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidWord.java)|</p>
 </details>
 
 <details>
@@ -2180,7 +2181,8 @@ Count of solved tasks: 1939
 |3105|Easy|[Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/description/)|[Longest Strictly Increasing or Strictly Decreasing Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestStrictlyIncreasingOrStrictlyDecreasingSubarray.java)|
 |3110|Easy|[Score of a String](https://leetcode.com/problems/score-of-a-string/description/)|[Score of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ScoreOfString.java)|
 |3114|Easy|[Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/description/)|[Latest Time You Can Obtain After Replacing Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LatestTimeYouCanObtainAfterReplacingCharacters.java)|
-|3120|Easy|[Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/description/)|[Count the Number of Special Characters I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfSpecialCharactersI.java)|</p>
+|3120|Easy|[Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/description/)|[Count the Number of Special Characters I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfSpecialCharactersI.java)|
+|3136|Easy|[Valid Word](https://leetcode.com/problems/valid-word/description/)|[Valid Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidWord.java)|</p>
 </details>
 
 <details>
