@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1941
+Count of solved tasks: 1942
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1748,7 +1748,8 @@ Count of solved tasks: 1941
 |3131|Medium|[Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/description/)|[Find the Integer Added to Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheIntegerAddedToArrayI.java)|
 |3132|Medium|[Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/description/)|[Find the Integer Added to Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheIntegerAddedToArrayII.java)|
 |3136|Easy|[Valid Word](https://leetcode.com/problems/valid-word/description/)|[Valid Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidWord.java)|
-|3137|Medium|[Minimum Number of Operations to Make Word K-Periodic](https://leetcode.com/problems/minimum-number-of-operations-to-make-word-k-periodic/description/)|[Minimum Number of Operations to Make Word K-Periodic.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeWordKPeriodic.java)|</p>
+|3137|Medium|[Minimum Number of Operations to Make Word K-Periodic](https://leetcode.com/problems/minimum-number-of-operations-to-make-word-k-periodic/description/)|[Minimum Number of Operations to Make Word K-Periodic.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeWordKPeriodic.java)|
+|3142|Easy|[Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/description/)|[Check if Grid Satisfies Conditions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfGridSatisfiesConditions.java)|</p>
 </details>
 
 <details>
@@ -2183,7 +2184,8 @@ Count of solved tasks: 1941
 |3110|Easy|[Score of a String](https://leetcode.com/problems/score-of-a-string/description/)|[Score of a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ScoreOfString.java)|
 |3114|Easy|[Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/description/)|[Latest Time You Can Obtain After Replacing Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LatestTimeYouCanObtainAfterReplacingCharacters.java)|
 |3120|Easy|[Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/description/)|[Count the Number of Special Characters I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfSpecialCharactersI.java)|
-|3136|Easy|[Valid Word](https://leetcode.com/problems/valid-word/description/)|[Valid Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidWord.java)|</p>
+|3136|Easy|[Valid Word](https://leetcode.com/problems/valid-word/description/)|[Valid Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidWord.java)|
+|3142|Easy|[Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/description/)|[Check if Grid Satisfies Conditions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfGridSatisfiesConditions.java)|</p>
 </details>
 
 <details>
