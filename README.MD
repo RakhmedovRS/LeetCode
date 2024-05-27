@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1946
+Count of solved tasks: 1947
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1753,7 +1753,8 @@ Count of solved tasks: 1946
 |3143|Medium|[Maximum Points Inside the Square](https://leetcode.com/problems/maximum-points-inside-the-square/description/)|[Maximum Points Inside the Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPointsInsideTheSquare.java)|
 |3144|Medium|[Minimum Substring Partition of Equal Character Frequency](https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency/description/)|[Minimum Substring Partition of Equal Character Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSubstringPartitionOfEqualCharacterFrequency.java)|
 |3146|Easy|[Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)|[Permutation Difference between Two Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PermutationDifferenceBetweenTwoStrings.java)|
-|3147|Medium|[Taking Maximum Energy From the Mystic Dungeon](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/description/)|[Taking Maximum Energy From the Mystic Dungeon.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakingMaximumEnergyFromTheMysticDungeon.java)|</p>
+|3147|Medium|[Taking Maximum Energy From the Mystic Dungeon](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/description/)|[Taking Maximum Energy From the Mystic Dungeon.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakingMaximumEnergyFromTheMysticDungeon.java)|
+|3151|Easy|[Special Array I](https://leetcode.com/problems/special-array-i/description/)|[Special Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpecialArrayI.java)|</p>
 </details>
 
 <details>
@@ -2190,7 +2191,8 @@ Count of solved tasks: 1946
 |3120|Easy|[Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/description/)|[Count the Number of Special Characters I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfSpecialCharactersI.java)|
 |3136|Easy|[Valid Word](https://leetcode.com/problems/valid-word/description/)|[Valid Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidWord.java)|
 |3142|Easy|[Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/description/)|[Check if Grid Satisfies Conditions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfGridSatisfiesConditions.java)|
-|3146|Easy|[Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)|[Permutation Difference between Two Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PermutationDifferenceBetweenTwoStrings.java)|</p>
+|3146|Easy|[Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)|[Permutation Difference between Two Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PermutationDifferenceBetweenTwoStrings.java)|
+|3151|Easy|[Special Array I](https://leetcode.com/problems/special-array-i/description/)|[Special Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpecialArrayI.java)|</p>
 </details>
 
 <details>
