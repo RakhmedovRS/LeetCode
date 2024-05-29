@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1948
+Count of solved tasks: 1949
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1755,7 +1755,8 @@ Count of solved tasks: 1948
 |3146|Easy|[Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)|[Permutation Difference between Two Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PermutationDifferenceBetweenTwoStrings.java)|
 |3147|Medium|[Taking Maximum Energy From the Mystic Dungeon](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/description/)|[Taking Maximum Energy From the Mystic Dungeon.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakingMaximumEnergyFromTheMysticDungeon.java)|
 |3151|Easy|[Special Array I](https://leetcode.com/problems/special-array-i/description/)|[Special Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpecialArrayI.java)|
-|3152|Medium|[Special Array II](https://leetcode.com/problems/special-array-ii/description/)|[Special Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpecialArrayII.java)|</p>
+|3152|Medium|[Special Array II](https://leetcode.com/problems/special-array-ii/description/)|[Special Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpecialArrayII.java)|
+|3153|Medium|[Sum of Digit Differences of All Pairs](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/description/)|[Sum of Digit Differences of All Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitDifferencesOfAllPairs.java)|</p>
 </details>
 
 <details>
@@ -3010,7 +3011,8 @@ Count of solved tasks: 1948
 |3143|Medium|[Maximum Points Inside the Square](https://leetcode.com/problems/maximum-points-inside-the-square/description/)|[Maximum Points Inside the Square.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPointsInsideTheSquare.java)|
 |3144|Medium|[Minimum Substring Partition of Equal Character Frequency](https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency/description/)|[Minimum Substring Partition of Equal Character Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSubstringPartitionOfEqualCharacterFrequency.java)|
 |3147|Medium|[Taking Maximum Energy From the Mystic Dungeon](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/description/)|[Taking Maximum Energy From the Mystic Dungeon.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakingMaximumEnergyFromTheMysticDungeon.java)|
-|3152|Medium|[Special Array II](https://leetcode.com/problems/special-array-ii/description/)|[Special Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpecialArrayII.java)|</p>
+|3152|Medium|[Special Array II](https://leetcode.com/problems/special-array-ii/description/)|[Special Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpecialArrayII.java)|
+|3153|Medium|[Sum of Digit Differences of All Pairs](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/description/)|[Sum of Digit Differences of All Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitDifferencesOfAllPairs.java)|</p>
 </details>
 
 <details>
