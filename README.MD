@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1949
+Count of solved tasks: 1950
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1756,7 +1756,8 @@ Count of solved tasks: 1949
 |3147|Medium|[Taking Maximum Energy From the Mystic Dungeon](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/description/)|[Taking Maximum Energy From the Mystic Dungeon.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakingMaximumEnergyFromTheMysticDungeon.java)|
 |3151|Easy|[Special Array I](https://leetcode.com/problems/special-array-i/description/)|[Special Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpecialArrayI.java)|
 |3152|Medium|[Special Array II](https://leetcode.com/problems/special-array-ii/description/)|[Special Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpecialArrayII.java)|
-|3153|Medium|[Sum of Digit Differences of All Pairs](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/description/)|[Sum of Digit Differences of All Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitDifferencesOfAllPairs.java)|</p>
+|3153|Medium|[Sum of Digit Differences of All Pairs](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/description/)|[Sum of Digit Differences of All Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitDifferencesOfAllPairs.java)|
+|3158|Easy|[Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/description/)|[Find the XOR of Numbers Which Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheXOROfNumbersWhichAppearTwice.java)|</p>
 </details>
 
 <details>
@@ -2194,7 +2195,8 @@ Count of solved tasks: 1949
 |3136|Easy|[Valid Word](https://leetcode.com/problems/valid-word/description/)|[Valid Word.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidWord.java)|
 |3142|Easy|[Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/description/)|[Check if Grid Satisfies Conditions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfGridSatisfiesConditions.java)|
 |3146|Easy|[Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)|[Permutation Difference between Two Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PermutationDifferenceBetweenTwoStrings.java)|
-|3151|Easy|[Special Array I](https://leetcode.com/problems/special-array-i/description/)|[Special Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpecialArrayI.java)|</p>
+|3151|Easy|[Special Array I](https://leetcode.com/problems/special-array-i/description/)|[Special Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpecialArrayI.java)|
+|3158|Easy|[Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/description/)|[Find the XOR of Numbers Which Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheXOROfNumbersWhichAppearTwice.java)|</p>
 </details>
 
 <details>
