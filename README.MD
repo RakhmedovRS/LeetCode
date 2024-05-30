@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1950
+Count of solved tasks: 1951
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1757,7 +1757,8 @@ Count of solved tasks: 1950
 |3151|Easy|[Special Array I](https://leetcode.com/problems/special-array-i/description/)|[Special Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpecialArrayI.java)|
 |3152|Medium|[Special Array II](https://leetcode.com/problems/special-array-ii/description/)|[Special Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpecialArrayII.java)|
 |3153|Medium|[Sum of Digit Differences of All Pairs](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/description/)|[Sum of Digit Differences of All Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitDifferencesOfAllPairs.java)|
-|3158|Easy|[Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/description/)|[Find the XOR of Numbers Which Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheXOROfNumbersWhichAppearTwice.java)|</p>
+|3158|Easy|[Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/description/)|[Find the XOR of Numbers Which Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheXOROfNumbersWhichAppearTwice.java)|
+|3159|Medium|[Find Occurrences of an Element in an Array](https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/)|[Find Occurrences of an Element in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindOccurrencesOfAnElementInAnArray.java)|</p>
 </details>
 
 <details>
@@ -3014,7 +3015,8 @@ Count of solved tasks: 1950
 |3144|Medium|[Minimum Substring Partition of Equal Character Frequency](https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency/description/)|[Minimum Substring Partition of Equal Character Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSubstringPartitionOfEqualCharacterFrequency.java)|
 |3147|Medium|[Taking Maximum Energy From the Mystic Dungeon](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/description/)|[Taking Maximum Energy From the Mystic Dungeon.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakingMaximumEnergyFromTheMysticDungeon.java)|
 |3152|Medium|[Special Array II](https://leetcode.com/problems/special-array-ii/description/)|[Special Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpecialArrayII.java)|
-|3153|Medium|[Sum of Digit Differences of All Pairs](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/description/)|[Sum of Digit Differences of All Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitDifferencesOfAllPairs.java)|</p>
+|3153|Medium|[Sum of Digit Differences of All Pairs](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/description/)|[Sum of Digit Differences of All Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitDifferencesOfAllPairs.java)|
+|3159|Medium|[Find Occurrences of an Element in an Array](https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/)|[Find Occurrences of an Element in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindOccurrencesOfAnElementInAnArray.java)|</p>
 </details>
 
 <details>
