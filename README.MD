@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1952
+Count of solved tasks: 1953
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1759,7 +1759,8 @@ Count of solved tasks: 1952
 |3153|Medium|[Sum of Digit Differences of All Pairs](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/description/)|[Sum of Digit Differences of All Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitDifferencesOfAllPairs.java)|
 |3158|Easy|[Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/description/)|[Find the XOR of Numbers Which Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheXOROfNumbersWhichAppearTwice.java)|
 |3159|Medium|[Find Occurrences of an Element in an Array](https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/)|[Find Occurrences of an Element in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindOccurrencesOfAnElementInAnArray.java)|
-|3160|Medium|[Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/description/)|[Find the Number of Distinct Colors Among the Balls.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheNumberOfDistinctColorsAmongTheBalls.java)|</p>
+|3160|Medium|[Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/description/)|[Find the Number of Distinct Colors Among the Balls.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheNumberOfDistinctColorsAmongTheBalls.java)|
+|3168|Easy|[Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/description/)|[Minimum Number of Chairs in a Waiting Room.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfChairsInWaitingRoom.java)|</p>
 </details>
 
 <details>
@@ -2198,7 +2199,8 @@ Count of solved tasks: 1952
 |3142|Easy|[Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/description/)|[Check if Grid Satisfies Conditions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfGridSatisfiesConditions.java)|
 |3146|Easy|[Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)|[Permutation Difference between Two Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PermutationDifferenceBetweenTwoStrings.java)|
 |3151|Easy|[Special Array I](https://leetcode.com/problems/special-array-i/description/)|[Special Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpecialArrayI.java)|
-|3158|Easy|[Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/description/)|[Find the XOR of Numbers Which Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheXOROfNumbersWhichAppearTwice.java)|</p>
+|3158|Easy|[Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/description/)|[Find the XOR of Numbers Which Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheXOROfNumbersWhichAppearTwice.java)|
+|3168|Easy|[Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/description/)|[Minimum Number of Chairs in a Waiting Room.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfChairsInWaitingRoom.java)|</p>
 </details>
 
 <details>
