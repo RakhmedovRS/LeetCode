@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1954
+Count of solved tasks: 1955
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1761,7 +1761,8 @@ Count of solved tasks: 1954
 |3159|Medium|[Find Occurrences of an Element in an Array](https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/)|[Find Occurrences of an Element in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindOccurrencesOfAnElementInAnArray.java)|
 |3160|Medium|[Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/description/)|[Find the Number of Distinct Colors Among the Balls.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheNumberOfDistinctColorsAmongTheBalls.java)|
 |3168|Easy|[Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/description/)|[Minimum Number of Chairs in a Waiting Room.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfChairsInWaitingRoom.java)|
-|3169|Medium|[Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/description/)|[Count Days Without Meetings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDaysWithoutMeetings.java)|</p>
+|3169|Medium|[Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/description/)|[Count Days Without Meetings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDaysWithoutMeetings.java)|
+|3170|Medium|[Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/)|[Lexicographically Minimum String After Removing Stars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallyMinimumStringAfterRemovingStars.java)|</p>
 </details>
 
 <details>
@@ -3022,7 +3023,8 @@ Count of solved tasks: 1954
 |3153|Medium|[Sum of Digit Differences of All Pairs](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/description/)|[Sum of Digit Differences of All Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitDifferencesOfAllPairs.java)|
 |3159|Medium|[Find Occurrences of an Element in an Array](https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/)|[Find Occurrences of an Element in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindOccurrencesOfAnElementInAnArray.java)|
 |3160|Medium|[Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/description/)|[Find the Number of Distinct Colors Among the Balls.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheNumberOfDistinctColorsAmongTheBalls.java)|
-|3169|Medium|[Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/description/)|[Count Days Without Meetings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDaysWithoutMeetings.java)|</p>
+|3169|Medium|[Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/description/)|[Count Days Without Meetings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDaysWithoutMeetings.java)|
+|3170|Medium|[Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/)|[Lexicographically Minimum String After Removing Stars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallyMinimumStringAfterRemovingStars.java)|</p>
 </details>
 
 <details>
