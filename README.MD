@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1953
+Count of solved tasks: 1954
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1760,7 +1760,8 @@ Count of solved tasks: 1953
 |3158|Easy|[Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/description/)|[Find the XOR of Numbers Which Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheXOROfNumbersWhichAppearTwice.java)|
 |3159|Medium|[Find Occurrences of an Element in an Array](https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/)|[Find Occurrences of an Element in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindOccurrencesOfAnElementInAnArray.java)|
 |3160|Medium|[Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/description/)|[Find the Number of Distinct Colors Among the Balls.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheNumberOfDistinctColorsAmongTheBalls.java)|
-|3168|Easy|[Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/description/)|[Minimum Number of Chairs in a Waiting Room.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfChairsInWaitingRoom.java)|</p>
+|3168|Easy|[Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/description/)|[Minimum Number of Chairs in a Waiting Room.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfChairsInWaitingRoom.java)|
+|3169|Medium|[Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/description/)|[Count Days Without Meetings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDaysWithoutMeetings.java)|</p>
 </details>
 
 <details>
@@ -3020,7 +3021,8 @@ Count of solved tasks: 1953
 |3152|Medium|[Special Array II](https://leetcode.com/problems/special-array-ii/description/)|[Special Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpecialArrayII.java)|
 |3153|Medium|[Sum of Digit Differences of All Pairs](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/description/)|[Sum of Digit Differences of All Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDigitDifferencesOfAllPairs.java)|
 |3159|Medium|[Find Occurrences of an Element in an Array](https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/)|[Find Occurrences of an Element in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindOccurrencesOfAnElementInAnArray.java)|
-|3160|Medium|[Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/description/)|[Find the Number of Distinct Colors Among the Balls.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheNumberOfDistinctColorsAmongTheBalls.java)|</p>
+|3160|Medium|[Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/description/)|[Find the Number of Distinct Colors Among the Balls.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheNumberOfDistinctColorsAmongTheBalls.java)|
+|3169|Medium|[Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/description/)|[Count Days Without Meetings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDaysWithoutMeetings.java)|</p>
 </details>
 
 <details>
