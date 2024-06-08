@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1955
+Count of solved tasks: 1956
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1762,7 +1762,8 @@ Count of solved tasks: 1955
 |3160|Medium|[Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/description/)|[Find the Number of Distinct Colors Among the Balls.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheNumberOfDistinctColorsAmongTheBalls.java)|
 |3168|Easy|[Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/description/)|[Minimum Number of Chairs in a Waiting Room.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfChairsInWaitingRoom.java)|
 |3169|Medium|[Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/description/)|[Count Days Without Meetings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDaysWithoutMeetings.java)|
-|3170|Medium|[Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/)|[Lexicographically Minimum String After Removing Stars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallyMinimumStringAfterRemovingStars.java)|</p>
+|3170|Medium|[Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/)|[Lexicographically Minimum String After Removing Stars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallyMinimumStringAfterRemovingStars.java)|
+|3174|Easy|[Clear Digits](https://leetcode.com/problems/clear-digits/description/)|[Clear Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClearDigits.java)|</p>
 </details>
 
 <details>
@@ -2202,7 +2203,8 @@ Count of solved tasks: 1955
 |3146|Easy|[Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)|[Permutation Difference between Two Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PermutationDifferenceBetweenTwoStrings.java)|
 |3151|Easy|[Special Array I](https://leetcode.com/problems/special-array-i/description/)|[Special Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpecialArrayI.java)|
 |3158|Easy|[Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/description/)|[Find the XOR of Numbers Which Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheXOROfNumbersWhichAppearTwice.java)|
-|3168|Easy|[Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/description/)|[Minimum Number of Chairs in a Waiting Room.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfChairsInWaitingRoom.java)|</p>
+|3168|Easy|[Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/description/)|[Minimum Number of Chairs in a Waiting Room.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfChairsInWaitingRoom.java)|
+|3174|Easy|[Clear Digits](https://leetcode.com/problems/clear-digits/description/)|[Clear Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClearDigits.java)|</p>
 </details>
 
 <details>
