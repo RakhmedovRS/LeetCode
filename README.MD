@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1957
+Count of solved tasks: 1958
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1764,7 +1764,8 @@ Count of solved tasks: 1957
 |3169|Medium|[Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/description/)|[Count Days Without Meetings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDaysWithoutMeetings.java)|
 |3170|Medium|[Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/)|[Lexicographically Minimum String After Removing Stars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallyMinimumStringAfterRemovingStars.java)|
 |3174|Easy|[Clear Digits](https://leetcode.com/problems/clear-digits/description/)|[Clear Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClearDigits.java)|
-|3175|Medium|[Find The First Player to win K Games in a Row](https://leetcode.com/problems/find-the-first-player-to-win-k-games-in-a-row/description/)|[Find The First Player to win K Games in a Row.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheFirstPlayerToWinKGamesInRow.java)|</p>
+|3175|Medium|[Find The First Player to win K Games in a Row](https://leetcode.com/problems/find-the-first-player-to-win-k-games-in-a-row/description/)|[Find The First Player to win K Games in a Row.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheFirstPlayerToWinKGamesInRow.java)|
+|3178|Easy|[Find the Child Who Has the Ball After K Seconds](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/description/)|[Find the Child Who Has the Ball After K Seconds.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheChildWhoHasTheBallAfterKSeconds.java)|</p>
 </details>
 
 <details>
@@ -2205,7 +2206,8 @@ Count of solved tasks: 1957
 |3151|Easy|[Special Array I](https://leetcode.com/problems/special-array-i/description/)|[Special Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SpecialArrayI.java)|
 |3158|Easy|[Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/description/)|[Find the XOR of Numbers Which Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheXOROfNumbersWhichAppearTwice.java)|
 |3168|Easy|[Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/description/)|[Minimum Number of Chairs in a Waiting Room.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfChairsInWaitingRoom.java)|
-|3174|Easy|[Clear Digits](https://leetcode.com/problems/clear-digits/description/)|[Clear Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClearDigits.java)|</p>
+|3174|Easy|[Clear Digits](https://leetcode.com/problems/clear-digits/description/)|[Clear Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClearDigits.java)|
+|3178|Easy|[Find the Child Who Has the Ball After K Seconds](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/description/)|[Find the Child Who Has the Ball After K Seconds.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheChildWhoHasTheBallAfterKSeconds.java)|</p>
 </details>
 
 <details>
