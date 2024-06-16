@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1960
+Count of solved tasks: 1961
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1767,7 +1767,8 @@ Count of solved tasks: 1960
 |3175|Medium|[Find The First Player to win K Games in a Row](https://leetcode.com/problems/find-the-first-player-to-win-k-games-in-a-row/description/)|[Find The First Player to win K Games in a Row.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheFirstPlayerToWinKGamesInRow.java)|
 |3178|Easy|[Find the Child Who Has the Ball After K Seconds](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/description/)|[Find the Child Who Has the Ball After K Seconds.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheChildWhoHasTheBallAfterKSeconds.java)|
 |3179|Medium|[Find the N-th Value After K Seconds](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds/description/)|[Find the N-th Value After K Seconds.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheNthValueAfterKSeconds.java)|
-|3180|Medium|[Maximum Total Reward Using Operations I](https://leetcode.com/problems/maximum-total-reward-using-operations-i/description/)|[Maximum Total Reward Using Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalRewardUsingOperationsI.java)|</p>
+|3180|Medium|[Maximum Total Reward Using Operations I](https://leetcode.com/problems/maximum-total-reward-using-operations-i/description/)|[Maximum Total Reward Using Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalRewardUsingOperationsI.java)|
+|3184|Easy|[Count Pairs That Form a Complete Day I](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/description/)|[Count Pairs That Form a Complete Day I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsThatFormCompleteDayI.java)|</p>
 </details>
 
 <details>
@@ -2209,7 +2210,8 @@ Count of solved tasks: 1960
 |3158|Easy|[Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/description/)|[Find the XOR of Numbers Which Appear Twice.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheXOROfNumbersWhichAppearTwice.java)|
 |3168|Easy|[Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/description/)|[Minimum Number of Chairs in a Waiting Room.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfChairsInWaitingRoom.java)|
 |3174|Easy|[Clear Digits](https://leetcode.com/problems/clear-digits/description/)|[Clear Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClearDigits.java)|
-|3178|Easy|[Find the Child Who Has the Ball After K Seconds](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/description/)|[Find the Child Who Has the Ball After K Seconds.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheChildWhoHasTheBallAfterKSeconds.java)|</p>
+|3178|Easy|[Find the Child Who Has the Ball After K Seconds](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/description/)|[Find the Child Who Has the Ball After K Seconds.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheChildWhoHasTheBallAfterKSeconds.java)|
+|3184|Easy|[Count Pairs That Form a Complete Day I](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/description/)|[Count Pairs That Form a Complete Day I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsThatFormCompleteDayI.java)|</p>
 </details>
 
 <details>
