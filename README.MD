@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1961
+Count of solved tasks: 1962
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1768,7 +1768,8 @@ Count of solved tasks: 1961
 |3178|Easy|[Find the Child Who Has the Ball After K Seconds](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/description/)|[Find the Child Who Has the Ball After K Seconds.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheChildWhoHasTheBallAfterKSeconds.java)|
 |3179|Medium|[Find the N-th Value After K Seconds](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds/description/)|[Find the N-th Value After K Seconds.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheNthValueAfterKSeconds.java)|
 |3180|Medium|[Maximum Total Reward Using Operations I](https://leetcode.com/problems/maximum-total-reward-using-operations-i/description/)|[Maximum Total Reward Using Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalRewardUsingOperationsI.java)|
-|3184|Easy|[Count Pairs That Form a Complete Day I](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/description/)|[Count Pairs That Form a Complete Day I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsThatFormCompleteDayI.java)|</p>
+|3184|Easy|[Count Pairs That Form a Complete Day I](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/description/)|[Count Pairs That Form a Complete Day I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsThatFormCompleteDayI.java)|
+|3185|Medium|[Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/)|[Count Pairs That Form a Complete Day II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsThatFormCompleteDayII.java)|</p>
 </details>
 
 <details>
@@ -3036,7 +3037,8 @@ Count of solved tasks: 1961
 |3170|Medium|[Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/)|[Lexicographically Minimum String After Removing Stars.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallyMinimumStringAfterRemovingStars.java)|
 |3175|Medium|[Find The First Player to win K Games in a Row](https://leetcode.com/problems/find-the-first-player-to-win-k-games-in-a-row/description/)|[Find The First Player to win K Games in a Row.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheFirstPlayerToWinKGamesInRow.java)|
 |3179|Medium|[Find the N-th Value After K Seconds](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds/description/)|[Find the N-th Value After K Seconds.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheNthValueAfterKSeconds.java)|
-|3180|Medium|[Maximum Total Reward Using Operations I](https://leetcode.com/problems/maximum-total-reward-using-operations-i/description/)|[Maximum Total Reward Using Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalRewardUsingOperationsI.java)|</p>
+|3180|Medium|[Maximum Total Reward Using Operations I](https://leetcode.com/problems/maximum-total-reward-using-operations-i/description/)|[Maximum Total Reward Using Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalRewardUsingOperationsI.java)|
+|3185|Medium|[Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/)|[Count Pairs That Form a Complete Day II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsThatFormCompleteDayII.java)|</p>
 </details>
 
 <details>
