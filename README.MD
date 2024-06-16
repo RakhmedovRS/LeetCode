@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1962
+Count of solved tasks: 1963
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1769,7 +1769,8 @@ Count of solved tasks: 1962
 |3179|Medium|[Find the N-th Value After K Seconds](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds/description/)|[Find the N-th Value After K Seconds.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheNthValueAfterKSeconds.java)|
 |3180|Medium|[Maximum Total Reward Using Operations I](https://leetcode.com/problems/maximum-total-reward-using-operations-i/description/)|[Maximum Total Reward Using Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalRewardUsingOperationsI.java)|
 |3184|Easy|[Count Pairs That Form a Complete Day I](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/description/)|[Count Pairs That Form a Complete Day I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsThatFormCompleteDayI.java)|
-|3185|Medium|[Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/)|[Count Pairs That Form a Complete Day II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsThatFormCompleteDayII.java)|</p>
+|3185|Medium|[Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/)|[Count Pairs That Form a Complete Day II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsThatFormCompleteDayII.java)|
+|3186|Medium|[Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/description/)|[Maximum Total Damage With Spell Casting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalDamageWithSpellCasting.java)|</p>
 </details>
 
 <details>
@@ -3038,7 +3039,8 @@ Count of solved tasks: 1962
 |3175|Medium|[Find The First Player to win K Games in a Row](https://leetcode.com/problems/find-the-first-player-to-win-k-games-in-a-row/description/)|[Find The First Player to win K Games in a Row.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheFirstPlayerToWinKGamesInRow.java)|
 |3179|Medium|[Find the N-th Value After K Seconds](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds/description/)|[Find the N-th Value After K Seconds.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheNthValueAfterKSeconds.java)|
 |3180|Medium|[Maximum Total Reward Using Operations I](https://leetcode.com/problems/maximum-total-reward-using-operations-i/description/)|[Maximum Total Reward Using Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalRewardUsingOperationsI.java)|
-|3185|Medium|[Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/)|[Count Pairs That Form a Complete Day II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsThatFormCompleteDayII.java)|</p>
+|3185|Medium|[Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/)|[Count Pairs That Form a Complete Day II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsThatFormCompleteDayII.java)|
+|3186|Medium|[Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/description/)|[Maximum Total Damage With Spell Casting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalDamageWithSpellCasting.java)|</p>
 </details>
 
 <details>
