@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1966
+Count of solved tasks: 1967
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1773,7 +1773,8 @@ Count of solved tasks: 1966
 |3185|Medium|[Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/)|[Count Pairs That Form a Complete Day II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsThatFormCompleteDayII.java)|
 |3186|Medium|[Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/description/)|[Maximum Total Damage With Spell Casting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalDamageWithSpellCasting.java)|
 |3190|Easy|[Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/description/)|[Find Minimum Operations to Make All Elements Divisible by Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumOperationsToMakeAllElementsDivisibleByThree.java)|
-|3191|Medium|[Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/)|[Minimum Operations to Make Binary Array Elements Equal to One I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryArrayElementsEqualToOneI.java)|</p>
+|3191|Medium|[Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/)|[Minimum Operations to Make Binary Array Elements Equal to One I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryArrayElementsEqualToOneI.java)|
+|3192|Medium|[Minimum Operations to Make Binary Array Elements Equal to One II](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-ii/description/)|[Minimum Operations to Make Binary Array Elements Equal to One II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryArrayElementsEqualToOneII.java)|</p>
 </details>
 
 <details>
@@ -3046,7 +3047,8 @@ Count of solved tasks: 1966
 |3180|Medium|[Maximum Total Reward Using Operations I](https://leetcode.com/problems/maximum-total-reward-using-operations-i/description/)|[Maximum Total Reward Using Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalRewardUsingOperationsI.java)|
 |3185|Medium|[Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/)|[Count Pairs That Form a Complete Day II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsThatFormCompleteDayII.java)|
 |3186|Medium|[Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/description/)|[Maximum Total Damage With Spell Casting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalDamageWithSpellCasting.java)|
-|3191|Medium|[Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/)|[Minimum Operations to Make Binary Array Elements Equal to One I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryArrayElementsEqualToOneI.java)|</p>
+|3191|Medium|[Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/)|[Minimum Operations to Make Binary Array Elements Equal to One I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryArrayElementsEqualToOneI.java)|
+|3192|Medium|[Minimum Operations to Make Binary Array Elements Equal to One II](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-ii/description/)|[Minimum Operations to Make Binary Array Elements Equal to One II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryArrayElementsEqualToOneII.java)|</p>
 </details>
 
 <details>
