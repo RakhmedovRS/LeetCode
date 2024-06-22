@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1963
+Count of solved tasks: 1964
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -808,6 +808,7 @@ Count of solved tasks: 1963
 |1238|Medium|[Circular Permutation in Binary Representation](https://leetcode.com/problems/circular-permutation-in-binary-representation/)|[Circular Permutation in Binary Representation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CircularPermutationInBinaryRepresentation.java)|
 |1239|Medium|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)|[Maximum Length of a Concatenated String with Unique Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumLengthOfConcatenatedStringWithUniqueCharacters.java)|
 |1247|Medium|[Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/)|[Minimum Swaps to Make Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSwapsToMakeStringsEqual.java)|
+|1248|Medium|[Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)|[Count Number of Nice Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfNiceSubarrays.java)|
 |1249|Medium|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Minimum Remove to Make Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemoveToMakeValidParentheses.java)|
 |1253|Undefined|[Reconstruct a 2-Row Binary Matrix](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/)|[Reconstruct a 2-Row Binary Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Reconstruct2RowBinaryMatrix.java)|
 |1254|Medium|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|[Number of Closed Islands.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfClosedIslands.java)|
@@ -2551,6 +2552,7 @@ Count of solved tasks: 1963
 |1238|Medium|[Circular Permutation in Binary Representation](https://leetcode.com/problems/circular-permutation-in-binary-representation/)|[Circular Permutation in Binary Representation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CircularPermutationInBinaryRepresentation.java)|
 |1239|Medium|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)|[Maximum Length of a Concatenated String with Unique Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumLengthOfConcatenatedStringWithUniqueCharacters.java)|
 |1247|Medium|[Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/)|[Minimum Swaps to Make Strings Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSwapsToMakeStringsEqual.java)|
+|1248|Medium|[Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)|[Count Number of Nice Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfNiceSubarrays.java)|
 |1249|Medium|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Minimum Remove to Make Valid Parentheses.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemoveToMakeValidParentheses.java)|
 |1254|Medium|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|[Number of Closed Islands.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfClosedIslands.java)|
 |1267|Medium|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|[Count Servers that Communicate.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountServersThatCommunicate.java)|
