@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1967
+Count of solved tasks: 1968
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1774,7 +1774,8 @@ Count of solved tasks: 1967
 |3186|Medium|[Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/description/)|[Maximum Total Damage With Spell Casting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalDamageWithSpellCasting.java)|
 |3190|Easy|[Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/description/)|[Find Minimum Operations to Make All Elements Divisible by Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumOperationsToMakeAllElementsDivisibleByThree.java)|
 |3191|Medium|[Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/)|[Minimum Operations to Make Binary Array Elements Equal to One I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryArrayElementsEqualToOneI.java)|
-|3192|Medium|[Minimum Operations to Make Binary Array Elements Equal to One II](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-ii/description/)|[Minimum Operations to Make Binary Array Elements Equal to One II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryArrayElementsEqualToOneII.java)|</p>
+|3192|Medium|[Minimum Operations to Make Binary Array Elements Equal to One II](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-ii/description/)|[Minimum Operations to Make Binary Array Elements Equal to One II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryArrayElementsEqualToOneII.java)|
+|3194|Easy|[Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/)|[Minimum Average of Smallest and Largest Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAverageOfSmallestAndLargestElements.java)|</p>
 </details>
 
 <details>
@@ -2218,7 +2219,8 @@ Count of solved tasks: 1967
 |3174|Easy|[Clear Digits](https://leetcode.com/problems/clear-digits/description/)|[Clear Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClearDigits.java)|
 |3178|Easy|[Find the Child Who Has the Ball After K Seconds](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/description/)|[Find the Child Who Has the Ball After K Seconds.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheChildWhoHasTheBallAfterKSeconds.java)|
 |3184|Easy|[Count Pairs That Form a Complete Day I](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/description/)|[Count Pairs That Form a Complete Day I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsThatFormCompleteDayI.java)|
-|3190|Easy|[Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/description/)|[Find Minimum Operations to Make All Elements Divisible by Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumOperationsToMakeAllElementsDivisibleByThree.java)|</p>
+|3190|Easy|[Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/description/)|[Find Minimum Operations to Make All Elements Divisible by Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumOperationsToMakeAllElementsDivisibleByThree.java)|
+|3194|Easy|[Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/)|[Minimum Average of Smallest and Largest Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAverageOfSmallestAndLargestElements.java)|</p>
 </details>
 
 <details>
