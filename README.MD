@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1969
+Count of solved tasks: 1970
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1776,7 +1776,8 @@ Count of solved tasks: 1969
 |3191|Medium|[Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/)|[Minimum Operations to Make Binary Array Elements Equal to One I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryArrayElementsEqualToOneI.java)|
 |3192|Medium|[Minimum Operations to Make Binary Array Elements Equal to One II](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-ii/description/)|[Minimum Operations to Make Binary Array Elements Equal to One II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryArrayElementsEqualToOneII.java)|
 |3194|Easy|[Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/)|[Minimum Average of Smallest and Largest Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAverageOfSmallestAndLargestElements.java)|
-|3195|Medium|[Find the Minimum Area to Cover All Ones I](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i/description/)|[Find the Minimum Area to Cover All Ones I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMinimumAreaToCoverAllOnesI.java)|</p>
+|3195|Medium|[Find the Minimum Area to Cover All Ones I](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i/description/)|[Find the Minimum Area to Cover All Ones I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMinimumAreaToCoverAllOnesI.java)|
+|3200|Easy|[Maximum Height of a Triangle](https://leetcode.com/problems/maximum-height-of-a-triangle/description/)|[Maximum Height of a Triangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumHeightOfTriangle.java)|</p>
 </details>
 
 <details>
@@ -2221,7 +2222,8 @@ Count of solved tasks: 1969
 |3178|Easy|[Find the Child Who Has the Ball After K Seconds](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/description/)|[Find the Child Who Has the Ball After K Seconds.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheChildWhoHasTheBallAfterKSeconds.java)|
 |3184|Easy|[Count Pairs That Form a Complete Day I](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/description/)|[Count Pairs That Form a Complete Day I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsThatFormCompleteDayI.java)|
 |3190|Easy|[Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/description/)|[Find Minimum Operations to Make All Elements Divisible by Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumOperationsToMakeAllElementsDivisibleByThree.java)|
-|3194|Easy|[Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/)|[Minimum Average of Smallest and Largest Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAverageOfSmallestAndLargestElements.java)|</p>
+|3194|Easy|[Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/)|[Minimum Average of Smallest and Largest Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAverageOfSmallestAndLargestElements.java)|
+|3200|Easy|[Maximum Height of a Triangle](https://leetcode.com/problems/maximum-height-of-a-triangle/description/)|[Maximum Height of a Triangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumHeightOfTriangle.java)|</p>
 </details>
 
 <details>
