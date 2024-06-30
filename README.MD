@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1970
+Count of solved tasks: 1971
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1777,7 +1777,8 @@ Count of solved tasks: 1970
 |3192|Medium|[Minimum Operations to Make Binary Array Elements Equal to One II](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-ii/description/)|[Minimum Operations to Make Binary Array Elements Equal to One II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryArrayElementsEqualToOneII.java)|
 |3194|Easy|[Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/)|[Minimum Average of Smallest and Largest Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAverageOfSmallestAndLargestElements.java)|
 |3195|Medium|[Find the Minimum Area to Cover All Ones I](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i/description/)|[Find the Minimum Area to Cover All Ones I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMinimumAreaToCoverAllOnesI.java)|
-|3200|Easy|[Maximum Height of a Triangle](https://leetcode.com/problems/maximum-height-of-a-triangle/description/)|[Maximum Height of a Triangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumHeightOfTriangle.java)|</p>
+|3200|Easy|[Maximum Height of a Triangle](https://leetcode.com/problems/maximum-height-of-a-triangle/description/)|[Maximum Height of a Triangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumHeightOfTriangle.java)|
+|3201|Medium|[Find the Maximum Length of Valid Subsequence I](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/description/)|[Find the Maximum Length of Valid Subsequence I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumLengthOfValidSubsequenceI.java)|</p>
 </details>
 
 <details>
@@ -3054,7 +3055,8 @@ Count of solved tasks: 1970
 |3186|Medium|[Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/description/)|[Maximum Total Damage With Spell Casting.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalDamageWithSpellCasting.java)|
 |3191|Medium|[Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/)|[Minimum Operations to Make Binary Array Elements Equal to One I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryArrayElementsEqualToOneI.java)|
 |3192|Medium|[Minimum Operations to Make Binary Array Elements Equal to One II](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-ii/description/)|[Minimum Operations to Make Binary Array Elements Equal to One II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryArrayElementsEqualToOneII.java)|
-|3195|Medium|[Find the Minimum Area to Cover All Ones I](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i/description/)|[Find the Minimum Area to Cover All Ones I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMinimumAreaToCoverAllOnesI.java)|</p>
+|3195|Medium|[Find the Minimum Area to Cover All Ones I](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i/description/)|[Find the Minimum Area to Cover All Ones I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMinimumAreaToCoverAllOnesI.java)|
+|3201|Medium|[Find the Maximum Length of Valid Subsequence I](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/description/)|[Find the Maximum Length of Valid Subsequence I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumLengthOfValidSubsequenceI.java)|</p>
 </details>
 
 <details>
