@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1974
+Count of solved tasks: 1975
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1781,7 +1781,8 @@ Count of solved tasks: 1974
 |3201|Medium|[Find the Maximum Length of Valid Subsequence I](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/description/)|[Find the Maximum Length of Valid Subsequence I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumLengthOfValidSubsequenceI.java)|
 |3202|Medium|[Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/description/)|[Find the Maximum Length of Valid Subsequence II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumLengthOfValidSubsequenceII.java)|
 |3206|Easy|[Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/description/)|[Alternating Groups I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingGroupsI.java)|
-|3207|Medium|[Maximum Points After Enemy Battles](https://leetcode.com/problems/maximum-points-after-enemy-battles/description/)|[Maximum Points After Enemy Battles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPointsAfterEnemyBattles.java)|</p>
+|3207|Medium|[Maximum Points After Enemy Battles](https://leetcode.com/problems/maximum-points-after-enemy-battles/description/)|[Maximum Points After Enemy Battles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPointsAfterEnemyBattles.java)|
+|3208|Medium|[Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/description/)|[Alternating Groups II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingGroupsII.java)|</p>
 </details>
 
 <details>
@@ -3062,7 +3063,8 @@ Count of solved tasks: 1974
 |3195|Medium|[Find the Minimum Area to Cover All Ones I](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i/description/)|[Find the Minimum Area to Cover All Ones I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMinimumAreaToCoverAllOnesI.java)|
 |3201|Medium|[Find the Maximum Length of Valid Subsequence I](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/description/)|[Find the Maximum Length of Valid Subsequence I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumLengthOfValidSubsequenceI.java)|
 |3202|Medium|[Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/description/)|[Find the Maximum Length of Valid Subsequence II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumLengthOfValidSubsequenceII.java)|
-|3207|Medium|[Maximum Points After Enemy Battles](https://leetcode.com/problems/maximum-points-after-enemy-battles/description/)|[Maximum Points After Enemy Battles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPointsAfterEnemyBattles.java)|</p>
+|3207|Medium|[Maximum Points After Enemy Battles](https://leetcode.com/problems/maximum-points-after-enemy-battles/description/)|[Maximum Points After Enemy Battles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPointsAfterEnemyBattles.java)|
+|3208|Medium|[Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/description/)|[Alternating Groups II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingGroupsII.java)|</p>
 </details>
 
 <details>
