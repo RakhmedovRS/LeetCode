@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1976
+Count of solved tasks: 1977
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1783,7 +1783,8 @@ Count of solved tasks: 1976
 |3206|Easy|[Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/description/)|[Alternating Groups I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingGroupsI.java)|
 |3207|Medium|[Maximum Points After Enemy Battles](https://leetcode.com/problems/maximum-points-after-enemy-battles/description/)|[Maximum Points After Enemy Battles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPointsAfterEnemyBattles.java)|
 |3208|Medium|[Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/description/)|[Alternating Groups II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingGroupsII.java)|
-|3210|Easy|[Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/description/)|[Find the Encrypted String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheEncryptedString.java)|</p>
+|3210|Easy|[Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/description/)|[Find the Encrypted String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheEncryptedString.java)|
+|3211|Medium|[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)|[Generate Binary Strings Without Adjacent Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GenerateBinaryStringsWithoutAdjacentZeros.java)|</p>
 </details>
 
 <details>
@@ -3066,7 +3067,8 @@ Count of solved tasks: 1976
 |3201|Medium|[Find the Maximum Length of Valid Subsequence I](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/description/)|[Find the Maximum Length of Valid Subsequence I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumLengthOfValidSubsequenceI.java)|
 |3202|Medium|[Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/description/)|[Find the Maximum Length of Valid Subsequence II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumLengthOfValidSubsequenceII.java)|
 |3207|Medium|[Maximum Points After Enemy Battles](https://leetcode.com/problems/maximum-points-after-enemy-battles/description/)|[Maximum Points After Enemy Battles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPointsAfterEnemyBattles.java)|
-|3208|Medium|[Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/description/)|[Alternating Groups II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingGroupsII.java)|</p>
+|3208|Medium|[Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/description/)|[Alternating Groups II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingGroupsII.java)|
+|3211|Medium|[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)|[Generate Binary Strings Without Adjacent Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GenerateBinaryStringsWithoutAdjacentZeros.java)|</p>
 </details>
 
 <details>
