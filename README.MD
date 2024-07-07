@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1975
+Count of solved tasks: 1976
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1782,7 +1782,8 @@ Count of solved tasks: 1975
 |3202|Medium|[Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/description/)|[Find the Maximum Length of Valid Subsequence II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumLengthOfValidSubsequenceII.java)|
 |3206|Easy|[Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/description/)|[Alternating Groups I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingGroupsI.java)|
 |3207|Medium|[Maximum Points After Enemy Battles](https://leetcode.com/problems/maximum-points-after-enemy-battles/description/)|[Maximum Points After Enemy Battles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPointsAfterEnemyBattles.java)|
-|3208|Medium|[Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/description/)|[Alternating Groups II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingGroupsII.java)|</p>
+|3208|Medium|[Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/description/)|[Alternating Groups II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingGroupsII.java)|
+|3210|Easy|[Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/description/)|[Find the Encrypted String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheEncryptedString.java)|</p>
 </details>
 
 <details>
@@ -2229,7 +2230,8 @@ Count of solved tasks: 1975
 |3190|Easy|[Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/description/)|[Find Minimum Operations to Make All Elements Divisible by Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumOperationsToMakeAllElementsDivisibleByThree.java)|
 |3194|Easy|[Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/)|[Minimum Average of Smallest and Largest Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAverageOfSmallestAndLargestElements.java)|
 |3200|Easy|[Maximum Height of a Triangle](https://leetcode.com/problems/maximum-height-of-a-triangle/description/)|[Maximum Height of a Triangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumHeightOfTriangle.java)|
-|3206|Easy|[Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/description/)|[Alternating Groups I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingGroupsI.java)|</p>
+|3206|Easy|[Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/description/)|[Alternating Groups I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingGroupsI.java)|
+|3210|Easy|[Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/description/)|[Find the Encrypted String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheEncryptedString.java)|</p>
 </details>
 
 <details>
