@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1977
+Count of solved tasks: 1978
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1784,7 +1784,8 @@ Count of solved tasks: 1977
 |3207|Medium|[Maximum Points After Enemy Battles](https://leetcode.com/problems/maximum-points-after-enemy-battles/description/)|[Maximum Points After Enemy Battles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPointsAfterEnemyBattles.java)|
 |3208|Medium|[Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/description/)|[Alternating Groups II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingGroupsII.java)|
 |3210|Easy|[Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/description/)|[Find the Encrypted String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheEncryptedString.java)|
-|3211|Medium|[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)|[Generate Binary Strings Without Adjacent Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GenerateBinaryStringsWithoutAdjacentZeros.java)|</p>
+|3211|Medium|[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)|[Generate Binary Strings Without Adjacent Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GenerateBinaryStringsWithoutAdjacentZeros.java)|
+|3212|Medium|[Count Submatrices With Equal Frequency of X and Y](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/description/)|[Count Submatrices With Equal Frequency of X and Y.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubmatricesWithEqualFrequencyOfXAndY.java)|</p>
 </details>
 
 <details>
@@ -3068,7 +3069,8 @@ Count of solved tasks: 1977
 |3202|Medium|[Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/description/)|[Find the Maximum Length of Valid Subsequence II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheMaximumLengthOfValidSubsequenceII.java)|
 |3207|Medium|[Maximum Points After Enemy Battles](https://leetcode.com/problems/maximum-points-after-enemy-battles/description/)|[Maximum Points After Enemy Battles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPointsAfterEnemyBattles.java)|
 |3208|Medium|[Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/description/)|[Alternating Groups II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingGroupsII.java)|
-|3211|Medium|[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)|[Generate Binary Strings Without Adjacent Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GenerateBinaryStringsWithoutAdjacentZeros.java)|</p>
+|3211|Medium|[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)|[Generate Binary Strings Without Adjacent Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GenerateBinaryStringsWithoutAdjacentZeros.java)|
+|3212|Medium|[Count Submatrices With Equal Frequency of X and Y](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/description/)|[Count Submatrices With Equal Frequency of X and Y.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubmatricesWithEqualFrequencyOfXAndY.java)|</p>
 </details>
 
 <details>
