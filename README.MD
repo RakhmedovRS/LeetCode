@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1980
+Count of solved tasks: 1981
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1787,7 +1787,8 @@ Count of solved tasks: 1980
 |3211|Medium|[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)|[Generate Binary Strings Without Adjacent Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GenerateBinaryStringsWithoutAdjacentZeros.java)|
 |3212|Medium|[Count Submatrices With Equal Frequency of X and Y](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/description/)|[Count Submatrices With Equal Frequency of X and Y.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubmatricesWithEqualFrequencyOfXAndY.java)|
 |3216|Easy|[Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/description/)|[Lexicographically Smallest String After a Swap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterSwap.java)|
-|3217|Medium|[Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)|[Delete Nodes From Linked List Present in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteNodesFromLinkedListPresentInArray.java)|</p>
+|3217|Medium|[Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)|[Delete Nodes From Linked List Present in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteNodesFromLinkedListPresentInArray.java)|
+|3218|Medium|[Minimum Cost for Cutting Cake I](https://leetcode.com/problems/minimum-cost-for-cutting-cake-i/description/)|[Minimum Cost for Cutting Cake I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostForCuttingCakeI.java)|</p>
 </details>
 
 <details>
@@ -3074,7 +3075,8 @@ Count of solved tasks: 1980
 |3208|Medium|[Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/description/)|[Alternating Groups II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingGroupsII.java)|
 |3211|Medium|[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)|[Generate Binary Strings Without Adjacent Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GenerateBinaryStringsWithoutAdjacentZeros.java)|
 |3212|Medium|[Count Submatrices With Equal Frequency of X and Y](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/description/)|[Count Submatrices With Equal Frequency of X and Y.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubmatricesWithEqualFrequencyOfXAndY.java)|
-|3217|Medium|[Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)|[Delete Nodes From Linked List Present in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteNodesFromLinkedListPresentInArray.java)|</p>
+|3217|Medium|[Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)|[Delete Nodes From Linked List Present in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteNodesFromLinkedListPresentInArray.java)|
+|3218|Medium|[Minimum Cost for Cutting Cake I](https://leetcode.com/problems/minimum-cost-for-cutting-cake-i/description/)|[Minimum Cost for Cutting Cake I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostForCuttingCakeI.java)|</p>
 </details>
 
 <details>
