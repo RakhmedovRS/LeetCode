@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1978
+Count of solved tasks: 1979
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1785,7 +1785,8 @@ Count of solved tasks: 1978
 |3208|Medium|[Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/description/)|[Alternating Groups II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingGroupsII.java)|
 |3210|Easy|[Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/description/)|[Find the Encrypted String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheEncryptedString.java)|
 |3211|Medium|[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)|[Generate Binary Strings Without Adjacent Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GenerateBinaryStringsWithoutAdjacentZeros.java)|
-|3212|Medium|[Count Submatrices With Equal Frequency of X and Y](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/description/)|[Count Submatrices With Equal Frequency of X and Y.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubmatricesWithEqualFrequencyOfXAndY.java)|</p>
+|3212|Medium|[Count Submatrices With Equal Frequency of X and Y](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/description/)|[Count Submatrices With Equal Frequency of X and Y.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubmatricesWithEqualFrequencyOfXAndY.java)|
+|3216|Easy|[Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/description/)|[Lexicographically Smallest String After a Swap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterSwap.java)|</p>
 </details>
 
 <details>
@@ -2233,7 +2234,8 @@ Count of solved tasks: 1978
 |3194|Easy|[Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/)|[Minimum Average of Smallest and Largest Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAverageOfSmallestAndLargestElements.java)|
 |3200|Easy|[Maximum Height of a Triangle](https://leetcode.com/problems/maximum-height-of-a-triangle/description/)|[Maximum Height of a Triangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumHeightOfTriangle.java)|
 |3206|Easy|[Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/description/)|[Alternating Groups I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingGroupsI.java)|
-|3210|Easy|[Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/description/)|[Find the Encrypted String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheEncryptedString.java)|</p>
+|3210|Easy|[Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/description/)|[Find the Encrypted String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheEncryptedString.java)|
+|3216|Easy|[Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/description/)|[Lexicographically Smallest String After a Swap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterSwap.java)|</p>
 </details>
 
 <details>
