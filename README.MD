@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1984
+Count of solved tasks: 1985
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1791,7 +1791,8 @@ Count of solved tasks: 1984
 |3218|Medium|[Minimum Cost for Cutting Cake I](https://leetcode.com/problems/minimum-cost-for-cutting-cake-i/description/)|[Minimum Cost for Cutting Cake I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostForCuttingCakeI.java)|
 |3219|Hard|[Minimum Cost for Cutting Cake II](https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii/description/)|[Minimum Cost for Cutting Cake II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostForCuttingCakeII.java)|
 |3222|Easy|[Find the Winning Player in Coin Game](https://leetcode.com/problems/find-the-winning-player-in-coin-game/description/)|[Find the Winning Player in Coin Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheWinningPlayerInCoinGame.java)|
-|3223|Medium|[Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/description/)|[Minimum Length of String After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumLengthOfStringAfterOperations.java)|</p>
+|3223|Medium|[Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/description/)|[Minimum Length of String After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumLengthOfStringAfterOperations.java)|
+|3224|Medium|[Minimum Array Changes to Make Differences Equal](https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal/description/)|[Minimum Array Changes to Make Differences Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumArrayChangesToMakeDifferencesEqual.java)|</p>
 </details>
 
 <details>
@@ -3081,7 +3082,8 @@ Count of solved tasks: 1984
 |3212|Medium|[Count Submatrices With Equal Frequency of X and Y](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/description/)|[Count Submatrices With Equal Frequency of X and Y.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubmatricesWithEqualFrequencyOfXAndY.java)|
 |3217|Medium|[Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)|[Delete Nodes From Linked List Present in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteNodesFromLinkedListPresentInArray.java)|
 |3218|Medium|[Minimum Cost for Cutting Cake I](https://leetcode.com/problems/minimum-cost-for-cutting-cake-i/description/)|[Minimum Cost for Cutting Cake I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostForCuttingCakeI.java)|
-|3223|Medium|[Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/description/)|[Minimum Length of String After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumLengthOfStringAfterOperations.java)|</p>
+|3223|Medium|[Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/description/)|[Minimum Length of String After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumLengthOfStringAfterOperations.java)|
+|3224|Medium|[Minimum Array Changes to Make Differences Equal](https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal/description/)|[Minimum Array Changes to Make Differences Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumArrayChangesToMakeDifferencesEqual.java)|</p>
 </details>
 
 <details>
