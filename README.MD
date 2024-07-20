@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1982
+Count of solved tasks: 1983
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1789,7 +1789,8 @@ Count of solved tasks: 1982
 |3216|Easy|[Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/description/)|[Lexicographically Smallest String After a Swap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterSwap.java)|
 |3217|Medium|[Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)|[Delete Nodes From Linked List Present in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteNodesFromLinkedListPresentInArray.java)|
 |3218|Medium|[Minimum Cost for Cutting Cake I](https://leetcode.com/problems/minimum-cost-for-cutting-cake-i/description/)|[Minimum Cost for Cutting Cake I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostForCuttingCakeI.java)|
-|3219|Hard|[Minimum Cost for Cutting Cake II](https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii/description/)|[Minimum Cost for Cutting Cake II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostForCuttingCakeII.java)|</p>
+|3219|Hard|[Minimum Cost for Cutting Cake II](https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii/description/)|[Minimum Cost for Cutting Cake II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostForCuttingCakeII.java)|
+|3222|Easy|[Find the Winning Player in Coin Game](https://leetcode.com/problems/find-the-winning-player-in-coin-game/description/)|[Find the Winning Player in Coin Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheWinningPlayerInCoinGame.java)|</p>
 </details>
 
 <details>
@@ -2238,7 +2239,8 @@ Count of solved tasks: 1982
 |3200|Easy|[Maximum Height of a Triangle](https://leetcode.com/problems/maximum-height-of-a-triangle/description/)|[Maximum Height of a Triangle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumHeightOfTriangle.java)|
 |3206|Easy|[Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/description/)|[Alternating Groups I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingGroupsI.java)|
 |3210|Easy|[Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/description/)|[Find the Encrypted String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheEncryptedString.java)|
-|3216|Easy|[Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/description/)|[Lexicographically Smallest String After a Swap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterSwap.java)|</p>
+|3216|Easy|[Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/description/)|[Lexicographically Smallest String After a Swap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterSwap.java)|
+|3222|Easy|[Find the Winning Player in Coin Game](https://leetcode.com/problems/find-the-winning-player-in-coin-game/description/)|[Find the Winning Player in Coin Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheWinningPlayerInCoinGame.java)|</p>
 </details>
 
 <details>
