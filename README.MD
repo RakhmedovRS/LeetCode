@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1988
+Count of solved tasks: 1989
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1795,7 +1795,8 @@ Count of solved tasks: 1988
 |3224|Medium|[Minimum Array Changes to Make Differences Equal](https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal/description/)|[Minimum Array Changes to Make Differences Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumArrayChangesToMakeDifferencesEqual.java)|
 |3226|Easy|[Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/description/)|[Number of Bit Changes to Make Two Integers Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfBitChangesToMakeTwoIntegersEqual.java)|
 |3227|Medium|[Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/description/)|[Vowels Game in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelsGameInString.java)|
-|3228|Medium|[Maximum Number of Operations to Move Ones to the End](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/description/)|[Maximum Number of Operations to Move Ones to the End.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfOperationsToMoveOnesToTheEnd.java)|</p>
+|3228|Medium|[Maximum Number of Operations to Move Ones to the End](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/description/)|[Maximum Number of Operations to Move Ones to the End.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfOperationsToMoveOnesToTheEnd.java)|
+|3229|Hard|[Minimum Operations to Make Array Equal to Target](https://leetcode.com/problems/minimum-operations-to-make-array-equal-to-target/description/)|[Minimum Operations to Make Array Equal to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeArrayEqualToTarget.java)|</p>
 </details>
 
 <details>
@@ -3205,7 +3206,8 @@ Count of solved tasks: 1988
 |2642|Hard|[Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/)|[Design Graph With Shortest Path Calculator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignGraphWithShortestPathCalculator.java)|
 |3093|Hard|[Longest Common Suffix Queries](https://leetcode.com/problems/longest-common-suffix-queries/description/)|[Longest Common Suffix Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestCommonSuffixQueries.java)|
 |3123|Hard|[Find Edges in Shortest Paths](https://leetcode.com/problems/find-edges-in-shortest-paths/description/)|[Find Edges in Shortest Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindEdgesInShortestPaths.java)|
-|3219|Hard|[Minimum Cost for Cutting Cake II](https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii/description/)|[Minimum Cost for Cutting Cake II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostForCuttingCakeII.java)|</p>
+|3219|Hard|[Minimum Cost for Cutting Cake II](https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii/description/)|[Minimum Cost for Cutting Cake II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostForCuttingCakeII.java)|
+|3229|Hard|[Minimum Operations to Make Array Equal to Target](https://leetcode.com/problems/minimum-operations-to-make-array-equal-to-target/description/)|[Minimum Operations to Make Array Equal to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeArrayEqualToTarget.java)|</p>
 </details>
 
 <details>
