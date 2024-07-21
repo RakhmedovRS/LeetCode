@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1985
+Count of solved tasks: 1986
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1792,7 +1792,8 @@ Count of solved tasks: 1985
 |3219|Hard|[Minimum Cost for Cutting Cake II](https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii/description/)|[Minimum Cost for Cutting Cake II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostForCuttingCakeII.java)|
 |3222|Easy|[Find the Winning Player in Coin Game](https://leetcode.com/problems/find-the-winning-player-in-coin-game/description/)|[Find the Winning Player in Coin Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheWinningPlayerInCoinGame.java)|
 |3223|Medium|[Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/description/)|[Minimum Length of String After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumLengthOfStringAfterOperations.java)|
-|3224|Medium|[Minimum Array Changes to Make Differences Equal](https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal/description/)|[Minimum Array Changes to Make Differences Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumArrayChangesToMakeDifferencesEqual.java)|</p>
+|3224|Medium|[Minimum Array Changes to Make Differences Equal](https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal/description/)|[Minimum Array Changes to Make Differences Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumArrayChangesToMakeDifferencesEqual.java)|
+|3226|Easy|[Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/description/)|[Number of Bit Changes to Make Two Integers Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfBitChangesToMakeTwoIntegersEqual.java)|</p>
 </details>
 
 <details>
@@ -2242,7 +2243,8 @@ Count of solved tasks: 1985
 |3206|Easy|[Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/description/)|[Alternating Groups I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AlternatingGroupsI.java)|
 |3210|Easy|[Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/description/)|[Find the Encrypted String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheEncryptedString.java)|
 |3216|Easy|[Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/description/)|[Lexicographically Smallest String After a Swap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterSwap.java)|
-|3222|Easy|[Find the Winning Player in Coin Game](https://leetcode.com/problems/find-the-winning-player-in-coin-game/description/)|[Find the Winning Player in Coin Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheWinningPlayerInCoinGame.java)|</p>
+|3222|Easy|[Find the Winning Player in Coin Game](https://leetcode.com/problems/find-the-winning-player-in-coin-game/description/)|[Find the Winning Player in Coin Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheWinningPlayerInCoinGame.java)|
+|3226|Easy|[Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/description/)|[Number of Bit Changes to Make Two Integers Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfBitChangesToMakeTwoIntegersEqual.java)|</p>
 </details>
 
 <details>
