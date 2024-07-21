@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1986
+Count of solved tasks: 1987
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1793,7 +1793,8 @@ Count of solved tasks: 1986
 |3222|Easy|[Find the Winning Player in Coin Game](https://leetcode.com/problems/find-the-winning-player-in-coin-game/description/)|[Find the Winning Player in Coin Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheWinningPlayerInCoinGame.java)|
 |3223|Medium|[Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/description/)|[Minimum Length of String After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumLengthOfStringAfterOperations.java)|
 |3224|Medium|[Minimum Array Changes to Make Differences Equal](https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal/description/)|[Minimum Array Changes to Make Differences Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumArrayChangesToMakeDifferencesEqual.java)|
-|3226|Easy|[Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/description/)|[Number of Bit Changes to Make Two Integers Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfBitChangesToMakeTwoIntegersEqual.java)|</p>
+|3226|Easy|[Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/description/)|[Number of Bit Changes to Make Two Integers Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfBitChangesToMakeTwoIntegersEqual.java)|
+|3227|Medium|[Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/description/)|[Vowels Game in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelsGameInString.java)|</p>
 </details>
 
 <details>
@@ -3085,7 +3086,8 @@ Count of solved tasks: 1986
 |3217|Medium|[Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)|[Delete Nodes From Linked List Present in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteNodesFromLinkedListPresentInArray.java)|
 |3218|Medium|[Minimum Cost for Cutting Cake I](https://leetcode.com/problems/minimum-cost-for-cutting-cake-i/description/)|[Minimum Cost for Cutting Cake I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostForCuttingCakeI.java)|
 |3223|Medium|[Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/description/)|[Minimum Length of String After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumLengthOfStringAfterOperations.java)|
-|3224|Medium|[Minimum Array Changes to Make Differences Equal](https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal/description/)|[Minimum Array Changes to Make Differences Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumArrayChangesToMakeDifferencesEqual.java)|</p>
+|3224|Medium|[Minimum Array Changes to Make Differences Equal](https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal/description/)|[Minimum Array Changes to Make Differences Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumArrayChangesToMakeDifferencesEqual.java)|
+|3227|Medium|[Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/description/)|[Vowels Game in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelsGameInString.java)|</p>
 </details>
 
 <details>
