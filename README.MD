@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1990
+Count of solved tasks: 1991
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1797,7 +1797,8 @@ Count of solved tasks: 1990
 |3227|Medium|[Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/description/)|[Vowels Game in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelsGameInString.java)|
 |3228|Medium|[Maximum Number of Operations to Move Ones to the End](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/description/)|[Maximum Number of Operations to Move Ones to the End.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfOperationsToMoveOnesToTheEnd.java)|
 |3229|Hard|[Minimum Operations to Make Array Equal to Target](https://leetcode.com/problems/minimum-operations-to-make-array-equal-to-target/description/)|[Minimum Operations to Make Array Equal to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeArrayEqualToTarget.java)|
-|3232|Easy|[Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/description/)|[Find if Digit Game Can Be Won.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindIfDigitGameCanBeWon.java)|</p>
+|3232|Easy|[Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/description/)|[Find if Digit Game Can Be Won.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindIfDigitGameCanBeWon.java)|
+|3233|Medium|[Find the Count of Numbers Which Are Not Special](https://leetcode.com/problems/find-the-count-of-numbers-which-are-not-special/description/)|[Find the Count of Numbers Which Are Not Special.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheCountOfNumbersWhichAreNotSpecial.java)|</p>
 </details>
 
 <details>
@@ -3092,7 +3093,8 @@ Count of solved tasks: 1990
 |3223|Medium|[Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/description/)|[Minimum Length of String After Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumLengthOfStringAfterOperations.java)|
 |3224|Medium|[Minimum Array Changes to Make Differences Equal](https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal/description/)|[Minimum Array Changes to Make Differences Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumArrayChangesToMakeDifferencesEqual.java)|
 |3227|Medium|[Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/description/)|[Vowels Game in a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelsGameInString.java)|
-|3228|Medium|[Maximum Number of Operations to Move Ones to the End](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/description/)|[Maximum Number of Operations to Move Ones to the End.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfOperationsToMoveOnesToTheEnd.java)|</p>
+|3228|Medium|[Maximum Number of Operations to Move Ones to the End](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/description/)|[Maximum Number of Operations to Move Ones to the End.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfOperationsToMoveOnesToTheEnd.java)|
+|3233|Medium|[Find the Count of Numbers Which Are Not Special](https://leetcode.com/problems/find-the-count-of-numbers-which-are-not-special/description/)|[Find the Count of Numbers Which Are Not Special.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheCountOfNumbersWhichAreNotSpecial.java)|</p>
 </details>
 
 <details>
