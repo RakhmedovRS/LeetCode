@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1992
+Count of solved tasks: 1993
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1799,7 +1799,8 @@ Count of solved tasks: 1992
 |3229|Hard|[Minimum Operations to Make Array Equal to Target](https://leetcode.com/problems/minimum-operations-to-make-array-equal-to-target/description/)|[Minimum Operations to Make Array Equal to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeArrayEqualToTarget.java)|
 |3232|Easy|[Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/description/)|[Find if Digit Game Can Be Won.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindIfDigitGameCanBeWon.java)|
 |3233|Medium|[Find the Count of Numbers Which Are Not Special](https://leetcode.com/problems/find-the-count-of-numbers-which-are-not-special/description/)|[Find the Count of Numbers Which Are Not Special.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheCountOfNumbersWhichAreNotSpecial.java)|
-|3234|Medium|[Count the Number of Substrings With Dominant Ones](https://leetcode.com/problems/count-the-number-of-substrings-with-dominant-ones/)|[Count the Number of Substrings With Dominant Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfSubstringsWithDominantOnes.java)|</p>
+|3234|Medium|[Count the Number of Substrings With Dominant Ones](https://leetcode.com/problems/count-the-number-of-substrings-with-dominant-ones/)|[Count the Number of Substrings With Dominant Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfSubstringsWithDominantOnes.java)|
+|3242|Easy|[Design Neighbor Sum Service](https://leetcode.com/problems/design-neighbor-sum-service/description/)|[Design Neighbor Sum Service.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignNeighborSumService.java)|</p>
 </details>
 
 <details>
@@ -2251,7 +2252,8 @@ Count of solved tasks: 1992
 |3216|Easy|[Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/description/)|[Lexicographically Smallest String After a Swap.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterSwap.java)|
 |3222|Easy|[Find the Winning Player in Coin Game](https://leetcode.com/problems/find-the-winning-player-in-coin-game/description/)|[Find the Winning Player in Coin Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheWinningPlayerInCoinGame.java)|
 |3226|Easy|[Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/description/)|[Number of Bit Changes to Make Two Integers Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfBitChangesToMakeTwoIntegersEqual.java)|
-|3232|Easy|[Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/description/)|[Find if Digit Game Can Be Won.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindIfDigitGameCanBeWon.java)|</p>
+|3232|Easy|[Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/description/)|[Find if Digit Game Can Be Won.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindIfDigitGameCanBeWon.java)|
+|3242|Easy|[Design Neighbor Sum Service](https://leetcode.com/problems/design-neighbor-sum-service/description/)|[Design Neighbor Sum Service.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignNeighborSumService.java)|</p>
 </details>
 
 <details>
