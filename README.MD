@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1996
+Count of solved tasks: 1997
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -492,6 +492,7 @@ Count of solved tasks: 1996
 |714|Medium|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[Best Time to Buy and Sell Stock with Transaction Fee.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestTimeToBuyAndSellStockWithTransactionFee.java)|
 |717|Undefined|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|[1-bit and 2-bit Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/OneBitAndTwoBitCharacters.java)|
 |718|Medium|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Maximum Length of Repeated Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumLengthOfRepeatedSubarray.java)|
+|719|Hard|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)|[Find K-th Smallest Pair Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindKthSmallestPairDistance.java)|
 |720|Easy|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Longest Word in Dictionary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestWordInDictionary.java)|
 |721|Medium|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[Accounts Merge.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AccountsMerge.java)|
 |722|Undefined|[Remove Comments](https://leetcode.com/problems/remove-comments/)|[Remove Comments.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveComments.java)|
@@ -3157,6 +3158,7 @@ Count of solved tasks: 1996
 |630|Hard|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|[Course Schedule III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CourseScheduleIII.java)|
 |639|Hard|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|[Decode Ways II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DecodeWaysII.java)|
 |679|Hard|[24 Game](https://leetcode.com/problems/24-game/)|[24 Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/Game24.java)|
+|719|Hard|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)|[Find K-th Smallest Pair Distance.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindKthSmallestPairDistance.java)|
 |732|Hard|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[My Calendar III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MyCalendarIII.java)|
 |745|Hard|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/)|[Prefix and Suffix Search.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrefixAndSuffixSearch.java)|
 |753|Hard|[Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/)|[Cracking the Safe.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CrackingTheSafe.java)|
