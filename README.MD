@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 1998
+Count of solved tasks: 1999
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1803,7 +1803,8 @@ Count of solved tasks: 1998
 |3234|Medium|[Count the Number of Substrings With Dominant Ones](https://leetcode.com/problems/count-the-number-of-substrings-with-dominant-ones/)|[Count the Number of Substrings With Dominant Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfSubstringsWithDominantOnes.java)|
 |3242|Easy|[Design Neighbor Sum Service](https://leetcode.com/problems/design-neighbor-sum-service/description/)|[Design Neighbor Sum Service.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignNeighborSumService.java)|
 |3243|Medium|[Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/description/)|[Shortest Distance After Road Addition Queries I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestDistanceAfterRoadAdditionQueriesI.java)|
-|3258|Easy|[Count Substrings That Satisfy K-Constraint I](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/description/)|[Count Substrings That Satisfy K-Constraint I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsThatSatisfyKConstraintI.java)|</p>
+|3258|Easy|[Count Substrings That Satisfy K-Constraint I](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/description/)|[Count Substrings That Satisfy K-Constraint I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsThatSatisfyKConstraintI.java)|
+|3259|Medium|[Maximum Energy Boost From Two Drinks](https://leetcode.com/problems/maximum-energy-boost-from-two-drinks/description/)|[Maximum Energy Boost From Two Drinks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEnergyBoostFromTwoDrinks.java)|</p>
 </details>
 
 <details>
@@ -3103,7 +3104,8 @@ Count of solved tasks: 1998
 |3228|Medium|[Maximum Number of Operations to Move Ones to the End](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/description/)|[Maximum Number of Operations to Move Ones to the End.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfOperationsToMoveOnesToTheEnd.java)|
 |3233|Medium|[Find the Count of Numbers Which Are Not Special](https://leetcode.com/problems/find-the-count-of-numbers-which-are-not-special/description/)|[Find the Count of Numbers Which Are Not Special.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheCountOfNumbersWhichAreNotSpecial.java)|
 |3234|Medium|[Count the Number of Substrings With Dominant Ones](https://leetcode.com/problems/count-the-number-of-substrings-with-dominant-ones/)|[Count the Number of Substrings With Dominant Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfSubstringsWithDominantOnes.java)|
-|3243|Medium|[Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/description/)|[Shortest Distance After Road Addition Queries I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestDistanceAfterRoadAdditionQueriesI.java)|</p>
+|3243|Medium|[Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/description/)|[Shortest Distance After Road Addition Queries I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestDistanceAfterRoadAdditionQueriesI.java)|
+|3259|Medium|[Maximum Energy Boost From Two Drinks](https://leetcode.com/problems/maximum-energy-boost-from-two-drinks/description/)|[Maximum Energy Boost From Two Drinks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEnergyBoostFromTwoDrinks.java)|</p>
 </details>
 
 <details>
