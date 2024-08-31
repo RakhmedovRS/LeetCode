@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2002
+Count of solved tasks: 2003
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1807,7 +1807,8 @@ Count of solved tasks: 2002
 |3259|Medium|[Maximum Energy Boost From Two Drinks](https://leetcode.com/problems/maximum-energy-boost-from-two-drinks/description/)|[Maximum Energy Boost From Two Drinks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEnergyBoostFromTwoDrinks.java)|
 |3260|Hard|[Find the Largest Palindrome Divisible by K](https://leetcode.com/problems/find-the-largest-palindrome-divisible-by-k/description/)|[Find the Largest Palindrome Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLargestPalindromeDivisibleByK.java)|
 |3264|Easy|[Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)|[Final Array State After K Multiplication Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FinalArrayStateAfterKMultiplicationOperationsI.java)|
-|3265|Medium|[Count Almost Equal Pairs I](https://leetcode.com/problems/count-almost-equal-pairs-i/description/)|[Count Almost Equal Pairs I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountAlmostEqualPairsI.java)|</p>
+|3265|Medium|[Count Almost Equal Pairs I](https://leetcode.com/problems/count-almost-equal-pairs-i/description/)|[Count Almost Equal Pairs I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountAlmostEqualPairsI.java)|
+|3270|Easy|[Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/description/)|[Find the Key of the Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKeyOfTheNumbers.java)|</p>
 </details>
 
 <details>
@@ -2262,7 +2263,8 @@ Count of solved tasks: 2002
 |3232|Easy|[Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/description/)|[Find if Digit Game Can Be Won.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindIfDigitGameCanBeWon.java)|
 |3242|Easy|[Design Neighbor Sum Service](https://leetcode.com/problems/design-neighbor-sum-service/description/)|[Design Neighbor Sum Service.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignNeighborSumService.java)|
 |3258|Easy|[Count Substrings That Satisfy K-Constraint I](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/description/)|[Count Substrings That Satisfy K-Constraint I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsThatSatisfyKConstraintI.java)|
-|3264|Easy|[Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)|[Final Array State After K Multiplication Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FinalArrayStateAfterKMultiplicationOperationsI.java)|</p>
+|3264|Easy|[Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)|[Final Array State After K Multiplication Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FinalArrayStateAfterKMultiplicationOperationsI.java)|
+|3270|Easy|[Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/description/)|[Find the Key of the Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKeyOfTheNumbers.java)|</p>
 </details>
 
 <details>
