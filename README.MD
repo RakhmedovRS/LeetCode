@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2004
+Count of solved tasks: 2005
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1809,7 +1809,8 @@ Count of solved tasks: 2004
 |3264|Easy|[Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)|[Final Array State After K Multiplication Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FinalArrayStateAfterKMultiplicationOperationsI.java)|
 |3265|Medium|[Count Almost Equal Pairs I](https://leetcode.com/problems/count-almost-equal-pairs-i/description/)|[Count Almost Equal Pairs I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountAlmostEqualPairsI.java)|
 |3270|Easy|[Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/description/)|[Find the Key of the Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKeyOfTheNumbers.java)|
-|3271|Medium|[Hash Divided String](https://leetcode.com/problems/hash-divided-string/description/)|[Hash Divided String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HashDividedString.java)|</p>
+|3271|Medium|[Hash Divided String](https://leetcode.com/problems/hash-divided-string/description/)|[Hash Divided String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HashDividedString.java)|
+|3273|Hard|[Minimum Amount of Damage Dealt to Bob](https://leetcode.com/problems/minimum-amount-of-damage-dealt-to-bob/description/)|[Minimum Amount of Damage Dealt to Bob.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfDamageDealtToBob.java)|</p>
 </details>
 
 <details>
@@ -3233,7 +3234,8 @@ Count of solved tasks: 2004
 |3123|Hard|[Find Edges in Shortest Paths](https://leetcode.com/problems/find-edges-in-shortest-paths/description/)|[Find Edges in Shortest Paths.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindEdgesInShortestPaths.java)|
 |3219|Hard|[Minimum Cost for Cutting Cake II](https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii/description/)|[Minimum Cost for Cutting Cake II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostForCuttingCakeII.java)|
 |3229|Hard|[Minimum Operations to Make Array Equal to Target](https://leetcode.com/problems/minimum-operations-to-make-array-equal-to-target/description/)|[Minimum Operations to Make Array Equal to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeArrayEqualToTarget.java)|
-|3260|Hard|[Find the Largest Palindrome Divisible by K](https://leetcode.com/problems/find-the-largest-palindrome-divisible-by-k/description/)|[Find the Largest Palindrome Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLargestPalindromeDivisibleByK.java)|</p>
+|3260|Hard|[Find the Largest Palindrome Divisible by K](https://leetcode.com/problems/find-the-largest-palindrome-divisible-by-k/description/)|[Find the Largest Palindrome Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLargestPalindromeDivisibleByK.java)|
+|3273|Hard|[Minimum Amount of Damage Dealt to Bob](https://leetcode.com/problems/minimum-amount-of-damage-dealt-to-bob/description/)|[Minimum Amount of Damage Dealt to Bob.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfDamageDealtToBob.java)|</p>
 </details>
 
 <details>
