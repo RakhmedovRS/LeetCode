@@ -3,6 +3,8 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.PriorityQueue;
 
 /**
@@ -19,20 +21,20 @@ public class MinimumAmountOfDamageDealtToBob {
 	public long minDamage(int power, int[] damage, int[] health) {
 		long ans = 0;
 
+		List<Integer> indices = new ArrayList<>();
 		double[] ratios = new double[damage.length];
-		long[] temp = new long[damage.length];
+		long totalDamage = 0;
 		for (int i = 0; i < damage.length; i++) {
 			long hits = health[i] / power;
 			if (health[i] % power != 0) {
 				hits++;
 			}
-			long d = hits * damage[i];
 			ratios[i] = 1D * damage[i] / hits;
-			String a = "";
+			indices.add(i);
+			totalDamage += damage[i];
 		}
 
-
-		PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> {
+		indices.sort((a, b) -> {
 			if (Double.compare(ratios[a], ratios[b]) == 0) {
 				if (damage[a] != damage[b]) {
 					return damage[b] - damage[a];
@@ -42,13 +44,7 @@ public class MinimumAmountOfDamageDealtToBob {
 			return Double.compare(ratios[b], ratios[a]);
 		});
 
-		long totalDamage = 0;
-		for (int i = 0; i < damage.length; i++) {
-			totalDamage += damage[i];
-			pq.add(i);
-		}
-		while (!pq.isEmpty()) {
-			int i = pq.remove();
+		for (int i : indices){
 			int d = damage[i];
 			int h = health[i];
 
