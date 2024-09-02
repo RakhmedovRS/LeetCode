@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2006
+Count of solved tasks: 2007
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1811,7 +1811,8 @@ Count of solved tasks: 2006
 |3270|Easy|[Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/description/)|[Find the Key of the Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKeyOfTheNumbers.java)|
 |3271|Medium|[Hash Divided String](https://leetcode.com/problems/hash-divided-string/description/)|[Hash Divided String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HashDividedString.java)|
 |3273|Hard|[Minimum Amount of Damage Dealt to Bob](https://leetcode.com/problems/minimum-amount-of-damage-dealt-to-bob/description/)|[Minimum Amount of Damage Dealt to Bob.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfDamageDealtToBob.java)|
-|3274|Easy|[Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/description/)|[Check if Two Chessboard Squares Have the Same Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfTwoChessboardSquaresHaveTheSameColor.java)|</p>
+|3274|Easy|[Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/description/)|[Check if Two Chessboard Squares Have the Same Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfTwoChessboardSquaresHaveTheSameColor.java)|
+|3275|Medium|[K-th Nearest Obstacle Queries](https://leetcode.com/problems/k-th-nearest-obstacle-queries/description/)|[K-th Nearest Obstacle Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthNearestObstacleQueries.java)|</p>
 </details>
 
 <details>
@@ -3117,7 +3118,8 @@ Count of solved tasks: 2006
 |3243|Medium|[Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/description/)|[Shortest Distance After Road Addition Queries I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestDistanceAfterRoadAdditionQueriesI.java)|
 |3259|Medium|[Maximum Energy Boost From Two Drinks](https://leetcode.com/problems/maximum-energy-boost-from-two-drinks/description/)|[Maximum Energy Boost From Two Drinks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEnergyBoostFromTwoDrinks.java)|
 |3265|Medium|[Count Almost Equal Pairs I](https://leetcode.com/problems/count-almost-equal-pairs-i/description/)|[Count Almost Equal Pairs I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountAlmostEqualPairsI.java)|
-|3271|Medium|[Hash Divided String](https://leetcode.com/problems/hash-divided-string/description/)|[Hash Divided String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HashDividedString.java)|</p>
+|3271|Medium|[Hash Divided String](https://leetcode.com/problems/hash-divided-string/description/)|[Hash Divided String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HashDividedString.java)|
+|3275|Medium|[K-th Nearest Obstacle Queries](https://leetcode.com/problems/k-th-nearest-obstacle-queries/description/)|[K-th Nearest Obstacle Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthNearestObstacleQueries.java)|</p>
 </details>
 
 <details>
