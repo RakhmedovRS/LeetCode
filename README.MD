@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2008
+Count of solved tasks: 2009
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1813,7 +1813,8 @@ Count of solved tasks: 2008
 |3273|Hard|[Minimum Amount of Damage Dealt to Bob](https://leetcode.com/problems/minimum-amount-of-damage-dealt-to-bob/description/)|[Minimum Amount of Damage Dealt to Bob.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfDamageDealtToBob.java)|
 |3274|Easy|[Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/description/)|[Check if Two Chessboard Squares Have the Same Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfTwoChessboardSquaresHaveTheSameColor.java)|
 |3275|Medium|[K-th Nearest Obstacle Queries](https://leetcode.com/problems/k-th-nearest-obstacle-queries/description/)|[K-th Nearest Obstacle Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthNearestObstacleQueries.java)|
-|3289|Easy|[The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/)|[The Two Sneaky Numbers of Digitville.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheTwoSneakyNumbersOfDigitville.java)|</p>
+|3289|Easy|[The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/)|[The Two Sneaky Numbers of Digitville.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheTwoSneakyNumbersOfDigitville.java)|
+|3290|Medium|[Maximum Multiplication Score](https://leetcode.com/problems/maximum-multiplication-score/description/)|[Maximum Multiplication Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumMultiplicationScore.java)|</p>
 </details>
 
 <details>
@@ -3121,7 +3122,8 @@ Count of solved tasks: 2008
 |3259|Medium|[Maximum Energy Boost From Two Drinks](https://leetcode.com/problems/maximum-energy-boost-from-two-drinks/description/)|[Maximum Energy Boost From Two Drinks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEnergyBoostFromTwoDrinks.java)|
 |3265|Medium|[Count Almost Equal Pairs I](https://leetcode.com/problems/count-almost-equal-pairs-i/description/)|[Count Almost Equal Pairs I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountAlmostEqualPairsI.java)|
 |3271|Medium|[Hash Divided String](https://leetcode.com/problems/hash-divided-string/description/)|[Hash Divided String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HashDividedString.java)|
-|3275|Medium|[K-th Nearest Obstacle Queries](https://leetcode.com/problems/k-th-nearest-obstacle-queries/description/)|[K-th Nearest Obstacle Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthNearestObstacleQueries.java)|</p>
+|3275|Medium|[K-th Nearest Obstacle Queries](https://leetcode.com/problems/k-th-nearest-obstacle-queries/description/)|[K-th Nearest Obstacle Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthNearestObstacleQueries.java)|
+|3290|Medium|[Maximum Multiplication Score](https://leetcode.com/problems/maximum-multiplication-score/description/)|[Maximum Multiplication Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumMultiplicationScore.java)|</p>
 </details>
 
 <details>
