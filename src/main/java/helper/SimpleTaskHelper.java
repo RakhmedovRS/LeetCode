@@ -9,6 +9,9 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -76,7 +79,9 @@ public class SimpleTaskHelper {
 	}
 
 	private static void createFile(String fileName, String leetCodeAnnotation) throws IOException {
-		Path path = Paths.get(String.format("src\\main\\java\\tasks/%s.java", fileName));
+		String fileNameWithExtension = String.format("%s.java", fileName);
+		List<String> pathParts = Arrays.asList("src", "main", "java", "tasks", fileNameWithExtension);
+		Path path = Paths.get(String.join(File.separator, pathParts));
 		File outputFile = path.toAbsolutePath().toFile();
 		if (outputFile.createNewFile()) {
 			fillInFile(outputFile, fileName, leetCodeAnnotation);
