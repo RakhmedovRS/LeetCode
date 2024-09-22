@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2010
+Count of solved tasks: 2011
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1815,7 +1815,8 @@ Count of solved tasks: 2010
 |3275|Medium|[K-th Nearest Obstacle Queries](https://leetcode.com/problems/k-th-nearest-obstacle-queries/description/)|[K-th Nearest Obstacle Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthNearestObstacleQueries.java)|
 |3289|Easy|[The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/)|[The Two Sneaky Numbers of Digitville.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheTwoSneakyNumbersOfDigitville.java)|
 |3290|Medium|[Maximum Multiplication Score](https://leetcode.com/problems/maximum-multiplication-score/description/)|[Maximum Multiplication Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumMultiplicationScore.java)|
-|3295|Medium|[Report Spam Message](https://leetcode.com/problems/report-spam-message/description/)|[Report Spam Message.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReportSpamMessage.java)|</p>
+|3295|Medium|[Report Spam Message](https://leetcode.com/problems/report-spam-message/description/)|[Report Spam Message.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReportSpamMessage.java)|
+|3296|Medium|[Minimum Number of Seconds to Make Mountain Height Zero](https://leetcode.com/problems/minimum-number-of-seconds-to-make-mountain-height-zero/description/)|[Minimum Number of Seconds to Make Mountain Height Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfSecondsToMakeMountainHeightZero.java)|</p>
 </details>
 
 <details>
@@ -3125,7 +3126,8 @@ Count of solved tasks: 2010
 |3271|Medium|[Hash Divided String](https://leetcode.com/problems/hash-divided-string/description/)|[Hash Divided String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HashDividedString.java)|
 |3275|Medium|[K-th Nearest Obstacle Queries](https://leetcode.com/problems/k-th-nearest-obstacle-queries/description/)|[K-th Nearest Obstacle Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthNearestObstacleQueries.java)|
 |3290|Medium|[Maximum Multiplication Score](https://leetcode.com/problems/maximum-multiplication-score/description/)|[Maximum Multiplication Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumMultiplicationScore.java)|
-|3295|Medium|[Report Spam Message](https://leetcode.com/problems/report-spam-message/description/)|[Report Spam Message.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReportSpamMessage.java)|</p>
+|3295|Medium|[Report Spam Message](https://leetcode.com/problems/report-spam-message/description/)|[Report Spam Message.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReportSpamMessage.java)|
+|3296|Medium|[Minimum Number of Seconds to Make Mountain Height Zero](https://leetcode.com/problems/minimum-number-of-seconds-to-make-mountain-height-zero/description/)|[Minimum Number of Seconds to Make Mountain Height Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfSecondsToMakeMountainHeightZero.java)|</p>
 </details>
 
 <details>
