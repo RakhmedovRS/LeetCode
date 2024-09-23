@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2012
+Count of solved tasks: 2013
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1817,7 +1817,8 @@ Count of solved tasks: 2012
 |3290|Medium|[Maximum Multiplication Score](https://leetcode.com/problems/maximum-multiplication-score/description/)|[Maximum Multiplication Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumMultiplicationScore.java)|
 |3295|Medium|[Report Spam Message](https://leetcode.com/problems/report-spam-message/description/)|[Report Spam Message.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReportSpamMessage.java)|
 |3296|Medium|[Minimum Number of Seconds to Make Mountain Height Zero](https://leetcode.com/problems/minimum-number-of-seconds-to-make-mountain-height-zero/description/)|[Minimum Number of Seconds to Make Mountain Height Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfSecondsToMakeMountainHeightZero.java)|
-|3297|Medium|[Count Substrings That Can Be Rearranged to Contain a String I](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-i/description/)|[Count Substrings That Can Be Rearranged to Contain a String I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsThatCanBeRearrangedToContainStringI.java)|</p>
+|3297|Medium|[Count Substrings That Can Be Rearranged to Contain a String I](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-i/description/)|[Count Substrings That Can Be Rearranged to Contain a String I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsThatCanBeRearrangedToContainStringI.java)|
+|3298|Hard|[Count Substrings That Can Be Rearranged to Contain a String II](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/description/)|[Count Substrings That Can Be Rearranged to Contain a String II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsThatCanBeRearrangedToContainStringII.java)|</p>
 </details>
 
 <details>
@@ -3249,7 +3250,8 @@ Count of solved tasks: 2012
 |3219|Hard|[Minimum Cost for Cutting Cake II](https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii/description/)|[Minimum Cost for Cutting Cake II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostForCuttingCakeII.java)|
 |3229|Hard|[Minimum Operations to Make Array Equal to Target](https://leetcode.com/problems/minimum-operations-to-make-array-equal-to-target/description/)|[Minimum Operations to Make Array Equal to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeArrayEqualToTarget.java)|
 |3260|Hard|[Find the Largest Palindrome Divisible by K](https://leetcode.com/problems/find-the-largest-palindrome-divisible-by-k/description/)|[Find the Largest Palindrome Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLargestPalindromeDivisibleByK.java)|
-|3273|Hard|[Minimum Amount of Damage Dealt to Bob](https://leetcode.com/problems/minimum-amount-of-damage-dealt-to-bob/description/)|[Minimum Amount of Damage Dealt to Bob.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfDamageDealtToBob.java)|</p>
+|3273|Hard|[Minimum Amount of Damage Dealt to Bob](https://leetcode.com/problems/minimum-amount-of-damage-dealt-to-bob/description/)|[Minimum Amount of Damage Dealt to Bob.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfDamageDealtToBob.java)|
+|3298|Hard|[Count Substrings That Can Be Rearranged to Contain a String II](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/description/)|[Count Substrings That Can Be Rearranged to Contain a String II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsThatCanBeRearrangedToContainStringII.java)|</p>
 </details>
 
 <details>
