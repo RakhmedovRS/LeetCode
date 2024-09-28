@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2013
+Count of solved tasks: 2014
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1818,7 +1818,8 @@ Count of solved tasks: 2013
 |3295|Medium|[Report Spam Message](https://leetcode.com/problems/report-spam-message/description/)|[Report Spam Message.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReportSpamMessage.java)|
 |3296|Medium|[Minimum Number of Seconds to Make Mountain Height Zero](https://leetcode.com/problems/minimum-number-of-seconds-to-make-mountain-height-zero/description/)|[Minimum Number of Seconds to Make Mountain Height Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfSecondsToMakeMountainHeightZero.java)|
 |3297|Medium|[Count Substrings That Can Be Rearranged to Contain a String I](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-i/description/)|[Count Substrings That Can Be Rearranged to Contain a String I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsThatCanBeRearrangedToContainStringI.java)|
-|3298|Hard|[Count Substrings That Can Be Rearranged to Contain a String II](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/description/)|[Count Substrings That Can Be Rearranged to Contain a String II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsThatCanBeRearrangedToContainStringII.java)|</p>
+|3298|Hard|[Count Substrings That Can Be Rearranged to Contain a String II](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/description/)|[Count Substrings That Can Be Rearranged to Contain a String II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsThatCanBeRearrangedToContainStringII.java)|
+|3300|Easy|[Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/)|[Minimum Element After Replacement With Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumElementAfterReplacementWithDigitSum.java)|</p>
 </details>
 
 <details>
@@ -2276,7 +2277,8 @@ Count of solved tasks: 2013
 |3264|Easy|[Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)|[Final Array State After K Multiplication Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FinalArrayStateAfterKMultiplicationOperationsI.java)|
 |3270|Easy|[Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/description/)|[Find the Key of the Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKeyOfTheNumbers.java)|
 |3274|Easy|[Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/description/)|[Check if Two Chessboard Squares Have the Same Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfTwoChessboardSquaresHaveTheSameColor.java)|
-|3289|Easy|[The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/)|[The Two Sneaky Numbers of Digitville.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheTwoSneakyNumbersOfDigitville.java)|</p>
+|3289|Easy|[The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/)|[The Two Sneaky Numbers of Digitville.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheTwoSneakyNumbersOfDigitville.java)|
+|3300|Easy|[Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/)|[Minimum Element After Replacement With Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumElementAfterReplacementWithDigitSum.java)|</p>
 </details>
 
 <details>
