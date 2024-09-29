@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2016
+Count of solved tasks: 2017
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1821,7 +1821,8 @@ Count of solved tasks: 2016
 |3298|Hard|[Count Substrings That Can Be Rearranged to Contain a String II](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/description/)|[Count Substrings That Can Be Rearranged to Contain a String II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsThatCanBeRearrangedToContainStringII.java)|
 |3300|Easy|[Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/)|[Minimum Element After Replacement With Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumElementAfterReplacementWithDigitSum.java)|
 |3301|Medium|[Maximize the Total Height of Unique Towers](https://leetcode.com/problems/maximize-the-total-height-of-unique-towers/description/)|[Maximize the Total Height of Unique Towers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheTotalHeightOfUniqueTowers.java)|
-|3304|Easy|[Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/description/)|[Find the K-th Character in String Game I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKthCharacterInStringGameI.java)|</p>
+|3304|Easy|[Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/description/)|[Find the K-th Character in String Game I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKthCharacterInStringGameI.java)|
+|3305|Medium|[Count of Substrings Containing Every Vowel and K Consonants I](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-i/description/)|[Count of Substrings Containing Every Vowel and K Consonants I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountOfSubstringsContainingEveryVowelAndKConsonantsI.java)|</p>
 </details>
 
 <details>
@@ -3136,7 +3137,8 @@ Count of solved tasks: 2016
 |3295|Medium|[Report Spam Message](https://leetcode.com/problems/report-spam-message/description/)|[Report Spam Message.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReportSpamMessage.java)|
 |3296|Medium|[Minimum Number of Seconds to Make Mountain Height Zero](https://leetcode.com/problems/minimum-number-of-seconds-to-make-mountain-height-zero/description/)|[Minimum Number of Seconds to Make Mountain Height Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfSecondsToMakeMountainHeightZero.java)|
 |3297|Medium|[Count Substrings That Can Be Rearranged to Contain a String I](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-i/description/)|[Count Substrings That Can Be Rearranged to Contain a String I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsThatCanBeRearrangedToContainStringI.java)|
-|3301|Medium|[Maximize the Total Height of Unique Towers](https://leetcode.com/problems/maximize-the-total-height-of-unique-towers/description/)|[Maximize the Total Height of Unique Towers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheTotalHeightOfUniqueTowers.java)|</p>
+|3301|Medium|[Maximize the Total Height of Unique Towers](https://leetcode.com/problems/maximize-the-total-height-of-unique-towers/description/)|[Maximize the Total Height of Unique Towers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheTotalHeightOfUniqueTowers.java)|
+|3305|Medium|[Count of Substrings Containing Every Vowel and K Consonants I](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-i/description/)|[Count of Substrings Containing Every Vowel and K Consonants I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountOfSubstringsContainingEveryVowelAndKConsonantsI.java)|</p>
 </details>
 
 <details>
