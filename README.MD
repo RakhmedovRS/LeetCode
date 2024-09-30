@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2018
+Count of solved tasks: 2019
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1814,6 +1814,7 @@ Count of solved tasks: 2018
 |3274|Easy|[Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/description/)|[Check if Two Chessboard Squares Have the Same Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfTwoChessboardSquaresHaveTheSameColor.java)|
 |3275|Medium|[K-th Nearest Obstacle Queries](https://leetcode.com/problems/k-th-nearest-obstacle-queries/description/)|[K-th Nearest Obstacle Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthNearestObstacleQueries.java)|
 |3280|Easy|[Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/description/)|[Convert Date to Binary.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertDateToBinary.java)|
+|3281|Medium|[Maximize Score of Numbers in Ranges](https://leetcode.com/problems/maximize-score-of-numbers-in-ranges/description/)|[Maximize Score of Numbers in Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeScoreOfNumbersInRanges.java)|
 |3289|Easy|[The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/)|[The Two Sneaky Numbers of Digitville.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheTwoSneakyNumbersOfDigitville.java)|
 |3290|Medium|[Maximum Multiplication Score](https://leetcode.com/problems/maximum-multiplication-score/description/)|[Maximum Multiplication Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumMultiplicationScore.java)|
 |3295|Medium|[Report Spam Message](https://leetcode.com/problems/report-spam-message/description/)|[Report Spam Message.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReportSpamMessage.java)|
@@ -3135,6 +3136,7 @@ Count of solved tasks: 2018
 |3265|Medium|[Count Almost Equal Pairs I](https://leetcode.com/problems/count-almost-equal-pairs-i/description/)|[Count Almost Equal Pairs I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountAlmostEqualPairsI.java)|
 |3271|Medium|[Hash Divided String](https://leetcode.com/problems/hash-divided-string/description/)|[Hash Divided String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HashDividedString.java)|
 |3275|Medium|[K-th Nearest Obstacle Queries](https://leetcode.com/problems/k-th-nearest-obstacle-queries/description/)|[K-th Nearest Obstacle Queries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthNearestObstacleQueries.java)|
+|3281|Medium|[Maximize Score of Numbers in Ranges](https://leetcode.com/problems/maximize-score-of-numbers-in-ranges/description/)|[Maximize Score of Numbers in Ranges.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeScoreOfNumbersInRanges.java)|
 |3290|Medium|[Maximum Multiplication Score](https://leetcode.com/problems/maximum-multiplication-score/description/)|[Maximum Multiplication Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumMultiplicationScore.java)|
 |3295|Medium|[Report Spam Message](https://leetcode.com/problems/report-spam-message/description/)|[Report Spam Message.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReportSpamMessage.java)|
 |3296|Medium|[Minimum Number of Seconds to Make Mountain Height Zero](https://leetcode.com/problems/minimum-number-of-seconds-to-make-mountain-height-zero/description/)|[Minimum Number of Seconds to Make Mountain Height Zero.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfSecondsToMakeMountainHeightZero.java)|
