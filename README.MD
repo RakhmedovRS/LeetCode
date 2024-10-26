@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2026
+Count of solved tasks: 2027
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1831,7 +1831,8 @@ Count of solved tasks: 2026
 |3305|Medium|[Count of Substrings Containing Every Vowel and K Consonants I](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-i/description/)|[Count of Substrings Containing Every Vowel and K Consonants I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountOfSubstringsContainingEveryVowelAndKConsonantsI.java)|
 |3309|Medium|[Maximum Possible Number by Binary Concatenation](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation/description/)|[Maximum Possible Number by Binary Concatenation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPossibleNumberByBinaryConcatenation.java)|
 |3310|Medium|[Remove Methods From Project](https://leetcode.com/problems/remove-methods-from-project/description/)|[Remove Methods From Project.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveMethodsFromProject.java)|
-|3330|Easy|[Find the Original Typed String I](https://leetcode.com/problems/find-the-original-typed-string-i/description/)|[Find the Original Typed String I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheOriginalTypedStringI.java)|</p>
+|3330|Easy|[Find the Original Typed String I](https://leetcode.com/problems/find-the-original-typed-string-i/description/)|[Find the Original Typed String I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheOriginalTypedStringI.java)|
+|3331|Medium|[Find Subtree Sizes After Changes](https://leetcode.com/problems/find-subtree-sizes-after-changes/description/)|[Find Subtree Sizes After Changes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSubtreeSizesAfterChanges.java)|</p>
 </details>
 
 <details>
@@ -3156,7 +3157,8 @@ Count of solved tasks: 2026
 |3301|Medium|[Maximize the Total Height of Unique Towers](https://leetcode.com/problems/maximize-the-total-height-of-unique-towers/description/)|[Maximize the Total Height of Unique Towers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheTotalHeightOfUniqueTowers.java)|
 |3305|Medium|[Count of Substrings Containing Every Vowel and K Consonants I](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-i/description/)|[Count of Substrings Containing Every Vowel and K Consonants I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountOfSubstringsContainingEveryVowelAndKConsonantsI.java)|
 |3309|Medium|[Maximum Possible Number by Binary Concatenation](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation/description/)|[Maximum Possible Number by Binary Concatenation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPossibleNumberByBinaryConcatenation.java)|
-|3310|Medium|[Remove Methods From Project](https://leetcode.com/problems/remove-methods-from-project/description/)|[Remove Methods From Project.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveMethodsFromProject.java)|</p>
+|3310|Medium|[Remove Methods From Project](https://leetcode.com/problems/remove-methods-from-project/description/)|[Remove Methods From Project.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveMethodsFromProject.java)|
+|3331|Medium|[Find Subtree Sizes After Changes](https://leetcode.com/problems/find-subtree-sizes-after-changes/description/)|[Find Subtree Sizes After Changes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSubtreeSizesAfterChanges.java)|</p>
 </details>
 
 <details>
