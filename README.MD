@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2025
+Count of solved tasks: 2026
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1830,7 +1830,8 @@ Count of solved tasks: 2025
 |3304|Easy|[Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/description/)|[Find the K-th Character in String Game I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKthCharacterInStringGameI.java)|
 |3305|Medium|[Count of Substrings Containing Every Vowel and K Consonants I](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-i/description/)|[Count of Substrings Containing Every Vowel and K Consonants I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountOfSubstringsContainingEveryVowelAndKConsonantsI.java)|
 |3309|Medium|[Maximum Possible Number by Binary Concatenation](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation/description/)|[Maximum Possible Number by Binary Concatenation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPossibleNumberByBinaryConcatenation.java)|
-|3310|Medium|[Remove Methods From Project](https://leetcode.com/problems/remove-methods-from-project/description/)|[Remove Methods From Project.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveMethodsFromProject.java)|</p>
+|3310|Medium|[Remove Methods From Project](https://leetcode.com/problems/remove-methods-from-project/description/)|[Remove Methods From Project.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveMethodsFromProject.java)|
+|3330|Easy|[Find the Original Typed String I](https://leetcode.com/problems/find-the-original-typed-string-i/description/)|[Find the Original Typed String I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheOriginalTypedStringI.java)|</p>
 </details>
 
 <details>
@@ -2293,7 +2294,8 @@ Count of solved tasks: 2025
 |3285|Easy|[Find Indices of Stable Mountains](https://leetcode.com/problems/find-indices-of-stable-mountains/description/)|[Find Indices of Stable Mountains.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindIndicesOfStableMountains.java)|
 |3289|Easy|[The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/)|[The Two Sneaky Numbers of Digitville.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheTwoSneakyNumbersOfDigitville.java)|
 |3300|Easy|[Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/)|[Minimum Element After Replacement With Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumElementAfterReplacementWithDigitSum.java)|
-|3304|Easy|[Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/description/)|[Find the K-th Character in String Game I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKthCharacterInStringGameI.java)|</p>
+|3304|Easy|[Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/description/)|[Find the K-th Character in String Game I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKthCharacterInStringGameI.java)|
+|3330|Easy|[Find the Original Typed String I](https://leetcode.com/problems/find-the-original-typed-string-i/description/)|[Find the Original Typed String I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheOriginalTypedStringI.java)|</p>
 </details>
 
 <details>
