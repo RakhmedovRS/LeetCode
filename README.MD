@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2028
+Count of solved tasks: 2029
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1497,6 +1497,7 @@ Count of solved tasks: 2028
 |2496|Easy|[Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/description/)|[Maximum Value of a String in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumValueOfStringInArray.java)|
 |2497|Medium|[Maximum Star Sum of a Graph](https://leetcode.com/problems/maximum-star-sum-of-a-graph/description/)|[Maximum Star Sum of a Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumStarSumOfGraph.java)|
 |2500|Easy|[Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/)|[Delete Greatest Value in Each Row.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DeleteGreatestValueInEachRow.java)|
+|2501|Medium|[Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array/description/)|[Longest Square Streak in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSquareStreakInAnArray.java)|
 |2506|Easy|[Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)|[Count Pairs Of Similar Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountPairsOfSimilarStrings.java)|
 |2511|Easy|[Maximum Enemy Forts That Can Be Captured](https://leetcode.com/problems/maximum-enemy-forts-that-can-be-captured/description/)|[Maximum Enemy Forts That Can Be Captured.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEnemyFortsThatCanBeCaptured.java)|
 |2512|Medium|[Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/)|[Reward Top K Students.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RewardTopKStudents.java)|
@@ -2965,6 +2966,7 @@ Count of solved tasks: 2028
 |2491|Medium|[Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/)|[Divide Players Into Teams of Equal Skill.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DividePlayersIntoTeamsOfEqualSkill.java)|
 |2492|Medium|[Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/)|[Minimum Score of a Path Between Two Cities.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumScoreOfPathBetweenTwoCities.java)|
 |2497|Medium|[Maximum Star Sum of a Graph](https://leetcode.com/problems/maximum-star-sum-of-a-graph/description/)|[Maximum Star Sum of a Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumStarSumOfGraph.java)|
+|2501|Medium|[Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array/description/)|[Longest Square Streak in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSquareStreakInAnArray.java)|
 |2512|Medium|[Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/)|[Reward Top K Students.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RewardTopKStudents.java)|
 |2516|Medium|[Take K of Each Character From Left and Right](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/)|[Take K of Each Character From Left and Right.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TakeKOfEachCharacterFromLeftAndRight.java)|
 |2517|Medium|[Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/)|[Maximum Tastiness of Candy Basket.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTastinessOfCandyBasket.java)|
