@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2031
+Count of solved tasks: 2032
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1836,7 +1836,8 @@ Count of solved tasks: 2031
 |3331|Medium|[Find Subtree Sizes After Changes](https://leetcode.com/problems/find-subtree-sizes-after-changes/description/)|[Find Subtree Sizes After Changes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSubtreeSizesAfterChanges.java)|
 |3332|Medium|[Maximum Points Tourist Can Earn](https://leetcode.com/problems/maximum-points-tourist-can-earn/description/)|[Maximum Points Tourist Can Earn.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPointsTouristCanEarn.java)|
 |3340|Easy|[Check Balanced String](https://leetcode.com/problems/check-balanced-string/description/)|[Check Balanced String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckBalancedString.java)|
-|3341|Medium|[Find Minimum Time to Reach Last Room I](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/description/)|[Find Minimum Time to Reach Last Room I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumTimeToReachLastRoomI.java)|</p>
+|3341|Medium|[Find Minimum Time to Reach Last Room I](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/description/)|[Find Minimum Time to Reach Last Room I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumTimeToReachLastRoomI.java)|
+|3342|Medium|[Find Minimum Time to Reach Last Room II](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/description/)|[Find Minimum Time to Reach Last Room II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumTimeToReachLastRoomII.java)|</p>
 </details>
 
 <details>
@@ -3166,7 +3167,8 @@ Count of solved tasks: 2031
 |3310|Medium|[Remove Methods From Project](https://leetcode.com/problems/remove-methods-from-project/description/)|[Remove Methods From Project.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveMethodsFromProject.java)|
 |3331|Medium|[Find Subtree Sizes After Changes](https://leetcode.com/problems/find-subtree-sizes-after-changes/description/)|[Find Subtree Sizes After Changes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSubtreeSizesAfterChanges.java)|
 |3332|Medium|[Maximum Points Tourist Can Earn](https://leetcode.com/problems/maximum-points-tourist-can-earn/description/)|[Maximum Points Tourist Can Earn.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPointsTouristCanEarn.java)|
-|3341|Medium|[Find Minimum Time to Reach Last Room I](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/description/)|[Find Minimum Time to Reach Last Room I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumTimeToReachLastRoomI.java)|</p>
+|3341|Medium|[Find Minimum Time to Reach Last Room I](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/description/)|[Find Minimum Time to Reach Last Room I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumTimeToReachLastRoomI.java)|
+|3342|Medium|[Find Minimum Time to Reach Last Room II](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/description/)|[Find Minimum Time to Reach Last Room II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumTimeToReachLastRoomII.java)|</p>
 </details>
 
 <details>
