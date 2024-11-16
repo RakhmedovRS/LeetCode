@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2033
+Count of solved tasks: 2034
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1806,6 +1806,7 @@ Count of solved tasks: 2033
 |3242|Easy|[Design Neighbor Sum Service](https://leetcode.com/problems/design-neighbor-sum-service/description/)|[Design Neighbor Sum Service.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignNeighborSumService.java)|
 |3243|Medium|[Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/description/)|[Shortest Distance After Road Addition Queries I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestDistanceAfterRoadAdditionQueriesI.java)|
 |3248|Easy|[Snake in Matrix](https://leetcode.com/problems/snake-in-matrix/description/)|[Snake in Matrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SnakeInMatrix.java)|
+|3254|Medium|[Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/description/)|[Find the Power of K-Size Subarrays I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThePowerOfKSizeSubarraysI.java)|
 |3258|Easy|[Count Substrings That Satisfy K-Constraint I](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/description/)|[Count Substrings That Satisfy K-Constraint I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsThatSatisfyKConstraintI.java)|
 |3259|Medium|[Maximum Energy Boost From Two Drinks](https://leetcode.com/problems/maximum-energy-boost-from-two-drinks/description/)|[Maximum Energy Boost From Two Drinks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEnergyBoostFromTwoDrinks.java)|
 |3260|Hard|[Find the Largest Palindrome Divisible by K](https://leetcode.com/problems/find-the-largest-palindrome-divisible-by-k/description/)|[Find the Largest Palindrome Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLargestPalindromeDivisibleByK.java)|
@@ -3152,6 +3153,7 @@ Count of solved tasks: 2033
 |3233|Medium|[Find the Count of Numbers Which Are Not Special](https://leetcode.com/problems/find-the-count-of-numbers-which-are-not-special/description/)|[Find the Count of Numbers Which Are Not Special.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheCountOfNumbersWhichAreNotSpecial.java)|
 |3234|Medium|[Count the Number of Substrings With Dominant Ones](https://leetcode.com/problems/count-the-number-of-substrings-with-dominant-ones/)|[Count the Number of Substrings With Dominant Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountTheNumberOfSubstringsWithDominantOnes.java)|
 |3243|Medium|[Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/description/)|[Shortest Distance After Road Addition Queries I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ShortestDistanceAfterRoadAdditionQueriesI.java)|
+|3254|Medium|[Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/description/)|[Find the Power of K-Size Subarrays I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThePowerOfKSizeSubarraysI.java)|
 |3259|Medium|[Maximum Energy Boost From Two Drinks](https://leetcode.com/problems/maximum-energy-boost-from-two-drinks/description/)|[Maximum Energy Boost From Two Drinks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEnergyBoostFromTwoDrinks.java)|
 |3265|Medium|[Count Almost Equal Pairs I](https://leetcode.com/problems/count-almost-equal-pairs-i/description/)|[Count Almost Equal Pairs I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountAlmostEqualPairsI.java)|
 |3271|Medium|[Hash Divided String](https://leetcode.com/problems/hash-divided-string/description/)|[Hash Divided String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/HashDividedString.java)|
