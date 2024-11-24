@@ -194,4 +194,14 @@ public final class Helper {
 		vowels['U' - 'A'] = true;
 		return vowels;
 	}
+
+	public static int[] sortArrayDesc(int[] arr){
+		Arrays.sort(arr);
+		for (int left = 0, right = arr.length - 1; left < right; left++, right--) {
+			int temp = arr[right];
+			arr[right] = arr[left];
+			arr[left] = temp;
+		}
+		return arr;
+	}
 }
