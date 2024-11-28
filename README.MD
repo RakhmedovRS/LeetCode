@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2037
+Count of solved tasks: 2038
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1381,6 +1381,7 @@ Count of solved tasks: 2037
 |2285|Medium|[Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/)|[Maximum Total Importance of Roads.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalImportanceOfRoads.java)|
 |2287|Easy|[Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/)|[Rearrange Characters to Make Target String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeCharactersToMakeTargetString.java)|
 |2288|Medium|[Apply Discount to Prices](https://leetcode.com/problems/apply-discount-to-prices/)|[Apply Discount to Prices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ApplyDiscountToPrices.java)|
+|2290|Hard|[Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)|[Minimum Obstacle Removal to Reach Corner.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumObstacleRemovalToReachCorner.java)|
 |2293|Easy|[Min Max Game](https://leetcode.com/problems/min-max-game/)|[Min Max Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinMaxGame.java)|
 |2294|Medium|[Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/)|[Partition Array Such That Maximum Difference Is K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionArraySuchThatMaximumDifferenceIsK.java)|
 |2295|Medium|[Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/)|[Replace Elements in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReplaceElementsInArray.java)|
@@ -3281,6 +3282,7 @@ Count of solved tasks: 2037
 |1835|Hard|[Find XOR Sum of All Pairs Bitwise AND](https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/)|[Find XOR Sum of All Pairs Bitwise AND.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindXORSumOfAllPairsBitwiseAND.java)|
 |1879|Hard|[Minimum XOR Sum of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)|[Minimum XOR Sum of Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumXORSumOfTwoArrays.java)|
 |2019|Hard|[Sum of k-Mirror Numbers](https://leetcode.com/problems/sum-of-k-mirror-numbers/)|[Sum of k-Mirror Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfKMirrorNumbers.java)|
+|2290|Hard|[Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)|[Minimum Obstacle Removal to Reach Corner.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumObstacleRemovalToReachCorner.java)|
 |2344|Hard|[Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/)|[Minimum Deletions to Make Array Divisible.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeArrayDivisible.java)|
 |2376|Hard|[Count Special Integers](https://leetcode.com/problems/count-special-integers/)|[Count Special Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSpecialIntegers.java)|
 |2382|Hard|[Maximum Segment Sum After Removals](https://leetcode.com/problems/maximum-segment-sum-after-removals/)|[Maximum Segment Sum After Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSegmentSumAfterRemovals.java)|
