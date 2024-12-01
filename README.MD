@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2038
+Count of solved tasks: 2039
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1843,7 +1843,8 @@ Count of solved tasks: 2038
 |3341|Medium|[Find Minimum Time to Reach Last Room I](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/description/)|[Find Minimum Time to Reach Last Room I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumTimeToReachLastRoomI.java)|
 |3342|Medium|[Find Minimum Time to Reach Last Room II](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/description/)|[Find Minimum Time to Reach Last Room II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumTimeToReachLastRoomII.java)|
 |3364|Easy|[Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/)|[Minimum Positive Sum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPositiveSumSubarray.java)|
-|3365|Medium|[Rearrange K Substrings to Form Target String](https://leetcode.com/problems/rearrange-k-substrings-to-form-target-string/)|[Rearrange K Substrings to Form Target String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeKSubstringsToFormTargetString.java)|</p>
+|3365|Medium|[Rearrange K Substrings to Form Target String](https://leetcode.com/problems/rearrange-k-substrings-to-form-target-string/)|[Rearrange K Substrings to Form Target String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeKSubstringsToFormTargetString.java)|
+|3370|Easy|[Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/)|[Smallest Number With All Set Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestNumberWithAllSetBits.java)|</p>
 </details>
 
 <details>
@@ -2309,7 +2310,8 @@ Count of solved tasks: 2038
 |3304|Easy|[Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/description/)|[Find the K-th Character in String Game I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheKthCharacterInStringGameI.java)|
 |3330|Easy|[Find the Original Typed String I](https://leetcode.com/problems/find-the-original-typed-string-i/description/)|[Find the Original Typed String I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheOriginalTypedStringI.java)|
 |3340|Easy|[Check Balanced String](https://leetcode.com/problems/check-balanced-string/description/)|[Check Balanced String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckBalancedString.java)|
-|3364|Easy|[Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/)|[Minimum Positive Sum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPositiveSumSubarray.java)|</p>
+|3364|Easy|[Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/)|[Minimum Positive Sum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPositiveSumSubarray.java)|
+|3370|Easy|[Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/)|[Smallest Number With All Set Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestNumberWithAllSetBits.java)|</p>
 </details>
 
 <details>
