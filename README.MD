@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2042
+Count of solved tasks: 2043
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1847,7 +1847,8 @@ Count of solved tasks: 2042
 |3370|Easy|[Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/)|[Smallest Number With All Set Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestNumberWithAllSetBits.java)|
 |3371|Medium|[Identify the Largest Outlier in an Array](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/)|[Identify the Largest Outlier in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IdentifyTheLargestOutlierInAnArray.java)|
 |3372|Medium|[Maximize the Number of Target Nodes After Connecting Trees I](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/)|[Maximize the Number of Target Nodes After Connecting Trees I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.java)|
-|3379|Easy|[Transformed Array](https://leetcode.com/problems/transformed-array/)|[Transformed Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TransformedArray.java)|</p>
+|3379|Easy|[Transformed Array](https://leetcode.com/problems/transformed-array/)|[Transformed Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TransformedArray.java)|
+|3380|Medium|[Maximum Area Rectangle With Point Constraints I](https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-i/)|[Maximum Area Rectangle With Point Constraints I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAreaRectangleWithPointConstraintsI.java)|</p>
 </details>
 
 <details>
@@ -3187,7 +3188,8 @@ Count of solved tasks: 2042
 |3342|Medium|[Find Minimum Time to Reach Last Room II](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/description/)|[Find Minimum Time to Reach Last Room II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumTimeToReachLastRoomII.java)|
 |3365|Medium|[Rearrange K Substrings to Form Target String](https://leetcode.com/problems/rearrange-k-substrings-to-form-target-string/)|[Rearrange K Substrings to Form Target String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeKSubstringsToFormTargetString.java)|
 |3371|Medium|[Identify the Largest Outlier in an Array](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/)|[Identify the Largest Outlier in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IdentifyTheLargestOutlierInAnArray.java)|
-|3372|Medium|[Maximize the Number of Target Nodes After Connecting Trees I](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/)|[Maximize the Number of Target Nodes After Connecting Trees I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.java)|</p>
+|3372|Medium|[Maximize the Number of Target Nodes After Connecting Trees I](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/)|[Maximize the Number of Target Nodes After Connecting Trees I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.java)|
+|3380|Medium|[Maximum Area Rectangle With Point Constraints I](https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-i/)|[Maximum Area Rectangle With Point Constraints I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAreaRectangleWithPointConstraintsI.java)|</p>
 </details>
 
 <details>
