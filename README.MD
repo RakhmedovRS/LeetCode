@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2041
+Count of solved tasks: 2042
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1846,7 +1846,8 @@ Count of solved tasks: 2041
 |3365|Medium|[Rearrange K Substrings to Form Target String](https://leetcode.com/problems/rearrange-k-substrings-to-form-target-string/)|[Rearrange K Substrings to Form Target String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeKSubstringsToFormTargetString.java)|
 |3370|Easy|[Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/)|[Smallest Number With All Set Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestNumberWithAllSetBits.java)|
 |3371|Medium|[Identify the Largest Outlier in an Array](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/)|[Identify the Largest Outlier in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IdentifyTheLargestOutlierInAnArray.java)|
-|3372|Medium|[Maximize the Number of Target Nodes After Connecting Trees I](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/)|[Maximize the Number of Target Nodes After Connecting Trees I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.java)|</p>
+|3372|Medium|[Maximize the Number of Target Nodes After Connecting Trees I](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/)|[Maximize the Number of Target Nodes After Connecting Trees I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.java)|
+|3379|Easy|[Transformed Array](https://leetcode.com/problems/transformed-array/)|[Transformed Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TransformedArray.java)|</p>
 </details>
 
 <details>
@@ -2313,7 +2314,8 @@ Count of solved tasks: 2041
 |3330|Easy|[Find the Original Typed String I](https://leetcode.com/problems/find-the-original-typed-string-i/description/)|[Find the Original Typed String I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheOriginalTypedStringI.java)|
 |3340|Easy|[Check Balanced String](https://leetcode.com/problems/check-balanced-string/description/)|[Check Balanced String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckBalancedString.java)|
 |3364|Easy|[Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/)|[Minimum Positive Sum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPositiveSumSubarray.java)|
-|3370|Easy|[Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/)|[Smallest Number With All Set Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestNumberWithAllSetBits.java)|</p>
+|3370|Easy|[Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/)|[Smallest Number With All Set Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestNumberWithAllSetBits.java)|
+|3379|Easy|[Transformed Array](https://leetcode.com/problems/transformed-array/)|[Transformed Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TransformedArray.java)|</p>
 </details>
 
 <details>
