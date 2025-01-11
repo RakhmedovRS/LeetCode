@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2043
+Count of solved tasks: 2044
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -900,6 +900,7 @@ Count of solved tasks: 2043
 |1395|Undefined|[Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)|[Count Number of Teams.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountNumberOfTeams.java)|
 |1396|Medium|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|[Design Underground System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignUndergroundSystem.java)|
 |1399|Undefined|[Count Largest Group](https://leetcode.com/problems/count-largest-group/)|[Count Largest Group.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountLargestGroup.java)|
+|1400|Medium|[Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings/description/)|[Construct K Palindrome Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructKPalindromeStrings.java)|
 |1401|Medium|[Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/)|[Circle and Rectangle Overlapping.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CircleAndRectangleOverlapping.java)|
 |1402|Undefined|[Reducing Dishes](https://leetcode.com/problems/reducing-dishes/)|[Reducing Dishes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ReducingDishes.java)|
 |1403|Undefined|[Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/)|[Minimum Subsequence in Non-Increasing Order.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSubsequenceInNonIncreasingOrder.java)|
@@ -2681,6 +2682,7 @@ Count of solved tasks: 2043
 |1379|Medium|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindCorrespondingNodeOfBinaryTreeInCloneOfThatTree.java)|
 |1391|Medium|[Check if There is a Valid Path in a Grid](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/)|[Check if There is a Valid Path in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfThereIsValidPathInGrid.java)|
 |1396|Medium|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|[Design Underground System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignUndergroundSystem.java)|
+|1400|Medium|[Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings/description/)|[Construct K Palindrome Strings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructKPalindromeStrings.java)|
 |1401|Medium|[Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/)|[Circle and Rectangle Overlapping.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CircleAndRectangleOverlapping.java)|
 |1404|Medium|[Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)|[Number of Steps to Reduce a Number in Binary Representation to One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfStepsToReduceNumberInBinaryRepresentationToOne.java)|
 |1409|Medium|[Queries on a Permutation With Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/)|[Queries on a Permutation With Key.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/QueriesOnPermutationWithKey.java)|
