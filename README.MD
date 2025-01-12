@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2045
+Count of solved tasks: 2046
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1850,7 +1850,8 @@ Count of solved tasks: 2045
 |3372|Medium|[Maximize the Number of Target Nodes After Connecting Trees I](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/)|[Maximize the Number of Target Nodes After Connecting Trees I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.java)|
 |3379|Easy|[Transformed Array](https://leetcode.com/problems/transformed-array/)|[Transformed Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TransformedArray.java)|
 |3380|Medium|[Maximum Area Rectangle With Point Constraints I](https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-i/)|[Maximum Area Rectangle With Point Constraints I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAreaRectangleWithPointConstraintsI.java)|
-|3417|Easy|[Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/)|[Zigzag Grid Traversal With Skip.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ZigzagGridTraversalWithSkip.java)|</p>
+|3417|Easy|[Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/)|[Zigzag Grid Traversal With Skip.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ZigzagGridTraversalWithSkip.java)|
+|3418|Medium|[Maximum Amount of Money Robot Can Earn](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/description/)|[Maximum Amount of Money Robot Can Earn.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAmountOfMoneyRobotCanEarn.java)|</p>
 </details>
 
 <details>
@@ -3193,7 +3194,8 @@ Count of solved tasks: 2045
 |3365|Medium|[Rearrange K Substrings to Form Target String](https://leetcode.com/problems/rearrange-k-substrings-to-form-target-string/)|[Rearrange K Substrings to Form Target String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeKSubstringsToFormTargetString.java)|
 |3371|Medium|[Identify the Largest Outlier in an Array](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/)|[Identify the Largest Outlier in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IdentifyTheLargestOutlierInAnArray.java)|
 |3372|Medium|[Maximize the Number of Target Nodes After Connecting Trees I](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/)|[Maximize the Number of Target Nodes After Connecting Trees I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.java)|
-|3380|Medium|[Maximum Area Rectangle With Point Constraints I](https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-i/)|[Maximum Area Rectangle With Point Constraints I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAreaRectangleWithPointConstraintsI.java)|</p>
+|3380|Medium|[Maximum Area Rectangle With Point Constraints I](https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-i/)|[Maximum Area Rectangle With Point Constraints I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAreaRectangleWithPointConstraintsI.java)|
+|3418|Medium|[Maximum Amount of Money Robot Can Earn](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/description/)|[Maximum Amount of Money Robot Can Earn.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAmountOfMoneyRobotCanEarn.java)|</p>
 </details>
 
 <details>
