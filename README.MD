@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2048
+Count of solved tasks: 2049
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1853,7 +1853,8 @@ Count of solved tasks: 2048
 |3417|Easy|[Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/)|[Zigzag Grid Traversal With Skip.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ZigzagGridTraversalWithSkip.java)|
 |3418|Medium|[Maximum Amount of Money Robot Can Earn](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/description/)|[Maximum Amount of Money Robot Can Earn.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAmountOfMoneyRobotCanEarn.java)|
 |3423|Easy|[Maximum Difference Between Adjacent Elements in a Circular Array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/description/)|[Maximum Difference Between Adjacent Elements in a Circular Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceBetweenAdjacentElementsInCircularArray.java)|
-|3424|Medium|[Minimum Cost to Make Arrays Identical](https://leetcode.com/problems/minimum-cost-to-make-arrays-identical/description/)|[Minimum Cost to Make Arrays Identical.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToMakeArraysIdentical.java)|</p>
+|3424|Medium|[Minimum Cost to Make Arrays Identical](https://leetcode.com/problems/minimum-cost-to-make-arrays-identical/description/)|[Minimum Cost to Make Arrays Identical.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToMakeArraysIdentical.java)|
+|3427|Easy|[Sum of Variable Length Subarrays](https://leetcode.com/problems/sum-of-variable-length-subarrays/description/)|[Sum of Variable Length Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfVariableLengthSubarrays.java)|</p>
 </details>
 
 <details>
@@ -2323,7 +2324,8 @@ Count of solved tasks: 2048
 |3370|Easy|[Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/)|[Smallest Number With All Set Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestNumberWithAllSetBits.java)|
 |3379|Easy|[Transformed Array](https://leetcode.com/problems/transformed-array/)|[Transformed Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TransformedArray.java)|
 |3417|Easy|[Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/)|[Zigzag Grid Traversal With Skip.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ZigzagGridTraversalWithSkip.java)|
-|3423|Easy|[Maximum Difference Between Adjacent Elements in a Circular Array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/description/)|[Maximum Difference Between Adjacent Elements in a Circular Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceBetweenAdjacentElementsInCircularArray.java)|</p>
+|3423|Easy|[Maximum Difference Between Adjacent Elements in a Circular Array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/description/)|[Maximum Difference Between Adjacent Elements in a Circular Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceBetweenAdjacentElementsInCircularArray.java)|
+|3427|Easy|[Sum of Variable Length Subarrays](https://leetcode.com/problems/sum-of-variable-length-subarrays/description/)|[Sum of Variable Length Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfVariableLengthSubarrays.java)|</p>
 </details>
 
 <details>
