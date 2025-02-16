@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2052
+Count of solved tasks: 2053
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1857,7 +1857,8 @@ Count of solved tasks: 2052
 |3427|Easy|[Sum of Variable Length Subarrays](https://leetcode.com/problems/sum-of-variable-length-subarrays/description/)|[Sum of Variable Length Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfVariableLengthSubarrays.java)|
 |3442|Easy|[Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/description/)|[Maximum Difference Between Even and Odd Frequency I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceBetweenEvenAndOddFrequencyI.java)|
 |3443|Medium|[Maximum Manhattan Distance After K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/description/)|[Maximum Manhattan Distance After K Changes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumManhattanDistanceAfterKChanges.java)|
-|3456|Easy|[Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/)|[Find Special Substring of Length K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSpecialSubstringOfLengthK.java)|</p>
+|3456|Easy|[Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/)|[Find Special Substring of Length K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSpecialSubstringOfLengthK.java)|
+|3457|Medium|[Eat Pizzas!](https://leetcode.com/problems/eat-pizzas/description/)|[Eat Pizzas!.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EatPizzas.java)|</p>
 </details>
 
 <details>
@@ -3207,7 +3208,8 @@ Count of solved tasks: 2052
 |3380|Medium|[Maximum Area Rectangle With Point Constraints I](https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-i/)|[Maximum Area Rectangle With Point Constraints I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAreaRectangleWithPointConstraintsI.java)|
 |3418|Medium|[Maximum Amount of Money Robot Can Earn](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/description/)|[Maximum Amount of Money Robot Can Earn.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAmountOfMoneyRobotCanEarn.java)|
 |3424|Medium|[Minimum Cost to Make Arrays Identical](https://leetcode.com/problems/minimum-cost-to-make-arrays-identical/description/)|[Minimum Cost to Make Arrays Identical.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToMakeArraysIdentical.java)|
-|3443|Medium|[Maximum Manhattan Distance After K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/description/)|[Maximum Manhattan Distance After K Changes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumManhattanDistanceAfterKChanges.java)|</p>
+|3443|Medium|[Maximum Manhattan Distance After K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/description/)|[Maximum Manhattan Distance After K Changes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumManhattanDistanceAfterKChanges.java)|
+|3457|Medium|[Eat Pizzas!](https://leetcode.com/problems/eat-pizzas/description/)|[Eat Pizzas!.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EatPizzas.java)|</p>
 </details>
 
 <details>
