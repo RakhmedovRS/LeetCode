@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2051
+Count of solved tasks: 2052
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1856,7 +1856,8 @@ Count of solved tasks: 2051
 |3424|Medium|[Minimum Cost to Make Arrays Identical](https://leetcode.com/problems/minimum-cost-to-make-arrays-identical/description/)|[Minimum Cost to Make Arrays Identical.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToMakeArraysIdentical.java)|
 |3427|Easy|[Sum of Variable Length Subarrays](https://leetcode.com/problems/sum-of-variable-length-subarrays/description/)|[Sum of Variable Length Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfVariableLengthSubarrays.java)|
 |3442|Easy|[Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/description/)|[Maximum Difference Between Even and Odd Frequency I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceBetweenEvenAndOddFrequencyI.java)|
-|3443|Medium|[Maximum Manhattan Distance After K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/description/)|[Maximum Manhattan Distance After K Changes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumManhattanDistanceAfterKChanges.java)|</p>
+|3443|Medium|[Maximum Manhattan Distance After K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/description/)|[Maximum Manhattan Distance After K Changes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumManhattanDistanceAfterKChanges.java)|
+|3456|Easy|[Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/)|[Find Special Substring of Length K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSpecialSubstringOfLengthK.java)|</p>
 </details>
 
 <details>
@@ -2328,7 +2329,8 @@ Count of solved tasks: 2051
 |3417|Easy|[Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/)|[Zigzag Grid Traversal With Skip.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ZigzagGridTraversalWithSkip.java)|
 |3423|Easy|[Maximum Difference Between Adjacent Elements in a Circular Array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/description/)|[Maximum Difference Between Adjacent Elements in a Circular Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceBetweenAdjacentElementsInCircularArray.java)|
 |3427|Easy|[Sum of Variable Length Subarrays](https://leetcode.com/problems/sum-of-variable-length-subarrays/description/)|[Sum of Variable Length Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfVariableLengthSubarrays.java)|
-|3442|Easy|[Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/description/)|[Maximum Difference Between Even and Odd Frequency I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceBetweenEvenAndOddFrequencyI.java)|</p>
+|3442|Easy|[Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/description/)|[Maximum Difference Between Even and Odd Frequency I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceBetweenEvenAndOddFrequencyI.java)|
+|3456|Easy|[Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/)|[Find Special Substring of Length K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSpecialSubstringOfLengthK.java)|</p>
 </details>
 
 <details>
