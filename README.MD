@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2056
+Count of solved tasks: 2057
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1861,7 +1861,8 @@ Count of solved tasks: 2056
 |3456|Easy|[Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/)|[Find Special Substring of Length K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSpecialSubstringOfLengthK.java)|
 |3457|Medium|[Eat Pizzas!](https://leetcode.com/problems/eat-pizzas/description/)|[Eat Pizzas!.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EatPizzas.java)|
 |3461|Easy|[Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/)|[Check If Digits Are Equal in String After Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfDigitsAreEqualInStringAfterOperationsI.java)|
-|3462|Medium|[Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/)|[Maximum Sum With at Most K Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumWithAtMostKElements.java)|</p>
+|3462|Medium|[Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/)|[Maximum Sum With at Most K Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumWithAtMostKElements.java)|
+|3471|Easy|[Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/description/)|[Find the Largest Almost Missing Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLargestAlmostMissingInteger.java)|</p>
 </details>
 
 <details>
@@ -2336,7 +2337,8 @@ Count of solved tasks: 2056
 |3442|Easy|[Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/description/)|[Maximum Difference Between Even and Odd Frequency I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceBetweenEvenAndOddFrequencyI.java)|
 |3452|Easy|[Sum of Good Numbers](https://leetcode.com/problems/sum-of-good-numbers/description/)|[Sum of Good Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfGoodNumbers.java)|
 |3456|Easy|[Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/)|[Find Special Substring of Length K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSpecialSubstringOfLengthK.java)|
-|3461|Easy|[Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/)|[Check If Digits Are Equal in String After Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfDigitsAreEqualInStringAfterOperationsI.java)|</p>
+|3461|Easy|[Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/)|[Check If Digits Are Equal in String After Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfDigitsAreEqualInStringAfterOperationsI.java)|
+|3471|Easy|[Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/description/)|[Find the Largest Almost Missing Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLargestAlmostMissingInteger.java)|</p>
 </details>
 
 <details>
