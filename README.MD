@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2057
+Count of solved tasks: 2058
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1862,7 +1862,8 @@ Count of solved tasks: 2057
 |3457|Medium|[Eat Pizzas!](https://leetcode.com/problems/eat-pizzas/description/)|[Eat Pizzas!.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EatPizzas.java)|
 |3461|Easy|[Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/)|[Check If Digits Are Equal in String After Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfDigitsAreEqualInStringAfterOperationsI.java)|
 |3462|Medium|[Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/)|[Maximum Sum With at Most K Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumWithAtMostKElements.java)|
-|3471|Easy|[Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/description/)|[Find the Largest Almost Missing Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLargestAlmostMissingInteger.java)|</p>
+|3471|Easy|[Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/description/)|[Find the Largest Almost Missing Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLargestAlmostMissingInteger.java)|
+|3472|Medium|[Longest Palindromic Subsequence After at Most K Operations](https://leetcode.com/problems/longest-palindromic-subsequence-after-at-most-k-operations/description/)|[Longest Palindromic Subsequence After at Most K Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestPalindromicSubsequenceAfterAtMostKOperations.java)|</p>
 </details>
 
 <details>
@@ -3217,7 +3218,8 @@ Count of solved tasks: 2057
 |3424|Medium|[Minimum Cost to Make Arrays Identical](https://leetcode.com/problems/minimum-cost-to-make-arrays-identical/description/)|[Minimum Cost to Make Arrays Identical.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToMakeArraysIdentical.java)|
 |3443|Medium|[Maximum Manhattan Distance After K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/description/)|[Maximum Manhattan Distance After K Changes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumManhattanDistanceAfterKChanges.java)|
 |3457|Medium|[Eat Pizzas!](https://leetcode.com/problems/eat-pizzas/description/)|[Eat Pizzas!.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EatPizzas.java)|
-|3462|Medium|[Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/)|[Maximum Sum With at Most K Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumWithAtMostKElements.java)|</p>
+|3462|Medium|[Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/)|[Maximum Sum With at Most K Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumWithAtMostKElements.java)|
+|3472|Medium|[Longest Palindromic Subsequence After at Most K Operations](https://leetcode.com/problems/longest-palindromic-subsequence-after-at-most-k-operations/description/)|[Longest Palindromic Subsequence After at Most K Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestPalindromicSubsequenceAfterAtMostKOperations.java)|</p>
 </details>
 
 <details>
