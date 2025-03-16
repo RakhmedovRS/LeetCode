@@ -3,6 +3,8 @@ package tasks;
 import common.Difficulty;
 import common.LeetCode;
 
+import java.util.Arrays;
+
 /**
  * @author Ruslan Rakhmedov
  * @created 3/21/2023
@@ -16,44 +18,36 @@ import common.LeetCode;
 public class MinimumTimeToRepairCars {
 	public long repairCars(int[] ranks, int cars) {
 		long left = 0;
-		long right = Long.MAX_VALUE;
-		long mid;
-		long res = 0;
+		long right = Long.MAX_VALUE / 4;
+		long ans = 0;
+		Arrays.sort(ranks);
 		while (left <= right) {
-			mid = (right - left) / 2 + left;
-			if (canRepair(ranks, cars, mid)) {
+			long mid = (left + right) / 2;
+			if (canBeRepaired(ranks, cars, mid)) {
 				right = mid - 1;
-				res = mid;
-			}
-			else {
+				ans = mid;
+			} else {
 				left = mid + 1;
 			}
 		}
-
-		return res;
+		return ans;
 	}
 
-	boolean canRepair(int[] ranks, int cars, long time) {
-		for (int i = 0; i < ranks.length; i++) {
+	private boolean canBeRepaired(int[] ranks, int cars, long maxTime) {
+		for (int rank : ranks) {
 			if (cars <= 0) {
 				break;
 			}
-			long left = 0;
-			long right = cars;
-			long mid;
-			long cand = 0;
-			while (left <= right) {
-				mid = (left + right) / 2;
-				if (ranks[i] * (long) Math.pow(mid, 2) <= time) {
-					cand = mid;
-					left = mid + 1;
-				}
-				else {
-					right = mid - 1;
-				}
+
+			if (rank > maxTime) {
+				return false;
 			}
 
-			cars -= cand;
+			int carsRepaired = (int) Math.sqrt(maxTime / rank);
+			cars -= carsRepaired;
+			if (carsRepaired == 0) {
+				break;
+			}
 		}
 
 		return cars <= 0;
