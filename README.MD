@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2061
+Count of solved tasks: 2062
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1866,7 +1866,8 @@ Count of solved tasks: 2061
 |3471|Easy|[Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/description/)|[Find the Largest Almost Missing Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLargestAlmostMissingInteger.java)|
 |3472|Medium|[Longest Palindromic Subsequence After at Most K Operations](https://leetcode.com/problems/longest-palindromic-subsequence-after-at-most-k-operations/description/)|[Longest Palindromic Subsequence After at Most K Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestPalindromicSubsequenceAfterAtMostKOperations.java)|
 |3477|Easy|[Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/)|[Fruits Into Baskets II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FruitsIntoBasketsII.java)|
-|3478|Medium|[Choose K Elements With Maximum Sum](https://leetcode.com/problems/choose-k-elements-with-maximum-sum/description/)|[Choose K Elements With Maximum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ChooseKElementsWithMaximumSum.java)|</p>
+|3478|Medium|[Choose K Elements With Maximum Sum](https://leetcode.com/problems/choose-k-elements-with-maximum-sum/description/)|[Choose K Elements With Maximum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ChooseKElementsWithMaximumSum.java)|
+|3492|Easy|[Maximum Containers on a Ship](https://leetcode.com/problems/maximum-containers-on-a-ship/description/)|[Maximum Containers on a Ship.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumContainersOnShip.java)|</p>
 </details>
 
 <details>
@@ -2343,7 +2344,8 @@ Count of solved tasks: 2061
 |3456|Easy|[Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/)|[Find Special Substring of Length K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSpecialSubstringOfLengthK.java)|
 |3461|Easy|[Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/)|[Check If Digits Are Equal in String After Operations I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfDigitsAreEqualInStringAfterOperationsI.java)|
 |3471|Easy|[Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/description/)|[Find the Largest Almost Missing Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLargestAlmostMissingInteger.java)|
-|3477|Easy|[Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/)|[Fruits Into Baskets II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FruitsIntoBasketsII.java)|</p>
+|3477|Easy|[Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/)|[Fruits Into Baskets II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FruitsIntoBasketsII.java)|
+|3492|Easy|[Maximum Containers on a Ship](https://leetcode.com/problems/maximum-containers-on-a-ship/description/)|[Maximum Containers on a Ship.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumContainersOnShip.java)|</p>
 </details>
 
 <details>
