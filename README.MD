@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2063
+Count of solved tasks: 2064
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1244,6 +1244,7 @@ Count of solved tasks: 2063
 |2027|Easy|[Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/)|[Minimum Moves to Convert String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToConvertString.java)|
 |2028|Medium|[Find Missing Observations](https://leetcode.com/problems/find-missing-observations/)|[Find Missing Observations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMissingObservations.java)|
 |2032|Easy|[Two Out of Three](https://leetcode.com/problems/two-out-of-three/)|[Two Out of Three.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TwoOutOfThree.java)|
+|2033|Medium|[Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/description)|[Minimum Operations to Make a Uni-Value Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeUniValueGrid.java)|
 |2037|Easy|[Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/)|[Minimum Number of Moves to Seat Everyone.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfMovesToSeatEveryone.java)|
 |2038|Medium|[Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)|[Remove Colored Pieces if Both Neighbors are the Same Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveColoredPiecesIfBothNeighborsAreTheSameColor.java)|
 |2039|Medium|[The Time When the Network Becomes Idle](https://leetcode.com/problems/the-time-when-the-network-becomes-idle/)|[The Time When the Network Becomes Idle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheTimeWhenTheNetworkBecomesIdle.java)|
@@ -2864,6 +2865,7 @@ Count of solved tasks: 2063
 |2023|Medium|[Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)|[Number of Pairs of Strings With Concatenation Equal to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfPairsOfStringsWithConcatenationEqualToTarget.java)|
 |2024|Medium|[Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)|[Maximize the Confusion of an Exam.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheConfusionOfAnExam.java)|
 |2028|Medium|[Find Missing Observations](https://leetcode.com/problems/find-missing-observations/)|[Find Missing Observations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMissingObservations.java)|
+|2033|Medium|[Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/description)|[Minimum Operations to Make a Uni-Value Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeUniValueGrid.java)|
 |2038|Medium|[Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)|[Remove Colored Pieces if Both Neighbors are the Same Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveColoredPiecesIfBothNeighborsAreTheSameColor.java)|
 |2039|Medium|[The Time When the Network Becomes Idle](https://leetcode.com/problems/the-time-when-the-network-becomes-idle/)|[The Time When the Network Becomes Idle.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheTimeWhenTheNetworkBecomesIdle.java)|
 |2043|Medium|[Simple Bank System](https://leetcode.com/problems/simple-bank-system/)|[Simple Bank System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SimpleBankSystem.java)|
