@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2068
+Count of solved tasks: 2069
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1852,6 +1852,7 @@ Count of solved tasks: 2068
 |3370|Easy|[Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/)|[Smallest Number With All Set Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestNumberWithAllSetBits.java)|
 |3371|Medium|[Identify the Largest Outlier in an Array](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/)|[Identify the Largest Outlier in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IdentifyTheLargestOutlierInAnArray.java)|
 |3372|Medium|[Maximize the Number of Target Nodes After Connecting Trees I](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/)|[Maximize the Number of Target Nodes After Connecting Trees I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.java)|
+|3375|Easy|[Minimum Operations to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/description/)|[Minimum Operations to Make Array Values Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeArrayValuesEqualToK.java)|
 |3379|Easy|[Transformed Array](https://leetcode.com/problems/transformed-array/)|[Transformed Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TransformedArray.java)|
 |3380|Medium|[Maximum Area Rectangle With Point Constraints I](https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-i/)|[Maximum Area Rectangle With Point Constraints I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAreaRectangleWithPointConstraintsI.java)|
 |3396|Easy|[Minimum Number of Operations to Make Elements in Array Distinct](https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/description/)|[Minimum Number of Operations to Make Elements in Array Distinct.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeElementsInArrayDistinct.java)|
@@ -2342,6 +2343,7 @@ Count of solved tasks: 2068
 |3340|Easy|[Check Balanced String](https://leetcode.com/problems/check-balanced-string/description/)|[Check Balanced String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckBalancedString.java)|
 |3364|Easy|[Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/)|[Minimum Positive Sum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPositiveSumSubarray.java)|
 |3370|Easy|[Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/)|[Smallest Number With All Set Bits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestNumberWithAllSetBits.java)|
+|3375|Easy|[Minimum Operations to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/description/)|[Minimum Operations to Make Array Values Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeArrayValuesEqualToK.java)|
 |3379|Easy|[Transformed Array](https://leetcode.com/problems/transformed-array/)|[Transformed Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TransformedArray.java)|
 |3396|Easy|[Minimum Number of Operations to Make Elements in Array Distinct](https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/description/)|[Minimum Number of Operations to Make Elements in Array Distinct.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeElementsInArrayDistinct.java)|
 |3417|Easy|[Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/)|[Zigzag Grid Traversal With Skip.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ZigzagGridTraversalWithSkip.java)|
