@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2070
+Count of solved tasks: 2071
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1875,7 +1875,8 @@ Count of solved tasks: 2070
 |3492|Easy|[Maximum Containers on a Ship](https://leetcode.com/problems/maximum-containers-on-a-ship/description/)|[Maximum Containers on a Ship.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumContainersOnShip.java)|
 |3493|Medium|[Properties Graph](https://leetcode.com/problems/properties-graph/description/)|[Properties Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PropertiesGraph.java)|
 |3507|Easy|[Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/)|[Minimum Pair Removal to Sort Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPairRemovalToSortArrayI.java)|
-|3522|Medium|[Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)|[Calculate Score After Performing Instructions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateScoreAfterPerformingInstructions.java)|</p>
+|3522|Medium|[Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)|[Calculate Score After Performing Instructions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateScoreAfterPerformingInstructions.java)|
+|3523|Medium|[Make Array Non-decreasing](https://leetcode.com/problems/make-array-non-decreasing/description/)|[Make Array Non-decreasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeArrayNondecreasing.java)|</p>
 </details>
 
 <details>
@@ -3243,7 +3244,8 @@ Count of solved tasks: 2070
 |3472|Medium|[Longest Palindromic Subsequence After at Most K Operations](https://leetcode.com/problems/longest-palindromic-subsequence-after-at-most-k-operations/description/)|[Longest Palindromic Subsequence After at Most K Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestPalindromicSubsequenceAfterAtMostKOperations.java)|
 |3478|Medium|[Choose K Elements With Maximum Sum](https://leetcode.com/problems/choose-k-elements-with-maximum-sum/description/)|[Choose K Elements With Maximum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ChooseKElementsWithMaximumSum.java)|
 |3493|Medium|[Properties Graph](https://leetcode.com/problems/properties-graph/description/)|[Properties Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PropertiesGraph.java)|
-|3522|Medium|[Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)|[Calculate Score After Performing Instructions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateScoreAfterPerformingInstructions.java)|</p>
+|3522|Medium|[Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)|[Calculate Score After Performing Instructions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateScoreAfterPerformingInstructions.java)|
+|3523|Medium|[Make Array Non-decreasing](https://leetcode.com/problems/make-array-non-decreasing/description/)|[Make Array Non-decreasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeArrayNondecreasing.java)|</p>
 </details>
 
 <details>
