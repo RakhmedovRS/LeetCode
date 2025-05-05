@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2073
+Count of solved tasks: 2074
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1878,7 +1878,8 @@ Count of solved tasks: 2073
 |3507|Easy|[Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/)|[Minimum Pair Removal to Sort Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPairRemovalToSortArrayI.java)|
 |3522|Medium|[Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)|[Calculate Score After Performing Instructions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateScoreAfterPerformingInstructions.java)|
 |3523|Medium|[Make Array Non-decreasing](https://leetcode.com/problems/make-array-non-decreasing/description/)|[Make Array Non-decreasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeArrayNondecreasing.java)|
-|3536|Easy|[Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/)|[Maximum Product of Two Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductOfTwoDigits.java)|</p>
+|3536|Easy|[Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/)|[Maximum Product of Two Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductOfTwoDigits.java)|
+|3537|Medium|[Fill a Special Grid](https://leetcode.com/problems/fill-a-special-grid/description/)|[Fill a Special Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FillSpecialGrid.java)|</p>
 </details>
 
 <details>
@@ -3249,7 +3250,8 @@ Count of solved tasks: 2073
 |3478|Medium|[Choose K Elements With Maximum Sum](https://leetcode.com/problems/choose-k-elements-with-maximum-sum/description/)|[Choose K Elements With Maximum Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ChooseKElementsWithMaximumSum.java)|
 |3493|Medium|[Properties Graph](https://leetcode.com/problems/properties-graph/description/)|[Properties Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PropertiesGraph.java)|
 |3522|Medium|[Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)|[Calculate Score After Performing Instructions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateScoreAfterPerformingInstructions.java)|
-|3523|Medium|[Make Array Non-decreasing](https://leetcode.com/problems/make-array-non-decreasing/description/)|[Make Array Non-decreasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeArrayNondecreasing.java)|</p>
+|3523|Medium|[Make Array Non-decreasing](https://leetcode.com/problems/make-array-non-decreasing/description/)|[Make Array Non-decreasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeArrayNondecreasing.java)|
+|3537|Medium|[Fill a Special Grid](https://leetcode.com/problems/fill-a-special-grid/description/)|[Fill a Special Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FillSpecialGrid.java)|</p>
 </details>
 
 <details>
