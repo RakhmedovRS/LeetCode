@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2083
+Count of solved tasks: 2084
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1888,7 +1888,8 @@ Count of solved tasks: 2083
 |3552|Medium|[Grid Teleportation Traversal](https://leetcode.com/problems/grid-teleportation-traversal/description/)|[Grid Teleportation Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GridTeleportationTraversal.java)|
 |3560|Easy|[Find Minimum Log Transportation Cost](https://leetcode.com/problems/find-minimum-log-transportation-cost/description/)|[Find Minimum Log Transportation Cost.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumLogTransportationCost.java)|
 |3561|Medium|[Resulting String After Adjacent Removals](https://leetcode.com/problems/resulting-string-after-adjacent-removals/description/)|[Resulting String After Adjacent Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ResultingStringAfterAdjacentRemovals.java)|
-|3566|Medium|[Partition Array into Two Equal Product Subsets](https://leetcode.com/problems/partition-array-into-two-equal-product-subsets/description/)|[Partition Array into Two Equal Product Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionArrayIntoTwoEqualProductSubsets.java)|</p>
+|3566|Medium|[Partition Array into Two Equal Product Subsets](https://leetcode.com/problems/partition-array-into-two-equal-product-subsets/description/)|[Partition Array into Two Equal Product Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionArrayIntoTwoEqualProductSubsets.java)|
+|3567|Medium|[Minimum Absolute Difference in Sliding Submatrix](https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/description/)|[Minimum Absolute Difference in Sliding Submatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDifferenceInSlidingSubmatrix.java)|</p>
 </details>
 
 <details>
@@ -3269,7 +3270,8 @@ Count of solved tasks: 2083
 |3551|Medium|[Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/description/)|[Minimum Swaps to Sort by Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSwapsToSortByDigitSum.java)|
 |3552|Medium|[Grid Teleportation Traversal](https://leetcode.com/problems/grid-teleportation-traversal/description/)|[Grid Teleportation Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GridTeleportationTraversal.java)|
 |3561|Medium|[Resulting String After Adjacent Removals](https://leetcode.com/problems/resulting-string-after-adjacent-removals/description/)|[Resulting String After Adjacent Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ResultingStringAfterAdjacentRemovals.java)|
-|3566|Medium|[Partition Array into Two Equal Product Subsets](https://leetcode.com/problems/partition-array-into-two-equal-product-subsets/description/)|[Partition Array into Two Equal Product Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionArrayIntoTwoEqualProductSubsets.java)|</p>
+|3566|Medium|[Partition Array into Two Equal Product Subsets](https://leetcode.com/problems/partition-array-into-two-equal-product-subsets/description/)|[Partition Array into Two Equal Product Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionArrayIntoTwoEqualProductSubsets.java)|
+|3567|Medium|[Minimum Absolute Difference in Sliding Submatrix](https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/description/)|[Minimum Absolute Difference in Sliding Submatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDifferenceInSlidingSubmatrix.java)|</p>
 </details>
 
 <details>
