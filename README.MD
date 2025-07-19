@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2086
+Count of solved tasks: 2087
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1891,7 +1891,8 @@ Count of solved tasks: 2086
 |3566|Medium|[Partition Array into Two Equal Product Subsets](https://leetcode.com/problems/partition-array-into-two-equal-product-subsets/description/)|[Partition Array into Two Equal Product Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionArrayIntoTwoEqualProductSubsets.java)|
 |3567|Medium|[Minimum Absolute Difference in Sliding Submatrix](https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/description/)|[Minimum Absolute Difference in Sliding Submatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDifferenceInSlidingSubmatrix.java)|
 |3618|Medium|[Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/description/)|[Split Array by Prime Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayByPrimeIndices.java)|
-|3619|Medium|[Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/description/)|[Count Islands With Total Value Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIslandsWithTotalValueDivisibleByK.java)|</p>
+|3619|Medium|[Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/description/)|[Count Islands With Total Value Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIslandsWithTotalValueDivisibleByK.java)|
+|3620|Hard|[Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/description/)|[Network Recovery Pathways.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NetworkRecoveryPathways.java)|</p>
 </details>
 
 <details>
@@ -3397,7 +3398,8 @@ Count of solved tasks: 2086
 |3229|Hard|[Minimum Operations to Make Array Equal to Target](https://leetcode.com/problems/minimum-operations-to-make-array-equal-to-target/description/)|[Minimum Operations to Make Array Equal to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeArrayEqualToTarget.java)|
 |3260|Hard|[Find the Largest Palindrome Divisible by K](https://leetcode.com/problems/find-the-largest-palindrome-divisible-by-k/description/)|[Find the Largest Palindrome Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLargestPalindromeDivisibleByK.java)|
 |3273|Hard|[Minimum Amount of Damage Dealt to Bob](https://leetcode.com/problems/minimum-amount-of-damage-dealt-to-bob/description/)|[Minimum Amount of Damage Dealt to Bob.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfDamageDealtToBob.java)|
-|3298|Hard|[Count Substrings That Can Be Rearranged to Contain a String II](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/description/)|[Count Substrings That Can Be Rearranged to Contain a String II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsThatCanBeRearrangedToContainStringII.java)|</p>
+|3298|Hard|[Count Substrings That Can Be Rearranged to Contain a String II](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/description/)|[Count Substrings That Can Be Rearranged to Contain a String II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsThatCanBeRearrangedToContainStringII.java)|
+|3620|Hard|[Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/description/)|[Network Recovery Pathways.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NetworkRecoveryPathways.java)|</p>
 </details>
 
 <details>
