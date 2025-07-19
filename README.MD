@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2085
+Count of solved tasks: 2086
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1890,7 +1890,8 @@ Count of solved tasks: 2085
 |3561|Medium|[Resulting String After Adjacent Removals](https://leetcode.com/problems/resulting-string-after-adjacent-removals/description/)|[Resulting String After Adjacent Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ResultingStringAfterAdjacentRemovals.java)|
 |3566|Medium|[Partition Array into Two Equal Product Subsets](https://leetcode.com/problems/partition-array-into-two-equal-product-subsets/description/)|[Partition Array into Two Equal Product Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionArrayIntoTwoEqualProductSubsets.java)|
 |3567|Medium|[Minimum Absolute Difference in Sliding Submatrix](https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/description/)|[Minimum Absolute Difference in Sliding Submatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDifferenceInSlidingSubmatrix.java)|
-|3618|Medium|[Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/description/)|[Split Array by Prime Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayByPrimeIndices.java)|</p>
+|3618|Medium|[Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/description/)|[Split Array by Prime Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayByPrimeIndices.java)|
+|3619|Medium|[Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/description/)|[Count Islands With Total Value Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIslandsWithTotalValueDivisibleByK.java)|</p>
 </details>
 
 <details>
@@ -3273,7 +3274,8 @@ Count of solved tasks: 2085
 |3561|Medium|[Resulting String After Adjacent Removals](https://leetcode.com/problems/resulting-string-after-adjacent-removals/description/)|[Resulting String After Adjacent Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ResultingStringAfterAdjacentRemovals.java)|
 |3566|Medium|[Partition Array into Two Equal Product Subsets](https://leetcode.com/problems/partition-array-into-two-equal-product-subsets/description/)|[Partition Array into Two Equal Product Subsets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionArrayIntoTwoEqualProductSubsets.java)|
 |3567|Medium|[Minimum Absolute Difference in Sliding Submatrix](https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/description/)|[Minimum Absolute Difference in Sliding Submatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDifferenceInSlidingSubmatrix.java)|
-|3618|Medium|[Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/description/)|[Split Array by Prime Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayByPrimeIndices.java)|</p>
+|3618|Medium|[Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/description/)|[Split Array by Prime Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayByPrimeIndices.java)|
+|3619|Medium|[Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/description/)|[Count Islands With Total Value Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIslandsWithTotalValueDivisibleByK.java)|</p>
 </details>
 
 <details>
