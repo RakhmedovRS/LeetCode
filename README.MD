@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2087
+Count of solved tasks: 2088
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1892,7 +1892,8 @@ Count of solved tasks: 2087
 |3567|Medium|[Minimum Absolute Difference in Sliding Submatrix](https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/description/)|[Minimum Absolute Difference in Sliding Submatrix.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDifferenceInSlidingSubmatrix.java)|
 |3618|Medium|[Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/description/)|[Split Array by Prime Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SplitArrayByPrimeIndices.java)|
 |3619|Medium|[Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/description/)|[Count Islands With Total Value Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIslandsWithTotalValueDivisibleByK.java)|
-|3620|Hard|[Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/description/)|[Network Recovery Pathways.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NetworkRecoveryPathways.java)|</p>
+|3620|Hard|[Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/description/)|[Network Recovery Pathways.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NetworkRecoveryPathways.java)|
+|3633|Easy|[Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)|[Earliest Finish Time for Land and Water Rides I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EarliestFinishTimeForLandAndWaterRidesI.java)|</p>
 </details>
 
 <details>
@@ -2379,7 +2380,8 @@ Count of solved tasks: 2087
 |3507|Easy|[Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/)|[Minimum Pair Removal to Sort Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPairRemovalToSortArrayI.java)|
 |3536|Easy|[Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/)|[Maximum Product of Two Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductOfTwoDigits.java)|
 |3550|Easy|[Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/description/)|[Smallest Index With Digit Sum Equal to Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestIndexWithDigitSumEqualToIndex.java)|
-|3560|Easy|[Find Minimum Log Transportation Cost](https://leetcode.com/problems/find-minimum-log-transportation-cost/description/)|[Find Minimum Log Transportation Cost.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumLogTransportationCost.java)|</p>
+|3560|Easy|[Find Minimum Log Transportation Cost](https://leetcode.com/problems/find-minimum-log-transportation-cost/description/)|[Find Minimum Log Transportation Cost.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumLogTransportationCost.java)|
+|3633|Easy|[Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)|[Earliest Finish Time for Land and Water Rides I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EarliestFinishTimeForLandAndWaterRidesI.java)|</p>
 </details>
 
 <details>
