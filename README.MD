@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2091
+Count of solved tasks: 2092
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1896,7 +1896,8 @@ Count of solved tasks: 2091
 |3633|Easy|[Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)|[Earliest Finish Time for Land and Water Rides I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EarliestFinishTimeForLandAndWaterRidesI.java)|
 |3634|Medium|[Minimum Removals to Balance Array](https://leetcode.com/problems/minimum-removals-to-balance-array/description/)|[Minimum Removals to Balance Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToBalanceArray.java)|
 |3635|Medium|[Earliest Finish Time for Land and Water Rides II](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/description/)|[Earliest Finish Time for Land and Water Rides II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EarliestFinishTimeForLandAndWaterRidesII.java)|
-|3652|Medium|[Best Time to Buy and Sell Stock using Strategy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/description/)|[Best Time to Buy and Sell Stock using Strategy.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestTimeToBuyAndSellStockUsingStrategy.java)|</p>
+|3652|Medium|[Best Time to Buy and Sell Stock using Strategy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/description/)|[Best Time to Buy and Sell Stock using Strategy.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestTimeToBuyAndSellStockUsingStrategy.java)|
+|3653|Medium|[XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/description/)|[XOR After Range Multiplication Queries I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/XORAfterRangeMultiplicationQueriesI.java)|</p>
 </details>
 
 <details>
@@ -3284,7 +3285,8 @@ Count of solved tasks: 2091
 |3619|Medium|[Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/description/)|[Count Islands With Total Value Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIslandsWithTotalValueDivisibleByK.java)|
 |3634|Medium|[Minimum Removals to Balance Array](https://leetcode.com/problems/minimum-removals-to-balance-array/description/)|[Minimum Removals to Balance Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToBalanceArray.java)|
 |3635|Medium|[Earliest Finish Time for Land and Water Rides II](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/description/)|[Earliest Finish Time for Land and Water Rides II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EarliestFinishTimeForLandAndWaterRidesII.java)|
-|3652|Medium|[Best Time to Buy and Sell Stock using Strategy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/description/)|[Best Time to Buy and Sell Stock using Strategy.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestTimeToBuyAndSellStockUsingStrategy.java)|</p>
+|3652|Medium|[Best Time to Buy and Sell Stock using Strategy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/description/)|[Best Time to Buy and Sell Stock using Strategy.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestTimeToBuyAndSellStockUsingStrategy.java)|
+|3653|Medium|[XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/description/)|[XOR After Range Multiplication Queries I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/XORAfterRangeMultiplicationQueriesI.java)|</p>
 </details>
 
 <details>
