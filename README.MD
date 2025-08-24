@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2092
+Count of solved tasks: 2093
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1897,7 +1897,8 @@ Count of solved tasks: 2092
 |3634|Medium|[Minimum Removals to Balance Array](https://leetcode.com/problems/minimum-removals-to-balance-array/description/)|[Minimum Removals to Balance Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToBalanceArray.java)|
 |3635|Medium|[Earliest Finish Time for Land and Water Rides II](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/description/)|[Earliest Finish Time for Land and Water Rides II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EarliestFinishTimeForLandAndWaterRidesII.java)|
 |3652|Medium|[Best Time to Buy and Sell Stock using Strategy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/description/)|[Best Time to Buy and Sell Stock using Strategy.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestTimeToBuyAndSellStockUsingStrategy.java)|
-|3653|Medium|[XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/description/)|[XOR After Range Multiplication Queries I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/XORAfterRangeMultiplicationQueriesI.java)|</p>
+|3653|Medium|[XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/description/)|[XOR After Range Multiplication Queries I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/XORAfterRangeMultiplicationQueriesI.java)|
+|3658|Easy|[GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/description/)|[GCD of Odd and Even Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GCDOfOddAndEvenSums.java)|</p>
 </details>
 
 <details>
@@ -2385,7 +2386,8 @@ Count of solved tasks: 2092
 |3536|Easy|[Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/)|[Maximum Product of Two Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductOfTwoDigits.java)|
 |3550|Easy|[Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/description/)|[Smallest Index With Digit Sum Equal to Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestIndexWithDigitSumEqualToIndex.java)|
 |3560|Easy|[Find Minimum Log Transportation Cost](https://leetcode.com/problems/find-minimum-log-transportation-cost/description/)|[Find Minimum Log Transportation Cost.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumLogTransportationCost.java)|
-|3633|Easy|[Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)|[Earliest Finish Time for Land and Water Rides I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EarliestFinishTimeForLandAndWaterRidesI.java)|</p>
+|3633|Easy|[Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)|[Earliest Finish Time for Land and Water Rides I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EarliestFinishTimeForLandAndWaterRidesI.java)|
+|3658|Easy|[GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/description/)|[GCD of Odd and Even Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GCDOfOddAndEvenSums.java)|</p>
 </details>
 
 <details>
