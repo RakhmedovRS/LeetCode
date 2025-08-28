@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2094
+Count of solved tasks: 2095
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1867,6 +1867,7 @@ Count of solved tasks: 2094
 |3427|Easy|[Sum of Variable Length Subarrays](https://leetcode.com/problems/sum-of-variable-length-subarrays/description/)|[Sum of Variable Length Subarrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfVariableLengthSubarrays.java)|
 |3442|Easy|[Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/description/)|[Maximum Difference Between Even and Odd Frequency I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumDifferenceBetweenEvenAndOddFrequencyI.java)|
 |3443|Medium|[Maximum Manhattan Distance After K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/description/)|[Maximum Manhattan Distance After K Changes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumManhattanDistanceAfterKChanges.java)|
+|3446|Medium|[Sort Matrix by Diagonals](https://leetcode.com/problems/sort-matrix-by-diagonals/description/)|[Sort Matrix by Diagonals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortMatrixByDiagonals.java)|
 |3452|Easy|[Sum of Good Numbers](https://leetcode.com/problems/sum-of-good-numbers/description/)|[Sum of Good Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfGoodNumbers.java)|
 |3456|Easy|[Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/)|[Find Special Substring of Length K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindSpecialSubstringOfLengthK.java)|
 |3457|Medium|[Eat Pizzas!](https://leetcode.com/problems/eat-pizzas/description/)|[Eat Pizzas!.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EatPizzas.java)|
@@ -3271,6 +3272,7 @@ Count of solved tasks: 2094
 |3418|Medium|[Maximum Amount of Money Robot Can Earn](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/description/)|[Maximum Amount of Money Robot Can Earn.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAmountOfMoneyRobotCanEarn.java)|
 |3424|Medium|[Minimum Cost to Make Arrays Identical](https://leetcode.com/problems/minimum-cost-to-make-arrays-identical/description/)|[Minimum Cost to Make Arrays Identical.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToMakeArraysIdentical.java)|
 |3443|Medium|[Maximum Manhattan Distance After K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/description/)|[Maximum Manhattan Distance After K Changes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumManhattanDistanceAfterKChanges.java)|
+|3446|Medium|[Sort Matrix by Diagonals](https://leetcode.com/problems/sort-matrix-by-diagonals/description/)|[Sort Matrix by Diagonals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortMatrixByDiagonals.java)|
 |3457|Medium|[Eat Pizzas!](https://leetcode.com/problems/eat-pizzas/description/)|[Eat Pizzas!.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EatPizzas.java)|
 |3462|Medium|[Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/)|[Maximum Sum With at Most K Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumWithAtMostKElements.java)|
 |3472|Medium|[Longest Palindromic Subsequence After at Most K Operations](https://leetcode.com/problems/longest-palindromic-subsequence-after-at-most-k-operations/description/)|[Longest Palindromic Subsequence After at Most K Operations.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestPalindromicSubsequenceAfterAtMostKOperations.java)|
