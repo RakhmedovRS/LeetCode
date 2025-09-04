@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2096
+Count of solved tasks: 2097
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1880,6 +1880,7 @@ Count of solved tasks: 2096
 |3492|Easy|[Maximum Containers on a Ship](https://leetcode.com/problems/maximum-containers-on-a-ship/description/)|[Maximum Containers on a Ship.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumContainersOnShip.java)|
 |3493|Medium|[Properties Graph](https://leetcode.com/problems/properties-graph/description/)|[Properties Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PropertiesGraph.java)|
 |3507|Easy|[Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/)|[Minimum Pair Removal to Sort Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPairRemovalToSortArrayI.java)|
+|3516|Easy|[Find Closest Person](https://leetcode.com/problems/find-closest-person/description)|[Find Closest Person.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindClosestPerson.java)|
 |3522|Medium|[Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)|[Calculate Score After Performing Instructions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateScoreAfterPerformingInstructions.java)|
 |3523|Medium|[Make Array Non-decreasing](https://leetcode.com/problems/make-array-non-decreasing/description/)|[Make Array Non-decreasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeArrayNondecreasing.java)|
 |3536|Easy|[Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/)|[Maximum Product of Two Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductOfTwoDigits.java)|
@@ -2386,6 +2387,7 @@ Count of solved tasks: 2096
 |3477|Easy|[Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/)|[Fruits Into Baskets II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FruitsIntoBasketsII.java)|
 |3492|Easy|[Maximum Containers on a Ship](https://leetcode.com/problems/maximum-containers-on-a-ship/description/)|[Maximum Containers on a Ship.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumContainersOnShip.java)|
 |3507|Easy|[Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/)|[Minimum Pair Removal to Sort Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPairRemovalToSortArrayI.java)|
+|3516|Easy|[Find Closest Person](https://leetcode.com/problems/find-closest-person/description)|[Find Closest Person.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindClosestPerson.java)|
 |3536|Easy|[Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/)|[Maximum Product of Two Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductOfTwoDigits.java)|
 |3550|Easy|[Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/description/)|[Smallest Index With Digit Sum Equal to Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestIndexWithDigitSumEqualToIndex.java)|
 |3560|Easy|[Find Minimum Log Transportation Cost](https://leetcode.com/problems/find-minimum-log-transportation-cost/description/)|[Find Minimum Log Transportation Cost.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumLogTransportationCost.java)|
