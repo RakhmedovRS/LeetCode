@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2097
+Count of solved tasks: 2098
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1902,7 +1902,8 @@ Count of solved tasks: 2097
 |3653|Medium|[XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/description/)|[XOR After Range Multiplication Queries I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/XORAfterRangeMultiplicationQueriesI.java)|
 |3658|Easy|[GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/description/)|[GCD of Odd and Even Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GCDOfOddAndEvenSums.java)|
 |3659|Medium|[Partition Array Into K-Distinct Groups](https://leetcode.com/problems/partition-array-into-k-distinct-groups/description/)|[Partition Array Into K-Distinct Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionArrayIntoKDistinctGroups.java)|
-|3668|Easy|[Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/description/)|[Restore Finishing Order.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RestoreFinishingOrder.java)|</p>
+|3668|Easy|[Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/description/)|[Restore Finishing Order.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RestoreFinishingOrder.java)|
+|3674|Easy|[Minimum Operations to Equalize Array](https://leetcode.com/problems/minimum-operations-to-equalize-array/description/)|[Minimum Operations to Equalize Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToEqualizeArray.java)|</p>
 </details>
 
 <details>
@@ -2393,7 +2394,8 @@ Count of solved tasks: 2097
 |3560|Easy|[Find Minimum Log Transportation Cost](https://leetcode.com/problems/find-minimum-log-transportation-cost/description/)|[Find Minimum Log Transportation Cost.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumLogTransportationCost.java)|
 |3633|Easy|[Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)|[Earliest Finish Time for Land and Water Rides I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EarliestFinishTimeForLandAndWaterRidesI.java)|
 |3658|Easy|[GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/description/)|[GCD of Odd and Even Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GCDOfOddAndEvenSums.java)|
-|3668|Easy|[Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/description/)|[Restore Finishing Order.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RestoreFinishingOrder.java)|</p>
+|3668|Easy|[Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/description/)|[Restore Finishing Order.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RestoreFinishingOrder.java)|
+|3674|Easy|[Minimum Operations to Equalize Array](https://leetcode.com/problems/minimum-operations-to-equalize-array/description/)|[Minimum Operations to Equalize Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToEqualizeArray.java)|</p>
 </details>
 
 <details>
