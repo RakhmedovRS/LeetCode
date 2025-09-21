@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2105
+Count of solved tasks: 2106
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1666,6 +1666,7 @@ Count of solved tasks: 2105
 |2899|Easy|[Last Visited Integers](https://leetcode.com/problems/last-visited-integers/)|[Last Visited Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LastVisitedIntegers.java)|
 |2900|Medium|[Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/)|[Longest Unequal Adjacent Groups Subsequence I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestUnequalAdjacentGroupsSubsequenceI.java)|
 |2901|Medium|[Longest Unequal Adjacent Groups Subsequence II](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii/description/)|[Longest Unequal Adjacent Groups Subsequence II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestUnequalAdjacentGroupsSubsequenceII.java)|
+|2903|Easy|[Find Indices With Index and Value Difference I](https://leetcode.com/problems/find-indices-with-index-and-value-difference-i/description/)|[Find Indices With Index and Value Difference I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindIndicesWithIndexAndValueDifferenceI.java)|
 |2908|Easy|[Minimum Sum of Mountain Triplets I](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/)|[Minimum Sum of Mountain Triplets I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSumOfMountainTripletsI.java)|
 |2909|Medium|[Minimum Sum of Mountain Triplets II](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii/)|[Minimum Sum of Mountain Triplets II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSumOfMountainTripletsII.java)|
 |2913|Easy|[Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/)|[Subarrays Distinct Element Sum of Squares I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubarraysDistinctElementSumOfSquaresI.java)|
@@ -2313,6 +2314,7 @@ Count of solved tasks: 2105
 |2873|Easy|[Maximum Value of an Ordered Triplet I](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/description)|[Maximum Value of an Ordered Triplet I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumValueOfAnOrderedTripletI.java)|
 |2894|Easy|[Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/description/)|[Divisible and Non-divisible Sums Difference.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DivisibleAndNondivisibleSumsDifference.java)|
 |2899|Easy|[Last Visited Integers](https://leetcode.com/problems/last-visited-integers/)|[Last Visited Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LastVisitedIntegers.java)|
+|2903|Easy|[Find Indices With Index and Value Difference I](https://leetcode.com/problems/find-indices-with-index-and-value-difference-i/description/)|[Find Indices With Index and Value Difference I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindIndicesWithIndexAndValueDifferenceI.java)|
 |2908|Easy|[Minimum Sum of Mountain Triplets I](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/)|[Minimum Sum of Mountain Triplets I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSumOfMountainTripletsI.java)|
 |2913|Easy|[Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/)|[Subarrays Distinct Element Sum of Squares I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SubarraysDistinctElementSumOfSquaresI.java)|
 |2923|Easy|[Find Champion I](https://leetcode.com/problems/find-champion-i/)|[Find Champion I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindChampionI.java)|
