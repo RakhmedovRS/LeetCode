@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2103
+Count of solved tasks: 2104
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1189,6 +1189,7 @@ Count of solved tasks: 2103
 |1909|Easy|[Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)|[Remove One Element to Make the Array Strictly Increasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveOneElementToMakeTheArrayStrictlyIncreasing.java)|
 |1910|Medium|[Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/)|[Remove All Occurrences of a Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveAllOccurrencesOfSubstring.java)|
 |1911|Medium|[Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/)|[Maximum Alternating Subsequence Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAlternatingSubsequenceSum.java)|
+|1912|Hard|[Design Movie Rental System](https://leetcode.com/problems/design-movie-rental-system/description/)|[Design Movie Rental System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignMovieRentalSystem.java)|
 |1913|Easy|[Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)|[Maximum Product Difference Between Two Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductDifferenceBetweenTwoPairs.java)|
 |1914|Medium|[Cyclically Rotating a Grid](https://leetcode.com/problems/cyclically-rotating-a-grid/)|[Cyclically Rotating a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CyclicallyRotatingGrid.java)|
 |1920|Easy|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|[Build Array from Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BuildArrayFromPermutation.java)|
@@ -3410,6 +3411,7 @@ Count of solved tasks: 2103
 |1675|Hard|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|[Minimize Deviation in Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeDeviationInArray.java)|
 |1835|Hard|[Find XOR Sum of All Pairs Bitwise AND](https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/)|[Find XOR Sum of All Pairs Bitwise AND.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindXORSumOfAllPairsBitwiseAND.java)|
 |1879|Hard|[Minimum XOR Sum of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)|[Minimum XOR Sum of Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumXORSumOfTwoArrays.java)|
+|1912|Hard|[Design Movie Rental System](https://leetcode.com/problems/design-movie-rental-system/description/)|[Design Movie Rental System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignMovieRentalSystem.java)|
 |2019|Hard|[Sum of k-Mirror Numbers](https://leetcode.com/problems/sum-of-k-mirror-numbers/)|[Sum of k-Mirror Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfKMirrorNumbers.java)|
 |2290|Hard|[Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)|[Minimum Obstacle Removal to Reach Corner.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumObstacleRemovalToReachCorner.java)|
 |2344|Hard|[Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/)|[Minimum Deletions to Make Array Divisible.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeArrayDivisible.java)|
