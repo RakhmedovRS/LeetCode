@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2104
+Count of solved tasks: 2105
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1598,6 +1598,7 @@ Count of solved tasks: 2104
 |2706|Easy|[Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/)|[Buy Two Chocolates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BuyTwoChocolates.java)|
 |2708|Medium|[Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)|[Maximum Strength of a Group.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumStrengthOfGroup.java)|
 |2710|Easy|[Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/)|[Remove Trailing Zeros From a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveTrailingZerosFromString.java)|
+|2714|Easy|[Semi-Ordered Permutation](https://leetcode.com/problems/semi-ordered-permutation/description/)|[Semi-Ordered Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SemiOrderedPermutation.java)|
 |2716|Easy|[Minimize String Length](https://leetcode.com/problems/minimize-string-length/description/)|[Minimize String Length.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeStringLength.java)|
 |2729|Easy|[Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/)|[Check if The Number is Fascinating.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfTheNumberIsFascinating.java)|
 |2730|Medium|[Find the Longest Semi-Repetitive Substring](https://leetcode.com/problems/find-the-longest-semi-repetitive-substring/)|[Find the Longest Semi-Repetitive Substring.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLongestSemiRepetitiveSubstring.java)|
@@ -2282,6 +2283,7 @@ Count of solved tasks: 2104
 |2697|Easy|[Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/)|[Lexicographically Smallest Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestPalindrome.java)|
 |2706|Easy|[Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/)|[Buy Two Chocolates.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BuyTwoChocolates.java)|
 |2710|Easy|[Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/)|[Remove Trailing Zeros From a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveTrailingZerosFromString.java)|
+|2714|Easy|[Semi-Ordered Permutation](https://leetcode.com/problems/semi-ordered-permutation/description/)|[Semi-Ordered Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SemiOrderedPermutation.java)|
 |2716|Easy|[Minimize String Length](https://leetcode.com/problems/minimize-string-length/description/)|[Minimize String Length.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeStringLength.java)|
 |2729|Easy|[Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/)|[Check if The Number is Fascinating.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfTheNumberIsFascinating.java)|
 |2733|Easy|[Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/)|[Neither Minimum nor Maximum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NeitherMinimumNorMaximum.java)|
