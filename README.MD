@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2108
+Count of solved tasks: 2109
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1913,7 +1913,8 @@ Count of solved tasks: 2108
 |3674|Easy|[Minimum Operations to Equalize Array](https://leetcode.com/problems/minimum-operations-to-equalize-array/description/)|[Minimum Operations to Equalize Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToEqualizeArray.java)|
 |3675|Medium|[Minimum Operations to Transform String](https://leetcode.com/problems/minimum-operations-to-transform-string/description/)|[Minimum Operations to Transform String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToTransformString.java)|
 |3688|Easy|[Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/description/)|[Bitwise OR of Even Numbers in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BitwiseOROfEvenNumbersInAnArray.java)|
-|3689|Medium|[Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/description/)|[Maximum Total Subarray Value I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalSubarrayValueI.java)|</p>
+|3689|Medium|[Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/description/)|[Maximum Total Subarray Value I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalSubarrayValueI.java)|
+|3692|Easy|[Majority Frequency Characters](https://leetcode.com/problems/majority-frequency-characters/description/)|[Majority Frequency Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MajorityFrequencyCharacters.java)|</p>
 </details>
 
 <details>
@@ -2410,7 +2411,8 @@ Count of solved tasks: 2108
 |3658|Easy|[GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/description/)|[GCD of Odd and Even Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GCDOfOddAndEvenSums.java)|
 |3668|Easy|[Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/description/)|[Restore Finishing Order.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RestoreFinishingOrder.java)|
 |3674|Easy|[Minimum Operations to Equalize Array](https://leetcode.com/problems/minimum-operations-to-equalize-array/description/)|[Minimum Operations to Equalize Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToEqualizeArray.java)|
-|3688|Easy|[Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/description/)|[Bitwise OR of Even Numbers in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BitwiseOROfEvenNumbersInAnArray.java)|</p>
+|3688|Easy|[Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/description/)|[Bitwise OR of Even Numbers in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BitwiseOROfEvenNumbersInAnArray.java)|
+|3692|Easy|[Majority Frequency Characters](https://leetcode.com/problems/majority-frequency-characters/description/)|[Majority Frequency Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MajorityFrequencyCharacters.java)|</p>
 </details>
 
 <details>
