@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2111
+Count of solved tasks: 2112
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1916,7 +1916,8 @@ Count of solved tasks: 2111
 |3689|Medium|[Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/description/)|[Maximum Total Subarray Value I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalSubarrayValueI.java)|
 |3692|Easy|[Majority Frequency Characters](https://leetcode.com/problems/majority-frequency-characters/description/)|[Majority Frequency Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MajorityFrequencyCharacters.java)|
 |3693|Medium|[Climbing Stairs II](https://leetcode.com/problems/climbing-stairs-ii/description/)|[Climbing Stairs II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClimbingStairsII.java)|
-|3701|Easy|[Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/description/)|[Compute Alternating Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ComputeAlternatingSum.java)|</p>
+|3701|Easy|[Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/description/)|[Compute Alternating Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ComputeAlternatingSum.java)|
+|3702|Medium|[Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/description/)|[Longest Subsequence With Non-Zero Bitwise XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubsequenceWithNonZeroBitwiseXOR.java)|</p>
 </details>
 
 <details>
@@ -3323,7 +3324,8 @@ Count of solved tasks: 2111
 |3659|Medium|[Partition Array Into K-Distinct Groups](https://leetcode.com/problems/partition-array-into-k-distinct-groups/description/)|[Partition Array Into K-Distinct Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PartitionArrayIntoKDistinctGroups.java)|
 |3675|Medium|[Minimum Operations to Transform String](https://leetcode.com/problems/minimum-operations-to-transform-string/description/)|[Minimum Operations to Transform String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToTransformString.java)|
 |3689|Medium|[Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/description/)|[Maximum Total Subarray Value I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalSubarrayValueI.java)|
-|3693|Medium|[Climbing Stairs II](https://leetcode.com/problems/climbing-stairs-ii/description/)|[Climbing Stairs II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClimbingStairsII.java)|</p>
+|3693|Medium|[Climbing Stairs II](https://leetcode.com/problems/climbing-stairs-ii/description/)|[Climbing Stairs II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClimbingStairsII.java)|
+|3702|Medium|[Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/description/)|[Longest Subsequence With Non-Zero Bitwise XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubsequenceWithNonZeroBitwiseXOR.java)|</p>
 </details>
 
 <details>
