@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2110
+Count of solved tasks: 2111
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1915,7 +1915,8 @@ Count of solved tasks: 2110
 |3688|Easy|[Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/description/)|[Bitwise OR of Even Numbers in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BitwiseOROfEvenNumbersInAnArray.java)|
 |3689|Medium|[Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/description/)|[Maximum Total Subarray Value I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalSubarrayValueI.java)|
 |3692|Easy|[Majority Frequency Characters](https://leetcode.com/problems/majority-frequency-characters/description/)|[Majority Frequency Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MajorityFrequencyCharacters.java)|
-|3693|Medium|[Climbing Stairs II](https://leetcode.com/problems/climbing-stairs-ii/description/)|[Climbing Stairs II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClimbingStairsII.java)|</p>
+|3693|Medium|[Climbing Stairs II](https://leetcode.com/problems/climbing-stairs-ii/description/)|[Climbing Stairs II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClimbingStairsII.java)|
+|3701|Easy|[Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/description/)|[Compute Alternating Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ComputeAlternatingSum.java)|</p>
 </details>
 
 <details>
@@ -2413,7 +2414,8 @@ Count of solved tasks: 2110
 |3668|Easy|[Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/description/)|[Restore Finishing Order.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RestoreFinishingOrder.java)|
 |3674|Easy|[Minimum Operations to Equalize Array](https://leetcode.com/problems/minimum-operations-to-equalize-array/description/)|[Minimum Operations to Equalize Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToEqualizeArray.java)|
 |3688|Easy|[Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/description/)|[Bitwise OR of Even Numbers in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BitwiseOROfEvenNumbersInAnArray.java)|
-|3692|Easy|[Majority Frequency Characters](https://leetcode.com/problems/majority-frequency-characters/description/)|[Majority Frequency Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MajorityFrequencyCharacters.java)|</p>
+|3692|Easy|[Majority Frequency Characters](https://leetcode.com/problems/majority-frequency-characters/description/)|[Majority Frequency Characters.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MajorityFrequencyCharacters.java)|
+|3701|Easy|[Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/description/)|[Compute Alternating Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ComputeAlternatingSum.java)|</p>
 </details>
 
 <details>
