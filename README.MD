@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2114
+Count of solved tasks: 2115
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1919,7 +1919,8 @@ Count of solved tasks: 2114
 |3701|Easy|[Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/description/)|[Compute Alternating Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ComputeAlternatingSum.java)|
 |3702|Medium|[Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/description/)|[Longest Subsequence With Non-Zero Bitwise XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubsequenceWithNonZeroBitwiseXOR.java)|
 |3703|Medium|[Remove K-Balanced Substrings](https://leetcode.com/problems/remove-k-balanced-substrings/description/)|[Remove K-Balanced Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveKBalancedSubstrings.java)|
-|3707|Easy|[Equal Score Substrings](https://leetcode.com/problems/equal-score-substrings/description/)|[Equal Score Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EqualScoreSubstrings.java)|</p>
+|3707|Easy|[Equal Score Substrings](https://leetcode.com/problems/equal-score-substrings/description/)|[Equal Score Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EqualScoreSubstrings.java)|
+|3708|Medium|[Longest Fibonacci Subarray](https://leetcode.com/problems/longest-fibonacci-subarray/description/)|[Longest Fibonacci Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestFibonacciSubarray.java)|</p>
 </details>
 
 <details>
@@ -3329,7 +3330,8 @@ Count of solved tasks: 2114
 |3689|Medium|[Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/description/)|[Maximum Total Subarray Value I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalSubarrayValueI.java)|
 |3693|Medium|[Climbing Stairs II](https://leetcode.com/problems/climbing-stairs-ii/description/)|[Climbing Stairs II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ClimbingStairsII.java)|
 |3702|Medium|[Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/description/)|[Longest Subsequence With Non-Zero Bitwise XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubsequenceWithNonZeroBitwiseXOR.java)|
-|3703|Medium|[Remove K-Balanced Substrings](https://leetcode.com/problems/remove-k-balanced-substrings/description/)|[Remove K-Balanced Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveKBalancedSubstrings.java)|</p>
+|3703|Medium|[Remove K-Balanced Substrings](https://leetcode.com/problems/remove-k-balanced-substrings/description/)|[Remove K-Balanced Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveKBalancedSubstrings.java)|
+|3708|Medium|[Longest Fibonacci Subarray](https://leetcode.com/problems/longest-fibonacci-subarray/description/)|[Longest Fibonacci Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestFibonacciSubarray.java)|</p>
 </details>
 
 <details>
