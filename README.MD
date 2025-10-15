@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2119
+Count of solved tasks: 2120
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1855,6 +1855,7 @@ Count of solved tasks: 2119
 |3341|Medium|[Find Minimum Time to Reach Last Room I](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/description/)|[Find Minimum Time to Reach Last Room I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumTimeToReachLastRoomI.java)|
 |3342|Medium|[Find Minimum Time to Reach Last Room II](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/description/)|[Find Minimum Time to Reach Last Room II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumTimeToReachLastRoomII.java)|
 |3349|Easy|[Adjacent Increasing Subarrays Detection I](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/description/)|[Adjacent Increasing Subarrays Detection I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AdjacentIncreasingSubarraysDetectionI.java)|
+|3350|Medium|[Adjacent Increasing Subarrays Detection II](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/description/)|[Adjacent Increasing Subarrays Detection II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AdjacentIncreasingSubarraysDetectionII.java)|
 |3355|Medium|[Zero Array Transformation I](https://leetcode.com/problems/zero-array-transformation-i/description)|[Zero Array Transformation I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ZeroArrayTransformationI.java)|
 |3364|Easy|[Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/)|[Minimum Positive Sum Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPositiveSumSubarray.java)|
 |3365|Medium|[Rearrange K Substrings to Form Target String](https://leetcode.com/problems/rearrange-k-substrings-to-form-target-string/)|[Rearrange K Substrings to Form Target String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeKSubstringsToFormTargetString.java)|
@@ -3301,6 +3302,7 @@ Count of solved tasks: 2119
 |3332|Medium|[Maximum Points Tourist Can Earn](https://leetcode.com/problems/maximum-points-tourist-can-earn/description/)|[Maximum Points Tourist Can Earn.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumPointsTouristCanEarn.java)|
 |3341|Medium|[Find Minimum Time to Reach Last Room I](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/description/)|[Find Minimum Time to Reach Last Room I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumTimeToReachLastRoomI.java)|
 |3342|Medium|[Find Minimum Time to Reach Last Room II](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/description/)|[Find Minimum Time to Reach Last Room II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMinimumTimeToReachLastRoomII.java)|
+|3350|Medium|[Adjacent Increasing Subarrays Detection II](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/description/)|[Adjacent Increasing Subarrays Detection II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AdjacentIncreasingSubarraysDetectionII.java)|
 |3355|Medium|[Zero Array Transformation I](https://leetcode.com/problems/zero-array-transformation-i/description)|[Zero Array Transformation I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ZeroArrayTransformationI.java)|
 |3365|Medium|[Rearrange K Substrings to Form Target String](https://leetcode.com/problems/rearrange-k-substrings-to-form-target-string/)|[Rearrange K Substrings to Form Target String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeKSubstringsToFormTargetString.java)|
 |3371|Medium|[Identify the Largest Outlier in an Array](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/)|[Identify the Largest Outlier in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IdentifyTheLargestOutlierInAnArray.java)|
