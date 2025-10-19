@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2121
+Count of solved tasks: 2122
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1926,7 +1926,8 @@ Count of solved tasks: 2121
 |3709|Medium|[Design Exam Scores Tracker](https://leetcode.com/problems/design-exam-scores-tracker/description/)|[Design Exam Scores Tracker.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignExamScoresTracker.java)|
 |3712|Easy|[Sum of Elements With Frequency Divisible by K](https://leetcode.com/problems/sum-of-elements-with-frequency-divisible-by-k/description/)|[Sum of Elements With Frequency Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfElementsWithFrequencyDivisibleByK.java)|
 |3713|Medium|[Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/description/)|[Longest Balanced Substring I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestBalancedSubstringI.java)|
-|3718|Easy|[Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/description/)|[Smallest Missing Multiple of K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestMissingMultipleOfK.java)|</p>
+|3718|Easy|[Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/description/)|[Smallest Missing Multiple of K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestMissingMultipleOfK.java)|
+|3719|Medium|[Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/description/)|[Longest Balanced Subarray I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestBalancedSubarrayI.java)|</p>
 </details>
 
 <details>
@@ -3343,7 +3344,8 @@ Count of solved tasks: 2121
 |3703|Medium|[Remove K-Balanced Substrings](https://leetcode.com/problems/remove-k-balanced-substrings/description/)|[Remove K-Balanced Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveKBalancedSubstrings.java)|
 |3708|Medium|[Longest Fibonacci Subarray](https://leetcode.com/problems/longest-fibonacci-subarray/description/)|[Longest Fibonacci Subarray.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestFibonacciSubarray.java)|
 |3709|Medium|[Design Exam Scores Tracker](https://leetcode.com/problems/design-exam-scores-tracker/description/)|[Design Exam Scores Tracker.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignExamScoresTracker.java)|
-|3713|Medium|[Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/description/)|[Longest Balanced Substring I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestBalancedSubstringI.java)|</p>
+|3713|Medium|[Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/description/)|[Longest Balanced Substring I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestBalancedSubstringI.java)|
+|3719|Medium|[Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/description/)|[Longest Balanced Subarray I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestBalancedSubarrayI.java)|</p>
 </details>
 
 <details>
