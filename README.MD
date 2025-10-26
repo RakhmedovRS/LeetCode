@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2126
+Count of solved tasks: 2127
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1931,7 +1931,8 @@ Count of solved tasks: 2126
 |3719|Medium|[Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/description/)|[Longest Balanced Subarray I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestBalancedSubarrayI.java)|
 |3720|Medium|[Lexicographically Smallest Permutation Greater Than Target](https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/description/)|[Lexicographically Smallest Permutation Greater Than Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestPermutationGreaterThanTarget.java)|
 |3722|Medium|[Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/description/)|[Lexicographically Smallest String After Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterReverse.java)|
-|3723|Medium|[Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/description/)|[Maximize Sum of Squares of Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeSumOfSquaresOfDigits.java)|</p>
+|3723|Medium|[Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/description/)|[Maximize Sum of Squares of Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeSumOfSquaresOfDigits.java)|
+|3726|Easy|[Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/description/)|[Remove Zeros in Decimal Representation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveZerosInDecimalRepresentation.java)|</p>
 </details>
 
 <details>
@@ -2434,7 +2435,8 @@ Count of solved tasks: 2126
 |3701|Easy|[Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/description/)|[Compute Alternating Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ComputeAlternatingSum.java)|
 |3707|Easy|[Equal Score Substrings](https://leetcode.com/problems/equal-score-substrings/description/)|[Equal Score Substrings.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EqualScoreSubstrings.java)|
 |3712|Easy|[Sum of Elements With Frequency Divisible by K](https://leetcode.com/problems/sum-of-elements-with-frequency-divisible-by-k/description/)|[Sum of Elements With Frequency Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfElementsWithFrequencyDivisibleByK.java)|
-|3718|Easy|[Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/description/)|[Smallest Missing Multiple of K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestMissingMultipleOfK.java)|</p>
+|3718|Easy|[Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/description/)|[Smallest Missing Multiple of K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestMissingMultipleOfK.java)|
+|3726|Easy|[Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/description/)|[Remove Zeros in Decimal Representation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveZerosInDecimalRepresentation.java)|</p>
 </details>
 
 <details>
