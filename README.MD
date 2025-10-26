@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2125
+Count of solved tasks: 2126
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1930,7 +1930,8 @@ Count of solved tasks: 2125
 |3718|Easy|[Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/description/)|[Smallest Missing Multiple of K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestMissingMultipleOfK.java)|
 |3719|Medium|[Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/description/)|[Longest Balanced Subarray I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestBalancedSubarrayI.java)|
 |3720|Medium|[Lexicographically Smallest Permutation Greater Than Target](https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/description/)|[Lexicographically Smallest Permutation Greater Than Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestPermutationGreaterThanTarget.java)|
-|3722|Medium|[Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/description/)|[Lexicographically Smallest String After Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterReverse.java)|</p>
+|3722|Medium|[Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/description/)|[Lexicographically Smallest String After Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterReverse.java)|
+|3723|Medium|[Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/description/)|[Maximize Sum of Squares of Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeSumOfSquaresOfDigits.java)|</p>
 </details>
 
 <details>
@@ -3351,7 +3352,8 @@ Count of solved tasks: 2125
 |3713|Medium|[Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/description/)|[Longest Balanced Substring I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestBalancedSubstringI.java)|
 |3719|Medium|[Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/description/)|[Longest Balanced Subarray I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestBalancedSubarrayI.java)|
 |3720|Medium|[Lexicographically Smallest Permutation Greater Than Target](https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/description/)|[Lexicographically Smallest Permutation Greater Than Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestPermutationGreaterThanTarget.java)|
-|3722|Medium|[Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/description/)|[Lexicographically Smallest String After Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterReverse.java)|</p>
+|3722|Medium|[Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/description/)|[Lexicographically Smallest String After Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterReverse.java)|
+|3723|Medium|[Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/description/)|[Maximize Sum of Squares of Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeSumOfSquaresOfDigits.java)|</p>
 </details>
 
 <details>
