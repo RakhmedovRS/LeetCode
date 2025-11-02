@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2130
+Count of solved tasks: 2131
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1935,7 +1935,8 @@ Count of solved tasks: 2130
 |3726|Easy|[Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/description/)|[Remove Zeros in Decimal Representation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveZerosInDecimalRepresentation.java)|
 |3727|Medium|[Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/description/)|[Maximum Alternating Sum of Squares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAlternatingSumOfSquares.java)|
 |3731|Easy|[Find Missing Elements](https://leetcode.com/problems/find-missing-elements/description/)|[Find Missing Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMissingElements.java)|
-|3732|Medium|[Maximum Product of Three Elements After One Replacement](https://leetcode.com/problems/maximum-product-of-three-elements-after-one-replacement/description/)|[Maximum Product of Three Elements After One Replacement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductOfThreeElementsAfterOneReplacement.java)|</p>
+|3732|Medium|[Maximum Product of Three Elements After One Replacement](https://leetcode.com/problems/maximum-product-of-three-elements-after-one-replacement/description/)|[Maximum Product of Three Elements After One Replacement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductOfThreeElementsAfterOneReplacement.java)|
+|3733|Medium|[Minimum Time to Complete All Deliveries](https://leetcode.com/problems/minimum-time-to-complete-all-deliveries/description/)|[Minimum Time to Complete All Deliveries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToCompleteAllDeliveries.java)|</p>
 </details>
 
 <details>
@@ -3361,7 +3362,8 @@ Count of solved tasks: 2130
 |3722|Medium|[Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/description/)|[Lexicographically Smallest String After Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestStringAfterReverse.java)|
 |3723|Medium|[Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/description/)|[Maximize Sum of Squares of Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeSumOfSquaresOfDigits.java)|
 |3727|Medium|[Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/description/)|[Maximum Alternating Sum of Squares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAlternatingSumOfSquares.java)|
-|3732|Medium|[Maximum Product of Three Elements After One Replacement](https://leetcode.com/problems/maximum-product-of-three-elements-after-one-replacement/description/)|[Maximum Product of Three Elements After One Replacement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductOfThreeElementsAfterOneReplacement.java)|</p>
+|3732|Medium|[Maximum Product of Three Elements After One Replacement](https://leetcode.com/problems/maximum-product-of-three-elements-after-one-replacement/description/)|[Maximum Product of Three Elements After One Replacement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductOfThreeElementsAfterOneReplacement.java)|
+|3733|Medium|[Minimum Time to Complete All Deliveries](https://leetcode.com/problems/minimum-time-to-complete-all-deliveries/description/)|[Minimum Time to Complete All Deliveries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToCompleteAllDeliveries.java)|</p>
 </details>
 
 <details>
