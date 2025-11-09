@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2132
+Count of solved tasks: 2133
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1937,7 +1937,8 @@ Count of solved tasks: 2132
 |3727|Medium|[Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/description/)|[Maximum Alternating Sum of Squares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAlternatingSumOfSquares.java)|
 |3731|Easy|[Find Missing Elements](https://leetcode.com/problems/find-missing-elements/description/)|[Find Missing Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMissingElements.java)|
 |3732|Medium|[Maximum Product of Three Elements After One Replacement](https://leetcode.com/problems/maximum-product-of-three-elements-after-one-replacement/description/)|[Maximum Product of Three Elements After One Replacement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductOfThreeElementsAfterOneReplacement.java)|
-|3733|Medium|[Minimum Time to Complete All Deliveries](https://leetcode.com/problems/minimum-time-to-complete-all-deliveries/description/)|[Minimum Time to Complete All Deliveries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToCompleteAllDeliveries.java)|</p>
+|3733|Medium|[Minimum Time to Complete All Deliveries](https://leetcode.com/problems/minimum-time-to-complete-all-deliveries/description/)|[Minimum Time to Complete All Deliveries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToCompleteAllDeliveries.java)|
+|3736|Easy|[Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/description/)|[Minimum Moves to Equal Array Elements III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToEqualArrayElementsIII.java)|</p>
 </details>
 
 <details>
@@ -2442,7 +2443,8 @@ Count of solved tasks: 2132
 |3712|Easy|[Sum of Elements With Frequency Divisible by K](https://leetcode.com/problems/sum-of-elements-with-frequency-divisible-by-k/description/)|[Sum of Elements With Frequency Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfElementsWithFrequencyDivisibleByK.java)|
 |3718|Easy|[Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/description/)|[Smallest Missing Multiple of K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestMissingMultipleOfK.java)|
 |3726|Easy|[Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/description/)|[Remove Zeros in Decimal Representation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveZerosInDecimalRepresentation.java)|
-|3731|Easy|[Find Missing Elements](https://leetcode.com/problems/find-missing-elements/description/)|[Find Missing Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMissingElements.java)|</p>
+|3731|Easy|[Find Missing Elements](https://leetcode.com/problems/find-missing-elements/description/)|[Find Missing Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMissingElements.java)|
+|3736|Easy|[Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/description/)|[Minimum Moves to Equal Array Elements III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToEqualArrayElementsIII.java)|</p>
 </details>
 
 <details>
