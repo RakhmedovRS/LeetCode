@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2133
+Count of solved tasks: 2134
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1938,7 +1938,8 @@ Count of solved tasks: 2133
 |3731|Easy|[Find Missing Elements](https://leetcode.com/problems/find-missing-elements/description/)|[Find Missing Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMissingElements.java)|
 |3732|Medium|[Maximum Product of Three Elements After One Replacement](https://leetcode.com/problems/maximum-product-of-three-elements-after-one-replacement/description/)|[Maximum Product of Three Elements After One Replacement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductOfThreeElementsAfterOneReplacement.java)|
 |3733|Medium|[Minimum Time to Complete All Deliveries](https://leetcode.com/problems/minimum-time-to-complete-all-deliveries/description/)|[Minimum Time to Complete All Deliveries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToCompleteAllDeliveries.java)|
-|3736|Easy|[Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/description/)|[Minimum Moves to Equal Array Elements III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToEqualArrayElementsIII.java)|</p>
+|3736|Easy|[Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/description/)|[Minimum Moves to Equal Array Elements III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToEqualArrayElementsIII.java)|
+|3737|Medium|[Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/)|[Count Subarrays With Majority Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubarraysWithMajorityElementI.java)|</p>
 </details>
 
 <details>
@@ -3367,7 +3368,8 @@ Count of solved tasks: 2133
 |3723|Medium|[Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/description/)|[Maximize Sum of Squares of Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeSumOfSquaresOfDigits.java)|
 |3727|Medium|[Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/description/)|[Maximum Alternating Sum of Squares.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAlternatingSumOfSquares.java)|
 |3732|Medium|[Maximum Product of Three Elements After One Replacement](https://leetcode.com/problems/maximum-product-of-three-elements-after-one-replacement/description/)|[Maximum Product of Three Elements After One Replacement.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductOfThreeElementsAfterOneReplacement.java)|
-|3733|Medium|[Minimum Time to Complete All Deliveries](https://leetcode.com/problems/minimum-time-to-complete-all-deliveries/description/)|[Minimum Time to Complete All Deliveries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToCompleteAllDeliveries.java)|</p>
+|3733|Medium|[Minimum Time to Complete All Deliveries](https://leetcode.com/problems/minimum-time-to-complete-all-deliveries/description/)|[Minimum Time to Complete All Deliveries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToCompleteAllDeliveries.java)|
+|3737|Medium|[Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/)|[Count Subarrays With Majority Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubarraysWithMajorityElementI.java)|</p>
 </details>
 
 <details>
