@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2052
+Count of solved tasks: 2053
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1572,6 +1572,7 @@ Count of solved tasks: 2052
 |2651|Easy|[Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/)|[Calculate Delayed Arrival Time.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateDelayedArrivalTime.java)|
 |2652|Easy|[Sum Multiples](https://leetcode.com/problems/sum-multiples/)|[Sum Multiples.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumMultiples.java)|
 |2653|Medium|[Sliding Subarray Beauty](https://leetcode.com/problems/sliding-subarray-beauty/)|[Sliding Subarray Beauty.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SlidingSubarrayBeauty.java)|
+|2654|Medium|[Minimum Number of Operations to Make All Array Elements Equal to 1](https://leetcode.com/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/description/)|[Minimum Number of Operations to Make All Array Elements Equal to 1.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeAllArrayElementsEqualTo1.java)|
 |2656|Easy|[Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/description/)|[Maximum Sum With Exactly K Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSumWithExactlyKElements.java)|
 |2657|Medium|[Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/)|[Find the Prefix Common Array of Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThePrefixCommonArrayOfTwoArrays.java)|
 |2658|Medium|[Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/)|[Maximum Number of Fish in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfFishInGrid.java)|
@@ -3039,6 +3040,7 @@ Count of solved tasks: 2052
 |2641|Medium|[Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/)|[Cousins in Binary Tree II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CousinsInBinaryTreeII.java)|
 |2645|Medium|[Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/)|[Minimum Additions to Make Valid String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAdditionsToMakeValidString.java)|
 |2653|Medium|[Sliding Subarray Beauty](https://leetcode.com/problems/sliding-subarray-beauty/)|[Sliding Subarray Beauty.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SlidingSubarrayBeauty.java)|
+|2654|Medium|[Minimum Number of Operations to Make All Array Elements Equal to 1](https://leetcode.com/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/description/)|[Minimum Number of Operations to Make All Array Elements Equal to 1.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfOperationsToMakeAllArrayElementsEqualTo1.java)|
 |2657|Medium|[Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/)|[Find the Prefix Common Array of Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindThePrefixCommonArrayOfTwoArrays.java)|
 |2658|Medium|[Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/)|[Maximum Number of Fish in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfFishInGrid.java)|
 |2661|Medium|[First Completely Painted Row or Column](https://leetcode.com/problems/first-completely-painted-row-or-column/description/)|[First Completely Painted Row or Column.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstCompletelyPaintedRowOrColumn.java)|
