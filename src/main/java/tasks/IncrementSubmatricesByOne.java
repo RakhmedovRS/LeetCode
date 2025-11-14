@@ -14,21 +14,22 @@ import common.LeetCode;
 		difficulty = Difficulty.MEDIUM
 )
 public class IncrementSubmatricesByOne {
-	public int[][] rangeAddQueries(int n, int[][] queries) {
-		int[][] mat = new int[n][n];
-		for (int[] q : queries) {
-			int r1 = q[0];
-			int c1 = q[1];
-			int r2 = q[2];
-			int c2 = q[3];
+    public int[][] rangeAddQueries(int n, int[][] queries) {
+        int[][] grid = new int[n][n];
+        for (int[] query : queries) {
+            for (int row = query[0]; row <= query[2]; row++) {
+                grid[row][query[1]] += 1;
+                if (query[3] + 1 < n) {
+                    grid[row][query[3] + 1] -= 1;
+                }
+            }
+        }
+        for (int row = 0; row < n; row++) {
+            for (int column = 1; column < n; column++) {
+                grid[row][column] += grid[row][column - 1];
+            }
+        }
 
-			for (int row = r1; row <= r2; row++) {
-				for (int column = c1; column <= c2; column++) {
-					mat[row][column]++;
-				}
-			}
-		}
-
-		return mat;
-	}
+        return grid;
+    }
 }
