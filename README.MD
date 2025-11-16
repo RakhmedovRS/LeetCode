@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2138
+Count of solved tasks: 2139
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -967,7 +967,7 @@ Count of solved tasks: 2138
 |1509|Undefined|[Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)|[Minimum Difference Between Largest and Smallest Value in Three Moves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDifferenceBetweenLargestAndSmallestValueInThreeMoves.java)|
 |1510|Hard|[Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|[Stone Game IV.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/StoneGameIV.java)|
 |1512|Undefined|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|[Number of Good Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfGoodPairs.java)|
-|1513|Undefined|[Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)|[Number of Substrings With Only 1s.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubstringsWithOnly1s.java)|
+|1513|Medium|[Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)|[Number of Substrings With Only 1s.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubstringsWithOnly1s.java)|
 |1514|Undefined|[Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)|[Path with Maximum Probability.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PathWithMaximumProbability.java)|
 |1518|Undefined|[Water Bottles](https://leetcode.com/problems/water-bottles/)|[Water Bottles.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WaterBottles.java)|
 |1519|Undefined|[Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)|[Number of Nodes in the Sub-Tree With the Same Label.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfNodesInTheSubTreeWithTheSameLabel.java)|
@@ -1943,7 +1943,8 @@ Count of solved tasks: 2138
 |3737|Medium|[Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/)|[Count Subarrays With Majority Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubarraysWithMajorityElementI.java)|
 |3738|Medium|[Longest Non-Decreasing Subarray After Replacing at Most One Element](https://leetcode.com/problems/longest-non-decreasing-subarray-after-replacing-at-most-one-element/description/)|[Longest Non-Decreasing Subarray After Replacing at Most One Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestNonDecreasingSubarrayAfterReplacingAtMostOneElement.java)|
 |3740|Easy|[Minimum Distance Between Three Equal Elements I](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/description/)|[Minimum Distance Between Three Equal Elements I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceBetweenThreeEqualElementsI.java)|
-|3741|Medium|[Minimum Distance Between Three Equal Elements II](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/description/)|[Minimum Distance Between Three Equal Elements II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceBetweenThreeEqualElementsII.java)|</p>
+|3741|Medium|[Minimum Distance Between Three Equal Elements II](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/description/)|[Minimum Distance Between Three Equal Elements II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceBetweenThreeEqualElementsII.java)|
+|3745|Easy|[Maximize Expression of Three Elements](https://leetcode.com/problems/maximize-expression-of-three-elements/description/)|[Maximize Expression of Three Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeExpressionOfThreeElements.java)|</p>
 </details>
 
 <details>
@@ -2450,7 +2451,8 @@ Count of solved tasks: 2138
 |3726|Easy|[Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/description/)|[Remove Zeros in Decimal Representation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RemoveZerosInDecimalRepresentation.java)|
 |3731|Easy|[Find Missing Elements](https://leetcode.com/problems/find-missing-elements/description/)|[Find Missing Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMissingElements.java)|
 |3736|Easy|[Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/description/)|[Minimum Moves to Equal Array Elements III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToEqualArrayElementsIII.java)|
-|3740|Easy|[Minimum Distance Between Three Equal Elements I](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/description/)|[Minimum Distance Between Three Equal Elements I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceBetweenThreeEqualElementsI.java)|</p>
+|3740|Easy|[Minimum Distance Between Three Equal Elements I](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/description/)|[Minimum Distance Between Three Equal Elements I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceBetweenThreeEqualElementsI.java)|
+|3745|Easy|[Maximize Expression of Three Elements](https://leetcode.com/problems/maximize-expression-of-three-elements/description/)|[Maximize Expression of Three Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeExpressionOfThreeElements.java)|</p>
 </details>
 
 <details>
@@ -2834,6 +2836,7 @@ Count of solved tasks: 2138
 |1487|Medium|[Making File Names Unique](https://leetcode.com/problems/making-file-names-unique/)|[Making File Names Unique.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakingFileNamesUnique.java)|
 |1492|Medium|[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[The kth Factor of n.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheKthFactorOfN.java)|
 |1493|Medium|[Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)|[Longest Subarray of 1's After Deleting One Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubarrayOfOnesAfterDeletingOneElement.java)|
+|1513|Medium|[Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)|[Number of Substrings With Only 1s.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubstringsWithOnly1s.java)|
 |1540|Medium|[Can Convert String in K Moves](https://leetcode.com/problems/can-convert-string-in-k-moves/)|[Can Convert String in K Moves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CanConvertStringInKMoves.java)|
 |1551|Medium|[Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|[Minimum Operations to Make Array Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeArrayEqual.java)|
 |1558|Medium|[Minimum Numbers of Function Calls to Make Target Array](https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/)|[Minimum Numbers of Function Calls to Make Target Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumbersOfFunctionCallsToMakeTargetArray.java)|
