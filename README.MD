@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2139
+Count of solved tasks: 2140
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1944,7 +1944,8 @@ Count of solved tasks: 2139
 |3738|Medium|[Longest Non-Decreasing Subarray After Replacing at Most One Element](https://leetcode.com/problems/longest-non-decreasing-subarray-after-replacing-at-most-one-element/description/)|[Longest Non-Decreasing Subarray After Replacing at Most One Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestNonDecreasingSubarrayAfterReplacingAtMostOneElement.java)|
 |3740|Easy|[Minimum Distance Between Three Equal Elements I](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/description/)|[Minimum Distance Between Three Equal Elements I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceBetweenThreeEqualElementsI.java)|
 |3741|Medium|[Minimum Distance Between Three Equal Elements II](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/description/)|[Minimum Distance Between Three Equal Elements II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceBetweenThreeEqualElementsII.java)|
-|3745|Easy|[Maximize Expression of Three Elements](https://leetcode.com/problems/maximize-expression-of-three-elements/description/)|[Maximize Expression of Three Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeExpressionOfThreeElements.java)|</p>
+|3745|Easy|[Maximize Expression of Three Elements](https://leetcode.com/problems/maximize-expression-of-three-elements/description/)|[Maximize Expression of Three Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeExpressionOfThreeElements.java)|
+|3746|Medium|[Minimum String Length After Balanced Removals](https://leetcode.com/problems/minimum-string-length-after-balanced-removals/description/)|[Minimum String Length After Balanced Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumStringLengthAfterBalancedRemovals.java)|</p>
 </details>
 
 <details>
@@ -3380,7 +3381,8 @@ Count of solved tasks: 2139
 |3733|Medium|[Minimum Time to Complete All Deliveries](https://leetcode.com/problems/minimum-time-to-complete-all-deliveries/description/)|[Minimum Time to Complete All Deliveries.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTimeToCompleteAllDeliveries.java)|
 |3737|Medium|[Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/)|[Count Subarrays With Majority Element I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubarraysWithMajorityElementI.java)|
 |3738|Medium|[Longest Non-Decreasing Subarray After Replacing at Most One Element](https://leetcode.com/problems/longest-non-decreasing-subarray-after-replacing-at-most-one-element/description/)|[Longest Non-Decreasing Subarray After Replacing at Most One Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestNonDecreasingSubarrayAfterReplacingAtMostOneElement.java)|
-|3741|Medium|[Minimum Distance Between Three Equal Elements II](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/description/)|[Minimum Distance Between Three Equal Elements II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceBetweenThreeEqualElementsII.java)|</p>
+|3741|Medium|[Minimum Distance Between Three Equal Elements II](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/description/)|[Minimum Distance Between Three Equal Elements II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceBetweenThreeEqualElementsII.java)|
+|3746|Medium|[Minimum String Length After Balanced Removals](https://leetcode.com/problems/minimum-string-length-after-balanced-removals/description/)|[Minimum String Length After Balanced Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumStringLengthAfterBalancedRemovals.java)|</p>
 </details>
 
 <details>
