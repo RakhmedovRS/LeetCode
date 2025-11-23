@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2149
+Count of solved tasks: 2150
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1954,7 +1954,8 @@ Count of solved tasks: 2149
 |3750|Easy|[Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/description/)|[Minimum Number of Flips to Reverse Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfFlipsToReverseBinaryString.java)|
 |3751|Medium|[Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/)|[Total Waviness of Numbers in Range I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalWavinessOfNumbersInRangeI.java)|
 |3752|Medium|[Lexicographically Smallest Negated Permutation that Sums to Target](https://leetcode.com/problems/lexicographically-smallest-negated-permutation-that-sums-to-target/description/)|[Lexicographically Smallest Negated Permutation that Sums to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestNegatedPermutationThatSumsToTarget.java)|
-|3754|Easy|[Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/description/)|[Concatenate Non-Zero Digits and Multiply by Sum I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenateNonZeroDigitsAndMultiplyBySumI.java)|</p>
+|3754|Easy|[Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/description/)|[Concatenate Non-Zero Digits and Multiply by Sum I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenateNonZeroDigitsAndMultiplyBySumI.java)|
+|3755|Medium|[Find Maximum Balanced XOR Subarray Length](https://leetcode.com/problems/find-maximum-balanced-xor-subarray-length/description/)|[Find Maximum Balanced XOR Subarray Length.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMaximumBalancedXORSubarrayLength.java)|</p>
 </details>
 
 <details>
@@ -3400,7 +3401,8 @@ Count of solved tasks: 2149
 |3746|Medium|[Minimum String Length After Balanced Removals](https://leetcode.com/problems/minimum-string-length-after-balanced-removals/description/)|[Minimum String Length After Balanced Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumStringLengthAfterBalancedRemovals.java)|
 |3747|Medium|[Count Distinct Integers After Removing Zeros](https://leetcode.com/problems/count-distinct-integers-after-removing-zeros/description/)|[Count Distinct Integers After Removing Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDistinctIntegersAfterRemovingZeros.java)|
 |3751|Medium|[Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/)|[Total Waviness of Numbers in Range I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalWavinessOfNumbersInRangeI.java)|
-|3752|Medium|[Lexicographically Smallest Negated Permutation that Sums to Target](https://leetcode.com/problems/lexicographically-smallest-negated-permutation-that-sums-to-target/description/)|[Lexicographically Smallest Negated Permutation that Sums to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestNegatedPermutationThatSumsToTarget.java)|</p>
+|3752|Medium|[Lexicographically Smallest Negated Permutation that Sums to Target](https://leetcode.com/problems/lexicographically-smallest-negated-permutation-that-sums-to-target/description/)|[Lexicographically Smallest Negated Permutation that Sums to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestNegatedPermutationThatSumsToTarget.java)|
+|3755|Medium|[Find Maximum Balanced XOR Subarray Length](https://leetcode.com/problems/find-maximum-balanced-xor-subarray-length/description/)|[Find Maximum Balanced XOR Subarray Length.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMaximumBalancedXORSubarrayLength.java)|</p>
 </details>
 
 <details>
