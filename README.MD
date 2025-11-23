@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2146
+Count of solved tasks: 2147
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1951,7 +1951,8 @@ Count of solved tasks: 2146
 |3745|Easy|[Maximize Expression of Three Elements](https://leetcode.com/problems/maximize-expression-of-three-elements/description/)|[Maximize Expression of Three Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeExpressionOfThreeElements.java)|
 |3746|Medium|[Minimum String Length After Balanced Removals](https://leetcode.com/problems/minimum-string-length-after-balanced-removals/description/)|[Minimum String Length After Balanced Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumStringLengthAfterBalancedRemovals.java)|
 |3747|Medium|[Count Distinct Integers After Removing Zeros](https://leetcode.com/problems/count-distinct-integers-after-removing-zeros/description/)|[Count Distinct Integers After Removing Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDistinctIntegersAfterRemovingZeros.java)|
-|3750|Easy|[Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/description/)|[Minimum Number of Flips to Reverse Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfFlipsToReverseBinaryString.java)|</p>
+|3750|Easy|[Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/description/)|[Minimum Number of Flips to Reverse Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfFlipsToReverseBinaryString.java)|
+|3751|Medium|[Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/)|[Total Waviness of Numbers in Range I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalWavinessOfNumbersInRangeI.java)|</p>
 </details>
 
 <details>
@@ -3394,7 +3395,8 @@ Count of solved tasks: 2146
 |3738|Medium|[Longest Non-Decreasing Subarray After Replacing at Most One Element](https://leetcode.com/problems/longest-non-decreasing-subarray-after-replacing-at-most-one-element/description/)|[Longest Non-Decreasing Subarray After Replacing at Most One Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestNonDecreasingSubarrayAfterReplacingAtMostOneElement.java)|
 |3741|Medium|[Minimum Distance Between Three Equal Elements II](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/description/)|[Minimum Distance Between Three Equal Elements II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceBetweenThreeEqualElementsII.java)|
 |3746|Medium|[Minimum String Length After Balanced Removals](https://leetcode.com/problems/minimum-string-length-after-balanced-removals/description/)|[Minimum String Length After Balanced Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumStringLengthAfterBalancedRemovals.java)|
-|3747|Medium|[Count Distinct Integers After Removing Zeros](https://leetcode.com/problems/count-distinct-integers-after-removing-zeros/description/)|[Count Distinct Integers After Removing Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDistinctIntegersAfterRemovingZeros.java)|</p>
+|3747|Medium|[Count Distinct Integers After Removing Zeros](https://leetcode.com/problems/count-distinct-integers-after-removing-zeros/description/)|[Count Distinct Integers After Removing Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDistinctIntegersAfterRemovingZeros.java)|
+|3751|Medium|[Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/)|[Total Waviness of Numbers in Range I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalWavinessOfNumbersInRangeI.java)|</p>
 </details>
 
 <details>
