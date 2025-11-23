@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2148
+Count of solved tasks: 2149
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1953,7 +1953,8 @@ Count of solved tasks: 2148
 |3747|Medium|[Count Distinct Integers After Removing Zeros](https://leetcode.com/problems/count-distinct-integers-after-removing-zeros/description/)|[Count Distinct Integers After Removing Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDistinctIntegersAfterRemovingZeros.java)|
 |3750|Easy|[Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/description/)|[Minimum Number of Flips to Reverse Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfFlipsToReverseBinaryString.java)|
 |3751|Medium|[Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/)|[Total Waviness of Numbers in Range I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalWavinessOfNumbersInRangeI.java)|
-|3752|Medium|[Lexicographically Smallest Negated Permutation that Sums to Target](https://leetcode.com/problems/lexicographically-smallest-negated-permutation-that-sums-to-target/description/)|[Lexicographically Smallest Negated Permutation that Sums to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestNegatedPermutationThatSumsToTarget.java)|</p>
+|3752|Medium|[Lexicographically Smallest Negated Permutation that Sums to Target](https://leetcode.com/problems/lexicographically-smallest-negated-permutation-that-sums-to-target/description/)|[Lexicographically Smallest Negated Permutation that Sums to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestNegatedPermutationThatSumsToTarget.java)|
+|3754|Easy|[Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/description/)|[Concatenate Non-Zero Digits and Multiply by Sum I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenateNonZeroDigitsAndMultiplyBySumI.java)|</p>
 </details>
 
 <details>
@@ -2466,7 +2467,8 @@ Count of solved tasks: 2148
 |3736|Easy|[Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/description/)|[Minimum Moves to Equal Array Elements III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumMovesToEqualArrayElementsIII.java)|
 |3740|Easy|[Minimum Distance Between Three Equal Elements I](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/description/)|[Minimum Distance Between Three Equal Elements I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceBetweenThreeEqualElementsI.java)|
 |3745|Easy|[Maximize Expression of Three Elements](https://leetcode.com/problems/maximize-expression-of-three-elements/description/)|[Maximize Expression of Three Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeExpressionOfThreeElements.java)|
-|3750|Easy|[Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/description/)|[Minimum Number of Flips to Reverse Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfFlipsToReverseBinaryString.java)|</p>
+|3750|Easy|[Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/description/)|[Minimum Number of Flips to Reverse Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfFlipsToReverseBinaryString.java)|
+|3754|Easy|[Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/description/)|[Concatenate Non-Zero Digits and Multiply by Sum I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenateNonZeroDigitsAndMultiplyBySumI.java)|</p>
 </details>
 
 <details>
