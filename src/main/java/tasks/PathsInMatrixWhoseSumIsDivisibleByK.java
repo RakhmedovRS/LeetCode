@@ -17,37 +17,29 @@ import java.util.Map;
 		difficulty = Difficulty.HARD
 )
 public class PathsInMatrixWhoseSumIsDivisibleByK {
-	int MOD = 1_000_000_007;
+    int MOD = 1_000_000_007;
 
-	public int numberOfPaths(int[][] grid, int k) {
-		int rows = grid.length;
-		int columns = grid[0].length;
-		Map<Integer, Long>[][] memo = new HashMap[rows][columns];
-		for (int row = 0; row < rows; row++) {
-			for (int column = 0; column < columns; column++) {
-				memo[row][column] = new HashMap<>();
-			}
-		}
+    public int numberOfPaths(int[][] grid, int k) {
+        int rows = grid.length;
+        int columns = grid[0].length;
+        int[][][] memo = new int[rows][columns][k + 1];
+        memo[0][0][grid[0][0] % k] = 1;
+        for (int row = 0; row < rows; row++) {
+            for (int column = row == 0 ? 1 : 0; column < columns; column++) {
+                for (int i = 0; i < memo[row][column].length; i++) {
+                    if (row - 1 >= 0) {
+                        memo[row][column][(i + grid[row][column]) % k] += memo[row - 1][column][i];
+                        memo[row][column][(i + grid[row][column]) % k] %= MOD;
+                    }
 
-		memo[0][0].put(grid[0][0] % k, 1L);
-		for (int row = 0; row < rows; row++) {
-			for (int column = 0; column < columns; column++) {
-				if (row + 1 < rows) {
-					for (Map.Entry<Integer, Long> entry : memo[row][column].entrySet()) {
-						int key = (entry.getKey() + grid[row + 1][column]) % k;
-						memo[row + 1][column].put(key, (memo[row + 1][column].getOrDefault(key, 0L) + entry.getValue()) % MOD);
-					}
-				}
+                    if (column - 1 >= 0) {
+                        memo[row][column][(i + grid[row][column]) % k] += memo[row][column - 1][i];
+                        memo[row][column][(i + grid[row][column]) % k] %= MOD;
+                    }
+                }
 
-				if (column + 1 < columns) {
-					for (Map.Entry<Integer, Long> entry : memo[row][column].entrySet()) {
-						int key = (entry.getKey() + grid[row][column + 1]) % k;
-						memo[row][column + 1].put(key, (memo[row][column + 1].getOrDefault(key, 0L) + entry.getValue()) % MOD);
-					}
-				}
-			}
-		}
-
-		return memo[rows - 1][columns - 1].getOrDefault(0, 0L).intValue();
-	}
+            }
+        }
+        return memo[rows - 1][columns - 1][0];
+    }
 }
