@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2139
+Count of solved tasks: 2140
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -3712,6 +3712,7 @@ Count of solved tasks: 2139
 |3063|Easy|[Linked List Frequency](https://leetcode.com/problems/linked-list-frequency/description/)|[Linked List Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LinkedListFrequency.java)|
 |3064|Medium|[Guess the Number Using Bitwise Questions I](https://leetcode.com/problems/guess-the-number-using-bitwise-questions-i/description/)|[Guess the Number Using Bitwise Questions I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GuessTheNumberUsingBitwiseQuestionsI.java)|
 |3221|Medium|[Maximum Array Hopping Score II](https://leetcode.com/problems/maximum-array-hopping-score-ii/description/)|[Maximum Array Hopping Score II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumArrayHoppingScoreII.java)|
-|3237|Medium|[Alt and Tab Simulation](https://leetcode.com/problems/alt-and-tab-simulation/description/)|[Alt and Tab Simulation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AltAndTabSimulation.java)|</p>
+|3237|Medium|[Alt and Tab Simulation](https://leetcode.com/problems/alt-and-tab-simulation/description/)|[Alt and Tab Simulation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AltAndTabSimulation.java)|
+|3294|Medium|[Convert Doubly Linked List to Array II](https://leetcode.com/problems/convert-doubly-linked-list-to-array-ii/description/)|[Convert Doubly Linked List to Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertDoublyLinkedListToArrayII.java)|</p>
 </details>
 
