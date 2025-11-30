@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2151
+Count of solved tasks: 2152
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1955,7 +1955,8 @@ Count of solved tasks: 2151
 |3751|Medium|[Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/)|[Total Waviness of Numbers in Range I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalWavinessOfNumbersInRangeI.java)|
 |3752|Medium|[Lexicographically Smallest Negated Permutation that Sums to Target](https://leetcode.com/problems/lexicographically-smallest-negated-permutation-that-sums-to-target/description/)|[Lexicographically Smallest Negated Permutation that Sums to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestNegatedPermutationThatSumsToTarget.java)|
 |3754|Easy|[Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/description/)|[Concatenate Non-Zero Digits and Multiply by Sum I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenateNonZeroDigitsAndMultiplyBySumI.java)|
-|3755|Medium|[Find Maximum Balanced XOR Subarray Length](https://leetcode.com/problems/find-maximum-balanced-xor-subarray-length/description/)|[Find Maximum Balanced XOR Subarray Length.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMaximumBalancedXORSubarrayLength.java)|</p>
+|3755|Medium|[Find Maximum Balanced XOR Subarray Length](https://leetcode.com/problems/find-maximum-balanced-xor-subarray-length/description/)|[Find Maximum Balanced XOR Subarray Length.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMaximumBalancedXORSubarrayLength.java)|
+|3759|Medium|[Count Elements With at Least K Greater Values](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/description/)|[Count Elements With at Least K Greater Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountElementsWithAtLeastKGreaterValues.java)|</p>
 </details>
 
 <details>
@@ -3402,7 +3403,8 @@ Count of solved tasks: 2151
 |3747|Medium|[Count Distinct Integers After Removing Zeros](https://leetcode.com/problems/count-distinct-integers-after-removing-zeros/description/)|[Count Distinct Integers After Removing Zeros.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDistinctIntegersAfterRemovingZeros.java)|
 |3751|Medium|[Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/)|[Total Waviness of Numbers in Range I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TotalWavinessOfNumbersInRangeI.java)|
 |3752|Medium|[Lexicographically Smallest Negated Permutation that Sums to Target](https://leetcode.com/problems/lexicographically-smallest-negated-permutation-that-sums-to-target/description/)|[Lexicographically Smallest Negated Permutation that Sums to Target.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LexicographicallySmallestNegatedPermutationThatSumsToTarget.java)|
-|3755|Medium|[Find Maximum Balanced XOR Subarray Length](https://leetcode.com/problems/find-maximum-balanced-xor-subarray-length/description/)|[Find Maximum Balanced XOR Subarray Length.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMaximumBalancedXORSubarrayLength.java)|</p>
+|3755|Medium|[Find Maximum Balanced XOR Subarray Length](https://leetcode.com/problems/find-maximum-balanced-xor-subarray-length/description/)|[Find Maximum Balanced XOR Subarray Length.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMaximumBalancedXORSubarrayLength.java)|
+|3759|Medium|[Count Elements With at Least K Greater Values](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/description/)|[Count Elements With at Least K Greater Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountElementsWithAtLeastKGreaterValues.java)|</p>
 </details>
 
 <details>
