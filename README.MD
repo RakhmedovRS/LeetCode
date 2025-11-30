@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2154
+Count of solved tasks: 2156
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1891,6 +1891,7 @@ Count of solved tasks: 2154
 |3493|Medium|[Properties Graph](https://leetcode.com/problems/properties-graph/description/)|[Properties Graph.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PropertiesGraph.java)|
 |3507|Easy|[Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/)|[Minimum Pair Removal to Sort Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPairRemovalToSortArrayI.java)|
 |3508|Medium|[Implement Router](https://leetcode.com/problems/implement-router/description)|[Implement Router.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ImplementRouter.java)|
+|3512|Easy|[Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/description/)|[Minimum Operations to Make Array Sum Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeArraySumDivisibleByK.java)|
 |3516|Easy|[Find Closest Person](https://leetcode.com/problems/find-closest-person/description)|[Find Closest Person.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindClosestPerson.java)|
 |3522|Medium|[Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)|[Calculate Score After Performing Instructions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateScoreAfterPerformingInstructions.java)|
 |3523|Medium|[Make Array Non-decreasing](https://leetcode.com/problems/make-array-non-decreasing/description/)|[Make Array Non-decreasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeArrayNondecreasing.java)|
@@ -2448,6 +2449,7 @@ Count of solved tasks: 2154
 |3477|Easy|[Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/)|[Fruits Into Baskets II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FruitsIntoBasketsII.java)|
 |3492|Easy|[Maximum Containers on a Ship](https://leetcode.com/problems/maximum-containers-on-a-ship/description/)|[Maximum Containers on a Ship.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumContainersOnShip.java)|
 |3507|Easy|[Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/)|[Minimum Pair Removal to Sort Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumPairRemovalToSortArrayI.java)|
+|3512|Easy|[Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/description/)|[Minimum Operations to Make Array Sum Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeArraySumDivisibleByK.java)|
 |3516|Easy|[Find Closest Person](https://leetcode.com/problems/find-closest-person/description)|[Find Closest Person.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindClosestPerson.java)|
 |3536|Easy|[Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/)|[Maximum Product of Two Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductOfTwoDigits.java)|
 |3550|Easy|[Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/description/)|[Smallest Index With Digit Sum Equal to Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestIndexWithDigitSumEqualToIndex.java)|
@@ -3742,6 +3744,7 @@ Count of solved tasks: 2154
 |3063|Easy|[Linked List Frequency](https://leetcode.com/problems/linked-list-frequency/description/)|[Linked List Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LinkedListFrequency.java)|
 |3064|Medium|[Guess the Number Using Bitwise Questions I](https://leetcode.com/problems/guess-the-number-using-bitwise-questions-i/description/)|[Guess the Number Using Bitwise Questions I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GuessTheNumberUsingBitwiseQuestionsI.java)|
 |3221|Medium|[Maximum Array Hopping Score II](https://leetcode.com/problems/maximum-array-hopping-score-ii/description/)|[Maximum Array Hopping Score II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumArrayHoppingScoreII.java)|
-|3237|Medium|[Alt and Tab Simulation](https://leetcode.com/problems/alt-and-tab-simulation/description/)|[Alt and Tab Simulation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AltAndTabSimulation.java)|</p>
+|3237|Medium|[Alt and Tab Simulation](https://leetcode.com/problems/alt-and-tab-simulation/description/)|[Alt and Tab Simulation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AltAndTabSimulation.java)|
+|3294|Medium|[Convert Doubly Linked List to Array II](https://leetcode.com/problems/convert-doubly-linked-list-to-array-ii/description/)|[Convert Doubly Linked List to Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConvertDoublyLinkedListToArrayII.java)|</p>
 </details>
 
