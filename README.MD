@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2159
+Count of solved tasks: 2160
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1961,7 +1961,8 @@ Count of solved tasks: 2159
 |3760|Medium|[Maximum Substrings With Distinct Start](https://leetcode.com/problems/maximum-substrings-with-distinct-start/description/)|[Maximum Substrings With Distinct Start.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSubstringsWithDistinctStart.java)|
 |3761|Medium|[Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/description/)|[Minimum Absolute Distance Between Mirror Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDistanceBetweenMirrorPairs.java)|
 |3765|Medium|[Complete Prime Number](https://leetcode.com/problems/complete-prime-number/description/)|[Complete Prime Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CompletePrimeNumber.java)|
-|3766|Medium|[Minimum Operations to Make Binary Palindrome](https://leetcode.com/problems/minimum-operations-to-make-binary-palindrome/description/)|[Minimum Operations to Make Binary Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryPalindrome.java)|</p>
+|3766|Medium|[Minimum Operations to Make Binary Palindrome](https://leetcode.com/problems/minimum-operations-to-make-binary-palindrome/description/)|[Minimum Operations to Make Binary Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryPalindrome.java)|
+|3767|Medium|[Maximize Points After Choosing K Tasks](https://leetcode.com/problems/maximize-points-after-choosing-k-tasks/description/)|[Maximize Points After Choosing K Tasks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizePointsAfterChoosingKTasks.java)|</p>
 </details>
 
 <details>
@@ -3414,7 +3415,8 @@ Count of solved tasks: 2159
 |3760|Medium|[Maximum Substrings With Distinct Start](https://leetcode.com/problems/maximum-substrings-with-distinct-start/description/)|[Maximum Substrings With Distinct Start.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSubstringsWithDistinctStart.java)|
 |3761|Medium|[Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/description/)|[Minimum Absolute Distance Between Mirror Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDistanceBetweenMirrorPairs.java)|
 |3765|Medium|[Complete Prime Number](https://leetcode.com/problems/complete-prime-number/description/)|[Complete Prime Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CompletePrimeNumber.java)|
-|3766|Medium|[Minimum Operations to Make Binary Palindrome](https://leetcode.com/problems/minimum-operations-to-make-binary-palindrome/description/)|[Minimum Operations to Make Binary Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryPalindrome.java)|</p>
+|3766|Medium|[Minimum Operations to Make Binary Palindrome](https://leetcode.com/problems/minimum-operations-to-make-binary-palindrome/description/)|[Minimum Operations to Make Binary Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryPalindrome.java)|
+|3767|Medium|[Maximize Points After Choosing K Tasks](https://leetcode.com/problems/maximize-points-after-choosing-k-tasks/description/)|[Maximize Points After Choosing K Tasks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizePointsAfterChoosingKTasks.java)|</p>
 </details>
 
 <details>
