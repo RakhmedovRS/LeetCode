@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2157
+Count of solved tasks: 2158
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1959,7 +1959,8 @@ Count of solved tasks: 2157
 |3755|Medium|[Find Maximum Balanced XOR Subarray Length](https://leetcode.com/problems/find-maximum-balanced-xor-subarray-length/description/)|[Find Maximum Balanced XOR Subarray Length.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMaximumBalancedXORSubarrayLength.java)|
 |3759|Medium|[Count Elements With at Least K Greater Values](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/description/)|[Count Elements With at Least K Greater Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountElementsWithAtLeastKGreaterValues.java)|
 |3760|Medium|[Maximum Substrings With Distinct Start](https://leetcode.com/problems/maximum-substrings-with-distinct-start/description/)|[Maximum Substrings With Distinct Start.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSubstringsWithDistinctStart.java)|
-|3761|Medium|[Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/description/)|[Minimum Absolute Distance Between Mirror Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDistanceBetweenMirrorPairs.java)|</p>
+|3761|Medium|[Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/description/)|[Minimum Absolute Distance Between Mirror Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDistanceBetweenMirrorPairs.java)|
+|3765|Medium|[Complete Prime Number](https://leetcode.com/problems/complete-prime-number/description/)|[Complete Prime Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CompletePrimeNumber.java)|</p>
 </details>
 
 <details>
@@ -3410,7 +3411,8 @@ Count of solved tasks: 2157
 |3755|Medium|[Find Maximum Balanced XOR Subarray Length](https://leetcode.com/problems/find-maximum-balanced-xor-subarray-length/description/)|[Find Maximum Balanced XOR Subarray Length.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindMaximumBalancedXORSubarrayLength.java)|
 |3759|Medium|[Count Elements With at Least K Greater Values](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/description/)|[Count Elements With at Least K Greater Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountElementsWithAtLeastKGreaterValues.java)|
 |3760|Medium|[Maximum Substrings With Distinct Start](https://leetcode.com/problems/maximum-substrings-with-distinct-start/description/)|[Maximum Substrings With Distinct Start.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumSubstringsWithDistinctStart.java)|
-|3761|Medium|[Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/description/)|[Minimum Absolute Distance Between Mirror Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDistanceBetweenMirrorPairs.java)|</p>
+|3761|Medium|[Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/description/)|[Minimum Absolute Distance Between Mirror Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDistanceBetweenMirrorPairs.java)|
+|3765|Medium|[Complete Prime Number](https://leetcode.com/problems/complete-prime-number/description/)|[Complete Prime Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CompletePrimeNumber.java)|</p>
 </details>
 
 <details>
