@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2156
+Count of solved tasks: 2157
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -3739,6 +3739,7 @@ Count of solved tasks: 2156
 |1868|Medium|[Product of Two Run-Length Encoded Arrays](https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/)|[Product of Two Run-Length Encoded Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ProductOfTwoRunLengthEncodedArrays.java)|
 |1874|Medium|[Minimize Product Sum of Two Arrays](https://leetcode.com/problems/minimize-product-sum-of-two-arrays/)|[Minimize Product Sum of Two Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeProductSumOfTwoArrays.java)|
 |1902|Medium|[Depth of BST Given Insertion Order](https://leetcode.com/problems/depth-of-bst-given-insertion-order/)|[Depth of BST Given Insertion Order.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DepthOfBSTGivenInsertionOrder.java)|
+|1940|Medium|[Longest Common Subsequence Between Sorted Arrays](https://leetcode.com/problems/longest-common-subsequence-between-sorted-arrays/description/)|[Longest Common Subsequence Between Sorted Arrays.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestCommonSubsequenceBetweenSortedArrays.java)|
 |2046|Medium|[Sort Linked List Already Sorted Using Absolute Values](https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values/)|[Sort Linked List Already Sorted Using Absolute Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortLinkedListAlreadySortedUsingAbsoluteValues.java)|
 |2229|Easy|[Check if an Array Is Consecutive](https://leetcode.com/problems/check-if-an-array-is-consecutive/description/)|[Check if an Array Is Consecutive.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CheckIfAnArrayIsConsecutive.java)|
 |3063|Easy|[Linked List Frequency](https://leetcode.com/problems/linked-list-frequency/description/)|[Linked List Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LinkedListFrequency.java)|
