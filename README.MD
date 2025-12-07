@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2160
+Count of solved tasks: 2162
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1962,7 +1962,9 @@ Count of solved tasks: 2160
 |3761|Medium|[Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/description/)|[Minimum Absolute Distance Between Mirror Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDistanceBetweenMirrorPairs.java)|
 |3765|Medium|[Complete Prime Number](https://leetcode.com/problems/complete-prime-number/description/)|[Complete Prime Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CompletePrimeNumber.java)|
 |3766|Medium|[Minimum Operations to Make Binary Palindrome](https://leetcode.com/problems/minimum-operations-to-make-binary-palindrome/description/)|[Minimum Operations to Make Binary Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryPalindrome.java)|
-|3767|Medium|[Maximize Points After Choosing K Tasks](https://leetcode.com/problems/maximize-points-after-choosing-k-tasks/description/)|[Maximize Points After Choosing K Tasks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizePointsAfterChoosingKTasks.java)|</p>
+|3767|Medium|[Maximize Points After Choosing K Tasks](https://leetcode.com/problems/maximize-points-after-choosing-k-tasks/description/)|[Maximize Points After Choosing K Tasks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizePointsAfterChoosingKTasks.java)|
+|3769|Easy|[Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/description/)|[Sort Integers by Binary Reflection.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortIntegersByBinaryReflection.java)|
+|3770|Medium|[Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/description/)|[Largest Prime from Consecutive Prime Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPrimeFromConsecutivePrimeSum.java)|</p>
 </details>
 
 <details>
@@ -2477,7 +2479,8 @@ Count of solved tasks: 2160
 |3740|Easy|[Minimum Distance Between Three Equal Elements I](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/description/)|[Minimum Distance Between Three Equal Elements I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDistanceBetweenThreeEqualElementsI.java)|
 |3745|Easy|[Maximize Expression of Three Elements](https://leetcode.com/problems/maximize-expression-of-three-elements/description/)|[Maximize Expression of Three Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizeExpressionOfThreeElements.java)|
 |3750|Easy|[Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/description/)|[Minimum Number of Flips to Reverse Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfFlipsToReverseBinaryString.java)|
-|3754|Easy|[Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/description/)|[Concatenate Non-Zero Digits and Multiply by Sum I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenateNonZeroDigitsAndMultiplyBySumI.java)|</p>
+|3754|Easy|[Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/description/)|[Concatenate Non-Zero Digits and Multiply by Sum I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenateNonZeroDigitsAndMultiplyBySumI.java)|
+|3769|Easy|[Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/description/)|[Sort Integers by Binary Reflection.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortIntegersByBinaryReflection.java)|</p>
 </details>
 
 <details>
@@ -3416,7 +3419,8 @@ Count of solved tasks: 2160
 |3761|Medium|[Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/description/)|[Minimum Absolute Distance Between Mirror Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAbsoluteDistanceBetweenMirrorPairs.java)|
 |3765|Medium|[Complete Prime Number](https://leetcode.com/problems/complete-prime-number/description/)|[Complete Prime Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CompletePrimeNumber.java)|
 |3766|Medium|[Minimum Operations to Make Binary Palindrome](https://leetcode.com/problems/minimum-operations-to-make-binary-palindrome/description/)|[Minimum Operations to Make Binary Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryPalindrome.java)|
-|3767|Medium|[Maximize Points After Choosing K Tasks](https://leetcode.com/problems/maximize-points-after-choosing-k-tasks/description/)|[Maximize Points After Choosing K Tasks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizePointsAfterChoosingKTasks.java)|</p>
+|3767|Medium|[Maximize Points After Choosing K Tasks](https://leetcode.com/problems/maximize-points-after-choosing-k-tasks/description/)|[Maximize Points After Choosing K Tasks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizePointsAfterChoosingKTasks.java)|
+|3770|Medium|[Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/description/)|[Largest Prime from Consecutive Prime Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPrimeFromConsecutivePrimeSum.java)|</p>
 </details>
 
 <details>
