@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2164
+Count of solved tasks: 2165
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1966,7 +1966,8 @@ Count of solved tasks: 2164
 |3767|Medium|[Maximize Points After Choosing K Tasks](https://leetcode.com/problems/maximize-points-after-choosing-k-tasks/description/)|[Maximize Points After Choosing K Tasks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizePointsAfterChoosingKTasks.java)|
 |3769|Easy|[Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/description/)|[Sort Integers by Binary Reflection.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortIntegersByBinaryReflection.java)|
 |3770|Medium|[Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/description/)|[Largest Prime from Consecutive Prime Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPrimeFromConsecutivePrimeSum.java)|
-|3783|Easy|[Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/description/)|[Mirror Distance of an Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MirrorDistanceOfAnInteger.java)|</p>
+|3783|Easy|[Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/description/)|[Mirror Distance of an Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MirrorDistanceOfAnInteger.java)|
+|3784|Medium|[Minimum Deletion Cost to Make All Characters Equal](https://leetcode.com/problems/minimum-deletion-cost-to-make-all-characters-equal/description/)|[Minimum Deletion Cost to Make All Characters Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionCostToMakeAllCharactersEqual.java)|</p>
 </details>
 
 <details>
@@ -3424,7 +3425,8 @@ Count of solved tasks: 2164
 |3765|Medium|[Complete Prime Number](https://leetcode.com/problems/complete-prime-number/description/)|[Complete Prime Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CompletePrimeNumber.java)|
 |3766|Medium|[Minimum Operations to Make Binary Palindrome](https://leetcode.com/problems/minimum-operations-to-make-binary-palindrome/description/)|[Minimum Operations to Make Binary Palindrome.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeBinaryPalindrome.java)|
 |3767|Medium|[Maximize Points After Choosing K Tasks](https://leetcode.com/problems/maximize-points-after-choosing-k-tasks/description/)|[Maximize Points After Choosing K Tasks.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizePointsAfterChoosingKTasks.java)|
-|3770|Medium|[Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/description/)|[Largest Prime from Consecutive Prime Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPrimeFromConsecutivePrimeSum.java)|</p>
+|3770|Medium|[Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/description/)|[Largest Prime from Consecutive Prime Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestPrimeFromConsecutivePrimeSum.java)|
+|3784|Medium|[Minimum Deletion Cost to Make All Characters Equal](https://leetcode.com/problems/minimum-deletion-cost-to-make-all-characters-equal/description/)|[Minimum Deletion Cost to Make All Characters Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionCostToMakeAllCharactersEqual.java)|</p>
 </details>
 
 <details>
