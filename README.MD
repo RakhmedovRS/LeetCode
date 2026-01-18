@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2168
+Count of solved tasks: 2169
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1970,7 +1970,8 @@ Count of solved tasks: 2168
 |3783|Easy|[Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/description/)|[Mirror Distance of an Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MirrorDistanceOfAnInteger.java)|
 |3784|Medium|[Minimum Deletion Cost to Make All Characters Equal](https://leetcode.com/problems/minimum-deletion-cost-to-make-all-characters-equal/description/)|[Minimum Deletion Cost to Make All Characters Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionCostToMakeAllCharactersEqual.java)|
 |3809|Medium|[Best Reachable Tower](https://leetcode.com/problems/best-reachable-tower/description/)|[Best Reachable Tower.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestReachableTower.java)|
-|3810|Medium|[Minimum Operations to Reach Target Array](https://leetcode.com/problems/minimum-operations-to-reach-target-array/description/)|[Minimum Operations to Reach Target Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToReachTargetArray.java)|</p>
+|3810|Medium|[Minimum Operations to Reach Target Array](https://leetcode.com/problems/minimum-operations-to-reach-target-array/description/)|[Minimum Operations to Reach Target Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToReachTargetArray.java)|
+|3813|Easy|[Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/description/)|[Vowel-Consonant Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelConsonantScore.java)|</p>
 </details>
 
 <details>
@@ -2488,7 +2489,8 @@ Count of solved tasks: 2168
 |3750|Easy|[Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/description/)|[Minimum Number of Flips to Reverse Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumberOfFlipsToReverseBinaryString.java)|
 |3754|Easy|[Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/description/)|[Concatenate Non-Zero Digits and Multiply by Sum I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenateNonZeroDigitsAndMultiplyBySumI.java)|
 |3769|Easy|[Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/description/)|[Sort Integers by Binary Reflection.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortIntegersByBinaryReflection.java)|
-|3783|Easy|[Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/description/)|[Mirror Distance of an Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MirrorDistanceOfAnInteger.java)|</p>
+|3783|Easy|[Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/description/)|[Mirror Distance of an Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MirrorDistanceOfAnInteger.java)|
+|3813|Easy|[Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/description/)|[Vowel-Consonant Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelConsonantScore.java)|</p>
 </details>
 
 <details>
