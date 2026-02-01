@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2171
+Count of solved tasks: 2172
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1973,7 +1973,8 @@ Count of solved tasks: 2171
 |3810|Medium|[Minimum Operations to Reach Target Array](https://leetcode.com/problems/minimum-operations-to-reach-target-array/description/)|[Minimum Operations to Reach Target Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToReachTargetArray.java)|
 |3813|Easy|[Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/description/)|[Vowel-Consonant Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelConsonantScore.java)|
 |3814|Medium|[Maximum Capacity Within Budget](https://leetcode.com/problems/maximum-capacity-within-budget/description/)|[Maximum Capacity Within Budget.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumCapacityWithinBudget.java)|
-|3815|Medium|[Design Auction System](https://leetcode.com/problems/design-auction-system/description/)|[Design Auction System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignAuctionSystem.java)|</p>
+|3815|Medium|[Design Auction System](https://leetcode.com/problems/design-auction-system/description/)|[Design Auction System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignAuctionSystem.java)|
+|3827|Easy|[Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/description/)|[Count Monobit Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountMonobitIntegers.java)|</p>
 </details>
 
 <details>
@@ -2492,7 +2493,8 @@ Count of solved tasks: 2171
 |3754|Easy|[Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/description/)|[Concatenate Non-Zero Digits and Multiply by Sum I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenateNonZeroDigitsAndMultiplyBySumI.java)|
 |3769|Easy|[Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/description/)|[Sort Integers by Binary Reflection.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortIntegersByBinaryReflection.java)|
 |3783|Easy|[Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/description/)|[Mirror Distance of an Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MirrorDistanceOfAnInteger.java)|
-|3813|Easy|[Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/description/)|[Vowel-Consonant Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelConsonantScore.java)|</p>
+|3813|Easy|[Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/description/)|[Vowel-Consonant Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelConsonantScore.java)|
+|3827|Easy|[Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/description/)|[Count Monobit Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountMonobitIntegers.java)|</p>
 </details>
 
 <details>
