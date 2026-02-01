@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2172
+Count of solved tasks: 2173
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1974,7 +1974,8 @@ Count of solved tasks: 2172
 |3813|Easy|[Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/description/)|[Vowel-Consonant Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelConsonantScore.java)|
 |3814|Medium|[Maximum Capacity Within Budget](https://leetcode.com/problems/maximum-capacity-within-budget/description/)|[Maximum Capacity Within Budget.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumCapacityWithinBudget.java)|
 |3815|Medium|[Design Auction System](https://leetcode.com/problems/design-auction-system/description/)|[Design Auction System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignAuctionSystem.java)|
-|3827|Easy|[Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/description/)|[Count Monobit Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountMonobitIntegers.java)|</p>
+|3827|Easy|[Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/description/)|[Count Monobit Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountMonobitIntegers.java)|
+|3828|Medium|[Final Element After Subarray Deletions](https://leetcode.com/problems/final-element-after-subarray-deletions/description/)|[Final Element After Subarray Deletions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FinalElementAfterSubarrayDeletions.java)|</p>
 </details>
 
 <details>
@@ -3440,7 +3441,8 @@ Count of solved tasks: 2172
 |3809|Medium|[Best Reachable Tower](https://leetcode.com/problems/best-reachable-tower/description/)|[Best Reachable Tower.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/BestReachableTower.java)|
 |3810|Medium|[Minimum Operations to Reach Target Array](https://leetcode.com/problems/minimum-operations-to-reach-target-array/description/)|[Minimum Operations to Reach Target Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToReachTargetArray.java)|
 |3814|Medium|[Maximum Capacity Within Budget](https://leetcode.com/problems/maximum-capacity-within-budget/description/)|[Maximum Capacity Within Budget.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumCapacityWithinBudget.java)|
-|3815|Medium|[Design Auction System](https://leetcode.com/problems/design-auction-system/description/)|[Design Auction System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignAuctionSystem.java)|</p>
+|3815|Medium|[Design Auction System](https://leetcode.com/problems/design-auction-system/description/)|[Design Auction System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignAuctionSystem.java)|
+|3828|Medium|[Final Element After Subarray Deletions](https://leetcode.com/problems/final-element-after-subarray-deletions/description/)|[Final Element After Subarray Deletions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FinalElementAfterSubarrayDeletions.java)|</p>
 </details>
 
 <details>
