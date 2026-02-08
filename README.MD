@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2177
+Count of solved tasks: 2178
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1979,7 +1979,8 @@ Count of solved tasks: 2177
 |3829|Medium|[Design Ride Sharing System](https://leetcode.com/problems/design-ride-sharing-system/description/)|[Design Ride Sharing System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignRideSharingSystem.java)|
 |3833|Easy|[Count Dominant Indices](https://leetcode.com/problems/count-dominant-indices/description/)|[Count Dominant Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDominantIndices.java)|
 |3834|Medium|[Merge Adjacent Equal Elements](https://leetcode.com/problems/merge-adjacent-equal-elements/description/)|[Merge Adjacent Equal Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeAdjacentEqualElements.java)|
-|3835|Medium|[Count Subarrays With Cost Less Than or Equal to K](https://leetcode.com/problems/count-subarrays-with-cost-less-than-or-equal-to-k/description/)|[Count Subarrays With Cost Less Than or Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubarraysWithCostLessThanOrEqualToK.java)|</p>
+|3835|Medium|[Count Subarrays With Cost Less Than or Equal to K](https://leetcode.com/problems/count-subarrays-with-cost-less-than-or-equal-to-k/description/)|[Count Subarrays With Cost Less Than or Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubarraysWithCostLessThanOrEqualToK.java)|
+|3836|Hard|[Maximum Score Using Exactly K Pairs](https://leetcode.com/problems/maximum-score-using-exactly-k-pairs/description/)|[Maximum Score Using Exactly K Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumScoreUsingExactlyKPairs.java)|</p>
 </details>
 
 <details>
@@ -3574,7 +3575,8 @@ Count of solved tasks: 2177
 |3260|Hard|[Find the Largest Palindrome Divisible by K](https://leetcode.com/problems/find-the-largest-palindrome-divisible-by-k/description/)|[Find the Largest Palindrome Divisible by K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheLargestPalindromeDivisibleByK.java)|
 |3273|Hard|[Minimum Amount of Damage Dealt to Bob](https://leetcode.com/problems/minimum-amount-of-damage-dealt-to-bob/description/)|[Minimum Amount of Damage Dealt to Bob.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfDamageDealtToBob.java)|
 |3298|Hard|[Count Substrings That Can Be Rearranged to Contain a String II](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/description/)|[Count Substrings That Can Be Rearranged to Contain a String II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsThatCanBeRearrangedToContainStringII.java)|
-|3620|Hard|[Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/description/)|[Network Recovery Pathways.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NetworkRecoveryPathways.java)|</p>
+|3620|Hard|[Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/description/)|[Network Recovery Pathways.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NetworkRecoveryPathways.java)|
+|3836|Hard|[Maximum Score Using Exactly K Pairs](https://leetcode.com/problems/maximum-score-using-exactly-k-pairs/description/)|[Maximum Score Using Exactly K Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumScoreUsingExactlyKPairs.java)|</p>
 </details>
 
 <details>
