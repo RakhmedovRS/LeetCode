@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2174
+Count of solved tasks: 2175
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1976,7 +1976,8 @@ Count of solved tasks: 2174
 |3815|Medium|[Design Auction System](https://leetcode.com/problems/design-auction-system/description/)|[Design Auction System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignAuctionSystem.java)|
 |3827|Easy|[Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/description/)|[Count Monobit Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountMonobitIntegers.java)|
 |3828|Medium|[Final Element After Subarray Deletions](https://leetcode.com/problems/final-element-after-subarray-deletions/description/)|[Final Element After Subarray Deletions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FinalElementAfterSubarrayDeletions.java)|
-|3829|Medium|[Design Ride Sharing System](https://leetcode.com/problems/design-ride-sharing-system/description/)|[Design Ride Sharing System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignRideSharingSystem.java)|</p>
+|3829|Medium|[Design Ride Sharing System](https://leetcode.com/problems/design-ride-sharing-system/description/)|[Design Ride Sharing System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignRideSharingSystem.java)|
+|3833|Easy|[Count Dominant Indices](https://leetcode.com/problems/count-dominant-indices/description/)|[Count Dominant Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDominantIndices.java)|</p>
 </details>
 
 <details>
@@ -2496,7 +2497,8 @@ Count of solved tasks: 2174
 |3769|Easy|[Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/description/)|[Sort Integers by Binary Reflection.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortIntegersByBinaryReflection.java)|
 |3783|Easy|[Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/description/)|[Mirror Distance of an Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MirrorDistanceOfAnInteger.java)|
 |3813|Easy|[Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/description/)|[Vowel-Consonant Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelConsonantScore.java)|
-|3827|Easy|[Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/description/)|[Count Monobit Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountMonobitIntegers.java)|</p>
+|3827|Easy|[Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/description/)|[Count Monobit Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountMonobitIntegers.java)|
+|3833|Easy|[Count Dominant Indices](https://leetcode.com/problems/count-dominant-indices/description/)|[Count Dominant Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDominantIndices.java)|</p>
 </details>
 
 <details>
