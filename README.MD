@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2176
+Count of solved tasks: 2177
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1978,7 +1978,8 @@ Count of solved tasks: 2176
 |3828|Medium|[Final Element After Subarray Deletions](https://leetcode.com/problems/final-element-after-subarray-deletions/description/)|[Final Element After Subarray Deletions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FinalElementAfterSubarrayDeletions.java)|
 |3829|Medium|[Design Ride Sharing System](https://leetcode.com/problems/design-ride-sharing-system/description/)|[Design Ride Sharing System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignRideSharingSystem.java)|
 |3833|Easy|[Count Dominant Indices](https://leetcode.com/problems/count-dominant-indices/description/)|[Count Dominant Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDominantIndices.java)|
-|3834|Medium|[Merge Adjacent Equal Elements](https://leetcode.com/problems/merge-adjacent-equal-elements/description/)|[Merge Adjacent Equal Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeAdjacentEqualElements.java)|</p>
+|3834|Medium|[Merge Adjacent Equal Elements](https://leetcode.com/problems/merge-adjacent-equal-elements/description/)|[Merge Adjacent Equal Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeAdjacentEqualElements.java)|
+|3835|Medium|[Count Subarrays With Cost Less Than or Equal to K](https://leetcode.com/problems/count-subarrays-with-cost-less-than-or-equal-to-k/description/)|[Count Subarrays With Cost Less Than or Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubarraysWithCostLessThanOrEqualToK.java)|</p>
 </details>
 
 <details>
@@ -3448,7 +3449,8 @@ Count of solved tasks: 2176
 |3815|Medium|[Design Auction System](https://leetcode.com/problems/design-auction-system/description/)|[Design Auction System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignAuctionSystem.java)|
 |3828|Medium|[Final Element After Subarray Deletions](https://leetcode.com/problems/final-element-after-subarray-deletions/description/)|[Final Element After Subarray Deletions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FinalElementAfterSubarrayDeletions.java)|
 |3829|Medium|[Design Ride Sharing System](https://leetcode.com/problems/design-ride-sharing-system/description/)|[Design Ride Sharing System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignRideSharingSystem.java)|
-|3834|Medium|[Merge Adjacent Equal Elements](https://leetcode.com/problems/merge-adjacent-equal-elements/description/)|[Merge Adjacent Equal Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeAdjacentEqualElements.java)|</p>
+|3834|Medium|[Merge Adjacent Equal Elements](https://leetcode.com/problems/merge-adjacent-equal-elements/description/)|[Merge Adjacent Equal Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeAdjacentEqualElements.java)|
+|3835|Medium|[Count Subarrays With Cost Less Than or Equal to K](https://leetcode.com/problems/count-subarrays-with-cost-less-than-or-equal-to-k/description/)|[Count Subarrays With Cost Less Than or Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubarraysWithCostLessThanOrEqualToK.java)|</p>
 </details>
 
 <details>
