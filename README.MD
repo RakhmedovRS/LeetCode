@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2178
+Count of solved tasks: 2179
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1980,7 +1980,8 @@ Count of solved tasks: 2178
 |3833|Easy|[Count Dominant Indices](https://leetcode.com/problems/count-dominant-indices/description/)|[Count Dominant Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDominantIndices.java)|
 |3834|Medium|[Merge Adjacent Equal Elements](https://leetcode.com/problems/merge-adjacent-equal-elements/description/)|[Merge Adjacent Equal Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeAdjacentEqualElements.java)|
 |3835|Medium|[Count Subarrays With Cost Less Than or Equal to K](https://leetcode.com/problems/count-subarrays-with-cost-less-than-or-equal-to-k/description/)|[Count Subarrays With Cost Less Than or Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubarraysWithCostLessThanOrEqualToK.java)|
-|3836|Hard|[Maximum Score Using Exactly K Pairs](https://leetcode.com/problems/maximum-score-using-exactly-k-pairs/description/)|[Maximum Score Using Exactly K Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumScoreUsingExactlyKPairs.java)|</p>
+|3836|Hard|[Maximum Score Using Exactly K Pairs](https://leetcode.com/problems/maximum-score-using-exactly-k-pairs/description/)|[Maximum Score Using Exactly K Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumScoreUsingExactlyKPairs.java)|
+|3842|Easy|[Toggle Light Bulbs](https://leetcode.com/problems/toggle-light-bulbs/description/)|[Toggle Light Bulbs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ToggleLightBulbs.java)|</p>
 </details>
 
 <details>
@@ -2501,7 +2502,8 @@ Count of solved tasks: 2178
 |3783|Easy|[Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/description/)|[Mirror Distance of an Integer.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MirrorDistanceOfAnInteger.java)|
 |3813|Easy|[Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/description/)|[Vowel-Consonant Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/VowelConsonantScore.java)|
 |3827|Easy|[Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/description/)|[Count Monobit Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountMonobitIntegers.java)|
-|3833|Easy|[Count Dominant Indices](https://leetcode.com/problems/count-dominant-indices/description/)|[Count Dominant Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDominantIndices.java)|</p>
+|3833|Easy|[Count Dominant Indices](https://leetcode.com/problems/count-dominant-indices/description/)|[Count Dominant Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDominantIndices.java)|
+|3842|Easy|[Toggle Light Bulbs](https://leetcode.com/problems/toggle-light-bulbs/description/)|[Toggle Light Bulbs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ToggleLightBulbs.java)|</p>
 </details>
 
 <details>
