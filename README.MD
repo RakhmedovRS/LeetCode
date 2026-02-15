@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2179
+Count of solved tasks: 2180
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1981,7 +1981,8 @@ Count of solved tasks: 2179
 |3834|Medium|[Merge Adjacent Equal Elements](https://leetcode.com/problems/merge-adjacent-equal-elements/description/)|[Merge Adjacent Equal Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeAdjacentEqualElements.java)|
 |3835|Medium|[Count Subarrays With Cost Less Than or Equal to K](https://leetcode.com/problems/count-subarrays-with-cost-less-than-or-equal-to-k/description/)|[Count Subarrays With Cost Less Than or Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubarraysWithCostLessThanOrEqualToK.java)|
 |3836|Hard|[Maximum Score Using Exactly K Pairs](https://leetcode.com/problems/maximum-score-using-exactly-k-pairs/description/)|[Maximum Score Using Exactly K Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumScoreUsingExactlyKPairs.java)|
-|3842|Easy|[Toggle Light Bulbs](https://leetcode.com/problems/toggle-light-bulbs/description/)|[Toggle Light Bulbs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ToggleLightBulbs.java)|</p>
+|3842|Easy|[Toggle Light Bulbs](https://leetcode.com/problems/toggle-light-bulbs/description/)|[Toggle Light Bulbs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ToggleLightBulbs.java)|
+|3843|Medium|[First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/description/)|[First Element with Unique Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstElementWithUniqueFrequency.java)|</p>
 </details>
 
 <details>
@@ -3453,7 +3454,8 @@ Count of solved tasks: 2179
 |3828|Medium|[Final Element After Subarray Deletions](https://leetcode.com/problems/final-element-after-subarray-deletions/description/)|[Final Element After Subarray Deletions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FinalElementAfterSubarrayDeletions.java)|
 |3829|Medium|[Design Ride Sharing System](https://leetcode.com/problems/design-ride-sharing-system/description/)|[Design Ride Sharing System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignRideSharingSystem.java)|
 |3834|Medium|[Merge Adjacent Equal Elements](https://leetcode.com/problems/merge-adjacent-equal-elements/description/)|[Merge Adjacent Equal Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MergeAdjacentEqualElements.java)|
-|3835|Medium|[Count Subarrays With Cost Less Than or Equal to K](https://leetcode.com/problems/count-subarrays-with-cost-less-than-or-equal-to-k/description/)|[Count Subarrays With Cost Less Than or Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubarraysWithCostLessThanOrEqualToK.java)|</p>
+|3835|Medium|[Count Subarrays With Cost Less Than or Equal to K](https://leetcode.com/problems/count-subarrays-with-cost-less-than-or-equal-to-k/description/)|[Count Subarrays With Cost Less Than or Equal to K.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubarraysWithCostLessThanOrEqualToK.java)|
+|3843|Medium|[First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/description/)|[First Element with Unique Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstElementWithUniqueFrequency.java)|</p>
 </details>
 
 <details>
