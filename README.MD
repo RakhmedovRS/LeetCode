@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2183
+Count of solved tasks: 2184
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -979,6 +979,7 @@ Count of solved tasks: 2183
 |1530|Undefined|[Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)|[Number of Good Leaf Nodes Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfGoodLeafNodesPairs.java)|
 |1534|Undefined|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|[Count Good Triplets.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountGoodTriplets.java)|
 |1535|Undefined|[Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game/)|[Find the Winner of an Array Game.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheWinnerOfArrayGame.java)|
+|1536|Medium|[Minimum Swaps to Arrange a Binary Grid](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/description/)|[Minimum Swaps to Arrange a Binary Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSwapsToArrangeBinaryGrid.java)|
 |1537|Undefined|[Get the Maximum Score](https://leetcode.com/problems/get-the-maximum-score/)|[Get the Maximum Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GetTheMaximumScore.java)|
 |1539|Easy|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|[Kth Missing Positive Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/KthMissingPositiveNumber.java)|
 |1540|Medium|[Can Convert String in K Moves](https://leetcode.com/problems/can-convert-string-in-k-moves/)|[Can Convert String in K Moves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CanConvertStringInKMoves.java)|
@@ -2893,6 +2894,7 @@ Count of solved tasks: 2183
 |1492|Medium|[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[The kth Factor of n.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TheKthFactorOfN.java)|
 |1493|Medium|[Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)|[Longest Subarray of 1's After Deleting One Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubarrayOfOnesAfterDeletingOneElement.java)|
 |1513|Medium|[Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)|[Number of Substrings With Only 1s.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfSubstringsWithOnly1s.java)|
+|1536|Medium|[Minimum Swaps to Arrange a Binary Grid](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/description/)|[Minimum Swaps to Arrange a Binary Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSwapsToArrangeBinaryGrid.java)|
 |1540|Medium|[Can Convert String in K Moves](https://leetcode.com/problems/can-convert-string-in-k-moves/)|[Can Convert String in K Moves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CanConvertStringInKMoves.java)|
 |1551|Medium|[Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|[Minimum Operations to Make Array Equal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeArrayEqual.java)|
 |1558|Medium|[Minimum Numbers of Function Calls to Make Target Array](https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/)|[Minimum Numbers of Function Calls to Make Target Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumNumbersOfFunctionCallsToMakeTargetArray.java)|
