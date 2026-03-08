@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2186
+Count of solved tasks: 2187
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1988,7 +1988,8 @@ Count of solved tasks: 2186
 |3857|Medium|[Minimum Cost to Split into Ones](https://leetcode.com/problems/minimum-cost-to-split-into-ones/description/)|[Minimum Cost to Split into Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToSplitIntoOnes.java)|
 |3858|Medium|[Minimum Bitwise OR From Grid](https://leetcode.com/problems/minimum-bitwise-or-from-grid/description/)|[Minimum Bitwise OR From Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumBitwiseORFromGrid.java)|
 |3861|Easy|[Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/description/)|[Minimum Capacity Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCapacityBox.java)|
-|3862|Medium|[Find the Smallest Balanced Index](https://leetcode.com/problems/find-the-smallest-balanced-index/description/)|[Find the Smallest Balanced Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheSmallestBalancedIndex.java)|</p>
+|3862|Medium|[Find the Smallest Balanced Index](https://leetcode.com/problems/find-the-smallest-balanced-index/description/)|[Find the Smallest Balanced Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheSmallestBalancedIndex.java)|
+|3863|Medium|[Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/description/)|[Minimum Operations to Sort a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToSortString.java)|</p>
 </details>
 
 <details>
@@ -3467,7 +3468,8 @@ Count of solved tasks: 2186
 |3843|Medium|[First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/description/)|[First Element with Unique Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstElementWithUniqueFrequency.java)|
 |3857|Medium|[Minimum Cost to Split into Ones](https://leetcode.com/problems/minimum-cost-to-split-into-ones/description/)|[Minimum Cost to Split into Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToSplitIntoOnes.java)|
 |3858|Medium|[Minimum Bitwise OR From Grid](https://leetcode.com/problems/minimum-bitwise-or-from-grid/description/)|[Minimum Bitwise OR From Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumBitwiseORFromGrid.java)|
-|3862|Medium|[Find the Smallest Balanced Index](https://leetcode.com/problems/find-the-smallest-balanced-index/description/)|[Find the Smallest Balanced Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheSmallestBalancedIndex.java)|</p>
+|3862|Medium|[Find the Smallest Balanced Index](https://leetcode.com/problems/find-the-smallest-balanced-index/description/)|[Find the Smallest Balanced Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheSmallestBalancedIndex.java)|
+|3863|Medium|[Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/description/)|[Minimum Operations to Sort a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToSortString.java)|</p>
 </details>
 
 <details>
