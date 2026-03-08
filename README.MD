@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2187
+Count of solved tasks: 2188
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1989,7 +1989,8 @@ Count of solved tasks: 2187
 |3858|Medium|[Minimum Bitwise OR From Grid](https://leetcode.com/problems/minimum-bitwise-or-from-grid/description/)|[Minimum Bitwise OR From Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumBitwiseORFromGrid.java)|
 |3861|Easy|[Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/description/)|[Minimum Capacity Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCapacityBox.java)|
 |3862|Medium|[Find the Smallest Balanced Index](https://leetcode.com/problems/find-the-smallest-balanced-index/description/)|[Find the Smallest Balanced Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheSmallestBalancedIndex.java)|
-|3863|Medium|[Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/description/)|[Minimum Operations to Sort a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToSortString.java)|</p>
+|3863|Medium|[Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/description/)|[Minimum Operations to Sort a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToSortString.java)|
+|3864|Hard|[Minimum Cost to Partition a Binary String](https://leetcode.com/problems/minimum-cost-to-partition-a-binary-string/description/)|[Minimum Cost to Partition a Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToPartitionBinaryString.java)|</p>
 </details>
 
 <details>
@@ -3594,7 +3595,8 @@ Count of solved tasks: 2187
 |3273|Hard|[Minimum Amount of Damage Dealt to Bob](https://leetcode.com/problems/minimum-amount-of-damage-dealt-to-bob/description/)|[Minimum Amount of Damage Dealt to Bob.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumAmountOfDamageDealtToBob.java)|
 |3298|Hard|[Count Substrings That Can Be Rearranged to Contain a String II](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/description/)|[Count Substrings That Can Be Rearranged to Contain a String II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsThatCanBeRearrangedToContainStringII.java)|
 |3620|Hard|[Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/description/)|[Network Recovery Pathways.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NetworkRecoveryPathways.java)|
-|3836|Hard|[Maximum Score Using Exactly K Pairs](https://leetcode.com/problems/maximum-score-using-exactly-k-pairs/description/)|[Maximum Score Using Exactly K Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumScoreUsingExactlyKPairs.java)|</p>
+|3836|Hard|[Maximum Score Using Exactly K Pairs](https://leetcode.com/problems/maximum-score-using-exactly-k-pairs/description/)|[Maximum Score Using Exactly K Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumScoreUsingExactlyKPairs.java)|
+|3864|Hard|[Minimum Cost to Partition a Binary String](https://leetcode.com/problems/minimum-cost-to-partition-a-binary-string/description/)|[Minimum Cost to Partition a Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToPartitionBinaryString.java)|</p>
 </details>
 
 <details>
