@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2184
+Count of solved tasks: 2185
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1986,7 +1986,8 @@ Count of solved tasks: 2184
 |3843|Medium|[First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/description/)|[First Element with Unique Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstElementWithUniqueFrequency.java)|
 |3856|Easy|[Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/description/)|[Trim Trailing Vowels.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TrimTrailingVowels.java)|
 |3857|Medium|[Minimum Cost to Split into Ones](https://leetcode.com/problems/minimum-cost-to-split-into-ones/description/)|[Minimum Cost to Split into Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToSplitIntoOnes.java)|
-|3858|Medium|[Minimum Bitwise OR From Grid](https://leetcode.com/problems/minimum-bitwise-or-from-grid/description/)|[Minimum Bitwise OR From Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumBitwiseORFromGrid.java)|</p>
+|3858|Medium|[Minimum Bitwise OR From Grid](https://leetcode.com/problems/minimum-bitwise-or-from-grid/description/)|[Minimum Bitwise OR From Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumBitwiseORFromGrid.java)|
+|3861|Easy|[Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/description/)|[Minimum Capacity Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCapacityBox.java)|</p>
 </details>
 
 <details>
@@ -2509,7 +2510,8 @@ Count of solved tasks: 2184
 |3827|Easy|[Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/description/)|[Count Monobit Integers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountMonobitIntegers.java)|
 |3833|Easy|[Count Dominant Indices](https://leetcode.com/problems/count-dominant-indices/description/)|[Count Dominant Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDominantIndices.java)|
 |3842|Easy|[Toggle Light Bulbs](https://leetcode.com/problems/toggle-light-bulbs/description/)|[Toggle Light Bulbs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ToggleLightBulbs.java)|
-|3856|Easy|[Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/description/)|[Trim Trailing Vowels.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TrimTrailingVowels.java)|</p>
+|3856|Easy|[Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/description/)|[Trim Trailing Vowels.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TrimTrailingVowels.java)|
+|3861|Easy|[Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/description/)|[Minimum Capacity Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCapacityBox.java)|</p>
 </details>
 
 <details>
