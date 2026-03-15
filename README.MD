@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2188
+Count of solved tasks: 2189
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1990,7 +1990,8 @@ Count of solved tasks: 2188
 |3861|Easy|[Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/description/)|[Minimum Capacity Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCapacityBox.java)|
 |3862|Medium|[Find the Smallest Balanced Index](https://leetcode.com/problems/find-the-smallest-balanced-index/description/)|[Find the Smallest Balanced Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheSmallestBalancedIndex.java)|
 |3863|Medium|[Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/description/)|[Minimum Operations to Sort a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToSortString.java)|
-|3864|Hard|[Minimum Cost to Partition a Binary String](https://leetcode.com/problems/minimum-cost-to-partition-a-binary-string/description/)|[Minimum Cost to Partition a Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToPartitionBinaryString.java)|</p>
+|3864|Hard|[Minimum Cost to Partition a Binary String](https://leetcode.com/problems/minimum-cost-to-partition-a-binary-string/description/)|[Minimum Cost to Partition a Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToPartitionBinaryString.java)|
+|3866|Easy|[First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/description/)|[First Unique Even Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstUniqueEvenElement.java)|</p>
 </details>
 
 <details>
@@ -2514,7 +2515,8 @@ Count of solved tasks: 2188
 |3833|Easy|[Count Dominant Indices](https://leetcode.com/problems/count-dominant-indices/description/)|[Count Dominant Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDominantIndices.java)|
 |3842|Easy|[Toggle Light Bulbs](https://leetcode.com/problems/toggle-light-bulbs/description/)|[Toggle Light Bulbs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ToggleLightBulbs.java)|
 |3856|Easy|[Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/description/)|[Trim Trailing Vowels.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TrimTrailingVowels.java)|
-|3861|Easy|[Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/description/)|[Minimum Capacity Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCapacityBox.java)|</p>
+|3861|Easy|[Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/description/)|[Minimum Capacity Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCapacityBox.java)|
+|3866|Easy|[First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/description/)|[First Unique Even Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstUniqueEvenElement.java)|</p>
 </details>
 
 <details>
