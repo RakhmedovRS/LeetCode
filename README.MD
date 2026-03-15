@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2189
+Count of solved tasks: 2190
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1991,7 +1991,8 @@ Count of solved tasks: 2189
 |3862|Medium|[Find the Smallest Balanced Index](https://leetcode.com/problems/find-the-smallest-balanced-index/description/)|[Find the Smallest Balanced Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheSmallestBalancedIndex.java)|
 |3863|Medium|[Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/description/)|[Minimum Operations to Sort a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToSortString.java)|
 |3864|Hard|[Minimum Cost to Partition a Binary String](https://leetcode.com/problems/minimum-cost-to-partition-a-binary-string/description/)|[Minimum Cost to Partition a Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToPartitionBinaryString.java)|
-|3866|Easy|[First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/description/)|[First Unique Even Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstUniqueEvenElement.java)|</p>
+|3866|Easy|[First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/description/)|[First Unique Even Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstUniqueEvenElement.java)|
+|3867|Medium|[Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/description/)|[Sum of GCD of Formed Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfGCDOfFormedPairs.java)|</p>
 </details>
 
 <details>
@@ -3472,7 +3473,8 @@ Count of solved tasks: 2189
 |3857|Medium|[Minimum Cost to Split into Ones](https://leetcode.com/problems/minimum-cost-to-split-into-ones/description/)|[Minimum Cost to Split into Ones.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToSplitIntoOnes.java)|
 |3858|Medium|[Minimum Bitwise OR From Grid](https://leetcode.com/problems/minimum-bitwise-or-from-grid/description/)|[Minimum Bitwise OR From Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumBitwiseORFromGrid.java)|
 |3862|Medium|[Find the Smallest Balanced Index](https://leetcode.com/problems/find-the-smallest-balanced-index/description/)|[Find the Smallest Balanced Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheSmallestBalancedIndex.java)|
-|3863|Medium|[Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/description/)|[Minimum Operations to Sort a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToSortString.java)|</p>
+|3863|Medium|[Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/description/)|[Minimum Operations to Sort a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToSortString.java)|
+|3867|Medium|[Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/description/)|[Sum of GCD of Formed Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfGCDOfFormedPairs.java)|</p>
 </details>
 
 <details>
