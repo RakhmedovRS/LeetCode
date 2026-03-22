@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2193
+Count of solved tasks: 2194
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1995,7 +1995,8 @@ Count of solved tasks: 2193
 |3866|Easy|[First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/description/)|[First Unique Even Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstUniqueEvenElement.java)|
 |3867|Medium|[Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/description/)|[Sum of GCD of Formed Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfGCDOfFormedPairs.java)|
 |3868|Medium|[Minimum Cost to Equalize Arrays Using Swaps](https://leetcode.com/problems/minimum-cost-to-equalize-arrays-using-swaps/description/)|[Minimum Cost to Equalize Arrays Using Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToEqualizeArraysUsingSwaps.java)|
-|3875|Easy|[Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/description/)|[Construct Uniform Parity Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructUniformParityArrayI.java)|</p>
+|3875|Easy|[Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/description/)|[Construct Uniform Parity Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructUniformParityArrayI.java)|
+|3876|Medium|[Construct Uniform Parity Array II](https://leetcode.com/problems/construct-uniform-parity-array-ii/description/)|[Construct Uniform Parity Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructUniformParityArrayII.java)|</p>
 </details>
 
 <details>
@@ -3480,7 +3481,8 @@ Count of solved tasks: 2193
 |3862|Medium|[Find the Smallest Balanced Index](https://leetcode.com/problems/find-the-smallest-balanced-index/description/)|[Find the Smallest Balanced Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FindTheSmallestBalancedIndex.java)|
 |3863|Medium|[Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/description/)|[Minimum Operations to Sort a String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToSortString.java)|
 |3867|Medium|[Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/description/)|[Sum of GCD of Formed Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfGCDOfFormedPairs.java)|
-|3868|Medium|[Minimum Cost to Equalize Arrays Using Swaps](https://leetcode.com/problems/minimum-cost-to-equalize-arrays-using-swaps/description/)|[Minimum Cost to Equalize Arrays Using Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToEqualizeArraysUsingSwaps.java)|</p>
+|3868|Medium|[Minimum Cost to Equalize Arrays Using Swaps](https://leetcode.com/problems/minimum-cost-to-equalize-arrays-using-swaps/description/)|[Minimum Cost to Equalize Arrays Using Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToEqualizeArraysUsingSwaps.java)|
+|3876|Medium|[Construct Uniform Parity Array II](https://leetcode.com/problems/construct-uniform-parity-array-ii/description/)|[Construct Uniform Parity Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructUniformParityArrayII.java)|</p>
 </details>
 
 <details>
