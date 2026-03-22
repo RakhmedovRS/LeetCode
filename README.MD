@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2192
+Count of solved tasks: 2193
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1994,7 +1994,8 @@ Count of solved tasks: 2192
 |3864|Hard|[Minimum Cost to Partition a Binary String](https://leetcode.com/problems/minimum-cost-to-partition-a-binary-string/description/)|[Minimum Cost to Partition a Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToPartitionBinaryString.java)|
 |3866|Easy|[First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/description/)|[First Unique Even Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstUniqueEvenElement.java)|
 |3867|Medium|[Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/description/)|[Sum of GCD of Formed Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfGCDOfFormedPairs.java)|
-|3868|Medium|[Minimum Cost to Equalize Arrays Using Swaps](https://leetcode.com/problems/minimum-cost-to-equalize-arrays-using-swaps/description/)|[Minimum Cost to Equalize Arrays Using Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToEqualizeArraysUsingSwaps.java)|</p>
+|3868|Medium|[Minimum Cost to Equalize Arrays Using Swaps](https://leetcode.com/problems/minimum-cost-to-equalize-arrays-using-swaps/description/)|[Minimum Cost to Equalize Arrays Using Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToEqualizeArraysUsingSwaps.java)|
+|3875|Easy|[Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/description/)|[Construct Uniform Parity Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructUniformParityArrayI.java)|</p>
 </details>
 
 <details>
@@ -2520,7 +2521,8 @@ Count of solved tasks: 2192
 |3842|Easy|[Toggle Light Bulbs](https://leetcode.com/problems/toggle-light-bulbs/description/)|[Toggle Light Bulbs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ToggleLightBulbs.java)|
 |3856|Easy|[Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/description/)|[Trim Trailing Vowels.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TrimTrailingVowels.java)|
 |3861|Easy|[Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/description/)|[Minimum Capacity Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCapacityBox.java)|
-|3866|Easy|[First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/description/)|[First Unique Even Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstUniqueEvenElement.java)|</p>
+|3866|Easy|[First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/description/)|[First Unique Even Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstUniqueEvenElement.java)|
+|3875|Easy|[Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/description/)|[Construct Uniform Parity Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructUniformParityArrayI.java)|</p>
 </details>
 
 <details>
