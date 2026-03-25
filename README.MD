@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2195
+Count of solved tasks: 2196
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1899,6 +1899,7 @@ Count of solved tasks: 2195
 |3523|Medium|[Make Array Non-decreasing](https://leetcode.com/problems/make-array-non-decreasing/description/)|[Make Array Non-decreasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeArrayNondecreasing.java)|
 |3536|Easy|[Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/)|[Maximum Product of Two Digits.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumProductOfTwoDigits.java)|
 |3537|Medium|[Fill a Special Grid](https://leetcode.com/problems/fill-a-special-grid/description/)|[Fill a Special Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FillSpecialGrid.java)|
+|3546|Medium|[Equal Sum Grid Partition I](https://leetcode.com/problems/equal-sum-grid-partition-i/description/)|[Equal Sum Grid Partition I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EqualSumGridPartitionI.java)|
 |3550|Easy|[Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/description/)|[Smallest Index With Digit Sum Equal to Index.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SmallestIndexWithDigitSumEqualToIndex.java)|
 |3551|Medium|[Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/description/)|[Minimum Swaps to Sort by Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSwapsToSortByDigitSum.java)|
 |3552|Medium|[Grid Teleportation Traversal](https://leetcode.com/problems/grid-teleportation-traversal/description/)|[Grid Teleportation Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GridTeleportationTraversal.java)|
@@ -3424,6 +3425,7 @@ Count of solved tasks: 2195
 |3522|Medium|[Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)|[Calculate Score After Performing Instructions.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CalculateScoreAfterPerformingInstructions.java)|
 |3523|Medium|[Make Array Non-decreasing](https://leetcode.com/problems/make-array-non-decreasing/description/)|[Make Array Non-decreasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MakeArrayNondecreasing.java)|
 |3537|Medium|[Fill a Special Grid](https://leetcode.com/problems/fill-a-special-grid/description/)|[Fill a Special Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FillSpecialGrid.java)|
+|3546|Medium|[Equal Sum Grid Partition I](https://leetcode.com/problems/equal-sum-grid-partition-i/description/)|[Equal Sum Grid Partition I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EqualSumGridPartitionI.java)|
 |3551|Medium|[Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/description/)|[Minimum Swaps to Sort by Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumSwapsToSortByDigitSum.java)|
 |3552|Medium|[Grid Teleportation Traversal](https://leetcode.com/problems/grid-teleportation-traversal/description/)|[Grid Teleportation Traversal.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/GridTeleportationTraversal.java)|
 |3561|Medium|[Resulting String After Adjacent Removals](https://leetcode.com/problems/resulting-string-after-adjacent-removals/description/)|[Resulting String After Adjacent Removals.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ResultingStringAfterAdjacentRemovals.java)|
