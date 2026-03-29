@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2196
+Count of solved tasks: 2197
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -1999,6 +1999,7 @@ Count of solved tasks: 2196
 |3875|Easy|[Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/description/)|[Construct Uniform Parity Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructUniformParityArrayI.java)|
 |3876|Medium|[Construct Uniform Parity Array II](https://leetcode.com/problems/construct-uniform-parity-array-ii/description/)|[Construct Uniform Parity Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructUniformParityArrayII.java)|
 |3884|Easy|[First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/)|[First Matching Character From Both Ends.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstMatchingCharacterFromBothEnds.java)|
+|3885|Medium|[Design Event Manager](https://leetcode.com/problems/design-event-manager/description/)|[Design Event Manager.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignEventManager.java)|
 |3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|</p>
 </details>
 
@@ -3488,6 +3489,7 @@ Count of solved tasks: 2196
 |3867|Medium|[Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/description/)|[Sum of GCD of Formed Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfGCDOfFormedPairs.java)|
 |3868|Medium|[Minimum Cost to Equalize Arrays Using Swaps](https://leetcode.com/problems/minimum-cost-to-equalize-arrays-using-swaps/description/)|[Minimum Cost to Equalize Arrays Using Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToEqualizeArraysUsingSwaps.java)|
 |3876|Medium|[Construct Uniform Parity Array II](https://leetcode.com/problems/construct-uniform-parity-array-ii/description/)|[Construct Uniform Parity Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructUniformParityArrayII.java)|
+|3885|Medium|[Design Event Manager](https://leetcode.com/problems/design-event-manager/description/)|[Design Event Manager.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignEventManager.java)|
 |3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|</p>
 </details>
 
