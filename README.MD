@@ -1998,6 +1998,7 @@ Count of solved tasks: 2196
 |3868|Medium|[Minimum Cost to Equalize Arrays Using Swaps](https://leetcode.com/problems/minimum-cost-to-equalize-arrays-using-swaps/description/)|[Minimum Cost to Equalize Arrays Using Swaps.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToEqualizeArraysUsingSwaps.java)|
 |3875|Easy|[Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/description/)|[Construct Uniform Parity Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructUniformParityArrayI.java)|
 |3876|Medium|[Construct Uniform Parity Array II](https://leetcode.com/problems/construct-uniform-parity-array-ii/description/)|[Construct Uniform Parity Array II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructUniformParityArrayII.java)|
+|3884|Easy|[First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/)|[First Matching Character From Both Ends.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstMatchingCharacterFromBothEnds.java)|
 |3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|</p>
 </details>
 
@@ -2525,7 +2526,8 @@ Count of solved tasks: 2196
 |3856|Easy|[Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/description/)|[Trim Trailing Vowels.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TrimTrailingVowels.java)|
 |3861|Easy|[Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/description/)|[Minimum Capacity Box.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCapacityBox.java)|
 |3866|Easy|[First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/description/)|[First Unique Even Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstUniqueEvenElement.java)|
-|3875|Easy|[Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/description/)|[Construct Uniform Parity Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructUniformParityArrayI.java)|</p>
+|3875|Easy|[Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/description/)|[Construct Uniform Parity Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructUniformParityArrayI.java)|
+|3884|Easy|[First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/)|[First Matching Character From Both Ends.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstMatchingCharacterFromBothEnds.java)|</p>
 </details>
 
 <details>
