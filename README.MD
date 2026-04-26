@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2205
+Count of solved tasks: 2206
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -2007,6 +2007,7 @@ Count of solved tasks: 2205
 |3895|Medium|[Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/description/)|[Count Digit Appearances.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDigitAppearances.java)|
 |3896|Medium|[Minimum Operations to Transform Array into Alternating Prime](https://leetcode.com/problems/minimum-operations-to-transform-array-into-alternating-prime/description/)|[Minimum Operations to Transform Array into Alternating Prime.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToTransformArrayIntoAlternatingPrime.java)|
 |3908|Easy|[Valid Digit Number](https://leetcode.com/problems/valid-digit-number/description/)|[Valid Digit Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidDigitNumber.java)|
+|3909|Medium|[Compare Sums of Bitonic Parts](https://leetcode.com/problems/compare-sums-of-bitonic-parts/description/)|[Compare Sums of Bitonic Parts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CompareSumsOfBitonicParts.java)|
 |3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|</p>
 </details>
 
@@ -3504,6 +3505,7 @@ Count of solved tasks: 2205
 |3890|Medium|[Integers With Multiple Sum of Two Cubes](https://leetcode.com/problems/integers-with-multiple-sum-of-two-cubes/description/)|[Integers With Multiple Sum of Two Cubes.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/IntegersWithMultipleSumOfTwoCubes.java)|
 |3895|Medium|[Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/description/)|[Count Digit Appearances.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDigitAppearances.java)|
 |3896|Medium|[Minimum Operations to Transform Array into Alternating Prime](https://leetcode.com/problems/minimum-operations-to-transform-array-into-alternating-prime/description/)|[Minimum Operations to Transform Array into Alternating Prime.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToTransformArrayIntoAlternatingPrime.java)|
+|3909|Medium|[Compare Sums of Bitonic Parts](https://leetcode.com/problems/compare-sums-of-bitonic-parts/description/)|[Compare Sums of Bitonic Parts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CompareSumsOfBitonicParts.java)|
 |3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|</p>
 </details>
 
