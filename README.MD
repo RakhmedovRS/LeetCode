@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2204
+Count of solved tasks: 2205
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -2006,6 +2006,7 @@ Count of solved tasks: 2204
 |3894|Easy|[Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/description/)|[Traffic Signal Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TrafficSignalColor.java)|
 |3895|Medium|[Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/description/)|[Count Digit Appearances.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountDigitAppearances.java)|
 |3896|Medium|[Minimum Operations to Transform Array into Alternating Prime](https://leetcode.com/problems/minimum-operations-to-transform-array-into-alternating-prime/description/)|[Minimum Operations to Transform Array into Alternating Prime.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToTransformArrayIntoAlternatingPrime.java)|
+|3908|Easy|[Valid Digit Number](https://leetcode.com/problems/valid-digit-number/description/)|[Valid Digit Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidDigitNumber.java)|
 |3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|</p>
 </details>
 
@@ -2535,7 +2536,8 @@ Count of solved tasks: 2204
 |3866|Easy|[First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/description/)|[First Unique Even Element.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstUniqueEvenElement.java)|
 |3875|Easy|[Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/description/)|[Construct Uniform Parity Array I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConstructUniformParityArrayI.java)|
 |3884|Easy|[First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/)|[First Matching Character From Both Ends.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstMatchingCharacterFromBothEnds.java)|
-|3894|Easy|[Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/description/)|[Traffic Signal Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TrafficSignalColor.java)|</p>
+|3894|Easy|[Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/description/)|[Traffic Signal Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TrafficSignalColor.java)|
+|3908|Easy|[Valid Digit Number](https://leetcode.com/problems/valid-digit-number/description/)|[Valid Digit Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidDigitNumber.java)|</p>
 </details>
 
 <details>
