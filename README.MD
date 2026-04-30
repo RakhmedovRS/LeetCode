@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2209
+Count of solved tasks: 2210
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -2011,6 +2011,7 @@ Count of solved tasks: 2209
 |3909|Medium|[Compare Sums of Bitonic Parts](https://leetcode.com/problems/compare-sums-of-bitonic-parts/description/)|[Compare Sums of Bitonic Parts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CompareSumsOfBitonicParts.java)|
 |3912|Easy|[Valid Elements in an Array](https://leetcode.com/problems/valid-elements-in-an-array/description/)|[Valid Elements in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidElementsInAnArray.java)|
 |3913|Medium|[Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/description/)|[Sort Vowels by Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortVowelsByFrequency.java)|
+|3914|Medium|[Minimum Operations to Make Array Non Decreasing](https://leetcode.com/problems/minimum-operations-to-make-array-non-decreasing/description/)|[Minimum Operations to Make Array Non Decreasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeArrayNonDecreasing.java)|
 |3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|</p>
 </details>
 
@@ -3512,6 +3513,7 @@ Count of solved tasks: 2209
 |3896|Medium|[Minimum Operations to Transform Array into Alternating Prime](https://leetcode.com/problems/minimum-operations-to-transform-array-into-alternating-prime/description/)|[Minimum Operations to Transform Array into Alternating Prime.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToTransformArrayIntoAlternatingPrime.java)|
 |3909|Medium|[Compare Sums of Bitonic Parts](https://leetcode.com/problems/compare-sums-of-bitonic-parts/description/)|[Compare Sums of Bitonic Parts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CompareSumsOfBitonicParts.java)|
 |3913|Medium|[Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/description/)|[Sort Vowels by Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortVowelsByFrequency.java)|
+|3914|Medium|[Minimum Operations to Make Array Non Decreasing](https://leetcode.com/problems/minimum-operations-to-make-array-non-decreasing/description/)|[Minimum Operations to Make Array Non Decreasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeArrayNonDecreasing.java)|
 |3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|</p>
 </details>
 
