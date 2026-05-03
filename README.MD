@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2210
+Count of solved tasks: 2211
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -2012,6 +2012,7 @@ Count of solved tasks: 2210
 |3912|Easy|[Valid Elements in an Array](https://leetcode.com/problems/valid-elements-in-an-array/description/)|[Valid Elements in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidElementsInAnArray.java)|
 |3913|Medium|[Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/description/)|[Sort Vowels by Frequency.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SortVowelsByFrequency.java)|
 |3914|Medium|[Minimum Operations to Make Array Non Decreasing](https://leetcode.com/problems/minimum-operations-to-make-array-non-decreasing/description/)|[Minimum Operations to Make Array Non Decreasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeArrayNonDecreasing.java)|
+|3917|Easy|[Count Indices With Opposite Parity](https://leetcode.com/problems/count-indices-with-opposite-parity/description/)|[Count Indices With Opposite Parity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIndicesWithOppositeParity.java)|
 |3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|</p>
 </details>
 
@@ -2543,7 +2544,8 @@ Count of solved tasks: 2210
 |3884|Easy|[First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/)|[First Matching Character From Both Ends.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/FirstMatchingCharacterFromBothEnds.java)|
 |3894|Easy|[Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/description/)|[Traffic Signal Color.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TrafficSignalColor.java)|
 |3908|Easy|[Valid Digit Number](https://leetcode.com/problems/valid-digit-number/description/)|[Valid Digit Number.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidDigitNumber.java)|
-|3912|Easy|[Valid Elements in an Array](https://leetcode.com/problems/valid-elements-in-an-array/description/)|[Valid Elements in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidElementsInAnArray.java)|</p>
+|3912|Easy|[Valid Elements in an Array](https://leetcode.com/problems/valid-elements-in-an-array/description/)|[Valid Elements in an Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidElementsInAnArray.java)|
+|3917|Easy|[Count Indices With Opposite Parity](https://leetcode.com/problems/count-indices-with-opposite-parity/description/)|[Count Indices With Opposite Parity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIndicesWithOppositeParity.java)|</p>
 </details>
 
 <details>
