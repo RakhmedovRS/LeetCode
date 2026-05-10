@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2215
+Count of solved tasks: 2216
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -2017,6 +2017,7 @@ Count of solved tasks: 2215
 |3919|Medium|[Minimum Cost to Move Between Indices](https://leetcode.com/problems/minimum-cost-to-move-between-indices/description/)|[Minimum Cost to Move Between Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToMoveBetweenIndices.java)|
 |3921|Easy|[Score Validator](https://leetcode.com/problems/score-validator/description/)|[Score Validator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ScoreValidator.java)|
 |3925|Easy|[Concatenate Array With Reverse](https://leetcode.com/problems/concatenate-array-with-reverse/description/)|[Concatenate Array With Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenateArrayWithReverse.java)|
+|3926|Medium|[Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/description/)|[Count Valid Word Occurrences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountValidWordOccurrences.java)|
 |3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|</p>
 </details>
 
@@ -3524,6 +3525,7 @@ Count of solved tasks: 2215
 |3914|Medium|[Minimum Operations to Make Array Non Decreasing](https://leetcode.com/problems/minimum-operations-to-make-array-non-decreasing/description/)|[Minimum Operations to Make Array Non Decreasing.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeArrayNonDecreasing.java)|
 |3918|Medium|[Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/description/)|[Sum of Primes Between Number and Its Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfPrimesBetweenNumberAndItsReverse.java)|
 |3919|Medium|[Minimum Cost to Move Between Indices](https://leetcode.com/problems/minimum-cost-to-move-between-indices/description/)|[Minimum Cost to Move Between Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToMoveBetweenIndices.java)|
+|3926|Medium|[Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/description/)|[Count Valid Word Occurrences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountValidWordOccurrences.java)|
 |3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|</p>
 </details>
 
