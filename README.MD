@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2218
+Count of solved tasks: 2219
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -2020,6 +2020,7 @@ Count of solved tasks: 2218
 |3926|Medium|[Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/description/)|[Count Valid Word Occurrences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountValidWordOccurrences.java)|
 |3927|Medium|[Minimize Array Sum Using Divisible Replacements](https://leetcode.com/problems/minimize-array-sum-using-divisible-replacements/description/)|[Minimize Array Sum Using Divisible Replacements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeArraySumUsingDivisibleReplacements.java)|
 |3940|Easy|[Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/description/)|[Limit Occurrences in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LimitOccurrencesInSortedArray.java)|
+|3941|Medium|[Password Strength](https://leetcode.com/problems/password-strength/description/)|[Password Strength.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PasswordStrength.java)|
 |3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|</p>
 </details>
 
@@ -3530,6 +3531,7 @@ Count of solved tasks: 2218
 |3919|Medium|[Minimum Cost to Move Between Indices](https://leetcode.com/problems/minimum-cost-to-move-between-indices/description/)|[Minimum Cost to Move Between Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToMoveBetweenIndices.java)|
 |3926|Medium|[Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/description/)|[Count Valid Word Occurrences.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountValidWordOccurrences.java)|
 |3927|Medium|[Minimize Array Sum Using Divisible Replacements](https://leetcode.com/problems/minimize-array-sum-using-divisible-replacements/description/)|[Minimize Array Sum Using Divisible Replacements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeArraySumUsingDivisibleReplacements.java)|
+|3941|Medium|[Password Strength](https://leetcode.com/problems/password-strength/description/)|[Password Strength.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PasswordStrength.java)|
 |3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|</p>
 </details>
 
