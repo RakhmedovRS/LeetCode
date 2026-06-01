@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2221
+Count of solved tasks: 2222
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -2023,6 +2023,7 @@ Count of solved tasks: 2221
 |3941|Medium|[Password Strength](https://leetcode.com/problems/password-strength/description/)|[Password Strength.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PasswordStrength.java)|
 |3942|Medium|[Minimum Operations to Sort a Permutation](https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/description/)|[Minimum Operations to Sort a Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToSortPermutation.java)|
 |3945|Easy|[Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/description/)|[Digit Frequency Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DigitFrequencyScore.java)|
+|3946|Medium|[Maximum Number of Items From Sale I](https://leetcode.com/problems/maximum-number-of-items-from-sale-i/description/)|[Maximum Number of Items From Sale I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfItemsFromSaleI.java)|
 |3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|</p>
 </details>
 
@@ -3536,6 +3537,7 @@ Count of solved tasks: 2221
 |3927|Medium|[Minimize Array Sum Using Divisible Replacements](https://leetcode.com/problems/minimize-array-sum-using-divisible-replacements/description/)|[Minimize Array Sum Using Divisible Replacements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimizeArraySumUsingDivisibleReplacements.java)|
 |3941|Medium|[Password Strength](https://leetcode.com/problems/password-strength/description/)|[Password Strength.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PasswordStrength.java)|
 |3942|Medium|[Minimum Operations to Sort a Permutation](https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/description/)|[Minimum Operations to Sort a Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToSortPermutation.java)|
+|3946|Medium|[Maximum Number of Items From Sale I](https://leetcode.com/problems/maximum-number-of-items-from-sale-i/description/)|[Maximum Number of Items From Sale I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfItemsFromSaleI.java)|
 |3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|</p>
 </details>
 
