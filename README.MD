@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2220
+Count of solved tasks: 2221
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -2022,6 +2022,7 @@ Count of solved tasks: 2220
 |3940|Easy|[Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/description/)|[Limit Occurrences in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LimitOccurrencesInSortedArray.java)|
 |3941|Medium|[Password Strength](https://leetcode.com/problems/password-strength/description/)|[Password Strength.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PasswordStrength.java)|
 |3942|Medium|[Minimum Operations to Sort a Permutation](https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/description/)|[Minimum Operations to Sort a Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToSortPermutation.java)|
+|3945|Easy|[Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/description/)|[Digit Frequency Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DigitFrequencyScore.java)|
 |3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|</p>
 </details>
 
@@ -2557,7 +2558,8 @@ Count of solved tasks: 2220
 |3917|Easy|[Count Indices With Opposite Parity](https://leetcode.com/problems/count-indices-with-opposite-parity/description/)|[Count Indices With Opposite Parity.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIndicesWithOppositeParity.java)|
 |3921|Easy|[Score Validator](https://leetcode.com/problems/score-validator/description/)|[Score Validator.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ScoreValidator.java)|
 |3925|Easy|[Concatenate Array With Reverse](https://leetcode.com/problems/concatenate-array-with-reverse/description/)|[Concatenate Array With Reverse.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ConcatenateArrayWithReverse.java)|
-|3940|Easy|[Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/description/)|[Limit Occurrences in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LimitOccurrencesInSortedArray.java)|</p>
+|3940|Easy|[Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/description/)|[Limit Occurrences in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LimitOccurrencesInSortedArray.java)|
+|3945|Easy|[Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/description/)|[Digit Frequency Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DigitFrequencyScore.java)|</p>
 </details>
 
 <details>
