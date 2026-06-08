@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2223
+Count of solved tasks: 2224
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -2025,6 +2025,7 @@ Count of solved tasks: 2223
 |3945|Easy|[Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/description/)|[Digit Frequency Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DigitFrequencyScore.java)|
 |3946|Medium|[Maximum Number of Items From Sale I](https://leetcode.com/problems/maximum-number-of-items-from-sale-i/description/)|[Maximum Number of Items From Sale I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfItemsFromSaleI.java)|
 |3950|Easy|[Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/description/)|[Exactly One Consecutive Set Bits Pair.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExactlyOneConsecutiveSetBitsPair.java)|
+|3951|Medium|[Minimum Energy to Maintain Brightness](https://leetcode.com/problems/minimum-energy-to-maintain-brightness/description/)|[Minimum Energy to Maintain Brightness.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumEnergyToMaintainBrightness.java)|
 |3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|</p>
 </details>
 
@@ -3540,6 +3541,7 @@ Count of solved tasks: 2223
 |3941|Medium|[Password Strength](https://leetcode.com/problems/password-strength/description/)|[Password Strength.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PasswordStrength.java)|
 |3942|Medium|[Minimum Operations to Sort a Permutation](https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/description/)|[Minimum Operations to Sort a Permutation.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToSortPermutation.java)|
 |3946|Medium|[Maximum Number of Items From Sale I](https://leetcode.com/problems/maximum-number-of-items-from-sale-i/description/)|[Maximum Number of Items From Sale I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumNumberOfItemsFromSaleI.java)|
+|3951|Medium|[Minimum Energy to Maintain Brightness](https://leetcode.com/problems/minimum-energy-to-maintain-brightness/description/)|[Minimum Energy to Maintain Brightness.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumEnergyToMaintainBrightness.java)|
 |3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|</p>
 </details>
 
