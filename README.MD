@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2227
+Count of solved tasks: 2228
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -2029,7 +2029,8 @@ Count of solved tasks: 2227
 |3952|Medium|[Maximum Total Value of Covered Indices](https://leetcode.com/problems/maximum-total-value-of-covered-indices/description/)|[Maximum Total Value of Covered Indices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumTotalValueOfCoveredIndices.java)|
 |3954|Easy|[Sum of Compatible Numbers in Range I](https://leetcode.com/problems/sum-of-compatible-numbers-in-range-i/description/)|[Sum of Compatible Numbers in Range I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfCompatibleNumbersInRangeI.java)|
 |3955|Medium|[Valid Binary Strings With Cost Limit](https://leetcode.com/problems/valid-binary-strings-with-cost-limit/description/)|[Valid Binary Strings With Cost Limit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidBinaryStringsWithCostLimit.java)|
-|3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|</p>
+|3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|
+|3986|Easy|[Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/description/)|[Number of Elapsed Seconds Between Two Times.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfElapsedSecondsBetweenTwoTimes.java)|</p>
 </details>
 
 <details>
@@ -2567,7 +2568,8 @@ Count of solved tasks: 2227
 |3940|Easy|[Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/description/)|[Limit Occurrences in Sorted Array.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LimitOccurrencesInSortedArray.java)|
 |3945|Easy|[Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/description/)|[Digit Frequency Score.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DigitFrequencyScore.java)|
 |3950|Easy|[Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/description/)|[Exactly One Consecutive Set Bits Pair.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ExactlyOneConsecutiveSetBitsPair.java)|
-|3954|Easy|[Sum of Compatible Numbers in Range I](https://leetcode.com/problems/sum-of-compatible-numbers-in-range-i/description/)|[Sum of Compatible Numbers in Range I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfCompatibleNumbersInRangeI.java)|</p>
+|3954|Easy|[Sum of Compatible Numbers in Range I](https://leetcode.com/problems/sum-of-compatible-numbers-in-range-i/description/)|[Sum of Compatible Numbers in Range I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfCompatibleNumbersInRangeI.java)|
+|3986|Easy|[Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/description/)|[Number of Elapsed Seconds Between Two Times.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfElapsedSecondsBetweenTwoTimes.java)|</p>
 </details>
 
 <details>
