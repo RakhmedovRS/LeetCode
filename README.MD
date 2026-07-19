@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2229
+Count of solved tasks: 2230
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -2031,7 +2031,8 @@ Count of solved tasks: 2229
 |3955|Medium|[Valid Binary Strings With Cost Limit](https://leetcode.com/problems/valid-binary-strings-with-cost-limit/description/)|[Valid Binary Strings With Cost Limit.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ValidBinaryStringsWithCostLimit.java)|
 |3977|Medium|[Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/description/)|[Minimum Removals to Achieve Target XOR.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRemovalsToAchieveTargetXOR.java)|
 |3986|Easy|[Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/description/)|[Number of Elapsed Seconds Between Two Times.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfElapsedSecondsBetweenTwoTimes.java)|
-|3987|Medium|[Minimum Total Cost to Process All Elements](https://leetcode.com/problems/minimum-total-cost-to-process-all-elements/description/)|[Minimum Total Cost to Process All Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTotalCostToProcessAllElements.java)|</p>
+|3987|Medium|[Minimum Total Cost to Process All Elements](https://leetcode.com/problems/minimum-total-cost-to-process-all-elements/description/)|[Minimum Total Cost to Process All Elements.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTotalCostToProcessAllElements.java)|
+|3989|Hard|[Maximum Consistent Columns in a Grid](https://leetcode.com/problems/maximum-consistent-columns-in-a-grid/description/)|[Maximum Consistent Columns in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumConsistentColumnsInGrid.java)|</p>
 </details>
 
 <details>
@@ -3678,7 +3679,8 @@ Count of solved tasks: 2229
 |3298|Hard|[Count Substrings That Can Be Rearranged to Contain a String II](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/description/)|[Count Substrings That Can Be Rearranged to Contain a String II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubstringsThatCanBeRearrangedToContainStringII.java)|
 |3620|Hard|[Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/description/)|[Network Recovery Pathways.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NetworkRecoveryPathways.java)|
 |3836|Hard|[Maximum Score Using Exactly K Pairs](https://leetcode.com/problems/maximum-score-using-exactly-k-pairs/description/)|[Maximum Score Using Exactly K Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumScoreUsingExactlyKPairs.java)|
-|3864|Hard|[Minimum Cost to Partition a Binary String](https://leetcode.com/problems/minimum-cost-to-partition-a-binary-string/description/)|[Minimum Cost to Partition a Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToPartitionBinaryString.java)|</p>
+|3864|Hard|[Minimum Cost to Partition a Binary String](https://leetcode.com/problems/minimum-cost-to-partition-a-binary-string/description/)|[Minimum Cost to Partition a Binary String.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostToPartitionBinaryString.java)|
+|3989|Hard|[Maximum Consistent Columns in a Grid](https://leetcode.com/problems/maximum-consistent-columns-in-a-grid/description/)|[Maximum Consistent Columns in a Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumConsistentColumnsInGrid.java)|</p>
 </details>
 
 <details>
