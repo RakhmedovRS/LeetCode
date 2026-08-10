@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2239
+Count of solved tasks: 2240
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -2041,7 +2041,8 @@ Count of solved tasks: 2239
 |4003|Hard|[Minimum Cost Path with Alternating Directions III](https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-iii/description/)|[Minimum Cost Path with Alternating Directions III.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostPathWithAlternatingDirectionsIII.java)|
 |4010|Easy|[Maximize Pair Strength Using GCD](https://leetcode.com/problems/maximize-pair-strength-using-gcd/description/)|[Maximize Pair Strength Using GCD.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizePairStrengthUsingGCD.java)|
 |4011|Medium|[Count Subarrays With Even Odd Ratio I](https://leetcode.com/problems/count-subarrays-with-even-odd-ratio-i/description/)|[Count Subarrays With Even Odd Ratio I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubarraysWithEvenOddRatioI.java)|
-|4012|Medium|[Count of Unfinished Tasks After Each Shift](https://leetcode.com/problems/count-of-unfinished-tasks-after-each-shift/description/)|[Count of Unfinished Tasks After Each Shift.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountOfUnfinishedTasksAfterEachShift.java)|</p>
+|4012|Medium|[Count of Unfinished Tasks After Each Shift](https://leetcode.com/problems/count-of-unfinished-tasks-after-each-shift/description/)|[Count of Unfinished Tasks After Each Shift.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountOfUnfinishedTasksAfterEachShift.java)|
+|4014|Medium|[Minimum Total Price After Applying Discounts](https://leetcode.com/problems/minimum-total-price-after-applying-discounts/description/)|[Minimum Total Price After Applying Discounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTotalPriceAfterApplyingDiscounts.java)|</p>
 </details>
 
 <details>
@@ -3570,7 +3571,8 @@ Count of solved tasks: 2239
 |3998|Medium|[Transform Binary String Using Subsequence Sort](https://leetcode.com/problems/transform-binary-string-using-subsequence-sort/description/)|[Transform Binary String Using Subsequence Sort.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/TransformBinaryStringUsingSubsequenceSort.java)|
 |4001|Medium|[Aggregate Two Time Series](https://leetcode.com/problems/aggregate-two-time-series/description/)|[Aggregate Two Time Series.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/AggregateTwoTimeSeries.java)|
 |4011|Medium|[Count Subarrays With Even Odd Ratio I](https://leetcode.com/problems/count-subarrays-with-even-odd-ratio-i/description/)|[Count Subarrays With Even Odd Ratio I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountSubarraysWithEvenOddRatioI.java)|
-|4012|Medium|[Count of Unfinished Tasks After Each Shift](https://leetcode.com/problems/count-of-unfinished-tasks-after-each-shift/description/)|[Count of Unfinished Tasks After Each Shift.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountOfUnfinishedTasksAfterEachShift.java)|</p>
+|4012|Medium|[Count of Unfinished Tasks After Each Shift](https://leetcode.com/problems/count-of-unfinished-tasks-after-each-shift/description/)|[Count of Unfinished Tasks After Each Shift.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountOfUnfinishedTasksAfterEachShift.java)|
+|4014|Medium|[Minimum Total Price After Applying Discounts](https://leetcode.com/problems/minimum-total-price-after-applying-discounts/description/)|[Minimum Total Price After Applying Discounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTotalPriceAfterApplyingDiscounts.java)|</p>
 </details>
 
 <details>
