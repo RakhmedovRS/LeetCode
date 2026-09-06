@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2244
+Count of solved tasks: 2245
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -2046,7 +2046,8 @@ Count of solved tasks: 2244
 |4015|Medium|[Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/description/)|[Weighted Sum of a Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WeightedSumOfTree.java)|
 |4016|Medium|[Maximum Area of Two Non-Overlapping Square Submatrices](https://leetcode.com/problems/maximum-area-of-two-non-overlapping-square-submatrices/description/)|[Maximum Area of Two Non-Overlapping Square Submatrices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAreaOfTwoNonOverlappingSquareSubmatrices.java)|
 |4038|Easy|[Count Integers Appearing in a Single Block](https://leetcode.com/problems/count-integers-appearing-in-a-single-block/description/)|[Count Integers Appearing in a Single Block.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIntegersAppearingInSingleBlock.java)|
-|4039|Medium|[Sum of Decoded Numbers](https://leetcode.com/problems/sum-of-decoded-numbers/description/)|[Sum of Decoded Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDecodedNumbers.java)|</p>
+|4039|Medium|[Sum of Decoded Numbers](https://leetcode.com/problems/sum-of-decoded-numbers/description/)|[Sum of Decoded Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDecodedNumbers.java)|
+|4040|Medium|[Minimum Operations to Form Subset Sum I](https://leetcode.com/problems/minimum-operations-to-form-subset-sum-i/description/)|[Minimum Operations to Form Subset Sum I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToFormSubsetSumI.java)|</p>
 </details>
 
 <details>
@@ -3580,7 +3581,8 @@ Count of solved tasks: 2244
 |4014|Medium|[Minimum Total Price After Applying Discounts](https://leetcode.com/problems/minimum-total-price-after-applying-discounts/description/)|[Minimum Total Price After Applying Discounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTotalPriceAfterApplyingDiscounts.java)|
 |4015|Medium|[Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/description/)|[Weighted Sum of a Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WeightedSumOfTree.java)|
 |4016|Medium|[Maximum Area of Two Non-Overlapping Square Submatrices](https://leetcode.com/problems/maximum-area-of-two-non-overlapping-square-submatrices/description/)|[Maximum Area of Two Non-Overlapping Square Submatrices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAreaOfTwoNonOverlappingSquareSubmatrices.java)|
-|4039|Medium|[Sum of Decoded Numbers](https://leetcode.com/problems/sum-of-decoded-numbers/description/)|[Sum of Decoded Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDecodedNumbers.java)|</p>
+|4039|Medium|[Sum of Decoded Numbers](https://leetcode.com/problems/sum-of-decoded-numbers/description/)|[Sum of Decoded Numbers.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/SumOfDecodedNumbers.java)|
+|4040|Medium|[Minimum Operations to Form Subset Sum I](https://leetcode.com/problems/minimum-operations-to-form-subset-sum-i/description/)|[Minimum Operations to Form Subset Sum I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToFormSubsetSumI.java)|</p>
 </details>
 
 <details>
