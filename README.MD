@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2242
+Count of solved tasks: 2243
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -2044,7 +2044,8 @@ Count of solved tasks: 2242
 |4012|Medium|[Count of Unfinished Tasks After Each Shift](https://leetcode.com/problems/count-of-unfinished-tasks-after-each-shift/description/)|[Count of Unfinished Tasks After Each Shift.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountOfUnfinishedTasksAfterEachShift.java)|
 |4014|Medium|[Minimum Total Price After Applying Discounts](https://leetcode.com/problems/minimum-total-price-after-applying-discounts/description/)|[Minimum Total Price After Applying Discounts.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumTotalPriceAfterApplyingDiscounts.java)|
 |4015|Medium|[Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/description/)|[Weighted Sum of a Tree.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/WeightedSumOfTree.java)|
-|4016|Medium|[Maximum Area of Two Non-Overlapping Square Submatrices](https://leetcode.com/problems/maximum-area-of-two-non-overlapping-square-submatrices/description/)|[Maximum Area of Two Non-Overlapping Square Submatrices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAreaOfTwoNonOverlappingSquareSubmatrices.java)|</p>
+|4016|Medium|[Maximum Area of Two Non-Overlapping Square Submatrices](https://leetcode.com/problems/maximum-area-of-two-non-overlapping-square-submatrices/description/)|[Maximum Area of Two Non-Overlapping Square Submatrices.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumAreaOfTwoNonOverlappingSquareSubmatrices.java)|
+|4038|Easy|[Count Integers Appearing in a Single Block](https://leetcode.com/problems/count-integers-appearing-in-a-single-block/description/)|[Count Integers Appearing in a Single Block.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIntegersAppearingInSingleBlock.java)|</p>
 </details>
 
 <details>
@@ -2586,7 +2587,8 @@ Count of solved tasks: 2242
 |3986|Easy|[Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/description/)|[Number of Elapsed Seconds Between Two Times.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/NumberOfElapsedSecondsBetweenTwoTimes.java)|
 |3996|Easy|[Even Number of Knight Moves](https://leetcode.com/problems/even-number-of-knight-moves/description/)|[Even Number of Knight Moves.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/EvenNumberOfKnightMoves.java)|
 |4000|Easy|[Largest Integer With Given Digit Sum](https://leetcode.com/problems/largest-integer-with-given-digit-sum/description/)|[Largest Integer With Given Digit Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LargestIntegerWithGivenDigitSum.java)|
-|4010|Easy|[Maximize Pair Strength Using GCD](https://leetcode.com/problems/maximize-pair-strength-using-gcd/description/)|[Maximize Pair Strength Using GCD.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizePairStrengthUsingGCD.java)|</p>
+|4010|Easy|[Maximize Pair Strength Using GCD](https://leetcode.com/problems/maximize-pair-strength-using-gcd/description/)|[Maximize Pair Strength Using GCD.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximizePairStrengthUsingGCD.java)|
+|4038|Easy|[Count Integers Appearing in a Single Block](https://leetcode.com/problems/count-integers-appearing-in-a-single-block/description/)|[Count Integers Appearing in a Single Block.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIntegersAppearingInSingleBlock.java)|</p>
 </details>
 
 <details>
