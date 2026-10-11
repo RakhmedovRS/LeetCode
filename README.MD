@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2254
+Count of solved tasks: 2255
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -2056,7 +2056,8 @@ Count of solved tasks: 2254
 |4052|Easy|[Cyclically Shift Rows and Columns](https://leetcode.com/problems/cyclically-shift-rows-and-columns/description/)|[Cyclically Shift Rows and Columns.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CyclicallyShiftRowsAndColumns.java)|
 |4053|Medium|[Minimum Operations to Make Every Element Palindromic](https://leetcode.com/problems/minimum-operations-to-make-every-element-palindromic/description/)|[Minimum Operations to Make Every Element Palindromic.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeEveryElementPalindromic.java)|
 |4065|Easy|[Rearrange Array by Removing Distinct Values](https://leetcode.com/problems/rearrange-array-by-removing-distinct-values/description/)|[Rearrange Array by Removing Distinct Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeArrayByRemovingDistinctValues.java)|
-|4066|Medium|[Maximum Equal Adjacent Pairs After at Most One](https://leetcode.com/problems/maximum-equal-adjacent-pairs-after-at-most-one-replacement/description/)|[Maximum Equal Adjacent Pairs After at Most One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEqualAdjacentPairsAfterAtMostOne.java)|</p>
+|4066|Medium|[Maximum Equal Adjacent Pairs After at Most One](https://leetcode.com/problems/maximum-equal-adjacent-pairs-after-at-most-one-replacement/description/)|[Maximum Equal Adjacent Pairs After at Most One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEqualAdjacentPairsAfterAtMostOne.java)|
+|4067|Medium|[Longest Subarray With Restricted Pair Sums](https://leetcode.com/problems/longest-subarray-with-restricted-pair-sums/description/)|[Longest Subarray With Restricted Pair Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubarrayWithRestrictedPairSums.java)|</p>
 </details>
 
 <details>
@@ -3599,7 +3600,8 @@ Count of solved tasks: 2254
 |4045|Medium|[Count Robot Groups](https://leetcode.com/problems/count-robot-groups/description/)|[Count Robot Groups.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountRobotGroups.java)|
 |4046|Medium|[Minimum Cost Path With At Most K Turns](https://leetcode.com/problems/minimum-cost-path-with-at-most-k-turns/description/)|[Minimum Cost Path With At Most K Turns.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostPathWithAtMostKTurns.java)|
 |4053|Medium|[Minimum Operations to Make Every Element Palindromic](https://leetcode.com/problems/minimum-operations-to-make-every-element-palindromic/description/)|[Minimum Operations to Make Every Element Palindromic.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeEveryElementPalindromic.java)|
-|4066|Medium|[Maximum Equal Adjacent Pairs After at Most One](https://leetcode.com/problems/maximum-equal-adjacent-pairs-after-at-most-one-replacement/description/)|[Maximum Equal Adjacent Pairs After at Most One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEqualAdjacentPairsAfterAtMostOne.java)|</p>
+|4066|Medium|[Maximum Equal Adjacent Pairs After at Most One](https://leetcode.com/problems/maximum-equal-adjacent-pairs-after-at-most-one-replacement/description/)|[Maximum Equal Adjacent Pairs After at Most One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEqualAdjacentPairsAfterAtMostOne.java)|
+|4067|Medium|[Longest Subarray With Restricted Pair Sums](https://leetcode.com/problems/longest-subarray-with-restricted-pair-sums/description/)|[Longest Subarray With Restricted Pair Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubarrayWithRestrictedPairSums.java)|</p>
 </details>
 
 <details>
