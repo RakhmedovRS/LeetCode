@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2256
+Count of solved tasks: 2257
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -2058,7 +2058,8 @@ Count of solved tasks: 2256
 |4065|Easy|[Rearrange Array by Removing Distinct Values](https://leetcode.com/problems/rearrange-array-by-removing-distinct-values/description/)|[Rearrange Array by Removing Distinct Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeArrayByRemovingDistinctValues.java)|
 |4066|Medium|[Maximum Equal Adjacent Pairs After at Most One](https://leetcode.com/problems/maximum-equal-adjacent-pairs-after-at-most-one-replacement/description/)|[Maximum Equal Adjacent Pairs After at Most One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEqualAdjacentPairsAfterAtMostOne.java)|
 |4067|Medium|[Longest Subarray With Restricted Pair Sums](https://leetcode.com/problems/longest-subarray-with-restricted-pair-sums/description/)|[Longest Subarray With Restricted Pair Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubarrayWithRestrictedPairSums.java)|
-|4070|Easy|[Minimum Rotations to Dial a Number I](https://leetcode.com/problems/minimum-rotations-to-dial-a-number-i/description/)|[Minimum Rotations to Dial a Number I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRotationsToDialNumberI.java)|</p>
+|4070|Easy|[Minimum Rotations to Dial a Number I](https://leetcode.com/problems/minimum-rotations-to-dial-a-number-i/description/)|[Minimum Rotations to Dial a Number I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRotationsToDialNumberI.java)|
+|4071|Medium|[Minimum Rotations to Dial a Number II](https://leetcode.com/problems/minimum-rotations-to-dial-a-number-ii/description/)|[Minimum Rotations to Dial a Number II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRotationsToDialNumberII.java)|</p>
 </details>
 
 <details>
@@ -3603,7 +3604,8 @@ Count of solved tasks: 2256
 |4046|Medium|[Minimum Cost Path With At Most K Turns](https://leetcode.com/problems/minimum-cost-path-with-at-most-k-turns/description/)|[Minimum Cost Path With At Most K Turns.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumCostPathWithAtMostKTurns.java)|
 |4053|Medium|[Minimum Operations to Make Every Element Palindromic](https://leetcode.com/problems/minimum-operations-to-make-every-element-palindromic/description/)|[Minimum Operations to Make Every Element Palindromic.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeEveryElementPalindromic.java)|
 |4066|Medium|[Maximum Equal Adjacent Pairs After at Most One](https://leetcode.com/problems/maximum-equal-adjacent-pairs-after-at-most-one-replacement/description/)|[Maximum Equal Adjacent Pairs After at Most One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEqualAdjacentPairsAfterAtMostOne.java)|
-|4067|Medium|[Longest Subarray With Restricted Pair Sums](https://leetcode.com/problems/longest-subarray-with-restricted-pair-sums/description/)|[Longest Subarray With Restricted Pair Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubarrayWithRestrictedPairSums.java)|</p>
+|4067|Medium|[Longest Subarray With Restricted Pair Sums](https://leetcode.com/problems/longest-subarray-with-restricted-pair-sums/description/)|[Longest Subarray With Restricted Pair Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubarrayWithRestrictedPairSums.java)|
+|4071|Medium|[Minimum Rotations to Dial a Number II](https://leetcode.com/problems/minimum-rotations-to-dial-a-number-ii/description/)|[Minimum Rotations to Dial a Number II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRotationsToDialNumberII.java)|</p>
 </details>
 
 <details>
