@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2255
+Count of solved tasks: 2256
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -2057,7 +2057,8 @@ Count of solved tasks: 2255
 |4053|Medium|[Minimum Operations to Make Every Element Palindromic](https://leetcode.com/problems/minimum-operations-to-make-every-element-palindromic/description/)|[Minimum Operations to Make Every Element Palindromic.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumOperationsToMakeEveryElementPalindromic.java)|
 |4065|Easy|[Rearrange Array by Removing Distinct Values](https://leetcode.com/problems/rearrange-array-by-removing-distinct-values/description/)|[Rearrange Array by Removing Distinct Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeArrayByRemovingDistinctValues.java)|
 |4066|Medium|[Maximum Equal Adjacent Pairs After at Most One](https://leetcode.com/problems/maximum-equal-adjacent-pairs-after-at-most-one-replacement/description/)|[Maximum Equal Adjacent Pairs After at Most One.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MaximumEqualAdjacentPairsAfterAtMostOne.java)|
-|4067|Medium|[Longest Subarray With Restricted Pair Sums](https://leetcode.com/problems/longest-subarray-with-restricted-pair-sums/description/)|[Longest Subarray With Restricted Pair Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubarrayWithRestrictedPairSums.java)|</p>
+|4067|Medium|[Longest Subarray With Restricted Pair Sums](https://leetcode.com/problems/longest-subarray-with-restricted-pair-sums/description/)|[Longest Subarray With Restricted Pair Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubarrayWithRestrictedPairSums.java)|
+|4070|Easy|[Minimum Rotations to Dial a Number I](https://leetcode.com/problems/minimum-rotations-to-dial-a-number-i/description/)|[Minimum Rotations to Dial a Number I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRotationsToDialNumberI.java)|</p>
 </details>
 
 <details>
@@ -2603,7 +2604,8 @@ Count of solved tasks: 2255
 |4038|Easy|[Count Integers Appearing in a Single Block](https://leetcode.com/problems/count-integers-appearing-in-a-single-block/description/)|[Count Integers Appearing in a Single Block.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountIntegersAppearingInSingleBlock.java)|
 |4043|Easy|[Count Rotations With Exactly K Equal Adjacent Pairs](https://leetcode.com/problems/count-rotations-with-exactly-k-equal-adjacent-pairs/description/)|[Count Rotations With Exactly K Equal Adjacent Pairs.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CountRotationsWithExactlyKEqualAdjacentPairs.java)|
 |4052|Easy|[Cyclically Shift Rows and Columns](https://leetcode.com/problems/cyclically-shift-rows-and-columns/description/)|[Cyclically Shift Rows and Columns.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/CyclicallyShiftRowsAndColumns.java)|
-|4065|Easy|[Rearrange Array by Removing Distinct Values](https://leetcode.com/problems/rearrange-array-by-removing-distinct-values/description/)|[Rearrange Array by Removing Distinct Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeArrayByRemovingDistinctValues.java)|</p>
+|4065|Easy|[Rearrange Array by Removing Distinct Values](https://leetcode.com/problems/rearrange-array-by-removing-distinct-values/description/)|[Rearrange Array by Removing Distinct Values.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/RearrangeArrayByRemovingDistinctValues.java)|
+|4070|Easy|[Minimum Rotations to Dial a Number I](https://leetcode.com/problems/minimum-rotations-to-dial-a-number-i/description/)|[Minimum Rotations to Dial a Number I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRotationsToDialNumberI.java)|</p>
 </details>
 
 <details>
