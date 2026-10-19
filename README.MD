@@ -1,6 +1,6 @@
 ![Logo](https://github.com/RakhmedovRS/LeetCode/blob/master/src/main/resources/LeetCodeLogo.png)
 ### This file was created automatically by [Collector.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/common/Collector.java)
-Count of solved tasks: 2261
+Count of solved tasks: 2262
 <details>
 <summary>Table of all solved non-premium tasks</summary>
 <p>
@@ -2063,7 +2063,8 @@ Count of solved tasks: 2261
 |4078|Easy|[Three Fibonacci Sum](https://leetcode.com/problems/three-fibonacci-sum/description/)|[Three Fibonacci Sum.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/ThreeFibonacciSum.java)|
 |4079|Medium|[Prime Subset Selection I](https://leetcode.com/problems/prime-subset-selection-i/description/)|[Prime Subset Selection I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimeSubsetSelectionI.java)|
 |4080|Medium|[Design Bus Seat Booking System](https://leetcode.com/problems/design-bus-seat-booking-system/description/)|[Design Bus Seat Booking System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignBusSeatBookingSystem.java)|
-|4083|Easy|[Minimum Deletions to Make Array Sharp](https://leetcode.com/problems/minimum-deletions-to-make-array-sharp/description/)|[Minimum Deletions to Make Array Sharp.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeArraySharp.java)|</p>
+|4083|Easy|[Minimum Deletions to Make Array Sharp](https://leetcode.com/problems/minimum-deletions-to-make-array-sharp/description/)|[Minimum Deletions to Make Array Sharp.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumDeletionsToMakeArraySharp.java)|
+|4084|Medium|[Last Visited Cell in a Directional Grid](https://leetcode.com/problems/last-visited-cell-in-a-directional-grid/description/)|[Last Visited Cell in a Directional Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LastVisitedCellInDirectionalGrid.java)|</p>
 </details>
 
 <details>
@@ -3613,7 +3614,8 @@ Count of solved tasks: 2261
 |4067|Medium|[Longest Subarray With Restricted Pair Sums](https://leetcode.com/problems/longest-subarray-with-restricted-pair-sums/description/)|[Longest Subarray With Restricted Pair Sums.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LongestSubarrayWithRestrictedPairSums.java)|
 |4071|Medium|[Minimum Rotations to Dial a Number II](https://leetcode.com/problems/minimum-rotations-to-dial-a-number-ii/description/)|[Minimum Rotations to Dial a Number II.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/MinimumRotationsToDialNumberII.java)|
 |4079|Medium|[Prime Subset Selection I](https://leetcode.com/problems/prime-subset-selection-i/description/)|[Prime Subset Selection I.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/PrimeSubsetSelectionI.java)|
-|4080|Medium|[Design Bus Seat Booking System](https://leetcode.com/problems/design-bus-seat-booking-system/description/)|[Design Bus Seat Booking System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignBusSeatBookingSystem.java)|</p>
+|4080|Medium|[Design Bus Seat Booking System](https://leetcode.com/problems/design-bus-seat-booking-system/description/)|[Design Bus Seat Booking System.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/DesignBusSeatBookingSystem.java)|
+|4084|Medium|[Last Visited Cell in a Directional Grid](https://leetcode.com/problems/last-visited-cell-in-a-directional-grid/description/)|[Last Visited Cell in a Directional Grid.java](https://github.com/RakhmedovRS/LeetCode/tree/master/src/main/java/tasks/LastVisitedCellInDirectionalGrid.java)|</p>
 </details>
 
 <details>
